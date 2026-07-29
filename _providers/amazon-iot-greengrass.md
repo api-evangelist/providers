@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,8 +45,19 @@ apis:
 - description: The Tags API from Amazon IoT Greengrass — 2 operation(s) for tags.
   name: Amazon IoT Greengrass Tags API
   slug: amazon-iot-greengrass-tags-api
-artifact_total: 440
+artifact_total: 442
+collections:
+- collection_type: postman
+  name: AWS IoT V2 Greengrass API
+  slug: postman-amazon-iot-greengrass-greengrass-api
+- collection_type: postman
+  name: AWS IoT V2 Greengrass Tags API
+  slug: postman-amazon-iot-greengrass-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-iot-greengrass/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1423,12 +1436,12 @@ overview: 'Amazon IoT Greengrass publishes 2 APIs on the [APIs.io](https://apis.
   The Amazon IoT Greengrass catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IoT Greengrass'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon IoT Greengrass'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Iot Greengrass Plans Pricing
   plan_count: 3
   slug: amazon-iot-greengrass-plans-pricing
-random_paper: 33
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Greengrass Rate Limits
@@ -1452,18 +1465,25 @@ rules:
   slug: amazon-iot-greengrass-spectral-rules
 score:
   band: strong
-  composite: 67.7
-  delta: 0.0
+  composite: 64.4
+  delta: -3.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 66.4
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 68.0
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/screenshots/amazon-iot-greengrass-2026-06-20T171714.png
 security:

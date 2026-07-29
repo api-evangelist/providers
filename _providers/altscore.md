@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 35.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Alternative-data aggregation for credit underwriting and scoring. Aggregates over 50 data sources into on-demand data requests that feed borrower enrichment and decisioning.
@@ -179,7 +181,7 @@ overview: 'AltScore publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   AltScore''s developer surface includes documentation, API reference, engineering blog, support, CLI, authentication, sandbox, and 22 more developer resources.'
-random_paper: 45
+random_paper: 14
 scopes:
 - name: Altscore Scopes
   scope_count: 3
@@ -187,23 +189,28 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 51.1
+  delta: 3.4
   facets:
     commercial_clarity: 36.8
-    contract_quality: 22.6
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 13.2
   previous_composite: 47.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 71.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altscore/refs/heads/main/screenshots/altscore-2026-07-25T195844.png
 security:

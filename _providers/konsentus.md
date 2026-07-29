@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 49.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,27 +187,35 @@ overview: 'Konsentus publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Konsentus'' developer surface includes authentication, developer portal, documentation, getting-started guide, release notes, support, FAQ, and 20 more developer resources.'
-random_paper: 50
+random_paper: 1
 score:
   band: thin
-  composite: 41.9
-  delta: 1.7
+  composite: 36.9
+  delta: -5.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 61.9
+    contract_quality: 60.2
     developer_ergonomics: 52.2
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 40.2
+  previous_composite: 41.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 25.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/screenshots/konsentus-2026-06-20T184135.png
 security:
 - kind: authentication

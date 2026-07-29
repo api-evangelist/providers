@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 3
@@ -103,12 +105,82 @@ apis:
 - description: The .well Known API from Weaviate — 3 operation(s) for .well known.
   name: Weaviate .well Known API
   slug: weaviate-well-known-api
-artifact_total: 460
+artifact_total: 482
 collections:
+- collection_type: postman
+  name: Weaviate REST authz API
+  slug: postman-weaviate-authz-api
+- collection_type: postman
+  name: Weaviate REST authz backups API
+  slug: postman-weaviate-backups-api
+- collection_type: postman
+  name: Weaviate REST authz batch API
+  slug: postman-weaviate-batch-api
+- collection_type: postman
+  name: Weaviate REST authz classifications API
+  slug: postman-weaviate-classifications-api
+- collection_type: postman
+  name: Weaviate REST authz cluster API
+  slug: postman-weaviate-cluster-api
+- collection_type: postman
+  name: Weaviate REST authz discovery API
+  slug: postman-weaviate-discovery-api
+- collection_type: postman
+  name: Weaviate REST authz distributedTasks API
+  slug: postman-weaviate-distributedtasks-api
+- collection_type: postman
+  name: Weaviate REST authz export API
+  slug: postman-weaviate-export-api
+- collection_type: postman
+  name: Weaviate REST authz graphql API
+  slug: postman-weaviate-graphql-api
+- collection_type: postman
+  name: Weaviate REST authz mcp API
+  slug: postman-weaviate-mcp-api
+- collection_type: postman
+  name: Weaviate REST authz meta API
+  slug: postman-weaviate-meta-api
+- collection_type: postman
+  name: Weaviate REST authz namespaces API
+  slug: postman-weaviate-namespaces-api
+- collection_type: postman
+  name: Weaviate REST authz nodes API
+  slug: postman-weaviate-nodes-api
+- collection_type: postman
+  name: Weaviate REST authz objects API
+  slug: postman-weaviate-objects-api
+- collection_type: postman
+  name: Weaviate REST authz oidc API
+  slug: postman-weaviate-oidc-api
+- collection_type: postman
+  name: Weaviate REST authz references API
+  slug: postman-weaviate-references-api
+- collection_type: postman
+  name: Weaviate REST authz replication API
+  slug: postman-weaviate-replication-api
+- collection_type: postman
+  name: Weaviate REST authz schema API
+  slug: postman-weaviate-schema-api
+- collection_type: postman
+  name: Weaviate REST authz tokenize API
+  slug: postman-weaviate-tokenize-api
+- collection_type: postman
+  name: Weaviate REST authz users API
+  slug: postman-weaviate-users-api
+- collection_type: postman
+  name: Weaviate REST authz Weaviate REST API API
+  slug: postman-weaviate-weaviate-rest-api-api
+- collection_type: postman
+  name: Weaviate REST authz .well Known API
+  slug: postman-weaviate-well-known-api
 - collection_type: open
   name: Weaviate REST API
   slug: open-weaviate
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/weaviate/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1477,12 +1549,12 @@ overview: 'Weaviate publishes 22 APIs on the [APIs.io](https://apis.io/) network
   The Weaviate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Weaviate''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, changelog, support, and 20 more developer resources.'
+  Weaviate''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, changelog, support, and 21 more developer resources.'
 plans:
 - name: Weaviate Plans Pricing
   plan_count: 3
   slug: weaviate-plans-pricing
-random_paper: 38
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Weaviate Rate Limits
@@ -1506,18 +1578,25 @@ rules:
   slug: weaviate-spectral-rules
 score:
   band: strong
-  composite: 64.7
-  delta: 2.0
+  composite: 60.4
+  delta: -4.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 57.8
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 54.9
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 62.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/screenshots/weaviate-2026-06-20T201320.png
 security:

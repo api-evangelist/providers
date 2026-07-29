@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -142,16 +144,125 @@ apis:
 - description: Process cash withdrawals from investment accounts.
   name: Upvest Withdrawals API
   slug: upvest-withdrawals-api
-artifact_total: 242
+artifact_total: 277
 asyncapis:
 - description: The Upvest Investment API uses an asynchronous, event-driven architecture where events represent state changes within the system. Webhook subscriptions allow your application to receive real-time noti
   name: Upvest Investment Events
   slug: upvest-investment-events-asyncapi
 collections:
+- collection_type: postman
+  name: Upvest Investment Account Transfers API
+  slug: postman-upvest-account-transfers-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Accounts API
+  slug: postman-upvest-accounts-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Authentication API
+  slug: postman-upvest-authentication-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Cash Balances API
+  slug: postman-upvest-cash-balances-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Corporate Actions API
+  slug: postman-upvest-corporate-actions-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Direct Debits API
+  slug: postman-upvest-direct-debits-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Executions API
+  slug: postman-upvest-executions-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Fee Configurations API
+  slug: postman-upvest-fee-configurations-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Fees API
+  slug: postman-upvest-fees-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Files API
+  slug: postman-upvest-files-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Instrument Prices API
+  slug: postman-upvest-instrument-prices-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Instruments API
+  slug: postman-upvest-instruments-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Liquidations API
+  slug: postman-upvest-liquidations-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Mandates API
+  slug: postman-upvest-mandates-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Order Cancellations API
+  slug: postman-upvest-order-cancellations-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Orders API
+  slug: postman-upvest-orders-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Portfolio Allocations API
+  slug: postman-upvest-portfolio-allocations-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Portfolio Orders API
+  slug: postman-upvest-portfolio-orders-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Portfolios API
+  slug: postman-upvest-portfolios-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Portfolios Rebalancing API
+  slug: postman-upvest-portfolios-rebalancing-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Positions API
+  slug: postman-upvest-positions-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Reference Accounts API
+  slug: postman-upvest-reference-accounts-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Reports API
+  slug: postman-upvest-reports-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Returns API
+  slug: postman-upvest-returns-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Savings Plans API
+  slug: postman-upvest-savings-plans-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Securities Transfers API
+  slug: postman-upvest-securities-transfers-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Tax Residencies API
+  slug: postman-upvest-tax-residencies-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Transactions API
+  slug: postman-upvest-transactions-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Treasury Reports API
+  slug: postman-upvest-treasury-reports-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers User Checks API
+  slug: postman-upvest-user-checks-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers User Identifiers API
+  slug: postman-upvest-user-identifiers-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Users API
+  slug: postman-upvest-users-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Valuations API
+  slug: postman-upvest-valuations-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Webhook Subscriptions API
+  slug: postman-upvest-webhook-subscriptions-api
+- collection_type: postman
+  name: Upvest Investment Account Transfers Withdrawals API
+  slug: postman-upvest-withdrawals-api
 - collection_type: open
   name: Upvest Investment API
   slug: open-upvest-investment-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/upvest/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -818,12 +929,12 @@ overview: 'Upvest publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
   The Upvest catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Upvest''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, signup flow, and 16 more developer resources.'
+  Upvest''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, signup flow, and 17 more developer resources.'
 plans:
 - name: Upvest Plans Pricing
   plan_count: 3
   slug: upvest-plans-pricing
-random_paper: 67
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Upvest Rate Limits
@@ -860,23 +971,31 @@ scopes:
   summary_line: 18 scopes · clientCredentials
 score:
   band: strong
-  composite: 67.0
-  delta: 4.0
+  composite: 63.1
+  delta: -3.9
   facets:
     commercial_clarity: 57.9
-    contract_quality: 92.9
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 65.8
+    contract_quality: 93.2
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 52.1
     operational_transparency: 36.8
-  previous_composite: 63.0
+  previous_composite: 67.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 70.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upvest/refs/heads/main/screenshots/upvest-2026-06-20T200511.png
 security:

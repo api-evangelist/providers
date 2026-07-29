@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -58,12 +60,37 @@ apis:
 - description: The Workout API from WHOOP — 2 operation(s) for workout.
   name: WHOOP Workout API
   slug: whoop-co-workout-api
-artifact_total: 47
+artifact_total: 54
 collections:
+- collection_type: postman
+  name: WHOOP Activity ID Mapping API
+  slug: postman-whoop-co-activity-id-mapping-api
+- collection_type: postman
+  name: WHOOP Activity ID Mapping Cycle API
+  slug: postman-whoop-co-cycle-api
+- collection_type: postman
+  name: WHOOP Activity ID Mapping Partner API
+  slug: postman-whoop-co-partner-api
+- collection_type: postman
+  name: WHOOP Activity ID Mapping Recovery API
+  slug: postman-whoop-co-recovery-api
+- collection_type: postman
+  name: WHOOP Activity ID Mapping Sleep API
+  slug: postman-whoop-co-sleep-api
+- collection_type: postman
+  name: WHOOP Activity ID Mapping User API
+  slug: postman-whoop-co-user-api
+- collection_type: postman
+  name: WHOOP Activity ID Mapping Workout API
+  slug: postman-whoop-co-workout-api
 - collection_type: open
   name: WHOOP API
   slug: open-whoop-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/whoop/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -243,12 +270,12 @@ overview: 'WHOOP publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The WHOOP catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WHOOP''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, pricing, engineering blog, and 20 more developer resources.'
+  WHOOP''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, pricing, engineering blog, and 21 more developer resources.'
 plans:
 - name: Whoop Co Plans Pricing
   plan_count: 3
   slug: whoop-co-plans-pricing
-random_paper: 64
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Whoop Co Rate Limits
@@ -277,24 +304,32 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 67.6
-  delta: 4.6
+  composite: 60.5
+  delta: -7.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 74.3
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 73.0
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 63.0
+  previous_composite: 67.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 52.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/screenshots/whoop-co-2026-06-20T201452.png
 security:
 - kind: authentication

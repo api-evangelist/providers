@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -622,7 +624,7 @@ plans:
 - name: Siemens Plans Pricing
   plan_count: 1
   slug: siemens-plans-pricing
-random_paper: 8
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Siemens Rate Limits
@@ -646,18 +648,25 @@ rules:
   slug: siemens-rules
 score:
   band: developing
-  composite: 48.9
-  delta: 1.2
+  composite: 45.4
+  delta: -3.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.3
+    contract_quality: 68.6
     developer_ergonomics: 30.4
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 47.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 48.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

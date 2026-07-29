@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful service for accessing business information and performing actions against DexCare-managed healthcare environments — Virtual Care, Care Options, Booking, Patient, Provider Data Management, Omni
@@ -134,26 +136,29 @@ overview: 'DexCare publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   DexCare''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 15 more developer resources.'
-random_paper: 52
+random_paper: 39
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 32.2
+  delta: -4.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 36.5
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 37.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png
 security:

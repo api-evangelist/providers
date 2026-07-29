@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 59.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -251,21 +253,31 @@ overview: 'Bem publishes 22 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Bem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 36
+random_paper: 0
 score:
-  band: developing
-  composite: 57.7
-  delta: 0.0
+  band: strong
+  composite: 57.6
+  delta: -0.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.5
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 63.4
+    developer_ergonomics: 71.2
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 36.8
   previous_composite: 57.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/screenshots/bem-2026-07-25T202722.png
 security:

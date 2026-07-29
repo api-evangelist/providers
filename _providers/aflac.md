@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -476,7 +478,7 @@ press:
 - date: '2026-05-25'
   title: Why Aflac isn't rushing generative AI adoption
   url: https://www.ciodive.com/news/Aflac-CIO-Shelia-Anderson-generative-ai-cloud-strategy/742503/
-random_paper: 27
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Aflac Rate Limits
@@ -505,19 +507,26 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 55.7
-  delta: 3.2
+  composite: 48.4
+  delta: -7.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.7
+    contract_quality: 60.2
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 52.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 55.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png
 security:
 - kind: authentication

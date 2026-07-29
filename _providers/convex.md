@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -79,12 +81,45 @@ apis:
 - description: Manage Convex teams, team members, and team-level access tokens. Teams are the billing and administrative unit that owns projects.
   name: Convex Teams API
   slug: convex-teams-api
-artifact_total: 51
+artifact_total: 62
 asyncapis:
 - description: AsyncAPI description of the Convex WebSocket sync protocol used between Convex client SDKs (browser/Node/React/React Native) and a Convex deployment's sync worker. The client opens a WebSocket to `wss
   name: Convex Sync Protocol
   slug: convex-asyncapi
 collections:
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens API
+  slug: postman-convex-accesstokens-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens Actions API
+  slug: postman-convex-actions-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens CustomDomains API
+  slug: postman-convex-customdomains-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens DeployKeys API
+  slug: postman-convex-deploykeys-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens Deployments API
+  slug: postman-convex-deployments-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens EnvironmentVariables API
+  slug: postman-convex-environmentvariables-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens Functions API
+  slug: postman-convex-functions-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens Mutations API
+  slug: postman-convex-mutations-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens Projects API
+  slug: postman-convex-projects-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens Queries API
+  slug: postman-convex-queries-api
+- collection_type: postman
+  name: Convex Deployment Platform AccessTokens Teams API
+  slug: postman-convex-teams-api
 - collection_type: open
   name: Convex Deployment Platform API
   slug: open-convex-deployment-platform-api
@@ -95,6 +130,10 @@ collections:
   name: Convex Management API
   slug: open-convex-management-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/convex/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -262,12 +301,12 @@ overview: 'Convex publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
   The Convex catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 5 Spectral governance rulesets.
 
 
-  Convex''s developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 16 more developer resources.'
+  Convex''s developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Convex Plans Pricing
   plan_count: 3
   slug: convex-plans-pricing
-random_paper: 47
+random_paper: 43
 rate_limits:
 - limit_count: 28
   name: Convex Rate Limits
@@ -315,18 +354,25 @@ rules:
   slug: convex-management-api-rules
 score:
   band: strong
-  composite: 66.8
-  delta: 2.0
+  composite: 63.2
+  delta: -3.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 74.9
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.5
+    developer_ergonomics: 43.5
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 64.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/screenshots/convex-2026-06-20T175006.png
 security:

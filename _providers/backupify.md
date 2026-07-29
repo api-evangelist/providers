@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,8 +45,19 @@ apis:
 - description: User and resource seat licensing and management
   name: Backupify Seats API
   slug: backupify-seats-api
-artifact_total: 49
+artifact_total: 51
+collections:
+- collection_type: postman
+  name: Backupify SaaS Protection Domains API
+  slug: postman-backupify-domains-api
+- collection_type: postman
+  name: Backupify SaaS Protection Domains Seats API
+  slug: postman-backupify-seats-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/backupify/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -225,12 +238,12 @@ overview: 'Backupify publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The Backupify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Backupify''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, support, and 9 more developer resources.'
+  Backupify''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Backupify Plans Pricing
   plan_count: 3
   slug: backupify-plans-pricing
-random_paper: 6
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Backupify Rate Limits
@@ -254,19 +267,26 @@ rules:
   slug: backupify-spectral-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 56.1
+  delta: -6.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 71.7
-    developer_ergonomics: 34.8
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 60.2
+    developer_ergonomics: 39.1
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 62.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/screenshots/backupify-2026-06-20T172919.png
 security:
 - kind: authentication

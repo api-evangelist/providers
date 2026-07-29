@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: The Applications API from Paedae — 2 operation(s) for applications.
@@ -125,7 +127,7 @@ overview: 'Paedae publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Paedae''s developer surface includes documentation, API reference, developer portal, signup flow, support, and 10 more developer resources.'
-random_paper: 64
+random_paper: 69
 scopes:
 - name: Paedae Scopes
   scope_count: 0
@@ -133,18 +135,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 37.4
+  delta: -1.8
   facets:
     commercial_clarity: 13.2
-    contract_quality: 64.8
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 66.3
+    developer_ergonomics: 36.4
+    discoverability: 85.2
+    governance: 3.1
     operational_transparency: 15.8
   previous_composite: 39.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

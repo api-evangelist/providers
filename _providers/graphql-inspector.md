@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Command-line tool for comparing two GraphQL schemas and generating a detailed list of breaking, non-breaking, and dangerous changes. Also validates documents and fragments, measures schema coverage, a
@@ -89,22 +91,22 @@ overview: 'GraphQL Inspector publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   GraphQL Inspector''s developer surface includes documentation, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 11
+random_paper: 8
 score:
-  band: minimal
-  composite: 11.7
-  delta: 0.0
+  band: emerging
+  composite: 20.5
+  delta: 8.8
   facets:
     commercial_clarity: 10.5
-    contract_quality: 0.0
+    contract_quality: 42.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 11.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-inspector/refs/heads/main/screenshots/graphql-inspector-2026-06-20T182337.png
 security:
 - kind: domain-security

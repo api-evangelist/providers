@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 44.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -130,7 +132,7 @@ plans:
 - name: Hyperliquid Plans Pricing
   plan_count: 1
   slug: hyperliquid-plans-pricing
-random_paper: 44
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Hyperliquid Rate Limits
@@ -146,23 +148,31 @@ rules:
   slug: hyperliquid-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 2.7
+  composite: 36.9
+  delta: -1.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 64.6
+    contract_quality: 66.1
     developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 36.1
+  previous_composite: 38.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/screenshots/hyperliquid-2026-06-20T183045.png
 security:

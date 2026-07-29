@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: The core toolkit for building reactive, event-driven applications on the JVM. Provides the event loop, verticle deployment, event bus, HTTP server and client, TCP/UDP networking, and the fundamental a
@@ -212,7 +214,7 @@ plans:
 - name: Vert X Plans Pricing
   plan_count: 3
   slug: vert-x-plans-pricing
-random_paper: 2
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Vert X Rate Limits
@@ -236,19 +238,19 @@ rules:
   slug: vert-x-spectral-rules
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 46.5
+  delta: -5.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 39.6
+    contract_quality: 33.9
     developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 52.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vert-x/refs/heads/main/screenshots/vert-x-2026-06-20T200945.png
 security:
 - kind: domain-security

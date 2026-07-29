@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 34.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Create end users, capture consent, run data collections (including PSD2 banking data), and retrieve structured wealth data. Dual auth (backend API key + per-user JWT), date-based versioning, and colle
@@ -145,26 +147,30 @@ overview: 'Insurely publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Insurely''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 7
+random_paper: 44
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 41.9
+  delta: 1.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 22.6
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 60.9
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 34.2
   previous_composite: 40.0
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/screenshots/insurely-2026-07-25T222626.png
 security:

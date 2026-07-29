@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 3
@@ -215,25 +217,41 @@ overview: 'Route Mobile publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Route Mobile''s developer surface includes authentication, sandbox, getting-started guide, support, documentation, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Route Mobile Rate Limits
   slug: route-mobile-rate-limits
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 55.0
+  delta: 0.2
   facets:
     commercial_clarity: 42.1
-    contract_quality: 65.0
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 66.4
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 54.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 56.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

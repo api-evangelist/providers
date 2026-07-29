@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 2
@@ -192,12 +194,173 @@ apis:
 - description: The webhooks API from Agicap — 5 operation(s) for webhooks.
   name: Agicap webhooks API
   slug: agicap-webhooks-api
-artifact_total: 60
+artifact_total: 112
 asyncapis:
 - description: ''
   name: Agicap Events Webhooks
   slug: agicap-events-webhooks
+collections:
+- collection_type: postman
+  name: Clients AR Account reports API
+  slug: postman-agicap-account-reports-api
+- collection_type: postman
+  name: Clients AR Account reports Accrued interests API
+  slug: postman-agicap-accrued-interests-api
+- collection_type: postman
+  name: Clients AR Account reports Analytical Plan API
+  slug: postman-agicap-analytical-plan-api
+- collection_type: postman
+  name: Clients AR Account reports Anything API
+  slug: postman-agicap-anything-api
+- collection_type: postman
+  name: Clients AR Account reports Authentication API
+  slug: postman-agicap-authentication-api
+- collection_type: postman
+  name: Clients AR Account reports Bank accounts API
+  slug: postman-agicap-bank-accounts-api
+- collection_type: postman
+  name: Clients AR Account reports Bank files API
+  slug: postman-agicap-bank-files-api
+- collection_type: postman
+  name: Clients AR Account reports Beta API
+  slug: postman-agicap-beta-api
+- collection_type: postman
+  name: Clients AR Account reports Card expenses bank journal API
+  slug: postman-agicap-card-expenses-bank-journal-api
+- collection_type: postman
+  name: Clients AR Account reports Causales API
+  slug: postman-agicap-causales-api
+- collection_type: postman
+  name: Clients AR Account reports Client addresses API
+  slug: postman-agicap-client-addresses-api
+- collection_type: postman
+  name: Clients AR Account reports Client Credit Notes API
+  slug: postman-agicap-client-credit-notes-api
+- collection_type: postman
+  name: Clients AR Account reports Client Invoices API
+  slug: postman-agicap-client-invoices-api
+- collection_type: postman
+  name: Clients AR Account reports Client Quotes API
+  slug: postman-agicap-client-quotes-api
+- collection_type: postman
+  name: AR Account reports Clients API
+  slug: postman-agicap-clients-api
+- collection_type: postman
+  name: Clients AR Account reports Connections API
+  slug: postman-agicap-connections-api
+- collection_type: postman
+  name: Clients AR Account reports Cookies API
+  slug: postman-agicap-cookies-api
+- collection_type: postman
+  name: Clients AR Account reports Credit limit API
+  slug: postman-agicap-credit-limit-api
+- collection_type: postman
+  name: Clients AR Account reports Delivery Notes API
+  slug: postman-agicap-delivery-notes-api
+- collection_type: postman
+  name: Clients AR Account reports Dynamic data API
+  slug: postman-agicap-dynamic-data-api
+- collection_type: postman
+  name: Clients AR Account reports E-Reporting API
+  slug: postman-agicap-e-reporting-api
+- collection_type: postman
+  name: Clients AR Account reports Entities API
+  slug: postman-agicap-entities-api
+- collection_type: postman
+  name: Clients AR Account reports Export API
+  slug: postman-agicap-export-api
+- collection_type: postman
+  name: Clients AR Account reports External contacts API
+  slug: postman-agicap-external-contacts-api
+- collection_type: postman
+  name: Clients AR Account reports Financial investments API
+  slug: postman-agicap-financial-investments-api
+- collection_type: postman
+  name: Clients AR Account reports Financings API
+  slug: postman-agicap-financings-api
+- collection_type: postman
+  name: Clients AR Account reports HTTP Methods API
+  slug: postman-agicap-http-methods-api
+- collection_type: postman
+  name: Clients AR Account reports Images API
+  slug: postman-agicap-images-api
+- collection_type: postman
+  name: Clients AR Account reports Import and delete API
+  slug: postman-agicap-import-and-delete-api
+- collection_type: postman
+  name: Clients AR Account reports Inbox API
+  slug: postman-agicap-inbox-api
+- collection_type: postman
+  name: Clients AR Account reports Interests statements API
+  slug: postman-agicap-interests-statements-api
+- collection_type: postman
+  name: Clients AR Account reports Internal contacts API
+  slug: postman-agicap-internal-contacts-api
+- collection_type: postman
+  name: Clients AR Account reports Invested cash API
+  slug: postman-agicap-invested-cash-api
+- collection_type: postman
+  name: Clients AR Account reports Invoice Flows API
+  slug: postman-agicap-invoice-flows-api
+- collection_type: postman
+  name: Clients AR Account reports Invoices API
+  slug: postman-agicap-invoices-api
+- collection_type: postman
+  name: Clients AR Account reports Manage beneficiaries API
+  slug: postman-agicap-manage-beneficiaries-api
+- collection_type: postman
+  name: Clients AR Account reports Proforma Invoices API
+  slug: postman-agicap-proforma-invoices-api
+- collection_type: postman
+  name: Clients AR Account reports Purchase journal API
+  slug: postman-agicap-purchase-journal-api
+- collection_type: postman
+  name: Clients AR Account reports Purchase Orders API
+  slug: postman-agicap-purchase-orders-api
+- collection_type: postman
+  name: Clients AR Account reports Redirects API
+  slug: postman-agicap-redirects-api
+- collection_type: postman
+  name: Clients AR Account reports Request inspection API
+  slug: postman-agicap-request-inspection-api
+- collection_type: postman
+  name: Clients AR Account reports Response formats API
+  slug: postman-agicap-response-formats-api
+- collection_type: postman
+  name: Clients AR Account reports Response inspection API
+  slug: postman-agicap-response-inspection-api
+- collection_type: postman
+  name: Clients AR Account reports Route payment files API
+  slug: postman-agicap-route-payment-files-api
+- collection_type: postman
+  name: Clients AR Account reports Sales Orders API
+  slug: postman-agicap-sales-orders-api
+- collection_type: postman
+  name: Clients AR Account reports Statements API
+  slug: postman-agicap-statements-api
+- collection_type: postman
+  name: Clients AR Account reports Status codes API
+  slug: postman-agicap-status-codes-api
+- collection_type: postman
+  name: Clients AR Account reports Supplier Credit Notes API
+  slug: postman-agicap-supplier-credit-notes-api
+- collection_type: postman
+  name: Clients AR Account reports Supplier Invoices API
+  slug: postman-agicap-supplier-invoices-api
+- collection_type: postman
+  name: Clients AR Account reports Suppliers API
+  slug: postman-agicap-suppliers-api
+- collection_type: postman
+  name: Clients AR Account reports User rights API
+  slug: postman-agicap-user-rights-api
+- collection_type: postman
+  name: Clients AR Account reports webhooks API
+  slug: postman-agicap-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/agicap/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -348,8 +511,8 @@ overview: 'Agicap publishes 52 APIs on the [APIs.io](https://apis.io/) network, 
   The Agicap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Agicap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 26 more developer resources.'
-random_paper: 1
+  Agicap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
+random_paper: 74
 scopes:
 - name: Agicap Scopes
   scope_count: 5
@@ -357,23 +520,34 @@ scopes:
   summary_line: 5 scopes · clientCredentials/implicit
 score:
   band: strong
-  composite: 63.0
-  delta: 0.0
+  composite: 59.0
+  delta: -4.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.5
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.5
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 34.2
   previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 52
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 74.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/screenshots/agicap-2026-07-25T195300.png
 security:

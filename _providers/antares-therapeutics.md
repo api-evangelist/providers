@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The public WordPress REST API behind antaresrx.com. This is the content management surface for the corporate marketing site and its press-release / in-the-media newsroom -- it is NOT a first-party pro
@@ -111,26 +113,29 @@ overview: 'Antares Therapeutics publishes 1 API on the [APIs.io](https://apis.io
 
 
   Antares Therapeutics'' developer surface includes engineering blog, product news, authentication, and 13 more developer resources.'
-random_paper: 52
+random_paper: 13
 score:
   band: emerging
-  composite: 22.1
-  delta: 0.0
+  composite: 18.1
+  delta: -4.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 22.1
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 32.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antares-therapeutics/refs/heads/main/screenshots/antares-therapeutics-2026-07-25T200338.png
 security:

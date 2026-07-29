@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 69.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -75,12 +77,56 @@ apis:
 - description: The WorkflowRun API from Lightfield — 1 operation(s) for workflowrun.
   name: Lightfield WorkflowRun API
   slug: lightfield-workflowrun-api
-artifact_total: 21
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Lightfield Events
   slug: lightfield-events
+collections:
+- collection_type: postman
+  name: API Reference Accounts API
+  slug: postman-lightfield-accounts-api
+- collection_type: postman
+  name: API Reference Accounts Auth API
+  slug: postman-lightfield-auth-api
+- collection_type: postman
+  name: API Reference Accounts Contacts API
+  slug: postman-lightfield-contacts-api
+- collection_type: postman
+  name: API Reference Accounts Emails API
+  slug: postman-lightfield-emails-api
+- collection_type: postman
+  name: API Reference Accounts Files API
+  slug: postman-lightfield-files-api
+- collection_type: postman
+  name: API Reference Accounts Lists API
+  slug: postman-lightfield-lists-api
+- collection_type: postman
+  name: API Reference Accounts Meetings API
+  slug: postman-lightfield-meetings-api
+- collection_type: postman
+  name: API Reference Accounts Members API
+  slug: postman-lightfield-members-api
+- collection_type: postman
+  name: API Reference Accounts Notes API
+  slug: postman-lightfield-notes-api
+- collection_type: postman
+  name: API Reference Accounts Objects API
+  slug: postman-lightfield-objects-api
+- collection_type: postman
+  name: API Reference Accounts Opportunities API
+  slug: postman-lightfield-opportunities-api
+- collection_type: postman
+  name: API Reference Accounts Tasks API
+  slug: postman-lightfield-tasks-api
+- collection_type: postman
+  name: API Reference Accounts WorkflowRun API
+  slug: postman-lightfield-workflowrun-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lightfield/overview
 - group: company
   title: ''
   type: Website
@@ -256,8 +302,8 @@ overview: 'Lightfield publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
   The Lightfield catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lightfield''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 32
+  Lightfield''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+random_paper: 51
 scopes:
 - name: Lightfield Scopes
   scope_count: 26
@@ -265,18 +311,28 @@ scopes:
   summary_line: 26 scopes
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 61.5
+  delta: -0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.3
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 62.5
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 55.3
   previous_composite: 61.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png
 security:

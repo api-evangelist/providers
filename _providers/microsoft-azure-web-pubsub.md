@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -98,16 +100,29 @@ arazzos:
 - description: Add a user to a group and welcome them with a targeted message in one flow.
   name: Azure Web PubSub Onboard User to Group
   slug: microsoft-azure-web-pubsub-user-onboard-to-group-workflow
-artifact_total: 29
+artifact_total: 32
 asyncapis:
 - description: Azure Web PubSub is a fully managed real-time messaging service from Microsoft Azure that lets clients exchange publish/subscribe messages over WebSockets without operating WebSocket infrastructure. C
   name: Azure Web PubSub
   slug: microsoft-azure-web-pubsub-asyncapi
 collections:
+- collection_type: postman
+  name: Azure Web PubSub Service Data Plane REST ClientToken API
+  slug: postman-microsoft-azure-web-pubsub-clienttoken-api
+- collection_type: postman
+  name: Azure Web PubSub Service Data Plane REST ClientToken Hub API
+  slug: postman-microsoft-azure-web-pubsub-hub-api
+- collection_type: postman
+  name: Azure Web PubSub Service Data Plane REST ClientToken Permission API
+  slug: postman-microsoft-azure-web-pubsub-permission-api
 - collection_type: open
   name: Azure Web PubSub Service Data Plane REST API
   slug: open-microsoft-azure-web-pubsub
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-web-pubsub/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -298,12 +313,12 @@ overview: 'Azure Web PubSub publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Azure Web PubSub catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Azure Web PubSub''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 36 more developer resources.'
+  Azure Web PubSub''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 37 more developer resources.'
 plans:
 - name: Microsoft Azure Web Pubsub Plans Pricing
   plan_count: 3
   slug: microsoft-azure-web-pubsub-plans-pricing
-random_paper: 59
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Web Pubsub Rate Limits
@@ -319,19 +334,32 @@ rules:
   slug: microsoft-azure-web-pubsub-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 68.9
-  delta: 3.2
+  composite: 61.0
+  delta: -7.9
   facets:
     commercial_clarity: 84.2
-    contract_quality: 61.9
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 60.5
+    contract_quality: 63.6
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    governance: 47.9
     operational_transparency: 68.4
-  previous_composite: 65.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 68.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/screenshots/microsoft-azure-web-pubsub-2026-06-20T185444.png
 security:
 - kind: authentication

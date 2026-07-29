@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: AsyncAPI 2.6 description of Talkdesk's publicly documented outbound webhook surface, covering the Events API (partner-app lifecycle), the Webhook Trigger API (Talkdesk Connections triggers for call/ag
@@ -88,7 +90,7 @@ overview: 'Talkdesk publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Talkdesk''s developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
-random_paper: 35
+random_paper: 4
 rules:
 - name: Talkdesk API Rules
   rule_count: 8
@@ -100,18 +102,24 @@ rules:
   slug: talkdesk-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 33.3
+  delta: 0.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 33.3
+    contract_quality: 54.3
     developer_ergonomics: 23.9
-    discoverability: 80.0
-    governance: 60.5
+    discoverability: 59.3
+    governance: 47.9
     operational_transparency: 0.0
   previous_composite: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkdesk/refs/heads/main/screenshots/talkdesk-2026-06-20T194911.png
 security:

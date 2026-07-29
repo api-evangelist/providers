@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: The Venues API from SeatGeek — 2 operation(s) for venues.
   name: SeatGeek Venues API
   slug: seatgeek-venues-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: postman
+  name: SeatGeek Platform Events API
+  slug: postman-seatgeek-events-api
+- collection_type: postman
+  name: SeatGeek Platform Events Performers API
+  slug: postman-seatgeek-performers-api
+- collection_type: postman
+  name: SeatGeek Platform Events Recommendations API
+  slug: postman-seatgeek-recommendations-api
+- collection_type: postman
+  name: SeatGeek Platform Events Taxonomies API
+  slug: postman-seatgeek-taxonomies-api
+- collection_type: postman
+  name: SeatGeek Platform Events Venues API
+  slug: postman-seatgeek-venues-api
 - collection_type: open
   name: SeatGeek Platform API
   slug: open-seatgeek-platform
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/seatgeek/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -169,12 +190,12 @@ overview: 'SeatGeek publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The SeatGeek catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SeatGeek''s developer surface includes authentication, developer portal, documentation, support, code examples, and 13 more developer resources.'
+  SeatGeek''s developer surface includes authentication, developer portal, documentation, support, code examples, and 14 more developer resources.'
 plans:
 - name: Seatgeek Plans Pricing
   plan_count: 3
   slug: seatgeek-plans-pricing
-random_paper: 25
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Seatgeek Rate Limits
@@ -198,18 +219,25 @@ rules:
   slug: seatgeek-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 3.3
+  composite: 57.3
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.1
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 65.6
+    developer_ergonomics: 52.2
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 57.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/screenshots/seatgeek-2026-06-20T193620.png
 security:

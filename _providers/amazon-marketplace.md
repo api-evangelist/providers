@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -73,8 +75,49 @@ apis:
 - description: The UntagResource API from Amazon Marketplace — 1 operation(s) for untagresource.
   name: Amazon Marketplace UntagResource API
   slug: amazon-marketplace-untagresource-api
-artifact_total: 274
+artifact_total: 286
+collections:
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId API
+  slug: postman-amazon-marketplace-cancelchangeset-catalog-changesetid-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId DeleteResourcePolicy#resourceArn API
+  slug: postman-amazon-marketplace-deleteresourcepolicy-resourcearn-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId DescribeChangeSet#catalog&changeSetId API
+  slug: postman-amazon-marketplace-describechangeset-catalog-changesetid-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId DescribeEntity#catalog&entityId API
+  slug: postman-amazon-marketplace-describeentity-catalog-entityid-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId GetResourcePolicy#resourceArn API
+  slug: postman-amazon-marketplace-getresourcepolicy-resourcearn-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId ListChangeSets API
+  slug: postman-amazon-marketplace-listchangesets-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId ListEntities API
+  slug: postman-amazon-marketplace-listentities-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId ListTagsForResource API
+  slug: postman-amazon-marketplace-listtagsforresource-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId PutResourcePolicy API
+  slug: postman-amazon-marketplace-putresourcepolicy-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId StartChangeSet API
+  slug: postman-amazon-marketplace-startchangeset-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId TagResource API
+  slug: postman-amazon-marketplace-tagresource-api
+- collection_type: postman
+  name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId UntagResource API
+  slug: postman-amazon-marketplace-untagresource-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-marketplace/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -910,12 +953,12 @@ overview: 'Amazon Marketplace publishes 12 APIs on the [APIs.io](https://apis.io
   The Amazon Marketplace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Marketplace''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Marketplace''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Marketplace Plans Pricing
   plan_count: 3
   slug: amazon-marketplace-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Amazon Marketplace Rate Limits
@@ -939,18 +982,25 @@ rules:
   slug: amazon-marketplace-spectral-rules
 score:
   band: strong
-  composite: 69.0
-  delta: 0.0
+  composite: 65.7
+  delta: -3.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 69.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/screenshots/amazon-marketplace-2026-06-20T171735.png
 security:

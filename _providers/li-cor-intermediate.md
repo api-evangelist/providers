@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,30 +146,41 @@ overview: 'LI-COR Intermediate publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   LI-COR Intermediate''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 66
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Li Cor Intermediate Rate Limits
   slug: li-cor-intermediate-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 33.9
+  delta: -4.2
   facets:
     commercial_clarity: 21.1
-    contract_quality: 46.0
-    developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 48.3
+    developer_ergonomics: 36.4
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 38.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -162,12 +164,143 @@ apis:
 - description: Webhook subscriptions
   name: MethodFi Webhooks API
   slug: methodfi-webhooks-api
-artifact_total: 48
+artifact_total: 90
 asyncapis:
 - description: ''
   name: Methodfi Webhooks
   slug: methodfi-webhooks
+collections:
+- collection_type: postman
+  name: Method Account Attributes API
+  slug: postman-methodfi-account-attributes-api
+- collection_type: postman
+  name: Method Account Attributes Account Balances API
+  slug: postman-methodfi-account-balances-api
+- collection_type: postman
+  name: Method Account Attributes Account Card Brands API
+  slug: postman-methodfi-account-card-brands-api
+- collection_type: postman
+  name: Method Account Attributes Account Consent API
+  slug: postman-methodfi-account-consent-api
+- collection_type: postman
+  name: Method Account Attributes Account Payment Instruments API
+  slug: postman-methodfi-account-payment-instruments-api
+- collection_type: postman
+  name: Method Account Attributes Account Payoffs API
+  slug: postman-methodfi-account-payoffs-api
+- collection_type: postman
+  name: Method Account Attributes Account Products API
+  slug: postman-methodfi-account-products-api
+- collection_type: postman
+  name: Method Account Attributes Account Sensitive API
+  slug: postman-methodfi-account-sensitive-api
+- collection_type: postman
+  name: Method Account Attributes Account Subscriptions API
+  slug: postman-methodfi-account-subscriptions-api
+- collection_type: postman
+  name: Method Account Attributes Account Transactions API
+  slug: postman-methodfi-account-transactions-api
+- collection_type: postman
+  name: Method Account Attributes Account Updates API
+  slug: postman-methodfi-account-updates-api
+- collection_type: postman
+  name: Method Account Attributes Account Verification Sessions API
+  slug: postman-methodfi-account-verification-sessions-api
+- collection_type: postman
+  name: Method Account Attributes Accounts API
+  slug: postman-methodfi-accounts-api
+- collection_type: postman
+  name: Method Account Attributes Card Products API
+  slug: postman-methodfi-card-products-api
+- collection_type: postman
+  name: Method Account Attributes Elements API
+  slug: postman-methodfi-elements-api
+- collection_type: postman
+  name: Method Account Attributes Entities API
+  slug: postman-methodfi-entities-api
+- collection_type: postman
+  name: Method Account Attributes Entity Attributes API
+  slug: postman-methodfi-entity-attributes-api
+- collection_type: postman
+  name: Method Account Attributes Entity Connects API
+  slug: postman-methodfi-entity-connects-api
+- collection_type: postman
+  name: Method Account Attributes Entity Consent API
+  slug: postman-methodfi-entity-consent-api
+- collection_type: postman
+  name: Method Account Attributes Entity Credit Scores API
+  slug: postman-methodfi-entity-credit-scores-api
+- collection_type: postman
+  name: Method Account Attributes Entity Identities API
+  slug: postman-methodfi-entity-identities-api
+- collection_type: postman
+  name: Method Account Attributes Entity Products API
+  slug: postman-methodfi-entity-products-api
+- collection_type: postman
+  name: Method Account Attributes Entity Subscriptions API
+  slug: postman-methodfi-entity-subscriptions-api
+- collection_type: postman
+  name: Method Account Attributes Entity Vehicles API
+  slug: postman-methodfi-entity-vehicles-api
+- collection_type: postman
+  name: Method Account Attributes Entity Verification Sessions API
+  slug: postman-methodfi-entity-verification-sessions-api
+- collection_type: postman
+  name: Method Account Attributes Events API
+  slug: postman-methodfi-events-api
+- collection_type: postman
+  name: Method Account Attributes Forwarding Requests API
+  slug: postman-methodfi-forwarding-requests-api
+- collection_type: postman
+  name: Method Account Attributes Managed Accounts API
+  slug: postman-methodfi-managed-accounts-api
+- collection_type: postman
+  name: Method Account Attributes Merchants API
+  slug: postman-methodfi-merchants-api
+- collection_type: postman
+  name: Method Account Attributes Opal API
+  slug: postman-methodfi-opal-api
+- collection_type: postman
+  name: Method Account Attributes Payment Reversals API
+  slug: postman-methodfi-payment-reversals-api
+- collection_type: postman
+  name: Method Account Attributes Payments API
+  slug: postman-methodfi-payments-api
+- collection_type: postman
+  name: Method Account Attributes Ping API
+  slug: postman-methodfi-ping-api
+- collection_type: postman
+  name: Method Account Attributes Public Keys API
+  slug: postman-methodfi-public-keys-api
+- collection_type: postman
+  name: Method Account Attributes Reports API
+  slug: postman-methodfi-reports-api
+- collection_type: postman
+  name: Method Account Attributes Secrets API
+  slug: postman-methodfi-secrets-api
+- collection_type: postman
+  name: Method Account Attributes Simulate Accounts API
+  slug: postman-methodfi-simulate-accounts-api
+- collection_type: postman
+  name: Method Account Attributes Simulate Entities API
+  slug: postman-methodfi-simulate-entities-api
+- collection_type: postman
+  name: Method Account Attributes Simulate Events API
+  slug: postman-methodfi-simulate-events-api
+- collection_type: postman
+  name: Method Account Attributes Simulate Payments API
+  slug: postman-methodfi-simulate-payments-api
+- collection_type: postman
+  name: Method Account Attributes Teams API
+  slug: postman-methodfi-teams-api
+- collection_type: postman
+  name: Method Account Attributes Webhooks API
+  slug: postman-methodfi-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/methodfi/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -322,31 +455,42 @@ overview: 'MethodFi publishes 42 APIs on the [APIs.io](https://apis.io/) network
   The MethodFi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MethodFi''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
-random_paper: 32
+  MethodFi''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Methodfi Rate Limits
   slug: methodfi-rate-limits
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 59.3
+  delta: -1.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 73.8
-    developer_ergonomics: 82.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 72.2
+    developer_ergonomics: 71.2
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 59.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

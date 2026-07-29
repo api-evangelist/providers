@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -150,21 +152,27 @@ overview: 'FordPass / Ford Pro is profiled on the [APIs.io](https://apis.io/) ne
 
 
   FordPass / Ford Pro''s developer surface includes developer portal, changelog, pricing, YouTube channel, support, and 22 more developer resources.'
-random_paper: 50
+random_paper: 19
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 17.0
+  delta: -1.4
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 18.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 18.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fordpass/refs/heads/main/screenshots/fordpass-2026-06-20T181417.png
 security:

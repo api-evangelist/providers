@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.8
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Public market-data API for GRVT — instruments, currencies, supported assets, margin rules, mini/full tickers, orderbook levels, trades, trade history, candlesticks, and funding rates. No authenticatio
@@ -153,26 +155,31 @@ overview: 'Blue Square Group Limited publishes 1 API on the [APIs.io](https://ap
 
 
   Blue Square Group Limited''s developer surface includes documentation, API reference, authentication, sandbox, and 19 more developer resources.'
-random_paper: 1
+random_paper: 53
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 35.2
+  delta: 3.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 22.6
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 47.8
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 23.7
   previous_composite: 32.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 38.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/screenshots/blue-square-group-limited-2026-07-25T203437.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
+    openapi_examples: documented
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.8
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: A live Cantaloupe Image Server exposing the International Image Interoperability Framework (IIIF) Image API 2.x over the scanned NSW land record images behind the Historical Land Records Viewer. Verif
@@ -223,27 +225,30 @@ overview: 'NSW Land Registry Services publishes 3 APIs on the [APIs.io](https://
 
 
   NSW Land Registry Services'' developer surface includes authentication, changelog, code examples, engineering blog, documentation, developer portal, pricing, and 29 more developer resources.'
-random_paper: 38
+random_paper: 44
 score:
-  band: thin
-  composite: 40.7
-  delta: 0.0
+  band: developing
+  composite: 46.0
+  delta: 5.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 13.2
+    discoverability: 92.6
+    governance: 22.9
     operational_transparency: 39.5
   previous_composite: 40.7
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 46.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nsw-land-registry/refs/heads/main/screenshots/nsw-land-registry-2026-07-27T125345.png
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -79,12 +81,40 @@ apis:
 - description: The Transfers API from Airwallex — 2 operation(s) for transfers.
   name: Airwallex Transfers API
   slug: airwallex-transfers-api
-artifact_total: 54
+artifact_total: 62
 collections:
+- collection_type: postman
+  name: Airwallex Open Authentication API
+  slug: postman-airwallex-authentication-api
+- collection_type: postman
+  name: Airwallex Open Authentication Balances API
+  slug: postman-airwallex-balances-api
+- collection_type: postman
+  name: Airwallex Open Authentication Beneficiaries API
+  slug: postman-airwallex-beneficiaries-api
+- collection_type: postman
+  name: Airwallex Open Authentication Customers API
+  slug: postman-airwallex-customers-api
+- collection_type: postman
+  name: Airwallex Open Authentication Payment Intents API
+  slug: postman-airwallex-payment-intents-api
+- collection_type: postman
+  name: Airwallex Open Authentication Payouts API
+  slug: postman-airwallex-payouts-api
+- collection_type: postman
+  name: Airwallex Open Authentication Refunds API
+  slug: postman-airwallex-refunds-api
+- collection_type: postman
+  name: Airwallex Open Authentication Transfers API
+  slug: postman-airwallex-transfers-api
 - collection_type: open
   name: Airwallex Open API
   slug: open-airwallex
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/airwallex/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -246,12 +276,12 @@ overview: 'Airwallex publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The Airwallex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Airwallex''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, engineering blog, CLI, and 13 more developer resources.'
+  Airwallex''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, engineering blog, CLI, and 14 more developer resources.'
 plans:
 - name: Airwallex Plans Pricing
   plan_count: 3
   slug: airwallex-plans-pricing
-random_paper: 17
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Airwallex Rate Limits
@@ -275,24 +305,32 @@ rules:
   slug: airwallex-spectral-rules
 score:
   band: strong
-  composite: 68.9
-  delta: 2.7
+  composite: 63.6
+  delta: -5.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 61.7
-    developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 63.3
+    developer_ergonomics: 58.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 66.2
+  previous_composite: 68.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 62.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png
 security:
 - kind: authentication

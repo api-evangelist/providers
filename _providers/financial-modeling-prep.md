@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,16 +69,50 @@ apis:
 - description: The Stock API from Financial Modeling Prep — 1 operation(s) for stock.
   name: Financial Modeling Prep Stock API
   slug: financial-modeling-prep-stock-api
-artifact_total: 20
+artifact_total: 30
 asyncapis:
 - description: Real-time market data streaming from Financial Modeling Prep. Authenticate with a login event carrying your API key, then subscribe to tickers or predefined market streams. Derived from the Websockets
   name: Financial Modeling Prep WebSocket API
   slug: financial-modeling-prep-websocket-asyncapi
 collections:
+- collection_type: postman
+  name: Financial Modeling Prep Balance Sheet Statement API
+  slug: postman-financial-modeling-prep-balance-sheet-statement-api
+- collection_type: postman
+  name: Financial Modeling Prep Cash Flow Statement API
+  slug: postman-financial-modeling-prep-cash-flow-statement-api
+- collection_type: postman
+  name: Financial Modeling Prep Historical Price Full API
+  slug: postman-financial-modeling-prep-historical-price-full-api
+- collection_type: postman
+  name: Financial Modeling Prep Income Statement API
+  slug: postman-financial-modeling-prep-income-statement-api
+- collection_type: postman
+  name: Financial Modeling Prep Insider Trading API
+  slug: postman-financial-modeling-prep-insider-trading-api
+- collection_type: postman
+  name: Financial Modeling Prep Profile API
+  slug: postman-financial-modeling-prep-profile-api
+- collection_type: postman
+  name: Financial Modeling Prep Quote API
+  slug: postman-financial-modeling-prep-quote-api
+- collection_type: postman
+  name: Financial Modeling Prep Ratios API
+  slug: postman-financial-modeling-prep-ratios-api
+- collection_type: postman
+  name: Financial Modeling Prep Search API
+  slug: postman-financial-modeling-prep-search-api
+- collection_type: postman
+  name: Financial Modeling Prep Stock API
+  slug: postman-financial-modeling-prep-stock-api
 - collection_type: open
   name: Financial Modeling Prep API
   slug: open-financial-modeling-prep
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/financial-modeling-prep/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,35 +275,46 @@ overview: 'Financial Modeling Prep publishes 10 APIs on the [APIs.io](https://ap
   The Financial Modeling Prep catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Financial Modeling Prep''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, API reference, support, and 28 more developer resources.'
+  Financial Modeling Prep''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, API reference, support, and 29 more developer resources.'
 plans:
 - name: Financial Modeling Prep Plans Pricing
   plan_count: 4
   slug: financial-modeling-prep-plans-pricing
-random_paper: 65
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Financial Modeling Prep Rate Limits
   slug: financial-modeling-prep-rate-limits
 score:
   band: strong
-  composite: 67.6
-  delta: 2.8
+  composite: 65.7
+  delta: -1.9
   facets:
     commercial_clarity: 86.8
-    contract_quality: 74.3
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 75.4
+    developer_ergonomics: 49.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 64.8
+  previous_composite: 67.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 60.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

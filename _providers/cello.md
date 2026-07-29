@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -185,21 +187,31 @@ overview: 'Cello publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cello''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 51
+random_paper: 65
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 52.1
+  delta: 0.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 50.6
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 52.4
+    developer_ergonomics: 75.5
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 21.1
   previous_composite: 52.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/screenshots/cello-2026-07-25T204908.png
 security:

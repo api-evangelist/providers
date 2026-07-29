@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -194,21 +196,31 @@ overview: 'Even Financial publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Even Financial''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 20 more developer resources.'
-random_paper: 48
+random_paper: 22
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 50.9
+  delta: -1.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 70.4
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.9
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 52.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/screenshots/even-financial-2026-07-25T213723.png
 security:

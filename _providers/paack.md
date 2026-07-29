@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'REST API for creating and managing parcel delivery orders, generating shipping labels, checking delivery coverage, retrieving proof of delivery, and consuming real-time tracking events. Authenticated '
@@ -161,22 +163,25 @@ overview: 'Paack publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Paack''s developer surface includes authentication, changelog, sandbox, developer portal, documentation, API reference, getting-started guide, and 19 more developer resources.'
-random_paper: 36
+random_paper: 50
 score:
-  band: thin
-  composite: 37.9
-  delta: 0.0
+  band: developing
+  composite: 44.7
+  delta: 6.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 22.6
-    developer_ergonomics: 78.3
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 71.7
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 23.7
   previous_composite: 37.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Paack Authentication

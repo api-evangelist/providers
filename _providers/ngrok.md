@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 1
@@ -109,12 +111,88 @@ apis:
 - description: Tunnels represent individual tunnels within a tunnel session.
   name: ngrok Tunnels API
   slug: ngrok-tunnels-api
-artifact_total: 48
+artifact_total: 72
 collections:
+- collection_type: postman
+  name: Ngrok Abuse Reports API
+  slug: postman-ngrok-abuse-reports-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Agent Ingresses API
+  slug: postman-ngrok-agent-ingresses-api
+- collection_type: postman
+  name: Ngrok Abuse Reports API Keys API
+  slug: postman-ngrok-api-keys-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Backends API
+  slug: postman-ngrok-backends-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Certificate Authorities API
+  slug: postman-ngrok-certificate-authorities-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Credentials API
+  slug: postman-ngrok-credentials-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Edges HTTPS API
+  slug: postman-ngrok-edges-https-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Edges TCP API
+  slug: postman-ngrok-edges-tcp-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Edges TLS API
+  slug: postman-ngrok-edges-tls-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Endpoints API
+  slug: postman-ngrok-endpoints-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Event Destinations API
+  slug: postman-ngrok-event-destinations-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Event Subscriptions API
+  slug: postman-ngrok-event-subscriptions-api
+- collection_type: postman
+  name: Ngrok Abuse Reports IP Policies API
+  slug: postman-ngrok-ip-policies-api
+- collection_type: postman
+  name: Ngrok Abuse Reports IP Policy Rules API
+  slug: postman-ngrok-ip-policy-rules-api
+- collection_type: postman
+  name: Ngrok Abuse Reports IP Restrictions API
+  slug: postman-ngrok-ip-restrictions-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Reserved Addresses API
+  slug: postman-ngrok-reserved-addresses-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Reserved Domains API
+  slug: postman-ngrok-reserved-domains-api
+- collection_type: postman
+  name: Ngrok Abuse Reports SSH Certificate Authorities API
+  slug: postman-ngrok-ssh-certificate-authorities-api
+- collection_type: postman
+  name: Ngrok Abuse Reports SSH Credentials API
+  slug: postman-ngrok-ssh-credentials-api
+- collection_type: postman
+  name: Ngrok Abuse Reports SSH Host Certificates API
+  slug: postman-ngrok-ssh-host-certificates-api
+- collection_type: postman
+  name: Ngrok Abuse Reports SSH User Certificates API
+  slug: postman-ngrok-ssh-user-certificates-api
+- collection_type: postman
+  name: Ngrok Abuse Reports TLS Certificates API
+  slug: postman-ngrok-tls-certificates-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Tunnel Sessions API
+  slug: postman-ngrok-tunnel-sessions-api
+- collection_type: postman
+  name: Ngrok Abuse Reports Tunnels API
+  slug: postman-ngrok-tunnels-api
 - collection_type: open
   name: Ngrok API
   slug: open-ngrok-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ngrok/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -275,12 +353,12 @@ overview: 'ngrok publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
   The ngrok catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ngrok''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, pricing, and 18 more developer resources.'
+  ngrok''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, pricing, and 19 more developer resources.'
 plans:
 - name: Ngrok Plans Pricing
   plan_count: 3
   slug: ngrok-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Ngrok Rate Limits
@@ -296,18 +374,25 @@ rules:
   slug: ngrok-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 68.5
-  delta: 4.8
+  composite: 65.3
+  delta: -3.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 72.6
-    developer_ergonomics: 58.7
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 73.7
+    developer_ergonomics: 63.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 63.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ngrok/refs/heads/main/screenshots/ngrok-2026-06-20T190307.png
 security:

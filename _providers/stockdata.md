@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 78.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: Real-time and historical stock market price data
   name: StockData Stock Data API
   slug: stockdata-stock-data-api
-artifact_total: 19
+artifact_total: 22
 collections:
+- collection_type: postman
+  name: StockData Entities API
+  slug: postman-stockdata-entities-api
+- collection_type: postman
+  name: StockData Entities News API
+  slug: postman-stockdata-news-api
+- collection_type: postman
+  name: StockData Entities Stock Data API
+  slug: postman-stockdata-stock-data-api
 - collection_type: open
   name: StockData API
   slug: open-stockdata
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/stockdata/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -233,12 +248,12 @@ overview: 'StockData publishes 3 APIs on the [APIs.io](https://apis.io/) network
   The StockData catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  StockData''s developer surface includes authentication, code examples, developer portal, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
+  StockData''s developer surface includes authentication, code examples, developer portal, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
 plans:
 - name: Stockdata Plans Pricing
   plan_count: 5
   slug: stockdata-plans-pricing
-random_paper: 6
+random_paper: 34
 rate_limits:
 - limit_count: 6
   name: Stockdata Rate Limits
@@ -262,23 +277,34 @@ rules:
   slug: stockdata-rules
 score:
   band: strong
-  composite: 69.1
-  delta: 2.8
+  composite: 65.7
+  delta: -3.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 65.5
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.9
+    developer_ergonomics: 58.2
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 31.6
-  previous_composite: 66.3
+  previous_composite: 69.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
 security:

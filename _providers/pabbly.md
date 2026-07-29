@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: API for managing subscriptions, billing, plans, and customers in Pabbly Subscriptions.
@@ -106,25 +108,25 @@ plans:
 - name: Pabbly Plans Pricing
   plan_count: 3
   slug: pabbly-plans-pricing
-random_paper: 22
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Pabbly Rate Limits
   slug: pabbly-rate-limits
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 30.5
+  delta: -1.4
   facets:
     commercial_clarity: 84.2
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 55.0
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 31.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/screenshots/pabbly-2026-06-20T191303.png
 security:

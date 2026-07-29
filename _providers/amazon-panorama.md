@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -55,12 +57,34 @@ apis:
 - description: The Tags API from Amazon Panorama — 2 operation(s) for tags.
   name: Amazon Panorama Tags API
   slug: amazon-panorama-tags-api
-artifact_total: 681
+artifact_total: 687
 collections:
+- collection_type: postman
+  name: AWS Panorama Application Instances API
+  slug: postman-amazon-panorama-application-instances-api
+- collection_type: postman
+  name: AWS Panorama Application Instances Devices API
+  slug: postman-amazon-panorama-devices-api
+- collection_type: postman
+  name: AWS Panorama Application Instances Jobs API
+  slug: postman-amazon-panorama-jobs-api
+- collection_type: postman
+  name: AWS Panorama Application Instances Nodes API
+  slug: postman-amazon-panorama-nodes-api
+- collection_type: postman
+  name: AWS Panorama Application Instances Packages API
+  slug: postman-amazon-panorama-packages-api
+- collection_type: postman
+  name: AWS Panorama Application Instances Tags API
+  slug: postman-amazon-panorama-tags-api
 - collection_type: open
   name: AWS Panorama
   slug: open-amazon-panorama
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-panorama/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2180,12 +2204,12 @@ overview: 'Amazon Panorama publishes 6 APIs on the [APIs.io](https://apis.io/) n
   The Amazon Panorama catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Panorama''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
+  Amazon Panorama''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
 plans:
 - name: Amazon Panorama Plans Pricing
   plan_count: 3
   slug: amazon-panorama-plans-pricing
-random_paper: 42
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Amazon Panorama Rate Limits
@@ -2209,18 +2233,25 @@ rules:
   slug: amazon-panorama-spectral-rules
 score:
   band: strong
-  composite: 68.2
-  delta: 3.3
+  composite: 64.7
+  delta: -3.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 70.3
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 70.8
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 64.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/screenshots/amazon-panorama-2026-06-20T171756.png
 security:

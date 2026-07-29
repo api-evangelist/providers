@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -169,7 +171,7 @@ plans:
 - name: United States Army Corps Of Engineers Plans Pricing
   plan_count: 3
   slug: united-states-army-corps-of-engineers-plans-pricing
-random_paper: 27
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: United States Army Corps Of Engineers Rate Limits
@@ -193,18 +195,25 @@ rules:
   slug: united-states-army-corps-of-engineers-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 3.2
+  composite: 44.0
+  delta: -3.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.4
+    contract_quality: 64.0
     developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 60.5
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 44.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 47.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/screenshots/united-states-army-corps-of-engineers-2026-06-20T200046.png
 security:

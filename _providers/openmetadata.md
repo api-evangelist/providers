@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: true
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 848
   human_in_the_loop: 12
@@ -508,7 +510,7 @@ plans:
 - name: Openmetadata Plans Pricing
   plan_count: 5
   slug: openmetadata-plans-pricing
-random_paper: 43
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Openmetadata Rate Limits
@@ -524,19 +526,26 @@ rules:
   slug: openmetadata-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 45.6
+  delta: -5.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.3
+    contract_quality: 53.6
     developer_ergonomics: 28.3
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 51.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 89
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/screenshots/openmetadata-2026-06-20T191017.png
 security:
 - kind: authentication

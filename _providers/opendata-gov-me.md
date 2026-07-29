@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'CKAN Action API for Montenegro Open Data, a consistent JSON-over-HTTP interface over a catalog of 894 datasets. Standard actions include package_search, package_show, package_list, organization_list, '
@@ -78,30 +80,31 @@ plans:
 - name: Opendata Gov Me Plans Pricing
   plan_count: 1
   slug: opendata-gov-me-plans-pricing
-random_paper: 48
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Opendata Gov Me Rate Limits
   slug: opendata-gov-me-rate-limits
 score:
   band: emerging
-  composite: 16.6
-  delta: 0.0
+  composite: 14.5
+  delta: -2.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 0.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/screenshots/opendata-gov-me-2026-06-20T190939.png
 slug: opendata-gov-me

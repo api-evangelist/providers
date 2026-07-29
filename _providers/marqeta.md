@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 12
@@ -379,7 +381,7 @@ plans:
 - name: Marqeta Plans Pricing
   plan_count: 2
   slug: marqeta-plans-pricing
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Marqeta Rate Limits
@@ -403,24 +405,32 @@ rules:
   slug: marqeta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.8
-  delta: 2.1
+  composite: 43.3
+  delta: -5.5
   facets:
     commercial_clarity: 36.8
-    contract_quality: 72.8
+    contract_quality: 73.7
     developer_ergonomics: 10.9
-    discoverability: 92.5
-    governance: 52.6
+    discoverability: 68.5
+    governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 46.7
+  previous_composite: 48.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 79
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 43.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png
 security:
 - kind: authentication

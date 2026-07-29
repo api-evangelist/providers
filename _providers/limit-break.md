@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 30.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.2
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 27
 common:
@@ -146,21 +148,24 @@ overview: 'Limit Break is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Limit Break''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, sandbox, authentication, and 19 more developer resources.'
-random_paper: 17
+random_paper: 27
 score:
-  band: emerging
-  composite: 28.9
-  delta: 0.0
+  band: thin
+  composite: 30.5
+  delta: 1.6
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 71.7
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 39.5
   previous_composite: 28.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/screenshots/limit-break-2026-07-25T225205.png
 security:

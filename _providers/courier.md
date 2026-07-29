@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -184,7 +186,7 @@ plans:
 - name: Courier Plans Pricing
   plan_count: 1
   slug: courier-plans-pricing
-random_paper: 13
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Courier Rate Limits
@@ -199,20 +201,33 @@ rules:
     warn: 7
   slug: courier-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 45.5
-  delta: 3.2
+  band: thin
+  composite: 40.1
+  delta: -5.4
   facets:
     commercial_clarity: 36.8
-    contract_quality: 64.5
+    contract_quality: 69.5
     developer_ergonomics: 13.0
-    discoverability: 87.5
-    governance: 60.5
+    discoverability: 64.8
+    governance: 47.9
     operational_transparency: 26.3
-  previous_composite: 42.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 45.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 23.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/screenshots/courier-2026-06-20T175109.png
 security:
 - kind: authentication

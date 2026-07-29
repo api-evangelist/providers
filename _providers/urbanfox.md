@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -164,7 +166,7 @@ overview: 'UrbanFox publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   UrbanFox''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 53
+random_paper: 22
 scopes:
 - name: Urbanfox Scopes
   scope_count: 13
@@ -172,18 +174,28 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 44.3
+  delta: -1.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.5
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.1
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 45.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

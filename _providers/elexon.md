@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -1178,7 +1180,7 @@ plans:
 - name: Elexon Plans Pricing
   plan_count: 1
   slug: elexon-plans-pricing
-random_paper: 39
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Elexon Rate Limits
@@ -1194,19 +1196,32 @@ rules:
   slug: elexon-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 43.5
+  delta: -8.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.4
+    contract_quality: 54.7
     developer_ergonomics: 23.9
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 51.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 20.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/elexon/refs/heads/main/screenshots/elexon-2026-06-20T180600.png
 security:
 - kind: domain-security

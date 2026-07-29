@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The IYK API provides primitives for building digi-physical experiences. Core endpoints manage chips (NFC tags such as NTAG 424, KONG, and ARX HaLo), chip groups, items, taps/refs (validated physical i
@@ -110,21 +112,23 @@ overview: 'IYK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   IYK''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 61
+random_paper: 25
 score:
   band: emerging
-  composite: 26.5
-  delta: 0.0
+  composite: 24.7
+  delta: -1.8
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 52.2
-    discoverability: 92.5
+    developer_ergonomics: 45.7
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 26.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iyk/refs/heads/main/screenshots/iyk-2026-07-25T223022.png
 security:

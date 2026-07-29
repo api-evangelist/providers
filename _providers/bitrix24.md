@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1570
   human_in_the_loop: 37
@@ -222,7 +224,7 @@ overview: 'Bitrix24 publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bitrix24''s developer surface includes authentication, documentation, pricing, signup flow, training material, engineering blog, and 9 more developer resources.'
-random_paper: 12
+random_paper: 67
 scopes:
 - name: Bitrix24 Scopes
   scope_count: 51
@@ -230,18 +232,25 @@ scopes:
   summary_line: 51 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.7
-  delta: 3.2
+  composite: 30.3
+  delta: -2.4
   facets:
     commercial_clarity: 10.5
-    contract_quality: 55.5
+    contract_quality: 56.2
     developer_ergonomics: 30.4
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 32.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/screenshots/bitrix24-2026-06-20T173320.png
 security:

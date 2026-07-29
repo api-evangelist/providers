@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: 'Tracks bottles, ingredients, and SKUs with counts, par levels, and variance across the venue''s item catalog. Exposed in the WISK product and apps; not published as a public, self-serve developer API. '
@@ -98,25 +100,25 @@ plans:
 - name: Wisk Ai Plans Pricing
   plan_count: 5
   slug: wisk-ai-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Wisk Ai Rate Limits
   slug: wisk-ai-rate-limits
 score:
-  band: thin
-  composite: 30.6
-  delta: 2.0
+  band: emerging
+  composite: 26.9
+  delta: -3.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 8.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 28.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 30.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 8.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 8.1
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,21 +99,23 @@ overview: 'Prompt Driven is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Prompt Driven''s developer surface includes documentation, support, CLI, changelog, and 10 more developer resources.'
-random_paper: 7
+random_paper: 58
 score:
   band: emerging
-  composite: 18.9
-  delta: 0.0
+  composite: 19.0
+  delta: 0.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 18.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

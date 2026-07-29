@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Aduna's aggregated implementation of the CAMARA Number Verification API (v2.1), confirming possession of a mobile phone number in real time by verifying it directly against the carrier network with mi
@@ -167,27 +169,35 @@ overview: 'Aduna publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aduna''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 26 more developer resources.'
-random_paper: 45
+random_paper: 59
 scopes:
 - name: Aduna Scopes
   scope_count: 4
   slug: aduna-scopes
   summary_line: 4 scopes · authorizationCode/urn:ietf:params:oauth:grant-type:jwt-bearer/ciba
 score:
-  band: emerging
-  composite: 28.6
-  delta: 0.0
+  band: thin
+  composite: 36.5
+  delta: 7.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 28.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Aduna Authentication

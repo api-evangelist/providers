@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -69,8 +71,40 @@ apis:
 - description: Create and manipulate text frames, including point text, area text, and text on a path, with full typography control.
   name: Adobe Illustrator Text Frames API
   slug: adobe-illustrator-text-frames-api
-artifact_total: 84
+artifact_total: 93
+collections:
+- collection_type: postman
+  name: Adobe Illustrator Scripting Application API
+  slug: postman-adobe-illustrator-application-api
+- collection_type: postman
+  name: Adobe Illustrator Scripting Application Artboards API
+  slug: postman-adobe-illustrator-artboards-api
+- collection_type: postman
+  name: Adobe Illustrator Scripting Application Documents API
+  slug: postman-adobe-illustrator-documents-api
+- collection_type: postman
+  name: Adobe Illustrator Scripting Application Graphic Styles API
+  slug: postman-adobe-illustrator-graphic-styles-api
+- collection_type: postman
+  name: Adobe Illustrator Scripting Application Layers API
+  slug: postman-adobe-illustrator-layers-api
+- collection_type: postman
+  name: Adobe Illustrator Scripting Application Path Items API
+  slug: postman-adobe-illustrator-path-items-api
+- collection_type: postman
+  name: Adobe Illustrator Scripting Application Swatches API
+  slug: postman-adobe-illustrator-swatches-api
+- collection_type: postman
+  name: Adobe Illustrator Scripting Application Symbols API
+  slug: postman-adobe-illustrator-symbols-api
+- collection_type: postman
+  name: Adobe Illustrator Scripting Application Text Frames API
+  slug: postman-adobe-illustrator-text-frames-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/adobe-illustrator/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -357,12 +391,12 @@ overview: 'Adobe Illustrator publishes 9 APIs on the [APIs.io](https://apis.io/)
   The Adobe Illustrator catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Adobe Illustrator''s developer surface includes documentation, changelog, support, developer portal, engineering blog, Stack Overflow tag, YouTube channel, and 19 more developer resources.'
+  Adobe Illustrator''s developer surface includes documentation, changelog, support, developer portal, engineering blog, Stack Overflow tag, YouTube channel, and 20 more developer resources.'
 plans:
 - name: Adobe Illustrator Plans Pricing
   plan_count: 3
   slug: adobe-illustrator-plans-pricing
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Adobe Illustrator Rate Limits
@@ -386,18 +420,25 @@ rules:
   slug: adobe-illustrator-spectral-rules
 score:
   band: strong
-  composite: 64.5
-  delta: 0.0
+  composite: 59.9
+  delta: -4.6
   facets:
     commercial_clarity: 78.9
-    contract_quality: 64.2
-    developer_ergonomics: 23.9
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 58.8
+    developer_ergonomics: 28.3
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 78.9
   previous_composite: 64.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/screenshots/adobe-illustrator-2026-06-20T164935.png
 security:

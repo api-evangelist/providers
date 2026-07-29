@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Client SDK for embedding and interacting with Spline scenes from JavaScript.
@@ -110,25 +112,25 @@ plans:
 - name: Spline Plans Pricing
   plan_count: 4
   slug: spline-plans-pricing
-random_paper: 39
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Spline Rate Limits
   slug: spline-rate-limits
 score:
   band: emerging
-  composite: 24.6
-  delta: 0.0
+  composite: 22.0
+  delta: -2.6
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spline/refs/heads/main/screenshots/spline-2026-06-20T194404.png
 security:

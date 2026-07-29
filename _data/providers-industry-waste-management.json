@@ -16,91 +16,38 @@
      "slug": "waste-management",
      "description": "Waste Management (WM) is the largest environmental services company in North America, providing waste collection, transfer, disposal, and recycling services to over 20 million residential, commercial, industrial, and municipal customers across the United States. WM provides RESTful APIs for customers and third-party integrators to access account data including balance, services, invoices, pickup schedules, and ETAs via JWT authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/screenshots/waste-management-2026-06-20T201242.png",
-     "score": 49.1,
+     "score": 45.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 69.9,
-      "governance": 86.8,
+      "discoverability": 72.2,
+      "contract_quality": 71.2,
+      "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
+     "schema_version": 0.6,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Stericycle",
-     "slug": "stericycle",
-     "description": "Stericycle is a Fortune 500 compliance company specializing in regulated medical waste disposal, sharps management, pharmaceutical waste, secure information destruction, and healthcare compliance training. In November 2024, Stericycle was acquired by Waste Management (WM) for approximately $7.2 billion. The company operates as WM Healthcare Solutions division, serving hospitals, clinics, medical offices, dental practices, veterinary facilities, and other healthcare organizations. Stericycle's MyStericycle customer portal enables online account management, scheduling, compliance training, and billing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/screenshots/stericycle-2026-06-20T194548.png",
-     "score": 31.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 15.1,
-      "governance": 73.7,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 23.9
-     },
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 2
     }
    ],
    "open": true
@@ -110,27 +57,72 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "Stericycle",
+     "slug": "stericycle",
+     "description": "Stericycle is a Fortune 500 compliance company specializing in regulated medical waste disposal, sharps management, pharmaceutical waste, secure information destruction, and healthcare compliance training. In November 2024, Stericycle was acquired by Waste Management (WM) for approximately $7.2 billion. The company operates as WM Healthcare Solutions division, serving hospitals, clinics, medical offices, dental practices, veterinary facilities, and other healthcare organizations. Stericycle's MyStericycle customer portal enables online account management, scheduling, compliance training, and billing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/screenshots/stericycle-2026-06-20T194548.png",
+     "score": 26.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
+      "governance": 58.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 2
+    },
     {
      "name": "Clean Harbors",
      "slug": "clean-harbors",
      "description": "Clean Harbors is the largest provider of environmental and industrial services in North America, delivering hazardous and non-hazardous waste management, emergency response, industrial cleaning, environmental remediation, and used-oil and solvent recycling through its Safety-Kleen subsidiary. Clean Harbors does not publish a public developer portal or general-purpose REST API surface; programmatic interfaces are limited to the authenticated customer portal at clhsaas.cleanharbors.com (CLH SaaS) for service requests, manifests, and reporting, and partner-mediated EDI feeds. Customers also use the EPA e-Manifest system for federally regulated hazardous-waste manifest tracking.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clean-harbors/refs/heads/main/screenshots/clean-harbors-2026-06-20T174450.png",
-     "score": 17.7,
+     "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 15.1,
+      "discoverability": 50.0,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 15.8,
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -146,11 +138,13 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 3
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "minimal",
@@ -165,19 +159,19 @@
      "slug": "republic-services",
      "description": "Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/screenshots/republic-services-2026-06-20T192914.png",
-     "score": 14.2,
+     "score": 12.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 15.1,
+      "discoverability": 40.7,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -193,7 +187,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 4
     },
@@ -202,11 +197,11 @@
      "slug": "veolia",
      "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/veolia/refs/heads/main/screenshots/veolia-2026-06-20T200919.png",
-     "score": 5.2,
+     "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 47.5,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -214,7 +209,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -230,7 +225,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 5
     }

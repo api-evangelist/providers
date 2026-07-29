@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Charles Proxy is a cross-platform desktop HTTP proxy and monitor that sits between client applications and the Internet to capture, inspect, and modify traffic. It supports SSL proxying with certifica
@@ -90,25 +92,25 @@ plans:
 - name: Charles Proxy Plans Pricing
   plan_count: 3
   slug: charles-proxy-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Charles Proxy Rate Limits
   slug: charles-proxy-rate-limits
 score:
   band: emerging
-  composite: 27.2
-  delta: 0.0
+  composite: 25.2
+  delta: -2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 27.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/screenshots/charles-proxy-2026-06-20T174225.png
 security:

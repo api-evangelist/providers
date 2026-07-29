@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: provides endpoints to access to commands sent to the submission API
@@ -163,27 +165,37 @@ overview: 'Interhyp publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Interhyp''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 67
+random_paper: 36
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 44.7
+  delta: -5.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.2
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.2
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 49.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 31.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/screenshots/interhyp-2026-07-25T222702.png
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,8 +56,17 @@ apis:
 - description: The Encore Framework API API from Encore — 1 operation(s) for encore framework api.
   name: Encore Encore Framework API API
   slug: encore-dev-encore-framework-api-api
-artifact_total: 41
+artifact_total: 44
 collections:
+- collection_type: postman
+  name: Encore Framework Apps API
+  slug: postman-encore-dev-apps-api
+- collection_type: postman
+  name: Framework Apps Encore API
+  slug: postman-encore-dev-encore-api
+- collection_type: postman
+  name: Encore Framework Apps Encore Framework API API
+  slug: postman-encore-dev-encore-framework-api-api
 - collection_type: open
   name: Encore Framework API
   slug: open-encore-framework
@@ -63,6 +74,10 @@ collections:
   name: Encore Cloud Platform API
   slug: open-encore-platform
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/encore/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -280,12 +295,12 @@ overview: 'Encore publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
   The Encore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Encore''s developer surface includes documentation, getting-started guide, developer portal, pricing, engineering blog, changelog, and 34 more developer resources.'
+  Encore''s developer surface includes documentation, getting-started guide, developer portal, pricing, engineering blog, changelog, and 35 more developer resources.'
 plans:
 - name: Encore Dev Plans Pricing
   plan_count: 3
   slug: encore-dev-plans-pricing
-random_paper: 48
+random_paper: 76
 rate_limits:
 - limit_count: 9
   name: Encore Dev Rate Limits
@@ -309,18 +324,25 @@ rules:
   slug: encore-dev-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 4.2
+  composite: 60.7
+  delta: -3.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.5
-    developer_ergonomics: 50.0
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 64.7
+    developer_ergonomics: 54.3
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/screenshots/encore-dev-2026-06-20T180721.png
 security:

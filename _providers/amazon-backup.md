@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -180,7 +182,7 @@ overview: 'Amazon Backup publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amazon Backup''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, status page, and 17 more developer resources.'
-random_paper: 29
+random_paper: 12
 rules:
 - name: Amazon Backup API Rules
   rule_count: 5
@@ -192,18 +194,27 @@ rules:
   slug: amazon-backup-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 52.1
+  delta: -0.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
+    contract_quality: 65.3
     developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 92.6
+    governance: 69.8
     operational_transparency: 15.8
   previous_composite: 52.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/screenshots/amazon-backup-2026-07-25T195935.png
 security:

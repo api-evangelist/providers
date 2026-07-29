@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 68.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -197,7 +199,7 @@ overview: 'Allowance publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Allowance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 66
+random_paper: 26
 scopes:
 - name: Allowance Scopes
   scope_count: 3
@@ -205,23 +207,34 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 58.0
-  delta: 0.0
+  composite: 54.9
+  delta: -3.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 72.0
+    contract_quality: 70.0
     developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 58.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/screenshots/allowance-2026-07-25T195707.png
 security:

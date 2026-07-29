@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -79,12 +81,37 @@ apis:
 - description: The W-9 Forms API from Veryfi — 2 operation(s) for w-9 forms.
   name: Veryfi W-9 Forms API
   slug: veryfi-w-9-forms-api
-artifact_total: 41
+artifact_total: 48
 collections:
+- collection_type: postman
+  name: Veryfi OCR Any Documents API
+  slug: postman-veryfi-any-documents-api
+- collection_type: postman
+  name: Veryfi OCR Any Documents Bank Statements API
+  slug: postman-veryfi-bank-statements-api
+- collection_type: postman
+  name: Veryfi OCR Any Documents Checks API
+  slug: postman-veryfi-checks-api
+- collection_type: postman
+  name: Veryfi OCR Any Documents Classification API
+  slug: postman-veryfi-classification-api
+- collection_type: postman
+  name: Veryfi OCR Any Documents API
+  slug: postman-veryfi-documents-api
+- collection_type: postman
+  name: Veryfi OCR Any Documents W-2 Forms API
+  slug: postman-veryfi-w-2-forms-api
+- collection_type: postman
+  name: Veryfi OCR Any Documents W-9 Forms API
+  slug: postman-veryfi-w-9-forms-api
 - collection_type: open
   name: Veryfi OCR API
   slug: open-veryfi-ocr
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/veryfi/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -230,12 +257,12 @@ overview: 'Veryfi publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Veryfi catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Veryfi''s developer surface includes authentication, documentation, developer console, signup flow, support, and 14 more developer resources.'
+  Veryfi''s developer surface includes authentication, documentation, developer console, signup flow, support, and 15 more developer resources.'
 plans:
 - name: Veryfi Plans Pricing
   plan_count: 3
   slug: veryfi-plans-pricing
-random_paper: 49
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Veryfi Rate Limits
@@ -259,18 +286,25 @@ rules:
   slug: veryfi-ocr-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 2.0
+  composite: 58.5
+  delta: -2.9
   facets:
     commercial_clarity: 68.4
-    contract_quality: 70.4
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 71.7
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 59.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
 security:

@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.4
+  scored_at: '2026-07-28'
 api_count: 17
 apis:
 - description: The account API from Origin Protocol — 2 operation(s) for account.
@@ -142,21 +144,30 @@ overview: 'Origin Protocol publishes 17 APIs on the [APIs.io](https://apis.io/) 
 
 
   Origin Protocol''s developer surface includes documentation, API reference, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 11
+random_paper: 35
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 29.5
+  delta: -0.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 38.1
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 40.7
+    developer_ergonomics: 38.6
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 30.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

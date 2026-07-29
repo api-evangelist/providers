@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 50.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Merchant-facing payment API for GCash mini programs — cashier payment, payment inquiry, refund and refund inquiry, plus OAuth2 user authorization (authCode -> applyToken). Signed requests (Client-Id +
@@ -145,26 +147,30 @@ overview: 'GCash publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   GCash''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 42
+random_paper: 56
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 40.9
+  delta: 1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 22.6
-    developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 58.7
+    discoverability: 79.6
+    governance: 3.1
     operational_transparency: 18.4
   previous_composite: 39.5
+  provenance:
+    conformance: derived
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 48.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/screenshots/gcash-2026-07-25T215519.png
 security:

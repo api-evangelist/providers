@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Minimal, type-safe GraphQL client API supporting HTTP and in-memory transports, custom scalars, file uploads, and a composable extension system for JavaScript and TypeScript applications.
@@ -89,22 +91,22 @@ overview: 'GraphQL Request publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   GraphQL Request''s developer surface includes documentation, pricing, and 8 more developer resources.'
-random_paper: 9
+random_paper: 33
 score:
-  band: minimal
-  composite: 13.8
-  delta: 0.0
+  band: emerging
+  composite: 24.1
+  delta: 10.3
   facets:
     commercial_clarity: 10.5
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 8.7
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-request/refs/heads/main/screenshots/graphql-request-2026-06-20T182337.png
 security:
 - kind: domain-security

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -162,7 +164,7 @@ plans:
 - name: Svn Plans Pricing
   plan_count: 3
   slug: svn-plans-pricing
-random_paper: 3
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Svn Rate Limits
@@ -186,18 +188,25 @@ rules:
   slug: svn-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 2.0
+  composite: 48.7
+  delta: -4.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 66.4
+    contract_quality: 63.6
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 51.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 53.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/screenshots/svn-2026-06-20T194747.png
 security:

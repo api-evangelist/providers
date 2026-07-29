@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -64,8 +66,40 @@ apis:
 - description: The StorageAccounts API from Azure Storage Accounts — 11 operation(s) for storageaccounts.
   name: Azure Storage Accounts StorageAccounts API
   slug: azure-storage-accounts-storageaccounts-api
-artifact_total: 157
+artifact_total: 166
+collections:
+- collection_type: postman
+  name: StorageManagementClient BlobContainers API
+  slug: postman-azure-storage-accounts-blobcontainers-api
+- collection_type: postman
+  name: StorageManagementClient BlobContainers BlobService API
+  slug: postman-azure-storage-accounts-blobservice-api
+- collection_type: postman
+  name: StorageManagementClient BlobContainers LocationUsage API
+  slug: postman-azure-storage-accounts-locationusage-api
+- collection_type: postman
+  name: StorageManagementClient BlobContainers ManagementPolicies API
+  slug: postman-azure-storage-accounts-managementpolicies-api
+- collection_type: postman
+  name: StorageManagementClient BlobContainers Operations API
+  slug: postman-azure-storage-accounts-operations-api
+- collection_type: postman
+  name: StorageManagementClient BlobContainers PrivateEndpointConnections API
+  slug: postman-azure-storage-accounts-privateendpointconnections-api
+- collection_type: postman
+  name: StorageManagementClient BlobContainers PrivateLinkResources API
+  slug: postman-azure-storage-accounts-privatelinkresources-api
+- collection_type: postman
+  name: StorageManagementClient BlobContainers Skus API
+  slug: postman-azure-storage-accounts-skus-api
+- collection_type: postman
+  name: StorageManagementClient BlobContainers StorageAccounts API
+  slug: postman-azure-storage-accounts-storageaccounts-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-storage-accounts/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -570,12 +604,12 @@ overview: 'Azure Storage Accounts publishes 9 APIs on the [APIs.io](https://apis
   The Azure Storage Accounts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure Storage Accounts'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 11 more developer resources.'
+  Azure Storage Accounts'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 12 more developer resources.'
 plans:
 - name: Azure Storage Accounts Plans Pricing
   plan_count: 3
   slug: azure-storage-accounts-plans-pricing
-random_paper: 18
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Azure Storage Accounts Rate Limits
@@ -604,19 +638,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 57.3
+  delta: -6.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.5
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 50.0
+    developer_ergonomics: 54.3
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 47.4
   previous_composite: 63.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/screenshots/azure-storage-accounts-2026-06-20T172908.png
 security:
 - kind: authentication

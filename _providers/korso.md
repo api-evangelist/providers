@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.9
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 4
 common:
@@ -154,21 +156,25 @@ overview: 'Korso is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Korso''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, signup flow, and 20 more developer resources.'
-random_paper: 14
+random_paper: 19
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 32.7
+  delta: 0.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 71.7
-    discoverability: 67.5
-    governance: 0.0
+    developer_ergonomics: 66.8
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 32.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korso/refs/heads/main/screenshots/korso-2026-07-25T224225.png
 security:

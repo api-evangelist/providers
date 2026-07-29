@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -64,8 +66,40 @@ apis:
 - description: View management operations
   name: NocoDB Views API
   slug: nocodb-views-api
-artifact_total: 21
+artifact_total: 30
+collections:
+- collection_type: postman
+  name: NocoDB Data Attachments API
+  slug: postman-nocodb-attachments-api
+- collection_type: postman
+  name: NocoDB Data Attachments Auth API
+  slug: postman-nocodb-auth-api
+- collection_type: postman
+  name: NocoDB Data Attachments Bases API
+  slug: postman-nocodb-bases-api
+- collection_type: postman
+  name: NocoDB Data Attachments Fields API
+  slug: postman-nocodb-fields-api
+- collection_type: postman
+  name: NocoDB Data Attachments Hooks API
+  slug: postman-nocodb-hooks-api
+- collection_type: postman
+  name: NocoDB Data Attachments Links API
+  slug: postman-nocodb-links-api
+- collection_type: postman
+  name: NocoDB Data Attachments Records API
+  slug: postman-nocodb-records-api
+- collection_type: postman
+  name: NocoDB Data Attachments Tables API
+  slug: postman-nocodb-tables-api
+- collection_type: postman
+  name: NocoDB Data Attachments Views API
+  slug: postman-nocodb-views-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/nocodb/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,12 +221,12 @@ overview: 'NocoDB publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The NocoDB catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  NocoDB''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 16 more developer resources.'
+  NocoDB''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 17 more developer resources.'
 plans:
 - name: Nocodb Plans Pricing
   plan_count: 9
   slug: nocodb-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Nocodb Rate Limits
@@ -208,18 +242,25 @@ rules:
   slug: nocodb-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 57.1
+  delta: -4.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.7
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 69.5
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 57.9
   previous_composite: 61.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/screenshots/nocodb-2026-06-20T190347.png
 security:

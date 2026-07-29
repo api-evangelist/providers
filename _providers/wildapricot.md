@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -124,12 +126,103 @@ apis:
 - description: The Pictures API from WildApricot — 2 operation(s) for pictures.
   name: WildApricot Pictures API
   slug: wildapricot-pictures-api
-artifact_total: 93
+artifact_total: 122
 collections:
+- collection_type: postman
+  name: WildApricot Admin Accounts API
+  slug: postman-wildapricot-accounts-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Attachments API
+  slug: postman-wildapricot-attachments-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Contacts API
+  slug: postman-wildapricot-contacts-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Contacts.CustomFields API
+  slug: postman-wildapricot-contacts-customfields-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Contacts.SavedSearch API
+  slug: postman-wildapricot-contacts-savedsearch-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Donation.CustomFields API
+  slug: postman-wildapricot-donation-customfields-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Emailing.Drafts API
+  slug: postman-wildapricot-emailing-drafts-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Emailing.Operations API
+  slug: postman-wildapricot-emailing-operations-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Emailing.SentEmailRecipients API
+  slug: postman-wildapricot-emailing-sentemailrecipients-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Emailing.SentEmails API
+  slug: postman-wildapricot-emailing-sentemails-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Events API
+  slug: postman-wildapricot-events-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Events.EventRegistrations API
+  slug: postman-wildapricot-events-eventregistrations-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Events.EventRegistrationTypes API
+  slug: postman-wildapricot-events-eventregistrationtypes-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Finances.AuditLog API
+  slug: postman-wildapricot-finances-auditlog-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Finances.Donations API
+  slug: postman-wildapricot-finances-donations-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Finances.Invoices API
+  slug: postman-wildapricot-finances-invoices-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Finances.PaymentAllocations API
+  slug: postman-wildapricot-finances-paymentallocations-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Finances.Payments API
+  slug: postman-wildapricot-finances-payments-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Finances.Refunds API
+  slug: postman-wildapricot-finances-refunds-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Finances.Tenders API
+  slug: postman-wildapricot-finances-tenders-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Internal.Features API
+  slug: postman-wildapricot-internal-features-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Membership.Bundles API
+  slug: postman-wildapricot-membership-bundles-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Membership.Groups API
+  slug: postman-wildapricot-membership-groups-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Membership.Levels API
+  slug: postman-wildapricot-membership-levels-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Membership.Operations API
+  slug: postman-wildapricot-membership-operations-api
+- collection_type: postman
+  name: WildApricot Admin Accounts OnlineStore.Orders API
+  slug: postman-wildapricot-onlinestore-orders-api
+- collection_type: postman
+  name: WildApricot Admin Accounts OnlineStore.Orders.Operations API
+  slug: postman-wildapricot-onlinestore-orders-operations-api
+- collection_type: postman
+  name: WildApricot Admin Accounts OnlineStore.Products API
+  slug: postman-wildapricot-onlinestore-products-api
+- collection_type: postman
+  name: WildApricot Admin Accounts Pictures API
+  slug: postman-wildapricot-pictures-api
 - collection_type: open
   name: WildApricot Admin API
   slug: open-wildapricot-admin-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wildapricot/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -366,12 +459,12 @@ overview: 'WildApricot publishes 29 APIs on the [APIs.io](https://apis.io/) netw
   The WildApricot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WildApricot''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 12 more developer resources.'
+  WildApricot''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Wildapricot Plans Pricing
   plan_count: 3
   slug: wildapricot-plans-pricing
-random_paper: 30
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Wildapricot Rate Limits
@@ -400,24 +493,32 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 66.4
-  delta: 2.8
+  composite: 57.4
+  delta: -9.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.4
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 53.0
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 63.6
+  previous_composite: 66.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 29
+      marker_coverage: 100.0
+      total: 29
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/screenshots/wildapricot-2026-06-20T201504.png
 security:
 - kind: authentication

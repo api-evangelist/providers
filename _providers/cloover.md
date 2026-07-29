@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 11.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 10.8
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,21 +99,29 @@ overview: 'Cloover is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cloover''s developer surface includes engineering blog, signup flow, support, and 10 more developer resources.'
-random_paper: 14
+random_paper: 69
 score:
   band: emerging
-  composite: 16.6
-  delta: 0.0
+  composite: 17.1
+  delta: 0.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 18.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloover/refs/heads/main/screenshots/cloover-2026-07-25T205651.png
 security:

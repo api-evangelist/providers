@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: REST API for Lightspeed Retail X-Series point-of-sale system enabling integrations for sales operations, product management, inventory updates, loyalty handling, and webhooks for retail merchants.
@@ -114,30 +116,31 @@ plans:
 - name: Lightspeed Plans Pricing
   plan_count: 0
   slug: lightspeed-plans-pricing
-random_paper: 45
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Lightspeed Rate Limits
   slug: lightspeed-rate-limits
 score:
   band: emerging
-  composite: 25.8
-  delta: 0.0
+  composite: 24.2
+  delta: -1.6
   facets:
     commercial_clarity: 18.4
-    contract_quality: 37.7
+    contract_quality: 43.2
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 25.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 9.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png
 security:

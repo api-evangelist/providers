@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -79,8 +81,55 @@ apis:
 - description: The Service Integrations API from Amazon DevOps Guru — 1 operation(s) for service integrations.
   name: Amazon DevOps Guru Service Integrations API
   slug: amazon-devops-guru-service-integrations-api
-artifact_total: 104
+artifact_total: 118
+collections:
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts API
+  slug: postman-amazon-devops-guru-accounts-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Anomalies API
+  slug: postman-amazon-devops-guru-anomalies-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Channels API
+  slug: postman-amazon-devops-guru-channels-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Cost Estimation API
+  slug: postman-amazon-devops-guru-cost-estimation-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Event Sources API
+  slug: postman-amazon-devops-guru-event-sources-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Events API
+  slug: postman-amazon-devops-guru-events-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Feedback API
+  slug: postman-amazon-devops-guru-feedback-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Insights API
+  slug: postman-amazon-devops-guru-insights-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts List Log Anomalies API
+  slug: postman-amazon-devops-guru-list-log-anomalies-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts MonitoredResources API
+  slug: postman-amazon-devops-guru-monitoredresources-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Organization API
+  slug: postman-amazon-devops-guru-organization-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Recommendations API
+  slug: postman-amazon-devops-guru-recommendations-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Resource Collections API
+  slug: postman-amazon-devops-guru-resource-collections-api
+- collection_type: postman
+  name: Amazon DevOps Guru Accounts Service Integrations API
+  slug: postman-amazon-devops-guru-service-integrations-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-devops-guru/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -402,12 +451,12 @@ overview: 'Amazon DevOps Guru publishes 14 APIs on the [APIs.io](https://apis.io
   The Amazon DevOps Guru catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DevOps Guru''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon DevOps Guru''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Devops Guru Plans Pricing
   plan_count: 3
   slug: amazon-devops-guru-plans-pricing
-random_paper: 8
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Amazon Devops Guru Rate Limits
@@ -431,18 +480,25 @@ rules:
   slug: amazon-devops-guru-spectral-rules
 score:
   band: strong
-  composite: 68.4
-  delta: 0.0
+  composite: 65.9
+  delta: -2.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 71.1
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 72.4
+    developer_ergonomics: 45.7
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 68.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/screenshots/amazon-devops-guru-2026-06-20T171630.png
 security:

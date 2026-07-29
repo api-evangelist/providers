@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Fxiaoke Open API v2 exposes CRM business objects (accounts, contacts, leads, opportunities, products, orders) and common services (approval workflows, directory/contact sync, business-data sync) a
@@ -118,21 +120,23 @@ overview: 'Fxiaoke publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Fxiaoke''s developer surface includes documentation, API reference, getting-started guide, support, pricing, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 63
+random_paper: 50
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 27.0
+  delta: 1.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 26.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fxiaoke/refs/heads/main/screenshots/fxiaoke-2026-07-25T215341.png
 security:

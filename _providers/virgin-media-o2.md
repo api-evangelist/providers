@@ -2,11 +2,13 @@
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The anonymous read surface of the Virgin Media O2 press newsroom, served by WordPress at news.virginmediao2.co.uk/wp-json/. It is the only callable, self-describing API Virgin Media O2 serves on a hos
@@ -129,21 +131,29 @@ overview: 'Virgin Media O2 publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Virgin Media O2''s developer surface includes support, engineering blog, and 17 more developer resources.'
-random_paper: 58
+random_paper: 32
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 26.7
+  delta: 2.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 18.9
+    contract_quality: 16.1
     developer_ergonomics: 6.5
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 23.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

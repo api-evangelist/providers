@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.3
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: OpenAI-compatible LLM gateway. Call hosted models from OpenAI, Anthropic, Google and open-weights providers through a single Bearer-authenticated endpoint with one bill, using provider/model names suc
@@ -141,25 +143,28 @@ overview: 'Lightning.AI publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lightning.AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, sandbox, and 16 more developer resources.'
-random_paper: 10
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Lightningai Rate Limits
   slug: lightningai-rate-limits
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 31.4
+  delta: 0.9
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 30.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightningai/refs/heads/main/screenshots/lightningai-2026-07-25T225125.png
 security:

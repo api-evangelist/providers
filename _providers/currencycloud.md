@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -117,12 +119,98 @@ apis:
 - description: Manage withdrawal accounts
   name: Currencycloud Withdrawal Accounts API
   slug: currencycloud-withdrawal-accounts-api
-artifact_total: 34
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Currencycloud Webhooks
   slug: currencycloud-webhooks
+collections:
+- collection_type: postman
+  name: api-onboarding Account Usage API
+  slug: postman-currencycloud-account-usage-api
+- collection_type: postman
+  name: api-onboarding Account Usage Accounts API
+  slug: postman-currencycloud-accounts-api
+- collection_type: postman
+  name: api-onboarding Account Usage Authenticate API
+  slug: postman-currencycloud-authenticate-api
+- collection_type: postman
+  name: api-onboarding Account Usage Balances API
+  slug: postman-currencycloud-balances-api
+- collection_type: postman
+  name: api-onboarding Account Usage Beneficiaries API
+  slug: postman-currencycloud-beneficiaries-api
+- collection_type: postman
+  name: api-onboarding Account Usage Business Information API
+  slug: postman-currencycloud-business-information-api
+- collection_type: postman
+  name: api-onboarding Account Usage Contacts API
+  slug: postman-currencycloud-contacts-api
+- collection_type: postman
+  name: api-onboarding Account Usage Conversions API
+  slug: postman-currencycloud-conversions-api
+- collection_type: postman
+  name: api-onboarding Account Usage Country API
+  slug: postman-currencycloud-country-api
+- collection_type: postman
+  name: api-onboarding Account Usage Currency API
+  slug: postman-currencycloud-currency-api
+- collection_type: postman
+  name: api-onboarding Account Usage Demo API
+  slug: postman-currencycloud-demo-api
+- collection_type: postman
+  name: api-onboarding Account Usage Document Images API
+  slug: postman-currencycloud-document-images-api
+- collection_type: postman
+  name: api-onboarding Account Usage Documents API
+  slug: postman-currencycloud-documents-api
+- collection_type: postman
+  name: api-onboarding Account Usage Form API
+  slug: postman-currencycloud-form-api
+- collection_type: postman
+  name: api-onboarding Account Usage Funding API
+  slug: postman-currencycloud-funding-api
+- collection_type: postman
+  name: api-onboarding Account Usage Payers API
+  slug: postman-currencycloud-payers-api
+- collection_type: postman
+  name: api-onboarding Account Usage Payments API
+  slug: postman-currencycloud-payments-api
+- collection_type: postman
+  name: api-onboarding Account Usage People API
+  slug: postman-currencycloud-people-api
+- collection_type: postman
+  name: api-onboarding Account Usage Quotes API
+  slug: postman-currencycloud-quotes-api
+- collection_type: postman
+  name: api-onboarding Account Usage Rates API
+  slug: postman-currencycloud-rates-api
+- collection_type: postman
+  name: api-onboarding Account Usage Reference API
+  slug: postman-currencycloud-reference-api
+- collection_type: postman
+  name: api-onboarding Account Usage Reporting API
+  slug: postman-currencycloud-reporting-api
+- collection_type: postman
+  name: api-onboarding Account Usage Sender API
+  slug: postman-currencycloud-sender-api
+- collection_type: postman
+  name: api-onboarding Account Usage Transaction Approval API
+  slug: postman-currencycloud-transaction-approval-api
+- collection_type: postman
+  name: api-onboarding Account Usage Transactions API
+  slug: postman-currencycloud-transactions-api
+- collection_type: postman
+  name: api-onboarding Account Usage Transfers API
+  slug: postman-currencycloud-transfers-api
+- collection_type: postman
+  name: api-onboarding Account Usage Withdrawal Accounts API
+  slug: postman-currencycloud-withdrawal-accounts-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/currencycloud/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -277,32 +365,43 @@ overview: 'Currencycloud publishes 27 APIs on the [APIs.io](https://apis.io/) ne
   The Currencycloud catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Currencycloud''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 27 more developer resources.'
-random_paper: 50
+  Currencycloud''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 28 more developer resources.'
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Currencycloud Rate Limits
   slug: currencycloud-rate-limits
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 58.1
+  delta: -5.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.2
-    developer_ergonomics: 82.6
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 71.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 84.2
   previous_composite: 63.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 38.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/screenshots/currencycloud-2026-07-25T210947.png
 security:
 - kind: authentication

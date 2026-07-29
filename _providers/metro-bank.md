@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +146,7 @@ overview: 'Metro Bank publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Metro Bank''s developer surface includes authentication, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 56
+random_paper: 7
 scopes:
 - name: Metro Bank Scopes
   scope_count: 4
@@ -152,23 +154,34 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 35.1
+  delta: -1.8
   facets:
     commercial_clarity: 10.5
-    contract_quality: 37.7
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 38.6
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 36.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 65.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

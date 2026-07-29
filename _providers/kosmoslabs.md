@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: OpenTelemetry Protocol (OTLP) ingest endpoint for sending traces, metrics and logs into the Kosmos operational intelligence platform. Accepts OTLP over HTTP (primary) and gRPC (alternative), authentic
@@ -146,25 +148,27 @@ overview: 'Kosmos AI Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Kosmos AI Labs'' developer surface includes documentation, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 66
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Kosmoslabs Rate Limits
   slug: kosmoslabs-rate-limits
 score:
-  band: emerging
-  composite: 28.0
-  delta: 0.0
+  band: thin
+  composite: 29.0
+  delta: 1.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 37.0
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 10.5
   previous_composite: 28.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/screenshots/kosmoslabs-2026-07-25T224239.png
 security:

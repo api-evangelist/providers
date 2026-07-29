@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The Screaming Frog SEO Spider is a desktop website crawler for Windows, macOS, and Ubuntu that performs comprehensive technical SEO audits. It crawls websites to find broken links, analyze page titles
@@ -105,7 +107,7 @@ plans:
 - name: Screaming Frog Plans Pricing
   plan_count: 3
   slug: screaming-frog-plans-pricing
-random_paper: 0
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Screaming Frog Rate Limits
@@ -121,18 +123,18 @@ rules:
   slug: screaming-frog-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 34.0
+  delta: -4.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 26.4
+    contract_quality: 22.6
     developer_ergonomics: 6.5
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 31.6
   previous_composite: 38.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png
 security:

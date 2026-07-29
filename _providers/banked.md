@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Account-to-account payments over open banking — create payment sessions (checkout), payouts, refunds, and webhooks. The Partner API onboards businesses on behalf of platforms. OAuth 2.0 client-credent
@@ -165,26 +167,30 @@ overview: 'Banked publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Banked''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 1
+random_paper: 74
 score:
-  band: thin
-  composite: 42.9
-  delta: 0.0
+  band: developing
+  composite: 46.2
+  delta: 3.3
   facets:
     commercial_clarity: 23.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 47.4
   previous_composite: 42.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 34.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banked/refs/heads/main/screenshots/banked-2026-07-25T202342.png
 security:

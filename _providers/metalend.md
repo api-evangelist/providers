@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -192,26 +194,37 @@ overview: 'MetaLend publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   MetaLend''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, pricing, support, and 20 more developer resources.'
-random_paper: 26
+random_paper: 72
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 51.1
+  delta: -2.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 60.4
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.7
+    developer_ergonomics: 67.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 5.3
   previous_composite: 53.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

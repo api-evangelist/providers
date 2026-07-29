@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -319,7 +321,7 @@ press:
 - date: '2026-05-25'
   title: Bank of America's Moynihan Says AI's Economic Benefit Is ' ...
   url: https://www.bloomberg.com/news/articles/2025-12-22/bofa-s-moynihan-says-ai-s-economic-benefit-is-kicking-in-more
-random_paper: 9
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Bank Of America Rate Limits
@@ -348,24 +350,32 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 58.2
-  delta: 2.8
+  composite: 52.0
+  delta: -6.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.3
+    contract_quality: 70.1
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 55.4
+  previous_composite: 58.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 58.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png
 security:
 - kind: authentication

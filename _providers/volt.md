@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Authenticated remote MCP server that lets AI models and agents access a user's Volt (WhatsApp) data — contacts, chats, messages, groups, and lists.
@@ -90,21 +92,30 @@ overview: 'Volt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Volt''s developer surface includes documentation, pricing, engineering blog, changelog, authentication, and 5 more developer resources.'
-random_paper: 45
+random_paper: 68
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.0
+  composite: 17.9
+  delta: -2.9
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 37.0
-    discoverability: 92.5
+    developer_ergonomics: 32.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 20.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

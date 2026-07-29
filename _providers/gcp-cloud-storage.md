@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 13
@@ -55,12 +57,31 @@ apis:
 - description: Operations for managing objects within Cloud Storage buckets
   name: Google Cloud Storage Objects API
   slug: gcp-cloud-storage-objects-api
-artifact_total: 64
+artifact_total: 69
 collections:
+- collection_type: postman
+  name: Google Cloud Storage JSON BucketAccessControls API
+  slug: postman-gcp-cloud-storage-bucketaccesscontrols-api
+- collection_type: postman
+  name: Google Cloud Storage JSON BucketAccessControls Buckets API
+  slug: postman-gcp-cloud-storage-buckets-api
+- collection_type: postman
+  name: Google Cloud Storage JSON BucketAccessControls DefaultObjectAccessControls API
+  slug: postman-gcp-cloud-storage-defaultobjectaccesscontrols-api
+- collection_type: postman
+  name: Google Cloud Storage JSON BucketAccessControls ObjectAccessControls API
+  slug: postman-gcp-cloud-storage-objectaccesscontrols-api
+- collection_type: postman
+  name: Google Cloud Storage JSON BucketAccessControls Objects API
+  slug: postman-gcp-cloud-storage-objects-api
 - collection_type: open
   name: Google Cloud Storage JSON API
   slug: open-gcp-cloud-storage-json-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-storage/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -280,12 +301,12 @@ overview: 'Google Cloud Storage publishes 5 APIs on the [APIs.io](https://apis.i
   The Google Cloud Storage catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Cloud Storage''s developer surface includes authentication, getting-started guide, developer console, engineering blog, changelog, API reference, CLI, and 11 more developer resources.'
+  Google Cloud Storage''s developer surface includes authentication, getting-started guide, developer console, engineering blog, changelog, API reference, CLI, and 12 more developer resources.'
 plans:
 - name: Gcp Cloud Storage Plans Pricing
   plan_count: 3
   slug: gcp-cloud-storage-plans-pricing
-random_paper: 64
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Gcp Cloud Storage Rate Limits
@@ -314,19 +335,26 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.9
-  delta: 5.5
+  composite: 62.5
+  delta: -3.4
   facets:
     commercial_clarity: 47.4
-    contract_quality: 76.1
-    developer_ergonomics: 50.0
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.0
+    developer_ergonomics: 54.3
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 60.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/screenshots/gcp-cloud-storage-2026-06-20T181701.png
 security:
 - kind: authentication

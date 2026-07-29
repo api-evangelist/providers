@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 72.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 6
@@ -81,12 +83,62 @@ apis:
 - description: Webhook endpoint management
   name: Natural AI Webhooks API
   slug: natural-ai-webhooks-api
-artifact_total: 22
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Natural Ai Webhooks
   slug: natural-ai-webhooks
+collections:
+- collection_type: postman
+  name: Natural Agent Keys API
+  slug: postman-natural-ai-agent-keys-api
+- collection_type: postman
+  name: Natural Agent Keys Agents API
+  slug: postman-natural-ai-agents-api
+- collection_type: postman
+  name: Natural Agent Keys API Keys API
+  slug: postman-natural-ai-api-keys-api
+- collection_type: postman
+  name: Natural Agent Keys Approvals API
+  slug: postman-natural-ai-approvals-api
+- collection_type: postman
+  name: Natural Agent Keys Customers API
+  slug: postman-natural-ai-customers-api
+- collection_type: postman
+  name: Natural Agent Keys Events API
+  slug: postman-natural-ai-events-api
+- collection_type: postman
+  name: Natural Agent Keys External Accounts API
+  slug: postman-natural-ai-external-accounts-api
+- collection_type: postman
+  name: Natural Agent Keys Invitations API
+  slug: postman-natural-ai-invitations-api
+- collection_type: postman
+  name: Natural Agent Keys Parties API
+  slug: postman-natural-ai-parties-api
+- collection_type: postman
+  name: Natural Agent Keys PaymentRequests API
+  slug: postman-natural-ai-paymentrequests-api
+- collection_type: postman
+  name: Natural Agent Keys Payments API
+  slug: postman-natural-ai-payments-api
+- collection_type: postman
+  name: Natural Agent Keys Transactions API
+  slug: postman-natural-ai-transactions-api
+- collection_type: postman
+  name: Natural Agent Keys Transfers API
+  slug: postman-natural-ai-transfers-api
+- collection_type: postman
+  name: Natural Agent Keys Wallets API
+  slug: postman-natural-ai-wallets-api
+- collection_type: postman
+  name: Natural Agent Keys Webhooks API
+  slug: postman-natural-ai-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/natural-ai/overview
 - group: company
   title: ''
   type: Website
@@ -253,8 +305,8 @@ overview: 'Natural AI publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
   The Natural AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Natural AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, changelog, and 30 more developer resources.'
-random_paper: 54
+  Natural AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, changelog, and 31 more developer resources.'
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Natural Ai Rate Limits
@@ -266,23 +318,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.0
-  delta: 0.0
+  composite: 63.7
+  delta: 0.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.6
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 66.1
+    developer_ergonomics: 80.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

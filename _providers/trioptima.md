@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -199,7 +201,7 @@ plans:
 - name: Trioptima Plans Pricing
   plan_count: 3
   slug: trioptima-plans-pricing
-random_paper: 33
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Trioptima Rate Limits
@@ -228,24 +230,32 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 55.9
-  delta: 2.8
+  composite: 50.9
+  delta: -5.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 71.7
+    contract_quality: 69.9
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 53.1
+  previous_composite: 55.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 55.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/screenshots/trioptima-2026-06-20T195722.png
 security:
 - kind: authentication

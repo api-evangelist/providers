@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Public REST API for running AirOps Workflows/Apps (synchronous, asynchronous, and webhook execution), managing executions, interacting with Knowledge Bases (Memory Stores), and reading AEO analytics, '
@@ -169,27 +171,30 @@ overview: 'AirOps publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   AirOps'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 42
+random_paper: 38
 scopes:
 - name: Airops Scopes
   scope_count: 4
   slug: airops-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.1
-  delta: 0.0
+  band: developing
+  composite: 49.3
+  delta: 8.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 41.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/screenshots/airops-2026-07-25T195431.png
 security:
 - kind: authentication

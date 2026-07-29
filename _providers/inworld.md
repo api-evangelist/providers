@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: flavored
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
+    rate_limit_signal: documented
+    spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -35,7 +26,7 @@ agentic_access:
   operation_count: 19
   slug: inworld-agentic-access
   summary_line: 19 operations · 13 acting
-api_count: 10
+api_count: 4
 apis:
 - description: TTS-2 and TTS-1.5 (Max/Mini) models for character voice synthesis. Priced per 1M characters with plan-tier discounts.
   name: Inworld Text-to-Speech API
@@ -49,30 +40,16 @@ apis:
 - description: Routing layer over 220+ LLM models, billed at provider cost via Inworld's unified API.
   name: Inworld LLM Router API
   slug: llm-router
-- description: Available models
-  name: Inworld AI Models API
-  slug: inworld-models-api
-- description: Realtime speech-to-speech
-  name: Inworld AI Realtime API
-  slug: inworld-realtime-api
-- description: LLM Router configurations
-  name: Inworld AI Router API
-  slug: inworld-router-api
-- description: Speech-to-Text transcription
-  name: Inworld AI STT API
-  slug: inworld-stt-api
-- description: Text-to-Speech synthesis
-  name: Inworld AI TTS API
-  slug: inworld-tts-api
-- description: Voice catalog and custom voice management
-  name: Inworld AI Voices API
-  slug: inworld-voices-api
-artifact_total: 18
+artifact_total: 12
 collections:
 - collection_type: open
   name: Inworld AI API
   slug: open-inworld
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/inworld-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -127,40 +104,53 @@ finops:
 - name: Inworld Finops
   service_category: AI
   slug: inworld-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inworld.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-05-08'
 name: Inworld AI
 nav: Providers
 network: true
-overview: 'Inworld AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Models API, Realtime API, Router API, and 3 more. Tagged areas include AI, Voice, Characters, Games, and Conversational.
+overview: 'Inworld AI publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Voice, Characters, Games, and Conversational.
 
 
-  Inworld AI''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Inworld AI''s developer surface includes authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Inworld Plans Pricing
   plan_count: 5
   slug: inworld-plans-pricing
-random_paper: 19
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Inworld Rate Limits
   slug: inworld-rate-limits
 score:
-  band: thin
-  composite: 41.8
-  delta: 3.3
+  band: emerging
+  composite: 27.0
+  delta: -14.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 54.3
+    contract_quality: 8.1
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 41.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 23.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/screenshots/inworld-2026-06-20T183534.png
 security:
 - kind: authentication

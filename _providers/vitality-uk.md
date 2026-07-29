@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Vitality's production API gateway, running WSO2 API Manager at apis.vitality.co.uk (origin wso2-prd-apigw.tvc.vitality.co.uk:8243 behind an AWS load balancer in eu-west-1). The gateway is publicly res
@@ -101,7 +103,7 @@ overview: 'Vitality publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Vitality''s developer surface includes support, authentication, and 14 more developer resources.'
-random_paper: 67
+random_paper: 0
 scopes:
 - name: Vitality Uk Scopes
   scope_count: 5
@@ -109,23 +111,26 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 25.0
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 26.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 63.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

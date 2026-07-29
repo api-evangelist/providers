@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -207,7 +209,7 @@ plans:
 - name: Lambda Labs Plans Pricing
   plan_count: 1
   slug: lambda-labs-plans-pricing
-random_paper: 52
+random_paper: 71
 rate_limits:
 - limit_count: 2
   name: Lambda Labs Rate Limits
@@ -223,18 +225,25 @@ rules:
   slug: lambda-labs-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 59.4
-  delta: 2.0
+  composite: 55.8
+  delta: -3.6
   facets:
     commercial_clarity: 81.6
     contract_quality: 65.2
     developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 52.6
+    discoverability: 64.8
+    governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 57.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 59.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/screenshots/lambda-labs-2026-06-20T184251.png
 security:

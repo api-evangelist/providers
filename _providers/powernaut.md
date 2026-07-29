@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -184,22 +186,38 @@ overview: 'Powernaut publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 45
+random_paper: 73
 score:
-  band: developing
-  composite: 46.3
-  delta: 0.0
+  band: thin
+  composite: 40.9
+  delta: -5.4
   facets:
     commercial_clarity: 13.2
-    contract_quality: 71.8
-    developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.6
+    developer_ergonomics: 51.6
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 46.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 23.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Powernaut Authentication

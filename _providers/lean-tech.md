@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -94,8 +96,65 @@ apis:
 - description: The Transactions API from Lean Technologies — 1 operation(s) for transactions.
   name: Lean Technologies Transactions API
   slug: lean-tech-transactions-api
-artifact_total: 48
+artifact_total: 67
 collections:
+- collection_type: postman
+  name: Lean Authentication Account on File API
+  slug: postman-lean-tech-account-on-file-api
+- collection_type: postman
+  name: Lean Authentication Account on File Account Verification API
+  slug: postman-lean-tech-account-verification-api
+- collection_type: postman
+  name: Lean Authentication Account on File Accounts API
+  slug: postman-lean-tech-accounts-api
+- collection_type: postman
+  name: Lean Account on File Authentication API
+  slug: postman-lean-tech-authentication-api
+- collection_type: postman
+  name: Lean Authentication Account on File Balances API
+  slug: postman-lean-tech-balances-api
+- collection_type: postman
+  name: Lean Authentication Account on File Banks API
+  slug: postman-lean-tech-banks-api
+- collection_type: postman
+  name: Lean Authentication Account on File Consents API
+  slug: postman-lean-tech-consents-api
+- collection_type: postman
+  name: Lean Authentication Account on File Customers API
+  slug: postman-lean-tech-customers-api
+- collection_type: postman
+  name: Lean Authentication Account on File Entities API
+  slug: postman-lean-tech-entities-api
+- collection_type: postman
+  name: Lean Authentication Account on File Identity API
+  slug: postman-lean-tech-identity-api
+- collection_type: postman
+  name: Lean Authentication Account on File Insights API
+  slug: postman-lean-tech-insights-api
+- collection_type: postman
+  name: Lean Authentication Account on File Name Verification API
+  slug: postman-lean-tech-name-verification-api
+- collection_type: postman
+  name: Lean Authentication Account on File Payment Intents API
+  slug: postman-lean-tech-payment-intents-api
+- collection_type: postman
+  name: Lean Authentication Account on File Payment Sources API
+  slug: postman-lean-tech-payment-sources-api
+- collection_type: postman
+  name: Lean Authentication Account on File Payout Destinations API
+  slug: postman-lean-tech-payout-destinations-api
+- collection_type: postman
+  name: Lean Authentication Account on File Payouts API
+  slug: postman-lean-tech-payouts-api
+- collection_type: postman
+  name: Lean Authentication Account on File Refreshes API
+  slug: postman-lean-tech-refreshes-api
+- collection_type: postman
+  name: Lean Authentication Account on File Refunds API
+  slug: postman-lean-tech-refunds-api
+- collection_type: postman
+  name: Lean Authentication Account on File Transactions API
+  slug: postman-lean-tech-transactions-api
 - collection_type: open
   name: Lean Authentication API
   slug: open-lean-authentication-api
@@ -130,6 +189,10 @@ collections:
   name: Lean Verifications API
   slug: open-lean-verifications-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lean-technologies/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -276,12 +339,12 @@ overview: 'Lean Technologies publishes 19 APIs on the [APIs.io](https://apis.io/
   The Lean Technologies catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Lean Technologies'' developer surface includes authentication, developer portal, documentation, developer console, support, engineering blog, and 19 more developer resources.'
+  Lean Technologies'' developer surface includes authentication, developer portal, documentation, developer console, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: Lean Tech Plans Pricing
   plan_count: 5
   slug: lean-tech-plans-pricing
-random_paper: 65
+random_paper: 34
 rate_limits:
 - limit_count: 6
   name: Lean Tech Rate Limits
@@ -304,25 +367,33 @@ rules:
     warn: 4
   slug: lean-tech-rules
 score:
-  band: strong
-  composite: 61.1
-  delta: 2.9
+  band: developing
+  composite: 54.0
+  delta: -7.1
   facets:
     commercial_clarity: 47.4
-    contract_quality: 59.6
+    contract_quality: 61.2
     developer_ergonomics: 60.9
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 58.2
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 35.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/screenshots/lean-tech-2026-06-20T184402.png
 security:
 - kind: authentication

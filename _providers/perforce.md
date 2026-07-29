@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -79,12 +81,34 @@ apis:
 - description: Endpoints for retrieving Swarm server version information.
   name: Perforce Version API
   slug: perforce-version-api
-artifact_total: 85
+artifact_total: 91
 collections:
+- collection_type: postman
+  name: Perforce Helix Swarm Activity API
+  slug: postman-perforce-activity-api
+- collection_type: postman
+  name: Perforce Helix Swarm Activity Changes API
+  slug: postman-perforce-changes-api
+- collection_type: postman
+  name: Perforce Helix Swarm Activity Comments API
+  slug: postman-perforce-comments-api
+- collection_type: postman
+  name: Perforce Helix Swarm Activity Projects API
+  slug: postman-perforce-projects-api
+- collection_type: postman
+  name: Perforce Helix Swarm Activity Reviews API
+  slug: postman-perforce-reviews-api
+- collection_type: postman
+  name: Perforce Helix Swarm Activity Version API
+  slug: postman-perforce-version-api
 - collection_type: open
   name: Perforce Helix Swarm API
   slug: open-perforce-helix-swarm
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/perforce/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -337,12 +361,12 @@ overview: 'Perforce publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Perforce catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Perforce''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, and 9 more developer resources.'
+  Perforce''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Perforce Plans Pricing
   plan_count: 5
   slug: perforce-plans-pricing
-random_paper: 38
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Perforce Rate Limits
@@ -366,18 +390,25 @@ rules:
   slug: perforce-spectral-rules
 score:
   band: strong
-  composite: 63.0
-  delta: 4.6
+  composite: 60.0
+  delta: -3.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.7
-    developer_ergonomics: 54.3
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 69.7
+    developer_ergonomics: 58.7
+    discoverability: 63.0
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 58.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/screenshots/perforce-2026-06-20T191608.png
 security:

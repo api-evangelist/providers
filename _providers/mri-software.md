@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: An open and connected ecosystem of secure REST APIs built by MRI and its partners that enables controlled data exchange between MRI's core property management and accounting platform and third-party o
@@ -108,25 +110,25 @@ plans:
 - name: Mri Software Plans Pricing
   plan_count: 5
   slug: mri-software-plans-pricing
-random_paper: 24
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Mri Software Rate Limits
   slug: mri-software-rate-limits
 score:
   band: emerging
-  composite: 29.0
-  delta: 0.0
+  composite: 26.4
+  delta: -2.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 29.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mri-software/refs/heads/main/screenshots/mri-software-2026-06-20T185841.png
 security:

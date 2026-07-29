@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 7
@@ -546,7 +548,7 @@ plans:
 - name: Apache Ignite Plans Pricing
   plan_count: 3
   slug: apache-ignite-plans-pricing
-random_paper: 3
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Apache Ignite Rate Limits
@@ -570,19 +572,26 @@ rules:
   slug: apache-ignite-spectral-rules
 score:
   band: developing
-  composite: 58.1
-  delta: 0.0
+  composite: 52.8
+  delta: -5.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.1
+    contract_quality: 60.7
     developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 58.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/screenshots/apache-ignite-2026-06-20T172109.png
 security:
 - kind: authentication

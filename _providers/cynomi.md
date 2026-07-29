@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Platform-agnostic REST API for bi-directional task synchronization between Cynomi and any PSA or ticketing system — push remediation tasks from Cynomi and pull status updates back to keep both systems
@@ -118,7 +120,7 @@ overview: 'Cynomi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cynomi''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 13 more developer resources.'
-random_paper: 43
+random_paper: 39
 scopes:
 - name: Cynomi Scopes
   scope_count: 11
@@ -126,18 +128,18 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: emerging
-  composite: 28.3
-  delta: 0.0
+  composite: 27.8
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 28.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/screenshots/cynomi-2026-07-25T211052.png
 security:

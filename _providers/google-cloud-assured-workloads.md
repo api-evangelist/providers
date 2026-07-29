@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,12 +45,22 @@ apis:
 - description: Operations for managing assured workloads
   name: Google Cloud Assured Workloads Workloads API
   slug: google-cloud-assured-workloads-workloads-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: postman
+  name: Google Cloud Assured Workloads Violations API
+  slug: postman-google-cloud-assured-workloads-violations-api
+- collection_type: postman
+  name: Google Cloud Assured Violations Workloads API
+  slug: postman-google-cloud-assured-workloads-workloads-api
 - collection_type: open
   name: Google Cloud Assured Workloads API
   slug: open-assured-workloads-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-assured-workloads/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,12 +156,12 @@ overview: 'Google Cloud Assured Workloads publishes 2 APIs on the [APIs.io](http
   The Google Cloud Assured Workloads catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Assured Workloads'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 10 more developer resources.'
+  Google Cloud Assured Workloads'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Cloud Assured Workloads Plans Pricing
   plan_count: 3
   slug: google-cloud-assured-workloads-plans-pricing
-random_paper: 56
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Google Cloud Assured Workloads Rate Limits
@@ -170,18 +182,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.9
-  delta: 4.6
+  composite: 61.9
+  delta: -3.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 66.4
-    developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 67.8
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-assured-workloads/refs/heads/main/screenshots/google-cloud-assured-workloads-2026-06-20T182042.png
 security:

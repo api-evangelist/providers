@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 78.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,8 +64,43 @@ apis:
 - description: OAuth 2.0 client credentials token service issuing time-limited access tokens for OS Data Hub APIs, so project API keys need not be embedded in browser code. The token URL is https://api.os.uk/oauth2/
   name: OS OAuth 2 API
   slug: os-oauth2-api
-artifact_total: 20
+artifact_total: 30
+collections:
+- collection_type: postman
+  name: Ordnance Survey Download API
+  slug: postman-ordnance-survey-downloads
+- collection_type: postman
+  name: OS Features API
+  slug: postman-ordnance-survey-features-wfs-openapi
+- collection_type: postman
+  name: OS Linked Identifiers API
+  slug: postman-ordnance-survey-linked-identifiers-openapi
+- collection_type: postman
+  name: OS Maps API
+  slug: postman-ordnance-survey-maps-openapi
+- collection_type: postman
+  name: OS Names API
+  slug: postman-ordnance-survey-names-openapi
+- collection_type: postman
+  name: OS NGD API – Features
+  slug: postman-ordnance-survey-ngd-features-openapi
+- collection_type: postman
+  name: OS NGD API - Tiles
+  slug: postman-ordnance-survey-ngd-tiles-openapi
+- collection_type: postman
+  name: OS Net API
+  slug: postman-ordnance-survey-osnet
+- collection_type: postman
+  name: OS Places API
+  slug: postman-ordnance-survey-places-openapi
+- collection_type: postman
+  name: OS Vector Tiles API
+  slug: postman-ordnance-survey-vector-tile-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ordnance-survey/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -300,12 +337,12 @@ network: true
 overview: 'Ordnance Survey publishes 10 APIs on the [APIs.io](https://apis.io/) network, including OS NGD API - Features, OS NGD API - Tiles, OS Downloads API, and 7 more. Tagged areas include Real Estate, United Kingdom, Land Registry, Geospatial, and Addressing.
 
 
-  Ordnance Survey''s developer surface includes authentication, documentation, getting-started guide, SDKs, sandbox, changelog, API reference, and 48 more developer resources.'
+  Ordnance Survey''s developer surface includes authentication, documentation, getting-started guide, SDKs, sandbox, changelog, API reference, and 49 more developer resources.'
 plans:
 - name: Ordnance Survey Plans
   plan_count: 3
   slug: ordnance-survey-plans
-random_paper: 9
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Ordnance Survey Rate Limits
@@ -316,24 +353,35 @@ scopes:
   slug: ordnance-survey-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 68.5
-  delta: 0.0
+  band: exemplar
+  composite: 66.0
+  delta: -2.5
   facets:
     commercial_clarity: 76.3
-    contract_quality: 49.1
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 45.3
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 86.8
   previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 20.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 75.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

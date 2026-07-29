@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -61,12 +63,40 @@ apis:
 - description: Stacks (Service Catalog) and StackForms.
   name: Cycloid ServiceCatalogs API
   slug: cycloid-servicecatalogs-api
-artifact_total: 23
+artifact_total: 31
 collections:
+- collection_type: postman
+  name: Cycloid HTTP CloudCost API
+  slug: postman-cycloid-cloudcost-api
+- collection_type: postman
+  name: Cycloid HTTP CloudCost ConfigRepositories API
+  slug: postman-cycloid-configrepositories-api
+- collection_type: postman
+  name: Cycloid HTTP CloudCost Credentials API
+  slug: postman-cycloid-credentials-api
+- collection_type: postman
+  name: Cycloid HTTP CloudCost Inventory API
+  slug: postman-cycloid-inventory-api
+- collection_type: postman
+  name: Cycloid HTTP CloudCost Organizations API
+  slug: postman-cycloid-organizations-api
+- collection_type: postman
+  name: Cycloid HTTP CloudCost Pipelines API
+  slug: postman-cycloid-pipelines-api
+- collection_type: postman
+  name: Cycloid HTTP CloudCost Projects API
+  slug: postman-cycloid-projects-api
+- collection_type: postman
+  name: Cycloid HTTP CloudCost ServiceCatalogs API
+  slug: postman-cycloid-servicecatalogs-api
 - collection_type: open
   name: Cycloid HTTP API
   slug: open-cycloid-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cycloid/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -197,12 +227,12 @@ overview: 'Cycloid publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Cycloid catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cycloid''s developer surface includes authentication, documentation, pricing, engineering blog, and 20 more developer resources.'
+  Cycloid''s developer surface includes authentication, documentation, pricing, engineering blog, and 21 more developer resources.'
 plans:
 - name: Cycloid Plans Pricing
   plan_count: 3
   slug: cycloid-plans-pricing
-random_paper: 63
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Cycloid Rate Limits
@@ -231,18 +261,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.2
-  delta: 3.2
+  composite: 58.0
+  delta: -2.2
   facets:
     commercial_clarity: 92.1
-    contract_quality: 56.6
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 39.5
+    contract_quality: 58.5
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 31.3
     operational_transparency: 52.6
-  previous_composite: 57.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/screenshots/cycloid-2026-06-20T175412.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: Manage scan targets (images, registries)
   name: Snyk Container Targets API
   slug: snyk-container-targets-api
-artifact_total: 20
+artifact_total: 23
 collections:
+- collection_type: postman
+  name: Snyk Container Container Projects API
+  slug: postman-snyk-container-container-projects-api
+- collection_type: postman
+  name: Snyk Container Container Projects Issues API
+  slug: postman-snyk-container-issues-api
+- collection_type: postman
+  name: Snyk Container Container Projects Targets API
+  slug: postman-snyk-container-targets-api
 - collection_type: open
   name: Snyk Container API
   slug: open-snyk-container
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/snyk-container/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,12 +196,12 @@ overview: 'Snyk Container publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   The Snyk Container catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Snyk Container''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
+  Snyk Container''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
 plans:
 - name: Snyk Container Plans Pricing
   plan_count: 3
   slug: snyk-container-plans-pricing
-random_paper: 33
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Snyk Container Rate Limits
@@ -210,18 +225,25 @@ rules:
   slug: snyk-container-rules
 score:
   band: strong
-  composite: 66.3
-  delta: 4.2
+  composite: 63.0
+  delta: -3.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 73.2
-    developer_ergonomics: 52.2
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.3
+    developer_ergonomics: 56.5
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 62.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/screenshots/snyk-container-2026-06-20T194116.png
 security:

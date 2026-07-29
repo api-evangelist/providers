@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -163,30 +165,38 @@ plans:
 - name: Mercadopago Plans Pricing
   plan_count: 1
   slug: mercadopago-plans-pricing
-random_paper: 66
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Mercadopago Rate Limits
   slug: mercadopago-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 2.2
+  composite: 31.9
+  delta: -2.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 47.8
+    contract_quality: 50.0
     developer_ergonomics: 28.3
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 32.4
+  previous_composite: 34.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

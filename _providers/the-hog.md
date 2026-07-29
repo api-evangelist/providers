@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 67.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -178,25 +180,35 @@ overview: 'The Hog publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   The Hog''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 4
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: The Hog Rate Limits
   slug: the-hog-rate-limits
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 49.6
+  delta: 0.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.0
-    developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 59.7
+    developer_ergonomics: 58.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 26.3
   previous_composite: 49.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

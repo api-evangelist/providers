@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The Kive MCP server is Kive''s programmable interface: an OAuth 2.1 protected Model Context Protocol endpoint that lets an authorized agent browse Kive workspaces, saved products, trained models, studi'
@@ -191,7 +193,7 @@ plans:
 - name: Kive Plans
   plan_count: 4
   slug: kive-plans
-random_paper: 23
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Kive Rate Limits
@@ -202,19 +204,22 @@ scopes:
   slug: kive-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 42.9
+  delta: 1.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 26.3
   previous_composite: 41.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kive/refs/heads/main/screenshots/kive-2026-07-25T223918.png
 security:

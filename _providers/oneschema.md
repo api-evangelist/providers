@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 69.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 0
@@ -120,12 +122,101 @@ apis:
 - description: Workspace operations
   name: Oneschema Workspaces API
   slug: oneschema-workspaces-api
-artifact_total: 35
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Oneschema Webhooks
   slug: oneschema-webhooks
+collections:
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts API
+  slug: postman-oneschema-aws-secrets-manager-accounts-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts AWS Secrets Manager Secrets API
+  slug: postman-oneschema-aws-secrets-manager-secrets-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Azure Key Vault Accounts API
+  slug: postman-oneschema-azure-key-vault-accounts-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Azure Key Vault Secrets API
+  slug: postman-oneschema-azure-key-vault-secrets-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Code Hooks (Legacy) API
+  slug: postman-oneschema-code-hooks-legacy-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Event Webhooks API
+  slug: postman-oneschema-event-webhooks-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeed Folders API
+  slug: postman-oneschema-filefeed-folders-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeed Mappings API
+  slug: postman-oneschema-filefeed-mappings-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeeds API
+  slug: postman-oneschema-filefeeds-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeeds Embed Sessions API
+  slug: postman-oneschema-filefeeds-embed-sessions-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts FileFeeds Imports API
+  slug: postman-oneschema-filefeeds-imports-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Headless Importer API
+  slug: postman-oneschema-headless-importer-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Importer Embed Events API
+  slug: postman-oneschema-importer-embed-events-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Importer Embeds API
+  slug: postman-oneschema-importer-embeds-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Importer Webhooks API
+  slug: postman-oneschema-importer-webhooks-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts MCP Server API
+  slug: postman-oneschema-mcp-server-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeed Commits API
+  slug: postman-oneschema-multi-filefeed-commits-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeed Folders API
+  slug: postman-oneschema-multi-filefeed-folders-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeed Imports API
+  slug: postman-oneschema-multi-filefeed-imports-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeed Transforms API
+  slug: postman-oneschema-multi-filefeed-transforms-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Multi FileFeeds API
+  slug: postman-oneschema-multi-filefeeds-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts S3 Accounts API
+  slug: postman-oneschema-s3-accounts-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts SFTP Accounts API
+  slug: postman-oneschema-sftp-accounts-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Sheets API
+  slug: postman-oneschema-sheets-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Template Hooks API
+  slug: postman-oneschema-template-hooks-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Templates API
+  slug: postman-oneschema-templates-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Workspace Sheets API
+  slug: postman-oneschema-workspace-sheets-api
+- collection_type: postman
+  name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Workspaces API
+  slug: postman-oneschema-workspaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/oneschema/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -288,22 +379,32 @@ overview: 'Oneschema publishes 28 APIs on the [APIs.io](https://apis.io/) networ
   The Oneschema catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 63
+  Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 30 more developer resources.'
+random_paper: 23
 score:
   band: strong
-  composite: 63.4
-  delta: 0.0
+  composite: 65.1
+  delta: 1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.1
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 72.3
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 63.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

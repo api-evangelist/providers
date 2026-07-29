@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -81,21 +83,21 @@ overview: 'Vera is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Vera''s developer surface includes changelog and 9 more developer resources.'
-random_paper: 22
+random_paper: 45
 score:
-  band: minimal
-  composite: 13.3
-  delta: 0.0
+  band: emerging
+  composite: 13.4
+  delta: 0.1
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 13.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Urbit ship HTTP API (Eyre channels) that powers Tlon Messenger. Clients authenticate to a ship with its +code access code, then poke and subscribe over a channel to send/read messages, manage grou
@@ -133,21 +135,30 @@ overview: 'Tlon Corporation publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Tlon Corporation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, signup flow, and 14 more developer resources.'
-random_paper: 58
+random_paper: 73
 score:
-  band: thin
-  composite: 31.4
-  delta: 0.0
+  band: emerging
+  composite: 27.4
+  delta: -4.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 63.0
-    discoverability: 92.5
+    developer_ergonomics: 58.2
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 31.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 19.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

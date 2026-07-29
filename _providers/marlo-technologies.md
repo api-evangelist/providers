@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,26 +91,29 @@ overview: 'Marlo Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   Marlo Technologies'' developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 32
+random_paper: 20
 score:
   band: emerging
-  composite: 22.0
-  delta: 0.0
+  composite: 19.8
+  delta: -2.2
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 22.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 24.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marlo-technologies/refs/heads/main/screenshots/marlo-technologies-2026-07-25T230251.png
 security:

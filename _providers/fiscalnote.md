@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -193,7 +195,7 @@ plans:
 - name: Fiscalnote Plans Pricing
   plan_count: 4
   slug: fiscalnote-plans-pricing
-random_paper: 44
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Fiscalnote Rate Limits
@@ -209,24 +211,32 @@ rules:
   slug: fiscalnote-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 58.5
-  delta: 2.8
+  composite: 52.6
+  delta: -5.9
   facets:
     commercial_clarity: 73.7
-    contract_quality: 64.6
+    contract_quality: 66.1
     developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 55.7
+  previous_composite: 58.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 37.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/screenshots/fiscalnote-2026-06-20T181249.png
 security:
 - kind: authentication

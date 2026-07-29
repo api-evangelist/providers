@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -217,26 +219,37 @@ overview: 'Mesh Connect publishes 12 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mesh Connect''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 23 more developer resources.'
-random_paper: 64
+random_paper: 65
 score:
   band: developing
-  composite: 58.2
-  delta: 0.0
+  composite: 54.3
+  delta: -3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.5
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.0
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 58.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

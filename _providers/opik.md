@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 29.7
+  scored_at: '2026-07-28'
 api_count: 39
 apis:
 - description: Agent configuration management
@@ -284,7 +286,7 @@ plans:
 - name: Opik Plans Pricing
   plan_count: 5
   slug: opik-plans-pricing
-random_paper: 27
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Opik Rate Limits
@@ -300,18 +302,24 @@ rules:
   slug: opik-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 57.3
-  delta: 0.0
+  composite: 52.7
+  delta: -4.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 57.1
+    contract_quality: 57.6
     developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 57.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 39
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:

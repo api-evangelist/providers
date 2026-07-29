@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -52,8 +54,28 @@ apis:
 - description: The Tags API from Amazon Signer — 2 operation(s) for tags.
   name: Amazon Signer Tags API
   slug: amazon-signer-tags-api
-artifact_total: 214
+artifact_total: 219
+collections:
+- collection_type: postman
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes API
+  slug: postman-amazon-signer-revocations-signaturetimestamp-platformid-profileversionarn-jobarn-certificatehashes-api
+- collection_type: postman
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Signing Jobs API
+  slug: postman-amazon-signer-signing-jobs-api
+- collection_type: postman
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Signing Platforms API
+  slug: postman-amazon-signer-signing-platforms-api
+- collection_type: postman
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Signing Profiles API
+  slug: postman-amazon-signer-signing-profiles-api
+- collection_type: postman
+  name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Tags API
+  slug: postman-amazon-signer-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-signer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -733,12 +755,12 @@ overview: 'Amazon Signer publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Signer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Signer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Signer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Signer Plans Pricing
   plan_count: 3
   slug: amazon-signer-plans-pricing
-random_paper: 47
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Amazon Signer Rate Limits
@@ -762,18 +784,25 @@ rules:
   slug: amazon-signer-spectral-rules
 score:
   band: strong
-  composite: 68.3
-  delta: 0.0
+  composite: 64.9
+  delta: -3.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 70.8
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 71.5
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 68.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/screenshots/amazon-signer-2026-06-20T171827.png
 security:

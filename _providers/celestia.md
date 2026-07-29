@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -307,7 +309,7 @@ overview: 'celestia publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   celestia''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, tooling, code examples, and 26 more developer resources.'
-random_paper: 26
+random_paper: 72
 rules:
 - name: celestia API Rules
   rule_count: 5
@@ -326,19 +328,26 @@ rules:
     warn: 4
   slug: celestia-rules
 score:
-  band: developing
-  composite: 45.1
-  delta: 4.2
+  band: thin
+  composite: 40.6
+  delta: -4.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 67.1
+    contract_quality: 64.2
     developer_ergonomics: 56.5
-    discoverability: 75.0
-    governance: 73.7
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 40.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 45.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/screenshots/celestia-2026-06-20T174212.png
 security:

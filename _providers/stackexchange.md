@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,8 +90,61 @@ apis:
 - description: Site users, their reputation, badges, tags, top posts, timeline, and write surfaces.
   name: Stack Exchange Users API
   slug: stackexchange-users-api
-artifact_total: 92
+artifact_total: 108
+collections:
+- collection_type: postman
+  name: Stack Exchange Access Tokens API
+  slug: postman-stackexchange-access-tokens-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Answers API
+  slug: postman-stackexchange-answers-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Badges API
+  slug: postman-stackexchange-badges-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Comments API
+  slug: postman-stackexchange-comments-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Events API
+  slug: postman-stackexchange-events-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Filters API
+  slug: postman-stackexchange-filters-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Info API
+  slug: postman-stackexchange-info-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Me API
+  slug: postman-stackexchange-me-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Posts API
+  slug: postman-stackexchange-posts-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Questions API
+  slug: postman-stackexchange-questions-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Revisions API
+  slug: postman-stackexchange-revisions-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Search API
+  slug: postman-stackexchange-search-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Sites API
+  slug: postman-stackexchange-sites-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Suggested Edits API
+  slug: postman-stackexchange-suggested-edits-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Tags API
+  slug: postman-stackexchange-tags-api
+- collection_type: postman
+  name: Stack Exchange Access Tokens Users API
+  slug: postman-stackexchange-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/stack-exchange/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -398,12 +453,12 @@ overview: 'Stack Exchange publishes 16 APIs on the [APIs.io](https://apis.io/) n
   The Stack Exchange catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Stack Exchange''s developer surface includes authentication, documentation, engineering blog, tooling, and 18 more developer resources.'
+  Stack Exchange''s developer surface includes authentication, documentation, engineering blog, tooling, and 19 more developer resources.'
 plans:
 - name: Stackexchange Plans Pricing
   plan_count: 3
   slug: stackexchange-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 6
   name: Stackexchange Rate Limits
@@ -431,20 +486,27 @@ scopes:
   slug: stackexchange-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 60.9
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: -6.8
   facets:
     commercial_clarity: 52.6
-    contract_quality: 68.1
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 53.4
+    developer_ergonomics: 34.8
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 16
+      marker_coverage: 100.0
+      total: 16
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/screenshots/stackexchange-2026-06-20T194445.png
 security:
 - kind: authentication

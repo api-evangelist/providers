@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Web API (OpenAPI) exposing 100+ Meitu AI vision capabilities — image generation/editing, portrait beautification, face/body analysis, cutout, virtual try-on, and image/text-to-video — via an async sub
@@ -106,21 +108,23 @@ overview: 'Meitu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Meitu''s developer surface includes documentation, API reference, CLI, authentication, and 10 more developer resources.'
-random_paper: 4
+random_paper: 9
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 18.3
+  delta: -2.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 56.5
-    discoverability: 92.5
+    developer_ergonomics: 50.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 21.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

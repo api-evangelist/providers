@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 34.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'REST interface into most of the data and functionality of interest to Cratejoy merchants and developers: customers, orders, subscriptions, shipments, products, inventory, carts, transactions, addresse'
@@ -156,26 +158,30 @@ overview: 'Cratejoy publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Cratejoy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 49
+random_paper: 18
 score:
-  band: thin
-  composite: 42.0
-  delta: 0.0
+  band: developing
+  composite: 44.6
+  delta: 2.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
-    developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 54.3
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 28.9
   previous_composite: 42.0
+  provenance:
+    conformance: derived
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cratejoy/refs/heads/main/screenshots/cratejoy-2026-07-25T210648.png
 security:

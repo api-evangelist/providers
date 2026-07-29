@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -192,26 +194,37 @@ overview: 'Simplifi/Simplifipay publishes 9 APIs on the [APIs.io](https://apis.i
 
 
   Simplifi/Simplifipay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 57
+random_paper: 18
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 52.3
+  delta: -1.1
   facets:
     commercial_clarity: 42.1
-    contract_quality: 70.0
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 71.3
+    developer_ergonomics: 60.3
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 7.9
   previous_composite: 53.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 65.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: flavored
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 71.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -70,6 +72,10 @@ asyncapis:
   name: Agentcard Webhooks
   slug: agentcard-webhooks
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/agentcard-a2a.yml
 - group: company
   title: ''
   type: Website
@@ -236,27 +242,38 @@ overview: 'Agentcard publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The Agentcard catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Agentcard''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 53
+  Agentcard''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 31 more developer resources.'
+random_paper: 13
 score:
-  band: developing
-  composite: 58.0
-  delta: 0.0
+  band: strong
+  composite: 56.5
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 70.8
+    contract_quality: 72.0
     developer_ergonomics: 91.3
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 58.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/screenshots/agentcard-2026-07-25T181800.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -141,21 +143,31 @@ overview: 'Stamped publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Stamped''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
-random_paper: 2
+random_paper: 57
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 32.6
+  delta: -4.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 51.3
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 40.7
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 7.9
   previous_composite: 36.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

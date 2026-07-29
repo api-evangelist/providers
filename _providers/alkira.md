@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API behind the Alkira Portal (Cloud Services Exchange). Manages tenant networks, segments, cloud and site connectors (AWS, Azure, GCP, OCI, and SD-WAN vendors), integrated network services, routi
@@ -114,21 +116,25 @@ overview: 'Alkira publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Alkira''s developer surface includes authentication, changelog, and 14 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 20.4
+  delta: -1.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 32.6
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 27.7
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 44.7
   previous_composite: 21.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkira/refs/heads/main/screenshots/alkira-2026-07-25T195633.png
 security:

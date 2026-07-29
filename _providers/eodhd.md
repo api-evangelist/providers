@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,16 +72,26 @@ apis:
 - description: The Eod API from EODHD — 1 operation(s) for eod.
   name: EODHD Eod API
   slug: eodhd-eod-api
-artifact_total: 25
+artifact_total: 27
 asyncapis:
 - description: Real-time streaming of US equity trades and quotes, forex, and cryptocurrency prices over WebSockets with sub-50ms latency. Authenticates with the same api_token used by the REST API (validated during
   name: EODHD WebSockets Real-Time API
   slug: eodhd-websockets-asyncapi
 collections:
+- collection_type: postman
+  name: EODHD End-Of-Day Historical Data Eod API
+  slug: postman-eodhd-eod-api
+- collection_type: postman
+  name: EODHD Financial Data API
+  slug: postman-eodhd-financial-data
 - collection_type: open
   name: EODHD End-Of-Day Historical Data API
   slug: open-eodhd-eod-historical-data
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/eodhd/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -289,12 +301,12 @@ overview: 'EODHD publishes 3 APIs on the [APIs.io](https://apis.io/) network: Fi
   The EODHD catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  EODHD''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 37 more developer resources.'
+  EODHD''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 38 more developer resources.'
 plans:
 - name: Eodhd Plans Pricing
   plan_count: 6
   slug: eodhd-plans-pricing
-random_paper: 40
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Eodhd Rate Limits
@@ -315,23 +327,34 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.8
-  delta: 2.8
+  composite: 74.2
+  delta: -2.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 69.7
+    contract_quality: 67.9
     developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 92.6
+    governance: 69.8
     operational_transparency: 52.6
-  previous_composite: 74.0
+  previous_composite: 76.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png
 security:

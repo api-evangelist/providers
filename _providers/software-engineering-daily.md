@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Software Engineering Daily provides RSS podcast feeds for its main episode stream as well as topic-specific feeds. These standard podcast RSS feeds are compatible with all major podcast clients includ
@@ -140,7 +142,7 @@ plans:
 - name: Software Engineering Daily Plans Pricing
   plan_count: 3
   slug: software-engineering-daily-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Software Engineering Daily Rate Limits
@@ -156,19 +158,19 @@ rules:
   slug: software-engineering-daily-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 43.4
-  delta: 0.0
+  composite: 38.4
+  delta: -5.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 43.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/screenshots/software-engineering-daily-2026-06-20T194137.png
 security:
 - kind: domain-security

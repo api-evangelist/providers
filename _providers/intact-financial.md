@@ -2,11 +2,13 @@
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,26 +115,29 @@ overview: 'Intact Financial is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Intact Financial''s developer surface includes developer portal, engineering blog, product news, support, and 16 more developer resources.'
-random_paper: 57
+random_paper: 4
 score:
   band: emerging
-  composite: 18.1
-  delta: 0.0
+  composite: 17.6
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 18.1
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 28.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

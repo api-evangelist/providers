@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 34.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API to embed IRS-authorized income-tax preparation and e-filing. Create a Column Tax user, obtain a short-lived authenticated URL to launch the embedded filing UI, list a user's tax returns and j
@@ -169,26 +171,30 @@ overview: 'Column Tax publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Column Tax''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, support, engineering blog, and 21 more developer resources.'
-random_paper: 12
+random_paper: 31
 score:
-  band: thin
-  composite: 43.1
-  delta: 0.0
+  band: developing
+  composite: 45.3
+  delta: 2.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 22.6
-    developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 67.4
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 43.1
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/column-tax/refs/heads/main/screenshots/column-tax-2026-07-25T210102.png
 security:

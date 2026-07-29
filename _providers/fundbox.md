@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Fundbox Partner API provides an API stack for platforms to embed white-labeled net payment terms, credit underwriting, and working capital financing directly within their B2B applications. The API
@@ -98,25 +100,25 @@ plans:
 - name: Fundbox Plans Pricing
   plan_count: 2
   slug: fundbox-plans-pricing
-random_paper: 10
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Fundbox Rate Limits
   slug: fundbox-rate-limits
 score:
   band: emerging
-  composite: 22.7
-  delta: 0.0
+  composite: 20.3
+  delta: -2.4
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 22.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundbox/refs/heads/main/screenshots/fundbox-2026-06-20T181616.png
 security:

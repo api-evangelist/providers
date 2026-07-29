@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 22.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 api_count: 10
 apis:
 - description: The Authorization API issues OAuth2 access tokens for the SVB commercial banking platform (now part of First Citizens). Partners exchange client credentials at /v1/security/oauth/token for a bearer to
@@ -165,26 +167,29 @@ overview: 'First Citizens BancShares publishes 10 APIs on the [APIs.io](https://
 
 
   First Citizens BancShares'' developer surface includes authentication, sandbox, documentation, support, and 17 more developer resources.'
-random_paper: 49
+random_paper: 24
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 38.8
+  delta: 1.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 3.1
     operational_transparency: 31.6
   previous_composite: 37.1
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/screenshots/first-citizens-bancshares-2026-06-20T181238.png
 security:

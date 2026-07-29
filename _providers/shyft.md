@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: verified
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.1
+  scored_at: '2026-07-28'
 api_count: 56
 apis:
 - description: The Authentication > Email API from Shyft — 2 operation(s) for authentication > email.
@@ -283,21 +285,30 @@ overview: 'Shyft publishes 56 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Shyft''s developer surface includes authentication, documentation, API reference, pricing, signup flow, sandbox, and 11 more developer resources.'
-random_paper: 14
+random_paper: 19
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 32.7
+  delta: -2.2
   facets:
     commercial_clarity: 23.7
-    contract_quality: 42.3
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 44.7
+    developer_ergonomics: 36.4
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 34.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 56
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

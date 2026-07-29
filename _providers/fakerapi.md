@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -239,7 +241,7 @@ overview: 'FakerAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   The FakerAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 19
+random_paper: 65
 rules:
 - name: FakerAPI API Rules
   rule_count: 5
@@ -259,19 +261,26 @@ rules:
   slug: fakerapi-rules
 score:
   band: thin
-  composite: 37.4
-  delta: 5.4
+  composite: 32.2
+  delta: -5.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 68.1
+    contract_quality: 66.1
     developer_ergonomics: 0.0
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 0.0
-  previous_composite: 32.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 37.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fakerapi/refs/heads/main/screenshots/fakerapi-2026-06-20T181022.png
 security:
 - kind: domain-security

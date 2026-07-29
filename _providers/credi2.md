@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,26 +83,29 @@ overview: 'Credi2 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Credi2''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 25
+random_paper: 30
 score:
   band: emerging
-  composite: 19.6
-  delta: 0.0
+  composite: 15.9
+  delta: -3.7
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 50.0
+    governance: 12.5
     operational_transparency: 10.5
   previous_composite: 19.6
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 32.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credi2/refs/heads/main/screenshots/credi2-2026-07-25T210713.png
 security:

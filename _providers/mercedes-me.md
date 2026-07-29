@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -252,7 +254,7 @@ plans:
 - name: Mercedes Me Plans Pricing
   plan_count: 4
   slug: mercedes-me-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Mercedes Me Rate Limits
@@ -276,19 +278,26 @@ rules:
   slug: mercedes-me-rules
 score:
   band: developing
-  composite: 52.5
-  delta: 6.0
+  composite: 45.8
+  delta: -6.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 77.4
+    contract_quality: 66.1
     developer_ergonomics: 37.0
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 46.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/screenshots/mercedes-me-2026-06-20T185206.png
 security:
 - kind: domain-security

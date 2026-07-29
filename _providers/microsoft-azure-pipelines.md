@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,8 +72,32 @@ apis:
 - description: Operations for triggering, monitoring, and retrieving pipeline run executions including run state, result, and parameters.
   name: Azure Pipelines Runs API
   slug: microsoft-azure-pipelines-runs-api
-artifact_total: 19
+artifact_total: 27
 collections:
+- collection_type: postman
+  name: Azure Pipelines Build REST Artifacts API
+  slug: postman-microsoft-azure-pipelines-artifacts-api
+- collection_type: postman
+  name: Azure Pipelines Build REST Artifacts Build Artifacts API
+  slug: postman-microsoft-azure-pipelines-build-artifacts-api
+- collection_type: postman
+  name: Azure Pipelines Build REST Artifacts Build Definitions API
+  slug: postman-microsoft-azure-pipelines-build-definitions-api
+- collection_type: postman
+  name: Azure Pipelines Build REST Artifacts Build Tags API
+  slug: postman-microsoft-azure-pipelines-build-tags-api
+- collection_type: postman
+  name: Azure Pipelines Build REST Artifacts Builds API
+  slug: postman-microsoft-azure-pipelines-builds-api
+- collection_type: postman
+  name: Azure Pipelines Build REST Artifacts Logs API
+  slug: postman-microsoft-azure-pipelines-logs-api
+- collection_type: postman
+  name: Azure Build REST Artifacts Pipelines API
+  slug: postman-microsoft-azure-pipelines-pipelines-api
+- collection_type: postman
+  name: Azure Pipelines Build REST Artifacts Runs API
+  slug: postman-microsoft-azure-pipelines-runs-api
 - collection_type: open
   name: Azure Pipelines Build REST API
   slug: open-azure-pipelines-build-api
@@ -79,6 +105,10 @@ collections:
   name: Azure Pipelines REST API
   slug: open-azure-pipelines-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-pipelines/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -190,30 +220,37 @@ network: true
 overview: 'Azure Pipelines publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Build Artifacts API, Build Definitions API, and 5 more. Tagged areas include Automation, Build, CI/CD, Deployment, and DevOps.
 
 
-  Azure Pipelines'' developer surface includes authentication, getting-started guide, developer portal, pricing, engineering blog, documentation, signup flow, and 17 more developer resources.'
+  Azure Pipelines'' developer surface includes authentication, getting-started guide, developer portal, pricing, engineering blog, documentation, signup flow, and 18 more developer resources.'
 plans:
 - name: Microsoft Azure Pipelines Plans Pricing
   plan_count: 6
   slug: microsoft-azure-pipelines-plans-pricing
-random_paper: 8
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Pipelines Rate Limits
   slug: microsoft-azure-pipelines-rate-limits
 score:
   band: strong
-  composite: 60.0
-  delta: 3.3
+  composite: 59.0
+  delta: -1.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 60.2
-    developer_ergonomics: 52.2
-    discoverability: 87.5
+    contract_quality: 61.9
+    developer_ergonomics: 56.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 56.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/screenshots/microsoft-azure-pipelines-2026-06-20T185430.png
 security:

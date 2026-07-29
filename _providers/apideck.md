@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Paid (free trial) · Self-serve signup
-  onboarding: self-serve
-  pricing: paid
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: true
-  try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: flavored
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 62.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -35,172 +26,214 @@ agentic_access:
   operation_count: 251
   slug: apideck-agentic-access
   summary_line: 251 operations · 143 acting
-api_count: 54
+api_count: 15
 apis:
 - description: Apideck is the leading Unified API that doesn't store sensitive customer data. Build and maintain native integrations into your product with an exceptional Developer Experience.
   name: Apideck
   slug: apideck
-- description: The Activity resource represents a logged event or task, such as a meeting, call, or email, including details like type, date, duration, and associations with contacts, companies, or opportunities.
-  name: Apideck Activities API
-  slug: apideck-activities-api
-- description: Aged Creditors is a report showing amounts owed to suppliers, grouped by aging periods (current, 30, 60, 90+ days) with supplier details.
-  name: Apideck Aged Creditors API
-  slug: apideck-aged-creditors-api
-- description: Aged Debtors is a report showing amounts owed by customers, grouped by aging periods (current, 30, 60, 90+ days) with customer details.
-  name: Apideck Aged Debtors API
-  slug: apideck-aged-debtors-api
-- description: An Attachment represents a file linked to an accounting document, including file name, URL, content type, and the parent record reference.
-  name: Apideck Attachments API
-  slug: apideck-attachments-api
-- description: A Balance Sheet report shows the financial position at a point in time, including totals for assets, liabilities, and equity accounts.
-  name: Apideck Balance Sheet API
-  slug: apideck-balance-sheet-api
-- description: A Bank Account represents a financial account, including account name, number, type (checking, savings, credit card), currency, and balance.
-  name: Apideck Bank Accounts API
-  slug: apideck-bank-accounts-api
-- description: A Bank Feed Account represents a connected financial institution account, including account details and connection status for transaction imports.
-  name: Apideck Bank Feed Accounts API
-  slug: apideck-bank-feed-accounts-api
-- description: A Bank Feed Statement contains imported transaction data from a connected bank account, including statement period and transaction details.
-  name: Apideck Bank Feed Statements API
-  slug: apideck-bank-feed-statements-api
-- description: A Bill Payment represents money paid to a supplier, including amount, date, payment method, and allocation to one or more bills.
-  name: Apideck Bill Payments API
-  slug: apideck-bill-payments-api
-- description: A Bill represents an invoice from a supplier, including line items, amounts, due date, payment status, and linked supplier.
-  name: Apideck Bills API
-  slug: apideck-bills-api
-- description: A Category represents a product or service grouping, including name and type for organizing invoice and bill line items.
-  name: Apideck Categories API
-  slug: apideck-categories-api
-- description: List companies accessible through the current connection. Only available for multi-company connectors.
-  name: Apideck Companies API
-  slug: apideck-companies-api
-- description: Company Info contains the organization's profile data including legal name, addresses, tax identifiers, currency, and fiscal year settings.
-  name: Apideck Company Info API
-  slug: apideck-company-info-api
-- description: The Contact resource represents individuals, including details such as name, contact information, associated company, and activity history.
-  name: Apideck Contacts API
-  slug: apideck-contacts-api
-- description: A Credit Note represents a reduction in the amount owed by a customer, including line items, amounts, and the linked customer or invoice.
-  name: Apideck Credit Notes API
-  slug: apideck-credit-notes-api
-- description: The Custom Object Schema resource represents the schema of a custom object.
-  name: Apideck Custom Object Schemas API
-  slug: apideck-custom-object-schemas-api
-- description: The Custom Object resource represents user-defined data structures in Salesforce, allowing storage of custom records with specific fields, relationships, and business logic tailored to unique organiza
-  name: Apideck Custom Objects API
-  slug: apideck-custom-objects-api
-- description: A Customer represents a buyer or client, including contact details, billing and shipping addresses, tax information, and payment terms.
-  name: Apideck Customers API
-  slug: apideck-customers-api
-- description: A Department represents an organizational unit, including name, code, and parent department for hierarchical structures.
-  name: Apideck Departments API
-  slug: apideck-departments-api
-- description: Drive Groups resource represents the groups of drives in the cloud storage service. It provides methods for managing and accessing the drive groups, such as creating, deleting, and listing drive group
-  name: Apideck Drive Groups API
-  slug: apideck-drive-groups-api
-- description: Drives resource represents logical containers for storing folders and files in the cloud storage service. It provides methods for managing and accessing the drives, such as creating, deleting, and lis
-  name: Apideck Drives API
-  slug: apideck-drives-api
-- description: An Employee Payroll represents an individual's pay details for a period, including gross pay, deductions, taxes, and net pay.
-  name: Apideck Employee Payrolls API
-  slug: apideck-employee-payrolls-api
-- description: An Employee Schedule represents work time assignments, including schedule entries with start time, end time, and work location.
-  name: Apideck Employee Schedules API
-  slug: apideck-employee-schedules-api
-- description: An Employee represents an individual within the organization for accounting purposes, including name, department, hire date, and employment status.
-  name: Apideck Employees API
-  slug: apideck-employees-api
-- description: An Expense Category classifies types of expenses within the organization, such as travel, meals, or office supplies. Used to categorize expense report line items.
-  name: Apideck Expense Categories API
-  slug: apideck-expense-categories-api
-- description: An Expense Report is a collection of expense line items submitted by an employee for reimbursement, including amounts, categories, and approval status.
-  name: Apideck Expense Reports API
-  slug: apideck-expense-reports-api
-- description: An Expense represents a business expenditure, including amount, date, category, payment method, merchant, and account allocation.
-  name: Apideck Expenses API
-  slug: apideck-expenses-api
-- description: Files resource represents files stored in the cloud storage services. It provides methods for managing and accessing the files, such as uploading, downloading, and deleting files. For more information
-  name: Apideck Files API
-  slug: apideck-files-api
-- description: Folders resource represents the folders within a drive in the cloud storage service. It provides methods for managing and accessing the folders, such as creating, deleting, and listing files & folders
-  name: Apideck Folders API
-  slug: apideck-folders-api
-- description: An Invoice Item represents a reusable product or service that can be added to invoices, including name, description, price, and tax settings.
-  name: Apideck Invoice Items API
-  slug: apideck-invoice-items-api
-- description: An Invoice represents a sales document sent to customers, including line items, taxes, discounts, totals, due date, and payment status.
-  name: Apideck Invoices API
-  slug: apideck-invoices-api
-- description: A Journal Entry represents a manual accounting entry with debit and credit line items, memo, posting date, and status.
-  name: Apideck Journal Entries API
-  slug: apideck-journal-entries-api
-- description: The Lead resource represents individuals or businesses that have shown interest in a company's products or services, including contact information and potential deal opportunities.
-  name: Apideck Leads API
-  slug: apideck-leads-api
-- description: A Ledger Account represents an entry in the chart of accounts, including name, code, type (asset, liability, equity, revenue, expense), and balance.
-  name: Apideck Ledger Accounts API
-  slug: apideck-ledger-accounts-api
-- description: A Location represents a physical business site, including name, address, and status for multi-location tracking.
-  name: Apideck Locations API
-  slug: apideck-locations-api
-- description: The Note resource represents textual records, such as comments or messages, associated with various entities like contacts, opportunities, or activities.
-  name: Apideck Notes API
-  slug: apideck-notes-api
-- description: The Opportunity resource represents potential business deals, including details such as title, value, status, close date, and associated contacts or companies.
-  name: Apideck Opportunities API
-  slug: apideck-opportunities-api
-- description: A Payment represents money received from a customer, including amount, date, payment method, and allocation to one or more invoices.
-  name: Apideck Payments API
-  slug: apideck-payments-api
-- description: A Payroll represents a pay run, including pay period dates, total amounts, status, and linked company.
-  name: Apideck Payrolls API
-  slug: apideck-payrolls-api
-- description: The Pipeline resource represents a structured process for managing sales opportunities, including stages and associated activities.
-  name: Apideck Pipelines API
-  slug: apideck-pipelines-api
-- description: A Profit and Loss report shows financial performance over a period, including revenue, cost of sales, expenses, and net income.
-  name: Apideck Profit and Loss API
-  slug: apideck-profit-and-loss-api
-- description: A Project represents a job or engagement, including name, customer, budget amounts, budget hours, billing method, status, and profitability data.
-  name: Apideck Projects API
-  slug: apideck-projects-api
-- description: A Purchase Order represents a request to buy goods or services from a supplier, including line items, amounts, delivery date, and status.
-  name: Apideck Purchase Orders API
-  slug: apideck-purchase-orders-api
-- description: A Quote represents a sales estimate sent to customers, including line items, amounts, expiry date, and status before conversion to invoice.
-  name: Apideck Quotes API
-  slug: apideck-quotes-api
-- description: A Refund represents money returned to a customer, supporting both itemized refunds (with line items) and allocation-based refunds (applied to invoices, credit notes, or overpayments).
-  name: Apideck Refunds API
-  slug: apideck-refunds-api
-- description: Shared links resource represents the links to files and folders in the cloud storage service that have been shared with other users. It provides methods for managing and accessing the shared links, su
-  name: Apideck Shared Links API
-  slug: apideck-shared-links-api
-- description: A Subsidiary represents a child company within an organization, including name, status, and parent company relationship.
-  name: Apideck Subsidiaries API
-  slug: apideck-subsidiaries-api
-- description: A Supplier represents a vendor or service provider, including contact information, addresses, tax details, and payment terms.
-  name: Apideck Suppliers API
-  slug: apideck-suppliers-api
-- description: A Tax Rate defines a tax percentage applied to transactions, including name, rate, tax type, and applicable regions or conditions.
-  name: Apideck Tax Rates API
-  slug: apideck-tax-rates-api
-- description: A Time Off Request represents an absence request, including type (vacation, sick), dates, status, and approval information.
-  name: Apideck Time Off Requests API
-  slug: apideck-time-off-requests-api
-- description: A Tracking Category represents a classification dimension for reporting, including name, code, status, and parent category for hierarchies.
-  name: Apideck Tracking Categories API
-  slug: apideck-tracking-categories-api
-- description: Upload sessions resource represents the sessions used for uploading files to the cloud storage service. It provides methods for managing and accessing the upload sessions, such as creating and resumin
-  name: Apideck Upload Sessions API
-  slug: apideck-upload-sessions-api
-- description: A User represents a CRM team member, including name, email, role, status, and associated permissions within the system.
-  name: Apideck Users API
-  slug: apideck-users-api
-artifact_total: 850
+- description: The Apideck Accounting API is a unified API for managing financial operations including invoices, customers, bills, payments, and financial reporting across multiple accounting platforms such as Quick
+  name: Apideck Accounting API
+  slug: accounting-api
+- description: The Apideck CRM API is a unified API for managing customer relationships through opportunities, companies, leads, contacts, pipelines, notes, and activities across multiple CRM platforms such as Sales
+  name: Apideck CRM API
+  slug: crm-api
+- description: The Apideck HRIS API is a unified API for managing human resources data for employees, companies, departments, and time-off requests across multiple HR platforms such as BambooHR, Personio, Workday, a
+  name: Apideck HRIS API
+  slug: hris-api
+- description: The Apideck ATS API is a unified API for handling recruitment workflows including jobs, applicants, and applications across multiple applicant tracking systems such as Greenhouse, Lever, Bullhorn, Rec
+  name: Apideck ATS API
+  slug: ats-api
+- description: The Apideck File Storage API is a unified API for handling cloud file operations including files, folders, shared links, and drives across multiple cloud storage platforms such as Google Drive, Dropbo
+  name: Apideck File Storage API
+  slug: file-storage-api
+- description: The Apideck Ecommerce API is a unified API for managing orders, products, customers, and stores across multiple ecommerce platforms such as Shopify, BigCommerce, WooCommerce, Magento, and Etsy.
+  name: Apideck Ecommerce API
+  slug: ecommerce-api
+- description: 'The Apideck POS API is a unified API for handling point-of-sale operations including orders, payments, items, locations, merchants, and modifiers across multiple POS platforms such as Square, Clover, '
+  name: Apideck POS API
+  slug: pos-api
+- description: The Apideck Issue Tracking API is a unified API for managing tickets, comments, collections, and tags across multiple issue tracking platforms such as Jira, Linear, GitHub, and GitLab.
+  name: Apideck Issue Tracking API
+  slug: issue-tracking-api
+- description: The Apideck Lead API is a unified API for managing sales and marketing leads across multiple platforms such as Salesforce, HubSpot, Pipedrive, and Zoho CRM with standardized fields for contacts, compa
+  name: Apideck Lead API
+  slug: lead-api
+- description: The Apideck SMS API is a unified API for sending and managing SMS and MMS messages across multiple messaging providers such as Twilio, Vonage, MessageBird, Plivo, and Telnyx.
+  name: Apideck SMS API
+  slug: sms-api
+- description: The Apideck Vault API handles OAuth flows, stores API keys, and refreshes access tokens from consumers. It supports managed authentication through Vault JS, Hosted Vault, and direct API calls for cust
+  name: Apideck Vault API
+  slug: vault-api
+- description: The Apideck Webhook API enables developers to monitor and manage event subscriptions, create webhook endpoints, and track delivery attempts across all unified APIs including CRM, accounting, HRIS, and
+  name: Apideck Webhook API
+  slug: webhook-api
+- description: The Apideck Connector API provides access to the catalog of available connectors, their supported resources, and configuration details for pushing and pulling data from multiple downstream services.
+  name: Apideck Connector API
+  slug: connector-api
+- description: The Apideck Proxy API forwards requests to downstream services while automatically injecting authentication credentials from stored vault data, enabling API traffic logging and monitoring for every AP
+  name: Apideck Proxy API
+  slug: proxy-api
+artifact_total: 864
 collections:
+- collection_type: postman
+  name: Apideck Accounting Activities API
+  slug: postman-apideck-activities-api
+- collection_type: postman
+  name: Apideck Accounting Activities Aged Creditors API
+  slug: postman-apideck-aged-creditors-api
+- collection_type: postman
+  name: Apideck Accounting Activities Aged Debtors API
+  slug: postman-apideck-aged-debtors-api
+- collection_type: postman
+  name: Apideck Accounting Activities Attachments API
+  slug: postman-apideck-attachments-api
+- collection_type: postman
+  name: Apideck Accounting Activities Balance Sheet API
+  slug: postman-apideck-balance-sheet-api
+- collection_type: postman
+  name: Apideck Accounting Activities Bank Accounts API
+  slug: postman-apideck-bank-accounts-api
+- collection_type: postman
+  name: Apideck Accounting Activities Bank Feed Accounts API
+  slug: postman-apideck-bank-feed-accounts-api
+- collection_type: postman
+  name: Apideck Accounting Activities Bank Feed Statements API
+  slug: postman-apideck-bank-feed-statements-api
+- collection_type: postman
+  name: Apideck Accounting Activities Bill Payments API
+  slug: postman-apideck-bill-payments-api
+- collection_type: postman
+  name: Apideck Accounting Activities Bills API
+  slug: postman-apideck-bills-api
+- collection_type: postman
+  name: Apideck Accounting Activities Categories API
+  slug: postman-apideck-categories-api
+- collection_type: postman
+  name: Apideck Accounting Activities Companies API
+  slug: postman-apideck-companies-api
+- collection_type: postman
+  name: Apideck Accounting Activities Company Info API
+  slug: postman-apideck-company-info-api
+- collection_type: postman
+  name: Apideck Accounting Activities Contacts API
+  slug: postman-apideck-contacts-api
+- collection_type: postman
+  name: Apideck Accounting Activities Credit Notes API
+  slug: postman-apideck-credit-notes-api
+- collection_type: postman
+  name: Apideck Accounting Activities Custom Object Schemas API
+  slug: postman-apideck-custom-object-schemas-api
+- collection_type: postman
+  name: Apideck Accounting Activities Custom Objects API
+  slug: postman-apideck-custom-objects-api
+- collection_type: postman
+  name: Apideck Accounting Activities Customers API
+  slug: postman-apideck-customers-api
+- collection_type: postman
+  name: Apideck Accounting Activities Departments API
+  slug: postman-apideck-departments-api
+- collection_type: postman
+  name: Apideck Accounting Activities Drive Groups API
+  slug: postman-apideck-drive-groups-api
+- collection_type: postman
+  name: Apideck Accounting Activities Drives API
+  slug: postman-apideck-drives-api
+- collection_type: postman
+  name: Apideck Accounting Activities Employee Payrolls API
+  slug: postman-apideck-employee-payrolls-api
+- collection_type: postman
+  name: Apideck Accounting Activities Employee Schedules API
+  slug: postman-apideck-employee-schedules-api
+- collection_type: postman
+  name: Apideck Accounting Activities Employees API
+  slug: postman-apideck-employees-api
+- collection_type: postman
+  name: Apideck Accounting Activities Expense Categories API
+  slug: postman-apideck-expense-categories-api
+- collection_type: postman
+  name: Apideck Accounting Activities Expense Reports API
+  slug: postman-apideck-expense-reports-api
+- collection_type: postman
+  name: Apideck Accounting Activities Expenses API
+  slug: postman-apideck-expenses-api
+- collection_type: postman
+  name: Apideck Accounting Activities Files API
+  slug: postman-apideck-files-api
+- collection_type: postman
+  name: Apideck Accounting Activities Folders API
+  slug: postman-apideck-folders-api
+- collection_type: postman
+  name: Apideck Accounting Activities Invoice Items API
+  slug: postman-apideck-invoice-items-api
+- collection_type: postman
+  name: Apideck Accounting Activities Invoices API
+  slug: postman-apideck-invoices-api
+- collection_type: postman
+  name: Apideck Accounting Activities Journal Entries API
+  slug: postman-apideck-journal-entries-api
+- collection_type: postman
+  name: Apideck Accounting Activities Leads API
+  slug: postman-apideck-leads-api
+- collection_type: postman
+  name: Apideck Accounting Activities Ledger Accounts API
+  slug: postman-apideck-ledger-accounts-api
+- collection_type: postman
+  name: Apideck Accounting Activities Locations API
+  slug: postman-apideck-locations-api
+- collection_type: postman
+  name: Apideck Accounting Activities Notes API
+  slug: postman-apideck-notes-api
+- collection_type: postman
+  name: Apideck Accounting Activities Opportunities API
+  slug: postman-apideck-opportunities-api
+- collection_type: postman
+  name: Apideck Accounting Activities Payments API
+  slug: postman-apideck-payments-api
+- collection_type: postman
+  name: Apideck Accounting Activities Payrolls API
+  slug: postman-apideck-payrolls-api
+- collection_type: postman
+  name: Apideck Accounting Activities Pipelines API
+  slug: postman-apideck-pipelines-api
+- collection_type: postman
+  name: Apideck Accounting Activities Profit and Loss API
+  slug: postman-apideck-profit-and-loss-api
+- collection_type: postman
+  name: Apideck Accounting Activities Projects API
+  slug: postman-apideck-projects-api
+- collection_type: postman
+  name: Apideck Accounting Activities Purchase Orders API
+  slug: postman-apideck-purchase-orders-api
+- collection_type: postman
+  name: Apideck Accounting Activities Quotes API
+  slug: postman-apideck-quotes-api
+- collection_type: postman
+  name: Apideck Accounting Activities Refunds API
+  slug: postman-apideck-refunds-api
+- collection_type: postman
+  name: Apideck Accounting Activities Shared Links API
+  slug: postman-apideck-shared-links-api
+- collection_type: postman
+  name: Apideck Accounting Activities Subsidiaries API
+  slug: postman-apideck-subsidiaries-api
+- collection_type: postman
+  name: Apideck Accounting Activities Suppliers API
+  slug: postman-apideck-suppliers-api
+- collection_type: postman
+  name: Apideck Accounting Activities Tax Rates API
+  slug: postman-apideck-tax-rates-api
+- collection_type: postman
+  name: Apideck Accounting Activities Time Off Requests API
+  slug: postman-apideck-time-off-requests-api
+- collection_type: postman
+  name: Apideck Accounting Activities Tracking Categories API
+  slug: postman-apideck-tracking-categories-api
+- collection_type: postman
+  name: Apideck Accounting Activities Upload Sessions API
+  slug: postman-apideck-upload-sessions-api
+- collection_type: postman
+  name: Apideck Accounting Activities Users API
+  slug: postman-apideck-users-api
 - collection_type: open
   name: Apideck Accounting API
   slug: open-apideck-accounting
@@ -214,6 +247,10 @@ collections:
   name: Apideck HRIS API
   slug: open-apideck-hris
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/apideck-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -385,7 +422,7 @@ finops:
 - name: Apideck Finops
   service_category: Integrations / Unified API
   slug: apideck-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apideck.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 integrations:
 - name: Acerta
 - name: Act
@@ -2323,18 +2360,18 @@ modified: '2026-05-19'
 name: Apideck
 nav: Providers
 network: true
-overview: 'Apideck publishes 53 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Aged Creditors API, Aged Debtors API, and 50 more. Tagged areas include Integrations and Unified API.
+overview: 'Apideck publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, CRM API, HRIS API, and 11 more. Tagged areas include Integrations and Unified API.
 
 
   The Apideck catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Apideck''s developer surface includes authentication, documentation, getting-started guide, signup flow, support, changelog, code examples, and 29 more developer resources.'
+  Apideck''s developer surface includes authentication, documentation, getting-started guide, signup flow, support, changelog, code examples, and 30 more developer resources.'
 plans:
 - name: Apideck Plans Pricing
   plan_count: 3
   slug: apideck-plans-pricing
-random_paper: 41
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Apideck Rate Limits
@@ -2350,19 +2387,26 @@ rules:
   slug: apideck-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 67.4
-  delta: 2.5
+  composite: 60.4
+  delta: -7.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 56.4
+    contract_quality: 40.3
     developer_ergonomics: 52.2
-    discoverability: 67.5
-    governance: 73.7
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 64.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 67.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 53
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/screenshots/apideck-2026-06-20T172302.png
 security:
 - kind: authentication

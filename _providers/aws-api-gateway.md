@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -857,7 +859,7 @@ plans:
 - name: Aws Api Gateway Plans Pricing
   plan_count: 6
   slug: aws-api-gateway-plans-pricing
-random_paper: 61
+random_paper: 26
 rate_limits:
 - limit_count: 12
   name: Aws Api Gateway Rate Limits
@@ -889,18 +891,25 @@ rules:
   slug: aws-api-gateway-spectral-rules
 score:
   band: exemplar
-  composite: 75.1
-  delta: 2.5
+  composite: 71.0
+  delta: -4.1
   facets:
     commercial_clarity: 78.9
-    contract_quality: 80.8
+    contract_quality: 81.2
     developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 72.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 75.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png
 security:

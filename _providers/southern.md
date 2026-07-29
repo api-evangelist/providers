@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Southern Company Customer Account API provides access to utility account data for Alabama Power, Georgia Power, and Mississippi Power customers. It supports reading energy usage data, account bala
@@ -129,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Energy Department Announces Partnership to Ensure ...
   url: https://www.energy.gov/articles/energy-department-announces-partnership-ensure-affordable-energy-and-power-americas-ai
-random_paper: 4
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Southern Rate Limits
@@ -145,19 +147,25 @@ rules:
   slug: southern-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 29.3
+  delta: -8.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 39.6
+    contract_quality: 33.9
     developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 26.3
   previous_composite: 37.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 14.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/screenshots/southern-2026-06-20T194228.png
 security:
 - kind: domain-security

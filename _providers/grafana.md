@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 24
@@ -491,8 +493,422 @@ arazzos:
 - description: Create a custom role with explicit permissions, resolve a team by name, and assign the role to it.
   name: Grafana Assign a Custom RBAC Role to a Team
   slug: grafana-team-rbac-role-workflow
-artifact_total: 168
+artifact_total: 306
 collections:
+- collection_type: postman
+  name: Grafana HTTP Access API
+  slug: postman-grafana-access-api
+- collection_type: postman
+  name: Grafana HTTP Access Account API
+  slug: postman-grafana-account-api
+- collection_type: postman
+  name: Grafana HTTP Access Accounts API
+  slug: postman-grafana-accounts-api
+- collection_type: postman
+  name: Grafana HTTP Access Add API
+  slug: postman-grafana-add-api
+- collection_type: postman
+  name: Grafana HTTP Access Address API
+  slug: postman-grafana-address-api
+- collection_type: postman
+  name: Grafana HTTP Access Administrative API
+  slug: postman-grafana-administrative-api
+- collection_type: postman
+  name: Grafana HTTP Access Alerts API
+  slug: postman-grafana-alerts-api
+- collection_type: postman
+  name: Grafana HTTP Access All API
+  slug: postman-grafana-all-api
+- collection_type: postman
+  name: Grafana HTTP Access Annotations API
+  slug: postman-grafana-annotations-api
+- collection_type: postman
+  name: Grafana HTTP Access Built API
+  slug: postman-grafana-built-api
+- collection_type: postman
+  name: Grafana HTTP Access Cache API
+  slug: postman-grafana-cache-api
+- collection_type: postman
+  name: Grafana HTTP Access Call API
+  slug: postman-grafana-call-api
+- collection_type: postman
+  name: Grafana HTTP Access Calls API
+  slug: postman-grafana-calls-api
+- collection_type: postman
+  name: Grafana HTTP Access Cancel API
+  slug: postman-grafana-cancel-api
+- collection_type: postman
+  name: Grafana HTTP Access Change API
+  slug: postman-grafana-change-api
+- collection_type: postman
+  name: Grafana HTTP Access Checks API
+  slug: postman-grafana-checks-api
+- collection_type: postman
+  name: Grafana HTTP Access Clean API
+  slug: postman-grafana-clean-api
+- collection_type: postman
+  name: Grafana HTTP Access Clear API
+  slug: postman-grafana-clear-api
+- collection_type: postman
+  name: Grafana HTTP Access Cloud API
+  slug: postman-grafana-cloud-api
+- collection_type: postman
+  name: Grafana HTTP Access Comments API
+  slug: postman-grafana-comments-api
+- collection_type: postman
+  name: Grafana HTTP Access Connections API
+  slug: postman-grafana-connections-api
+- collection_type: postman
+  name: Grafana HTTP Access Control API
+  slug: postman-grafana-control-api
+- collection_type: postman
+  name: Grafana HTTP Access Convert API
+  slug: postman-grafana-convert-api
+- collection_type: postman
+  name: Grafana HTTP Access Correlation API
+  slug: postman-grafana-correlation-api
+- collection_type: postman
+  name: Grafana HTTP Access Correlations API
+  slug: postman-grafana-correlations-api
+- collection_type: postman
+  name: Grafana HTTP Access Counts API
+  slug: postman-grafana-counts-api
+- collection_type: postman
+  name: Grafana HTTP Access Create API
+  slug: postman-grafana-create-api
+- collection_type: postman
+  name: Grafana HTTP Access Current API
+  slug: postman-grafana-current-api
+- collection_type: postman
+  name: Grafana HTTP Access Custom API
+  slug: postman-grafana-custom-api
+- collection_type: postman
+  name: Grafana HTTP Access Dashboards API
+  slug: postman-grafana-dashboards-api
+- collection_type: postman
+  name: Grafana HTTP Access Data API
+  slug: postman-grafana-data-api
+- collection_type: postman
+  name: Grafana HTTP Access Data Sources API
+  slug: postman-grafana-data-sources-api
+- collection_type: postman
+  name: Grafana HTTP Access Delete API
+  slug: postman-grafana-delete-api
+- collection_type: postman
+  name: Grafana HTTP Access Dependencies API
+  slug: postman-grafana-dependencies-api
+- collection_type: postman
+  name: Grafana HTTP Access Descendants API
+  slug: postman-grafana-descendants-api
+- collection_type: postman
+  name: Grafana HTTP Access Description API
+  slug: postman-grafana-description-api
+- collection_type: postman
+  name: Grafana HTTP Access Devices API
+  slug: postman-grafana-devices-api
+- collection_type: postman
+  name: Grafana HTTP Access Disables API
+  slug: postman-grafana-disables-api
+- collection_type: postman
+  name: Grafana HTTP Access Element API
+  slug: postman-grafana-element-api
+- collection_type: postman
+  name: Grafana HTTP Access Elements API
+  slug: postman-grafana-elements-api
+- collection_type: postman
+  name: Grafana HTTP Access Email API
+  slug: postman-grafana-email-api
+- collection_type: postman
+  name: Grafana HTTP Access Emails API
+  slug: postman-grafana-emails-api
+- collection_type: postman
+  name: Grafana HTTP Access Enables API
+  slug: postman-grafana-enables-api
+- collection_type: postman
+  name: Grafana HTTP Access Exports API
+  slug: postman-grafana-exports-api
+- collection_type: postman
+  name: Grafana HTTP Access Flag API
+  slug: postman-grafana-flag-api
+- collection_type: postman
+  name: Grafana HTTP Access Flags API
+  slug: postman-grafana-flags-api
+- collection_type: postman
+  name: Grafana HTTP Access Folders API
+  slug: postman-grafana-folders-api
+- collection_type: postman
+  name: Grafana HTTP Access Get API
+  slug: postman-grafana-get-api
+- collection_type: postman
+  name: Grafana HTTP Access Groups API
+  slug: postman-grafana-groups-api
+- collection_type: postman
+  name: Grafana HTTP Access Health API
+  slug: postman-grafana-health-api
+- collection_type: postman
+  name: Grafana HTTP Access Help API
+  slug: postman-grafana-help-api
+- collection_type: postman
+  name: Grafana HTTP Access Home API
+  slug: postman-grafana-home-api
+- collection_type: postman
+  name: Grafana HTTP Access Identifiers API
+  slug: postman-grafana-identifiers-api
+- collection_type: postman
+  name: Grafana HTTP Access Image API
+  slug: postman-grafana-image-api
+- collection_type: postman
+  name: Grafana HTTP Access Import API
+  slug: postman-grafana-import-api
+- collection_type: postman
+  name: Grafana HTTP Access Interpolate API
+  slug: postman-grafana-interpolate-api
+- collection_type: postman
+  name: Grafana HTTP Access Invites API
+  slug: postman-grafana-invites-api
+- collection_type: postman
+  name: Grafana HTTP Access Items API
+  slug: postman-grafana-items-api
+- collection_type: postman
+  name: Grafana HTTP Access Keys API
+  slug: postman-grafana-keys-api
+- collection_type: postman
+  name: Grafana HTTP Access Ldap API
+  slug: postman-grafana-ldap-api
+- collection_type: postman
+  name: Grafana HTTP Access Libraries API
+  slug: postman-grafana-libraries-api
+- collection_type: postman
+  name: Grafana HTTP Access Licenses API
+  slug: postman-grafana-licenses-api
+- collection_type: postman
+  name: Grafana HTTP Access Lists API
+  slug: postman-grafana-lists-api
+- collection_type: postman
+  name: Grafana HTTP Access Login API
+  slug: postman-grafana-login-api
+- collection_type: postman
+  name: Grafana HTTP Access Mapped API
+  slug: postman-grafana-mapped-api
+- collection_type: postman
+  name: Grafana HTTP Access Mass API
+  slug: postman-grafana-mass-api
+- collection_type: postman
+  name: Grafana HTTP Access Member API
+  slug: postman-grafana-member-api
+- collection_type: postman
+  name: Grafana HTTP Access Members API
+  slug: postman-grafana-members-api
+- collection_type: postman
+  name: Grafana HTTP Access Memberships API
+  slug: postman-grafana-memberships-api
+- collection_type: postman
+  name: Grafana HTTP Access Metrics API
+  slug: postman-grafana-metrics-api
+- collection_type: postman
+  name: Grafana HTTP Access Migrations API
+  slug: postman-grafana-migrations-api
+- collection_type: postman
+  name: Grafana HTTP Access Move API
+  slug: postman-grafana-move-api
+- collection_type: postman
+  name: Grafana HTTP Access Mute API
+  slug: postman-grafana-mute-api
+- collection_type: postman
+  name: Grafana HTTP Access Names API
+  slug: postman-grafana-names-api
+- collection_type: postman
+  name: Grafana HTTP Access Options API
+  slug: postman-grafana-options-api
+- collection_type: postman
+  name: Grafana HTTP Access Organizations API
+  slug: postman-grafana-organizations-api
+- collection_type: postman
+  name: Grafana HTTP Access Password API
+  slug: postman-grafana-password-api
+- collection_type: postman
+  name: Grafana HTTP Access Patch API
+  slug: postman-grafana-patch-api
+- collection_type: postman
+  name: Grafana HTTP Access Pending API
+  slug: postman-grafana-pending-api
+- collection_type: postman
+  name: Grafana HTTP Access Permissions API
+  slug: postman-grafana-permissions-api
+- collection_type: postman
+  name: Grafana HTTP Access Playlists API
+  slug: postman-grafana-playlists-api
+- collection_type: postman
+  name: Grafana HTTP Access Plugins API
+  slug: postman-grafana-plugins-api
+- collection_type: postman
+  name: Grafana HTTP Access Policies API
+  slug: postman-grafana-policies-api
+- collection_type: postman
+  name: Grafana HTTP Access Post API
+  slug: postman-grafana-post-api
+- collection_type: postman
+  name: Grafana HTTP Access Preferences API
+  slug: postman-grafana-preferences-api
+- collection_type: postman
+  name: Grafana HTTP Access Provider API
+  slug: postman-grafana-provider-api
+- collection_type: postman
+  name: Grafana HTTP Access Providers API
+  slug: postman-grafana-providers-api
+- collection_type: postman
+  name: Grafana HTTP Access Provisioning API
+  slug: postman-grafana-provisioning-api
+- collection_type: postman
+  name: Grafana HTTP Access Proxies API
+  slug: postman-grafana-proxies-api
+- collection_type: postman
+  name: Grafana HTTP Access Public API
+  slug: postman-grafana-public-api
+- collection_type: postman
+  name: Grafana HTTP Access Put API
+  slug: postman-grafana-put-api
+- collection_type: postman
+  name: Grafana HTTP Access Queries API
+  slug: postman-grafana-queries-api
+- collection_type: postman
+  name: Grafana HTTP Access Quota API
+  slug: postman-grafana-quota-api
+- collection_type: postman
+  name: Grafana HTTP Access Recording API
+  slug: postman-grafana-recording-api
+- collection_type: postman
+  name: Grafana HTTP Access Refresh API
+  slug: postman-grafana-refresh-api
+- collection_type: postman
+  name: Grafana HTTP Access Reload API
+  slug: postman-grafana-reload-api
+- collection_type: postman
+  name: Grafana HTTP Access Remove API
+  slug: postman-grafana-remove-api
+- collection_type: postman
+  name: Grafana HTTP Access Render API
+  slug: postman-grafana-render-api
+- collection_type: postman
+  name: Grafana HTTP Access Renew API
+  slug: postman-grafana-renew-api
+- collection_type: postman
+  name: Grafana HTTP Access Reports API
+  slug: postman-grafana-reports-api
+- collection_type: postman
+  name: Grafana HTTP Access Reset API
+  slug: postman-grafana-reset-api
+- collection_type: postman
+  name: Grafana HTTP Access Resource API
+  slug: postman-grafana-resource-api
+- collection_type: postman
+  name: Grafana HTTP Access Restore API
+  slug: postman-grafana-restore-api
+- collection_type: postman
+  name: Grafana HTTP Access Result API
+  slug: postman-grafana-result-api
+- collection_type: postman
+  name: Grafana HTTP Access Retrieve API
+  slug: postman-grafana-retrieve-api
+- collection_type: postman
+  name: Grafana HTTP Access Revoke API
+  slug: postman-grafana-revoke-api
+- collection_type: postman
+  name: Grafana HTTP Access Role API
+  slug: postman-grafana-role-api
+- collection_type: postman
+  name: Grafana HTTP Access Roles API
+  slug: postman-grafana-roles-api
+- collection_type: postman
+  name: Grafana HTTP Access Routes API
+  slug: postman-grafana-routes-api
+- collection_type: postman
+  name: Grafana HTTP Access Rules API
+  slug: postman-grafana-rules-api
+- collection_type: postman
+  name: Grafana HTTP Access Save API
+  slug: postman-grafana-save-api
+- collection_type: postman
+  name: Grafana HTTP Access Search API
+  slug: postman-grafana-search-api
+- collection_type: postman
+  name: Grafana HTTP Access Send API
+  slug: postman-grafana-send-api
+- collection_type: postman
+  name: Grafana HTTP Access Sessions API
+  slug: postman-grafana-sessions-api
+- collection_type: postman
+  name: Grafana HTTP Access Sets API
+  slug: postman-grafana-sets-api
+- collection_type: postman
+  name: Grafana HTTP Access Settings API
+  slug: postman-grafana-settings-api
+- collection_type: postman
+  name: Grafana HTTP Access Sharing API
+  slug: postman-grafana-sharing-api
+- collection_type: postman
+  name: Grafana HTTP Access Signed API
+  slug: postman-grafana-signed-api
+- collection_type: postman
+  name: Grafana HTTP Access Snapshots API
+  slug: postman-grafana-snapshots-api
+- collection_type: postman
+  name: Grafana HTTP Access Sort API
+  slug: postman-grafana-sort-api
+- collection_type: postman
+  name: Grafana HTTP Access Sources API
+  slug: postman-grafana-sources-api
+- collection_type: postman
+  name: Grafana HTTP Access Star API
+  slug: postman-grafana-star-api
+- collection_type: postman
+  name: Grafana HTTP Access Status API
+  slug: postman-grafana-status-api
+- collection_type: postman
+  name: Grafana HTTP Access Sync API
+  slug: postman-grafana-sync-api
+- collection_type: postman
+  name: Grafana HTTP Access Target API
+  slug: postman-grafana-target-api
+- collection_type: postman
+  name: Grafana HTTP Access Teams API
+  slug: postman-grafana-teams-api
+- collection_type: postman
+  name: Grafana HTTP Access Templates API
+  slug: postman-grafana-templates-api
+- collection_type: postman
+  name: Grafana HTTP Access Tests API
+  slug: postman-grafana-tests-api
+- collection_type: postman
+  name: Grafana HTTP Access Timing API
+  slug: postman-grafana-timing-api
+- collection_type: postman
+  name: Grafana HTTP Access Tokens API
+  slug: postman-grafana-tokens-api
+- collection_type: postman
+  name: Grafana HTTP Access Trees API
+  slug: postman-grafana-trees-api
+- collection_type: postman
+  name: Grafana HTTP Access Unstar API
+  slug: postman-grafana-unstar-api
+- collection_type: postman
+  name: Grafana HTTP Access Update API
+  slug: postman-grafana-update-api
+- collection_type: postman
+  name: Grafana HTTP Access Upload API
+  slug: postman-grafana-upload-api
+- collection_type: postman
+  name: Grafana HTTP Access Users API
+  slug: postman-grafana-users-api
+- collection_type: postman
+  name: Grafana HTTP Access Versions API
+  slug: postman-grafana-versions-api
+- collection_type: postman
+  name: Grafana HTTP Access View API
+  slug: postman-grafana-view-api
+- collection_type: postman
+  name: Grafana HTTP Access Write API
+  slug: postman-grafana-write-api
 - collection_type: open
   name: Grafana HTTP API
   slug: open-grafana-api
@@ -500,6 +916,10 @@ collections:
   name: Grafana
   slug: open-grafana
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/grafana/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -721,12 +1141,12 @@ overview: 'Grafana publishes 138 APIs on the [APIs.io](https://apis.io/) network
   The Grafana catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Grafana''s developer surface includes changelog, CLI, authentication, developer portal, getting-started guide, documentation, pricing, and 38 more developer resources.'
+  Grafana''s developer surface includes changelog, CLI, authentication, developer portal, getting-started guide, documentation, pricing, and 39 more developer resources.'
 plans:
 - name: Grafana Plans Pricing
   plan_count: 3
   slug: grafana-plans-pricing
-random_paper: 40
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Grafana Rate Limits
@@ -742,18 +1162,27 @@ rules:
   slug: grafana-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.3
-  delta: 2.5
+  composite: 71.9
+  delta: 1.6
   facets:
     commercial_clarity: 78.9
-    contract_quality: 66.6
-    developer_ergonomics: 60.9
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 69.2
+    developer_ergonomics: 65.2
+    discoverability: 85.2
+    governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 67.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 70.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 138
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png
 security:

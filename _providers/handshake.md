@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Read-only, institution-scoped EDU API for career-services data: applications, appointments, career fairs, jobs, postings, qualifications, and meetings. Authenticates via x-api-key header; supports pag'
@@ -130,21 +132,21 @@ overview: 'Handshake publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Handshake''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 14 more developer resources.'
-random_paper: 51
+random_paper: 11
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 33.5
+  delta: -1.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 35.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/screenshots/handshake-2026-07-25T220619.png
 security:

@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,26 +103,27 @@ overview: 'Clara 2 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Clara 2''s developer surface includes engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 66
+random_paper: 71
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 20.2
+  delta: -3.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 67.5
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 23.3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 23.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clara-2/refs/heads/main/screenshots/clara-2-2026-07-25T205458.png
 security:

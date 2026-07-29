@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -61,8 +63,25 @@ apis:
 - description: Resource tagging operations for cost allocation and resource management
   name: AWS HealthLake Tags API
   slug: aws-healthlake-tags-api
-artifact_total: 68
+artifact_total: 72
+collections:
+- collection_type: postman
+  name: Amazon HealthLake Datastore API
+  slug: postman-aws-healthlake-datastore-api
+- collection_type: postman
+  name: Amazon HealthLake Datastore Export API
+  slug: postman-aws-healthlake-export-api
+- collection_type: postman
+  name: Amazon HealthLake Datastore Import API
+  slug: postman-aws-healthlake-import-api
+- collection_type: postman
+  name: Amazon HealthLake Datastore Tags API
+  slug: postman-aws-healthlake-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aws-healthlake/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -335,12 +354,12 @@ overview: 'AWS HealthLake publishes 4 APIs on the [APIs.io](https://apis.io/) ne
   The AWS HealthLake catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AWS HealthLake''s developer surface includes authentication, documentation, API reference, pricing, getting-started guide, developer console, CLI, and 17 more developer resources.'
+  AWS HealthLake''s developer surface includes authentication, documentation, API reference, pricing, getting-started guide, developer console, CLI, and 18 more developer resources.'
 plans:
 - name: Aws Healthlake Plans
   plan_count: 2
   slug: aws-healthlake-plans
-random_paper: 59
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Aws Healthlake Rate Limits
@@ -355,25 +374,33 @@ rules:
     warn: 4
   slug: aws-healthlake-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 61.9
-  delta: 0.0
+  band: developing
+  composite: 55.7
+  delta: -6.2
   facets:
     commercial_clarity: 55.3
-    contract_quality: 65.5
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 68.6
+    developer_ergonomics: 63.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 31.6
   previous_composite: 61.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 35.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/screenshots/aws-healthlake-2026-06-20T172758.png
 security:
 - kind: authentication

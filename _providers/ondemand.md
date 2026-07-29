@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -171,25 +173,35 @@ overview: 'Ondemand publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ondemand''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 22
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Ondemand Rate Limits
   slug: ondemand-rate-limits
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 44.5
+  delta: -1.3
   facets:
     commercial_clarity: 23.7
-    contract_quality: 63.4
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.9
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 45.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,8 +71,46 @@ apis:
 - description: Parsoid wikitext ↔ HTML transforms and lint
   name: Wiktionary Transform API
   slug: wiktionary-transform-api
-artifact_total: 143
+artifact_total: 154
+collections:
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition API
+  slug: postman-wiktionary-definition-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition ExpandTemplates API
+  slug: postman-wiktionary-expandtemplates-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition File API
+  slug: postman-wiktionary-file-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition History API
+  slug: postman-wiktionary-history-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition OpenSearch API
+  slug: postman-wiktionary-opensearch-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition Page API
+  slug: postman-wiktionary-page-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition Page Content API
+  slug: postman-wiktionary-page-content-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition Parse API
+  slug: postman-wiktionary-parse-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition Query API
+  slug: postman-wiktionary-query-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition Search API
+  slug: postman-wiktionary-search-api
+- collection_type: postman
+  name: Wiktionary MediaWiki Core REST Definition Transform API
+  slug: postman-wiktionary-transform-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wiktionary/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -572,8 +612,8 @@ overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
   The Wiktionary catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 31 more developer resources.'
-random_paper: 17
+  Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 32 more developer resources.'
+random_paper: 27
 rules:
 - name: Wiktionary API Rules
   rule_count: 6
@@ -598,24 +638,32 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.9
-  delta: 0.0
+  composite: 59.6
+  delta: -7.3
   facets:
     commercial_clarity: 31.6
-    contract_quality: 78.6
-    developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 65.0
+    developer_ergonomics: 67.4
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 66.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 75.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/screenshots/wiktionary-2026-06-20T201458.png
 security:
 - kind: authentication

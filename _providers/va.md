@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -222,7 +224,7 @@ plans:
 - name: Va Plans Pricing
   plan_count: 2
   slug: va-plans-pricing
-random_paper: 11
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Va Rate Limits
@@ -234,24 +236,32 @@ scopes:
   summary_line: 35 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 42.0
+  delta: -5.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.3
+    contract_quality: 61.7
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 47.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 71.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/va/refs/heads/main/screenshots/va-2026-06-20T200739.png
 security:
 - kind: authentication

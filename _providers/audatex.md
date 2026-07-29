@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The AudaConnect API enables third-party software developers to access, query, and update the Audatex platform including assessments, vehicle reference data, repair orders, and photo management using R
@@ -110,30 +112,31 @@ plans:
 - name: Audatex Plans Pricing
   plan_count: 3
   slug: audatex-plans-pricing
-random_paper: 0
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Audatex Rate Limits
   slug: audatex-rate-limits
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 31.6
+  delta: -4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 8.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 36.3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 21.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audatex/refs/heads/main/screenshots/audatex-2026-06-20T172546.png
 security:

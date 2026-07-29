@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +141,7 @@ overview: 'ClinicalTrials.gov publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   ClinicalTrials.gov''s developer surface includes documentation, developer portal, product news, GitHub presence, and 11 more developer resources.'
-random_paper: 4
+random_paper: 60
 rules:
 - name: ClinicalTrials.gov API Rules
   rule_count: 9
@@ -151,23 +153,31 @@ rules:
   slug: clinical-trials-gov-rules
 score:
   band: thin
-  composite: 33.3
-  delta: 1.7
+  composite: 30.2
+  delta: -3.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 42.5
+    contract_quality: 44.9
     developer_ergonomics: 17.4
-    discoverability: 87.5
-    governance: 34.2
+    discoverability: 64.8
+    governance: 27.1
     operational_transparency: 5.3
-  previous_composite: 31.6
+  previous_composite: 33.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 35.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/screenshots/clinical-trials-gov-2026-06-20T174525.png
 security:

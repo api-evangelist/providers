@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful JSON API for CapLinked virtual data rooms, secured by HMAC-SHA256 request signing. Manage organizations, teams, workspaces, folders, files, groups, permissions, uploads, downloads, watermarks,
@@ -166,21 +168,24 @@ overview: 'Caplinked publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Caplinked''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, pricing, support, changelog, and 22 more developer resources.'
-random_paper: 55
+random_paper: 15
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 38.2
+  delta: -1.4
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 60.9
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 39.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/screenshots/caplinked-2026-07-25T204422.png
 security:

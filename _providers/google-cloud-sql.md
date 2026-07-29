@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Operations on database users
   name: Google Cloud SQL Users API
   slug: google-cloud-sql-users-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: postman
+  name: Google Cloud SQL Admin BackupRuns API
+  slug: postman-google-cloud-sql-backupruns-api
+- collection_type: postman
+  name: Google Cloud SQL Admin BackupRuns Databases API
+  slug: postman-google-cloud-sql-databases-api
+- collection_type: postman
+  name: Google Cloud SQL Admin BackupRuns Instances API
+  slug: postman-google-cloud-sql-instances-api
+- collection_type: postman
+  name: Google Cloud SQL Admin BackupRuns Users API
+  slug: postman-google-cloud-sql-users-api
 - collection_type: open
   name: Google Cloud SQL Admin API
   slug: open-cloud-sql
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-sql/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,12 +168,12 @@ overview: 'Google Cloud SQL publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Google Cloud SQL catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud SQL''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 10 more developer resources.'
+  Google Cloud SQL''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Cloud Sql Plans Pricing
   plan_count: 3
   slug: google-cloud-sql-plans-pricing
-random_paper: 34
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Google Cloud Sql Rate Limits
@@ -176,18 +194,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.3
-  delta: 4.6
+  composite: 63.0
+  delta: -3.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.0
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 70.3
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/screenshots/google-cloud-sql-2026-06-20T182138.png
 security:

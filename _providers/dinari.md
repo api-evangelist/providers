@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -76,12 +78,47 @@ arazzos:
 - description: Create an entity, run KYC, open an account, find a stock, and place a managed market buy.
   name: Onboard a customer and place a dShare order
   slug: dinari-onboard-and-trade
-artifact_total: 19
+artifact_total: 29
 asyncapis:
 - description: Real-time market data and order updates over WebSocket. Clients authenticate with their API key + secret, then subscribe to market data (Level 2 order book, DFN quotes) and/or order data for their cus
   name: Dinari Streaming (WebSocket) API
   slug: dinari-streaming-asyncapi
+collections:
+- collection_type: postman
+  name: Dinari Enterprise Accounts API
+  slug: postman-dinari-accounts-api
+- collection_type: postman
+  name: Dinari Enterprise Accounts Corporate Actions API
+  slug: postman-dinari-corporate-actions-api
+- collection_type: postman
+  name: Dinari Enterprise Accounts Entities API
+  slug: postman-dinari-entities-api
+- collection_type: postman
+  name: Dinari Enterprise Accounts KYC API
+  slug: postman-dinari-kyc-api
+- collection_type: postman
+  name: Dinari Enterprise Accounts Managed Orders API
+  slug: postman-dinari-managed-orders-api
+- collection_type: postman
+  name: Dinari Enterprise Accounts Market Data API
+  slug: postman-dinari-market-data-api
+- collection_type: postman
+  name: Dinari Enterprise Accounts Order Requests API
+  slug: postman-dinari-order-requests-api
+- collection_type: postman
+  name: Dinari Enterprise Accounts Orders API
+  slug: postman-dinari-orders-api
+- collection_type: postman
+  name: Dinari Enterprise Accounts Wallets API
+  slug: postman-dinari-wallets-api
+- collection_type: postman
+  name: Dinari Enterprise Accounts Withdrawals API
+  slug: postman-dinari-withdrawals-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dinari/overview
 - group: company
   title: ''
   type: Website
@@ -244,27 +281,38 @@ overview: 'Dinari publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Dinari catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
-random_paper: 19
+  Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
+random_paper: 15
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 57.3
+  delta: -3.9
   facets:
     commercial_clarity: 44.7
-    contract_quality: 71.5
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 71.7
+    developer_ergonomics: 73.4
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 55.3
   previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/screenshots/dinari-2026-07-25T212044.png
 security:

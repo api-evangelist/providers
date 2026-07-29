@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -400,7 +402,7 @@ plans:
 - name: Thingspeak Plans Pricing
   plan_count: 5
   slug: thingspeak-plans-pricing
-random_paper: 50
+random_paper: 69
 rate_limits:
 - limit_count: 8
   name: Thingspeak Rate Limits
@@ -432,18 +434,25 @@ rules:
   slug: thingspeak-rules
 score:
   band: strong
-  composite: 68.2
-  delta: 4.4
+  composite: 64.2
+  delta: -4.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.1
+    contract_quality: 74.1
     developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 65.8
+    discoverability: 74.1
+    governance: 52.1
     operational_transparency: 36.8
-  previous_composite: 63.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/screenshots/thingspeak-2026-06-20T195303.png
 security:

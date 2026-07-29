@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -157,25 +159,32 @@ plans:
 - name: Eosio Plans Pricing
   plan_count: 2
   slug: eosio-plans-pricing
-random_paper: 67
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Eosio Rate Limits
   slug: eosio-rate-limits
 score:
   band: thin
-  composite: 43.0
-  delta: 2.0
+  composite: 40.5
+  delta: -2.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 51.9
+    contract_quality: 49.7
     developer_ergonomics: 28.3
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 41.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 43.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

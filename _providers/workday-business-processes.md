@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Manage running business process instances
   name: Workday Business Processes Process Instances API
   slug: workday-business-processes-process-instances-api
-artifact_total: 37
+artifact_total: 41
 collections:
+- collection_type: postman
+  name: Workday Business Process Approvals API
+  slug: postman-workday-business-processes-approvals-api
+- collection_type: postman
+  name: Workday Business Process Approvals Business Process Definitions API
+  slug: postman-workday-business-processes-business-process-definitions-api
+- collection_type: postman
+  name: Workday Business Process Approvals Inbox Items API
+  slug: postman-workday-business-processes-inbox-items-api
+- collection_type: postman
+  name: Workday Business Process Approvals Process Instances API
+  slug: postman-workday-business-processes-process-instances-api
 - collection_type: open
   name: Workday Business Process API
   slug: open-workday-business-processes
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/workday-business-processes/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -200,12 +218,12 @@ overview: 'Workday Business Processes publishes 4 APIs on the [APIs.io](https://
   The Workday Business Processes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Business Processes'' developer surface includes authentication, developer portal, getting-started guide, and 11 more developer resources.'
+  Workday Business Processes'' developer surface includes authentication, developer portal, getting-started guide, and 12 more developer resources.'
 plans:
 - name: Workday Business Processes Plans Pricing
   plan_count: 3
   slug: workday-business-processes-plans-pricing
-random_paper: 66
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Workday Business Processes Rate Limits
@@ -234,19 +252,26 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 63.3
-  delta: 5.5
+  composite: 57.1
+  delta: -6.2
   facets:
     commercial_clarity: 68.4
-    contract_quality: 80.5
-    developer_ergonomics: 30.4
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 34.8
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 57.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/screenshots/workday-business-processes-2026-06-20T201558.png
 security:
 - kind: authentication

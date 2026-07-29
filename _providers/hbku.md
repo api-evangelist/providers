@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -187,7 +189,7 @@ plans:
 - name: Hbku Plans Pricing
   plan_count: 2
   slug: hbku-plans-pricing
-random_paper: 18
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Hbku Rate Limits
@@ -216,18 +218,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 42.9
+  delta: -4.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.4
+    contract_quality: 66.7
     developer_ergonomics: 13.0
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
   previous_composite: 47.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/screenshots/hbku-2026-06-20T182545.png
 security:

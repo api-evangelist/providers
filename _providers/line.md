@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 58.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -133,7 +135,7 @@ overview: 'LINE publishes 4 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   LINE''s developer surface includes authentication, documentation, signup flow, pricing, and 10 more developer resources.'
-random_paper: 16
+random_paper: 39
 rules:
 - name: LINE API Rules
   rule_count: 4
@@ -145,19 +147,32 @@ rules:
   slug: line-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 41.0
-  delta: 3.3
+  composite: 36.0
+  delta: -5.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 66.8
+    contract_quality: 68.2
     developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 34.2
+    discoverability: 74.1
+    governance: 27.1
     operational_transparency: 5.3
-  previous_composite: 37.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 41.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 25.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png
 security:
 - kind: authentication

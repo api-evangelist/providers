@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 2
@@ -253,12 +255,232 @@ apis:
 - description: 'The #X Amz Target=AmazonDMSv20160101.UpdateSubscriptionsToEventBridge API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.updatesubscriptionstoeventbridge.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.UpdateSubscriptionsToEventBridge API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-updatesubscriptionstoeventbridge-api
-artifact_total: 170
+artifact_total: 242
 collections:
+- collection_type: postman
+  name: AWS Database Migration Service Endpoints API
+  slug: postman-amazon-dms-endpoints-api
+- collection_type: postman
+  name: AWS Database Migration Service Endpoints Replication Instances API
+  slug: postman-amazon-dms-replication-instances-api
+- collection_type: postman
+  name: AWS Database Migration Service Endpoints Replication Tasks API
+  slug: postman-amazon-dms-replication-tasks-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.AddTagsToResource API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-addtagstoresource-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.ApplyPendingMaintenanceAction API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-applypendingmaintenanceaction-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.BatchStartRecommendations API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-batchstartrecommendations-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.CancelReplicationTaskAssessmentRun API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-cancelreplicationtaskassessmentrun-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.CreateEndpoint API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-createendpoint-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.CreateEventSubscription API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-createeventsubscription-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.CreateFleetAdvisorCollector API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-createfleetadvisorcollector-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.CreateReplicationInstance API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-createreplicationinstance-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.CreateReplicationSubnetGroup API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-createreplicationsubnetgroup-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.CreateReplicationTask API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-createreplicationtask-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteCertificate API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deletecertificate-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteConnection API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deleteconnection-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteEndpoint API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deleteendpoint-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteEventSubscription API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deleteeventsubscription-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteFleetAdvisorCollector API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deletefleetadvisorcollector-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteFleetAdvisorDatabases API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deletefleetadvisordatabases-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteReplicationInstance API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deletereplicationinstance-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteReplicationSubnetGroup API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deletereplicationsubnetgroup-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteReplicationTask API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deletereplicationtask-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DeleteReplicationTaskAssessmentRun API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-deletereplicationtaskassessmentrun-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeAccountAttributes API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeaccountattributes-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeApplicableIndividualAssessments API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeapplicableindividualassessments-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeCertificates API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describecertificates-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeConnections API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeconnections-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeEndpoints API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeendpoints-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeEndpointSettings API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeendpointsettings-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeEndpointTypes API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeendpointtypes-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeEventCategories API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeeventcategories-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeEvents API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeevents-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeEventSubscriptions API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeeventsubscriptions-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorCollectors API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisorcollectors-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorDatabases API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisordatabases-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorLsaAnalysis API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisorlsaanalysis-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorSchemaObjectSummary API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisorschemaobjectsummary-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorSchemas API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisorschemas-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeOrderableReplicationInstances API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeorderablereplicationinstances-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribePendingMaintenanceActions API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describependingmaintenanceactions-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeRecommendationLimitations API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describerecommendationlimitations-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeRecommendations API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describerecommendations-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeRefreshSchemasStatus API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describerefreshschemasstatus-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeReplicationInstances API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describereplicationinstances-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeReplicationInstanceTaskLogs API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describereplicationinstancetasklogs-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeReplicationSubnetGroups API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describereplicationsubnetgroups-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskAssessmentResults API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describereplicationtaskassessmentresults-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskAssessmentRuns API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describereplicationtaskassessmentruns-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskIndividualAssessments API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describereplicationtaskindividualassessments-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeReplicationTasks API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describereplicationtasks-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeSchemas API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describeschemas-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.DescribeTableStatistics API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-describetablestatistics-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.ImportCertificate API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-importcertificate-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.ListTagsForResource API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-listtagsforresource-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.ModifyEndpoint API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-modifyendpoint-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.ModifyEventSubscription API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-modifyeventsubscription-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.ModifyReplicationInstance API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-modifyreplicationinstance-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.ModifyReplicationSubnetGroup API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-modifyreplicationsubnetgroup-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.ModifyReplicationTask API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-modifyreplicationtask-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.MoveReplicationTask API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-movereplicationtask-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.RebootReplicationInstance API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-rebootreplicationinstance-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.RefreshSchemas API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-refreshschemas-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.ReloadTables API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-reloadtables-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.RemoveTagsFromResource API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-removetagsfromresource-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.RunFleetAdvisorLsaAnalysis API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-runfleetadvisorlsaanalysis-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.StartRecommendations API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-startrecommendations-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.StartReplicationTask API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-startreplicationtask-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.StartReplicationTaskAssessment API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-startreplicationtaskassessment-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.StartReplicationTaskAssessmentRun API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-startreplicationtaskassessmentrun-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.StopReplicationTask API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-stopreplicationtask-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.TestConnection API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-testconnection-api
+- collection_type: postman
+  name: 'AWS Database Migration Service Endpoints #X Amz Target=AmazonDMSv20160101.UpdateSubscriptionsToEventBridge API'
+  slug: postman-amazon-dms-x-amz-target-amazondmsv20160101-updatesubscriptionstoeventbridge-api
 - collection_type: open
   name: Amazon DMS AWS Database Migration Service API
   slug: open-amazon-dms
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-dms/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -603,12 +825,12 @@ overview: 'Amazon DMS publishes 72 APIs on the [APIs.io](https://apis.io/) netwo
   The Amazon DMS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DMS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon DMS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Dms Plans Pricing
   plan_count: 3
   slug: amazon-dms-plans-pricing
-random_paper: 63
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Dms Rate Limits
@@ -632,18 +854,25 @@ rules:
   slug: amazon-dms-spectral-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 0.0
+  composite: 60.6
+  delta: -2.8
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.4
-    developer_ergonomics: 41.3
-    discoverability: 55.0
-    governance: 86.8
+    contract_quality: 64.1
+    developer_ergonomics: 45.7
+    discoverability: 40.7
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 63.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 72
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/screenshots/amazon-dms-2026-06-20T171625.png
 security:

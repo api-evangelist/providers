@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Core Yuno Payments API — customers, checkout sessions, payments, refunds, captures, subscriptions, payouts, disputes, reports, banking connectivity and PCI Proxy. Header API-key auth with X-Idempotenc
@@ -201,26 +203,31 @@ overview: 'Yuno publishes 1 API on the [APIs.io](https://apis.io/) network: Paym
 
 
   Yuno''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 29 more developer resources.'
-random_paper: 51
+random_paper: 74
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 57.0
+  delta: -3.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.4
-    developer_ergonomics: 76.1
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 71.2
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 60.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 65.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

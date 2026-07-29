@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
-    spec_presence: false
+    openapi_examples: documented
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 40.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: FBS's proprietary REST API over Flexmls MLS content. Documented services include Listings (plus photos, documents, floor plans, videos, virtual tours, open houses, rooms, units, history and rules), Co
@@ -202,7 +204,7 @@ overview: 'Spark Platform publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Spark Platform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 30 more developer resources.'
-random_paper: 31
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Spark Platform Rate Limits
@@ -213,20 +215,22 @@ scopes:
   slug: spark-platform-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: thin
-  composite: 44.6
-  delta: 0.0
+  band: developing
+  composite: 52.6
+  delta: 8.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 44.7
   previous_composite: 44.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Spark Platform Authentication

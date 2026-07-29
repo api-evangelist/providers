@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 72.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -729,7 +731,7 @@ plans:
 - name: Adobe Analytics Plans Pricing
   plan_count: 3
   slug: adobe-analytics-plans-pricing
-random_paper: 24
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Adobe Analytics Rate Limits
@@ -761,18 +763,27 @@ rules:
   slug: adobe-analytics-spectral-rules
 score:
   band: exemplar
-  composite: 70.2
-  delta: 2.0
+  composite: 69.6
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.4
+    contract_quality: 75.3
     developer_ergonomics: 65.2
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 83.3
+    governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 68.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 70.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:

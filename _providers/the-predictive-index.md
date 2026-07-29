@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 44.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The Behavioral Assessments API from The Predictive Index — 1 operation(s) for behavioral assessments.
@@ -150,21 +152,29 @@ overview: 'The Predictive Index publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 15 more developer resources.'
-random_paper: 46
+random_paper: 16
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 46.7
+  delta: -4.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.5
-    developer_ergonomics: 58.7
-    discoverability: 100.0
+    contract_quality: 50.4
+    developer_ergonomics: 53.8
+    discoverability: 92.6
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 51.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

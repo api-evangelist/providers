@@ -14,21 +14,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.5
+  scored_at: '2026-07-28'
 api_count: 14
 apis:
 - description: JSON WebSocket streaming of US stock trade/quote, options trade/quote, and index price streams, served locally by the Theta Terminal at ws://127.0.0.1:25520/v1/events. Requires a paid subscription wit
@@ -73,12 +75,53 @@ apis:
 - description: The Year API from ThetaData — 1 operation(s) for year.
   name: ThetaData Year API
   slug: thetadata-year-api
-artifact_total: 20
+artifact_total: 32
 asyncapis:
 - description: JSON WebSocket streaming of US stock trade/quote, option trade/quote/full-trade, and index price/market-value streams, served locally by Theta Terminal v3. A single connection per user is permitted; a
   name: ThetaData Streaming WebSocket API (derived)
   slug: thetadata-streaming-asyncapi
+collections:
+- collection_type: postman
+  name: Theta Data v3 At-Time API
+  slug: postman-thetadata-at-time-api
+- collection_type: postman
+  name: Theta Data v3 At-Time Calendar API
+  slug: postman-thetadata-calendar-api
+- collection_type: postman
+  name: Theta Data v3 At-Time FlatFile API
+  slug: postman-thetadata-flatfile-api
+- collection_type: postman
+  name: Theta Data v3 At-Time History API
+  slug: postman-thetadata-history-api
+- collection_type: postman
+  name: Theta Data v3 At-Time Index API
+  slug: postman-thetadata-index-api
+- collection_type: postman
+  name: Theta Data v3 At-Time Interest Rate API
+  slug: postman-thetadata-interest-rate-api
+- collection_type: postman
+  name: Theta Data v3 At-Time List API
+  slug: postman-thetadata-list-api
+- collection_type: postman
+  name: Theta Data v3 At-Time Option API
+  slug: postman-thetadata-option-api
+- collection_type: postman
+  name: Theta Data v3 At-Time Single Day API
+  slug: postman-thetadata-single-day-api
+- collection_type: postman
+  name: Theta Data v3 At-Time Snapshot API
+  slug: postman-thetadata-snapshot-api
+- collection_type: postman
+  name: Theta Data v3 At-Time Stock API
+  slug: postman-thetadata-stock-api
+- collection_type: postman
+  name: Theta Data v3 At-Time Year API
+  slug: postman-thetadata-year-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/thetadata/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -237,35 +280,45 @@ overview: 'ThetaData publishes 13 APIs on the [APIs.io](https://apis.io/) networ
   The ThetaData catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ThetaData''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, getting-started guide, and 28 more developer resources.'
+  ThetaData''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, getting-started guide, and 29 more developer resources.'
 plans:
 - name: Thetadata Plans
   plan_count: 7
   slug: thetadata-plans
-random_paper: 60
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Thetadata Rate Limits
   slug: thetadata-rate-limits
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 62.7
+  delta: -0.4
   facets:
     commercial_clarity: 76.3
-    contract_quality: 57.9
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 55.7
+    developer_ergonomics: 71.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 81.6
   previous_composite: 63.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
 security:

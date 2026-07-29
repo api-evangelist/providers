@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 58.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.0
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: 'The MX Platform API aggregates and enhances financial data, connecting apps and websites to tens of thousands of financial institutions. Covers users, members, accounts, transactions, categorization, '
@@ -39,12 +41,23 @@ apis:
 - description: Data Access is MX's open-finance API platform for sharing an institution's financial data and accessing other institutions' data using FDX and OAuth standards, with tokenized, consumer-permissioned ac
   name: MX Data Access
   slug: mx-data-access
-artifact_total: 10
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Mx Webhooks
   slug: mx-webhooks
+collections:
+- collection_type: postman
+  name: Consent Management V4 API
+  slug: postman-mx-consent-management
+- collection_type: postman
+  name: MX Platform API
+  slug: postman-mx-platform-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mx/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -200,31 +213,41 @@ overview: 'MX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Platf
   The MX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MX''s developer surface includes authentication, documentation, engineering blog, support, changelog, sandbox, signup flow, and 27 more developer resources.'
-random_paper: 25
+  MX''s developer surface includes authentication, documentation, engineering blog, support, changelog, sandbox, signup flow, and 28 more developer resources.'
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Mx Rate Limits
   slug: mx-rate-limits
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 60.6
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.5
-    developer_ergonomics: 54.3
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 64.0
+    developer_ergonomics: 53.8
+    discoverability: 83.3
+    governance: 20.8
     operational_transparency: 94.7
   previous_composite: 61.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 50.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 64.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

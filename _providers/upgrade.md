@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.9
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Marketing Offers API
@@ -172,27 +174,37 @@ overview: 'Upgrade publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Upgrade''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 64
+random_paper: 51
 score:
   band: developing
-  composite: 57.1
-  delta: 0.0
+  composite: 51.9
+  delta: -5.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.2
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 57.9
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 26.3
   previous_composite: 57.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 45.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Upgrade Authentication

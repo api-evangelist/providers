@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 73.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -590,7 +592,7 @@ plans:
 - name: Trulioo Plans Pricing
   plan_count: 6
   slug: trulioo-plans-pricing
-random_paper: 34
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Trulioo Rate Limits
@@ -619,19 +621,26 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 84.5
-  delta: 5.5
+  composite: 81.1
+  delta: -3.4
   facets:
     commercial_clarity: 100.0
-    contract_quality: 76.0
+    contract_quality: 80.2
     developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 71.1
-  previous_composite: 79.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 84.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png
 security:
 - kind: authentication

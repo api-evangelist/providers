@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Amphenol designs, manufactures, and markets electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables. The company does not currently publish a public dev
@@ -128,25 +130,25 @@ press:
 - date: '2026-05-25'
   title: Amphenol Corporation Completes Acquisition of OWN and ...
   url: https://investors.amphenol.com/news-and-events/news-details/2025/Amphenol-Corporation-Completes-Acquisition-of-OWN-and-DAS-Businesses-From-CommScope/default.aspx
-random_paper: 36
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Amphenol Rate Limits
   slug: amphenol-rate-limits
 score:
   band: emerging
-  composite: 29.8
-  delta: 0.0
+  composite: 26.6
+  delta: -3.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 13.0
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 29.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amphenol/refs/heads/main/screenshots/amphenol-2026-06-20T171939.png
 security:

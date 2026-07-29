@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,7 +150,7 @@ plans:
 - name: Ens Paris Plans Pricing
   plan_count: 2
   slug: ens-paris-plans-pricing
-random_paper: 30
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Ens Paris Rate Limits
@@ -172,23 +174,31 @@ rules:
   slug: ens-paris-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 42.1
+  delta: -4.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 76.1
+    contract_quality: 75.5
     developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/screenshots/ens-paris-2026-06-20T180723.png
 security:

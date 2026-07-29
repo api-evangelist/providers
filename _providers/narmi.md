@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 59.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 2
@@ -178,12 +180,149 @@ arazzos:
 - description: Authenticate, list accounts, read balances, and pull an account's transactions.
   name: Read Narmi accounts, balances, and transactions
   slug: narmi-read-accounts
-artifact_total: 54
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Narmi Webhooks
   slug: narmi-webhooks
+collections:
+- collection_type: postman
+  name: Narmi Public account balances API
+  slug: postman-narmi-account-balances-api
+- collection_type: postman
+  name: Narmi Public account balances accounts API
+  slug: postman-narmi-accounts-api
+- collection_type: postman
+  name: Narmi Public account balances ach companies API
+  slug: postman-narmi-ach-companies-api
+- collection_type: postman
+  name: Narmi Public account balances ach destinations API
+  slug: postman-narmi-ach-destinations-api
+- collection_type: postman
+  name: Narmi Public account balances ach import API
+  slug: postman-narmi-ach-import-api
+- collection_type: postman
+  name: Narmi Public account balances ach payments API
+  slug: postman-narmi-ach-payments-api
+- collection_type: postman
+  name: Narmi Public account balances ach transfers API
+  slug: postman-narmi-ach-transfers-api
+- collection_type: postman
+  name: Narmi Public account balances alerts API
+  slug: postman-narmi-alerts-api
+- collection_type: postman
+  name: Narmi Public account balances automatic savings enrollment API
+  slug: postman-narmi-automatic-savings-enrollment-api
+- collection_type: postman
+  name: Narmi Public account balances card linked offers API
+  slug: postman-narmi-card-linked-offers-api
+- collection_type: postman
+  name: Narmi Public account balances cards API
+  slug: postman-narmi-cards-api
+- collection_type: postman
+  name: Narmi Public account balances data access management API
+  slug: postman-narmi-data-access-management-api
+- collection_type: postman
+  name: Narmi Public account balances deposits API
+  slug: postman-narmi-deposits-api
+- collection_type: postman
+  name: Narmi Public account balances documents API
+  slug: postman-narmi-documents-api
+- collection_type: postman
+  name: Narmi Public account balances enrollments API
+  slug: postman-narmi-enrollments-api
+- collection_type: postman
+  name: Narmi Public account balances express-checkout API
+  slug: postman-narmi-express-checkout-api
+- collection_type: postman
+  name: Narmi Public account balances fedwire destinations API
+  slug: postman-narmi-fedwire-destinations-api
+- collection_type: postman
+  name: Narmi Public account balances fedwire templates API
+  slug: postman-narmi-fedwire-templates-api
+- collection_type: postman
+  name: Narmi Public account balances income source API
+  slug: postman-narmi-income-source-api
+- collection_type: postman
+  name: Narmi Public account balances instant transfers API
+  slug: postman-narmi-instant-transfers-api
+- collection_type: postman
+  name: Narmi Public account balances institution API
+  slug: postman-narmi-institution-api
+- collection_type: postman
+  name: Narmi Public account balances international wires API
+  slug: postman-narmi-international-wires-api
+- collection_type: postman
+  name: Narmi Public account balances me API
+  slug: postman-narmi-me-api
+- collection_type: postman
+  name: Narmi Public account balances merchants API
+  slug: postman-narmi-merchants-api
+- collection_type: postman
+  name: Narmi Public account balances mfa API
+  slug: postman-narmi-mfa-api
+- collection_type: postman
+  name: Narmi Public account balances payees API
+  slug: postman-narmi-payees-api
+- collection_type: postman
+  name: Narmi Public account balances payments API
+  slug: postman-narmi-payments-api
+- collection_type: postman
+  name: Narmi Public account balances ping API
+  slug: postman-narmi-ping-api
+- collection_type: postman
+  name: Narmi Public account balances recipients API
+  slug: postman-narmi-recipients-api
+- collection_type: postman
+  name: Narmi Public account balances reports API
+  slug: postman-narmi-reports-api
+- collection_type: postman
+  name: Narmi Public account balances same-day transfers API
+  slug: postman-narmi-same-day-transfers-api
+- collection_type: postman
+  name: Narmi Public account balances scheduled transfers API
+  slug: postman-narmi-scheduled-transfers-api
+- collection_type: postman
+  name: Narmi Public account balances subscriptions API
+  slug: postman-narmi-subscriptions-api
+- collection_type: postman
+  name: Narmi Public account balances support API
+  slug: postman-narmi-support-api
+- collection_type: postman
+  name: Narmi Public account balances surveys API
+  slug: postman-narmi-surveys-api
+- collection_type: postman
+  name: Narmi Public account balances swift wire templates API
+  slug: postman-narmi-swift-wire-templates-api
+- collection_type: postman
+  name: Narmi Public account balances teams API
+  slug: postman-narmi-teams-api
+- collection_type: postman
+  name: Narmi Public account balances threads API
+  slug: postman-narmi-threads-api
+- collection_type: postman
+  name: Narmi Public account balances transactions API
+  slug: postman-narmi-transactions-api
+- collection_type: postman
+  name: Narmi Public account balances unverified ach transactions API
+  slug: postman-narmi-unverified-ach-transactions-api
+- collection_type: postman
+  name: Narmi Public account balances users API
+  slug: postman-narmi-users-api
+- collection_type: postman
+  name: Narmi Public account balances whatismyip API
+  slug: postman-narmi-whatismyip-api
+- collection_type: postman
+  name: Narmi Public account balances wire recipients API
+  slug: postman-narmi-wire-recipients-api
+- collection_type: postman
+  name: Narmi Public account balances wires API
+  slug: postman-narmi-wires-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/narmi/overview
 - group: company
   title: ''
   type: Website
@@ -338,8 +477,8 @@ overview: 'Narmi publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
   The Narmi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Narmi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 27 more developer resources.'
-random_paper: 59
+  Narmi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 28 more developer resources.'
+random_paper: 73
 scopes:
 - name: Narmi Scopes
   scope_count: 11
@@ -347,23 +486,34 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 57.2
+  delta: -3.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.8
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.7
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 60.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 64.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

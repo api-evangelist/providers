@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.1
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Facebook Ads content and metrics
@@ -123,7 +125,7 @@ overview: 'Socialbakers publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Socialbakers'' developer surface includes documentation, API reference, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 43
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Socialbakers Rate Limits
@@ -134,19 +136,28 @@ scopes:
   slug: socialbakers-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 42.0
-  delta: 0.0
+  band: developing
+  composite: 42.2
+  delta: 0.2
   facets:
     commercial_clarity: 31.6
-    contract_quality: 54.9
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.8
+    developer_ergonomics: 27.7
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 42.1
   previous_composite: 42.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

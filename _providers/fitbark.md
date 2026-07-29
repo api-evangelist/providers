@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 50.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -129,7 +131,7 @@ overview: 'FitBark publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   FitBark''s developer surface includes authentication, documentation, API reference, support, signup flow, and 11 more developer resources.'
-random_paper: 59
+random_paper: 46
 scopes:
 - name: Fitbark Scopes
   scope_count: 1
@@ -137,23 +139,34 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 39.3
+  delta: -2.4
   facets:
     commercial_clarity: 23.7
-    contract_quality: 57.2
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 58.0
+    developer_ergonomics: 45.1
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 41.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 41.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/screenshots/fitbark-2026-07-25T214628.png
 security:

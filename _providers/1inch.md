@@ -1,32 +1,24 @@
 ---
-access_model:
-  confidence: medium
-  label: Free
-  onboarding: unknown
-  pricing: free
-  public: false
-  source:
-  - plans
-  trial: false
-  try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: conformant
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.6
+  scored_at: '2026-07-28'
 api_count: 15
 apis:
 - description: Returns optimal swap routes and ready-to-sign transaction calldata across aggregated DEX liquidity. Supports Classic Swap, intent-based Fusion, and cross-chain Fusion+ flows.
@@ -76,6 +68,10 @@ apis:
   slug: domains-api
 artifact_total: 21
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/1inch-a2a.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -122,7 +118,7 @@ graphqls:
 - description: 1inch exposes on-chain DeFi data through multiple subgraphs deployed on The Graph protocol. These GraphQL APIs index Ethereum mainnet events from 1inch's Mooniswap AMM, Limit Order Protocol, and Candl
   name: 1inch GraphQL (The Graph Subgraphs)
   slug: 1inch-graphql
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/1inch.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-05-23'
 name: 1inch
@@ -131,36 +127,37 @@ network: true
 overview: '1inch publishes 15 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, DEX Aggregator, Swap, Limit Orders, and Fusion.
 
 
-  1inch''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 5 more developer resources.'
+  1inch''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 6 more developer resources.'
 plans:
 - name: 1Inch Plans Pricing
   plan_count: 1
   slug: 1inch-plans-pricing
-random_paper: 59
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: 1Inch Rate Limits
   slug: 1inch-rate-limits
 score:
-  band: emerging
-  composite: 24.6
-  delta: 0.0
+  band: thin
+  composite: 30.9
+  delta: 6.3
   facets:
     commercial_clarity: 36.8
-    contract_quality: 0.0
+    contract_quality: 37.0
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 28.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/1inch/refs/heads/main/screenshots/1inch-2026-06-20T162457.png
 security:
 - kind: domain-security

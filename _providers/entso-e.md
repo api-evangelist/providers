@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -110,26 +112,39 @@ plans:
 - name: Entso E Plans Pricing
   plan_count: 1
   slug: entso-e-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Entso E Rate Limits
   slug: entso-e-rate-limits
 score:
   band: thin
-  composite: 40.7
-  delta: 3.3
+  composite: 35.0
+  delta: -5.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.9
     developer_ergonomics: 30.4
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 40.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 16.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/screenshots/entso-e-2026-07-25T213441.png
 security:
 - kind: authentication

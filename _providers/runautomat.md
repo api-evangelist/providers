@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -153,21 +155,31 @@ overview: 'Runautomat publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Runautomat''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 16
+random_paper: 26
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 49.1
+  delta: 0.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 54.0
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 55.9
+    developer_ergonomics: 62.5
+    discoverability: 75.9
+    governance: 20.8
     operational_transparency: 15.8
   previous_composite: 48.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

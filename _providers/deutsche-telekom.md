@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 6
@@ -364,26 +366,39 @@ overview: 'Deutsche Telekom publishes 38 APIs on the [APIs.io](https://apis.io/)
 
 
   Deutsche Telekom''s developer surface includes authentication, YouTube channel, documentation, getting-started guide, engineering blog, and 26 more developer resources.'
-random_paper: 19
+random_paper: 34
 scopes:
 - name: Deutsche Telekom Scopes
   scope_count: 13
   slug: deutsche-telekom-scopes
   summary_line: 13 scopes · clientCredentials
 score:
-  band: emerging
-  composite: 28.7
-  delta: 1.3
+  band: thin
+  composite: 30.1
+  delta: 1.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 46.9
+    contract_quality: 48.0
     developer_ergonomics: 41.3
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 27.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 28.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 48.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png
 security:

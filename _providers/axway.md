@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -136,12 +138,76 @@ apis:
 - description: The user API from Axway — 7 operation(s) for user.
   name: Axway user API
   slug: axway-user-api
-artifact_total: 854
+artifact_total: 874
 collections:
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca API
+  slug: postman-axway-aca-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca activity API
+  slug: postman-axway-activity-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca analytics API
+  slug: postman-axway-analytics-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca app API
+  slug: postman-axway-app-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca auth API
+  slug: postman-axway-auth-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca client API
+  slug: postman-axway-client-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca domain API
+  slug: postman-axway-domain-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca entitlement API
+  slug: postman-axway-entitlement-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca env API
+  slug: postman-axway-env-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca export API
+  slug: postman-axway-export-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca idp API
+  slug: postman-axway-idp-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca org API
+  slug: postman-axway-org-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca provider API
+  slug: postman-axway-provider-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca role API
+  slug: postman-axway-role-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca session API
+  slug: postman-axway-session-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca subscription API
+  slug: postman-axway-subscription-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca team API
+  slug: postman-axway-team-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca telemetry API
+  slug: postman-axway-telemetry-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca usage API
+  slug: postman-axway-usage-api
+- collection_type: postman
+  name: Amplify Platform API v1.0.0 aca user API
+  slug: postman-axway-user-api
 - collection_type: open
   name: Amplify Platform API v1.0.0
   slug: open-axway-amplify-platform-openapi-original
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/axway/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2656,12 +2722,12 @@ overview: 'Axway publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
   The Axway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Axway''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, support, engineering blog, and 20 more developer resources.'
+  Axway''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, support, engineering blog, and 21 more developer resources.'
 plans:
 - name: Axway Plans Pricing
   plan_count: 3
   slug: axway-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Axway Rate Limits
@@ -2690,18 +2756,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 68.5
-  delta: 2.0
+  composite: 65.6
+  delta: -2.9
   facets:
     commercial_clarity: 68.4
-    contract_quality: 70.6
-    developer_ergonomics: 58.7
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 71.9
+    developer_ergonomics: 63.0
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 66.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/screenshots/axway-2026-06-20T172828.png
 security:

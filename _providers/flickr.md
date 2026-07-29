@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -133,12 +135,112 @@ apis:
 - description: Look up Flickr URLs by user, group, gallery
   name: Flickr URLs API
   slug: flickr-urls-api
-artifact_total: 243
+artifact_total: 275
 collections:
+- collection_type: postman
+  name: Flickr Activity API
+  slug: postman-flickr-activity-api
+- collection_type: postman
+  name: Flickr Activity Auth API
+  slug: postman-flickr-auth-api
+- collection_type: postman
+  name: Flickr Activity Blogs API
+  slug: postman-flickr-blogs-api
+- collection_type: postman
+  name: Flickr Activity Cameras API
+  slug: postman-flickr-cameras-api
+- collection_type: postman
+  name: Flickr Activity Collections API
+  slug: postman-flickr-collections-api
+- collection_type: postman
+  name: Flickr Activity Commons API
+  slug: postman-flickr-commons-api
+- collection_type: postman
+  name: Flickr Activity Contacts API
+  slug: postman-flickr-contacts-api
+- collection_type: postman
+  name: Flickr Activity Favorites API
+  slug: postman-flickr-favorites-api
+- collection_type: postman
+  name: Flickr Activity Galleries API
+  slug: postman-flickr-galleries-api
+- collection_type: postman
+  name: Flickr Activity Groups API
+  slug: postman-flickr-groups-api
+- collection_type: postman
+  name: Flickr Activity Groups Discuss API
+  slug: postman-flickr-groups-discuss-api
+- collection_type: postman
+  name: Flickr Activity Interestingness API
+  slug: postman-flickr-interestingness-api
+- collection_type: postman
+  name: Flickr Activity Machine Tags API
+  slug: postman-flickr-machine-tags-api
+- collection_type: postman
+  name: Flickr Activity Panda API
+  slug: postman-flickr-panda-api
+- collection_type: postman
+  name: Flickr Activity People API
+  slug: postman-flickr-people-api
+- collection_type: postman
+  name: Flickr Activity Photos API
+  slug: postman-flickr-photos-api
+- collection_type: postman
+  name: Flickr Activity Photos Geo API
+  slug: postman-flickr-photos-geo-api
+- collection_type: postman
+  name: Flickr Activity Photos Licenses API
+  slug: postman-flickr-photos-licenses-api
+- collection_type: postman
+  name: Flickr Activity Photos Notes API
+  slug: postman-flickr-photos-notes-api
+- collection_type: postman
+  name: Flickr Activity Photos Transform API
+  slug: postman-flickr-photos-transform-api
+- collection_type: postman
+  name: Flickr Activity Photos Upload API
+  slug: postman-flickr-photos-upload-api
+- collection_type: postman
+  name: Flickr Activity Photosets API
+  slug: postman-flickr-photosets-api
+- collection_type: postman
+  name: Flickr Activity Places API
+  slug: postman-flickr-places-api
+- collection_type: postman
+  name: Flickr Activity Prefs API
+  slug: postman-flickr-prefs-api
+- collection_type: postman
+  name: Flickr Activity Profile API
+  slug: postman-flickr-profile-api
+- collection_type: postman
+  name: Flickr Activity Public API
+  slug: postman-flickr-public-api
+- collection_type: postman
+  name: Flickr Activity Push API
+  slug: postman-flickr-push-api
+- collection_type: postman
+  name: Flickr Activity Reflection API
+  slug: postman-flickr-reflection-api
+- collection_type: postman
+  name: Flickr Activity Stats API
+  slug: postman-flickr-stats-api
+- collection_type: postman
+  name: Flickr Activity Tags API
+  slug: postman-flickr-tags-api
+- collection_type: postman
+  name: Flickr Activity Test API
+  slug: postman-flickr-test-api
+- collection_type: postman
+  name: Flickr Activity URLs API
+  slug: postman-flickr-urls-api
 - collection_type: open
   name: Flickr API
   slug: open-flickr
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/flickr/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -823,12 +925,12 @@ overview: 'Flickr publishes 32 APIs on the [APIs.io](https://apis.io/) network, 
   The Flickr catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Flickr''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, changelog, and 19 more developer resources.'
+  Flickr''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, changelog, and 20 more developer resources.'
 plans:
 - name: Flickr Plans Pricing
   plan_count: 2
   slug: flickr-plans-pricing
-random_paper: 23
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Flickr Rate Limits
@@ -857,19 +959,26 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.4
-  delta: 3.2
+  composite: 58.8
+  delta: -5.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.5
-    developer_ergonomics: 37.0
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 56.2
+    developer_ergonomics: 41.3
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 64.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 32
+      marker_coverage: 100.0
+      total: 32
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flickr/refs/heads/main/screenshots/flickr-2026-06-20T181308.png
 security:
 - kind: authentication

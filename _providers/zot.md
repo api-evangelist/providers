@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -91,25 +93,32 @@ plans:
 - name: Zot Plans Pricing
   plan_count: 1
   slug: zot-plans-pricing
-random_paper: 9
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Zot Rate Limits
   slug: zot-rate-limits
 score:
   band: emerging
-  composite: 23.6
-  delta: 0.7
+  composite: 21.7
+  delta: -1.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 23.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/screenshots/zot-2026-06-20T201959.png
 slug: zot

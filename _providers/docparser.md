@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,8 +51,25 @@ apis:
 - description: Retrieve parsed data results
   name: Docparser Results API
   slug: docparser-results-api
-artifact_total: 20
+artifact_total: 24
+collections:
+- collection_type: postman
+  name: Docparser REST Documents API
+  slug: postman-docparser-documents-api
+- collection_type: postman
+  name: Docparser REST Documents Parsers API
+  slug: postman-docparser-parsers-api
+- collection_type: postman
+  name: Docparser REST Documents Ping API
+  slug: postman-docparser-ping-api
+- collection_type: postman
+  name: Docparser REST Documents Results API
+  slug: postman-docparser-results-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/docparser/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -165,12 +184,12 @@ overview: 'Docparser publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Docparser catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Docparser''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Docparser''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Docparser Plans Pricing
   plan_count: 4
   slug: docparser-plans-pricing
-random_paper: 11
+random_paper: 39
 rate_limits:
 - limit_count: 8
   name: Docparser Rate Limits
@@ -186,18 +205,25 @@ rules:
   slug: docparser-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 58.2
+  delta: -3.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 71.7
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 71.2
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 60.5
   previous_composite: 61.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/screenshots/docparser-2026-06-20T180109.png
 security:

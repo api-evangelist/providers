@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: The Vaults API from Amazon S3 Glacier — 4 operation(s) for vaults.
   name: Amazon S3 Glacier Vaults API
   slug: amazon-s3-glacier-vaults-api
-artifact_total: 29
+artifact_total: 30
 collections:
+- collection_type: postman
+  name: Amazon S3 Glacier REST Vaults API
+  slug: postman-amazon-s3-glacier-vaults-api
 - collection_type: open
   name: Amazon S3 Glacier REST API
   slug: open-amazon-s3-glacier-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-s3-glacier/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -272,12 +281,12 @@ overview: 'Amazon S3 Glacier publishes 1 API on the [APIs.io](https://apis.io/) 
   The Amazon S3 Glacier catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon S3 Glacier''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 31 more developer resources.'
+  Amazon S3 Glacier''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 32 more developer resources.'
 plans:
 - name: Amazon S3 Glacier Plans Pricing
   plan_count: 3
   slug: amazon-s3-glacier-plans-pricing
-random_paper: 65
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon S3 Glacier Rate Limits
@@ -301,18 +310,25 @@ rules:
   slug: amazon-s3-glacier-spectral-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 3.3
+  composite: 60.4
+  delta: -3.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 61.1
-    developer_ergonomics: 32.6
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 62.7
+    developer_ergonomics: 37.0
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 60.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/screenshots/amazon-s3-glacier-2026-06-20T171814.png
 security:

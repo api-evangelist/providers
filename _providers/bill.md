@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -142,7 +144,7 @@ overview: 'BILL publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   BILL''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 11
+random_paper: 34
 rules:
 - name: BILL API Rules
   rule_count: 8
@@ -154,23 +156,31 @@ rules:
   slug: bill-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 1.7
+  composite: 35.2
+  delta: -3.9
   facets:
     commercial_clarity: 10.5
-    contract_quality: 61.9
+    contract_quality: 63.6
     developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 60.5
+    discoverability: 64.8
+    governance: 47.9
     operational_transparency: 0.0
-  previous_composite: 37.4
+  previous_composite: 39.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/screenshots/bill-2026-06-20T173240.png
 security:

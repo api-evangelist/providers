@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: GraphQL API for requesting delivery quotes, booking on-demand and scheduled deliveries, managing and canceling deliveries, and tracking drivers in real time via webhooks or long polling.
@@ -149,21 +151,25 @@ overview: 'Curri publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Curri''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 5
+random_paper: 10
 score:
-  band: thin
-  composite: 41.2
-  delta: 0.0
+  band: developing
+  composite: 44.9
+  delta: 3.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 22.6
-    developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 62.5
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 23.7
   previous_composite: 41.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curri/refs/heads/main/screenshots/curri-2026-07-25T210950.png
 security:

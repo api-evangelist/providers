@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 50.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for accessing Fellow meeting data — recordings, transcripts, structured notes, and action items — plus recording uploads and webhook management. Uses X-API-KEY authentication, cursor-based pa
@@ -185,7 +187,7 @@ overview: 'Fellow publishes 1 API on the [APIs.io](https://apis.io/) network: De
 
 
   Fellow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 37
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Fellow Rate Limits
@@ -197,19 +199,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 53.0
+  delta: 5.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 27.8
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 49.4
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 44.7
   previous_composite: 47.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/screenshots/fellow-2026-07-25T214332.png
 security:
 - kind: authentication

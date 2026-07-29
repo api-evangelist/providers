@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The Categories API from Metrilo — 2 operation(s) for categories.
@@ -163,21 +165,30 @@ overview: 'Metrilo publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Metrilo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 16
+random_paper: 71
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 45.4
+  delta: -4.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 54.9
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 44.1
+    developer_ergonomics: 62.5
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 5.3
   previous_composite: 49.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

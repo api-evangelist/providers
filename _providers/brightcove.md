@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 5
@@ -286,7 +288,7 @@ plans:
 - name: Brightcove Plans Pricing
   plan_count: 2
   slug: brightcove-plans-pricing
-random_paper: 49
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Brightcove Rate Limits
@@ -298,18 +300,25 @@ scopes:
   summary_line: 33 scopes · clientCredentials
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 38.6
+  delta: -2.1
   facets:
     commercial_clarity: 47.4
-    contract_quality: 56.4
+    contract_quality: 58.7
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 40.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 40
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/screenshots/brightcove-2026-06-20T173711.png
 security:

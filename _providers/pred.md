@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -205,26 +207,37 @@ overview: 'Pred publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Pred''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 22 more developer resources.'
-random_paper: 19
+random_paper: 42
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 46.0
+  delta: -2.9
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.1
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.6
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 48.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

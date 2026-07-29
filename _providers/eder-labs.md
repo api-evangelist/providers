@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 36.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -101,21 +103,31 @@ overview: 'Eder Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Eder Labs'' developer surface includes documentation, getting-started guide, GitHub presence, support, and 6 more developer resources.'
-random_paper: 63
+random_paper: 32
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 32.0
+  delta: -1.2
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.0
-    developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 49.2
+    developer_ergonomics: 25.5
+    discoverability: 83.3
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 33.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/screenshots/eder-labs-2026-07-25T212819.png
 security:

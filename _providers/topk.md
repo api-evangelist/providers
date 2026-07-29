@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.3
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Structured document store and query surface. Create collections with typed, indexed fields (keyword_index, semantic_index, vector index), upsert/update/delete documents by `_id`, and run hybrid querie
@@ -180,21 +182,25 @@ overview: 'Topk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Topk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 24 more developer resources.'
-random_paper: 38
+random_paper: 61
 score:
-  band: thin
-  composite: 43.5
-  delta: 0.0
+  band: developing
+  composite: 43.3
+  delta: -0.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 71.2
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 47.4
   previous_composite: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

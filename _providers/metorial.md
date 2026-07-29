@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 44.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 31.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API to manage integrations, providers, sessions, portals, skills, identities and MCP access programmatically. Bearer API-key auth, cursor pagination, date-based versioning; 466 '
@@ -170,7 +172,7 @@ overview: 'Metorial publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Metorial''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, CLI, and 23 more developer resources.'
-random_paper: 45
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Metorial Rate Limits
@@ -182,13 +184,17 @@ score:
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
-    developer_ergonomics: 82.6
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 77.7
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 37.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

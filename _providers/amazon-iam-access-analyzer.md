@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -67,8 +69,43 @@ apis:
 - description: The Tags API from Amazon IAM Access Analyzer — 2 operation(s) for tags.
   name: Amazon IAM Access Analyzer Tags API
   slug: amazon-iam-access-analyzer-tags-api
-artifact_total: 472
+artifact_total: 482
+collections:
+- collection_type: postman
+  name: Access Analyzer Access Preview#analyzerArn API
+  slug: postman-amazon-iam-access-analyzer-access-preview-analyzerarn-api
+- collection_type: postman
+  name: 'Access Analyzer #analyzerArn Access Preview API'
+  slug: postman-amazon-iam-access-analyzer-access-preview-api
+- collection_type: postman
+  name: Access Analyzer Access Preview#analyzerArn Analyzed Resource#analyzerArn&resourceArn API
+  slug: postman-amazon-iam-access-analyzer-analyzed-resource-analyzerarn-resourcearn-api
+- collection_type: postman
+  name: Access Analyzer Access Preview#analyzerArn Analyzed Resource API
+  slug: postman-amazon-iam-access-analyzer-analyzed-resource-api
+- collection_type: postman
+  name: Access Access Preview#analyzerArn Analyzer API
+  slug: postman-amazon-iam-access-analyzer-analyzer-api
+- collection_type: postman
+  name: Access Analyzer Access Preview#analyzerArn Archive Rule API
+  slug: postman-amazon-iam-access-analyzer-archive-rule-api
+- collection_type: postman
+  name: Access Analyzer Access Preview#analyzerArn Finding API
+  slug: postman-amazon-iam-access-analyzer-finding-api
+- collection_type: postman
+  name: Access Analyzer Access Preview#analyzerArn Policy API
+  slug: postman-amazon-iam-access-analyzer-policy-api
+- collection_type: postman
+  name: Access Analyzer Access Preview#analyzerArn Resource API
+  slug: postman-amazon-iam-access-analyzer-resource-api
+- collection_type: postman
+  name: Access Analyzer Access Preview#analyzerArn Tags API
+  slug: postman-amazon-iam-access-analyzer-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-iam-access-analyzer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1511,12 +1548,12 @@ overview: 'Amazon IAM Access Analyzer publishes 10 APIs on the [APIs.io](https:/
   The Amazon IAM Access Analyzer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IAM Access Analyzer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon IAM Access Analyzer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Iam Access Analyzer Plans Pricing
   plan_count: 3
   slug: amazon-iam-access-analyzer-plans-pricing
-random_paper: 4
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Access Analyzer Rate Limits
@@ -1540,18 +1577,25 @@ rules:
   slug: amazon-iam-access-analyzer-spectral-rules
 score:
   band: exemplar
-  composite: 70.0
-  delta: 0.0
+  composite: 66.5
+  delta: -3.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 72.7
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 74.2
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 70.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/screenshots/amazon-iam-access-analyzer-2026-06-20T171702.png
 security:

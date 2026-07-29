@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,7 +154,7 @@ plans:
 - name: Nasa Neows Plans Pricing
   plan_count: 3
   slug: nasa-neows-plans-pricing
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Nasa Neows Rate Limits
@@ -168,24 +170,32 @@ rules:
   slug: nasa-neows-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 57.5
-  delta: 0.0
+  composite: 52.3
+  delta: -5.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.7
+    contract_quality: 69.5
     developer_ergonomics: 19.6
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 57.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 38.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-neows/refs/heads/main/screenshots/nasa-neows-2026-06-20T185953.png
 security:
 - kind: authentication

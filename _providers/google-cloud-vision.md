@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: Search for products similar to an image
   name: Google Cloud Vision ProductSearch API
   slug: google-cloud-vision-productsearch-api
-artifact_total: 13
+artifact_total: 16
 collections:
+- collection_type: postman
+  name: Google Cloud Vision Files API
+  slug: postman-google-cloud-vision-files-api
+- collection_type: postman
+  name: Google Cloud Vision Files Images API
+  slug: postman-google-cloud-vision-images-api
+- collection_type: postman
+  name: Google Cloud Vision Files ProductSearch API
+  slug: postman-google-cloud-vision-productsearch-api
 - collection_type: open
   name: Google Cloud Vision API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-vision/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,12 +153,12 @@ overview: 'Google Cloud Vision publishes 3 APIs on the [APIs.io](https://apis.io
   The Google Cloud Vision catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Vision''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 10 more developer resources.'
+  Google Cloud Vision''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Cloud Vision Plans Pricing
   plan_count: 3
   slug: google-cloud-vision-plans-pricing
-random_paper: 22
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Google Cloud Vision Rate Limits
@@ -164,18 +179,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.5
-  delta: 4.6
+  composite: 61.4
+  delta: -3.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.9
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 63.6
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/screenshots/google-cloud-vision-2026-06-20T182154.png
 security:

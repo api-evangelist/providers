@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -141,30 +143,38 @@ plans:
 - name: Recharge Payments Plans Pricing
   plan_count: 3
   slug: recharge-payments-plans-pricing
-random_paper: 59
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Recharge Payments Rate Limits
   slug: recharge-payments-rate-limits
 score:
   band: thin
-  composite: 40.4
-  delta: 2.8
+  composite: 37.1
+  delta: -3.3
   facets:
     commercial_clarity: 47.4
-    contract_quality: 49.6
+    contract_quality: 51.7
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.6
+  previous_composite: 40.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

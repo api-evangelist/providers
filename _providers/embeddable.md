@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 14.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 13.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Server-side REST APIs for managing Embeddable deployments — mint short-lived JWT security tokens for embeds, list embeddables (dashboards), manage published versions, and read data-model schemas. All '
@@ -159,21 +161,24 @@ overview: 'Embeddable publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Embeddable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 61
+random_paper: 12
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 42.8
+  delta: 0.9
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 47.4
   previous_composite: 41.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/screenshots/embeddable-2026-07-25T213227.png
 security:

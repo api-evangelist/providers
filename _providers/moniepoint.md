@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -514,7 +516,7 @@ plans:
 - name: Moniepoint Plans Pricing
   plan_count: 3
   slug: moniepoint-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 9
   name: Moniepoint Rate Limits
@@ -537,25 +539,33 @@ rules:
     warn: 3
   slug: moniepoint-rules
 score:
-  band: exemplar
-  composite: 70.3
-  delta: 2.9
+  band: strong
+  composite: 64.1
+  delta: -6.2
   facets:
     commercial_clarity: 68.4
-    contract_quality: 67.7
+    contract_quality: 68.2
     developer_ergonomics: 71.7
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 60.5
-  previous_composite: 67.4
+  previous_composite: 70.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/screenshots/moniepoint-2026-06-20T185727.png
 security:
 - kind: authentication

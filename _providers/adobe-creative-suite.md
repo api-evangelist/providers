@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -1172,7 +1174,7 @@ plans:
 - name: Adobe Creative Suite Plans Pricing
   plan_count: 1
   slug: adobe-creative-suite-plans-pricing
-random_paper: 30
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Adobe Creative Suite Rate Limits
@@ -1196,18 +1198,25 @@ rules:
   slug: adobe-creative-suite-spectral-rules
 score:
   band: strong
-  composite: 66.2
-  delta: 4.7
+  composite: 61.9
+  delta: -4.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 82.3
+    contract_quality: 80.4
     developer_ergonomics: 56.5
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 61.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/screenshots/adobe-creative-suite-2026-06-20T164857.png
 security:

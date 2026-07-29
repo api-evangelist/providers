@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 44.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -199,7 +201,7 @@ plans:
 - name: Cilium Plans Pricing
   plan_count: 2
   slug: cilium-plans-pricing
-random_paper: 31
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Cilium Rate Limits
@@ -223,18 +225,25 @@ rules:
   slug: cilium-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.9
-  delta: 2.0
+  composite: 50.4
+  delta: -4.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.8
+    contract_quality: 62.4
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 65.8
+    discoverability: 64.8
+    governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 52.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 54.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/screenshots/cilium-2026-06-20T174342.png
 security:

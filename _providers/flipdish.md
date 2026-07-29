@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 323
   human_in_the_loop: 10
@@ -292,8 +294,263 @@ apis:
 - description: Operations for White Label Config.
   name: Flipdish WhiteLabelConfig API
   slug: flipdish-whitelabelconfig-api
-artifact_total: 948
+artifact_total: 1033
 collections:
+- collection_type: postman
+  name: Flipdish API - Apps Accounts API
+  slug: postman-flipdish-accounts-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Address API
+  slug: postman-flipdish-address-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Apm API
+  slug: postman-flipdish-apm-api
+- collection_type: postman
+  name: Flipdish API - Accounts Apps API
+  slug: postman-flipdish-apps-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts AppStore API
+  slug: postman-flipdish-appstore-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts AppStoreConfigurations API
+  slug: postman-flipdish-appstoreconfigurations-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts AppStoreDeveloper API
+  slug: postman-flipdish-appstoredeveloper-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts AppStoreEntitlements API
+  slug: postman-flipdish-appstoreentitlements-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts AuditLogs API
+  slug: postman-flipdish-auditlogs-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts AuthorizationTokens API
+  slug: postman-flipdish-authorizationtokens-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts BankAccount API
+  slug: postman-flipdish-bankaccount-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Campaigns API
+  slug: postman-flipdish-campaigns-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts CardReaders API
+  slug: postman-flipdish-cardreaders-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts CatalogChanges API
+  slug: postman-flipdish-catalogchanges-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts CatalogGroups API
+  slug: postman-flipdish-cataloggroups-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts CatalogImages API
+  slug: postman-flipdish-catalogimages-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts CatalogItems API
+  slug: postman-flipdish-catalogitems-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts CatalogProducts API
+  slug: postman-flipdish-catalogproducts-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Channels API
+  slug: postman-flipdish-channels-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Clients API
+  slug: postman-flipdish-clients-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts ContentSecurityPolicy API
+  slug: postman-flipdish-contentsecuritypolicy-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts CrossSell API
+  slug: postman-flipdish-crosssell-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Customers API
+  slug: postman-flipdish-customers-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts DeliveryZone API
+  slug: postman-flipdish-deliveryzone-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Device API
+  slug: postman-flipdish-device-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Drivers API
+  slug: postman-flipdish-drivers-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Events API
+  slug: postman-flipdish-events-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Features API
+  slug: postman-flipdish-features-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Files API
+  slug: postman-flipdish-files-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts FirebaseApps API
+  slug: postman-flipdish-firebaseapps-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Fpm API
+  slug: postman-flipdish-fpm-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts FulfillmentStateConfiguration API
+  slug: postman-flipdish-fulfillmentstateconfiguration-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Heartbeat API
+  slug: postman-flipdish-heartbeat-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Home API
+  slug: postman-flipdish-home-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Hydra API
+  slug: postman-flipdish-hydra-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Intercom API
+  slug: postman-flipdish-intercom-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Invoices API
+  slug: postman-flipdish-invoices-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts KioskEntitlements API
+  slug: postman-flipdish-kioskentitlements-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts KioskIot API
+  slug: postman-flipdish-kioskiot-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Lightspeed API
+  slug: postman-flipdish-lightspeed-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Location API
+  slug: postman-flipdish-location-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts LocationAreas API
+  slug: postman-flipdish-locationareas-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts LookerDashboard API
+  slug: postman-flipdish-lookerdashboard-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts LookerSingleSignOn API
+  slug: postman-flipdish-lookersinglesignon-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts MenuOptionSetItems API
+  slug: postman-flipdish-menuoptionsetitems-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts MenuOptionSets API
+  slug: postman-flipdish-menuoptionsets-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Menus API
+  slug: postman-flipdish-menus-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts MenuSectionItems API
+  slug: postman-flipdish-menusectionitems-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts MenuSections API
+  slug: postman-flipdish-menusections-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts MenusNutritionInfo API
+  slug: postman-flipdish-menusnutritioninfo-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts MenusNutritionInfoV2 API
+  slug: postman-flipdish-menusnutritioninfov2-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts MenuZones API
+  slug: postman-flipdish-menuzones-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts MetafieldDefinitions API
+  slug: postman-flipdish-metafielddefinitions-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts MobileApps API
+  slug: postman-flipdish-mobileapps-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts OAuthClients API
+  slug: postman-flipdish-oauthclients-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Onboarding API
+  slug: postman-flipdish-onboarding-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts OrderBatches API
+  slug: postman-flipdish-orderbatches-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts OrderBatchingConfiguration API
+  slug: postman-flipdish-orderbatchingconfiguration-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Orders API
+  slug: postman-flipdish-orders-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts PaymentIntents API
+  slug: postman-flipdish-paymentintents-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Payments API
+  slug: postman-flipdish-payments-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts PayoutReports API
+  slug: postman-flipdish-payoutreports-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Payouts API
+  slug: postman-flipdish-payouts-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts PayoutsExport API
+  slug: postman-flipdish-payoutsexport-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts ProcessingFeeConfigs API
+  slug: postman-flipdish-processingfeeconfigs-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts PushNotifications API
+  slug: postman-flipdish-pushnotifications-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Receipts API
+  slug: postman-flipdish-receipts-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts RestaurantVouchersPayGreen API
+  slug: postman-flipdish-restaurantvoucherspaygreen-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Search API
+  slug: postman-flipdish-search-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts SmsProviderCredentials API
+  slug: postman-flipdish-smsprovidercredentials-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts StoreGroups API
+  slug: postman-flipdish-storegroups-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts StoreOrderCapacity API
+  slug: postman-flipdish-storeordercapacity-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Stores API
+  slug: postman-flipdish-stores-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts StripeCustomConnect API
+  slug: postman-flipdish-stripecustomconnect-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Stuart API
+  slug: postman-flipdish-stuart-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Subscriptions API
+  slug: postman-flipdish-subscriptions-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Teammates API
+  slug: postman-flipdish-teammates-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts TerminalIot API
+  slug: postman-flipdish-terminaliot-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Tips API
+  slug: postman-flipdish-tips-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Users API
+  slug: postman-flipdish-users-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Vouchers API
+  slug: postman-flipdish-vouchers-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Webhooks API
+  slug: postman-flipdish-webhooks-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts Website API
+  slug: postman-flipdish-website-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts WhiteLabelBuilds API
+  slug: postman-flipdish-whitelabelbuilds-api
+- collection_type: postman
+  name: Flipdish API - Apps Accounts WhiteLabelConfig API
+  slug: postman-flipdish-whitelabelconfig-api
 - collection_type: open
   name: Flipdish API - Apps
   slug: open-flipdish-apps
@@ -325,6 +582,10 @@ collections:
   name: Flipdish API - Stores
   slug: open-flipdish-stores
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/flipdish/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3025,12 +3286,12 @@ overview: 'Flipdish publishes 85 APIs on the [APIs.io](https://apis.io/) network
   The Flipdish catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Flipdish''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 27 more developer resources.'
+  Flipdish''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 28 more developer resources.'
 plans:
 - name: Flipdish Plans Pricing
   plan_count: 3
   slug: flipdish-plans-pricing
-random_paper: 35
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Flipdish Rate Limits
@@ -3059,24 +3320,32 @@ scopes:
   summary_line: 1 scope · implicit/clientCredentials
 score:
   band: strong
-  composite: 64.6
-  delta: 2.8
+  composite: 59.1
+  delta: -5.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 69.5
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 70.8
+    developer_ergonomics: 63.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 61.8
+  previous_composite: 64.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 85
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 42.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/screenshots/flipdish-2026-06-20T181315.png
 security:
 - kind: authentication

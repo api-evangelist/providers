@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: APIs for registering and managing connectors created with the Jitterbit Connector SDK. The SDK allows developers to create custom connectors that extend endpoint connectivity beyond HTTP/REST APIs.
@@ -86,25 +88,25 @@ plans:
 - name: Jitterbit Plans Pricing
   plan_count: 3
   slug: jitterbit-plans-pricing
-random_paper: 25
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Jitterbit Rate Limits
   slug: jitterbit-rate-limits
 score:
   band: emerging
-  composite: 24.9
-  delta: 0.0
+  composite: 23.2
+  delta: -1.7
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 24.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/screenshots/jitterbit-2026-06-20T183742.png
 security:

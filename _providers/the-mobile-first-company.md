@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.7
+  scored_at: '2026-07-28'
 api_count: 13
 apis:
 - description: Pre-computed call metrics, team performance, and outbound dial funnel
@@ -213,26 +215,41 @@ overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://a
 
 
   The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 19
+random_paper: 12
 scopes:
 - name: The Mobile First Company Scopes
   scope_count: 0
   slug: the-mobile-first-company-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 55.6
-  delta: 0.0
+  band: strong
+  composite: 56.8
+  delta: 1.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 72.3
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 73.0
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 39.5
   previous_composite: 55.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

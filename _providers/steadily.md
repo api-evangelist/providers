@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -166,27 +168,38 @@ overview: 'Steadily publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 47
+random_paper: 16
 score:
-  band: developing
-  composite: 45.1
-  delta: 0.0
+  band: thin
+  composite: 40.1
+  delta: -5.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 52.5
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 48.0
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 10.5
   previous_composite: 45.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 40.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Steadily Authentication

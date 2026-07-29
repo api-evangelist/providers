@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 22.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 17.3
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Submitting, tracking, and downloading analysis jobs
@@ -127,26 +129,36 @@ overview: 'Biodock publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 14 more developer resources.'
-random_paper: 51
+random_paper: 38
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 43.6
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.5
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 57.6
+    developer_ergonomics: 25.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 26.3
   previous_composite: 47.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 43.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/screenshots/biodock-2026-07-25T203036.png
 security:

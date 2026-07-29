@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -198,7 +200,7 @@ overview: 'Beeper publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Beeper''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 22 more developer resources.'
-random_paper: 15
+random_paper: 11
 scopes:
 - name: Beeper Scopes
   scope_count: 2
@@ -206,18 +208,34 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 52.1
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.7
-    developer_ergonomics: 73.9
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 63.9
+    developer_ergonomics: 69.0
+    discoverability: 72.2
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 53.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/screenshots/beeper-2026-07-25T202639.png
 security:

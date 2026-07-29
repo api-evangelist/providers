@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Sunlight''s REST/JSON:API for managing education-spending groups: create groups, invite registered and unregistered users, edit individual member budgets (credits/transactions), list orders, and read t'
@@ -94,21 +96,23 @@ overview: 'Sunlight publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Sunlight''s developer surface includes documentation, API reference, authentication, and 9 more developer resources.'
-random_paper: 62
+random_paper: 31
 score:
   band: emerging
-  composite: 16.2
-  delta: 0.0
+  composite: 16.1
+  delta: -0.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 16.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

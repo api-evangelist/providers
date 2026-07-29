@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Run queries against data ingested into Devo. Supports synchronous JSON/CSV/TSV responses and asynchronous job-based delivery to repositories (HDFS, Amazon S3, Kafka). Job requests start, stop, check s
@@ -161,21 +163,23 @@ overview: 'Devo publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Devo''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 22
+random_paper: 45
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 34.5
+  delta: 0.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 33.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devo/refs/heads/main/screenshots/devo-2026-07-25T211822.png
 security:

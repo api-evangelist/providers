@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: API Dash is an open source AI-powered cross-platform API client built with Flutter for desktop and mobile. Supports HTTP, GraphQL, and WebSocket with code generation, folder organization, and rich res
@@ -107,25 +109,25 @@ plans:
 - name: Api Dash Plans Pricing
   plan_count: 3
   slug: api-dash-plans-pricing
-random_paper: 27
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Api Dash Rate Limits
   slug: api-dash-rate-limits
 score:
   band: emerging
-  composite: 25.4
-  delta: 0.0
+  composite: 23.3
+  delta: -2.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 25.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/screenshots/api-dash-2026-06-20T172202.png
 security:

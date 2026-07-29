@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -145,12 +147,124 @@ apis:
 - description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatetlsinspectionconfiguratio'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatetlsinspectionconfiguration-api
-artifact_total: 736
+artifact_total: 772
 collections:
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-associatefirewallpolicy-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateSubnets API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-associatesubnets-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.CreateFirewall API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-createfirewall-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.CreateFirewallPolicy API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-createfirewallpolicy-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.CreateRuleGroup API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-createrulegroup-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.CreateTLSInspectionConfiguration API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-createtlsinspectionconfiguration-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteFirewall API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deletefirewall-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteFirewallPolicy API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deletefirewallpolicy-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteResourcePolicy API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deleteresourcepolicy-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteRuleGroup API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deleterulegroup-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DeleteTLSInspectionConfiguration API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-deletetlsinspectionconfiguration-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeFirewall API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describefirewall-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeFirewallPolicy API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describefirewallpolicy-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeLoggingConfiguration API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describeloggingconfiguration-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeResourcePolicy API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describeresourcepolicy-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroup API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describerulegroup-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroupMetadata API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describerulegroupmetadata-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DescribeTLSInspectionConfiguration API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-describetlsinspectionconfiguration-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.DisassociateSubnets API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-disassociatesubnets-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListFirewallPolicies API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listfirewallpolicies-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListFirewalls API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listfirewalls-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListRuleGroups API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listrulegroups-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListTagsForResource API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listtagsforresource-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.ListTLSInspectionConfigurations API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-listtlsinspectionconfigurations-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.PutResourcePolicy API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-putresourcepolicy-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.TagResource API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-tagresource-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UntagResource API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-untagresource-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDeleteProtection API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewalldeleteprotection-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDescription API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewalldescription-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallEncryptionConfiguration API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewallencryptionconfiguration-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicy API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewallpolicy-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicyChangeProtection API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewallpolicychangeprotection-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateLoggingConfiguration API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updateloggingconfiguration-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateRuleGroup API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updaterulegroup-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateSubnetChangeProtection API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatesubnetchangeprotection-api
+- collection_type: postman
+  name: 'AWS Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API'
+  slug: postman-amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatetlsinspectionconfiguration-api
 - collection_type: open
   name: AWS Network Firewall
   slug: open-amazon-network-firewall
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-network-firewall/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2345,12 +2459,12 @@ overview: 'Amazon Network Firewall publishes 36 APIs on the [APIs.io](https://ap
   The Amazon Network Firewall catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Network Firewall''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
+  Amazon Network Firewall''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
 plans:
 - name: Amazon Network Firewall Plans Pricing
   plan_count: 3
   slug: amazon-network-firewall-plans-pricing
-random_paper: 56
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Amazon Network Firewall Rate Limits
@@ -2374,18 +2488,25 @@ rules:
   slug: amazon-network-firewall-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 62.6
+  delta: -2.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 71.1
-    developer_ergonomics: 41.3
-    discoverability: 55.0
-    governance: 86.8
+    contract_quality: 71.9
+    developer_ergonomics: 45.7
+    discoverability: 40.7
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 65.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/screenshots/amazon-network-firewall-2026-06-20T171749.png
 security:

@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Low-latency WebSocket feed (service-mango-fills) that parses Mango V4 Perp and Openbook event queues and emits individual fill events as they are processed by the validator. Supports getMarkets discov
@@ -71,7 +73,7 @@ overview: 'Mango Markets publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mango Markets'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 42
+random_paper: 25
 rules:
 - name: Mango Markets API Rules
   rule_count: 6
@@ -83,23 +85,24 @@ rules:
   slug: mango-markets-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.0
+  composite: 22.2
+  delta: 1.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 22.2
+    contract_quality: 44.4
     developer_ergonomics: 8.7
-    discoverability: 92.5
-    governance: 60.5
+    discoverability: 68.5
+    governance: 47.9
     operational_transparency: 5.3
   previous_composite: 20.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 slug: mango-markets
 tags:

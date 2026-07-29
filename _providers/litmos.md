@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 12.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful API for the Litmos learning management system enabling management of users, teams, courses, learning paths, enrollments, assessments, and completion records. Supports JSON and XML data formats
@@ -110,26 +112,26 @@ plans:
 - name: Litmos Plans Pricing
   plan_count: 3
   slug: litmos-plans-pricing
-random_paper: 52
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Litmos Rate Limits
   slug: litmos-rate-limits
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 39.8
+  delta: 8.4
   facets:
     commercial_clarity: 63.2
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 15.2
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 50.0
   previous_composite: 31.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmos/refs/heads/main/screenshots/litmos-2026-06-20T184608.png
 security:
 - kind: domain-security

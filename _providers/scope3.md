@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -222,21 +224,31 @@ overview: 'Scope3 publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Scope3''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 22 more developer resources.'
-random_paper: 45
+random_paper: 50
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 53.1
+  delta: -0.6
   facets:
     commercial_clarity: 31.6
-    contract_quality: 60.6
+    contract_quality: 55.8
     developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 36.8
   previous_composite: 53.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

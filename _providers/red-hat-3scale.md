@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -82,8 +84,47 @@ apis:
 - description: Manage API services and their settings
   name: Red Hat 3scale Services API
   slug: red-hat-3scale-services-api
-artifact_total: 67
+artifact_total: 80
 collections:
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts API
+  slug: postman-red-hat-3scale-accounts-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Applications API
+  slug: postman-red-hat-3scale-applications-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Authorization API
+  slug: postman-red-hat-3scale-authorization-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Configuration API
+  slug: postman-red-hat-3scale-configuration-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts DNS API
+  slug: postman-red-hat-3scale-dns-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Health API
+  slug: postman-red-hat-3scale-health-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Initialization API
+  slug: postman-red-hat-3scale-initialization-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Invoices API
+  slug: postman-red-hat-3scale-invoices-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts OAuth API
+  slug: postman-red-hat-3scale-oauth-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Payment Transactions API
+  slug: postman-red-hat-3scale-payment-transactions-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Plans API
+  slug: postman-red-hat-3scale-plans-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Reporting API
+  slug: postman-red-hat-3scale-reporting-api
+- collection_type: postman
+  name: Red Hat 3scale Account Management Accounts Services API
+  slug: postman-red-hat-3scale-services-api
 - collection_type: open
   name: Red Hat 3scale Account Management API
   slug: open-red-hat-3scale-account-management
@@ -100,6 +141,10 @@ collections:
   name: Red Hat 3scale Service Management API
   slug: open-red-hat-3scale-service-management
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/red-hat-3scale/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -358,12 +403,12 @@ overview: 'Red Hat 3scale publishes 13 APIs on the [APIs.io](https://apis.io/) n
   The Red Hat 3scale catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat 3scale''s developer surface includes authentication, documentation, getting-started guide, developer portal, engineering blog, support, changelog, and 23 more developer resources.'
+  Red Hat 3scale''s developer surface includes authentication, documentation, getting-started guide, developer portal, engineering blog, support, changelog, and 24 more developer resources.'
 plans:
 - name: Red Hat 3Scale Plans Pricing
   plan_count: 2
   slug: red-hat-3scale-plans-pricing
-random_paper: 1
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Red Hat 3Scale Rate Limits
@@ -387,18 +432,25 @@ rules:
   slug: red-hat-3scale-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 2.0
+  composite: 59.1
+  delta: -3.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.9
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 67.3
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 60.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/screenshots/red-hat-3scale-2026-06-20T192716.png
 security:

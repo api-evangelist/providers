@@ -2,11 +2,13 @@
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The API layer of Open GI's cloud Mobius broking platform. Open GI's public Mobius release notes document real API capability — a Client Checks API whose sanctions-check endpoints include a POST to ini
@@ -129,26 +131,29 @@ overview: 'Open GI publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Open GI''s developer surface includes engineering blog, changelog, release notes, documentation, FAQ, support, and 17 more developer resources.'
-random_paper: 7
+random_paper: 71
 score:
   band: emerging
-  composite: 23.9
-  delta: 0.0
+  composite: 22.6
+  delta: -1.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 80.0
-    governance: 0.0
+    discoverability: 77.8
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 23.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 52.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 36.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

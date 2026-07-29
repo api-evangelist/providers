@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.3
+  scored_at: '2026-07-28'
 api_count: 75
 apis:
 - description: The AI Embed API from AppDirect — 2 operation(s) for ai embed.
@@ -423,7 +425,7 @@ overview: 'AppDirect publishes 75 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AppDirect''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 4
+random_paper: 32
 scopes:
 - name: Appdirect Scopes
   scope_count: 15
@@ -431,18 +433,27 @@ scopes:
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 56.1
-  delta: 0.0
+  composite: 55.4
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.5
-    developer_ergonomics: 80.4
-    discoverability: 75.0
-    governance: 0.0
+    contract_quality: 62.6
+    developer_ergonomics: 69.0
+    discoverability: 74.1
+    governance: 11.5
     operational_transparency: 63.2
   previous_composite: 56.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 75
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/screenshots/appdirect-2026-07-25T200730.png
 security:

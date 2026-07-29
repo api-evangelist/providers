@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -356,7 +358,7 @@ plans:
 - name: Replicate Plans Pricing
   plan_count: 4
   slug: replicate-plans-pricing
-random_paper: 1
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Replicate Rate Limits
@@ -388,18 +390,25 @@ rules:
   slug: replicate-rules
 score:
   band: exemplar
-  composite: 70.7
-  delta: 2.0
+  composite: 67.3
+  delta: -3.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 74.3
+    contract_quality: 75.3
     developer_ergonomics: 56.5
-    discoverability: 87.5
-    governance: 52.6
+    discoverability: 64.8
+    governance: 41.7
     operational_transparency: 68.4
-  previous_composite: 68.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 70.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/screenshots/replicate-2026-06-20T192926.png
 security:

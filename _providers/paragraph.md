@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -200,21 +202,31 @@ overview: 'Paragraph publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paragraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 66
+random_paper: 26
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 51.4
+  delta: 1.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.4
+    contract_quality: 60.2
     developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 50.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

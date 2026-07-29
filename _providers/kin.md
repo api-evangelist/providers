@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Kin Insurance platform provides data-driven home insurance services including property data enrichment, automated underwriting, online quote generation, policy binding, and claims management for h
@@ -102,30 +104,31 @@ plans:
 - name: Kin Plans Pricing
   plan_count: 4
   slug: kin-plans-pricing
-random_paper: 50
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Kin Rate Limits
   slug: kin-rate-limits
 score:
   band: emerging
-  composite: 22.5
-  delta: 0.0
+  composite: 19.9
+  delta: -2.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 22.5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 9.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kin/refs/heads/main/screenshots/kin-2026-06-20T184037.png
 security:

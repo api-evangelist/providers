@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.4
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Programmatic access to GigSky's catalog of regional and global eSIM data plans by destination and price zone, used by partners and enterprises to browse and select connectivity. Endpoints, base URL, a
@@ -104,26 +106,32 @@ plans:
 - name: Gigsky Plans Pricing
   plan_count: 3
   slug: gigsky-plans-pricing
-random_paper: 42
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Gigsky Rate Limits
   slug: gigsky-rate-limits
 score:
   band: thin
-  composite: 34.4
-  delta: 3.2
+  composite: 28.4
+  delta: -6.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 34.4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/screenshots/gigsky-2026-07-25T215813.png
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -206,7 +208,7 @@ plans:
 - name: Chase Plans Pricing
   plan_count: 2
   slug: chase-plans-pricing
-random_paper: 40
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Chase Rate Limits
@@ -227,24 +229,32 @@ scopes:
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 54.8
-  delta: 2.8
+  composite: 47.9
+  delta: -6.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.8
+    contract_quality: 57.6
     developer_ergonomics: 23.9
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 52.0
+  previous_composite: 54.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 53.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/screenshots/chase-2026-06-20T174235.png
 security:
 - kind: authentication

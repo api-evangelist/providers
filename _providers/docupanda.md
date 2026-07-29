@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 10
 apis:
 - description: Submit, retrieve, list, search, split, merge, bulk-download, and delete documents. DocuPanda parses files into searchable PDFs and structured page-level text, tables, and bounding boxes. Supports hand
@@ -193,21 +195,21 @@ overview: 'DocuPanda publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   DocuPanda''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, signup flow, developer console, and 16 more developer resources.'
-random_paper: 59
+random_paper: 19
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 35.8
+  delta: -2.6
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 38.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/screenshots/docupanda-2026-06-20T180119.png
 security:

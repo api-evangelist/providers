@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,12 +66,40 @@ apis:
 - description: OSM way (line/polygon) operations
   name: OpenStreetMap Ways API
   slug: openstreetmap-ways-api
-artifact_total: 46
+artifact_total: 54
 collections:
+- collection_type: postman
+  name: OpenStreetMap API v0.6 Capabilities API
+  slug: postman-openstreetmap-capabilities-api
+- collection_type: postman
+  name: OpenStreetMap API v0.6 Capabilities Changesets API
+  slug: postman-openstreetmap-changesets-api
+- collection_type: postman
+  name: OpenStreetMap API v0.6 Capabilities Map Data API
+  slug: postman-openstreetmap-map-data-api
+- collection_type: postman
+  name: OpenStreetMap API v0.6 Capabilities Nodes API
+  slug: postman-openstreetmap-nodes-api
+- collection_type: postman
+  name: OpenStreetMap API v0.6 Capabilities Notes API
+  slug: postman-openstreetmap-notes-api
+- collection_type: postman
+  name: OpenStreetMap API v0.6 Capabilities Relations API
+  slug: postman-openstreetmap-relations-api
+- collection_type: postman
+  name: OpenStreetMap API v0.6 Capabilities Users API
+  slug: postman-openstreetmap-users-api
+- collection_type: postman
+  name: OpenStreetMap API v0.6 Capabilities Ways API
+  slug: postman-openstreetmap-ways-api
 - collection_type: open
   name: OpenStreetMap API v0.6
   slug: open-openstreetmap-main
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/openstreetmap/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -242,12 +272,12 @@ overview: 'OpenStreetMap publishes 8 APIs on the [APIs.io](https://apis.io/) net
   The OpenStreetMap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenStreetMap''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 20 more developer resources.'
+  OpenStreetMap''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 21 more developer resources.'
 plans:
 - name: Openstreetmap Plans Pricing
   plan_count: 3
   slug: openstreetmap-plans-pricing
-random_paper: 55
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Openstreetmap Rate Limits
@@ -268,23 +298,31 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.4
-  delta: 3.9
+  composite: 61.6
+  delta: -4.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 74.6
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 62.5
+  previous_composite: 66.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 75.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/screenshots/openstreetmap-2026-06-20T191043.png
 security:

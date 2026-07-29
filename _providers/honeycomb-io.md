@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -99,8 +101,71 @@ apis:
 - description: 'Triggers let you receive notifications when your data in Honeycomb crosses the thresholds that you configure. The graph on which to alert is as flexible as a Honeycomb query, which helps reduce false '
   name: Honeycomb Triggers API
   slug: honeycomb-io-triggers-api
-artifact_total: 53
+artifact_total: 74
 collections:
+- collection_type: postman
+  name: Honeycomb Auth API
+  slug: postman-honeycomb-io-auth-api
+- collection_type: postman
+  name: Honeycomb Auth Boards API
+  slug: postman-honeycomb-io-boards-api
+- collection_type: postman
+  name: Honeycomb Auth Burn Alerts API
+  slug: postman-honeycomb-io-burn-alerts-api
+- collection_type: postman
+  name: Honeycomb Auth Calculated Fields API
+  slug: postman-honeycomb-io-calculated-fields-api
+- collection_type: postman
+  name: Honeycomb Auth Columns API
+  slug: postman-honeycomb-io-columns-api
+- collection_type: postman
+  name: Honeycomb Auth Dataset Definitions API
+  slug: postman-honeycomb-io-dataset-definitions-api
+- collection_type: postman
+  name: Honeycomb Auth Datasets API
+  slug: postman-honeycomb-io-datasets-api
+- collection_type: postman
+  name: Honeycomb Auth Environments API
+  slug: postman-honeycomb-io-environments-api
+- collection_type: postman
+  name: Honeycomb Auth Events API
+  slug: postman-honeycomb-io-events-api
+- collection_type: postman
+  name: Honeycomb Auth Key Management API
+  slug: postman-honeycomb-io-key-management-api
+- collection_type: postman
+  name: Honeycomb Auth Kinesis Events API
+  slug: postman-honeycomb-io-kinesis-events-api
+- collection_type: postman
+  name: Honeycomb Auth Marker Settings API
+  slug: postman-honeycomb-io-marker-settings-api
+- collection_type: postman
+  name: Honeycomb Auth Markers API
+  slug: postman-honeycomb-io-markers-api
+- collection_type: postman
+  name: Honeycomb Auth Queries API
+  slug: postman-honeycomb-io-queries-api
+- collection_type: postman
+  name: Honeycomb Auth Query Annotations API
+  slug: postman-honeycomb-io-query-annotations-api
+- collection_type: postman
+  name: Honeycomb Auth Query Data API
+  slug: postman-honeycomb-io-query-data-api
+- collection_type: postman
+  name: Honeycomb Auth Recipients API
+  slug: postman-honeycomb-io-recipients-api
+- collection_type: postman
+  name: Honeycomb Auth Reporting API
+  slug: postman-honeycomb-io-reporting-api
+- collection_type: postman
+  name: Honeycomb Auth Service Maps API
+  slug: postman-honeycomb-io-service-maps-api
+- collection_type: postman
+  name: Honeycomb Auth SLOs API
+  slug: postman-honeycomb-io-slos-api
+- collection_type: postman
+  name: Honeycomb Auth Triggers API
+  slug: postman-honeycomb-io-triggers-api
 - collection_type: open
   name: Honeycomb Auth API
   slug: open-honeycomb-auth-api
@@ -138,6 +203,10 @@ collections:
   name: Honeycomb Triggers API
   slug: open-honeycomb-triggers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/honeycomb/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -358,12 +427,12 @@ overview: 'Honeycomb publishes 21 APIs on the [APIs.io](https://apis.io/) networ
   The Honeycomb catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Honeycomb''s developer surface includes documentation, developer portal, authentication, engineering blog, changelog, pricing, support, and 34 more developer resources.'
+  Honeycomb''s developer surface includes documentation, developer portal, authentication, engineering blog, changelog, pricing, support, and 35 more developer resources.'
 plans:
 - name: Honeycomb Io Plans Pricing
   plan_count: 4
   slug: honeycomb-io-plans-pricing
-random_paper: 1
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Honeycomb Io Rate Limits
@@ -387,18 +456,25 @@ rules:
   slug: honeycomb-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 2.5
+  composite: 60.1
+  delta: -3.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 66.5
-    developer_ergonomics: 50.0
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 66.2
+    developer_ergonomics: 54.3
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png
 security:

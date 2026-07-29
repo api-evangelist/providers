@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,12 +57,34 @@ apis:
 - description: 'The #StartTaskExecution API from Amazon DataSync — 1 operation(s) for #starttaskexecution.'
   name: 'Amazon DataSync #StartTaskExecution API'
   slug: amazon-datasync-starttaskexecution-api
-artifact_total: 61
+artifact_total: 67
 collections:
+- collection_type: postman
+  name: Amazon DataSync REST Amazon DataSync REST API API
+  slug: postman-amazon-datasync-amazon-datasync-rest-api-api
+- collection_type: postman
+  name: 'Amazon DataSync REST Amazon DataSync REST API #CreateAgent API'
+  slug: postman-amazon-datasync-createagent-api
+- collection_type: postman
+  name: 'Amazon DataSync REST Amazon DataSync REST API #CreateLocationS3 API'
+  slug: postman-amazon-datasync-createlocations3-api
+- collection_type: postman
+  name: 'Amazon DataSync REST Amazon DataSync REST API #DescribeTask API'
+  slug: postman-amazon-datasync-describetask-api
+- collection_type: postman
+  name: 'Amazon DataSync REST Amazon DataSync REST API #ListTasks API'
+  slug: postman-amazon-datasync-listtasks-api
+- collection_type: postman
+  name: 'Amazon DataSync REST Amazon DataSync REST API #StartTaskExecution API'
+  slug: postman-amazon-datasync-starttaskexecution-api
 - collection_type: open
   name: Amazon DataSync REST API
   slug: open-amazon-datasync-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-datasync/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -283,12 +307,12 @@ overview: 'Amazon DataSync publishes 6 APIs on the [APIs.io](https://apis.io/) n
   The Amazon DataSync catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DataSync''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon DataSync''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Datasync Plans Pricing
   plan_count: 3
   slug: amazon-datasync-plans-pricing
-random_paper: 50
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Amazon Datasync Rate Limits
@@ -312,19 +336,26 @@ rules:
   slug: amazon-datasync-spectral-rules
 score:
   band: strong
-  composite: 69.3
-  delta: 5.4
+  composite: 65.8
+  delta: -3.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.9
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 71.2
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 63.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 69.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/screenshots/amazon-datasync-2026-06-20T171614.png
 security:
 - kind: authentication

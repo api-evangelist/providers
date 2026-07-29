@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -424,7 +426,7 @@ plans:
 - name: Hunter Io Plans Pricing
   plan_count: 5
   slug: hunter-io-plans-pricing
-random_paper: 39
+random_paper: 76
 rate_limits:
 - limit_count: 8
   name: Hunter Io Rate Limits
@@ -447,19 +449,26 @@ rules:
     warn: 4
   slug: hunter-io-rules
 score:
-  band: exemplar
-  composite: 70.3
-  delta: 4.2
+  band: strong
+  composite: 65.7
+  delta: -4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 75.2
+    contract_quality: 74.8
     developer_ergonomics: 56.5
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 66.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 70.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/screenshots/hunter-io-2026-06-20T182944.png
 security:

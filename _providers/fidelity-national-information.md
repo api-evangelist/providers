@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: FIS Code Connect is the developer marketplace exposing FIS APIs across payments, banking, capital markets, and wealth management products. Access to most APIs requires a partner agreement and authenti
@@ -87,30 +89,31 @@ press:
 - date: '2026-05-25'
   title: FIS Builds on Awards Momentum for Treasury Solutions ...
   url: https://www.investor.fisglobal.com/news-releases/news-release-details/fis-builds-awards-momentum-treasury-solutions-launching-ai
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Fidelity National Information Rate Limits
   slug: fidelity-national-information-rate-limits
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 17.9
+  delta: -2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 20.4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 7.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

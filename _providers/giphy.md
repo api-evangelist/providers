@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,12 +72,49 @@ apis:
 - description: Identifier generation and other helpers.
   name: Giphy Utilities API
   slug: giphy-utilities-api
-artifact_total: 73
+artifact_total: 84
 collections:
+- collection_type: postman
+  name: GIPHY Analytics API
+  slug: postman-giphy-analytics-api
+- collection_type: postman
+  name: GIPHY Analytics Animate API
+  slug: postman-giphy-animate-api
+- collection_type: postman
+  name: GIPHY Analytics Categories API
+  slug: postman-giphy-categories-api
+- collection_type: postman
+  name: GIPHY Analytics Channels API
+  slug: postman-giphy-channels-api
+- collection_type: postman
+  name: GIPHY Analytics Clips API
+  slug: postman-giphy-clips-api
+- collection_type: postman
+  name: GIPHY Analytics Emoji API
+  slug: postman-giphy-emoji-api
+- collection_type: postman
+  name: GIPHY Analytics GIFs API
+  slug: postman-giphy-gifs-api
+- collection_type: postman
+  name: GIPHY Analytics Search Discovery API
+  slug: postman-giphy-search-discovery-api
+- collection_type: postman
+  name: GIPHY Analytics Stickers API
+  slug: postman-giphy-stickers-api
+- collection_type: postman
+  name: GIPHY Analytics Upload API
+  slug: postman-giphy-upload-api
+- collection_type: postman
+  name: GIPHY Analytics Utilities API
+  slug: postman-giphy-utilities-api
 - collection_type: open
   name: GIPHY API
   slug: open-giphy
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/giphy/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -325,12 +364,12 @@ overview: 'Giphy publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Giphy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Giphy''s developer surface includes authentication, documentation, developer console, signup flow, support, engineering blog, tooling, and 21 more developer resources.'
+  Giphy''s developer surface includes authentication, documentation, developer console, signup flow, support, engineering blog, tooling, and 22 more developer resources.'
 plans:
 - name: Giphy Plans Pricing
   plan_count: 3
   slug: giphy-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Giphy Rate Limits
@@ -354,18 +393,31 @@ rules:
   slug: giphy-rules
 score:
   band: strong
-  composite: 63.9
-  delta: 4.7
+  composite: 59.5
+  delta: -4.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 75.9
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 76.9
+    developer_ergonomics: 45.7
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/screenshots/giphy-2026-06-20T181827.png
 security:

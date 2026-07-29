@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 6
@@ -64,8 +66,35 @@ apis:
 - description: The tokens API from Smithery — 1 operation(s) for tokens.
   name: Smithery tokens API
   slug: smithery-ai-tokens-api
-artifact_total: 54
+artifact_total: 63
 collections:
+- collection_type: postman
+  name: Smithery connect API
+  slug: postman-smithery-ai-connect-api
+- collection_type: postman
+  name: Smithery connect connect.mcp API
+  slug: postman-smithery-ai-connect-mcp-api
+- collection_type: postman
+  name: Smithery connect domains API
+  slug: postman-smithery-ai-domains-api
+- collection_type: postman
+  name: Smithery connect Health API
+  slug: postman-smithery-ai-health-api
+- collection_type: postman
+  name: Smithery connect namespaces API
+  slug: postman-smithery-ai-namespaces-api
+- collection_type: postman
+  name: Smithery connect organizations API
+  slug: postman-smithery-ai-organizations-api
+- collection_type: postman
+  name: Smithery connect servers API
+  slug: postman-smithery-ai-servers-api
+- collection_type: postman
+  name: Smithery connect skills API
+  slug: postman-smithery-ai-skills-api
+- collection_type: postman
+  name: Smithery connect tokens API
+  slug: postman-smithery-ai-tokens-api
 - collection_type: open
   name: Smithery Connect API
   slug: open-smithery-connect-api
@@ -73,6 +102,10 @@ collections:
   name: Smithery Registry API
   slug: open-smithery-registry-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/smithery/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -372,12 +405,12 @@ overview: 'Smithery publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Smithery catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Smithery''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, CLI, tooling, and 49 more developer resources.'
+  Smithery''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, CLI, tooling, and 50 more developer resources.'
 plans:
 - name: Smithery Ai Plans Pricing
   plan_count: 4
   slug: smithery-ai-plans-pricing
-random_paper: 44
+random_paper: 54
 rate_limits:
 - limit_count: 6
   name: Smithery Ai Rate Limits
@@ -401,19 +434,26 @@ rules:
   slug: smithery-ai-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 5.5
+  composite: 57.5
+  delta: -3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.2
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 68.1
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 55.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 security:
 - kind: authentication
   name: Smithery Ai Authentication

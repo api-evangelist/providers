@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 78.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 59.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 2
@@ -276,7 +278,7 @@ plans:
 - name: Hugging Face Transformers Plans Pricing
   plan_count: 3
   slug: hugging-face-transformers-plans-pricing
-random_paper: 36
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Hugging Face Transformers Rate Limits
@@ -288,18 +290,27 @@ scopes:
   summary_line: 15 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 46.1
-  delta: 2.0
+  composite: 47.5
+  delta: 1.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 44.0
+    contract_quality: 45.8
     developer_ergonomics: 37.0
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 44.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 46.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/screenshots/hugging-face-transformers-2026-06-20T182926.png
 security:

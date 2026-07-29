@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Public read endpoints (no auth) plus authenticated write endpoints over a MongoDB-backed corpus of programming quotes. Provides random quote lookups, paginated lists, author filtering, and full CRUD f
@@ -143,7 +145,7 @@ overview: 'Programming Quotes publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   The Programming Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 1
+random_paper: 57
 rules:
 - name: Programming Quotes API Rules
   rule_count: 5
@@ -163,19 +165,25 @@ rules:
   slug: programming-quotes-rules
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 28.3
+  delta: -11.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 77.4
+    contract_quality: 50.0
     developer_ergonomics: 0.0
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 5.3
   previous_composite: 39.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/screenshots/programming-quotes-2026-06-20T192146.png
 security:
 - kind: domain-security

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -185,21 +187,28 @@ overview: 'Parseur publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Parseur''s developer surface includes authentication, developer portal, signup flow, documentation, engineering blog, pricing, GitHub presence, and 21 more developer resources.'
-random_paper: 22
+random_paper: 0
 score:
   band: thin
-  composite: 41.8
-  delta: 3.2
+  composite: 39.6
+  delta: -2.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 50.7
+    contract_quality: 52.3
     developer_ergonomics: 30.4
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 41.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/screenshots/parseur-2026-06-20T191421.png
 security:

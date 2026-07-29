@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 3.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,21 +127,21 @@ overview: 'Terrastruct is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Terrastruct''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 15 more developer resources.'
-random_paper: 63
+random_paper: 64
 score:
-  band: emerging
-  composite: 28.7
-  delta: 0.0
+  band: thin
+  composite: 28.8
+  delta: 0.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 28.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

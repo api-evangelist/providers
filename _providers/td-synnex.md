@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -175,7 +177,7 @@ plans:
 - name: Td Synnex Plans Pricing
   plan_count: 1
   slug: td-synnex-plans-pricing
-random_paper: 54
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Td Synnex Rate Limits
@@ -204,18 +206,25 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.1
-  delta: 3.2
+  composite: 46.6
+  delta: -4.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.2
+    contract_quality: 66.9
     developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 47.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 51.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png
 security:

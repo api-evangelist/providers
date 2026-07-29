@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Generate signed URLs for embedding Zenlytic content in host apps.
@@ -130,21 +132,28 @@ overview: 'Zenlytic publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Zenlytic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 14 more developer resources.'
-random_paper: 66
+random_paper: 35
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 45.6
+  delta: -2.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.7
-    developer_ergonomics: 65.2
-    discoverability: 92.5
+    contract_quality: 65.3
+    developer_ergonomics: 60.3
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

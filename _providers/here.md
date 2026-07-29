@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -162,25 +164,32 @@ plans:
 - name: Here Plans Pricing
   plan_count: 3
   slug: here-plans-pricing
-random_paper: 12
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Here Rate Limits
   slug: here-rate-limits
 score:
   band: developing
-  composite: 47.8
-  delta: 3.2
+  composite: 46.1
+  delta: -1.7
   facets:
     commercial_clarity: 73.7
-    contract_quality: 47.8
+    contract_quality: 50.0
     developer_ergonomics: 17.4
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 44.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 47.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/screenshots/here-2026-06-20T182640.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,12 +45,22 @@ apis:
 - description: The Google Search Ads 360 Reporting API API from Google Search Ads 360 Reporting — 1 operation(s) for google search ads 360 reporting api.
   name: Google Search Ads 360 Reporting Google Search Ads 360 Reporting API API
   slug: google-search-ads-360-google-search-ads-360-reporting-api-api
-artifact_total: 12
+artifact_total: 14
 collections:
+- collection_type: postman
+  name: Google Search Ads 360 Reporting Customers API
+  slug: postman-google-search-ads-360-customers-api
+- collection_type: postman
+  name: Google Search Ads 360 Reporting Customers Google Search Ads 360 Reporting API API
+  slug: postman-google-search-ads-360-google-search-ads-360-reporting-api-api
 - collection_type: open
   name: Google Search Ads 360 Reporting API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-search-ads-360-reporting/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -131,12 +143,12 @@ overview: 'Google Search Ads 360 Reporting publishes 2 APIs on the [APIs.io](htt
   The Google Search Ads 360 Reporting catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Search Ads 360 Reporting''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Search Ads 360 Reporting''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Search Ads 360 Plans Pricing
   plan_count: 3
   slug: google-search-ads-360-plans-pricing
-random_paper: 31
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Google Search Ads 360 Rate Limits
@@ -157,18 +169,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 63.3
-  delta: 4.5
+  composite: 60.4
+  delta: -2.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.9
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 63.6
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/screenshots/google-search-ads-360-2026-06-20T182242.png
 security:

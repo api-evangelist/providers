@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -39,12 +41,20 @@ apis:
 - description: Exported AI Assistant interaction records
   name: Moveworks (ServiceNow) Records API
   slug: moveworks-servicenow-records-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Moveworks Servicenow Webhooks
   slug: moveworks-servicenow-webhooks
+collections:
+- collection_type: postman
+  name: Moveworks Data Records API
+  slug: postman-moveworks-servicenow-records-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/moveworks-servicenow/overview
 - group: company
   title: ''
   type: Website
@@ -207,22 +217,32 @@ overview: 'Moveworks (ServiceNow) publishes 1 API on the [APIs.io](https://apis.
   The Moveworks (ServiceNow) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Moveworks (ServiceNow)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 35
+  Moveworks (ServiceNow)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+random_paper: 64
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 64.4
+  delta: 2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.0
-    developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 70.3
+    developer_ergonomics: 73.4
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 68.4
   previous_composite: 62.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -70,8 +72,41 @@ apis:
 - description: Vulnerability tracking and remediation management
   name: Vanta Vulnerabilities API
   slug: vanta-vulnerabilities-api
-artifact_total: 33
+artifact_total: 44
 collections:
+- collection_type: postman
+  name: Conduct an audit Auditors API
+  slug: postman-vanta-auditors-api
+- collection_type: postman
+  name: Conduct an audit Auditors Audits API
+  slug: postman-vanta-audits-api
+- collection_type: postman
+  name: Conduct an audit Auditors Authentication API
+  slug: postman-vanta-authentication-api
+- collection_type: postman
+  name: Conduct an audit Auditors Controls API
+  slug: postman-vanta-controls-api
+- collection_type: postman
+  name: Conduct an audit Auditors Documents API
+  slug: postman-vanta-documents-api
+- collection_type: postman
+  name: Conduct an audit Auditors Integrations API
+  slug: postman-vanta-integrations-api
+- collection_type: postman
+  name: Conduct an audit Auditors Resources API
+  slug: postman-vanta-resources-api
+- collection_type: postman
+  name: Conduct an audit Auditors Tests API
+  slug: postman-vanta-tests-api
+- collection_type: postman
+  name: Conduct an audit Auditors Users API
+  slug: postman-vanta-users-api
+- collection_type: postman
+  name: Conduct an audit Auditors Vendors API
+  slug: postman-vanta-vendors-api
+- collection_type: postman
+  name: Conduct an audit Auditors Vulnerabilities API
+  slug: postman-vanta-vulnerabilities-api
 - collection_type: open
   name: Conduct an audit
   slug: open-vanta-auditor
@@ -79,6 +114,10 @@ collections:
   name: Vanta API
   slug: open-vanta
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/vanta/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -228,12 +267,12 @@ overview: 'Vanta publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Vanta catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vanta''s developer surface includes authentication, developer portal, getting-started guide, FAQ, documentation, engineering blog, changelog, and 17 more developer resources.'
+  Vanta''s developer surface includes authentication, developer portal, getting-started guide, FAQ, documentation, engineering blog, changelog, and 18 more developer resources.'
 plans:
 - name: Vanta Plans Pricing
   plan_count: 3
   slug: vanta-plans-pricing
-random_paper: 62
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Vanta Rate Limits
@@ -262,18 +301,25 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.5
-  delta: 3.3
+  composite: 57.4
+  delta: -4.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.6
+    contract_quality: 67.1
     developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 58.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/screenshots/vanta-2026-06-20T200811.png
 security:

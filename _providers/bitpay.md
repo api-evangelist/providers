@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -178,7 +180,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 37
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -194,24 +196,32 @@ rules:
   slug: bitpay-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 45.5
+  delta: -5.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.6
     developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 13.2
   previous_composite: 51.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 32.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/screenshots/bitpay-2026-06-20T173317.png
 security:
 - kind: domain-security

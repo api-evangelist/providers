@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 60.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -322,26 +324,42 @@ overview: 'GSMA publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   GSMA''s developer surface includes authentication, documentation, sandbox, YouTube channel, changelog, API reference, getting-started guide, and 47 more developer resources.'
-random_paper: 16
+random_paper: 39
 scopes:
 - name: Gsma Scopes
   scope_count: 30
   slug: gsma-scopes
   summary_line: 30 scopes
 score:
-  band: developing
-  composite: 54.8
-  delta: 0.0
+  band: strong
+  composite: 58.7
+  delta: 3.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.0
-    developer_ergonomics: 80.4
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 64.6
+    developer_ergonomics: 69.0
+    discoverability: 83.3
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 54.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 5.6
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 93.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

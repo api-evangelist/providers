@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -170,21 +172,31 @@ overview: 'Timeular publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Timeular''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 51
+random_paper: 20
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 45.9
+  delta: -1.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.3
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.6
+    developer_ergonomics: 45.1
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 47.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

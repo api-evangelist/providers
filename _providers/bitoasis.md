@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -175,27 +177,38 @@ overview: 'BitOasis publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BitOasis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 46
+random_paper: 15
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 45.2
+  delta: -5.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.7
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 48.8
+    developer_ergonomics: 75.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 50.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/screenshots/bitoasis-2026-07-25T203200.png
 security:
 - kind: authentication

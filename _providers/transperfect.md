@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'REST API (formerly Applanga) for mobile app and software string localization, supporting upload/download of source and translated entries, tags, screenshots, projects, branches, orders, and webhooks, '
@@ -144,7 +146,7 @@ overview: 'TransPerfect publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   TransPerfect''s developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 5
+random_paper: 65
 rules:
 - name: TransPerfect API Rules
   rule_count: 5
@@ -155,20 +157,20 @@ rules:
     warn: 3
   slug: transperfect-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 22.6
-  delta: 0.0
+  band: thin
+  composite: 29.3
+  delta: 6.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 15.1
+    contract_quality: 58.0
     developer_ergonomics: 2.2
-    discoverability: 72.5
-    governance: 86.8
+    discoverability: 53.7
+    governance: 68.8
     operational_transparency: 5.3
   previous_composite: 22.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/transperfect/refs/heads/main/screenshots/transperfect-2026-06-20T195557.png
 security:
 - kind: domain-security

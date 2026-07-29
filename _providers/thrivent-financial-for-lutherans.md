@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Comprehensive financial planning and advisory services from Thrivent Financial, offering personalized advice across investments, insurance, estate planning, and retirement. Services include free Money
@@ -131,30 +133,31 @@ press:
 - date: '2026-05-25'
   title: 'Research Update: Thrivent Financial for Lutherans'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/12298853
-random_paper: 65
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Thrivent Financial For Lutherans Rate Limits
   slug: thrivent-financial-for-lutherans-rate-limits
 score:
   band: emerging
-  composite: 29.2
-  delta: 0.0
+  composite: 25.3
+  delta: -3.9
   facets:
     commercial_clarity: 52.6
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 13.2
+    discoverability: 64.8
+    governance: 10.4
     operational_transparency: 31.6
   previous_composite: 29.2
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/screenshots/thrivent-financial-for-lutherans-2026-06-20T195319.png
 security:

@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: UK Government coronavirus data, including deaths and cases by region
@@ -58,26 +60,27 @@ name: Coronavirus in the UK
 nav: Providers
 network: true
 overview: Coronavirus in the UK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 66
+random_paper: 27
 score:
   band: minimal
-  composite: 9.7
-  delta: 0.0
+  composite: 7.1
+  delta: -2.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 15.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coronavirus-in-the-uk/refs/heads/main/screenshots/coronavirus-in-the-uk-2026-06-20T175037.png
 security:

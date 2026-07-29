@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -83,8 +85,46 @@ arazzos:
 - description: Submit a valid APIs.json to the APIs.io index, then search the registry to confirm the submitted API appears.
   name: APIs.io Submit and Verify API
   slug: apis-io-submit-and-verify-api-workflow
-artifact_total: 81
+artifact_total: 92
+collections:
+- collection_type: postman
+  name: .io Search APIs API
+  slug: postman-apis-io-apis-api
+- collection_type: postman
+  name: .io Search APIs Areas API
+  slug: postman-apis-io-areas-api
+- collection_type: postman
+  name: .io Search APIs Artifact Types API
+  slug: postman-apis-io-artifact-types-api
+- collection_type: postman
+  name: .io Search APIs Industries API
+  slug: postman-apis-io-industries-api
+- collection_type: postman
+  name: .io Search APIs Insights API
+  slug: postman-apis-io-insights-api
+- collection_type: postman
+  name: .io Search APIs Providers API
+  slug: postman-apis-io-providers-api
+- collection_type: postman
+  name: .io Search APIs Ratings API
+  slug: postman-apis-io-ratings-api
+- collection_type: postman
+  name: .io Search APIs Regions API
+  slug: postman-apis-io-regions-api
+- collection_type: postman
+  name: .io APIs Search API
+  slug: postman-apis-io-search-api
+- collection_type: postman
+  name: .io Search APIs Synthesis API
+  slug: postman-apis-io-synthesis-api
+- collection_type: postman
+  name: .io Search APIs Tags API
+  slug: postman-apis-io-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apisio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -372,12 +412,12 @@ overview: 'APIs.io publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The APIs.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, and 23 more developer resources.'
+  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, and 24 more developer resources.'
 plans:
 - name: Apis Io Plans Pricing
   plan_count: 3
   slug: apis-io-plans-pricing
-random_paper: 10
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Apis Io Rate Limits
@@ -401,18 +441,25 @@ rules:
   slug: apis-io-spectral-rules
 score:
   band: strong
-  composite: 66.4
-  delta: 0.0
+  composite: 62.0
+  delta: -4.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 78.7
-    developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 76.5
+    developer_ergonomics: 41.3
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 66.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-06-20T172253.png
 security:

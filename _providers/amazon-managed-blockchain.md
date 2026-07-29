@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -49,8 +51,25 @@ apis:
 - description: The Tags API from Amazon Managed Blockchain — 2 operation(s) for tags.
   name: Amazon Managed Blockchain Tags API
   slug: amazon-managed-blockchain-tags-api
-artifact_total: 483
+artifact_total: 487
+collections:
+- collection_type: postman
+  name: Amazon Managed Blockchain Accessors API
+  slug: postman-amazon-managed-blockchain-accessors-api
+- collection_type: postman
+  name: Amazon Managed Blockchain Accessors Invitations API
+  slug: postman-amazon-managed-blockchain-invitations-api
+- collection_type: postman
+  name: Amazon Managed Blockchain Accessors Networks API
+  slug: postman-amazon-managed-blockchain-networks-api
+- collection_type: postman
+  name: Amazon Managed Blockchain Accessors Tags API
+  slug: postman-amazon-managed-blockchain-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-managed-blockchain/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1537,12 +1556,12 @@ overview: 'Amazon Managed Blockchain publishes 4 APIs on the [APIs.io](https://a
   The Amazon Managed Blockchain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Managed Blockchain''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 12 more developer resources.'
+  Amazon Managed Blockchain''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Managed Blockchain Plans Pricing
   plan_count: 3
   slug: amazon-managed-blockchain-plans-pricing
-random_paper: 43
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Blockchain Rate Limits
@@ -1566,18 +1585,25 @@ rules:
   slug: amazon-managed-blockchain-spectral-rules
 score:
   band: strong
-  composite: 68.3
-  delta: 0.0
+  composite: 65.2
+  delta: -3.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 72.6
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.4
+    developer_ergonomics: 43.5
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 68.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/screenshots/amazon-managed-blockchain-2026-06-20T171732.png
 security:

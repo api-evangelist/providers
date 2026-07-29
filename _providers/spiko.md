@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -282,7 +284,7 @@ overview: 'Spiko publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spiko''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 6
+random_paper: 11
 scopes:
 - name: Spiko Scopes
   scope_count: 3
@@ -290,23 +292,34 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 58.4
-  delta: 0.0
+  composite: 54.6
+  delta: -3.8
   facets:
     commercial_clarity: 52.6
-    contract_quality: 61.1
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 62.7
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 21.1
   previous_composite: 58.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 62.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

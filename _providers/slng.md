@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -81,7 +83,7 @@ apis:
 - description: Whisper Large v3 with 99+ language support.
   name: SLNG Whisper Large v3 API
   slug: slng-whisper-large-v3-api
-artifact_total: 23
+artifact_total: 38
 asyncapis:
 - description: SLNG Gateway API
   name: SLNG Gateway API - SLNG (WebSocket)
@@ -92,7 +94,57 @@ asyncapis:
 - description: SLNG Gateway API
   name: SLNG Gateway API - SLNG TTS
   slug: slng-tts-slng-asyncapi
+collections:
+- collection_type: postman
+  name: SLNG Voice Agents Account API
+  slug: postman-slng-account-api
+- collection_type: postman
+  name: SLNG Voice Account Agents API
+  slug: postman-slng-agents-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Calls API
+  slug: postman-slng-calls-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Catalog API
+  slug: postman-slng-catalog-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Deepgram Aura 2 API
+  slug: postman-slng-deepgram-aura-2-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Deepgram Nova 3 API
+  slug: postman-slng-deepgram-nova-3-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Inworld Max 1.5 API
+  slug: postman-slng-inworld-max-1-5-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Orpheus English API
+  slug: postman-slng-orpheus-english-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Pronunciation dictionaries API
+  slug: postman-slng-pronunciation-dictionaries-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Rime Arcana v2 API
+  slug: postman-slng-rime-arcana-v2-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Rime Arcana v3 API
+  slug: postman-slng-rime-arcana-v3-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Rime Coda API
+  slug: postman-slng-rime-coda-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Sessions API
+  slug: postman-slng-sessions-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Speechmatics API
+  slug: postman-slng-speechmatics-api
+- collection_type: postman
+  name: SLNG Voice Agents Account Whisper Large v3 API
+  slug: postman-slng-whisper-large-v3-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/slng/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -243,22 +295,38 @@ overview: 'SLNG publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
   The SLNG catalog on APIs.io includes 3 event-driven AsyncAPI specifications.
 
 
-  SLNG''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 26 more developer resources.'
-random_paper: 28
+  SLNG''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 27 more developer resources.'
+random_paper: 51
 score:
   band: strong
-  composite: 60.4
-  delta: 0.0
+  composite: 57.0
+  delta: -3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.6
-    developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 73.1
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 60.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1123
   human_in_the_loop: 0
@@ -133,12 +135,108 @@ apis:
 - description: The Zkevm Methods API from Chainstack — 8 operation(s) for zkevm methods.
   name: Chainstack Zkevm Methods API
   slug: chainstack-zkevm-methods-api
-artifact_total: 72
+artifact_total: 104
 asyncapis:
 - description: AsyncAPI 2.6 specification for Chainstack's JSON-RPC WebSocket (WSS) subscription APIs. Chainstack-managed nodes expose a persistent WebSocket endpoint per node that accepts JSON-RPC 2.0 messages. Cli
   name: Chainstack RPC WebSocket APIs
   slug: chainstack-asyncapi
 collections:
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info API
+  slug: postman-chainstack-account-info-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Accounts Info API
+  slug: postman-chainstack-accounts-info-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Blocks Info API
+  slug: postman-chainstack-blocks-info-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Chain Info API
+  slug: postman-chainstack-chain-info-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Client Info API
+  slug: postman-chainstack-client-info-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Configuration Info API
+  slug: postman-chainstack-configuration-info-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Debug And Trace API
+  slug: postman-chainstack-debug-and-trace-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Debug API
+  slug: postman-chainstack-debug-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Deployment Options API
+  slug: postman-chainstack-deployment-options-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Events API
+  slug: postman-chainstack-events-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Execute Transactions API
+  slug: postman-chainstack-execute-transactions-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info faucet API
+  slug: postman-chainstack-faucet-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Filter Handling API
+  slug: postman-chainstack-filter-handling-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Gas Data API
+  slug: postman-chainstack-gas-data-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info General API
+  slug: postman-chainstack-general-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info History API
+  slug: postman-chainstack-history-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Logs And Events API
+  slug: postman-chainstack-logs-and-events-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Network API
+  slug: postman-chainstack-network-api
+- collection_type: postman
+  name: Chainstack Arbitrum Account Info Node API
+  slug: postman-chainstack-node-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Node V2 API
+  slug: postman-chainstack-node-v2-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Organization API
+  slug: postman-chainstack-organization-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Project API
+  slug: postman-chainstack-project-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Project V2 API
+  slug: postman-chainstack-project-v2-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info State API
+  slug: postman-chainstack-state-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Tempo Specific API
+  slug: postman-chainstack-tempo-specific-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Transaction Info API
+  slug: postman-chainstack-transaction-info-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Transactions Info API
+  slug: postman-chainstack-transactions-info-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Txpool API
+  slug: postman-chainstack-txpool-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info V2 API
+  slug: postman-chainstack-v2-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info V3 API
+  slug: postman-chainstack-v3-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Validatiors Info API
+  slug: postman-chainstack-validatiors-info-api
+- collection_type: postman
+  name: Chainstack Arbitrum Node Account Info Zkevm Methods API
+  slug: postman-chainstack-zkevm-methods-api
 - collection_type: open
   name: Chainstack Arbitrum Node API
   slug: open-chainstack-arbitrum-node-api
@@ -218,6 +316,10 @@ collections:
   name: Chainstack zkSync Era Node API
   slug: open-chainstack-zksync-node-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/chainstack/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -427,12 +529,12 @@ overview: 'Chainstack publishes 32 APIs on the [APIs.io](https://apis.io/) netwo
   The Chainstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Chainstack''s developer surface includes authentication, GitHub presence, YouTube channel, developer portal, documentation, pricing, support, and 38 more developer resources.'
+  Chainstack''s developer surface includes authentication, GitHub presence, YouTube channel, developer portal, documentation, pricing, support, and 39 more developer resources.'
 plans:
 - name: Chainstack Plans Pricing
   plan_count: 6
   slug: chainstack-plans-pricing
-random_paper: 29
+random_paper: 48
 rate_limits:
 - limit_count: 10
   name: Chainstack Rate Limits
@@ -464,18 +566,25 @@ rules:
   slug: chainstack-rules
 score:
   band: strong
-  composite: 68.5
-  delta: 3.5
+  composite: 65.6
+  delta: -2.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 71.4
-    developer_ergonomics: 50.0
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 72.1
+    developer_ergonomics: 54.3
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 73.7
-  previous_composite: 65.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/screenshots/chainstack-2026-06-20T174203.png
 security:

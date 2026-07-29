@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 93.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 61.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 7
@@ -76,12 +78,56 @@ apis:
 - description: The Webhooks API from Qonto — 2 operation(s) for webhooks.
   name: Qonto Webhooks API
   slug: qonto-webhooks-api
-artifact_total: 24
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Qonto Webhooks
   slug: qonto-webhooks
+collections:
+- collection_type: postman
+  name: Qonto Business Cards API
+  slug: postman-qonto-cards-api
+- collection_type: postman
+  name: Qonto Business Cards Client Invoices API
+  slug: postman-qonto-client-invoices-api
+- collection_type: postman
+  name: Qonto Business Cards Internal Transfers API
+  slug: postman-qonto-internal-transfers-api
+- collection_type: postman
+  name: Qonto Business Cards International Transfers API
+  slug: postman-qonto-international-transfers-api
+- collection_type: postman
+  name: Qonto Business Cards OAuth API
+  slug: postman-qonto-oauth-api
+- collection_type: postman
+  name: Qonto Business Cards Organizations & Accounts API
+  slug: postman-qonto-organizations-accounts-api
+- collection_type: postman
+  name: Qonto Business Cards Payment Links API
+  slug: postman-qonto-payment-links-api
+- collection_type: postman
+  name: Qonto Business Cards SEPA Direct Debit API
+  slug: postman-qonto-sepa-direct-debit-api
+- collection_type: postman
+  name: Qonto Business Cards SEPA Transfers API
+  slug: postman-qonto-sepa-transfers-api
+- collection_type: postman
+  name: Qonto Business Cards Supplier Invoices API
+  slug: postman-qonto-supplier-invoices-api
+- collection_type: postman
+  name: Qonto Business Cards Terminals API
+  slug: postman-qonto-terminals-api
+- collection_type: postman
+  name: Qonto Business Cards Transactions & Statements API
+  slug: postman-qonto-transactions-statements-api
+- collection_type: postman
+  name: Qonto Business Cards Webhooks API
+  slug: postman-qonto-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/qonto/overview
 - group: auth
   title: ''
   type: OAuthScopes
@@ -280,12 +326,12 @@ overview: 'Qonto publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Qonto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Qonto''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 37 more developer resources.'
+  Qonto''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 38 more developer resources.'
 plans:
 - name: Qonto Plans Pricing
   plan_count: 6
   slug: qonto-plans-pricing
-random_paper: 17
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Qonto Rate Limits
@@ -297,23 +343,34 @@ scopes:
   summary_line: 35 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.3
-  delta: 0.0
+  composite: 73.1
+  delta: -3.2
   facets:
     commercial_clarity: 100.0
-    contract_quality: 68.3
-    developer_ergonomics: 84.8
-    discoverability: 67.5
-    governance: 0.0
+    contract_quality: 69.2
+    developer_ergonomics: 79.9
+    discoverability: 68.5
+    governance: 11.5
     operational_transparency: 86.8
   previous_composite: 76.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 74.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
-  pricing: enterprise
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: flavored
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -37,24 +28,28 @@ agentic_access:
   summary_line: 8 operations · 8 acting
 api_count: 4
 apis:
-- description: Signup and login (account takeover) decisions.
-  name: Forter Accounts API
-  slug: forter-accounts-api
-- description: Data-subject profile access for privacy and compliance.
+- description: Send order and checkout information to receive a real-time fraud or abuse decision (approve / decline / not-reviewed), with optional payment optimization and abuse-policy recommendations. Includes the
+  name: Forter Order Decision API
+  slug: forter-order-decision-api
+- description: Protect the account lifecycle - submit registration details at signup to get a fraud or abuse decision, and submit login attempt details to get an account takeover (ATO) decision. Built on Forter's cr
+  name: Forter Account Protection API
+  slug: forter-account-protection-api
+- description: Report customer-initiated disputes (chargebacks) to feed Forter's decision model and enable chargeback recovery, and submit customer requests for compensation - refunds or reships, at the order or ite
+  name: Forter Chargeback and Compensation API
+  slug: forter-chargeback-compensation-api
+- description: Data-subject profile access endpoint used to support privacy and compliance workflows (for example, access requests) against the identity data Forter holds for an account.
   name: Forter Data Privacy API
   slug: forter-data-privacy-api
-- description: Chargeback disputes and customer compensation requests.
-  name: Forter Disputes API
-  slug: forter-disputes-api
-- description: Order and checkout fraud/abuse decisions and order status.
-  name: Forter Orders API
-  slug: forter-orders-api
 artifact_total: 11
 collections:
 - collection_type: open
   name: Forter API
   slug: open-forter
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/forter-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -101,45 +96,53 @@ finops:
 - name: Forter Finops
   service_category: Fraud Prevention and Identity
   slug: forter-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forter.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-12'
 name: Forter
 nav: Providers
 network: true
-overview: 'Forter publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Data Privacy API, Disputes API, and 1 more. Tagged areas include Fraud Detection, Fraud Prevention, Identity, Trust, and Payments.
+overview: 'Forter publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Order Decision API, Account Protection API, Chargeback and Compensation API, and 1 more. Tagged areas include Fraud Detection, Fraud Prevention, Identity, Trust, and Payments.
 
 
-  Forter''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Forter''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Forter Plans Pricing
   plan_count: 1
   slug: forter-plans-pricing
-random_paper: 46
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Forter Rate Limits
   slug: forter-rate-limits
 score:
   band: thin
-  composite: 36.3
-  delta: 2.7
+  composite: 28.6
+  delta: -7.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.1
+    contract_quality: 40.3
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.6
+  previous_composite: 36.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/screenshots/forter-2026-07-25T215001.png
 security:
 - kind: authentication

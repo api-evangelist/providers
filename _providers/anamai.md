@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 78.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -66,8 +68,43 @@ apis:
 - description: The Voices API from Anam.ai — 3 operation(s) for voices.
   name: Anam.ai Voices API
   slug: anamai-voices-api
-artifact_total: 17
+artifact_total: 27
+collections:
+- collection_type: postman
+  name: Anam AI Avatars API
+  slug: postman-anamai-avatars-api
+- collection_type: postman
+  name: Anam AI Avatars Engine API
+  slug: postman-anamai-engine-api
+- collection_type: postman
+  name: Anam AI Avatars Knowledge API
+  slug: postman-anamai-knowledge-api
+- collection_type: postman
+  name: Anam AI Avatars LLMs API
+  slug: postman-anamai-llms-api
+- collection_type: postman
+  name: Anam AI Avatars Meetings API
+  slug: postman-anamai-meetings-api
+- collection_type: postman
+  name: Anam AI Avatars Personas API
+  slug: postman-anamai-personas-api
+- collection_type: postman
+  name: Anam AI Avatars Sessions API
+  slug: postman-anamai-sessions-api
+- collection_type: postman
+  name: Anam AI Avatars Share Links API
+  slug: postman-anamai-share-links-api
+- collection_type: postman
+  name: Anam AI Avatars Tools API
+  slug: postman-anamai-tools-api
+- collection_type: postman
+  name: Anam AI Avatars Voices API
+  slug: postman-anamai-voices-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/anamai/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -227,26 +264,36 @@ network: true
 overview: 'Anam.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Engine API, Knowledge API, and 7 more. Tagged areas include Company, AI Avatars, Conversational AI, Real-Time Video, and WebRTC.
 
 
-  Anam.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 29 more developer resources.'
-random_paper: 3
+  Anam.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 30 more developer resources.'
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Anamai Rate Limits
   slug: anamai-rate-limits
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 61.3
+  delta: -0.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.4
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 59.9
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 78.9
   previous_composite: 61.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/screenshots/anamai-2026-07-25T200158.png
 security:

@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 15.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 api_count: 19
 apis:
 - description: Getnet's core REST API and Single Entry Point (SEP) for direct payment integration across Argentina, Brazil, Chile, Colombia, Mexico, Portugal, Spain, and Uruguay. One contract gives merchants omnicha
@@ -127,26 +129,27 @@ overview: 'Getnet publishes 1 API on the [APIs.io](https://apis.io/) network: SA
 
 
   Getnet''s developer surface includes documentation, authentication, FAQ, pricing, sandbox, and 2 more developer resources.'
-random_paper: 35
+random_paper: 31
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 26.9
+  delta: 2.9
   facets:
     commercial_clarity: 10.5
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 26.1
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 24.0
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getnet/refs/heads/main/screenshots/getnet-2026-06-20T181816.png
 security:

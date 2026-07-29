@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Lookup appliance and equipment error codes by brand and code, with recommended replacement parts
@@ -54,26 +56,27 @@ name: ModelPartFinder Error Codes
 nav: Providers
 network: true
 overview: ModelPartFinder Error Codes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 50
+random_paper: 75
 score:
   band: minimal
-  composite: 7.7
-  delta: 0.0
+  composite: 6.5
+  delta: -1.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 11.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modelpartfinder-error-codes/refs/heads/main/screenshots/modelpartfinder-error-codes-2026-06-20T185648.png
 security:

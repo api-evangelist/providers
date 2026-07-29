@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -275,16 +277,38 @@ arazzos:
 - description: Find a page by title within a space and update it if it exists, otherwise create it.
   name: Confluence Upsert a Page by Title
   slug: confluence-upsert-page-by-title-workflow
-artifact_total: 254
+artifact_total: 260
 asyncapis:
 - description: Asynchronous event notifications from Confluence Cloud. Webhooks allow applications to receive real-time notifications when content, spaces, or other entities are created, updated, or deleted in Confl
   name: Confluence Cloud Webhooks
   slug: confluence-webhooks
 collections:
+- collection_type: postman
+  name: Confluence Cloud REST API v2 Attachment API
+  slug: postman-confluence-attachment-api
+- collection_type: postman
+  name: Confluence Cloud REST API v2 Attachment Blog Post API
+  slug: postman-confluence-blog-post-api
+- collection_type: postman
+  name: Confluence Cloud REST API v2 Attachment Comment API
+  slug: postman-confluence-comment-api
+- collection_type: postman
+  name: Confluence Cloud REST API v2 Attachment Label API
+  slug: postman-confluence-label-api
+- collection_type: postman
+  name: Confluence Cloud REST API v2 Attachment Page API
+  slug: postman-confluence-page-api
+- collection_type: postman
+  name: Confluence Cloud REST API v2 Attachment Space API
+  slug: postman-confluence-space-api
 - collection_type: open
   name: Confluence Cloud REST API v2
   slug: open-confluence-cloud-v2
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/confluence/overview
 - group: build
   title: ''
   type: Packages
@@ -1064,12 +1088,12 @@ overview: 'Confluence publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Confluence catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Confluence''s developer surface includes changelog, CLI, sandbox, authentication, developer portal, documentation, getting-started guide, and 73 more developer resources.'
+  Confluence''s developer surface includes changelog, CLI, sandbox, authentication, developer portal, documentation, getting-started guide, and 74 more developer resources.'
 plans:
 - name: Confluence Plans Pricing
   plan_count: 4
   slug: confluence-plans-pricing
-random_paper: 38
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Confluence Rate Limits
@@ -1106,18 +1130,27 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 77.4
-  delta: 2.5
+  composite: 78.8
+  delta: 1.4
   facets:
     commercial_clarity: 92.1
-    contract_quality: 78.8
-    developer_ergonomics: 82.6
-    discoverability: 80.0
-    governance: 60.5
+    contract_quality: 79.4
+    developer_ergonomics: 87.0
+    discoverability: 85.2
+    governance: 59.4
     operational_transparency: 57.9
-  previous_composite: 74.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 77.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:

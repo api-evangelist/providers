@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -122,16 +124,38 @@ arazzos:
 - description: Find a document by a GROQ key match and patch it, otherwise create it.
   name: Sanity Upsert Document
   slug: sanity-upsert-document-workflow
-artifact_total: 59
+artifact_total: 65
 asyncapis:
 - description: AsyncAPI specification for Sanity's GROQ-powered webhook surface. Sanity delivers event-driven HTTP callbacks when documents in a Content Lake dataset are created, updated, or deleted. Subscribers con
   name: Sanity GROQ-Powered Webhooks
   slug: sanity-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Sanity HTTP Assets API
+  slug: postman-sanity-assets-api
+- collection_type: postman
+  name: Sanity HTTP Assets Listen API
+  slug: postman-sanity-listen-api
+- collection_type: postman
+  name: Sanity HTTP Assets Mutations API
+  slug: postman-sanity-mutations-api
+- collection_type: postman
+  name: Sanity HTTP Assets Projects API
+  slug: postman-sanity-projects-api
+- collection_type: postman
+  name: Sanity HTTP Assets Query API
+  slug: postman-sanity-query-api
+- collection_type: postman
+  name: Sanity HTTP Assets Webhooks API
+  slug: postman-sanity-webhooks-api
 - collection_type: open
   name: Sanity HTTP API
   slug: open-sanity
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sanity/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -359,12 +383,12 @@ overview: 'Sanity publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Sanity catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Sanity''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, and 32 more developer resources.'
+  Sanity''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, and 33 more developer resources.'
 plans:
 - name: Sanity Plans Pricing
   plan_count: 3
   slug: sanity-plans-pricing
-random_paper: 52
+random_paper: 48
 rate_limits:
 - limit_count: 6
   name: Sanity Rate Limits
@@ -396,18 +420,25 @@ rules:
   slug: sanity-rules
 score:
   band: strong
-  composite: 67.7
-  delta: 4.2
+  composite: 65.5
+  delta: -2.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 82.0
-    developer_ergonomics: 60.9
-    discoverability: 87.5
-    governance: 65.8
+    contract_quality: 85.2
+    developer_ergonomics: 65.2
+    discoverability: 64.8
+    governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 63.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/screenshots/sanity-2026-06-20T193435.png
 security:

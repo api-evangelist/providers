@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -232,25 +234,32 @@ plans:
 - name: Casdoor Plans Pricing
   plan_count: 3
   slug: casdoor-plans-pricing
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Casdoor Rate Limits
   slug: casdoor-rate-limits
 score:
   band: developing
-  composite: 47.6
-  delta: 2.0
+  composite: 45.9
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.3
+    contract_quality: 53.4
     developer_ergonomics: 45.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 45.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 47.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png
 security:

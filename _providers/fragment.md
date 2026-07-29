@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 42.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Fragment's GraphQL Ledger API. Store a double-entry chart-of-accounts schema, create ledgers, post idempotent ledger entries and lines, read aggregated / historical / period / strongly-consistent bala
@@ -174,26 +176,31 @@ overview: 'Fragment publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Fragment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, signup flow, support, and 24 more developer resources.'
-random_paper: 36
+random_paper: 5
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 50.9
+  delta: 3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 0.0
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 48.1
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 47.4
   previous_composite: 47.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 56.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fragment/refs/heads/main/screenshots/fragment-2026-07-25T215102.png
 security:

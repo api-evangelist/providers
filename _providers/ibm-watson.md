@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Convert speech into text using AI-powered speech recognition and transcription. The service uses machine learning to combine knowledge of grammar, language structure, and audio signal composition to a
@@ -103,25 +105,25 @@ plans:
 - name: Ibm Watson Plans Pricing
   plan_count: 3
   slug: ibm-watson-plans-pricing
-random_paper: 5
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Ibm Watson Rate Limits
   slug: ibm-watson-rate-limits
 score:
-  band: thin
-  composite: 30.1
-  delta: 0.0
+  band: emerging
+  composite: 27.8
+  delta: -2.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 30.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-watson/refs/heads/main/screenshots/ibm-watson-2026-06-20T183138.png
 security:

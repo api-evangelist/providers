@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -55,12 +57,34 @@ apis:
 - description: Manage team members and invitations
   name: Better Stack Team Members API
   slug: better-stack-team-members-api
-artifact_total: 154
+artifact_total: 160
 collections:
+- collection_type: postman
+  name: Better Stack Escalation Policies API
+  slug: postman-better-stack-escalation-policies-api
+- collection_type: postman
+  name: Better Stack Escalation Policies Heartbeats API
+  slug: postman-better-stack-heartbeats-api
+- collection_type: postman
+  name: Better Stack Escalation Policies Incidents API
+  slug: postman-better-stack-incidents-api
+- collection_type: postman
+  name: Better Stack Escalation Policies Monitors API
+  slug: postman-better-stack-monitors-api
+- collection_type: postman
+  name: Better Stack Escalation Policies Status Pages API
+  slug: postman-better-stack-status-pages-api
+- collection_type: postman
+  name: Better Stack Escalation Policies Team Members API
+  slug: postman-better-stack-team-members-api
 - collection_type: open
   name: Better Stack API
   slug: open-better-stack
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/better-stack/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -527,12 +551,12 @@ overview: 'Better Stack publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Better Stack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Better Stack''s developer surface includes authentication, developer portal, getting-started guide, pricing, engineering blog, changelog, and 10 more developer resources.'
+  Better Stack''s developer surface includes authentication, developer portal, getting-started guide, pricing, engineering blog, changelog, and 11 more developer resources.'
 plans:
 - name: Better Stack Plans Pricing
   plan_count: 3
   slug: better-stack-plans-pricing
-random_paper: 1
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Better Stack Rate Limits
@@ -556,19 +580,26 @@ rules:
   slug: better-stack-spectral-rules
 score:
   band: strong
-  composite: 64.9
-  delta: 3.3
+  composite: 58.2
+  delta: -6.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 69.9
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 58.5
+    developer_ergonomics: 37.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 61.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/better-stack/refs/heads/main/screenshots/better-stack-2026-06-20T173204.png
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Cadence Design Systems delivers software and IP for electronic design automation, including IC and PCB design, verification, emulation, and system analysis. No public developer API is currently docume
@@ -98,25 +100,25 @@ plans:
 - name: Cadence Plans Pricing
   plan_count: 3
   slug: cadence-plans-pricing
-random_paper: 27
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Cadence Rate Limits
   slug: cadence-rate-limits
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 23.0
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 25.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/screenshots/cadence-2026-06-20T173836.png
 security:

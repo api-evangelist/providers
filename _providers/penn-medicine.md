@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,7 +238,7 @@ plans:
 - name: Penn Medicine Plans Pricing
   plan_count: 3
   slug: penn-medicine-plans-pricing
-random_paper: 16
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Penn Medicine Rate Limits
@@ -265,24 +267,32 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 59.5
-  delta: 3.6
+  composite: 52.8
+  delta: -6.7
   facets:
     commercial_clarity: 68.4
-    contract_quality: 69.9
+    contract_quality: 71.2
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 39.5
+    discoverability: 64.8
+    governance: 31.3
     operational_transparency: 36.8
-  previous_composite: 55.9
+  previous_composite: 59.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 58.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/screenshots/penn-medicine-2026-06-20T191538.png
 security:
 - kind: authentication

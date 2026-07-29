@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 5
@@ -415,8 +417,386 @@ apis:
 - description: 'The #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.updateidentitypool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API'
   slug: amazon-cognito-x-amz-target-awscognitoidentityservice-updateidentitypool-api
-artifact_total: 1527
+artifact_total: 1653
 collections:
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-addcustomattributes-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminAddUserToGroup API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminaddusertogroup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminConfirmSignUp API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminconfirmsignup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminCreateUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-admincreateuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminDeleteUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-admindeleteuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminDeleteUserAttributes API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-admindeleteuserattributes-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminDisableProviderForUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-admindisableproviderforuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminDisableUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-admindisableuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminEnableUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminenableuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminForgetDevice API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminforgetdevice-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminGetDevice API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-admingetdevice-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminGetUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-admingetuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminInitiateAuth API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-admininitiateauth-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminLinkProviderForUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminlinkproviderforuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminListDevices API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminlistdevices-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminListGroupsForUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminlistgroupsforuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminListUserAuthEvents API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminlistuserauthevents-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminRemoveUserFromGroup API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminremoveuserfromgroup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminResetUserPassword API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminresetuserpassword-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminRespondToAuthChallenge API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminrespondtoauthchallenge-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserMFAPreference API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminsetusermfapreference-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserPassword API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminsetuserpassword-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserSettings API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminsetusersettings-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateAuthEventFeedback API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminupdateautheventfeedback-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateDeviceStatus API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminupdatedevicestatus-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateUserAttributes API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminupdateuserattributes-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AdminUserGlobalSignOut API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-adminuserglobalsignout-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AssociateSoftwareToken API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-associatesoftwaretoken-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ChangePassword API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-changepassword-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ConfirmDevice API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-confirmdevice-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ConfirmForgotPassword API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-confirmforgotpassword-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ConfirmSignUp API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-confirmsignup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.CreateGroup API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-creategroup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.CreateIdentityProvider API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-createidentityprovider-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.CreateResourceServer API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-createresourceserver-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.CreateUserImportJob API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-createuserimportjob-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPool API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-createuserpool-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPoolClient API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-createuserpoolclient-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPoolDomain API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-createuserpooldomain-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DeleteGroup API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-deletegroup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DeleteIdentityProvider API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-deleteidentityprovider-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DeleteResourceServer API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-deleteresourceserver-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DeleteUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserAttributes API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuserattributes-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPool API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuserpool-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPoolClient API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuserpoolclient-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPoolDomain API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuserpooldomain-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DescribeIdentityProvider API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-describeidentityprovider-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DescribeResourceServer API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-describeresourceserver-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DescribeRiskConfiguration API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-describeriskconfiguration-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserImportJob API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-describeuserimportjob-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPool API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-describeuserpool-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPoolClient API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-describeuserpoolclient-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPoolDomain API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-describeuserpooldomain-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ForgetDevice API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-forgetdevice-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ForgotPassword API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-forgotpassword-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetCSVHeader API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getcsvheader-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetDevice API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getdevice-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetGroup API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getgroup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetIdentityProviderByIdentifier API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getidentityproviderbyidentifier-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetLogDeliveryConfiguration API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getlogdeliveryconfiguration-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetSigningCertificate API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getsigningcertificate-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetUICustomization API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getuicustomization-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetUser API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getuser-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetUserAttributeVerificationCode API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getuserattributeverificationcode-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GetUserPoolMfaConfig API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-getuserpoolmfaconfig-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.GlobalSignOut API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-globalsignout-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.InitiateAuth API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-initiateauth-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListDevices API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listdevices-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListGroups API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listgroups-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListIdentityProviders API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listidentityproviders-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListResourceServers API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listresourceservers-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListTagsForResource API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listtagsforresource-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListUserImportJobs API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listuserimportjobs-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListUserPoolClients API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listuserpoolclients-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListUserPools API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listuserpools-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListUsers API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listusers-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ListUsersInGroup API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-listusersingroup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.ResendConfirmationCode API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-resendconfirmationcode-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.RespondToAuthChallenge API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-respondtoauthchallenge-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.RevokeToken API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-revoketoken-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.SetLogDeliveryConfiguration API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-setlogdeliveryconfiguration-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.SetRiskConfiguration API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-setriskconfiguration-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.SetUICustomization API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-setuicustomization-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.SetUserMFAPreference API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-setusermfapreference-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.SetUserPoolMfaConfig API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-setuserpoolmfaconfig-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.SetUserSettings API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-setusersettings-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.SignUp API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-signup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.StartUserImportJob API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-startuserimportjob-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.StopUserImportJob API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-stopuserimportjob-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.TagResource API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-tagresource-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UntagResource API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-untagresource-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UpdateAuthEventFeedback API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-updateautheventfeedback-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UpdateDeviceStatus API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-updatedevicestatus-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UpdateGroup API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-updategroup-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UpdateIdentityProvider API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-updateidentityprovider-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UpdateResourceServer API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-updateresourceserver-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserAttributes API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-updateuserattributes-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPool API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-updateuserpool-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPoolClient API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-updateuserpoolclient-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPoolDomain API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-updateuserpooldomain-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.VerifySoftwareToken API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-verifysoftwaretoken-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.VerifyUserAttribute API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityproviderservice-verifyuserattribute-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.CreateIdentityPool API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-createidentitypool-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.DeleteIdentities API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-deleteidentities-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.DeleteIdentityPool API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-deleteidentitypool-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.DescribeIdentity API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-describeidentity-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.DescribeIdentityPool API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-describeidentitypool-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.GetCredentialsForIdentity API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-getcredentialsforidentity-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.GetId API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-getid-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.GetIdentityPoolRoles API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-getidentitypoolroles-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.GetOpenIdToken API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-getopenidtoken-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.GetOpenIdTokenForDeveloperIdentity API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-getopenidtokenfordeveloperidentity-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.GetPrincipalTagAttributeMap API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-getprincipaltagattributemap-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.ListIdentities API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-listidentities-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.ListIdentityPools API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-listidentitypools-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.ListTagsForResource API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-listtagsforresource-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.LookupDeveloperIdentity API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-lookupdeveloperidentity-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.MergeDeveloperIdentities API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-mergedeveloperidentities-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.SetIdentityPoolRoles API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-setidentitypoolroles-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.SetPrincipalTagAttributeMap API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-setprincipaltagattributemap-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.TagResource API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-tagresource-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.UnlinkDeveloperIdentity API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-unlinkdeveloperidentity-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.UnlinkIdentity API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-unlinkidentity-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.UntagResource API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-untagresource-api
+- collection_type: postman
+  name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API'
+  slug: postman-amazon-cognito-x-amz-target-awscognitoidentityservice-updateidentitypool-api
 - collection_type: open
   name: Amazon Cognito Identity
   slug: open-amazon-cognito-identity-pools
@@ -424,6 +804,10 @@ collections:
   name: Amazon Cognito Identity Provider
   slug: open-amazon-cognito-user-pools
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-cognito/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4706,12 +5090,12 @@ overview: 'Amazon Cognito publishes 126 APIs on the [APIs.io](https://apis.io/) 
   The Amazon Cognito catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Cognito''s developer surface includes authentication, documentation, pricing, signup flow, developer portal, developer console, support, and 15 more developer resources.'
+  Amazon Cognito''s developer surface includes authentication, documentation, pricing, signup flow, developer portal, developer console, support, and 16 more developer resources.'
 plans:
 - name: Amazon Cognito Plans Pricing
   plan_count: 1
   slug: amazon-cognito-plans-pricing
-random_paper: 18
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Amazon Cognito Rate Limits
@@ -4735,18 +5119,25 @@ rules:
   slug: amazon-cognito-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 62.6
+  delta: -2.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 71.5
-    developer_ergonomics: 41.3
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 73.6
+    developer_ergonomics: 45.7
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 42.1
   previous_composite: 65.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 126
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/screenshots/amazon-cognito-2026-06-20T171607.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,8 +57,26 @@ apis:
 - description: The Regions API from D-Wave — 2 operation(s) for regions.
   name: D-Wave Regions API
   slug: d-wave-regions-api
-artifact_total: 67
+artifact_total: 73
 collections:
+- collection_type: postman
+  name: D-Wave Leap Hybrid Solvers Account API
+  slug: postman-d-wave-account-api
+- collection_type: postman
+  name: D-Wave Leap Solvers Account Hybrid API
+  slug: postman-d-wave-hybrid-api
+- collection_type: postman
+  name: D-Wave Leap Hybrid Solvers Account Problems API
+  slug: postman-d-wave-problems-api
+- collection_type: postman
+  name: D-Wave Leap Hybrid Solvers Account QPU API
+  slug: postman-d-wave-qpu-api
+- collection_type: postman
+  name: D-Wave Leap Hybrid Solvers Account Regions API
+  slug: postman-d-wave-regions-api
+- collection_type: postman
+  name: D-Wave Leap Hybrid Account Solvers API
+  slug: postman-d-wave-solvers-api
 - collection_type: open
   name: D-Wave Leap Hybrid Solvers
   slug: open-d-wave-hybrid-solvers
@@ -76,6 +96,10 @@ collections:
   name: D-Wave Solver API (SAPI) - Solvers
   slug: open-d-wave-solvers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/d-wave/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -451,12 +475,12 @@ overview: 'D-Wave publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The D-Wave catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  D-Wave''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, tooling, and 63 more developer resources.'
+  D-Wave''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, tooling, and 64 more developer resources.'
 plans:
 - name: D Wave Plans Pricing
   plan_count: 3
   slug: d-wave-plans-pricing
-random_paper: 36
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: D Wave Rate Limits
@@ -485,19 +509,26 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.9
-  delta: 5.5
+  composite: 60.8
+  delta: -4.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.9
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 72.0
+    developer_ergonomics: 71.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/screenshots/d-wave-2026-06-20T175418.png
 security:
 - kind: authentication

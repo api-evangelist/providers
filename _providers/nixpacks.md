@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: 'The Nixpacks command-line interface is the primary interface for generating build plans and producing Docker images from application source. Core commands include `nixpacks plan` (emit the JSON build '
@@ -118,21 +120,21 @@ overview: 'Nixpacks publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Nixpacks'' developer surface includes documentation, getting-started guide, changelog, and 12 more developer resources.'
-random_paper: 49
+random_paper: 18
 score:
   band: emerging
-  composite: 15.4
-  delta: 0.0
+  composite: 13.1
+  delta: -2.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 15.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nixpacks/refs/heads/main/screenshots/nixpacks-2026-06-20T190333.png
 security:

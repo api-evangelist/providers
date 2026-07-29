@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 5
 common:
@@ -81,7 +83,7 @@ overview: 'AGENT.md is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AGENT.md''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 33
+random_paper: 11
 rules:
 - name: AGENT.md API Rules
   rule_count: 5
@@ -93,18 +95,18 @@ rules:
   slug: agent-md-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.7
-  delta: 0.0
+  composite: 18.2
+  delta: -4.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 8.7
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 0.0
   previous_composite: 22.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-md/refs/heads/main/screenshots/agent-md-2026-06-20T165904.png
 slug: agent-md

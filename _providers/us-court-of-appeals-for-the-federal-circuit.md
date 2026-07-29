@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Public Access to Court Electronic Records (PACER) provides online access to U.S. Federal Court case and docket information from Federal Courts including the U.S. Court of Appeals for the Federal Circu
@@ -166,7 +168,7 @@ plans:
 - name: Us Court Of Appeals For The Federal Circuit Plans Pricing
   plan_count: 3
   slug: us-court-of-appeals-for-the-federal-circuit-plans-pricing
-random_paper: 37
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Us Court Of Appeals For The Federal Circuit Rate Limits
@@ -181,20 +183,20 @@ rules:
     warn: 4
   slug: us-court-of-appeals-for-the-federal-circuit-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.7
-  delta: 0.0
+  band: thin
+  composite: 40.9
+  delta: -5.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 39.6
+    contract_quality: 33.9
     developer_ergonomics: 28.3
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 46.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-court-of-appeals-for-the-federal-circuit/refs/heads/main/screenshots/us-court-of-appeals-for-the-federal-circuit-2026-06-20T200611.png
 security:
 - kind: domain-security

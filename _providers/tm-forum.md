@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 0
@@ -4756,7 +4758,7 @@ plans:
 - name: Tm Forum Plans Pricing
   plan_count: 1
   slug: tm-forum-plans-pricing
-random_paper: 7
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Tm Forum Rate Limits
@@ -4779,20 +4781,33 @@ rules:
     warn: 17
   slug: tm-forum-spectral-rules
 score:
-  band: developing
-  composite: 46.5
-  delta: 1.2
+  band: thin
+  composite: 37.2
+  delta: -9.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.9
+    contract_quality: 55.2
     developer_ergonomics: 19.6
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 45.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 46.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 15.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/screenshots/tm-forum-2026-06-20T195425.png
 security:
 - kind: domain-security

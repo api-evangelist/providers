@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,26 +87,27 @@ overview: 'Polimorphic is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Polimorphic''s developer surface includes pricing, engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 34
+random_paper: 35
 score:
   band: emerging
-  composite: 22.0
-  delta: 0.0
+  composite: 19.6
+  delta: -2.4
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 22.0
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 35.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

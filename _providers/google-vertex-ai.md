@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Manage training pipelines
   name: Google Vertex AI TrainingPipelines API
   slug: google-vertex-ai-trainingpipelines-api
-artifact_total: 16
+artifact_total: 21
 collections:
+- collection_type: postman
+  name: Google Vertex AI Datasets API
+  slug: postman-google-vertex-ai-datasets-api
+- collection_type: postman
+  name: Google Vertex AI Datasets Endpoints API
+  slug: postman-google-vertex-ai-endpoints-api
+- collection_type: postman
+  name: Google Vertex AI Datasets Models API
+  slug: postman-google-vertex-ai-models-api
+- collection_type: postman
+  name: Google Vertex AI Datasets Predictions API
+  slug: postman-google-vertex-ai-predictions-api
+- collection_type: postman
+  name: Google Vertex AI Datasets TrainingPipelines API
+  slug: postman-google-vertex-ai-trainingpipelines-api
 - collection_type: open
   name: Google Vertex AI API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-vertex-ai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,12 +169,12 @@ overview: 'Google Vertex AI publishes 5 APIs on the [APIs.io](https://apis.io/) 
   The Google Vertex AI catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Vertex AI''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 10 more developer resources.'
+  Google Vertex AI''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Vertex Ai Plans Pricing
   plan_count: 3
   slug: google-vertex-ai-plans-pricing
-random_paper: 35
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Google Vertex Ai Rate Limits
@@ -174,18 +195,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.5
-  delta: 4.6
+  composite: 61.9
+  delta: -2.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.9
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 65.7
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/screenshots/google-vertex-ai-2026-06-20T182247.png
 security:

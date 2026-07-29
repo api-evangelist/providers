@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'VOLTHA (Virtual Optical Line Termination Hardware Abstraction) is an open source platform that virtualizes multi-vendor Passive Optical Network (PON) hardware, exposing a vendor-agnostic gRPC API for '
@@ -85,25 +87,31 @@ plans:
 - name: Lf Broadband Plans Pricing
   plan_count: 3
   slug: lf-broadband-plans-pricing
-random_paper: 24
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Lf Broadband Rate Limits
   slug: lf-broadband-rate-limits
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.0
+  composite: 19.7
+  delta: -4.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 23.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-broadband/refs/heads/main/screenshots/lf-broadband-2026-06-20T184447.png
 security:

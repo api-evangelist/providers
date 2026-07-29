@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -143,26 +145,37 @@ overview: 'Ordo publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ordo''s developer surface includes authentication, API reference, getting-started guide, support, and 16 more developer resources.'
-random_paper: 28
+random_paper: 51
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 39.9
+  delta: -1.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 52.8
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 54.8
+    developer_ergonomics: 45.1
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 41.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 55.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

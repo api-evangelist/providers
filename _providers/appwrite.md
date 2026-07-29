@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,12 +51,29 @@ apis:
 - description: Server-side user management (requires server key)
   name: Appwrite Users API
   slug: appwrite-users-api
-artifact_total: 31
+artifact_total: 35
 asyncapis:
 - description: AsyncAPI specification for the Appwrite Realtime WebSocket API. Appwrite Realtime lets clients subscribe to channels and receive callbacks whenever a subscribed resource changes. Subscriptions are sco
   name: Appwrite Realtime API
   slug: appwrite-asyncapi
+collections:
+- collection_type: postman
+  name: Appwrite Account API
+  slug: postman-appwrite-account-api
+- collection_type: postman
+  name: Appwrite Account Databases API
+  slug: postman-appwrite-databases-api
+- collection_type: postman
+  name: Appwrite Account Storage API
+  slug: postman-appwrite-storage-api
+- collection_type: postman
+  name: Appwrite Account Users API
+  slug: postman-appwrite-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/appwrite/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,12 +181,12 @@ overview: 'Appwrite publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Appwrite catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Appwrite''s developer surface includes authentication, documentation, engineering blog, signup flow, pricing, and 11 more developer resources.'
+  Appwrite''s developer surface includes authentication, documentation, engineering blog, signup flow, pricing, and 12 more developer resources.'
 plans:
 - name: Appwrite Plans Pricing
   plan_count: 3
   slug: appwrite-plans-pricing
-random_paper: 60
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Appwrite Rate Limits
@@ -199,18 +218,25 @@ rules:
   slug: appwrite-spectral-rules
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 59.8
+  delta: -2.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 85.0
-    developer_ergonomics: 34.8
-    discoverability: 75.0
-    governance: 60.5
+    contract_quality: 84.7
+    developer_ergonomics: 39.1
+    discoverability: 55.6
+    governance: 47.9
     operational_transparency: 52.6
   previous_composite: 62.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/screenshots/appwrite-2026-06-20T172338.png
 security:

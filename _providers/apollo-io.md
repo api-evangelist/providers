@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -278,25 +280,32 @@ plans:
 - name: Apollo Io Plans Pricing
   plan_count: 7
   slug: apollo-io-plans-pricing
-random_paper: 24
+random_paper: 61
 rate_limits:
 - limit_count: 7
   name: Apollo Io Rate Limits
   slug: apollo-io-rate-limits
 score:
   band: developing
-  composite: 52.4
-  delta: 0.7
+  composite: 52.3
+  delta: -0.1
   facets:
     commercial_clarity: 92.1
-    contract_quality: 41.6
+    contract_quality: 48.9
     developer_ergonomics: 41.3
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 60.5
-  previous_composite: 51.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 52.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/screenshots/apollo-io-2026-06-20T172312.png
 security:

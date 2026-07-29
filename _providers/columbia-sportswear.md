@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Columbia Sportswear's partner-facing API platform hosted on Microsoft Azure API Management. The portal organizes APIs across Order Management (B2B and DTC orders), Consumer Management (loyalty, profil
@@ -131,25 +133,25 @@ press:
 - date: '2026-05-25'
   title: Columbia Sportswear Company Advances Its Succession ...
   url: https://via.tt.se/pressmeddelande/4139504/columbia-sportswear-company-advances-its-succession-plans-and-appoints-co-presidents-peter-j-bragdon-and-joseph-p-boyle?publisherId=259167&lang=en
-random_paper: 31
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Columbia Sportswear Rate Limits
   slug: columbia-sportswear-rate-limits
 score:
   band: emerging
-  composite: 26.9
-  delta: 0.0
+  composite: 24.3
+  delta: -2.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 8.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 26.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/screenshots/columbia-sportswear-2026-06-20T174800.png
 security:

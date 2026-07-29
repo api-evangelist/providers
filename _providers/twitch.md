@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -408,7 +410,7 @@ plans:
 - name: Twitch Plans Pricing
   plan_count: 1
   slug: twitch-plans-pricing
-random_paper: 47
+random_paper: 43
 rate_limits:
 - limit_count: 4
   name: Twitch Rate Limits
@@ -445,18 +447,25 @@ scopes:
   summary_line: 42 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 57.2
-  delta: 2.5
+  composite: 55.3
+  delta: -1.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.7
+    contract_quality: 76.0
     developer_ergonomics: 32.6
-    discoverability: 80.0
-    governance: 65.8
+    discoverability: 66.7
+    governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 54.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 57.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 40
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/screenshots/twitch-2026-06-20T195857.png
 security:

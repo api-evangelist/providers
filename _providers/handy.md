@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -177,21 +179,31 @@ overview: 'handy publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   handy''s developer surface includes documentation, API reference, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 56
+random_paper: 70
 score:
   band: thin
-  composite: 44.6
-  delta: 0.0
+  composite: 40.7
+  delta: -3.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.4
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 49.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 44.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/screenshots/handy-2026-07-25T220617.png
 security:

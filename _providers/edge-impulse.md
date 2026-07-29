@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.6
+  scored_at: '2026-07-28'
 api_count: 34
 apis:
 - description: The Admin API from Edge Impulse — 49 operation(s) for admin.
@@ -225,25 +227,31 @@ plans:
 - name: Edge Impulse Plans Pricing
   plan_count: 3
   slug: edge-impulse-plans-pricing
-random_paper: 61
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Edge Impulse Rate Limits
   slug: edge-impulse-rate-limits
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 38.9
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.2
+    contract_quality: 51.4
     developer_ergonomics: 10.9
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 40.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/screenshots/edge-impulse-2026-06-20T180450.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -55,12 +57,25 @@ apis:
 - description: Operations for securely storing and managing secrets such as passwords, connection strings, and API keys.
   name: Azure Key Vault Secrets API
   slug: microsoft-azure-key-vault-secrets-api
-artifact_total: 219
+artifact_total: 222
 collections:
+- collection_type: postman
+  name: Azure Key Vault Data Plane Certificates API
+  slug: postman-microsoft-azure-key-vault-certificates-api
+- collection_type: postman
+  name: Azure Key Vault Data Plane Certificates Keys API
+  slug: postman-microsoft-azure-key-vault-keys-api
+- collection_type: postman
+  name: Azure Key Vault Data Plane Certificates Secrets API
+  slug: postman-microsoft-azure-key-vault-secrets-api
 - collection_type: open
   name: Azure Key Vault Data Plane API
   slug: open-azure-key-vault-data-plane
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-key-vault/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -720,7 +735,7 @@ overview: 'Azure Key Vault publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Azure Key Vault catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Azure Key Vault''s developer surface includes authentication, engineering blog, changelog, developer portal, support, pricing, and 8 more developer resources.'
+  Azure Key Vault''s developer surface includes authentication, engineering blog, changelog, developer portal, support, pricing, and 9 more developer resources.'
 plans:
 - name: Azure Key Vault Plans Pricing
   plan_count: 3
@@ -728,7 +743,7 @@ plans:
 - name: Microsoft Azure Key Vault Plans Pricing
   plan_count: 3
   slug: microsoft-azure-key-vault-plans-pricing
-random_paper: 37
+random_paper: 12
 rate_limits:
 - limit_count: 13
   name: Azure Key Vault Rate Limits
@@ -768,19 +783,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 60.2
-  delta: 5.5
+  composite: 57.9
+  delta: -2.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 76.1
-    developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 39.5
+    contract_quality: 73.7
+    developer_ergonomics: 30.4
+    discoverability: 72.2
+    governance: 31.3
     operational_transparency: 63.2
-  previous_composite: 54.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/screenshots/microsoft-azure-key-vault-2026-06-20T185418.png
 security:
 - kind: authentication

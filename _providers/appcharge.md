@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 65.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -87,12 +89,68 @@ apis:
 - description: The Triggered Popups API from Appcharge — 2 operation(s) for triggered popups.
   name: Appcharge Triggered Popups API
   slug: appcharge-triggered-popups-api
-artifact_total: 26
+artifact_total: 43
 asyncapis:
 - description: Appcharge sends real-time, structured webhook events (Events V2) to a publisher-registered HTTPS endpoint for order lifecycle, web store and game portal interactions, logins, and disputes. Each reques
   name: Appcharge Events (V2) Webhooks
   slug: appcharge-events-asyncapi
+collections:
+- collection_type: postman
+  name: Appcharge Assets API
+  slug: postman-appcharge-assets-api
+- collection_type: postman
+  name: Appcharge Assets Authentication API
+  slug: postman-appcharge-authentication-api
+- collection_type: postman
+  name: Appcharge Assets Badges API
+  slug: postman-appcharge-badges-api
+- collection_type: postman
+  name: Appcharge Assets Coupons API
+  slug: postman-appcharge-coupons-api
+- collection_type: postman
+  name: Appcharge Assets General API
+  slug: postman-appcharge-general-api
+- collection_type: postman
+  name: Appcharge Assets Localization API
+  slug: postman-appcharge-localization-api
+- collection_type: postman
+  name: Appcharge Assets Offer Designs API
+  slug: postman-appcharge-offer-designs-api
+- collection_type: postman
+  name: Appcharge Assets Offers API
+  slug: postman-appcharge-offers-api
+- collection_type: postman
+  name: Appcharge Assets Orders API
+  slug: postman-appcharge-orders-api
+- collection_type: postman
+  name: Appcharge Assets Personalization API
+  slug: postman-appcharge-personalization-api
+- collection_type: postman
+  name: Appcharge Assets Popups API
+  slug: postman-appcharge-popups-api
+- collection_type: postman
+  name: Appcharge Assets Portal Content API
+  slug: postman-appcharge-portal-content-api
+- collection_type: postman
+  name: Appcharge Assets Products API
+  slug: postman-appcharge-products-api
+- collection_type: postman
+  name: Appcharge Assets Promo Codes API
+  slug: postman-appcharge-promo-codes-api
+- collection_type: postman
+  name: Appcharge Assets Rolling Offers API
+  slug: postman-appcharge-rolling-offers-api
+- collection_type: postman
+  name: Appcharge Assets Store Refresh Popups API
+  slug: postman-appcharge-store-refresh-popups-api
+- collection_type: postman
+  name: Appcharge Assets Triggered Popups API
+  slug: postman-appcharge-triggered-popups-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/appcharge/overview
 - group: company
   title: ''
   type: Website
@@ -263,8 +321,8 @@ overview: 'Appcharge publishes 17 APIs on the [APIs.io](https://apis.io/) networ
   The Appcharge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Appcharge''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, changelog, and 31 more developer resources.'
-random_paper: 55
+  Appcharge''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, changelog, and 32 more developer resources.'
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Appcharge Rate Limits
@@ -276,23 +334,34 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.9
-  delta: 0.0
+  composite: 64.9
+  delta: -2.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.9
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.6
+    developer_ergonomics: 73.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 84.2
   previous_composite: 66.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 71.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/screenshots/appcharge-2026-07-25T200716.png
 security:

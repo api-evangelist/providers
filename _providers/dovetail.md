@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 35.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Dovetail Public API for building custom integrations against a Dovetail workspace: manage projects, folders, docs, insights, data (notes), highlights, tags, themes, channels, topics, contacts, users, '
@@ -154,25 +156,27 @@ overview: 'Dovetail publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Dovetail''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 19 more developer resources.'
-random_paper: 40
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Dovetail Rate Limits
   slug: dovetail-rate-limits
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 38.2
+  delta: -0.6
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 38.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/screenshots/dovetail-2026-07-25T212327.png
 security:

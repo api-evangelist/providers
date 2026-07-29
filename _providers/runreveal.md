@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'REST API for RunReveal — manage sources, detections, pipelines, investigations, dashboards, notifications, agents, and agent skills across a workspace. OAuth2 (authorization_code + PKCE) or workspace '
@@ -158,7 +160,7 @@ overview: 'RunReveal publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   RunReveal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 28
+random_paper: 56
 scopes:
 - name: Runreveal Scopes
   scope_count: 37
@@ -166,18 +168,22 @@ scopes:
   summary_line: 37 scopes · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 40.0
+  delta: -0.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 64.7
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 40.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

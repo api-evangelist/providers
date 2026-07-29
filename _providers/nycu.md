@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: true
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 25.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 5
@@ -195,7 +197,7 @@ plans:
 - name: Nycu Plans Pricing
   plan_count: 2
   slug: nycu-plans-pricing
-random_paper: 39
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Nycu Rate Limits
@@ -219,23 +221,31 @@ rules:
   slug: nycu-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 34.0
+  delta: -3.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 44.8
+    contract_quality: 47.1
     developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 37.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png
 security:

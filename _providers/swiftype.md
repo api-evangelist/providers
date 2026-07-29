@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 14.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for managing Swiftype search engines, indexing documents, controlling the web crawler and domains, running search and autocomplete queries, and retrieving query/click analytics. Authenticated
@@ -114,25 +116,28 @@ overview: 'Swiftype publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Swiftype''s developer surface includes documentation, API reference, support, authentication, and 12 more developer resources.'
-random_paper: 7
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Swiftype Rate Limits
   slug: swiftype-rate-limits
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 21.4
+  delta: -1.5
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 47.8
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 22.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

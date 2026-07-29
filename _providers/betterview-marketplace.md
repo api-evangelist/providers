@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Order and retrieve property profiles (RSI, peril risks, flags, Partner Connect), manage PropertyPulse monitoring, and query PropertyNow datasets by address or coordinates. Bearer-token authenticated; '
@@ -98,26 +100,30 @@ overview: 'BetterView Marketplace publishes 1 API on the [APIs.io](https://apis.
 
 
   BetterView Marketplace''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 7 more developer resources.'
-random_paper: 51
+random_paper: 62
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 18.3
+  delta: -4.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 65.2
-    discoverability: 92.5
+    developer_ergonomics: 53.8
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 22.9
+  provenance:
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betterview-marketplace/refs/heads/main/screenshots/betterview-marketplace-2026-07-25T202815.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -127,12 +129,101 @@ arazzos:
 - description: Authorize as a partner, KYC-onboard an end user, create an executable buy quote, and execute it against the quote. Operation ids are verified against openapi/coinme-caas-openapi.json.
   name: Coinme — onboard a customer and buy crypto
   slug: coinme-onboard-and-buy
-artifact_total: 36
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Coinme Webhooks
   slug: coinme-webhooks
+collections:
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult API
+  slug: postman-coinme-authlinkresult-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Authorize API
+  slug: postman-coinme-authorize-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Businessonboarding API
+  slug: postman-coinme-businessonboarding-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Cryptoassetbalance API
+  slug: postman-coinme-cryptoassetbalance-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult CryptoChains API
+  slug: postman-coinme-cryptochains-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Cryptoquote API
+  slug: postman-coinme-cryptoquote-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Customeronboarding API
+  slug: postman-coinme-customeronboarding-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Historiccryptodata API
+  slug: postman-coinme-historiccryptodata-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Identity API
+  slug: postman-coinme-identity-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Locationlicensing API
+  slug: postman-coinme-locationlicensing-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Locations API
+  slug: postman-coinme-locations-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult MobileAuth API
+  slug: postman-coinme-mobileauth-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult MobileAuthFinish API
+  slug: postman-coinme-mobileauthfinish-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Order Template API
+  slug: postman-coinme-order-template-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Paymentmethods API
+  slug: postman-coinme-paymentmethods-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Quote And Transaction API
+  slug: postman-coinme-quote-and-transaction-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Send API
+  slug: postman-coinme-send-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult SendAuthSms API
+  slug: postman-coinme-sendauthsms-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Services API
+  slug: postman-coinme-services-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult SmsAuth API
+  slug: postman-coinme-smsauth-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Submit Blockchain Id API
+  slug: postman-coinme-submit-blockchain-id-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Transaction API
+  slug: postman-coinme-transaction-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Transactionhistory API
+  slug: postman-coinme-transactionhistory-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Transactionlimits API
+  slug: postman-coinme-transactionlimits-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Transactions API
+  slug: postman-coinme-transactions-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Verify API
+  slug: postman-coinme-verify-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Wallets API
+  slug: postman-coinme-wallets-api
+- collection_type: postman
+  name: Coinme Crypto-as-a-Service AuthLinkResult Widget API
+  slug: postman-coinme-widget-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/coinme/overview
 - group: company
   title: ''
   type: Website
@@ -279,8 +370,8 @@ overview: 'Coinme publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
   The Coinme catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coinme''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 23
+  Coinme''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
+random_paper: 19
 scopes:
 - name: Coinme Scopes
   scope_count: 3
@@ -288,23 +379,34 @@ scopes:
   summary_line: 3 scopes · authorization_code/refresh_token/client_credentials/device_code
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 60.3
+  delta: -1.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 69.3
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.6
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 23.7
   previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:

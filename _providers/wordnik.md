@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Cross-word operations (random words, reverse-dictionary search, full-text search, word-of-the-day).
   name: Wordnik Words API
   slug: wordnik-words-api
-artifact_total: 126
+artifact_total: 131
 collections:
+- collection_type: postman
+  name: Wordnik Account API
+  slug: postman-wordnik-account-api
+- collection_type: postman
+  name: Wordnik Account Word API
+  slug: postman-wordnik-word-api
+- collection_type: postman
+  name: Wordnik Account Word List API
+  slug: postman-wordnik-word-list-api
+- collection_type: postman
+  name: Wordnik Account Word Lists API
+  slug: postman-wordnik-word-lists-api
+- collection_type: postman
+  name: Wordnik Account Words API
+  slug: postman-wordnik-words-api
 - collection_type: open
   name: Wordnik
   slug: open-wordnik
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wordnik/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -509,12 +530,12 @@ overview: 'Wordnik publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Wordnik catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Wordnik''s developer surface includes authentication, documentation, pricing, getting-started guide, signup flow, engineering blog, support, and 16 more developer resources.'
+  Wordnik''s developer surface includes authentication, documentation, pricing, getting-started guide, signup flow, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Wordnik Plans Pricing
   plan_count: 4
   slug: wordnik-plans-pricing
-random_paper: 18
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Wordnik Rate Limits
@@ -538,18 +559,25 @@ rules:
   slug: wordnik-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 3.3
+  composite: 60.2
+  delta: -3.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.0
-    developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.2
+    developer_ergonomics: 41.3
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/screenshots/wordnik-2026-06-20T201543.png
 security:

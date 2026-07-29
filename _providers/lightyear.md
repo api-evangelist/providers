@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -154,7 +156,7 @@ overview: 'Lightyear is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lightyear''s developer surface includes pricing, signup flow, engineering blog, support, authentication, changelog, and 22 more developer resources.'
-random_paper: 17
+random_paper: 45
 scopes:
 - name: Lightyear Scopes
   scope_count: 1
@@ -162,23 +164,27 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 32.5
+  delta: -1.7
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 34.2
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 66.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.1
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: REST API to programmatically create and manage Firebase projects, apps (Web, Android, Apple), and their configuration.
@@ -195,7 +197,7 @@ overview: 'Firebase publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Firebase''s developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, pricing, engineering blog, and 27 more developer resources.'
-random_paper: 17
+random_paper: 63
 scopes:
 - name: Firebase Scopes
   scope_count: 8
@@ -203,18 +205,26 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 47.9
+  delta: 2.5
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 100.0
+    discoverability: 92.6
     governance: 0.0
     operational_transparency: 55.3
   previous_composite: 45.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 66.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/screenshots/firebase-2026-07-25T214552.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -100,8 +102,53 @@ apis:
 - description: Manage webhook listeners that receive event notifications from the Nutanix platform.
   name: Nutanix Webhooks API
   slug: nutanix-webhooks-api
-artifact_total: 49
+artifact_total: 64
 collections:
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts API
+  slug: postman-nutanix-alerts-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Categories API
+  slug: postman-nutanix-categories-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Clusters API
+  slug: postman-nutanix-clusters-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Hosts API
+  slug: postman-nutanix-hosts-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Images API
+  slug: postman-nutanix-images-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Network Security Rules API
+  slug: postman-nutanix-network-security-rules-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Projects API
+  slug: postman-nutanix-projects-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Protection Domains API
+  slug: postman-nutanix-protection-domains-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Snapshots API
+  slug: postman-nutanix-snapshots-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Storage Containers API
+  slug: postman-nutanix-storage-containers-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Storage Pools API
+  slug: postman-nutanix-storage-pools-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Subnets API
+  slug: postman-nutanix-subnets-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Virtual Disks API
+  slug: postman-nutanix-virtual-disks-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts VMs API
+  slug: postman-nutanix-vms-api
+- collection_type: postman
+  name: Nutanix Prism Central API v3 Alerts Webhooks API
+  slug: postman-nutanix-webhooks-api
 - collection_type: open
   name: Nutanix Prism Central API v3
   slug: open-nutanix-prism-central-v3
@@ -109,6 +156,10 @@ collections:
   name: Nutanix Prism Element API v2
   slug: open-nutanix-prism-element-v2
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/nutanix/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -274,12 +325,12 @@ overview: 'Nutanix publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Nutanix catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Nutanix''s developer surface includes authentication, documentation, getting-started guide, changelog, engineering blog, support, signup flow, and 15 more developer resources.'
+  Nutanix''s developer surface includes authentication, documentation, getting-started guide, changelog, engineering blog, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Nutanix Plans Pricing
   plan_count: 5
   slug: nutanix-plans-pricing
-random_paper: 27
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Nutanix Rate Limits
@@ -295,18 +346,25 @@ rules:
   slug: nutanix-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 67.8
-  delta: 2.0
+  composite: 63.9
+  delta: -3.9
   facets:
     commercial_clarity: 73.7
-    contract_quality: 59.5
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 56.9
+    developer_ergonomics: 63.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 65.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/screenshots/nutanix-2026-06-20T190530.png
 security:

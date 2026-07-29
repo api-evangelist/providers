@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: flavored
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 65.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -126,12 +128,107 @@ apis:
 - description: Fetch RazorpayX transaction records — credits (bank_transfer inflows) and debits (payout outflows)
   name: Curlec X Transactions API
   slug: curlec-x-transactions-api
-artifact_total: 36
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Curlec Webhooks
   slug: curlec-webhooks
+collections:
+- collection_type: postman
+  name: Razorpay Bills API
+  slug: postman-curlec-bills-api
+- collection_type: postman
+  name: Razorpay Bills Customers API
+  slug: postman-curlec-customers-api
+- collection_type: postman
+  name: Razorpay Bills Disputes API
+  slug: postman-curlec-disputes-api
+- collection_type: postman
+  name: Razorpay Bills Documents API
+  slug: postman-curlec-documents-api
+- collection_type: postman
+  name: Razorpay Bills Instant Settlements API
+  slug: postman-curlec-instant-settlements-api
+- collection_type: postman
+  name: Razorpay Bills Invoices API
+  slug: postman-curlec-invoices-api
+- collection_type: postman
+  name: Razorpay Bills Items API
+  slug: postman-curlec-items-api
+- collection_type: postman
+  name: Razorpay Bills Linked Accounts API
+  slug: postman-curlec-linked-accounts-api
+- collection_type: postman
+  name: Razorpay Bills Orders API
+  slug: postman-curlec-orders-api
+- collection_type: postman
+  name: Razorpay Bills Partner Accounts API
+  slug: postman-curlec-partner-accounts-api
+- collection_type: postman
+  name: Razorpay Bills Partner Documents API
+  slug: postman-curlec-partner-documents-api
+- collection_type: postman
+  name: Razorpay Bills Partner Stakeholders API
+  slug: postman-curlec-partner-stakeholders-api
+- collection_type: postman
+  name: Razorpay Bills Partner Webhooks API
+  slug: postman-curlec-partner-webhooks-api
+- collection_type: postman
+  name: Razorpay Bills Payment Downtimes API
+  slug: postman-curlec-payment-downtimes-api
+- collection_type: postman
+  name: Razorpay Bills Payment Links API
+  slug: postman-curlec-payment-links-api
+- collection_type: postman
+  name: Razorpay Bills Payments API
+  slug: postman-curlec-payments-api
+- collection_type: postman
+  name: Razorpay Bills Plans API
+  slug: postman-curlec-plans-api
+- collection_type: postman
+  name: Razorpay Bills QR Codes API
+  slug: postman-curlec-qr-codes-api
+- collection_type: postman
+  name: Razorpay Bills Refunds API
+  slug: postman-curlec-refunds-api
+- collection_type: postman
+  name: Razorpay Bills Settlements API
+  slug: postman-curlec-settlements-api
+- collection_type: postman
+  name: Razorpay Bills Subscriptions API
+  slug: postman-curlec-subscriptions-api
+- collection_type: postman
+  name: Razorpay Bills Transfers API
+  slug: postman-curlec-transfers-api
+- collection_type: postman
+  name: Razorpay Bills Virtual Accounts API
+  slug: postman-curlec-virtual-accounts-api
+- collection_type: postman
+  name: Razorpay Bills X Account Validation API
+  slug: postman-curlec-x-account-validation-api
+- collection_type: postman
+  name: Razorpay Bills X Banking Balances API
+  slug: postman-curlec-x-banking-balances-api
+- collection_type: postman
+  name: Razorpay Bills X Contacts API
+  slug: postman-curlec-x-contacts-api
+- collection_type: postman
+  name: Razorpay Bills X Fund Accounts API
+  slug: postman-curlec-x-fund-accounts-api
+- collection_type: postman
+  name: Razorpay Bills X Payout Links API
+  slug: postman-curlec-x-payout-links-api
+- collection_type: postman
+  name: Razorpay Bills X Payouts API
+  slug: postman-curlec-x-payouts-api
+- collection_type: postman
+  name: Razorpay Bills X Transactions API
+  slug: postman-curlec-x-transactions-api
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/curlec-a2a.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -302,8 +399,8 @@ overview: 'Curlec publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
   The Curlec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 26
+  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 32 more developer resources.'
+random_paper: 22
 scopes:
 - name: Curlec Scopes
   scope_count: 1
@@ -311,23 +408,34 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 66.1
-  delta: 0.0
+  composite: 64.6
+  delta: -1.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 72.6
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.5
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 66.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/screenshots/curlec-2026-07-25T210942.png
 security:

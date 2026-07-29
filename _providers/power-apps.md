@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -202,7 +204,7 @@ plans:
 - name: Power Apps Plans Pricing
   plan_count: 3
   slug: power-apps-plans-pricing
-random_paper: 18
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Power Apps Rate Limits
@@ -214,18 +216,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.6
-  delta: 3.3
+  composite: 50.5
+  delta: -1.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.0
+    contract_quality: 55.9
     developer_ergonomics: 52.2
-    discoverability: 87.5
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 48.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 51.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-apps/refs/heads/main/screenshots/power-apps-2026-06-20T192021.png
 security:

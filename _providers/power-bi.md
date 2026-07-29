@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -107,12 +109,34 @@ arazzos:
 - description: Create a workspace, add a principal with a specific access right, and verify the resulting membership.
   name: Power BI Provision a Workspace and Grant Access
   slug: power-bi-workspace-provision-access-workflow
-artifact_total: 249
+artifact_total: 255
 collections:
+- collection_type: postman
+  name: Power BI REST Dashboards API
+  slug: postman-power-bi-dashboards-api
+- collection_type: postman
+  name: Power BI REST Dashboards Datasets API
+  slug: postman-power-bi-datasets-api
+- collection_type: postman
+  name: Power BI REST Dashboards Gateways API
+  slug: postman-power-bi-gateways-api
+- collection_type: postman
+  name: Power BI REST Dashboards Groups API
+  slug: postman-power-bi-groups-api
+- collection_type: postman
+  name: Power BI REST Dashboards Imports API
+  slug: postman-power-bi-imports-api
+- collection_type: postman
+  name: Power BI REST Dashboards Reports API
+  slug: postman-power-bi-reports-api
 - collection_type: open
   name: Power BI REST API
   slug: open-power-bi-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/power-bi/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -972,12 +996,12 @@ overview: 'Power BI publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Power BI catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 49 more developer resources.'
+  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 50 more developer resources.'
 plans:
 - name: Power Bi Plans Pricing
   plan_count: 5
   slug: power-bi-plans-pricing
-random_paper: 57
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Power Bi Rate Limits
@@ -1006,18 +1030,27 @@ scopes:
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 75.6
-  delta: 3.2
+  composite: 75.0
+  delta: -0.6
   facets:
     commercial_clarity: 92.1
-    contract_quality: 70.1
-    developer_ergonomics: 63.0
+    contract_quality: 71.4
+    developer_ergonomics: 60.9
     discoverability: 100.0
-    governance: 73.7
+    governance: 69.8
     operational_transparency: 63.2
-  previous_composite: 72.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 75.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:

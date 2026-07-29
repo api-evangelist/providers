@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -67,12 +69,46 @@ apis:
 - description: Manage subgraphs - isolated GraphQL schemas that compose into federated graphs.
   name: WunderGraph Subgraphs API
   slug: wundergraph-subgraphs-api
-artifact_total: 60
+artifact_total: 70
 collections:
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics API
+  slug: postman-wundergraph-analytics-api
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics API Keys API
+  slug: postman-wundergraph-api-keys-api
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics Feature Flags API
+  slug: postman-wundergraph-feature-flags-api
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics Feature Subgraphs API
+  slug: postman-wundergraph-feature-subgraphs-api
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics Federated Graphs API
+  slug: postman-wundergraph-federated-graphs-api
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics Monographs API
+  slug: postman-wundergraph-monographs-api
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics Namespaces API
+  slug: postman-wundergraph-namespaces-api
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics Router API
+  slug: postman-wundergraph-router-api
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics Schema Contracts API
+  slug: postman-wundergraph-schema-contracts-api
+- collection_type: postman
+  name: WunderGraph Cosmo Platform Analytics Subgraphs API
+  slug: postman-wundergraph-subgraphs-api
 - collection_type: open
   name: WunderGraph Cosmo Platform API
   slug: open-wundergraph-cosmo-platform
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wundergraph/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -255,12 +291,12 @@ overview: 'WunderGraph publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The WunderGraph catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  WunderGraph''s developer surface includes authentication, pricing, engineering blog, CLI, support, and 18 more developer resources.'
+  WunderGraph''s developer surface includes authentication, pricing, engineering blog, CLI, support, and 19 more developer resources.'
 plans:
 - name: Wundergraph Plans Pricing
   plan_count: 3
   slug: wundergraph-plans-pricing
-random_paper: 35
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Wundergraph Rate Limits
@@ -276,18 +312,25 @@ rules:
   slug: wundergraph-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 4.2
+  composite: 62.4
+  delta: -2.7
   facets:
     commercial_clarity: 89.5
-    contract_quality: 72.6
-    developer_ergonomics: 32.6
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 73.7
+    developer_ergonomics: 37.0
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:

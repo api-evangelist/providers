@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -124,7 +126,7 @@ plans:
 - name: Sunrise Sunset Plans Pricing
   plan_count: 1
   slug: sunrise-sunset-plans-pricing
-random_paper: 0
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Sunrise Sunset Rate Limits
@@ -140,18 +142,25 @@ rules:
   slug: sunrise-sunset-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 42.9
+  delta: -3.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.3
+    contract_quality: 61.0
     developer_ergonomics: 8.7
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 15.8
   previous_composite: 46.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sunrise-sunset/refs/heads/main/screenshots/sunrise-sunset-2026-06-20T194659.png
 security:

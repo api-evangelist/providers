@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -203,7 +205,7 @@ overview: 'Limitless publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Limitless'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, privacy policy, authentication, and 27 more developer resources.'
-random_paper: 30
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Limitless Rate Limits
@@ -214,19 +216,35 @@ scopes:
   slug: limitless-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.0
-  delta: 0.0
+  band: developing
+  composite: 42.2
+  delta: 1.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 37.7
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 41.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/screenshots/limitless-2026-07-25T225205.png
 security:

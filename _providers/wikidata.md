@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,12 +66,31 @@ apis:
 - description: Statement (claim) operations
   name: Wikidata Statements API
   slug: wikidata-statements-api
-artifact_total: 70
+artifact_total: 75
 collections:
+- collection_type: postman
+  name: Wikidata REST API & MediaWiki Descriptions API
+  slug: postman-wikidata-descriptions-api
+- collection_type: postman
+  name: Wikidata REST API & MediaWiki Descriptions Items API
+  slug: postman-wikidata-items-api
+- collection_type: postman
+  name: Wikidata REST API & MediaWiki Descriptions Labels API
+  slug: postman-wikidata-labels-api
+- collection_type: postman
+  name: Wikidata REST API & MediaWiki Descriptions Properties API
+  slug: postman-wikidata-properties-api
+- collection_type: postman
+  name: Wikidata REST API & MediaWiki Descriptions Statements API
+  slug: postman-wikidata-statements-api
 - collection_type: open
   name: Wikidata REST API & MediaWiki API
   slug: open-wikidata-mediawiki
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wikidata/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -289,12 +310,12 @@ overview: 'Wikidata publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Wikidata catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Wikidata''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 15 more developer resources.'
+  Wikidata''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Wikidata Plans Pricing
   plan_count: 2
   slug: wikidata-plans-pricing
-random_paper: 30
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Wikidata Rate Limits
@@ -323,24 +344,32 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 67.5
-  delta: 3.9
+  composite: 62.3
+  delta: -5.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 77.7
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 78.3
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 63.6
+  previous_composite: 67.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 75.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/screenshots/wikidata-2026-06-20T201453.png
 security:
 - kind: authentication

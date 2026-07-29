@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -105,21 +107,23 @@ overview: 'EQL is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   EQL''s developer surface includes developer portal, pricing, engineering blog, support, and 12 more developer resources.'
-random_paper: 50
+random_paper: 14
 score:
   band: emerging
-  composite: 23.2
-  delta: 0.0
+  composite: 23.7
+  delta: 0.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 26.3
   previous_composite: 23.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eql/refs/heads/main/screenshots/eql-2026-07-25T213535.png
 security:

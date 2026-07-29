@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 66.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -114,12 +116,95 @@ apis:
 - description: The .well Known API from Slash — 1 operation(s) for .well known.
   name: Slash .well Known API
   slug: slash-well-known-api
-artifact_total: 33
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Slash Webhooks
   slug: slash-webhooks
+collections:
+- collection_type: postman
+  name: Slash Public Account API
+  slug: postman-slash-account-api
+- collection_type: postman
+  name: Slash Public Account Agent Requests API
+  slug: postman-slash-agent-requests-api
+- collection_type: postman
+  name: Slash Public Account Analytics API
+  slug: postman-slash-analytics-api
+- collection_type: postman
+  name: Slash Public Account Card API
+  slug: postman-slash-card-api
+- collection_type: postman
+  name: Slash Public Account Card Group API
+  slug: postman-slash-card-group-api
+- collection_type: postman
+  name: Slash Public Account Card Product API
+  slug: postman-slash-card-product-api
+- collection_type: postman
+  name: Slash Public Account Contact API
+  slug: postman-slash-contact-api
+- collection_type: postman
+  name: Slash Public Account Crypto API
+  slug: postman-slash-crypto-api
+- collection_type: postman
+  name: Slash Public Account Customer API
+  slug: postman-slash-customer-api
+- collection_type: postman
+  name: Slash Public Account Developer Account API
+  slug: postman-slash-developer-account-api
+- collection_type: postman
+  name: Slash Public Account Developer Application API
+  slug: postman-slash-developer-application-api
+- collection_type: postman
+  name: Slash Public Account Expense Report API
+  slug: postman-slash-expense-report-api
+- collection_type: postman
+  name: Slash Public Account Fdx API
+  slug: postman-slash-fdx-api
+- collection_type: postman
+  name: Slash Public Account Invoice API
+  slug: postman-slash-invoice-api
+- collection_type: postman
+  name: Slash Public Account Legal Entity API
+  slug: postman-slash-legal-entity-api
+- collection_type: postman
+  name: Slash Public Account Merchant API
+  slug: postman-slash-merchant-api
+- collection_type: postman
+  name: Slash Public Account Merchant Category API
+  slug: postman-slash-merchant-category-api
+- collection_type: postman
+  name: Slash Public Account Oauth2 API
+  slug: postman-slash-oauth2-api
+- collection_type: postman
+  name: Slash Public Account Task API
+  slug: postman-slash-task-api
+- collection_type: postman
+  name: Slash Public Account Tokens API
+  slug: postman-slash-tokens-api
+- collection_type: postman
+  name: Slash Public Account Transaction API
+  slug: postman-slash-transaction-api
+- collection_type: postman
+  name: Slash Public Account Transfer API
+  slug: postman-slash-transfer-api
+- collection_type: postman
+  name: Slash Public Account Transfers API
+  slug: postman-slash-transfers-api
+- collection_type: postman
+  name: Slash Public Account Virtual Account API
+  slug: postman-slash-virtual-account-api
+- collection_type: postman
+  name: Slash Public Account Webhook API
+  slug: postman-slash-webhook-api
+- collection_type: postman
+  name: Slash Public Account .well Known API
+  slug: postman-slash-well-known-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/slash/overview
 - group: company
   title: ''
   type: Website
@@ -282,8 +367,8 @@ overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
   The Slash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 63
+  Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 30 more developer resources.'
+random_paper: 0
 scopes:
 - name: Slash Scopes
   scope_count: 0
@@ -291,23 +376,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 61.6
+  delta: -0.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 58.1
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 59.8
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 39.5
   previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 87.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

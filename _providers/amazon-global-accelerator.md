@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -184,12 +186,163 @@ apis:
 - description: 'The #X Amz Target=GlobalAccelerator V20180706.WithdrawByoipCidr API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.withdrawbyoipcidr.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.WithdrawByoipCidr API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-withdrawbyoipcidr-api
-artifact_total: 572
+artifact_total: 621
 collections:
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-addcustomroutingendpoints-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddEndpoints API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-addendpoints-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AdvertiseByoipCidr API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-advertisebyoipcidr-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AllowCustomRoutingTraffic API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-allowcustomroutingtraffic-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.CreateAccelerator API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createaccelerator-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingAccelerator API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createcustomroutingaccelerator-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingEndpointGroup API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createcustomroutingendpointgroup-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingListener API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createcustomroutinglistener-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.CreateEndpointGroup API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createendpointgroup-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.CreateListener API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createlistener-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DeleteAccelerator API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deleteaccelerator-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingAccelerator API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deletecustomroutingaccelerator-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingEndpointGroup API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deletecustomroutingendpointgroup-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingListener API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deletecustomroutinglistener-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DeleteEndpointGroup API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deleteendpointgroup-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DeleteListener API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deletelistener-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DenyCustomRoutingTraffic API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-denycustomroutingtraffic-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DeprovisionByoipCidr API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deprovisionbyoipcidr-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DescribeAccelerator API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describeaccelerator-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DescribeAcceleratorAttributes API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describeacceleratorattributes-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingAccelerator API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describecustomroutingaccelerator-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingAcceleratorAttributes API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describecustomroutingacceleratorattributes-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingEndpointGroup API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describecustomroutingendpointgroup-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingListener API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describecustomroutinglistener-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DescribeEndpointGroup API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describeendpointgroup-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.DescribeListener API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describelistener-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListAccelerators API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listaccelerators-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListByoipCidrs API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listbyoipcidrs-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingAccelerators API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutingaccelerators-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingEndpointGroups API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutingendpointgroups-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingListeners API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutinglisteners-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingPortMappings API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutingportmappings-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingPortMappingsByDestination API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutingportmappingsbydestination-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListEndpointGroups API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listendpointgroups-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListListeners API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listlisteners-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ListTagsForResource API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listtagsforresource-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.ProvisionByoipCidr API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-provisionbyoipcidr-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.RemoveCustomRoutingEndpoints API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-removecustomroutingendpoints-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.RemoveEndpoints API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-removeendpoints-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.TagResource API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-tagresource-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.UntagResource API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-untagresource-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.UpdateAccelerator API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updateaccelerator-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.UpdateAcceleratorAttributes API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updateacceleratorattributes-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingAccelerator API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updatecustomroutingaccelerator-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingAcceleratorAttributes API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updatecustomroutingacceleratorattributes-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingListener API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updatecustomroutinglistener-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.UpdateEndpointGroup API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updateendpointgroup-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.UpdateListener API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updatelistener-api
+- collection_type: postman
+  name: 'AWS Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints #X Amz Target=GlobalAccelerator V20180706.WithdrawByoipCidr API'
+  slug: postman-amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-withdrawbyoipcidr-api
 - collection_type: open
   name: AWS Global Accelerator
   slug: open-amazon-global-accelerator
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-global-accelerator/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1803,12 +1956,12 @@ overview: 'Amazon Global Accelerator publishes 49 APIs on the [APIs.io](https://
   The Amazon Global Accelerator catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Global Accelerator''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 10 more developer resources.'
+  Amazon Global Accelerator''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
 plans:
 - name: Amazon Global Accelerator Plans Pricing
   plan_count: 3
   slug: amazon-global-accelerator-plans-pricing
-random_paper: 2
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Amazon Global Accelerator Rate Limits
@@ -1832,18 +1985,25 @@ rules:
   slug: amazon-global-accelerator-spectral-rules
 score:
   band: strong
-  composite: 64.8
-  delta: 3.8
+  composite: 61.4
+  delta: -3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.7
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 72.9
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 61.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 49
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/screenshots/amazon-global-accelerator-2026-06-20T171653.png
 security:

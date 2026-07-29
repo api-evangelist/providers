@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST JSON API for the Toshl personal finance platform. Manage accounts, entries (expenses and incomes with repeats per RFC 5545, transactions, images, locations), budgets, categories, tags, currencies
@@ -150,7 +152,7 @@ overview: 'Toshl publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Toshl''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 19 more developer resources.'
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Toshl Rate Limits
@@ -162,23 +164,26 @@ scopes:
   summary_line: 16 scopes · authorizationCode/implicit
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 36.2
+  delta: -3.6
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 36.8
   previous_composite: 39.8
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 53.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

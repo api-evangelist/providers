@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.0
+  scored_at: '2026-07-28'
 api_count: 25
 apis:
 - description: Bulk export API for LeanKit / Planview AgilePlace reporting data — cards, card lane positions, blocked card history, comments, connections, lanes, tags, and user assignments — consumed from Excel, Pow
@@ -104,12 +106,89 @@ apis:
 - description: The users API from LeanKit — 2 operation(s) for users.
   name: LeanKit users API
   slug: leankit-users-api
-artifact_total: 30
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Leankit Automation Webhooks
   slug: leankit-automation-webhooks
+collections:
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account API
+  slug: postman-leankit-account-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account attachment API
+  slug: postman-leankit-attachment-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account automation API
+  slug: postman-leankit-automation-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account board API
+  slug: postman-leankit-board-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account board-filter API
+  slug: postman-leankit-board-filter-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account board-level API
+  slug: postman-leankit-board-level-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account board-template API
+  slug: postman-leankit-board-template-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account card API
+  slug: postman-leankit-card-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account card-scoring API
+  slug: postman-leankit-card-scoring-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account card-type API
+  slug: postman-leankit-card-type-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account comment API
+  slug: postman-leankit-comment-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account config API
+  slug: postman-leankit-config-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account connections API
+  slug: postman-leankit-connections-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account custom-field API
+  slug: postman-leankit-custom-field-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account custom-icon API
+  slug: postman-leankit-custom-icon-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account dependencies API
+  slug: postman-leankit-dependencies-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account lane API
+  slug: postman-leankit-lane-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account planning-series API
+  slug: postman-leankit-planning-series-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account tags API
+  slug: postman-leankit-tags-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account team API
+  slug: postman-leankit-team-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account token-auth API
+  slug: postman-leankit-token-auth-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account user API
+  slug: postman-leankit-user-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account user-invitation API
+  slug: postman-leankit-user-invitation-api
+- collection_type: postman
+  name: Planview AgilePlace API (LeanKit) v2 account users API
+  slug: postman-leankit-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/leankit/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -268,22 +347,31 @@ overview: 'LeanKit publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The LeanKit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LeanKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 64
+  LeanKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+random_paper: 51
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 62.0
+  delta: 0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.6
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 71.8
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 61.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/screenshots/leankit-2026-07-25T224738.png
 security:

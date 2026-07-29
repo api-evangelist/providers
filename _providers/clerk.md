@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -198,7 +200,7 @@ plans:
 - name: Clerk Plans Pricing
   plan_count: 1
   slug: clerk-plans-pricing
-random_paper: 53
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Clerk Rate Limits
@@ -214,18 +216,25 @@ rules:
   slug: clerk-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 49.5
-  delta: 3.2
+  composite: 47.3
+  delta: -2.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.9
+    contract_quality: 68.6
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 42.1
-  previous_composite: 46.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 49.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/screenshots/clerk-2026-06-20T174506.png
 security:

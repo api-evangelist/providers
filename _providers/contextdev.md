@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 68.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -210,7 +212,7 @@ overview: 'Context.dev publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Context.dev''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
-random_paper: 4
+random_paper: 14
 scopes:
 - name: Contextdev Scopes
   scope_count: 2
@@ -218,18 +220,28 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 55.7
+  delta: 0.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 66.4
+    contract_quality: 65.5
     developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 55.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/screenshots/contextdev-2026-07-25T210330.png
 security:

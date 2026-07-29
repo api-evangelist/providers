@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -401,7 +403,7 @@ plans:
 - name: Sensible So Plans Pricing
   plan_count: 4
   slug: sensible-so-plans-pricing
-random_paper: 36
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Sensible So Rate Limits
@@ -425,18 +427,25 @@ rules:
   slug: sensible-so-rules
 score:
   band: exemplar
-  composite: 70.9
-  delta: 4.2
+  composite: 66.3
+  delta: -4.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 74.2
+    contract_quality: 72.4
     developer_ergonomics: 69.6
-    discoverability: 75.0
-    governance: 86.8
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 66.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 70.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/screenshots/sensible-so-2026-06-20T193703.png
 security:

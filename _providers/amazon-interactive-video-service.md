@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -121,8 +123,97 @@ apis:
 - description: The UpdateChannel API from Amazon Interactive Video Service — 1 operation(s) for updatechannel.
   name: Amazon Interactive Video Service UpdateChannel API
   slug: amazon-interactive-video-service-updatechannel-api
-artifact_total: 362
+artifact_total: 390
+collections:
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel API
+  slug: postman-amazon-interactive-video-service-batchgetchannel-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel BatchGetStreamKey API
+  slug: postman-amazon-interactive-video-service-batchgetstreamkey-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel BatchStartViewerSessionRevocation API
+  slug: postman-amazon-interactive-video-service-batchstartviewersessionrevocation-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel CreateChannel API
+  slug: postman-amazon-interactive-video-service-createchannel-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel CreateRecordingConfiguration API
+  slug: postman-amazon-interactive-video-service-createrecordingconfiguration-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel CreateStreamKey API
+  slug: postman-amazon-interactive-video-service-createstreamkey-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel DeleteChannel API
+  slug: postman-amazon-interactive-video-service-deletechannel-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel DeletePlaybackKeyPair API
+  slug: postman-amazon-interactive-video-service-deleteplaybackkeypair-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel DeleteRecordingConfiguration API
+  slug: postman-amazon-interactive-video-service-deleterecordingconfiguration-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel DeleteStreamKey API
+  slug: postman-amazon-interactive-video-service-deletestreamkey-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel GetChannel API
+  slug: postman-amazon-interactive-video-service-getchannel-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel GetPlaybackKeyPair API
+  slug: postman-amazon-interactive-video-service-getplaybackkeypair-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel GetRecordingConfiguration API
+  slug: postman-amazon-interactive-video-service-getrecordingconfiguration-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel GetStream API
+  slug: postman-amazon-interactive-video-service-getstream-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel GetStreamKey API
+  slug: postman-amazon-interactive-video-service-getstreamkey-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel GetStreamSession API
+  slug: postman-amazon-interactive-video-service-getstreamsession-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel ImportPlaybackKeyPair API
+  slug: postman-amazon-interactive-video-service-importplaybackkeypair-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel ListChannels API
+  slug: postman-amazon-interactive-video-service-listchannels-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel ListPlaybackKeyPairs API
+  slug: postman-amazon-interactive-video-service-listplaybackkeypairs-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel ListRecordingConfigurations API
+  slug: postman-amazon-interactive-video-service-listrecordingconfigurations-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel ListStreamKeys API
+  slug: postman-amazon-interactive-video-service-liststreamkeys-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel ListStreams API
+  slug: postman-amazon-interactive-video-service-liststreams-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel ListStreamSessions API
+  slug: postman-amazon-interactive-video-service-liststreamsessions-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel PutMetadata API
+  slug: postman-amazon-interactive-video-service-putmetadata-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel StartViewerSessionRevocation API
+  slug: postman-amazon-interactive-video-service-startviewersessionrevocation-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel StopStream API
+  slug: postman-amazon-interactive-video-service-stopstream-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel Tags API
+  slug: postman-amazon-interactive-video-service-tags-api
+- collection_type: postman
+  name: Amazon Interactive Video Service BatchGetChannel UpdateChannel API
+  slug: postman-amazon-interactive-video-service-updatechannel-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-interactive-video-service/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1190,12 +1281,12 @@ overview: 'Amazon Interactive Video Service publishes 28 APIs on the [APIs.io](h
   The Amazon Interactive Video Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Interactive Video Service''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon Interactive Video Service''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Interactive Video Service Plans Pricing
   plan_count: 3
   slug: amazon-interactive-video-service-plans-pricing
-random_paper: 55
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Interactive Video Service Rate Limits
@@ -1219,18 +1310,25 @@ rules:
   slug: amazon-interactive-video-service-spectral-rules
 score:
   band: strong
-  composite: 67.5
-  delta: 0.0
+  composite: 64.3
+  delta: -3.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.7
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 69.1
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/screenshots/amazon-interactive-video-service-2026-06-20T171714.png
 security:

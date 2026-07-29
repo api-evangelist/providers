@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 15.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Last-mile express parcel API covering pincode serviceability, bulk and single waybill generation, order creation/manifestation, shipment tracking, order edit and cancel, shipping-charge invoicing, pac
@@ -135,22 +137,22 @@ overview: 'Delhivery publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Delhivery''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 20
+random_paper: 48
 score:
-  band: thin
-  composite: 36.7
-  delta: 0.0
+  band: developing
+  composite: 43.3
+  delta: 6.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 52.2
-    discoverability: 100.0
+    discoverability: 92.6
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 36.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/screenshots/delhivery-2026-07-25T211645.png
 security:
 - kind: authentication

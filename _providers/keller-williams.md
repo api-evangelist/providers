@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -205,7 +207,7 @@ overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 27 more developer resources.'
-random_paper: 54
+random_paper: 10
 scopes:
 - name: Keller Williams Scopes
   scope_count: 40
@@ -213,23 +215,29 @@ scopes:
   summary_line: 40 scopes · authorizationCode/implicit/clientCredentials/tokenExchange/jwtBearer
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 47.8
+  delta: -4.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.4
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 36.8
   previous_composite: 52.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

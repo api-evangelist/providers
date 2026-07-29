@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -87,7 +89,7 @@ arazzos:
 - description: 'Bring a new building into Arthur Online: create the property, add a lettable unit, file the compliance certificate, publish the information shared with occupants and attach the document. Every operati'
   name: Arthur Online - onboard a property
   slug: arthur-online-onboard-property
-artifact_total: 28
+artifact_total: 44
 asyncapis:
 - description: The Arthur Online webhook event surface. A property manager subscribes a webhook URL to one or more of the 125 published triggers on the Arthur webhook page; Arthur then POSTs a form-encoded payload t
   name: Arthur Online Webhooks
@@ -95,7 +97,60 @@ asyncapis:
 - description: ''
   name: Arthur Online Webhooks
   slug: arthur-online-webhooks
+collections:
+- collection_type: postman
+  name: Arthur Applicants API
+  slug: postman-arthur-online-applicants
+- collection_type: postman
+  name: Arthur Assets API
+  slug: postman-arthur-online-assets
+- collection_type: postman
+  name: Arthur Certificates API
+  slug: postman-arthur-online-certificates
+- collection_type: postman
+  name: Arthur Conversations API
+  slug: postman-arthur-online-conversations
+- collection_type: postman
+  name: Arthur Entities API
+  slug: postman-arthur-online-entities
+- collection_type: postman
+  name: Arthur Financials API
+  slug: postman-arthur-online-financials
+- collection_type: postman
+  name: Arthur Maintenance API
+  slug: postman-arthur-online-maintenance
+- collection_type: postman
+  name: Arthur Notes API
+  slug: postman-arthur-online-notes
+- collection_type: postman
+  name: Arthur Properties API
+  slug: postman-arthur-online-properties
+- collection_type: postman
+  name: Arthur Tags API
+  slug: postman-arthur-online-tags
+- collection_type: postman
+  name: Arthur Tenancies API
+  slug: postman-arthur-online-tenancies
+- collection_type: postman
+  name: Arthur Tenants API
+  slug: postman-arthur-online-tenants
+- collection_type: postman
+  name: Arthur Types API
+  slug: postman-arthur-online-types
+- collection_type: postman
+  name: Arthur Units API
+  slug: postman-arthur-online-units
+- collection_type: postman
+  name: Arthur Utilities API
+  slug: postman-arthur-online-utilities
+- collection_type: postman
+  name: Arthur Viewings API
+  slug: postman-arthur-online-viewings
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/arthur-online/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -267,31 +322,41 @@ overview: 'Arthur Online publishes 16 APIs on the [APIs.io](https://apis.io/) ne
   The Arthur Online catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Arthur Online''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, support, engineering blog, and 31 more developer resources.'
+  Arthur Online''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, support, engineering blog, and 32 more developer resources.'
 plans:
 - name: Arthur Online Plans
   plan_count: 3
   slug: arthur-online-plans
-random_paper: 60
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Arthur Online Rate Limits
   slug: arthur-online-rate-limits
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 58.4
+  delta: -5.2
   facets:
     commercial_clarity: 76.3
-    contract_quality: 71.8
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 13.2
+    contract_quality: 58.9
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 21.9
     operational_transparency: 34.2
   previous_composite: 63.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 16
+      marker_coverage: 100.0
+      total: 16
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Arthur Online Authentication

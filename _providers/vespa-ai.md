@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,12 +63,19 @@ apis:
 - description: The Query API from Vespa — 1 operation(s) for query.
   name: Vespa Query API
   slug: vespa-ai-query-api
-artifact_total: 62
+artifact_total: 63
 collections:
+- collection_type: postman
+  name: Vespa Query API
+  slug: postman-vespa-ai-query-api
 - collection_type: open
   name: Vespa Query API
   slug: open-vespa-query-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/vespa/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -274,12 +283,12 @@ overview: 'Vespa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Do
   The Vespa catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vespa''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, developer console, support, and 26 more developer resources.'
+  Vespa''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, developer console, support, and 27 more developer resources.'
 plans:
 - name: Vespa Ai Plans Pricing
   plan_count: 6
   slug: vespa-ai-plans-pricing
-random_paper: 42
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Vespa Ai Rate Limits
@@ -303,18 +312,25 @@ rules:
   slug: vespa-ai-rules
 score:
   band: strong
-  composite: 62.8
-  delta: 2.0
+  composite: 59.6
+  delta: -3.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.2
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 61.9
+    developer_ergonomics: 63.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/screenshots/vespa-ai-2026-06-20T201005.png
 security:

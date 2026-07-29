@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -64,12 +66,37 @@ apis:
 - description: Water consumption tracking
   name: Salesforce Net Zero Cloud Water Usage API
   slug: salesforce-net-zero-cloud-water-usage-api
-artifact_total: 25
+artifact_total: 32
 collections:
+- collection_type: postman
+  name: Salesforce Net Zero Cloud REST Carbon Emissions API
+  slug: postman-salesforce-net-zero-cloud-carbon-emissions-api
+- collection_type: postman
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Emission Factors API
+  slug: postman-salesforce-net-zero-cloud-emission-factors-api
+- collection_type: postman
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Energy Consumption API
+  slug: postman-salesforce-net-zero-cloud-energy-consumption-api
+- collection_type: postman
+  name: Salesforce Net Zero Cloud REST Carbon Emissions ESG Reporting API
+  slug: postman-salesforce-net-zero-cloud-esg-reporting-api
+- collection_type: postman
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Sustainability Goals API
+  slug: postman-salesforce-net-zero-cloud-sustainability-goals-api
+- collection_type: postman
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Waste Management API
+  slug: postman-salesforce-net-zero-cloud-waste-management-api
+- collection_type: postman
+  name: Salesforce Net Zero Cloud REST Carbon Emissions Water Usage API
+  slug: postman-salesforce-net-zero-cloud-water-usage-api
 - collection_type: open
   name: Salesforce Net Zero Cloud REST API
   slug: open-salesforce-net-zero-cloud-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/salesforce-net-zero-cloud/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,12 +222,12 @@ overview: 'Salesforce Net Zero Cloud publishes 7 APIs on the [APIs.io](https://a
   The Salesforce Net Zero Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Net Zero Cloud''s developer surface includes authentication, engineering blog, getting-started guide, release notes, support, and 16 more developer resources.'
+  Salesforce Net Zero Cloud''s developer surface includes authentication, engineering blog, getting-started guide, release notes, support, and 17 more developer resources.'
 plans:
 - name: Salesforce Net Zero Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-net-zero-cloud-plans-pricing
-random_paper: 60
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Salesforce Net Zero Cloud Rate Limits
@@ -229,18 +256,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 61.5
-  delta: 3.2
+  composite: 58.7
+  delta: -2.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.7
-    developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.2
+    developer_ergonomics: 41.3
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 58.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/screenshots/salesforce-net-zero-cloud-2026-06-20T193349.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 61.5
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: Create, read, update, and delete company records.
@@ -188,7 +190,7 @@ overview: 'Fixture publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fixture''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 21 more developer resources.'
-random_paper: 27
+random_paper: 5
 scopes:
 - name: Fixture Scopes
   scope_count: 0
@@ -196,18 +198,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 47.2
+  delta: 0.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.9
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.6
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 47.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/screenshots/fixture-2026-07-25T214655.png
 security:

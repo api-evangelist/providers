@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -427,8 +429,395 @@ apis:
 - description: 'The #X Amz Target=RedshiftData.ListTables API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.listtables.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.ListTables API'
   slug: aws-redshift-x-amz-target-redshiftdata-listtables-api
-artifact_total: 1944
+artifact_total: 2073
 collections:
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange API'
+  slug: postman-aws-redshift-action-acceptreservednodeexchange-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AddPartner API'
+  slug: postman-aws-redshift-action-addpartner-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AssociateDataShareConsumer API'
+  slug: postman-aws-redshift-action-associatedatashareconsumer-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AuthorizeClusterSecurityGroupIngress API'
+  slug: postman-aws-redshift-action-authorizeclustersecuritygroupingress-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AuthorizeDataShare API'
+  slug: postman-aws-redshift-action-authorizedatashare-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AuthorizeEndpointAccess API'
+  slug: postman-aws-redshift-action-authorizeendpointaccess-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=AuthorizeSnapshotAccess API'
+  slug: postman-aws-redshift-action-authorizesnapshotaccess-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=BatchDeleteClusterSnapshots API'
+  slug: postman-aws-redshift-action-batchdeleteclustersnapshots-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=BatchModifyClusterSnapshots API'
+  slug: postman-aws-redshift-action-batchmodifyclustersnapshots-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CancelResize API'
+  slug: postman-aws-redshift-action-cancelresize-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CopyClusterSnapshot API'
+  slug: postman-aws-redshift-action-copyclustersnapshot-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateAuthenticationProfile API'
+  slug: postman-aws-redshift-action-createauthenticationprofile-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateCluster API'
+  slug: postman-aws-redshift-action-createcluster-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateClusterParameterGroup API'
+  slug: postman-aws-redshift-action-createclusterparametergroup-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateClusterSecurityGroup API'
+  slug: postman-aws-redshift-action-createclustersecuritygroup-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateClusterSnapshot API'
+  slug: postman-aws-redshift-action-createclustersnapshot-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateClusterSubnetGroup API'
+  slug: postman-aws-redshift-action-createclustersubnetgroup-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateEndpointAccess API'
+  slug: postman-aws-redshift-action-createendpointaccess-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateEventSubscription API'
+  slug: postman-aws-redshift-action-createeventsubscription-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateHsmClientCertificate API'
+  slug: postman-aws-redshift-action-createhsmclientcertificate-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateHsmConfiguration API'
+  slug: postman-aws-redshift-action-createhsmconfiguration-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateScheduledAction API'
+  slug: postman-aws-redshift-action-createscheduledaction-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateSnapshotCopyGrant API'
+  slug: postman-aws-redshift-action-createsnapshotcopygrant-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateSnapshotSchedule API'
+  slug: postman-aws-redshift-action-createsnapshotschedule-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateTags API'
+  slug: postman-aws-redshift-action-createtags-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=CreateUsageLimit API'
+  slug: postman-aws-redshift-action-createusagelimit-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeauthorizeDataShare API'
+  slug: postman-aws-redshift-action-deauthorizedatashare-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteAuthenticationProfile API'
+  slug: postman-aws-redshift-action-deleteauthenticationprofile-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteCluster API'
+  slug: postman-aws-redshift-action-deletecluster-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteClusterParameterGroup API'
+  slug: postman-aws-redshift-action-deleteclusterparametergroup-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteClusterSecurityGroup API'
+  slug: postman-aws-redshift-action-deleteclustersecuritygroup-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteClusterSnapshot API'
+  slug: postman-aws-redshift-action-deleteclustersnapshot-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteClusterSubnetGroup API'
+  slug: postman-aws-redshift-action-deleteclustersubnetgroup-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteEndpointAccess API'
+  slug: postman-aws-redshift-action-deleteendpointaccess-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteEventSubscription API'
+  slug: postman-aws-redshift-action-deleteeventsubscription-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteHsmClientCertificate API'
+  slug: postman-aws-redshift-action-deletehsmclientcertificate-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteHsmConfiguration API'
+  slug: postman-aws-redshift-action-deletehsmconfiguration-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeletePartner API'
+  slug: postman-aws-redshift-action-deletepartner-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteScheduledAction API'
+  slug: postman-aws-redshift-action-deletescheduledaction-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteSnapshotCopyGrant API'
+  slug: postman-aws-redshift-action-deletesnapshotcopygrant-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteSnapshotSchedule API'
+  slug: postman-aws-redshift-action-deletesnapshotschedule-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteTags API'
+  slug: postman-aws-redshift-action-deletetags-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DeleteUsageLimit API'
+  slug: postman-aws-redshift-action-deleteusagelimit-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeAccountAttributes API'
+  slug: postman-aws-redshift-action-describeaccountattributes-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeAuthenticationProfiles API'
+  slug: postman-aws-redshift-action-describeauthenticationprofiles-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterDbRevisions API'
+  slug: postman-aws-redshift-action-describeclusterdbrevisions-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterParameterGroups API'
+  slug: postman-aws-redshift-action-describeclusterparametergroups-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterParameters API'
+  slug: postman-aws-redshift-action-describeclusterparameters-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusters API'
+  slug: postman-aws-redshift-action-describeclusters-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterSecurityGroups API'
+  slug: postman-aws-redshift-action-describeclustersecuritygroups-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterSnapshots API'
+  slug: postman-aws-redshift-action-describeclustersnapshots-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterSubnetGroups API'
+  slug: postman-aws-redshift-action-describeclustersubnetgroups-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterTracks API'
+  slug: postman-aws-redshift-action-describeclustertracks-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeClusterVersions API'
+  slug: postman-aws-redshift-action-describeclusterversions-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeDataShares API'
+  slug: postman-aws-redshift-action-describedatashares-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeDataSharesForConsumer API'
+  slug: postman-aws-redshift-action-describedatasharesforconsumer-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeDataSharesForProducer API'
+  slug: postman-aws-redshift-action-describedatasharesforproducer-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeDefaultClusterParameters API'
+  slug: postman-aws-redshift-action-describedefaultclusterparameters-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEndpointAccess API'
+  slug: postman-aws-redshift-action-describeendpointaccess-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEndpointAuthorization API'
+  slug: postman-aws-redshift-action-describeendpointauthorization-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEventCategories API'
+  slug: postman-aws-redshift-action-describeeventcategories-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEvents API'
+  slug: postman-aws-redshift-action-describeevents-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeEventSubscriptions API'
+  slug: postman-aws-redshift-action-describeeventsubscriptions-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeHsmClientCertificates API'
+  slug: postman-aws-redshift-action-describehsmclientcertificates-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeHsmConfigurations API'
+  slug: postman-aws-redshift-action-describehsmconfigurations-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeLoggingStatus API'
+  slug: postman-aws-redshift-action-describeloggingstatus-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeNodeConfigurationOptions API'
+  slug: postman-aws-redshift-action-describenodeconfigurationoptions-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeOrderableClusterOptions API'
+  slug: postman-aws-redshift-action-describeorderableclusteroptions-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribePartners API'
+  slug: postman-aws-redshift-action-describepartners-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeReservedNodeExchangeStatus API'
+  slug: postman-aws-redshift-action-describereservednodeexchangestatus-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeReservedNodeOfferings API'
+  slug: postman-aws-redshift-action-describereservednodeofferings-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeReservedNodes API'
+  slug: postman-aws-redshift-action-describereservednodes-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeResize API'
+  slug: postman-aws-redshift-action-describeresize-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeScheduledActions API'
+  slug: postman-aws-redshift-action-describescheduledactions-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeSnapshotCopyGrants API'
+  slug: postman-aws-redshift-action-describesnapshotcopygrants-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeSnapshotSchedules API'
+  slug: postman-aws-redshift-action-describesnapshotschedules-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeStorage API'
+  slug: postman-aws-redshift-action-describestorage-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeTableRestoreStatus API'
+  slug: postman-aws-redshift-action-describetablerestorestatus-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeTags API'
+  slug: postman-aws-redshift-action-describetags-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DescribeUsageLimits API'
+  slug: postman-aws-redshift-action-describeusagelimits-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DisableLogging API'
+  slug: postman-aws-redshift-action-disablelogging-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DisableSnapshotCopy API'
+  slug: postman-aws-redshift-action-disablesnapshotcopy-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=DisassociateDataShareConsumer API'
+  slug: postman-aws-redshift-action-disassociatedatashareconsumer-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=EnableLogging API'
+  slug: postman-aws-redshift-action-enablelogging-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=EnableSnapshotCopy API'
+  slug: postman-aws-redshift-action-enablesnapshotcopy-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=GetClusterCredentials API'
+  slug: postman-aws-redshift-action-getclustercredentials-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=GetClusterCredentialsWithIAM API'
+  slug: postman-aws-redshift-action-getclustercredentialswithiam-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=GetReservedNodeExchangeConfigurationOptions API'
+  slug: postman-aws-redshift-action-getreservednodeexchangeconfigurationoptions-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=GetReservedNodeExchangeOfferings API'
+  slug: postman-aws-redshift-action-getreservednodeexchangeofferings-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyAquaConfiguration API'
+  slug: postman-aws-redshift-action-modifyaquaconfiguration-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyAuthenticationProfile API'
+  slug: postman-aws-redshift-action-modifyauthenticationprofile-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyCluster API'
+  slug: postman-aws-redshift-action-modifycluster-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterDbRevision API'
+  slug: postman-aws-redshift-action-modifyclusterdbrevision-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterIamRoles API'
+  slug: postman-aws-redshift-action-modifyclusteriamroles-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterMaintenance API'
+  slug: postman-aws-redshift-action-modifyclustermaintenance-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterParameterGroup API'
+  slug: postman-aws-redshift-action-modifyclusterparametergroup-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterSnapshot API'
+  slug: postman-aws-redshift-action-modifyclustersnapshot-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterSnapshotSchedule API'
+  slug: postman-aws-redshift-action-modifyclustersnapshotschedule-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyClusterSubnetGroup API'
+  slug: postman-aws-redshift-action-modifyclustersubnetgroup-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyEndpointAccess API'
+  slug: postman-aws-redshift-action-modifyendpointaccess-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyEventSubscription API'
+  slug: postman-aws-redshift-action-modifyeventsubscription-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyScheduledAction API'
+  slug: postman-aws-redshift-action-modifyscheduledaction-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifySnapshotCopyRetentionPeriod API'
+  slug: postman-aws-redshift-action-modifysnapshotcopyretentionperiod-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifySnapshotSchedule API'
+  slug: postman-aws-redshift-action-modifysnapshotschedule-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ModifyUsageLimit API'
+  slug: postman-aws-redshift-action-modifyusagelimit-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=PauseCluster API'
+  slug: postman-aws-redshift-action-pausecluster-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=PurchaseReservedNodeOffering API'
+  slug: postman-aws-redshift-action-purchasereservednodeoffering-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RebootCluster API'
+  slug: postman-aws-redshift-action-rebootcluster-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RejectDataShare API'
+  slug: postman-aws-redshift-action-rejectdatashare-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ResetClusterParameterGroup API'
+  slug: postman-aws-redshift-action-resetclusterparametergroup-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ResizeCluster API'
+  slug: postman-aws-redshift-action-resizecluster-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RestoreFromClusterSnapshot API'
+  slug: postman-aws-redshift-action-restorefromclustersnapshot-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RestoreTableFromClusterSnapshot API'
+  slug: postman-aws-redshift-action-restoretablefromclustersnapshot-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=ResumeCluster API'
+  slug: postman-aws-redshift-action-resumecluster-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RevokeClusterSecurityGroupIngress API'
+  slug: postman-aws-redshift-action-revokeclustersecuritygroupingress-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RevokeEndpointAccess API'
+  slug: postman-aws-redshift-action-revokeendpointaccess-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RevokeSnapshotAccess API'
+  slug: postman-aws-redshift-action-revokesnapshotaccess-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=RotateEncryptionKey API'
+  slug: postman-aws-redshift-action-rotateencryptionkey-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #Action=UpdatePartnerStatus API'
+  slug: postman-aws-redshift-action-updatepartnerstatus-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.BatchExecuteStatement API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-batchexecutestatement-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.CancelStatement API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-cancelstatement-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.DescribeStatement API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-describestatement-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.DescribeTable API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-describetable-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ExecuteStatement API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-executestatement-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.GetStatementResult API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-getstatementresult-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ListDatabases API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-listdatabases-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ListSchemas API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-listschemas-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ListStatements API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-liststatements-api
+- collection_type: postman
+  name: 'Redshift Data API Service #Action=AcceptReservedNodeExchange #Action=AcceptReservedNodeExchange #X Amz Target=RedshiftData.ListTables API'
+  slug: postman-aws-redshift-x-amz-target-redshiftdata-listtables-api
 - collection_type: open
   name: Redshift Data API Service
   slug: open-aws-redshift-data
@@ -436,6 +825,10 @@ collections:
   name: Amazon Redshift
   slug: open-aws-redshift
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aws-redshift/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -5910,12 +6303,12 @@ overview: 'AWS Redshift publishes 129 APIs on the [APIs.io](https://apis.io/) ne
   The AWS Redshift catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  AWS Redshift''s developer surface includes authentication, support, engineering blog, changelog, pricing, getting-started guide, documentation, and 10 more developer resources.'
+  AWS Redshift''s developer surface includes authentication, support, engineering blog, changelog, pricing, getting-started guide, documentation, and 11 more developer resources.'
 plans:
 - name: Aws Redshift Plans Pricing
   plan_count: 7
   slug: aws-redshift-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 23
   name: Aws Redshift Rate Limits
@@ -5939,18 +6332,25 @@ rules:
   slug: aws-redshift-spectral-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 62.8
+  delta: -2.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 67.6
-    developer_ergonomics: 37.0
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 69.0
+    developer_ergonomics: 41.3
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 63.2
   previous_composite: 65.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 129
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/screenshots/aws-redshift-2026-06-20T172800.png
 security:

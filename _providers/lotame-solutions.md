@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.9
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'Token-based REST API for managing first-party data, building and editing audience segments, activating audiences, and retrieving behavior and audience analytics on the Lotame Spherical platform. JSON '
@@ -129,21 +131,24 @@ overview: 'Lotame Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) 
 
 
   Lotame Solutions'' developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 63
+random_paper: 1
 score:
   band: emerging
-  composite: 26.1
-  delta: 0.0
+  composite: 25.7
+  delta: -0.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 43.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lotame-solutions/refs/heads/main/screenshots/lotame-solutions-2026-07-25T225550.png
 security:

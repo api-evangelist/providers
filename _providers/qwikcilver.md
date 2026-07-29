@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 3.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: QwikCilver / Woohoo gift card and prepaid commerce API for browsing brand catalogs, placing gift card orders, activating and redeeming cards, checking balances, and running reward programs. OAuth2 cli
@@ -81,26 +83,27 @@ overview: 'QwikCilver publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   QwikCilver''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 1
+random_paper: 11
 score:
   band: emerging
-  composite: 18.6
-  delta: 0.0
+  composite: 16.2
+  delta: -2.4
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 92.5
+    discoverability: 79.6
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 21.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

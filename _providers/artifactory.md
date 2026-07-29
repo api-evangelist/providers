@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -445,7 +447,7 @@ plans:
 - name: Artifactory Plans Pricing
   plan_count: 6
   slug: artifactory-plans-pricing
-random_paper: 36
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Artifactory Rate Limits
@@ -461,19 +463,28 @@ rules:
   slug: artifactory-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 77.3
-  delta: 5.5
+  composite: 74.6
+  delta: -2.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 72.4
+    contract_quality: 66.6
     developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 92.6
+    governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 71.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 77.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:
 - kind: authentication

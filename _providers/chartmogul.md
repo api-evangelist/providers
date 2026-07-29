@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 58.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -137,21 +139,28 @@ overview: 'ChartMogul publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ChartMogul''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 58
+random_paper: 0
 score:
   band: thin
-  composite: 34.7
-  delta: 2.0
+  composite: 32.7
+  delta: -2.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 61.9
+    contract_quality: 63.0
     developer_ergonomics: 30.4
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 34.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 85.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/screenshots/chartmogul-2026-06-20T174231.png
 security:

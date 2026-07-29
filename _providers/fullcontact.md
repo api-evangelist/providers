@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -131,21 +133,28 @@ overview: 'FullContact publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FullContact''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 8 more developer resources.'
-random_paper: 27
+random_paper: 28
 score:
   band: thin
-  composite: 31.2
-  delta: 3.2
+  composite: 29.2
+  delta: -2.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 46.0
+    contract_quality: 48.3
     developer_ergonomics: 34.8
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 31.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/screenshots/fullcontact-2026-06-20T181608.png
 security:

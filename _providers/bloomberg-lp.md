@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,12 +66,28 @@ apis:
 - description: Keyword search across the FIGI universe.
   name: Bloomberg L.P. Search API
   slug: bloomberg-lp-search-api
-artifact_total: 46
+artifact_total: 50
 collections:
+- collection_type: postman
+  name: OpenFIGI Filter API
+  slug: postman-bloomberg-lp-filter-api
+- collection_type: postman
+  name: OpenFIGI Filter Mapping API
+  slug: postman-bloomberg-lp-mapping-api
+- collection_type: postman
+  name: OpenFIGI Filter Reference API
+  slug: postman-bloomberg-lp-reference-api
+- collection_type: postman
+  name: OpenFIGI Filter Search API
+  slug: postman-bloomberg-lp-search-api
 - collection_type: open
   name: OpenFIGI API
   slug: open-openfigi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bloomberg-lp/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -258,12 +276,12 @@ overview: 'Bloomberg L.P. publishes 4 APIs on the [APIs.io](https://apis.io/) ne
   The Bloomberg L.P. catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bloomberg L.P.''s developer surface includes authentication, documentation, support, pricing, engineering blog, product news, and 21 more developer resources.'
+  Bloomberg L.P.''s developer surface includes authentication, documentation, support, pricing, engineering blog, product news, and 22 more developer resources.'
 plans:
 - name: Bloomberg Lp Plans Pricing
   plan_count: 6
   slug: bloomberg-lp-plans-pricing
-random_paper: 62
+random_paper: 63
 rate_limits:
 - limit_count: 6
   name: Bloomberg Lp Rate Limits
@@ -287,23 +305,31 @@ rules:
   slug: openfigi-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 2.9
+  composite: 60.8
+  delta: -3.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 73.5
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 72.9
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 61.5
+  previous_composite: 64.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/screenshots/bloomberg-lp-2026-06-20T173441.png
 security:

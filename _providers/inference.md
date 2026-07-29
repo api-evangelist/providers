@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API for open-source, frontier, and custom language models — chat completions, batch/async inference, function calling, structured outputs, and vision — authenticated with a
@@ -162,26 +164,29 @@ plans:
 - name: Inference Plans
   plan_count: 3
   slug: inference-plans
-random_paper: 59
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Inference Rate Limits
   slug: inference-rate-limits
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 54.3
+  delta: 8.2
   facets:
     commercial_clarity: 84.2
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 13.2
   previous_composite: 46.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/screenshots/inference-2026-07-25T222358.png
 security:
 - kind: authentication

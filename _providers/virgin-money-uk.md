@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,7 +189,7 @@ overview: 'Virgin Money UK publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Virgin Money UK''s developer surface includes authentication, documentation, support, and 22 more developer resources.'
-random_paper: 25
+random_paper: 58
 scopes:
 - name: Virgin Money Uk Scopes
   scope_count: 4
@@ -195,23 +197,33 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 42.1
-  delta: 0.0
+  composite: 40.1
+  delta: -2.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 37.7
-    developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 34.2
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 18.4
   previous_composite: 42.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

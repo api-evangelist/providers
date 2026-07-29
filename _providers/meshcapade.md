@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for programmatic creation of animation-ready 3D avatars from images, video, measurements and text, built on the SMPL body-model family.
@@ -101,21 +103,21 @@ overview: 'Meshcapade publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Meshcapade''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 15
+random_paper: 34
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 23.6
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 37.0
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 24.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

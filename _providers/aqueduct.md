@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -159,26 +161,37 @@ overview: 'Aqueduct publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aqueduct''s developer surface includes documentation, API reference, getting-started guide, authentication, and 13 more developer resources.'
-random_paper: 44
+random_paper: 13
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 35.0
+  delta: -2.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 58.2
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 59.7
+    developer_ergonomics: 49.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 7.9
   previous_composite: 37.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/screenshots/aqueduct-2026-07-25T200954.png
 security:

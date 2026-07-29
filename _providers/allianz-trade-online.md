@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -389,7 +391,7 @@ overview: 'Allianz Trade publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Allianz Trade''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, and 13 more developer resources.'
-random_paper: 38
+random_paper: 8
 rules:
 - name: Allianz Trade API Rules
   rule_count: 5
@@ -414,24 +416,34 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 47.3
+  delta: -6.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 77.9
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.1
+    developer_ergonomics: 45.7
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 15.8
   previous_composite: 53.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 51.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/screenshots/allianz-trade-online-2026-07-25T195702.png
 security:
 - kind: authentication

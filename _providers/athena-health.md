@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -291,7 +293,7 @@ plans:
 - name: Athena Health Plans Pricing
   plan_count: 3
   slug: athena-health-plans-pricing
-random_paper: 8
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Athena Health Rate Limits
@@ -328,24 +330,32 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 55.2
-  delta: 4.0
+  composite: 49.4
+  delta: -5.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 76.1
+    contract_quality: 77.4
     developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 51.2
+  previous_composite: 55.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 42.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/screenshots/athena-health-2026-06-20T172518.png
 security:
 - kind: authentication

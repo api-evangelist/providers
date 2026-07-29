@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 219
   human_in_the_loop: 24
@@ -237,25 +239,32 @@ plans:
 - name: Exoscale Plans Pricing
   plan_count: 3
   slug: exoscale-plans-pricing
-random_paper: 36
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Exoscale Rate Limits
   slug: exoscale-rate-limits
 score:
   band: developing
-  composite: 49.3
-  delta: 3.2
+  composite: 46.5
+  delta: -2.8
   facets:
     commercial_clarity: 78.9
-    contract_quality: 47.8
+    contract_quality: 46.9
     developer_ergonomics: 23.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 46.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 49.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exoscale/refs/heads/main/screenshots/exoscale-2026-06-20T180933.png
 security:

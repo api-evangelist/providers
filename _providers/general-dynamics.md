@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,30 +102,38 @@ press:
 - date: '2026-05-25'
   title: 'General Motors: Iconic Vehicles for Every Drive'
   url: https://www.gm.com/
-random_paper: 3
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: General Dynamics Rate Limits
   slug: general-dynamics-rate-limits
 score:
   band: emerging
-  composite: 27.8
-  delta: 2.8
+  composite: 25.9
+  delta: -1.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 50.4
+    contract_quality: 52.5
     developer_ergonomics: 0.0
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 25.0
+  previous_composite: 27.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 11.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-dynamics/refs/heads/main/screenshots/general-dynamics-2026-06-20T181724.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -385,7 +387,7 @@ plans:
 - name: Cribl Plans Pricing
   plan_count: 3
   slug: cribl-plans-pricing
-random_paper: 48
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Cribl Rate Limits
@@ -454,18 +456,25 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.8
-  delta: 2.5
+  composite: 52.1
+  delta: -2.7
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.1
+    contract_quality: 68.5
     developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 26.3
+    discoverability: 68.5
+    governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 52.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 54.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/screenshots/cribl-2026-06-20T175228.png
 security:

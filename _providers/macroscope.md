@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Workspaces API from Macroscope — 2 operation(s) for workspaces.
@@ -121,21 +123,30 @@ overview: 'Macroscope publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Macroscope''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 10 more developer resources.'
-random_paper: 48
+random_paper: 67
 score:
   band: thin
-  composite: 44.9
-  delta: 0.0
+  composite: 41.8
+  delta: -3.1
   facets:
     commercial_clarity: 23.7
-    contract_quality: 70.8
-    developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 59.3
+    developer_ergonomics: 47.3
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 44.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macroscope/refs/heads/main/screenshots/macroscope-2026-07-25T225824.png
 security:

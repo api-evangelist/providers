@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: REST API that automates tax registration, calculation, and filing while the merchant keeps their own checkout and PSP. Server-to-server, OAuth2 client-credentials. Covers tax calculations, tax transac
@@ -143,26 +145,30 @@ overview: 'Outpost publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Outpost''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 14 more developer resources.'
-random_paper: 50
+random_paper: 28
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 38.9
+  delta: 3.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 22.6
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 50.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 7.9
   previous_composite: 35.5
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -212,7 +214,7 @@ overview: 'Syniverse publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 48
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Syniverse Rate Limits
@@ -224,18 +226,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 52.9
+  delta: 1.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.3
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.5
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 51.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 54.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 66.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

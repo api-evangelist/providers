@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -513,7 +515,7 @@ plans:
 - name: Blueconic Plans Pricing
   plan_count: 1
   slug: blueconic-plans-pricing
-random_paper: 64
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Blueconic Rate Limits
@@ -534,18 +536,25 @@ scopes:
   summary_line: 27 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 45.6
+  delta: -4.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.1
+    contract_quality: 64.0
     developer_ergonomics: 34.8
-    discoverability: 67.5
-    governance: 73.7
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/screenshots/blueconic-2026-06-20T173532.png
 security:

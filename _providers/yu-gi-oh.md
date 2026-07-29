@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -282,7 +284,7 @@ overview: 'YGOPRODeck publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   YGOPRODeck''s developer surface includes documentation, pricing, tooling, and 14 more developer resources.'
-random_paper: 3
+random_paper: 58
 rules:
 - name: YGOPRODeck API Rules
   rule_count: 5
@@ -302,24 +304,32 @@ rules:
   slug: yu-gi-oh-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 2.8
+  composite: 31.4
+  delta: -6.3
   facets:
     commercial_clarity: 10.5
-    contract_quality: 63.4
+    contract_quality: 52.2
     developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 0.0
-  previous_composite: 34.9
+  previous_composite: 37.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 20.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/screenshots/yu-gi-oh-2026-06-20T201751.png
 security:
 - kind: domain-security

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,8 +54,28 @@ apis:
 - description: Create and manage integration workflows.
   name: Apifuse Workflows API
   slug: apifuse-workflows-api
-artifact_total: 40
+artifact_total: 45
+collections:
+- collection_type: postman
+  name: Apifuse Analytics API
+  slug: postman-apifuse-analytics-api
+- collection_type: postman
+  name: Apifuse Analytics Connectors API
+  slug: postman-apifuse-connectors-api
+- collection_type: postman
+  name: Apifuse Analytics Integrations API
+  slug: postman-apifuse-integrations-api
+- collection_type: postman
+  name: Apifuse Analytics Users API
+  slug: postman-apifuse-users-api
+- collection_type: postman
+  name: Apifuse Analytics Workflows API
+  slug: postman-apifuse-workflows-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apifuse/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -179,12 +201,12 @@ overview: 'Apifuse publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Apifuse catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apifuse''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 6 more developer resources.'
+  Apifuse''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 7 more developer resources.'
 plans:
 - name: Apifuse Plans Pricing
   plan_count: 3
   slug: apifuse-plans-pricing
-random_paper: 1
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Apifuse Rate Limits
@@ -207,20 +229,27 @@ rules:
     warn: 14
   slug: apifuse-spectral-rules
 score:
-  band: strong
-  composite: 62.3
-  delta: 0.0
+  band: developing
+  composite: 55.8
+  delta: -6.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 77.9
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 66.1
+    developer_ergonomics: 37.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 62.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/screenshots/apifuse-2026-06-20T172232.png
 security:
 - kind: authentication

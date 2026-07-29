@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -930,7 +932,7 @@ overview: 'Amazon CodeStar publishes 18 APIs on the [APIs.io](https://apis.io/) 
 
 
   Amazon CodeStar''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 15 more developer resources.'
-random_paper: 48
+random_paper: 4
 rules:
 - name: Amazon CodeStar API Rules
   rule_count: 5
@@ -949,19 +951,28 @@ rules:
     warn: 14
   slug: amazon-codestar-spectral-rules
 score:
-  band: developing
-  composite: 57.4
-  delta: 0.0
+  band: strong
+  composite: 56.4
+  delta: -1.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 77.0
+    contract_quality: 78.0
     developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 83.3
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 57.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/screenshots/amazon-codestar-2026-07-25T200001.png
 security:

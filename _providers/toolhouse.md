@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -61,8 +63,34 @@ apis:
 - description: The User API API from Toolhouse — 58 operation(s) for user api.
   name: Toolhouse User API API
   slug: toolhouse-user-api-api
-artifact_total: 84
+artifact_total: 91
+collections:
+- collection_type: postman
+  name: Toolhouse Agent Runs API
+  slug: postman-toolhouse-agent-runs-api
+- collection_type: postman
+  name: Toolhouse Agent Runs API Keys API
+  slug: postman-toolhouse-api-keys-api
+- collection_type: postman
+  name: Toolhouse Agent Runs Backoffice API
+  slug: postman-toolhouse-backoffice-api
+- collection_type: postman
+  name: Toolhouse Agent Runs Logs API
+  slug: postman-toolhouse-logs-api
+- collection_type: postman
+  name: Toolhouse Agent Runs Metrics API
+  slug: postman-toolhouse-metrics-api
+- collection_type: postman
+  name: Toolhouse Agent Runs SDK API API
+  slug: postman-toolhouse-sdk-api-api
+- collection_type: postman
+  name: Toolhouse Agent Runs User API API
+  slug: postman-toolhouse-user-api-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/toolhouse/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -340,8 +368,8 @@ overview: 'Toolhouse publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The Toolhouse catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Toolhouse''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, support, tooling, and 38 more developer resources.'
-random_paper: 42
+  Toolhouse''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, support, tooling, and 39 more developer resources.'
+random_paper: 70
 rate_limits:
 - limit_count: 10
   name: Toolhouse Rate Limits
@@ -365,18 +393,25 @@ rules:
   slug: toolhouse-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 59.8
+  delta: -4.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 58.3
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 55.3
+    developer_ergonomics: 54.3
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 64.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

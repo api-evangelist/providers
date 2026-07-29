@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -109,8 +111,80 @@ apis:
 - description: Create, manage, and execute automation workflows
   name: Commvault Workflows API
   slug: commvault-workflows-api
-artifact_total: 38
+artifact_total: 62
 collections:
+- collection_type: postman
+  name: Commvault Automation Agents API
+  slug: postman-commvault-agents-api
+- collection_type: postman
+  name: Commvault Automation Agents Alerts API
+  slug: postman-commvault-alerts-api
+- collection_type: postman
+  name: Commvault Automation Agents Authentication API
+  slug: postman-commvault-authentication-api
+- collection_type: postman
+  name: Commvault Automation Agents Clients API
+  slug: postman-commvault-clients-api
+- collection_type: postman
+  name: Commvault Automation Agents Dashboard API
+  slug: postman-commvault-dashboard-api
+- collection_type: postman
+  name: Commvault Automation Agents Databases API
+  slug: postman-commvault-databases-api
+- collection_type: postman
+  name: Commvault Automation Agents File Servers API
+  slug: postman-commvault-file-servers-api
+- collection_type: postman
+  name: Commvault Automation Agents Jobs API
+  slug: postman-commvault-jobs-api
+- collection_type: postman
+  name: Commvault Automation Agents Laptops API
+  slug: postman-commvault-laptops-api
+- collection_type: postman
+  name: Commvault Automation Agents Operations API
+  slug: postman-commvault-operations-api
+- collection_type: postman
+  name: Commvault Automation Agents Plans API
+  slug: postman-commvault-plans-api
+- collection_type: postman
+  name: Commvault Automation Agents Policies API
+  slug: postman-commvault-policies-api
+- collection_type: postman
+  name: Commvault Automation Agents Reports API
+  slug: postman-commvault-reports-api
+- collection_type: postman
+  name: Commvault Automation Agents Schedule Policies API
+  slug: postman-commvault-schedule-policies-api
+- collection_type: postman
+  name: Commvault Automation Agents Schedules API
+  slug: postman-commvault-schedules-api
+- collection_type: postman
+  name: Commvault Automation Agents Scripts API
+  slug: postman-commvault-scripts-api
+- collection_type: postman
+  name: Commvault Automation Agents Server Groups API
+  slug: postman-commvault-server-groups-api
+- collection_type: postman
+  name: Commvault Automation Agents SLA API
+  slug: postman-commvault-sla-api
+- collection_type: postman
+  name: Commvault Automation Agents Storage API
+  slug: postman-commvault-storage-api
+- collection_type: postman
+  name: Commvault Automation Agents Storage Policies API
+  slug: postman-commvault-storage-policies-api
+- collection_type: postman
+  name: Commvault Automation Agents Subclients API
+  slug: postman-commvault-subclients-api
+- collection_type: postman
+  name: Commvault Automation Agents Users API
+  slug: postman-commvault-users-api
+- collection_type: postman
+  name: Commvault Automation Agents Virtual Machines API
+  slug: postman-commvault-virtual-machines-api
+- collection_type: postman
+  name: Commvault Automation Agents Workflows API
+  slug: postman-commvault-workflows-api
 - collection_type: open
   name: Commvault Automation API
   slug: open-commvault-automation
@@ -121,6 +195,10 @@ collections:
   name: Commvault REST API
   slug: open-commvault-rest
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/commvault/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -219,12 +297,12 @@ overview: 'Commvault publishes 24 APIs on the [APIs.io](https://apis.io/) networ
   The Commvault catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Commvault''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 12 more developer resources.'
+  Commvault''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Commvault Plans Pricing
   plan_count: 12
   slug: commvault-plans-pricing
-random_paper: 32
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Commvault Rate Limits
@@ -248,18 +326,25 @@ rules:
   slug: commvault-rules
 score:
   band: strong
-  composite: 62.8
-  delta: 3.2
+  composite: 58.5
+  delta: -4.3
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.3
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 64.4
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 59.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/screenshots/commvault-2026-06-20T174828.png
 security:

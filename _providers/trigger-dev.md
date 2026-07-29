@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -67,12 +69,43 @@ apis:
 - description: Create, list, retrieve, and complete waitpoint tokens for human-in-the-loop workflows.
   name: Trigger.dev Waitpoints API
   slug: trigger-dev-waitpoints-api
-artifact_total: 31
+artifact_total: 40
 collections:
+- collection_type: postman
+  name: Trigger.dev Management Batches API
+  slug: postman-trigger-dev-batches-api
+- collection_type: postman
+  name: Trigger.dev Management Batches Deployments API
+  slug: postman-trigger-dev-deployments-api
+- collection_type: postman
+  name: Trigger.dev Management Batches Environment Variables API
+  slug: postman-trigger-dev-environment-variables-api
+- collection_type: postman
+  name: Trigger.dev Management Batches Query API
+  slug: postman-trigger-dev-query-api
+- collection_type: postman
+  name: Trigger.dev Management Batches Queues API
+  slug: postman-trigger-dev-queues-api
+- collection_type: postman
+  name: Trigger.dev Management Batches Runs API
+  slug: postman-trigger-dev-runs-api
+- collection_type: postman
+  name: Trigger.dev Management Batches Schedules API
+  slug: postman-trigger-dev-schedules-api
+- collection_type: postman
+  name: Trigger.dev Management Batches Tasks API
+  slug: postman-trigger-dev-tasks-api
+- collection_type: postman
+  name: Trigger.dev Management Batches Waitpoints API
+  slug: postman-trigger-dev-waitpoints-api
 - collection_type: open
   name: Trigger.dev Management API
   slug: open-trigger-dev-management
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/triggerdev/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,12 +254,12 @@ overview: 'Trigger.dev publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
   The Trigger.dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trigger.dev''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, CLI, signup flow, pricing, and 16 more developer resources.'
+  Trigger.dev''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, CLI, signup flow, pricing, and 17 more developer resources.'
 plans:
 - name: Trigger Dev Plans Pricing
   plan_count: 4
   slug: trigger-dev-plans-pricing
-random_paper: 32
+random_paper: 42
 rate_limits:
 - limit_count: 23
   name: Trigger Dev Rate Limits
@@ -250,18 +283,25 @@ rules:
   slug: trigger-dev-rules
 score:
   band: strong
-  composite: 67.4
-  delta: 4.2
+  composite: 64.1
+  delta: -3.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 74.6
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 75.7
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 63.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/screenshots/trigger-dev-2026-06-20T195710.png
 security:

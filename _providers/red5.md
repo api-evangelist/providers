@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -245,7 +247,7 @@ plans:
 - name: Red5 Plans Pricing
   plan_count: 2
   slug: red5-plans-pricing
-random_paper: 28
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Red5 Rate Limits
@@ -277,18 +279,25 @@ rules:
   slug: red5-rules
 score:
   band: developing
-  composite: 52.0
-  delta: 2.0
+  composite: 47.3
+  delta: -4.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.7
+    contract_quality: 67.2
     developer_ergonomics: 28.3
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 52.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/screenshots/red5-2026-06-20T192724.png
 security:

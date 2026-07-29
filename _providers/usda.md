@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -159,7 +161,7 @@ plans:
 - name: Usda Plans Pricing
   plan_count: 3
   slug: usda-plans-pricing
-random_paper: 21
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Usda Rate Limits
@@ -175,18 +177,25 @@ rules:
   slug: usda-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 47.1
+  delta: -4.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
+    contract_quality: 62.6
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 51.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usda/refs/heads/main/screenshots/usda-2026-06-20T200646.png
 security:

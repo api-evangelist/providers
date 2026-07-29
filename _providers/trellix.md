@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -118,8 +120,47 @@ apis:
 - description: Query aggregated threat intelligence including threat names, severity rankings, SHA256 hashes, and MITRE ATT&CK mappings.
   name: Trellix Threats API
   slug: trellix-threats-api
-artifact_total: 59
+artifact_total: 72
 collections:
+- collection_type: postman
+  name: Trellix EDR Action History API
+  slug: postman-trellix-action-history-api
+- collection_type: postman
+  name: Trellix EDR Action History Affected Hosts API
+  slug: postman-trellix-affected-hosts-api
+- collection_type: postman
+  name: Trellix EDR Action History Alerts API
+  slug: postman-trellix-alerts-api
+- collection_type: postman
+  name: Trellix EDR Action History Detections API
+  slug: postman-trellix-detections-api
+- collection_type: postman
+  name: Trellix EDR Action History Devices API
+  slug: postman-trellix-devices-api
+- collection_type: postman
+  name: Trellix EDR Action History Epo API
+  slug: postman-trellix-epo-api
+- collection_type: postman
+  name: Trellix EDR Action History Events API
+  slug: postman-trellix-events-api
+- collection_type: postman
+  name: Trellix EDR Action History Groups API
+  slug: postman-trellix-groups-api
+- collection_type: postman
+  name: Trellix EDR Action History Queries API
+  slug: postman-trellix-queries-api
+- collection_type: postman
+  name: Trellix EDR Action History Reactions API
+  slug: postman-trellix-reactions-api
+- collection_type: postman
+  name: Trellix EDR Action History Response Actions API
+  slug: postman-trellix-response-actions-api
+- collection_type: postman
+  name: Trellix EDR Action History Searches API
+  slug: postman-trellix-searches-api
+- collection_type: postman
+  name: Trellix EDR Action History Threats API
+  slug: postman-trellix-threats-api
 - collection_type: open
   name: Trellix EDR API
   slug: open-trellix-edr
@@ -127,6 +168,10 @@ collections:
   name: Trellix ePO SaaS API
   slug: open-trellix-epo-saas
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/trellix/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -348,12 +393,12 @@ overview: 'Trellix publishes 14 APIs on the [APIs.io](https://apis.io/) network,
   The Trellix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trellix''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, engineering blog, and 26 more developer resources.'
+  Trellix''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, engineering blog, and 27 more developer resources.'
 plans:
 - name: Trellix Plans Pricing
   plan_count: 1
   slug: trellix-plans-pricing
-random_paper: 24
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Trellix Rate Limits
@@ -377,18 +422,25 @@ rules:
   slug: trellix-spectral-rules
 score:
   band: strong
-  composite: 67.4
-  delta: 3.2
+  composite: 63.7
+  delta: -3.7
   facets:
     commercial_clarity: 63.2
-    contract_quality: 67.3
+    contract_quality: 68.6
     developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 64.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/screenshots/trellix-2026-06-20T195650.png
 security:

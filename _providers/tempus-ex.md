@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 46.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'FusionFeed aggregates sports data and media (schedules, rosters, official and automated statistics, telemetry, scoreboard, and live/VOD video) into a single GraphQL-first API (with an interchangeable '
@@ -141,25 +143,29 @@ overview: 'Tempus Ex publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Tempus Ex''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
-random_paper: 52
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Tempus Ex Rate Limits
   slug: tempus-ex-rate-limits
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 38.0
+  delta: 4.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 31.9
-    developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 53.1
+    developer_ergonomics: 53.8
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 34.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -61,8 +63,37 @@ apis:
 - description: The Versions API from Bump.sh — 2 operation(s) for versions.
   name: Bump.sh Versions API
   slug: bump-sh-versions-api
-artifact_total: 46
+artifact_total: 54
+collections:
+- collection_type: postman
+  name: Bump.sh Api Branches API
+  slug: postman-bump-sh-branches-api
+- collection_type: postman
+  name: Bump.sh Api Branches Diffs API
+  slug: postman-bump-sh-diffs-api
+- collection_type: postman
+  name: Bump.sh Api Branches Hubs API
+  slug: postman-bump-sh-hubs-api
+- collection_type: postman
+  name: Bump.sh Api Branches MCP servers API
+  slug: postman-bump-sh-mcp-servers-api
+- collection_type: postman
+  name: Bump.sh Api Branches Ping API
+  slug: postman-bump-sh-ping-api
+- collection_type: postman
+  name: Bump.sh Api Branches Previews API
+  slug: postman-bump-sh-previews-api
+- collection_type: postman
+  name: Bump.sh Api Branches Validations API
+  slug: postman-bump-sh-validations-api
+- collection_type: postman
+  name: Bump.sh Api Branches Versions API
+  slug: postman-bump-sh-versions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bumpsh/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -261,12 +292,12 @@ overview: 'Bump.sh publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Bump.sh catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bump.sh''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 15 more developer resources.'
+  Bump.sh''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 16 more developer resources.'
 plans:
 - name: Bump Sh Plans Pricing
   plan_count: 4
   slug: bump-sh-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Bump Sh Rate Limits
@@ -290,18 +321,25 @@ rules:
   slug: bump-sh-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.3
-  delta: 0.0
+  composite: 56.8
+  delta: -3.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 63.5
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 60.5
+    contract_quality: 62.5
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 68.4
   previous_composite: 60.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/screenshots/bump-sh-2026-06-20T173758.png
 security:

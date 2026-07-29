@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 6
@@ -79,12 +81,59 @@ apis:
 - description: The Transfers API from PAY.JP — 3 operation(s) for transfers.
   name: PAY.JP Transfers API
   slug: payjp-transfers-api
-artifact_total: 24
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Payjp Webhooks
   slug: payjp-webhooks
+collections:
+- collection_type: postman
+  name: PAY.JP 3D Secure API
+  slug: postman-payjp-3d-secure-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Account API
+  slug: postman-payjp-account-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Balances API
+  slug: postman-payjp-balances-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Cards API
+  slug: postman-payjp-cards-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Charges API
+  slug: postman-payjp-charges-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Customers API
+  slug: postman-payjp-customers-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Events API
+  slug: postman-payjp-events-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Plans API
+  slug: postman-payjp-plans-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Platform API
+  slug: postman-payjp-platform-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Statements API
+  slug: postman-payjp-statements-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Subscriptions API
+  slug: postman-payjp-subscriptions-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Terms API
+  slug: postman-payjp-terms-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Tokens API
+  slug: postman-payjp-tokens-api
+- collection_type: postman
+  name: PAY.JP 3D Secure Transfers API
+  slug: postman-payjp-transfers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/payjp/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -267,35 +316,46 @@ overview: 'PAY.JP publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
   The PAY.JP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PAY.JP''s developer surface includes authentication, sandbox, changelog, documentation, getting-started guide, support, pricing, and 33 more developer resources.'
+  PAY.JP''s developer surface includes authentication, sandbox, changelog, documentation, getting-started guide, support, pricing, and 34 more developer resources.'
 plans:
 - name: Payjp Plans Pricing
   plan_count: 6
   slug: payjp-plans-pricing
-random_paper: 4
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Payjp Rate Limits
   slug: payjp-rate-limits
 score:
   band: exemplar
-  composite: 73.4
-  delta: 0.0
+  composite: 72.5
+  delta: -0.9
   facets:
     commercial_clarity: 100.0
-    contract_quality: 63.5
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.9
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 84.2
   previous_composite: 73.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

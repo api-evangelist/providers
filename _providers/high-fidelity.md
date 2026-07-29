@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Client SDK and hosted spatial audio server for embedding real-time positional voice in web and native apps. Auth is a connection JWT signed with the developer''s App Secret. The hosted server has been '
@@ -106,21 +108,27 @@ overview: 'High Fidelity publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   High Fidelity''s developer surface includes authentication, changelog, getting-started guide, engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 27
+random_paper: 10
 score:
   band: emerging
-  composite: 25.3
-  delta: 0.0
+  composite: 24.2
+  delta: -1.1
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 25.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/screenshots/high-fidelity-2026-07-25T221150.png
 security:

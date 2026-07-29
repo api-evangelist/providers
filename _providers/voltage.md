@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for sending and receiving Bitcoin/Lightning payments. Manage wallets, create send/receive payments (BOLT11, on-chain, BIP21), lock BTC/USD exchange rates with quotes, view lines of credit, an
@@ -208,26 +210,31 @@ overview: 'Voltage publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Voltage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 6
+random_paper: 61
 score:
-  band: developing
-  composite: 54.3
-  delta: 0.0
+  band: strong
+  composite: 56.0
+  delta: 1.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 22.6
-    developer_ergonomics: 87.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 75.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 55.3
   previous_composite: 54.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 56.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

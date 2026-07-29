@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: TIAA's retirement plan services for individual participants, covering 403(b), 457(b), 401(k), and IRA accounts. Products include TIAA Traditional fixed annuity, CREF variable annuities (stock, bond, m
@@ -148,7 +150,7 @@ press:
 - date: '2026-05-25'
   title: Participation in TIAA's Lifetime Income Solutions ...
   url: https://www.prnewswire.com/news-releases/participation-in-tiaas-lifetime-income-solutions-accelerates-as-plan-sponsors-embrace-annuity-embedded-defaults-302730672.html
-random_paper: 60
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Tiaa Cref Rate Limits
@@ -164,24 +166,25 @@ rules:
   slug: tiaa-cref-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 28.3
+  delta: -5.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 33.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/screenshots/tiaa-cref-2026-06-20T195327.png
 security:
 - kind: domain-security

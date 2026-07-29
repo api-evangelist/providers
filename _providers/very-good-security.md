@@ -10,34 +10,44 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Unique IDs that retain all the essential information about the data without compromising its security.
   name: Very Good Security aliases API
   slug: very-good-security-aliases-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Very Good Security Webhooks
   slug: very-good-security-webhooks
+collections:
+- collection_type: postman
+  name: Vault HTTP aliases API
+  slug: postman-very-good-security-aliases-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/very-good-security/overview
 - group: build
   title: ''
   type: Packages
@@ -204,8 +214,8 @@ overview: 'Very Good Security publishes 1 API on the [APIs.io](https://apis.io/)
   The Very Good Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Very Good Security''s developer surface includes CLI, sandbox, changelog, authentication, documentation, API reference, getting-started guide, and 30 more developer resources.'
-random_paper: 21
+  Very Good Security''s developer surface includes CLI, sandbox, changelog, authentication, documentation, API reference, getting-started guide, and 31 more developer resources.'
+random_paper: 9
 scopes:
 - name: Very Good Security Scopes
   scope_count: 3
@@ -213,23 +223,33 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 64.2
+  delta: -1.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.0
-    developer_ergonomics: 87.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 68.3
+    developer_ergonomics: 86.4
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 65.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

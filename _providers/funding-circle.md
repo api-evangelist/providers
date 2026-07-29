@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Retrieve credit decisions
@@ -151,26 +153,36 @@ overview: 'Funding Circle publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Funding Circle''s developer surface includes documentation, API reference, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 58
+random_paper: 32
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 45.9
+  delta: -3.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 70.8
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 72.0
+    developer_ergonomics: 49.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 49.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

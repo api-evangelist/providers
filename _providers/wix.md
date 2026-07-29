@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -198,7 +200,7 @@ plans:
 - name: Wix Plans Pricing
   plan_count: 3
   slug: wix-plans-pricing
-random_paper: 4
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Wix Rate Limits
@@ -219,18 +221,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.8
-  delta: 2.0
+  composite: 51.3
+  delta: -2.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.9
+    contract_quality: 65.7
     developer_ergonomics: 54.3
-    discoverability: 75.0
-    governance: 60.5
+    discoverability: 55.6
+    governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 51.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 53.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/screenshots/wix-2026-06-20T201529.png
 security:

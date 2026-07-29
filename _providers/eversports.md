@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Read-only GraphQL API serving a venue's activity schedules — classes, trainings, workshops, courses, events, retreats, camps, and educations — with venue, teacher, room, sport, and availability detail
@@ -137,22 +139,26 @@ overview: 'Eversports publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Eversports'' developer surface includes documentation, support, pricing, signup flow, authentication, sandbox, and 15 more developer resources.'
-random_paper: 29
+random_paper: 39
 score:
-  band: emerging
-  composite: 29.7
-  delta: 0.0
+  band: thin
+  composite: 37.0
+  delta: 7.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 43.2
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 5.3
   previous_composite: 29.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/screenshots/eversports-2026-07-25T213739.png
 security:
 - kind: authentication

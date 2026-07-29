@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -67,8 +69,43 @@ apis:
 - description: 'The #Action=Select API from Amazon SimpleDB — 1 operation(s) for #action=select.'
   name: 'Amazon SimpleDB #Action=Select API'
   slug: amazon-simpledb-action-select-api
-artifact_total: 142
+artifact_total: 152
+collections:
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes API'
+  slug: postman-amazon-simpledb-action-batchdeleteattributes-api
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=BatchPutAttributes API'
+  slug: postman-amazon-simpledb-action-batchputattributes-api
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=CreateDomain API'
+  slug: postman-amazon-simpledb-action-createdomain-api
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=DeleteAttributes API'
+  slug: postman-amazon-simpledb-action-deleteattributes-api
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=DeleteDomain API'
+  slug: postman-amazon-simpledb-action-deletedomain-api
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=DomainMetadata API'
+  slug: postman-amazon-simpledb-action-domainmetadata-api
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=GetAttributes API'
+  slug: postman-amazon-simpledb-action-getattributes-api
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=ListDomains API'
+  slug: postman-amazon-simpledb-action-listdomains-api
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=PutAttributes API'
+  slug: postman-amazon-simpledb-action-putattributes-api
+- collection_type: postman
+  name: 'Amazon SimpleDB #Action=BatchDeleteAttributes #Action=BatchDeleteAttributes #Action=Select API'
+  slug: postman-amazon-simpledb-action-select-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-simpledb/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -522,12 +559,12 @@ overview: 'Amazon SimpleDB publishes 10 APIs on the [APIs.io](https://apis.io/) 
   The Amazon SimpleDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon SimpleDB''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon SimpleDB''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Simpledb Plans Pricing
   plan_count: 3
   slug: amazon-simpledb-plans-pricing
-random_paper: 43
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Amazon Simpledb Rate Limits
@@ -551,18 +588,25 @@ rules:
   slug: amazon-simpledb-spectral-rules
 score:
   band: strong
-  composite: 67.5
-  delta: 0.0
+  composite: 64.3
+  delta: -3.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.8
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 69.2
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/screenshots/amazon-simpledb-2026-06-20T171823.png
 security:

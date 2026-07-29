@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The open-source FiftyOne Python SDK is the primary interface for building and curating visual AI datasets - creating Datasets and Samples, slicing data with Views and aggregations, computing embedding
@@ -105,25 +107,25 @@ plans:
 - name: Voxel51 Plans Pricing
   plan_count: 4
   slug: voxel51-plans-pricing
-random_paper: 48
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Voxel51 Rate Limits
   slug: voxel51-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: 3.2
+  composite: 32.5
+  delta: -3.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 33.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 36.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

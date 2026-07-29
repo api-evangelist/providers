@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Almanac API V1 (private beta) for programmatic workspace management: import files, move files and folders, view workspace users and groups, view and update document properties and access, and access a'
@@ -85,21 +87,21 @@ overview: 'Almanac Leie1 publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Almanac Leie1''s developer surface includes documentation, API reference, support, pricing, changelog, and 5 more developer resources.'
-random_paper: 2
+random_paper: 71
 score:
   band: emerging
-  composite: 25.9
-  delta: 0.0
+  composite: 23.5
+  delta: -2.4
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 28.3
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 25.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/almanac-leie1/refs/heads/main/screenshots/almanac-leie1-2026-07-25T195738.png
 slug: almanac-leie1

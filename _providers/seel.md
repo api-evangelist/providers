@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.4
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: The Bill API from Seel — 3 operation(s) for bill.
@@ -129,26 +131,36 @@ overview: 'Seel publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Seel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 17
+random_paper: 40
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 37.3
+  delta: -1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 65.5
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 66.9
+    developer_ergonomics: 42.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 38.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Payments
-    regime_id: payments
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 21.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

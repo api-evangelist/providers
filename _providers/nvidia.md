@@ -10,23 +10,25 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services.
@@ -98,26 +100,26 @@ press:
 - date: '2026-05-25'
   title: Dell AI Factory with NVIDIA Delivers Proven Path to ...
   url: https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~03~dell-ai-factory-with-nvidia-delivers-proven-path-to-enterprise-ai-roi.htm
-random_paper: 23
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Nvidia Rate Limits
   slug: nvidia-rate-limits
 score:
-  band: emerging
-  composite: 21.1
-  delta: 0.0
+  band: thin
+  composite: 31.1
+  delta: 10.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 2.2
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia/refs/heads/main/screenshots/nvidia-2026-06-20T190538.png
 security:
 - kind: domain-security

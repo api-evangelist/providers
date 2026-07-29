@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -335,7 +337,7 @@ plans:
 - name: Uber Eats Plans Pricing
   plan_count: 6
   slug: uber-eats-plans-pricing
-random_paper: 20
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Uber Eats Rate Limits
@@ -364,18 +366,25 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: developing
-  composite: 59.1
-  delta: 3.3
+  composite: 55.0
+  delta: -4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.3
+    contract_quality: 70.1
     developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 34.2
-  previous_composite: 55.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 59.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/screenshots/uber-eats-2026-06-20T195931.png
 security:

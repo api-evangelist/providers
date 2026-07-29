@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -127,12 +129,102 @@ apis:
 - description: The Webhooks API from Bringg — 7 operation(s) for webhooks.
   name: Bringg Webhooks API
   slug: bringg-webhooks-api
-artifact_total: 80
+artifact_total: 110
 asyncapis:
 - description: Bringg sends server-to-server webhook callbacks to subscriber URLs when events occur on orders, drivers, runs, customers, and waypoints. Bringg retries failed deliveries three times before recording t
   name: Bringg Webhooks
   slug: bringg-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Bringg Delivery Hub Administration API
+  slug: postman-bringg-administration-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Analytics API
+  slug: postman-bringg-analytics-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Authentication API
+  slug: postman-bringg-authentication-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Blackouts API
+  slug: postman-bringg-blackouts-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Bulk API
+  slug: postman-bringg-bulk-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Customers API
+  slug: postman-bringg-customers-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Delivery Blocks API
+  slug: postman-bringg-delivery-blocks-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Delivery Slots API
+  slug: postman-bringg-delivery-slots-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Drivers API
+  slug: postman-bringg-drivers-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Floating Inventory API
+  slug: postman-bringg-floating-inventory-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Inventory API
+  slug: postman-bringg-inventory-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Notes API
+  slug: postman-bringg-notes-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Operations API
+  slug: postman-bringg-operations-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Order Configurations API
+  slug: postman-bringg-order-configurations-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Orders API
+  slug: postman-bringg-orders-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Packages API
+  slug: postman-bringg-packages-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Parking Spots API
+  slug: postman-bringg-parking-spots-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Planned Routes API
+  slug: postman-bringg-planned-routes-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Quotes API
+  slug: postman-bringg-quotes-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Recurring Orders API
+  slug: postman-bringg-recurring-orders-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Routes API
+  slug: postman-bringg-routes-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Service Areas API
+  slug: postman-bringg-service-areas-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Service Plans API
+  slug: postman-bringg-service-plans-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Shifts API
+  slug: postman-bringg-shifts-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Teams API
+  slug: postman-bringg-teams-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Users API
+  slug: postman-bringg-users-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Vehicle Profiles API
+  slug: postman-bringg-vehicle-profiles-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Vehicles API
+  slug: postman-bringg-vehicles-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Waypoints API
+  slug: postman-bringg-waypoints-api
+- collection_type: postman
+  name: Bringg Delivery Hub Administration Webhooks API
+  slug: postman-bringg-webhooks-api
 - collection_type: open
   name: Bringg Delivery Hub API
   slug: open-bringg-delivery-hub-api
@@ -143,6 +235,10 @@ collections:
   name: Bringg Fleet Partners (Self-Integrated Fleets) API
   slug: open-bringg-fleet-partners-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bringg/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -373,12 +469,12 @@ overview: 'Bringg publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
   The Bringg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Bringg''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 28 more developer resources.'
+  Bringg''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 29 more developer resources.'
 plans:
 - name: Bringg Plans Pricing
   plan_count: 1
   slug: bringg-plans-pricing
-random_paper: 21
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Bringg Rate Limits
@@ -415,18 +511,25 @@ scopes:
   summary_line: 25 scopes · clientCredentials
 score:
   band: strong
-  composite: 66.4
-  delta: 4.7
+  composite: 63.3
+  delta: -3.1
   facets:
     commercial_clarity: 47.4
-    contract_quality: 81.3
-    developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 65.8
+    contract_quality: 81.6
+    developer_ergonomics: 52.2
+    discoverability: 68.5
+    governance: 52.1
     operational_transparency: 76.3
-  previous_composite: 61.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png
 security:

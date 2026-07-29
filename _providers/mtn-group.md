@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 14
@@ -609,7 +611,7 @@ overview: 'MTN Group publishes 115 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   MTN Group''s developer surface includes authentication, documentation, API reference, signup flow, FAQ, support, YouTube channel, and 43 more developer resources.'
-random_paper: 53
+random_paper: 13
 scopes:
 - name: Mtn Group Scopes
   scope_count: 2
@@ -617,23 +619,34 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 49.5
+  delta: -1.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.9
-    developer_ergonomics: 73.9
-    discoverability: 67.5
-    governance: 0.0
+    contract_quality: 60.0
+    developer_ergonomics: 62.5
+    discoverability: 68.5
+    governance: 20.8
     operational_transparency: 21.1
   previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 13.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 115
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Payments
-    regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 66.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

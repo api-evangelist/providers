@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: sennder offers partner-gated integration APIs that allow shippers, carriers, and TMS vendors to connect to the sennOS platform for shipment booking, dispatch, status updates, and real-time visibility.
@@ -134,25 +136,25 @@ plans:
 - name: Sennder Plans Pricing
   plan_count: 1
   slug: sennder-plans-pricing
-random_paper: 3
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Sennder Rate Limits
   slug: sennder-rate-limits
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 23.2
+  delta: -1.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sennder/refs/heads/main/screenshots/sennder-2026-06-20T193659.png
 security:

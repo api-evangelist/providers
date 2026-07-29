@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -116,8 +118,47 @@ arazzos:
 - description: List vulnerability results, drill into one image, and pull its SBOM.
   name: Sysdig Triage Image Vulnerabilities
   slug: sysdig-triage-image-vulnerabilities-workflow
-artifact_total: 44
+artifact_total: 57
 collections:
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit API
+  slug: postman-sysdig-activity-audit-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Alerts API
+  slug: postman-sysdig-alerts-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Compliance API
+  slug: postman-sysdig-compliance-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Dashboards API
+  slug: postman-sysdig-dashboards-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Events API
+  slug: postman-sysdig-events-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Image Scanning API
+  slug: postman-sysdig-image-scanning-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Metrics API
+  slug: postman-sysdig-metrics-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Notification Channels API
+  slug: postman-sysdig-notification-channels-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Policies API
+  slug: postman-sysdig-policies-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Rules API
+  slug: postman-sysdig-rules-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit SBOM API
+  slug: postman-sysdig-sbom-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Teams API
+  slug: postman-sysdig-teams-api
+- collection_type: postman
+  name: Sysdig Monitor Activity Audit Vulnerabilities API
+  slug: postman-sysdig-vulnerabilities-api
 - collection_type: open
   name: Sysdig Monitor API
   slug: open-sysdig-monitor
@@ -125,6 +166,10 @@ collections:
   name: Sysdig Secure API
   slug: open-sysdig-secure
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sysdig/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -318,12 +363,12 @@ overview: 'Sysdig publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
   The Sysdig catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sysdig''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, and 29 more developer resources.'
+  Sysdig''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, and 30 more developer resources.'
 plans:
 - name: Sysdig Plans Pricing
   plan_count: 3
   slug: sysdig-plans-pricing
-random_paper: 47
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Sysdig Rate Limits
@@ -347,18 +392,25 @@ rules:
   slug: sysdig-rules
 score:
   band: strong
-  composite: 68.5
-  delta: 3.2
+  composite: 65.5
+  delta: -3.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.0
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.4
+    developer_ergonomics: 71.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 65.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/screenshots/sysdig-2026-06-20T194836.png
 security:

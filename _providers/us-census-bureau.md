@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 51.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -310,7 +312,7 @@ overview: 'US Census Bureau publishes 19 APIs on the [APIs.io](https://apis.io/)
 
 
   US Census Bureau''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, changelog, tooling, and 24 more developer resources.'
-random_paper: 59
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Us Census Bureau Rate Limits
@@ -334,23 +336,31 @@ rules:
   slug: us-census-bureau-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 44.6
+  delta: -2.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 65.8
+    contract_quality: 65.3
     developer_ergonomics: 41.3
-    discoverability: 67.5
-    governance: 26.3
+    discoverability: 61.1
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 47.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/screenshots/us-census-bureau-2026-06-20T200557.png
 security:

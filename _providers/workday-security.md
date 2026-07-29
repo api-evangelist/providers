@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -76,8 +78,44 @@ apis:
 - description: Manage Workday user accounts including account status, credentials, and associated security configurations.
   name: Workday Security User Accounts API
   slug: workday-security-user-accounts-api
-artifact_total: 48
+artifact_total: 60
 collections:
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons API
+  slug: postman-workday-security-account-signons-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons Audit Logs API
+  slug: postman-workday-security-audit-logs-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons Authentication Configuration API
+  slug: postman-workday-security-authentication-configuration-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons Compliance Reports API
+  slug: postman-workday-security-compliance-reports-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons Domain Security Policies API
+  slug: postman-workday-security-domain-security-policies-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons OAuth Tokens API
+  slug: postman-workday-security-oauth-tokens-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons Security Audit API
+  slug: postman-workday-security-security-audit-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons Security Group Members API
+  slug: postman-workday-security-security-group-members-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons Security Groups API
+  slug: postman-workday-security-security-groups-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons Sessions API
+  slug: postman-workday-security-sessions-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons Unidentified Signons API
+  slug: postman-workday-security-unidentified-signons-api
+- collection_type: postman
+  name: Workday Security Workday Audit and Compliance Account Signons User Accounts API
+  slug: postman-workday-security-user-accounts-api
 - collection_type: open
   name: Workday Security Workday Audit and Compliance API
   slug: open-workday-security-audit
@@ -91,6 +129,10 @@ collections:
   name: Workday Security Groups API
   slug: open-workday-security-security-groups
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/workday-security/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -273,12 +315,12 @@ overview: 'Workday Security publishes 12 APIs on the [APIs.io](https://apis.io/)
   The Workday Security catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Workday Security''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, signup flow, and 17 more developer resources.'
+  Workday Security''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, signup flow, and 18 more developer resources.'
 plans:
 - name: Workday Security Plans Pricing
   plan_count: 1
   slug: workday-security-plans-pricing
-random_paper: 2
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Workday Security Rate Limits
@@ -299,18 +341,25 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 67.0
-  delta: 3.3
+  composite: 62.7
+  delta: -4.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 60.2
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 57.6
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/screenshots/workday-security-2026-06-20T201611.png
 security:

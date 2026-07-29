@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.0
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Financing configuration and limits
@@ -201,26 +203,36 @@ overview: 'Apurata publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Apurata''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 2
+random_paper: 57
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 51.3
+  delta: -3.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.4
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.7
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 55.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 48.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/screenshots/apurata-2026-07-25T200944.png
 security:

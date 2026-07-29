@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -318,7 +320,7 @@ overview: 'NOAA — National Oceanic and Atmospheric Administration publishes 13
 
 
   NOAA — National Oceanic and Atmospheric Administration''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 36 more developer resources.'
-random_paper: 44
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Noaa Gov Rate Limits
@@ -334,24 +336,32 @@ rules:
   slug: noaa-gov-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 2.8
+  composite: 42.1
+  delta: -5.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.9
+    contract_quality: 55.3
     developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 44.9
+  previous_composite: 47.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 46.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Noaa Gov Authentication

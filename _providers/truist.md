@@ -2,11 +2,13 @@
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Open Banking API in the Truist Developer Center covering personal and small-business accounts - account information, balances, and transaction data. Documented in a registration-gated sandbox that ret
@@ -100,26 +102,29 @@ overview: 'Truist publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Truist''s developer surface includes developer portal, documentation, getting-started guide, API reference, signup flow, support, and 9 more developer resources.'
-random_paper: 3
+random_paper: 67
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 23.0
+  delta: -2.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 39.1
-    discoverability: 80.0
-    governance: 0.0
+    discoverability: 66.7
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 25.5
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 24.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

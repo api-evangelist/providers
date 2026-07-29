@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -139,7 +141,7 @@ overview: 'Sei publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Sei''s developer surface includes documentation, GitHub presence, engineering blog, and 10 more developer resources.'
-random_paper: 49
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Sei Cosmos Rest Api Rate Limits
@@ -149,23 +151,31 @@ rate_limits:
   slug: sei-evm-json-rpc-api-rate-limits
 score:
   band: emerging
-  composite: 29.8
-  delta: 0.0
+  composite: 25.3
+  delta: -4.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 47.2
+    contract_quality: 40.3
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 29.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/screenshots/sei-2026-06-20T193635.png
 security:

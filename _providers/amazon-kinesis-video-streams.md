@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,12 +45,22 @@ apis:
 - description: Video stream management
   name: Amazon Kinesis Video Streams Streams API
   slug: amazon-kinesis-video-streams-streams-api
-artifact_total: 32
+artifact_total: 34
 collections:
+- collection_type: postman
+  name: Amazon Kinesis Video Streams Signaling Channels API
+  slug: postman-amazon-kinesis-video-streams-signaling-channels-api
+- collection_type: postman
+  name: Amazon Kinesis Video Signaling Channels Streams API
+  slug: postman-amazon-kinesis-video-streams-streams-api
 - collection_type: open
   name: Amazon Kinesis Video Streams API
   slug: open-amazon-kinesis-video-streams
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-kinesis-video-streams/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,12 +203,12 @@ overview: 'Amazon Kinesis Video Streams publishes 2 APIs on the [APIs.io](https:
   The Amazon Kinesis Video Streams catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Kinesis Video Streams'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Kinesis Video Streams'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Kinesis Video Streams Plans Pricing
   plan_count: 3
   slug: amazon-kinesis-video-streams-plans-pricing
-random_paper: 53
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Amazon Kinesis Video Streams Rate Limits
@@ -220,19 +232,26 @@ rules:
   slug: amazon-kinesis-video-streams-spectral-rules
 score:
   band: strong
-  composite: 68.2
-  delta: 5.5
+  composite: 65.1
+  delta: -3.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 45.7
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 62.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 68.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/screenshots/amazon-kinesis-video-streams-2026-06-20T171720.png
 security:
 - kind: authentication

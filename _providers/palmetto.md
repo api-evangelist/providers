@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.0
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Submit customers, designs and pricing into Palmetto's transparent, auditable clean-energy fulfillment pipeline.
@@ -178,21 +180,36 @@ overview: 'Palmetto publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Palmetto''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 54
+random_paper: 23
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 48.4
+  delta: -3.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.2
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.7
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 52.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

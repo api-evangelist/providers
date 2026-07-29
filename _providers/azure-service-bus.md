@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -49,16 +51,32 @@ apis:
 - description: Service Bus topic operations
   name: Azure Service Bus Topics API
   slug: azure-service-bus-topics-api
-artifact_total: 55
+artifact_total: 59
 asyncapis:
 - description: 'Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics. This AsyncAPI spec describes the messaging patterns for sending and receiving messages '
   name: Azure Service Bus Messaging
   slug: azure-service-bus-asyncapi
 collections:
+- collection_type: postman
+  name: Azure Service Bus Management Namespaces API
+  slug: postman-azure-service-bus-namespaces-api
+- collection_type: postman
+  name: Azure Service Bus Management Namespaces Queues API
+  slug: postman-azure-service-bus-queues-api
+- collection_type: postman
+  name: Azure Service Bus Management Namespaces Subscriptions API
+  slug: postman-azure-service-bus-subscriptions-api
+- collection_type: postman
+  name: Azure Service Bus Management Namespaces Topics API
+  slug: postman-azure-service-bus-topics-api
 - collection_type: open
   name: Azure Service Bus Management API
   slug: open-azure-service-bus
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-service-bus/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -225,12 +243,12 @@ overview: 'Azure Service Bus publishes 4 APIs on the [APIs.io](https://apis.io/)
   The Azure Service Bus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Azure Service Bus'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 6 more developer resources.'
+  Azure Service Bus'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 7 more developer resources.'
 plans:
 - name: Azure Service Bus Plans Pricing
   plan_count: 3
   slug: azure-service-bus-plans-pricing
-random_paper: 24
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Azure Service Bus Rate Limits
@@ -267,18 +285,31 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 60.1
-  delta: 3.3
+  composite: 56.8
+  delta: -3.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 80.5
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 81.2
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 56.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 55.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/screenshots/azure-service-bus-2026-06-20T172908.png
 security:

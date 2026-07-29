@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 34.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Public HTTPS REST API for the Bitnomial exchange — products and contract specs, orders, fills, block trades, indexes, funding rates, and market statistics. HMAC-SHA256 signed authentication; cursor pa
@@ -160,26 +162,30 @@ overview: 'Bitnomial publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Bitnomial''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 7
+random_paper: 35
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 41.0
+  delta: 2.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 27.8
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 49.4
+    developer_ergonomics: 73.9
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 38.4
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 38.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/screenshots/bitnomial-2026-07-25T203158.png
 security:

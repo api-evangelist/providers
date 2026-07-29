@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 23.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.5
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
@@ -280,25 +282,25 @@ plans:
 - name: Apollo Graphql Plans Pricing
   plan_count: 3
   slug: apollo-graphql-plans-pricing
-random_paper: 15
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Apollo Graphql Rate Limits
   slug: apollo-graphql-rate-limits
 score:
   band: thin
-  composite: 43.1
-  delta: 0.0
+  composite: 41.2
+  delta: -1.9
   facets:
     commercial_clarity: 92.1
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 78.9
   previous_composite: 43.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/screenshots/apollo-graphql-2026-06-20T172310.png
 security:

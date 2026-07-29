@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 12.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Outbound webhook that Ko-fi HTTP POSTs to a URL you configure whenever a payment happens on your Ko-fi page. The single POST body is form-encoded with a "data" field containing a JSON payload; a "type
@@ -93,7 +95,7 @@ plans:
 - name: Ko Fi Plans Pricing
   plan_count: 2
   slug: ko-fi-plans-pricing
-random_paper: 62
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Ko Fi Rate Limits
@@ -108,24 +110,25 @@ rules:
     warn: 5
   slug: ko-fi-asyncapi-spectral-rules
 score:
-  band: emerging
-  composite: 29.4
-  delta: 0.0
+  band: thin
+  composite: 30.6
+  delta: 1.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 29.2
+    contract_quality: 50.6
     developer_ergonomics: 10.9
-    discoverability: 80.0
-    governance: 52.6
+    discoverability: 59.3
+    governance: 41.7
     operational_transparency: 21.1
   previous_composite: 29.4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 9.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ko-fi/refs/heads/main/screenshots/ko-fi-2026-07-25T224019.png
 security:

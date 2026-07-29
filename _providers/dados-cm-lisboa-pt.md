@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: CKAN Action API for Lisbon Open Data, ~404 datasets.
@@ -81,30 +83,31 @@ plans:
 - name: Dados Cm Lisboa Pt Plans Pricing
   plan_count: 0
   slug: dados-cm-lisboa-pt-plans-pricing
-random_paper: 28
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Dados Cm Lisboa Pt Rate Limits
   slug: dados-cm-lisboa-pt-rate-limits
 score:
   band: minimal
-  composite: 11.6
-  delta: 0.0
+  composite: 9.5
+  delta: -2.1
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 11.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dados-cm-lisboa-pt/refs/heads/main/screenshots/dados-cm-lisboa-pt-2026-06-20T175423.png
 security:

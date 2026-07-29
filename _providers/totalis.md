@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.4
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Manage programmatic access keys for the authenticated user.
@@ -174,30 +176,40 @@ overview: 'Totalis publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Totalis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, FAQ, authentication, and 17 more developer resources.'
-random_paper: 20
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Totalis Rate Limits
   slug: totalis-rate-limits
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 49.8
+  delta: -3.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.0
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 66.5
+    developer_ergonomics: 49.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 53.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -263,7 +265,7 @@ plans:
 - name: Instacart Plans Pricing
   plan_count: 2
   slug: instacart-plans-pricing
-random_paper: 17
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Instacart Rate Limits
@@ -287,18 +289,25 @@ rules:
   slug: instacart-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 43.2
-  delta: 2.5
+  composite: 41.3
+  delta: -1.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 75.2
+    contract_quality: 79.6
     developer_ergonomics: 10.9
-    discoverability: 67.5
-    governance: 52.6
+    discoverability: 50.0
+    governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 40.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 43.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png
 security:

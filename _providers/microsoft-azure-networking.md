@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -112,8 +114,32 @@ apis:
 - description: Operations for creating, updating, deleting, and listing Azure Virtual Networks within subscriptions and resource groups.
   name: Azure Networking Virtual Networks API
   slug: microsoft-azure-networking-virtual-networks-api
-artifact_total: 61
+artifact_total: 69
 collections:
+- collection_type: postman
+  name: Azure Networking Azure Load Balancer Backend Address Pools API
+  slug: postman-microsoft-azure-networking-backend-address-pools-api
+- collection_type: postman
+  name: Azure Networking Azure Load Balancer Backend Address Pools Load Balancer Probes API
+  slug: postman-microsoft-azure-networking-load-balancer-probes-api
+- collection_type: postman
+  name: Azure Networking Azure Load Balancer Backend Address Pools Load Balancers API
+  slug: postman-microsoft-azure-networking-load-balancers-api
+- collection_type: postman
+  name: Azure Networking Azure Load Balancer Backend Address Pools Load Balancing Rules API
+  slug: postman-microsoft-azure-networking-load-balancing-rules-api
+- collection_type: postman
+  name: Azure Networking Azure Load Balancer Backend Address Pools Operations API
+  slug: postman-microsoft-azure-networking-operations-api
+- collection_type: postman
+  name: Azure Networking Azure Load Balancer Backend Address Pools Subnets API
+  slug: postman-microsoft-azure-networking-subnets-api
+- collection_type: postman
+  name: Azure Networking Azure Load Balancer Backend Address Pools Virtual Network Peerings API
+  slug: postman-microsoft-azure-networking-virtual-network-peerings-api
+- collection_type: postman
+  name: Azure Networking Azure Load Balancer Backend Address Pools Virtual Networks API
+  slug: postman-microsoft-azure-networking-virtual-networks-api
 - collection_type: open
   name: Azure Networking Azure Load Balancer API
   slug: open-azure-networking-load-balancer
@@ -124,6 +150,10 @@ collections:
   name: Azure Virtual Network REST API
   slug: open-microsoft-azure-networking
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-networking/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -307,12 +337,12 @@ overview: 'Azure Networking publishes 8 APIs on the [APIs.io](https://apis.io/) 
   The Azure Networking catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Azure Networking''s developer surface includes authentication, developer portal, documentation, getting-started guide, Stack Overflow tag, changelog, pricing, and 15 more developer resources.'
+  Azure Networking''s developer surface includes authentication, developer portal, documentation, getting-started guide, Stack Overflow tag, changelog, pricing, and 16 more developer resources.'
 plans:
 - name: Microsoft Azure Networking Plans Pricing
   plan_count: 11
   slug: microsoft-azure-networking-plans-pricing
-random_paper: 67
+random_paper: 24
 rate_limits:
 - limit_count: 7
   name: Microsoft Azure Networking Rate Limits
@@ -333,18 +363,25 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 63.2
-  delta: 3.2
+  composite: 60.4
+  delta: -2.8
   facets:
     commercial_clarity: 73.7
-    contract_quality: 59.7
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 61.4
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/screenshots/microsoft-azure-networking-2026-06-20T185429.png
 security:

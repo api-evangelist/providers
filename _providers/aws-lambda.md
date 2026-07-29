@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 66.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -113,16 +115,44 @@ arazzos:
 - description: Upload new function code, wait for the update to settle, smoke-test $LATEST, and publish an immutable version guarded by the code hash.
   name: AWS Lambda Ship New Code and Cut an Immutable Version
   slug: aws-lambda-update-code-publish-version-workflow
-artifact_total: 167
+artifact_total: 175
 asyncapis:
 - description: AWS Lambda integrates with other AWS services to invoke functions in response to events. Lambda functions can be triggered by event sources including Amazon S3, Amazon DynamoDB Streams, Amazon Kinesis
   name: AWS Lambda Event Triggers
   slug: aws-lambda-event-triggers-asyncapi
 collections:
+- collection_type: postman
+  name: AWS Lambda Aliases API
+  slug: postman-aws-lambda-aliases-api
+- collection_type: postman
+  name: AWS Lambda Aliases Concurrency API
+  slug: postman-aws-lambda-concurrency-api
+- collection_type: postman
+  name: AWS Lambda Aliases Event Source Mappings API
+  slug: postman-aws-lambda-event-source-mappings-api
+- collection_type: postman
+  name: AWS Lambda Aliases Function URL API
+  slug: postman-aws-lambda-function-url-api
+- collection_type: postman
+  name: AWS Lambda Aliases Functions API
+  slug: postman-aws-lambda-functions-api
+- collection_type: postman
+  name: AWS Lambda Aliases Layers API
+  slug: postman-aws-lambda-layers-api
+- collection_type: postman
+  name: AWS Lambda Aliases Tags API
+  slug: postman-aws-lambda-tags-api
+- collection_type: postman
+  name: AWS Lambda Aliases Versions API
+  slug: postman-aws-lambda-versions-api
 - collection_type: open
   name: AWS Lambda API
   slug: open-aws-lambda-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aws-lambda/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -668,12 +698,12 @@ overview: 'AWS Lambda publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The AWS Lambda catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 37 more developer resources.'
+  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 38 more developer resources.'
 plans:
 - name: Aws Lambda Plans Pricing
   plan_count: 7
   slug: aws-lambda-plans-pricing
-random_paper: 33
+random_paper: 61
 rate_limits:
 - limit_count: 13
   name: Aws Lambda Rate Limits
@@ -705,18 +735,27 @@ rules:
   slug: aws-lambda-spectral-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 4.6
+  composite: 65.7
+  delta: 0.1
   facets:
     commercial_clarity: 76.3
-    contract_quality: 83.6
-    developer_ergonomics: 28.3
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 84.3
+    developer_ergonomics: 32.6
+    discoverability: 83.3
+    governance: 69.8
     operational_transparency: 47.4
-  previous_composite: 61.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/screenshots/aws-lambda-2026-06-20T172758.png
 security:

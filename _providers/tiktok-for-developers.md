@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -89,8 +91,32 @@ arazzos:
 - description: Read the authenticated user's profile, list their recent videos, then refresh metadata for the newest video.
   name: TikTok User Profile and Recent Videos
   slug: tiktok-for-developers-user-profile-and-videos-workflow
-artifact_total: 37
+artifact_total: 45
 collections:
+- collection_type: postman
+  name: TikTok Content Posting OAuth API
+  slug: postman-tiktok-for-developers-oauth-api
+- collection_type: postman
+  name: TikTok Content Posting OAuth Post API
+  slug: postman-tiktok-for-developers-post-api
+- collection_type: postman
+  name: TikTok Content Posting OAuth Research Comments API
+  slug: postman-tiktok-for-developers-research-comments-api
+- collection_type: postman
+  name: TikTok Content Posting OAuth Research Social API
+  slug: postman-tiktok-for-developers-research-social-api
+- collection_type: postman
+  name: TikTok Content Posting OAuth Research Users API
+  slug: postman-tiktok-for-developers-research-users-api
+- collection_type: postman
+  name: TikTok Content Posting OAuth Research Videos API
+  slug: postman-tiktok-for-developers-research-videos-api
+- collection_type: postman
+  name: TikTok Content Posting OAuth User API
+  slug: postman-tiktok-for-developers-user-api
+- collection_type: postman
+  name: TikTok Content Posting OAuth Video API
+  slug: postman-tiktok-for-developers-video-api
 - collection_type: open
   name: TikTok Content Posting API
   slug: open-tiktok-content-posting
@@ -104,6 +130,10 @@ collections:
   name: TikTok Research API
   slug: open-tiktok-research
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tiktok-for-developers/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -272,12 +302,12 @@ overview: 'TikTok for Developers publishes 8 APIs on the [APIs.io](https://apis.
   The TikTok for Developers catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TikTok for Developers'' developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 23 more developer resources.'
+  TikTok for Developers'' developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 24 more developer resources.'
 plans:
 - name: Tiktok For Developers Plans Pricing
   plan_count: 4
   slug: tiktok-for-developers-plans-pricing
-random_paper: 52
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Tiktok For Developers Rate Limits
@@ -301,18 +331,25 @@ rules:
   slug: tiktok-for-developers-rules
 score:
   band: exemplar
-  composite: 70.6
-  delta: 3.2
+  composite: 68.5
+  delta: -2.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.3
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 73.0
+    developer_ergonomics: 60.9
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 70.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/screenshots/tiktok-for-developers-2026-06-20T195354.png
 security:

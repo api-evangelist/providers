@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Vehicle Routing Problem — assign and order visits across a fleet.
   name: Routific VRP API
   slug: routific-vrp-api
-artifact_total: 22
+artifact_total: 26
 collections:
+- collection_type: postman
+  name: Routific Route Optimization Fix API
+  slug: postman-routific-fix-api
+- collection_type: postman
+  name: Routific Route Optimization Fix Jobs API
+  slug: postman-routific-jobs-api
+- collection_type: postman
+  name: Routific Route Optimization Fix PDP API
+  slug: postman-routific-pdp-api
+- collection_type: postman
+  name: Routific Route Optimization Fix VRP API
+  slug: postman-routific-vrp-api
 - collection_type: open
   name: Routific Route Optimization API
   slug: open-routific-route-optimization-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/routific/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,12 +211,12 @@ overview: 'Routific publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Routific catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Routific''s developer surface includes authentication, GitHub presence, developer portal, signup flow, documentation, support, engineering blog, and 15 more developer resources.'
+  Routific''s developer surface includes authentication, GitHub presence, developer portal, signup flow, documentation, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Routific Plans Pricing
   plan_count: 4
   slug: routific-plans-pricing
-random_paper: 53
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Routific Rate Limits
@@ -221,20 +239,27 @@ rules:
     warn: 3
   slug: routific-rules
 score:
-  band: strong
-  composite: 60.0
-  delta: 5.4
+  band: developing
+  composite: 55.6
+  delta: -4.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 79.6
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 77.4
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 54.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/screenshots/routific-2026-06-20T193228.png
 security:
 - kind: authentication

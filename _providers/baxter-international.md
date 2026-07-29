@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Baxter's DeviceBridge is a cloud-based platform that enables secure data transfer from Baxter medical devices to hospital IT systems including electronic medical records (EMRs). It supports clinical d
@@ -146,7 +148,7 @@ press:
 - date: '2026-05-25'
   title: Baxter CIO Rusty Patel on Resilience and AI in Healthcare
   url: https://www.linkedin.com/posts/peter-high-07a94a1_baxter-cio-rusty-patel-on-connected-care-activity-7370850642262728704-1ZlC
-random_paper: 51
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Baxter International Rate Limits
@@ -162,24 +164,25 @@ rules:
   slug: baxter-spectral-rules
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 28.4
+  delta: -5.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 10.9
-    discoverability: 80.0
-    governance: 39.5
+    discoverability: 59.3
+    governance: 31.3
     operational_transparency: 31.6
   previous_composite: 34.1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 23.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/screenshots/baxter-international-2026-06-20T173048.png
 security:
 - kind: domain-security

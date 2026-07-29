@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -317,7 +319,7 @@ plans:
 - name: Block Plans Pricing
   plan_count: 3
   slug: block-plans-pricing
-random_paper: 47
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Block Rate Limits
@@ -346,24 +348,32 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 69.5
-  delta: 1.7
+  composite: 60.1
+  delta: -9.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 65.5
+    contract_quality: 54.2
     developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 67.8
+  previous_composite: 69.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png
 security:
 - kind: authentication

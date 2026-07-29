@@ -1,32 +1,24 @@
 ---
-access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source:
-  - plans
-  trial: false
-  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: near-conformant
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -36,12 +28,12 @@ agentic_access:
   summary_line: 4 operations · 3 acting
 api_count: 2
 apis:
+- description: 'LLM chat completions (OpenAI-compatible), embeddings, reranking, batch, image generation (FLUX.1, Seedream 3.0/4.0, Qwen), image editing (upscale, background removal/replacement, inpaint, reimagine), '
+  name: Novita AI Platform API
+  slug: platform
 - description: On-demand GPU instance management and templates plus serverless GPU endpoints. Create, start, stop, and delete instances; list products and templates; query usage-based and fixed-term billing.
   name: Novita AI GPU API
   slug: gpu
-- description: The Openai API from Novita AI — 4 operation(s) for openai.
-  name: Novita AI Openai API
-  slug: novita-ai-openai-api
 artifact_total: 11
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous surfaces of the Novita AI platform: 1. **Server-Sent Events (SSE) streaming** for OpenAI-compatible chat completions (`POST /openai/v1/chat/completions` wi'
@@ -52,6 +44,10 @@ collections:
   name: Novita API
   slug: open-novita-ai
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/novita-ai-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,7 +158,7 @@ finops:
 - name: Novita Ai Finops
   service_category: AI
   slug: novita-ai-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novita-ai.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
 - description: ''
@@ -172,18 +168,18 @@ modified: '2026-05-30'
 name: Novita AI
 nav: Providers
 network: true
-overview: 'Novita AI publishes 1 API on the [APIs.io](https://apis.io/) network: Openai API. Tagged areas include AI, LLM, Inference, GPU, and OpenAI Compatible.
+overview: 'Novita AI publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include AI, LLM, Inference, GPU, and OpenAI Compatible.
 
 
   The Novita AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Novita AI''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, CLI, and 20 more developer resources.'
+  Novita AI''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, CLI, and 21 more developer resources.'
 plans:
 - name: Novita Ai Plans Pricing
   plan_count: 1
   slug: novita-ai-plans-pricing
-random_paper: 20
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Novita Ai Rate Limits
@@ -199,18 +195,25 @@ rules:
   slug: novita-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 56.2
-  delta: 3.3
+  composite: 53.9
+  delta: -2.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 54.0
+    contract_quality: 59.7
     developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 52.6
+    discoverability: 68.5
+    governance: 41.7
     operational_transparency: 42.1
-  previous_composite: 52.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 56.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/screenshots/novita-ai-2026-06-20T190520.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Conjunto de recursos para acompanhar e administrar operações relacionadas ao gerenciamento de baixas - esses recursos incluem criar uma nova baixa, retornar as baixas pelo id da parcela, atualizar par
@@ -162,7 +164,7 @@ overview: 'Conta Azul publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Conta Azul''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 2
+random_paper: 21
 scopes:
 - name: Conta Azul Scopes
   scope_count: 3
@@ -170,23 +172,33 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 50.7
+  delta: -4.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.9
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 55.8
+    developer_ergonomics: 56.0
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 54.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/screenshots/conta-azul-2026-07-25T210322.png
 security:

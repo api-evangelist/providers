@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: gRPC/Protobuf API of the Mythical Platform (Saga SDK) for issuing, transferring, and burning game items and currencies, managing item/currency types and minting, creating marketplace listings and offe
@@ -138,21 +140,25 @@ overview: 'Mythical Games publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Mythical Games'' developer surface includes authentication, engineering blog, and 20 more developer resources.'
-random_paper: 1
+random_paper: 43
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 20.4
+  delta: -2.5
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 32.1
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 5.3
   previous_composite: 22.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

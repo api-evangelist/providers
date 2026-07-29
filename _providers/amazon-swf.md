@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -148,8 +150,124 @@ apis:
 - description: 'The #X Amz Target=SimpleWorkflowService.UntagResource API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.untagresource.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.UntagResource API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-untagresource-api
-artifact_total: 512
+artifact_total: 549
+collections:
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-countclosedworkflowexecutions-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountOpenWorkflowExecutions API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-countopenworkflowexecutions-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountPendingActivityTasks API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-countpendingactivitytasks-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountPendingDecisionTasks API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-countpendingdecisiontasks-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.DeprecateActivityType API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-deprecateactivitytype-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.DeprecateDomain API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-deprecatedomain-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.DeprecateWorkflowType API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-deprecateworkflowtype-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.DescribeActivityType API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-describeactivitytype-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.DescribeDomain API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-describedomain-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.DescribeWorkflowExecution API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-describeworkflowexecution-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.DescribeWorkflowType API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-describeworkflowtype-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.GetWorkflowExecutionHistory API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-getworkflowexecutionhistory-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.ListActivityTypes API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-listactivitytypes-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.ListClosedWorkflowExecutions API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-listclosedworkflowexecutions-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.ListDomains API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-listdomains-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.ListOpenWorkflowExecutions API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-listopenworkflowexecutions-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.ListTagsForResource API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-listtagsforresource-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.ListWorkflowTypes API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-listworkflowtypes-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.PollForActivityTask API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-pollforactivitytask-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.PollForDecisionTask API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-pollfordecisiontask-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.RecordActivityTaskHeartbeat API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-recordactivitytaskheartbeat-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.RegisterActivityType API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-registeractivitytype-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.RegisterDomain API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-registerdomain-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.RegisterWorkflowType API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-registerworkflowtype-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.RequestCancelWorkflowExecution API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-requestcancelworkflowexecution-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.RespondActivityTaskCanceled API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-respondactivitytaskcanceled-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.RespondActivityTaskCompleted API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-respondactivitytaskcompleted-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.RespondActivityTaskFailed API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-respondactivitytaskfailed-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.RespondDecisionTaskCompleted API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-responddecisiontaskcompleted-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.SignalWorkflowExecution API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-signalworkflowexecution-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.StartWorkflowExecution API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-startworkflowexecution-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.TagResource API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-tagresource-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.TerminateWorkflowExecution API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-terminateworkflowexecution-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.UndeprecateActivityType API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-undeprecateactivitytype-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.UndeprecateDomain API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-undeprecatedomain-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.UndeprecateWorkflowType API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-undeprecateworkflowtype-api
+- collection_type: postman
+  name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions #X Amz Target=SimpleWorkflowService.UntagResource API'
+  slug: postman-amazon-swf-x-amz-target-simpleworkflowservice-untagresource-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-simple-workflow-service/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1624,12 +1742,12 @@ overview: 'Amazon Simple Workflow Service publishes 37 APIs on the [APIs.io](htt
   The Amazon Simple Workflow Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Simple Workflow Service''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, and 12 more developer resources.'
+  Amazon Simple Workflow Service''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Swf Plans Pricing
   plan_count: 3
   slug: amazon-swf-plans-pricing
-random_paper: 7
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Amazon Swf Rate Limits
@@ -1653,18 +1771,25 @@ rules:
   slug: amazon-swf-spectral-rules
 score:
   band: strong
-  composite: 66.6
-  delta: 0.0
+  composite: 63.6
+  delta: -3.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 68.9
-    developer_ergonomics: 39.1
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 70.2
+    developer_ergonomics: 43.5
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 66.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/screenshots/amazon-swf-2026-06-20T171832.png
 security:

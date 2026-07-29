@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 68.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -190,7 +192,7 @@ overview: 'Algbra publishes 1 API on the [APIs.io](https://apis.io/) network: Ac
 
 
   Algbra''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 5
+random_paper: 1
 scopes:
 - name: Algbra Scopes
   scope_count: 4
@@ -198,23 +200,33 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 49.7
+  delta: -3.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.4
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 10.5
   previous_composite: 53.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/screenshots/algbra-2026-07-25T195604.png
 security:

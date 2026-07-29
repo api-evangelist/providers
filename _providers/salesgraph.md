@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The org audit shortcut.
@@ -132,21 +134,30 @@ overview: 'Salesgraph publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Salesgraph''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 12 more developer resources.'
-random_paper: 46
+random_paper: 65
 score:
-  band: developing
-  composite: 45.7
-  delta: 0.0
+  band: thin
+  composite: 41.8
+  delta: -3.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 63.7
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 49.7
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

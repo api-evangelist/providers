@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -170,7 +172,7 @@ plans:
 - name: Vibes Platform Plans Pricing
   plan_count: 3
   slug: vibes-platform-plans-pricing
-random_paper: 23
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Vibes Platform Rate Limits
@@ -194,19 +196,32 @@ rules:
   slug: vibes-platform-rules
 score:
   band: developing
-  composite: 54.6
-  delta: 3.2
+  composite: 47.5
+  delta: -7.1
   facets:
     commercial_clarity: 47.4
-    contract_quality: 66.2
+    contract_quality: 67.3
     developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 51.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 54.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 30.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png
 security:
 - kind: authentication

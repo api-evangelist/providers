@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -58,12 +60,28 @@ apis:
 - description: Use this API to implement and customize role functionality. Roles represent the broadest level of access and group one or more access profiles. When you create a role and configure it with role criter
   name: SailPoint Roles API
   slug: sailpoint-roles-api
-artifact_total: 67
+artifact_total: 71
 collections:
+- collection_type: postman
+  name: Identity Security Cloud V3 Access Profiles API
+  slug: postman-sailpoint-access-profiles-api
+- collection_type: postman
+  name: Identity Security Cloud V3 Access Profiles Certifications API
+  slug: postman-sailpoint-certifications-api
+- collection_type: postman
+  name: Identity Security Cloud V3 Access Profiles Identities API
+  slug: postman-sailpoint-identities-api
+- collection_type: postman
+  name: Identity Security Cloud V3 Access Profiles Roles API
+  slug: postman-sailpoint-roles-api
 - collection_type: open
   name: Identity Security Cloud V3 API
   slug: open-identity-security-cloud-v3
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sailpoint/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -421,12 +439,12 @@ overview: 'SailPoint publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The SailPoint catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SailPoint''s developer surface includes authentication, getting-started guide, engineering blog, support, CLI, tooling, and 40 more developer resources.'
+  SailPoint''s developer surface includes authentication, getting-started guide, engineering blog, support, CLI, tooling, and 41 more developer resources.'
 plans:
 - name: Sailpoint Plans Pricing
   plan_count: 1
   slug: sailpoint-plans-pricing
-random_paper: 27
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Sailpoint Rate Limits
@@ -455,18 +473,25 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 66.5
-  delta: 3.3
+  composite: 62.5
+  delta: -4.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 75.2
+    contract_quality: 75.7
     developer_ergonomics: 63.0
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 63.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/screenshots/sailpoint-2026-06-20T193336.png
 security:

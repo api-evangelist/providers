@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 2
@@ -244,8 +246,220 @@ apis:
 - description: The Violations API from Amazon IoT Device Management — 1 operation(s) for violations.
   name: Amazon IoT Device Management Violations API
   slug: amazon-iot-device-management-violations-api
-artifact_total: 686
+artifact_total: 755
+collections:
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer API
+  slug: postman-amazon-iot-device-management-accept-certificate-transfer-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Active Violations API
+  slug: postman-amazon-iot-device-management-active-violations-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Attached Policies API
+  slug: postman-amazon-iot-device-management-attached-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Audit API
+  slug: postman-amazon-iot-device-management-audit-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Authorizer API
+  slug: postman-amazon-iot-device-management-authorizer-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Authorizers API
+  slug: postman-amazon-iot-device-management-authorizers-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Behavior Model Training API
+  slug: postman-amazon-iot-device-management-behavior-model-training-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Billing Groups API
+  slug: postman-amazon-iot-device-management-billing-groups-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Cacertificate API
+  slug: postman-amazon-iot-device-management-cacertificate-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Cacertificates API
+  slug: postman-amazon-iot-device-management-cacertificates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Cancel Certificate Transfer API
+  slug: postman-amazon-iot-device-management-cancel-certificate-transfer-api
+- collection_type: postman
+  name: AWS IoT Accept Transfer Certificate API
+  slug: postman-amazon-iot-device-management-certificate-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Certificates API
+  slug: postman-amazon-iot-device-management-certificates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Certificates By Ca API
+  slug: postman-amazon-iot-device-management-certificates-by-ca-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Certificates Out Going API
+  slug: postman-amazon-iot-device-management-certificates-out-going-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Confirmdestination API
+  slug: postman-amazon-iot-device-management-confirmdestination-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Custom Metric API
+  slug: postman-amazon-iot-device-management-custom-metric-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Custom Metrics API
+  slug: postman-amazon-iot-device-management-custom-metrics-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Default Authorizer API
+  slug: postman-amazon-iot-device-management-default-authorizer-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Destinations API
+  slug: postman-amazon-iot-device-management-destinations-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Detect API
+  slug: postman-amazon-iot-device-management-detect-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Dimensions API
+  slug: postman-amazon-iot-device-management-dimensions-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer DomainConfigurations API
+  slug: postman-amazon-iot-device-management-domainconfigurations-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Dynamic Thing Groups API
+  slug: postman-amazon-iot-device-management-dynamic-thing-groups-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Effective Policies API
+  slug: postman-amazon-iot-device-management-effective-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Endpoint API
+  slug: postman-amazon-iot-device-management-endpoint-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Event Configurations API
+  slug: postman-amazon-iot-device-management-event-configurations-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Fleet Metric API
+  slug: postman-amazon-iot-device-management-fleet-metric-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Fleet Metrics API
+  slug: postman-amazon-iot-device-management-fleet-metrics-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Indexing API
+  slug: postman-amazon-iot-device-management-indexing-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Indices API
+  slug: postman-amazon-iot-device-management-indices-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Job Templates API
+  slug: postman-amazon-iot-device-management-job-templates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Jobs API
+  slug: postman-amazon-iot-device-management-jobs-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Keys And Certificate API
+  slug: postman-amazon-iot-device-management-keys-and-certificate-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer LoggingOptions API
+  slug: postman-amazon-iot-device-management-loggingoptions-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Managed Job Templates API
+  slug: postman-amazon-iot-device-management-managed-job-templates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Metric Values#thingName&metricName&startTime&endTime API
+  slug: postman-amazon-iot-device-management-metric-values-thingname-metricname-starttime-endtime-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Mitigationactions API
+  slug: postman-amazon-iot-device-management-mitigationactions-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer OtaUpdates API
+  slug: postman-amazon-iot-device-management-otaupdates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Policies API
+  slug: postman-amazon-iot-device-management-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Policy Principals#x Amzn Iot Policy API
+  slug: postman-amazon-iot-device-management-policy-principals-x-amzn-iot-policy-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Policy Targets API
+  slug: postman-amazon-iot-device-management-policy-targets-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Principal Policies API
+  slug: postman-amazon-iot-device-management-principal-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Principal Policies#x Amzn Iot Principal API
+  slug: postman-amazon-iot-device-management-principal-policies-x-amzn-iot-principal-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Principals API
+  slug: postman-amazon-iot-device-management-principals-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Provisioning Templates API
+  slug: postman-amazon-iot-device-management-provisioning-templates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Registrationcode API
+  slug: postman-amazon-iot-device-management-registrationcode-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Reject Certificate Transfer API
+  slug: postman-amazon-iot-device-management-reject-certificate-transfer-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Role Aliases API
+  slug: postman-amazon-iot-device-management-role-aliases-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Rules API
+  slug: postman-amazon-iot-device-management-rules-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Security Profile Behaviors API
+  slug: postman-amazon-iot-device-management-security-profile-behaviors-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Security Profiles API
+  slug: postman-amazon-iot-device-management-security-profiles-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Security Profiles For Target#securityProfileTargetArn API
+  slug: postman-amazon-iot-device-management-security-profiles-for-target-securityprofiletargetarn-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Streams API
+  slug: postman-amazon-iot-device-management-streams-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Tags API
+  slug: postman-amazon-iot-device-management-tags-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Tags#resourceArn API
+  slug: postman-amazon-iot-device-management-tags-resourcearn-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Target Policies API
+  slug: postman-amazon-iot-device-management-target-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Test Authorization API
+  slug: postman-amazon-iot-device-management-test-authorization-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Thing Groups API
+  slug: postman-amazon-iot-device-management-thing-groups-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Thing Registration Tasks API
+  slug: postman-amazon-iot-device-management-thing-registration-tasks-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Thing Types API
+  slug: postman-amazon-iot-device-management-thing-types-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Things API
+  slug: postman-amazon-iot-device-management-things-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Transfer Certificate API
+  slug: postman-amazon-iot-device-management-transfer-certificate-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Untag API
+  slug: postman-amazon-iot-device-management-untag-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer V2LoggingLevel API
+  slug: postman-amazon-iot-device-management-v2logginglevel-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer V2LoggingLevel#targetType&targetName API
+  slug: postman-amazon-iot-device-management-v2logginglevel-targettype-targetname-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer V2LoggingOptions API
+  slug: postman-amazon-iot-device-management-v2loggingoptions-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Violation Events#startTime&endTime API
+  slug: postman-amazon-iot-device-management-violation-events-starttime-endtime-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Violations API
+  slug: postman-amazon-iot-device-management-violations-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-iot-device-management/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2162,12 +2376,12 @@ overview: 'Amazon IoT Device Management publishes 69 APIs on the [APIs.io](https
   The Amazon IoT Device Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IoT Device Management''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon IoT Device Management''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Iot Device Management Plans Pricing
   plan_count: 3
   slug: amazon-iot-device-management-plans-pricing
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Device Management Rate Limits
@@ -2191,18 +2405,25 @@ rules:
   slug: amazon-iot-device-management-spectral-rules
 score:
   band: strong
-  composite: 64.3
-  delta: 0.0
+  composite: 62.2
+  delta: -2.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.8
-    developer_ergonomics: 41.3
-    discoverability: 55.0
-    governance: 86.8
+    contract_quality: 70.4
+    developer_ergonomics: 45.7
+    discoverability: 40.7
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 64.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 69
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/screenshots/amazon-iot-device-management-2026-06-20T171712.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,12 +81,58 @@ apis:
 - description: Care providers
   name: CharmHealth Practitioner API
   slug: charmhealth-practitioner-api
-artifact_total: 27
+artifact_total: 41
 collections:
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance API
+  slug: postman-charmhealth-allergyintolerance-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance Appointment API
+  slug: postman-charmhealth-appointment-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance Capability API
+  slug: postman-charmhealth-capability-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance CarePlan API
+  slug: postman-charmhealth-careplan-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance CareTeam API
+  slug: postman-charmhealth-careteam-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance Condition API
+  slug: postman-charmhealth-condition-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance DocumentReference API
+  slug: postman-charmhealth-documentreference-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance Encounter API
+  slug: postman-charmhealth-encounter-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance Immunization API
+  slug: postman-charmhealth-immunization-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance MedicationRequest API
+  slug: postman-charmhealth-medicationrequest-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance Observation API
+  slug: postman-charmhealth-observation-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance Organization API
+  slug: postman-charmhealth-organization-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance Patient API
+  slug: postman-charmhealth-patient-api
+- collection_type: postman
+  name: CharmHealth FHIR AllergyIntolerance Practitioner API
+  slug: postman-charmhealth-practitioner-api
 - collection_type: open
   name: CharmHealth FHIR API
   slug: open-charmhealth-fhir-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/charmhealth/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,12 +255,12 @@ overview: 'CharmHealth publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   The CharmHealth catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CharmHealth''s developer surface includes authentication, documentation, product news, engineering blog, pricing, support, and 17 more developer resources.'
+  CharmHealth''s developer surface includes authentication, documentation, product news, engineering blog, pricing, support, and 18 more developer resources.'
 plans:
 - name: Charmhealth Plans Pricing
   plan_count: 3
   slug: charmhealth-plans-pricing
-random_paper: 65
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Charmhealth Rate Limits
@@ -232,25 +280,33 @@ scopes:
   slug: charmhealth-scopes
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 61.8
-  delta: 2.7
+  band: developing
+  composite: 54.8
+  delta: -7.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.8
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 57.6
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 59.1
+  previous_composite: 61.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 60.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/screenshots/charmhealth-2026-06-20T174227.png
 security:
 - kind: authentication

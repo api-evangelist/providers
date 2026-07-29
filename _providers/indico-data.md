@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 29.1
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Exchange an API token for a short-lived JWT access token
@@ -158,26 +160,36 @@ overview: 'Indico Data publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Indico Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 65
+random_paper: 7
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 51.6
+  delta: -2.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.2
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.9
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 54.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 53.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
 security:

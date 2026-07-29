@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 17
 apis:
 - description: 'Connect IQ is Garmin''s open platform for building wearable apps that run on Garmin watches and cycling computers. Developers write apps in Monkey C — Garmin''s purpose-built object-oriented language — '
@@ -236,27 +238,28 @@ overview: 'Garmin publishes 17 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Garmin''s developer surface includes developer portal, documentation, signup flow, tooling, engineering blog, YouTube channel, and 23 more developer resources.'
-random_paper: 26
+random_paper: 22
 score:
-  band: emerging
-  composite: 23.8
-  delta: 0.0
+  band: thin
+  composite: 30.2
+  delta: 6.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 34.8
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 23.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 17.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/garmin/refs/heads/main/screenshots/garmin-2026-06-20T181648.png
 security:
 - kind: domain-security

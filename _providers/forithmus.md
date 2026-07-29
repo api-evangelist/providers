@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -209,21 +211,31 @@ overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Forithmus'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, CLI, and 13 more developer resources.'
-random_paper: 41
+random_paper: 69
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 36.3
+  delta: -2.2
   facets:
     commercial_clarity: 13.2
-    contract_quality: 46.6
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 44.6
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 38.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/screenshots/forithmus-2026-07-25T214941.png
 security:

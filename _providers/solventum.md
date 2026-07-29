@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Solventum's Health Information Systems (formerly 3M HIS) provides APIs for clinical documentation, coding and grouping, computer-assisted coding (CAC), revenue cycle management, and healthcare analyti
@@ -145,7 +147,7 @@ plans:
 - name: Solventum Plans Pricing
   plan_count: 3
   slug: solventum-plans-pricing
-random_paper: 53
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Solventum Rate Limits
@@ -161,24 +163,25 @@ rules:
   slug: solventum-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 32.6
+  delta: -6.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 9.4
+    contract_quality: 8.1
     developer_ergonomics: 15.2
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 31.6
   previous_composite: 38.9
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 23.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/solventum/refs/heads/main/screenshots/solventum-2026-06-20T194155.png
 security:
 - kind: domain-security

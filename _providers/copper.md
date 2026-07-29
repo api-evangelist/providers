@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -58,16 +60,41 @@ apis:
 - description: Event subscription webhooks
   name: Copper Webhooks API
   slug: copper-webhooks-api
-artifact_total: 50
+artifact_total: 57
 asyncapis:
 - description: AsyncAPI definition for the Copper CRM webhook surface. Copper webhooks are HTTP POST deliveries from Copper to a subscriber-defined `target` URL that was registered via the Copper Developer API (`POS
   name: Copper CRM Webhooks
   slug: copper-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Copper Developer Activities API
+  slug: postman-copper-activities-api
+- collection_type: postman
+  name: Copper Developer Activities Companies API
+  slug: postman-copper-companies-api
+- collection_type: postman
+  name: Copper Developer Activities Leads API
+  slug: postman-copper-leads-api
+- collection_type: postman
+  name: Copper Developer Activities Opportunities API
+  slug: postman-copper-opportunities-api
+- collection_type: postman
+  name: Copper Developer Activities People API
+  slug: postman-copper-people-api
+- collection_type: postman
+  name: Copper Developer Activities Tasks API
+  slug: postman-copper-tasks-api
+- collection_type: postman
+  name: Copper Developer Activities Webhooks API
+  slug: postman-copper-webhooks-api
 - collection_type: open
   name: Copper Developer API
   slug: open-copper-developer-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/copper/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -232,12 +259,12 @@ overview: 'Copper publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Copper catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Copper''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, YouTube channel, and 14 more developer resources.'
+  Copper''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, YouTube channel, and 15 more developer resources.'
 plans:
 - name: Copper Plans Pricing
   plan_count: 4
   slug: copper-plans-pricing
-random_paper: 37
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Copper Rate Limits
@@ -269,18 +296,25 @@ rules:
   slug: copper-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.8
-  delta: 3.2
+  composite: 60.2
+  delta: -2.6
   facets:
     commercial_clarity: 78.9
-    contract_quality: 68.0
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 52.6
+    contract_quality: 69.4
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 42.1
-  previous_composite: 59.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/screenshots/copper-2026-06-20T175018.png
 security:

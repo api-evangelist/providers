@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -81,12 +83,62 @@ apis:
 - description: Operations related to Wingspan Wallet
   name: Wingspan Wingspan Wallet API
   slug: wingspan-wingspan-wallet-api
-artifact_total: 22
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Wingspan Webhooks
   slug: wingspan-webhooks
+collections:
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations API
+  slug: postman-wingspan-1099-operations-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Banking Management API
+  slug: postman-wingspan-banking-management-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Bulk Operations API
+  slug: postman-wingspan-bulk-operations-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Client Management API
+  slug: postman-wingspan-client-management-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Collaborator Management API
+  slug: postman-wingspan-collaborator-management-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Custom Field Management API
+  slug: postman-wingspan-custom-field-management-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Deprecated API
+  slug: postman-wingspan-deprecated-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Document Signing and Eligibility API
+  slug: postman-wingspan-document-signing-and-eligibility-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Invoice Management API
+  slug: postman-wingspan-invoice-management-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Merchant Category Codes API
+  slug: postman-wingspan-merchant-category-codes-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Payables Management API
+  slug: postman-wingspan-payables-management-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Payroll Settings API
+  slug: postman-wingspan-payroll-settings-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Reporting and Analytics API
+  slug: postman-wingspan-reporting-and-analytics-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Service Settings API
+  slug: postman-wingspan-service-settings-api
+- collection_type: postman
+  name: Wingspan Payments 1099 Operations Wingspan Wallet API
+  slug: postman-wingspan-wingspan-wallet-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wingspan/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -233,31 +285,42 @@ overview: 'Wingspan publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Wingspan catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wingspan''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 55
+  Wingspan''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 26 more developer resources.'
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Wingspan Rate Limits
   slug: wingspan-rate-limits
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 59.0
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.6
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.2
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 50.0
   previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

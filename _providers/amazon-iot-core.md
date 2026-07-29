@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 2
@@ -247,12 +249,226 @@ apis:
 - description: The Violations API from Amazon IoT Core — 1 operation(s) for violations.
   name: Amazon IoT Core Violations API
   slug: amazon-iot-core-violations-api
-artifact_total: 695
+artifact_total: 765
 collections:
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer API
+  slug: postman-amazon-iot-core-accept-certificate-transfer-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Active Violations API
+  slug: postman-amazon-iot-core-active-violations-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Attached Policies API
+  slug: postman-amazon-iot-core-attached-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Audit API
+  slug: postman-amazon-iot-core-audit-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Authorizer API
+  slug: postman-amazon-iot-core-authorizer-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Authorizers API
+  slug: postman-amazon-iot-core-authorizers-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Behavior Model Training API
+  slug: postman-amazon-iot-core-behavior-model-training-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Billing Groups API
+  slug: postman-amazon-iot-core-billing-groups-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Cacertificate API
+  slug: postman-amazon-iot-core-cacertificate-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Cacertificates API
+  slug: postman-amazon-iot-core-cacertificates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Cancel Certificate Transfer API
+  slug: postman-amazon-iot-core-cancel-certificate-transfer-api
+- collection_type: postman
+  name: AWS IoT Accept Transfer Certificate API
+  slug: postman-amazon-iot-core-certificate-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Certificates API
+  slug: postman-amazon-iot-core-certificates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Certificates By Ca API
+  slug: postman-amazon-iot-core-certificates-by-ca-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Certificates Out Going API
+  slug: postman-amazon-iot-core-certificates-out-going-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Confirmdestination API
+  slug: postman-amazon-iot-core-confirmdestination-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Custom Metric API
+  slug: postman-amazon-iot-core-custom-metric-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Custom Metrics API
+  slug: postman-amazon-iot-core-custom-metrics-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Default Authorizer API
+  slug: postman-amazon-iot-core-default-authorizer-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Destinations API
+  slug: postman-amazon-iot-core-destinations-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Detect API
+  slug: postman-amazon-iot-core-detect-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Dimensions API
+  slug: postman-amazon-iot-core-dimensions-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer DomainConfigurations API
+  slug: postman-amazon-iot-core-domainconfigurations-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Dynamic Thing Groups API
+  slug: postman-amazon-iot-core-dynamic-thing-groups-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Effective Policies API
+  slug: postman-amazon-iot-core-effective-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Endpoint API
+  slug: postman-amazon-iot-core-endpoint-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Event Configurations API
+  slug: postman-amazon-iot-core-event-configurations-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Fleet Metric API
+  slug: postman-amazon-iot-core-fleet-metric-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Fleet Metrics API
+  slug: postman-amazon-iot-core-fleet-metrics-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Indexing API
+  slug: postman-amazon-iot-core-indexing-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Indices API
+  slug: postman-amazon-iot-core-indices-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Job Templates API
+  slug: postman-amazon-iot-core-job-templates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Jobs API
+  slug: postman-amazon-iot-core-jobs-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Keys And Certificate API
+  slug: postman-amazon-iot-core-keys-and-certificate-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer LoggingOptions API
+  slug: postman-amazon-iot-core-loggingoptions-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Managed Job Templates API
+  slug: postman-amazon-iot-core-managed-job-templates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Metric Values#thingName&metricName&startTime&endTime API
+  slug: postman-amazon-iot-core-metric-values-thingname-metricname-starttime-endtime-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Mitigationactions API
+  slug: postman-amazon-iot-core-mitigationactions-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer OtaUpdates API
+  slug: postman-amazon-iot-core-otaupdates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Policies API
+  slug: postman-amazon-iot-core-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Policy Principals#x Amzn Iot Policy API
+  slug: postman-amazon-iot-core-policy-principals-x-amzn-iot-policy-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Policy Targets API
+  slug: postman-amazon-iot-core-policy-targets-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Principal Policies API
+  slug: postman-amazon-iot-core-principal-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Principal Policies#x Amzn Iot Principal API
+  slug: postman-amazon-iot-core-principal-policies-x-amzn-iot-principal-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Principals API
+  slug: postman-amazon-iot-core-principals-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Provisioning Templates API
+  slug: postman-amazon-iot-core-provisioning-templates-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Registrationcode API
+  slug: postman-amazon-iot-core-registrationcode-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Reject Certificate Transfer API
+  slug: postman-amazon-iot-core-reject-certificate-transfer-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Role Aliases API
+  slug: postman-amazon-iot-core-role-aliases-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Rules API
+  slug: postman-amazon-iot-core-rules-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Security Profile Behaviors API
+  slug: postman-amazon-iot-core-security-profile-behaviors-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Security Profiles API
+  slug: postman-amazon-iot-core-security-profiles-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Security Profiles For Target#securityProfileTargetArn API
+  slug: postman-amazon-iot-core-security-profiles-for-target-securityprofiletargetarn-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Shadows API
+  slug: postman-amazon-iot-core-shadows-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Streams API
+  slug: postman-amazon-iot-core-streams-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Tags API
+  slug: postman-amazon-iot-core-tags-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Tags#resourceArn API
+  slug: postman-amazon-iot-core-tags-resourcearn-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Target Policies API
+  slug: postman-amazon-iot-core-target-policies-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Test Authorization API
+  slug: postman-amazon-iot-core-test-authorization-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Thing Groups API
+  slug: postman-amazon-iot-core-thing-groups-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Thing Registration Tasks API
+  slug: postman-amazon-iot-core-thing-registration-tasks-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Thing Types API
+  slug: postman-amazon-iot-core-thing-types-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Things API
+  slug: postman-amazon-iot-core-things-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Transfer Certificate API
+  slug: postman-amazon-iot-core-transfer-certificate-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Untag API
+  slug: postman-amazon-iot-core-untag-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer V2LoggingLevel API
+  slug: postman-amazon-iot-core-v2logginglevel-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer V2LoggingLevel#targetType&targetName API
+  slug: postman-amazon-iot-core-v2logginglevel-targettype-targetname-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer V2LoggingOptions API
+  slug: postman-amazon-iot-core-v2loggingoptions-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Violation Events#startTime&endTime API
+  slug: postman-amazon-iot-core-violation-events-starttime-endtime-api
+- collection_type: postman
+  name: AWS IoT Accept Certificate Transfer Violations API
+  slug: postman-amazon-iot-core-violations-api
 - collection_type: open
   name: Amazon IoT Core API
   slug: open-amazon-iot-core
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-iot-core/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2187,12 +2403,12 @@ overview: 'Amazon IoT Core publishes 70 APIs on the [APIs.io](https://apis.io/) 
   The Amazon IoT Core catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IoT Core''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon IoT Core''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Iot Core Plans Pricing
   plan_count: 3
   slug: amazon-iot-core-plans-pricing
-random_paper: 65
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Core Rate Limits
@@ -2216,18 +2432,25 @@ rules:
   slug: amazon-iot-core-spectral-rules
 score:
   band: strong
-  composite: 64.3
-  delta: 0.0
+  composite: 62.2
+  delta: -2.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.7
-    developer_ergonomics: 41.3
-    discoverability: 55.0
-    governance: 86.8
+    contract_quality: 70.4
+    developer_ergonomics: 45.7
+    discoverability: 40.7
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 64.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 70
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/screenshots/amazon-iot-core-2026-06-20T171706.png
 security:

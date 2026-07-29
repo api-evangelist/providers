@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -203,21 +205,31 @@ overview: 'Archastro publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Archastro''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 21 more developer resources.'
-random_paper: 15
+random_paper: 43
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 46.1
+  delta: -2.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 57.3
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 54.8
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 48.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/screenshots/archastro-2026-07-25T201021.png
 security:

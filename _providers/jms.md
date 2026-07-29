@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Jakarta Messaging (formerly Java Message Service) specification for enterprise messaging and asynchronous communication between distributed components. Defines point-to-point queues and publish/su
@@ -74,25 +76,31 @@ plans:
 - name: Jms Plans Pricing
   plan_count: 3
   slug: jms-plans-pricing
-random_paper: 58
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Jms Rate Limits
   slug: jms-rate-limits
 score:
   band: emerging
-  composite: 22.4
-  delta: 0.0
+  composite: 18.5
+  delta: -3.9
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 22.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jms/refs/heads/main/screenshots/jms-2026-06-20T183740.png
 security:

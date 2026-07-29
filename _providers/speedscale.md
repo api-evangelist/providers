@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Speedscale captures production API traffic and replays it in lower environments for load testing, regression testing, and chaos testing. It provides traffic capture, replay, mocking of backend depende
@@ -142,7 +144,7 @@ plans:
 - name: Speedscale Plans Pricing
   plan_count: 3
   slug: speedscale-plans-pricing
-random_paper: 29
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Speedscale Rate Limits
@@ -166,19 +168,19 @@ rules:
   slug: speedscale-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 42.5
+  delta: -5.4
   facets:
     commercial_clarity: 63.2
-    contract_quality: 32.1
+    contract_quality: 27.4
     developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 47.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/speedscale/refs/heads/main/screenshots/speedscale-2026-06-20T194303.png
 security:
 - kind: domain-security

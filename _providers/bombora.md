@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: 'OAuth 2.0 token endpoint that issues bearer access tokens used to authenticate calls to the rest of Bombora''s developer APIs. Clients exchange credentials for a short-lived access token via a POST to '
@@ -133,22 +135,22 @@ overview: 'Bombora publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Bombora''s developer surface includes privacy policy, YouTube channel, engineering blog, and 14 more developer resources.'
-random_paper: 58
+random_paper: 45
 score:
   band: emerging
-  composite: 15.2
-  delta: 0.0
+  composite: 24.9
+  delta: 9.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 10.9
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/screenshots/bombora-2026-06-20T173557.png
 security:
 - kind: domain-security

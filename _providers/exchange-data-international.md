@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 24
 apis:
 - description: Worldwide end-of-day equity pricing (open, high, low, close, bid, ask, last trade, volume) queried by MIC, LocalCode, or ISIN via the GetLatestEODPrices endpoint, returned as JSON or pipe-separated va
@@ -188,26 +190,29 @@ overview: 'Exchange Data International publishes 24 APIs on the [APIs.io](https:
 
 
   Exchange Data International''s developer surface includes authentication, sandbox, API reference, developer portal, documentation, signup flow, engineering blog, and 11 more developer resources.'
-random_paper: 15
+random_paper: 40
 score:
   band: thin
-  composite: 30.6
-  delta: 0.0
+  composite: 28.4
+  delta: -2.2
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 3.1
     operational_transparency: 0.0
   previous_composite: 30.6
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/screenshots/exchange-data-international-2026-07-22T202401.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -100,8 +102,76 @@ apis:
 - description: 'The #X Amz Target=MediaStore 20170901.UntagResource API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.untagresource.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.UntagResource API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-untagresource-api
-artifact_total: 287
+artifact_total: 308
+collections:
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-createcontainer-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteContainer API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-deletecontainer-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteContainerPolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-deletecontainerpolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteCorsPolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-deletecorspolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteLifecyclePolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-deletelifecyclepolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DeleteMetricPolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-deletemetricpolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.DescribeContainer API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-describecontainer-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.GetContainerPolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-getcontainerpolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.GetCorsPolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-getcorspolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.GetLifecyclePolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-getlifecyclepolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.GetMetricPolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-getmetricpolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.ListContainers API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-listcontainers-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.ListTagsForResource API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-listtagsforresource-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.PutContainerPolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-putcontainerpolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.PutCorsPolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-putcorspolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.PutLifecyclePolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-putlifecyclepolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.PutMetricPolicy API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-putmetricpolicy-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.StartAccessLogging API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-startaccesslogging-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.StopAccessLogging API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-stopaccesslogging-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.TagResource API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-tagresource-api
+- collection_type: postman
+  name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.UntagResource API'
+  slug: postman-amazon-mediastore-x-amz-target-mediastore-20170901-untagresource-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-mediastore/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -949,12 +1019,12 @@ overview: 'Amazon MediaStore publishes 21 APIs on the [APIs.io](https://apis.io/
   The Amazon MediaStore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaStore''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon MediaStore''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Mediastore Plans Pricing
   plan_count: 3
   slug: amazon-mediastore-plans-pricing
-random_paper: 60
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Amazon Mediastore Rate Limits
@@ -978,18 +1048,25 @@ rules:
   slug: amazon-mediastore-spectral-rules
 score:
   band: strong
-  composite: 64.6
-  delta: 0.0
+  composite: 61.7
+  delta: -2.9
   facets:
     commercial_clarity: 68.4
-    contract_quality: 71.7
-    developer_ergonomics: 41.3
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 72.9
+    developer_ergonomics: 45.7
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 64.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/screenshots/amazon-mediastore-2026-06-20T171740.png
 security:

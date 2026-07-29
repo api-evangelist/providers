@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -79,12 +81,31 @@ apis:
 - description: Manage virtual servers that direct client traffic to appropriate server pools based on configured rules and profiles.
   name: F5 Networks Virtual Servers API
   slug: f5-networks-virtual-servers-api
-artifact_total: 146
+artifact_total: 151
 collections:
+- collection_type: postman
+  name: F5 BIG-IP iControl REST Nodes API
+  slug: postman-f5-networks-nodes-api
+- collection_type: postman
+  name: F5 BIG-IP iControl REST Nodes Pool Members API
+  slug: postman-f5-networks-pool-members-api
+- collection_type: postman
+  name: F5 BIG-IP iControl REST Nodes Pools API
+  slug: postman-f5-networks-pools-api
+- collection_type: postman
+  name: F5 BIG-IP iControl REST Nodes Profiles API
+  slug: postman-f5-networks-profiles-api
+- collection_type: postman
+  name: F5 BIG-IP iControl REST Nodes Virtual Servers API
+  slug: postman-f5-networks-virtual-servers-api
 - collection_type: open
   name: F5 BIG-IP iControl REST API
   slug: open-bigip-icontrol-rest
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/f5-networks/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -515,12 +536,12 @@ overview: 'F5 Networks publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The F5 Networks catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  F5 Networks'' developer surface includes authentication, documentation, engineering blog, support, signup flow, YouTube channel, and 12 more developer resources.'
+  F5 Networks'' developer surface includes authentication, documentation, engineering blog, support, signup flow, YouTube channel, and 13 more developer resources.'
 plans:
 - name: F5 Networks Plans Pricing
   plan_count: 5
   slug: f5-networks-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: F5 Networks Rate Limits
@@ -544,18 +565,25 @@ rules:
   slug: f5-networks-spectral-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 4.6
+  composite: 62.5
+  delta: -3.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 72.6
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 69.1
+    developer_ergonomics: 39.1
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/screenshots/f5-networks-2026-06-20T180959.png
 security:

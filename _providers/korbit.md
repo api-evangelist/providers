@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 69.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -205,30 +207,41 @@ overview: 'Korbit publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Korbit''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 23 more developer resources.'
-random_paper: 39
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Korbit Rate Limits
   slug: korbit-rate-limits
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 45.5
+  delta: -1.4
   facets:
     commercial_clarity: 13.2
-    contract_quality: 71.1
-    developer_ergonomics: 82.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 72.1
+    developer_ergonomics: 77.7
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 46.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 28.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png
 security:

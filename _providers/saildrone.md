@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Saildrone Public Mission API (BETA). Provides authenticated access via a key/secret bearer flow to per-mission time-series telemetry across the four canonical Saildrone datasets — vehicle, atmospheric
@@ -192,7 +194,7 @@ plans:
 - name: Saildrone Plans Pricing
   plan_count: 4
   slug: saildrone-plans-pricing
-random_paper: 9
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Saildrone Rate Limits
@@ -215,19 +217,25 @@ rules:
     warn: 2
   slug: saildrone-rules
 score:
-  band: developing
-  composite: 45.4
-  delta: 0.0
+  band: thin
+  composite: 40.6
+  delta: -4.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 71.7
+    contract_quality: 69.4
     developer_ergonomics: 2.2
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 5.3
   previous_composite: 45.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -58,12 +60,31 @@ apis:
 - description: The Post API from AB Tasty — 4 operation(s) for post.
   name: AB Tasty Post API
   slug: ab-tasty-post-api
-artifact_total: 80
+artifact_total: 85
 collections:
+- collection_type: postman
+  name: AB Tasty Decision Activate API
+  slug: postman-ab-tasty-activate-api
+- collection_type: postman
+  name: AB Tasty Decision Activate Campaigns API
+  slug: postman-ab-tasty-campaigns-api
+- collection_type: postman
+  name: AB Tasty Decision Activate Environments API
+  slug: postman-ab-tasty-environments-api
+- collection_type: postman
+  name: AB Tasty Decision Activate Flags API
+  slug: postman-ab-tasty-flags-api
+- collection_type: postman
+  name: AB Tasty Decision Activate Post API
+  slug: postman-ab-tasty-post-api
 - collection_type: open
   name: AB Tasty Decision API
   slug: open-decision-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ab-tasty/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -321,12 +342,12 @@ overview: 'AB Tasty publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The AB Tasty catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AB Tasty''s developer surface includes authentication, developer portal, documentation, pricing, support, legal docs, CLI, and 12 more developer resources.'
+  AB Tasty''s developer surface includes authentication, developer portal, documentation, pricing, support, legal docs, CLI, and 13 more developer resources.'
 plans:
 - name: Ab Tasty Plans Pricing
   plan_count: 4
   slug: ab-tasty-plans-pricing
-random_paper: 57
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Ab Tasty Rate Limits
@@ -350,18 +371,25 @@ rules:
   slug: ab-tasty-spectral-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 4.2
+  composite: 60.2
+  delta: -3.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 82.3
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 83.1
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 59.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/screenshots/ab-tasty-2026-06-20T163043.png
 security:

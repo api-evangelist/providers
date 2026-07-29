@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -180,7 +182,7 @@ plans:
 - name: Monash Plans Pricing
   plan_count: 2
   slug: monash-plans-pricing
-random_paper: 34
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Monash Rate Limits
@@ -209,24 +211,32 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 46.9
+  delta: -5.4
   facets:
     commercial_clarity: 36.8
-    contract_quality: 70.0
+    contract_quality: 69.2
     developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
   previous_composite: 52.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 69.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 59.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/screenshots/monash-2026-06-20T185718.png
 security:
 - kind: authentication

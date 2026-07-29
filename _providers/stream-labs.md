@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'REST API to access a user''s Streamlabs account: donations, custom alerts, loyalty points, media share, alert profiles, credits, tip jar, wheel spin, and a real-time Socket API. OAuth 2.0 with per-feat'
@@ -142,7 +144,7 @@ overview: 'Stream Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Stream Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, pricing, and 16 more developer resources.'
-random_paper: 27
+random_paper: 37
 scopes:
 - name: Stream Labs Scopes
   scope_count: 13
@@ -150,18 +152,21 @@ scopes:
   summary_line: 13 scopes
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 30.5
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 58.7
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 52.2
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 15.8
   previous_composite: 32.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

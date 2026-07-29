@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 12
 apis:
 - description: 'The American Express Token Service (AETS) API allows developers to securely tokenize cardholder data, providing a layer of security for online transactions. By generating unique tokens that represent '
@@ -244,30 +246,33 @@ press:
 - date: '2026-05-25'
   title: How Amex exploits new AI tools
   url: https://www.paymentsdive.com/news/how-amex-exploits-new-ai-tools/816000/
-random_paper: 23
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: American Express Rate Limits
   slug: american-express-rate-limits
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 38.5
+  delta: -1.4
   facets:
     commercial_clarity: 63.2
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 42.1
   previous_composite: 39.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png
 security:

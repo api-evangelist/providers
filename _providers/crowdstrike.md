@@ -10,23 +10,25 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The CrowdStrike API provides access to platform services and data for enterprise integration and automation.
@@ -90,26 +92,26 @@ plans:
 - name: Crowdstrike Plans Pricing
   plan_count: 4
   slug: crowdstrike-plans-pricing
-random_paper: 45
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Crowdstrike Rate Limits
   slug: crowdstrike-rate-limits
 score:
-  band: emerging
-  composite: 21.3
-  delta: 0.0
+  band: thin
+  composite: 30.1
+  delta: 8.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 2.2
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowdstrike/refs/heads/main/screenshots/crowdstrike-2026-06-20T175254.png
 security:
 - kind: domain-security

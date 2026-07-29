@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,12 +66,27 @@ apis:
 - description: Work item CRUD and management
   name: Azure DevOps WorkItems API
   slug: azure-devops-workitems-api
-artifact_total: 73
+artifact_total: 78
 asyncapis:
 - description: Azure DevOps Service Hooks deliver event notifications for work item changes, build completions, pull request events, code pushes, and release deployments. Service hooks are configured in Azure DevOps
   name: Azure DevOps Service Hooks (Webhooks)
   slug: azure-devops-hooks-asyncapi
 collections:
+- collection_type: postman
+  name: Azure DevOps Pipelines Fields API
+  slug: postman-azure-devops-fields-api
+- collection_type: postman
+  name: Azure DevOps Fields Pipelines API
+  slug: postman-azure-devops-pipelines-api
+- collection_type: postman
+  name: Azure DevOps Pipelines Fields Queries API
+  slug: postman-azure-devops-queries-api
+- collection_type: postman
+  name: Azure DevOps Pipelines Fields Runs API
+  slug: postman-azure-devops-runs-api
+- collection_type: postman
+  name: Azure DevOps Pipelines Fields WorkItems API
+  slug: postman-azure-devops-workitems-api
 - collection_type: open
   name: Azure DevOps Pipelines API
   slug: open-azure-devops-pipelines
@@ -77,6 +94,10 @@ collections:
   name: Azure DevOps Work Item Tracking API
   slug: open-azure-devops-work-items
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-devops/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -413,12 +434,12 @@ overview: 'Azure DevOps publishes 5 APIs on the [APIs.io](https://apis.io/) netw
   The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Azure DevOps'' developer surface includes authentication, documentation, developer portal, API reference, getting-started guide, changelog, CLI, and 37 more developer resources.'
+  Azure DevOps'' developer surface includes authentication, documentation, developer portal, API reference, getting-started guide, changelog, CLI, and 38 more developer resources.'
 plans:
 - name: Azure Devops Plans Pricing
   plan_count: 6
   slug: azure-devops-plans-pricing
-random_paper: 29
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Azure Devops Rate Limits
@@ -455,18 +476,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.0
-  delta: 3.2
+  composite: 63.2
+  delta: -2.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 75.9
-    developer_ergonomics: 78.3
-    discoverability: 87.5
-    governance: 65.8
+    contract_quality: 76.9
+    developer_ergonomics: 82.6
+    discoverability: 64.8
+    governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 62.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/screenshots/azure-devops-2026-06-20T172853.png
 security:

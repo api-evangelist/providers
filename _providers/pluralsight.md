@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -79,8 +81,50 @@ apis:
 - description: Flow user management operations
   name: Pluralsight Users API
   slug: pluralsight-users-api
-artifact_total: 235
+artifact_total: 249
 collections:
+- collection_type: postman
+  name: Pluralsight Channels Catalog API
+  slug: postman-pluralsight-catalog-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Coding Metrics API
+  slug: postman-pluralsight-coding-metrics-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Collaboration Metrics API
+  slug: postman-pluralsight-collaboration-metrics-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Commits API
+  slug: postman-pluralsight-commits-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog DORA Metrics API
+  slug: postman-pluralsight-dora-metrics-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog GraphQL API
+  slug: postman-pluralsight-graphql-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Integrations API
+  slug: postman-pluralsight-integrations-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Licensing API
+  slug: postman-pluralsight-licensing-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Pull Requests API
+  slug: postman-pluralsight-pull-requests-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Reports API
+  slug: postman-pluralsight-reports-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Repos API
+  slug: postman-pluralsight-repos-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Teams API
+  slug: postman-pluralsight-teams-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Tickets API
+  slug: postman-pluralsight-tickets-api
+- collection_type: postman
+  name: Pluralsight Channels Catalog Users API
+  slug: postman-pluralsight-users-api
 - collection_type: open
   name: Pluralsight Channels API
   slug: open-channels
@@ -172,6 +216,10 @@ collections:
   name: Pluralsight User Management API
   slug: open-user-management
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pluralsight/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -782,12 +830,12 @@ overview: 'Pluralsight publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   The Pluralsight catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Pluralsight''s developer surface includes authentication, developer portal, getting-started guide, FAQ, code examples, documentation, support, and 14 more developer resources.'
+  Pluralsight''s developer surface includes authentication, developer portal, getting-started guide, FAQ, code examples, documentation, support, and 15 more developer resources.'
 plans:
 - name: Pluralsight Plans Pricing
   plan_count: 8
   slug: pluralsight-plans-pricing
-random_paper: 43
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Pluralsight Rate Limits
@@ -811,18 +859,25 @@ rules:
   slug: pluralsight-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 3.3
+  composite: 61.8
+  delta: -3.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 66.2
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 67.4
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

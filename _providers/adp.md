@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -406,7 +408,7 @@ plans:
 - name: Adp Plans Pricing
   plan_count: 2
   slug: adp-plans-pricing
-random_paper: 37
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Adp Rate Limits
@@ -435,18 +437,25 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.0
-  delta: 4.6
+  composite: 49.4
+  delta: -3.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.7
+    contract_quality: 73.7
     developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 48.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 53.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png
 security:

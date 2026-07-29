@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 68.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -154,7 +156,7 @@ overview: 'Lloyds Banking Group publishes 5 APIs on the [APIs.io](https://apis.i
 
 
   Lloyds Banking Group''s developer surface includes authentication, getting-started guide, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 0
+random_paper: 38
 scopes:
 - name: Lloyds Banking Group Scopes
   scope_count: 3
@@ -162,23 +164,33 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 44.7
-  delta: 0.0
+  composite: 41.8
+  delta: -2.9
   facets:
     commercial_clarity: 10.5
-    contract_quality: 64.6
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.7
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 44.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 55.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -469,7 +471,7 @@ plans:
 - name: Fal Ai Plans Pricing
   plan_count: 2
   slug: fal-ai-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Fal Ai Rate Limits
@@ -501,19 +503,28 @@ rules:
   slug: fal-ai-rules
 score:
   band: exemplar
-  composite: 75.5
-  delta: 5.2
+  composite: 74.8
+  delta: -0.7
   facets:
     commercial_clarity: 68.4
-    contract_quality: 82.1
+    contract_quality: 81.9
     developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 92.6
+    governance: 53.1
     operational_transparency: 68.4
-  previous_composite: 70.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 75.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/screenshots/fal-ai-2026-06-20T181030.png
 security:
 - kind: authentication

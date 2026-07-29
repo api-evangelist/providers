@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: Operations for managing DNS authorizations
   name: Google Cloud Certificate Manager DnsAuthorizations API
   slug: google-cloud-certificate-manager-dnsauthorizations-api
-artifact_total: 15
+artifact_total: 18
 collections:
+- collection_type: postman
+  name: Google Cloud Certificate Manager CertificateMaps API
+  slug: postman-google-cloud-certificate-manager-certificatemaps-api
+- collection_type: postman
+  name: Google Cloud Certificate Manager CertificateMaps Certificates API
+  slug: postman-google-cloud-certificate-manager-certificates-api
+- collection_type: postman
+  name: Google Cloud Certificate Manager CertificateMaps DnsAuthorizations API
+  slug: postman-google-cloud-certificate-manager-dnsauthorizations-api
 - collection_type: open
   name: Google Cloud Certificate Manager API
   slug: open-certificate-manager-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-certificate-manager/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -143,12 +158,12 @@ overview: 'Google Cloud Certificate Manager publishes 3 APIs on the [APIs.io](ht
   The Google Cloud Certificate Manager catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Certificate Manager''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Cloud Certificate Manager''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Cloud Certificate Manager Plans Pricing
   plan_count: 3
   slug: google-cloud-certificate-manager-plans-pricing
-random_paper: 65
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Google Cloud Certificate Manager Rate Limits
@@ -169,18 +184,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 65.2
-  delta: 4.6
+  composite: 62.0
+  delta: -3.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 66.4
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 67.8
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/screenshots/google-cloud-certificate-manager-2026-06-20T182052.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: The Cities API from Cities Database API — 1 operation(s) for cities.
   name: Cities Database API Cities API
   slug: cities-database-api-cities-api
-artifact_total: 12
+artifact_total: 13
 collections:
+- collection_type: postman
+  name: AirLabs Database Cities API
+  slug: postman-cities-database-api-cities-api
 - collection_type: open
   name: AirLabs Cities Database API
   slug: open-cities-database-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cities-database-api/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,12 +150,12 @@ overview: 'Cities Database API publishes 1 API on the [APIs.io](https://apis.io/
   The Cities Database API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cities Database API''s developer surface includes authentication, documentation, pricing, signup flow, support, and 12 more developer resources.'
+  Cities Database API''s developer surface includes authentication, documentation, pricing, signup flow, support, and 13 more developer resources.'
 plans:
 - name: Cities Database Api Plans Pricing
   plan_count: 3
   slug: cities-database-api-plans-pricing
-random_paper: 30
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Cities Database Api Rate Limits
@@ -170,18 +179,25 @@ rules:
   slug: cities-database-api-rules
 score:
   band: strong
-  composite: 62.7
-  delta: 3.2
+  composite: 59.7
+  delta: -3.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 67.3
-    developer_ergonomics: 23.9
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 68.6
+    developer_ergonomics: 28.3
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 59.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/screenshots/cities-database-api-2026-06-20T174409.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -165,7 +167,7 @@ plans:
 - name: Celigo Plans Pricing
   plan_count: 3
   slug: celigo-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Celigo Rate Limits
@@ -181,18 +183,25 @@ rules:
   slug: celigo-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 57.9
-  delta: 2.0
+  composite: 54.7
+  delta: -3.2
   facets:
     commercial_clarity: 68.4
-    contract_quality: 61.9
+    contract_quality: 63.6
     developer_ergonomics: 47.8
-    discoverability: 87.5
-    governance: 52.6
+    discoverability: 64.8
+    governance: 41.7
     operational_transparency: 31.6
-  previous_composite: 55.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 57.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/screenshots/celigo-2026-06-20T174113.png
 security:

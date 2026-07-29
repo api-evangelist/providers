@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 3
@@ -124,12 +126,84 @@ apis:
 - description: Oracle Scheduler job management
   name: Oracle Database Scheduler API
   slug: oracle-database-scheduler-api
-artifact_total: 177
+artifact_total: 201
 asyncapis:
 - description: Oracle Transactional Event Queues provide Kafka-compatible event streaming and message queuing capabilities built into Oracle Database. TxEventQ enables event-driven architectures with transactional g
   name: Oracle Transactional Event Queues (TxEventQ) API
   slug: oracle-database-txeventq-asyncapi
 collections:
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX API
+  slug: postman-oracle-database-apex-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Autonomous Databases API
+  slug: postman-oracle-database-autonomous-databases-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Backups API
+  slug: postman-oracle-database-backups-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Bulk Operations API
+  slug: postman-oracle-database-bulk-operations-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Collections API
+  slug: postman-oracle-database-collections-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Data Dictionary API
+  slug: postman-oracle-database-data-dictionary-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Data Guard API
+  slug: postman-oracle-database-data-guard-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Data Pump API
+  slug: postman-oracle-database-data-pump-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Database Homes API
+  slug: postman-oracle-database-database-homes-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Databases API
+  slug: postman-oracle-database-databases-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX DB Systems API
+  slug: postman-oracle-database-db-systems-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Documents API
+  slug: postman-oracle-database-documents-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX General API
+  slug: postman-oracle-database-general-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Indexes API
+  slug: postman-oracle-database-indexes-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Metadata API
+  slug: postman-oracle-database-metadata-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Monitoring API
+  slug: postman-oracle-database-monitoring-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Open Service Broker API
+  slug: postman-oracle-database-open-service-broker-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX PDB Snapshots API
+  slug: postman-oracle-database-pdb-snapshots-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Performance API
+  slug: postman-oracle-database-performance-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Pluggable Databases API
+  slug: postman-oracle-database-pluggable-databases-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Queries API
+  slug: postman-oracle-database-queries-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX RDF Graph API
+  slug: postman-oracle-database-rdf-graph-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX REST Services API
+  slug: postman-oracle-database-rest-services-api
+- collection_type: postman
+  name: Oracle Database Oracle Cloud Infrastructure Database APEX Scheduler API
+  slug: postman-oracle-database-scheduler-api
 - collection_type: open
   name: Oracle Database Oracle Cloud Infrastructure Database API
   slug: open-oracle-database-oci
@@ -140,6 +214,10 @@ collections:
   name: Oracle Database Oracle SODA (Simple Oracle Document Access) REST API
   slug: open-oracle-database-soda
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/oracle-database/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -651,12 +729,12 @@ overview: 'Oracle Database publishes 25 APIs on the [APIs.io](https://apis.io/) 
   The Oracle Database catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Oracle Database''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, developer console, and 14 more developer resources.'
+  Oracle Database''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, developer console, and 15 more developer resources.'
 plans:
 - name: Oracle Database Plans Pricing
   plan_count: 6
   slug: oracle-database-plans-pricing
-random_paper: 0
+random_paper: 33
 rate_limits:
 - limit_count: 4
   name: Oracle Database Rate Limits
@@ -685,18 +763,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 66.7
-  delta: 1.9
+  composite: 64.4
+  delta: -2.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 83.5
-    developer_ergonomics: 52.2
-    discoverability: 55.0
-    governance: 73.7
+    contract_quality: 83.8
+    developer_ergonomics: 56.5
+    discoverability: 40.7
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 64.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/screenshots/oracle-database-2026-06-20T191126.png
 security:

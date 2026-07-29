@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -67,12 +69,19 @@ apis:
 - description: Operations for creating, updating, deleting, and managing the lifecycle of Azure Virtual Machines including power operations, patching, and diagnostics.
   name: Azure Virtual Machines Virtual Machines API
   slug: microsoft-azure-virtual-machines-virtual-machines-api
-artifact_total: 57
+artifact_total: 58
 collections:
+- collection_type: postman
+  name: Azure REST Virtual Machines API
+  slug: postman-microsoft-azure-virtual-machines-virtual-machines-api
 - collection_type: open
   name: Azure Virtual Machines REST API
   slug: open-azure-virtual-machines
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-virtual-machines/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -327,12 +336,12 @@ overview: 'Azure Virtual Machines publishes 1 API on the [APIs.io](https://apis.
   The Azure Virtual Machines catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Azure Virtual Machines'' developer surface includes authentication, developer portal, engineering blog, support, documentation, getting-started guide, pricing, and 23 more developer resources.'
+  Azure Virtual Machines'' developer surface includes authentication, developer portal, engineering blog, support, documentation, getting-started guide, pricing, and 24 more developer resources.'
 plans:
 - name: Microsoft Azure Virtual Machines Plans Pricing
   plan_count: 10
   slug: microsoft-azure-virtual-machines-plans-pricing
-random_paper: 19
+random_paper: 49
 rate_limits:
 - limit_count: 16
   name: Microsoft Azure Virtual Machines Rate Limits
@@ -353,18 +362,25 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 64.4
-  delta: 3.2
+  composite: 62.3
+  delta: -2.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 37.7
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 40.3
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/screenshots/microsoft-azure-virtual-machines-2026-06-20T185443.png
 security:

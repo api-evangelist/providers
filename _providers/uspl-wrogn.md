@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 36.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 31.1
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 5
 common:
@@ -106,7 +108,7 @@ overview: 'USPL Wrogn is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   USPL Wrogn''s developer surface includes authentication, engineering blog, support, and 12 more developer resources.'
-random_paper: 34
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Uspl Wrogn Rate Limits
@@ -118,18 +120,22 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 21.7
+  delta: 1.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 20.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

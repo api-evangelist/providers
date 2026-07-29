@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Business review excerpts and ratings
   name: Yelp Reviews API
   slug: yelp-reviews-api
-artifact_total: 75
+artifact_total: 80
 collections:
+- collection_type: postman
+  name: Yelp Fusion AI API
+  slug: postman-yelp-ai-api
+- collection_type: postman
+  name: Yelp Fusion AI Businesses API
+  slug: postman-yelp-businesses-api
+- collection_type: postman
+  name: Yelp Fusion AI Categories API
+  slug: postman-yelp-categories-api
+- collection_type: postman
+  name: Yelp Fusion AI Events API
+  slug: postman-yelp-events-api
+- collection_type: postman
+  name: Yelp Fusion AI Reviews API
+  slug: postman-yelp-reviews-api
 - collection_type: open
   name: Yelp Fusion API
   slug: open-yelp
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/yelp/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -374,12 +395,12 @@ overview: 'Yelp publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The Yelp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 27 more developer resources.'
+  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 28 more developer resources.'
 plans:
 - name: Yelp Plans Pricing
   plan_count: 5
   slug: yelp-plans-pricing
-random_paper: 34
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Yelp Rate Limits
@@ -403,19 +424,26 @@ rules:
   slug: yelp-spectral-rules
 score:
   band: exemplar
-  composite: 73.8
-  delta: 5.4
+  composite: 70.7
+  delta: -3.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 82.3
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 85.4
+    developer_ergonomics: 73.9
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 68.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 73.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png
 security:
 - kind: authentication

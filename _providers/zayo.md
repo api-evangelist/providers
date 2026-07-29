@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -145,7 +147,7 @@ overview: 'Zayo publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zayo''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 10 more developer resources.'
-random_paper: 43
+random_paper: 66
 scopes:
 - name: Zayo Scopes
   scope_count: 1
@@ -153,18 +155,34 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 47.1
+  delta: 0.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 72.9
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 74.1
+    developer_ergonomics: 51.6
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 46.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 51.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

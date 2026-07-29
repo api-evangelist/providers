@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -101,8 +103,47 @@ arazzos:
 - description: Read a worker's scheduling preferences, update them, and schedule a shift aligned to the preferred times.
   name: Workday Update Scheduling Preferences and Shift
   slug: workday-tracking-system-update-scheduling-preferences-and-shift-workflow
-artifact_total: 136
+artifact_total: 149
 collections:
+- collection_type: postman
+  name: Workday Absence Management Accruals API
+  slug: postman-workday-tracking-system-accruals-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Balances API
+  slug: postman-workday-tracking-system-balances-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Labor Demand API
+  slug: postman-workday-tracking-system-labor-demand-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Leave of Absence API
+  slug: postman-workday-tracking-system-leave-of-absence-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Scheduling Organizations API
+  slug: postman-workday-tracking-system-scheduling-organizations-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Shifts API
+  slug: postman-workday-tracking-system-shifts-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Time Blocks API
+  slug: postman-workday-tracking-system-time-blocks-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Time Clock Events API
+  slug: postman-workday-tracking-system-time-clock-events-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Time Off API
+  slug: postman-workday-tracking-system-time-off-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Time Requests API
+  slug: postman-workday-tracking-system-time-requests-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Timesheets API
+  slug: postman-workday-tracking-system-timesheets-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Work Schedules API
+  slug: postman-workday-tracking-system-work-schedules-api
+- collection_type: postman
+  name: Workday Absence Management Accruals Worker Preferences API
+  slug: postman-workday-tracking-system-worker-preferences-api
 - collection_type: open
   name: Workday Absence Management API
   slug: open-workday-tracking-system-absence-management
@@ -113,6 +154,10 @@ collections:
   name: Workday Time Tracking API
   slug: open-workday-tracking-system-time-tracking
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/workday-tracking-system/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -546,12 +591,12 @@ overview: 'Workday Tracking System publishes 13 APIs on the [APIs.io](https://ap
   The Workday Tracking System catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Tracking System''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, pricing, support, and 28 more developer resources.'
+  Workday Tracking System''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, pricing, support, and 29 more developer resources.'
 plans:
 - name: Workday Tracking System Plans Pricing
   plan_count: 1
   slug: workday-tracking-system-plans-pricing
-random_paper: 7
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Workday Tracking System Rate Limits
@@ -575,19 +620,26 @@ rules:
   slug: workday-tracking-system-spectral-rules
 score:
   band: strong
-  composite: 67.8
-  delta: 4.7
+  composite: 60.7
+  delta: -7.1
   facets:
     commercial_clarity: 68.4
-    contract_quality: 77.6
-    developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 62.7
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 63.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 67.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 13
+      marker_coverage: 100.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png
 security:
 - kind: authentication

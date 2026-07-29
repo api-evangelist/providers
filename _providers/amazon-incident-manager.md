@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -118,8 +120,94 @@ apis:
 - description: The UpdateTimelineEvent API from Amazon Incident Manager — 1 operation(s) for updatetimelineevent.
   name: Amazon Incident Manager UpdateTimelineEvent API
   slug: amazon-incident-manager-updatetimelineevent-api
-artifact_total: 415
+artifact_total: 442
+collections:
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet API
+  slug: postman-amazon-incident-manager-createreplicationset-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet CreateResponsePlan API
+  slug: postman-amazon-incident-manager-createresponseplan-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet CreateTimelineEvent API
+  slug: postman-amazon-incident-manager-createtimelineevent-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteIncidentRecord API
+  slug: postman-amazon-incident-manager-deleteincidentrecord-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteReplicationSet#arn API
+  slug: postman-amazon-incident-manager-deletereplicationset-arn-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteResourcePolicy API
+  slug: postman-amazon-incident-manager-deleteresourcepolicy-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteResponsePlan API
+  slug: postman-amazon-incident-manager-deleteresponseplan-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet DeleteTimelineEvent API
+  slug: postman-amazon-incident-manager-deletetimelineevent-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetIncidentRecord#arn API
+  slug: postman-amazon-incident-manager-getincidentrecord-arn-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetReplicationSet#arn API
+  slug: postman-amazon-incident-manager-getreplicationset-arn-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetResourcePolicies#resourceArn API
+  slug: postman-amazon-incident-manager-getresourcepolicies-resourcearn-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetResponsePlan#arn API
+  slug: postman-amazon-incident-manager-getresponseplan-arn-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet GetTimelineEvent#eventId&incidentRecordArn API
+  slug: postman-amazon-incident-manager-gettimelineevent-eventid-incidentrecordarn-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListIncidentRecords API
+  slug: postman-amazon-incident-manager-listincidentrecords-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListRelatedItems API
+  slug: postman-amazon-incident-manager-listrelateditems-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListReplicationSets API
+  slug: postman-amazon-incident-manager-listreplicationsets-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListResponsePlans API
+  slug: postman-amazon-incident-manager-listresponseplans-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet ListTimelineEvents API
+  slug: postman-amazon-incident-manager-listtimelineevents-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet PutResourcePolicy API
+  slug: postman-amazon-incident-manager-putresourcepolicy-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet StartIncident API
+  slug: postman-amazon-incident-manager-startincident-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet Tags API
+  slug: postman-amazon-incident-manager-tags-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateDeletionProtection API
+  slug: postman-amazon-incident-manager-updatedeletionprotection-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateIncidentRecord API
+  slug: postman-amazon-incident-manager-updateincidentrecord-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateRelatedItems API
+  slug: postman-amazon-incident-manager-updaterelateditems-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateReplicationSet API
+  slug: postman-amazon-incident-manager-updatereplicationset-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateResponsePlan API
+  slug: postman-amazon-incident-manager-updateresponseplan-api
+- collection_type: postman
+  name: AWS Systems Manager Incident Manager CreateReplicationSet UpdateTimelineEvent API
+  slug: postman-amazon-incident-manager-updatetimelineevent-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-incident-manager/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1344,12 +1432,12 @@ overview: 'Amazon Incident Manager publishes 27 APIs on the [APIs.io](https://ap
   The Amazon Incident Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Incident Manager''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon Incident Manager''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Incident Manager Plans Pricing
   plan_count: 3
   slug: amazon-incident-manager-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Incident Manager Rate Limits
@@ -1373,18 +1461,25 @@ rules:
   slug: amazon-incident-manager-spectral-rules
 score:
   band: strong
-  composite: 67.6
-  delta: 0.0
+  composite: 64.5
+  delta: -3.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 68.1
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 69.7
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/screenshots/amazon-incident-manager-2026-06-20T171704.png
 security:

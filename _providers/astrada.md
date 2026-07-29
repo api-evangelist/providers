@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: verified
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -81,7 +83,7 @@ apis:
 - description: Manage webhooks
   name: Astrada webhooks API
   slug: astrada-webhooks-api
-artifact_total: 24
+artifact_total: 39
 asyncapis:
 - description: Webhook event surface for the Astrada API, generated from the documented Event Types and webhook delivery mechanics. Astrada delivers events via HTTP POST to registered HTTPS endpoints with at-least-o
   name: Astrada Webhook Events
@@ -89,7 +91,57 @@ asyncapis:
 - description: ''
   name: Astrada Webhooks
   slug: astrada-webhooks
+collections:
+- collection_type: postman
+  name: Astrada bank-accounts API
+  slug: postman-astrada-bank-accounts-api
+- collection_type: postman
+  name: Astrada bank-accounts bank-links API
+  slug: postman-astrada-bank-links-api
+- collection_type: postman
+  name: Astrada bank-accounts bank-subscriptions API
+  slug: postman-astrada-bank-subscriptions-api
+- collection_type: postman
+  name: Astrada bank-accounts bank-transactions API
+  slug: postman-astrada-bank-transactions-api
+- collection_type: postman
+  name: Astrada bank-accounts bin-lookup API
+  slug: postman-astrada-bin-lookup-api
+- collection_type: postman
+  name: Astrada bank-accounts card API
+  slug: postman-astrada-card-api
+- collection_type: postman
+  name: Astrada bank-accounts card-subscription API
+  slug: postman-astrada-card-subscription-api
+- collection_type: postman
+  name: Astrada bank-accounts card-verification API
+  slug: postman-astrada-card-verification-api
+- collection_type: postman
+  name: Astrada bank-accounts enrollment-methods API
+  slug: postman-astrada-enrollment-methods-api
+- collection_type: postman
+  name: Astrada bank-accounts network-bulk-feeds API
+  slug: postman-astrada-network-bulk-feeds-api
+- collection_type: postman
+  name: Astrada bank-accounts subaccounts API
+  slug: postman-astrada-subaccounts-api
+- collection_type: postman
+  name: Astrada bank-accounts transaction-matches API
+  slug: postman-astrada-transaction-matches-api
+- collection_type: postman
+  name: Astrada bank-accounts transaction-messages API
+  slug: postman-astrada-transaction-messages-api
+- collection_type: postman
+  name: Astrada bank-accounts transactions API
+  slug: postman-astrada-transactions-api
+- collection_type: postman
+  name: Astrada bank-accounts webhooks API
+  slug: postman-astrada-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/astrada/overview
 - group: company
   title: ''
   type: Website
@@ -240,8 +292,8 @@ overview: 'Astrada publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Astrada catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Astrada''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 26 more developer resources.'
-random_paper: 56
+  Astrada''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 27 more developer resources.'
+random_paper: 43
 scopes:
 - name: Astrada Scopes
   scope_count: 34
@@ -249,23 +301,34 @@ scopes:
   summary_line: 34 scopes · implicit
 score:
   band: strong
-  composite: 64.8
-  delta: 0.0
+  composite: 63.0
+  delta: -1.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.0
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.2
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 50.0
   previous_composite: 64.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 84.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/screenshots/astrada-2026-07-25T201455.png
 security:

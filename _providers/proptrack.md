@@ -2,11 +2,13 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST APIs providing Australian property intelligence — address suggestion and matching, property and listing data, sold-transaction search (including point-and-radius queries), automated valuations (A
@@ -97,26 +99,27 @@ overview: 'PropTrack publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   PropTrack''s developer surface includes documentation, support, authentication, and 12 more developer resources.'
-random_paper: 30
+random_paper: 58
 score:
   band: emerging
-  composite: 22.2
-  delta: 0.0
+  composite: 20.3
+  delta: -1.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 22.2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 39.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 30.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proptrack/refs/heads/main/screenshots/proptrack-2026-07-27T125354.png
 security:

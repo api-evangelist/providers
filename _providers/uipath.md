@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -1382,7 +1384,7 @@ plans:
 - name: Uipath Plans Pricing
   plan_count: 5
   slug: uipath-plans-pricing
-random_paper: 39
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Uipath Rate Limits
@@ -1414,18 +1416,25 @@ rules:
   slug: uipath-spectral-rules
 score:
   band: exemplar
-  composite: 79.0
-  delta: 4.7
+  composite: 75.1
+  delta: -3.9
   facets:
     commercial_clarity: 78.9
-    contract_quality: 92.8
+    contract_quality: 93.1
     developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 65.8
+    discoverability: 68.5
+    governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 74.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 79.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/screenshots/uipath-2026-06-20T200001.png
 security:

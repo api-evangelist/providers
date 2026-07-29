@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -727,7 +729,7 @@ plans:
 - name: Github Actions Plans Pricing
   plan_count: 3
   slug: github-actions-plans-pricing
-random_paper: 13
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Github Actions Rate Limits
@@ -756,19 +758,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 79.1
-  delta: 5.5
+  composite: 78.7
+  delta: -0.4
   facets:
     commercial_clarity: 92.1
-    contract_quality: 71.9
+    contract_quality: 72.6
     developer_ergonomics: 80.4
-    discoverability: 75.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 69.8
     operational_transparency: 78.9
-  previous_composite: 73.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 79.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/screenshots/github-actions-2026-06-20T181837.png
 security:
 - kind: authentication

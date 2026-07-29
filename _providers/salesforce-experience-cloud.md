@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -859,7 +861,7 @@ plans:
 - name: Salesforce Experience Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-experience-cloud-plans-pricing
-random_paper: 32
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Salesforce Experience Cloud Rate Limits
@@ -888,18 +890,25 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.8
-  delta: 2.5
+  composite: 62.9
+  delta: -3.9
   facets:
     commercial_clarity: 63.2
-    contract_quality: 67.5
+    contract_quality: 68.8
     developer_ergonomics: 56.5
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 64.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/screenshots/salesforce-experience-cloud-2026-06-20T193345.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Retention API from brightback — 1 operation(s) for retention.
@@ -122,22 +124,31 @@ overview: 'brightback publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   brightback''s developer surface includes documentation, API reference, support, authentication, and 14 more developer resources.'
-random_paper: 21
+random_paper: 40
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 33.0
+  delta: -5.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 63.7
-    developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 52.5
+    developer_ergonomics: 40.8
+    discoverability: 75.9
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 38.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/screenshots/brightback-2026-07-25T203931.png
 security:
 - kind: authentication

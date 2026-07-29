@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Silverfin''s public v4 REST API and SyncAPI for accountancy automation: companies, periods, accounts, reconciliations, reports, adjustments, budgets, workflows, users, permanent documents, exports, and'
@@ -157,7 +159,7 @@ overview: 'Silverfin publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Silverfin''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, support, and 18 more developer resources.'
-random_paper: 26
+random_paper: 54
 scopes:
 - name: Silverfin Scopes
   scope_count: 19
@@ -165,18 +167,22 @@ scopes:
   summary_line: 19 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 41.8
+  delta: 4.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 22.6
-    developer_ergonomics: 76.1
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 64.7
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 52.6
   previous_composite: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

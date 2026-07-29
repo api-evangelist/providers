@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: Operations for managing workflows.
   name: Cflow Workflows API
   slug: cflow-workflows-api
-artifact_total: 49
+artifact_total: 52
 collections:
+- collection_type: postman
+  name: Cflow Requests API
+  slug: postman-cflow-requests-api
+- collection_type: postman
+  name: Cflow Requests Users API
+  slug: postman-cflow-users-api
+- collection_type: postman
+  name: Cflow Requests Workflows API
+  slug: postman-cflow-workflows-api
 - collection_type: open
   name: Cflow API
   slug: open-cflow
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cflow/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,12 +179,12 @@ overview: 'Cflow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Re
   The Cflow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cflow''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 7 more developer resources.'
+  Cflow''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 8 more developer resources.'
 plans:
 - name: Cflow Plans Pricing
   plan_count: 3
   slug: cflow-plans-pricing
-random_paper: 63
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Cflow Rate Limits
@@ -185,19 +200,26 @@ rules:
   slug: cflow-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 5.4
+  composite: 58.1
+  delta: -3.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 76.1
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 77.1
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 56.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/screenshots/cflow-2026-06-20T174158.png
 security:
 - kind: authentication

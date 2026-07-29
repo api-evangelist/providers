@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -248,31 +250,39 @@ plans:
 - name: Permit Io Plans Pricing
   plan_count: 3
   slug: permit-io-plans-pricing
-random_paper: 34
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Permit Io Rate Limits
   slug: permit-io-rate-limits
 score:
   band: developing
-  composite: 48.0
-  delta: 2.8
+  composite: 43.0
+  delta: -5.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 54.3
+    contract_quality: 51.8
     developer_ergonomics: 28.3
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 45.2
+  previous_composite: 48.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 43
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 34.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/permit-io/refs/heads/main/screenshots/permit-io-2026-06-20T191609.png
 security:
 - kind: authentication

@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +47,22 @@ apis:
 - description: Operations for publishing, retrieving, and listing CloudWatch metrics
   name: Amazon CloudWatch Metrics API
   slug: amazon-cloudwatch-metrics-api
-artifact_total: 57
+artifact_total: 60
+collections:
+- collection_type: postman
+  name: Amazon CloudWatch Alarms API
+  slug: postman-amazon-cloudwatch-alarms-api
+- collection_type: postman
+  name: Amazon CloudWatch Alarms Dashboards API
+  slug: postman-amazon-cloudwatch-dashboards-api
+- collection_type: postman
+  name: Amazon CloudWatch Alarms Metrics API
+  slug: postman-amazon-cloudwatch-metrics-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-cloudwatch/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -294,8 +310,8 @@ overview: 'Amazon CloudWatch publishes 3 APIs on the [APIs.io](https://apis.io/)
   The Amazon CloudWatch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CloudWatch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
-random_paper: 61
+  Amazon CloudWatch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 21 more developer resources.'
+random_paper: 67
 rules:
 - name: Amazon CloudWatch API Rules
   rule_count: 5
@@ -315,18 +331,27 @@ rules:
   slug: amazon-cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 60.7
+  delta: -0.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 78.8
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 79.7
+    developer_ergonomics: 45.7
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 61.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/screenshots/amazon-cloudwatch-2026-07-25T195951.png
 security:

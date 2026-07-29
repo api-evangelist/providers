@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -223,25 +225,35 @@ overview: 'Nimbleway publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nimbleway''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, engineering blog, and 27 more developer resources.'
-random_paper: 16
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Nimbleway Rate Limits
   slug: nimbleway-rate-limits
 score:
-  band: developing
-  composite: 58.6
-  delta: 0.0
+  band: strong
+  composite: 58.8
+  delta: 0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.5
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 53.6
+    developer_ergonomics: 75.5
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 57.9
   previous_composite: 58.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

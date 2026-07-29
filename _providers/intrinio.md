@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 45.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Intrinio's REST API for financial data — stock prices, options, fundamentals, estimates, ETFs, indices, corporate actions, and ESG — with API-key authentication, next_page cursor pagination, and swagg
@@ -174,7 +176,7 @@ plans:
 - name: Intrinio Plans
   plan_count: 3
   slug: intrinio-plans
-random_paper: 60
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Intrinio Rate Limits
@@ -185,25 +187,29 @@ scopes:
   slug: intrinio-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 54.3
-  delta: 0.0
+  band: strong
+  composite: 60.8
+  delta: 6.5
   facets:
     commercial_clarity: 76.3
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 94.4
+    governance: 12.5
     operational_transparency: 52.6
   previous_composite: 54.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 68.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/screenshots/intrinio-2026-06-20T183509.png
 security:
 - kind: authentication

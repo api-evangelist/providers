@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 15
 apis:
 - description: The Associated Records API from Mark43 — 2 operation(s) for associated records.
@@ -160,26 +162,36 @@ overview: 'Mark43 publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mark43''s developer surface includes documentation, API reference, authentication, and 14 more developer resources.'
-random_paper: 54
+random_paper: 68
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 36.4
+  delta: -4.8
   facets:
     commercial_clarity: 26.3
-    contract_quality: 50.3
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 39.7
+    developer_ergonomics: 38.6
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 41.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 15
+      marker_coverage: 100.0
+      total: 15
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 48.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mark43/refs/heads/main/screenshots/mark43-2026-07-25T230313.png
 security:

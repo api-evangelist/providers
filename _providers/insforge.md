@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 68.5
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: The Admin API from Insforge — 54 operation(s) for admin.
@@ -212,7 +214,7 @@ overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 45
+random_paper: 14
 scopes:
 - name: Insforge Scopes
   scope_count: 11
@@ -220,23 +222,33 @@ scopes:
   summary_line: 11 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 57.2
-  delta: 0.0
+  composite: 53.3
+  delta: -3.9
   facets:
     commercial_clarity: 44.7
-    contract_quality: 50.0
+    contract_quality: 46.7
     developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 31.6
   previous_composite: 57.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 64.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -104,12 +106,42 @@ arazzos:
 - description: Discover tags, list the stories carrying a chosen tag, then fetch the full content of the first match.
   name: Storyblok Tag-Driven Content Sync
   slug: storyblok-tag-driven-content-sync-workflow
-artifact_total: 45
+artifact_total: 55
 asyncapis:
 - description: The Storyblok Webhook system delivers real-time event notifications to registered HTTP endpoints when content events occur in a Storyblok space. Events are triggered by actions such as story publicati
   name: Storyblok Webhooks
   slug: storyblok-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets API
+  slug: postman-storyblok-assets-api
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets Collaborators API
+  slug: postman-storyblok-collaborators-api
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets Components API
+  slug: postman-storyblok-components-api
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets Datasources API
+  slug: postman-storyblok-datasources-api
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets Image Transformation API
+  slug: postman-storyblok-image-transformation-api
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets Links API
+  slug: postman-storyblok-links-api
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets Spaces API
+  slug: postman-storyblok-spaces-api
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets Stories API
+  slug: postman-storyblok-stories-api
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets Tags API
+  slug: postman-storyblok-tags-api
+- collection_type: postman
+  name: Storyblok Content Delivery API v2 Assets Webhooks API
+  slug: postman-storyblok-webhooks-api
 - collection_type: open
   name: Storyblok Content Delivery API v2
   slug: open-storyblok-content-delivery-api-v2
@@ -120,6 +152,10 @@ collections:
   name: Storyblok Management API
   slug: open-storyblok-management-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/storyblok/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -343,12 +379,12 @@ overview: 'Storyblok publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The Storyblok catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Storyblok''s developer surface includes changelog, CLI, authentication, developer portal, documentation, pricing, engineering blog, and 36 more developer resources.'
+  Storyblok''s developer surface includes changelog, CLI, authentication, developer portal, documentation, pricing, engineering blog, and 37 more developer resources.'
 plans:
 - name: Storyblok Plans Pricing
   plan_count: 5
   slug: storyblok-plans-pricing
-random_paper: 49
+random_paper: 0
 rate_limits:
 - limit_count: 6
   name: Storyblok Rate Limits
@@ -380,18 +416,27 @@ rules:
   slug: storyblok-rules
 score:
   band: exemplar
-  composite: 72.2
-  delta: 2.0
+  composite: 72.0
+  delta: -0.2
   facets:
     commercial_clarity: 92.1
-    contract_quality: 81.1
-    developer_ergonomics: 47.8
-    discoverability: 87.5
-    governance: 52.6
+    contract_quality: 78.1
+    developer_ergonomics: 52.2
+    discoverability: 83.3
+    governance: 53.1
     operational_transparency: 68.4
-  previous_composite: 70.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 72.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/screenshots/storyblok-2026-06-20T194608.png
 security:

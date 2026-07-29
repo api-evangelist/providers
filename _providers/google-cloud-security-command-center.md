@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Operations for managing security sources
   name: Google Cloud Security Command Center Sources API
   slug: google-cloud-security-command-center-sources-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: postman
+  name: Google Cloud Security Command Center Assets API
+  slug: postman-google-cloud-security-command-center-assets-api
+- collection_type: postman
+  name: Google Cloud Security Command Center Assets Findings API
+  slug: postman-google-cloud-security-command-center-findings-api
+- collection_type: postman
+  name: Google Cloud Security Command Center Assets NotificationConfigs API
+  slug: postman-google-cloud-security-command-center-notificationconfigs-api
+- collection_type: postman
+  name: Google Cloud Security Command Center Assets Sources API
+  slug: postman-google-cloud-security-command-center-sources-api
 - collection_type: open
   name: Google Cloud Security Command Center API
   slug: open-security-command-center-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-security-command-center/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,12 +168,12 @@ overview: 'Google Cloud Security Command Center publishes 4 APIs on the [APIs.io
   The Google Cloud Security Command Center catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Security Command Center''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 10 more developer resources.'
+  Google Cloud Security Command Center''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Cloud Security Command Center Plans Pricing
   plan_count: 3
   slug: google-cloud-security-command-center-plans-pricing
-random_paper: 12
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Google Cloud Security Command Center Rate Limits
@@ -176,18 +194,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 65.9
-  delta: 4.6
+  composite: 62.6
+  delta: -3.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 67.3
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 68.6
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/screenshots/google-cloud-security-command-center-2026-06-20T182136.png
 security:

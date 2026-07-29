@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -150,30 +152,38 @@ plans:
 - name: Galileo Fs Plans Pricing
   plan_count: 1
   slug: galileo-fs-plans-pricing
-random_paper: 43
+random_paper: 71
 rate_limits:
 - limit_count: 2
   name: Galileo Fs Rate Limits
   slug: galileo-fs-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: 2.8
+  composite: 28.2
+  delta: -3.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 47.3
+    contract_quality: 49.6
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 28.8
+  previous_composite: 31.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 15.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/screenshots/galileo-fs-2026-06-20T181643.png
 security:

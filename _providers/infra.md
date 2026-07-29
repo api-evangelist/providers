@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.7
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: The Authentication API from Infra — 9 operation(s) for authentication.
@@ -169,21 +171,30 @@ overview: 'Infra publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Infra''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, and 17 more developer resources.'
-random_paper: 52
+random_paper: 66
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 34.6
+  delta: -1.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 47.8
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 48.1
+    developer_ergonomics: 51.6
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 36.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
 security:

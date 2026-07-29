@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 22.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -137,22 +139,25 @@ overview: 'Legit Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Legit Security''s developer surface includes engineering blog, support, CLI, changelog, and 17 more developer resources.'
-random_paper: 38
+random_paper: 3
 score:
   band: thin
-  composite: 30.2
-  delta: 0.0
+  composite: 37.6
+  delta: 7.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 30.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/screenshots/legit-security-2026-07-25T224837.png
 security:
 - kind: domain-security

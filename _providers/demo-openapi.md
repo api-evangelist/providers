@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 25.7
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Index of HTTP application programming interfaces.
@@ -94,7 +96,7 @@ plans:
 - name: Demo Openapi Plans Pricing
   plan_count: 3
   slug: demo-openapi-plans-pricing
-random_paper: 58
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Demo Openapi Rate Limits
@@ -109,19 +111,25 @@ rules:
     warn: 4
   slug: apis-io-search-api-rules
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: thin
+  composite: 41.8
+  delta: -3.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.5
+    contract_quality: 66.9
     developer_ergonomics: 0.0
-    discoverability: 92.5
-    governance: 65.8
+    discoverability: 68.5
+    governance: 52.1
     operational_transparency: 31.6
   previous_composite: 45.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demo-openapi/refs/heads/main/screenshots/demo-openapi-2026-06-20T175908.png
 security:

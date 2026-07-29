@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,8 +48,22 @@ apis:
 - description: Documentation space management
   name: Archbee Spaces API
   slug: archbee-spaces-api
-artifact_total: 54
+artifact_total: 57
+collections:
+- collection_type: postman
+  name: Archbee Members API
+  slug: postman-archbee-members-api
+- collection_type: postman
+  name: Archbee Members Pages API
+  slug: postman-archbee-pages-api
+- collection_type: postman
+  name: Archbee Members Spaces API
+  slug: postman-archbee-spaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/archbee/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -256,12 +272,12 @@ overview: 'Archbee publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The Archbee catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Archbee''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, pricing, support, and 14 more developer resources.'
+  Archbee''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, pricing, support, and 15 more developer resources.'
 plans:
 - name: Archbee Plans Pricing
   plan_count: 3
   slug: archbee-plans-pricing
-random_paper: 34
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Archbee Rate Limits
@@ -284,20 +300,27 @@ rules:
     warn: 12
   slug: archbee-spectral-rules
 score:
-  band: exemplar
-  composite: 70.6
-  delta: 0.0
+  band: strong
+  composite: 63.8
+  delta: -6.8
   facets:
     commercial_clarity: 92.1
-    contract_quality: 71.7
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 60.2
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 70.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/screenshots/archbee-2026-06-20T172408.png
 security:
 - kind: authentication

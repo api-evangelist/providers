@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -160,26 +162,37 @@ overview: 'Shoppable publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Shoppable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 15 more developer resources.'
-random_paper: 6
+random_paper: 34
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 48.0
+  delta: -3.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 56.3
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 58.2
+    developer_ergonomics: 62.5
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 31.6
   previous_composite: 51.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

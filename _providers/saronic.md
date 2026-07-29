@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 4
 common:
@@ -82,25 +84,25 @@ plans:
 - name: Saronic Plans Pricing
   plan_count: 1
   slug: saronic-plans-pricing
-random_paper: 3
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Saronic Rate Limits
   slug: saronic-rate-limits
 score:
   band: emerging
-  composite: 15.3
-  delta: 0.0
+  composite: 13.5
+  delta: -1.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 15.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saronic/refs/heads/main/screenshots/saronic-2026-06-20T193437.png
 security:

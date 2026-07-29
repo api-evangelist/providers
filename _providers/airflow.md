@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -1502,7 +1504,7 @@ plans:
 - name: Airflow Plans Pricing
   plan_count: 3
   slug: airflow-plans-pricing
-random_paper: 8
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Airflow Rate Limits
@@ -1531,19 +1533,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 57.2
-  delta: 2.0
+  composite: 52.1
+  delta: -5.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.0
+    contract_quality: 59.2
     developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 55.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 57.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/screenshots/airflow-2026-06-20T171427.png
 security:
 - kind: authentication

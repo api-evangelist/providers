@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: SQL-over-HTTP query engine plus RESTful resources for projects, databases, knowledge bases, tables, views, files, jobs, and AI agents. Self-hosted by default (http://127.0.0.1:47334); MindsDB Cloud is
@@ -142,21 +144,24 @@ overview: 'MindsDB publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   MindsDB''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 57
+random_paper: 44
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 35.8
+  delta: -0.2
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 36.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

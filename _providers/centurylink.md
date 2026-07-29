@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: 'The Lumen Developer Center publishes Lumen''s enterprise API catalog, including Location, Quote, Order (PX CreateOrder), Service Inventory, Billing, Outbound Notification, and Trouble Ticket APIs. All '
@@ -122,25 +124,31 @@ press:
 - date: '2026-05-25'
   title: Finance Press
   url: https://centurylink.net/finance/category/press
-random_paper: 52
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Centurylink Rate Limits
   slug: centurylink-rate-limits
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 16.1
+  delta: -3.6
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 19.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/screenshots/centurylink-2026-06-20T174132.png
 security:

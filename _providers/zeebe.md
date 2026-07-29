@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -64,12 +66,43 @@ apis:
 - description: The User Tasks API from Zeebe — 2 operation(s) for user tasks.
   name: Zeebe User Tasks API
   slug: zeebe-user-tasks-api
-artifact_total: 47
+artifact_total: 56
 collections:
+- collection_type: postman
+  name: Zeebe REST Cluster API
+  slug: postman-zeebe-cluster-api
+- collection_type: postman
+  name: Zeebe REST Cluster Deployments API
+  slug: postman-zeebe-deployments-api
+- collection_type: postman
+  name: Zeebe REST Cluster Incidents API
+  slug: postman-zeebe-incidents-api
+- collection_type: postman
+  name: Zeebe REST Cluster Jobs API
+  slug: postman-zeebe-jobs-api
+- collection_type: postman
+  name: Zeebe REST Cluster Messages API
+  slug: postman-zeebe-messages-api
+- collection_type: postman
+  name: Zeebe REST Cluster Process Instances API
+  slug: postman-zeebe-process-instances-api
+- collection_type: postman
+  name: Zeebe REST Cluster Resources API
+  slug: postman-zeebe-resources-api
+- collection_type: postman
+  name: Zeebe REST Cluster Signals API
+  slug: postman-zeebe-signals-api
+- collection_type: postman
+  name: Zeebe REST Cluster User Tasks API
+  slug: postman-zeebe-user-tasks-api
 - collection_type: open
   name: Zeebe REST API
   slug: open-zeebe-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/zeebe/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -254,12 +287,12 @@ overview: 'Zeebe publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
   The Zeebe catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zeebe''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, pricing, engineering blog, changelog, and 13 more developer resources.'
+  Zeebe''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, pricing, engineering blog, changelog, and 14 more developer resources.'
 plans:
 - name: Zeebe Plans Pricing
   plan_count: 3
   slug: zeebe-plans-pricing
-random_paper: 47
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Zeebe Rate Limits
@@ -283,18 +316,25 @@ rules:
   slug: zeebe-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 4.6
+  composite: 61.3
+  delta: -4.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 75.2
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 72.0
+    developer_ergonomics: 52.2
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/screenshots/zeebe-2026-06-20T201806.png
 security:

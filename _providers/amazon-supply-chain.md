@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -55,8 +57,31 @@ apis:
 - description: The Tags API from Amazon Supply Chain — 1 operation(s) for tags.
   name: Amazon Supply Chain Tags API
   slug: amazon-supply-chain-tags-api
-artifact_total: 45
+artifact_total: 51
+collections:
+- collection_type: postman
+  name: AWS Supply Chain Bill of Materials API
+  slug: postman-amazon-supply-chain-bill-of-materials-api
+- collection_type: postman
+  name: AWS Supply Chain Bill of Materials Data Integration Events API
+  slug: postman-amazon-supply-chain-data-integration-events-api
+- collection_type: postman
+  name: AWS Supply Chain Bill of Materials Data Integration Flows API
+  slug: postman-amazon-supply-chain-data-integration-flows-api
+- collection_type: postman
+  name: AWS Supply Chain Bill of Materials Data Lake API
+  slug: postman-amazon-supply-chain-data-lake-api
+- collection_type: postman
+  name: AWS Supply Chain Bill of Materials Instances API
+  slug: postman-amazon-supply-chain-instances-api
+- collection_type: postman
+  name: AWS Supply Chain Bill of Materials Tags API
+  slug: postman-amazon-supply-chain-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-supply-chain/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -226,12 +251,12 @@ overview: 'Amazon Supply Chain publishes 6 APIs on the [APIs.io](https://apis.io
   The Amazon Supply Chain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Supply Chain''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Supply Chain''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Supply Chain Plans Pricing
   plan_count: 3
   slug: amazon-supply-chain-plans-pricing
-random_paper: 32
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Amazon Supply Chain Rate Limits
@@ -255,19 +280,26 @@ rules:
   slug: amazon-supply-chain-spectral-rules
 score:
   band: strong
-  composite: 66.6
-  delta: 0.0
+  composite: 59.8
+  delta: -6.8
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.0
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 51.2
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 66.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/screenshots/amazon-supply-chain-2026-06-20T171834.png
 security:
 - kind: authentication

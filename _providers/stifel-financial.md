@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Stifel Bank account data accessible via Finicity (Mastercard) open banking aggregation API, enabling third-party applications to retrieve account balances, transaction history, and investment portfoli
@@ -108,30 +110,31 @@ press:
 - date: '2026-05-25'
   title: Stifel CEO 'not comfortable' with AI replacing advisor ...
   url: https://www.investmentnews.com/independent-broker-dealers/stifel-ceo-not-comfortable-with-ai-replacing-advisor-judgement/266281
-random_paper: 61
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Stifel Financial Rate Limits
   slug: stifel-financial-rate-limits
 score:
   band: emerging
-  composite: 21.8
-  delta: 0.0
+  composite: 18.0
+  delta: -3.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 2.2
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 13.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/screenshots/stifel-financial-2026-06-20T194550.png
 security:

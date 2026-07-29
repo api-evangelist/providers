@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 18.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 14.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Fern transforms a single API source of truth (OpenAPI, AsyncAPI, Protobuf, OpenRPC, or the Fern Definition Language) into type-safe SDKs in nine languages, branded interactive documentation with API e
@@ -293,7 +295,7 @@ plans:
 - name: Fern Plans Pricing
   plan_count: 3
   slug: fern-plans-pricing
-random_paper: 19
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Fern Rate Limits
@@ -309,18 +311,18 @@ rules:
   slug: fern-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 58.6
-  delta: 0.0
+  composite: 53.8
+  delta: -4.8
   facets:
     commercial_clarity: 100.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 47.8
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 58.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fern/refs/heads/main/screenshots/fern-2026-06-20T181141.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'OAuth 2.0 REST API for programmatic access to Burner line management, messaging (SMS/MMS) and configuration, plus a webhook system for real-time event notifications. Requests use `Authorization: Beare'
@@ -137,22 +139,31 @@ overview: 'Burner publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Burner''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 15 more developer resources.'
-random_paper: 42
+random_paper: 38
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 41.5
+  delta: 5.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 34.8
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 35.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/screenshots/burner-2026-07-25T204111.png
 security:
 - kind: authentication

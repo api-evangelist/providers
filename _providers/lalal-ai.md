@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -49,12 +51,28 @@ apis:
 - description: The Voice Change API from LALAL.AI — 2 operation(s) for voice change.
   name: LALAL.AI Voice Change API
   slug: lalal-ai-voice-change-api
-artifact_total: 42
+artifact_total: 46
 collections:
+- collection_type: postman
+  name: LALAL.AI Batch Stem Separation API
+  slug: postman-lalal-ai-batch-stem-separation-api
+- collection_type: postman
+  name: LALAL.AI Batch Stem Separation Common API
+  slug: postman-lalal-ai-common-api
+- collection_type: postman
+  name: LALAL.AI Batch Stem Separation API
+  slug: postman-lalal-ai-stem-separation-api
+- collection_type: postman
+  name: LALAL.AI Batch Stem Separation Voice Change API
+  slug: postman-lalal-ai-voice-change-api
 - collection_type: open
   name: LALAL.AI API
   slug: open-lalal-ai-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lalalai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -205,12 +223,12 @@ overview: 'LALAL.AI publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The LALAL.AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 13 more developer resources.'
+  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 14 more developer resources.'
 plans:
 - name: Lalal Ai Plans Pricing
   plan_count: 9
   slug: lalal-ai-plans-pricing
-random_paper: 17
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Lalal Ai Rate Limits
@@ -234,19 +252,26 @@ rules:
   slug: lalal-ai-rules
 score:
   band: strong
-  composite: 64.7
-  delta: 5.5
+  composite: 60.6
+  delta: -4.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.9
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 71.8
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 59.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 64.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/screenshots/lalal-ai-2026-06-20T184249.png
 security:
 - kind: authentication

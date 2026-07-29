@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 5
@@ -183,7 +185,7 @@ overview: 'Keep publishes 27 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Keep''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 13
+random_paper: 36
 scopes:
 - name: Keep Scopes
   scope_count: 0
@@ -191,18 +193,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 27.7
-  delta: 3.2
+  composite: 24.5
+  delta: -3.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 50.7
+    contract_quality: 48.3
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 24.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 27.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/screenshots/keep-2026-06-20T183935.png
 security:

@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -199,7 +201,7 @@ overview: 'Cashplus Bank publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 26 more developer resources.'
-random_paper: 51
+random_paper: 20
 scopes:
 - name: Cashplus Scopes
   scope_count: 3
@@ -207,23 +209,34 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 44.0
-  delta: 0.0
+  composite: 41.4
+  delta: -2.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 48.2
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 46.2
+    developer_ergonomics: 38.6
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 44.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 70.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/screenshots/cashplus-2026-07-25T204726.png
 security:

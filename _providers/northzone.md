@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Northzone
 nav: Providers
 network: true
-random_paper: 47
+random_paper: 75
 slug: northzone
 tags:
 - Venture Capital

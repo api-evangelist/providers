@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Daily historical rates between two dates.
   name: Fixer Time Series API
   slug: fixer-time-series-api
-artifact_total: 58
+artifact_total: 63
 collections:
+- collection_type: postman
+  name: Fixer Conversion API
+  slug: postman-fixer-conversion-api
+- collection_type: postman
+  name: Fixer Conversion Fluctuation API
+  slug: postman-fixer-fluctuation-api
+- collection_type: postman
+  name: Fixer Conversion Rates API
+  slug: postman-fixer-rates-api
+- collection_type: postman
+  name: Fixer Conversion Symbols API
+  slug: postman-fixer-symbols-api
+- collection_type: postman
+  name: Fixer Conversion Time Series API
+  slug: postman-fixer-time-series-api
 - collection_type: open
   name: Fixer API
   slug: open-fixer
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fixer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -251,12 +272,12 @@ overview: 'Fixer publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Fixer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Fixer''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 14 more developer resources.'
+  Fixer''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Fixer Plans Pricing
   plan_count: 5
   slug: fixer-plans-pricing
-random_paper: 66
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Fixer Rate Limits
@@ -280,19 +301,26 @@ rules:
   slug: fixer-rules
 score:
   band: strong
-  composite: 64.6
-  delta: 5.5
+  composite: 60.8
+  delta: -3.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 80.5
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 78.0
+    developer_ergonomics: 37.0
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 64.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/screenshots/fixer-2026-06-20T181258.png
 security:
 - kind: authentication

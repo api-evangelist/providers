@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 512
   human_in_the_loop: 18
@@ -271,7 +273,7 @@ overview: 'Opply publishes 47 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Opply''s developer surface includes authentication, engineering blog, and 17 more developer resources.'
-random_paper: 20
+random_paper: 25
 scopes:
 - name: Opply Scopes
   scope_count: 29
@@ -279,23 +281,34 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 36.9
+  delta: -3.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 45.7
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 42.1
+    developer_ergonomics: 23.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 40.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

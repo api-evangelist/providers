@@ -12,76 +12,78 @@
    "shown": 4,
    "providers": [
     {
-     "name": "ArcBest",
-     "slug": "arcbest",
-     "description": "ArcBest is a logistics company offering less-than-truckload (LTL) freight, truckload, moving, and supply chain management services. The ArcBest API platform provides integration capabilities for freight rating, booking, tracking, and supply chain visibility.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/screenshots/arcbest-2026-06-20T172358.png",
-     "score": 53.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 71.7,
-      "governance": 86.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 1
-    },
-    {
      "name": "UPS",
      "slug": "ups",
      "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png",
-     "score": 49.0,
+     "score": 46.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 67.3,
-      "governance": 73.7,
+      "discoverability": 64.8,
+      "contract_quality": 71.5,
+      "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
+     "schema_version": 0.6,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "ArcBest",
+     "slug": "arcbest",
+     "description": "ArcBest is a logistics company offering less-than-truckload (LTL) freight, truckload, moving, and supply chain management services. The ArcBest API platform provides integration capabilities for freight rating, booking, tracking, and supply chain visibility.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/screenshots/arcbest-2026-06-20T172358.png",
+     "score": 45.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 60.2,
+      "governance": 68.8,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 2
     },
@@ -89,35 +91,36 @@
      "name": "Sysco",
      "slug": "sysco",
      "description": "Sysco is the global leader in selling, marketing, and distributing food products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. Sysco operates the Sysco Shop ecommerce platform (US, Canada, Bahamas) backed by an Apollo GraphQL supergraph composed of domain subgraphs for ordering, product, pricing, delivery, and accounts. Programmatic access is partner/customer-gated through the login-only APIC Developer Portal and through traditional EDI (X12) trading-partner integration; Sysco does not publish a self-serve public developer API, OpenAPI specification, or open GitHub presence.",
-     "score": 47.8,
+     "score": 44.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 65.1,
-      "governance": 86.8,
+      "discoverability": 59.3,
+      "contract_quality": 66.6,
+      "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
+     "schema_version": 0.6,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 3
     },
@@ -126,35 +129,36 @@
      "slug": "ryder-system",
      "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
-     "score": 46.1,
+     "score": 43.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 65.6,
-      "governance": 47.4,
+      "discoverability": 64.8,
+      "contract_quality": 67.1,
+      "governance": 37.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
+     "schema_version": 0.6,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 4
     }
@@ -173,35 +177,36 @@
      "name": "United Natural Foods (UNFI)",
      "slug": "united-natural-foods",
      "description": "United Natural Foods, Inc. (UNFI) is the largest publicly traded wholesale distributor of health and specialty food in the United States and Canada. UNFI supplies natural, organic, specialty, and conventional foods to over 30,000 retail locations. UNFI provides digital supplier and customer portals including myUNFI, supplier portal, EDI integration, and the Harmony Core API for data access.",
-     "score": 43.2,
+     "score": 39.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 67.3,
-      "governance": 47.4,
+      "discoverability": 74.1,
+      "contract_quality": 68.6,
+      "governance": 37.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
+     "schema_version": 0.6,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 5
     },
@@ -210,109 +215,112 @@
      "slug": "gopuff",
      "description": "Gopuff is a private quick-commerce company headquartered in Philadelphia that operates its own network of micro-fulfillment centers to deliver everyday essentials — snacks, beverages, household goods, fresh items, alcohol, and over-the-counter medicines — to consumers in roughly 15 to 30 minutes. Beyond its direct-to-consumer mobile app and website, Gopuff exposes its instant-delivery infrastructure to brands and retailers through the Powered by Gopuff platform, which offers a Shopify Fulfillment app, a white-labeled Storefronts theme, and a partner Developer Portal backed by HTTP APIs (e.g. fulfillment-api-eus.partners.gopuff.com). Gopuff also operates a Delivery Partner program with its own driver pay portal, scheduling UI, and ID-scanning flow (alcohol delivery uses the Microblink BlinkID SDK).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/screenshots/gopuff-2026-06-20T182249.png",
-     "score": 42.6,
+     "score": 39.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 64.6,
-      "governance": 39.5,
+      "discoverability": 74.1,
+      "contract_quality": 66.1,
+      "governance": 31.3,
       "operational_transparency": 5.3,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
+     "schema_version": 0.6,
+     "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "verified",
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 6
-    },
-    {
-     "name": "FedEx",
-     "slug": "fedex",
-     "description": "FedEx is a logistics company that provides shipping and delivery services worldwide. They offer a range of solutions for individuals and businesses, including express shipping, freight services, and e-commerce fulfillment. FedEx publishes a suite of REST APIs covering tracking, shipping, rating, address validation, pickup, locator, trade documents, and post-shipment visibility through their developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png",
-     "score": 39.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 58.4,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 7
     },
     {
      "name": "DHL",
      "slug": "dhl",
      "description": "DHL is a global logistics company that provides a wide range of services, including express delivery, freight transportation, supply chain solutions, and e-commerce services. As one of the largest logistics companies in the world, DHL operates in over 220 countries and territories, connecting businesses and individuals with seamless and reliable shipping solutions. The DHL API Developer Portal exposes APIs across the company's business divisions including DHL eCommerce, DHL Express, DHL Global Forwarding, DHL Freight, DHL Supply Chain, and Post and Parcel Germany.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png",
-     "score": 36.6,
+     "score": 37.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 47.8,
+      "discoverability": 75.9,
+      "contract_quality": 56.9,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 48.2,
+     "schema_version": 0.6,
+     "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "FedEx",
+     "slug": "fedex",
+     "description": "FedEx is a logistics company that provides shipping and delivery services worldwide. They offer a range of solutions for individuals and businesses, including express shipping, freight services, and e-commerce fulfillment. FedEx publishes a suite of REST APIs covering tracking, shipping, rating, address validation, pickup, locator, trade documents, and post-shipment visibility through their developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png",
+     "score": 37.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 61.6,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 8
     },
@@ -321,56 +329,133 @@
      "slug": "old-dominion-freight-line",
      "description": "Old Dominion Freight Line is a leading less-than-truckload (LTL) motor carrier providing regional, inter-regional, and national freight services in the United States. ODFL offers a suite of REST web services for shippers and partners to integrate freight booking, pickup, tracking, document retrieval, and electronic bill of lading capabilities directly into their systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/screenshots/old-dominion-freight-line-2026-06-20T190653.png",
-     "score": 36.6,
+     "score": 34.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.2,
+      "discoverability": 74.1,
+      "contract_quality": 61.9,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
+     "schema_version": 0.6,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 9
+    },
+    {
+     "name": "J.B. Hunt Transport Services",
+     "slug": "jb-hunt-transport-services",
+     "description": "J.B. Hunt Transport Services, Inc. is one of the largest transportation and logistics companies in North America, providing trucking, intermodal, and contract services. J.B. Hunt offers the J.B. Hunt 360 Connect API portal for shippers and partners to programmatically access quotes, order management, shipment tracking, document management, and scheduling for full-truckload (FTL) and less-than-truckload (LTL) operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/screenshots/jb-hunt-transport-services-2026-06-20T183810.png",
+     "score": 32.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 55.9,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 21.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "Pitney Bowes",
+     "slug": "pitney-bowes",
+     "description": "Pitney Bowes is a global technology company that specializes in providing innovative shipping and mailing solutions. They offer a range of products and services, including postage meters, shipping software, and mail sorting equipment, to help businesses streamline their shipping and mailing processes. With a focus on efficiency and productivity, Pitney Bowes aims to help companies save time and money on their shipping and mailing operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/screenshots/pitney-bowes-2026-06-20T191739.png",
+     "score": 31.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 53.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
     },
     {
      "name": "Americold Realty Trust",
      "slug": "americold-realty-trust",
      "description": "Americold Realty Trust is a global leader in temperature-controlled logistics, real estate, and value-added services, owning and operating one of the largest networks of cold storage warehouses in the world. The company serves food producers, retailers, and distributors with integrated logistics solutions, offering technology platforms such as i-3PL for customer-facing inventory and order visibility and EDI for system-to-system supply chain integration. While Americold provides customer-facing technology and integration capabilities, it does not currently publish a public developer-facing API portal with open OpenAPI documentation; integrations are established project-by-project through the Americold service desk and EDI onboarding process.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/americold-realty-trust/refs/heads/main/screenshots/americold-realty-trust-2026-06-20T171923.png",
-     "score": 35.2,
+     "score": 29.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 85.0,
-      "contract_quality": 39.6,
-      "governance": 86.8,
+      "discoverability": 63.0,
+      "contract_quality": 33.9,
+      "governance": 68.8,
       "operational_transparency": 0.0,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -386,81 +471,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "J.B. Hunt Transport Services",
-     "slug": "jb-hunt-transport-services",
-     "description": "J.B. Hunt Transport Services, Inc. is one of the largest transportation and logistics companies in North America, providing trucking, intermodal, and contract services. J.B. Hunt offers the J.B. Hunt 360 Connect API portal for shippers and partners to programmatically access quotes, order management, shipment tracking, document management, and scheduling for full-truckload (FTL) and less-than-truckload (LTL) operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/screenshots/jb-hunt-transport-services-2026-06-20T183810.png",
-     "score": 34.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 54.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 35.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Pitney Bowes",
-     "slug": "pitney-bowes",
-     "description": "Pitney Bowes is a global technology company that specializes in providing innovative shipping and mailing solutions. They offer a range of products and services, including postage meters, shipping software, and mail sorting equipment, to help businesses streamline their shipping and mailing processes. With a focus on efficiency and productivity, Pitney Bowes aims to help companies save time and money on their shipping and mailing operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/screenshots/pitney-bowes-2026-06-20T191739.png",
-     "score": 33.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 50.9,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 12
     }
@@ -479,20 +491,20 @@
      "name": "US Foods",
      "slug": "us-foods",
      "description": "US Foods is one of the largest foodservice distributors in the United States, serving restaurants, healthcare facilities, hospitality businesses, government institutions, and educational facilities. As a Fortune 500 company, US Foods operates a national distribution network with over 70 distribution centers and serves approximately 250,000 customers. The company's digital platform includes the MOXe eCommerce application for ordering and business management, EDI integration for B2B transactions, and a supplier PIM system for product data synchronization. US Foods has undergone significant digital transformation building a data mesh architecture on Apache Kafka, MongoDB, and cloud platforms to support its eCommerce and supply chain operations.",
-     "score": 29.1,
+     "score": 24.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 15.1,
-      "governance": 73.7,
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
+      "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -502,12 +514,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 13
     },
@@ -516,11 +529,11 @@
      "slug": "ch-robinson-worldwide",
      "description": "C.H. Robinson is one of the world's largest third-party logistics (3PL) providers, offering global freight transportation, supply chain management, customs brokerage, and sourcing of fresh produce. Its Navisphere transportation management system provides end-to-end supply chain planning, purchase order management, execution, freight payment, and business intelligence. C.H. Robinson exposes APIs that allow shippers and carriers to integrate quoting, booking, tracking, documents, and payment workflows directly into their own TMS or ERP platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/screenshots/ch-robinson-worldwide-2026-06-20T174153.png",
-     "score": 26.1,
+     "score": 23.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 26.3,
@@ -528,8 +541,8 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -539,12 +552,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 14
     },
@@ -553,11 +567,11 @@
      "slug": "cardinal-health",
      "description": "Cardinal Health is a Fortune 15 global integrated healthcare services and products company that provides pharmaceutical distribution, medical-surgical product distribution, and customized solutions for hospitals, health systems, pharmacies, ambulatory surgery centers, clinical laboratories, and physician offices. Cardinal Health does not publish a public developer portal, but it exchanges high volumes of B2B trading data with customers and suppliers via standard X12 EDI transactions (850, 810, 855, 856, 846, 832, 867) over AS2, SFTP, and private API channels. Third-party EDI platforms such as Orderful, Crossfire, SPS Commerce, Zenbridge, DataTrans, Alluvia, ConnectPointz, and Spark Shipping offer managed connectors into Cardinal Health for order-to-cash, inventory, and supply-chain automation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardinal-health/refs/heads/main/screenshots/cardinal-health-2026-06-20T173956.png",
-     "score": 25.1,
+     "score": 21.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
@@ -565,14 +579,15 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 30.4
+      "score": 17.5,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -582,12 +597,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 15
     },
@@ -596,11 +612,11 @@
      "slug": "amerco",
      "description": "AMERCO, operating as U-Haul Holding Company, is America's largest do-it-yourself moving and storage company. The company provides truck and trailer rentals, self-storage facilities, moving supplies, and portable moving and storage containers through its U-Haul brand. AMERCO operates the Moving Help marketplace connecting consumers to moving service providers, the U-Haul Self-Storage Affiliate Network, and WebSelfStorage management software for independent storage facilities. It also operates AMERITAS Life Insurance and Oxford Life Insurance subsidiaries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/screenshots/amerco-2026-06-20T171904.png",
-     "score": 23.4,
+     "score": 21.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
@@ -608,8 +624,8 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -619,12 +635,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 16
     },
@@ -633,11 +650,11 @@
      "slug": "swift-transportation",
      "description": "Swift Transportation, now operating as Knight-Swift Transportation Holdings (KNX), is the largest full truckload motor carrier in North America. The company provides truckload, LTL, logistics, and intermodal transportation services across the US, Mexico, and Canada. Technology integration is primarily through EDI for freight tendering, shipment status, and invoicing workflows with trading partners and shippers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/swift-transportation/refs/heads/main/screenshots/swift-transportation-2026-06-20T194806.png",
-     "score": 20.4,
+     "score": 18.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
@@ -645,8 +662,8 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -656,12 +673,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 17
     },
@@ -670,11 +688,11 @@
      "slug": "maersk",
      "description": "A. P. Moller-Maersk is a Danish integrated logistics and container shipping company and one of the world's largest container shipping lines. Maersk operates ocean transport (Maersk Line), port and terminal operations (APM Terminals), supply-chain management, air cargo (Maersk Air Cargo), inland services, and customs solutions, connecting ports across more than 130 countries with end-to-end supply chain offerings. Maersk operates a public developer portal at developer.maersk.com that hosts APIs for shipping customers and partners covering tracking, schedules, rates, bookings, and related logistics workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maersk/refs/heads/main/screenshots/maersk-2026-06-20T184831.png",
-     "score": 20.1,
+     "score": 17.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.5,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 26.3,
@@ -682,8 +700,8 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -693,12 +711,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 18
     },
@@ -707,11 +726,11 @@
      "slug": "cma-cgm",
      "description": "CMA CGM is a Marseille-headquartered French container shipping, logistics, and port operator and the third-largest ocean carrier in the world. Founded in 1978 by Jacques Saadé and led today by Chairman & CEO Rodolphe Saadé, the CMA CGM Group operates a fleet of 593 vessels with 4.5 million TEU of capacity calling 420 ports across 160 countries on 257 maritime services. The group includes maritime brands ANL, APL, CNC Line, Containerships, Comanav, and Mercosul Line; terminal operator CMA Terminals and Terminal Link; the CEVA Logistics contract logistics and freight forwarding business (acquired 2019); CMA CGM Air Cargo; Brittany Ferries and La Méridionale passenger ferries; and the CMA Média portfolio (La Provence, La Tribune, BFM-RMC, Brut). Through api-portal.cma-cgm.com the group exposes a DCSA-aligned REST API surface — Track and Trace v1 (DCSA v2.2.0), Schedules, Booking Request, Quotation, and Invoice — plus a parallel EDI catalog (EDIFACT IFTSAI, IFTMBF, IFTSTA, INVOIC) and group-level digital initiatives including ZEBOX (startup accelerator), Traxens-based IoT smart containers, and a strategic AI partnership with Mistral.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cma-cgm/refs/heads/main/screenshots/cma-cgm-2026-06-20T174627.png",
-     "score": 16.3,
+     "score": 14.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.5,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -719,7 +738,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -735,7 +754,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 19
     },
@@ -744,11 +764,11 @@
      "slug": "saia",
      "description": "Saia Inc is a major US corporation and Fortune 1000 company. The Saia Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/saia/refs/heads/main/screenshots/saia-2026-06-20T193331.png",
-     "score": 15.3,
+     "score": 13.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -756,8 +776,8 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -767,12 +787,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 20
     }
@@ -791,11 +812,11 @@
      "slug": "xpo",
      "description": "XPO, Inc. (NYSE: XPO) is a Fortune 500 transportation company and one of the largest providers of less-than-truckload (LTL) freight transportation in North America. Following the spin-offs of GXO Logistics (contract logistics, 2021) and RXO (brokerage, 2022), XPO is now a pure-play LTL trucking company operating a network of service centers across the United States and Mexico. XPO does not publish a public developer API or developer portal; customer integrations (rate quotes, shipment tracking, EDI) are arranged through enterprise account managers and standard EDI exchanges.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/xpo/refs/heads/main/screenshots/xpo-2026-06-20T201711.png",
-     "score": 14.2,
+     "score": 12.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -803,7 +824,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -819,7 +840,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 21
     },
@@ -828,11 +850,11 @@
      "slug": "adams-resources-and-energy",
      "description": "Adams Resources & Energy is a diversified energy company engaged in the marketing, transportation, terminalling, and storage of crude oil and other related petroleum products in select markets across the United States. Through its subsidiaries GulfMark Energy, Firebird Bulk Carriers, Phoenix Oil, and Victoria Express Pipeline, the company purchases approximately 90,000 barrels per day at the wellhead and operates over 260 tractor-trailers and 112 pipeline inventory locations. Adams Resources & Energy serves multiple U.S. petroleum basins including the Gulf Coast, Eagle Ford Shale, Permian Basin, Bakken Shale, and Michigan, with over $1 billion in annual revenues and 400+ employees.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adams-resources-and-energy/refs/heads/main/screenshots/adams-resources-and-energy-2026-06-20T164525.png",
-     "score": 12.7,
+     "score": 12.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -840,7 +862,14 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -856,56 +885,21 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 22
-    },
-    {
-     "name": "WESCO International",
-     "slug": "wesco-international",
-     "description": "WESCO International is a Fortune 500 leading provider of business-to-business distribution, logistics services, and supply chain solutions for electrical, industrial, communications, and utility customers worldwide. WESCO serves over 150,000 customers through a network of branches and distribution centers and provides comprehensive digital integration capabilities including EDI, punchout, cXML, and API connectivity for procurement automation.",
-     "score": 12.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 7.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 23
     },
     {
      "name": "NGL Energy Partners",
      "slug": "ngl-energy-partners",
      "description": "NGL Energy Partners LP is a diversified midstream master limited partnership providing transportation, storage, blending, and marketing services for crude oil, natural gas liquids, refined products, and water solutions to producers and end-users across the energy industry. The company is publicly traded on the NYSE under the ticker symbol NGL and operates three primary business units: Crude Oil Logistics, Water Solutions, and NGL Liquids.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ngl-energy-partners/refs/heads/main/screenshots/ngl-energy-partners-2026-06-20T190313.png",
-     "score": 11.0,
+     "score": 10.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -913,7 +907,14 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -929,7 +930,45 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 23
+    },
+    {
+     "name": "WESCO International",
+     "slug": "wesco-international",
+     "description": "WESCO International is a Fortune 500 leading provider of business-to-business distribution, logistics services, and supply chain solutions for electrical, industrial, communications, and utility customers worldwide. WESCO serves over 150,000 customers through a network of branches and distribution centers and provides comprehensive digital integration capabilities including EDI, punchout, cXML, and API connectivity for procurement automation.",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 24
     },
@@ -938,11 +977,11 @@
      "slug": "watsco",
      "description": "Watsco, Inc. is the world's largest distributor of air conditioning, heating, and refrigeration (HVAC/R) equipment and related products. Operating through subsidiaries including Carrier Enterprise, Baker Distributing, Gemaire Distributors, and East Coast Metal Distributors, Watsco serves contractors and dealers across more than 670 locations in the US, Canada, Mexico, and the Caribbean. The company has undergone significant digital transformation, running a unified B2B e-commerce platform powered by Magento Commerce and a centralized PIM system covering approximately 900,000 SKUs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/watsco/refs/heads/main/screenshots/watsco-2026-06-20T201250.png",
-     "score": 10.9,
+     "score": 9.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -950,7 +989,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -966,7 +1005,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 25
     },
@@ -975,11 +1015,11 @@
      "slug": "werner-enterprises",
      "description": "Werner Enterprises is a leading transportation and logistics company providing truckload transportation services, logistics solutions, and supply chain management throughout North America. Founded in 1956 and headquartered in Omaha, Nebraska, Werner operates one of the largest fleets in the United States and offers freight brokerage, dedicated carriage, intermodal, and final-mile delivery services through its Werner Bridge℠ digital freight platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/werner-enterprises/refs/heads/main/screenshots/werner-enterprises-2026-06-20T201355.png",
-     "score": 10.7,
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -987,7 +1027,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1003,7 +1043,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 26
     },
@@ -1012,11 +1053,11 @@
      "slug": "ocean-network-express",
      "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png",
-     "score": 9.2,
+     "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -1024,7 +1065,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1040,7 +1081,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 27
     },
@@ -1049,11 +1091,11 @@
      "slug": "owens-and-minor",
      "description": "Owens & Minor is a global Fortune 500 healthcare solutions company providing essential products and services to healthcare providers and manufacturers across the continuum of care, including medical and surgical supplies distribution, home healthcare equipment (Apria, Byram Healthcare), and outsourced logistics. No public APIs or developer portal have been identified at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/owens-and-minor/refs/heads/main/screenshots/owens-and-minor-2026-06-20T191250.png",
-     "score": 8.1,
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1061,12 +1103,13 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 13.0
+      "score": 7.5,
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1083,7 +1126,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 28
     },
@@ -1092,11 +1136,11 @@
      "slug": "expeditors-international-of-washington",
      "description": "Expeditors International is a global logistics company offering freight forwarding, customs brokerage, supply chain management, warehousing, and other related logistics services. As of this update no public developer portal or openly-published APIs were located; integrations are typically delivered via private partner connectivity (EDI/B2B) and account-managed channels.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/screenshots/expeditors-international-of-washington-2026-06-20T180935.png",
-     "score": 6.8,
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1104,7 +1148,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1120,7 +1164,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 29
     },
@@ -1129,11 +1174,11 @@
      "slug": "jabil",
      "description": "Jabil is a global manufacturing services company that provides engineering, supply chain, and manufactured product solutions for the world's leading brands across industries including automotive, healthcare, industrial, consumer electronics, networking, and cloud infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jabil/refs/heads/main/screenshots/jabil-2026-06-20T183646.png",
-     "score": 6.2,
+     "score": 4.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -1141,7 +1186,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1157,7 +1202,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 30
     },
@@ -1166,11 +1212,11 @@
      "slug": "rxo",
      "description": "RXO is a freight and logistics platform that connects shippers and carriers across truckload, less-than-truckload, managed transportation, and last-mile delivery. The company operates RXO Connect, a digital freight platform that uses machine learning and AI across a network of approximately 150,000 independent carriers. RXO does not currently publish a public developer API portal on its corporate website.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rxo/refs/heads/main/screenshots/rxo-2026-06-20T193306.png",
-     "score": 6.0,
+     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1178,7 +1224,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1194,7 +1240,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 31
     },
@@ -1203,11 +1250,11 @@
      "slug": "performance-food",
      "description": "Performance Food Group is one of the largest foodservice distributors in North America, marketing and distributing food and food-related products to independent and chain restaurants and other institutional customers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/performance-food/refs/heads/main/screenshots/performance-food-2026-06-20T191605.png",
-     "score": 5.5,
+     "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1215,7 +1262,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1231,7 +1278,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 32
     },
@@ -1239,11 +1287,11 @@
      "name": "Gxo Logistics",
      "slug": "gxo-logistics",
      "description": "GXO Logistics is a leading global provider of pure-play contract logistics, offering warehousing, distribution, e-commerce fulfillment, supply chain optimization, and reverse logistics services.",
-     "score": 3.5,
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.0,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1251,7 +1299,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1267,7 +1315,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 33
     }

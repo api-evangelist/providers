@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -115,12 +117,90 @@ apis:
 - description: Manage cluster version deferral policies to delay automatic CockroachDB version upgrades.
   name: CockroachDB VersionDeferral API
   slug: cockroachdb-versiondeferral-api
-artifact_total: 154
+artifact_total: 180
 asyncapis:
 - description: AsyncAPI description of CockroachDB CHANGEFEED INTO sinks. CockroachDB Enterprise CHANGEFEEDs stream row-level change data to external systems. This document models the publicly documented sink target
   name: CockroachDB CHANGEFEED Sinks
   slug: cockroachdb-changefeed-asyncapi
 collections:
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys API
+  slug: postman-cockroachdb-apikeys-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys AuditLogs API
+  slug: postman-cockroachdb-auditlogs-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Auth API
+  slug: postman-cockroachdb-auth-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys BackupRestore API
+  slug: postman-cockroachdb-backuprestore-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Billing API
+  slug: postman-cockroachdb-billing-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Clusters API
+  slug: postman-cockroachdb-clusters-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys CMEK API
+  slug: postman-cockroachdb-cmek-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Databases API
+  slug: postman-cockroachdb-databases-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys EgressRules API
+  slug: postman-cockroachdb-egressrules-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Folders API
+  slug: postman-cockroachdb-folders-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Health API
+  slug: postman-cockroachdb-health-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys IPAllowlists API
+  slug: postman-cockroachdb-ipallowlists-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys JWTIssuers API
+  slug: postman-cockroachdb-jwtissuers-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys LogExport API
+  slug: postman-cockroachdb-logexport-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys MaintenanceWindows API
+  slug: postman-cockroachdb-maintenancewindows-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys MetricExport API
+  slug: postman-cockroachdb-metricexport-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Nodes API
+  slug: postman-cockroachdb-nodes-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Organizations API
+  slug: postman-cockroachdb-organizations-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys PrivateEndpoints API
+  slug: postman-cockroachdb-privateendpoints-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Ranges API
+  slug: postman-cockroachdb-ranges-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys RoleManagement API
+  slug: postman-cockroachdb-rolemanagement-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Rules API
+  slug: postman-cockroachdb-rules-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys ServiceAccounts API
+  slug: postman-cockroachdb-serviceaccounts-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Sessions API
+  slug: postman-cockroachdb-sessions-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys SQLUsers API
+  slug: postman-cockroachdb-sqlusers-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys VersionDeferral API
+  slug: postman-cockroachdb-versiondeferral-api
 - collection_type: open
   name: CockroachDB Cloud API
   slug: open-cockroachdb-cloud-api
@@ -128,6 +208,10 @@ collections:
   name: CockroachDB Cluster API
   slug: open-cockroachdb-cluster-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cockroachdb/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -525,12 +609,12 @@ overview: 'CockroachDB publishes 26 APIs on the [APIs.io](https://apis.io/) netw
   The CockroachDB catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  CockroachDB''s developer surface includes authentication, documentation, pricing, developer console, GitHub presence, engineering blog, and 10 more developer resources.'
+  CockroachDB''s developer surface includes authentication, documentation, pricing, developer console, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Cockroachdb Plans Pricing
   plan_count: 3
   slug: cockroachdb-plans-pricing
-random_paper: 51
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Cockroachdb Rate Limits
@@ -562,18 +646,25 @@ rules:
   slug: cockroachdb-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 3.3
+  composite: 58.3
+  delta: -3.1
   facets:
     commercial_clarity: 57.9
-    contract_quality: 77.6
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 65.8
+    contract_quality: 78.6
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 58.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/screenshots/cockroachdb-2026-06-20T174648.png
 security:

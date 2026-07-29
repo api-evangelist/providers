@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -70,12 +72,49 @@ apis:
 - description: Advanced multi-step (minutely / hourly / daily / current) forecast and historical timelines.
   name: Tomorrow.io Timelines API
   slug: tomorrow-timelines-api
-artifact_total: 102
+artifact_total: 113
 collections:
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts API
+  slug: postman-tomorrow-alerts-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Climate API
+  slug: postman-tomorrow-climate-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Events API
+  slug: postman-tomorrow-events-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Forecast API
+  slug: postman-tomorrow-forecast-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Historical API
+  slug: postman-tomorrow-historical-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Insights API
+  slug: postman-tomorrow-insights-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Locations API
+  slug: postman-tomorrow-locations-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Map Tiles API
+  slug: postman-tomorrow-map-tiles-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Realtime API
+  slug: postman-tomorrow-realtime-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Routes API
+  slug: postman-tomorrow-routes-api
+- collection_type: postman
+  name: Tomorrow.io Weather Alerts Timelines API
+  slug: postman-tomorrow-timelines-api
 - collection_type: open
   name: Tomorrow.io Weather API
   slug: open-tomorrow
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tomorrowio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -433,12 +472,12 @@ overview: 'Tomorrow.io publishes 11 APIs on the [APIs.io](https://apis.io/) netw
   The Tomorrow.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tomorrow.io''s developer surface includes authentication, documentation, pricing, signup flow, status page, engineering blog, support, and 15 more developer resources.'
+  Tomorrow.io''s developer surface includes authentication, documentation, pricing, signup flow, status page, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Tomorrow Plans Pricing
   plan_count: 4
   slug: tomorrow-plans-pricing
-random_paper: 21
+random_paper: 58
 rate_limits:
 - limit_count: 6
   name: Tomorrow Rate Limits
@@ -461,20 +500,27 @@ rules:
     warn: 27
   slug: tomorrow-spectral-rules
 score:
-  band: strong
-  composite: 60.4
-  delta: 3.3
+  band: developing
+  composite: 54.3
+  delta: -6.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.7
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 60.0
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 57.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/screenshots/tomorrow-2026-06-20T195446.png
 security:
 - kind: authentication

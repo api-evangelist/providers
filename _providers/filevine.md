@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -64,12 +66,39 @@ apis:
 - description: Billable time tracking.
   name: Filevine TimeEntries API
   slug: filevine-timeentries-api
-artifact_total: 73
+artifact_total: 82
 asyncapis:
 - description: Filevine emits webhook events to subscribed callback URLs when activity occurs in the platform. Subscriptions are configured per organization and select from a curated event catalog. Each subscription
   name: Filevine Webhook Events
   slug: filevine-events-asyncapi
 collections:
+- collection_type: postman
+  name: Filevine Contacts API
+  slug: postman-filevine-contacts-api
+- collection_type: postman
+  name: Filevine Contacts Deadlines API
+  slug: postman-filevine-deadlines-api
+- collection_type: postman
+  name: Filevine Contacts Documents API
+  slug: postman-filevine-documents-api
+- collection_type: postman
+  name: Filevine Contacts Identity API
+  slug: postman-filevine-identity-api
+- collection_type: postman
+  name: Filevine Contacts Notes API
+  slug: postman-filevine-notes-api
+- collection_type: postman
+  name: Filevine Contacts Projects API
+  slug: postman-filevine-projects-api
+- collection_type: postman
+  name: Filevine Contacts Tasks API
+  slug: postman-filevine-tasks-api
+- collection_type: postman
+  name: Filevine Contacts TimeEntries API
+  slug: postman-filevine-timeentries-api
+- collection_type: postman
+  name: Filevine Contacts Webhooks API
+  slug: postman-filevine-webhooks-api
 - collection_type: open
   name: Filevine Contacts API
   slug: open-filevine-contacts-api
@@ -98,6 +127,10 @@ collections:
   name: Filevine Webhooks API
   slug: open-filevine-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/filevine/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -364,12 +397,12 @@ overview: 'Filevine publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Filevine catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Filevine''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, code examples, and 35 more developer resources.'
+  Filevine''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, code examples, and 36 more developer resources.'
 plans:
 - name: Filevine Plans Pricing
   plan_count: 10
   slug: filevine-plans-pricing
-random_paper: 34
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Filevine Rate Limits
@@ -401,18 +434,25 @@ rules:
   slug: filevine-rules
 score:
   band: strong
-  composite: 65.7
-  delta: 3.4
+  composite: 62.8
+  delta: -2.9
   facets:
     commercial_clarity: 78.9
-    contract_quality: 77.8
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 65.8
+    contract_quality: 78.4
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 62.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/screenshots/filevine-2026-06-20T181208.png
 security:

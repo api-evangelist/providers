@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 12
@@ -393,7 +395,7 @@ plans:
 - name: Hyperbrowser Plans Pricing
   plan_count: 1
   slug: hyperbrowser-plans-pricing
-random_paper: 32
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Hyperbrowser Rate Limits
@@ -417,18 +419,25 @@ rules:
   slug: hyperbrowser-rules
 score:
   band: strong
-  composite: 63.6
-  delta: 4.6
+  composite: 58.9
+  delta: -4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.7
+    contract_quality: 64.0
     developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/screenshots/hyperbrowser-2026-06-20T183036.png
 security:

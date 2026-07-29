@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -70,12 +72,49 @@ apis:
 - description: Watchlist creation and management
   name: Stellar Cyber Watchlists API
   slug: stellar-cyber-watchlists-api
-artifact_total: 27
+artifact_total: 38
 collections:
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts API
+  slug: postman-stellar-cyber-alerts-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Authentication API
+  slug: postman-stellar-cyber-authentication-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Cases API
+  slug: postman-stellar-cyber-cases-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Connectors API
+  slug: postman-stellar-cyber-connectors-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Events API
+  slug: postman-stellar-cyber-events-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Playbooks API
+  slug: postman-stellar-cyber-playbooks-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Queries API
+  slug: postman-stellar-cyber-queries-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Reports API
+  slug: postman-stellar-cyber-reports-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Sensors API
+  slug: postman-stellar-cyber-sensors-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Tenants API
+  slug: postman-stellar-cyber-tenants-api
+- collection_type: postman
+  name: Stellar Cyber Open XDR Alerts Watchlists API
+  slug: postman-stellar-cyber-watchlists-api
 - collection_type: open
   name: Stellar Cyber Open XDR API
   slug: open-stellar-cyber
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/stellar-cyber/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -165,12 +204,12 @@ overview: 'Stellar Cyber publishes 11 APIs on the [APIs.io](https://apis.io/) ne
   The Stellar Cyber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Stellar Cyber''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 7 more developer resources.'
+  Stellar Cyber''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 8 more developer resources.'
 plans:
 - name: Stellar Cyber Plans Pricing
   plan_count: 3
   slug: stellar-cyber-plans-pricing
-random_paper: 45
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Stellar Cyber Rate Limits
@@ -194,18 +233,25 @@ rules:
   slug: stellar-cyber-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 3.3
+  composite: 56.0
+  delta: -4.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 65.8
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 62.7
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 57.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/screenshots/stellar-cyber-2026-06-20T194541.png
 security:

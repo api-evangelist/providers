@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.5
+  scored_at: '2026-07-28'
 api_count: 13
 apis:
 - description: The account API from Lighter — 26 operation(s) for account.
@@ -223,30 +225,40 @@ plans:
 - name: Lighter Plans
   plan_count: 4
   slug: lighter-plans
-random_paper: 3
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Lighter Rate Limits
   slug: lighter-rate-limits
 score:
-  band: developing
-  composite: 59.3
-  delta: 0.0
+  band: strong
+  composite: 56.9
+  delta: -2.4
   facets:
     commercial_clarity: 65.8
-    contract_quality: 66.1
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.1
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 31.6
   previous_composite: 59.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 55.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/screenshots/lighter-2026-07-25T225116.png
 security:

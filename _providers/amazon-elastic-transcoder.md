@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -74,8 +76,26 @@ arazzos:
 - description: Define a reusable output preset, then submit a transcoding job into an existing pipeline that uses the new preset.
   name: Amazon Elastic Transcoder Create Preset and Submit a Job Using It
   slug: amazon-elastic-transcoder-preset-job-workflow
-artifact_total: 450
+artifact_total: 456
 collections:
+- collection_type: postman
+  name: Amazon Elastic Transcoder Jobs API
+  slug: postman-amazon-elastic-transcoder-jobs-api
+- collection_type: postman
+  name: Amazon Elastic Transcoder Jobs JobsByPipeline API
+  slug: postman-amazon-elastic-transcoder-jobsbypipeline-api
+- collection_type: postman
+  name: Amazon Elastic Transcoder Jobs JobsByStatus API
+  slug: postman-amazon-elastic-transcoder-jobsbystatus-api
+- collection_type: postman
+  name: Amazon Elastic Transcoder Jobs Pipelines API
+  slug: postman-amazon-elastic-transcoder-pipelines-api
+- collection_type: postman
+  name: Amazon Elastic Transcoder Jobs Presets API
+  slug: postman-amazon-elastic-transcoder-presets-api
+- collection_type: postman
+  name: Amazon Elastic Transcoder Jobs RoleTests API
+  slug: postman-amazon-elastic-transcoder-roletests-api
 - collection_type: postman
   name: Amazon Elastic Transcoder
   slug: postman-amazon-elastic-transcoder
@@ -1505,7 +1525,7 @@ plans:
 - name: Amazon Elastic Transcoder Plans Pricing
   plan_count: 3
   slug: amazon-elastic-transcoder-plans-pricing
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Transcoder Rate Limits
@@ -1529,19 +1549,26 @@ rules:
   slug: amazon-elastic-transcoder-spectral-rules
 score:
   band: exemplar
-  composite: 72.8
-  delta: 5.5
+  composite: 69.8
+  delta: -3.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 73.5
+    contract_quality: 76.3
     developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 67.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 72.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/screenshots/amazon-elastic-transcoder-2026-06-20T171639.png
 security:
 - kind: authentication

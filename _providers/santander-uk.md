@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 62.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -133,7 +135,7 @@ overview: 'Santander UK publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Santander UK''s developer surface includes authentication, documentation, sandbox, and 17 more developer resources.'
-random_paper: 5
+random_paper: 74
 scopes:
 - name: Santander Uk Scopes
   scope_count: 3
@@ -141,23 +143,34 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 39.4
+  delta: -1.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 54.0
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.6
+    developer_ergonomics: 36.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 40.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 65.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

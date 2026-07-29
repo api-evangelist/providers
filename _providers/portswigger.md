@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: The primary API for integrating with Burp Suite DAST, recommended for all new integrations. Exposes the broadest range of functionality including managing sites, initiating and monitoring scans, retri
@@ -130,26 +132,26 @@ plans:
 - name: Portswigger Plans Pricing
   plan_count: 3
   slug: portswigger-plans-pricing
-random_paper: 57
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Portswigger Rate Limits
   slug: portswigger-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 41.6
+  delta: 8.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 15.1
+    contract_quality: 58.0
     developer_ergonomics: 10.9
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 33.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/portswigger/refs/heads/main/screenshots/portswigger-2026-06-20T191938.png
 security:
 - kind: domain-security

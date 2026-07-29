@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,12 +47,22 @@ apis:
 - description: Operations for searching and retrieving package information
   name: Google Flutter Packages API
   slug: google-flutter-packages-api
-artifact_total: 13
+artifact_total: 15
 collections:
+- collection_type: postman
+  name: Google Flutter Pub.dev Documentation API
+  slug: postman-google-flutter-documentation-api
+- collection_type: postman
+  name: Google Flutter Pub.dev Documentation Packages API
+  slug: postman-google-flutter-packages-api
 - collection_type: open
   name: Google Flutter Pub.dev API
   slug: open-flutter-pub-dev
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-flutter/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,12 +154,12 @@ overview: 'Google Flutter publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   The Google Flutter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Flutter''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, engineering blog, and 10 more developer resources.'
+  Google Flutter''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Flutter Plans Pricing
   plan_count: 3
   slug: google-flutter-plans-pricing
-random_paper: 28
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Google Flutter Rate Limits
@@ -163,18 +175,25 @@ rules:
   slug: google-flutter-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 3.3
+  composite: 58.4
+  delta: -2.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 59.7
-    developer_ergonomics: 52.2
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 61.4
+    developer_ergonomics: 56.5
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 57.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/screenshots/google-flutter-2026-06-20T182202.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,12 +45,22 @@ apis:
 - description: View tasks within a job
   name: Google Cloud Batch Tasks API
   slug: google-cloud-batch-tasks-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: postman
+  name: Google Cloud Batch Jobs API
+  slug: postman-google-cloud-batch-jobs-api
+- collection_type: postman
+  name: Google Cloud Batch Jobs Tasks API
+  slug: postman-google-cloud-batch-tasks-api
 - collection_type: open
   name: Google Cloud Batch API
   slug: open-batch
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-batch/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,12 +156,12 @@ overview: 'Google Cloud Batch publishes 2 APIs on the [APIs.io](https://apis.io/
   The Google Cloud Batch catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Batch''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 10 more developer resources.'
+  Google Cloud Batch''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Cloud Batch Plans Pricing
   plan_count: 3
   slug: google-cloud-batch-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Google Cloud Batch Rate Limits
@@ -170,18 +182,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 65.5
-  delta: 4.5
+  composite: 62.5
+  delta: -3.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.0
-    developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 70.3
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/screenshots/google-cloud-batch-2026-06-20T182044.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: VTGate is the stateless proxy that routes queries to the appropriate VTTablet instances. It exposes a MySQL-compatible interface and a gRPC API that clients use to interact with the Vitess cluster, ha
@@ -158,7 +160,7 @@ plans:
 - name: Vitess Plans Pricing
   plan_count: 1
   slug: vitess-plans-pricing
-random_paper: 58
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Vitess Rate Limits
@@ -182,19 +184,25 @@ rules:
   slug: vitess-rules
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 43.4
+  delta: -5.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 47.2
+    contract_quality: 40.3
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 48.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitess/refs/heads/main/screenshots/vitess-2026-06-20T201108.png
 security:
 - kind: domain-security

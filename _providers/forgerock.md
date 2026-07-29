@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -151,8 +153,122 @@ apis:
 - description: Manage BPMN workflow processes and tasks
   name: ForgeRock Workflow API
   slug: forgerock-workflow-api
-artifact_total: 137
+artifact_total: 175
 collections:
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests API
+  slug: postman-forgerock-access-requests-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Access Reviews API
+  slug: postman-forgerock-access-reviews-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Analytics API
+  slug: postman-forgerock-analytics-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Applications API
+  slug: postman-forgerock-applications-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Audit API
+  slug: postman-forgerock-audit-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Authentication API
+  slug: postman-forgerock-authentication-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Certifications API
+  slug: postman-forgerock-certifications-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Company View API
+  slug: postman-forgerock-company-view-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Configuration API
+  slug: postman-forgerock-configuration-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Entitlements API
+  slug: postman-forgerock-entitlements-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Entries API
+  slug: postman-forgerock-entries-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Groups API
+  slug: postman-forgerock-groups-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Health API
+  slug: postman-forgerock-health-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Managed Objects API
+  slug: postman-forgerock-managed-objects-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Managed Roles API
+  slug: postman-forgerock-managed-roles-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Managed Users API
+  slug: postman-forgerock-managed-users-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Monitoring API
+  slug: postman-forgerock-monitoring-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests OAuth2 API
+  slug: postman-forgerock-oauth2-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests OAuth2 Clients API
+  slug: postman-forgerock-oauth2-clients-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Objects API
+  slug: postman-forgerock-objects-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests OpenID Connect API
+  slug: postman-forgerock-openid-connect-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Policies API
+  slug: postman-forgerock-policies-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Realms API
+  slug: postman-forgerock-realms-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Reconciliation API
+  slug: postman-forgerock-reconciliation-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Resource Types API
+  slug: postman-forgerock-resource-types-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Roles API
+  slug: postman-forgerock-roles-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Routes API
+  slug: postman-forgerock-routes-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Rules API
+  slug: postman-forgerock-rules-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Scheduler API
+  slug: postman-forgerock-scheduler-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Scripts API
+  slug: postman-forgerock-scripts-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Server Info API
+  slug: postman-forgerock-server-info-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Sessions API
+  slug: postman-forgerock-sessions-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Studio API
+  slug: postman-forgerock-studio-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Synchronization API
+  slug: postman-forgerock-synchronization-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests System Objects API
+  slug: postman-forgerock-system-objects-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Users API
+  slug: postman-forgerock-users-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Violations API
+  slug: postman-forgerock-violations-api
+- collection_type: postman
+  name: ForgeRock Access Management Access Requests Workflow API
+  slug: postman-forgerock-workflow-api
 - collection_type: open
   name: ForgeRock Access Management API
   slug: open-forgerock-access-management
@@ -172,6 +288,10 @@ collections:
   name: ForgeRock Identity Management API
   slug: open-forgerock-identity-management
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/forgerock/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -561,12 +681,12 @@ overview: 'ForgeRock publishes 38 APIs on the [APIs.io](https://apis.io/) networ
   The ForgeRock catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ForgeRock''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 21 more developer resources.'
+  ForgeRock''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 22 more developer resources.'
 plans:
 - name: Forgerock Plans Pricing
   plan_count: 6
   slug: forgerock-plans-pricing
-random_paper: 10
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Forgerock Rate Limits
@@ -582,18 +702,25 @@ rules:
   slug: forgerock-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.9
-  delta: 2.5
+  composite: 60.8
+  delta: -3.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 65.5
-    developer_ergonomics: 52.2
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 62.6
+    developer_ergonomics: 56.5
+    discoverability: 66.7
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 61.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/screenshots/forgerock-2026-06-20T181426.png
 security:

@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Nominal Core REST API (Conjure-generated) for test data storage, ingest, streaming, compute, and asset/run/checklist management.
@@ -142,21 +144,24 @@ overview: 'Nominal publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Nominal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, authentication, and 16 more developer resources.'
-random_paper: 2
+random_paper: 57
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 34.7
+  delta: 1.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 33.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

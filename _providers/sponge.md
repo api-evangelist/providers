@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -202,7 +204,7 @@ overview: 'Sponge publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sponge''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, CLI, sandbox, and 20 more developer resources.'
-random_paper: 40
+random_paper: 36
 scopes:
 - name: Sponge Scopes
   scope_count: 5
@@ -210,23 +212,34 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.5
+  delta: -1.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.1
+    contract_quality: 54.6
     developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 5.3
   previous_composite: 50.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

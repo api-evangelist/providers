@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
-  pricing: free
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: near-conformant
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: true
+    rate_limit_signal: documented
+    spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -35,32 +26,21 @@ agentic_access:
   operation_count: 5
   slug: tavily-agentic-access
   summary_line: 5 operations · 5 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The Tavily Web API offers a unified set of endpoints for AI agents to search the web, extract page content, crawl sites, map sitemaps, and run AI research tasks. Endpoints are REST-based and authentic
   name: Tavily Web API
   slug: web-api
-- description: The Crawl API from Tavily — 1 operation(s) for crawl.
-  name: Tavily Crawl API
-  slug: tavily-crawl-api
-- description: The Extract API from Tavily — 1 operation(s) for extract.
-  name: Tavily Extract API
-  slug: tavily-extract-api
-- description: The Map API from Tavily — 1 operation(s) for map.
-  name: Tavily Map API
-  slug: tavily-map-api
-- description: The Research API from Tavily — 1 operation(s) for research.
-  name: Tavily Research API
-  slug: tavily-research-api
-- description: The Search API from Tavily — 1 operation(s) for search.
-  name: Tavily Search API
-  slug: tavily-search-api
-artifact_total: 14
+artifact_total: 9
 collections:
 - collection_type: open
   name: Tavily Web API
   slug: open-tavily
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/tavily-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -131,40 +111,47 @@ finops:
 - name: Tavily Finops
   service_category: API
   slug: tavily-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tavily.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-05-23'
 name: Tavily
 nav: Providers
 network: true
-overview: 'Tavily publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Crawl API, Extract API, Map API, and 2 more. Tagged areas include Search, Web Search, AI Agents, LLMs, and Extract.
+overview: 'Tavily publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Web Search, AI Agents, LLMs, and Extract.
 
 
-  Tavily''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, and 11 more developer resources.'
+  Tavily''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, and 12 more developer resources.'
 plans:
 - name: Tavily Plans Pricing
   plan_count: 1
   slug: tavily-plans-pricing
-random_paper: 53
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Tavily Rate Limits
   slug: tavily-rate-limits
 score:
-  band: developing
-  composite: 46.5
-  delta: 3.3
+  band: thin
+  composite: 31.2
+  delta: -15.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 56.6
+    contract_quality: 8.1
     developer_ergonomics: 26.1
-    discoverability: 100.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 43.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 46.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/screenshots/tavily-2026-06-20T194930.png
 security:
 - kind: authentication

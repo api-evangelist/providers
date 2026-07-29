@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,26 +79,27 @@ press:
 - date: '2026-05-25'
   title: NVIDIA and Lilly Announce Co-Innovation AI Lab to Reinvent ...
   url: https://investor.lilly.com/news-releases/news-release-details/nvidia-and-lilly-announce-co-innovation-ai-lab-reinvent-drug
-random_paper: 25
+random_paper: 62
 score:
   band: minimal
-  composite: 7.6
-  delta: 0.0
+  composite: 5.5
+  delta: -2.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 55.0
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 7.6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 7.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eli-lilly/refs/heads/main/screenshots/eli-lilly-2026-07-25T213138.png
 security:

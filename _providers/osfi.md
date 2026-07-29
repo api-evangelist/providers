@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.2
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: 'Public register of the federally regulated financial institutions OSFI supervises, including every federally regulated insurer with its Authorized Insurance Classes, FI industry group, trade name and '
@@ -357,31 +359,36 @@ plans:
 - name: Osfi Plans Pricing
   plan_count: 1
   slug: osfi-plans-pricing
-random_paper: 25
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Osfi Rate Limits
   slug: osfi-rate-limits
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 43.1
+  delta: -5.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 28.3
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 13.2
+    contract_quality: 24.2
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 22.9
     operational_transparency: 52.6
   previous_composite: 48.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Osfi Authentication

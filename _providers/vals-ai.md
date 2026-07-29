@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -102,21 +104,21 @@ overview: 'Vals Ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vals Ai''s developer surface includes documentation, getting-started guide, signup flow, CLI, authentication, and 10 more developer resources.'
-random_paper: 5
+random_paper: 69
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 22.7
+  delta: 0.1
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 22.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

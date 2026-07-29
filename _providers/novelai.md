@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 35
@@ -109,25 +111,32 @@ plans:
 - name: Novelai Plans Pricing
   plan_count: 3
   slug: novelai-plans-pricing
-random_paper: 2
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Novelai Rate Limits
   slug: novelai-rate-limits
 score:
   band: thin
-  composite: 32.1
-  delta: 2.0
+  composite: 30.9
+  delta: -1.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 43.9
+    contract_quality: 45.6
     developer_ergonomics: 10.9
-    discoverability: 62.5
+    discoverability: 46.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 30.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 32.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/screenshots/novelai-2026-06-20T190437.png
 security:

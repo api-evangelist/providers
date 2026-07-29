@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: JupiterOne's public GraphQL API for querying the security asset graph with J1QL, managing entities and relationships, running alert rules, ingesting data via sync jobs, and administering integrations,
@@ -173,26 +175,29 @@ overview: 'JupiterOne publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   JupiterOne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 22 more developer resources.'
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Jupiterone Rate Limits
   slug: jupiterone-rate-limits
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 54.5
+  delta: 8.2
   facets:
     commercial_clarity: 47.4
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 55.3
   previous_composite: 46.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/screenshots/jupiterone-2026-07-25T223332.png
 security:
 - kind: authentication

@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.5
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Contacts Management API for the Vodafone Business Messaging Hub, providing CRUD over contacts, lists and custom fields for SMS/MMS campaigns. Documented as an Apiary API Blueprint (project subdomain c
@@ -199,26 +201,36 @@ plans:
 - name: Tpg Telecom Plans
   plan_count: 5
   slug: tpg-telecom-plans
-random_paper: 33
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Tpg Telecom Rate Limits
   slug: tpg-telecom-rate-limits
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 50.3
+  delta: 5.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 22.6
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 38.6
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 39.5
   previous_composite: 45.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 51.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Tpg Telecom Authentication

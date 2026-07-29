@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.9
+  scored_at: '2026-07-28'
 api_count: 14
 apis:
 - description: The Arrays API from Slope Software — 2 operation(s) for arrays.
@@ -199,26 +201,36 @@ overview: 'Slope Software publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
 
   Slope Software''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 39
+random_paper: 4
 score:
   band: thin
-  composite: 44.5
-  delta: 0.0
+  composite: 41.0
+  delta: -3.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 48.1
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 45.8
+    developer_ergonomics: 40.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 15.8
   previous_composite: 44.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

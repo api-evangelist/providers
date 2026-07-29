@@ -2,11 +2,13 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for food & nutrition data — search, barcode lookup, food-by-id, popular foods, categories, and health probe. Bearer auth optional; read endpoints work anonymously.
@@ -31,24 +33,28 @@ name: DietlyAPI
 nav: Providers
 network: true
 overview: 'DietlyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: DietlyAPI. Tagged areas include food, nutrition, barcode, open-food-facts, and health.'
-random_paper: 13
+random_paper: 41
 score:
   band: minimal
-  composite: 14.8
+  composite: 11.9
+  delta: -2.9
   facets:
     commercial_clarity: 0.0
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 0.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 14.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dietlyapi/refs/heads/main/screenshots/dietlyapi-2026-07-25T211947.png
 slug: dietlyapi
 tags:

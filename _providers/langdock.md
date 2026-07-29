@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 62.8
+  scored_at: '2026-07-28'
 api_count: 15
 apis:
 - description: The Agent API from Langdock — 2 operation(s) for agent.
@@ -74,12 +76,62 @@ apis:
 - description: The User Management API from Langdock — 2 operation(s) for user management.
   name: Langdock User Management API
   slug: langdock-user-management-api
-artifact_total: 22
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Langdock Webhooks
   slug: langdock-webhooks
+collections:
+- collection_type: postman
+  name: Langdock Agent API
+  slug: postman-langdock-agent-api
+- collection_type: postman
+  name: Langdock Agent Agent Build API
+  slug: postman-langdock-agent-build-api
+- collection_type: postman
+  name: Langdock Agent Assistant API
+  slug: postman-langdock-assistant-api
+- collection_type: postman
+  name: Langdock Agent Assistant Build API
+  slug: postman-langdock-assistant-build-api
+- collection_type: postman
+  name: Langdock Agent Attachments API
+  slug: postman-langdock-attachments-api
+- collection_type: postman
+  name: Langdock Agent Audit Logs API
+  slug: postman-langdock-audit-logs-api
+- collection_type: postman
+  name: Langdock Agent Chat API
+  slug: postman-langdock-chat-api
+- collection_type: postman
+  name: Langdock Agent Embeddings API
+  slug: postman-langdock-embeddings-api
+- collection_type: postman
+  name: Langdock Agent fim API
+  slug: postman-langdock-fim-api
+- collection_type: postman
+  name: Langdock Agent Google API
+  slug: postman-langdock-google-api
+- collection_type: postman
+  name: Langdock Agent Knowledge API
+  slug: postman-langdock-knowledge-api
+- collection_type: postman
+  name: Langdock Agent Messages API
+  slug: postman-langdock-messages-api
+- collection_type: postman
+  name: Langdock Agent Skills API
+  slug: postman-langdock-skills-api
+- collection_type: postman
+  name: Langdock Agent Usage Export API
+  slug: postman-langdock-usage-export-api
+- collection_type: postman
+  name: Langdock Agent User Management API
+  slug: postman-langdock-user-management-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/langdock/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -234,26 +286,35 @@ overview: 'Langdock publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Langdock catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Langdock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 19
+  Langdock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Langdock Rate Limits
   slug: langdock-rate-limits
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 63.4
+  delta: 0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.1
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.6
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 84.2
   previous_composite: 62.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png
 security:

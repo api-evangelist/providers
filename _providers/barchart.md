@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 80.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,12 +72,49 @@ apis:
 - description: Current conditions and forecasts.
   name: Barchart Weather API
   slug: barchart-weather-api
-artifact_total: 19
+artifact_total: 30
 collections:
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture API
+  slug: postman-barchart-commodities-agriculture-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture Corporate Actions & Earnings API
+  slug: postman-barchart-corporate-actions-earnings-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture Cryptocurrency API
+  slug: postman-barchart-cryptocurrency-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture Fundamentals API
+  slug: postman-barchart-fundamentals-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture Futures & Options API
+  slug: postman-barchart-futures-options-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture History API
+  slug: postman-barchart-history-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture News & Filings API
+  slug: postman-barchart-news-filings-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture Quotes API
+  slug: postman-barchart-quotes-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture Reference & Equities API
+  slug: postman-barchart-reference-equities-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture Technicals & Charts API
+  slug: postman-barchart-technicals-charts-api
+- collection_type: postman
+  name: Barchart OnDemand Commodities & Agriculture Weather API
+  slug: postman-barchart-weather-api
 - collection_type: open
   name: Barchart OnDemand API
   slug: open-barchart
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/barchart/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -231,35 +270,46 @@ network: true
 overview: 'Barchart publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Commodities & Agriculture API, Corporate Actions & Earnings API, Cryptocurrency API, and 8 more. Tagged areas include Market Data, Financial Data, Commodities, Futures, and Options.
 
 
-  Barchart''s developer surface includes authentication, documentation, signup flow, getting-started guide, support, pricing, engineering blog, and 27 more developer resources.'
+  Barchart''s developer surface includes authentication, documentation, signup flow, getting-started guide, support, pricing, engineering blog, and 28 more developer resources.'
 plans:
 - name: Barchart Plans Pricing
   plan_count: 3
   slug: barchart-plans-pricing
-random_paper: 23
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Barchart Rate Limits
   slug: barchart-rate-limits
 score:
   band: strong
-  composite: 61.4
-  delta: 2.8
+  composite: 60.2
+  delta: -1.2
   facets:
     commercial_clarity: 84.2
-    contract_quality: 61.9
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.5
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 58.6
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

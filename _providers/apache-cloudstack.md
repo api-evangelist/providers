@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,8 +51,25 @@ apis:
 - description: Zone and availability zone management operations.
   name: Apache CloudStack Zones API
   slug: apache-cloudstack-zones-api
-artifact_total: 49
+artifact_total: 53
+collections:
+- collection_type: postman
+  name: Apache CloudStack Networks API
+  slug: postman-apache-cloudstack-networks-api
+- collection_type: postman
+  name: Apache CloudStack Networks Virtual Machines API
+  slug: postman-apache-cloudstack-virtual-machines-api
+- collection_type: postman
+  name: Apache CloudStack Networks Volumes API
+  slug: postman-apache-cloudstack-volumes-api
+- collection_type: postman
+  name: Apache CloudStack Networks Zones API
+  slug: postman-apache-cloudstack-zones-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apache-cloudstack/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -208,12 +227,12 @@ overview: 'Apache CloudStack publishes 4 APIs on the [APIs.io](https://apis.io/)
   The Apache CloudStack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache CloudStack''s developer surface includes authentication, documentation, getting-started guide, support, changelog, and 9 more developer resources.'
+  Apache CloudStack''s developer surface includes authentication, documentation, getting-started guide, support, changelog, and 10 more developer resources.'
 plans:
 - name: Apache Cloudstack Plans Pricing
   plan_count: 3
   slug: apache-cloudstack-plans-pricing
-random_paper: 24
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Apache Cloudstack Rate Limits
@@ -236,20 +255,27 @@ rules:
     warn: 15
   slug: apache-cloudstack-spectral-rules
 score:
-  band: strong
-  composite: 60.2
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  delta: -7.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.0
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 53.4
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/screenshots/apache-cloudstack-2026-06-20T172047.png
 security:
 - kind: authentication

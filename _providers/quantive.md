@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 3.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful API v1.0 for the WorkBoard / Quantive strategy-execution platform. Supports OAuth 2.0 (authorization-code) for multi-user apps and an instant-token flow for single-user or testing scenarios. A
@@ -70,7 +72,7 @@ overview: 'Quantive publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Quantive''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 61
+random_paper: 30
 scopes:
 - name: Quantive Scopes
   scope_count: 0
@@ -78,18 +80,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 15.4
-  delta: 0.0
+  composite: 14.1
+  delta: -1.3
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 92.5
+    discoverability: 79.6
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

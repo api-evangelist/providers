@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 14
 apis:
 - description: Records customer interactions from e-commerce, POS, websites, and mobile apps as loyalty events (for example point_add, checkout_accept), driving the rules and workflows of the loyalty program. Suppor
@@ -129,25 +131,25 @@ plans:
 - name: Antavo Plans Pricing
   plan_count: 2
   slug: antavo-plans-pricing
-random_paper: 37
+random_paper: 33
 rate_limits:
 - limit_count: 4
   name: Antavo Rate Limits
   slug: antavo-rate-limits
 score:
   band: emerging
-  composite: 22.7
-  delta: 0.0
+  composite: 20.2
+  delta: -2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 22.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/screenshots/antavo-2026-07-25T200404.png
 security:

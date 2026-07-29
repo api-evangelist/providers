@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: PlexTrac's JWT-authenticated REST API (v1 and v2) for managing clients, reports, findings, assets, and content-library writeups, along with tenant/RBAC administration and outbound webhooks. The base U
@@ -113,22 +115,25 @@ overview: 'PlexTrac, LLC publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   PlexTrac, LLC''s developer surface includes documentation, API reference, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 3
+random_paper: 72
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 38.3
+  delta: 8.2
   facets:
     commercial_clarity: 47.4
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 10.5
   previous_composite: 30.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Plextrac Llc Authentication

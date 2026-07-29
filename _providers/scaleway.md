@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -259,8 +261,227 @@ apis:
 - description: Webhooks enable real-time communication and automation between systems by sending messages through all protocols supported by SNS, such as HTTP, HTTPS, and Serverless Functions, allowing for immediate
   name: Scaleway Webhooks API
   slug: scaleway-webhooks-api
-artifact_total: 442
+artifact_total: 515
 collections:
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List API
+  slug: postman-scaleway-access-control-list-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List ACLs API
+  slug: postman-scaleway-acls-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Alert Subscribers API
+  slug: postman-scaleway-alert-subscribers-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List API Keys API
+  slug: postman-scaleway-api-keys-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Applications API
+  slug: postman-scaleway-applications-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Backends API
+  slug: postman-scaleway-backends-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Backups API
+  slug: postman-scaleway-backups-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Blocklist API
+  slug: postman-scaleway-blocklist-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Certificate API
+  slug: postman-scaleway-certificate-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Cluster types API
+  slug: postman-scaleway-cluster-types-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Clusters API
+  slug: postman-scaleway-clusters-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Containers API
+  slug: postman-scaleway-containers-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Crons API
+  slug: postman-scaleway-crons-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Database Instances API
+  slug: postman-scaleway-database-instances-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Databases API
+  slug: postman-scaleway-databases-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Domains API
+  slug: postman-scaleway-domains-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Emails API
+  slug: postman-scaleway-emails-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Endpoints API
+  slug: postman-scaleway-endpoints-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Engines API
+  slug: postman-scaleway-engines-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Frontends API
+  slug: postman-scaleway-frontends-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Functions API
+  slug: postman-scaleway-functions-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Groups API
+  slug: postman-scaleway-groups-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Iam API
+  slug: postman-scaleway-iam-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Images API
+  slug: postman-scaleway-images-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Instance API
+  slug: postman-scaleway-instance-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Instance Settings API
+  slug: postman-scaleway-instance-settings-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Instance Types API
+  slug: postman-scaleway-instance-types-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Instances API
+  slug: postman-scaleway-instances-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List IP addresses API
+  slug: postman-scaleway-ip-addresses-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List IPs API
+  slug: postman-scaleway-ips-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List JWTs API
+  slug: postman-scaleway-jwts-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Load Balancer API
+  slug: postman-scaleway-load-balancer-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Load Balancer Types API
+  slug: postman-scaleway-load-balancer-types-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Logs API
+  slug: postman-scaleway-logs-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Namespaces API
+  slug: postman-scaleway-namespaces-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Network ACLs API
+  slug: postman-scaleway-network-acls-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Nodes API
+  slug: postman-scaleway-nodes-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List NodeTypes API
+  slug: postman-scaleway-nodetypes-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List offers API
+  slug: postman-scaleway-offers-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Permission sets API
+  slug: postman-scaleway-permission-sets-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Placement Groups API
+  slug: postman-scaleway-placement-groups-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Policies API
+  slug: postman-scaleway-policies-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Pools API
+  slug: postman-scaleway-pools-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Private Networks API
+  slug: postman-scaleway-private-networks-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Private NICs API
+  slug: postman-scaleway-private-nics-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Privileges API
+  slug: postman-scaleway-privileges-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Project Consumption API
+  slug: postman-scaleway-project-consumption-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Project Settings API
+  slug: postman-scaleway-project-settings-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Quotas API
+  slug: postman-scaleway-quotas-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Read Replicas API
+  slug: postman-scaleway-read-replicas-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Route API
+  slug: postman-scaleway-route-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Routes API
+  slug: postman-scaleway-routes-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Rules API
+  slug: postman-scaleway-rules-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List SAML API
+  slug: postman-scaleway-saml-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Secret Versions API
+  slug: postman-scaleway-secret-versions-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Secrets API
+  slug: postman-scaleway-secrets-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Security Groups API
+  slug: postman-scaleway-security-groups-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Security Settings API
+  slug: postman-scaleway-security-settings-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Snapshots API
+  slug: postman-scaleway-snapshots-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List SSH Keys API
+  slug: postman-scaleway-ssh-keys-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Statistics API
+  slug: postman-scaleway-statistics-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Stats API
+  slug: postman-scaleway-stats-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Subnets API
+  slug: postman-scaleway-subnets-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Tokens API
+  slug: postman-scaleway-tokens-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Triggers API
+  slug: postman-scaleway-triggers-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List User Data API
+  slug: postman-scaleway-user-data-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Users API
+  slug: postman-scaleway-users-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Versions API
+  slug: postman-scaleway-versions-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Volume Types API
+  slug: postman-scaleway-volume-types-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Volumes API
+  slug: postman-scaleway-volumes-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List VPC Connectors API
+  slug: postman-scaleway-vpc-connectors-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List VPCs API
+  slug: postman-scaleway-vpcs-api
+- collection_type: postman
+  name: Managed Database for PostgreSQL and MySQL Access Control List Webhooks API
+  slug: postman-scaleway-webhooks-api
 - collection_type: open
   name: Managed Database for PostgreSQL and MySQL API
   slug: open-scaleway-database
@@ -292,6 +513,10 @@ collections:
   name: VPC API
   slug: open-scaleway-vpc
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/scaleway/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1459,12 +1684,12 @@ overview: 'Scaleway publishes 73 APIs on the [APIs.io](https://apis.io/) network
   The Scaleway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scaleway''s developer surface includes authentication, developer portal, documentation, API reference, GitHub presence, CLI, pricing, and 18 more developer resources.'
+  Scaleway''s developer surface includes authentication, developer portal, documentation, API reference, GitHub presence, CLI, pricing, and 19 more developer resources.'
 plans:
 - name: Scaleway Plans Pricing
   plan_count: 2
   slug: scaleway-plans-pricing
-random_paper: 41
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Scaleway Rate Limits
@@ -1488,18 +1713,25 @@ rules:
   slug: scaleway-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 1.2
+  composite: 56.5
+  delta: -4.5
   facets:
     commercial_clarity: 47.4
-    contract_quality: 60.3
+    contract_quality: 58.9
     developer_ergonomics: 63.0
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 59.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 73
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

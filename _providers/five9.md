@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: REST API used by agent and supervisor applications to log in, manage state, handle interactions, and access supervisor monitoring features on the Five9 cloud contact center platform. Authenticated via
@@ -88,21 +90,21 @@ overview: 'Five9 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Five9''s developer surface includes documentation, pricing, signup flow, GitHub presence, support, and 5 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: emerging
-  composite: 16.4
-  delta: 0.0
+  composite: 14.0
+  delta: -2.4
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 16.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/five9/refs/heads/main/screenshots/five9-2026-06-20T181255.png
 security:

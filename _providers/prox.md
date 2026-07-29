@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Hosted MCP server that lets AI assistants query a manufacturer's Prox workspace (products, knowledge trees, wiki nodes) grounded in their manuals and make attributed, version-controlled edits. OAuth 2
@@ -118,7 +120,7 @@ overview: 'Prox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Prox''s developer surface includes documentation, authentication, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 49
+random_paper: 72
 scopes:
 - name: Prox Scopes
   scope_count: 4
@@ -126,18 +128,20 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode
 score:
   band: emerging
-  composite: 28.0
-  delta: 0.0
+  composite: 27.5
+  delta: -0.5
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 28.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

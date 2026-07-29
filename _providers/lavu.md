@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -201,7 +203,7 @@ plans:
 - name: Lavu Plans Pricing
   plan_count: 4
   slug: lavu-plans-pricing
-random_paper: 32
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Lavu Rate Limits
@@ -224,25 +226,33 @@ rules:
     warn: 22
   slug: lavu-spectral-rules
 score:
-  band: developing
-  composite: 48.3
-  delta: 0.6
+  band: thin
+  composite: 40.8
+  delta: -7.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
+    contract_quality: 56.8
     developer_ergonomics: 13.0
-    discoverability: 75.0
-    governance: 86.8
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 47.7
+  previous_composite: 48.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/screenshots/lavu-2026-06-20T184344.png
 security:
 - kind: authentication

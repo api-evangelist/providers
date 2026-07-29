@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -125,8 +127,31 @@ arazzos:
 - description: Read a wallet's lamport balance, enumerate its SPL Token accounts, and price one token account.
   name: Solana Snapshot a Wallet's SOL and SPL Token Holdings
   slug: solana-wallet-portfolio-workflow
-artifact_total: 54
+artifact_total: 60
+collections:
+- collection_type: postman
+  name: Solana JSON-RPC Accounts API
+  slug: postman-solana-accounts-api
+- collection_type: postman
+  name: Solana JSON-RPC Accounts Blocks API
+  slug: postman-solana-blocks-api
+- collection_type: postman
+  name: Solana JSON-RPC Accounts Cluster API
+  slug: postman-solana-cluster-api
+- collection_type: postman
+  name: Solana JSON-RPC Accounts Economics API
+  slug: postman-solana-economics-api
+- collection_type: postman
+  name: Solana JSON-RPC Accounts Tokens API
+  slug: postman-solana-tokens-api
+- collection_type: postman
+  name: Solana JSON-RPC Accounts Transactions API
+  slug: postman-solana-transactions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/solana/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -427,12 +452,12 @@ overview: 'Solana publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Solana catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Solana''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, engineering blog, sandbox, and 55 more developer resources.'
+  Solana''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, engineering blog, sandbox, and 56 more developer resources.'
 plans:
 - name: Solana Plans
   plan_count: 3
   slug: solana-plans
-random_paper: 26
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Solana Rpc Rate Limits
@@ -448,18 +473,27 @@ rules:
   slug: solana-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 72.5
-  delta: 0.0
+  composite: 71.0
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.9
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 63.6
+    developer_ergonomics: 76.1
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 68.4
   previous_composite: 72.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/screenshots/solana-2026-06-20T194144.png
 security:

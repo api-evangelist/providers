@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Harvey does not currently publish a public, self-serve developer API. Integrations with document management systems, research tools, and firm workflows are delivered through Harvey's Ecosystem program
@@ -94,26 +96,26 @@ plans:
 - name: Harvey Ai Plans Pricing
   plan_count: 1
   slug: harvey-ai-plans-pricing
-random_paper: 18
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Harvey Ai Rate Limits
   slug: harvey-ai-rate-limits
 score:
-  band: emerging
-  composite: 24.0
-  delta: 0.0
+  band: thin
+  composite: 33.6
+  delta: 9.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 2.2
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 24.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvey-ai/refs/heads/main/screenshots/harvey-ai-2026-06-20T182535.png
 security:
 - kind: domain-security

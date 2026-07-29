@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 2
@@ -246,26 +248,37 @@ overview: 'Drippay publishes 23 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Drippay''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 13
+random_paper: 68
 score:
   band: developing
-  composite: 57.5
-  delta: 0.0
+  composite: 55.2
+  delta: -2.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.4
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.7
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 57.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/screenshots/drippay-2026-07-25T212410.png
 security:

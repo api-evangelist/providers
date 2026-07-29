@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -248,7 +250,7 @@ plans:
 - name: Mx Technologies Plans Pricing
   plan_count: 2
   slug: mx-technologies-plans-pricing
-random_paper: 62
+random_paper: 18
 rate_limits:
 - limit_count: 8
   name: Mx Technologies Rate Limits
@@ -264,24 +266,32 @@ rules:
   slug: mx-technologies-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 59.3
-  delta: 0.0
+  composite: 51.3
+  delta: -8.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 71.9
+    contract_quality: 71.0
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 59.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 35.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/screenshots/mx-technologies-2026-06-20T185910.png
 security:
 - kind: authentication

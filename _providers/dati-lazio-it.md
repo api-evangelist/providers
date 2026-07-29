@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: CKAN Action API for Lazio Open Data, covering ~406 datasets. Base URL https://dati.lazio.it/api/3/action/.
@@ -82,30 +84,31 @@ plans:
 - name: Dati Lazio It Plans Pricing
   plan_count: 1
   slug: dati-lazio-it-plans-pricing
-random_paper: 48
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Dati Lazio It Rate Limits
   slug: dati-lazio-it-rate-limits
 score:
   band: emerging
-  composite: 15.1
-  delta: 0.0
+  composite: 13.1
+  delta: -2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 11.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dati-lazio-it/refs/heads/main/screenshots/dati-lazio-it-2026-06-20T175706.png
 security:

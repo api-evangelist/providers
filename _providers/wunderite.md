@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API (v1) for programmatic access to Wunderite risk data and related resources — risk profiles, buildings, vehicles, drivers, contacts, premises, equipment, homes, legal entities, liabilities, sub
@@ -169,26 +171,29 @@ overview: 'Wunderite publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Wunderite''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 31
+random_paper: 59
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 51.6
+  delta: 3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 55.3
   previous_composite: 48.2
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

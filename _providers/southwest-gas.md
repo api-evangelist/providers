@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The Southwest Gas My Account API powers the online customer portal and mobile application for natural gas utility customers in Arizona, Nevada, and California. Customers can view usage history, pay bi
@@ -136,7 +138,7 @@ press:
 - date: '2026-05-25'
   title: 2024 Sustainability Report
   url: https://www.swgas.com/1409224719685/SWG-2024-SR.pdf
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Southwest Gas Rate Limits
@@ -152,19 +154,25 @@ rules:
   slug: southwest-gas-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 28.7
+  delta: -8.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 39.6
+    contract_quality: 33.9
     developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 36.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 14.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwest-gas/refs/heads/main/screenshots/southwest-gas-2026-06-20T194233.png
 security:
 - kind: domain-security

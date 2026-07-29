@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 0
 common:
@@ -49,21 +51,27 @@ overview: 'Alphion is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Alphion''s developer surface includes support and 1 more developer resources.'
-random_paper: 67
+random_paper: 54
 score:
   band: minimal
-  composite: 7.6
-  delta: 0.0
+  composite: 5.0
+  delta: -2.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 0.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphion/refs/heads/main/screenshots/alphion-2026-07-25T195804.png
 slug: alphion

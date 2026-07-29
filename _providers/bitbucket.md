@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -106,16 +108,89 @@ apis:
 - description: A workspace is where you create repositories, collaborate on your code, and organize different streams of work in your Bitbucket Cloud account. Workspaces replace the use of teams and users in API cal
   name: Bitbucket Workspaces API
   slug: bitbucket-workspaces-api
-artifact_total: 80
+artifact_total: 103
 asyncapis:
 - description: Bitbucket Cloud webhooks deliver event payloads to a subscriber URL via HTTP POST whenever a configured event occurs in a repository or workspace. Each event request includes an X-Event-Key header ide
   name: Bitbucket Cloud Webhook Events
   slug: bitbucket-cloud-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Bitbucket Addon API
+  slug: postman-bitbucket-addon-api
+- collection_type: postman
+  name: Bitbucket Addon Branch restrictions API
+  slug: postman-bitbucket-branch-restrictions-api
+- collection_type: postman
+  name: Bitbucket Addon Branching model API
+  slug: postman-bitbucket-branching-model-api
+- collection_type: postman
+  name: Bitbucket Addon Commit statuses API
+  slug: postman-bitbucket-commit-statuses-api
+- collection_type: postman
+  name: Bitbucket Addon Commits API
+  slug: postman-bitbucket-commits-api
+- collection_type: postman
+  name: Bitbucket Addon Deployments API
+  slug: postman-bitbucket-deployments-api
+- collection_type: postman
+  name: Bitbucket Addon Downloads API
+  slug: postman-bitbucket-downloads-api
+- collection_type: postman
+  name: Bitbucket Addon GPG API
+  slug: postman-bitbucket-gpg-api
+- collection_type: postman
+  name: Bitbucket Addon Issue tracker API
+  slug: postman-bitbucket-issue-tracker-api
+- collection_type: postman
+  name: Bitbucket Addon Pipelines API
+  slug: postman-bitbucket-pipelines-api
+- collection_type: postman
+  name: Bitbucket Addon Projects API
+  slug: postman-bitbucket-projects-api
+- collection_type: postman
+  name: Bitbucket Addon properties API
+  slug: postman-bitbucket-properties-api
+- collection_type: postman
+  name: Bitbucket Addon Pullrequests API
+  slug: postman-bitbucket-pullrequests-api
+- collection_type: postman
+  name: Bitbucket Addon Refs API
+  slug: postman-bitbucket-refs-api
+- collection_type: postman
+  name: Bitbucket Addon Reports API
+  slug: postman-bitbucket-reports-api
+- collection_type: postman
+  name: Bitbucket Addon Repositories API
+  slug: postman-bitbucket-repositories-api
+- collection_type: postman
+  name: Bitbucket Addon Search API
+  slug: postman-bitbucket-search-api
+- collection_type: postman
+  name: Bitbucket Addon Snippets API
+  slug: postman-bitbucket-snippets-api
+- collection_type: postman
+  name: Bitbucket Addon Source API
+  slug: postman-bitbucket-source-api
+- collection_type: postman
+  name: Bitbucket Addon SSH API
+  slug: postman-bitbucket-ssh-api
+- collection_type: postman
+  name: Bitbucket Addon Users API
+  slug: postman-bitbucket-users-api
+- collection_type: postman
+  name: Bitbucket Addon Webhooks API
+  slug: postman-bitbucket-webhooks-api
+- collection_type: postman
+  name: Bitbucket Addon Workspaces API
+  slug: postman-bitbucket-workspaces-api
 - collection_type: open
   name: Bitbucket API
   slug: open-bitbucket-cloud-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bitbucket/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -287,12 +362,12 @@ overview: 'Bitbucket publishes 23 APIs on the [APIs.io](https://apis.io/) networ
   The Bitbucket catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Bitbucket''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 13 more developer resources.'
+  Bitbucket''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Bitbucket Plans Pricing
   plan_count: 3
   slug: bitbucket-plans-pricing
-random_paper: 5
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Bitbucket Rate Limits
@@ -329,19 +404,26 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.5
-  delta: 7.2
+  composite: 59.9
+  delta: -6.6
   facets:
     commercial_clarity: 68.4
-    contract_quality: 94.3
-    developer_ergonomics: 26.1
-    discoverability: 92.5
-    governance: 65.8
+    contract_quality: 80.6
+    developer_ergonomics: 30.4
+    discoverability: 68.5
+    governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 59.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 66.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/screenshots/bitbucket-2026-06-20T173301.png
 security:
 - kind: authentication

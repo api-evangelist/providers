@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -148,25 +150,35 @@ overview: 'National Association of REALTORS publishes 1 API on the [APIs.io](htt
 
 
   National Association of REALTORS''s developer surface includes authentication, engineering blog, documentation, support, and 21 more developer resources.'
-random_paper: 49
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Nar Rate Limits
   slug: nar-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 31.8
+  delta: -2.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 37.7
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 29.9
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 26.3
   previous_composite: 34.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

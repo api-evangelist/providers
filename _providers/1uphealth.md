@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 51.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.7
+  scored_at: '2026-07-28'
 api_count: 10
 apis:
 - description: 1upHealth's managed HL7 FHIR R4 (4.0.1) REST API cloud server, exposing 144 FHIR resource types with SMART-on-FHIR OAuth 2.0 security. Publishes a live CapabilityStatement at /fhir/r4/metadata.
@@ -218,31 +220,36 @@ overview: '1upHealth publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   1upHealth''s developer surface includes documentation, engineering blog, support, signup flow, API reference, getting-started guide, authentication, and 26 more developer resources.'
-random_paper: 24
+random_paper: 61
 scopes:
 - name: 1Uphealth Scopes
   scope_count: 1
   slug: 1uphealth-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 54.3
-  delta: 0.0
+  band: strong
+  composite: 58.2
+  delta: 3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 55.0
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 55.3
   previous_composite: 54.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 76.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/screenshots/1uphealth-2026-07-25T181115.png
 security:

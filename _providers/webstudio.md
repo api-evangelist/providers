@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 11.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 10.8
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,21 +119,23 @@ overview: 'Webstudio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Webstudio''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 30
+random_paper: 58
 score:
   band: emerging
-  composite: 27.4
-  delta: 0.0
+  composite: 26.4
+  delta: -1.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 27.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

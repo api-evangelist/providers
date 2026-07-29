@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.4
+  scored_at: '2026-07-28'
 api_count: 12
 apis:
 - description: The commit_tags API from Vers — 2 operation(s) for commit_tags.
@@ -183,21 +185,30 @@ overview: 'Vers publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 40
+random_paper: 63
 score:
-  band: thin
-  composite: 44.2
-  delta: 0.0
+  band: developing
+  composite: 43.4
+  delta: -0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 42.5
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 40.7
+    developer_ergonomics: 75.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 44.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

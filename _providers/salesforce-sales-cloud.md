@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -757,7 +759,7 @@ plans:
 - name: Salesforce Sales Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-sales-cloud-plans-pricing
-random_paper: 48
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Salesforce Sales Cloud Rate Limits
@@ -786,18 +788,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 68.2
-  delta: 2.5
+  composite: 64.9
+  delta: -3.3
   facets:
     commercial_clarity: 63.2
-    contract_quality: 67.9
+    contract_quality: 68.8
     developer_ergonomics: 63.0
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 66.7
+    governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 65.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
 security:

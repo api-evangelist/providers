@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -67,12 +69,46 @@ apis:
 - description: Manage authentication tokens
   name: Tinybird Tokens API
   slug: tinybird-tokens-api
-artifact_total: 33
+artifact_total: 43
 collections:
+- collection_type: postman
+  name: Tinybird Analyze API
+  slug: postman-tinybird-analyze-api
+- collection_type: postman
+  name: Tinybird Analyze Data Sources API
+  slug: postman-tinybird-data-sources-api
+- collection_type: postman
+  name: Tinybird Analyze Environment Variables API
+  slug: postman-tinybird-environment-variables-api
+- collection_type: postman
+  name: Tinybird Analyze Events API
+  slug: postman-tinybird-events-api
+- collection_type: postman
+  name: Tinybird Analyze Jobs API
+  slug: postman-tinybird-jobs-api
+- collection_type: postman
+  name: Tinybird Analyze Organizations API
+  slug: postman-tinybird-organizations-api
+- collection_type: postman
+  name: Tinybird Analyze Pipes API
+  slug: postman-tinybird-pipes-api
+- collection_type: postman
+  name: Tinybird Analyze Query API
+  slug: postman-tinybird-query-api
+- collection_type: postman
+  name: Tinybird Analyze Sink Pipes API
+  slug: postman-tinybird-sink-pipes-api
+- collection_type: postman
+  name: Tinybird Analyze Tokens API
+  slug: postman-tinybird-tokens-api
 - collection_type: open
   name: Tinybird API
   slug: open-tinybird
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tinybird/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -192,12 +228,12 @@ overview: 'Tinybird publishes 10 APIs on the [APIs.io](https://apis.io/) network
   The Tinybird catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tinybird''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, and 12 more developer resources.'
+  Tinybird''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, and 13 more developer resources.'
 plans:
 - name: Tinybird Plans Pricing
   plan_count: 3
   slug: tinybird-plans-pricing
-random_paper: 53
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Tinybird Rate Limits
@@ -221,18 +257,25 @@ rules:
   slug: tinybird-rules
 score:
   band: strong
-  composite: 60.0
-  delta: 4.6
+  composite: 56.5
+  delta: -3.5
   facets:
     commercial_clarity: 47.4
-    contract_quality: 68.3
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 69.7
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 55.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/screenshots/tinybird-2026-06-20T195408.png
 security:

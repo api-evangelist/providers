@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -172,7 +174,7 @@ overview: 'Superlog publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Superlog''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 65
+random_paper: 34
 scopes:
 - name: Superlog Scopes
   scope_count: 3
@@ -180,18 +182,28 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 49.9
+  delta: 2.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.9
+    contract_quality: 63.6
     developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 13.2
   previous_composite: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

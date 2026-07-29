@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -64,8 +66,37 @@ apis:
 - description: The Verification API from Transmit Security — 6 operation(s) for verification.
   name: Transmit Security Verification API
   slug: transmit-security-verification-api
-artifact_total: 30
+artifact_total: 38
+collections:
+- collection_type: postman
+  name: One-Time Login Applications API
+  slug: postman-transmit-security-applications-api
+- collection_type: postman
+  name: One-Time Login Applications Auth API
+  slug: postman-transmit-security-auth-api
+- collection_type: postman
+  name: One-Time Login Applications Manage API
+  slug: postman-transmit-security-manage-api
+- collection_type: postman
+  name: One-Time Login Applications Organizations API
+  slug: postman-transmit-security-organizations-api
+- collection_type: postman
+  name: One-Time Login Applications Recommendation API
+  slug: postman-transmit-security-recommendation-api
+- collection_type: postman
+  name: One-Time Login Applications Token API
+  slug: postman-transmit-security-token-api
+- collection_type: postman
+  name: One-Time Login Applications Users API
+  slug: postman-transmit-security-users-api
+- collection_type: postman
+  name: One-Time Login Applications Verification API
+  slug: postman-transmit-security-verification-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/transmit-security/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,12 +234,12 @@ overview: 'Transmit Security publishes 8 APIs on the [APIs.io](https://apis.io/)
   The Transmit Security catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Transmit Security''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 14 more developer resources.'
+  Transmit Security''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 15 more developer resources.'
 plans:
 - name: Transmit Security Plans Pricing
   plan_count: 4
   slug: transmit-security-plans-pricing
-random_paper: 47
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Transmit Security Rate Limits
@@ -229,18 +260,25 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 58.2
+  delta: -4.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.6
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 62.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/screenshots/transmit-security-2026-06-20T195547.png
 security:

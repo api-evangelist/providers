@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 221
   human_in_the_loop: 5
@@ -927,7 +929,7 @@ plans:
 - name: Rapid7 Plans Pricing
   plan_count: 1
   slug: rapid7-plans-pricing
-random_paper: 39
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Rapid7 Rate Limits
@@ -943,18 +945,25 @@ rules:
   slug: rapid7-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 47.4
+  delta: -1.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.6
+    contract_quality: 60.1
     developer_ergonomics: 34.8
-    discoverability: 67.5
-    governance: 73.7
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 42.1
   previous_composite: 49.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png
 security:

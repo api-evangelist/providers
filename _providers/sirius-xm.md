@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports personalized playback, search, user feedbac
@@ -143,7 +145,7 @@ plans:
 - name: Sirius Xm Plans Pricing
   plan_count: 1
   slug: sirius-xm-plans-pricing
-random_paper: 61
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Sirius Xm Rate Limits
@@ -159,19 +161,19 @@ rules:
   slug: sirius-xm-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 35.0
+  delta: -5.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 19.6
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
   previous_composite: 40.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/screenshots/sirius-xm-2026-06-20T193948.png
 security:
 - kind: domain-security

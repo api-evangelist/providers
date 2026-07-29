@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -131,7 +133,7 @@ plans:
 - name: Interactive Brokers Plans Pricing
   plan_count: 3
   slug: interactive-brokers-plans-pricing
-random_paper: 15
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Interactive Brokers Rate Limits
@@ -152,23 +154,31 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.3
-  delta: 1.7
+  composite: 48.4
+  delta: -3.9
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.6
+    contract_quality: 61.9
     developer_ergonomics: 28.3
-    discoverability: 87.5
-    governance: 60.5
+    discoverability: 64.8
+    governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 50.6
+  previous_composite: 52.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png
 security:

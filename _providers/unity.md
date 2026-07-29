@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -194,8 +196,101 @@ arazzos:
 - description: Add a config setting, create a targeted override rule for it, then confirm the rule is listed.
   name: Unity Remote Config Feature Rollout
   slug: unity-remote-config-rollout-workflow
-artifact_total: 189
+artifact_total: 220
 collections:
+- collection_type: postman
+  name: Unity Analytics Allocations API
+  slug: postman-unity-allocations-api
+- collection_type: postman
+  name: Unity Analytics Allocations Authentication API
+  slug: postman-unity-authentication-api
+- collection_type: postman
+  name: Unity Analytics Allocations Blocks API
+  slug: postman-unity-blocks-api
+- collection_type: postman
+  name: Unity Analytics Allocations Build Targets API
+  slug: postman-unity-build-targets-api
+- collection_type: postman
+  name: Unity Analytics Allocations Builds API
+  slug: postman-unity-builds-api
+- collection_type: postman
+  name: Unity Analytics Allocations Config API
+  slug: postman-unity-config-api
+- collection_type: postman
+  name: Unity Analytics Allocations Configuration API
+  slug: postman-unity-configuration-api
+- collection_type: postman
+  name: Unity Analytics Allocations Currencies API
+  slug: postman-unity-currencies-api
+- collection_type: postman
+  name: Unity Analytics Allocations Custom Data API
+  slug: postman-unity-custom-data-api
+- collection_type: postman
+  name: Unity Analytics Allocations Events API
+  slug: postman-unity-events-api
+- collection_type: postman
+  name: Unity Analytics Allocations Executions API
+  slug: postman-unity-executions-api
+- collection_type: postman
+  name: Unity Analytics Allocations Fleets API
+  slug: postman-unity-fleets-api
+- collection_type: postman
+  name: Unity Analytics Allocations Friend Requests API
+  slug: postman-unity-friend-requests-api
+- collection_type: postman
+  name: Unity Analytics Allocations Friends API
+  slug: postman-unity-friends-api
+- collection_type: postman
+  name: Unity Analytics Allocations Identity Providers API
+  slug: postman-unity-identity-providers-api
+- collection_type: postman
+  name: Unity Analytics Allocations Inventory API
+  slug: postman-unity-inventory-api
+- collection_type: postman
+  name: Unity Analytics Allocations Leaderboards API
+  slug: postman-unity-leaderboards-api
+- collection_type: postman
+  name: Unity Analytics Allocations Lobbies API
+  slug: postman-unity-lobbies-api
+- collection_type: postman
+  name: Unity Analytics Allocations Modules API
+  slug: postman-unity-modules-api
+- collection_type: postman
+  name: Unity Analytics Allocations Override Rules API
+  slug: postman-unity-override-rules-api
+- collection_type: postman
+  name: Unity Analytics Allocations Player Data API
+  slug: postman-unity-player-data-api
+- collection_type: postman
+  name: Unity Analytics Allocations Players API
+  slug: postman-unity-players-api
+- collection_type: postman
+  name: Unity Analytics Allocations Purchases API
+  slug: postman-unity-purchases-api
+- collection_type: postman
+  name: Unity Analytics Allocations Queries API
+  slug: postman-unity-queries-api
+- collection_type: postman
+  name: Unity Analytics Allocations Queues API
+  slug: postman-unity-queues-api
+- collection_type: postman
+  name: Unity Analytics Allocations Scores API
+  slug: postman-unity-scores-api
+- collection_type: postman
+  name: Unity Analytics Allocations Scripts API
+  slug: postman-unity-scripts-api
+- collection_type: postman
+  name: Unity Analytics Allocations Search API
+  slug: postman-unity-search-api
+- collection_type: postman
+  name: Unity Analytics Allocations Servers API
+  slug: postman-unity-servers-api
+- collection_type: postman
+  name: Unity Analytics Allocations Settings API
+  slug: postman-unity-settings-api
+- collection_type: postman
+  name: Unity Analytics Allocations Tickets API
+  slug: postman-unity-tickets-api
 - collection_type: open
   name: Unity Analytics API
   slug: open-unity-analytics
@@ -233,6 +328,10 @@ collections:
   name: Unity Remote Config API
   slug: open-unity-remote-config
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/unity/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -813,12 +912,12 @@ overview: 'Unity publishes 31 APIs on the [APIs.io](https://apis.io/) network, i
   The Unity catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Unity''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, API reference, documentation, and 45 more developer resources.'
+  Unity''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, API reference, documentation, and 46 more developer resources.'
 plans:
 - name: Unity Plans Pricing
   plan_count: 1
   slug: unity-plans-pricing
-random_paper: 25
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Unity Rate Limits
@@ -842,18 +941,25 @@ rules:
   slug: unity-spectral-rules
 score:
   band: strong
-  composite: 66.6
-  delta: 1.3
+  composite: 64.7
+  delta: -1.9
   facets:
     commercial_clarity: 68.4
-    contract_quality: 66.1
-    developer_ergonomics: 52.2
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 72.0
+    developer_ergonomics: 56.5
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 65.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-06-20T200106.png
 security:

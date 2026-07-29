@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -76,8 +78,44 @@ apis:
 - description: Manage saved dashboard views (segments)
   name: Swetrix Views API
   slug: swetrix-views-api
-artifact_total: 32
+artifact_total: 44
 collections:
+- collection_type: postman
+  name: Swetrix Admin Annotations API
+  slug: postman-swetrix-annotations-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Custom Events API
+  slug: postman-swetrix-custom-events-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Errors API
+  slug: postman-swetrix-errors-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Feature Flags API
+  slug: postman-swetrix-feature-flags-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Funnels API
+  slug: postman-swetrix-funnels-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Organisations API
+  slug: postman-swetrix-organisations-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Performance API
+  slug: postman-swetrix-performance-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Projects API
+  slug: postman-swetrix-projects-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Revenue API
+  slug: postman-swetrix-revenue-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Sessions API
+  slug: postman-swetrix-sessions-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Traffic API
+  slug: postman-swetrix-traffic-api
+- collection_type: postman
+  name: Swetrix Admin Annotations Views API
+  slug: postman-swetrix-views-api
 - collection_type: open
   name: Swetrix Admin API
   slug: open-swetrix-admin-api
@@ -88,6 +126,10 @@ collections:
   name: Swetrix Statistics API
   slug: open-swetrix-statistics-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/swetrix/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -224,12 +266,12 @@ overview: 'Swetrix publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Swetrix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Swetrix''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 16 more developer resources.'
+  Swetrix''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 17 more developer resources.'
 plans:
 - name: Swetrix Plans Pricing
   plan_count: 10
   slug: swetrix-plans-pricing
-random_paper: 42
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Swetrix Rate Limits
@@ -253,18 +295,25 @@ rules:
   slug: swetrix-rules
 score:
   band: strong
-  composite: 66.6
-  delta: 3.3
+  composite: 63.2
+  delta: -3.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 68.7
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 69.2
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 63.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/screenshots/swetrix-2026-06-20T194812.png
 security:

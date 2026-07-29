@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -304,7 +306,7 @@ plans:
 - name: Tabby Plans Pricing
   plan_count: 3
   slug: tabby-plans-pricing
-random_paper: 54
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Tabby Rate Limits
@@ -328,24 +330,32 @@ rules:
   slug: tabby-rules
 score:
   band: developing
-  composite: 59.2
-  delta: 3.5
+  composite: 53.6
+  delta: -5.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 74.3
+    contract_quality: 73.0
     developer_ergonomics: 56.5
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 55.7
+  previous_composite: 59.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/screenshots/tabby-2026-06-20T194846.png
 security:
 - kind: authentication

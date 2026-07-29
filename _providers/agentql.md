@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,8 +54,22 @@ apis:
 - description: Manage remote Chrome browser sessions with CDP access
   name: AgentQL Remote Browser API
   slug: agentql-remote-browser-api
-artifact_total: 43
+artifact_total: 46
+collections:
+- collection_type: postman
+  name: AgentQL Query Data API
+  slug: postman-agentql-query-data-api
+- collection_type: postman
+  name: AgentQL Query Data Query Document API
+  slug: postman-agentql-query-document-api
+- collection_type: postman
+  name: AgentQL Query Data Remote Browser API
+  slug: postman-agentql-remote-browser-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/agentql/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,12 +223,12 @@ overview: 'AgentQL publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The AgentQL catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AgentQL''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 8 more developer resources.'
+  AgentQL''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Agentql Plans Pricing
   plan_count: 4
   slug: agentql-plans-pricing
-random_paper: 0
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Agentql Rate Limits
@@ -228,19 +244,26 @@ rules:
   slug: agentql-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.4
-  delta: 0.0
+  composite: 59.1
+  delta: -6.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 56.8
+    developer_ergonomics: 78.3
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 65.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/screenshots/agentql-2026-06-20T170057.png
 security:
 - kind: authentication

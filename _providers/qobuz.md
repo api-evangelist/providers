@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,8 +57,31 @@ apis:
 - description: Track metadata, streaming, and download URL generation
   name: Qobuz Tracks API
   slug: qobuz-tracks-api
-artifact_total: 22
+artifact_total: 28
+collections:
+- collection_type: postman
+  name: Qobuz Music Albums API
+  slug: postman-qobuz-albums-api
+- collection_type: postman
+  name: Qobuz Music Albums Artists API
+  slug: postman-qobuz-artists-api
+- collection_type: postman
+  name: Qobuz Music Albums Authentication API
+  slug: postman-qobuz-authentication-api
+- collection_type: postman
+  name: Qobuz Music Albums Playlists API
+  slug: postman-qobuz-playlists-api
+- collection_type: postman
+  name: Qobuz Music Albums Search API
+  slug: postman-qobuz-search-api
+- collection_type: postman
+  name: Qobuz Music Albums Tracks API
+  slug: postman-qobuz-tracks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/qobuz/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,12 +212,12 @@ overview: 'Qobuz publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Qobuz catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Qobuz''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, and 13 more developer resources.'
+  Qobuz''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Qobuz Plans Pricing
   plan_count: 6
   slug: qobuz-plans-pricing
-random_paper: 17
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Qobuz Rate Limits
@@ -208,18 +233,25 @@ rules:
   slug: qobuz-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 57.7
+  delta: -4.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.7
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 69.5
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 61.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/screenshots/qobuz-2026-06-20T192346.png
 security:

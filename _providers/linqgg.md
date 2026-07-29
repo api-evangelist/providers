@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 30.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 17.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: gRPC / Protocol Buffers API for integrating a game with LinQ Wallet services. Covers geo restriction checks by IP and coordinates, anonymous and wallet-linked user authentication, account balances, de
@@ -158,26 +160,31 @@ overview: 'Linq.gg publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Linq.gg''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
-random_paper: 30
+random_paper: 26
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 39.0
+  delta: 0.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 66.8
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 34.2
   previous_composite: 38.5
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/screenshots/linqgg-2026-07-25T225259.png
 security:

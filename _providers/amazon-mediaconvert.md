@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -61,8 +63,37 @@ apis:
 - description: The Tags API from Amazon MediaConvert — 2 operation(s) for tags.
   name: Amazon MediaConvert Tags API
   slug: amazon-mediaconvert-tags-api
-artifact_total: 1928
+artifact_total: 1936
+collections:
+- collection_type: postman
+  name: AWS Elemental MediaConvert Certificates API
+  slug: postman-amazon-mediaconvert-certificates-api
+- collection_type: postman
+  name: AWS Elemental MediaConvert Certificates Endpoints API
+  slug: postman-amazon-mediaconvert-endpoints-api
+- collection_type: postman
+  name: AWS Elemental MediaConvert Certificates Jobs API
+  slug: postman-amazon-mediaconvert-jobs-api
+- collection_type: postman
+  name: AWS Elemental MediaConvert Certificates JobTemplates API
+  slug: postman-amazon-mediaconvert-jobtemplates-api
+- collection_type: postman
+  name: AWS Elemental MediaConvert Certificates Policy API
+  slug: postman-amazon-mediaconvert-policy-api
+- collection_type: postman
+  name: AWS Elemental MediaConvert Certificates Presets API
+  slug: postman-amazon-mediaconvert-presets-api
+- collection_type: postman
+  name: AWS Elemental MediaConvert Certificates Queues API
+  slug: postman-amazon-mediaconvert-queues-api
+- collection_type: postman
+  name: AWS Elemental MediaConvert Certificates Tags API
+  slug: postman-amazon-mediaconvert-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-mediaconvert/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -5871,12 +5902,12 @@ overview: 'Amazon MediaConvert publishes 8 APIs on the [APIs.io](https://apis.io
   The Amazon MediaConvert catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaConvert''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon MediaConvert''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Mediaconvert Plans Pricing
   plan_count: 3
   slug: amazon-mediaconvert-plans-pricing
-random_paper: 0
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Amazon Mediaconvert Rate Limits
@@ -5900,18 +5931,25 @@ rules:
   slug: amazon-mediaconvert-spectral-rules
 score:
   band: strong
-  composite: 64.5
-  delta: 0.0
+  composite: 61.4
+  delta: -3.1
   facets:
     commercial_clarity: 68.4
-    contract_quality: 66.4
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 68.0
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 64.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/screenshots/amazon-mediaconvert-2026-06-20T171740.png
 security:

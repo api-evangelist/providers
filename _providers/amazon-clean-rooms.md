@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,8 +50,25 @@ apis:
 - description: Operations for executing and managing protected queries
   name: Amazon Clean Rooms Protected Queries API
   slug: amazon-clean-rooms-protected-queries-api
-artifact_total: 81
+artifact_total: 85
+collections:
+- collection_type: postman
+  name: Amazon Clean Rooms Collaborations API
+  slug: postman-amazon-clean-rooms-collaborations-api
+- collection_type: postman
+  name: Amazon Clean Rooms Collaborations Configured Tables API
+  slug: postman-amazon-clean-rooms-configured-tables-api
+- collection_type: postman
+  name: Amazon Clean Rooms Collaborations Memberships API
+  slug: postman-amazon-clean-rooms-memberships-api
+- collection_type: postman
+  name: Amazon Clean Rooms Collaborations Protected Queries API
+  slug: postman-amazon-clean-rooms-protected-queries-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-clean-rooms/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -361,8 +380,8 @@ overview: 'Amazon Clean Rooms publishes 4 APIs on the [APIs.io](https://apis.io/
   The Amazon Clean Rooms catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Clean Rooms'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
-random_paper: 43
+  Amazon Clean Rooms'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 21 more developer resources.'
+random_paper: 40
 rules:
 - name: Amazon Clean Rooms API Rules
   rule_count: 5
@@ -382,18 +401,27 @@ rules:
   slug: amazon-clean-rooms-spectral-rules
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 58.3
+  delta: -3.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 82.3
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 70.1
+    developer_ergonomics: 45.7
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 62.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/screenshots/amazon-clean-rooms-2026-07-25T195939.png
 security:

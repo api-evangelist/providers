@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -52,12 +54,27 @@ apis:
 - description: Connectivity and credential testing
   name: Sendle Utility API
   slug: sendle-utility-api
-artifact_total: 25
+artifact_total: 30
 asyncapis:
 - description: Sendle pushes parcel tracking events to a callback URL configured in the account Settings -> API page. Subscriptions are created per parcel via the Tracking API. Sendle expects 2xx responses; failed d
   name: Sendle Tracking Webhooks
   slug: sendle-tracking-asyncapi
 collections:
+- collection_type: postman
+  name: Sendle Shipping Manifests API
+  slug: postman-sendle-manifests-api
+- collection_type: postman
+  name: Sendle Shipping Manifests Orders API
+  slug: postman-sendle-orders-api
+- collection_type: postman
+  name: Sendle Shipping Manifests Products API
+  slug: postman-sendle-products-api
+- collection_type: postman
+  name: Sendle Shipping Manifests Tracking API
+  slug: postman-sendle-tracking-api
+- collection_type: postman
+  name: Sendle Shipping Manifests Utility API
+  slug: postman-sendle-utility-api
 - collection_type: open
   name: Sendle Shipping Manifests API
   slug: open-sendle-manifests-api
@@ -74,6 +91,10 @@ collections:
   name: Sendle Tracking API
   slug: open-sendle-tracking-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sendle/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -200,12 +221,12 @@ overview: 'Sendle publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Sendle catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Sendle''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, changelog, GitHub presence, and 15 more developer resources.'
+  Sendle''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, changelog, GitHub presence, and 16 more developer resources.'
 plans:
 - name: Sendle Plans Pricing
   plan_count: 3
   slug: sendle-plans-pricing
-random_paper: 23
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Sendle Rate Limits
@@ -229,18 +250,25 @@ rules:
   slug: sendle-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 4.6
+  composite: 62.3
+  delta: -3.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 86.5
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 39.5
+    contract_quality: 85.4
+    developer_ergonomics: 54.3
+    discoverability: 74.1
+    governance: 31.3
     operational_transparency: 68.4
-  previous_composite: 60.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png
 security:

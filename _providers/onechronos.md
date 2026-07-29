@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 3.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.6
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Order entry and execution for the OneChronos US equities dark ATS over a modern variant of the FIX 4.2 protocol. Standard and Target orders, and Expressive Bids, are submitted electronically via FIX o
@@ -111,26 +113,29 @@ overview: 'OneChronos publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   OneChronos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 66
+random_paper: 8
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 23.3
+  delta: -0.2
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 23.5
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 25.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

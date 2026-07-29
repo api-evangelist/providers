@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -124,26 +126,37 @@ overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: List
 
 
   Wahi''s developer surface includes authentication, support, engineering blog, and 16 more developer resources.'
-random_paper: 17
+random_paper: 40
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 31.2
+  delta: -1.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 39.8
-    developer_ergonomics: 23.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 42.4
+    developer_ergonomics: 19.0
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 32.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

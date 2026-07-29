@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 15.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Versioned REST access to store data (products, orders, customers, inventory, fulfillment, discounts, and more) for SHOPLINE apps.
@@ -171,7 +173,7 @@ overview: 'SHOPLINE publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   SHOPLINE''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 50
+random_paper: 19
 scopes:
 - name: Shopline Scopes
   scope_count: 63
@@ -179,23 +181,26 @@ scopes:
   summary_line: 63 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 52.0
+  delta: 1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 81.5
+    governance: 3.1
     operational_transparency: 52.6
   previous_composite: 50.3
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

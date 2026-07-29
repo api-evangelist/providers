@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Paychex Developer Program offers a library of APIs to automate, standardize, and simplify integrations with Paychex payroll and HR services. Specifications are not published publicly; access requi
@@ -102,26 +104,26 @@ press:
 - date: '2026-05-25'
   title: AI is evolving—and so is how work gets done. Paychex is ...
   url: https://www.facebook.com/Paychex/posts/ai-is-evolvingand-so-is-how-work-gets-donepaychex-is-introducing-workforce-intel/1302160302112407/
-random_paper: 6
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Paychex Rate Limits
   slug: paychex-rate-limits
 score:
-  band: emerging
-  composite: 19.4
-  delta: 0.0
+  band: thin
+  composite: 28.1
+  delta: 8.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 10.9
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 19.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: domain-security
   name: Paychex Domain Security

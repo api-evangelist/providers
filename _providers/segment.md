@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -307,7 +309,7 @@ plans:
 - name: Segment Plans Pricing
   plan_count: 3
   slug: segment-plans-pricing
-random_paper: 7
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Segment Rate Limits
@@ -331,18 +333,25 @@ rules:
   slug: segment-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.5
-  delta: 2.5
+  composite: 44.6
+  delta: -2.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 74.5
+    contract_quality: 76.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
-    governance: 60.5
+    discoverability: 50.0
+    governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 45.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 47.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/screenshots/segment-2026-06-20T193639.png
 security:

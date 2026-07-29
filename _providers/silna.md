@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.4
+  scored_at: '2026-07-28'
 api_count: 42
 apis:
 - description: The OldV1PriorAuthorizationResource API from Silna — 1 operation(s) for oldv1priorauthorizationresource.
@@ -297,30 +299,40 @@ overview: 'Silna publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Silna''s developer surface includes authentication, sandbox, developer portal, documentation, API reference, getting-started guide, signup flow, and 24 more developer resources.'
-random_paper: 59
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Silna Rate Limits
   slug: silna-rate-limits
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 51.7
+  delta: -3.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 51.2
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.4
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 42.1
   previous_composite: 54.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 53.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

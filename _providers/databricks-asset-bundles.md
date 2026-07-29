@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Databricks Asset Bundles API provides CLI-driven endpoints for initializing, validating, deploying, running, and destroying bundles of Databricks resources. Bundles define infrastructure and works
@@ -242,7 +244,7 @@ plans:
 - name: Databricks Asset Bundles Plans Pricing
   plan_count: 3
   slug: databricks-asset-bundles-plans-pricing
-random_paper: 51
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Databricks Asset Bundles Rate Limits
@@ -266,19 +268,19 @@ rules:
   slug: databricks-asset-bundles-rules
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 57.1
+  delta: -5.3
   facets:
     commercial_clarity: 84.2
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 78.9
   previous_composite: 62.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/screenshots/databricks-asset-bundles-2026-06-20T175631.png
 security:
 - kind: domain-security

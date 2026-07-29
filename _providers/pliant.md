@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 46.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Pliant''s Pro API enables customers to access Pliant credit card data and features programmatically — issue and manage cards, apply card controls and limits, retrieve transactions and accounting data, '
@@ -185,27 +187,32 @@ overview: 'Pliant publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Pliant''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 25 more developer resources.'
-random_paper: 36
+random_paper: 32
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 54.3
+  delta: 5.1
   facets:
     commercial_clarity: 42.1
-    contract_quality: 22.6
-    developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 69.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 57.9
   previous_composite: 49.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 69.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 62.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Pliant Authentication

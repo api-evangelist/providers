@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -281,12 +283,235 @@ arazzos:
 - description: Read a cluster, submit an updated specification, and poll until it returns to ACTIVE.
   name: YugabyteDB Aeon Scale Cluster
   slug: yugabytedb-scale-cluster-workflow
-artifact_total: 127
+artifact_total: 200
 collections:
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys API
+  slug: postman-yugabytedb-access-keys-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Accounts API
+  slug: postman-yugabytedb-accounts-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Alerts API
+  slug: postman-yugabytedb-alerts-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys AllowLists API
+  slug: postman-yugabytedb-allowlists-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Asynchronous Replication API
+  slug: postman-yugabytedb-asynchronous-replication-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Audit API
+  slug: postman-yugabytedb-audit-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Authentication API
+  slug: postman-yugabytedb-authentication-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Availability Zones API
+  slug: postman-yugabytedb-availability-zones-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Backup and Restore API
+  slug: postman-yugabytedb-backup-and-restore-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Backups API
+  slug: postman-yugabytedb-backups-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Certificate Info API
+  slug: postman-yugabytedb-certificate-info-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Cloud providers API
+  slug: postman-yugabytedb-cloud-providers-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Clusters API
+  slug: postman-yugabytedb-clusters-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Continuous Backup API
+  slug: postman-yugabytedb-continuous-backup-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Custom CA Certificates API
+  slug: postman-yugabytedb-custom-ca-certificates-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Customer Configuration API
+  slug: postman-yugabytedb-customer-configuration-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Customer management API
+  slug: postman-yugabytedb-customer-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Customer Tasks API
+  slug: postman-yugabytedb-customer-tasks-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Disaster Recovery API
+  slug: postman-yugabytedb-disaster-recovery-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Encryption at rest API
+  slug: postman-yugabytedb-encryption-at-rest-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Extract metadata from remote tarball API
+  slug: postman-yugabytedb-extract-metadata-from-remote-tarball-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys GFlags Validation APIs API
+  slug: postman-yugabytedb-gflags-validation-apis-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Grafana Dashboard API
+  slug: postman-yugabytedb-grafana-dashboard-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys HA API
+  slug: postman-yugabytedb-ha-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Instance types API
+  slug: postman-yugabytedb-instance-types-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Internal HA API
+  slug: postman-yugabytedb-internal-ha-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Isolated Backup API
+  slug: postman-yugabytedb-isolated-backup-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Job Scheduler API
+  slug: postman-yugabytedb-job-scheduler-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys KubernetesOverridesController API
+  slug: postman-yugabytedb-kubernetesoverridescontroller-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys LDAP Role management API
+  slug: postman-yugabytedb-ldap-role-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys LDAPOIDC Role management API
+  slug: postman-yugabytedb-ldapoidc-role-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys License management API
+  slug: postman-yugabytedb-license-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys LoggingConfig API
+  slug: postman-yugabytedb-loggingconfig-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Maintenance windows API
+  slug: postman-yugabytedb-maintenance-windows-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys MaintenanceWindows API
+  slug: postman-yugabytedb-maintenancewindows-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Metrics API
+  slug: postman-yugabytedb-metrics-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys New Release management API
+  slug: postman-yugabytedb-new-release-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Node Agents API
+  slug: postman-yugabytedb-node-agents-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Node instances API
+  slug: postman-yugabytedb-node-instances-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys PA Collector API
+  slug: postman-yugabytedb-pa-collector-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys PackagesController API
+  slug: postman-yugabytedb-packagescontroller-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Performance Advisor API
+  slug: postman-yugabytedb-performance-advisor-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys PITR management API
+  slug: postman-yugabytedb-pitr-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Platform Instance API
+  slug: postman-yugabytedb-platform-instance-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Platform Replication API
+  slug: postman-yugabytedb-platform-replication-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys preview API
+  slug: postman-yugabytedb-preview-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Projects API
+  slug: postman-yugabytedb-projects-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys RBAC management API
+  slug: postman-yugabytedb-rbac-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys ReadReplicas API
+  slug: postman-yugabytedb-readreplicas-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Region management API
+  slug: postman-yugabytedb-region-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Release management API
+  slug: postman-yugabytedb-release-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Restores API
+  slug: postman-yugabytedb-restores-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Runtime configuration API
+  slug: postman-yugabytedb-runtime-configuration-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Schedule management API
+  slug: postman-yugabytedb-schedule-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Session management API
+  slug: postman-yugabytedb-session-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Support Bundle management API
+  slug: postman-yugabytedb-support-bundle-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Table management API
+  slug: postman-yugabytedb-table-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Tablet server management API
+  slug: postman-yugabytedb-tablet-server-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Telemetry Provider API
+  slug: postman-yugabytedb-telemetry-provider-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Universe actions API
+  slug: postman-yugabytedb-universe-actions-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Universe API
+  slug: postman-yugabytedb-universe-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Universe CDC Management API
+  slug: postman-yugabytedb-universe-cdc-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Universe database management API
+  slug: postman-yugabytedb-universe-database-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Universe information API
+  slug: postman-yugabytedb-universe-information-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Universe management API
+  slug: postman-yugabytedb-universe-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Universe node metadata (metamaster) API
+  slug: postman-yugabytedb-universe-node-metadata-metamaster-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Universe performance suggestions API
+  slug: postman-yugabytedb-universe-performance-suggestions-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Universe Upgrades Management API
+  slug: postman-yugabytedb-universe-upgrades-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys UniverseClusterMutations API
+  slug: postman-yugabytedb-universeclustermutations-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Upload Release packages API
+  slug: postman-yugabytedb-upload-release-packages-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys User management API
+  slug: postman-yugabytedb-user-management-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys YBA Instance API
+  slug: postman-yugabytedb-yba-instance-api
+- collection_type: postman
+  name: YugabyteDB Aeon REST Access Keys Ybc Management API
+  slug: postman-yugabytedb-ybc-management-api
 - collection_type: open
   name: YugabyteDB Aeon REST API
   slug: open-yugabytedb-aeon
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/yugabytedb/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -729,12 +954,12 @@ overview: 'YugabyteDB publishes 73 APIs on the [APIs.io](https://apis.io/) netwo
   The YugabyteDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  YugabyteDB''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, pricing, and 81 more developer resources.'
+  YugabyteDB''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, pricing, and 82 more developer resources.'
 plans:
 - name: Yugabytedb Plans Pricing
   plan_count: 3
   slug: yugabytedb-plans-pricing
-random_paper: 52
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Yugabytedb Rate Limits
@@ -758,19 +983,26 @@ rules:
   slug: yugabytedb-spectral-rules
 score:
   band: exemplar
-  composite: 78.8
-  delta: 2.5
+  composite: 72.6
+  delta: -6.2
   facets:
     commercial_clarity: 100.0
-    contract_quality: 62.9
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 51.7
+    developer_ergonomics: 84.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 76.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 78.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 73
+      marker_coverage: 100.0
+      total: 73
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:
 - kind: authentication

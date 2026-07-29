@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Quissly's REST API powers AI product search (QSearch) and the conversational shopping assistant (QChat) for any e-commerce platform, alongside native Shopify, WooCommerce and CS-Cart plugins.
@@ -130,21 +132,21 @@ plans:
 - name: Quissly Inc Plans
   plan_count: 10
   slug: quissly-inc-plans
-random_paper: 65
+random_paper: 75
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 30.9
+  delta: -1.6
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 32.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

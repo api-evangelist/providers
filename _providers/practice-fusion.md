@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
@@ -156,31 +158,35 @@ overview: 'Practice Fusion publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Practice Fusion''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, engineering blog, and 18 more developer resources.'
-random_paper: 52
+random_paper: 8
 scopes:
 - name: Practice Fusion Scopes
   scope_count: 0
   slug: practice-fusion-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 42.6
-  delta: 0.0
+  band: developing
+  composite: 47.5
+  delta: 4.9
   facets:
     commercial_clarity: 52.6
-    contract_quality: 0.0
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 40.0
+    developer_ergonomics: 54.3
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 42.6
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 66.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

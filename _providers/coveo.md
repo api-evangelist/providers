@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 551
   human_in_the_loop: 13
@@ -493,8 +495,469 @@ apis:
 - description: The Zendesk API from Coveo — 1 operation(s) for zendesk.
   name: Coveo Zendesk API
   slug: coveo-zendesk-api
-artifact_total: 205
+artifact_total: 357
+collections:
+- collection_type: postman
+  name: Coveo Activity Activities API
+  slug: postman-coveo-activities-api
+- collection_type: postman
+  name: Coveo Activity Activities Administration API - Version 15 API
+  slug: postman-coveo-administration-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Advanced Model Configurations API
+  slug: postman-coveo-advanced-model-configurations-api
+- collection_type: postman
+  name: Coveo Activity Activities Agent Configuration API API
+  slug: postman-coveo-agent-configuration-api-api
+- collection_type: postman
+  name: Coveo Activity Activities Agent Orchestration API API
+  slug: postman-coveo-agent-orchestration-api-api
+- collection_type: postman
+  name: Coveo Activity Activities Analysis V3 API
+  slug: postman-coveo-analysis-v3-api
+- collection_type: postman
+  name: Coveo Activity Activities Analytics API - Version 14 API
+  slug: postman-coveo-analytics-api-version-14-api
+- collection_type: postman
+  name: Coveo Activity Activities Analytics API - Version 15 API
+  slug: postman-coveo-analytics-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Answer API
+  slug: postman-coveo-answer-api
+- collection_type: postman
+  name: Coveo Activity Activities Api Keys API
+  slug: postman-coveo-api-keys-api
+- collection_type: postman
+  name: Coveo Activity Activities Atlassian Connect App API
+  slug: postman-coveo-atlassian-connect-app-api
+- collection_type: postman
+  name: Coveo Activity Activities Badges API
+  slug: postman-coveo-badges-api
+- collection_type: postman
+  name: Coveo Activity Activities Built-in Groups API
+  slug: postman-coveo-built-in-groups-api
+- collection_type: postman
+  name: Coveo Activity Activities Case Assist API
+  slug: postman-coveo-case-assist-api
+- collection_type: postman
+  name: Coveo Activity Activities Case Classification Configuration API
+  slug: postman-coveo-case-classification-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Catalog Configurations API
+  slug: postman-coveo-catalog-configurations-api
+- collection_type: postman
+  name: Coveo Activity Activities Catalog Content API
+  slug: postman-coveo-catalog-content-api
+- collection_type: postman
+  name: Coveo Activity Activities Catalog Filter API
+  slug: postman-coveo-catalog-filter-api
+- collection_type: postman
+  name: Coveo Activity Activities Catalogs API
+  slug: postman-coveo-catalogs-api
+- collection_type: postman
+  name: Coveo Activity Activities Conditions API
+  slug: postman-coveo-conditions-api
+- collection_type: postman
+  name: Coveo Activity Activities Configuration API
+  slug: postman-coveo-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Context API
+  slug: postman-coveo-context-api
+- collection_type: postman
+  name: Coveo Activity Activities Context Mapping Configurations API
+  slug: postman-coveo-context-mapping-configurations-api
+- collection_type: postman
+  name: Coveo Activity Activities Crawling Module API
+  slug: postman-coveo-crawling-module-api
+- collection_type: postman
+  name: Coveo Activity Activities CRGA For Cases API
+  slug: postman-coveo-crga-for-cases-api
+- collection_type: postman
+  name: Coveo Activity Activities Data Health API - Version 15 API
+  slug: postman-coveo-data-health-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Diagnostic Logs API
+  slug: postman-coveo-diagnostic-logs-api
+- collection_type: postman
+  name: Coveo Activity Activities Dimensions API - Version 14 API
+  slug: postman-coveo-dimensions-api-version-14-api
+- collection_type: postman
+  name: Coveo Activity Activities Dimensions API - Version 15 API
+  slug: postman-coveo-dimensions-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Dynamic Navigation Experience Configuration API
+  slug: postman-coveo-dynamic-navigation-experience-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Event API API
+  slug: postman-coveo-event-api-api
+- collection_type: postman
+  name: Coveo Activity Activities Exports API - Version 14 API
+  slug: postman-coveo-exports-api-version-14-api
+- collection_type: postman
+  name: Coveo Activity Activities Exports API - Version 15 API
+  slug: postman-coveo-exports-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Facet API
+  slug: postman-coveo-facet-api
+- collection_type: postman
+  name: Coveo Activity Activities Facet Field Configurations API
+  slug: postman-coveo-facet-field-configurations-api
+- collection_type: postman
+  name: Coveo Activity Activities Facets API
+  slug: postman-coveo-facets-api
+- collection_type: postman
+  name: Coveo Activity Activities Fields API
+  slug: postman-coveo-fields-api
+- collection_type: postman
+  name: Coveo Activity Activities File Container API
+  slug: postman-coveo-file-container-api
+- collection_type: postman
+  name: Coveo Activity Activities Filters API - Version 14 API
+  slug: postman-coveo-filters-api-version-14-api
+- collection_type: postman
+  name: Coveo Activity Activities Filters API - Version 15 API
+  slug: postman-coveo-filters-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Group Invites API
+  slug: postman-coveo-group-invites-api
+- collection_type: postman
+  name: Coveo Activity Activities Group Members API
+  slug: postman-coveo-group-members-api
+- collection_type: postman
+  name: Coveo Activity Activities Group Realms API
+  slug: postman-coveo-group-realms-api
+- collection_type: postman
+  name: Coveo Activity Activities Groups API - Version 15 API
+  slug: postman-coveo-groups-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Groups API
+  slug: postman-coveo-groups-api
+- collection_type: postman
+  name: Coveo Activity Activities Hosted Page API
+  slug: postman-coveo-hosted-page-api
+- collection_type: postman
+  name: Coveo Activity Activities In-App API
+  slug: postman-coveo-in-app-api
+- collection_type: postman
+  name: Coveo Activity Activities Indexing Pipeline Extensions API
+  slug: postman-coveo-indexing-pipeline-extensions-api
+- collection_type: postman
+  name: Coveo Activity Activities Ingestion Content API
+  slug: postman-coveo-ingestion-content-api
+- collection_type: postman
+  name: Coveo Activity Activities Insight Panel API
+  slug: postman-coveo-insight-panel-api
+- collection_type: postman
+  name: Coveo Activity Activities Invites API
+  slug: postman-coveo-invites-api
+- collection_type: postman
+  name: Coveo Activity Activities IPX Configuration API
+  slug: postman-coveo-ipx-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities IPX loader API
+  slug: postman-coveo-ipx-loader-api
+- collection_type: postman
+  name: Coveo Activity Activities Item API
+  slug: postman-coveo-item-api
+- collection_type: postman
+  name: Coveo Activity Activities License API
+  slug: postman-coveo-license-api
+- collection_type: postman
+  name: Coveo Activity Activities License Metrics API
+  slug: postman-coveo-license-metrics-api
+- collection_type: postman
+  name: Coveo Activity Activities Limits API
+  slug: postman-coveo-limits-api
+- collection_type: postman
+  name: Coveo Activity Activities Link API
+  slug: postman-coveo-link-api
+- collection_type: postman
+  name: Coveo Activity Activities Listing Configurations API
+  slug: postman-coveo-listing-configurations-api
+- collection_type: postman
+  name: Coveo Activity Activities Listing Rule Preview API
+  slug: postman-coveo-listing-rule-preview-api
+- collection_type: postman
+  name: Coveo Activity Activities Listings API
+  slug: postman-coveo-listings-api
+- collection_type: postman
+  name: Coveo Activity Activities Logs API
+  slug: postman-coveo-logs-api
+- collection_type: postman
+  name: Coveo Activity Activities Machine learning associations API
+  slug: postman-coveo-machine-learning-associations-api
+- collection_type: postman
+  name: Coveo Activity Activities Machine Learning Models API
+  slug: postman-coveo-machine-learning-models-api
+- collection_type: postman
+  name: Coveo Activity Activities Mappings API
+  slug: postman-coveo-mappings-api
+- collection_type: postman
+  name: Coveo Activity Activities Metadata API
+  slug: postman-coveo-metadata-api
+- collection_type: postman
+  name: Coveo Activity Activities Metrics API - Version 14 API
+  slug: postman-coveo-metrics-api-version-14-api
+- collection_type: postman
+  name: Coveo Activity Activities Metrics API - Version 15 API
+  slug: postman-coveo-metrics-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Model Associations API
+  slug: postman-coveo-model-associations-api
+- collection_type: postman
+  name: Coveo Activity Activities Model Detailed Info API
+  slug: postman-coveo-model-detailed-info-api
+- collection_type: postman
+  name: Coveo Activity Activities Model Listing API
+  slug: postman-coveo-model-listing-api
+- collection_type: postman
+  name: Coveo Activity Activities Organization Access API
+  slug: postman-coveo-organization-access-api
+- collection_type: postman
+  name: Coveo Activity Activities Organization Api Keys Templates API
+  slug: postman-coveo-organization-api-keys-templates-api
+- collection_type: postman
+  name: Coveo Activity Activities Organization Endpoints Monitoring API
+  slug: postman-coveo-organization-endpoints-monitoring-api
+- collection_type: postman
+  name: Coveo Activity Activities Organization Global Configuration API
+  slug: postman-coveo-organization-global-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Organization Invites API
+  slug: postman-coveo-organization-invites-api
+- collection_type: postman
+  name: Coveo Activity Activities Organization Members API
+  slug: postman-coveo-organization-members-api
+- collection_type: postman
+  name: Coveo Activity Activities Organization Privileges API
+  slug: postman-coveo-organization-privileges-api
+- collection_type: postman
+  name: Coveo Activity Activities Organization Realms API
+  slug: postman-coveo-organization-realms-api
+- collection_type: postman
+  name: Coveo Activity Activities Organizations API
+  slug: postman-coveo-organizations-api
+- collection_type: postman
+  name: Coveo Activity Activities Passages Alpha API
+  slug: postman-coveo-passages-alpha-api
+- collection_type: postman
+  name: Coveo Activity Activities Passages V3 API
+  slug: postman-coveo-passages-v3-api
+- collection_type: postman
+  name: Coveo Activity Activities Pipelines API
+  slug: postman-coveo-pipelines-api
+- collection_type: postman
+  name: Coveo Activity Activities Platform Tokens API
+  slug: postman-coveo-platform-tokens-api
+- collection_type: postman
+  name: Coveo Activity Activities Predictive Query Suggest Configuration API
+  slug: postman-coveo-predictive-query-suggest-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Privilege Evaluator API
+  slug: postman-coveo-privilege-evaluator-api
+- collection_type: postman
+  name: Coveo Activity Activities Product Suggest Configurations API
+  slug: postman-coveo-product-suggest-configurations-api
+- collection_type: postman
+  name: Coveo Activity Activities Projects API
+  slug: postman-coveo-projects-api
+- collection_type: postman
+  name: Coveo Activity Activities Property API API
+  slug: postman-coveo-property-api-api
+- collection_type: postman
+  name: Coveo Activity Activities Public Listing Page API API
+  slug: postman-coveo-public-listing-page-api-api
+- collection_type: postman
+  name: Coveo Activity Activities Query Configurations API
+  slug: postman-coveo-query-configurations-api
+- collection_type: postman
+  name: Coveo Activity Activities Query Logs API
+  slug: postman-coveo-query-logs-api
+- collection_type: postman
+  name: Coveo Activity Activities Raw Metrics API
+  slug: postman-coveo-raw-metrics-api
+- collection_type: postman
+  name: Coveo Activity Activities Reader Account API - Version 15 API
+  slug: postman-coveo-reader-account-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Recommendations API
+  slug: postman-coveo-recommendations-api
+- collection_type: postman
+  name: Coveo Activity Activities Recommendations Configuration API
+  slug: postman-coveo-recommendations-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Region Configuration API
+  slug: postman-coveo-region-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Relevance Generative Answering Configuration API
+  slug: postman-coveo-relevance-generative-answering-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Reports API - Version 14 API
+  slug: postman-coveo-reports-api-version-14-api
+- collection_type: postman
+  name: Coveo Activity Activities Reports API - Version 15 API
+  slug: postman-coveo-reports-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Resources API
+  slug: postman-coveo-resources-api
+- collection_type: postman
+  name: Coveo Activity Activities Rest API
+  slug: postman-coveo-rest-api
+- collection_type: postman
+  name: Coveo Activity Activities Result rankings API
+  slug: postman-coveo-result-rankings-api
+- collection_type: postman
+  name: Coveo Activity Activities Salesforce Organizations API
+  slug: postman-coveo-salesforce-organizations-api
+- collection_type: postman
+  name: Coveo Activity Activities Salesforce Source Configuration API
+  slug: postman-coveo-salesforce-source-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Salesforce Sources API
+  slug: postman-coveo-salesforce-sources-api
+- collection_type: postman
+  name: Coveo Activity Activities Salesforce Trial API
+  slug: postman-coveo-salesforce-trial-api
+- collection_type: postman
+  name: Coveo Activity Activities Saml Identity Providers API
+  slug: postman-coveo-saml-identity-providers-api
+- collection_type: postman
+  name: Coveo Activity Activities Search API
+  slug: postman-coveo-search-api
+- collection_type: postman
+  name: Coveo Activity Activities Search Configurations API
+  slug: postman-coveo-search-configurations-api
+- collection_type: postman
+  name: Coveo Activity Activities Search Hub Entitlement Sync API
+  slug: postman-coveo-search-hub-entitlement-sync-api
+- collection_type: postman
+  name: Coveo Activity Activities Search Hubs API
+  slug: postman-coveo-search-hubs-api
+- collection_type: postman
+  name: Coveo Activity Activities Search Interface API
+  slug: postman-coveo-search-interface-api
+- collection_type: postman
+  name: Coveo Activity Activities Search Page Configuration API
+  slug: postman-coveo-search-page-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Search Pages API
+  slug: postman-coveo-search-pages-api
+- collection_type: postman
+  name: Coveo Activity Activities Search V2 API
+  slug: postman-coveo-search-v2-api
+- collection_type: postman
+  name: Coveo Activity Activities Search V3 API
+  slug: postman-coveo-search-v3-api
+- collection_type: postman
+  name: Coveo Activity Activities Secure Data Sharing API - Version 15 API
+  slug: postman-coveo-secure-data-sharing-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Security Cache API
+  slug: postman-coveo-security-cache-api
+- collection_type: postman
+  name: Coveo Activity Activities Security Identity API
+  slug: postman-coveo-security-identity-api
+- collection_type: postman
+  name: Coveo Activity Activities Security Providers API
+  slug: postman-coveo-security-providers-api
+- collection_type: postman
+  name: Coveo Activity Activities Security Providers Schedules API
+  slug: postman-coveo-security-providers-schedules-api
+- collection_type: postman
+  name: Coveo Activity Activities Semantic Encoder Configuration API
+  slug: postman-coveo-semantic-encoder-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Setup API
+  slug: postman-coveo-setup-api
+- collection_type: postman
+  name: Coveo Activity Activities Smart Snippets Configuration API
+  slug: postman-coveo-smart-snippets-configuration-api
+- collection_type: postman
+  name: Coveo Activity Activities Snapshot Access API
+  slug: postman-coveo-snapshot-access-api
+- collection_type: postman
+  name: Coveo Activity Activities Snapshot API
+  slug: postman-coveo-snapshot-api
+- collection_type: postman
+  name: Coveo Activity Activities Snapshot Synchronization API
+  slug: postman-coveo-snapshot-synchronization-api
+- collection_type: postman
+  name: Coveo Activity Activities Source Extension Configurations API
+  slug: postman-coveo-source-extension-configurations-api
+- collection_type: postman
+  name: Coveo Activity Activities Source Item Types API
+  slug: postman-coveo-source-item-types-api
+- collection_type: postman
+  name: Coveo Activity Activities Source Status API
+  slug: postman-coveo-source-status-api
+- collection_type: postman
+  name: Coveo Activity Activities Sources API
+  slug: postman-coveo-sources-api
+- collection_type: postman
+  name: Coveo Activity Activities Statement groups API
+  slug: postman-coveo-statement-groups-api
+- collection_type: postman
+  name: Coveo Activity Activities Statements V1 API
+  slug: postman-coveo-statements-v1-api
+- collection_type: postman
+  name: Coveo Activity Activities Statements V2 API
+  slug: postman-coveo-statements-v2-api
+- collection_type: postman
+  name: Coveo Activity Activities Statistics API - Version 14 API
+  slug: postman-coveo-statistics-api-version-14-api
+- collection_type: postman
+  name: Coveo Activity Activities Statistics API - Version 15 API
+  slug: postman-coveo-statistics-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Stream API
+  slug: postman-coveo-stream-api
+- collection_type: postman
+  name: Coveo Activity Activities Streaming Model Response API
+  slug: postman-coveo-streaming-model-response-api
+- collection_type: postman
+  name: Coveo Activity Activities Subscription API
+  slug: postman-coveo-subscription-api
+- collection_type: postman
+  name: Coveo Activity Activities Synonym API
+  slug: postman-coveo-synonym-api
+- collection_type: postman
+  name: Coveo Activity Activities Synonym Preview API
+  slug: postman-coveo-synonym-preview-api
+- collection_type: postman
+  name: Coveo Activity Activities Temporary Access API
+  slug: postman-coveo-temporary-access-api
+- collection_type: postman
+  name: Coveo Activity Activities Token Certificates API
+  slug: postman-coveo-token-certificates-api
+- collection_type: postman
+  name: Coveo Activity Activities Usage Analytics Event Validation API API
+  slug: postman-coveo-usage-analytics-event-validation-api-api
+- collection_type: postman
+  name: Coveo Activity Activities User Statistics API - Version 15 API
+  slug: postman-coveo-user-statistics-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Users API - Version 14 API
+  slug: postman-coveo-users-api-version-14-api
+- collection_type: postman
+  name: Coveo Activity Activities Users API - Version 15 API
+  slug: postman-coveo-users-api-version-15-api
+- collection_type: postman
+  name: Coveo Activity Activities Users API
+  slug: postman-coveo-users-api
+- collection_type: postman
+  name: Coveo Activity Activities Vault API
+  slug: postman-coveo-vault-api
+- collection_type: postman
+  name: Coveo Activity Activities View Definitions API
+  slug: postman-coveo-view-definitions-api
+- collection_type: postman
+  name: Coveo Activity Activities Zendesk API
+  slug: postman-coveo-zendesk-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/coveo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -790,12 +1253,12 @@ overview: 'Coveo publishes 152 APIs on the [APIs.io](https://apis.io/) network, 
   The Coveo catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Coveo''s developer surface includes authentication, documentation, GitHub presence, support, CLI, tooling, and 29 more developer resources.'
+  Coveo''s developer surface includes authentication, documentation, GitHub presence, support, CLI, tooling, and 30 more developer resources.'
 plans:
 - name: Coveo Plans Pricing
   plan_count: 3
   slug: coveo-plans-pricing
-random_paper: 64
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Coveo Rate Limits
@@ -824,18 +1287,25 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit
 score:
   band: strong
-  composite: 64.9
-  delta: 0.0
+  composite: 61.2
+  delta: -3.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.8
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 69.7
+    developer_ergonomics: 58.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 64.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 152
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/screenshots/coveo-2026-06-20T175131.png
 security:

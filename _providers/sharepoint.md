@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 80.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -83,8 +85,31 @@ arazzos:
 - description: Survey a library folder, upload a file with overwrite, then read the bytes back.
   name: SharePoint Upload a Document and Verify It
   slug: sharepoint-upload-document-workflow
-artifact_total: 89
+artifact_total: 95
+collections:
+- collection_type: postman
+  name: SharePoint REST Files API
+  slug: postman-sharepoint-files-api
+- collection_type: postman
+  name: SharePoint REST Files Items API
+  slug: postman-sharepoint-items-api
+- collection_type: postman
+  name: SharePoint REST Files Lists API
+  slug: postman-sharepoint-lists-api
+- collection_type: postman
+  name: SharePoint REST Files Search API
+  slug: postman-sharepoint-search-api
+- collection_type: postman
+  name: SharePoint REST Files Sites API
+  slug: postman-sharepoint-sites-api
+- collection_type: postman
+  name: SharePoint REST Files User Profiles API
+  slug: postman-sharepoint-user-profiles-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-sharepoint/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -394,12 +419,12 @@ overview: 'Microsoft SharePoint publishes 6 APIs on the [APIs.io](https://apis.i
   The Microsoft SharePoint catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft SharePoint''s developer surface includes authentication, sandbox, changelog, CLI, support, pricing, and 30 more developer resources.'
+  Microsoft SharePoint''s developer surface includes authentication, sandbox, changelog, CLI, support, pricing, and 31 more developer resources.'
 plans:
 - name: Sharepoint Plans Pricing
   plan_count: 5
   slug: sharepoint-plans-pricing
-random_paper: 65
+random_paper: 7
 rate_limits:
 - limit_count: 27
   name: Sharepoint Rate Limits
@@ -428,18 +453,27 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 57.6
+  delta: -3.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 65.5
-    developer_ergonomics: 45.7
-    discoverability: 62.5
-    governance: 73.7
+    contract_quality: 48.9
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 69.8
     operational_transparency: 68.4
   previous_composite: 61.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/screenshots/sharepoint-2026-06-20T193748.png
 security:

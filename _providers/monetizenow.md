@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 10.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 22.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: MonetizeNow's REST API for the full quote-to-cash lifecycle — accounts, contacts, quotes, opportunities, contracts, subscriptions, invoices, payments, credits, credit notes, products, offerings, rates
@@ -110,26 +112,31 @@ overview: 'MonetizeNow publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   MonetizeNow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 59
+random_paper: 60
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 36.1
+  delta: 3.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 38.6
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 15.8
   previous_composite: 32.2
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 21.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

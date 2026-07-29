@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: The Accounts API from Google Business Profile — 8 operation(s) for accounts.
   name: Google Business Profile Accounts API
   slug: google-business-profile-accounts-api
-artifact_total: 13
+artifact_total: 14
 collections:
+- collection_type: postman
+  name: Google Business Profile Accounts API
+  slug: postman-google-business-profile-accounts-api
 - collection_type: open
   name: Google Business Profile API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-business-profile/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,12 +150,12 @@ overview: 'Google Business Profile publishes 1 API on the [APIs.io](https://apis
   The Google Business Profile catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Business Profile''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
+  Google Business Profile''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 12 more developer resources.'
 plans:
 - name: Google Business Profile Plans Pricing
   plan_count: 3
   slug: google-business-profile-plans-pricing
-random_paper: 44
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Google Business Profile Rate Limits
@@ -167,18 +176,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 65.1
-  delta: 4.6
+  composite: 62.0
+  delta: -3.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.0
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 70.3
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/screenshots/google-business-profile-2026-06-20T182034.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 4.7
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Open-source Python framework for building agents with memory, knowledge, and tools. Provides Agent, Team, Workflow, Tools, Memory, Knowledge, and Storage primitives. Multi-modal and type-safe; support
@@ -116,25 +118,25 @@ plans:
 - name: Phidata Plans Pricing
   plan_count: 1
   slug: phidata-plans-pricing
-random_paper: 51
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Phidata Rate Limits
   slug: phidata-rate-limits
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 29.5
+  delta: -2.6
   facets:
     commercial_clarity: 63.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 32.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phidata/refs/heads/main/screenshots/phidata-2026-06-20T191648.png
 security:

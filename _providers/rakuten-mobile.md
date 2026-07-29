@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Carrier-grade SMS API for sending and receiving A2P and P2A SMS at scale on the Rakuten Mobile network, with delivery receipts pushed to caller-configured webhooks. UTF-8 encoded, JWT-authenticated RE
@@ -144,21 +146,27 @@ overview: 'Rakuten Mobile publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Rakuten Mobile''s developer surface includes developer portal, engineering blog, YouTube channel, and 20 more developer resources.'
-random_paper: 11
+random_paper: 53
 score:
   band: minimal
-  composite: 12.2
-  delta: 0.0
+  composite: 10.7
+  delta: -1.5
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rakuten-mobile/refs/heads/main/screenshots/rakuten-mobile-2026-06-20T192543.png
 security:

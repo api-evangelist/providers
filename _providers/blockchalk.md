@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Location-pinned neighborhood messages.
@@ -71,21 +73,34 @@ overview: 'BlockChalk publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   BlockChalk''s developer surface includes documentation, API reference, and 4 more developer resources.'
-random_paper: 18
+random_paper: 37
 score:
   band: emerging
-  composite: 25.3
-  delta: 0.0
+  composite: 20.7
+  delta: -4.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 52.2
+    contract_quality: 39.0
     developer_ergonomics: 15.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 25.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchalk/refs/heads/main/screenshots/blockchalk-2026-07-25T203346.png
 security:

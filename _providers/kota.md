@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -135,12 +137,116 @@ apis:
 - description: The webhooks API from Kota — 2 operation(s) for webhooks.
   name: Kota webhooks API
   slug: kota-webhooks-api
-artifact_total: 40
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Kota Webhooks
   slug: kota-webhooks
+collections:
+- collection_type: postman
+  name: API Reference Associated Persons API
+  slug: postman-kota-associated-persons-api
+- collection_type: postman
+  name: API Reference Associated Persons associatedPersons API
+  slug: postman-kota-associatedpersons-api
+- collection_type: postman
+  name: API Reference Associated Persons Contribution Reports API
+  slug: postman-kota-contribution-reports-api
+- collection_type: postman
+  name: API Reference Associated Persons contributionReports API
+  slug: postman-kota-contributionreports-api
+- collection_type: postman
+  name: API Reference Associated Persons Dependents Management Intents API
+  slug: postman-kota-dependents-management-intents-api
+- collection_type: postman
+  name: API Reference Associated Persons dependentsManagementIntents API
+  slug: postman-kota-dependentsmanagementintents-api
+- collection_type: postman
+  name: API Reference Associated Persons Embed Sessions API
+  slug: postman-kota-embed-sessions-api
+- collection_type: postman
+  name: API Reference Associated Persons embedSessions API
+  slug: postman-kota-embedsessions-api
+- collection_type: postman
+  name: API Reference Associated Persons employees API
+  slug: postman-kota-employees-api
+- collection_type: postman
+  name: API Reference Associated Persons employers API
+  slug: postman-kota-employers-api
+- collection_type: postman
+  name: API Reference Associated Persons Enrolment Intents API
+  slug: postman-kota-enrolment-intents-api
+- collection_type: postman
+  name: API Reference Associated Persons enrolmentIntents API
+  slug: postman-kota-enrolmentintents-api
+- collection_type: postman
+  name: API Reference Associated Persons events API
+  slug: postman-kota-events-api
+- collection_type: postman
+  name: API Reference Associated Persons Group Policies API
+  slug: postman-kota-group-policies-api
+- collection_type: postman
+  name: API Reference Associated Persons Group Policy Intents API
+  slug: postman-kota-group-policy-intents-api
+- collection_type: postman
+  name: API Reference Associated Persons Group Quote Intents API
+  slug: postman-kota-group-quote-intents-api
+- collection_type: postman
+  name: API Reference Associated Persons groupPolicies API
+  slug: postman-kota-grouppolicies-api
+- collection_type: postman
+  name: API Reference Associated Persons groupPolicyIntents API
+  slug: postman-kota-grouppolicyintents-api
+- collection_type: postman
+  name: API Reference Associated Persons groupQuoteIntents API
+  slug: postman-kota-groupquoteintents-api
+- collection_type: postman
+  name: API Reference Associated Persons groups API
+  slug: postman-kota-groups-api
+- collection_type: postman
+  name: API Reference Associated Persons Health Insurance API
+  slug: postman-kota-health-insurance-api
+- collection_type: postman
+  name: API Reference Associated Persons healthInsurance API
+  slug: postman-kota-healthinsurance-api
+- collection_type: postman
+  name: API Reference Associated Persons Hosted Sessions API
+  slug: postman-kota-hosted-sessions-api
+- collection_type: postman
+  name: API Reference Associated Persons hostedSessions API
+  slug: postman-kota-hostedsessions-api
+- collection_type: postman
+  name: API Reference Associated Persons plans API
+  slug: postman-kota-plans-api
+- collection_type: postman
+  name: API Reference Associated Persons policies API
+  slug: postman-kota-policies-api
+- collection_type: postman
+  name: API Reference Associated Persons Policy Amendment Intents API
+  slug: postman-kota-policy-amendment-intents-api
+- collection_type: postman
+  name: API Reference Associated Persons Policy Import Intents API
+  slug: postman-kota-policy-import-intents-api
+- collection_type: postman
+  name: API Reference Associated Persons policyAmendmentIntents API
+  slug: postman-kota-policyamendmentintents-api
+- collection_type: postman
+  name: API Reference Associated Persons policyImportIntents API
+  slug: postman-kota-policyimportintents-api
+- collection_type: postman
+  name: API Reference Associated Persons providers API
+  slug: postman-kota-providers-api
+- collection_type: postman
+  name: API Reference Associated Persons requirements API
+  slug: postman-kota-requirements-api
+- collection_type: postman
+  name: API Reference Associated Persons webhooks API
+  slug: postman-kota-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kota/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -312,27 +418,38 @@ overview: 'Kota publishes 33 APIs on the [APIs.io](https://apis.io/) network, in
   The Kota catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kota''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 23
+  Kota''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
+random_paper: 46
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 58.8
+  delta: -3.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.2
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.4
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 34.2
   previous_composite: 61.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/screenshots/kota-2026-07-25T224240.png
 security:

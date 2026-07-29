@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 61.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -634,7 +636,7 @@ plans:
 - name: Notion Plans Pricing
   plan_count: 4
   slug: notion-plans-pricing
-random_paper: 51
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Notion Rate Limits
@@ -658,18 +660,27 @@ rules:
   slug: notion-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 79.2
-  delta: 3.5
+  composite: 78.0
+  delta: -1.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 90.3
+    contract_quality: 86.1
     developer_ergonomics: 76.1
-    discoverability: 80.0
-    governance: 52.6
+    discoverability: 77.8
+    governance: 53.1
     operational_transparency: 86.8
-  previous_composite: 75.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 79.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png
 security:

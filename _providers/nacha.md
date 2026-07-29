@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -209,27 +211,33 @@ overview: 'Nacha publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nacha''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, and 18 more developer resources.'
-random_paper: 31
+random_paper: 45
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 32.4
+  delta: -5.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 37.7
-    developer_ergonomics: 63.0
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 51.6
+    discoverability: 72.2
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 37.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Nacha Authentication

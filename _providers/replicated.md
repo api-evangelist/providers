@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.4
+  scored_at: '2026-07-28'
 api_count: 22
 apis:
 - description: The apps API from Replicated — 17 operation(s) for apps.
@@ -95,12 +97,83 @@ apis:
 - description: The vms API from Replicated — 8 operation(s) for vms.
   name: Replicated vms API
   slug: replicated-vms-api
-artifact_total: 28
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Replicated Notifications Webhooks
   slug: replicated-notifications-webhooks
+collections:
+- collection_type: postman
+  name: Vendor API V3 apps API
+  slug: postman-replicated-apps-api
+- collection_type: postman
+  name: Vendor API V3 apps channelReleases API
+  slug: postman-replicated-channelreleases-api
+- collection_type: postman
+  name: Vendor API V3 apps channels API
+  slug: postman-replicated-channels-api
+- collection_type: postman
+  name: Vendor API V3 apps clusterAddons API
+  slug: postman-replicated-clusteraddons-api
+- collection_type: postman
+  name: Vendor API V3 apps clusters API
+  slug: postman-replicated-clusters-api
+- collection_type: postman
+  name: Vendor API V3 apps cmx API
+  slug: postman-replicated-cmx-api
+- collection_type: postman
+  name: Vendor API V3 apps customers API
+  slug: postman-replicated-customers-api
+- collection_type: postman
+  name: Vendor API V3 apps customHostnames API
+  slug: postman-replicated-customhostnames-api
+- collection_type: postman
+  name: Vendor API V3 apps enterprisePortal API
+  slug: postman-replicated-enterpriseportal-api
+- collection_type: postman
+  name: Vendor API V3 apps externalRegistries API
+  slug: postman-replicated-externalregistries-api
+- collection_type: postman
+  name: Vendor API V3 apps instances API
+  slug: postman-replicated-instances-api
+- collection_type: postman
+  name: Vendor API V3 apps networks API
+  slug: postman-replicated-networks-api
+- collection_type: postman
+  name: Vendor API V3 apps notifications API
+  slug: postman-replicated-notifications-api
+- collection_type: postman
+  name: Vendor API V3 apps policy API
+  slug: postman-replicated-policy-api
+- collection_type: postman
+  name: Vendor API V3 apps registry API
+  slug: postman-replicated-registry-api
+- collection_type: postman
+  name: Vendor API V3 apps releases API
+  slug: postman-replicated-releases-api
+- collection_type: postman
+  name: Vendor API V3 apps supportBundle API
+  slug: postman-replicated-supportbundle-api
+- collection_type: postman
+  name: Vendor API V3 apps team API
+  slug: postman-replicated-team-api
+- collection_type: postman
+  name: Vendor API V3 apps telemetry API
+  slug: postman-replicated-telemetry-api
+- collection_type: postman
+  name: Vendor API V3 apps user API
+  slug: postman-replicated-user-api
+- collection_type: postman
+  name: Vendor API V3 apps vmAddons API
+  slug: postman-replicated-vmaddons-api
+- collection_type: postman
+  name: Vendor API V3 apps vms API
+  slug: postman-replicated-vms-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/replicated/overview
 - group: company
   title: ''
   type: Website
@@ -259,22 +332,31 @@ overview: 'Replicated publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
   The Replicated catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Replicated''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 33
+  Replicated''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+random_paper: 52
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 59.7
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.4
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 63.2
   previous_composite: 61.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

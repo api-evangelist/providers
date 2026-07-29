@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: Web Presence Review endpoints allow you to provide information about a business for TrueBiz to review. We look at the content on the website, find social media profiles, review sites, and other broade
@@ -164,26 +166,36 @@ overview: 'TrueBiz publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TrueBiz''s developer surface includes developer portal, documentation, API reference, authentication, engineering blog, support, and 15 more developer resources.'
-random_paper: 25
+random_paper: 3
 score:
   band: thin
-  composite: 44.4
-  delta: 0.0
+  composite: 40.2
+  delta: -4.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.3
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 53.9
+    developer_ergonomics: 45.1
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 44.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Payments
-    regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

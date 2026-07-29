@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 11.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 10.8
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 4
 common:
@@ -113,26 +115,30 @@ overview: 'Innovaccer is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Innovaccer''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
-random_paper: 44
+random_paper: 63
 score:
   band: emerging
-  composite: 28.3
-  delta: 0.0
+  composite: 27.2
+  delta: -1.1
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 28.3
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 28.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 55.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innovaccer/refs/heads/main/screenshots/innovaccer-2026-07-25T222505.png
 security:

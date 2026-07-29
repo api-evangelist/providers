@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -185,27 +187,38 @@ overview: 'MedAdvisor publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   MedAdvisor''s developer surface includes authentication, API reference, documentation, support, and 23 more developer resources.'
-random_paper: 50
+random_paper: 69
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 34.7
+  delta: -5.6
   facets:
     commercial_clarity: 36.8
-    contract_quality: 37.7
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 34.2
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 40.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 45.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Medadvisor Authentication

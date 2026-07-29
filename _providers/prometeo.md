@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 5
@@ -55,12 +57,32 @@ apis:
 - description: Account-to-account (open banking initiated) payment intents.
   name: Prometeo Payment API
   slug: prometeo-payment-api
-artifact_total: 16
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Prometeo Webhooks
   slug: prometeo-webhooks
+collections:
+- collection_type: postman
+  name: Prometeo Account Validation API
+  slug: postman-prometeo-account-validation-api
+- collection_type: postman
+  name: Prometeo Account Validation Banking API
+  slug: postman-prometeo-banking-api
+- collection_type: postman
+  name: Prometeo Account Validation Cross-Border API
+  slug: postman-prometeo-cross-border-api
+- collection_type: postman
+  name: Prometeo Account Validation Identity API
+  slug: postman-prometeo-identity-api
+- collection_type: postman
+  name: Prometeo Account Validation Payment API
+  slug: postman-prometeo-payment-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/prometeo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -235,35 +257,46 @@ overview: 'Prometeo publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Prometeo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Prometeo''s developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 31 more developer resources.'
+  Prometeo''s developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 32 more developer resources.'
 plans:
 - name: Prometeo Plans Pricing
   plan_count: 2
   slug: prometeo-plans-pricing
-random_paper: 59
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Prometeo Rate Limits
   slug: prometeo-rate-limits
 score:
   band: strong
-  composite: 67.8
-  delta: 0.0
+  composite: 63.7
+  delta: -4.1
   facets:
     commercial_clarity: 89.5
-    contract_quality: 60.9
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.9
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 67.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 45.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

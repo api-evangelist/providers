@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 100.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -1555,7 +1557,7 @@ plans:
 - name: Stripe Plans Pricing
   plan_count: 9
   slug: stripe-plans-pricing
-random_paper: 51
+random_paper: 47
 rate_limits:
 - limit_count: 6
   name: Stripe Rate Limits
@@ -1592,23 +1594,34 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 84.5
-  delta: 0.0
+  composite: 84.2
+  delta: -0.3
   facets:
     commercial_clarity: 100.0
-    contract_quality: 64.0
-    developer_ergonomics: 100.0
-    discoverability: 55.0
-    governance: 65.8
+    contract_quality: 70.3
+    developer_ergonomics: 95.1
+    discoverability: 59.3
+    governance: 63.5
     operational_transparency: 94.7
   previous_composite: 84.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 159
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 93.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png
 security:

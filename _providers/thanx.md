@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 62.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -79,8 +81,50 @@ apis:
 - description: Create, retrieve, update, and delete Thanx users.
   name: Thanx Users API
   slug: thanx-users-api
-artifact_total: 120
+artifact_total: 134
 collections:
+- collection_type: postman
+  name: Thanx Consumer Account API
+  slug: postman-thanx-account-api
+- collection_type: postman
+  name: Thanx Consumer Account Auth API
+  slug: postman-thanx-auth-api
+- collection_type: postman
+  name: Thanx Consumer Account Baskets API
+  slug: postman-thanx-baskets-api
+- collection_type: postman
+  name: Thanx Consumer Account Campaigns API
+  slug: postman-thanx-campaigns-api
+- collection_type: postman
+  name: Thanx Consumer Account Cards API
+  slug: postman-thanx-cards-api
+- collection_type: postman
+  name: Thanx Consumer Account Gift Cards API
+  slug: postman-thanx-gift-cards-api
+- collection_type: postman
+  name: Thanx Consumer Account Issuance Jobs API
+  slug: postman-thanx-issuance-jobs-api
+- collection_type: postman
+  name: Thanx Consumer Account Locations API
+  slug: postman-thanx-locations-api
+- collection_type: postman
+  name: Thanx Consumer Account Metadata API
+  slug: postman-thanx-metadata-api
+- collection_type: postman
+  name: Thanx Consumer Account Points API
+  slug: postman-thanx-points-api
+- collection_type: postman
+  name: Thanx Consumer Account Purchases API
+  slug: postman-thanx-purchases-api
+- collection_type: postman
+  name: Thanx Consumer Account Rewards API
+  slug: postman-thanx-rewards-api
+- collection_type: postman
+  name: Thanx Consumer Account Subscribers API
+  slug: postman-thanx-subscribers-api
+- collection_type: postman
+  name: Thanx Consumer Account Users API
+  slug: postman-thanx-users-api
 - collection_type: open
   name: Thanx Consumer API
   slug: open-thanx-consumer-api
@@ -91,6 +135,10 @@ collections:
   name: Thanx Partner API
   slug: open-thanx-partner-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/thanx/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -478,12 +526,12 @@ overview: 'Thanx publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
   The Thanx catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Thanx''s developer surface includes authentication, documentation, getting-started guide, pricing, changelog, tooling, code examples, and 18 more developer resources.'
+  Thanx''s developer surface includes authentication, documentation, getting-started guide, pricing, changelog, tooling, code examples, and 19 more developer resources.'
 plans:
 - name: Thanx Plans Pricing
   plan_count: 1
   slug: thanx-plans-pricing
-random_paper: 3
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Thanx Rate Limits
@@ -507,18 +555,25 @@ rules:
   slug: thanx-spectral-rules
 score:
   band: strong
-  composite: 62.6
-  delta: 4.7
+  composite: 59.1
+  delta: -3.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 79.8
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 80.5
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 57.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png
 security:

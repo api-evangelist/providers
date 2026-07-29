@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'Narrowly scoped official API that returns public Substack profile data for a given LinkedIn handle. Access requires accepting the Developer API Terms of Use, applying via form, and generating a token '
@@ -109,21 +111,21 @@ overview: 'Substack publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Substack''s developer surface includes engineering blog, pricing, and 13 more developer resources.'
-random_paper: 48
+random_paper: 17
 score:
   band: emerging
-  composite: 16.7
-  delta: 0.0
+  composite: 14.3
+  delta: -2.4
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 16.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/screenshots/substack-2026-06-20T194631.png
 security:

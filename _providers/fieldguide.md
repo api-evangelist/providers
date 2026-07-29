@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -222,7 +224,7 @@ overview: 'Fieldguide publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fieldguide''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 22
+random_paper: 41
 scopes:
 - name: Fieldguide Scopes
   scope_count: 21
@@ -230,18 +232,28 @@ scopes:
   summary_line: 21 scopes
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 51.6
+  delta: -2.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.4
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 63.2
+    developer_ergonomics: 45.1
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 54.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/screenshots/fieldguide-2026-07-25T214434.png
 security:

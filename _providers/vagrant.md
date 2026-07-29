@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -58,8 +60,23 @@ apis:
 - description: Endpoints for managing versions of a Vagrant box, including creating new versions and releasing them for consumption.
   name: Vagrant Versions API
   slug: vagrant-versions-api
-artifact_total: 22
+artifact_total: 27
 collections:
+- collection_type: postman
+  name: Vagrant Cloud Boxes API
+  slug: postman-vagrant-boxes-api
+- collection_type: postman
+  name: Vagrant Cloud Boxes Providers API
+  slug: postman-vagrant-providers-api
+- collection_type: postman
+  name: Vagrant Cloud Boxes Registries API
+  slug: postman-vagrant-registries-api
+- collection_type: postman
+  name: Vagrant Cloud Boxes Search API
+  slug: postman-vagrant-search-api
+- collection_type: postman
+  name: Vagrant Cloud Boxes Versions API
+  slug: postman-vagrant-versions-api
 - collection_type: open
   name: Vagrant Cloud API
   slug: open-vagrant-cloud-api
@@ -67,6 +84,10 @@ collections:
   name: HCP Vagrant Box Registry API
   slug: open-vagrant-hcp-vagrant-box-registry
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/vagrant/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -169,12 +190,12 @@ overview: 'Vagrant publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Vagrant catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vagrant''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, and 10 more developer resources.'
+  Vagrant''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Vagrant Plans Pricing
   plan_count: 3
   slug: vagrant-plans-pricing
-random_paper: 7
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Vagrant Rate Limits
@@ -198,18 +219,25 @@ rules:
   slug: vagrant-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 2.0
+  composite: 57.9
+  delta: -3.2
   facets:
     commercial_clarity: 73.7
-    contract_quality: 61.8
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 63.4
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 59.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/screenshots/vagrant-2026-06-20T200805.png
 security:

@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -56,12 +58,47 @@ apis:
 - description: OAuth2 client-credentials token endpoint — POST /connect/token with HTTP Basic (merchant ID + secret key) and scope api1 to obtain a short-lived Bearer JWT used against the Pinch API; served from auth
   name: Pinch Authentication API
   slug: pinch-payments-authentication
-artifact_total: 16
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Pinch Payments Webhooks
   slug: pinch-payments-webhooks
+collections:
+- collection_type: postman
+  name: authentication-api
+  slug: postman-pinch-payments-authentication
+- collection_type: postman
+  name: pinch-api-contacts
+  slug: postman-pinch-payments-contacts
+- collection_type: postman
+  name: pinch-api
+  slug: postman-pinch-payments-core
+- collection_type: postman
+  name: pinch-api-merchant-financial-data
+  slug: postman-pinch-payments-merchant-financial-data
+- collection_type: postman
+  name: pinch-api-merchants
+  slug: postman-pinch-payments-merchants
+- collection_type: postman
+  name: pinch-api-payers
+  slug: postman-pinch-payments-payers
+- collection_type: postman
+  name: pinch-api-payment-links
+  slug: postman-pinch-payments-payment-links
+- collection_type: postman
+  name: pinch-api-payments
+  slug: postman-pinch-payments-payments
+- collection_type: postman
+  name: pinch-api-transfers
+  slug: postman-pinch-payments-transfers
+- collection_type: postman
+  name: pinch-api-webhooks
+  slug: postman-pinch-payments-webhooks
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pinch-payments/overview
 - group: auth
   title: ''
   type: OAuthScopes
@@ -229,8 +266,8 @@ overview: 'Pinch Payments publishes 10 APIs on the [APIs.io](https://apis.io/) n
   The Pinch Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pinch Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 28
+  Pinch Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 31 more developer resources.'
+random_paper: 70
 scopes:
 - name: Pinch Payments Scopes
   scope_count: 1
@@ -238,23 +275,34 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 56.7
+  delta: -4.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.5
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 63.1
+    developer_ergonomics: 79.9
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 52.6
   previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -4181,12 +4181,6 @@
    "url": "https://providers.apis.io/providers/agentgateway/"
   },
   {
-   "name": "Agentic Ai",
-   "slug": "agentic-ai",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/agentic-ai"
-  },
-  {
    "description": "The Agentic AI Foundation (AAIF) is a Linux Foundation project formed in December 2025 that brings together critical open standards and projects for AI agents under neutral governance. It",
    "name": "Agentic AI Foundation",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/screenshots/agentic-ai-foundation-2026-06-20T170026.png",
@@ -4782,12 +4776,6 @@
    "url": "https://providers.apis.io/providers/ai-medical-service/"
   },
   {
-   "name": "Ai Ml Pricing",
-   "slug": "ai-ml-pricing",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/ai-ml-pricing"
-  },
-  {
    "description": "AI Palette is an AI-first consumer-insights and product-innovation platform for the Consumer Packaged Goods (CPG) industry. Founded in Singapore in 2018 and later acquired by GlobalData, it aggregates more than 61 billion data points across 24 countries and 18 languages to help food, beverage, and personal-care brands discover emerging trends, generate and screen new product concepts, and bring winning products to market faster. Its platform spans the Foresight Engine for real-time trend discovery, Concept Genie for generative-AI concept creation, Screen Winner for concept validation, and the FoodGPT / Arya agentic co-pilot. Customers include Nestle, Mondelez, Kellogg, Diageo, Cargill, ADM, and Symrise. This is an enterprise SaaS platform accessed by license; no public developer API, SDK, or specification is published.",
    "name": "AI Palette",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/ai-palette/refs/heads/main/screenshots/ai-palette-2026-07-25T195342.png",
@@ -4842,12 +4830,6 @@
    "slug": "aice",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/aice/"
-  },
-  {
-   "name": "Aicpa Soc",
-   "slug": "aicpa-soc",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/aicpa-soc"
   },
   {
    "description": "'AID:Tech is a Dublin-based payments and digital-identity infrastructure company that bridges",
@@ -6776,24 +6758,12 @@
    "url": "https://providers.apis.io/providers/alliance-one-international/"
   },
   {
-   "name": "Alliance Partners",
-   "slug": "alliance-partners",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/alliance-partners"
-  },
-  {
    "description": "Alliance Resource Partners is a major US corporation and Fortune 1000 company. The Alliance Resource Partners API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
    "name": "Alliance Resource Partners",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/screenshots/alliance-resource-partners-2026-06-20T171531.png",
    "slug": "alliance-resource-partners",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/alliance-resource-partners/"
-  },
-  {
-   "name": "Alliances",
-   "slug": "alliances",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/alliances"
   },
   {
    "description": "Alliant Credit Union is a federally chartered, member-owned credit union headquartered in Chicago, Illinois, regulated by the National Credit Union Administration (NCUA). Founded in 1935 as the United Airlines Employees' Credit Union and rebranded Alliant in 2003, it is one of the largest credit unions in the United States, with more than 800,000 members and over $19 billion in assets. Alliant operates as a digital-first, branchless institution offering consumer and commercial deposit accounts, high-yield savings and checking, credit cards, auto and home loans, and business banking. Like nearly all U.S. credit unions, Alliant publishes no public first-party developer API or developer portal; consumer-permissioned data access is available to members only through third-party aggregators (Plaid, MX, Finicity, Akoya) rather than a directly documented open-finance API.",
@@ -10783,12 +10753,6 @@
    "slug": "analytics",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/analytics/"
-  },
-  {
-   "name": "Analytics Pricing",
-   "slug": "analytics-pricing",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/analytics-pricing"
   },
   {
    "description": "Analyze Boston is a municipal government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 231 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
@@ -19276,12 +19240,6 @@
    "url": "https://providers.apis.io/providers/aws-batch/"
   },
   {
-   "name": "Aws Bedrock",
-   "slug": "aws-bedrock",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/aws-bedrock"
-  },
-  {
    "description": "Amazon Braket is AWS's fully managed quantum computing service. It provides a unified API and SDK for exploring, designing, simulating, and running quantum algorithms across a single point of access to multiple third-party QPU technologies (trapped-ion, superconducting, neutral-atom) and AWS-managed cloud simulators. Braket handles device queueing, S3-backed result delivery, IAM, hybrid quantum-classical job orchestration, Braket Direct reservations, and opt-in spending limits, with native PennyLane, Qiskit, and OpenQASM 3 support.",
    "name": "AWS Braket",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/screenshots/aws-braket-2026-06-20T172752.png",
@@ -19376,12 +19334,6 @@
    "slug": "aws-lambda",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/aws-lambda/"
-  },
-  {
-   "name": "Aws Logo",
-   "slug": "aws-logo",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/aws-logo"
   },
   {
    "description": "AWS Marketplace is a curated digital catalog from Amazon Web Services that lets customers find, buy, deploy, and manage third-party software, SaaS, containers, machine images (AMIs), data products, and professional services that run on AWS. The AWS Marketplace Catalog API enables approved sellers to programmatically manage their products, change sets, and entities, while buyers can integrate procurement workflows with AWS billing.",
@@ -30475,12 +30427,6 @@
    "slug": "buymeacoffee",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/buymeacoffee/"
-  },
-  {
-   "name": "Buy With Aws",
-   "slug": "buy-with-aws",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/buy-with-aws"
   },
   {
    "description": "BuyBuddy is an AI-powered retail merchandising platform positioned as an \"AI Merchandiser",
@@ -46163,12 +46109,6 @@
    "url": "https://providers.apis.io/providers/csg/"
   },
   {
-   "name": "Csp",
-   "slug": "csp",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/csp"
-  },
-  {
    "description": "CSR Biotech (超视计 / Chaoshiji) is a Chinese life-sciences instrumentation",
    "name": "CSR Biotech",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/csr-biotech/refs/heads/main/screenshots/csr-biotech-2026-07-25T210839.png",
@@ -48214,12 +48154,6 @@
    "slug": "data-innovations",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/data-innovations/"
-  },
-  {
-   "name": "Data Integration And Quality Pricing",
-   "slug": "data-integration-and-quality-pricing",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/data-integration-and-quality-pricing"
   },
   {
    "description": "Data Mill North (Leeds) is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
@@ -56400,12 +56334,6 @@
    "slug": "ecosoul",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/ecosoul/"
-  },
-  {
-   "name": "Ecosystem",
-   "slug": "ecosystem",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/ecosystem"
   },
   {
    "description": "'ECOVACS Robotics is a global home service robotics company founded in 1998 and headquartered",
@@ -67920,12 +67848,6 @@
    "url": "https://providers.apis.io/providers/football-data/"
   },
   {
-   "name": "Footer",
-   "slug": "footer",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/footer"
-  },
-  {
    "description": "Footprint Analytics is a blockchain data analytics platform providing unified REST and SQL APIs for querying DeFi protocol metrics, NFT market data, token analytics, GameFi economics, and on-chain activity across 30+ chains including Ethereum, Bitcoin, Solana, BNB Chain, Polygon, Arbitrum, Optimism, and Sui. The platform indexes 30,000+ protocols, 100M+ tokens, 2M+ NFT collections, and 3,000+ blockchain games, offering both no-code dashboards and programmatic API access for developers building Web3 data applications.",
    "name": "Footprint Analytics",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/screenshots/footprint-2026-06-20T181412.png",
@@ -69035,12 +68957,6 @@
    "slug": "framewise-health",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/framewise-health/"
-  },
-  {
-   "name": "Framework.wiki",
-   "slug": "framework.wiki",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/framework.wiki"
   },
   {
    "description": "FranConnect is a franchise and multi-location management platform used",
@@ -73654,12 +73570,6 @@
    "url": "https://providers.apis.io/providers/global-system-for-mobile-communications/"
   },
   {
-   "name": "Global System Integrators",
-   "slug": "global-system-integrators",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/global-system-integrators"
-  },
-  {
    "description": "'GlobalCare Inc. was a healthcare technology company founded in 1994 and based in Portland,",
    "name": "GlobalCare Inc.",
    "slug": "globalcare-inc",
@@ -75099,12 +75009,6 @@
    "slug": "google-cloud-logging",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/google-cloud-logging/"
-  },
-  {
-   "name": "Google Cloud Logo",
-   "slug": "google-cloud-logo",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/google-cloud-logo"
   },
   {
    "description": "Google Cloud Memorystore is a fully managed in-memory data store service for Redis and Memcached. It provides a scalable, secure, and highly available caching layer that helps accelerate application performance. Memorystore automates complex tasks like provisioning, replication, failover, and patching, enabling developers to focus on building applications without managing infrastructure.",
@@ -77843,12 +77747,6 @@
    "slug": "gr-nstromindex",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/gr-nstromindex/"
-  },
-  {
-   "name": "Gsi",
-   "slug": "gsi",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/gsi"
   },
   {
    "description": "GSK plc (formerly GlaxoSmithKline, rebranded in May 2022) is a global biopharma headquartered in the United Kingdom and dual-listed on the London Stock Exchange and NYSE under the ticker GSK. Following the July 2022 spin-off of its consumer-health business as Haleon, GSK is now a focused biopharma operating across four therapeutic areas — infectious diseases, HIV, oncology, and respiratory/immunology/inflammation — with flagship vaccine franchises including Shingrix and Arexvy and an HIV joint venture (ViiV Healthcare) held with Pfizer and Shionogi. GSK does not publish a public developer portal or commercial REST APIs. Machine-readable surfaces are limited to press, podcast and investor RSS feeds, the GSK Study Register and the ClinicalStudyDataRequest (CSDR) consortium portal for patient-level clinical trial data, registrations on ClinicalTrials.gov, and R/Python tooling published by the GSK-Biostatistics GitHub organization.",
@@ -80762,12 +80660,6 @@
    "slug": "help",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/help/"
-  },
-  {
-   "name": "Help Center",
-   "slug": "help-center",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/help-center"
   },
   {
    "description": "Help Scout is an email-first help desk platform with shared inboxes,",
@@ -88813,12 +88705,6 @@
    "url": "https://providers.apis.io/providers/integration-os/"
   },
   {
-   "name": "Integrations And Connectors",
-   "slug": "integrations-and-connectors",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/integrations-and-connectors"
-  },
-  {
    "description": "Integry is an embedded integration platform that lets SaaS companies offer native integrations to their users.",
    "name": "Integry",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/integry/refs/heads/main/screenshots/integry-2026-06-20T183535.png",
@@ -90619,12 +90505,6 @@
    "slug": "istra-research",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/istra-research/"
-  },
-  {
-   "name": "Isv",
-   "slug": "isv",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/isv"
   },
   {
    "description": "IT Standards are technical standards developed by standards organizations to ensure interoperability, security, and quality in information technology systems and processes. These include standards from organizations such as ISO, IEEE, NIST, and W3C covering areas like networking, security, software development, and data management.",
@@ -103514,12 +103394,6 @@
    "url": "https://providers.apis.io/providers/loftium/"
   },
   {
-   "name": "Log In",
-   "slug": "log-in",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/log-in"
-  },
-  {
    "description": "'Log10 is an LLMOps platform that provides REST API and SDK capabilities",
    "name": "Log10",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/screenshots/log10-2026-06-20T184646.png",
@@ -103644,48 +103518,6 @@
    "slug": "logmeal",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/logmeal/"
-  },
-  {
-   "name": "Logo 1",
-   "slug": "logo-1",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/logo-1"
-  },
-  {
-   "name": "Logo 2",
-   "slug": "logo-2",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/logo-2"
-  },
-  {
-   "name": "Logo 3",
-   "slug": "logo-3",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/logo-3"
-  },
-  {
-   "name": "Logo 4",
-   "slug": "logo-4",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/logo-4"
-  },
-  {
-   "name": "Logo 5",
-   "slug": "logo-5",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/logo-5"
-  },
-  {
-   "name": "Logo 6",
-   "slug": "logo-6",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/logo-6"
-  },
-  {
-   "name": "Logo 7",
-   "slug": "logo-7",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/logo-7"
   },
   {
    "description": "LogRocket is a session replay, product analytics, and frontend monitoring platform that captures user sessions, errors, and performance data.",
@@ -106570,12 +106402,6 @@
    "slug": "managed-by-q",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/managed-by-q/"
-  },
-  {
-   "name": "Managed Service Providers",
-   "slug": "managed-service-providers",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/managed-service-providers"
   },
   {
    "description": "managedbyq is a company surfaced as a portfolio company of slow-ventures and added to the",
@@ -115745,12 +115571,6 @@
    "slug": "mspot",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/mspot/"
-  },
-  {
-   "name": "Mssp",
-   "slug": "mssp",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/mssp"
   },
   {
    "description": "MTailor is a Y Combinator-backed custom-clothing company that measures your body with your phone's camera and manufactures made-to-order apparel on demand. Its mobile apps capture a short video or 360-degree turn and use machine-learning models to compute roughly 60 body measurements, which the company claims are about 20 percent more accurate than a professional tailor. MTailor produces custom shirts, polos, tees, pants, jeans, blazers and suits for men and jeans for women, each cut to the customer's unique measurement pattern. The business is a direct-to-consumer mobile app and e-commerce brand; as of this profile it publishes no public developer API, developer portal, OpenAPI definition, or first-party SDK. This APIs.json profile captures the company's identity and public web properties for the API Evangelist network.",
@@ -126930,8 +126750,8 @@
    "description": "The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001A through 2024A) and the model-driven OpenTravel 2.0 Object Model (OTM), which generates XML Schema, JSON Schema and Swagger 2.0 resource contracts — plus the OpenTravel Code Lists used across air, hospitality, car rental, cruise, rail, GDS, channel and technology-provider systems. OpenTravel does not operate a booking service or sit in the distribution chain itself; it supplies the message vocabulary that suppliers, GDSs, channel managers and OTAs implement between each other, which makes it a switching-cost reducer rather than a switching-cost holder. Its API posture is honest but thin: there is no OpenTravel-operated runtime API and no public certification registry, though it does run a free self-serve developer portal — the OpenTravel Developers Network at opentraveldevelopersnetwork.com — and, as of 2026, an OAuth 2.1 protected Model Context Protocol server on opentravel.org. Specifications are royalty-free and free of charge, but the canonical download is behind a name/company/email lead-capture form with terms acceptance, and the OTM repository and member review periods are membership-gated ($950–$11,250/yr by revenue band). A public, unlicensed GitHub mirror at github.com/OpenTravel/OpenTravel-Specifications carries the bulk of the corpus — including eight Swagger 2.0 resource contracts — and is the only ungated route to machine-readable artifacts. The organization has announced work with the Linux Foundation to form an Open Travel Foundation.",
    "name": "OpenTravel Alliance",
    "slug": "opentravel-alliance",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/opentravel-alliance"
+   "type": "API Provider",
+   "url": "https://providers.apis.io/providers/opentravel-alliance/"
   },
   {
    "description": "OpenTripMap provides a travel points of interest REST API with access to over 10 million POIs worldwide including attractions, restaurants, hotels, museums, and natural features. The API integrates data from OpenStreetMap, Wikidata, Wikipedia, and government cultural and environmental registries to deliver rich POI details with descriptions, coordinates, categorization, and Wikipedia links across more than 150 attraction types. Developers can query by bounding box, radius, name, category, and rating, with responses available in JSON and GeoJSON formats. Licensed under the Open Data Commons Open Database License (ODbL), which permits caching, indexing, and redistribution of data.",
@@ -128596,12 +128416,6 @@
    "slug": "osyva",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/osyva/"
-  },
-  {
-   "name": "Others",
-   "slug": "others",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/others"
   },
   {
    "description": "Otis was an alternative-asset investing platform that let retail investors buy fractional",
@@ -131175,12 +130989,6 @@
    "slug": "partitioning",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/partitioning/"
-  },
-  {
-   "name": "Partner Login",
-   "slug": "partner-login",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/partner-login"
   },
   {
    "description": "Partnered was a cloud-based co-selling and partner-introductions platform that let sales teams request and exchange warm customer introductions with their partners' sales teams, enabling partner-powered co-selling at scale. Founded by Adam Michalski and Tim Sherwood and backed by Slow Ventures among other early investors, Partnered was acquired by Crossbeam on May 18, 2022, and its product was folded into Crossbeam's Ecosystem-Led Growth platform. The partnered.com domain now redirects to crossbeam.com; Partnered no longer operates as an independent company and exposes no independent public API surface.",
@@ -138493,12 +138301,6 @@
    "url": "https://providers.apis.io/providers/prescience-inc/"
   },
   {
-   "name": "Prescrypto",
-   "slug": "prescrypto",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/prescrypto"
-  },
-  {
    "description": "Presence is a student engagement and co-curricular involvement platform for higher education, now part of Modern Campus. It helps colleges and universities manage student organizations, campus events, involvement and attendance tracking, co-curricular records, forms, and engagement analytics so institutions can attract, engage, and retain learners. Modern Campus serves more than 1,700 colleges, universities, and education providers. Presence is delivered as a closed SaaS product with support and reference code available through the Modern Campus customer support portal; there is no public developer portal, OpenAPI, or self-service API surface published at this time, so this profile captures company identity and probed domain security rather than API artifacts.",
    "name": "Presence",
    "slug": "presence",
@@ -139372,12 +139174,6 @@
    "slug": "producthunt",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/producthunt/"
-  },
-  {
-   "name": "Product Intelligence",
-   "slug": "product-intelligence",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/product-intelligence"
   },
   {
    "description": "Product specifications are detailed technical specifications and requirements documentation for products, helping teams align stakeholders and track progress throughout the product lifecycle.",
@@ -158270,12 +158066,6 @@
    "url": "https://providers.apis.io/providers/sinclair-broadcast-group/"
   },
   {
-   "name": "Single Sign On",
-   "slug": "single-sign-on",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/single-sign-on"
-  },
-  {
    "description": "SingleFile is an AI-powered entity management and corporate compliance platform for corporations, law firms,",
    "name": "SingleFile",
    "slug": "singlefile",
@@ -160407,12 +160197,6 @@
    "url": "https://providers.apis.io/providers/soc-os/"
   },
   {
-   "name": "Soc2",
-   "slug": "soc2",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/soc2"
-  },
-  {
    "description": "Sociable Labs is a company surfaced as a portfolio company of battery-ventures and added",
    "name": "Sociable Labs",
    "slug": "sociable-labs",
@@ -160714,12 +160498,6 @@
    "slug": "software-engineering-daily",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/software-engineering-daily/"
-  },
-  {
-   "name": "Software One",
-   "slug": "software-one",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/software-one"
   },
   {
    "description": "Software-Defined Networking (SDN) is a network architecture approach that decouples the network control plane from the data forwarding plane, enabling dynamic, programmatically efficient network configuration. SDN controllers expose northbound REST APIs for network applications to define routing, load balancing, and security policies, while southbound APIs communicate with switches and routers. Key SDN controllers include OpenDaylight, ONOS, and Floodlight.",
@@ -161875,12 +161653,6 @@
    "url": "https://providers.apis.io/providers/sozu/"
   },
   {
-   "name": "Sp",
-   "slug": "sp",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/sp"
-  },
-  {
    "description": "SPA is a technology or concept used in computing and information technology",
    "name": "SPA",
    "slug": "spa",
@@ -162699,12 +162471,6 @@
    "slug": "spinnaker",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/spinnaker/"
-  },
-  {
-   "name": "Spinner",
-   "slug": "spinner",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/spinner"
   },
   {
    "description": "'Spinny (Valuedrive Technologies Ltd.) is an India-based online marketplace",
@@ -177986,14 +177752,6 @@
    "url": "https://providers.apis.io/providers/trojai/"
   },
   {
-   "description": "Tronald Dump is an open community REST API exposing a historical archive of Donald Trump quotes, with sources, authors, tags, and a search interface using HAL (Hypertext Application Language) JSON responses. The project was built by Marcel Wijnker (wickedest) and ran at tronalddump.io until the domain lapsed and the public service went offline; the data model, OpenAPI, and community SDKs survive in third-party repositories.",
-   "name": "Tronald Dump",
-   "screenshot": "https://raw.githubusercontent.com/api-evangelist/tronald-dump/refs/heads/main/screenshots/tronald-dump-2026-06-20T195742.png",
-   "slug": "tronald-dump",
-   "type": "API Provider",
-   "url": "https://providers.apis.io/providers/tronald-dump/"
-  },
-  {
    "description": "TRONITY is a connected-car platform that aggregates electric vehicle and",
    "name": "TRONITY",
    "slug": "tronity",
@@ -180879,12 +180637,6 @@
    "url": "https://providers.apis.io/providers/united-states-fire-administration/"
   },
   {
-   "name": "United States Flag",
-   "slug": "united-states-flag",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/united-states-flag"
-  },
-  {
    "description": "The United States National Library of Medicine (NLM) is the world's largest biomedical library. It serves as a vital resource for researchers, healthcare professionals, and the general public by providing access to a vast collection of biomedical literature and resources. The NLM offers a wide range of services and resources including online databases, digital archives, and research tools that support medical research, education, and patient care. Key APIs include the NCBI E-Utilities (PubMed, Entrez), NCBI Datasets (genomes, genes), BLAST sequence alignment, and the ClinicalTrials.gov API.",
    "name": "United States National Library of Medicine",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/screenshots/united-states-national-library-of-medicine-2026-06-20T200054.png",
@@ -183146,12 +182898,6 @@
    "url": "https://providers.apis.io/providers/us-geological-survey/"
   },
   {
-   "name": "Us Government",
-   "slug": "us-government",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/us-government"
-  },
-  {
    "description": "'US Health Partners (USHP) is a physician-led national cardiovascular",
    "name": "US Health Partners, LLC",
    "slug": "us-health-partners-llc",
@@ -183341,8 +183087,8 @@
    "description": "useapi.net is an experimental, unified REST API platform that fronts a set of consumer AI",
    "name": "useapi.net",
    "slug": "useapi",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/useapi"
+   "type": "API Provider",
+   "url": "https://providers.apis.io/providers/useapi/"
   },
   {
    "description": "'Useful Sensors, now operating as Moonshine AI, builds fast, low-resource,",
@@ -189455,12 +189201,6 @@
    "slug": "webinarjam",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/webinarjam/"
-  },
-  {
-   "name": "Webinars",
-   "slug": "webinars",
-   "type": "Repository",
-   "url": "https://github.com/api-evangelist/webinars"
   },
   {
    "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
@@ -196454,6 +196194,13 @@
    "slug": "zot",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/zot/"
+  },
+  {
+   "description": "ZotGPT is the University of California, Irvine's institutionally-operated generative AI platform, built and run in-house by the UCI Office of Information Technology AI Team rather than purchased as a vendor seat. Launched to faculty and staff in early 2024 and to students in April 2024, it now spans four end-user products (Chat, ClassChat, Creator, Prompt Library), a training arm (Academy), and two generations of developer API. The platform is deliberately multi-cloud and multi-model: the interactive applications run on UC Irvine's own AWS accounts in us-west-2 behind Shibboleth SSO, the first-generation developer API was fronted by Azure API Management, and models are sourced across OpenAI, Anthropic (via AWS Bedrock), Google, Azure, and open-source options such as Mistral and DeepSeek. The deprecated Azure-managed API at api.zotgpt.uci.edu is being retired in favor of the ZotGPT Gateway, a Portkey-specification unified AI gateway that gives the campus one endpoint, virtual API keys, per-key spend limits, and provider-agnostic model routing. Data is held under UC Irvine's P3 protection standard, retained 12 months, and contractually excluded from vendor model training.",
+   "name": "ZotGPT (UC Irvine)",
+   "slug": "zotgpt",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/zotgpt"
   },
   {
    "description": "Zscaler is a cloud security platform delivering Zero Trust Exchange services including Zscaler Internet Access (ZIA), Zscaler Private Access (ZPA), and Zscaler Digital Experience (ZDX). Zscaler exposes REST APIs across its product suite for configuration, policy management, and reporting, authenticated via API keys, OAuth 2.0, or session-based authentication depending on the product and cloud (zsapi).",

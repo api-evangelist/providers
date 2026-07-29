@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -199,25 +201,32 @@ plans:
 - name: Surge Ai Plans Pricing
   plan_count: 1
   slug: surge-ai-plans-pricing
-random_paper: 49
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Surge Ai Rate Limits
   slug: surge-ai-rate-limits
 score:
   band: thin
-  composite: 41.6
-  delta: 2.0
+  composite: 39.9
+  delta: -1.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 51.3
+    contract_quality: 53.4
     developer_ergonomics: 54.3
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 41.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/screenshots/surge-ai-2026-06-20T194733.png
 security:

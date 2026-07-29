@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.0
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: List, create, delete and merge branches
@@ -164,21 +166,30 @@ overview: 'Testim Io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Testim Io''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, CLI, and 17 more developer resources.'
-random_paper: 39
+random_paper: 76
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 44.6
+  delta: -1.5
   facets:
     commercial_clarity: 15.8
-    contract_quality: 51.8
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 52.3
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 36.8
   previous_composite: 46.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

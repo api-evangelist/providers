@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.3
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Spreadshirt Public Shop API — REST API for building custom e-commerce storefronts against the Spreadshirt EU (spreadshirt.net) and North American (spreadshirt.com) marketplaces, using SprdAuth API-key
@@ -190,25 +192,34 @@ overview: 'Spreadshirt publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Spreadshirt''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 21 more developer resources.'
-random_paper: 37
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Spreadshirt Rate Limits
   slug: spreadshirt-rate-limits
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 45.4
+  delta: -1.8
   facets:
     commercial_clarity: 13.2
-    contract_quality: 68.4
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 68.1
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 47.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,16 +48,29 @@ apis:
 - description: Operations for managing replication streams
   name: Google Cloud Datastream Streams API
   slug: google-cloud-datastream-streams-api
-artifact_total: 17
+artifact_total: 20
 asyncapis:
 - description: Google Cloud Datastream is a serverless change data capture (CDC) and replication service that streams change events from supported source databases and applications into Google Cloud destinations. Th
   name: Google Cloud Datastream CDC Events
   slug: google-cloud-datastream-asyncapi
 collections:
+- collection_type: postman
+  name: Google Cloud Datastream ConnectionProfiles API
+  slug: postman-google-cloud-datastream-connectionprofiles-api
+- collection_type: postman
+  name: Google Cloud Datastream ConnectionProfiles Operations API
+  slug: postman-google-cloud-datastream-operations-api
+- collection_type: postman
+  name: Google Cloud Datastream ConnectionProfiles Streams API
+  slug: postman-google-cloud-datastream-streams-api
 - collection_type: open
   name: Google Cloud Datastream API
   slug: open-google-cloud-datastream
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-datastream/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -147,12 +162,12 @@ overview: 'Google Cloud Datastream publishes 3 APIs on the [APIs.io](https://api
   The Google Cloud Datastream catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Google Cloud Datastream''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Cloud Datastream''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Cloud Datastream Plans Pricing
   plan_count: 3
   slug: google-cloud-datastream-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Google Cloud Datastream Rate Limits
@@ -181,18 +196,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.7
-  delta: 4.6
+  composite: 62.2
+  delta: -2.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 79.6
-    developer_ergonomics: 43.5
-    discoverability: 87.5
-    governance: 52.6
+    contract_quality: 80.5
+    developer_ergonomics: 47.8
+    discoverability: 64.8
+    governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 60.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/screenshots/google-cloud-datastream-2026-06-20T182105.png
 security:

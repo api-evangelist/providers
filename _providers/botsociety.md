@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Manage conversations (legacy apisociety 2.0 API)
@@ -131,21 +133,30 @@ overview: 'BotSociety publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   BotSociety''s developer surface includes documentation, API reference, authentication, changelog, and 14 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 33.7
+  delta: -2.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 54.4
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.4
+    developer_ergonomics: 36.4
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 35.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/screenshots/botsociety-2026-07-25T203642.png
 security:

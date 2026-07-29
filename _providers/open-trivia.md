@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 45.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -237,7 +239,7 @@ overview: 'Open Trivia Database publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Open Trivia Database''s developer surface includes documentation, support, tooling, code examples, and 16 more developer resources.'
-random_paper: 46
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Open Trivia Rate Limits
@@ -260,25 +262,33 @@ rules:
     warn: 18
   slug: open-trivia-rules
 score:
-  band: developing
-  composite: 45.1
-  delta: 4.7
+  band: thin
+  composite: 38.8
+  delta: -6.3
   facets:
     commercial_clarity: 10.5
-    contract_quality: 71.7
+    contract_quality: 60.2
     developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 81.5
+    governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 40.4
+  previous_composite: 45.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/screenshots/open-trivia-2026-06-20T190855.png
 security:
 - kind: domain-security

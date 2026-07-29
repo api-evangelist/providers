@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 12.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: 'Zilla is a stateless, cloud-native multi-protocol edge and service proxy that enables seamless access to Apache Kafka through HTTP REST, gRPC, SSE, MQTT, and WebSocket protocols. Zilla eliminates the '
@@ -125,7 +127,7 @@ plans:
 - name: Aklivity Plans Pricing
   plan_count: 3
   slug: aklivity-plans-pricing
-random_paper: 61
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Aklivity Rate Limits
@@ -140,19 +142,19 @@ rules:
     warn: 2
   slug: aklivity-spectral-rules
 score:
-  band: thin
-  composite: 40.0
-  delta: 0.0
+  band: developing
+  composite: 43.8
+  delta: 3.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 32.1
+    contract_quality: 59.7
     developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 34.2
+    discoverability: 64.8
+    governance: 27.1
     operational_transparency: 36.8
   previous_composite: 40.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/screenshots/aklivity-2026-06-20T171459.png
 security:

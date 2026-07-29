@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Fully-typed TypeScript client generated from any GraphQL schema, enabling type-safe query building with IDE auto-completion, batching support, subscriptions, and zero runtime dependencies across brows
@@ -90,26 +92,26 @@ plans:
 - name: Genql Plans Pricing
   plan_count: 3
   slug: genql-plans-pricing
-random_paper: 59
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Genql Rate Limits
   slug: genql-rate-limits
 score:
-  band: emerging
-  composite: 24.5
-  delta: 0.0
+  band: thin
+  composite: 32.9
+  delta: 8.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 0.0
+    contract_quality: 42.0
     developer_ergonomics: 8.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 24.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/genql/refs/heads/main/screenshots/genql-2026-06-20T181736.png
 security:
 - kind: domain-security

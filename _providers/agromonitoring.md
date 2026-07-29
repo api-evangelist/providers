@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,12 +57,34 @@ apis:
 - description: Current, forecast, and historical weather data
   name: Agromonitoring Weather API
   slug: agromonitoring-weather-api
-artifact_total: 65
+artifact_total: 71
 collections:
+- collection_type: postman
+  name: Agromonitoring Agro NDVI History API
+  slug: postman-agromonitoring-ndvi-history-api
+- collection_type: postman
+  name: Agromonitoring Agro NDVI History Polygons API
+  slug: postman-agromonitoring-polygons-api
+- collection_type: postman
+  name: Agromonitoring Agro NDVI History Satellite Imagery API
+  slug: postman-agromonitoring-satellite-imagery-api
+- collection_type: postman
+  name: Agromonitoring Agro NDVI History Soil API
+  slug: postman-agromonitoring-soil-api
+- collection_type: postman
+  name: Agromonitoring Agro NDVI History UV Index API
+  slug: postman-agromonitoring-uv-index-api
+- collection_type: postman
+  name: Agromonitoring Agro NDVI History Weather API
+  slug: postman-agromonitoring-weather-api
 - collection_type: open
   name: Agromonitoring Agro API
   slug: open-agromonitoring
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/agromonitoring/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -264,12 +288,12 @@ overview: 'Agromonitoring publishes 6 APIs on the [APIs.io](https://apis.io/) ne
   The Agromonitoring catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Agromonitoring''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, FAQ, and 8 more developer resources.'
+  Agromonitoring''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, FAQ, and 9 more developer resources.'
 plans:
 - name: Agromonitoring Plans Pricing
   plan_count: 3
   slug: agromonitoring-plans-pricing
-random_paper: 23
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Agromonitoring Rate Limits
@@ -293,19 +317,26 @@ rules:
   slug: agromonitoring-spectral-rules
 score:
   band: strong
-  composite: 64.8
-  delta: 4.2
+  composite: 58.3
+  delta: -6.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 77.9
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 66.0
+    developer_ergonomics: 43.5
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 60.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 64.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/screenshots/agromonitoring-2026-06-20T170453.png
 security:
 - kind: authentication

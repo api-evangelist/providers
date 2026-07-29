@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -289,8 +291,265 @@ apis:
 - description: 'The #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updatetemplatesyncconfig.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
-artifact_total: 641
+artifact_total: 725
+collections:
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CancelComponentDeployment API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CancelEnvironmentDeployment API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CancelServicePipelineDeployment API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateComponent API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createcomponent-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateEnvironment API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createenvironment-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateEnvironmentTemplate API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateRepository API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createrepository-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateService API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createservice-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateServiceInstance API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateServiceSyncConfig API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateServiceTemplate API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateServiceTemplateVersion API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.CreateTemplateSyncConfig API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteComponent API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteEnvironment API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplate API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteRepository API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deleterepository-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteService API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deleteservice-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteServiceSyncConfig API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteServiceTemplate API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteServiceTemplateVersion API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.DeleteTemplateSyncConfig API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetAccountSettings API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetComponent API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getcomponent-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetEnvironment API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getenvironment-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetEnvironmentTemplate API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetRepository API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getrepository-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetRepositorySyncStatus API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetResourcesSummary API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetService API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getservice-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetServiceInstance API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetServiceInstanceSyncStatus API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetServiceSyncBlockerSummary API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetServiceSyncConfig API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetServiceTemplate API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetServiceTemplateVersion API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetTemplateSyncConfig API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.GetTemplateSyncStatus API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListComponentOutputs API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListComponentProvisionedResources API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListComponents API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listcomponents-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListEnvironmentOutputs API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListEnvironments API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listenvironments-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListEnvironmentTemplates API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListRepositories API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listrepositories-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListServiceInstanceOutputs API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListServiceInstances API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListServicePipelineOutputs API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListServices API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listservices-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListServiceTemplates API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListServiceTemplateVersions API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.ListTagsForResource API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.TagResource API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-tagresource-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UntagResource API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-untagresource-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateAccountSettings API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateComponent API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateEnvironment API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplate API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateService API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateservice-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateServiceInstance API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateServicePipeline API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateServiceSyncBlocker API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateServiceSyncConfig API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateServiceTemplate API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateServiceTemplateVersion API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api
+- collection_type: postman
+  name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API'
+  slug: postman-amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-proton/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4137,12 +4396,12 @@ overview: 'Amazon Proton publishes 84 APIs on the [APIs.io](https://apis.io/) ne
   The Amazon Proton catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Proton''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 544 more developer resources.'
+  Amazon Proton''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 545 more developer resources.'
 plans:
 - name: Amazon Proton Plans Pricing
   plan_count: 3
   slug: amazon-proton-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Amazon Proton Rate Limits
@@ -4166,18 +4425,25 @@ rules:
   slug: amazon-proton-spectral-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 62.1
+  delta: -3.4
   facets:
     commercial_clarity: 68.4
-    contract_quality: 68.1
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 69.5
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 65.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 84
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/screenshots/amazon-proton-2026-06-20T171801.png
 security:

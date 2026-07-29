@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -376,7 +378,7 @@ overview: 'Cellulant publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cellulant''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, pricing, and 50 more developer resources.'
-random_paper: 12
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Cellulant Rate Limits
@@ -400,24 +402,32 @@ rules:
   slug: cellulant-rules
 score:
   band: strong
-  composite: 63.0
-  delta: 3.6
+  composite: 57.1
+  delta: -5.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 77.0
+    contract_quality: 77.4
     developer_ergonomics: 67.4
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 59.4
+  previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/screenshots/cellulant-2026-06-20T174113.png
 security:
 - kind: authentication

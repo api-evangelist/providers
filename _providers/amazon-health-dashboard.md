@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -76,8 +78,52 @@ apis:
 - description: 'The #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.enablehealthserviceaccessfororganiz'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-enablehealthserviceaccessfororganization-api
-artifact_total: 276
+artifact_total: 289
+collections:
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization AP'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeaffectedaccountsfororganization-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedEntities API'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeaffectedentities-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedEntitiesForOrganization AP'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeaffectedentitiesfororganization-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEntityAggregates API'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeentityaggregates-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventAggregates API'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventaggregates-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventDetails API'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventdetails-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventDetailsForOrganization API'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventdetailsfororganization-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEvents API'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeevents-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventsForOrganization API'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventsfororganization-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeEventTypes API'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventtypes-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeHealthServiceStatusForOrganization'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-describehealthservicestatusfororganization-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DisableHealthServiceAccessForOrganization'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-disablehealthserviceaccessfororganization-api
+- collection_type: postman
+  name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization A'
+  slug: postman-amazon-health-dashboard-x-amz-target-awshealth-20160804-enablehealthserviceaccessfororganization-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-health-dashboard/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -910,12 +956,12 @@ overview: 'Amazon Health Dashboard publishes 13 APIs on the [APIs.io](https://ap
   The Amazon Health Dashboard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Health Dashboard''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 10 more developer resources.'
+  Amazon Health Dashboard''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
 plans:
 - name: Amazon Health Dashboard Plans Pricing
   plan_count: 3
   slug: amazon-health-dashboard-plans-pricing
-random_paper: 58
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Amazon Health Dashboard Rate Limits
@@ -939,18 +985,25 @@ rules:
   slug: amazon-health-dashboard-spectral-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 62.2
+  delta: -3.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 76.4
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 77.4
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 65.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/screenshots/amazon-health-dashboard-2026-06-20T171659.png
 security:

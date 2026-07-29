@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Send messages to Poke programmatically.
@@ -146,22 +148,36 @@ overview: 'The Interaction Company Of California publishes 1 API on the [APIs.io
 
 
   The Interaction Company Of California''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 18 more developer resources.'
-random_paper: 33
+random_paper: 9
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 48.1
+  delta: -5.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.7
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 50.8
+    developer_ergonomics: 64.7
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 53.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: The Interaction Company Of California Authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -183,7 +185,7 @@ plans:
 - name: Osisoft Pi Plans Pricing
   plan_count: 1
   slug: osisoft-pi-plans-pricing
-random_paper: 17
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Osisoft Pi Rate Limits
@@ -199,18 +201,25 @@ rules:
   slug: osisoft-pi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 3.3
+  composite: 48.9
+  delta: -4.6
   facets:
     commercial_clarity: 36.8
-    contract_quality: 65.5
+    contract_quality: 62.3
     developer_ergonomics: 50.0
-    discoverability: 75.0
-    governance: 73.7
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 50.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 53.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/screenshots/osisoft-pi-2026-06-20T191219.png
 security:

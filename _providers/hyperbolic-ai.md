@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -423,7 +425,7 @@ plans:
 - name: Hyperbolic Ai Plans Pricing
   plan_count: 16
   slug: hyperbolic-ai-plans-pricing
-random_paper: 28
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Hyperbolic Ai Rate Limits
@@ -447,18 +449,25 @@ rules:
   slug: hyperbolic-ai-rules
 score:
   band: strong
-  composite: 68.6
-  delta: 3.4
+  composite: 64.4
+  delta: -4.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.7
+    contract_quality: 73.9
     developer_ergonomics: 71.7
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/screenshots/hyperbolic-ai-2026-06-20T183118.png
 security:

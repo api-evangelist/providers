@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Discover available built-in field types.
   name: Mockaroo Types API
   slug: mockaroo-types-api
-artifact_total: 66
+artifact_total: 70
 collections:
+- collection_type: postman
+  name: Mockaroo Datasets API
+  slug: postman-mockaroo-datasets-api
+- collection_type: postman
+  name: Mockaroo Datasets Downloads API
+  slug: postman-mockaroo-downloads-api
+- collection_type: postman
+  name: Mockaroo Datasets Generate API
+  slug: postman-mockaroo-generate-api
+- collection_type: postman
+  name: Mockaroo Datasets Types API
+  slug: postman-mockaroo-types-api
 - collection_type: open
   name: Mockaroo API
   slug: open-mockaroo
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mockaroo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -305,12 +323,12 @@ overview: 'Mockaroo publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Mockaroo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mockaroo''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
+  Mockaroo''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
 plans:
 - name: Mockaroo Plans Pricing
   plan_count: 4
   slug: mockaroo-plans-pricing
-random_paper: 43
+random_paper: 12
 rate_limits:
 - limit_count: 9
   name: Mockaroo Rate Limits
@@ -333,20 +351,27 @@ rules:
     warn: 3
   slug: mockaroo-rules
 score:
-  band: strong
-  composite: 69.3
-  delta: 5.4
+  band: exemplar
+  composite: 66.4
+  delta: -2.9
   facets:
     commercial_clarity: 84.2
-    contract_quality: 76.1
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 77.1
+    developer_ergonomics: 45.7
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 63.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 69.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/screenshots/mockaroo-2026-06-20T185637.png
 security:
 - kind: authentication

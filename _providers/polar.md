@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -259,7 +261,7 @@ overview: 'Polar publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Polar''s developer surface includes authentication, developer portal, documentation, signup flow, code examples, support, YouTube channel, and 23 more developer resources.'
-random_paper: 66
+random_paper: 3
 scopes:
 - name: Polar Scopes
   scope_count: 2
@@ -267,24 +269,32 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 42.1
-  delta: 1.7
+  composite: 37.0
+  delta: -5.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 55.4
+    contract_quality: 57.4
     developer_ergonomics: 41.3
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 40.4
+  previous_composite: 42.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 94.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 53.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/polar/refs/heads/main/screenshots/polar-2026-06-20T191849.png
 security:
 - kind: authentication

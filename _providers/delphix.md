@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 510
   human_in_the_loop: 15
@@ -366,21 +368,31 @@ overview: 'Delphix publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Delphix''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 26 more developer resources.'
-random_paper: 2
+random_paper: 57
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 51.6
+  delta: -1.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 47.6
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 42.5
+    developer_ergonomics: 75.5
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 53.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 60
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/screenshots/delphix-2026-07-25T211658.png
 security:

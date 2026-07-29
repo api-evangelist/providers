@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -186,25 +188,35 @@ overview: 'hubilo publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   hubilo''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, changelog, and 19 more developer resources.'
-random_paper: 31
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Hubilo Rate Limits
   slug: hubilo-rate-limits
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 49.3
+  delta: -1.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.3
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 68.6
+    developer_ergonomics: 47.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 50.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/screenshots/hubilo-2026-07-25T221615.png
 security:

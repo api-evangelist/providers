@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.1
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: 'Public Gateway API for the Agentic Storefront product: conversational discovery and chat, catalog/collection browsing, cart and checkout sessions, virtual try-on, orders and shipments, user profile an'
@@ -192,26 +194,31 @@ overview: 'Swap publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Swap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 35
+random_paper: 58
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 48.5
+  delta: 1.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 62.5
+    discoverability: 81.5
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 47.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

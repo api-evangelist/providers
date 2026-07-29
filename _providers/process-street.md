@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -237,21 +239,31 @@ overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) n
 
 
   Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 47
+random_paper: 12
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 53.6
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.8
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.8
+    developer_ergonomics: 51.6
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 31.6
   previous_composite: 54.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

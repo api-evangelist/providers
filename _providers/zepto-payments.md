@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -47,12 +49,38 @@ apis:
 - description: Webhook event notifications — subscribe to asynchronous payment and account events (for example float_accounts.unmatched_credit.received) to drive real-time reconciliation and payment status handling.
   name: Zepto Notifications API (Webhooks)
   slug: notifications-api
-artifact_total: 15
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Zepto Payments Notifications Webhooks
   slug: zepto-payments-notifications-webhooks
+collections:
+- collection_type: postman
+  name: Zepto Clients API (Alpha)
+  slug: postman-zepto-payments-clients
+- collection_type: postman
+  name: Zepto Investigations API
+  slug: postman-zepto-payments-investigations
+- collection_type: postman
+  name: Zepto Merchant Reports API
+  slug: postman-zepto-payments-merchant-reports
+- collection_type: postman
+  name: Notifications
+  slug: postman-zepto-payments-notifications
+- collection_type: postman
+  name: Zepto PayTo API
+  slug: postman-zepto-payments-pay-to
+- collection_type: postman
+  name: Zepto Validate API (Confirmation of Payee)
+  slug: postman-zepto-payments-validate-cop
+- collection_type: postman
+  name: Zepto API
+  slug: postman-zepto-payments-zepto
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/zepto/overview
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -228,8 +256,8 @@ overview: 'Zepto publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Zepto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zepto''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, sandbox, and 32 more developer resources.'
-random_paper: 60
+  Zepto''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, sandbox, and 33 more developer resources.'
+random_paper: 25
 scopes:
 - name: Zepto Payments Scopes
   scope_count: 9
@@ -237,23 +265,34 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 57.8
+  delta: -4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.1
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 55.2
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 62.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 85.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 67.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

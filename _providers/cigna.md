@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,8 +84,53 @@ apis:
 - description: The PractitionerRole API from Cigna — 1 operation(s) for practitionerrole.
   name: Cigna PractitionerRole API
   slug: cigna-practitionerrole-api
-artifact_total: 32
+artifact_total: 47
 collections:
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data API
+  slug: postman-cigna-bulk-data-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data Condition API
+  slug: postman-cigna-condition-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data Coverage API
+  slug: postman-cigna-coverage-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data Encounter API
+  slug: postman-cigna-encounter-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data ExplanationOfBenefit API
+  slug: postman-cigna-explanationofbenefit-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data HealthcareService API
+  slug: postman-cigna-healthcareservice-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data InsurancePlan API
+  slug: postman-cigna-insuranceplan-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data Location API
+  slug: postman-cigna-location-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data MedicationKnowledge API
+  slug: postman-cigna-medicationknowledge-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data MedicationRequest API
+  slug: postman-cigna-medicationrequest-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data Observation API
+  slug: postman-cigna-observation-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data Organization API
+  slug: postman-cigna-organization-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data Patient API
+  slug: postman-cigna-patient-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data Practitioner API
+  slug: postman-cigna-practitioner-api
+- collection_type: postman
+  name: Cigna Drug Formulary Bulk Data PractitionerRole API
+  slug: postman-cigna-practitionerrole-api
 - collection_type: open
   name: Cigna Drug Formulary API
   slug: open-cigna-drug-formulary-api
@@ -97,6 +144,10 @@ collections:
   name: Cigna Provider Directory API
   slug: open-cigna-provider-directory-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cigna/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -208,7 +259,7 @@ overview: 'Cigna publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
   The Cigna catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cigna''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 15 more developer resources.'
+  Cigna''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Cigna Plans Pricing
   plan_count: 3
@@ -238,7 +289,7 @@ press:
 - date: '2020-11-17'
   title: Veterans Recovery Resources of Mobile Receives $100,000 Cigna Foundation Grant to Provide Mental Health Services to Area Veterans
   url: https://www.cigna.com/newsroom/news-releases/2020/veterans-recovery-resources-of-mobile-receives-100000-cigna-foundation-grant-to-provide-mental-health-services-to-area-veterans.html
-random_paper: 38
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Cigna Rate Limits
@@ -258,25 +309,33 @@ scopes:
   slug: cigna-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 62.0
-  delta: 2.8
+  band: developing
+  composite: 55.8
+  delta: -6.2
   facets:
     commercial_clarity: 68.4
-    contract_quality: 49.6
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 58.4
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 59.2
+  previous_composite: 62.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 66.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/screenshots/cigna-2026-06-20T174340.png
 security:
 - kind: authentication

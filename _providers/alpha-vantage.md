@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,12 +42,22 @@ apis:
 - description: Intraday, daily, weekly, and monthly stock price and volume data
   name: Alpha Vantage Stock Time Series API
   slug: alpha-vantage-stock-time-series-api
-artifact_total: 37
+artifact_total: 39
 collections:
+- collection_type: postman
+  name: Alpha Vantage API
+  slug: postman-alpha-vantage-plugin-openapi
+- collection_type: postman
+  name: Alpha Vantage Stock Time Series API
+  slug: postman-alpha-vantage-stock-time-series-api
 - collection_type: open
   name: Alpha Vantage API
   slug: open-alpha-vantage
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/alpha-vantage/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -288,12 +300,12 @@ overview: 'Alpha Vantage publishes 1 API on the [APIs.io](https://apis.io/) netw
   The Alpha Vantage catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Alpha Vantage''s developer surface includes authentication, sandbox, developer portal, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
+  Alpha Vantage''s developer surface includes authentication, sandbox, developer portal, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
 plans:
 - name: Alpha Vantage Plans Pricing
   plan_count: 7
   slug: alpha-vantage-plans-pricing
-random_paper: 13
+random_paper: 73
 rate_limits:
 - limit_count: 7
   name: Alpha Vantage Rate Limits
@@ -322,23 +334,34 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 75.2
-  delta: 2.7
+  composite: 70.6
+  delta: -4.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 69.0
-    developer_ergonomics: 82.6
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 61.9
+    developer_ergonomics: 77.7
+    discoverability: 87.0
+    governance: 80.2
     operational_transparency: 36.8
-  previous_composite: 72.5
+  previous_composite: 75.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 50.0
+      derived: 1
+      marker_coverage: 50.0
+      total: 2
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png
 security:

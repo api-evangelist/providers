@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 65.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -106,12 +108,78 @@ apis:
 - description: Head to https://alpaca.markets/docs/api-documentation/api-v2/watchlist/ to view complete documentation on the Watchlist API.
   name: Alpaca Watchlists API
   slug: alpaca-watchlists-api
-artifact_total: 39
+artifact_total: 61
 asyncapis:
 - description: AsyncAPI 2.6 description of Alpaca's public WebSocket streaming APIs. Covers real-time stock market data (IEX / SIP / delayed SIP / BOATS), real-time crypto market data (US and Global), real-time news
   name: Alpaca WebSocket Streaming APIs
   slug: alpaca-asyncapi
 collections:
+- collection_type: postman
+  name: Broker Account Activities API
+  slug: postman-alpaca-account-activities-api
+- collection_type: postman
+  name: Broker Account Activities Accounts API
+  slug: postman-alpaca-accounts-api
+- collection_type: postman
+  name: Broker Account Activities Assets API
+  slug: postman-alpaca-assets-api
+- collection_type: postman
+  name: Broker Account Activities Calendar API
+  slug: postman-alpaca-calendar-api
+- collection_type: postman
+  name: Broker Account Activities Clock API
+  slug: postman-alpaca-clock-api
+- collection_type: postman
+  name: Broker Account Activities Corporate Actions API
+  slug: postman-alpaca-corporate-actions-api
+- collection_type: postman
+  name: Broker Account Activities Crypto Pricing Data API API
+  slug: postman-alpaca-crypto-pricing-data-api-api
+- collection_type: postman
+  name: Broker Account Activities Documents API
+  slug: postman-alpaca-documents-api
+- collection_type: postman
+  name: Broker Account Activities Events API
+  slug: postman-alpaca-events-api
+- collection_type: postman
+  name: Broker Account Activities Funding API
+  slug: postman-alpaca-funding-api
+- collection_type: postman
+  name: Broker Account Activities Journals API
+  slug: postman-alpaca-journals-api
+- collection_type: postman
+  name: Broker Account Activities Logo API
+  slug: postman-alpaca-logo-api
+- collection_type: postman
+  name: Broker Account Activities News API
+  slug: postman-alpaca-news-api
+- collection_type: postman
+  name: Broker Account Activities OAuth API
+  slug: postman-alpaca-oauth-api
+- collection_type: postman
+  name: Broker Account Activities Orders API
+  slug: postman-alpaca-orders-api
+- collection_type: postman
+  name: Broker Account Activities Portfolio History API
+  slug: postman-alpaca-portfolio-history-api
+- collection_type: postman
+  name: Broker Account Activities Positions API
+  slug: postman-alpaca-positions-api
+- collection_type: postman
+  name: Broker Account Activities Screener API
+  slug: postman-alpaca-screener-api
+- collection_type: postman
+  name: Broker Account Activities Stock Pricing Data API API
+  slug: postman-alpaca-stock-pricing-data-api-api
+- collection_type: postman
+  name: Broker Account Activities Trading API
+  slug: postman-alpaca-trading-api
+- collection_type: postman
+  name: Broker Account Activities Watchlist API
+  slug: postman-alpaca-watchlist-api
+- collection_type: postman
+  name: Broker Account Activities Watchlists API
+  slug: postman-alpaca-watchlists-api
 - collection_type: open
   name: Broker API
   slug: open-alpaca-broker-api
@@ -125,6 +193,10 @@ collections:
   name: Trader API
   slug: open-alpaca-trading-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/alpaca/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -319,12 +391,12 @@ overview: 'Alpaca publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
   The Alpaca catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Alpaca''s developer surface includes authentication, sandbox, changelog, CLI, API reference, getting-started guide, support, and 36 more developer resources.'
+  Alpaca''s developer surface includes authentication, sandbox, changelog, CLI, API reference, getting-started guide, support, and 37 more developer resources.'
 plans:
 - name: Alpaca Plans Pricing
   plan_count: 3
   slug: alpaca-plans-pricing
-random_paper: 66
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Alpaca Rate Limits
@@ -345,23 +417,34 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 86.4
-  delta: 2.7
+  composite: 84.5
+  delta: -1.9
   facets:
     commercial_clarity: 100.0
-    contract_quality: 69.0
+    contract_quality: 68.0
     developer_ergonomics: 91.3
-    discoverability: 100.0
-    governance: 60.5
+    discoverability: 92.6
+    governance: 68.8
     operational_transparency: 86.8
-  previous_composite: 83.7
+  previous_composite: 86.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 86.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png
 security:

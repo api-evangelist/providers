@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Operations for listing available runtimes
   name: Google Cloud Functions Runtimes API
   slug: google-cloud-functions-runtimes-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: postman
+  name: Google Cloud Functions API
+  slug: postman-google-cloud-functions-functions-api
+- collection_type: postman
+  name: Google Cloud Functions Locations API
+  slug: postman-google-cloud-functions-locations-api
+- collection_type: postman
+  name: Google Cloud Functions Operations API
+  slug: postman-google-cloud-functions-operations-api
+- collection_type: postman
+  name: Google Cloud Functions Runtimes API
+  slug: postman-google-cloud-functions-runtimes-api
 - collection_type: open
   name: Google Cloud Functions API
   slug: open-google-cloud-functions
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-functions/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,12 +164,12 @@ overview: 'Google Cloud Functions publishes 4 APIs on the [APIs.io](https://apis
   The Google Cloud Functions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Functions'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Cloud Functions'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Cloud Functions Plans Pricing
   plan_count: 3
   slug: google-cloud-functions-plans-pricing
-random_paper: 3
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Google Cloud Functions Rate Limits
@@ -172,18 +190,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.6
-  delta: 4.6
+  composite: 61.7
+  delta: -2.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.0
-    developer_ergonomics: 43.5
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 70.3
+    developer_ergonomics: 47.8
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/screenshots/google-cloud-functions-2026-06-20T182113.png
 security:

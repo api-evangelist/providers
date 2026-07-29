@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Operations for managing IAM users
   name: Amazon IAM Users API
   slug: amazon-iam-users-api
-artifact_total: 89
+artifact_total: 94
 collections:
+- collection_type: postman
+  name: Amazon IAM Access Keys API
+  slug: postman-amazon-iam-access-keys-api
+- collection_type: postman
+  name: Amazon IAM Access Keys Groups API
+  slug: postman-amazon-iam-groups-api
+- collection_type: postman
+  name: Amazon IAM Access Keys Policies API
+  slug: postman-amazon-iam-policies-api
+- collection_type: postman
+  name: Amazon IAM Access Keys Roles API
+  slug: postman-amazon-iam-roles-api
+- collection_type: postman
+  name: Amazon IAM Access Keys Users API
+  slug: postman-amazon-iam-users-api
 - collection_type: open
   name: Amazon IAM API
   slug: open-amazon-iam
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-iam/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -371,12 +392,12 @@ overview: 'Amazon IAM publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon IAM catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IAM''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
+  Amazon IAM''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Iam Plans Pricing
   plan_count: 3
   slug: amazon-iam-plans-pricing
-random_paper: 50
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Rate Limits
@@ -400,18 +421,25 @@ rules:
   slug: amazon-iam-spectral-rules
 score:
   band: strong
-  composite: 69.3
-  delta: 4.6
+  composite: 65.8
+  delta: -3.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.9
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 71.2
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 64.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/screenshots/amazon-iam-2026-06-20T171703.png
 security:

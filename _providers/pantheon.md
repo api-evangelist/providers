@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Pantheon platform REST API (terminus.pantheon.io) underpins the Terminus CLI and enables programmatic management of sites, environments, deployments, domains, backups, teams, organizations, SSH ke
@@ -105,25 +107,25 @@ plans:
 - name: Pantheon Plans Pricing
   plan_count: 0
   slug: pantheon-plans-pricing
-random_paper: 45
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Pantheon Rate Limits
   slug: pantheon-rate-limits
 score:
   band: emerging
-  composite: 28.9
-  delta: 0.0
+  composite: 25.1
+  delta: -3.8
   facets:
     commercial_clarity: 26.3
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 28.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/screenshots/pantheon-2026-06-20T191343.png
 security:

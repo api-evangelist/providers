@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Daily historical rates between two dates.
   name: Currencylayer Time Frame API
   slug: currencylayer-time-frame-api
-artifact_total: 61
+artifact_total: 66
 collections:
+- collection_type: postman
+  name: Currencylayer Change API
+  slug: postman-currencylayer-change-api
+- collection_type: postman
+  name: Currencylayer Change Conversion API
+  slug: postman-currencylayer-conversion-api
+- collection_type: postman
+  name: Currencylayer Change Rates API
+  slug: postman-currencylayer-rates-api
+- collection_type: postman
+  name: Currencylayer Change Symbols API
+  slug: postman-currencylayer-symbols-api
+- collection_type: postman
+  name: Currencylayer Change Time Frame API
+  slug: postman-currencylayer-time-frame-api
 - collection_type: open
   name: Currencylayer API
   slug: open-currencylayer
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/currencylayer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -257,12 +278,12 @@ overview: 'Currencylayer publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Currencylayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Currencylayer''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 15 more developer resources.'
+  Currencylayer''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Currencylayer Plans Pricing
   plan_count: 6
   slug: currencylayer-plans-pricing
-random_paper: 56
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Currencylayer Rate Limits
@@ -286,19 +307,26 @@ rules:
   slug: currencylayer-rules
 score:
   band: strong
-  composite: 64.6
-  delta: 5.5
+  composite: 60.8
+  delta: -3.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 80.5
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 78.0
+    developer_ergonomics: 37.0
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 64.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/screenshots/currencylayer-2026-06-20T175338.png
 security:
 - kind: authentication

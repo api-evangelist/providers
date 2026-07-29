@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -79,8 +81,50 @@ apis:
 - description: Available stacks
   name: Heroku Stacks API
   slug: heroku-stacks-api
-artifact_total: 52
+artifact_total: 66
 collections:
+- collection_type: postman
+  name: Heroku Platform Account API
+  slug: postman-heroku-account-api
+- collection_type: postman
+  name: Heroku Platform Account Add-ons API
+  slug: postman-heroku-add-ons-api
+- collection_type: postman
+  name: Heroku Platform Account Apps API
+  slug: postman-heroku-apps-api
+- collection_type: postman
+  name: Heroku Platform Account Builds API
+  slug: postman-heroku-builds-api
+- collection_type: postman
+  name: Heroku Platform Account Collaborators API
+  slug: postman-heroku-collaborators-api
+- collection_type: postman
+  name: Heroku Platform Account Config Vars API
+  slug: postman-heroku-config-vars-api
+- collection_type: postman
+  name: Heroku Platform Account Domains API
+  slug: postman-heroku-domains-api
+- collection_type: postman
+  name: Heroku Platform Account Dynos API
+  slug: postman-heroku-dynos-api
+- collection_type: postman
+  name: Heroku Platform Account Formation API
+  slug: postman-heroku-formation-api
+- collection_type: postman
+  name: Heroku Platform Account Log Sessions API
+  slug: postman-heroku-log-sessions-api
+- collection_type: postman
+  name: Heroku Platform Account Pipelines API
+  slug: postman-heroku-pipelines-api
+- collection_type: postman
+  name: Heroku Platform Account Regions API
+  slug: postman-heroku-regions-api
+- collection_type: postman
+  name: Heroku Platform Account Releases API
+  slug: postman-heroku-releases-api
+- collection_type: postman
+  name: Heroku Platform Account Stacks API
+  slug: postman-heroku-stacks-api
 - collection_type: open
   name: Heroku App Webhooks
   slug: open-heroku-app-webhooks-asyncapi
@@ -88,6 +132,10 @@ collections:
   name: Heroku Platform API
   slug: open-heroku-platform-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/heroku/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -237,12 +285,12 @@ overview: 'Heroku publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
   The Heroku catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Heroku''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 11 more developer resources.'
+  Heroku''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 12 more developer resources.'
 plans:
 - name: Heroku Plans Pricing
   plan_count: 8
   slug: heroku-plans-pricing
-random_paper: 42
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Heroku Rate Limits
@@ -258,18 +306,25 @@ rules:
   slug: heroku-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 3.2
+  composite: 62.2
+  delta: -1.2
   facets:
     commercial_clarity: 84.2
-    contract_quality: 52.1
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 60.2
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 93.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/screenshots/heroku-2026-06-20T182649.png
 security:

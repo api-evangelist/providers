@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -218,27 +220,38 @@ overview: 'Volt publishes 1 API on the [APIs.io](https://apis.io/) network: Acco
 
 
   Volt''s developer surface includes authentication, sandbox, pricing, signup flow, documentation, API reference, getting-started guide, and 30 more developer resources.'
-random_paper: 34
+random_paper: 21
 score:
   band: developing
-  composite: 59.2
-  delta: 0.0
+  composite: 53.5
+  delta: -5.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 59.3
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.9
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 59.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 50.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 45.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Volt Io Authentication

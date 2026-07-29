@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -806,7 +808,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 65
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Euler V3 Api
@@ -822,19 +824,26 @@ rules:
   slug: euler-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 44.2
+  delta: -5.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.3
+    contract_quality: 50.9
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 49.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/screenshots/euler-2026-06-20T180844.png
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -98,8 +100,47 @@ arazzos:
 - description: Start a FHIR import job, poll it until COMPLETED, then list all import jobs.
   name: Amazon HealthLake Start FHIR Import Job, Poll, and List
   slug: amazon-healthlake-start-import-poll-and-list-workflow
-artifact_total: 234
+artifact_total: 247
 collections:
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-createfhirdatastore-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.DeleteFHIRDatastore API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-deletefhirdatastore-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.DescribeFHIRDatastore API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-describefhirdatastore-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.DescribeFHIRExportJob API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-describefhirexportjob-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.DescribeFHIRImportJob API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-describefhirimportjob-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.ListFHIRDatastores API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-listfhirdatastores-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.ListFHIRExportJobs API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-listfhirexportjobs-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.ListFHIRImportJobs API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-listfhirimportjobs-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.ListTagsForResource API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-listtagsforresource-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.StartFHIRExportJob API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-startfhirexportjob-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.StartFHIRImportJob API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-startfhirimportjob-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.TagResource API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-tagresource-api
+- collection_type: postman
+  name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.CreateFHIRDatastore #X Amz Target=HealthLake.UntagResource API'
+  slug: postman-amazon-healthlake-x-amz-target-healthlake-untagresource-api
 - collection_type: postman
   name: Amazon HealthLake
   slug: postman-amazon-healthlake
@@ -832,7 +873,7 @@ plans:
 - name: Amazon Healthlake Plans Pricing
   plan_count: 3
   slug: amazon-healthlake-plans-pricing
-random_paper: 34
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Amazon Healthlake Rate Limits
@@ -855,25 +896,33 @@ rules:
     warn: 8
   slug: amazon-healthlake-spectral-rules
 score:
-  band: exemplar
-  composite: 71.6
-  delta: 3.9
+  band: strong
+  composite: 62.8
+  delta: -8.8
   facets:
     commercial_clarity: 68.4
-    contract_quality: 70.8
+    contract_quality: 72.0
     developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 67.7
+  previous_composite: 71.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 45.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/screenshots/amazon-healthlake-2026-07-25T200010.png
 security:
 - kind: authentication

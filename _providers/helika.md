@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Events API from Helika — 1 operation(s) for events.
@@ -138,21 +140,30 @@ overview: 'Helika publishes 1 API on the [APIs.io](https://apis.io/) network: Ev
 
 
   Helika''s developer surface includes documentation, getting-started guide, API reference, support, authentication, and 17 more developer resources.'
-random_paper: 10
+random_paper: 6
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 39.8
+  delta: -1.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 42.5
-    developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 40.7
+    developer_ergonomics: 60.3
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 41.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helika/refs/heads/main/screenshots/helika-2026-07-25T220913.png
 security:

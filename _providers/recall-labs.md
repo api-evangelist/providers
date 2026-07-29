@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -185,26 +187,37 @@ overview: 'Recall Labs publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Recall Labs'' developer surface includes documentation, API reference, engineering blog, changelog, signup flow, support, authentication, and 16 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 42.9
+  delta: -3.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 52.9
-    developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 54.6
+    developer_ergonomics: 51.6
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 46.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -226,12 +228,205 @@ apis:
 - description: 'The #X Amz Target=Route53Resolver.UpdateResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updateresolverrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UpdateResolverRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updateresolverrule-api
-artifact_total: 721
+artifact_total: 784
 collections:
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-associatefirewallrulegroup-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateResolverEndpointIpAddress API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-associateresolverendpointipaddress-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateResolverQueryLogConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-associateresolverquerylogconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateResolverRule API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-associateresolverrule-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.CreateFirewallDomainList API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-createfirewalldomainlist-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.CreateFirewallRule API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-createfirewallrule-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.CreateFirewallRuleGroup API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-createfirewallrulegroup-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.CreateResolverEndpoint API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-createresolverendpoint-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.CreateResolverQueryLogConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-createresolverquerylogconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.CreateResolverRule API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-createresolverrule-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DeleteFirewallDomainList API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-deletefirewalldomainlist-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DeleteFirewallRule API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-deletefirewallrule-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DeleteFirewallRuleGroup API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-deletefirewallrulegroup-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DeleteResolverEndpoint API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-deleteresolverendpoint-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DeleteResolverQueryLogConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-deleteresolverquerylogconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DeleteResolverRule API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-deleteresolverrule-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DisassociateFirewallRuleGroup API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-disassociatefirewallrulegroup-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DisassociateResolverEndpointIpAddress API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-disassociateresolverendpointipaddress-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DisassociateResolverQueryLogConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-disassociateresolverquerylogconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.DisassociateResolverRule API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-disassociateresolverrule-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetFirewallConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getfirewallconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetFirewallDomainList API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getfirewalldomainlist-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetFirewallRuleGroup API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getfirewallrulegroup-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetFirewallRuleGroupAssociation API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getfirewallrulegroupassociation-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetFirewallRuleGroupPolicy API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getfirewallrulegrouppolicy-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetResolverConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getresolverconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetResolverDnssecConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getresolverdnssecconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetResolverEndpoint API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getresolverendpoint-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetResolverQueryLogConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getresolverquerylogconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetResolverQueryLogConfigAssociation API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getresolverquerylogconfigassociation-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetResolverQueryLogConfigPolicy API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getresolverquerylogconfigpolicy-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetResolverRule API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getresolverrule-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetResolverRuleAssociation API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getresolverruleassociation-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.GetResolverRulePolicy API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-getresolverrulepolicy-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ImportFirewallDomains API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-importfirewalldomains-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListFirewallConfigs API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listfirewallconfigs-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListFirewallDomainLists API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listfirewalldomainlists-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListFirewallDomains API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listfirewalldomains-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListFirewallRuleGroupAssociations API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listfirewallrulegroupassociations-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListFirewallRuleGroups API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listfirewallrulegroups-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListFirewallRules API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listfirewallrules-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListResolverConfigs API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listresolverconfigs-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListResolverDnssecConfigs API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listresolverdnssecconfigs-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListResolverEndpointIpAddresses API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listresolverendpointipaddresses-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListResolverEndpoints API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listresolverendpoints-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListResolverQueryLogConfigAssociations API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listresolverquerylogconfigassociations-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListResolverQueryLogConfigs API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listresolverquerylogconfigs-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListResolverRuleAssociations API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listresolverruleassociations-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListResolverRules API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listresolverrules-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.ListTagsForResource API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-listtagsforresource-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.PutFirewallRuleGroupPolicy API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-putfirewallrulegrouppolicy-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.PutResolverQueryLogConfigPolicy API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-putresolverquerylogconfigpolicy-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.PutResolverRulePolicy API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-putresolverrulepolicy-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.TagResource API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-tagresource-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.UntagResource API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-untagresource-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.UpdateFirewallConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-updatefirewallconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.UpdateFirewallDomains API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-updatefirewalldomains-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.UpdateFirewallRule API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-updatefirewallrule-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.UpdateFirewallRuleGroupAssociation API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-updatefirewallrulegroupassociation-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.UpdateResolverConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-updateresolverconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.UpdateResolverDnssecConfig API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-updateresolverdnssecconfig-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.UpdateResolverEndpoint API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-updateresolverendpoint-api
+- collection_type: postman
+  name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup #X Amz Target=Route53Resolver.UpdateResolverRule API'
+  slug: postman-amazon-route53-resolver-x-amz-target-route53resolver-updateresolverrule-api
 - collection_type: open
   name: Amazon Route 53 Resolver
   slug: open-amazon-route53-resolver
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-route-53-resolver/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4860,12 +5055,12 @@ overview: 'Amazon Route 53 Resolver publishes 63 APIs on the [APIs.io](https://a
   The Amazon Route 53 Resolver catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Route 53 Resolver''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 660 more developer resources.'
+  Amazon Route 53 Resolver''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 661 more developer resources.'
 plans:
 - name: Amazon Route53 Resolver Plans Pricing
   plan_count: 3
   slug: amazon-route53-resolver-plans-pricing
-random_paper: 37
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Amazon Route53 Resolver Rate Limits
@@ -4889,18 +5084,25 @@ rules:
   slug: amazon-route53-resolver-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 59.0
+  delta: -2.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 62.8
-    developer_ergonomics: 32.6
-    discoverability: 55.0
-    governance: 86.8
+    contract_quality: 64.4
+    developer_ergonomics: 37.0
+    discoverability: 40.7
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 61.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 63
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/screenshots/amazon-route53-resolver-2026-06-20T171815.png
 security:

@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: conformant
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -35,8 +26,11 @@ agentic_access:
   operation_count: 3
   slug: scrapfly-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 7
+api_count: 6
 apis:
+- description: 'The core web scraping API that fetches any URL with anti-bot bypass, proxy rotation, and JavaScript rendering. Supports GET, POST, PUT, PATCH, HEAD, and OPTIONS methods. Returns clean HTML, markdown, '
+  name: Scrapfly Scrape API
+  slug: scrape-api
 - description: 'Capture screenshots of web pages with full-page or element-specific capture using CSS selectors. Supports JavaScript rendering, viewport configuration, and screenshot of dynamic content. The base URL '
   name: Scrapfly Screenshot API
   slug: screenshot-api
@@ -52,18 +46,16 @@ apis:
 - description: Official SDKs for Python, TypeScript, Go, Rust, and Scrapy with full feature coverage across every language including scrape, screenshot, extract, and crawl capabilities.
   name: Scrapfly SDKs
   slug: sdks
-- description: The Scraping API from Scrapfly — 1 operation(s) for scraping.
-  name: Scrapfly Scraping API
-  slug: scrapfly-scraping-api
-- description: The Screenshots API from Scrapfly — 1 operation(s) for screenshots.
-  name: Scrapfly Screenshots API
-  slug: scrapfly-screenshots-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: Scrapfly Scrape API
   slug: open-scrapfly-scrape
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/scrapfly-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -102,7 +94,7 @@ finops:
 - name: Scrapfly Finops
   service_category: Web Scraping / Data Extraction
   slug: scrapfly-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scrapfly.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: Scrapfly Scrape Response
   property_count: 2
@@ -130,18 +122,18 @@ modified: '2026-05-19'
 name: Scrapfly
 nav: Providers
 network: true
-overview: 'Scrapfly publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scraping API and Screenshots API. Tagged areas include AI, Data Extraction, Screenshots, Web Scraping, and Proxies.
+overview: 'Scrapfly publishes 1 API on the [APIs.io](https://apis.io/) network: Scrape API. Tagged areas include AI, Data Extraction, Screenshots, Web Scraping, and Proxies.
 
 
   The Scrapfly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scrapfly''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  Scrapfly''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Scrapfly Plans Pricing
   plan_count: 6
   slug: scrapfly-plans-pricing
-random_paper: 52
+random_paper: 21
 rate_limits:
 - limit_count: 7
   name: Scrapfly Rate Limits
@@ -165,19 +157,26 @@ rules:
   slug: scrapfly-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 3.3
+  composite: 45.4
+  delta: -6.1
   facets:
     commercial_clarity: 47.4
-    contract_quality: 70.8
+    contract_quality: 62.9
     developer_ergonomics: 13.0
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 48.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 51.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/screenshots/scrapfly-2026-06-20T193556.png
 security:
 - kind: authentication

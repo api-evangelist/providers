@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Public-facing website of the Defense Threat Reduction Agency providing organizational information, leadership, news, and links to mission-area programs. The site does not expose a developer API.
@@ -91,25 +93,25 @@ plans:
 - name: Defense Threat Reduction Agency Plans Pricing
   plan_count: 3
   slug: defense-threat-reduction-agency-plans-pricing
-random_paper: 57
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Defense Threat Reduction Agency Rate Limits
   slug: defense-threat-reduction-agency-rate-limits
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 20.6
+  delta: -2.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 22.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/screenshots/defense-threat-reduction-agency-2026-06-20T175842.png
 security:

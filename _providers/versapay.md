@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -178,7 +180,7 @@ overview: 'Versapay publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Versapay''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, signup flow, and 24 more developer resources.'
-random_paper: 59
+random_paper: 28
 scopes:
 - name: Versapay Scopes
   scope_count: 5
@@ -186,23 +188,29 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/password
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 51.6
+  delta: -3.9
   facets:
     commercial_clarity: 42.1
-    contract_quality: 60.4
-    developer_ergonomics: 58.7
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 47.3
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 42.1
   previous_composite: 55.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

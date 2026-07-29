@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Atomico
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 55
 slug: atomico
 tags:
 - Venture Capital

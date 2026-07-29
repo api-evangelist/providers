@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: The Admin API from Boltz — 7 operation(s) for admin.
@@ -184,26 +186,36 @@ overview: 'Boltz publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boltz''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, sandbox, and 22 more developer resources.'
-random_paper: 11
+random_paper: 16
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 51.4
+  delta: -3.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.9
+    contract_quality: 56.8
     developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 81.5
+    governance: 3.1
     operational_transparency: 36.8
   previous_composite: 54.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 37.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/screenshots/boltz-2026-07-25T203543.png
 security:

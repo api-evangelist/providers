@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,12 +57,22 @@ apis:
 - description: Headless-browser scraping with proxy rotation, screenshots, and AI extraction.
   name: ScrapingBee HTML API API
   slug: scrapingbee-html-api-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: postman
+  name: ScrapingBee Google Search API API
+  slug: postman-scrapingbee-google-search-api-api
+- collection_type: postman
+  name: ScrapingBee Google Search API HTML API API
+  slug: postman-scrapingbee-html-api-api
 - collection_type: open
   name: ScrapingBee API
   slug: open-scrapingbee
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/scrapingbee/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,30 +192,37 @@ network: true
 overview: 'ScrapingBee publishes 2 APIs on the [APIs.io](https://apis.io/) network: Google Search API API and HTML API API. Tagged areas include AI Extraction, Anti-Bot, Data Aggregation, Data Extraction, and Headless Browser.
 
 
-  ScrapingBee''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, support, and 18 more developer resources.'
+  ScrapingBee''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, support, and 19 more developer resources.'
 plans:
 - name: Scrapingbee Plans Pricing
   plan_count: 3
   slug: scrapingbee-plans-pricing
-random_paper: 67
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Scrapingbee Rate Limits
   slug: scrapingbee-rate-limits
 score:
   band: strong
-  composite: 60.0
-  delta: 3.2
+  composite: 57.9
+  delta: -2.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 60.2
+    contract_quality: 61.9
     developer_ergonomics: 56.5
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 56.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/screenshots/scrapingbee-2026-06-20T193558.png
 security:

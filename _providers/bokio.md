@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.0
+  scored_at: '2026-07-28'
 api_count: 16
 apis:
 - description: Authorization operations for OAuth 2.0 Grants
@@ -77,8 +79,61 @@ apis:
 - description: Operations for managing file uploads
   name: Bokio uploads API
   slug: bokio-uploads-api
-artifact_total: 22
+artifact_total: 38
+collections:
+- collection_type: postman
+  name: Company authorization API
+  slug: postman-bokio-authorization-api
+- collection_type: postman
+  name: Company authorization bank-payments API
+  slug: postman-bokio-bank-payments-api
+- collection_type: postman
+  name: Company authorization chart-of-accounts API
+  slug: postman-bokio-chart-of-accounts-api
+- collection_type: postman
+  name: Company authorization company-information API
+  slug: postman-bokio-company-information-api
+- collection_type: postman
+  name: Company authorization connections API
+  slug: postman-bokio-connections-api
+- collection_type: postman
+  name: Company authorization credit-notes API
+  slug: postman-bokio-credit-notes-api
+- collection_type: postman
+  name: Company authorization customers API
+  slug: postman-bokio-customers-api
+- collection_type: postman
+  name: Company authorization fiscal-years API
+  slug: postman-bokio-fiscal-years-api
+- collection_type: postman
+  name: Company authorization invoices API
+  slug: postman-bokio-invoices-api
+- collection_type: postman
+  name: Company authorization items API
+  slug: postman-bokio-items-api
+- collection_type: postman
+  name: Company authorization journal-entries API
+  slug: postman-bokio-journal-entries-api
+- collection_type: postman
+  name: Company authorization sie-files API
+  slug: postman-bokio-sie-files-api
+- collection_type: postman
+  name: Company authorization supplier-invoices API
+  slug: postman-bokio-supplier-invoices-api
+- collection_type: postman
+  name: Company authorization suppliers API
+  slug: postman-bokio-suppliers-api
+- collection_type: postman
+  name: Company authorization tag-groups API
+  slug: postman-bokio-tag-groups-api
+- collection_type: postman
+  name: Company authorization uploads API
+  slug: postman-bokio-uploads-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bokio/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -226,8 +281,8 @@ network: true
 overview: 'Bokio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including authorization API, bank-payments API, chart-of-accounts API, and 13 more. Tagged areas include Company, Fintech, Accounting, Bookkeeping, and Invoicing.
 
 
-  Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 56
+  Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+random_paper: 70
 scopes:
 - name: Bokio Scopes
   scope_count: 24
@@ -235,23 +290,33 @@ scopes:
   summary_line: 24 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 57.8
+  delta: -4.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 61.2
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 62.4
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 62.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 71.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png
 security:

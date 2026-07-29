@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -215,7 +217,7 @@ overview: 'Bharti Airtel publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Bharti Airtel''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, developer console, and 30 more developer resources.'
-random_paper: 28
+random_paper: 11
 scopes:
 - name: Bharti Airtel Scopes
   scope_count: 4
@@ -223,18 +225,34 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode/implicit
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 51.7
+  delta: 4.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.9
-    developer_ergonomics: 73.9
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 57.0
+    developer_ergonomics: 62.5
+    discoverability: 83.3
+    governance: 11.5
     operational_transparency: 7.9
   previous_composite: 47.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 25.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 81.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

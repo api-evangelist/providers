@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -61,8 +63,37 @@ apis:
 - description: The Workspaces List API from Amazon IoT TwinMaker — 1 operation(s) for workspaces list.
   name: Amazon IoT TwinMaker Workspaces List API
   slug: amazon-iot-twinmaker-workspaces-list-api
-artifact_total: 573
+artifact_total: 581
+collections:
+- collection_type: postman
+  name: AWS IoT TwinMaker Pricingplan API
+  slug: postman-amazon-iot-twinmaker-pricingplan-api
+- collection_type: postman
+  name: AWS IoT TwinMaker Pricingplan Queries API
+  slug: postman-amazon-iot-twinmaker-queries-api
+- collection_type: postman
+  name: AWS IoT TwinMaker Pricingplan Sync Jobs API
+  slug: postman-amazon-iot-twinmaker-sync-jobs-api
+- collection_type: postman
+  name: AWS IoT TwinMaker Pricingplan Tags API
+  slug: postman-amazon-iot-twinmaker-tags-api
+- collection_type: postman
+  name: AWS IoT TwinMaker Pricingplan Tags List API
+  slug: postman-amazon-iot-twinmaker-tags-list-api
+- collection_type: postman
+  name: AWS IoT TwinMaker Pricingplan Tags#resourceARN&tagKeys API
+  slug: postman-amazon-iot-twinmaker-tags-resourcearn-tagkeys-api
+- collection_type: postman
+  name: AWS IoT TwinMaker Pricingplan Workspaces API
+  slug: postman-amazon-iot-twinmaker-workspaces-api
+- collection_type: postman
+  name: AWS IoT TwinMaker Pricingplan Workspaces List API
+  slug: postman-amazon-iot-twinmaker-workspaces-list-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-iot-twinmaker/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1823,12 +1854,12 @@ overview: 'Amazon IoT TwinMaker publishes 8 APIs on the [APIs.io](https://apis.i
   The Amazon IoT TwinMaker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IoT TwinMaker''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon IoT TwinMaker''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Iot Twinmaker Plans Pricing
   plan_count: 3
   slug: amazon-iot-twinmaker-plans-pricing
-random_paper: 6
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Twinmaker Rate Limits
@@ -1852,18 +1883,25 @@ rules:
   slug: amazon-iot-twinmaker-spectral-rules
 score:
   band: strong
-  composite: 67.5
-  delta: 0.0
+  composite: 64.4
+  delta: -3.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.7
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 69.5
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/screenshots/amazon-iot-twinmaker-2026-06-20T171712.png
 security:

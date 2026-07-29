@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Aspire''s public REST API for business finance automation: payout/transfer operations across 30+ currencies (local and SWIFT), FX quotes, virtual card issuance and controls, and bank-feed/transaction r'
@@ -113,31 +115,35 @@ overview: 'Aspire publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aspire''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 9 more developer resources.'
-random_paper: 32
+random_paper: 28
 scopes:
 - name: Aspire Scopes
   scope_count: 2
   slug: aspire-scopes
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 38.9
-  delta: 0.0
+  band: developing
+  composite: 42.2
+  delta: 3.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 39.1
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 10.5
   previous_composite: 38.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 63.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 45.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aspire/refs/heads/main/screenshots/aspire-2026-07-25T201432.png
 security:

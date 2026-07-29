@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 1
@@ -64,8 +66,35 @@ apis:
 - description: Workflow Engine resources on the Losant Platform.
   name: Losant Workflow Engine API
   slug: losant-workflow-engine-api
-artifact_total: 51
+artifact_total: 60
 collections:
+- collection_type: postman
+  name: Losant Application API
+  slug: postman-losant-application-api
+- collection_type: postman
+  name: Losant Application Authentication and Account API
+  slug: postman-losant-authentication-and-account-api
+- collection_type: postman
+  name: Losant Application Data and Data Tables API
+  slug: postman-losant-data-and-data-tables-api
+- collection_type: postman
+  name: Losant Application Device API
+  slug: postman-losant-device-api
+- collection_type: postman
+  name: Losant Application Edge and Embedded Compute API
+  slug: postman-losant-edge-and-embedded-compute-api
+- collection_type: postman
+  name: Losant Application Enterprise Instance API
+  slug: postman-losant-enterprise-instance-api
+- collection_type: postman
+  name: Losant Application Experience API
+  slug: postman-losant-experience-api
+- collection_type: postman
+  name: Losant Application Notebooks API
+  slug: postman-losant-notebooks-api
+- collection_type: postman
+  name: Losant Application Workflow Engine API
+  slug: postman-losant-workflow-engine-api
 - collection_type: open
   name: Losant Application API
   slug: open-losant-application-api
@@ -94,6 +123,10 @@ collections:
   name: Losant Workflow Engine API
   slug: open-losant-workflow-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/losant/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -346,12 +379,12 @@ overview: 'Losant publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Losant catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Losant''s developer surface includes authentication, developer portal, documentation, getting-started guide, CLI, engineering blog, pricing, and 32 more developer resources.'
+  Losant''s developer surface includes authentication, developer portal, documentation, getting-started guide, CLI, engineering blog, pricing, and 33 more developer resources.'
 plans:
 - name: Losant Plans Pricing
   plan_count: 4
   slug: losant-plans-pricing
-random_paper: 45
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Losant Rate Limits
@@ -375,19 +408,26 @@ rules:
   slug: losant-rules
 score:
   band: strong
-  composite: 66.3
-  delta: 5.4
+  composite: 62.8
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.0
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.4
+    developer_ergonomics: 71.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 66.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/screenshots/losant-2026-06-20T184729.png
 security:
 - kind: authentication

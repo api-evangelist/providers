@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.3
+  scored_at: '2026-07-28'
 api_count: 16
 apis:
 - description: End-customer onboarding — create and manage individual and business Applications, application forms, KYC/KYB document upload, verification, and beneficial owners.
@@ -77,12 +79,65 @@ apis:
 - description: Sandbox-only simulation endpoints (received ACH payments, ATM deposits, card activation) plus store and ATM location reference data for testing integrations.
   name: Unit Sandbox and Reference API
   slug: sandbox
-artifact_total: 26
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Unit Events Webhooks
   slug: unit-events-webhooks
+collections:
+- collection_type: postman
+  name: Unit Accounts API
+  slug: postman-unit-accounts-openapi
+- collection_type: postman
+  name: Unit Applications API
+  slug: postman-unit-applications-openapi
+- collection_type: postman
+  name: Unit Card Authorizations API
+  slug: postman-unit-authorizations-openapi
+- collection_type: postman
+  name: Unit Cards API
+  slug: postman-unit-cards-openapi
+- collection_type: postman
+  name: Unit Checks API
+  slug: postman-unit-checks-openapi
+- collection_type: postman
+  name: Unit Credit and Repayments API
+  slug: postman-unit-credit-openapi
+- collection_type: postman
+  name: Unit Customers API
+  slug: postman-unit-customers-openapi
+- collection_type: postman
+  name: Unit Disputes API
+  slug: postman-unit-disputes-openapi
+- collection_type: postman
+  name: Unit Fees and Rewards API
+  slug: postman-unit-fees-rewards-openapi
+- collection_type: postman
+  name: Unit Payments API
+  slug: postman-unit-payments-openapi
+- collection_type: postman
+  name: Unit Sandbox and Reference API
+  slug: postman-unit-sandbox-openapi
+- collection_type: postman
+  name: Unit Statements API
+  slug: postman-unit-statements-openapi
+- collection_type: postman
+  name: Unit Stop Payments API
+  slug: postman-unit-stop-payments-openapi
+- collection_type: postman
+  name: Unit Tax Forms API
+  slug: postman-unit-tax-forms-openapi
+- collection_type: postman
+  name: Unit Transactions API
+  slug: postman-unit-transactions-openapi
+- collection_type: postman
+  name: Unit Webhooks and Events API
+  slug: postman-unit-webhooks-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/unit/overview
 - group: auth
   title: ''
   type: Authentication
@@ -273,12 +328,12 @@ overview: 'Unit publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
   The Unit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unit''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, signup flow, sandbox, and 35 more developer resources.'
+  Unit''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, signup flow, sandbox, and 36 more developer resources.'
 plans:
 - name: Unit Plans Pricing
   plan_count: 2
   slug: unit-plans-pricing
-random_paper: 40
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Unit Rate Limits
@@ -289,25 +344,35 @@ scopes:
   slug: unit-scopes
   summary_line: 46 scopes
 score:
-  band: exemplar
-  composite: 72.7
-  delta: 0.0
+  band: strong
+  composite: 64.5
+  delta: -8.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 60.4
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 69.0
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 84.2
   previous_composite: 72.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 67.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit/refs/heads/main/screenshots/unit-2026-06-20T200056.png
 security:
 - kind: authentication

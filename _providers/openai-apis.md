@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -73,8 +75,44 @@ apis:
 - description: Audio translation operations
   name: OpenAI APIs Translation API
   slug: openai-apis-translation-api
-artifact_total: 68
+artifact_total: 80
 collections:
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants API
+  slug: postman-openai-apis-assistants-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Chat API
+  slug: postman-openai-apis-chat-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Completions API
+  slug: postman-openai-apis-completions-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Embeddings API
+  slug: postman-openai-apis-embeddings-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Images API
+  slug: postman-openai-apis-images-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Messages API
+  slug: postman-openai-apis-messages-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Moderations API
+  slug: postman-openai-apis-moderations-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Runs API
+  slug: postman-openai-apis-runs-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Speech API
+  slug: postman-openai-apis-speech-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Threads API
+  slug: postman-openai-apis-threads-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Transcription API
+  slug: postman-openai-apis-transcription-api
+- collection_type: postman
+  name: OpenAI APIs OpenAI Assistants Translation API
+  slug: postman-openai-apis-translation-api
 - collection_type: open
   name: OpenAI APIs OpenAI Assistants API
   slug: open-openai-assistants
@@ -97,6 +135,10 @@ collections:
   name: OpenAI APIs OpenAI Moderations API
   slug: open-openai-moderations
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/openai-apis/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -287,12 +329,12 @@ overview: 'OpenAI APIs publishes 12 APIs on the [APIs.io](https://apis.io/) netw
   The OpenAI APIs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenAI APIs'' developer surface includes authentication, pricing, engineering blog, and 9 more developer resources.'
+  OpenAI APIs'' developer surface includes authentication, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Openai Apis Plans Pricing
   plan_count: 6
   slug: openai-apis-plans-pricing
-random_paper: 22
+random_paper: 32
 rate_limits:
 - limit_count: 7
   name: Openai Apis Rate Limits
@@ -308,18 +350,25 @@ rules:
   slug: openai-apis-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 3.3
+  composite: 57.6
+  delta: -3.8
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.3
-    developer_ergonomics: 13.0
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 68.4
+    developer_ergonomics: 17.4
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

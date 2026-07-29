@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -73,12 +75,34 @@ apis:
 - description: Manage workflows including upload, retrieval, update, deletion, versioning, and job execution
   name: Alteryx Workflows API
   slug: alteryx-workflows-api
-artifact_total: 140
+artifact_total: 146
 collections:
+- collection_type: postman
+  name: Alteryx Server API V3 Collections API
+  slug: postman-alteryx-collections-api
+- collection_type: postman
+  name: Alteryx Server API V3 Collections Credentials API
+  slug: postman-alteryx-credentials-api
+- collection_type: postman
+  name: Alteryx Server API V3 Collections Jobs API
+  slug: postman-alteryx-jobs-api
+- collection_type: postman
+  name: Alteryx Server API V3 Collections Schedules API
+  slug: postman-alteryx-schedules-api
+- collection_type: postman
+  name: Alteryx Server API V3 Collections Users API
+  slug: postman-alteryx-users-api
+- collection_type: postman
+  name: Alteryx Server API V3 Collections Workflows API
+  slug: postman-alteryx-workflows-api
 - collection_type: open
   name: Alteryx Server API V3
   slug: open-alteryx-server-api-v3
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/alteryx/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -507,12 +531,12 @@ overview: 'Alteryx publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Alteryx catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Alteryx''s developer surface includes authentication, getting-started guide, support, engineering blog, pricing, legal docs, and 14 more developer resources.'
+  Alteryx''s developer surface includes authentication, getting-started guide, support, engineering blog, pricing, legal docs, and 15 more developer resources.'
 plans:
 - name: Alteryx Plans Pricing
   plan_count: 3
   slug: alteryx-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Alteryx Rate Limits
@@ -541,18 +565,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.4
-  delta: 3.3
+  composite: 59.5
+  delta: -4.9
   facets:
     commercial_clarity: 78.9
-    contract_quality: 67.3
-    developer_ergonomics: 43.5
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 61.0
+    developer_ergonomics: 47.8
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 61.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/screenshots/alteryx-2026-06-20T171552.png
 security:

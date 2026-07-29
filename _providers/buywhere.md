@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: flavored
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -35,23 +26,21 @@ agentic_access:
   operation_count: 8
   slug: buywhere-agentic-access
   summary_line: 8 operations · 1 acting
-api_count: 3
+api_count: 1
 apis:
-- description: Agent registration and API key issuance.
-  name: BuyWhere Authentication API
-  slug: buywhere-authentication-api
-- description: Product taxonomy and category browsing.
-  name: BuyWhere Categories API
-  slug: buywhere-categories-api
-- description: Product search, lookup, comparison, deals, and price history.
-  name: BuyWhere Products API
-  slug: buywhere-products-api
-artifact_total: 28
+- description: Agent-native REST and MCP product catalog covering 1.5M+ products across Southeast Asian and US e-commerce platforms. Operations include keyword search, side-by-side comparison, deals discovery, price
+  name: BuyWhere Product Catalog API
+  slug: product-catalog-api
+artifact_total: 26
 collections:
 - collection_type: open
   name: BuyWhere Product Catalog API
   slug: open-buywhere
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/buywhere-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -158,7 +147,7 @@ finops:
 - name: Buywhere Finops
   service_category: Commerce / Product Catalog
   slug: buywhere-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buywhere.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: BuyWhere Category
   property_count: 4
@@ -189,18 +178,18 @@ modified: '2026-05-19'
 name: BuyWhere
 nav: Providers
 network: true
-overview: 'BuyWhere publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Categories API, and Products API. Tagged areas include E-commerce, Shopping, Price Comparison, SEA, and Southeast Asia.
+overview: 'BuyWhere publishes 1 API on the [APIs.io](https://apis.io/) network: Product Catalog API. Tagged areas include E-commerce, Shopping, Price Comparison, SEA, and Southeast Asia.
 
 
   The BuyWhere catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BuyWhere''s developer surface includes authentication, documentation, GitHub presence, and 15 more developer resources.'
+  BuyWhere''s developer surface includes authentication, documentation, GitHub presence, and 16 more developer resources.'
 plans:
 - name: Buywhere Plans Pricing
   plan_count: 3
   slug: buywhere-plans-pricing
-random_paper: 59
+random_paper: 28
 rate_limits:
 - limit_count: 4
   name: Buywhere Rate Limits
@@ -224,19 +213,26 @@ rules:
   slug: buywhere-rules
 score:
   band: developing
-  composite: 56.3
-  delta: 5.5
+  composite: 49.1
+  delta: -7.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 77.0
+    contract_quality: 69.4
     developer_ergonomics: 19.6
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 50.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 56.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/screenshots/buywhere-2026-06-20T173822.png
 security:
 - kind: authentication

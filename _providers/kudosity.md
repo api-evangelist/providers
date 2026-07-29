@@ -12,23 +12,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,12 +46,23 @@ apis:
 - description: 'Classic v1 REST API — fully supported, not deprecated. SMS sending with single-request multi-recipient batches and custom tracked-link domains, plus everything v2 does not carry: contacts, lists and c'
   name: Transmit SMS API
   slug: transmit-sms-api
-artifact_total: 11
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Kudosity Webhooks
   slug: kudosity-webhooks
+collections:
+- collection_type: postman
+  name: Transmit Message API
+  slug: postman-kudosity-transmit-message-openapi-original
+- collection_type: postman
+  name: Transmit SMS API
+  slug: postman-kudosity-transmit-sms-openapi-original
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kudosity/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -256,31 +269,42 @@ overview: 'Kudosity publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   The Kudosity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
+  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 41 more developer resources.'
 plans:
 - name: Kudosity Plans
   plan_count: 4
   slug: kudosity-plans
-random_paper: 8
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Kudosity Rate Limits
   slug: kudosity-rate-limits
 score:
   band: strong
-  composite: 62.2
-  delta: 44.3
+  composite: 57.6
+  delta: -4.6
   facets:
     commercial_clarity: 92.1
-    contract_quality: 60.4
-    developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 66.8
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 39.5
-  previous_composite: 17.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png
 security:
 - kind: authentication

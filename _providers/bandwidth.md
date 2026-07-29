@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -91,7 +93,7 @@ apis:
 - description: Manage sites (sub-accounts) within a Bandwidth account. Sites represent logical groupings for organizing telephony resources.
   name: Bandwidth Sites API
   slug: bandwidth-sites-api
-artifact_total: 225
+artifact_total: 243
 asyncapis:
 - description: Bandwidth Messaging API sends webhooks to your application for real-time message delivery notifications and inbound message alerts. Callbacks are sent via HTTP POST to the callback URL configured on t
   name: Bandwidth Messaging Events
@@ -100,6 +102,60 @@ asyncapis:
   name: Bandwidth Voice Events
   slug: bandwidth-voice-events-asyncapi
 collections:
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers API
+  slug: postman-bandwidth-available-numbers-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Calls API
+  slug: postman-bandwidth-calls-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Conferences API
+  slug: postman-bandwidth-conferences-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Disconnects API
+  slug: postman-bandwidth-disconnects-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Emergency Notification Recipients API
+  slug: postman-bandwidth-emergency-notification-recipients-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Endpoints API
+  slug: postman-bandwidth-endpoints-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Locations API
+  slug: postman-bandwidth-locations-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Media API
+  slug: postman-bandwidth-media-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Messages API
+  slug: postman-bandwidth-messages-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers MFA API
+  slug: postman-bandwidth-mfa-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Number Features API
+  slug: postman-bandwidth-number-features-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Orders API
+  slug: postman-bandwidth-orders-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Phone Numbers API
+  slug: postman-bandwidth-phone-numbers-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Port-Ins API
+  slug: postman-bandwidth-port-ins-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Recordings API
+  slug: postman-bandwidth-recordings-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers SIP Peers API
+  slug: postman-bandwidth-sip-peers-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Sites API
+  slug: postman-bandwidth-sites-api
+- collection_type: postman
+  name: Bandwidth Emergency Calling Available Numbers Toll-Free Verification API
+  slug: postman-bandwidth-toll-free-verification-api
 - collection_type: open
   name: Bandwidth Emergency Calling API
   slug: open-bandwidth-emergency-calling-api
@@ -119,6 +175,10 @@ collections:
   name: Bandwidth Voice API
   slug: open-bandwidth-voice-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bandwidth/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -744,12 +804,12 @@ overview: 'Bandwidth publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   The Bandwidth catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Bandwidth''s developer surface includes authentication, documentation, signup flow, engineering blog, support, and 18 more developer resources.'
+  Bandwidth''s developer surface includes authentication, documentation, signup flow, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Bandwidth Plans Pricing
   plan_count: 2
   slug: bandwidth-plans-pricing
-random_paper: 65
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Bandwidth Rate Limits
@@ -781,18 +841,31 @@ rules:
   slug: bandwidth-spectral-rules
 score:
   band: strong
-  composite: 64.1
-  delta: 3.2
+  composite: 59.5
+  delta: -4.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 81.3
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 83.9
+    developer_ergonomics: 37.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/screenshots/bandwidth-2026-06-20T172942.png
 security:

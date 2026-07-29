@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -97,8 +99,34 @@ apis:
 - description: Retailer data and channel analytics
   name: Circana Retailers API
   slug: circana-retailers-api
-artifact_total: 125
+artifact_total: 132
+collections:
+- collection_type: postman
+  name: Circana Liquid Data Brands API
+  slug: postman-circana-brands-api
+- collection_type: postman
+  name: Circana Liquid Data Brands Categories API
+  slug: postman-circana-categories-api
+- collection_type: postman
+  name: Circana Liquid Data Brands Consumer Panel API
+  slug: postman-circana-consumer-panel-api
+- collection_type: postman
+  name: Circana Liquid Data Brands Exports API
+  slug: postman-circana-exports-api
+- collection_type: postman
+  name: Circana Liquid Data Brands Market Data API
+  slug: postman-circana-market-data-api
+- collection_type: postman
+  name: Circana Liquid Data Brands Reports API
+  slug: postman-circana-reports-api
+- collection_type: postman
+  name: Circana Liquid Data Brands Retailers API
+  slug: postman-circana-retailers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/circana/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -439,12 +467,12 @@ overview: 'Circana publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Circana catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Circana''s developer surface includes authentication, developer portal, documentation, engineering blog, training material, pricing, and 12 more developer resources.'
+  Circana''s developer surface includes authentication, developer portal, documentation, engineering blog, training material, pricing, and 13 more developer resources.'
 plans:
 - name: Circana Plans Pricing
   plan_count: 1
   slug: circana-plans-pricing
-random_paper: 41
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Circana Rate Limits
@@ -467,20 +495,27 @@ rules:
     warn: 20
   slug: circana-spectral-rules
 score:
-  band: strong
-  composite: 60.2
-  delta: 0.0
+  band: developing
+  composite: 53.7
+  delta: -6.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 80.5
-    developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 34.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/screenshots/circana-2026-06-20T174349.png
 security:
 - kind: authentication

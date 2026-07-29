@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Order book, tickers, mark prices, and order updates
@@ -140,26 +142,36 @@ overview: 'DerivaDEX publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   DerivaDEX''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 15 more developer resources.'
-random_paper: 4
+random_paper: 32
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 38.5
+  delta: -2.5
   facets:
     commercial_clarity: 13.2
-    contract_quality: 51.6
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 52.5
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 41.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 28.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/screenshots/derivadex-2026-07-25T211741.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -302,7 +304,7 @@ plans:
 - name: Nasa Plans Pricing
   plan_count: 3
   slug: nasa-plans-pricing
-random_paper: 11
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Nasa Rate Limits
@@ -318,23 +320,33 @@ rules:
   slug: nasa-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 1.7
+  composite: 49.3
+  delta: -2.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.0
-    developer_ergonomics: 45.7
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 56.9
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 69.8
     operational_transparency: 36.8
-  previous_composite: 49.9
+  previous_composite: 51.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 42.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png
 security:

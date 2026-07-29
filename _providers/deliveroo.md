@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -64,12 +66,39 @@ apis:
 - description: The Sync Status API from Deliveroo — 1 operation(s) for sync status.
   name: Deliveroo Sync Status API
   slug: deliveroo-sync-status-api
-artifact_total: 84
+artifact_total: 93
 asyncapis:
 - description: Event-driven webhook callbacks delivered by the Deliveroo Developer Portal APIs. Integrators configure HTTPS webhook URLs for Order Events, Rider Events, and Menu (upload result) events. Each delivery
   name: Deliveroo Webhooks
   slug: deliveroo-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Deliveroo Catalogue API
+  slug: postman-deliveroo-catalogue-api
+- collection_type: postman
+  name: Deliveroo Catalogue Deliveries API
+  slug: postman-deliveroo-deliveries-api
+- collection_type: postman
+  name: Deliveroo Catalogue Menus API
+  slug: postman-deliveroo-menus-api
+- collection_type: postman
+  name: Deliveroo Catalogue Opening Hours API
+  slug: postman-deliveroo-opening-hours-api
+- collection_type: postman
+  name: Deliveroo Catalogue Orders API
+  slug: postman-deliveroo-orders-api
+- collection_type: postman
+  name: Deliveroo Catalogue Picking API
+  slug: postman-deliveroo-picking-api
+- collection_type: postman
+  name: Deliveroo Catalogue Pricing API
+  slug: postman-deliveroo-pricing-api
+- collection_type: postman
+  name: Deliveroo Catalogue Quotes API
+  slug: postman-deliveroo-quotes-api
+- collection_type: postman
+  name: Deliveroo Catalogue Sync Status API
+  slug: postman-deliveroo-sync-status-api
 - collection_type: open
   name: Deliveroo Catalogue API
   slug: open-deliveroo-catalogue-api
@@ -89,6 +118,10 @@ collections:
   name: Deliveroo Site API
   slug: open-deliveroo-site-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/deliveroo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -372,12 +405,12 @@ overview: 'Deliveroo publishes 9 APIs on the [APIs.io](https://apis.io/) network
   The Deliveroo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Deliveroo''s developer surface includes authentication, documentation, support, engineering blog, and 16 more developer resources.'
+  Deliveroo''s developer surface includes authentication, documentation, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Deliveroo Plans Pricing
   plan_count: 5
   slug: deliveroo-plans-pricing
-random_paper: 17
+random_paper: 45
 rate_limits:
 - limit_count: 6
   name: Deliveroo Rate Limits
@@ -409,19 +442,26 @@ rules:
   slug: deliveroo-spectral-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 2.5
+  composite: 56.0
+  delta: -6.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 79.6
-    developer_ergonomics: 34.8
-    discoverability: 92.5
-    governance: 78.9
+    contract_quality: 67.8
+    developer_ergonomics: 39.1
+    discoverability: 68.5
+    governance: 62.5
     operational_transparency: 36.8
-  previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 62.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/screenshots/deliveroo-2026-06-20T175902.png
 security:
 - kind: authentication

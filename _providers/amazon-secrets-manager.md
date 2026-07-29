@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 80.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -448,7 +450,7 @@ plans:
 - name: Amazon Secrets Manager Plans Pricing
   plan_count: 3
   slug: amazon-secrets-manager-plans-pricing
-random_paper: 52
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Amazon Secrets Manager Rate Limits
@@ -472,18 +474,27 @@ rules:
   slug: amazon-secrets-manager-spectral-rules
 score:
   band: exemplar
-  composite: 78.7
-  delta: 4.7
+  composite: 77.1
+  delta: -1.6
   facets:
     commercial_clarity: 86.8
-    contract_quality: 71.2
-    developer_ergonomics: 78.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 72.4
+    developer_ergonomics: 71.7
+    discoverability: 94.4
+    governance: 80.2
     operational_transparency: 63.2
-  previous_composite: 74.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 78.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:

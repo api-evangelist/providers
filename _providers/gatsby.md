@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Local, build-time GraphQL data layer exposed by the Gatsby framework to query content sourced from plugins (CMSs, filesystem, APIs). This is not a hosted public API; it runs inside a developer's Gatsb
@@ -77,21 +79,21 @@ overview: 'Gatsby publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Gatsby''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 38
+random_paper: 34
 score:
   band: minimal
-  composite: 12.5
-  delta: 0.0
+  composite: 10.1
+  delta: -2.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 12.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gatsby/refs/heads/main/screenshots/gatsby-2026-06-20T181654.png
 security:

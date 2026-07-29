@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 37.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The SpacetimeDB HTTP API lets clients and tools interact with SpacetimeDB databases: publish and delete database modules, manage database names, retrieve schema and logs, invoke reducers, run SQL quer'
@@ -162,21 +164,25 @@ overview: 'Clockwork Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Clockwork Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 10
+random_paper: 52
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 37.7
+  delta: -1.4
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 69.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 39.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/screenshots/clockwork-labs-2026-07-25T205640.png
 security:

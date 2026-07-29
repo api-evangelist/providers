@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Read-only access to Clash of Clans game data — clan search, global and local leaderboards, clan and player profiles, leagues, war logs, capital raid seasons and the Gold Pass season. Authenticated wit
@@ -100,21 +102,21 @@ overview: 'Supercell publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Supercell''s developer surface includes authentication, support, and 10 more developer resources.'
-random_paper: 23
+random_paper: 51
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 19.6
+  delta: -0.8
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 100.0
+    discoverability: 92.6
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 20.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

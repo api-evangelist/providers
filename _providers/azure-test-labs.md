@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -112,8 +114,88 @@ apis:
 - description: The VirtualNetworks API from Azure DevTest Labs — 2 operation(s) for virtualnetworks.
   name: Azure DevTest Labs VirtualNetworks API
   slug: azure-test-labs-virtualnetworks-api
-artifact_total: 125
+artifact_total: 150
+collections:
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates API
+  slug: postman-azure-test-labs-armtemplates-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Artifacts API
+  slug: postman-azure-test-labs-artifacts-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates ArtifactSources API
+  slug: postman-azure-test-labs-artifactsources-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Costs API
+  slug: postman-azure-test-labs-costs-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates CustomImages API
+  slug: postman-azure-test-labs-customimages-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Disks API
+  slug: postman-azure-test-labs-disks-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Environments API
+  slug: postman-azure-test-labs-environments-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Formulas API
+  slug: postman-azure-test-labs-formulas-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates GalleryImages API
+  slug: postman-azure-test-labs-galleryimages-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates GlobalSchedules API
+  slug: postman-azure-test-labs-globalschedules-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Labs API
+  slug: postman-azure-test-labs-labs-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates NotificationChannels API
+  slug: postman-azure-test-labs-notificationchannels-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Operations API
+  slug: postman-azure-test-labs-operations-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Policies API
+  slug: postman-azure-test-labs-policies-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates PolicySets API
+  slug: postman-azure-test-labs-policysets-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates ProviderOperations API
+  slug: postman-azure-test-labs-provideroperations-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Schedules API
+  slug: postman-azure-test-labs-schedules-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Secrets API
+  slug: postman-azure-test-labs-secrets-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates ServiceFabrics API
+  slug: postman-azure-test-labs-servicefabrics-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates ServiceFabricSchedules API
+  slug: postman-azure-test-labs-servicefabricschedules-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates ServiceRunners API
+  slug: postman-azure-test-labs-servicerunners-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates Users API
+  slug: postman-azure-test-labs-users-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates VirtualMachines API
+  slug: postman-azure-test-labs-virtualmachines-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates VirtualMachineSchedules API
+  slug: postman-azure-test-labs-virtualmachineschedules-api
+- collection_type: postman
+  name: DevTestLabsClient ArmTemplates VirtualNetworks API
+  slug: postman-azure-test-labs-virtualnetworks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-devtest-labs/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -470,12 +552,12 @@ overview: 'Azure DevTest Labs publishes 25 APIs on the [APIs.io](https://apis.io
   The Azure DevTest Labs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure DevTest Labs'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 9 more developer resources.'
+  Azure DevTest Labs'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Azure Test Labs Plans Pricing
   plan_count: 3
   slug: azure-test-labs-plans-pricing
-random_paper: 11
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Azure Test Labs Rate Limits
@@ -504,19 +586,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 56.4
+  delta: -6.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.5
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 50.0
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 47.4
   previous_composite: 62.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/screenshots/azure-test-labs-2026-06-20T172912.png
 security:
 - kind: authentication

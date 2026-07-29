@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -56,6 +58,10 @@ asyncapis:
   name: Oracle Siebel CRM Event Pub/Sub
   slug: oracle-siebel-event-pubsub-asyncapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/oracle-siebel/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -153,12 +159,12 @@ overview: 'Oracle Siebel publishes 1 API on the [APIs.io](https://apis.io/) netw
   The Oracle Siebel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Oracle Siebel''s developer surface includes developer portal, documentation, getting-started guide, authentication, support, engineering blog, changelog, and 11 more developer resources.'
+  Oracle Siebel''s developer surface includes developer portal, documentation, getting-started guide, authentication, support, engineering blog, changelog, and 12 more developer resources.'
 plans:
 - name: Oracle Siebel Plans Pricing
   plan_count: 3
   slug: oracle-siebel-plans-pricing
-random_paper: 11
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Oracle Siebel Rate Limits
@@ -182,19 +188,25 @@ rules:
   slug: oracle-siebel-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 60.6
+  delta: -5.3
   facets:
     commercial_clarity: 73.7
-    contract_quality: 60.4
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 65.8
+    contract_quality: 51.6
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 52.1
     operational_transparency: 78.9
   previous_composite: 65.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:
 - kind: domain-security

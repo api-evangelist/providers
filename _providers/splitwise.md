@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.1
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: The comments API from Splitwise — 3 operation(s) for comments.
@@ -168,7 +170,7 @@ overview: 'Splitwise publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Splitwise''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 20 more developer resources.'
-random_paper: 44
+random_paper: 72
 scopes:
 - name: Splitwise Scopes
   scope_count: 0
@@ -176,24 +178,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 45.2
+  delta: -5.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.3
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.4
+    developer_ergonomics: 40.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 26.3
   previous_composite: 50.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 64.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Splitwise Authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,8 +48,22 @@ apis:
 - description: Manage Synapse Analytics workspaces
   name: Azure Synapse Analytics Workspaces API
   slug: azure-synapse-workspaces-api
-artifact_total: 31
+artifact_total: 34
+collections:
+- collection_type: postman
+  name: Azure Synapse Analytics Spark Pools API
+  slug: postman-azure-synapse-spark-pools-api
+- collection_type: postman
+  name: Azure Synapse Analytics Spark Pools SQL Pools API
+  slug: postman-azure-synapse-sql-pools-api
+- collection_type: postman
+  name: Azure Synapse Analytics Spark Pools Workspaces API
+  slug: postman-azure-synapse-workspaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-synapse-analytics/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -192,12 +208,12 @@ overview: 'Azure Synapse Analytics publishes 3 APIs on the [APIs.io](https://api
   The Azure Synapse Analytics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure Synapse Analytics'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 10 more developer resources.'
+  Azure Synapse Analytics'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Azure Synapse Plans Pricing
   plan_count: 3
   slug: azure-synapse-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Azure Synapse Rate Limits
@@ -226,19 +242,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 57.3
+  delta: -6.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.9
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 50.8
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 64.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-synapse/refs/heads/main/screenshots/azure-synapse-2026-06-20T172913.png
 security:
 - kind: authentication

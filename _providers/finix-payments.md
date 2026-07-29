@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -103,12 +105,74 @@ arazzos:
 - description: Create a seller Identity, provision a Merchant, and run verification/underwriting.
   name: Finix — Onboard a seller/merchant
   slug: finix-payments-onboard-a-merchant
-artifact_total: 28
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Finix Payments Webhooks
   slug: finix-payments-webhooks
+collections:
+- collection_type: postman
+  name: Finix Authorizations API
+  slug: postman-finix-payments-authorizations-api
+- collection_type: postman
+  name: Finix Authorizations Balance Transfers API
+  slug: postman-finix-payments-balance-transfers-api
+- collection_type: postman
+  name: Finix Authorizations Compliance Forms API
+  slug: postman-finix-payments-compliance-forms-api
+- collection_type: postman
+  name: Finix Authorizations Devices API
+  slug: postman-finix-payments-devices-api
+- collection_type: postman
+  name: Finix Authorizations Disputes API
+  slug: postman-finix-payments-disputes-api
+- collection_type: postman
+  name: Finix Authorizations Fee Profiles API
+  slug: postman-finix-payments-fee-profiles-api
+- collection_type: postman
+  name: Finix Authorizations Files API
+  slug: postman-finix-payments-files-api
+- collection_type: postman
+  name: Finix Authorizations Identities API
+  slug: postman-finix-payments-identities-api
+- collection_type: postman
+  name: Finix Authorizations Instrument Updates API
+  slug: postman-finix-payments-instrument-updates-api
+- collection_type: postman
+  name: Finix Authorizations Merchant Profiles API
+  slug: postman-finix-payments-merchant-profiles-api
+- collection_type: postman
+  name: Finix Authorizations Merchants API
+  slug: postman-finix-payments-merchants-api
+- collection_type: postman
+  name: Finix Authorizations Onboarding Forms API
+  slug: postman-finix-payments-onboarding-forms-api
+- collection_type: postman
+  name: Finix Authorizations Payment Instruments API
+  slug: postman-finix-payments-payment-instruments-api
+- collection_type: postman
+  name: Finix Authorizations Payout Profiles API
+  slug: postman-finix-payments-payout-profiles-api
+- collection_type: postman
+  name: Finix Authorizations Settlements API
+  slug: postman-finix-payments-settlements-api
+- collection_type: postman
+  name: Finix Authorizations Split Transfers API
+  slug: postman-finix-payments-split-transfers-api
+- collection_type: postman
+  name: Finix Authorizations Transfers API
+  slug: postman-finix-payments-transfers-api
+- collection_type: postman
+  name: Finix Authorizations Verifications API
+  slug: postman-finix-payments-verifications-api
+- collection_type: postman
+  name: Finix Authorizations Webhooks API
+  slug: postman-finix-payments-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/finix-payments/overview
 - group: company
   title: ''
   type: Website
@@ -275,31 +339,42 @@ overview: 'Finix Payments publishes 19 APIs on the [APIs.io](https://apis.io/) n
   The Finix Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Finix Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 40
+  Finix Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Finix Payments Rate Limits
   slug: finix-payments-rate-limits
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 61.4
+  delta: 0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 66.9
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.0
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 60.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:

@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Obvious Ventures
 nav: Providers
 network: true
-random_paper: 12
+random_paper: 18
 slug: obvious-ventures
 tags:
 - Venture Capital

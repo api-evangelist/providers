@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -610,7 +612,7 @@ press:
 - date: '2026-05-25'
   title: Intuit and OpenAI Join Forces to Revolutionize Financial ...
   url: https://investors.intuit.com/news-events/press-releases/detail/1284/intuit-and-openai-join-forces-to-revolutionize-financial-intelligence-powering-every-person-business-and-dream-with-personalized-experiences
-random_paper: 57
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Intuit Rate Limits
@@ -647,24 +649,32 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 68.5
-  delta: 3.6
+  composite: 62.9
+  delta: -5.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 84.1
+    contract_quality: 83.9
     developer_ergonomics: 60.9
-    discoverability: 75.0
-    governance: 34.2
+    discoverability: 55.6
+    governance: 27.1
     operational_transparency: 78.9
-  previous_composite: 64.9
+  previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png
 security:
 - kind: authentication

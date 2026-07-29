@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -61,12 +63,37 @@ apis:
 - description: Roblox user information
   name: Roblox Engine API Users API
   slug: roblox-engine-api-users-api
-artifact_total: 24
+artifact_total: 31
 collections:
+- collection_type: postman
+  name: Roblox Open Cloud Assets API
+  slug: postman-roblox-engine-api-assets-api
+- collection_type: postman
+  name: Roblox Open Cloud Assets Data Stores API
+  slug: postman-roblox-engine-api-data-stores-api
+- collection_type: postman
+  name: Roblox Open Cloud Assets Groups API
+  slug: postman-roblox-engine-api-groups-api
+- collection_type: postman
+  name: Roblox Open Cloud Assets Messaging API
+  slug: postman-roblox-engine-api-messaging-api
+- collection_type: postman
+  name: Roblox Open Cloud Assets Places API
+  slug: postman-roblox-engine-api-places-api
+- collection_type: postman
+  name: Roblox Open Cloud Assets Universes API
+  slug: postman-roblox-engine-api-universes-api
+- collection_type: postman
+  name: Roblox Open Cloud Assets Users API
+  slug: postman-roblox-engine-api-users-api
 - collection_type: open
   name: Roblox Open Cloud API
   slug: open-roblox-open-cloud
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/roblox-engine-api/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -168,12 +195,12 @@ overview: 'Roblox Engine API publishes 7 APIs on the [APIs.io](https://apis.io/)
   The Roblox Engine API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Roblox Engine API''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 11 more developer resources.'
+  Roblox Engine API''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 12 more developer resources.'
 plans:
 - name: Roblox Engine Api Plans Pricing
   plan_count: 3
   slug: roblox-engine-api-plans-pricing
-random_paper: 64
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Roblox Engine Api Rate Limits
@@ -197,18 +224,25 @@ rules:
   slug: roblox-open-cloud-rules
 score:
   band: strong
-  composite: 60.7
-  delta: 4.2
+  composite: 57.4
+  delta: -3.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.3
-    developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 75.4
+    developer_ergonomics: 34.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/screenshots/roblox-engine-api-2026-06-20T193143.png
 security:

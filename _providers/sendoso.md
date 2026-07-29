@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Team and budget management
   name: Sendoso Teams API
   slug: sendoso-teams-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: postman
+  name: Sendoso Sending Platform Inventory API
+  slug: postman-sendoso-inventory-api
+- collection_type: postman
+  name: Sendoso Sending Platform Inventory Recipients API
+  slug: postman-sendoso-recipients-api
+- collection_type: postman
+  name: Sendoso Sending Platform Inventory Reports API
+  slug: postman-sendoso-reports-api
+- collection_type: postman
+  name: Sendoso Sending Platform Inventory Sends API
+  slug: postman-sendoso-sends-api
+- collection_type: postman
+  name: Sendoso Sending Platform Inventory Teams API
+  slug: postman-sendoso-teams-api
 - collection_type: open
   name: Sendoso Sending Platform API
   slug: open-sendoso-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sendoso/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -192,12 +213,12 @@ overview: 'Sendoso publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Sendoso catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sendoso''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, code examples, and 18 more developer resources.'
+  Sendoso''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, code examples, and 19 more developer resources.'
 plans:
 - name: Sendoso Plans Pricing
   plan_count: 3
   slug: sendoso-plans-pricing
-random_paper: 15
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Sendoso Rate Limits
@@ -221,18 +242,25 @@ rules:
   slug: sendoso-rules
 score:
   band: strong
-  composite: 64.9
-  delta: 3.3
+  composite: 61.4
+  delta: -3.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 65.1
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.6
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 60.5
-  previous_composite: 61.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/screenshots/sendoso-2026-06-20T193656.png
 security:

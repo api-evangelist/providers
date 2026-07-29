@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 78.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -94,8 +96,70 @@ apis:
 - description: The Transactions API from Pennylane — 2 operation(s) for transactions.
   name: Pennylane Transactions API
   slug: pennylane-transactions-api
-artifact_total: 29
+artifact_total: 48
+collections:
+- collection_type: postman
+  name: Pennylane Company Account API
+  slug: postman-pennylane-account-api
+- collection_type: postman
+  name: Pennylane Company Account Accounting Exports API
+  slug: postman-pennylane-accounting-exports-api
+- collection_type: postman
+  name: Pennylane Company Account Bank Accounts API
+  slug: postman-pennylane-bank-accounts-api
+- collection_type: postman
+  name: Pennylane Company Account Billing Subscriptions API
+  slug: postman-pennylane-billing-subscriptions-api
+- collection_type: postman
+  name: Pennylane Company Account Categories API
+  slug: postman-pennylane-categories-api
+- collection_type: postman
+  name: Pennylane Company Account Change Events API
+  slug: postman-pennylane-change-events-api
+- collection_type: postman
+  name: Pennylane Company Account Customer Invoices API
+  slug: postman-pennylane-customer-invoices-api
+- collection_type: postman
+  name: Pennylane Company Account Customers API
+  slug: postman-pennylane-customers-api
+- collection_type: postman
+  name: Pennylane Company Account E-Invoicing API
+  slug: postman-pennylane-e-invoicing-api
+- collection_type: postman
+  name: Pennylane Company Account File Attachments API
+  slug: postman-pennylane-file-attachments-api
+- collection_type: postman
+  name: Pennylane Company Account Journals API
+  slug: postman-pennylane-journals-api
+- collection_type: postman
+  name: Pennylane Company Account Ledger Accounts API
+  slug: postman-pennylane-ledger-accounts-api
+- collection_type: postman
+  name: Pennylane Company Account Ledger Entries API
+  slug: postman-pennylane-ledger-entries-api
+- collection_type: postman
+  name: Pennylane Company Account Mandates API
+  slug: postman-pennylane-mandates-api
+- collection_type: postman
+  name: Pennylane Company Account Products API
+  slug: postman-pennylane-products-api
+- collection_type: postman
+  name: Pennylane Company Account Quotes API
+  slug: postman-pennylane-quotes-api
+- collection_type: postman
+  name: Pennylane Company Account Supplier Invoices API
+  slug: postman-pennylane-supplier-invoices-api
+- collection_type: postman
+  name: Pennylane Company Account Suppliers API
+  slug: postman-pennylane-suppliers-api
+- collection_type: postman
+  name: Pennylane Company Account Transactions API
+  slug: postman-pennylane-transactions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pennylane/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -267,12 +331,12 @@ network: true
 overview: 'Pennylane publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounting Exports API, Bank Accounts API, and 16 more. Tagged areas include Accounting, Invoicing, Fintech, Financial Data, and Banking.
 
 
-  Pennylane''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, signup flow, and 31 more developer resources.'
+  Pennylane''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, signup flow, and 32 more developer resources.'
 plans:
 - name: Pennylane Plans Pricing
   plan_count: 3
   slug: pennylane-plans-pricing
-random_paper: 18
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Pennylane Rate Limits
@@ -283,24 +347,35 @@ scopes:
   slug: pennylane-scopes
   summary_line: 23 scopes
 score:
-  band: strong
-  composite: 68.9
-  delta: 0.0
+  band: exemplar
+  composite: 66.0
+  delta: -2.9
   facets:
     commercial_clarity: 89.5
-    contract_quality: 51.4
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 53.5
+    developer_ergonomics: 66.8
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 76.3
   previous_composite: 68.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 67.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

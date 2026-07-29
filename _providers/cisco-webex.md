@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 9
@@ -633,7 +635,7 @@ plans:
 - name: Cisco Webex Plans Pricing
   plan_count: 4
   slug: cisco-webex-plans-pricing
-random_paper: 25
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Cisco Webex Rate Limits
@@ -662,18 +664,33 @@ scopes:
   summary_line: 30 scopes
 score:
   band: exemplar
-  composite: 74.4
-  delta: 2.5
+  composite: 74.8
+  delta: 0.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.1
+    contract_quality: 68.5
     developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 87.0
+    governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 71.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 74.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 80.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/screenshots/cisco-webex-2026-06-20T174405.png
 security:

@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 28.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.9
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The Chart Data API from Preciser — 1 operation(s) for chart data.
@@ -124,21 +126,29 @@ overview: 'Preciser publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Preciser''s developer surface includes API reference, engineering blog, signup flow, support, and 14 more developer resources.'
-random_paper: 45
+random_paper: 14
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 32.0
+  delta: -1.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 50.4
-    developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 52.5
+    developer_ergonomics: 15.2
+    discoverability: 75.9
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 33.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

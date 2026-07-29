@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
+    openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -218,21 +220,28 @@ overview: 'The Trade Desk publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   The Trade Desk''s developer surface includes developer portal, documentation, getting-started guide, code examples, engineering blog, YouTube channel, and 28 more developer resources.'
-random_paper: 44
+random_paper: 72
 score:
   band: thin
-  composite: 33.0
-  delta: 2.0
+  composite: 30.3
+  delta: -2.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 40.7
+    contract_quality: 39.0
     developer_ergonomics: 45.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 33.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/screenshots/trade-desk-2026-06-20T195532.png
 security:

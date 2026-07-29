@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,27 +95,28 @@ overview: 'Unisub LLC is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Unisub LLC''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
-random_paper: 2
+random_paper: 21
 score:
-  band: minimal
-  composite: 14.6
-  delta: 0.0
+  band: emerging
+  composite: 22.3
+  delta: 7.7
   facets:
     commercial_clarity: 23.7
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 6.5
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 14.6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 9.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: domain-security
   name: Unisub Llc Domain Security

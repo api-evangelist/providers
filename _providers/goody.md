@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 66.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -72,12 +74,53 @@ apis:
 - description: The Workspaces API from Goody — 1 operation(s) for workspaces.
   name: Goody Workspaces API
   slug: goody-workspaces-api
-artifact_total: 19
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Goody Webhooks
   slug: goody-webhooks
+collections:
+- collection_type: postman
+  name: Goody Brands API
+  slug: postman-goody-brands-api
+- collection_type: postman
+  name: Goody Brands Cards API
+  slug: postman-goody-cards-api
+- collection_type: postman
+  name: Goody Brands Collections API
+  slug: postman-goody-collections-api
+- collection_type: postman
+  name: Goody Brands Commerce User Payment Methods API
+  slug: postman-goody-commerce-user-payment-methods-api
+- collection_type: postman
+  name: Goody Brands Me API
+  slug: postman-goody-me-api
+- collection_type: postman
+  name: Goody Brands Order Activities API
+  slug: postman-goody-order-activities-api
+- collection_type: postman
+  name: Goody Brands Order Batches API
+  slug: postman-goody-order-batches-api
+- collection_type: postman
+  name: Goody Brands Orders API
+  slug: postman-goody-orders-api
+- collection_type: postman
+  name: Goody Brands Payment Methods API
+  slug: postman-goody-payment-methods-api
+- collection_type: postman
+  name: Goody Brands Products API
+  slug: postman-goody-products-api
+- collection_type: postman
+  name: Goody Brands Webhooks API
+  slug: postman-goody-webhooks-api
+- collection_type: postman
+  name: Goody Brands Workspaces API
+  slug: postman-goody-workspaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/goody/overview
 - group: company
   title: ''
   type: Website
@@ -224,8 +267,8 @@ overview: 'Goody publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
   The Goody catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 2
+  Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
+random_paper: 7
 scopes:
 - name: Goody Scopes
   scope_count: 4
@@ -233,23 +276,34 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 58.1
+  delta: -1.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.4
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.2
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 28.9
   previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 62.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/screenshots/goody-2026-07-25T220106.png
 security:

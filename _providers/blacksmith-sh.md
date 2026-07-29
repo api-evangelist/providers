@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Drop-in faster GitHub-hosted runner replacement selected by changing the runs-on tag (e.g. blacksmith-2vcpu-ubuntu-2404). Linux/Windows jobs run in ephemeral Firecracker microVMs; x64, ARM64, and macO
@@ -127,7 +129,7 @@ plans:
 - name: Blacksmith Sh Plans Pricing
   plan_count: 4
   slug: blacksmith-sh-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Blacksmith Sh Rate Limits
@@ -139,18 +141,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.3
-  delta: 3.2
+  composite: 35.4
+  delta: -3.9
   facets:
     commercial_clarity: 47.4
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 28.3
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 39.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/screenshots/blacksmith-sh-2026-06-20T173338.png
 security:

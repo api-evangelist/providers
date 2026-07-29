@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -70,12 +72,49 @@ apis:
 - description: Emissions from passenger travel and accommodation.
   name: Climatiq Travel API
   slug: climatiq-travel-api
-artifact_total: 22
+artifact_total: 33
 collections:
+- collection_type: postman
+  name: Climatiq Autopilot API
+  slug: postman-climatiq-autopilot-api
+- collection_type: postman
+  name: Climatiq Autopilot CBAM API
+  slug: postman-climatiq-cbam-api
+- collection_type: postman
+  name: Climatiq Autopilot Classifications API
+  slug: postman-climatiq-classifications-api
+- collection_type: postman
+  name: Climatiq Autopilot Computing API
+  slug: postman-climatiq-computing-api
+- collection_type: postman
+  name: Climatiq Autopilot Energy API
+  slug: postman-climatiq-energy-api
+- collection_type: postman
+  name: Climatiq Autopilot Estimate API
+  slug: postman-climatiq-estimate-api
+- collection_type: postman
+  name: Climatiq Autopilot Freight API
+  slug: postman-climatiq-freight-api
+- collection_type: postman
+  name: Climatiq Autopilot Procurement API
+  slug: postman-climatiq-procurement-api
+- collection_type: postman
+  name: Climatiq Autopilot Reference API
+  slug: postman-climatiq-reference-api
+- collection_type: postman
+  name: Climatiq Autopilot Search API
+  slug: postman-climatiq-search-api
+- collection_type: postman
+  name: Climatiq Autopilot Travel API
+  slug: postman-climatiq-travel-api
 - collection_type: open
   name: Climatiq API
   slug: open-climatiq
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/climatiq/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,12 +234,12 @@ overview: 'Climatiq publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The Climatiq catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Climatiq''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 16 more developer resources.'
+  Climatiq''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Climatiq Plans Pricing
   plan_count: 3
   slug: climatiq-plans-pricing
-random_paper: 36
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Climatiq Rate Limits
@@ -224,19 +263,32 @@ rules:
   slug: climatiq-rules
 score:
   band: strong
-  composite: 66.3
-  delta: 3.2
+  composite: 58.1
+  delta: -8.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.0
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 65.3
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 66.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 29.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/screenshots/climatiq-2026-06-20T174523.png
 security:
 - kind: authentication

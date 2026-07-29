@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -165,7 +167,7 @@ overview: 'Coventry Building Society publishes 4 APIs on the [APIs.io](https://a
 
 
   Coventry Building Society''s developer surface includes authentication, documentation, support, and 24 more developer resources.'
-random_paper: 10
+random_paper: 53
 scopes:
 - name: Coventry Building Society Scopes
   scope_count: 3
@@ -173,23 +175,34 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 42.5
+  delta: -3.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.0
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.6
+    developer_ergonomics: 36.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 46.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 77.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
 security:

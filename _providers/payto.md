@@ -2,11 +2,13 @@
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: PayTo's public developer surface, published by Australian Payments Plus (AP+) and NPP Australia. Rather than a self-serve API hosted by the scheme, this covers the AP+ Developer Portal (login-gated AP
@@ -89,26 +91,29 @@ overview: 'PayTo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   PayTo''s developer surface includes documentation, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 13
+random_paper: 18
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 20.1
+  delta: -3.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 80.0
-    governance: 0.0
+    discoverability: 66.7
+    governance: 3.1
     operational_transparency: 5.3
   previous_composite: 23.5
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 24.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

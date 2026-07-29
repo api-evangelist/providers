@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The hila REST APIs provide CRUD operations to deploy, manage, and monitor machine-learning models — drift detection, explainability, model performance, alerts, data profiling, inference tracking, pipe
@@ -130,21 +132,25 @@ overview: 'Vianai Systems publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Vianai Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, CLI, and 13 more developer resources.'
-random_paper: 41
+random_paper: 6
 score:
-  band: thin
-  composite: 30.1
-  delta: 0.0
+  band: emerging
+  composite: 26.9
+  delta: -3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 60.3
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 30.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

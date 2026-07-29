@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -115,8 +117,50 @@ apis:
 - description: The Time entries API from Toast — 2 operation(s) for time entries.
   name: Toast Time entries API
   slug: toast-tab-time-entries-api
-artifact_total: 378
+artifact_total: 392
 collections:
+- collection_type: postman
+  name: Toast Authentication API
+  slug: postman-toast-tab-authentication-api
+- collection_type: postman
+  name: Toast Authentication ConnectedRestaurants API
+  slug: postman-toast-tab-connectedrestaurants-api
+- collection_type: postman
+  name: Toast Authentication Discounts API
+  slug: postman-toast-tab-discounts-api
+- collection_type: postman
+  name: Toast Authentication Employees API
+  slug: postman-toast-tab-employees-api
+- collection_type: postman
+  name: Toast Authentication Groups API
+  slug: postman-toast-tab-groups-api
+- collection_type: postman
+  name: Toast Authentication Jobs API
+  slug: postman-toast-tab-jobs-api
+- collection_type: postman
+  name: Toast Authentication Menus API
+  slug: postman-toast-tab-menus-api
+- collection_type: postman
+  name: Toast Authentication Metadata API
+  slug: postman-toast-tab-metadata-api
+- collection_type: postman
+  name: Toast Authentication Orders API
+  slug: postman-toast-tab-orders-api
+- collection_type: postman
+  name: Toast Authentication Payments API
+  slug: postman-toast-tab-payments-api
+- collection_type: postman
+  name: Toast Authentication Restaurants API
+  slug: postman-toast-tab-restaurants-api
+- collection_type: postman
+  name: Toast Authentication Shifts API
+  slug: postman-toast-tab-shifts-api
+- collection_type: postman
+  name: Toast Authentication Stock API
+  slug: postman-toast-tab-stock-api
+- collection_type: postman
+  name: Toast Authentication Time entries API
+  slug: postman-toast-tab-time-entries-api
 - collection_type: open
   name: Toast authentication API
   slug: open-toast-tab-authentication
@@ -139,6 +183,10 @@ collections:
   name: Stock API
   slug: open-toast-tab-stock
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/toast/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1267,12 +1315,12 @@ overview: 'Toast publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
   The Toast catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Toast''s developer surface includes authentication, documentation, API reference, release notes, status page, support, pricing, and 21 more developer resources.'
+  Toast''s developer surface includes authentication, documentation, API reference, release notes, status page, support, pricing, and 22 more developer resources.'
 plans:
 - name: Toast Tab Plans Pricing
   plan_count: 1
   slug: toast-tab-plans-pricing
-random_paper: 27
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Toast Tab Rate Limits
@@ -1300,25 +1348,33 @@ scopes:
   slug: toast-tab-scopes
   summary_line: 22 scopes · clientCredentials
 score:
-  band: strong
-  composite: 62.8
-  delta: 6.1
+  band: developing
+  composite: 54.9
+  delta: -7.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 77.4
-    developer_ergonomics: 39.1
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 69.1
+    developer_ergonomics: 43.5
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 50.0
-  previous_composite: 56.7
+  previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 71.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+    score: 51.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/screenshots/toast-tab-2026-06-20T195430.png
 security:
 - kind: authentication

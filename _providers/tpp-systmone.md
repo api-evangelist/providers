@@ -11,13 +11,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -25,9 +27,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: TPP's local client-integration interface allowing an approved third-party application to interact with a running SystmOne client. Communication is performed with XML documents (validated against publi
@@ -123,26 +125,29 @@ overview: 'TPP (SystmOne) publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   TPP (SystmOne)''s developer surface includes documentation, getting-started guide, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 59
+random_paper: 51
 score:
   band: emerging
-  composite: 28.0
-  delta: 0.0
+  composite: 26.4
+  delta: -1.6
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 10.5
   previous_composite: 28.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 40.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

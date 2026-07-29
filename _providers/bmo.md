@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -172,7 +174,7 @@ overview: 'BMO publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   BMO''s developer surface includes authentication, sandbox, documentation, API reference, signup flow, support, engineering blog, and 16 more developer resources.'
-random_paper: 46
+random_paper: 10
 scopes:
 - name: Bmo Scopes
   scope_count: 15
@@ -180,23 +182,33 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 42.3
+  delta: -3.3
   facets:
     commercial_clarity: 23.7
-    contract_quality: 60.4
-    developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 49.5
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 7.9
   previous_composite: 45.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 65.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png
 security:

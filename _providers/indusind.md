@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST APIs published on the IndusInd Bank developer portal covering core banking, cards, deposits, and account services. Access is via registration on the sandbox developer portal; individual API pages
@@ -73,26 +75,27 @@ overview: 'IndusInd Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   IndusInd Bank''s developer surface includes documentation, API reference, support, signup flow, and 3 more developer resources.'
-random_paper: 46
+random_paper: 15
 score:
   band: emerging
-  composite: 16.9
-  delta: 0.0
+  composite: 14.0
+  delta: -2.9
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 28.3
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.9
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 7.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indusind/refs/heads/main/screenshots/indusind-2026-07-25T222351.png
 security:

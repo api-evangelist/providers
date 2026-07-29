@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -85,12 +87,52 @@ apis:
 - description: The Workflow Jobs API from Ansible — 1 operation(s) for workflow jobs.
   name: Ansible Workflow Jobs API
   slug: ansible-workflow-jobs-api
-artifact_total: 46
+artifact_total: 58
 collections:
+- collection_type: postman
+  name: Ansible Automation Controller Auth API
+  slug: postman-ansible-auth-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Credentials API
+  slug: postman-ansible-credentials-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Hosts API
+  slug: postman-ansible-hosts-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Inventories API
+  slug: postman-ansible-inventories-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Job Templates API
+  slug: postman-ansible-job-templates-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Jobs API
+  slug: postman-ansible-jobs-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Organizations API
+  slug: postman-ansible-organizations-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Projects API
+  slug: postman-ansible-projects-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Schedules API
+  slug: postman-ansible-schedules-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Users API
+  slug: postman-ansible-users-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Workflow Job Templates API
+  slug: postman-ansible-workflow-job-templates-api
+- collection_type: postman
+  name: Ansible Automation Controller Auth Workflow Jobs API
+  slug: postman-ansible-workflow-jobs-api
 - collection_type: open
   name: Ansible Automation Controller API
   slug: open-ansible
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ansible/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -234,12 +276,12 @@ overview: 'Ansible publishes 12 APIs on the [APIs.io](https://apis.io/) network,
   The Ansible catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ansible''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, training material, and 13 more developer resources.'
+  Ansible''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, training material, and 14 more developer resources.'
 plans:
 - name: Ansible Plans Pricing
   plan_count: 3
   slug: ansible-plans-pricing
-random_paper: 54
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Ansible Rate Limits
@@ -255,18 +297,25 @@ rules:
   slug: ansible-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.1
-  delta: 3.3
+  composite: 59.6
+  delta: -4.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.4
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 55.9
+    developer_ergonomics: 65.2
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/screenshots/ansible-2026-06-20T172015.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -70,12 +72,50 @@ apis:
 - description: The Vulnerabilities API from Kondukto — 9 operation(s) for vulnerabilities.
   name: Kondukto Vulnerabilities API
   slug: kondukto-vulnerabilities-api
-artifact_total: 19
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Kondukto Webhooks
   slug: kondukto-webhooks
+collections:
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers API
+  slug: postman-kondukto-authorization-managers-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Events API
+  slug: postman-kondukto-events-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Health API
+  slug: postman-kondukto-health-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Labels API
+  slug: postman-kondukto-labels-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Products API
+  slug: postman-kondukto-products-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Projects API
+  slug: postman-kondukto-projects-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Scanners API
+  slug: postman-kondukto-scanners-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Scans API
+  slug: postman-kondukto-scans-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Teams API
+  slug: postman-kondukto-teams-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Users API
+  slug: postman-kondukto-users-api
+- collection_type: postman
+  name: Invicti ASPM (Kondukto) REST API v2 Authorization Managers Vulnerabilities API
+  slug: postman-kondukto-vulnerabilities-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kondukto/overview
 - group: company
   title: ''
   type: Website
@@ -238,26 +278,36 @@ overview: 'Kondukto publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The Kondukto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kondukto''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
+  Kondukto''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Kondukto Plans
   plan_count: 2
   slug: kondukto-plans
-random_paper: 63
+random_paper: 32
 score:
-  band: strong
-  composite: 67.7
-  delta: 0.0
+  band: exemplar
+  composite: 66.2
+  delta: -1.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 72.6
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.5
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 55.3
   previous_composite: 67.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/screenshots/kondukto-2026-07-25T224148.png
 security:

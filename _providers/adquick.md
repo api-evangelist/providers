@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for planning and launching guaranteed and auction out-of-home (OOH) campaigns, placing insertion orders, submitting and scheduling creatives, and gathering in-flight delivery reporting. Authe
@@ -122,7 +124,7 @@ overview: 'AdQuick publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   AdQuick''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 58
+random_paper: 45
 scopes:
 - name: Adquick Scopes
   scope_count: 6
@@ -130,18 +132,21 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 25.2
+  delta: 1.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 24.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adquick/refs/heads/main/screenshots/adquick-2026-07-25T181659.png
 security:

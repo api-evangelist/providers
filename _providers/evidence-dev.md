@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The open-source core. SQL statements embedded in Markdown files run against configured data sources and render charts and components into a static BI website (Svelte/Vite). The interface is a Node CLI
@@ -104,25 +106,25 @@ plans:
 - name: Evidence Dev Plans Pricing
   plan_count: 5
   slug: evidence-dev-plans-pricing
-random_paper: 43
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Evidence Dev Rate Limits
   slug: evidence-dev-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 2.0
+  composite: 31.0
+  delta: -3.6
   facets:
     commercial_clarity: 47.4
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 10.9
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 34.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/screenshots/evidence-dev-2026-06-20T180912.png
 security:

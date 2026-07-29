@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -181,12 +183,160 @@ apis:
 - description: List users, list roles, manage role membership, invite users, and update user access across public API versions.
   name: SpotDraft V2 Users API
   slug: spotdraft-v2-users-api
-artifact_total: 68
+artifact_total: 116
 collections:
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs API
+  slug: postman-spotdraft-v1-contract-apis-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V1 Emails API
+  slug: postman-spotdraft-v1-emails-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V1 Legal Intake API
+  slug: postman-spotdraft-v1-legal-intake-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V1 Native Integrations API
+  slug: postman-spotdraft-v1-native-integrations-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V1 Obligation Types API
+  slug: postman-spotdraft-v1-obligation-types-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V1 Templates API
+  slug: postman-spotdraft-v1-templates-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V1 Users API
+  slug: postman-spotdraft-v1-users-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V1 Webhooks API
+  slug: postman-spotdraft-v1-webhooks-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Analytics Query API
+  slug: postman-spotdraft-v2-1-analytics-query-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Clickwrap API
+  slug: postman-spotdraft-v2-1-clickwrap-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Activity API
+  slug: postman-spotdraft-v2-1-contract-activity-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract APIs API
+  slug: postman-spotdraft-v2-1-contract-apis-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Approvals API
+  slug: postman-spotdraft-v2-1-contract-approvals-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract External Metadata API
+  slug: postman-spotdraft-v2-1-contract-external-metadata-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Facets API
+  slug: postman-spotdraft-v2-1-contract-facets-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Invitations API
+  slug: postman-spotdraft-v2-1-contract-invitations-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Metadata Definitions API
+  slug: postman-spotdraft-v2-1-contract-metadata-definitions-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Metadata Values API
+  slug: postman-spotdraft-v2-1-contract-metadata-values-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Notes API
+  slug: postman-spotdraft-v2-1-contract-notes-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Obligations API
+  slug: postman-spotdraft-v2-1-contract-obligations-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Types API
+  slug: postman-spotdraft-v2-1-contract-types-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Contract Versions API
+  slug: postman-spotdraft-v2-1-contract-versions-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Counterparties API
+  slug: postman-spotdraft-v2-1-counterparties-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Organizations API
+  slug: postman-spotdraft-v2-1-organizations-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Recipients API
+  slug: postman-spotdraft-v2-1-recipients-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Sidebar API
+  slug: postman-spotdraft-v2-1-sidebar-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Tasks and Reminders API
+  slug: postman-spotdraft-v2-1-tasks-and-reminders-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Templates API
+  slug: postman-spotdraft-v2-1-templates-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Users API
+  slug: postman-spotdraft-v2-1-users-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Webhooks API
+  slug: postman-spotdraft-v2-1-webhooks-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Workspace Files API
+  slug: postman-spotdraft-v2-1-workspace-files-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Workspace Tags API
+  slug: postman-spotdraft-v2-1-workspace-tags-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2.1 Workspaces API
+  slug: postman-spotdraft-v2-1-workspaces-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Contract Activity API
+  slug: postman-spotdraft-v2-contract-activity-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Contract APIs API
+  slug: postman-spotdraft-v2-contract-apis-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Contract Approvals API
+  slug: postman-spotdraft-v2-contract-approvals-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Contract Invitations API
+  slug: postman-spotdraft-v2-contract-invitations-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Contract Metadata Definitions API
+  slug: postman-spotdraft-v2-contract-metadata-definitions-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Contract Metadata Values API
+  slug: postman-spotdraft-v2-contract-metadata-values-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Contract Notes API
+  slug: postman-spotdraft-v2-contract-notes-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Contract Types API
+  slug: postman-spotdraft-v2-contract-types-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Contract Versions API
+  slug: postman-spotdraft-v2-contract-versions-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Counterparties API
+  slug: postman-spotdraft-v2-counterparties-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Organizations API
+  slug: postman-spotdraft-v2-organizations-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Recipients API
+  slug: postman-spotdraft-v2-recipients-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Tasks and Reminders API
+  slug: postman-spotdraft-v2-tasks-and-reminders-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Templates API
+  slug: postman-spotdraft-v2-templates-api
+- collection_type: postman
+  name: SpotDraft V1 Contract APIs V2 Users API
+  slug: postman-spotdraft-v2-users-api
 - collection_type: open
   name: SpotDraft API
   slug: open-spotdraft
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/spotdraft/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -328,12 +478,12 @@ overview: 'SpotDraft publishes 48 APIs on the [APIs.io](https://apis.io/) networ
   The SpotDraft catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SpotDraft''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, GitHub presence, and 15 more developer resources.'
+  SpotDraft''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, GitHub presence, and 16 more developer resources.'
 plans:
 - name: Spotdraft Plans Pricing
   plan_count: 4
   slug: spotdraft-plans-pricing
-random_paper: 31
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Spotdraft Rate Limits
@@ -356,20 +506,27 @@ rules:
     warn: 5
   slug: spotdraft-rules
 score:
-  band: strong
-  composite: 61.7
-  delta: 7.2
+  band: developing
+  composite: 55.7
+  delta: -6.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 71.7
-    developer_ergonomics: 26.1
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 61.3
+    developer_ergonomics: 30.4
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 15.8
-  previous_composite: 54.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/screenshots/spotdraft-2026-06-20T194352.png
 security:
 - kind: authentication

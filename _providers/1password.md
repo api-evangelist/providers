@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -652,7 +654,7 @@ plans:
 - name: 1Password Plans Pricing
   plan_count: 5
   slug: 1password-plans-pricing
-random_paper: 48
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: 1Password Rate Limits
@@ -676,18 +678,27 @@ rules:
   slug: 1password-spectral-rules
 score:
   band: exemplar
-  composite: 73.5
-  delta: 4.3
+  composite: 71.7
+  delta: -1.8
   facets:
     commercial_clarity: 68.4
-    contract_quality: 75.8
+    contract_quality: 72.4
     developer_ergonomics: 80.4
-    discoverability: 75.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 80.2
     operational_transparency: 52.6
-  previous_composite: 69.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 73.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/screenshots/1password-2026-06-20T162519.png
 security:

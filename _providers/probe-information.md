@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The Probe42 API provides programmatic access to curated intelligence on Indian companies — company profiles, financials, directors, and charges — for embedding due-diligence and business-intelligence '
@@ -85,26 +87,27 @@ overview: 'Probe Information publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Probe Information''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 3
+random_paper: 0
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 19.0
+  delta: -2.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 21.4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 17.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

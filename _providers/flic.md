@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 15.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -113,22 +115,24 @@ overview: 'Flic is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Flic''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 10 more developer resources.'
-random_paper: 6
+random_paper: 29
 score:
-  band: emerging
-  composite: 28.8
-  delta: 0.0
+  band: thin
+  composite: 36.5
+  delta: 7.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 52.2
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 3.1
     operational_transparency: 13.2
   previous_composite: 28.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/flic/refs/heads/main/screenshots/flic-2026-07-25T214752.png
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -109,16 +111,92 @@ apis:
 - description: The subpackage_workspaces API from beehiiv — 2 operation(s) for subpackage_workspaces.
   name: beehiiv subpackage_workspaces API
   slug: beehiiv-subpackage-workspaces-api
-artifact_total: 39
+artifact_total: 63
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the beehiiv outbound webhook surface. beehiiv posts JSON event payloads to a customer-configured endpoint URL when selected events occur on a publication. The set of event '
   name: beehiiv Webhooks
   slug: beehiiv-asyncapi
 collections:
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities API
+  slug: postman-beehiiv-subpackage-advertisement-opportunities-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_authors API
+  slug: postman-beehiiv-subpackage-authors-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_automationJourneys API
+  slug: postman-beehiiv-subpackage-automationjourneys-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_automations API
+  slug: postman-beehiiv-subpackage-automations-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_bulk_subscriptions API
+  slug: postman-beehiiv-subpackage-bulk-subscriptions-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_bulkSubscriptionUpdates API
+  slug: postman-beehiiv-subpackage-bulksubscriptionupdates-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_conditionSets API
+  slug: postman-beehiiv-subpackage-conditionsets-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_customFields API
+  slug: postman-beehiiv-subpackage-customfields-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_dataDeletion API
+  slug: postman-beehiiv-subpackage-datadeletion-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_engagements API
+  slug: postman-beehiiv-subpackage-engagements-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_newsletterLists API
+  slug: postman-beehiiv-subpackage-newsletterlists-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_newsletterListSubscriptions API
+  slug: postman-beehiiv-subpackage-newsletterlistsubscriptions-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_oauth_users API
+  slug: postman-beehiiv-subpackage-oauth-users-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_polls API
+  slug: postman-beehiiv-subpackage-polls-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_posts API
+  slug: postman-beehiiv-subpackage-posts-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_postTemplates API
+  slug: postman-beehiiv-subpackage-posttemplates-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_publications API
+  slug: postman-beehiiv-subpackage-publications-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_referralProgram API
+  slug: postman-beehiiv-subpackage-referralprogram-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_segments API
+  slug: postman-beehiiv-subpackage-segments-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_subscriptions API
+  slug: postman-beehiiv-subpackage-subscriptions-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_subscriptionTags API
+  slug: postman-beehiiv-subpackage-subscriptiontags-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_tiers API
+  slug: postman-beehiiv-subpackage-tiers-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_webhooks API
+  slug: postman-beehiiv-subpackage-webhooks-api
+- collection_type: postman
+  name: API Reference subpackage_advertisement_opportunities subpackage_workspaces API
+  slug: postman-beehiiv-subpackage-workspaces-api
 - collection_type: open
   name: API Reference
   slug: open-beehiiv
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/beehiiv/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -241,12 +319,12 @@ overview: 'beehiiv publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The beehiiv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  beehiiv''s developer surface includes authentication, pricing, documentation, API reference, getting-started guide, support, engineering blog, and 15 more developer resources.'
+  beehiiv''s developer surface includes authentication, pricing, documentation, API reference, getting-started guide, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Beehiiv Plans Pricing
   plan_count: 4
   slug: beehiiv-plans-pricing
-random_paper: 52
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Beehiiv Rate Limits
@@ -270,18 +348,25 @@ rules:
   slug: beehiiv-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.7
-  delta: 4.7
+  composite: 59.1
+  delta: -2.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 77.4
-    developer_ergonomics: 58.7
-    discoverability: 92.5
-    governance: 52.6
+    contract_quality: 78.4
+    developer_ergonomics: 63.0
+    discoverability: 68.5
+    governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 57.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png
 security:

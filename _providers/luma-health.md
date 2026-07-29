@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -193,26 +195,37 @@ overview: 'Luma Health publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Luma Health''s developer surface includes authentication, documentation, API reference, engineering blog, and 24 more developer resources.'
-random_paper: 18
+random_paper: 28
 score:
   band: thin
-  composite: 44.8
-  delta: 0.0
+  composite: 40.9
+  delta: -3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 26.5
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 29.7
+    developer_ergonomics: 40.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 31.6
   previous_composite: 44.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 43.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png
 security:

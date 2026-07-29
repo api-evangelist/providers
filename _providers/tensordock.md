@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -46,8 +48,14 @@ apis:
 - description: The TensorDock Secrets API (v2) for managing SSH keys and generic secrets that are encrypted at rest and in transit and can be attached to instances at deploy time. Two secret types are supported — `S
   name: TensorDock Secrets API
   slug: tensordock-secrets-api
-artifact_total: 40
+artifact_total: 42
 collections:
+- collection_type: postman
+  name: TensorDock Instances API
+  slug: postman-tensordock-instances-api
+- collection_type: postman
+  name: TensorDock Instances Secrets API
+  slug: postman-tensordock-secrets-api
 - collection_type: open
   name: TensorDock Instances API
   slug: open-tensordock-instances-api
@@ -55,6 +63,10 @@ collections:
   name: TensorDock Secrets API
   slug: open-tensordock-secrets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tensordock/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -309,12 +321,12 @@ overview: 'TensorDock publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The TensorDock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TensorDock''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, sandbox, signup flow, and 40 more developer resources.'
+  TensorDock''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, sandbox, signup flow, and 41 more developer resources.'
 plans:
 - name: Tensordock Plans Pricing
   plan_count: 6
   slug: tensordock-plans-pricing
-random_paper: 64
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Tensordock Rate Limits
@@ -338,18 +350,25 @@ rules:
   slug: tensordock-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 3.3
+  composite: 62.2
+  delta: -2.9
   facets:
     commercial_clarity: 78.9
-    contract_quality: 66.4
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 67.8
+    developer_ergonomics: 63.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 61.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/screenshots/tensordock-2026-06-20T195118.png
 security:

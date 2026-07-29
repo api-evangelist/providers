@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Protocol Buffers (Protobuf) is Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. It defines a schema language for specifying message structures in .pro
@@ -93,7 +95,7 @@ plans:
 - name: Protocol Buffers Plans Pricing
   plan_count: 3
   slug: protocol-buffers-plans-pricing
-random_paper: 44
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Protocol Buffers Rate Limits
@@ -109,19 +111,19 @@ rules:
   slug: protocol-buffers-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 35.0
+  delta: -5.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 34.0
+    contract_quality: 29.0
     developer_ergonomics: 10.9
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 40.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/protocol-buffers/refs/heads/main/screenshots/protocol-buffers-2026-06-20T192219.png
 security:
 - kind: domain-security

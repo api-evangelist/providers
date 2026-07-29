@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -94,8 +96,67 @@ apis:
 - description: The Wallets API from Algorand — 1 operation(s) for wallets.
   name: Algorand Wallets API
   slug: algorand-wallets-api
-artifact_total: 53
+artifact_total: 71
+collections:
+- collection_type: postman
+  name: Algod REST API. common API
+  slug: postman-algorand-common-api
+- collection_type: postman
+  name: Algod REST API. common data API
+  slug: postman-algorand-data-api
+- collection_type: postman
+  name: Algod REST API. common experimental API
+  slug: postman-algorand-experimental-api
+- collection_type: postman
+  name: Algod REST API. common Key API
+  slug: postman-algorand-key-api
+- collection_type: postman
+  name: Algod REST API. common lookup API
+  slug: postman-algorand-lookup-api
+- collection_type: postman
+  name: Algod REST API. common Master Key API
+  slug: postman-algorand-master-key-api
+- collection_type: postman
+  name: Algod REST API. common Multisig API
+  slug: postman-algorand-multisig-api
+- collection_type: postman
+  name: Algod REST API. common nonparticipating API
+  slug: postman-algorand-nonparticipating-api
+- collection_type: postman
+  name: Algod REST API. common participating API
+  slug: postman-algorand-participating-api
+- collection_type: postman
+  name: Algod REST API. common private API
+  slug: postman-algorand-private-api
+- collection_type: postman
+  name: Algod REST API. common Program API
+  slug: postman-algorand-program-api
+- collection_type: postman
+  name: Algod REST API. common public API
+  slug: postman-algorand-public-api
+- collection_type: postman
+  name: Algod REST API. common search API
+  slug: postman-algorand-search-api
+- collection_type: postman
+  name: Algod REST API. common Swagger.json API
+  slug: postman-algorand-swagger-json-api
+- collection_type: postman
+  name: Algod REST API. common Transaction API
+  slug: postman-algorand-transaction-api
+- collection_type: postman
+  name: Algod REST API. common Versions API
+  slug: postman-algorand-versions-api
+- collection_type: postman
+  name: Algod REST API. common Wallet API
+  slug: postman-algorand-wallet-api
+- collection_type: postman
+  name: Algod REST API. common Wallets API
+  slug: postman-algorand-wallets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/algorand/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -260,12 +321,12 @@ overview: 'Algorand publishes 18 APIs on the [APIs.io](https://apis.io/) network
   The Algorand catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Algorand''s developer surface includes authentication, developer portal, documentation, getting-started guide, CLI, engineering blog, support, and 16 more developer resources.'
+  Algorand''s developer surface includes authentication, developer portal, documentation, getting-started guide, CLI, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Algorand Plans
   plan_count: 4
   slug: algorand-plans
-random_paper: 24
+random_paper: 70
 rate_limits:
 - limit_count: 7
   name: Algorand Rate Limits
@@ -281,18 +342,25 @@ rules:
   slug: algorand-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 57.9
+  delta: -2.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.1
-    developer_ergonomics: 67.4
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 52.9
+    developer_ergonomics: 71.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 60.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/screenshots/algorand-2026-06-20T171519.png
 security:

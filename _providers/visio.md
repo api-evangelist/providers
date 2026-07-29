@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,12 +63,37 @@ apis:
 - description: Operations for accessing and managing shapes on a Visio page
   name: Microsoft Visio API Shapes API
   slug: visio-shapes-api
-artifact_total: 24
+artifact_total: 31
 collections:
+- collection_type: postman
+  name: Visio JavaScript Application API
+  slug: postman-visio-application-api
+- collection_type: postman
+  name: Visio JavaScript Application Comments API
+  slug: postman-visio-comments-api
+- collection_type: postman
+  name: Visio JavaScript Application Documents API
+  slug: postman-visio-documents-api
+- collection_type: postman
+  name: Visio JavaScript Application Hyperlinks API
+  slug: postman-visio-hyperlinks-api
+- collection_type: postman
+  name: Visio JavaScript Application Pages API
+  slug: postman-visio-pages-api
+- collection_type: postman
+  name: Visio JavaScript Application Shape Data API
+  slug: postman-visio-shape-data-api
+- collection_type: postman
+  name: Visio JavaScript Application Shapes API
+  slug: postman-visio-shapes-api
 - collection_type: open
   name: Visio JavaScript API
   slug: open-visio-javascript
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-visio-api/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,12 +207,12 @@ overview: 'Microsoft Visio API publishes 7 APIs on the [APIs.io](https://apis.io
   The Microsoft Visio API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Visio API''s developer surface includes authentication, pricing, engineering blog, changelog, and 14 more developer resources.'
+  Microsoft Visio API''s developer surface includes authentication, pricing, engineering blog, changelog, and 15 more developer resources.'
 plans:
 - name: Visio Plans Pricing
   plan_count: 3
   slug: visio-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Visio Rate Limits
@@ -209,18 +236,25 @@ rules:
   slug: visio-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 3.2
+  composite: 60.5
+  delta: -3.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 67.3
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/screenshots/visio-2026-06-20T201052.png
 security:

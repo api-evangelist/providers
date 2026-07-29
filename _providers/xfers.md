@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.6
+  scored_at: '2026-07-28'
 api_count: 20
 apis:
 - description: API to manage Bank Account
@@ -143,26 +145,34 @@ overview: 'Xfers publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Xfers'' developer surface includes authentication, documentation, API reference, support, and 6 more developer resources.'
-random_paper: 8
+random_paper: 13
 score:
   band: thin
-  composite: 33.3
-  delta: 0.0
+  composite: 32.1
+  delta: -1.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 59.4
+    contract_quality: 60.6
     developer_ergonomics: 34.8
-    discoverability: 100.0
+    discoverability: 85.2
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 33.3
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 25.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

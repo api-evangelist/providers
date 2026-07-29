@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -337,27 +339,35 @@ overview: 'Orange Business publishes 14 APIs on the [APIs.io](https://apis.io/) 
 
 
   Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 28 more developer resources.'
-random_paper: 61
+random_paper: 17
 score:
   band: thin
-  composite: 40.2
-  delta: 1.0
+  composite: 34.7
+  delta: -5.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 57.8
+    contract_quality: 54.6
     developer_ergonomics: 50.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 39.2
+  previous_composite: 40.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
   regulatory:
     applies: true
-    regime: Payments
-    regime_id: payments
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 36.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png
 security:
 - kind: authentication

@@ -16,35 +16,36 @@
      "slug": "zenrows",
      "description": "ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API (HTTP scrape with JS rendering, anti-bot bypass, screenshots, CSS/AI extraction, and PDF/markdown output), the Scraping Browser (cloud Playwright/Puppeteer/CDP browser over WebSocket), Residential Proxies (HTTP/SOCKS5 with sticky sessions and country targeting), and a set of vertical Scraper APIs for Amazon, Google, Walmart, Zillow, and Idealista. ZenRows also ships first-party Python, Node.js, and Go SDKs, a Scrapy middleware, deep integrations across Playwright, Puppeteer, Selenium, Scrapy, LangChain, LlamaIndex, OpenAI Agents SDK, Zapier, n8n, Make, Pipedream, Node-RED, MuleSoft, Clay, and an official MCP server (hosted at https://mcp.zenrows.com/mcp and as @zenrows/mcp on npm) exposing scrape and 30+ browser automation tools to AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png",
-     "score": 60.7,
+     "score": 57.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 70.8,
-      "governance": 86.8,
+      "discoverability": 64.8,
+      "contract_quality": 72.0,
+      "governance": 68.8,
       "operational_transparency": 52.6,
-      "developer_ergonomics": 21.7,
+      "developer_ergonomics": 26.1,
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 51.8,
+     "schema_version": 0.6,
+     "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": true,
+      "error_semantics": "verified",
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 1
     }
@@ -64,41 +65,43 @@
      "slug": "openmercantil",
      "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 29+ public sources (CNMV, OEPM, PLACSP, BDNS, OpenSanctions, CCAA gazettes, CNMC, CENDOJ and more) to expose company search, structured company reports, registry event timelines, officer records, CNAE sector navigation, daily summaries, public-procurement rankings, a v1.4 cross-source trust score, and CSV/JSON exports. The public REST API is free, requires no API key, and is rate-limited per IP. The project is informational and does not replace official Registro Mercantil certificates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
-     "score": 56.0,
+     "score": 50.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 65.5,
-      "governance": 86.8,
+      "discoverability": 74.1,
+      "contract_quality": 64.3,
+      "governance": 68.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 23.9,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 45.7
+      "score": 38.9,
+      "matched_via": "tags"
      },
-     "agent_score": 50.9,
+     "agent_score": 35.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": true,
-      "rate_limit_signal": true,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "verified",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 2
     },
@@ -107,35 +110,36 @@
      "slug": "cobee",
      "description": "Cobee is a Madrid-based flexible employee benefits and compensation platform, acquired by Pluxee (Sodexo group) in 2024. It lets companies manage a modular multi-benefit program (meal, transport, training, health and life insurance, wellbeing and employee discounts) from a single dashboard, delivered to employees through a Cobee VISA card and mobile app. Cobee exposes a REST Public API (v3, OpenAPI 3.0.1) for HR and payroll integrations, covering companies, employees, benefit models, payroll cycles, and benefit consumptions, with OAuth 2.0 client-credentials (Auth0-issued JWT) auth and a separate staging sandbox. The Public API is currently available to Spanish customers, with credentials issued by the customer's Customer Success Manager.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png",
-     "score": 45.8,
+     "score": 45.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 45.1,
-      "governance": 0.0,
+      "discoverability": 75.9,
+      "contract_quality": 47.5,
+      "governance": 20.8,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 73.9,
+      "developer_ergonomics": 62.5,
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 60.7,
-     "agent_band": "agent-native",
+     "schema_version": 0.6,
+     "agent_score": 44.8,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
       "rate_limit_signal": false,
       "asyncapi_events": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 3
     }
@@ -147,34 +151,35 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "BBVA",
      "slug": "bbva",
      "description": "BBVA is a multinational Spanish financial services group operating in over 30 countries. The BBVA API Market provides a comprehensive catalog of banking APIs covering accounts, payments, collections, financing, identity, and open data across Spain, Mexico, Latin America, and other global markets. BBVA is a recognized open banking leader offering PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/screenshots/bbva-2026-06-20T173058.png",
-     "score": 42.3,
+     "score": 36.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
-      "governance": 47.4,
+      "discoverability": 64.8,
+      "contract_quality": 12.9,
+      "governance": 37.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 37.0,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 41.3
+      "score": 24.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -184,12 +189,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 4
     },
@@ -197,35 +203,36 @@
      "name": "Novicap",
      "slug": "novicap",
      "description": "Novicap is a Spanish working-capital and supply-chain-finance fintech that helps companies optimize their circulating capital. Its REST API (base URL https://api.novicap.com/v1) lets partners programmatically register suppliers, submit and manage invoices, and create payment instructions and adjustments across two products: Dynamic Discounting and Confirming Standard (reverse factoring). The API uses Bearer API-key authentication with a required product_id scope, JSON payloads, and URI-path versioning, and is documented in a public developer reference. Novicap is backed by Partech and Techstars.",
-     "score": 36.9,
+     "score": 32.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 53.1,
-      "governance": 0.0,
+      "discoverability": 87.0,
+      "contract_quality": 42.4,
+      "governance": 11.5,
       "operational_transparency": 10.5,
-      "developer_ergonomics": 41.3,
+      "developer_ergonomics": 29.9,
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 53.6,
+     "schema_version": 0.6,
+     "agent_score": 39.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": true,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": true,
+      "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
       "asyncapi_events": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 5
     },
@@ -234,74 +241,38 @@
      "slug": "koalaboox",
      "description": "Koalaboox is a Belgian cloud invoicing and cash-flow platform for small businesses, self-employed professionals and their accountants, now operating as Cegid Invoice & Financing — API brand Cegid Click & Finance — following its acquisition by Cegid. The platform covers sales invoicing, quotes, purchase-invoice management, recurring invoices, dynamic dashboards, bank-account connections and Peppol-based electronic invoicing for the Belgian 2026 e-invoicing mandate, sold in Belgium and Spain. Alongside the SaaS it offers invoice financing — cash advances against outstanding invoices — underwritten by Cegid Fin Belgium. Koalaboox exposes a public REST API at connect.koalaboox.com secured with OAuth 2.0 authorization-code grants, documented on a Stoplight developer portal, with a first-party Laravel reference architecture published on GitHub.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png",
-     "score": 32.7,
+     "score": 32.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 87.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
+      "governance": 12.5,
       "operational_transparency": 15.8,
-      "developer_ergonomics": 41.3,
+      "developer_ergonomics": 34.8,
       "commercial_clarity": 65.8
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 33.0,
+     "schema_version": 0.6,
+     "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "mcp_server": true,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": true,
+      "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 6
-    },
-    {
-     "name": "Holded",
-     "slug": "holded",
-     "description": "Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png",
-     "score": 30.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 51.3,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 38.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 7
     }
    ]
   },
@@ -310,34 +281,73 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 16,
-   "shown": 16,
+   "count": 17,
+   "shown": 17,
    "providers": [
+    {
+     "name": "Holded",
+     "slug": "holded",
+     "description": "Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png",
+     "score": 27.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 53.4,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 27.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
+    },
     {
      "name": "Universitat Pompeu Fabra",
      "slug": "universitat-pompeu-fabra",
      "description": "Universitat Pompeu Fabra (UPF) is a public research university in Barcelona, Spain, ranked #266 in the QS World University Rankings 2025. Its public developer footprint centers on the \"UPF en Xifres 2.0\" linked open data portal (data.upf.edu), which exposes institutional datasets via a CKAN action API and a Virtuoso SPARQL endpoint, and on the UPF Digital Repository (e-Repositori), built on DSpace 7.6 with a public REST API and an OAI-PMH harvesting endpoint. Identity is handled through an adAS / Shibboleth SAML single sign-on service. Most other software is published by research groups (e.g. the Music Technology Group) on GitHub rather than as institutional APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/universitat-pompeu-fabra/refs/heads/main/screenshots/universitat-pompeu-fabra-2026-06-20T200116.png",
-     "score": 27.3,
+     "score": 24.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
+      "discoverability": 64.8,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 37.0
+      "score": 31.5,
+      "matched_via": "tags"
      },
-     "agent_score": 15.2,
+     "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -347,12 +357,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 8
     },
@@ -360,26 +371,27 @@
      "name": "University of Barcelona",
      "slug": "university-of-barcelona",
      "description": "The University of Barcelona (Universitat de Barcelona, UB) is a public research university founded in 1450 and based in Barcelona, Catalonia, Spain. It is ranked #165 in the QS World University Rankings 2025. Its publicly documented developer/API footprint is limited and primarily centered on library and scholarly infrastructure: the Dipòsit Digital de la Universitat de Barcelona runs DSpace 7.6.6, exposing a public REST API and an OAI-PMH metadata-harvesting endpoint. The university also operates centralized single sign-on (SSO) supporting SAML 2.0 / CAS, and publishes institutional open data through its transparency portal. No central, branded public developer portal or official organization-wide GitHub account was confirmed.",
-     "score": 25.7,
+     "score": 22.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
+      "discoverability": 64.8,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 37.0
+      "score": 31.5,
+      "matched_via": "tags"
      },
-     "agent_score": 15.2,
+     "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -389,152 +401,36 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 9
-    },
-    {
-     "name": "Autonomous University of Madrid",
-     "slug": "uam",
-     "description": "The Autonomous University of Madrid (Universidad Autónoma de Madrid, UAM) is a public research university in Madrid, Spain, founded in 1968 and ranked #198 in the QS World University Rankings 2025. Its primary public, machine-readable API footprint is delivered through Biblos-e Archivo, the UAM institutional repository running DSpace 7.6.5, which exposes a HAL-based REST API and an OAI-PMH 2.0 metadata-harvesting endpoint. UAM does not publish a centralized developer portal; authentication is handled through the gated ID-UAM federated identity service, and most institutional systems (secretaria virtual, mobile app backend) are not openly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/screenshots/uam-2026-06-20T195920.png",
-     "score": 23.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 15.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Complutense University of Madrid",
-     "slug": "complutense-university-of-madrid",
-     "description": "Complutense University of Madrid (Universidad Complutense de Madrid, UCM) is a major public research university in Spain, ranked #164 in the QS World University Rankings 2025. Its public, machine-readable footprint is centered on open data: UCM is a founding member of UniversiDATA, a collaborative open-data portal for Spanish higher education built on DKAN, which exposes a documented DataStore API, CKAN Dataset API, and DCAT catalog API covering UCM datasets (degree programs, enrollments, staff, budgets, mobility, and procurement). UCM also operates Docta Complutense, its institutional repository on DSpace 7, and maintains an official GitHub organization. No general-purpose UCM developer portal for SIS, course, or library APIs was found publicly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/complutense-university-of-madrid/refs/heads/main/screenshots/complutense-university-of-madrid-2026-06-20T174834.png",
-     "score": 23.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 23.9
-     },
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "University of Navarra",
-     "slug": "university-of-navarra",
-     "description": "The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with additional campuses in San Sebastian and Madrid. It is ranked #249 in the QS World University Rankings 2025. Its public, machine-consumable developer footprint is limited: the principal documented interface is DADUN (Deposito Academico Digital de la Universidad de Navarra), the institutional open-access repository running on DSpace, which exposes metadata harvesting through the OAI-PMH protocol. No general-purpose public developer portal, open-data API platform, or official GitHub organization could be independently confirmed for the institution at the time of review.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png",
-     "score": 21.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 12
     },
     {
      "name": "Lingokids",
      "slug": "lingokids",
      "description": "Lingokids is a children's edutainment platform operated by Monkimun Inc. (Wilmington, Delaware) and Monkimun Labs S.L. (Madrid, Spain), delivering an ad-free \"Playlearning\" experience of games, animated shows, podcasts and sing-alongs for children aged two to eight. The mobile apps (iOS, Android, Amazon) and web app have been downloaded more than 200 million times. The curriculum is built by parents and educators and covers English-language learning alongside broader academic and life skills. Lingokids is audited and certified by the kidSAFE Seal Program (COPPA+), operates a COPPA-compliant configuration for child data, and honours GDPR rights for EU residents. The company publishes no public developer program or documented API: api.lingokids.com is the private application backend and exposes no discovery surface. Lingokids does publish an RFC 9116 security.txt with a security contact, names a Data Protection Officer, and runs a public help center. Backed by HV Capital.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lingokids/refs/heads/main/screenshots/lingokids-2026-07-25T225243.png",
-     "score": 20.6,
+     "score": 22.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
+      "governance": 12.5,
       "operational_transparency": 15.8,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 6.3,
-     "agent_band": "human-only",
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -548,7 +444,129 @@
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "Autonomous University of Madrid",
+     "slug": "uam",
+     "description": "The Autonomous University of Madrid (Universidad Autónoma de Madrid, UAM) is a public research university in Madrid, Spain, founded in 1968 and ranked #198 in the QS World University Rankings 2025. Its primary public, machine-readable API footprint is delivered through Biblos-e Archivo, the UAM institutional repository running DSpace 7.6.5, which exposes a HAL-based REST API and an OAI-PMH 2.0 metadata-harvesting endpoint. UAM does not publish a centralized developer portal; authentication is handled through the gated ID-UAM federated identity service, and most institutional systems (secretaria virtual, mobile app backend) are not openly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/screenshots/uam-2026-06-20T195920.png",
+     "score": 20.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 12.9,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 12.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Complutense University of Madrid",
+     "slug": "complutense-university-of-madrid",
+     "description": "Complutense University of Madrid (Universidad Complutense de Madrid, UCM) is a major public research university in Spain, ranked #164 in the QS World University Rankings 2025. Its public, machine-readable footprint is centered on open data: UCM is a founding member of UniversiDATA, a collaborative open-data portal for Spanish higher education built on DKAN, which exposes a documented DataStore API, CKAN Dataset API, and DCAT catalog API covering UCM datasets (degree programs, enrollments, staff, budgets, mobility, and procurement). UCM also operates Docta Complutense, its institutional repository on DSpace 7, and maintains an official GitHub organization. No general-purpose UCM developer portal for SIS, course, or library APIs was found publicly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/complutense-university-of-madrid/refs/heads/main/screenshots/complutense-university-of-madrid-2026-06-20T174834.png",
+     "score": 20.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 12.9,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 12
+    },
+    {
+     "name": "University of Navarra",
+     "slug": "university-of-navarra",
+     "description": "The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with additional campuses in San Sebastian and Madrid. It is ranked #249 in the QS World University Rankings 2025. Its public, machine-consumable developer footprint is limited: the principal documented interface is DADUN (Deposito Academico Digital de la Universidad de Navarra), the institutional open-access repository running on DSpace, which exposes metadata harvesting through the OAI-PMH protocol. No general-purpose public developer portal, open-data API platform, or official GitHub organization could be independently confirmed for the institution at the time of review.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png",
+     "score": 18.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 12.9,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 13
     },
@@ -557,20 +575,20 @@
      "slug": "uab",
      "description": "The Autonomous University of Barcelona (Universitat Autònoma de Barcelona, UAB) is a public research university in Bellaterra, near Barcelona, Spain, founded in 1968 and ranked #175 in the QS World University Rankings 2025. UAB's public, machine-accessible footprint centers on its open scholarly infrastructure rather than a formal developer portal: the Dipòsit Digital de Documents (DDD), the institutional repository built on the Invenio platform, exposes an OAI-PMH 2.0 metadata endpoint and is OpenAIRE-compliant. Research data is published through the Catalan consortium (CSUC) federated research data repository. No dedicated, publicly documented UAB developer/API program or official institutional GitHub organization was confirmed; student-facing academic services (SIA) are gated login portals without public API documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/screenshots/uab-2026-06-20T195920.png",
-     "score": 20.3,
+     "score": 17.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 15.1,
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -580,12 +598,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 14
     },
@@ -594,11 +613,11 @@
      "slug": "opendata-aragon-es",
      "description": "Aragón Open Data is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,429 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-aragon-es/refs/heads/main/screenshots/opendata-aragon-es-2026-06-20T190931.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -606,14 +625,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -623,12 +643,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 15
     },
@@ -637,11 +658,11 @@
      "slug": "opendata-ugr-es",
      "description": "Bienvenido a OpenData UGR is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ugr-es/refs/heads/main/screenshots/opendata-ugr-es-2026-06-20T190951.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -649,14 +670,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -666,12 +688,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 16
     },
@@ -680,11 +703,11 @@
      "slug": "datos-madrid-es",
      "description": "Datos abiertos is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 667 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-madrid-es/refs/heads/main/screenshots/datos-madrid-es-2026-06-20T175723.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -692,14 +715,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -709,12 +733,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 17
     },
@@ -723,11 +748,11 @@
      "slug": "datos-comunidad-madrid",
      "description": "Madrid Region Open Data is a regional government open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,282 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-comunidad-madrid/refs/heads/main/screenshots/datos-comunidad-madrid-2026-06-20T175719.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -735,14 +760,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -752,12 +778,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 18
     },
@@ -766,11 +793,11 @@
      "slug": "datosabiertos-malaga-eu",
      "description": "Portal Datos Abiertos Ayuntamiento de Málaga is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,368 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-malaga-eu/refs/heads/main/screenshots/datosabiertos-malaga-eu-2026-06-20T175730.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -778,14 +805,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -795,12 +823,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 19
     },
@@ -809,11 +838,11 @@
      "slug": "datosabiertos-rivasciudad-es",
      "description": "Portal oficial Ayuntamiento de Rivas Vaciamadrid is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 7 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-rivasciudad-es/refs/heads/main/screenshots/datosabiertos-rivasciudad-es-2026-06-20T175731.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -821,14 +850,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -838,12 +868,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 20
     },
@@ -852,11 +883,11 @@
      "slug": "magnific-ai",
      "description": "Magnific is a Spanish AI image enhancement startup, founded in 2023 by Javi Lopez and Emilio Nicolas, best known for its AI image upscaler and enhancer that hallucinates believable new detail at higher resolutions. The product line expanded from the original Upscaler into Relight (AI-driven scene relighting), Structure (compose-from-sketch), Style Transfer, Mystic (text-to-image), and Fluffy (consistent characters). Magnific was acquired by Freepik in May 2024 and continues to operate under the Magnific brand while powering Freepik's image enhancement surface. There is no publicly documented developer API for Magnific itself; access is via the web application at magnific.ai (now magnific.com) and through the Freepik AI suite, where related image generation and upscaling capabilities are exposed via the Freepik API. Customer support is handled through an Intercom-backed help center and the founders maintain a high-visibility presence on X/Twitter.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/screenshots/magnific-ai-2026-06-20T184848.png",
-     "score": 17.7,
+     "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -864,7 +895,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -880,62 +911,20 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 21
-    },
-    {
-     "name": "Goin",
-     "slug": "goin",
-     "description": "Goin is a European consumer fintech platform, backed by Anthemis and based in Barcelona, Spain, that helps more than 700,000 users across Europe grow their money and spend less. The app bundles automated savings (fixed daily, weekly or monthly rules and goal-based portfolios), investing, buying and selling of cryptocurrencies, cashback and rewards at hundreds of online and physical stores, gift cards and coupons, and a browser extension that surfaces discounts while shopping. Bank accounts are connected securely under Europe's PSD2 open banking regulation, and a referral program rewards users for inviting friends. Goin is a business-to-consumer mobile product distributed through the Apple App Store and Google Play; it does not publish a public developer program, API, or documentation surface. This API Evangelist profile tracks Goin as a portfolio lead and captures its public web, help, and legal presence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goin/refs/heads/main/screenshots/goin-2026-07-25T220013.png",
-     "score": 17.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 30.4
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 22
     },
     {
      "name": "Ontruck",
      "slug": "ontruck",
      "description": "Ontruck is a Spanish road-freight technology platform that connects shippers (cargadores) with a network of professional carriers (transportistas) for full-truckload and less-than-truckload pallet, package, and parcel transport across Spain, France, and wider Europe. Shippers get instant AI-driven pricing, automated carrier assignment, real-time traceability, and digital documentation through service tiers (Economy, Flex, Express); carriers get access to freight loads with dynamic pricing and 24/7 support. Ontruck also packages its stack as \"Ontruck AI Tech\" — an AI pricing engine, AI routing engine, a predictive incident system, and a forecast/capacity planner — offered as transport-management software. The company operates a marketing and customer web surface plus an in-product shipper/carrier application; it publishes no public developer/API portal, OpenAPI, or SDKs at this time.",
-     "score": 15.6,
+     "score": 14.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 61.1,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -943,7 +932,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -959,7 +948,53 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 22
+    },
+    {
+     "name": "Goin",
+     "slug": "goin",
+     "description": "Goin is a European consumer fintech platform, backed by Anthemis and based in Barcelona, Spain, that helps more than 700,000 users across Europe grow their money and spend less. The app bundles automated savings (fixed daily, weekly or monthly rules and goal-based portfolios), investing, buying and selling of cryptocurrencies, cashback and rewards at hundreds of online and physical stores, gift cards and coupons, and a browser extension that surfaces discounts while shopping. Bank accounts are connected securely under Europe's PSD2 open banking regulation, and a referral program rewards users for inviting friends. Goin is a business-to-consumer mobile product distributed through the Apple App Store and Google Play; it does not publish a public developer program, API, or documentation surface. This API Evangelist profile tracks Goin as a portfolio lead and captures its public web, help, and legal presence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goin/refs/heads/main/screenshots/goin-2026-07-25T220013.png",
+     "score": 13.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 23
     }
@@ -978,11 +1013,11 @@
      "slug": "clikalia",
      "description": "Clikalia is a Spanish proptech founded in 2018 by Alister Moreno and Pablo Fernandez that operates an iBuyer model for residential real estate: it makes homeowners an instant purchase offer, can close a sale within days, then renovates and returns properties to the market in turnkey condition. The company pairs proprietary technology with a large operations team to digitize a historically slow home buying and selling process, and also offers mortgage brokerage (hipotecas) and renovation services (Studio by Clikalia). Backed by Fifth Wall and SoftBank Vision Fund, Clikalia operates across Spain, Portugal, France and Mexico. Clikalia does not publish a public developer API; this API Evangelist profile captures its public web, legal, and domain-security surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clikalia/refs/heads/main/screenshots/clikalia-2026-07-25T205624.png",
-     "score": 12.3,
+     "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -990,7 +1025,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1006,7 +1041,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 24
     },
@@ -1015,11 +1051,11 @@
      "slug": "portal-yoda-dit-upm-es",
      "description": "UPM YODA Open Data Portal is a university open-data portal for Spain running CKAN. It exposes the CKAN catalog API over approximately 201 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/screenshots/portal-yoda-dit-upm-es-2026-06-20T191931.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1027,14 +1063,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1044,135 +1081,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 25
-    },
-    {
-     "name": "Blink Booking",
-     "slug": "blink-booking",
-     "description": "Blink Booking was a Madrid, Spain based mobile application for last-minute hotel booking, founded in 2011 by Rebeca Minguela and Miguel Ortega Rodriguez. The app presented travellers with a curated daily selection of four discounted hotels for same-day stays, working with more than 2,000 hotel partners across eight European countries, and competed directly with HotelTonight. The company raised approximately $2.5M in a Series A round in May 2012 from Ventech, Uncork Capital (then SoftTech VC), 500 Global (then 500 Startups) and Kibo Ventures. Groupon acquired Blink Booking in September 2013 to strengthen its Groupon Getaways travel division; the app was rebranded \"Blink by Groupon\" and was wound down over the following months. The company is defunct and publishes no developer surface, no API, and no documentation. Its former blinkbooking.com domain lapsed and was re-registered in August 2020 by an unrelated party; it now redirects to a third-party gambling site and must not be treated as a company property.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blink-booking/refs/heads/main/screenshots/blink-booking-2026-07-25T203318.png",
-     "score": 6.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 26
-    },
-    {
-     "name": "Circular",
-     "slug": "circular",
-     "description": "Circular was a Spanish hiring community that connected tech recruiters with software developers, describing itself as a \"Hiring Community for Tech Recruiters & Developers.\" It operated a referral-driven talent network in which recruiters shared vetted candidates they could not place themselves, and developers received job opportunities through that trusted pool rather than through cold outreach. The company was backed by Point Nine Capital and ran its candidate and recruiter landing experiences on a Next.js application served from circular.io and static.circular.io. Circular has since shut down and merged into Manfred (getmanfred.com), the largest tech community in Spain, with its own migration notice stating \"Circular cierra sus puertas para integrarse en Manfred.\" The circular.io domain remains registered to Singular People Europe S.L. but has been fully undelegated, and Point Nine no longer lists Circular in its portfolio. Circular never published a public developer program, API, SDK, or specification. This profile is retained as a historical record; there is no API surface to enrich.",
-     "score": 6.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 27
-    },
-    {
-     "name": "Groupalia",
-     "slug": "groupalia",
-     "description": "Groupalia was a Spanish group-buying / daily-deals company (a Groupon-style local commerce marketplace) founded in 2010 and backed by investors including Insight Partners, operating across Spain, Italy and parts of Latin America before consolidating in the group-buying downturn. The brand's only active surface today is the Italian domain groupalia.it, a gift-card storefront whose checkout is operated by EPIPOLI S.p.A. (mygiftcard.it); the original www.groupalia.com domain no longer resolves. No public API, developer portal, SDKs, or agent-facing surface is published, so this profile remains a consumer-company identity record rather than an API provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/groupalia/refs/heads/main/screenshots/groupalia-2026-07-25T220348.png",
-     "score": 6.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 28
     },
     {
      "name": "Masmovil",
      "slug": "masmovil",
      "description": "Masmovil (MasMovil Group) is a Spanish telecommunications operator providing mobile, fiber optic internet, and fixed-line services to consumers and businesses across Spain, with bundled fiber-plus-mobile packages, device sales, roaming, and international calling. The group operates a family of consumer telecom brands and, following its 2024 combination with Orange Spain, is part of the MasOrange joint venture. As of this enrichment pass Masmovil publishes no public developer portal, API documentation, or machine-readable API specification; the network profile carries the identity and a domain security posture probe only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/masmovil/refs/heads/main/screenshots/masmovil-2026-07-25T230330.png",
-     "score": 6.8,
+     "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 61.1,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1180,7 +1108,14 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 8.3,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1196,7 +1131,121 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 26
+    },
+    {
+     "name": "Blink Booking",
+     "slug": "blink-booking",
+     "description": "Blink Booking was a Madrid, Spain based mobile application for last-minute hotel booking, founded in 2011 by Rebeca Minguela and Miguel Ortega Rodriguez. The app presented travellers with a curated daily selection of four discounted hotels for same-day stays, working with more than 2,000 hotel partners across eight European countries, and competed directly with HotelTonight. The company raised approximately $2.5M in a Series A round in May 2012 from Ventech, Uncork Capital (then SoftTech VC), 500 Global (then 500 Startups) and Kibo Ventures. Groupon acquired Blink Booking in September 2013 to strengthen its Groupon Getaways travel division; the app was rebranded \"Blink by Groupon\" and was wound down over the following months. The company is defunct and publishes no developer surface, no API, and no documentation. Its former blinkbooking.com domain lapsed and was re-registered in August 2020 by an unrelated party; it now redirects to a third-party gambling site and must not be treated as a company property.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blink-booking/refs/heads/main/screenshots/blink-booking-2026-07-25T203318.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 27
+    },
+    {
+     "name": "Circular",
+     "slug": "circular",
+     "description": "Circular was a Spanish hiring community that connected tech recruiters with software developers, describing itself as a \"Hiring Community for Tech Recruiters & Developers.\" It operated a referral-driven talent network in which recruiters shared vetted candidates they could not place themselves, and developers received job opportunities through that trusted pool rather than through cold outreach. The company was backed by Point Nine Capital and ran its candidate and recruiter landing experiences on a Next.js application served from circular.io and static.circular.io. Circular has since shut down and merged into Manfred (getmanfred.com), the largest tech community in Spain, with its own migration notice stating \"Circular cierra sus puertas para integrarse en Manfred.\" The circular.io domain remains registered to Singular People Europe S.L. but has been fully undelegated, and Point Nine no longer lists Circular in its portfolio. Circular never published a public developer program, API, SDK, or specification. This profile is retained as a historical record; there is no API surface to enrich.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 28
+    },
+    {
+     "name": "Groupalia",
+     "slug": "groupalia",
+     "description": "Groupalia was a Spanish group-buying / daily-deals company (a Groupon-style local commerce marketplace) founded in 2010 and backed by investors including Insight Partners, operating across Spain, Italy and parts of Latin America before consolidating in the group-buying downturn. The brand's only active surface today is the Italian domain groupalia.it, a gift-card storefront whose checkout is operated by EPIPOLI S.p.A. (mygiftcard.it); the original www.groupalia.com domain no longer resolves. No public API, developer portal, SDKs, or agent-facing surface is published, so this profile remains a consumer-company identity record rather than an API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/groupalia/refs/heads/main/screenshots/groupalia-2026-07-25T220348.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 29
     }

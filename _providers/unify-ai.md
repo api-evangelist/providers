@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -61,8 +63,37 @@ apis:
 - description: Collaboration spaces for grouping assistants
   name: Unify Spaces API
   slug: unify-ai-spaces-api
-artifact_total: 22
+artifact_total: 30
+collections:
+- collection_type: postman
+  name: Unify Universal Agent API
+  slug: postman-unify-ai-agent-api
+- collection_type: postman
+  name: Unify Universal Agent Assistants API
+  slug: postman-unify-ai-assistants-api
+- collection_type: postman
+  name: Unify Universal Agent Contexts API
+  slug: postman-unify-ai-contexts-api
+- collection_type: postman
+  name: Unify Universal Agent Logs API
+  slug: postman-unify-ai-logs-api
+- collection_type: postman
+  name: Unify Universal Agent Organizations API
+  slug: postman-unify-ai-organizations-api
+- collection_type: postman
+  name: Unify Universal Agent Platform API
+  slug: postman-unify-ai-platform-api
+- collection_type: postman
+  name: Unify Universal Agent Projects API
+  slug: postman-unify-ai-projects-api
+- collection_type: postman
+  name: Unify Universal Agent Spaces API
+  slug: postman-unify-ai-spaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/unify/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,12 +203,12 @@ overview: 'Unify publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Unify catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Unify''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  Unify''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Unify Ai Plans Pricing
   plan_count: 3
   slug: unify-ai-plans-pricing
-random_paper: 54
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Unify Ai Rate Limits
@@ -193,18 +224,25 @@ rules:
   slug: unify-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 58.2
+  delta: -3.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 74.3
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 75.4
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 61.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/screenshots/unify-ai-2026-06-20T200030.png
 security:

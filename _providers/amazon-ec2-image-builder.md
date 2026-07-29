@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -236,7 +238,170 @@ arazzos:
 - description: Read an existing image pipeline, point it at a new distribution configuration, enable it, and trigger a build.
   name: Amazon EC2 Image Builder Update Pipeline and Run
   slug: amazon-ec2-image-builder-update-pipeline-and-run-workflow
-artifact_total: 1104
+artifact_total: 1158
+collections:
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation API
+  slug: postman-amazon-ec2-image-builder-cancelimagecreation-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation CreateComponent API
+  slug: postman-amazon-ec2-image-builder-createcomponent-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation CreateContainerRecipe API
+  slug: postman-amazon-ec2-image-builder-createcontainerrecipe-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation CreateDistributionConfiguration API
+  slug: postman-amazon-ec2-image-builder-createdistributionconfiguration-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation CreateImage API
+  slug: postman-amazon-ec2-image-builder-createimage-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation CreateImagePipeline API
+  slug: postman-amazon-ec2-image-builder-createimagepipeline-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation CreateImageRecipe API
+  slug: postman-amazon-ec2-image-builder-createimagerecipe-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation CreateInfrastructureConfiguration API
+  slug: postman-amazon-ec2-image-builder-createinfrastructureconfiguration-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation DeleteComponent#componentBuildVersionArn API
+  slug: postman-amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation DeleteContainerRecipe#containerRecipeArn API
+  slug: postman-amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation DeleteDistributionConfiguration#distributionConfigurationArn API
+  slug: postman-amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation DeleteImage#imageBuildVersionArn API
+  slug: postman-amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation DeleteImagePipeline#imagePipelineArn API
+  slug: postman-amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation DeleteImageRecipe#imageRecipeArn API
+  slug: postman-amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation DeleteInfrastructureConfiguration#infrastructureConfigurationArn API
+  slug: postman-amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetComponent#componentBuildVersionArn API
+  slug: postman-amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetComponentPolicy#componentArn API
+  slug: postman-amazon-ec2-image-builder-getcomponentpolicy-componentarn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetContainerRecipe#containerRecipeArn API
+  slug: postman-amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetContainerRecipePolicy#containerRecipeArn API
+  slug: postman-amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetDistributionConfiguration#distributionConfigurationArn API
+  slug: postman-amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetImage#imageBuildVersionArn API
+  slug: postman-amazon-ec2-image-builder-getimage-imagebuildversionarn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetImagePipeline#imagePipelineArn API
+  slug: postman-amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetImagePolicy#imageArn API
+  slug: postman-amazon-ec2-image-builder-getimagepolicy-imagearn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetImageRecipe#imageRecipeArn API
+  slug: postman-amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetImageRecipePolicy#imageRecipeArn API
+  slug: postman-amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetInfrastructureConfiguration#infrastructureConfigurationArn API
+  slug: postman-amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetWorkflowExecution#workflowExecutionId API
+  slug: postman-amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation GetWorkflowStepExecution#stepExecutionId API
+  slug: postman-amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ImportComponent API
+  slug: postman-amazon-ec2-image-builder-importcomponent-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ImportVmImage API
+  slug: postman-amazon-ec2-image-builder-importvmimage-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListComponentBuildVersions API
+  slug: postman-amazon-ec2-image-builder-listcomponentbuildversions-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListComponents API
+  slug: postman-amazon-ec2-image-builder-listcomponents-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListContainerRecipes API
+  slug: postman-amazon-ec2-image-builder-listcontainerrecipes-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListDistributionConfigurations API
+  slug: postman-amazon-ec2-image-builder-listdistributionconfigurations-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListImageBuildVersions API
+  slug: postman-amazon-ec2-image-builder-listimagebuildversions-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListImagePackages API
+  slug: postman-amazon-ec2-image-builder-listimagepackages-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListImagePipelineImages API
+  slug: postman-amazon-ec2-image-builder-listimagepipelineimages-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListImagePipelines API
+  slug: postman-amazon-ec2-image-builder-listimagepipelines-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListImageRecipes API
+  slug: postman-amazon-ec2-image-builder-listimagerecipes-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListImages API
+  slug: postman-amazon-ec2-image-builder-listimages-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListImageScanFindingAggregations API
+  slug: postman-amazon-ec2-image-builder-listimagescanfindingaggregations-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListImageScanFindings API
+  slug: postman-amazon-ec2-image-builder-listimagescanfindings-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListInfrastructureConfigurations API
+  slug: postman-amazon-ec2-image-builder-listinfrastructureconfigurations-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListWorkflowExecutions API
+  slug: postman-amazon-ec2-image-builder-listworkflowexecutions-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation ListWorkflowStepExecutions API
+  slug: postman-amazon-ec2-image-builder-listworkflowstepexecutions-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation PutComponentPolicy API
+  slug: postman-amazon-ec2-image-builder-putcomponentpolicy-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation PutContainerRecipePolicy API
+  slug: postman-amazon-ec2-image-builder-putcontainerrecipepolicy-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation PutImagePolicy API
+  slug: postman-amazon-ec2-image-builder-putimagepolicy-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation PutImageRecipePolicy API
+  slug: postman-amazon-ec2-image-builder-putimagerecipepolicy-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation StartImagePipelineExecution API
+  slug: postman-amazon-ec2-image-builder-startimagepipelineexecution-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation Tags API
+  slug: postman-amazon-ec2-image-builder-tags-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation UpdateDistributionConfiguration API
+  slug: postman-amazon-ec2-image-builder-updatedistributionconfiguration-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation UpdateImagePipeline API
+  slug: postman-amazon-ec2-image-builder-updateimagepipeline-api
+- collection_type: postman
+  name: EC2 Image Builder CancelImageCreation UpdateInfrastructureConfiguration API
+  slug: postman-amazon-ec2-image-builder-updateinfrastructureconfiguration-api
 common:
 - group: agent
   title: ''
@@ -3480,7 +3645,7 @@ plans:
 - name: Amazon Ec2 Image Builder Plans Pricing
   plan_count: 3
   slug: amazon-ec2-image-builder-plans-pricing
-random_paper: 45
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Amazon Ec2 Image Builder Rate Limits
@@ -3504,18 +3669,25 @@ rules:
   slug: amazon-ec2-image-builder-spectral-rules
 score:
   band: exemplar
-  composite: 75.0
-  delta: 0.0
+  composite: 71.5
+  delta: -3.5
   facets:
     commercial_clarity: 89.5
-    contract_quality: 80.5
+    contract_quality: 81.4
     developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 63.2
   previous_composite: 75.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 54
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/screenshots/amazon-ec2-image-builder-2026-07-25T200008.png
 security:

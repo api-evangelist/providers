@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -134,7 +136,7 @@ plans:
 - name: Cleanlab Plans Pricing
   plan_count: 5
   slug: cleanlab-plans-pricing
-random_paper: 2
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: Cleanlab Rate Limits
@@ -150,18 +152,25 @@ rules:
   slug: cleanlab-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 52.5
-  delta: 3.3
+  composite: 48.6
+  delta: -3.9
   facets:
     commercial_clarity: 47.4
-    contract_quality: 70.2
+    contract_quality: 70.3
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 49.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/screenshots/cleanlab-2026-07-25T205631.png
 security:

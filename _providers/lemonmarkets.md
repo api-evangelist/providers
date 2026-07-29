@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 61.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -240,26 +242,37 @@ overview: 'lemon.markets publishes 17 APIs on the [APIs.io](https://apis.io/) ne
 
 
   lemon.markets'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, changelog, support, and 25 more developer resources.'
-random_paper: 6
+random_paper: 66
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 48.2
+  delta: -3.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.9
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 62.4
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 52.6
   previous_composite: 51.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonmarkets/refs/heads/main/screenshots/lemonmarkets-2026-07-25T224849.png
 security:

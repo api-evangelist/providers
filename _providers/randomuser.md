@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +176,7 @@ plans:
 - name: Randomuser Plans Pricing
   plan_count: 1
   slug: randomuser-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Randomuser Rate Limits
@@ -197,20 +199,27 @@ rules:
     warn: 3
   slug: randomuser-rules
 score:
-  band: developing
-  composite: 48.4
-  delta: 5.5
+  band: thin
+  composite: 41.3
+  delta: -7.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.1
+    contract_quality: 56.8
     developer_ergonomics: 13.0
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 42.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 48.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/screenshots/randomuser-2026-06-20T192554.png
 security:
 - kind: domain-security

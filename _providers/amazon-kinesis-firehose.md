@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: Firehose delivery stream management
   name: Amazon Kinesis Data Firehose Delivery Streams API
   slug: amazon-kinesis-firehose-delivery-streams-api
-artifact_total: 30
+artifact_total: 31
 collections:
+- collection_type: postman
+  name: Amazon Kinesis Data Firehose Delivery Streams API
+  slug: postman-amazon-kinesis-firehose-delivery-streams-api
 - collection_type: open
   name: Amazon Kinesis Data Firehose API
   slug: open-amazon-kinesis-firehose
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-kinesis-data-firehose/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -179,12 +188,12 @@ overview: 'Amazon Kinesis Data Firehose publishes 1 API on the [APIs.io](https:/
   The Amazon Kinesis Data Firehose catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Kinesis Data Firehose''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 13 more developer resources.'
+  Amazon Kinesis Data Firehose''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Kinesis Firehose Plans Pricing
   plan_count: 3
   slug: amazon-kinesis-firehose-plans-pricing
-random_paper: 35
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Amazon Kinesis Firehose Rate Limits
@@ -208,18 +217,25 @@ rules:
   slug: amazon-kinesis-firehose-spectral-rules
 score:
   band: strong
-  composite: 66.9
-  delta: 4.6
+  composite: 64.6
+  delta: -2.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.9
-    developer_ergonomics: 39.1
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 71.2
+    developer_ergonomics: 43.5
+    discoverability: 66.7
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 62.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/screenshots/amazon-kinesis-firehose-2026-06-20T171717.png
 security:

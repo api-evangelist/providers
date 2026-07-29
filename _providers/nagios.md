@@ -13,11 +13,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -25,9 +27,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -278,7 +280,7 @@ plans:
 - name: Nagios Plans Pricing
   plan_count: 4
   slug: nagios-plans-pricing
-random_paper: 29
+random_paper: 25
 rules:
 - name: Nagios API Rules
   rule_count: 5
@@ -306,19 +308,26 @@ rules:
   slug: ncpa-rules
 score:
   band: developing
-  composite: 52.6
-  delta: 5.5
+  composite: 46.9
+  delta: -5.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 69.6
+    contract_quality: 65.7
     developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 47.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 52.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/screenshots/nagios-2026-06-20T185930.png
 security:
 - kind: authentication

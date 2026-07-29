@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -97,8 +99,62 @@ apis:
 - description: Outbound event subscriptions.
   name: Lever Webhooks API
   slug: lever-co-webhooks-api
-artifact_total: 36
+artifact_total: 54
 collections:
+- collection_type: postman
+  name: Lever Data Applications API
+  slug: postman-lever-co-applications-api
+- collection_type: postman
+  name: Lever Data Applications Archive Reasons API
+  slug: postman-lever-co-archive-reasons-api
+- collection_type: postman
+  name: Lever Data Applications Audit Events API
+  slug: postman-lever-co-audit-events-api
+- collection_type: postman
+  name: Lever Data Applications EEO Responses API
+  slug: postman-lever-co-eeo-responses-api
+- collection_type: postman
+  name: Lever Data Applications Feedback API
+  slug: postman-lever-co-feedback-api
+- collection_type: postman
+  name: Lever Data Applications Files API
+  slug: postman-lever-co-files-api
+- collection_type: postman
+  name: Lever Data Applications Interviews API
+  slug: postman-lever-co-interviews-api
+- collection_type: postman
+  name: Lever Data Applications Notes API
+  slug: postman-lever-co-notes-api
+- collection_type: postman
+  name: Lever Data Applications Offers API
+  slug: postman-lever-co-offers-api
+- collection_type: postman
+  name: Lever Data Applications Opportunities API
+  slug: postman-lever-co-opportunities-api
+- collection_type: postman
+  name: Lever Data Applications Panels API
+  slug: postman-lever-co-panels-api
+- collection_type: postman
+  name: Lever Data Applications Postings API
+  slug: postman-lever-co-postings-api
+- collection_type: postman
+  name: Lever Data Applications Requisitions API
+  slug: postman-lever-co-requisitions-api
+- collection_type: postman
+  name: Lever Data Applications Sources API
+  slug: postman-lever-co-sources-api
+- collection_type: postman
+  name: Lever Data Applications Stages API
+  slug: postman-lever-co-stages-api
+- collection_type: postman
+  name: Lever Data Applications Tags API
+  slug: postman-lever-co-tags-api
+- collection_type: postman
+  name: Lever Data Applications Users API
+  slug: postman-lever-co-users-api
+- collection_type: postman
+  name: Lever Data Applications Webhooks API
+  slug: postman-lever-co-webhooks-api
 - collection_type: open
   name: Lever Data API
   slug: open-lever-data-api
@@ -109,6 +165,10 @@ collections:
   name: Lever Webhooks
   slug: open-lever-webhooks-asyncapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lever/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -248,12 +308,12 @@ overview: 'Lever publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
   The Lever catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Lever''s developer surface includes authentication, developer portal, documentation, support, engineering blog, pricing, and 22 more developer resources.'
+  Lever''s developer surface includes authentication, developer portal, documentation, support, engineering blog, pricing, and 23 more developer resources.'
 plans:
 - name: Lever Co Plans Pricing
   plan_count: 1
   slug: lever-co-plans-pricing
-random_paper: 49
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Lever Co Rate Limits
@@ -274,18 +334,25 @@ scopes:
   summary_line: 22 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.2
-  delta: 3.9
+  composite: 59.5
+  delta: -2.7
   facets:
     commercial_clarity: 68.4
-    contract_quality: 70.6
-    developer_ergonomics: 34.8
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 71.5
+    developer_ergonomics: 39.1
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 58.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 94.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/screenshots/lever-co-2026-06-20T184439.png
 security:

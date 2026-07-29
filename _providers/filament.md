@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Signature-authenticated REST + WebSocket order-book API for the Filament perpetual DEX on Sei. Place limit/market orders, cancel orders, manage isolated collateral, set TP/SL, read tradable assets wit
@@ -133,26 +135,30 @@ overview: 'Filament publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Filament''s developer surface includes documentation, API reference, getting-started guide, engineering blog, sandbox, authentication, and 13 more developer resources.'
-random_paper: 32
+random_paper: 1
 score:
-  band: emerging
-  composite: 29.5
-  delta: 0.0
+  band: thin
+  composite: 30.8
+  delta: 1.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 27.8
-    developer_ergonomics: 69.6
-    discoverability: 92.5
+    contract_quality: 49.4
+    developer_ergonomics: 58.2
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 29.5
+  provenance:
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/screenshots/filament-2026-07-25T214446.png
 security:

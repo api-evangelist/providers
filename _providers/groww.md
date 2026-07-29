@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,8 +57,31 @@ apis:
 - description: Holdings and positions.
   name: Groww Portfolio API
   slug: groww-portfolio-api
-artifact_total: 13
+artifact_total: 19
+collections:
+- collection_type: postman
+  name: Groww Trading Authentication API
+  slug: postman-groww-authentication-api
+- collection_type: postman
+  name: Groww Trading Authentication Historical Data API
+  slug: postman-groww-historical-data-api
+- collection_type: postman
+  name: Groww Trading Authentication Live Data API
+  slug: postman-groww-live-data-api
+- collection_type: postman
+  name: Groww Trading Authentication Margin API
+  slug: postman-groww-margin-api
+- collection_type: postman
+  name: Groww Trading Authentication Orders API
+  slug: postman-groww-orders-api
+- collection_type: postman
+  name: Groww Trading Authentication Portfolio API
+  slug: postman-groww-portfolio-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/groww/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -196,12 +221,12 @@ network: true
 overview: 'Groww publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Historical Data API, Live Data API, and 3 more. Tagged areas include Company, Fintech, Trading, Investing, and Stock Broking.
 
 
-  Groww''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 24 more developer resources.'
+  Groww''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
 plans:
 - name: Groww Plans
   plan_count: 1
   slug: groww-plans
-random_paper: 22
+random_paper: 27
 rate_limits:
 - limit_count: 7
   name: Groww Rate Limits
@@ -213,23 +238,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.1
-  delta: 0.0
+  composite: 58.6
+  delta: -1.5
   facets:
     commercial_clarity: 65.8
-    contract_quality: 56.6
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 58.5
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 60.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png
 security:

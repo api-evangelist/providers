@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -79,8 +81,44 @@ apis:
 - description: The webhooks API from E2B — 2 operation(s) for webhooks.
   name: E2B webhooks API
   slug: e2b-dev-webhooks-api
-artifact_total: 47
+artifact_total: 59
 collections:
+- collection_type: postman
+  name: E2B access-tokens API
+  slug: postman-e2b-dev-access-tokens-api
+- collection_type: postman
+  name: E2B access-tokens admin API
+  slug: postman-e2b-dev-admin-api
+- collection_type: postman
+  name: E2B access-tokens api-keys API
+  slug: postman-e2b-dev-api-keys-api
+- collection_type: postman
+  name: E2B access-tokens auth API
+  slug: postman-e2b-dev-auth-api
+- collection_type: postman
+  name: E2B access-tokens events API
+  slug: postman-e2b-dev-events-api
+- collection_type: postman
+  name: E2B access-tokens Health API
+  slug: postman-e2b-dev-health-api
+- collection_type: postman
+  name: E2B access-tokens sandboxes API
+  slug: postman-e2b-dev-sandboxes-api
+- collection_type: postman
+  name: E2B access-tokens snapshots API
+  slug: postman-e2b-dev-snapshots-api
+- collection_type: postman
+  name: E2B access-tokens tags API
+  slug: postman-e2b-dev-tags-api
+- collection_type: postman
+  name: E2B access-tokens templates API
+  slug: postman-e2b-dev-templates-api
+- collection_type: postman
+  name: E2B access-tokens volumes API
+  slug: postman-e2b-dev-volumes-api
+- collection_type: postman
+  name: E2B access-tokens webhooks API
+  slug: postman-e2b-dev-webhooks-api
 - collection_type: open
   name: E2B API
   slug: open-e2b-api
@@ -91,6 +129,10 @@ collections:
   name: E2B API
   slug: open-e2b-volumes
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/e2b/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -338,12 +380,12 @@ overview: 'E2B publishes 12 APIs on the [APIs.io](https://apis.io/) network, inc
   The E2B catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  E2B''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, signup flow, engineering blog, and 41 more developer resources.'
+  E2B''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, signup flow, engineering blog, and 42 more developer resources.'
 plans:
 - name: E2B Dev Plans Pricing
   plan_count: 3
   slug: e2b-dev-plans-pricing
-random_paper: 1
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: E2B Dev Rate Limits
@@ -359,18 +401,25 @@ rules:
   slug: e2b-dev-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.7
-  delta: 4.2
+  composite: 61.8
+  delta: -2.9
   facets:
     commercial_clarity: 68.4
-    contract_quality: 63.6
-    developer_ergonomics: 73.9
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 64.9
+    developer_ergonomics: 78.3
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 60.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/screenshots/e2b-dev-2026-06-20T180353.png
 security:

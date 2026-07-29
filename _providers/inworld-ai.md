@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -55,12 +57,27 @@ apis:
 - description: Voice cloning, design, and lifecycle.
   name: Inworld AI Voices API
   slug: inworld-ai-voices-api
-artifact_total: 52
+artifact_total: 57
 asyncapis:
 - description: 'AsyncAPI description of Inworld AI''s publicly documented runtime WebSocket surface. Inworld exposes three independent WebSocket endpoints: * **TTS streaming** — bidirectional text-to-speech synthesis '
   name: Inworld AI Runtime WebSocket APIs
   slug: inworld-ai-asyncapi
 collections:
+- collection_type: postman
+  name: Inworld Models API
+  slug: postman-inworld-ai-models-api
+- collection_type: postman
+  name: Inworld Models Realtime API
+  slug: postman-inworld-ai-realtime-api
+- collection_type: postman
+  name: Inworld Models Speech To Text API
+  slug: postman-inworld-ai-speech-to-text-api
+- collection_type: postman
+  name: Inworld Models Text To Speech API
+  slug: postman-inworld-ai-text-to-speech-api
+- collection_type: postman
+  name: Inworld Models Voices API
+  slug: postman-inworld-ai-voices-api
 - collection_type: open
   name: Inworld Models API
   slug: open-inworld-models-api
@@ -77,6 +94,10 @@ collections:
   name: Inworld Voice API
   slug: open-inworld-voice-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/inworld-ai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -366,12 +387,12 @@ overview: 'Inworld AI publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Inworld AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Inworld AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, code examples, and 49 more developer resources.'
+  Inworld AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, code examples, and 50 more developer resources.'
 plans:
 - name: Inworld Ai Plans Pricing
   plan_count: 5
   slug: inworld-ai-plans-pricing
-random_paper: 62
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Inworld Ai Rate Limits
@@ -402,20 +423,33 @@ rules:
     warn: 5
   slug: inworld-ai-rules
 score:
-  band: exemplar
-  composite: 70.4
-  delta: 3.3
+  band: strong
+  composite: 62.0
+  delta: -8.4
   facets:
     commercial_clarity: 57.9
-    contract_quality: 78.2
-    developer_ergonomics: 65.2
-    discoverability: 87.5
-    governance: 60.5
+    contract_quality: 78.3
+    developer_ergonomics: 69.6
+    discoverability: 64.8
+    governance: 47.9
     operational_transparency: 78.9
-  previous_composite: 67.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 70.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 30.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/screenshots/inworld-ai-2026-06-20T183526.png
 security:
 - kind: authentication

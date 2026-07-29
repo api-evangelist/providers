@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 12.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: API for publishing streams of records to Kafka topics.
@@ -113,7 +115,7 @@ plans:
 - name: Kafka Plans Pricing
   plan_count: 3
   slug: kafka-plans-pricing
-random_paper: 34
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Kafka Rate Limits
@@ -129,18 +131,24 @@ rules:
   slug: kafka-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 39.1
+  delta: -0.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 60.5
+    discoverability: 64.8
+    governance: 47.9
     operational_transparency: 36.8
   previous_composite: 39.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kafka/refs/heads/main/screenshots/kafka-2026-06-20T183849.png
 security:

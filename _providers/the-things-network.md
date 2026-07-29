@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -211,8 +213,182 @@ apis:
 - description: The UserSessionRegistry API from The Things Network / The Things Stack — 2 operation(s) for usersessionregistry.
   name: The Things Network / The Things Stack UserSessionRegistry API
   slug: the-things-network-usersessionregistry-api
-artifact_total: 94
+artifact_total: 152
 collections:
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs API
+  slug: postman-the-things-network-appas-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ApplicationAccess API
+  slug: postman-the-things-network-applicationaccess-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ApplicationActivationSettingRegistry API
+  slug: postman-the-things-network-applicationactivationsettingregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ApplicationPackageRegistry API
+  slug: postman-the-things-network-applicationpackageregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ApplicationPubSubRegistry API
+  slug: postman-the-things-network-applicationpubsubregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ApplicationRegistry API
+  slug: postman-the-things-network-applicationregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ApplicationUpStorage API
+  slug: postman-the-things-network-applicationupstorage-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ApplicationWebhookRegistry API
+  slug: postman-the-things-network-applicationwebhookregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs As API
+  slug: postman-the-things-network-as-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs AsEndDeviceBatchRegistry API
+  slug: postman-the-things-network-asenddevicebatchregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs AsEndDeviceRegistry API
+  slug: postman-the-things-network-asenddeviceregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ClientAccess API
+  slug: postman-the-things-network-clientaccess-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ClientRegistry API
+  slug: postman-the-things-network-clientregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs Configuration API
+  slug: postman-the-things-network-configuration-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ContactInfoRegistry API
+  slug: postman-the-things-network-contactinforegistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs DeviceRepository API
+  slug: postman-the-things-network-devicerepository-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EmailValidationRegistry API
+  slug: postman-the-things-network-emailvalidationregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EndDeviceBatchClaimingServer API
+  slug: postman-the-things-network-enddevicebatchclaimingserver-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EndDeviceBatchRegistry API
+  slug: postman-the-things-network-enddevicebatchregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EndDeviceClaimingServer API
+  slug: postman-the-things-network-enddeviceclaimingserver-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EndDeviceQRCodeGenerator API
+  slug: postman-the-things-network-enddeviceqrcodegenerator-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EndDeviceRegistry API
+  slug: postman-the-things-network-enddeviceregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EndDeviceRegistrySearch API
+  slug: postman-the-things-network-enddeviceregistrysearch-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EndDeviceTemplateConverter API
+  slug: postman-the-things-network-enddevicetemplateconverter-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EntityAccess API
+  slug: postman-the-things-network-entityaccess-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs EntityRegistrySearch API
+  slug: postman-the-things-network-entityregistrysearch-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs Events API
+  slug: postman-the-things-network-events-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs GatewayAccess API
+  slug: postman-the-things-network-gatewayaccess-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs GatewayBatchAccess API
+  slug: postman-the-things-network-gatewaybatchaccess-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs GatewayBatchRegistry API
+  slug: postman-the-things-network-gatewaybatchregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs GatewayClaimingServer API
+  slug: postman-the-things-network-gatewayclaimingserver-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs GatewayConfigurationService API
+  slug: postman-the-things-network-gatewayconfigurationservice-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs GatewayQRCodeGenerator API
+  slug: postman-the-things-network-gatewayqrcodegenerator-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs GatewayRegistry API
+  slug: postman-the-things-network-gatewayregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs Gs API
+  slug: postman-the-things-network-gs-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs GtwGs API
+  slug: postman-the-things-network-gtwgs-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs Is API
+  slug: postman-the-things-network-is-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs Js API
+  slug: postman-the-things-network-js-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs JsEndDeviceBatchRegistry API
+  slug: postman-the-things-network-jsenddevicebatchregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs JsEndDeviceRegistry API
+  slug: postman-the-things-network-jsenddeviceregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ManagedGatewayConfigurationService API
+  slug: postman-the-things-network-managedgatewayconfigurationservice-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ManagedGatewayEthernetProfileConfigurationService API
+  slug: postman-the-things-network-managedgatewayethernetprofileconfigurationservice-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs ManagedGatewayWiFiProfileConfigurationService API
+  slug: postman-the-things-network-managedgatewaywifiprofileconfigurationservice-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs NotificationService API
+  slug: postman-the-things-network-notificationservice-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs Ns API
+  slug: postman-the-things-network-ns-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs NsEndDeviceBatchRegistry API
+  slug: postman-the-things-network-nsenddevicebatchregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs NsEndDeviceRegistry API
+  slug: postman-the-things-network-nsenddeviceregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs NsMACSettingsProfileRegistry API
+  slug: postman-the-things-network-nsmacsettingsprofileregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs NsRelayConfigurationService API
+  slug: postman-the-things-network-nsrelayconfigurationservice-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs OAuthAuthorizationRegistry API
+  slug: postman-the-things-network-oauthauthorizationregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs OrganizationAccess API
+  slug: postman-the-things-network-organizationaccess-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs OrganizationRegistry API
+  slug: postman-the-things-network-organizationregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs Pba API
+  slug: postman-the-things-network-pba-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs UserAccess API
+  slug: postman-the-things-network-useraccess-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs UserBookmarkRegistry API
+  slug: postman-the-things-network-userbookmarkregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs UserInvitationRegistry API
+  slug: postman-the-things-network-userinvitationregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs UserRegistry API
+  slug: postman-the-things-network-userregistry-api
+- collection_type: postman
+  name: The Things Stack — Application Server AppAs UserSessionRegistry API
+  slug: postman-the-things-network-usersessionregistry-api
 - collection_type: open
   name: The Things Stack — Application Server
   slug: open-the-things-stack-application-server
@@ -241,6 +417,10 @@ collections:
   name: The Things Stack — Packet Broker Agent
   slug: open-the-things-stack-packet-broker-agent
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/the-things-network--the-things-stack/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -464,12 +644,12 @@ overview: 'The Things Network / The Things Stack publishes 58 APIs on the [APIs.
   The The Things Network / The Things Stack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  The Things Network / The Things Stack''s developer surface includes authentication, developer portal, documentation, CLI, changelog, tooling, engineering blog, and 30 more developer resources.'
+  The Things Network / The Things Stack''s developer surface includes authentication, developer portal, documentation, CLI, changelog, tooling, engineering blog, and 31 more developer resources.'
 plans:
 - name: The Things Network Plans Pricing
   plan_count: 6
   slug: the-things-network-plans-pricing
-random_paper: 6
+random_paper: 71
 rate_limits:
 - limit_count: 7
   name: The Things Network Rate Limits
@@ -493,19 +673,26 @@ rules:
   slug: the-things-network-rules
 score:
   band: strong
-  composite: 62.0
-  delta: 6.0
+  composite: 56.1
+  delta: -5.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 71.7
-    developer_ergonomics: 47.8
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 61.3
+    developer_ergonomics: 52.2
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 56.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 62.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 58
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png
 security:
 - kind: authentication

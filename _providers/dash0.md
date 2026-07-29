@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: flavored
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 64.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -96,6 +98,10 @@ asyncapis:
   name: Dash0 Webhooks
   slug: dash0-webhooks
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/dash0-a2a.yml
 - group: company
   title: ''
   type: Website
@@ -266,27 +272,37 @@ overview: 'Dash0 publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
   The Dash0 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 56
+  Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+random_paper: 2
 scopes:
 - name: Dash0 Scopes
   scope_count: 1
   slug: dash0-scopes
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
-  band: developing
-  composite: 59.8
-  delta: 0.0
+  band: strong
+  composite: 60.6
+  delta: 0.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 57.7
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 75.5
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 59.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/screenshots/dash0-2026-07-25T211225.png
 security:

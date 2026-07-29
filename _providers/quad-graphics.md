@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,21 +75,21 @@ press:
 - date: '2026-05-25'
   title: Quad makes audience creation easier, faster and more ...
   url: https://www.prnewswire.com/news-releases/quad-makes-audience-creation-easier-faster-and-more-precise-with-natural-language-ai-prompts-powered-by-snowflake-302578665.html
-random_paper: 29
+random_paper: 12
 score:
   band: minimal
-  composite: 4.7
-  delta: 0.0
+  composite: 3.6
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 42.5
+    discoverability: 31.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quad-graphics/refs/heads/main/screenshots/quad-graphics-2026-06-20T192354.png
 security:

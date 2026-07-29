@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
-    idempotency: true
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.3
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Core CDP API v2 for onchain wallets, payments, trading, faucets, policies, and JSON-RPC access, authenticated with short-lived JWTs.
@@ -184,26 +186,30 @@ overview: 'Coinbase Global publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Coinbase Global''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, changelog, and 21 more developer resources.'
-random_paper: 10
+random_paper: 43
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 52.3
+  delta: 3.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 80.4
-    discoverability: 100.0
+    discoverability: 92.6
     governance: 0.0
     operational_transparency: 55.3
   previous_composite: 49.2
+  provenance:
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 40.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase-global/refs/heads/main/screenshots/coinbase-global-2026-07-25T210033.png
 security:

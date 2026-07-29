@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,12 +63,19 @@ apis:
 - description: The Amazon EC2 API API from Amazon Web Services (AWS) — 1 operation(s) for amazon ec2 api.
   name: Amazon Web Services (AWS) Amazon EC2 API API
   slug: amazon-web-services-aws-amazon-ec2-api-api
-artifact_total: 24
+artifact_total: 25
 collections:
+- collection_type: postman
+  name: Amazon EC2 Amazon EC2 API API
+  slug: postman-amazon-web-services-aws-amazon-ec2-api-api
 - collection_type: open
   name: Amazon EC2 API
   slug: open-amazon-web-services-aws
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-web-services-aws/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -227,12 +236,12 @@ overview: 'Amazon Web Services (AWS) publishes 1 API on the [APIs.io](https://ap
   The Amazon Web Services (AWS) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Web Services (AWS)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, pricing, and 24 more developer resources.'
+  Amazon Web Services (AWS)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, pricing, and 25 more developer resources.'
 plans:
 - name: Amazon Web Services Aws Plans Pricing
   plan_count: 3
   slug: amazon-web-services-aws-plans-pricing
-random_paper: 54
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Amazon Web Services Aws Rate Limits
@@ -247,19 +256,26 @@ rules:
     warn: 7
   slug: amazon-web-services-aws-spectral-rules
 score:
-  band: strong
-  composite: 67.5
-  delta: 2.5
+  band: exemplar
+  composite: 66.4
+  delta: -1.1
   facets:
     commercial_clarity: 86.8
-    contract_quality: 64.6
-    developer_ergonomics: 65.2
-    discoverability: 80.0
-    governance: 39.5
+    contract_quality: 66.1
+    developer_ergonomics: 69.6
+    discoverability: 66.7
+    governance: 31.3
     operational_transparency: 63.2
-  previous_composite: 65.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/screenshots/amazon-web-services-aws-2026-06-20T171847.png
 security:

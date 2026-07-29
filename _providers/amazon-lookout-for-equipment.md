@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: Equipment sensor dataset management
   name: Amazon Lookout for Equipment Datasets API
   slug: amazon-lookout-for-equipment-datasets-api
-artifact_total: 28
+artifact_total: 29
 collections:
+- collection_type: postman
+  name: Amazon Lookout for Equipment Datasets API
+  slug: postman-amazon-lookout-for-equipment-datasets-api
 - collection_type: open
   name: Amazon Lookout for Equipment API
   slug: open-amazon-lookout-for-equipment
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-lookout-for-equipment/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,12 +190,12 @@ overview: 'Amazon Lookout for Equipment publishes 1 API on the [APIs.io](https:/
   The Amazon Lookout for Equipment catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lookout for Equipment''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Lookout for Equipment''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Lookout For Equipment Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-equipment-plans-pricing
-random_paper: 17
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Equipment Rate Limits
@@ -210,19 +219,26 @@ rules:
   slug: amazon-lookout-for-equipment-spectral-rules
 score:
   band: strong
-  composite: 68.2
-  delta: 5.5
+  composite: 65.1
+  delta: -3.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 45.7
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 62.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 68.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-equipment/refs/heads/main/screenshots/amazon-lookout-for-equipment-2026-06-20T171729.png
 security:
 - kind: authentication

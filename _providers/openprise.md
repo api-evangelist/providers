@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Openprise's "API Factory" lets RevOps teams turn business processes into custom APIs on top of the RevOps Data Automation (RDA) Cloud. Public REST API endpoints are not openly documented; access is pr
@@ -78,25 +80,25 @@ plans:
 - name: Openprise Plans Pricing
   plan_count: 3
   slug: openprise-plans-pricing
-random_paper: 29
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Openprise Rate Limits
   slug: openprise-rate-limits
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 21.3
+  delta: -2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 23.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprise/refs/heads/main/screenshots/openprise-2026-06-20T191021.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,12 +57,29 @@ apis:
 - description: Click-to-call and outbound voice.
   name: Kaleyra Voice API
   slug: kaleyra-voice-api
-artifact_total: 16
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Kaleyra Webhooks
   slug: kaleyra-webhooks
+collections:
+- collection_type: postman
+  name: Kaleyra CPaaS Messages API
+  slug: postman-kaleyra-messages-api
+- collection_type: postman
+  name: Kaleyra CPaaS Messages Verify API
+  slug: postman-kaleyra-verify-api
+- collection_type: postman
+  name: Kaleyra CPaaS Messages Video API
+  slug: postman-kaleyra-video-api
+- collection_type: postman
+  name: Kaleyra CPaaS Messages Voice API
+  slug: postman-kaleyra-voice-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kaleyra/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -235,30 +254,46 @@ overview: 'Kaleyra publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   The Kaleyra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kaleyra''s developer surface includes authentication, changelog, getting-started guide, API reference, support, documentation, engineering blog, and 31 more developer resources.'
+  Kaleyra''s developer surface includes authentication, changelog, getting-started guide, API reference, support, documentation, engineering blog, and 32 more developer resources.'
 plans:
 - name: Kaleyra Plans Pricing
   plan_count: 2
   slug: kaleyra-plans-pricing
-random_paper: 65
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: Kaleyra Rate Limits
   slug: kaleyra-rate-limits
 score:
   band: strong
-  composite: 67.3
-  delta: 0.0
+  composite: 63.4
+  delta: -3.9
   facets:
     commercial_clarity: 65.8
-    contract_quality: 68.6
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.1
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 86.8
   previous_composite: 67.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png
 security:

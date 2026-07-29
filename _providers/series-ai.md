@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 17.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Client-side JavaScript/TypeScript SDK (@series-inc/rundot-game-sdk) that gives an HTML5 game access to RUN.world platform services through a single RundotGameAPI import: storage scopes, profiles, lead'
@@ -134,21 +136,23 @@ overview: 'Series AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Series AI''s developer surface includes documentation, API reference, getting-started guide, CLI, sandbox, changelog, authentication, and 15 more developer resources.'
-random_paper: 14
+random_paper: 51
 score:
-  band: emerging
-  composite: 29.8
-  delta: 0.0
+  band: thin
+  composite: 28.3
+  delta: -1.5
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 71.7
-    discoverability: 92.5
+    developer_ergonomics: 66.8
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 29.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

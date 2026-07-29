@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Real-time, intraday and historical market data API with 45 endpoints spanning end-of-day bars, intraday bars, real-time stock prices, commodities, company ratings, splits, dividends, tickers, indexes,
@@ -171,30 +173,35 @@ plans:
 - name: Marketstack Plans
   plan_count: 5
   slug: marketstack-plans
-random_paper: 22
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Marketstack Rate Limits
   slug: marketstack-rate-limits
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.9
+  delta: -1.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 37.7
-    developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 66.8
+    discoverability: 94.4
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 50.9
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png
 security:

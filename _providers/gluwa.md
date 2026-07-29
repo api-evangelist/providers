@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for the Gluwa borderless financial platform — balances, fees, transactions, payment QR codes, wrap/unwrap, and the Exchange API (quotes, orders, order books). Secured with API keys and addres
@@ -125,26 +127,27 @@ overview: 'Gluwa publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gluwa''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, changelog, and 11 more developer resources.'
-random_paper: 0
+random_paper: 5
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 34.9
+  delta: 3.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 54.3
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 31.2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/screenshots/gluwa-2026-07-25T215947.png
 security:

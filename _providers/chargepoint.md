@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Retrieve detailed information about ChargePoint charging stations, including location, address, GPS coordinates, power specifications, port counts, pricing, and station model details. Supports filteri
@@ -165,25 +167,31 @@ plans:
 - name: Chargepoint Plans
   plan_count: 3
   slug: chargepoint-plans
-random_paper: 16
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Chargepoint Rate Limits
   slug: chargepoint-rate-limits
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 33.5
+  delta: -2.8
   facets:
     commercial_clarity: 57.9
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 36.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 28.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargepoint/refs/heads/main/screenshots/chargepoint-2026-06-20T174221.png
 security:

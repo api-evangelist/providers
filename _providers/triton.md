@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -222,7 +224,7 @@ plans:
 - name: Triton Plans Pricing
   plan_count: 2
   slug: triton-plans-pricing
-random_paper: 60
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Triton Rate Limits
@@ -246,19 +248,26 @@ rules:
   slug: triton-rules
 score:
   band: developing
-  composite: 47.8
-  delta: 2.0
+  composite: 42.6
+  delta: -5.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.7
+    contract_quality: 53.7
     developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 45.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 47.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/screenshots/triton-2026-06-20T195735.png
 slug: triton
 tags:

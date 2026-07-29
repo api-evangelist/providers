@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -172,7 +174,7 @@ plans:
 - name: Rubygems Plans Pricing
   plan_count: 1
   slug: rubygems-plans-pricing
-random_paper: 62
+random_paper: 31
 rate_limits:
 - limit_count: 6
   name: Rubygems Rate Limits
@@ -204,18 +206,25 @@ rules:
   slug: rubygems-spectral-rules
 score:
   band: developing
-  composite: 48.7
-  delta: 3.3
+  composite: 45.6
+  delta: -3.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 72.3
+    contract_quality: 71.9
     developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 26.3
+    discoverability: 64.8
+    governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 45.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 48.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/screenshots/rubygems-2026-06-20T193246.png
 security:

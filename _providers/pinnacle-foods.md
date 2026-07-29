@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,21 +67,21 @@ press:
 - date: '2026-05-25'
   title: Conagra Brands 'agrees to buy Pinnacle Foods'
   url: https://www.just-food.com/news/conagra-brands-agrees-to-buy-pinnacle-foods/
-random_paper: 66
+random_paper: 40
 score:
   band: minimal
-  composite: 3.5
-  delta: 0.0
+  composite: 2.6
+  delta: -0.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 35.0
+    discoverability: 25.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 3.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinnacle-foods/refs/heads/main/screenshots/pinnacle-foods-2026-06-20T191717.png
 security:

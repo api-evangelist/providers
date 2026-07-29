@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -61,12 +63,31 @@ apis:
 - description: Configuration key-value stores for policy runtime use
   name: SAP API Management Key Value Maps API
   slug: sap-api-management-key-value-maps-api
-artifact_total: 25
+artifact_total: 30
 collections:
+- collection_type: postman
+  name: SAP API Management API Portal API Products API
+  slug: postman-sap-api-management-api-products-api
+- collection_type: postman
+  name: SAP API Management API Portal API Products API Providers API
+  slug: postman-sap-api-management-api-providers-api
+- collection_type: postman
+  name: SAP API Management API Portal API Products API Proxies API
+  slug: postman-sap-api-management-api-proxies-api
+- collection_type: postman
+  name: SAP API Management API Portal API Products Applications API
+  slug: postman-sap-api-management-applications-api
+- collection_type: postman
+  name: SAP API Management API Portal API Products Key Value Maps API
+  slug: postman-sap-api-management-key-value-maps-api
 - collection_type: open
   name: SAP API Management API Portal API
   slug: open-sap-api-management-portal
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sap-api-management/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -204,12 +225,12 @@ overview: 'SAP API Management publishes 5 APIs on the [APIs.io](https://apis.io/
   The SAP API Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP API Management''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 17 more developer resources.'
+  SAP API Management''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, YouTube channel, and 18 more developer resources.'
 plans:
 - name: Sap Api Management Plans Pricing
   plan_count: 1
   slug: sap-api-management-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Sap Api Management Rate Limits
@@ -238,18 +259,25 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 60.2
-  delta: 4.2
+  composite: 56.2
+  delta: -4.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
-    developer_ergonomics: 45.7
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 67.8
+    developer_ergonomics: 50.0
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 56.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/screenshots/sap-api-management-2026-06-20T193414.png
 security:

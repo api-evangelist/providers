@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The Redox FHIR R4 API exposes HL7 FHIR R4 resources for healthcare data exchange between connected systems, supporting FHIR notifications, queries, and writeback messages over an OAuth 2.0-secured bas
@@ -209,26 +211,27 @@ overview: 'Redox publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Redox''s developer surface includes documentation, API reference, getting-started guide, authentication, developer console, sandbox, pricing, and 17 more developer resources.'
-random_paper: 65
+random_paper: 66
 score:
-  band: thin
-  composite: 31.3
-  delta: 0.0
+  band: emerging
+  composite: 27.0
+  delta: -4.3
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 31.3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 21.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redox-engine/refs/heads/main/screenshots/redox-engine-2026-06-20T192731.png
 security:

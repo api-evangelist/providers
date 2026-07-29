@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API on Autodesk Platform Services (APS) exposing BuildingConnected preconstruction data — opportunities, bid packages, and users — versioned under /v2 and secured with Autodesk OAuth 2.0.
@@ -122,26 +124,28 @@ overview: 'Buildingconnected publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Buildingconnected''s developer surface includes getting-started guide, support, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 25
+random_paper: 22
 scopes:
 - name: Buildingconnected Scopes
   scope_count: 16
   slug: buildingconnected-scopes
   summary_line: 16 scopes
 score:
-  band: emerging
-  composite: 29.9
-  delta: 0.0
+  band: thin
+  composite: 30.9
+  delta: 1.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 37.0
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 29.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildingconnected/refs/heads/main/screenshots/buildingconnected-2026-07-25T204053.png
 security:

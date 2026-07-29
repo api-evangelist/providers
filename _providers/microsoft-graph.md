@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17655
   human_in_the_loop: 93
@@ -1728,16 +1730,836 @@ apis:
 - description: The users.userTeamwork API from Microsoft Graph — 12 operation(s) for users.userteamwork.
   name: Microsoft Graph users.userTeamwork API
   slug: microsoft-graph-users-userteamwork-api
-artifact_total: 4828
+artifact_total: 5100
 asyncapis:
 - description: Microsoft Graph change notifications enable applications to receive real-time notifications when data changes occur in Microsoft Graph resources. Applications create subscriptions specifying which res
   name: Microsoft Graph Change Notifications
   slug: microsoft-graph-change-notifications-asyncapi
 collections:
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin API
+  slug: postman-microsoft-graph-admin-admin-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin admin.adminMicrosoft365Apps API
+  slug: postman-microsoft-graph-admin-adminmicrosoft365apps-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin admin.adminReportSettings API
+  slug: postman-microsoft-graph-admin-adminreportsettings-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Admin Consent Policy API
+  slug: postman-microsoft-graph-admin-consent-policy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Admin.edge API
+  slug: postman-microsoft-graph-admin-edge-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin admin.peopleAdminSettings API
+  slug: postman-microsoft-graph-admin-peopleadminsettings-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin admin.serviceAnnouncement API
+  slug: postman-microsoft-graph-admin-serviceannouncement-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Admin.sharepoint API
+  slug: postman-microsoft-graph-admin-sharepoint-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Administration API
+  slug: postman-microsoft-graph-administration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Administrative Units API
+  slug: postman-microsoft-graph-administrative-units-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Agreement Acceptances API
+  slug: postman-microsoft-graph-agreement-acceptances-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Agreement File Localizations API
+  slug: postman-microsoft-graph-agreement-file-localizations-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Agreement File Versions API
+  slug: postman-microsoft-graph-agreement-file-versions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Agreement Files API
+  slug: postman-microsoft-graph-agreement-files-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin agreementAcceptances.agreementAcceptance API
+  slug: postman-microsoft-graph-agreementacceptances-agreementacceptance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Agreements.agreement API
+  slug: postman-microsoft-graph-agreements-agreement-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin agreements.agreementAcceptance API
+  slug: postman-microsoft-graph-agreements-agreementacceptance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin agreements.agreementFile API
+  slug: postman-microsoft-graph-agreements-agreementfile-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin agreements.agreementFileLocalization API
+  slug: postman-microsoft-graph-agreements-agreementfilelocalization-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Agreements API
+  slug: postman-microsoft-graph-agreements-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin App Catalogs API
+  slug: postman-microsoft-graph-app-catalogs-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin App Catalogs Teams Apps API
+  slug: postman-microsoft-graph-app-catalogs-teams-apps-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin appCatalogs.appCatalogs API
+  slug: postman-microsoft-graph-appcatalogs-appcatalogs-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin appCatalogs.teamsApp API
+  slug: postman-microsoft-graph-appcatalogs-teamsapp-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Application Templates API
+  slug: postman-microsoft-graph-application-templates-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Application Templates Instantiate API
+  slug: postman-microsoft-graph-application-templates-instantiate-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Add Key API
+  slug: postman-microsoft-graph-applications-add-key-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Add Password API
+  slug: postman-microsoft-graph-applications-add-password-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications API
+  slug: postman-microsoft-graph-applications-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications(app Id='{app Id}') API
+  slug: postman-microsoft-graph-applications-app-id-app-id-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications App Management Policies API
+  slug: postman-microsoft-graph-applications-app-management-policies-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applications.application.Actions API
+  slug: postman-microsoft-graph-applications-application-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications.application API
+  slug: postman-microsoft-graph-applications-application-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applications.application.Functions API
+  slug: postman-microsoft-graph-applications-application-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applications.appManagementPolicy API
+  slug: postman-microsoft-graph-applications-appmanagementpolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Check Member Groups API
+  slug: postman-microsoft-graph-applications-check-member-groups-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Check Member Objects API
+  slug: postman-microsoft-graph-applications-check-member-objects-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Created on Behalf Of API
+  slug: postman-microsoft-graph-applications-created-on-behalf-of-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Delta() API
+  slug: postman-microsoft-graph-applications-delta-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applications.directoryObject API
+  slug: postman-microsoft-graph-applications-directoryobject-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Extension Properties API
+  slug: postman-microsoft-graph-applications-extension-properties-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applications.extensionProperty API
+  slug: postman-microsoft-graph-applications-extensionproperty-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Federated Identity Credentials API
+  slug: postman-microsoft-graph-applications-federated-identity-credentials-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Federated Identity Credentials(name='{name}') API
+  slug: postman-microsoft-graph-applications-federated-identity-credentials-name-name-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applications.federatedIdentityCredential API
+  slug: postman-microsoft-graph-applications-federatedidentitycredential-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Get Available Extension Properties API
+  slug: postman-microsoft-graph-applications-get-available-extension-properties-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Get by Ids API
+  slug: postman-microsoft-graph-applications-get-by-ids-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Get Member Groups API
+  slug: postman-microsoft-graph-applications-get-member-groups-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Get Member Objects API
+  slug: postman-microsoft-graph-applications-get-member-objects-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Home Realm Discovery Policies API
+  slug: postman-microsoft-graph-applications-home-realm-discovery-policies-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applications.homeRealmDiscoveryPolicy API
+  slug: postman-microsoft-graph-applications-homerealmdiscoverypolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Logo API
+  slug: postman-microsoft-graph-applications-logo-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Owners API
+  slug: postman-microsoft-graph-applications-owners-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Remove Key API
+  slug: postman-microsoft-graph-applications-remove-key-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Remove Password API
+  slug: postman-microsoft-graph-applications-remove-password-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Restore API
+  slug: postman-microsoft-graph-applications-restore-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Set Verified Publisher API
+  slug: postman-microsoft-graph-applications-set-verified-publisher-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Synchronization API
+  slug: postman-microsoft-graph-applications-synchronization-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Token Issuance Policies API
+  slug: postman-microsoft-graph-applications-token-issuance-policies-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Token Lifetime Policies API
+  slug: postman-microsoft-graph-applications-token-lifetime-policies-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applications.tokenIssuancePolicy API
+  slug: postman-microsoft-graph-applications-tokenissuancepolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applications.tokenLifetimePolicy API
+  slug: postman-microsoft-graph-applications-tokenlifetimepolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications(unique Name='{unique Name}') API
+  slug: postman-microsoft-graph-applications-unique-name-unique-name-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Unset Verified Publisher API
+  slug: postman-microsoft-graph-applications-unset-verified-publisher-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Applications Validate Properties API
+  slug: postman-microsoft-graph-applications-validate-properties-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applicationTemplates.applicationTemplate.Actions API
+  slug: postman-microsoft-graph-applicationtemplates-applicationtemplate-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin applicationTemplates.applicationTemplate API
+  slug: postman-microsoft-graph-applicationtemplates-applicationtemplate-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Audit Logs API
+  slug: postman-microsoft-graph-audit-logs-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Audit Logs Directory Audits API
+  slug: postman-microsoft-graph-audit-logs-directory-audits-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Audit Logs Provisioning API
+  slug: postman-microsoft-graph-audit-logs-provisioning-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Audit Logs Sign Ins API
+  slug: postman-microsoft-graph-audit-logs-sign-ins-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin auditLogs.auditLogRoot API
+  slug: postman-microsoft-graph-auditlogs-auditlogroot-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin auditLogs.directoryAudit API
+  slug: postman-microsoft-graph-auditlogs-directoryaudit-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin auditLogs.provisioningObjectSummary API
+  slug: postman-microsoft-graph-auditlogs-provisioningobjectsummary-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin auditLogs.signIn API
+  slug: postman-microsoft-graph-auditlogs-signin-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin authenticationMethodConfigurations.authenticationMethodConfiguration API
+  slug: postman-microsoft-graph-authenticationmethodconfigurations-authenticationmethodconfiguration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin authenticationMethodsPolicy.authenticationMethodConfiguration API
+  slug: postman-microsoft-graph-authenticationmethodspolicy-authenticationmethodconfiguration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin authenticationMethodsPolicy.authenticationMethodsPolicy API
+  slug: postman-microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Browser Site Lists API
+  slug: postman-microsoft-graph-browser-site-lists-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin certificateBasedAuthConfiguration.certificateBasedAuthConfiguration API
+  slug: postman-microsoft-graph-certificatebasedauthconfiguration-certificatebasedauthconfiguration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin chats.chat.Actions API
+  slug: postman-microsoft-graph-chats-chat-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Chats.chat API
+  slug: postman-microsoft-graph-chats-chat-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin chats.chat.Functions API
+  slug: postman-microsoft-graph-chats-chat-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin chats.chatMessage API
+  slug: postman-microsoft-graph-chats-chatmessage-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin chats.chatMessageInfo API
+  slug: postman-microsoft-graph-chats-chatmessageinfo-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin chats.conversationMember API
+  slug: postman-microsoft-graph-chats-conversationmember-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin chats.pinnedChatMessageInfo API
+  slug: postman-microsoft-graph-chats-pinnedchatmessageinfo-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin chats.resourceSpecificPermissionGrant API
+  slug: postman-microsoft-graph-chats-resourcespecificpermissiongrant-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin chats.teamsAppInstallation API
+  slug: postman-microsoft-graph-chats-teamsappinstallation-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin chats.teamsTab API
+  slug: postman-microsoft-graph-chats-teamstab-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Communications.call API
+  slug: postman-microsoft-graph-communications-call-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin communications.callRecord API
+  slug: postman-microsoft-graph-communications-callrecord-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin communications.cloudCommunications.Actions API
+  slug: postman-microsoft-graph-communications-cloudcommunications-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin communications.cloudCommunications API
+  slug: postman-microsoft-graph-communications-cloudcommunications-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin communications.cloudCommunications.Functions API
+  slug: postman-microsoft-graph-communications-cloudcommunications-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin communications.onlineMeeting API
+  slug: postman-microsoft-graph-communications-onlinemeeting-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin communications.onlineMeetingEngagementConversation API
+  slug: postman-microsoft-graph-communications-onlinemeetingengagementconversation-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Communications.presence API
+  slug: postman-microsoft-graph-communications-presence-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Compliance.compliance API
+  slug: postman-microsoft-graph-compliance-compliance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin connections.connectionOperation API
+  slug: postman-microsoft-graph-connections-connectionoperation-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin connections.externalConnection API
+  slug: postman-microsoft-graph-connections-externalconnection-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin connections.externalGroup API
+  slug: postman-microsoft-graph-connections-externalgroup-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin connections.externalItem API
+  slug: postman-microsoft-graph-connections-externalitem-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Connections.schema API
+  slug: postman-microsoft-graph-connections-schema-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin contacts.directoryObject API
+  slug: postman-microsoft-graph-contacts-directoryobject-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin contacts.onPremisesSyncBehavior API
+  slug: postman-microsoft-graph-contacts-onpremisessyncbehavior-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin contacts.orgContact.Actions API
+  slug: postman-microsoft-graph-contacts-orgcontact-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin contacts.orgContact API
+  slug: postman-microsoft-graph-contacts-orgcontact-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin contacts.orgContact.Functions API
+  slug: postman-microsoft-graph-contacts-orgcontact-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin contacts.serviceProvisioningError API
+  slug: postman-microsoft-graph-contacts-serviceprovisioningerror-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin contracts.contract.Actions API
+  slug: postman-microsoft-graph-contracts-contract-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Contracts.contract API
+  slug: postman-microsoft-graph-contracts-contract-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin contracts.contract.Functions API
+  slug: postman-microsoft-graph-contracts-contract-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Copilot Administration API
+  slug: postman-microsoft-graph-copilot-administration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin copilot.aiInteractionHistory API
+  slug: postman-microsoft-graph-copilot-aiinteractionhistory-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin copilot.aiUser API
+  slug: postman-microsoft-graph-copilot-aiuser-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin copilot.copilotAdmin API
+  slug: postman-microsoft-graph-copilot-copilotadmin-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin copilot.copilotReportRoot API
+  slug: postman-microsoft-graph-copilot-copilotreportroot-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin copilot.copilotRoot.Actions API
+  slug: postman-microsoft-graph-copilot-copilotroot-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin copilot.copilotRoot API
+  slug: postman-microsoft-graph-copilot-copilotroot-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Current User Acceptances API
+  slug: postman-microsoft-graph-current-user-acceptances-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin dataPolicyOperations.dataPolicyOperation API
+  slug: postman-microsoft-graph-datapolicyoperations-datapolicyoperation-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.androidManagedAppProtection API
+  slug: postman-microsoft-graph-deviceappmanagement-androidmanagedappprotection-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.defaultManagedAppProtection API
+  slug: postman-microsoft-graph-deviceappmanagement-defaultmanagedappprotection-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.deviceAppManagement.Actions API
+  slug: postman-microsoft-graph-deviceappmanagement-deviceappmanagement-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.deviceAppManagement API
+  slug: postman-microsoft-graph-deviceappmanagement-deviceappmanagement-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.iosManagedAppProtection API
+  slug: postman-microsoft-graph-deviceappmanagement-iosmanagedappprotection-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedAppPolicy API
+  slug: postman-microsoft-graph-deviceappmanagement-managedapppolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedAppRegistration API
+  slug: postman-microsoft-graph-deviceappmanagement-managedappregistration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedAppStatus API
+  slug: postman-microsoft-graph-deviceappmanagement-managedappstatus-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedDeviceMobileAppConfiguration API
+  slug: postman-microsoft-graph-deviceappmanagement-manageddevicemobileappconfiguration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.managedEBook API
+  slug: postman-microsoft-graph-deviceappmanagement-managedebook-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.mdmWindowsInformationProtectionPolicy API
+  slug: postman-microsoft-graph-deviceappmanagement-mdmwindowsinformationprotectionpolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.mobileApp API
+  slug: postman-microsoft-graph-deviceappmanagement-mobileapp-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.mobileAppCategory API
+  slug: postman-microsoft-graph-deviceappmanagement-mobileappcategory-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.mobileAppRelationship API
+  slug: postman-microsoft-graph-deviceappmanagement-mobileapprelationship-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.targetedManagedAppConfiguration API
+  slug: postman-microsoft-graph-deviceappmanagement-targetedmanagedappconfiguration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.vppToken API
+  slug: postman-microsoft-graph-deviceappmanagement-vpptoken-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceAppManagement.windowsInformationProtectionPolicy API
+  slug: postman-microsoft-graph-deviceappmanagement-windowsinformationprotectionpolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.applePushNotificationCertificate API
+  slug: postman-microsoft-graph-devicemanagement-applepushnotificationcertificate-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.auditEvent API
+  slug: postman-microsoft-graph-devicemanagement-auditevent-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.complianceManagementPartner API
+  slug: postman-microsoft-graph-devicemanagement-compliancemanagementpartner-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.detectedApp API
+  slug: postman-microsoft-graph-devicemanagement-detectedapp-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceAndAppManagementRoleAssignment API
+  slug: postman-microsoft-graph-devicemanagement-deviceandappmanagementroleassignment-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceCategory API
+  slug: postman-microsoft-graph-devicemanagement-devicecategory-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceCompliancePolicy API
+  slug: postman-microsoft-graph-devicemanagement-devicecompliancepolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceCompliancePolicyDeviceStateSummary API
+  slug: postman-microsoft-graph-devicemanagement-devicecompliancepolicydevicestatesummary-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceCompliancePolicySettingStateSummary API
+  slug: postman-microsoft-graph-devicemanagement-devicecompliancepolicysettingstatesummary-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceConfiguration API
+  slug: postman-microsoft-graph-devicemanagement-deviceconfiguration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceConfigurationDeviceStateSummary API
+  slug: postman-microsoft-graph-devicemanagement-deviceconfigurationdevicestatesummary-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceEnrollmentConfiguration API
+  slug: postman-microsoft-graph-devicemanagement-deviceenrollmentconfiguration-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagement API
+  slug: postman-microsoft-graph-devicemanagement-devicemanagement-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagement.Functions API
+  slug: postman-microsoft-graph-devicemanagement-devicemanagement-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagementExchangeConnector API
+  slug: postman-microsoft-graph-devicemanagement-devicemanagementexchangeconnector-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagementPartner API
+  slug: postman-microsoft-graph-devicemanagement-devicemanagementpartner-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagementReports API
+  slug: postman-microsoft-graph-devicemanagement-devicemanagementreports-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.deviceManagementTroubleshootingEvent API
+  slug: postman-microsoft-graph-devicemanagement-devicemanagementtroubleshootingevent-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.importedWindowsAutopilotDeviceIdentity API
+  slug: postman-microsoft-graph-devicemanagement-importedwindowsautopilotdeviceidentity-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.iosUpdateDeviceStatus API
+  slug: postman-microsoft-graph-devicemanagement-iosupdatedevicestatus-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.managedDevice API
+  slug: postman-microsoft-graph-devicemanagement-manageddevice-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.managedDeviceOverview API
+  slug: postman-microsoft-graph-devicemanagement-manageddeviceoverview-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.mobileAppTroubleshootingEvent API
+  slug: postman-microsoft-graph-devicemanagement-mobileapptroubleshootingevent-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.mobileThreatDefenseConnector API
+  slug: postman-microsoft-graph-devicemanagement-mobilethreatdefenseconnector-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.notificationMessageTemplate API
+  slug: postman-microsoft-graph-devicemanagement-notificationmessagetemplate-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.onPremisesConditionalAccessSettings API
+  slug: postman-microsoft-graph-devicemanagement-onpremisesconditionalaccesssettings-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.remoteAssistancePartner API
+  slug: postman-microsoft-graph-devicemanagement-remoteassistancepartner-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.resourceOperation API
+  slug: postman-microsoft-graph-devicemanagement-resourceoperation-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.roleDefinition API
+  slug: postman-microsoft-graph-devicemanagement-roledefinition-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.softwareUpdateStatusSummary API
+  slug: postman-microsoft-graph-devicemanagement-softwareupdatestatussummary-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.termsAndConditions API
+  slug: postman-microsoft-graph-devicemanagement-termsandconditions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthApplicationPerformance API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthapplicationperformance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDetails API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondetails-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDeviceId API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondeviceid-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByOSVersion API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyosversion-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthDeviceModelPerformance API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdevicemodelperformance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthDevicePerformance API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthDevicePerformanceDetails API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformancedetails-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsAppHealthOSVersionPerformance API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsapphealthosversionperformance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsBaseline API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsbaseline-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsCategory API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticscategory-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDevicePerformance API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsdeviceperformance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDeviceScores API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsdevicescores-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDeviceStartupHistory API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartuphistory-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDeviceStartupProcess API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocess-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsDeviceStartupProcessPerformance API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocessperformance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsMetricHistory API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsmetrichistory-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsModelScores API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsmodelscores-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsOverview API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsoverview-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsScoreHistory API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsscorehistory-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsWorkFromAnywhereHardwareReadinessMetric API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywherehardwarereadinessmetric-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsWorkFromAnywhereMetric API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremetric-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.userExperienceAnalyticsWorkFromAnywhereModelPerformance API
+  slug: postman-microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremodelperformance-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.virtualEndpoint API
+  slug: postman-microsoft-graph-devicemanagement-virtualendpoint-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.windowsAutopilotDeviceIdentity API
+  slug: postman-microsoft-graph-devicemanagement-windowsautopilotdeviceidentity-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.windowsInformationProtectionAppLearningSummary API
+  slug: postman-microsoft-graph-devicemanagement-windowsinformationprotectionapplearningsummary-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.windowsInformationProtectionNetworkLearningSummary API
+  slug: postman-microsoft-graph-devicemanagement-windowsinformationprotectionnetworklearningsummary-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin deviceManagement.windowsMalwareInformation API
+  slug: postman-microsoft-graph-devicemanagement-windowsmalwareinformation-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin devices.device.Actions API
+  slug: postman-microsoft-graph-devices-device-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Devices.device API
+  slug: postman-microsoft-graph-devices-device-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin devices.device.Functions API
+  slug: postman-microsoft-graph-devices-device-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin devices.directoryObject API
+  slug: postman-microsoft-graph-devices-directoryobject-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Devices.extension API
+  slug: postman-microsoft-graph-devices-extension-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directory.administrativeUnit API
+  slug: postman-microsoft-graph-directory-administrativeunit-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directory.attributeSet API
+  slug: postman-microsoft-graph-directory-attributeset-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directory.companySubscription API
+  slug: postman-microsoft-graph-directory-companysubscription-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directory.customSecurityAttributeDefinition API
+  slug: postman-microsoft-graph-directory-customsecurityattributedefinition-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directory.deviceLocalCredentialInfo API
+  slug: postman-microsoft-graph-directory-devicelocalcredentialinfo-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Directory.directory API
+  slug: postman-microsoft-graph-directory-directory-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directory.directoryObject API
+  slug: postman-microsoft-graph-directory-directoryobject-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directory.identityProviderBase API
+  slug: postman-microsoft-graph-directory-identityproviderbase-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directory.onPremisesDirectorySynchronization API
+  slug: postman-microsoft-graph-directory-onpremisesdirectorysynchronization-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directory.publicKeyInfrastructureRoot API
+  slug: postman-microsoft-graph-directory-publickeyinfrastructureroot-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryObjects.directoryObject.Actions API
+  slug: postman-microsoft-graph-directoryobjects-directoryobject-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryObjects.directoryObject API
+  slug: postman-microsoft-graph-directoryobjects-directoryobject-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryObjects.directoryObject.Functions API
+  slug: postman-microsoft-graph-directoryobjects-directoryobject-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryRoles.directoryObject API
+  slug: postman-microsoft-graph-directoryroles-directoryobject-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryRoles.directoryRole.Actions API
+  slug: postman-microsoft-graph-directoryroles-directoryrole-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryRoles.directoryRole API
+  slug: postman-microsoft-graph-directoryroles-directoryrole-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryRoles.directoryRole.Functions API
+  slug: postman-microsoft-graph-directoryroles-directoryrole-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryRoles.scopedRoleMembership API
+  slug: postman-microsoft-graph-directoryroles-scopedrolemembership-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryRoleTemplates.directoryRoleTemplate.Actions API
+  slug: postman-microsoft-graph-directoryroletemplates-directoryroletemplate-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryRoleTemplates.directoryRoleTemplate API
+  slug: postman-microsoft-graph-directoryroletemplates-directoryroletemplate-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin directoryRoleTemplates.directoryRoleTemplate.Functions API
+  slug: postman-microsoft-graph-directoryroletemplates-directoryroletemplate-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin domainDnsRecords.domainDnsRecord API
+  slug: postman-microsoft-graph-domaindnsrecords-domaindnsrecord-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin domains.directoryObject API
+  slug: postman-microsoft-graph-domains-directoryobject-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin domains.domain.Actions API
+  slug: postman-microsoft-graph-domains-domain-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Domains.domain API
+  slug: postman-microsoft-graph-domains-domain-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin domains.domainDnsRecord API
+  slug: postman-microsoft-graph-domains-domaindnsrecord-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin domains.internalDomainFederation API
+  slug: postman-microsoft-graph-domains-internaldomainfederation-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin drives.drive.Actions API
+  slug: postman-microsoft-graph-drives-drive-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Drives.drive API
+  slug: postman-microsoft-graph-drives-drive-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin drives.drive.Functions API
+  slug: postman-microsoft-graph-drives-drive-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Drives.list API
+  slug: postman-microsoft-graph-drives-list-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Drives.user API
+  slug: postman-microsoft-graph-drives-user-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Edge Browser API
+  slug: postman-microsoft-graph-edge-browser-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin education.educationRoot API
+  slug: postman-microsoft-graph-education-educationroot-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin education.reportsRoot API
+  slug: postman-microsoft-graph-education-reportsroot-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin employeeExperience.employeeExperience API
+  slug: postman-microsoft-graph-employeeexperience-employeeexperience-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin employeeExperience.engagementAsyncOperation API
+  slug: postman-microsoft-graph-employeeexperience-engagementasyncoperation-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin employeeExperience.engagementRole API
+  slug: postman-microsoft-graph-employeeexperience-engagementrole-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin employeeExperience.learningCourseActivity API
+  slug: postman-microsoft-graph-employeeexperience-learningcourseactivity-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin employeeExperience.learningProvider API
+  slug: postman-microsoft-graph-employeeexperience-learningprovider-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin External.external API
+  slug: postman-microsoft-graph-external-external-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin external.externalConnection API
+  slug: postman-microsoft-graph-external-externalconnection-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin filterOperators.filterOperatorSchema API
+  slug: postman-microsoft-graph-filteroperators-filteroperatorschema-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin functions.attributeMappingFunctionSchema API
+  slug: postman-microsoft-graph-functions-attributemappingfunctionschema-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groupLifecyclePolicies.groupLifecyclePolicy.Actions API
+  slug: postman-microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groupLifecyclePolicies.groupLifecyclePolicy API
+  slug: postman-microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.appRoleAssignment API
+  slug: postman-microsoft-graph-groups-approleassignment-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Groups.calendar API
+  slug: postman-microsoft-graph-groups-calendar-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Groups.conversation API
+  slug: postman-microsoft-graph-groups-conversation-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.conversationThread API
+  slug: postman-microsoft-graph-groups-conversationthread-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Groups.drive API
+  slug: postman-microsoft-graph-groups-drive-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Groups.event API
+  slug: postman-microsoft-graph-groups-event-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Groups.extension API
+  slug: postman-microsoft-graph-groups-extension-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.group.Actions API
+  slug: postman-microsoft-graph-groups-group-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Groups.group API
+  slug: postman-microsoft-graph-groups-group-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.group.Functions API
+  slug: postman-microsoft-graph-groups-group-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.groupLifecyclePolicy API
+  slug: postman-microsoft-graph-groups-grouplifecyclepolicy-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.groupSetting API
+  slug: postman-microsoft-graph-groups-groupsetting-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Groups.onenote API
+  slug: postman-microsoft-graph-groups-onenote-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.onPremisesSyncBehavior API
+  slug: postman-microsoft-graph-groups-onpremisessyncbehavior-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.plannerGroup API
+  slug: postman-microsoft-graph-groups-plannergroup-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.profilePhoto API
+  slug: postman-microsoft-graph-groups-profilephoto-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.resourceSpecificPermissionGrant API
+  slug: postman-microsoft-graph-groups-resourcespecificpermissiongrant-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groups.serviceProvisioningError API
+  slug: postman-microsoft-graph-groups-serviceprovisioningerror-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groupSettings.groupSetting API
+  slug: postman-microsoft-graph-groupsettings-groupsetting-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groupSettingTemplates.groupSettingTemplate.Actions API
+  slug: postman-microsoft-graph-groupsettingtemplates-groupsettingtemplate-actions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groupSettingTemplates.groupSettingTemplate API
+  slug: postman-microsoft-graph-groupsettingtemplates-groupsettingtemplate-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin groupSettingTemplates.groupSettingTemplate.Functions API
+  slug: postman-microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin Identity Authentication Events Flows API
+  slug: postman-microsoft-graph-identity-authentication-events-flows-api
+- collection_type: postman
+  name: Microsoft Graph Admin Admin.admin identity.authenticationEventListener API
+  slug: postman-microsoft-graph-identity-authenticationeventlistener-api
 - collection_type: open
   name: Microsoft Graph OData Service for namespace microsoft.graph
   slug: open-microsoft-graph-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-graph/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -14681,12 +15503,12 @@ overview: 'Microsoft Graph publishes 564 APIs on the [APIs.io](https://apis.io/)
   The Microsoft Graph catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Microsoft Graph''s developer surface includes developer portal, changelog, getting-started guide, engineering blog, Stack Overflow tag, documentation, authentication, and 33 more developer resources.'
+  Microsoft Graph''s developer surface includes developer portal, changelog, getting-started guide, engineering blog, Stack Overflow tag, documentation, authentication, and 34 more developer resources.'
 plans:
 - name: Microsoft Graph Plans Pricing
   plan_count: 3
   slug: microsoft-graph-plans-pricing
-random_paper: 61
+random_paper: 17
 rate_limits:
 - limit_count: 18
   name: Microsoft Graph Rate Limits
@@ -14710,18 +15532,25 @@ rules:
   slug: microsoft-graph-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.3
-  delta: 2.5
+  composite: 67.2
+  delta: -3.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 61.4
+    contract_quality: 64.9
     developer_ergonomics: 56.5
-    discoverability: 92.5
-    governance: 60.5
+    discoverability: 68.5
+    governance: 47.9
     operational_transparency: 78.9
-  previous_composite: 67.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 70.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 564
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/screenshots/microsoft-graph-2026-06-20T185504.png
 security:

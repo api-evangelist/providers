@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Terex digital solutions including MyTerex fleet management, Connected Dealer Inventory (CDI), and telematics data access for real-time machine monitoring, performance dashboards, and predictive mainte
@@ -106,25 +108,25 @@ press:
 - date: '2026-05-25'
   title: Terex Corporation Standardizes 36 Websites ...
   url: https://www.progress.com/customers/terex-corporation-standardizes-sitefinity
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Terex Rate Limits
   slug: terex-rate-limits
 score:
   band: emerging
-  composite: 28.1
-  delta: 0.0
+  composite: 24.9
+  delta: -3.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 6.5
-    discoverability: 80.0
-    governance: 13.2
+    discoverability: 59.3
+    governance: 10.4
     operational_transparency: 31.6
   previous_composite: 28.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terex/refs/heads/main/screenshots/terex-2026-06-20T195126.png
 security:

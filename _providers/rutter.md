@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -204,7 +206,7 @@ plans:
 - name: Rutter Plans Pricing
   plan_count: 1
   slug: rutter-plans-pricing
-random_paper: 66
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Rutter Rate Limits
@@ -228,24 +230,32 @@ rules:
   slug: rutter-spectral-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 1.7
+  composite: 44.9
+  delta: -5.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.8
+    contract_quality: 65.8
     developer_ergonomics: 28.3
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 49.0
+  previous_composite: 50.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/screenshots/rutter-2026-06-20T193303.png
 security:
 - kind: authentication

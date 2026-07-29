@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 346
   human_in_the_loop: 8
@@ -1464,7 +1466,7 @@ plans:
 - name: Letta Plans Pricing
   plan_count: 3
   slug: letta-plans-pricing
-random_paper: 62
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Letta Rate Limits
@@ -1480,18 +1482,25 @@ rules:
   slug: letta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 58.8
-  delta: 4.7
+  composite: 54.2
+  delta: -4.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 75.1
+    contract_quality: 74.6
     developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 54.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 58.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 40
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/screenshots/letta-2026-06-20T184428.png
 security:

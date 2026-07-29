@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -163,8 +165,122 @@ apis:
 - description: Workflow rules and process automation
   name: Salesforce Automation Workflow API
   slug: salesforce-automation-workflow-api
-artifact_total: 154
+artifact_total: 192
 collections:
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions API
+  slug: postman-salesforce-automation-actions-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Approvals API
+  slug: postman-salesforce-automation-approvals-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Batch API
+  slug: postman-salesforce-automation-batch-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Change Events API
+  slug: postman-salesforce-automation-change-events-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Comments API
+  slug: postman-salesforce-automation-comments-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Composite API
+  slug: postman-salesforce-automation-composite-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Configuration API
+  slug: postman-salesforce-automation-configuration-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Custom Actions API
+  slug: postman-salesforce-automation-custom-actions-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Custom Endpoints API
+  slug: postman-salesforce-automation-custom-endpoints-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Dashboards API
+  slug: postman-salesforce-automation-dashboards-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Dataflows API
+  slug: postman-salesforce-automation-dataflows-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Datasets API
+  slug: postman-salesforce-automation-datasets-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Development API
+  slug: postman-salesforce-automation-development-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Events API
+  slug: postman-salesforce-automation-events-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Feeds API
+  slug: postman-salesforce-automation-feeds-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Flows API
+  slug: postman-salesforce-automation-flows-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Folders API
+  slug: postman-salesforce-automation-folders-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Graph API
+  slug: postman-salesforce-automation-graph-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Groups API
+  slug: postman-salesforce-automation-groups-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Ingest Jobs API
+  slug: postman-salesforce-automation-ingest-jobs-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Lenses API
+  slug: postman-salesforce-automation-lenses-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Limits API
+  slug: postman-salesforce-automation-limits-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions PushTopics API
+  slug: postman-salesforce-automation-pushtopics-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Query API
+  slug: postman-salesforce-automation-query-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Query Jobs API
+  slug: postman-salesforce-automation-query-jobs-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Records API
+  slug: postman-salesforce-automation-records-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions SObject Collections API
+  slug: postman-salesforce-automation-sobject-collections-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions SObject Tree API
+  slug: postman-salesforce-automation-sobject-tree-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions SObjects API
+  slug: postman-salesforce-automation-sobjects-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions SOQL API
+  slug: postman-salesforce-automation-soql-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions SOSL API
+  slug: postman-salesforce-automation-sosl-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Standard Actions API
+  slug: postman-salesforce-automation-standard-actions-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Streaming Channels API
+  slug: postman-salesforce-automation-streaming-channels-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Testing API
+  slug: postman-salesforce-automation-testing-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Topics API
+  slug: postman-salesforce-automation-topics-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Users API
+  slug: postman-salesforce-automation-users-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Versions API
+  slug: postman-salesforce-automation-versions-api
+- collection_type: postman
+  name: Salesforce Analytics (CRM Analytics) REST Actions Workflow API
+  slug: postman-salesforce-automation-workflow-api
 - collection_type: open
   name: Salesforce Analytics (CRM Analytics) REST API
   slug: open-salesforce-analytics-api
@@ -199,6 +315,10 @@ collections:
   name: Salesforce Tooling API
   slug: open-salesforce-tooling-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/salesforce-automation/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -612,12 +732,12 @@ overview: 'Salesforce Automation publishes 38 APIs on the [APIs.io](https://apis
   The Salesforce Automation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Automation''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, GitHub presence, and 29 more developer resources.'
+  Salesforce Automation''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, GitHub presence, and 30 more developer resources.'
 plans:
 - name: Salesforce Automation Plans Pricing
   plan_count: 1
   slug: salesforce-automation-plans-pricing
-random_paper: 21
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Salesforce Automation Rate Limits
@@ -646,18 +766,25 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.4
-  delta: 3.8
+  composite: 63.3
+  delta: -3.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 69.2
+    contract_quality: 70.5
     developer_ergonomics: 45.7
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 66.7
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 62.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/screenshots/salesforce-automation-2026-06-20T193343.png
 security:

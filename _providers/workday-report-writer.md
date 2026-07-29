@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,8 +66,32 @@ apis:
 - description: Create and manage Prism Analytics tables that define the schema for external data loaded into Workday for reporting and analytics
   name: Workday Report Writer Tables API
   slug: workday-report-writer-tables-api
-artifact_total: 43
+artifact_total: 51
 collections:
+- collection_type: postman
+  name: Workday Report Writer Workday Prism Analytics Buckets agentDefinition API
+  slug: postman-workday-report-writer-agentdefinition-api
+- collection_type: postman
+  name: Workday Report Writer Workday Prism Analytics Buckets API
+  slug: postman-workday-report-writer-buckets-api
+- collection_type: postman
+  name: Workday Report Writer Workday Prism Analytics Buckets Custom Reports API
+  slug: postman-workday-report-writer-custom-reports-api
+- collection_type: postman
+  name: Workday Report Writer Workday Prism Analytics Buckets Data Change Tasks API
+  slug: postman-workday-report-writer-data-change-tasks-api
+- collection_type: postman
+  name: Workday Report Writer Workday Prism Analytics Buckets Data Sources API
+  slug: postman-workday-report-writer-data-sources-api
+- collection_type: postman
+  name: Workday Report Writer Workday Prism Analytics Buckets Datasets API
+  slug: postman-workday-report-writer-datasets-api
+- collection_type: postman
+  name: Workday Report Writer Workday Prism Analytics Buckets Query Execution API
+  slug: postman-workday-report-writer-query-execution-api
+- collection_type: postman
+  name: Workday Report Writer Workday Prism Analytics Buckets Tables API
+  slug: postman-workday-report-writer-tables-api
 - collection_type: open
   name: Workday Report Writer Workday Prism Analytics API
   slug: open-workday-report-writer-prism-analytics
@@ -76,6 +102,10 @@ collections:
   name: Workday Report Writer Workday WQL API
   slug: open-workday-report-writer-wql
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/workday-report-writer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,12 +236,12 @@ overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.
   The Workday Report Writer catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 13 more developer resources.'
+  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Workday Report Writer Plans Pricing
   plan_count: 1
   slug: workday-report-writer-plans-pricing
-random_paper: 20
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Workday Report Writer Rate Limits
@@ -227,18 +257,25 @@ rules:
   slug: workday-report-writer-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.8
-  delta: 4.6
+  composite: 58.7
+  delta: -4.1
   facets:
     commercial_clarity: 57.9
-    contract_quality: 65.5
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 62.3
+    developer_ergonomics: 63.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 58.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
 security:

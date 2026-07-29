@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for managing users, learning content, certifications, SCORM courses, registrations, enrollments, segments, webhooks, and SCIM provisioning within the WorkRamp revenue enablement platform.
@@ -110,25 +112,25 @@ plans:
 - name: Workramp Plans Pricing
   plan_count: 3
   slug: workramp-plans-pricing
-random_paper: 67
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Workramp Rate Limits
   slug: workramp-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 31.6
+  delta: -3.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 15.2
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 35.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/screenshots/workramp-2026-06-20T201617.png
 security:

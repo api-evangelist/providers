@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -343,7 +345,7 @@ plans:
 - name: Amazon Serverless Application Repository Plans Pricing
   plan_count: 3
   slug: amazon-serverless-application-repository-plans-pricing
-random_paper: 27
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Serverless Application Repository Rate Limits
@@ -367,19 +369,26 @@ rules:
   slug: amazon-serverless-application-repository-spectral-rules
 score:
   band: exemplar
-  composite: 74.3
-  delta: 5.5
+  composite: 67.6
+  delta: -6.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 79.6
+    contract_quality: 67.6
     developer_ergonomics: 63.0
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 68.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 74.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/screenshots/amazon-serverless-application-repository-2026-06-20T171819.png
 security:
 - kind: authentication

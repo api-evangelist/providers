@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -91,8 +93,62 @@ apis:
 - description: Generate images that adopt the visual style of a reference image while following a text prompt for content direction.
   name: Stability AI Style API
   slug: stability-ai-style-api
-artifact_total: 80
+artifact_total: 98
 collections:
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation API
+  slug: postman-stability-ai-3d-generation-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Conservative Upscale API
+  slug: postman-stability-ai-conservative-upscale-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Creative Upscale API
+  slug: postman-stability-ai-creative-upscale-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Erase API
+  slug: postman-stability-ai-erase-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Fast Upscale API
+  slug: postman-stability-ai-fast-upscale-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Generate Core API
+  slug: postman-stability-ai-generate-core-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Generate SD3 API
+  slug: postman-stability-ai-generate-sd3-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Generate Ultra API
+  slug: postman-stability-ai-generate-ultra-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Image to Video API
+  slug: postman-stability-ai-image-to-video-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Inpaint API
+  slug: postman-stability-ai-inpaint-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Outpaint API
+  slug: postman-stability-ai-outpaint-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Remove Background API
+  slug: postman-stability-ai-remove-background-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Replace Background and Relight API
+  slug: postman-stability-ai-replace-background-and-relight-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Search and Recolor API
+  slug: postman-stability-ai-search-and-recolor-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Search and Replace API
+  slug: postman-stability-ai-search-and-replace-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Sketch API
+  slug: postman-stability-ai-sketch-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Structure API
+  slug: postman-stability-ai-structure-api
+- collection_type: postman
+  name: Stability AI Stable Fast 3D 3D Generation Style API
+  slug: postman-stability-ai-style-api
 - collection_type: open
   name: Stability AI Stable Fast 3D API
   slug: open-stability-ai-stable-fast-3d
@@ -112,6 +168,10 @@ collections:
   name: Stability AI Stable Video Diffusion API
   slug: open-stability-ai-stable-video-diffusion
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/stability-ai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -317,12 +377,12 @@ overview: 'Stability AI publishes 18 APIs on the [APIs.io](https://apis.io/) net
   The Stability AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Stability AI''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, and 12 more developer resources.'
+  Stability AI''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Stability Ai Plans Pricing
   plan_count: 4
   slug: stability-ai-plans-pricing
-random_paper: 4
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Stability Ai Rate Limits
@@ -346,18 +406,25 @@ rules:
   slug: stability-ai-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 2.5
+  composite: 58.8
+  delta: -2.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.6
-    developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 70.8
+    developer_ergonomics: 34.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 58.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/screenshots/stability-ai-2026-06-20T194438.png
 security:

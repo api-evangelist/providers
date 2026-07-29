@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -55,12 +57,31 @@ apis:
 - description: LLM calls, spans, steps, and quality scores recorded against a run
   name: Waxell Telemetry API
   slug: waxell-telemetry-api
-artifact_total: 58
+artifact_total: 63
 collections:
+- collection_type: postman
+  name: Waxell Observe Cost Management API
+  slug: postman-waxell-cost-management-api
+- collection_type: postman
+  name: Waxell Observe Cost Management Governance API
+  slug: postman-waxell-governance-api
+- collection_type: postman
+  name: Waxell Observe Cost Management Prompts API
+  slug: postman-waxell-prompts-api
+- collection_type: postman
+  name: Waxell Observe Cost Management Runs API
+  slug: postman-waxell-runs-api
+- collection_type: postman
+  name: Waxell Observe Cost Management Telemetry API
+  slug: postman-waxell-telemetry-api
 - collection_type: open
   name: Waxell Observe API
   slug: open-waxell-observe
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/waxell/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -281,12 +302,12 @@ overview: 'Waxell publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Waxell catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Waxell''s developer surface includes authentication, documentation, getting-started guide, developer console, signup flow, pricing, engineering blog, and 22 more developer resources.'
+  Waxell''s developer surface includes authentication, documentation, getting-started guide, developer console, signup flow, pricing, engineering blog, and 23 more developer resources.'
 plans:
 - name: Waxell Plans Pricing
   plan_count: 2
   slug: waxell-plans-pricing
-random_paper: 41
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Waxell Rate Limits
@@ -310,19 +331,26 @@ rules:
   slug: waxell-rules
 score:
   band: strong
-  composite: 66.4
-  delta: 5.5
+  composite: 62.8
+  delta: -3.6
   facets:
     commercial_clarity: 55.3
-    contract_quality: 72.9
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 74.1
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 66.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/screenshots/waxell-2026-06-20T201300.png
 security:
 - kind: authentication

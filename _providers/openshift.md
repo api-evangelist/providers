@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -130,12 +132,34 @@ apis:
 - description: Manage application routes that expose services at a hostname. Routes provide external access to services via HTTP/HTTPS, with support for TLS termination strategies including edge, passthrough, and re
   name: OpenShift Routes API
   slug: openshift-routes-api
-artifact_total: 271
+artifact_total: 277
 collections:
+- collection_type: postman
+  name: openshift-rest-api BuildConfigs API
+  slug: postman-openshift-buildconfigs-api
+- collection_type: postman
+  name: openshift-rest-api BuildConfigs Builds API
+  slug: postman-openshift-builds-api
+- collection_type: postman
+  name: openshift-rest-api BuildConfigs DeploymentConfigs API
+  slug: postman-openshift-deploymentconfigs-api
+- collection_type: postman
+  name: openshift-rest-api BuildConfigs ProjectRequests API
+  slug: postman-openshift-projectrequests-api
+- collection_type: postman
+  name: openshift-rest-api BuildConfigs Projects API
+  slug: postman-openshift-projects-api
+- collection_type: postman
+  name: openshift-rest-api BuildConfigs Routes API
+  slug: postman-openshift-routes-api
 - collection_type: open
   name: openshift-rest-api
   slug: open-openshift-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/openshift/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -879,12 +903,12 @@ overview: 'OpenShift publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The OpenShift catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  OpenShift''s developer surface includes authentication, getting-started guide, engineering blog, changelog, and 7 more developer resources.'
+  OpenShift''s developer surface includes authentication, getting-started guide, engineering blog, changelog, and 8 more developer resources.'
 plans:
 - name: Openshift Plans Pricing
   plan_count: 8
   slug: openshift-plans-pricing
-random_paper: 24
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Openshift Rate Limits
@@ -908,18 +932,25 @@ rules:
   slug: openshift-spectral-rules
 score:
   band: strong
-  composite: 61.5
-  delta: 3.2
+  composite: 57.7
+  delta: -3.8
   facets:
     commercial_clarity: 73.7
-    contract_quality: 70.2
-    developer_ergonomics: 23.9
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 68.1
+    developer_ergonomics: 28.3
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/screenshots/openshift-2026-06-20T191034.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 3
@@ -115,16 +117,98 @@ apis:
 - description: The `Workspaces` endpoints supply more information about the workspaces that your API key has access to. This category was previously called `Owners`, as reflected by endpoint paths.
   name: Render Workspaces API
   slug: render-workspaces-api
-artifact_total: 228
+artifact_total: 254
 asyncapis:
 - description: AsyncAPI 2.6 description of Render's outbound webhook surface. Render delivers event notifications by issuing HTTP POST requests with a JSON body to a subscriber URL configured in the Render dashboard
   name: Render Webhooks
   slug: render-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Render Public Audit Logs API
+  slug: postman-render-audit-logs-api
+- collection_type: postman
+  name: Render Public Audit Logs Blueprints API
+  slug: postman-render-blueprints-api
+- collection_type: postman
+  name: Render Public Audit Logs Custom Domains API
+  slug: postman-render-custom-domains-api
+- collection_type: postman
+  name: Render Public Audit Logs Deploys API
+  slug: postman-render-deploys-api
+- collection_type: postman
+  name: Render Public Audit Logs Disks API
+  slug: postman-render-disks-api
+- collection_type: postman
+  name: Render Public Audit Logs Environment Groups API
+  slug: postman-render-environment-groups-api
+- collection_type: postman
+  name: Render Public Audit Logs Events API
+  slug: postman-render-events-api
+- collection_type: postman
+  name: Render Public Audit Logs Key Value API
+  slug: postman-render-key-value-api
+- collection_type: postman
+  name: Render Public Audit Logs API
+  slug: postman-render-logs-api
+- collection_type: postman
+  name: Render Public Audit Logs Maintenance API
+  slug: postman-render-maintenance-api
+- collection_type: postman
+  name: Render Public Audit Logs Metrics API
+  slug: postman-render-metrics-api
+- collection_type: postman
+  name: Render Public Audit Logs Notification Settings API
+  slug: postman-render-notification-settings-api
+- collection_type: postman
+  name: Render Public Audit Logs One-Off Jobs API
+  slug: postman-render-one-off-jobs-api
+- collection_type: postman
+  name: Render Public Audit Logs Postgres API
+  slug: postman-render-postgres-api
+- collection_type: postman
+  name: Render Public Audit Logs Projects & Environments API
+  slug: postman-render-projects-environments-api
+- collection_type: postman
+  name: Render Public Audit Logs Redis (Deprecated) API
+  slug: postman-render-redis-deprecated-api
+- collection_type: postman
+  name: Render Public Audit Logs Registry Credentials API
+  slug: postman-render-registry-credentials-api
+- collection_type: postman
+  name: Render Public Audit Logs Services API
+  slug: postman-render-services-api
+- collection_type: postman
+  name: Render Public Audit Logs Services - Cron Jobs API
+  slug: postman-render-services-cron-jobs-api
+- collection_type: postman
+  name: Render Public Audit Logs Services - Headers API
+  slug: postman-render-services-headers-api
+- collection_type: postman
+  name: Render Public Audit Logs Services - Routes API
+  slug: postman-render-services-routes-api
+- collection_type: postman
+  name: Render Public Audit Logs Users API
+  slug: postman-render-users-api
+- collection_type: postman
+  name: Render Public Audit Logs Webhooks API
+  slug: postman-render-webhooks-api
+- collection_type: postman
+  name: Render Public Audit Logs Workflow Tasks (Beta) API
+  slug: postman-render-workflow-tasks-beta-api
+- collection_type: postman
+  name: Render Public Audit Logs Workflows (Beta) API
+  slug: postman-render-workflows-beta-api
+- collection_type: postman
+  name: Render Public Audit Logs Workspaces API
+  slug: postman-render-workspaces-api
 - collection_type: open
   name: Render Public API
   slug: open-render
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/render/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -754,12 +838,12 @@ overview: 'Render publishes 26 APIs on the [APIs.io](https://apis.io/) network, 
   The Render catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Render''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, and 12 more developer resources.'
+  Render''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Render Plans Pricing
   plan_count: 8
   slug: render-plans-pricing
-random_paper: 28
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Render Rate Limits
@@ -791,18 +875,25 @@ rules:
   slug: render-rules
 score:
   band: strong
-  composite: 60.3
-  delta: 2.2
+  composite: 57.5
+  delta: -2.8
   facets:
     commercial_clarity: 57.9
-    contract_quality: 84.0
-    developer_ergonomics: 39.1
-    discoverability: 67.5
-    governance: 52.6
+    contract_quality: 81.5
+    developer_ergonomics: 43.5
+    discoverability: 50.0
+    governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 58.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/screenshots/render-2026-06-20T192846.png
 security:

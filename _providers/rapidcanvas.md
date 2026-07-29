@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Bearer-token REST API behind the RapidCanvas platform and the RC CLI. All CLI interactions are HTTPS calls to https://<host>/api/... No public OpenAPI reference is published; the OAuth authorization-s
@@ -134,7 +136,7 @@ overview: 'RapidCanvas publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   RapidCanvas'' developer surface includes documentation, getting-started guide, pricing, engineering blog, signup flow, support, changelog, and 15 more developer resources.'
-random_paper: 8
+random_paper: 9
 scopes:
 - name: Rapidcanvas Scopes
   scope_count: 4
@@ -142,18 +144,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 30.0
+  delta: -0.5
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 43.5
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 30.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

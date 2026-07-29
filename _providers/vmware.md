@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -214,12 +216,61 @@ apis:
 - description: Virtual machine lifecycle management including creation, power operations, cloning, migration, and configuration
   name: VMware VMs API
   slug: vmware-vms-api
-artifact_total: 280
+artifact_total: 295
 collections:
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters API
+  slug: postman-vmware-clusters-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Content Library API
+  slug: postman-vmware-content-library-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Datacenters API
+  slug: postman-vmware-datacenters-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Datastores API
+  slug: postman-vmware-datastores-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Folders API
+  slug: postman-vmware-folders-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Hosts API
+  slug: postman-vmware-hosts-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Networks API
+  slug: postman-vmware-networks-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Resource Pools API
+  slug: postman-vmware-resource-pools-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Session API
+  slug: postman-vmware-session-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Storage Policies API
+  slug: postman-vmware-storage-policies-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters Tagging API
+  slug: postman-vmware-tagging-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters VM Guest API
+  slug: postman-vmware-vm-guest-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters VM Hardware API
+  slug: postman-vmware-vm-hardware-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters VM Power API
+  slug: postman-vmware-vm-power-api
+- collection_type: postman
+  name: VMware vSphere Automation REST Clusters VMs API
+  slug: postman-vmware-vms-api
 - collection_type: open
   name: VMware vSphere Automation REST API
   slug: open-vmware-vsphere-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/vmware/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -937,12 +988,12 @@ overview: 'VMware publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
   The VMware catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  VMware''s developer surface includes authentication, developer portal, documentation, code examples, CLI, engineering blog, support, and 15 more developer resources.'
+  VMware''s developer surface includes authentication, developer portal, documentation, code examples, CLI, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Vmware Plans Pricing
   plan_count: 1
   slug: vmware-plans-pricing
-random_paper: 46
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Vmware Rate Limits
@@ -966,18 +1017,25 @@ rules:
   slug: vmware-spectral-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 0.0
+  composite: 59.8
+  delta: -3.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 70.8
-    developer_ergonomics: 47.8
-    discoverability: 55.0
-    governance: 86.8
+    contract_quality: 67.4
+    developer_ergonomics: 52.2
+    discoverability: 40.7
+    governance: 68.8
     operational_transparency: 42.1
   previous_composite: 63.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/screenshots/vmware-2026-06-20T201116.png
 security:

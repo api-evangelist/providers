@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,12 +47,26 @@ apis:
 - description: Laminar Workflow endpoints, for managing workflows and workflow executions.
   name: Minicor Workflows API
   slug: minicor-workflows-api
-artifact_total: 10
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Minicor Webhooks
   slug: minicor-webhooks
+collections:
+- collection_type: postman
+  name: Laminar Configuration Stores API
+  slug: postman-minicor-configuration-stores-api
+- collection_type: postman
+  name: Laminar Configuration Stores external API
+  slug: postman-minicor-external-api
+- collection_type: postman
+  name: Laminar Configuration Stores Workflows API
+  slug: postman-minicor-workflows-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/minicor/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -205,27 +221,38 @@ overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The Minicor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Minicor''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 27 more developer resources.'
-random_paper: 5
+  Minicor''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 28 more developer resources.'
+random_paper: 60
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 58.8
+  delta: -3.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.0
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.3
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 62.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 45.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

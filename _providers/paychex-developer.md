@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -266,7 +268,7 @@ plans:
 - name: Paychex Developer Plans Pricing
   plan_count: 2
   slug: paychex-developer-plans-pricing
-random_paper: 65
+random_paper: 71
 rate_limits:
 - limit_count: 4
   name: Paychex Developer Rate Limits
@@ -295,19 +297,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 58.3
-  delta: 5.5
+  composite: 53.8
+  delta: -4.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 76.1
+    contract_quality: 77.1
     developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 52.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 58.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/screenshots/paychex-developer-2026-06-20T191450.png
 security:
 - kind: authentication

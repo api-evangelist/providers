@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -491,7 +493,7 @@ plans:
 - name: Amazon Data Exchange Plans Pricing
   plan_count: 3
   slug: amazon-data-exchange-plans-pricing
-random_paper: 9
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Amazon Data Exchange Rate Limits
@@ -515,19 +517,26 @@ rules:
   slug: amazon-data-exchange-spectral-rules
 score:
   band: exemplar
-  composite: 72.5
-  delta: 5.5
+  composite: 67.8
+  delta: -4.7
   facets:
     commercial_clarity: 81.6
-    contract_quality: 79.1
+    contract_quality: 79.2
     developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 67.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 72.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/screenshots/amazon-data-exchange-2026-06-20T171621.png
 security:
 - kind: authentication

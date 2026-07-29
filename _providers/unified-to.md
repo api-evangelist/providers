@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -485,8 +487,427 @@ arazzos:
 - description: Look up an employee, file a time-off request for them, then list their time-off records.
   name: Unified.to HRIS Time-Off Request
   slug: unified-to-hris-timeoff-request-workflow
-artifact_total: 1300
+artifact_total: 1438
+collections:
+- collection_type: postman
+  name: Unified.to account API
+  slug: postman-unified-to-account-api
+- collection_type: postman
+  name: Unified.to account accounting API
+  slug: postman-unified-to-accounting-api
+- collection_type: postman
+  name: Unified.to account activity API
+  slug: postman-unified-to-activity-api
+- collection_type: postman
+  name: Unified.to account ad API
+  slug: postman-unified-to-ad-api
+- collection_type: postman
+  name: Unified.to account ads API
+  slug: postman-unified-to-ads-api
+- collection_type: postman
+  name: Unified.to account apicall API
+  slug: postman-unified-to-apicall-api
+- collection_type: postman
+  name: Unified.to account application API
+  slug: postman-unified-to-application-api
+- collection_type: postman
+  name: Unified.to account applicationstatus API
+  slug: postman-unified-to-applicationstatus-api
+- collection_type: postman
+  name: Unified.to account assessment API
+  slug: postman-unified-to-assessment-api
+- collection_type: postman
+  name: Unified.to account ats API
+  slug: postman-unified-to-ats-api
+- collection_type: postman
+  name: Unified.to account auth API
+  slug: postman-unified-to-auth-api
+- collection_type: postman
+  name: Unified.to account availability API
+  slug: postman-unified-to-availability-api
+- collection_type: postman
+  name: Unified.to account balancesheet API
+  slug: postman-unified-to-balancesheet-api
+- collection_type: postman
+  name: Unified.to account bankaccount API
+  slug: postman-unified-to-bankaccount-api
+- collection_type: postman
+  name: Unified.to account benefit API
+  slug: postman-unified-to-benefit-api
+- collection_type: postman
+  name: Unified.to account bill API
+  slug: postman-unified-to-bill-api
+- collection_type: postman
+  name: Unified.to account branch API
+  slug: postman-unified-to-branch-api
+- collection_type: postman
+  name: Unified.to account busy API
+  slug: postman-unified-to-busy-api
+- collection_type: postman
+  name: Unified.to account calendar API
+  slug: postman-unified-to-calendar-api
+- collection_type: postman
+  name: Unified.to account call API
+  slug: postman-unified-to-call-api
+- collection_type: postman
+  name: Unified.to account campaign API
+  slug: postman-unified-to-campaign-api
+- collection_type: postman
+  name: Unified.to account candidate API
+  slug: postman-unified-to-candidate-api
+- collection_type: postman
+  name: Unified.to account carrier API
+  slug: postman-unified-to-carrier-api
+- collection_type: postman
+  name: Unified.to account cashflow API
+  slug: postman-unified-to-cashflow-api
+- collection_type: postman
+  name: Unified.to account category API
+  slug: postman-unified-to-category-api
+- collection_type: postman
+  name: Unified.to account change API
+  slug: postman-unified-to-change-api
+- collection_type: postman
+  name: Unified.to account channel API
+  slug: postman-unified-to-channel-api
+- collection_type: postman
+  name: Unified.to account class API
+  slug: postman-unified-to-class-api
+- collection_type: postman
+  name: Unified.to account collection API
+  slug: postman-unified-to-collection-api
+- collection_type: postman
+  name: Unified.to account comment API
+  slug: postman-unified-to-comment-api
+- collection_type: postman
+  name: Unified.to account commerce API
+  slug: postman-unified-to-commerce-api
+- collection_type: postman
+  name: Unified.to account commit API
+  slug: postman-unified-to-commit-api
+- collection_type: postman
+  name: Unified.to account company API
+  slug: postman-unified-to-company-api
+- collection_type: postman
+  name: Unified.to account connection API
+  slug: postman-unified-to-connection-api
+- collection_type: postman
+  name: Unified.to account contact API
+  slug: postman-unified-to-contact-api
+- collection_type: postman
+  name: Unified.to account content API
+  slug: postman-unified-to-content-api
+- collection_type: postman
+  name: Unified.to account course API
+  slug: postman-unified-to-course-api
+- collection_type: postman
+  name: Unified.to account creative API
+  slug: postman-unified-to-creative-api
+- collection_type: postman
+  name: Unified.to account creditmemo API
+  slug: postman-unified-to-creditmemo-api
+- collection_type: postman
+  name: Unified.to account crm API
+  slug: postman-unified-to-crm-api
+- collection_type: postman
+  name: Unified.to account customer API
+  slug: postman-unified-to-customer-api
+- collection_type: postman
+  name: Unified.to account deal API
+  slug: postman-unified-to-deal-api
+- collection_type: postman
+  name: Unified.to account deduction API
+  slug: postman-unified-to-deduction-api
+- collection_type: postman
+  name: Unified.to account device API
+  slug: postman-unified-to-device-api
+- collection_type: postman
+  name: Unified.to account document API
+  slug: postman-unified-to-document-api
+- collection_type: postman
+  name: Unified.to account embedding API
+  slug: postman-unified-to-embedding-api
+- collection_type: postman
+  name: Unified.to account employee API
+  slug: postman-unified-to-employee-api
+- collection_type: postman
+  name: Unified.to account enrich API
+  slug: postman-unified-to-enrich-api
+- collection_type: postman
+  name: Unified.to account environment API
+  slug: postman-unified-to-environment-api
+- collection_type: postman
+  name: Unified.to account event API
+  slug: postman-unified-to-event-api
+- collection_type: postman
+  name: Unified.to account expense API
+  slug: postman-unified-to-expense-api
+- collection_type: postman
+  name: Unified.to account file API
+  slug: postman-unified-to-file-api
+- collection_type: postman
+  name: Unified.to account form API
+  slug: postman-unified-to-form-api
+- collection_type: postman
+  name: Unified.to account forms API
+  slug: postman-unified-to-forms-api
+- collection_type: postman
+  name: Unified.to account genai API
+  slug: postman-unified-to-genai-api
+- collection_type: postman
+  name: Unified.to account group API
+  slug: postman-unified-to-group-api
+- collection_type: postman
+  name: Unified.to account hris API
+  slug: postman-unified-to-hris-api
+- collection_type: postman
+  name: Unified.to account insertionorder API
+  slug: postman-unified-to-insertionorder-api
+- collection_type: postman
+  name: Unified.to account instructor API
+  slug: postman-unified-to-instructor-api
+- collection_type: postman
+  name: Unified.to account integration API
+  slug: postman-unified-to-integration-api
+- collection_type: postman
+  name: Unified.to account interview API
+  slug: postman-unified-to-interview-api
+- collection_type: postman
+  name: Unified.to account inventory API
+  slug: postman-unified-to-inventory-api
+- collection_type: postman
+  name: Unified.to account invoice API
+  slug: postman-unified-to-invoice-api
+- collection_type: postman
+  name: Unified.to account issue API
+  slug: postman-unified-to-issue-api
+- collection_type: postman
+  name: Unified.to account item API
+  slug: postman-unified-to-item-api
+- collection_type: postman
+  name: Unified.to account itemvariant API
+  slug: postman-unified-to-itemvariant-api
+- collection_type: postman
+  name: Unified.to account job API
+  slug: postman-unified-to-job-api
+- collection_type: postman
+  name: Unified.to account journal API
+  slug: postman-unified-to-journal-api
+- collection_type: postman
+  name: Unified.to account kms API
+  slug: postman-unified-to-kms-api
+- collection_type: postman
+  name: Unified.to account label API
+  slug: postman-unified-to-label-api
+- collection_type: postman
+  name: Unified.to account lead API
+  slug: postman-unified-to-lead-api
+- collection_type: postman
+  name: Unified.to account link API
+  slug: postman-unified-to-link-api
+- collection_type: postman
+  name: Unified.to account list API
+  slug: postman-unified-to-list-api
+- collection_type: postman
+  name: Unified.to account lms API
+  slug: postman-unified-to-lms-api
+- collection_type: postman
+  name: Unified.to account location API
+  slug: postman-unified-to-location-api
+- collection_type: postman
+  name: Unified.to account login API
+  slug: postman-unified-to-login-api
+- collection_type: postman
+  name: Unified.to account martech API
+  slug: postman-unified-to-martech-api
+- collection_type: postman
+  name: Unified.to account member API
+  slug: postman-unified-to-member-api
+- collection_type: postman
+  name: Unified.to account message API
+  slug: postman-unified-to-message-api
+- collection_type: postman
+  name: Unified.to account messaging API
+  slug: postman-unified-to-messaging-api
+- collection_type: postman
+  name: Unified.to account metadata API
+  slug: postman-unified-to-metadata-api
+- collection_type: postman
+  name: Unified.to account model API
+  slug: postman-unified-to-model-api
+- collection_type: postman
+  name: Unified.to account note API
+  slug: postman-unified-to-note-api
+- collection_type: postman
+  name: Unified.to account order API
+  slug: postman-unified-to-order-api
+- collection_type: postman
+  name: Unified.to account organization API
+  slug: postman-unified-to-organization-api
+- collection_type: postman
+  name: Unified.to account package API
+  slug: postman-unified-to-package-api
+- collection_type: postman
+  name: Unified.to account page API
+  slug: postman-unified-to-page-api
+- collection_type: postman
+  name: Unified.to account passthrough API
+  slug: postman-unified-to-passthrough-api
+- collection_type: postman
+  name: Unified.to account payment API
+  slug: postman-unified-to-payment-api
+- collection_type: postman
+  name: Unified.to account payout API
+  slug: postman-unified-to-payout-api
+- collection_type: postman
+  name: Unified.to account payslip API
+  slug: postman-unified-to-payslip-api
+- collection_type: postman
+  name: Unified.to account person API
+  slug: postman-unified-to-person-api
+- collection_type: postman
+  name: Unified.to account pipeline API
+  slug: postman-unified-to-pipeline-api
+- collection_type: postman
+  name: Unified.to account profitloss API
+  slug: postman-unified-to-profitloss-api
+- collection_type: postman
+  name: Unified.to account project API
+  slug: postman-unified-to-project-api
+- collection_type: postman
+  name: Unified.to account promoted API
+  slug: postman-unified-to-promoted-api
+- collection_type: postman
+  name: Unified.to account prompt API
+  slug: postman-unified-to-prompt-api
+- collection_type: postman
+  name: Unified.to account pullrequest API
+  slug: postman-unified-to-pullrequest-api
+- collection_type: postman
+  name: Unified.to account purchaseorder API
+  slug: postman-unified-to-purchaseorder-api
+- collection_type: postman
+  name: Unified.to account rate API
+  slug: postman-unified-to-rate-api
+- collection_type: postman
+  name: Unified.to account recording API
+  slug: postman-unified-to-recording-api
+- collection_type: postman
+  name: Unified.to account refund API
+  slug: postman-unified-to-refund-api
+- collection_type: postman
+  name: Unified.to account repo API
+  slug: postman-unified-to-repo-api
+- collection_type: postman
+  name: Unified.to account report API
+  slug: postman-unified-to-report-api
+- collection_type: postman
+  name: Unified.to account repository API
+  slug: postman-unified-to-repository-api
+- collection_type: postman
+  name: Unified.to account request API
+  slug: postman-unified-to-request-api
+- collection_type: postman
+  name: Unified.to account reservation API
+  slug: postman-unified-to-reservation-api
+- collection_type: postman
+  name: Unified.to account review API
+  slug: postman-unified-to-review-api
+- collection_type: postman
+  name: Unified.to account saleschannel API
+  slug: postman-unified-to-saleschannel-api
+- collection_type: postman
+  name: Unified.to account salesorder API
+  slug: postman-unified-to-salesorder-api
+- collection_type: postman
+  name: Unified.to account scim API
+  slug: postman-unified-to-scim-api
+- collection_type: postman
+  name: Unified.to account scorecard API
+  slug: postman-unified-to-scorecard-api
+- collection_type: postman
+  name: Unified.to account shipment API
+  slug: postman-unified-to-shipment-api
+- collection_type: postman
+  name: Unified.to account shipping API
+  slug: postman-unified-to-shipping-api
+- collection_type: postman
+  name: Unified.to account signatory API
+  slug: postman-unified-to-signatory-api
+- collection_type: postman
+  name: Unified.to account signing API
+  slug: postman-unified-to-signing-api
+- collection_type: postman
+  name: Unified.to account space API
+  slug: postman-unified-to-space-api
+- collection_type: postman
+  name: Unified.to account storage API
+  slug: postman-unified-to-storage-api
+- collection_type: postman
+  name: Unified.to account student API
+  slug: postman-unified-to-student-api
+- collection_type: postman
+  name: Unified.to account submission API
+  slug: postman-unified-to-submission-api
+- collection_type: postman
+  name: Unified.to account subscription API
+  slug: postman-unified-to-subscription-api
+- collection_type: postman
+  name: Unified.to account target API
+  slug: postman-unified-to-target-api
+- collection_type: postman
+  name: Unified.to account task API
+  slug: postman-unified-to-task-api
+- collection_type: postman
+  name: Unified.to account taxrate API
+  slug: postman-unified-to-taxrate-api
+- collection_type: postman
+  name: Unified.to account template API
+  slug: postman-unified-to-template-api
+- collection_type: postman
+  name: Unified.to account ticket API
+  slug: postman-unified-to-ticket-api
+- collection_type: postman
+  name: Unified.to account ticketing API
+  slug: postman-unified-to-ticketing-api
+- collection_type: postman
+  name: Unified.to account timeoff API
+  slug: postman-unified-to-timeoff-api
+- collection_type: postman
+  name: Unified.to account timeshift API
+  slug: postman-unified-to-timeshift-api
+- collection_type: postman
+  name: Unified.to account tracking API
+  slug: postman-unified-to-tracking-api
+- collection_type: postman
+  name: Unified.to account transaction API
+  slug: postman-unified-to-transaction-api
+- collection_type: postman
+  name: Unified.to account trialbalance API
+  slug: postman-unified-to-trialbalance-api
+- collection_type: postman
+  name: Unified.to account uc API
+  slug: postman-unified-to-uc-api
+- collection_type: postman
+  name: .to account unified API
+  slug: postman-unified-to-unified-api
+- collection_type: postman
+  name: Unified.to account user API
+  slug: postman-unified-to-user-api
+- collection_type: postman
+  name: Unified.to account verification API
+  slug: postman-unified-to-verification-api
+- collection_type: postman
+  name: Unified.to account webhook API
+  slug: postman-unified-to-webhook-api
+- collection_type: postman
+  name: Unified.to account webinar API
+  slug: postman-unified-to-webinar-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/unifiedto/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4084,12 +4505,12 @@ overview: 'Unified.to publishes 138 APIs on the [APIs.io](https://apis.io/) netw
   The Unified.to catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Unified.to''s developer surface includes authentication, engineering blog, changelog, pricing, documentation, getting-started guide, signup flow, and 44 more developer resources.'
+  Unified.to''s developer surface includes authentication, engineering blog, changelog, pricing, documentation, getting-started guide, signup flow, and 45 more developer resources.'
 plans:
 - name: Unified To Plans Pricing
   plan_count: 4
   slug: unified-to-plans-pricing
-random_paper: 60
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Unified To Rate Limits
@@ -4113,18 +4534,25 @@ rules:
   slug: unified-to-spectral-rules
 score:
   band: exemplar
-  composite: 73.8
-  delta: 0.0
+  composite: 70.3
+  delta: -3.5
   facets:
     commercial_clarity: 92.1
-    contract_quality: 61.3
+    contract_quality: 63.0
     developer_ergonomics: 63.0
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 78.9
   previous_composite: 73.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 138
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:

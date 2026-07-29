@@ -1,184 +1,64 @@
 ---
-access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
-  public: false
-  source:
-  - authentication
-  trial: false
-  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: conformant
+    agent_skills: false
     agentic_access: false
     asyncapi_events: false
-    auth_clarity: true
+    auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
-api_count: 1
-apis:
-- description: 'Hosted REST + MCP surface (api.superset.sh, v2) that lets agents and automation manage workspaces, tasks, agents, terminals, automations, projects, and hosts. Authenticated with OAuth 2.1 or API keys '
-  name: Superset Agent API
-  slug: superset-agent-api
-artifact_total: 5
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 7.2
+  scored_at: '2026-07-28'
+api_count: 0
+artifact_total: 3
 common:
-- group: auth
+- group: other
   title: ''
-  type: DomainSecurity
-  url: security/superset-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://superset.sh
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://docs.superset.sh
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://docs.superset.sh
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://docs.superset.sh
-- group: build
-  title: ''
-  type: GitHubOrganization
-  url: https://github.com/superset-sh
-- group: company
-  title: ''
-  type: Blog
-  url: https://superset.sh/blog
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://superset.sh/pricing
-- group: start
-  title: ''
-  type: SignUp
-  url: https://superset.sh/pricing
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://superset.sh/terms
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://superset.sh/privacy
-- group: operate
-  title: ''
-  type: Support
-  url: https://superset.sh/community
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.superset.sh
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: https://superset.sh/changelog
-- group: build
-  title: ''
-  type: Packages
-  url: packages/superset-packages.yml
-- group: build
-  title: ''
-  type: SDKs
-  url: packages/superset-packages.yml
-- group: build
-  title: ''
-  type: CLI
-  url: cli/superset-cli.yml
-- group: agent
-  title: ''
-  type: MCPServer
-  url: mcp/superset-mcp.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/superset-authentication.yml
-- group: auth
-  title: ''
-  type: OAuthScopes
-  url: scopes/superset-scopes.yml
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/superset-well-known.yml
-- group: design
-  title: ''
-  type: Lifecycle
-  url: lifecycle/superset-lifecycle.yml
-- group: design
-  title: ''
-  type: Conventions
-  url: conventions/superset-conventions.yml
-- group: design
-  title: ''
-  type: Conformance
-  url: conformance/superset-conformance.yml
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: changelog/superset-changelog.yml
-- group: agent
-  title: ''
-  type: LLMsTxt
-  url: llms/superset-llms.txt
-- group: agent
-  title: ''
-  type: AgentSkill
-  url: skills/_index.yml
+  type: AgentCard
+  url: a2a/superset-a2a.yml
 created: '2026-07-17'
-description: 'Superset is an open-source, terminal-first code editor built for the AI-agent era, letting engineers run 100+ CLI coding agents (Claude Code, Cursor, OpenCode, Gemini, Copilot, Mistral Vibe and more) in parallel, each isolated in its own Git worktree so work never collides. The desktop app pairs with a standalone CLI, a TypeScript SDK (@superset_sh/sdk), and a hosted MCP server at api.superset.sh so agents and automation can create and manage workspaces, tasks, terminals, and scheduled automations programmatically. Backed by Y Combinator (Spring 2026), Superset reached 12k+ GitHub stars and #1 on Product Hunt shortly after launch. Features include remote workspaces on any network-connected device, an infinite-scroll diff viewer, port forwarding, an in-app browser, IDE integration, and cross-device OAuth login.'
-image: https://avatars.githubusercontent.com/superset-sh
+description: Superset is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
-mcp_servers:
-- description: ''
-  name: superset-mcp.yml
-  slug: superset-mcpyml
-modified: '2026-07-21'
+modified: '2026-07-17'
 name: Superset
 nav: Providers
 network: true
-overview: 'Superset publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, AI Agents, Code Editor, and IDE.
-
-
-  Superset''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 20 more developer resources.'
-random_paper: 7
+overview: Superset is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+random_paper: 44
 scopes:
 - name: Superset Scopes
   scope_count: 4
   slug: superset-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 37.8
-  delta: 0.0
+  band: minimal
+  composite: 6.1
+  delta: -31.7
   facets:
-    commercial_clarity: 44.7
+    commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
-    operational_transparency: 36.8
+    developer_ergonomics: 0.0
+    discoverability: 46.3
+    governance: 12.5
+    operational_transparency: 0.0
   previous_composite: 37.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Superset Authentication
@@ -191,16 +71,4 @@ security:
 slug: superset
 tags:
 - Company
-- Developer Tools
-- AI Agents
-- Code Editor
-- IDE
-- Coding Agents
-- MCP
-- CLI
-- SDK
-- Git Worktrees
-- Automation
-- Y Combinator
-website: https://superset.sh
 ---

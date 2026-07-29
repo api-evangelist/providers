@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -122,25 +124,32 @@ plans:
 - name: Gorilladesk Plans Pricing
   plan_count: 4
   slug: gorilladesk-plans-pricing
-random_paper: 13
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Gorilladesk Rate Limits
   slug: gorilladesk-rate-limits
 score:
   band: thin
-  composite: 39.0
-  delta: 3.2
+  composite: 36.5
+  delta: -2.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 47.3
+    contract_quality: 47.7
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 39.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/screenshots/gorilladesk-2026-07-25T220117.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,8 +60,31 @@ apis:
 - description: The Stamp API API from Gitcoin — 4 operation(s) for stamp api.
   name: Gitcoin Stamp API API
   slug: gitcoin-stamp-api-api
-artifact_total: 21
+artifact_total: 27
+collections:
+- collection_type: postman
+  name: Gitcoin Core Bounties API
+  slug: postman-gitcoin-bounties-api
+- collection_type: postman
+  name: Gitcoin Core Bounties Contributors API
+  slug: postman-gitcoin-contributors-api
+- collection_type: postman
+  name: Gitcoin Core Bounties Grants API
+  slug: postman-gitcoin-grants-api
+- collection_type: postman
+  name: Gitcoin Core Bounties Model Analysis API
+  slug: postman-gitcoin-model-analysis-api
+- collection_type: postman
+  name: Gitcoin Core Bounties Rounds API
+  slug: postman-gitcoin-rounds-api
+- collection_type: postman
+  name: Gitcoin Core Bounties Stamp API API
+  slug: postman-gitcoin-stamp-api-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/gitcoin/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -168,12 +193,12 @@ overview: 'Gitcoin publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Gitcoin catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gitcoin''s developer surface includes authentication, engineering blog, documentation, support, and 12 more developer resources.'
+  Gitcoin''s developer surface includes authentication, engineering blog, documentation, support, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 1
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -189,18 +214,25 @@ rules:
   slug: gitcoin-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.1
-  delta: 0.0
+  composite: 56.3
+  delta: -3.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 76.5
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 75.8
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 60.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -412,7 +414,7 @@ press:
 - date: '2026-05-25'
   title: How ADT embraces AI to make every second count.
   url: https://sierra.ai/customers/adt
-random_paper: 41
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Adt Rate Limits
@@ -441,19 +443,26 @@ scopes:
   summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 58.1
-  delta: 4.6
+  composite: 50.7
+  delta: -7.4
   facets:
     commercial_clarity: 63.2
-    contract_quality: 74.5
+    contract_quality: 62.9
     developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 53.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 58.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 10
+      marker_coverage: 100.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/screenshots/adt-2026-06-20T165203.png
 security:
 - kind: authentication

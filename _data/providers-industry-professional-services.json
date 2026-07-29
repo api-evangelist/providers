@@ -16,35 +16,36 @@
      "slug": "vistra",
      "description": "Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically submit company incorporation requests in supported jurisdictions (initially British Virgin Islands), upload supporting documents to pre-signed storage URLs, and integrate Vistra's corporate services into business process workflows. Authentication uses OAuth2 bearer tokens obtained through the Vistra Developer Portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png",
-     "score": 54.8,
+     "score": 49.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 70.8,
-      "governance": 86.8,
+      "discoverability": 68.5,
+      "contract_quality": 68.6,
+      "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
+     "schema_version": 0.6,
+     "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "verified",
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 1
     }
@@ -64,35 +65,36 @@
      "slug": "cbre",
      "description": "CBRE Group, Inc. (NYSE: CBRE) is the world's largest commercial real estate services and investment firm, with 155,000 professionals across 500+ offices in 100+ countries. CBRE provides advisory and transaction, project management, property management, valuation, investment management, and consulting services. Its technology arm publishes developer APIs through developer.cbre.com that expose property, analytics, and facilities data to partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cbre/refs/heads/main/screenshots/cbre-2026-06-20T174059.png",
-     "score": 41.6,
+     "score": 39.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 60.2,
+      "discoverability": 68.5,
+      "contract_quality": 61.9,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
+     "schema_version": 0.6,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 2
     },
@@ -101,35 +103,36 @@
      "slug": "kpmg",
      "description": "KPMG is one of the Big Four professional services organizations, operating through a global network of independent member firms affiliated with KPMG International Limited, a private English company limited by guarantee that itself does not provide services to clients. The network spans more than 276,000 partners and employees across 138 countries and territories. KPMG organizes delivery across six service lines — Audit & Assurance, Tax, Legal, Advisory, ESG, and AI — and serves six industries: Consumer / Retail / Leisure; Energy, Natural Resources & Chemicals; Financial Services; Healthcare; Government & Public Sector; and Private Enterprise. AI is a first-class service line built on the KPMG Trusted AI framework — a ten-pillar approach covering Reliability, Security, Safety, Privacy, Sustainability, Explainability, Integrity, Transparency, Fairness, and Accountability — and packaged through five AI solutions: KPMG AI Jumpstart, AI Strategy, AI Trust, AI Workforce, and AI Technology. Alliances anchoring the AI delivery surface include Microsoft, Oracle, Salesforce, SAP, ServiceNow, and Workday, with collaboration noted with the World Economic Forum. KPMG Lakehouse, the firm's USD 450 million learning-and-innovation campus in Lake Nona, Orlando, is the cultural and AI-upskilling hub for the US firm and a venue for client innovation sessions in generative AI, ESG, and talent strategy. Insights is KPMG's research-publishing surface, organized across topic categories including AI and Technology, ESG, Operations, Risk and Regulation, Transformation, Value Creation, Workforce, Public Policy & Regulatory Change, Business Transformation, Audit & Assurance, Tax, Advisory, Sustainability, and Transactions, with flagship series such as the KPMG US Technology Survey Report, the KPMG Global Third-Party Risk Management Survey, the KPMG M&A Deal Market Study, Fit for Pillar Two, and AI Governance Principles for Boards. KPMG does not publish a public developer API or corporate developer portal at the network level; the firm has no enumerable public GitHub organization at `github.com/kpmg`. The one meaningful public API surface inside the KPMG brand is KPMG Origins (`kpmgorigins.com`) — an Australian regulated-waste tracking platform (initially the NSW Integrated Waste Tracking System / IWTS, with Queensland and other jurisdictions in scope) that exposes two REST APIs (Movements + Registries) over Swagger with API-key authentication, intended for integration with waste-operator software rather than as a general-purpose KPMG developer surface. Distribution to readers and client stakeholders flows through the Insights site, the US Subscription Center (Opportunity (In)sight monthly newsletter), KPMG Australia's Business Insights podcast, and per-page RSS feeds offered on individual KPMG member-firm pages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/screenshots/kpmg-2026-06-20T184147.png",
-     "score": 37.4,
+     "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 58.4,
+      "discoverability": 74.1,
+      "contract_quality": 60.2,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
+     "schema_version": 0.6,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 3
     }
@@ -141,28 +144,28 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 7,
-   "shown": 7,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Deloitte",
      "slug": "deloitte",
      "description": "Deloitte is one of the Big Four professional services organizations, operating through a network of member firms coordinated by Deloitte Touche Tohmatsu Limited (DTTL). The organization spans approximately 150 countries and territories, has more than 180 years of history (founded 1845), and serves roughly 90% of the Fortune Global 500. Deloitte organizes delivery across four primary service lines — Audit & Assurance, Consulting, Tax, and Legal — plus specialized cross-functional practices including Business Process Solutions and Global Employer Services. Consulting offerings cover Customer, Cyber, Engineering / AI & Data, Enterprise Technology & Performance, Finance Transformation, Human Capital, Strategy & Transactions, and Risk / Regulatory & Forensic. Deloitte Digital is the technology-and-experience practice with alliances spanning Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle, Shopify, Sitecore, and Genesys, and accelerators such as FrontOffice Advantage, Revenue Advantage, Agentic Marketing Cloud, CreativEdge, Blueprint, Content Studios, and TrustID. The organization serves six industries divided into twenty sectors: Consumer; Energy, Resources & Industrials; Financial Services; Government & Public Services; Life Sciences & Health Care; and Technology, Media & Telecommunications. Deloitte Insights is the organization's research-publishing surface, organized into eight research centers — Cross-Industry, Economics, Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, and Tech, Media & Telecom — producing flagship series including Tech Trends, Global Human Capital Trends, Digital Media Trends, TMT Predictions, FSI Predictions, the Weekly Global Economic Outlook, and the annual Industry Outlooks. The Deloitte AI Institute drives applied-AI research and points of view. Deloitte does not publish a public developer API or open developer portal at the corporate level. The Deloitte US Consulting GitHub organization is small (5 visible repositories, mostly archived upstream forks; the original artifact is `beacon`, a first-party web-analytics packaging library in TypeScript). Reader-facing distribution flows through MyDeloitte (personalized content + newsletter subscriptions), Dbriefs (live webcasts with CPE credit), the Deloitte Insights Magazine, and the YouTube channel; no public RSS index page was discoverable on www.deloitte.com at the path published in legacy archives.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/screenshots/deloitte-2026-06-20T175902.png",
-     "score": 23.4,
+     "score": 21.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 15.1,
+      "discoverability": 50.0,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -172,12 +175,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 4
     },
@@ -186,11 +190,11 @@
      "slug": "accenture",
      "description": "A global professional services company providing consulting, technology, and outsourcing services. Serves clients across more than 40 industries in over 120 countries with expertise in digital transformation, cloud, and AI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/accenture/refs/heads/main/screenshots/accenture-2026-06-20T163607.png",
-     "score": 18.5,
+     "score": 17.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 26.3,
@@ -198,8 +202,8 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 15.2,
+     "schema_version": 0.6,
+     "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -209,110 +213,38 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 5
     },
     {
-     "name": "EPAM Systems",
-     "slug": "epam-systems",
-     "description": "EPAM Systems is a major US corporation and Fortune 1000 company. The EPAM Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "score": 17.2,
+     "name": "Gartner",
+     "slug": "gartner",
+     "description": "Gartner is a global research and advisory firm providing information, advice, and tools to business leaders across IT, finance, HR, customer service, sales, marketing, supply chain, and legal functions. Gartner does not publish a public developer API; this repository tracks the company and any partner or technical artifacts that surface over time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gartner/refs/heads/main/screenshots/gartner-2026-07-25T215450.png",
+     "score": 15.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
+      "discoverability": 50.0,
+      "contract_quality": 43.2,
       "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "FTI Consulting",
-     "slug": "fti-consulting",
-     "description": "FTI Consulting is a major US corporation and Fortune 1000 company. The FTI Consulting API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fti-consulting/refs/heads/main/screenshots/fti-consulting-2026-06-20T181607.png",
-     "score": 17.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 7
-    },
-    {
-     "name": "Robert Half International",
-     "slug": "robert-half-international",
-     "description": "Robert Half International is the world's first and largest specialized staffing and talent solutions firm. Founded in 1948, it provides contract, temporary, and permanent placement solutions across finance and accounting, technology, marketing, legal, and administrative fields. The company is the parent of Protiviti, a global consulting firm. Robert Half does not publicly expose a developer API; integration is available through partner programs and ATS ecosystem connectors. Listed in the Fortune 500.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/robert-half-international/refs/heads/main/screenshots/robert-half-international-2026-06-20T193138.png",
-     "score": 16.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 15.1,
-      "governance": 13.2,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "schema_version": 0.6,
+     "agent_score": 16.2,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
+      "spec_presence": true,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
@@ -324,7 +256,83 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "EPAM Systems",
+     "slug": "epam-systems",
+     "description": "EPAM Systems is a major US corporation and Fortune 1000 company. The EPAM Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "FTI Consulting",
+     "slug": "fti-consulting",
+     "description": "FTI Consulting is a major US corporation and Fortune 1000 company. The FTI Consulting API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fti-consulting/refs/heads/main/screenshots/fti-consulting-2026-06-20T181607.png",
+     "score": 14.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 8
     },
@@ -333,11 +341,11 @@
      "slug": "conduent",
      "description": "Conduent is a major US corporation and Fortune 1000 company. The Conduent API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/conduent/refs/heads/main/screenshots/conduent-2026-07-25T210242.png",
-     "score": 16.4,
+     "score": 14.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 26.3,
@@ -345,8 +353,8 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -356,25 +364,102 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 9
+    },
+    {
+     "name": "Robert Half International",
+     "slug": "robert-half-international",
+     "description": "Robert Half International is the world's first and largest specialized staffing and talent solutions firm. Founded in 1948, it provides contract, temporary, and permanent placement solutions across finance and accounting, technology, marketing, legal, and administrative fields. The company is the parent of Protiviti, a global consulting firm. Robert Half does not publicly expose a developer API; integration is available through partner programs and ATS ecosystem connectors. Listed in the Fortune 500.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/robert-half-international/refs/heads/main/screenshots/robert-half-international-2026-06-20T193138.png",
+     "score": 14.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 12.9,
+      "governance": 10.4,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "UL Solutions",
+     "slug": "ul-solutions",
+     "description": "UL Solutions is a global leader in applied safety science, providing testing, inspection, certification, advisory, and software solutions to help customers innovate safely, demonstrate compliance, and bring trusted products to market. The company offers software products such as ULTRUS and ComplianceWire, customer portals (myUL, Product iQ), and the Marks and Labels Hub. UL Solutions does not currently expose a public developer-facing API portal with open documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ul-solutions/refs/heads/main/screenshots/ul-solutions-2026-06-20T200006.png",
+     "score": 13.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
     },
     {
      "name": "Maximus",
      "slug": "maximus",
      "description": "Maximus is a major US corporation and Fortune 1000 company. The Maximus API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maximus/refs/heads/main/screenshots/maximus-2026-06-20T185049.png",
-     "score": 15.3,
+     "score": 13.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -382,14 +467,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 13.0
+      "score": 7.5,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -399,14 +485,15 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 12
     }
    ]
   },
@@ -415,129 +502,18 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 18,
-   "shown": 18,
+   "count": 16,
+   "shown": 16,
    "providers": [
-    {
-     "name": "UL Solutions",
-     "slug": "ul-solutions",
-     "description": "UL Solutions is a global leader in applied safety science, providing testing, inspection, certification, advisory, and software solutions to help customers innovate safely, demonstrate compliance, and bring trusted products to market. The company offers software products such as ULTRUS and ComplianceWire, customer portals (myUL, Product iQ), and the Marks and Labels Hub. UL Solutions does not currently expose a public developer-facing API portal with open documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ul-solutions/refs/heads/main/screenshots/ul-solutions-2026-06-20T200006.png",
-     "score": 14.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Cognizant Technology Solutions",
-     "slug": "cognizant-technology",
-     "description": "Cognizant Technology Solutions is a multinational information technology services and consulting company that provides digital, technology, consulting, and operations services to clients worldwide. Cognizant does not publish a general-purpose public REST API. Its developer-facing footprint is centered on the Cognizant Neuro AI platform family (Neuro AI Decisioning, Neuro AI Enterprise Core, Neuro AI Engineering, Neuro AI for IT Operations) and the open-source Neuro SAN multi-agent orchestration framework released by Cognizant AI Lab. Other delivered platforms (BigFrame for mainframe data migration, ADM accelerators, industry vertical solutions) are typically engaged via consulting engagements rather than self-service APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/screenshots/cognizant-technology-2026-06-20T174719.png",
-     "score": 12.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "Concentrix",
-     "slug": "concentrix",
-     "description": "Concentrix is a global technology and services leader providing customer experience (CX) management, digital transformation, and technology consulting across approximately 2,000 brands worldwide. Its product suite spans the iX product line (including iX Hello and iX Hero agentic AI assistants) and the Catalyst experience transformation and technology consultancy. Concentrix does not publish a public developer API; the iX product suite and Catalyst services are delivered via managed engagements and enterprise integrations rather than a self-service developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/screenshots/concentrix-2026-06-20T174841.png",
-     "score": 12.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 13
-    },
     {
      "name": "Bain & Company",
      "slug": "bain-and-company",
      "description": "Bain & Company is a global management consulting firm and one of the prestigious Big Three strategy consultancies. Bain does not publish a commercial public developer portal; technology integration is delivered through client-specific advisory engagements, Bain proprietary tools (NPS Prism, Helix, Vector), and a Bain-published Insights / research surface that is consumed via the bain.com website and feeds rather than developer APIs.",
-     "score": 12.0,
+     "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -545,7 +521,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -561,20 +537,97 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Cognizant Technology Solutions",
+     "slug": "cognizant-technology",
+     "description": "Cognizant Technology Solutions is a multinational information technology services and consulting company that provides digital, technology, consulting, and operations services to clients worldwide. Cognizant does not publish a general-purpose public REST API. Its developer-facing footprint is centered on the Cognizant Neuro AI platform family (Neuro AI Decisioning, Neuro AI Enterprise Core, Neuro AI Engineering, Neuro AI for IT Operations) and the open-source Neuro SAN multi-agent orchestration framework released by Cognizant AI Lab. Other delivered platforms (BigFrame for mainframe data migration, ADM accelerators, industry vertical solutions) are typically engaged via consulting engagements rather than self-service APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/screenshots/cognizant-technology-2026-06-20T174719.png",
+     "score": 10.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 14
+    },
+    {
+     "name": "Concentrix",
+     "slug": "concentrix",
+     "description": "Concentrix is a global technology and services leader providing customer experience (CX) management, digital transformation, and technology consulting across approximately 2,000 brands worldwide. Its product suite spans the iX product line (including iX Hello and iX Hero agentic AI assistants) and the Catalyst experience transformation and technology consultancy. Concentrix does not publish a public developer API; the iX product suite and Catalyst services are delivered via managed engagements and enterprise integrations rather than a self-service developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/screenshots/concentrix-2026-06-20T174841.png",
+     "score": 10.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
     },
     {
      "name": "Advantage Solutions",
      "slug": "advantage-solutions",
      "description": "Advantage Solutions is a leading provider of outsourced sales, marketing, merchandising, and business intelligence services to consumer goods manufacturers and retailers across North America. The company supports brand growth through retail execution, in-store demos, digital commerce enablement, and shopper insights. Advantage Solutions does not publish a public developer API portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png",
-     "score": 10.7,
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -582,7 +635,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -598,20 +651,21 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "EY",
      "slug": "ey",
      "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
-     "score": 10.7,
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -619,7 +673,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -635,19 +689,20 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Marsh & McLennan",
      "slug": "marsh-and-mclennan",
      "description": "Marsh & McLennan Companies is a global professional services firm offering clients advice and solutions in risk, strategy, and people through Marsh, Guy Carpenter, Mercer, and Oliver Wyman. The firm does not currently publish a public developer portal or self-service APIs; data exchange with clients is conducted through engagement-specific integrations.",
-     "score": 8.3,
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -655,12 +710,13 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
-      "score": 13.0
+      "score": 9.1,
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -677,20 +733,21 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Korn Ferry",
      "slug": "korn-ferry",
      "description": "Korn Ferry is a global organizational consulting firm that helps companies design optimal organization structures, recruit and develop talent, and drive performance. The firm offers services across executive search, leadership development, organizational strategy, total rewards, and talent acquisition. Korn Ferry serves clients across industries with a combination of consulting, data, and digital products.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/korn-ferry/refs/heads/main/screenshots/korn-ferry-2026-06-20T184140.png",
-     "score": 7.6,
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -698,7 +755,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -714,19 +771,20 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "McKinsey & Company",
      "slug": "mckinsey",
      "description": "McKinsey & Company is a global management consulting firm advising leading businesses, governments, non-profit organizations, and institutions on strategy, operations, technology, and transformation. The firm operates in more than 65 countries and runs QuantumBlack, its AI and analytics arm. No public developer portal or external APIs have been identified for McKinsey & Company; its proprietary platforms (e.g., platform.mckinsey.com) are gated to client engagements and authenticated users only.",
-     "score": 7.4,
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -734,7 +792,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -750,44 +808,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "Gartner",
-     "slug": "gartner",
-     "description": "Gartner is a global research and advisory firm providing information, advice, and tools to business leaders across IT, finance, HR, customer service, sales, marketing, supply chain, and legal functions. Gartner does not publish a public developer API; this repository tracks the company and any partner or technical artifacts that surface over time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gartner/refs/heads/main/screenshots/gartner-2026-07-25T215450.png",
-     "score": 6.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 20
     },
@@ -796,11 +818,11 @@
      "slug": "kelly-services",
      "description": "Kelly Services is a global leader in providing workforce solutions, connecting talented people to companies in need of their skills across a variety of industries including staffing, talent management, and outsourcing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kelly-services/refs/heads/main/screenshots/kelly-services-2026-07-25T223601.png",
-     "score": 6.8,
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -808,7 +830,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -824,7 +846,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 21
     },
@@ -833,11 +856,11 @@
      "slug": "manpowergroup",
      "description": "ManpowerGroup is a global workforce solutions company that connects talented people with innovative companies through its family of brands including Manpower, Experis, and Talent Solutions. No public developer APIs have been documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/manpowergroup/refs/heads/main/screenshots/manpowergroup-2026-06-20T184925.png",
-     "score": 6.8,
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -845,7 +868,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -861,7 +884,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 22
     },
@@ -870,11 +894,11 @@
      "slug": "pwc",
      "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms providing audit and assurance, tax, and management consulting services globally. PwC operates as a network of member firms across approximately 150 countries with hundreds of thousands of professionals. Service lines include audit, deals and transactions, tax compliance and advisory, risk assurance, cybersecurity and privacy, ESG and sustainability assurance, workforce transformation, and digital/technology consulting (cloud, data, AI, ERP). PwC publishes thought-leadership content and operates client portals for engagement delivery and document exchange, but it does not publish a public developer API or open partner integration portal at the corporate level - client connectivity is bilateral and project-scoped rather than offered as a self-serve API product.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pwc/refs/heads/main/screenshots/pwc-2026-06-20T192330.png",
-     "score": 6.8,
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -882,7 +906,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -898,7 +922,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 23
     },
@@ -907,11 +932,11 @@
      "slug": "amn-healthcare-services",
      "description": "Profile for AMN Healthcare Services in the API Evangelist network. Fortune F1000 (rank 939).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amn-healthcare-services/refs/heads/main/screenshots/amn-healthcare-services-2026-06-20T171934.png",
-     "score": 3.5,
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.0,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -919,7 +944,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -935,7 +960,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 24
     },
@@ -944,11 +970,11 @@
      "slug": "asgn",
      "description": "Profile for ASGN in the API Evangelist network. Fortune F1000 (rank 652).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/asgn/refs/heads/main/screenshots/asgn-2026-06-20T172501.png",
-     "score": 3.5,
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.0,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -956,7 +982,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -972,7 +998,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 25
     },
@@ -981,11 +1008,11 @@
      "slug": "interpublic-group",
      "description": "Fortune 1000 company Interpublic Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/interpublic-group/refs/heads/main/screenshots/interpublic-group-2026-06-20T183507.png",
-     "score": 3.5,
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.0,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -993,7 +1020,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1009,7 +1036,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 26
     },
@@ -1018,11 +1046,11 @@
      "slug": "omnicom-group",
      "description": "Fortune 1000 company Omnicom Group. Public API documentation has not yet been catalogued in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/omnicom-group/refs/heads/main/screenshots/omnicom-group-2026-06-20T190704.png",
-     "score": 3.5,
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.0,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1030,7 +1058,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1046,7 +1074,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 27
     },
@@ -1054,11 +1083,11 @@
      "name": "Service Corp International",
      "slug": "service-corp-international",
      "description": "Service Corporation International is North America's leading provider of deathcare products and services, owning and operating funeral homes and cemeteries throughout the United States and Canada.",
-     "score": 3.5,
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.0,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1066,7 +1095,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1082,7 +1111,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 28
     }

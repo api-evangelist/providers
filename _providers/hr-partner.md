@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -130,12 +132,109 @@ apis:
 - description: Read employee training and course completion records.
   name: HR Partner Training API
   slug: hr-partner-training-api
-artifact_total: 90
+artifact_total: 121
 collections:
+- collection_type: postman
+  name: HR Partner REST Absences API
+  slug: postman-hr-partner-absences-api
+- collection_type: postman
+  name: HR Partner REST Absences Addresses API
+  slug: postman-hr-partner-addresses-api
+- collection_type: postman
+  name: HR Partner REST Absences Applicants API
+  slug: postman-hr-partner-applicants-api
+- collection_type: postman
+  name: HR Partner REST Absences Application Stage Tracking API
+  slug: postman-hr-partner-application-stage-tracking-api
+- collection_type: postman
+  name: HR Partner REST Absences Applications API
+  slug: postman-hr-partner-applications-api
+- collection_type: postman
+  name: HR Partner REST Absences Assets API
+  slug: postman-hr-partner-assets-api
+- collection_type: postman
+  name: HR Partner REST Absences Attachments API
+  slug: postman-hr-partner-attachments-api
+- collection_type: postman
+  name: HR Partner REST Absences Benefits API
+  slug: postman-hr-partner-benefits-api
+- collection_type: postman
+  name: HR Partner REST Absences Checklists API
+  slug: postman-hr-partner-checklists-api
+- collection_type: postman
+  name: HR Partner REST Absences Company API
+  slug: postman-hr-partner-company-api
+- collection_type: postman
+  name: HR Partner REST Absences Contacts API
+  slug: postman-hr-partner-contacts-api
+- collection_type: postman
+  name: HR Partner REST Absences Dependents API
+  slug: postman-hr-partner-dependents-api
+- collection_type: postman
+  name: HR Partner REST Absences Education API
+  slug: postman-hr-partner-education-api
+- collection_type: postman
+  name: HR Partner REST Absences Employees API
+  slug: postman-hr-partner-employees-api
+- collection_type: postman
+  name: HR Partner REST Absences Expenses API
+  slug: postman-hr-partner-expenses-api
+- collection_type: postman
+  name: HR Partner REST Absences Goals API
+  slug: postman-hr-partner-goals-api
+- collection_type: postman
+  name: HR Partner REST Absences Grievances API
+  slug: postman-hr-partner-grievances-api
+- collection_type: postman
+  name: HR Partner REST Absences Job Listings API
+  slug: postman-hr-partner-job-listings-api
+- collection_type: postman
+  name: HR Partner REST Absences Leave Balances API
+  slug: postman-hr-partner-leave-balances-api
+- collection_type: postman
+  name: HR Partner REST Absences Leave Requests API
+  slug: postman-hr-partner-leave-requests-api
+- collection_type: postman
+  name: HR Partner REST Absences Library API
+  slug: postman-hr-partner-library-api
+- collection_type: postman
+  name: HR Partner REST Absences Lookups API
+  slug: postman-hr-partner-lookups-api
+- collection_type: postman
+  name: HR Partner REST Absences Notes API
+  slug: postman-hr-partner-notes-api
+- collection_type: postman
+  name: HR Partner REST Absences Positions API
+  slug: postman-hr-partner-positions-api
+- collection_type: postman
+  name: HR Partner REST Absences Projects API
+  slug: postman-hr-partner-projects-api
+- collection_type: postman
+  name: HR Partner REST Absences Reminders API
+  slug: postman-hr-partner-reminders-api
+- collection_type: postman
+  name: HR Partner REST Absences Renewables API
+  slug: postman-hr-partner-renewables-api
+- collection_type: postman
+  name: HR Partner REST Absences Reviews API
+  slug: postman-hr-partner-reviews-api
+- collection_type: postman
+  name: HR Partner REST Absences Skills API
+  slug: postman-hr-partner-skills-api
+- collection_type: postman
+  name: HR Partner REST Absences Timesheets API
+  slug: postman-hr-partner-timesheets-api
+- collection_type: postman
+  name: HR Partner REST Absences Training API
+  slug: postman-hr-partner-training-api
 - collection_type: open
   name: HR Partner REST API
   slug: open-hr-partner-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hr-partner/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -385,12 +484,12 @@ overview: 'HR Partner publishes 31 APIs on the [APIs.io](https://apis.io/) netwo
   The HR Partner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  HR Partner''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 12 more developer resources.'
+  HR Partner''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Hr Partner Plans Pricing
   plan_count: 3
   slug: hr-partner-plans-pricing
-random_paper: 7
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Hr Partner Rate Limits
@@ -414,18 +513,25 @@ rules:
   slug: hr-partner-rest-api-rules
 score:
   band: strong
-  composite: 60.1
-  delta: 3.3
+  composite: 56.6
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 65.3
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 56.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hr-partner/refs/heads/main/screenshots/hr-partner-2026-06-20T182858.png
 security:

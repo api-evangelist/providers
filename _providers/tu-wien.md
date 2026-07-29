@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Public REST API of the TU Wien Research Data repository, built on InvenioRDM. Provides programmatic access to records, metadata, search and file content. Read operations such as retrieving and searchi
@@ -104,25 +106,25 @@ plans:
 - name: Tu Wien Plans Pricing
   plan_count: 2
   slug: tu-wien-plans-pricing
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Tu Wien Rate Limits
   slug: tu-wien-rate-limits
 score:
   band: emerging
-  composite: 23.0
-  delta: 0.0
+  composite: 19.8
+  delta: -3.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 23.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/screenshots/tu-wien-2026-06-20T195820.png
 security:

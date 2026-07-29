@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Operations for managing deployment targets
   name: Google Cloud Deploy Targets API
   slug: google-cloud-deploy-targets-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: postman
+  name: Google Cloud Deploy DeliveryPipelines API
+  slug: postman-google-cloud-deploy-deliverypipelines-api
+- collection_type: postman
+  name: Google Cloud Deploy DeliveryPipelines Releases API
+  slug: postman-google-cloud-deploy-releases-api
+- collection_type: postman
+  name: Google Cloud Deploy DeliveryPipelines Rollouts API
+  slug: postman-google-cloud-deploy-rollouts-api
+- collection_type: postman
+  name: Google Cloud Deploy DeliveryPipelines Targets API
+  slug: postman-google-cloud-deploy-targets-api
 - collection_type: open
   name: Google Cloud Deploy API
   slug: open-cloud-deploy-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-deploy/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,12 +172,12 @@ overview: 'Google Cloud Deploy publishes 4 APIs on the [APIs.io](https://apis.io
   The Google Cloud Deploy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Deploy''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, developer console, CLI, and 11 more developer resources.'
+  Google Cloud Deploy''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, developer console, CLI, and 12 more developer resources.'
 plans:
 - name: Google Cloud Deploy Plans Pricing
   plan_count: 3
   slug: google-cloud-deploy-plans-pricing
-random_paper: 11
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Google Cloud Deploy Rate Limits
@@ -180,18 +198,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 67.8
-  delta: 4.6
+  composite: 64.6
+  delta: -3.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 66.4
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 67.8
+    developer_ergonomics: 60.9
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/screenshots/google-cloud-deploy-2026-06-20T182104.png
 security:

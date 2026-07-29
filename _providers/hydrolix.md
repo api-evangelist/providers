@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.3
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Configure and manage a Hydrolix cluster — orgs, projects, tables, transforms, functions, jobs, and service accounts.
@@ -124,21 +126,25 @@ overview: 'Hydrolix publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Hydrolix''s developer surface includes documentation, API reference, signup flow, CLI, authentication, and 12 more developer resources.'
-random_paper: 67
+random_paper: 36
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 24.8
+  delta: -1.4
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 81.5
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 26.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/screenshots/hydrolix-2026-07-25T221832.png
 security:

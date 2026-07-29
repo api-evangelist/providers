@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 12.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Server-side Twirp API for managing rooms, participants, tracks, mute/unmute, and metadata.
@@ -132,7 +134,7 @@ plans:
 - name: Livekit Plans Pricing
   plan_count: 4
   slug: livekit-plans-pricing
-random_paper: 12
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Livekit Rate Limits
@@ -147,19 +149,25 @@ rules:
     warn: 4
   slug: livekit-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 43.2
-  delta: 0.0
+  band: developing
+  composite: 42.9
+  delta: -0.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 19.6
-    discoverability: 100.0
-    governance: 60.5
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 36.8
   previous_composite: 43.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 23.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/screenshots/livekit-2026-06-20T184644.png
 security:

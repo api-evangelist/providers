@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,8 +99,73 @@ apis:
 - description: User account and subscription information
   name: EOD Historical Data User API
   slug: eod-historical-user-api
-artifact_total: 33
+artifact_total: 53
+collections:
+- collection_type: postman
+  name: EODHD Financial Data Calendar API
+  slug: postman-eod-historical-calendar-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar CBOE API
+  slug: postman-eod-historical-cboe-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Corporate Actions API
+  slug: postman-eod-historical-corporate-actions-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Dividends & Splits API
+  slug: postman-eod-historical-dividends-splits-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Economic Data API
+  slug: postman-eod-historical-economic-data-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar End-of-Day Data API
+  slug: postman-eod-historical-end-of-day-data-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar ESG API
+  slug: postman-eod-historical-esg-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Exchanges API
+  slug: postman-eod-historical-exchanges-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Fundamentals API
+  slug: postman-eod-historical-fundamentals-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Indices API
+  slug: postman-eod-historical-indices-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Intraday Data API
+  slug: postman-eod-historical-intraday-data-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Investment Analytics API
+  slug: postman-eod-historical-investment-analytics-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Logos API
+  slug: postman-eod-historical-logos-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Market Data API
+  slug: postman-eod-historical-market-data-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar News API
+  slug: postman-eod-historical-news-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Options API
+  slug: postman-eod-historical-options-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Screening API
+  slug: postman-eod-historical-screening-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar Technical API
+  slug: postman-eod-historical-technical-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar US Treasury API
+  slug: postman-eod-historical-us-treasury-api
+- collection_type: postman
+  name: EODHD Financial Data Calendar User API
+  slug: postman-eod-historical-user-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/eod-historical-data/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,12 +274,12 @@ overview: 'EOD Historical Data publishes 20 APIs on the [APIs.io](https://apis.i
   The EOD Historical Data catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  EOD Historical Data''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, support, and 10 more developer resources.'
+  EOD Historical Data''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Eod Historical Plans Pricing
   plan_count: 6
   slug: eod-historical-plans-pricing
-random_paper: 3
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Eod Historical Rate Limits
@@ -228,23 +295,31 @@ rules:
   slug: eod-historical-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 59.6
+  delta: -3.2
   facets:
     commercial_clarity: 84.2
-    contract_quality: 67.6
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 68.4
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eod-historical/refs/heads/main/screenshots/eod-historical-2026-06-20T180743.png
 security:

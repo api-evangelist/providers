@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -115,8 +117,86 @@ apis:
 - description: Manage cluster version deferral policies to delay automatic CockroachDB version upgrades.
   name: Cockroach Labs VersionDeferral API
   slug: cockroach-labs-versiondeferral-api
-artifact_total: 64
+artifact_total: 90
 collections:
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys API
+  slug: postman-cockroach-labs-apikeys-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys AuditLogs API
+  slug: postman-cockroach-labs-auditlogs-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Auth API
+  slug: postman-cockroach-labs-auth-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys BackupRestore API
+  slug: postman-cockroach-labs-backuprestore-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Billing API
+  slug: postman-cockroach-labs-billing-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Clusters API
+  slug: postman-cockroach-labs-clusters-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys CMEK API
+  slug: postman-cockroach-labs-cmek-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Databases API
+  slug: postman-cockroach-labs-databases-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys EgressRules API
+  slug: postman-cockroach-labs-egressrules-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Folders API
+  slug: postman-cockroach-labs-folders-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Health API
+  slug: postman-cockroach-labs-health-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys IPAllowlists API
+  slug: postman-cockroach-labs-ipallowlists-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys JWTIssuers API
+  slug: postman-cockroach-labs-jwtissuers-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys LogExport API
+  slug: postman-cockroach-labs-logexport-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys MaintenanceWindows API
+  slug: postman-cockroach-labs-maintenancewindows-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys MetricExport API
+  slug: postman-cockroach-labs-metricexport-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Nodes API
+  slug: postman-cockroach-labs-nodes-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Organizations API
+  slug: postman-cockroach-labs-organizations-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys PrivateEndpoints API
+  slug: postman-cockroach-labs-privateendpoints-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Ranges API
+  slug: postman-cockroach-labs-ranges-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys RoleManagement API
+  slug: postman-cockroach-labs-rolemanagement-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Rules API
+  slug: postman-cockroach-labs-rules-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys ServiceAccounts API
+  slug: postman-cockroach-labs-serviceaccounts-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys Sessions API
+  slug: postman-cockroach-labs-sessions-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys SQLUsers API
+  slug: postman-cockroach-labs-sqlusers-api
+- collection_type: postman
+  name: CockroachDB Cloud APIKeys VersionDeferral API
+  slug: postman-cockroach-labs-versiondeferral-api
 - collection_type: open
   name: CockroachDB Cloud API
   slug: open-cockroach-labs-cloud-api
@@ -124,6 +204,10 @@ collections:
   name: CockroachDB Cluster API
   slug: open-cockroach-labs-cluster-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cockroach-labs/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -247,12 +331,12 @@ overview: 'Cockroach Labs publishes 26 APIs on the [APIs.io](https://apis.io/) n
   The Cockroach Labs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cockroach Labs'' developer surface includes authentication, documentation, pricing, engineering blog, developer console, support, GitHub presence, and 17 more developer resources.'
+  Cockroach Labs'' developer surface includes authentication, documentation, pricing, engineering blog, developer console, support, GitHub presence, and 18 more developer resources.'
 plans:
 - name: Cockroach Labs Plans Pricing
   plan_count: 3
   slug: cockroach-labs-plans-pricing
-random_paper: 44
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Cockroach Labs Rate Limits
@@ -276,18 +360,25 @@ rules:
   slug: cockroach-labs-rules
 score:
   band: strong
-  composite: 66.1
-  delta: 3.2
+  composite: 62.9
+  delta: -3.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 67.0
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 68.4
+    developer_ergonomics: 37.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 62.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/screenshots/cockroach-labs-2026-06-20T174648.png
 security:

@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,26 +103,27 @@ overview: 'Pipe is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pipe''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
-random_paper: 22
+random_paper: 45
 score:
   band: emerging
-  composite: 26.8
-  delta: 0.0
+  composite: 23.7
+  delta: -3.1
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 26.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

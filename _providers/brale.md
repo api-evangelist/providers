@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: flavored
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 61.9
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: The Accounts API from Brale — 4 operation(s) for accounts.
@@ -47,12 +49,35 @@ apis:
 - description: The Webhooks API from Brale — 6 operation(s) for webhooks.
   name: Brale Webhooks API
   slug: brale-webhooks-api
-artifact_total: 12
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Brale Webhooks
   slug: brale-webhooks
+collections:
+- collection_type: postman
+  name: Brale Accounts API
+  slug: postman-brale-accounts-api
+- collection_type: postman
+  name: Brale Accounts Addresses API
+  slug: postman-brale-addresses-api
+- collection_type: postman
+  name: Brale Accounts Automations API
+  slug: postman-brale-automations-api
+- collection_type: postman
+  name: Brale Accounts Financial Institutions API
+  slug: postman-brale-financial-institutions-api
+- collection_type: postman
+  name: Brale Accounts Orders API
+  slug: postman-brale-orders-api
+- collection_type: postman
+  name: Brale Accounts Webhooks API
+  slug: postman-brale-webhooks-api
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/brale-a2a.yml
 - group: docs
   title: ''
   type: Documentation
@@ -223,8 +248,8 @@ overview: 'Brale publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Brale catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Brale''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
-random_paper: 42
+  Brale''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 32 more developer resources.'
+random_paper: 56
 scopes:
 - name: Brale Scopes
   scope_count: 20
@@ -232,23 +257,33 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: strong
-  composite: 65.4
-  delta: 0.0
+  composite: 60.9
+  delta: -4.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 68.4
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 66.4
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 63.2
   previous_composite: 65.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 64.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png
 security:

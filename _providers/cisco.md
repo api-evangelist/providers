@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -80,8 +82,25 @@ arazzos:
 - description: Verify organization access, guard against a duplicate network name, create the network, and read it back.
   name: Cisco Meraki Provision an Organization Network
   slug: cisco-provision-meraki-network-workflow
-artifact_total: 54
+artifact_total: 58
+collections:
+- collection_type: postman
+  name: Cisco Meraki Dashboard Clients API
+  slug: postman-cisco-clients-api
+- collection_type: postman
+  name: Cisco Meraki Dashboard Clients Devices API
+  slug: postman-cisco-devices-api
+- collection_type: postman
+  name: Cisco Meraki Dashboard Clients Networks API
+  slug: postman-cisco-networks-api
+- collection_type: postman
+  name: Cisco Meraki Dashboard Clients Organizations API
+  slug: postman-cisco-organizations-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cisco/overview
 - group: design
   title: ''
   type: Arazzo
@@ -281,12 +300,12 @@ overview: 'Cisco publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Cisco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cisco''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 24 more developer resources.'
+  Cisco''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 25 more developer resources.'
 plans:
 - name: Cisco Plans Pricing
   plan_count: 3
   slug: cisco-plans-pricing
-random_paper: 53
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Cisco Rate Limits
@@ -310,18 +329,27 @@ rules:
   slug: cisco-spectral-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 0.0
+  composite: 62.7
+  delta: -2.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.4
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 58.0
+    developer_ergonomics: 65.2
+    discoverability: 92.6
+    governance: 69.8
     operational_transparency: 42.1
   previous_composite: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png
 security:

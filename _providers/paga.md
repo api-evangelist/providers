@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 8
@@ -52,12 +54,29 @@ apis:
 - description: Look-up operations - banks, mobile operators, status.
   name: Paga Reference API
   slug: paga-reference-api
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Paga Webhooks
   slug: paga-webhooks
+collections:
+- collection_type: postman
+  name: Paga Developer Business API
+  slug: postman-paga-business-api
+- collection_type: postman
+  name: Paga Developer Business Collect API
+  slug: postman-paga-collect-api
+- collection_type: postman
+  name: Paga Developer Business Direct Debit API
+  slug: postman-paga-direct-debit-api
+- collection_type: postman
+  name: Paga Developer Business Reference API
+  slug: postman-paga-reference-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/paga/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -216,35 +235,46 @@ overview: 'Paga publishes 4 APIs on the [APIs.io](https://apis.io/) network, inc
   The Paga catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Paga''s developer surface includes authentication, documentation, sandbox, quickstart, support, engineering blog, and 28 more developer resources.'
+  Paga''s developer surface includes authentication, documentation, sandbox, quickstart, support, engineering blog, and 29 more developer resources.'
 plans:
 - name: Paga Plans Pricing
   plan_count: 2
   slug: paga-plans-pricing
-random_paper: 1
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Paga Rate Limits
   slug: paga-rate-limits
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 58.2
+  delta: -2.0
   facets:
     commercial_clarity: 55.3
-    contract_quality: 65.0
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 63.6
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 50.0
   previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 69.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 62.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

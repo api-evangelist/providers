@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -367,7 +369,7 @@ plans:
 - name: Tensor Plans Pricing
   plan_count: 2
   slug: tensor-plans-pricing
-random_paper: 55
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Tensor Rate Limits
@@ -399,23 +401,31 @@ rules:
   slug: tensor-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 4.3
+  composite: 51.6
+  delta: -3.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 75.0
+    contract_quality: 75.9
     developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 60.5
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 50.4
+  previous_composite: 54.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 38.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/screenshots/tensor-2026-06-20T195119.png
 security:

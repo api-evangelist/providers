@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -441,7 +443,7 @@ plans:
 - name: Ibm Quantum Plans Pricing
   plan_count: 5
   slug: ibm-quantum-plans-pricing
-random_paper: 48
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Ibm Quantum Rate Limits
@@ -465,18 +467,25 @@ rules:
   slug: ibm-quantum-rules
 score:
   band: strong
-  composite: 69.2
-  delta: 4.2
+  composite: 64.9
+  delta: -4.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 73.6
+    contract_quality: 72.9
     developer_ergonomics: 71.7
-    discoverability: 75.0
-    governance: 86.8
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 65.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/screenshots/ibm-quantum-2026-06-20T183130.png
 security:

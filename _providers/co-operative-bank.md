@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -172,31 +174,40 @@ overview: 'The Co-operative Bank publishes 1 API on the [APIs.io](https://apis.i
 
 
   The Co-operative Bank''s developer surface includes documentation, getting-started guide, authentication, sandbox, support, signup flow, and 21 more developer resources.'
-random_paper: 55
+random_paper: 70
 scopes:
 - name: Co Operative Bank Scopes
   scope_count: 6
   slug: co-operative-bank-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 44.0
-  delta: 0.0
+  band: developing
+  composite: 43.3
+  delta: -0.7
   facets:
     commercial_clarity: 23.7
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 26.3
   previous_composite: 44.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 80.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 73.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/screenshots/co-operative-bank-2026-07-25T205806.png
 security:

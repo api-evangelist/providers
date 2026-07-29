@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 58.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 1
@@ -648,7 +650,7 @@ plans:
 - name: Mews Com Plans Pricing
   plan_count: 5
   slug: mews-com-plans-pricing
-random_paper: 60
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Mews Com Rate Limits
@@ -672,18 +674,25 @@ rules:
   slug: mews-com-rules
 score:
   band: strong
-  composite: 67.3
-  delta: 3.5
+  composite: 63.4
+  delta: -3.9
   facets:
     commercial_clarity: 78.9
-    contract_quality: 64.8
+    contract_quality: 66.3
     developer_ergonomics: 34.8
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 76.3
-  previous_composite: 63.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 75
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/screenshots/mews-com-2026-06-20T185312.png
 security:

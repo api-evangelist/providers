@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The Ace Hardware Affiliate Program allows digital publishers, bloggers, and content creators to earn commissions by referring customers to acehardware.com. The program is managed through Impact's affi
@@ -143,7 +145,7 @@ plans:
 - name: Ace Hardware Plans Pricing
   plan_count: 3
   slug: ace-hardware-plans-pricing
-random_paper: 32
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Ace Hardware Rate Limits
@@ -159,19 +161,19 @@ rules:
   slug: ace-hardware-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 42.1
-  delta: 0.0
+  composite: 36.8
+  delta: -5.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 42.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/screenshots/ace-hardware-2026-06-20T163718.png
 security:
 - kind: domain-security

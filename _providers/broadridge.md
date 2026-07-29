@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +176,7 @@ press:
 - date: '2026-05-25'
   title: Governor Hochul Announces $78 Million Investment by ...
   url: https://esd.ny.gov/esd-media-center/press-releases/governor-hochul-announces-78-million-investment-broadridge
-random_paper: 23
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Broadridge Rate Limits
@@ -195,18 +197,25 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.4
-  delta: 3.2
+  composite: 48.0
+  delta: -4.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.9
+    contract_quality: 59.3
     developer_ergonomics: 32.6
-    discoverability: 75.0
-    governance: 73.7
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 49.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 52.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/screenshots/broadridge-2026-06-20T173715.png
 security:

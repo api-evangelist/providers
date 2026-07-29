@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Historical RESTful API for the Ninja Blocks IoT platform, used to read device/sensor data and actuate devices. No longer operational; documented here from surviving first-party client libraries.
@@ -69,21 +71,21 @@ overview: 'NinjaBlocks publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   NinjaBlocks'' developer surface includes CLI and 5 more developer resources.'
-random_paper: 10
+random_paper: 11
 score:
   band: minimal
-  composite: 12.5
-  delta: 0.0
+  composite: 10.1
+  delta: -2.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 12.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 slug: ninjablocks
 tags:

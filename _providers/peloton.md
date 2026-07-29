@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Conceptual GraphQL schema for the Peloton connected fitness platform, derived from community reverse-engineering of the internal REST API. Covers authentication, users, subscriptions, hardware devices
@@ -62,22 +64,22 @@ name: Peloton
 nav: Providers
 network: true
 overview: Peloton publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Wellness, Connected Fitness, Subscription, and Hardware.
-random_paper: 21
+random_paper: 76
 score:
-  band: minimal
-  composite: 9.3
-  delta: 0.0
+  band: emerging
+  composite: 18.9
+  delta: 9.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 0.0
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/peloton/refs/heads/main/screenshots/peloton-2026-06-20T191533.png
 security:
 - kind: domain-security

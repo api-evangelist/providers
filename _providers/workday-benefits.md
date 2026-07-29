@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,12 +57,34 @@ apis:
 - description: Manage time off and leave benefit plans
   name: Workday Benefits Time Off Plans API
   slug: workday-benefits-time-off-plans-api
-artifact_total: 39
+artifact_total: 45
 collections:
+- collection_type: postman
+  name: Workday Benefits Benefit Enrollments API
+  slug: postman-workday-benefits-benefit-enrollments-api
+- collection_type: postman
+  name: Workday Benefits Benefit Enrollments Benefit Events API
+  slug: postman-workday-benefits-benefit-events-api
+- collection_type: postman
+  name: Workday Benefits Benefit Enrollments Benefit Plans API
+  slug: postman-workday-benefits-benefit-plans-api
+- collection_type: postman
+  name: Workday Benefits Benefit Enrollments Dependents API
+  slug: postman-workday-benefits-dependents-api
+- collection_type: postman
+  name: Workday Benefits Benefit Enrollments Employee Benefits API
+  slug: postman-workday-benefits-employee-benefits-api
+- collection_type: postman
+  name: Workday Benefits Benefit Enrollments Time Off Plans API
+  slug: postman-workday-benefits-time-off-plans-api
 - collection_type: open
   name: Workday Benefits API
   slug: open-workday-benefits
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/workday-benefits/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,12 +230,12 @@ overview: 'Workday Benefits publishes 6 APIs on the [APIs.io](https://apis.io/) 
   The Workday Benefits catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Benefits'' developer surface includes authentication, getting-started guide, engineering blog, and 11 more developer resources.'
+  Workday Benefits'' developer surface includes authentication, getting-started guide, engineering blog, and 12 more developer resources.'
 plans:
 - name: Workday Benefits Plans Pricing
   plan_count: 3
   slug: workday-benefits-plans-pricing
-random_paper: 30
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Workday Benefits Rate Limits
@@ -239,20 +263,27 @@ scopes:
   slug: workday-benefits-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 61.5
-  delta: 5.4
+  band: developing
+  composite: 55.4
+  delta: -6.1
   facets:
     commercial_clarity: 57.9
-    contract_quality: 80.5
-    developer_ergonomics: 39.1
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 43.5
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 56.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/screenshots/workday-benefits-2026-06-20T201559.png
 security:
 - kind: authentication

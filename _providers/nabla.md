@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -210,31 +212,39 @@ plans:
 - name: Nabla Plans Pricing
   plan_count: 1
   slug: nabla-plans-pricing
-random_paper: 34
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Nabla Rate Limits
   slug: nabla-rate-limits
 score:
-  band: developing
-  composite: 45.3
-  delta: 2.8
+  band: thin
+  composite: 40.3
+  delta: -5.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 50.4
+    contract_quality: 52.5
     developer_ergonomics: 37.0
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 42.5
+  previous_composite: 45.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 28.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/screenshots/nabla-2026-06-20T185922.png
 security:
 - kind: authentication

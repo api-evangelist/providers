@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -236,7 +238,7 @@ press:
 - date: '2026-05-25'
   title: How UPS is using AI, from shipper pricing to customs ...
   url: https://www.supplychaindive.com/news/ups-ai-employee-upskilling-network-changes/816412/
-random_paper: 4
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Ups Rate Limits
@@ -265,18 +267,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.0
-  delta: 3.2
+  composite: 46.0
+  delta: -3.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.3
+    contract_quality: 71.5
     developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 45.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 49.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png
 security:

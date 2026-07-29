@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -513,7 +515,7 @@ plans:
 - name: Svix Plans Pricing
   plan_count: 3
   slug: svix-plans-pricing
-random_paper: 50
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Svix Rate Limits
@@ -537,19 +539,32 @@ rules:
   slug: svix-rules
 score:
   band: exemplar
-  composite: 78.5
-  delta: 2.0
+  composite: 70.1
+  delta: -8.4
   facets:
     commercial_clarity: 100.0
-    contract_quality: 65.0
+    contract_quality: 63.1
     developer_ergonomics: 84.8
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 76.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 78.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:
 - kind: authentication

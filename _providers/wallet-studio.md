@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,26 +87,29 @@ overview: 'Wallet Studio is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Wallet Studio''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 66
+random_paper: 49
 score:
   band: emerging
-  composite: 15.0
-  delta: 0.0
+  composite: 14.9
+  delta: -0.1
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 13.2
   previous_composite: 15.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 22.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -136,12 +138,82 @@ apis:
 - description: The Users API from StackOne — 2 operation(s) for users.
   name: StackOne Users API
   slug: stackone-users-api
-artifact_total: 229
+artifact_total: 251
 collections:
+- collection_type: postman
+  name: Marketing Accounts API
+  slug: postman-stackone-accounts-api
+- collection_type: postman
+  name: Marketing Accounts Applications API
+  slug: postman-stackone-applications-api
+- collection_type: postman
+  name: Marketing Accounts Campaigns API
+  slug: postman-stackone-campaigns-api
+- collection_type: postman
+  name: Marketing Accounts Candidates API
+  slug: postman-stackone-candidates-api
+- collection_type: postman
+  name: Marketing Accounts Companies API
+  slug: postman-stackone-companies-api
+- collection_type: postman
+  name: Marketing Accounts Connect Sessions API
+  slug: postman-stackone-connect-sessions-api
+- collection_type: postman
+  name: Marketing Accounts Contacts API
+  slug: postman-stackone-contacts-api
+- collection_type: postman
+  name: Marketing Accounts Departments API
+  slug: postman-stackone-departments-api
+- collection_type: postman
+  name: Marketing Accounts Employees API
+  slug: postman-stackone-employees-api
+- collection_type: postman
+  name: Marketing Accounts Employments API
+  slug: postman-stackone-employments-api
+- collection_type: postman
+  name: Marketing Accounts Interview Stages API
+  slug: postman-stackone-interview-stages-api
+- collection_type: postman
+  name: Marketing Accounts Interviews API
+  slug: postman-stackone-interviews-api
+- collection_type: postman
+  name: Marketing Accounts Job Postings API
+  slug: postman-stackone-job-postings-api
+- collection_type: postman
+  name: Marketing Accounts Jobs API
+  slug: postman-stackone-jobs-api
+- collection_type: postman
+  name: Marketing Accounts Lists API
+  slug: postman-stackone-lists-api
+- collection_type: postman
+  name: Marketing Accounts Locations API
+  slug: postman-stackone-locations-api
+- collection_type: postman
+  name: Marketing Accounts Offers API
+  slug: postman-stackone-offers-api
+- collection_type: postman
+  name: Marketing Accounts Proxy API
+  slug: postman-stackone-proxy-api
+- collection_type: postman
+  name: Marketing Accounts Rejected Reasons API
+  slug: postman-stackone-rejected-reasons-api
+- collection_type: postman
+  name: Marketing Accounts Templates API
+  slug: postman-stackone-templates-api
+- collection_type: postman
+  name: Marketing Accounts Time Off API
+  slug: postman-stackone-time-off-api
+- collection_type: postman
+  name: Marketing Accounts Users API
+  slug: postman-stackone-users-api
 - collection_type: open
   name: Marketing
   slug: open-stackone
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/stackone/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -777,12 +849,12 @@ overview: 'StackOne publishes 22 APIs on the [APIs.io](https://apis.io/) network
   The StackOne catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  StackOne''s developer surface includes authentication, engineering blog, changelog, documentation, getting-started guide, pricing, and 31 more developer resources.'
+  StackOne''s developer surface includes authentication, engineering blog, changelog, documentation, getting-started guide, pricing, and 32 more developer resources.'
 plans:
 - name: Stackone Plans Pricing
   plan_count: 3
   slug: stackone-plans-pricing
-random_paper: 40
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Stackone Rate Limits
@@ -806,18 +878,25 @@ rules:
   slug: stackone-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 2.0
+  composite: 59.6
+  delta: -3.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 60.0
+    contract_quality: 60.8
     developer_ergonomics: 43.5
-    discoverability: 75.0
-    governance: 73.7
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/screenshots/stackone-2026-06-20T194449.png
 security:

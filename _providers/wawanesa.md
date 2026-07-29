@@ -1,12 +1,14 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Broker-facing commercial small business API announced by Wawanesa on 2022-03-30, built with HUB International and described by Wawanesa as "fully aligned with CSIO data standards". Per the company ann
@@ -130,7 +132,7 @@ overview: 'Wawanesa Insurance publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Wawanesa Insurance''s developer surface includes authentication, engineering blog, product news, support, YouTube channel, and 18 more developer resources.'
-random_paper: 39
+random_paper: 8
 scopes:
 - name: Wawanesa Scopes
   scope_count: 0
@@ -138,23 +140,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 28.7
+  delta: -1.3
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 80.0
-    governance: 0.0
+    discoverability: 77.8
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 30.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 71.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

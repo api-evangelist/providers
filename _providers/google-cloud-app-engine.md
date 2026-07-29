@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Manage versions of a service
   name: Google Cloud App Engine Versions API
   slug: google-cloud-app-engine-versions-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: postman
+  name: Google Cloud App Engine Admin Applications API
+  slug: postman-google-cloud-app-engine-applications-api
+- collection_type: postman
+  name: Google Cloud App Engine Admin Applications Apps API
+  slug: postman-google-cloud-app-engine-apps-api
+- collection_type: postman
+  name: Google Cloud App Engine Admin Applications Instances API
+  slug: postman-google-cloud-app-engine-instances-api
+- collection_type: postman
+  name: Google Cloud App Engine Admin Applications Versions API
+  slug: postman-google-cloud-app-engine-versions-api
 - collection_type: open
   name: Google Cloud App Engine Admin API
   slug: open-appengine
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-app-engine/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,12 +164,12 @@ overview: 'Google Cloud App Engine publishes 4 APIs on the [APIs.io](https://api
   The Google Cloud App Engine catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud App Engine''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Cloud App Engine''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Cloud App Engine Plans Pricing
   plan_count: 3
   slug: google-cloud-app-engine-plans-pricing
-random_paper: 14
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Google Cloud App Engine Rate Limits
@@ -172,18 +190,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.9
-  delta: 4.6
+  composite: 62.6
+  delta: -3.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.0
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 70.3
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/screenshots/google-cloud-app-engine-2026-06-20T182039.png
 security:

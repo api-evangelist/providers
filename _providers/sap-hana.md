@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -88,12 +90,31 @@ apis:
 - description: Operations for retrieving database performance metrics and resource utilization data for SAP HANA Cloud instances.
   name: SAP HANA Metrics API
   slug: sap-hana-metrics-api
-artifact_total: 146
+artifact_total: 151
 collections:
+- collection_type: postman
+  name: SAP HANA Cloud REST Alerts API
+  slug: postman-sap-hana-alerts-api
+- collection_type: postman
+  name: SAP HANA Cloud REST Alerts Instance Mappings API
+  slug: postman-sap-hana-instance-mappings-api
+- collection_type: postman
+  name: SAP HANA Cloud REST Alerts Instances API
+  slug: postman-sap-hana-instances-api
+- collection_type: postman
+  name: SAP HANA Cloud REST Alerts Metering API
+  slug: postman-sap-hana-metering-api
+- collection_type: postman
+  name: SAP HANA Cloud REST Alerts Metrics API
+  slug: postman-sap-hana-metrics-api
 - collection_type: open
   name: SAP HANA Cloud REST API
   slug: open-sap-hana-cloud-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sap-hana/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -520,12 +541,12 @@ overview: 'SAP HANA publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The SAP HANA catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SAP HANA''s developer surface includes authentication, support, pricing, getting-started guide, and 13 more developer resources.'
+  SAP HANA''s developer surface includes authentication, support, pricing, getting-started guide, and 14 more developer resources.'
 plans:
 - name: Sap Hana Plans Pricing
   plan_count: 1
   slug: sap-hana-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Sap Hana Rate Limits
@@ -554,18 +575,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.4
-  delta: 4.7
+  composite: 58.3
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 78.9
-    developer_ergonomics: 34.8
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 79.7
+    developer_ergonomics: 39.1
+    discoverability: 66.7
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 55.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/screenshots/sap-hana-2026-06-20T193427.png
 security:

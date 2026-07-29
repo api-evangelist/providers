@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: 'Discovery endpoint (GET api/service/v1/discovery) that a partner application calls on startup to resolve the current RESTful URI patterns for the Web-Intent resources it needs, rather than hardcoding '
@@ -81,21 +83,21 @@ plans:
 - name: Mitchell1 Plans Pricing
   plan_count: 4
   slug: mitchell1-plans-pricing
-random_paper: 15
+random_paper: 52
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 15.9
+  delta: -2.6
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

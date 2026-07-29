@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Public Builder API and TypeScript/Python SDK surface for reading Ostium market data (pairs, prices, OHLC candles), streaming live prices and account/position updates over WebSocket, and building/submi
@@ -193,26 +195,31 @@ overview: 'Ostium Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Ostium Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 27 more developer resources.'
-random_paper: 48
+random_paper: 58
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 51.4
+  delta: -0.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 27.8
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 49.4
+    developer_ergonomics: 69.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 31.6
   previous_composite: 51.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 60.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -200,12 +202,145 @@ arazzos:
 - description: Create a workspace, read it back, create an organizing tag inside it, and confirm the workspace starts empty of connections.
   name: Airbyte Bootstrap a Workspace
   slug: airbyte-workspace-bootstrap-workflow
-artifact_total: 740
+artifact_total: 783
 collections:
+- collection_type: postman
+  name: airbyte-api Applications API
+  slug: postman-airbyte-applications-api
+- collection_type: postman
+  name: airbyte-api Applications Connections API
+  slug: postman-airbyte-connections-api
+- collection_type: postman
+  name: airbyte-api Applications ConnectorDefinitions API
+  slug: postman-airbyte-connectordefinitions-api
+- collection_type: postman
+  name: airbyte-api Applications Dataplanes API
+  slug: postman-airbyte-dataplanes-api
+- collection_type: postman
+  name: airbyte-api Applications DeclarativeSourceDefinitions API
+  slug: postman-airbyte-declarativesourcedefinitions-api
+- collection_type: postman
+  name: airbyte-api Applications DestinationDefinitions API
+  slug: postman-airbyte-destinationdefinitions-api
+- collection_type: postman
+  name: airbyte-api Applications Destinations API
+  slug: postman-airbyte-destinations-api
+- collection_type: postman
+  name: airbyte-api Applications embedded_widget API
+  slug: postman-airbyte-embedded-widget-api
+- collection_type: postman
+  name: airbyte-api Applications Groups API
+  slug: postman-airbyte-groups-api
+- collection_type: postman
+  name: airbyte-api Applications Jobs API
+  slug: postman-airbyte-jobs-api
+- collection_type: postman
+  name: airbyte-api Applications OAuth API
+  slug: postman-airbyte-oauth-api
+- collection_type: postman
+  name: airbyte-api Applications Organizations API
+  slug: postman-airbyte-organizations-api
+- collection_type: postman
+  name: airbyte-api Applications Permissions API
+  slug: postman-airbyte-permissions-api
+- collection_type: postman
+  name: airbyte-api Applications public API
+  slug: postman-airbyte-public-api
+- collection_type: postman
+  name: airbyte-api Applications public_applications API
+  slug: postman-airbyte-public-applications-api
+- collection_type: postman
+  name: airbyte-api Applications public_connections API
+  slug: postman-airbyte-public-connections-api
+- collection_type: postman
+  name: airbyte-api Applications public_connector_definitions API
+  slug: postman-airbyte-public-connector-definitions-api
+- collection_type: postman
+  name: airbyte-api Applications public_dataplanes API
+  slug: postman-airbyte-public-dataplanes-api
+- collection_type: postman
+  name: airbyte-api Applications public_declarative_source_definitions API
+  slug: postman-airbyte-public-declarative-source-definitions-api
+- collection_type: postman
+  name: airbyte-api Applications public_destination_definitions API
+  slug: postman-airbyte-public-destination-definitions-api
+- collection_type: postman
+  name: airbyte-api Applications public_group_members API
+  slug: postman-airbyte-public-group-members-api
+- collection_type: postman
+  name: airbyte-api Applications public_group_permissions API
+  slug: postman-airbyte-public-group-permissions-api
+- collection_type: postman
+  name: airbyte-api Applications public_groups API
+  slug: postman-airbyte-public-groups-api
+- collection_type: postman
+  name: airbyte-api Applications public_health API
+  slug: postman-airbyte-public-health-api
+- collection_type: postman
+  name: airbyte-api Applications public_jobs API
+  slug: postman-airbyte-public-jobs-api
+- collection_type: postman
+  name: airbyte-api Applications public_oauth API
+  slug: postman-airbyte-public-oauth-api
+- collection_type: postman
+  name: airbyte-api Applications public_organizations API
+  slug: postman-airbyte-public-organizations-api
+- collection_type: postman
+  name: airbyte-api Applications public_permissions API
+  slug: postman-airbyte-public-permissions-api
+- collection_type: postman
+  name: airbyte-api Applications public_regions API
+  slug: postman-airbyte-public-regions-api
+- collection_type: postman
+  name: airbyte-api Applications public_root API
+  slug: postman-airbyte-public-root-api
+- collection_type: postman
+  name: airbyte-api Applications public_source_definitions API
+  slug: postman-airbyte-public-source-definitions-api
+- collection_type: postman
+  name: airbyte-api Applications public_sources API
+  slug: postman-airbyte-public-sources-api
+- collection_type: postman
+  name: airbyte-api Applications public_streams API
+  slug: postman-airbyte-public-streams-api
+- collection_type: postman
+  name: airbyte-api Applications public_tags API
+  slug: postman-airbyte-public-tags-api
+- collection_type: postman
+  name: airbyte-api Applications public_users API
+  slug: postman-airbyte-public-users-api
+- collection_type: postman
+  name: airbyte-api Applications public_workspaces API
+  slug: postman-airbyte-public-workspaces-api
+- collection_type: postman
+  name: airbyte-api Applications Regions API
+  slug: postman-airbyte-regions-api
+- collection_type: postman
+  name: airbyte-api Applications SourceDefinitions API
+  slug: postman-airbyte-sourcedefinitions-api
+- collection_type: postman
+  name: airbyte-api Applications Sources API
+  slug: postman-airbyte-sources-api
+- collection_type: postman
+  name: airbyte-api Applications Streams API
+  slug: postman-airbyte-streams-api
+- collection_type: postman
+  name: airbyte-api Applications Tags API
+  slug: postman-airbyte-tags-api
+- collection_type: postman
+  name: airbyte-api Applications Users API
+  slug: postman-airbyte-users-api
+- collection_type: postman
+  name: airbyte-api Applications Workspaces API
+  slug: postman-airbyte-workspaces-api
 - collection_type: open
   name: airbyte-api
   slug: open-airbyte
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/airbyte/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2414,12 +2549,12 @@ overview: 'Airbyte publishes 44 APIs on the [APIs.io](https://apis.io/) network,
   The Airbyte catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Airbyte''s developer surface includes authentication, changelog, CLI, developer portal, developer console, signup flow, pricing, and 48 more developer resources.'
+  Airbyte''s developer surface includes authentication, changelog, CLI, developer portal, developer console, signup flow, pricing, and 49 more developer resources.'
 plans:
 - name: Airbyte Plans Pricing
   plan_count: 5
   slug: airbyte-plans-pricing
-random_paper: 4
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Airbyte Rate Limits
@@ -2448,18 +2583,27 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 74.5
-  delta: 2.5
+  composite: 75.1
+  delta: 0.6
   facets:
     commercial_clarity: 78.9
-    contract_quality: 58.9
-    developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 62.9
+    developer_ergonomics: 78.3
+    discoverability: 87.0
+    governance: 80.2
     operational_transparency: 73.7
-  previous_composite: 72.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 74.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png
 security:

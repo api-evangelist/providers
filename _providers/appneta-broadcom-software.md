@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 23.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for the AppNeta SaaS platform. v4 (Intelligent Alarms) and v3 (Classic) expose monitoring data, monitoring policies, Monitoring Point provisioning, web-application and net
@@ -149,22 +151,22 @@ overview: 'AppNeta (Broadcom Software) publishes 1 API on the [APIs.io](https://
 
 
   AppNeta (Broadcom Software)''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, changelog, support, and 17 more developer resources.'
-random_paper: 33
+random_paper: 8
 score:
-  band: thin
-  composite: 44.3
-  delta: 0.0
+  band: developing
+  composite: 49.9
+  delta: 5.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 52.2
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 44.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/appneta-broadcom-software/refs/heads/main/screenshots/appneta-broadcom-software-2026-07-25T200813.png
 security:
 - kind: authentication

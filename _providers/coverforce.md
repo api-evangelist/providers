@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 15.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 6.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Unified commercial insurance API connecting to 40+ carriers and MGAs through a single integration. Documented endpoint families include Applications (create and submit in a unified JSON schema), Quote
@@ -125,26 +127,30 @@ overview: 'Coverforce publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Coverforce''s developer surface includes documentation, API reference, signup flow, support, engineering blog, and 14 more developer resources.'
-random_paper: 50
+random_paper: 69
 score:
-  band: emerging
-  composite: 29.8
-  delta: 0.0
+  band: thin
+  composite: 29.2
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 39.1
-    discoverability: 80.0
-    governance: 0.0
+    developer_ergonomics: 32.6
+    discoverability: 77.8
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 29.8
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 52.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 48.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/screenshots/coverforce-2026-07-25T210552.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -52,12 +54,32 @@ apis:
 - description: Document, facial, email, and phone validation (KYC).
   name: Truora Validators API
   slug: truora-validators-api
-artifact_total: 16
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Truora Webhooks
   slug: truora-webhooks
+collections:
+- collection_type: postman
+  name: Truora Account API
+  slug: postman-truora-account-api
+- collection_type: postman
+  name: Truora Account Checks API
+  slug: postman-truora-checks-api
+- collection_type: postman
+  name: Truora Account Continuous Monitoring API
+  slug: postman-truora-continuous-monitoring-api
+- collection_type: postman
+  name: Truora Account Digital Identity API
+  slug: postman-truora-digital-identity-api
+- collection_type: postman
+  name: Truora Account Validators API
+  slug: postman-truora-validators-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/truora/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -232,12 +254,12 @@ overview: 'Truora publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Truora catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Truora''s developer surface includes authentication, documentation, engineering blog, getting-started guide, API reference, pricing, signup flow, and 31 more developer resources.'
+  Truora''s developer surface includes authentication, documentation, engineering blog, getting-started guide, API reference, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Truora Plans Pricing
   plan_count: 3
   slug: truora-plans-pricing
-random_paper: 57
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Truora Rate Limits
@@ -248,19 +270,29 @@ scopes:
   slug: truora-scopes
   summary_line: 14 scopes · authorizationCode/ciba/refreshToken
 score:
-  band: strong
-  composite: 68.5
-  delta: 0.0
+  band: exemplar
+  composite: 67.2
+  delta: -1.3
   facets:
     commercial_clarity: 100.0
-    contract_quality: 68.3
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.7
+    developer_ergonomics: 66.8
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 68.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

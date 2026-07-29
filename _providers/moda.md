@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: HTTP ingestion API for sending LLM/agent conversation events to Moda. Accepts batched events (conversation_id, role, message, plus token/model/trace metadata) over a single POST endpoint, authenticate
@@ -161,21 +163,25 @@ overview: 'Moda publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Moda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, support, and 20 more developer resources.'
-random_paper: 9
+random_paper: 32
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 38.0
+  delta: 1.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: 'Core Redux library for managing application state through a predictable unidirectional data flow. The library exposes createStore, combineReducers, applyMiddleware, compose, and bindActionCreators as '
@@ -158,7 +160,7 @@ plans:
 - name: Redux Plans Pricing
   plan_count: 3
   slug: redux-plans-pricing
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Redux Rate Limits
@@ -174,19 +176,19 @@ rules:
   slug: redux-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 34.1
+  delta: -5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 6.5
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 39.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/redux/refs/heads/main/screenshots/redux-2026-06-20T192739.png
 security:
 - kind: domain-security

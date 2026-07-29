@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -61,8 +63,37 @@ apis:
 - description: Manage CSS themes applied to forms
   name: FormAssembly Themes API
   slug: formassembly-themes-api
-artifact_total: 25
+artifact_total: 33
+collections:
+- collection_type: postman
+  name: FormAssembly REST Admin API
+  slug: postman-formassembly-admin-api
+- collection_type: postman
+  name: FormAssembly REST Admin Aggregates API
+  slug: postman-formassembly-aggregates-api
+- collection_type: postman
+  name: FormAssembly REST Admin Connectors API
+  slug: postman-formassembly-connectors-api
+- collection_type: postman
+  name: FormAssembly REST Admin Form Elements API
+  slug: postman-formassembly-form-elements-api
+- collection_type: postman
+  name: FormAssembly REST Admin Forms API
+  slug: postman-formassembly-forms-api
+- collection_type: postman
+  name: FormAssembly REST Admin OAuth2 API
+  slug: postman-formassembly-oauth2-api
+- collection_type: postman
+  name: FormAssembly REST Admin Responses API
+  slug: postman-formassembly-responses-api
+- collection_type: postman
+  name: FormAssembly REST Admin Themes API
+  slug: postman-formassembly-themes-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/formassembly/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,12 +212,12 @@ overview: 'FormAssembly publishes 8 APIs on the [APIs.io](https://apis.io/) netw
   The FormAssembly catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  FormAssembly''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  FormAssembly''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Formassembly Plans Pricing
   plan_count: 4
   slug: formassembly-plans-pricing
-random_paper: 8
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Formassembly Rate Limits
@@ -207,23 +238,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 57.0
+  delta: -4.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 67.6
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 69.0
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 69.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 59.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/screenshots/formassembly-2026-06-20T181430.png
 security:

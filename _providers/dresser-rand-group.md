@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,21 +76,27 @@ press:
 - date: '2026-05-25'
   title: Siemens in agreed $7.6 billion deal to buy Dresser-Rand
   url: https://www.reuters.com/article/technology/siemens-in-agreed-76-billion-deal-to-buy-dresser-rand-idUSKCN0HH0CM/
-random_paper: 60
+random_paper: 57
 score:
   band: minimal
-  composite: 5.5
-  delta: 0.0
+  composite: 5.9
+  delta: 0.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.0
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 16.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dresser-rand-group/refs/heads/main/screenshots/dresser-rand-group-2026-06-20T180225.png
 security:

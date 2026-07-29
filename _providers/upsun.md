@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 59.2
+  scored_at: '2026-07-28'
 api_count: 50
 apis:
 - description: The Add-ons API from Upsun — 1 operation(s) for add-ons.
@@ -179,12 +181,167 @@ apis:
 - description: These endpoints can be used to retrieve vouchers associated with a particular user as well as apply a voucher to a particular user.
   name: Upsun Vouchers API
   slug: upsun-vouchers-api
-artifact_total: 57
+artifact_total: 107
 asyncapis:
 - description: ''
   name: Upsun Activity Webhooks
   slug: upsun-activity-webhooks
+collections:
+- collection_type: postman
+  name: Upsun.com Rest Add-ons API
+  slug: postman-upsun-add-ons-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Alerts API
+  slug: postman-upsun-alerts-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons API Tokens API
+  slug: postman-upsun-api-tokens-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Autoscaling API
+  slug: postman-upsun-autoscaling-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Cert Management API
+  slug: postman-upsun-cert-management-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Connections API
+  slug: postman-upsun-connections-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Deployment API
+  slug: postman-upsun-deployment-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Deployment Target API
+  slug: postman-upsun-deployment-target-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Discounts API
+  slug: postman-upsun-discounts-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Domain Management API
+  slug: postman-upsun-domain-management-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Environment Activity API
+  slug: postman-upsun-environment-activity-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Environment API
+  slug: postman-upsun-environment-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Environment Backups API
+  slug: postman-upsun-environment-backups-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Environment Type API
+  slug: postman-upsun-environment-type-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Environment Variables API
+  slug: postman-upsun-environment-variables-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Grants API
+  slug: postman-upsun-grants-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Invoices API
+  slug: postman-upsun-invoices-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons MFA API
+  slug: postman-upsun-mfa-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Orders API
+  slug: postman-upsun-orders-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Organization Invitations API
+  slug: postman-upsun-organization-invitations-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Organization Management API
+  slug: postman-upsun-organization-management-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Organization Members API
+  slug: postman-upsun-organization-members-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Organization Projects API
+  slug: postman-upsun-organization-projects-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Organizations API
+  slug: postman-upsun-organizations-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons PhoneNumber API
+  slug: postman-upsun-phonenumber-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Profiles API
+  slug: postman-upsun-profiles-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Project Activity API
+  slug: postman-upsun-project-activity-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Project API
+  slug: postman-upsun-project-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Project Invitations API
+  slug: postman-upsun-project-invitations-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Project Settings API
+  slug: postman-upsun-project-settings-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Project Variables API
+  slug: postman-upsun-project-variables-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Records API
+  slug: postman-upsun-records-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons References API
+  slug: postman-upsun-references-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Regions API
+  slug: postman-upsun-regions-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Repository API
+  slug: postman-upsun-repository-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Routing API
+  slug: postman-upsun-routing-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Runtime Operations API
+  slug: postman-upsun-runtime-operations-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Source Operations API
+  slug: postman-upsun-source-operations-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons SSH Keys API
+  slug: postman-upsun-ssh-keys-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Subscriptions API
+  slug: postman-upsun-subscriptions-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Support API
+  slug: postman-upsun-support-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons System Information API
+  slug: postman-upsun-system-information-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Team Access API
+  slug: postman-upsun-team-access-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Teams API
+  slug: postman-upsun-teams-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Third-Party Integrations API
+  slug: postman-upsun-third-party-integrations-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Tickets API
+  slug: postman-upsun-tickets-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons User Access API
+  slug: postman-upsun-user-access-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons User Profiles API
+  slug: postman-upsun-user-profiles-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Users API
+  slug: postman-upsun-users-api
+- collection_type: postman
+  name: Upsun.com Rest Add-ons Vouchers API
+  slug: postman-upsun-vouchers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/upsun/overview
 - group: company
   title: ''
   type: Website
@@ -351,8 +508,8 @@ overview: 'Upsun publishes 50 APIs on the [APIs.io](https://apis.io/) network, i
   The Upsun catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Upsun''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, developer console, and 30 more developer resources.'
-random_paper: 27
+  Upsun''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, developer console, and 31 more developer resources.'
+random_paper: 32
 scopes:
 - name: Upsun Scopes
   scope_count: 1
@@ -360,18 +517,27 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 61.9
+  delta: -0.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.4
-    developer_ergonomics: 87.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 61.2
+    developer_ergonomics: 86.4
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 55.3
   previous_composite: 62.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

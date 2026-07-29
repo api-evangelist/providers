@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 4
@@ -377,7 +379,7 @@ plans:
 - name: Flowable Plans Pricing
   plan_count: 3
   slug: flowable-plans-pricing
-random_paper: 28
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Flowable Rate Limits
@@ -393,19 +395,26 @@ rules:
   slug: flowable-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 48.4
+  delta: -5.9
   facets:
     commercial_clarity: 57.9
-    contract_quality: 63.8
+    contract_quality: 58.7
     developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 64
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/screenshots/flowable-2026-06-20T181326.png
 security:
 - kind: authentication

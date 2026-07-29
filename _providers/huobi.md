@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Seychelles based cryptocurrency exchange
@@ -57,7 +59,7 @@ overview: 'Huobi publishes 1 API on the [APIs.io](https://apis.io/) network: Huo
 
 
   The Huobi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 59
+random_paper: 73
 rules:
 - name: Huobi API Rules
   rule_count: 7
@@ -69,18 +71,18 @@ rules:
   slug: huobi-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 24.4
+  delta: 4.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 0.0
-    discoverability: 67.5
-    governance: 60.5
+    discoverability: 57.4
+    governance: 47.9
     operational_transparency: 0.0
   previous_composite: 19.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huobi/refs/heads/main/screenshots/huobi-2026-06-20T182957.png
 slug: huobi

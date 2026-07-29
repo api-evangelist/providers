@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.8
+  scored_at: '2026-07-28'
 api_count: 69
 apis:
 - description: Qlik provides APIs to support automation, configuration, observability, and integration with third-party applications to incorporate Qlik Cloud capabilities directly into those applications.
@@ -338,25 +340,25 @@ plans:
 - name: Qlik Plans Pricing
   plan_count: 3
   slug: qlik-plans-pricing
-random_paper: 25
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Qlik Rate Limits
   slug: qlik-rate-limits
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 47.2
+  delta: -2.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 67.4
-    discoverability: 62.5
+    discoverability: 46.3
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 50.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/screenshots/qlik-2026-06-20T192340.png
 security:

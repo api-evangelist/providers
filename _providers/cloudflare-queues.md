@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -49,8 +51,25 @@ apis:
 - description: Operations for managing Cloudflare Queues and their configuration
   name: Cloudflare Queues Queue API
   slug: cloudflare-queues-queue-api
-artifact_total: 20
+artifact_total: 24
+collections:
+- collection_type: postman
+  name: Cloudflare Queues Consumer API
+  slug: postman-cloudflare-queues-consumer-api
+- collection_type: postman
+  name: Cloudflare Queues Consumer Messages API
+  slug: postman-cloudflare-queues-messages-api
+- collection_type: postman
+  name: Cloudflare Queues Consumer Metrics API
+  slug: postman-cloudflare-queues-metrics-api
+- collection_type: postman
+  name: Cloudflare Queues Consumer Queue API
+  slug: postman-cloudflare-queues-queue-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cloudflare-queues/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -177,12 +196,12 @@ overview: 'Cloudflare Queues publishes 4 APIs on the [APIs.io](https://apis.io/)
   The Cloudflare Queues catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cloudflare Queues'' developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, pricing, changelog, and 13 more developer resources.'
+  Cloudflare Queues'' developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, pricing, changelog, and 14 more developer resources.'
 plans:
 - name: Cloudflare Queues Plans Pricing
   plan_count: 2
   slug: cloudflare-queues-plans-pricing
-random_paper: 66
+random_paper: 72
 rate_limits:
 - limit_count: 20
   name: Cloudflare Queues Rate Limits
@@ -197,20 +216,33 @@ rules:
     warn: 4
   slug: cloudflare-queues-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 60.7
-  delta: 0.0
+  band: developing
+  composite: 53.0
+  delta: -7.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.0
-    developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 67.4
+    developer_ergonomics: 43.5
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 68.4
   previous_composite: 60.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 31.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/screenshots/cloudflare-queues-2026-06-20T174559.png
 security:
 - kind: authentication

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 65.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 5
@@ -87,12 +89,68 @@ apis:
 - description: The Triggers API from Celonis — 2 operation(s) for triggers.
   name: Celonis Triggers API
   slug: celonis-triggers-api
-artifact_total: 24
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Celonis Subscription Webhooks
   slug: celonis-subscription-webhooks
+collections:
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation API
+  slug: postman-celonis-agents-conversation-api
+- collection_type: postman
+  name: 'OpenAPI Specification Agents - Conversation Beta: OData Protocol API'
+  slug: postman-celonis-beta-odata-protocol-api
+- collection_type: postman
+  name: 'OpenAPI Specification Agents - Conversation Beta: Semantics for 3P AI Agents API'
+  slug: postman-celonis-beta-semantics-for-3p-ai-agents-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Data API
+  slug: postman-celonis-data-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Job Execution API
+  slug: postman-celonis-job-execution-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Job Execution Group API
+  slug: postman-celonis-job-execution-group-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Login History API API
+  slug: postman-celonis-login-history-api-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Members API API
+  slug: postman-celonis-members-api-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Notebook API
+  slug: postman-celonis-notebook-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Notebook Execution API
+  slug: postman-celonis-notebook-execution-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Notebook Resources API
+  slug: postman-celonis-notebook-resources-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation OpenAPI Tool Calling API
+  slug: postman-celonis-openapi-tool-calling-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Permissions Export API API
+  slug: postman-celonis-permissions-export-api-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Schedule API
+  slug: postman-celonis-schedule-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Schema API
+  slug: postman-celonis-schema-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Subscriptions API
+  slug: postman-celonis-subscriptions-api
+- collection_type: postman
+  name: OpenAPI Specification Agents - Conversation Triggers API
+  slug: postman-celonis-triggers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/celonis/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -251,8 +309,8 @@ overview: 'Celonis publishes 17 APIs on the [APIs.io](https://apis.io/) network,
   The Celonis catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Celonis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 1
+  Celonis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+random_paper: 56
 scopes:
 - name: Celonis Scopes
   scope_count: 2
@@ -260,18 +318,28 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 64.3
+  delta: 1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.4
-    developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.5
+    developer_ergonomics: 86.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 62.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/screenshots/celonis-2026-07-25T204910.png
 security:

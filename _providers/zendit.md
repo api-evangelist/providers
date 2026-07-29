@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -61,12 +63,40 @@ apis:
 - description: Digital gift cards and utility bill payments
   name: Zendit Vouchers API
   slug: zendit-vouchers-api
-artifact_total: 96
+artifact_total: 104
 collections:
+- collection_type: postman
+  name: Zendit Account API
+  slug: postman-zendit-account-api
+- collection_type: postman
+  name: Zendit Account Brands API
+  slug: postman-zendit-brands-api
+- collection_type: postman
+  name: Zendit Account eSIM API
+  slug: postman-zendit-esim-api
+- collection_type: postman
+  name: Zendit Account Mobile Top-Up API
+  slug: postman-zendit-mobile-top-up-api
+- collection_type: postman
+  name: Zendit Account Reports API
+  slug: postman-zendit-reports-api
+- collection_type: postman
+  name: Zendit Account Tools API
+  slug: postman-zendit-tools-api
+- collection_type: postman
+  name: Zendit Account Transactions API
+  slug: postman-zendit-transactions-api
+- collection_type: postman
+  name: Zendit Account Vouchers API
+  slug: postman-zendit-vouchers-api
 - collection_type: open
   name: Zendit API
   slug: open-zendit-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/zendit/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -363,12 +393,12 @@ overview: 'Zendit publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The Zendit catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Zendit''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, engineering blog, and 8 more developer resources.'
+  Zendit''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, engineering blog, and 9 more developer resources.'
 plans:
 - name: Zendit Plans Pricing
   plan_count: 3
   slug: zendit-plans-pricing
-random_paper: 42
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Zendit Rate Limits
@@ -391,25 +421,33 @@ rules:
     warn: 13
   slug: zendit-rules
 score:
-  band: strong
-  composite: 60.0
-  delta: 3.9
+  band: developing
+  composite: 52.7
+  delta: -7.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 73.9
-    developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 62.2
+    developer_ergonomics: 43.5
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 56.1
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/screenshots/zendit-2026-06-20T201909.png
 security:
 - kind: authentication

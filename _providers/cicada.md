@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,26 +79,27 @@ overview: 'Cicada is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cicada''s developer surface includes documentation, API reference, support, and 6 more developer resources.'
-random_paper: 53
+random_paper: 58
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 16.9
+  delta: -2.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 19.4
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 23.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cicada/refs/heads/main/screenshots/cicada-2026-07-25T205338.png
 security:

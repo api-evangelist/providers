@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 6
@@ -82,12 +84,57 @@ apis:
 - description: Operations for creating, retrieving, updating, and deleting user accounts within the OpsGenie platform.
   name: OpsGenie Users API
   slug: opsgenie-users-api
-artifact_total: 159
+artifact_total: 174
 asyncapis:
 - description: OpsGenie sends webhook notifications for alert actions to configured webhook URLs. When alert events occur such as create, acknowledge, close, or delete, OpsGenie posts a JSON payload to the registere
   name: OpsGenie Webhook Events
   slug: opsgenie-webhook-asyncapi
 collections:
+- collection_type: postman
+  name: OpsGenie Account API
+  slug: postman-opsgenie-account-api
+- collection_type: postman
+  name: OpsGenie Account Alerts API
+  slug: postman-opsgenie-alerts-api
+- collection_type: postman
+  name: OpsGenie Account Escalations API
+  slug: postman-opsgenie-escalations-api
+- collection_type: postman
+  name: OpsGenie Account Heartbeats API
+  slug: postman-opsgenie-heartbeats-api
+- collection_type: postman
+  name: OpsGenie Account Incidents API
+  slug: postman-opsgenie-incidents-api
+- collection_type: postman
+  name: OpsGenie Account Integrations API
+  slug: postman-opsgenie-integrations-api
+- collection_type: postman
+  name: OpsGenie Account Maintenance API
+  slug: postman-opsgenie-maintenance-api
+- collection_type: postman
+  name: OpsGenie Account Notification Rules API
+  slug: postman-opsgenie-notification-rules-api
+- collection_type: postman
+  name: OpsGenie Account On-Call API
+  slug: postman-opsgenie-on-call-api
+- collection_type: postman
+  name: OpsGenie Account Overrides API
+  slug: postman-opsgenie-overrides-api
+- collection_type: postman
+  name: OpsGenie Account Rotations API
+  slug: postman-opsgenie-rotations-api
+- collection_type: postman
+  name: OpsGenie Account Schedules API
+  slug: postman-opsgenie-schedules-api
+- collection_type: postman
+  name: OpsGenie Account Services API
+  slug: postman-opsgenie-services-api
+- collection_type: postman
+  name: OpsGenie Account Teams API
+  slug: postman-opsgenie-teams-api
+- collection_type: postman
+  name: OpsGenie Account Users API
+  slug: postman-opsgenie-users-api
 - collection_type: open
   name: OpsGenie Account API
   slug: open-opsgenie-account
@@ -125,6 +172,10 @@ collections:
   name: OpsGenie User API
   slug: open-opsgenie-user
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/opsgenie/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -539,12 +590,12 @@ overview: 'OpsGenie publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The OpsGenie catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  OpsGenie''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 9 more developer resources.'
+  OpsGenie''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Opsgenie Plans Pricing
   plan_count: 5
   slug: opsgenie-plans-pricing
-random_paper: 42
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Opsgenie Rate Limits
@@ -568,19 +619,26 @@ rules:
   slug: opsgenie-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.4
-  delta: 5.4
+  composite: 62.8
+  delta: -2.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 86.7
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 60.5
+    contract_quality: 89.1
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 65.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/screenshots/opsgenie-2026-06-20T191103.png
 security:
 - kind: authentication

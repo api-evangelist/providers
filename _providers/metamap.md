@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 68.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 6
@@ -67,12 +69,46 @@ apis:
 - description: The Webhooks API from MetaMap — 1 operation(s) for webhooks.
   name: MetaMap Webhooks API
   slug: metamap-webhooks-api
-artifact_total: 67
+artifact_total: 77
 collections:
+- collection_type: postman
+  name: MetaMap Authentication API
+  slug: postman-metamap-authentication-api
+- collection_type: postman
+  name: MetaMap Authentication Background Checks API
+  slug: postman-metamap-background-checks-api
+- collection_type: postman
+  name: MetaMap Authentication Credit Checks API
+  slug: postman-metamap-credit-checks-api
+- collection_type: postman
+  name: MetaMap Authentication Custom Watchlists API
+  slug: postman-metamap-custom-watchlists-api
+- collection_type: postman
+  name: MetaMap Authentication Email Checks API
+  slug: postman-metamap-email-checks-api
+- collection_type: postman
+  name: MetaMap Authentication GovChecks API
+  slug: postman-metamap-govchecks-api
+- collection_type: postman
+  name: MetaMap Authentication Phone Checks API
+  slug: postman-metamap-phone-checks-api
+- collection_type: postman
+  name: MetaMap Authentication Verifications API
+  slug: postman-metamap-verifications-api
+- collection_type: postman
+  name: MetaMap Authentication Watchlist Checks API
+  slug: postman-metamap-watchlist-checks-api
+- collection_type: postman
+  name: MetaMap Authentication Webhooks API
+  slug: postman-metamap-webhooks-api
 - collection_type: open
   name: MetaMap API
   slug: open-metamap
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/metamap/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -539,12 +575,12 @@ overview: 'MetaMap publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The MetaMap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MetaMap''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, FAQ, changelog, and 87 more developer resources.'
+  MetaMap''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, FAQ, changelog, and 88 more developer resources.'
 plans:
 - name: Metamap Plans Pricing
   plan_count: 2
   slug: metamap-plans-pricing
-random_paper: 61
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Metamap Rate Limits
@@ -568,18 +604,25 @@ rules:
   slug: metamap-rules
 score:
   band: strong
-  composite: 66.1
-  delta: 3.2
+  composite: 62.9
+  delta: -3.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 69.1
-    developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 70.4
+    developer_ergonomics: 67.4
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 62.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/screenshots/metamap-2026-06-20T185250.png
 security:

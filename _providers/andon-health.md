@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: OAuth 2.0-authorized REST API that lets registered third-party applications read a consenting iHealth user's connected-device data (blood pressure and user-profile resources confirmed live). Developer
@@ -106,7 +108,7 @@ overview: 'Andon Health publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Andon Health''s developer surface includes documentation, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 47
+random_paper: 48
 scopes:
 - name: Andon Health Scopes
   scope_count: 0
@@ -114,23 +116,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 29.4
+  delta: -2.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 32.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 52.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andon-health/refs/heads/main/screenshots/andon-health-2026-07-25T200224.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -67,8 +69,38 @@ apis:
 - description: Configure recurring scan profiles.
   name: BigID Scan Profiles API
   slug: bigid-scan-profiles-api
-artifact_total: 70
+artifact_total: 80
 collections:
+- collection_type: postman
+  name: BigID Authentication Actionable Insights API
+  slug: postman-bigid-actionable-insights-api
+- collection_type: postman
+  name: BigID Actionable Insights Authentication API
+  slug: postman-bigid-authentication-api
+- collection_type: postman
+  name: BigID Authentication Actionable Insights Catalog API
+  slug: postman-bigid-catalog-api
+- collection_type: postman
+  name: BigID Authentication Actionable Insights Clusters API
+  slug: postman-bigid-clusters-api
+- collection_type: postman
+  name: BigID Authentication Actionable Insights Connector Templates API
+  slug: postman-bigid-connector-templates-api
+- collection_type: postman
+  name: BigID Authentication Actionable Insights Data Sources API
+  slug: postman-bigid-data-sources-api
+- collection_type: postman
+  name: BigID Authentication Actionable Insights DSAR API
+  slug: postman-bigid-dsar-api
+- collection_type: postman
+  name: BigID Authentication Actionable Insights Metadata Export API
+  slug: postman-bigid-metadata-export-api
+- collection_type: postman
+  name: BigID Authentication Actionable Insights Scan Profiles API
+  slug: postman-bigid-scan-profiles-api
+- collection_type: postman
+  name: BigID Authentication Actionable Insights Scans API
+  slug: postman-bigid-scans-api
 - collection_type: open
   name: BigID Authentication API
   slug: open-bigid-authentication-api
@@ -91,6 +123,10 @@ collections:
   name: BigID Scans API
   slug: open-bigid-scans-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bigid/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -323,12 +359,12 @@ overview: 'BigID publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
   The BigID catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BigID''s developer surface includes authentication, getting-started guide, API reference, documentation, code examples, developer portal, engineering blog, and 27 more developer resources.'
+  BigID''s developer surface includes authentication, getting-started guide, API reference, documentation, code examples, developer portal, engineering blog, and 28 more developer resources.'
 plans:
 - name: Bigid Plans Pricing
   plan_count: 4
   slug: bigid-plans-pricing
-random_paper: 35
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Bigid Rate Limits
@@ -352,18 +388,25 @@ rules:
   slug: bigid-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 4.2
+  composite: 59.9
+  delta: -3.3
   facets:
     commercial_clarity: 76.3
-    contract_quality: 68.8
-    developer_ergonomics: 54.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 69.8
+    developer_ergonomics: 58.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/screenshots/bigid-2026-06-20T173239.png
 security:

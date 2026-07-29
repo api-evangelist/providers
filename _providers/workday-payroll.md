@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -100,8 +102,71 @@ apis:
 - description: Access worker payroll data and compensation details
   name: Workday Payroll Workers API
   slug: workday-payroll-workers-api
-artifact_total: 281
+artifact_total: 302
 collections:
+- collection_type: postman
+  name: Workday Payroll Input Deductions agentDefinition API
+  slug: postman-workday-payroll-agentdefinition-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions API
+  slug: postman-workday-payroll-deductions-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Earnings API
+  slug: postman-workday-payroll-earnings-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Input Batches API
+  slug: postman-workday-payroll-input-batches-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions One-Time Payments API
+  slug: postman-workday-payroll-one-time-payments-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Pay Groups API
+  slug: postman-workday-payroll-pay-groups-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Pay Runs API
+  slug: postman-workday-payroll-pay-runs-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Payment Elections API
+  slug: postman-workday-payroll-payment-elections-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Payment Results API
+  slug: postman-workday-payroll-payment-results-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Payroll Adjustments API
+  slug: postman-workday-payroll-payroll-adjustments-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Payroll Calculations API
+  slug: postman-workday-payroll-payroll-calculations-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Payroll Summaries API
+  slug: postman-workday-payroll-payroll-summaries-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Payslips API
+  slug: postman-workday-payroll-payslips-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Supplemental Earnings API
+  slug: postman-workday-payroll-supplemental-earnings-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Tax Calculations API
+  slug: postman-workday-payroll-tax-calculations-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Tax Elections API
+  slug: postman-workday-payroll-tax-elections-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Tax Filing API
+  slug: postman-workday-payroll-tax-filing-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Tax Jurisdictions API
+  slug: postman-workday-payroll-tax-jurisdictions-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Tax Withholdings API
+  slug: postman-workday-payroll-tax-withholdings-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Time Off Inputs API
+  slug: postman-workday-payroll-time-off-inputs-api
+- collection_type: postman
+  name: Workday Payroll Input Deductions Workers API
+  slug: postman-workday-payroll-workers-api
 - collection_type: open
   name: Workday Payroll Input API
   slug: open-workday-payroll-payroll-input
@@ -115,6 +180,10 @@ collections:
   name: Workday Payroll Workday Tax API
   slug: open-workday-payroll-tax
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/workday-payroll/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -933,12 +1002,12 @@ overview: 'Workday Payroll publishes 21 APIs on the [APIs.io](https://apis.io/) 
   The Workday Payroll catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Workday Payroll''s developer surface includes authentication, engineering blog, getting-started guide, code examples, tooling, and 19 more developer resources.'
+  Workday Payroll''s developer surface includes authentication, engineering blog, getting-started guide, code examples, tooling, and 20 more developer resources.'
 plans:
 - name: Workday Payroll Plans Pricing
   plan_count: 1
   slug: workday-payroll-plans-pricing
-random_paper: 21
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Workday Payroll Rate Limits
@@ -962,18 +1031,25 @@ rules:
   slug: workday-payroll-spectral-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 4.7
+  composite: 60.0
+  delta: -3.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 82.1
-    developer_ergonomics: 32.6
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 82.7
+    developer_ergonomics: 37.0
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 58.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png
 security:

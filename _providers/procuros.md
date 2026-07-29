@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -158,21 +160,31 @@ overview: 'Procuros publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Procuros'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 9
+random_paper: 46
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 44.5
+  delta: -2.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 52.9
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 54.9
+    developer_ergonomics: 58.2
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 46.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

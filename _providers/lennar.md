@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'Azure API Management developer portal for Lennar Corporation. Allows developers to discover Lennar APIs, sign up for an API key, read the auto-generated reference, and exercise endpoints from the API '
@@ -98,25 +100,25 @@ press:
 - date: '2026-05-25'
   title: 'Lennar: Statement on Land-Light Strategy'
   url: https://www.prnewswire.com/news-releases/lennar-statement-on-land-light-strategy-302728846.html
-random_paper: 28
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Lennar Rate Limits
   slug: lennar-rate-limits
 score:
   band: emerging
-  composite: 19.1
-  delta: 0.0
+  composite: 17.4
+  delta: -1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/screenshots/lennar-2026-06-20T184422.png
 security:

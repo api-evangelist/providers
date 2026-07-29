@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.0
+  scored_at: '2026-07-28'
 api_count: 69
 apis:
 - description: An action is a specific follow-up measure that is associated with an identified issue. You can add actions and assign action owners. You can also set up reminders for yourself to retest issues or trac
@@ -350,7 +352,7 @@ overview: 'Wegalvanize publishes 69 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Wegalvanize''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 19 more developer resources.'
-random_paper: 25
+random_paper: 26
 scopes:
 - name: Wegalvanize Scopes
   scope_count: 7
@@ -358,18 +360,27 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials/implicit/refreshToken/tokenExchange
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 45.8
+  delta: -3.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.2
-    developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.9
+    developer_ergonomics: 53.8
+    discoverability: 79.6
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 49.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 69
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

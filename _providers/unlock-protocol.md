@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.2
+  scored_at: '2026-07-28'
 api_count: 34
 apis:
 - description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
@@ -276,26 +278,36 @@ overview: 'Unlock Protocol publishes 33 APIs on the [APIs.io](https://apis.io/) 
 
 
   Unlock Protocol''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 15
+random_paper: 39
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 50.0
+  delta: -2.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.7
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.3
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 34.2
   previous_composite: 52.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

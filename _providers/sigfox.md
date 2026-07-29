@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful backend API for the Sigfox 0G network — manage devices, device types, contracts, groups, users and base stations; retrieve device messages; predict coverage; and configure callbacks that deliv
@@ -126,25 +128,33 @@ overview: 'Sigfox publishes 1 API on the [APIs.io](https://apis.io/) network: Cl
 
 
   Sigfox''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 44
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Sigfox Rate Limits
   slug: sigfox-rate-limits
 score:
   band: thin
-  composite: 39.3
-  delta: 0.0
+  composite: 37.3
+  delta: -2.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 28.9
   previous_composite: 39.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

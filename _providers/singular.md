@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'REST API for programmatically pulling Singular''s unified marketing data — attribution, cost, ad revenue, and creative metrics — as standardized, warehouse-ready reports. Authenticates with an account '
@@ -118,21 +120,21 @@ overview: 'Singular publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Singular''s developer surface includes documentation, support, pricing, signup flow, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 53
+random_paper: 22
 score:
-  band: emerging
-  composite: 29.2
-  delta: 0.0
+  band: thin
+  composite: 28.6
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 29.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

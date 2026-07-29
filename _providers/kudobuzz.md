@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Kudobuzz Developer API lets merchants and integration developers create customer reviews and sync customers and orders into the After Purchase Mail (APM) product for segmentation and post-purchase
@@ -211,25 +213,29 @@ overview: 'Kudobuzz publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Kudobuzz''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 33 more developer resources.'
-random_paper: 10
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Kudobuzz Rate Limits
   slug: kudobuzz-rate-limits
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 36.8
+  delta: -2.4
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 23.7
   previous_composite: 39.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png
 security:

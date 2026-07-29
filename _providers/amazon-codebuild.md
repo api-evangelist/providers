@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -2315,7 +2317,7 @@ overview: 'Amazon CodeBuild publishes 47 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CodeBuild''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 23 more developer resources.'
-random_paper: 66
+random_paper: 13
 rules:
 - name: Amazon CodeBuild API Rules
   rule_count: 5
@@ -2334,19 +2336,28 @@ rules:
     warn: 11
   slug: amazon-codebuild-spectral-rules
 score:
-  band: developing
-  composite: 59.5
-  delta: 0.0
+  band: strong
+  composite: 57.8
+  delta: -1.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 71.0
-    developer_ergonomics: 56.5
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 72.4
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 59.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/screenshots/amazon-codebuild-2026-07-25T195953.png
 security:

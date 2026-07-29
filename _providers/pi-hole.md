@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -114,21 +116,28 @@ overview: 'Pi-hole publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Pi-hole''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
-random_paper: 6
+random_paper: 70
 score:
   band: emerging
-  composite: 28.1
-  delta: 3.3
+  composite: 24.9
+  delta: -3.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 52.2
+    contract_quality: 50.0
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 24.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 28.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/screenshots/pi-hole-2026-06-20T191657.png
 security:

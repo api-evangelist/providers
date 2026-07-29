@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Tempus Edge is a secure gateway that establishes bidirectional interfaces with provider EHRs using HL7, FHIR, API, and PACS connectivity so genomic test orders and results flow directly inside the cli
@@ -81,26 +83,27 @@ overview: 'Tempus publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Tempus'' developer surface includes documentation, getting-started guide, engineering blog, and 4 more developer resources.'
-random_paper: 58
+random_paper: 54
 score:
   band: minimal
-  composite: 13.7
-  delta: 0.0
+  composite: 11.5
+  delta: -2.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 87.5
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 7.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

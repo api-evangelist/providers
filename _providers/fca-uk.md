@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Read-only REST API over the Financial Services Register, the FCA's public record of authorised firms, individuals, funds and appointed representatives. Resources are addressed by Firm Reference Number
@@ -140,30 +142,33 @@ overview: 'Financial Conduct Authority publishes 2 APIs on the [APIs.io](https:/
 
 
   Financial Conduct Authority''s developer surface includes documentation, engineering blog, API reference, signup flow, support, pricing, authentication, and 18 more developer resources.'
-random_paper: 23
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Fca Uk Rate Limits
   slug: fca-uk-rate-limits
 score:
   band: thin
-  composite: 30.6
-  delta: 0.0
+  composite: 29.5
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 30.6
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/screenshots/fca-uk-2026-07-25T214305.png
 security:

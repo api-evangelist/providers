@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 40.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Morpho's public GraphQL API providing real-time and historical onchain and offchain data across Morpho Blue markets, Morpho Vaults (V1 and V2), Midnight fixed-rate markets, user positions, curators, o
@@ -162,25 +164,29 @@ overview: 'Morpho Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Morpho Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 36
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Morpho Labs Rate Limits
   slug: morpho-labs-rate-limits
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 33.0
+  delta: -2.4
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 55.3
   previous_composite: 35.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

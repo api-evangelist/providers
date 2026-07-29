@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.0
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: AI Colleague run metrics.
@@ -191,7 +193,7 @@ overview: 'Leena AI publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Leena AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 16
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Leena Ai Rate Limits
@@ -203,18 +205,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 53.3
+  delta: 0.9
   facets:
     commercial_clarity: 36.8
-    contract_quality: 60.7
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.0
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 52.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/screenshots/leena-ai-2026-07-25T224821.png
 security:

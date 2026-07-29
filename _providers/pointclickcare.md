@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,12 +60,34 @@ apis:
 - description: Vital signs records
   name: PointClickCare Vitals API
   slug: pointclickcare-vitals-api
-artifact_total: 19
+artifact_total: 25
 collections:
+- collection_type: postman
+  name: PointClickCare Long-Term Care EHR Assessments API
+  slug: postman-pointclickcare-assessments-api
+- collection_type: postman
+  name: PointClickCare Long-Term Care EHR Assessments Diagnoses API
+  slug: postman-pointclickcare-diagnoses-api
+- collection_type: postman
+  name: PointClickCare Long-Term Care EHR Assessments Facilities API
+  slug: postman-pointclickcare-facilities-api
+- collection_type: postman
+  name: PointClickCare Long-Term Care EHR Assessments Medications API
+  slug: postman-pointclickcare-medications-api
+- collection_type: postman
+  name: PointClickCare Long-Term Care EHR Assessments Patients API
+  slug: postman-pointclickcare-patients-api
+- collection_type: postman
+  name: PointClickCare Long-Term Care EHR Assessments Vitals API
+  slug: postman-pointclickcare-vitals-api
 - collection_type: open
   name: PointClickCare Long-Term Care EHR API
   slug: open-pointclickcare-ehr
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pointclickcare/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -151,12 +175,12 @@ overview: 'PointClickCare publishes 6 APIs on the [APIs.io](https://apis.io/) ne
   The PointClickCare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PointClickCare''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 10 more developer resources.'
+  PointClickCare''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Pointclickcare Plans Pricing
   plan_count: 3
   slug: pointclickcare-plans-pricing
-random_paper: 55
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Pointclickcare Rate Limits
@@ -177,24 +201,32 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.8
-  delta: 2.8
+  composite: 60.0
+  delta: -6.8
   facets:
     commercial_clarity: 68.4
-    contract_quality: 72.6
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 73.7
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 64.0
+  previous_composite: 66.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 58.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/screenshots/pointclickcare-2026-06-20T191845.png
 security:
 - kind: authentication

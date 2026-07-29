@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 88.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -296,12 +298,156 @@ arazzos:
 - description: Discover event systems and events, set a signing secret, create a scoped hook, and confirm it is active.
   name: Autodesk Subscribe to Events with a Signed Webhook
   slug: autodesk-webhook-subscription-workflow
-artifact_total: 277
+artifact_total: 325
 asyncapis:
 - description: Event-driven API for receiving real-time notifications from Autodesk Platform Services. When subscribed via the Webhooks REST API, Autodesk sends HTTP POST callbacks to your registered URL when events
   name: Autodesk Webhooks Events
   slug: autodesk-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users API
+  slug: postman-autodesk-account-users-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Activities API
+  slug: postman-autodesk-activities-api
+- collection_type: postman
+  name: Autodesk ACC Account Account Users Admin API
+  slug: postman-autodesk-admin-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users AppBundles API
+  slug: postman-autodesk-appbundles-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Authorization API
+  slug: postman-autodesk-authorization-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Calculations API
+  slug: postman-autodesk-calculations-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Collections API
+  slug: postman-autodesk-collections-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Companies API
+  slug: postman-autodesk-companies-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Datasets API
+  slug: postman-autodesk-datasets-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Derivatives API
+  slug: postman-autodesk-derivatives-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Elements API
+  slug: postman-autodesk-elements-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Engines API
+  slug: postman-autodesk-engines-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Files API
+  slug: postman-autodesk-files-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Folders API
+  slug: postman-autodesk-folders-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Forge Apps API
+  slug: postman-autodesk-forge-apps-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Graphs API
+  slug: postman-autodesk-graphs-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Groups API
+  slug: postman-autodesk-groups-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Hooks API
+  slug: postman-autodesk-hooks-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Hubs API
+  slug: postman-autodesk-hubs-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Industry Roles API
+  slug: postman-autodesk-industry-roles-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Informational API
+  slug: postman-autodesk-informational-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Issues API
+  slug: postman-autodesk-issues-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Items API
+  slug: postman-autodesk-items-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Jobs API
+  slug: postman-autodesk-jobs-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Keys API
+  slug: postman-autodesk-keys-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Manifest API
+  slug: postman-autodesk-manifest-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Metadata API
+  slug: postman-autodesk-metadata-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Models API
+  slug: postman-autodesk-models-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Object Storage Service API
+  slug: postman-autodesk-object-storage-service-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Parameters API
+  slug: postman-autodesk-parameters-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Photoscenes API
+  slug: postman-autodesk-photoscenes-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Processing API
+  slug: postman-autodesk-processing-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Project Users API
+  slug: postman-autodesk-project-users-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Projects API
+  slug: postman-autodesk-projects-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Records API
+  slug: postman-autodesk-records-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Results API
+  slug: postman-autodesk-results-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users RFIs API
+  slug: postman-autodesk-rfis-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Schema API
+  slug: postman-autodesk-schema-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Service Limits API
+  slug: postman-autodesk-service-limits-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Streams API
+  slug: postman-autodesk-streams-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Systems API
+  slug: postman-autodesk-systems-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Thumbnails API
+  slug: postman-autodesk-thumbnails-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Token API
+  slug: postman-autodesk-token-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Tokens API
+  slug: postman-autodesk-tokens-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Twins API
+  slug: postman-autodesk-twins-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users API
+  slug: postman-autodesk-users-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users Versions API
+  slug: postman-autodesk-versions-api
+- collection_type: postman
+  name: Autodesk ACC Account Admin Account Users WorkItems API
+  slug: postman-autodesk-workitems-api
 - collection_type: open
   name: Autodesk ACC Account Admin API
   slug: open-autodesk-acc-account-admin
@@ -336,6 +482,10 @@ collections:
   name: Autodesk Webhooks API
   slug: open-autodesk-webhooks
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/autodesk/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1125,7 +1275,7 @@ overview: 'Autodesk publishes 48 APIs on the [APIs.io](https://apis.io/) network
   The Autodesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Autodesk''s developer surface includes authentication, developer portal, engineering blog, support, getting-started guide, documentation, pricing, and 68 more developer resources.'
+  Autodesk''s developer surface includes authentication, developer portal, engineering blog, support, getting-started guide, documentation, pricing, and 69 more developer resources.'
 plans:
 - name: Autodesk Plans Pricing
   plan_count: 3
@@ -1146,7 +1296,7 @@ press:
 - date: '2026-05-25'
   title: Home - ADSK News - Autodesk
   url: https://adsknews.autodesk.com/en/?newsfeed_page=14
-random_paper: 48
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Autodesk Rate Limits
@@ -1175,18 +1325,27 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 75.8
-  delta: 2.5
+  composite: 76.0
+  delta: 0.2
   facets:
     commercial_clarity: 92.1
-    contract_quality: 79.1
-    developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 60.5
+    contract_quality: 79.3
+    developer_ergonomics: 65.2
+    discoverability: 87.0
+    governance: 59.4
     operational_transparency: 68.4
-  previous_composite: 73.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 75.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:

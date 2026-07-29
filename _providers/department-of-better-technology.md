@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Upload files referenced by response fields.
@@ -163,27 +165,37 @@ overview: 'Department of Better Technology publishes 8 APIs on the [APIs.io](htt
 
 
   Department of Better Technology''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 26
+random_paper: 74
 score:
   band: thin
-  composite: 43.7
-  delta: 0.0
+  composite: 38.7
+  delta: -5.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 58.4
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 46.2
+    developer_ergonomics: 45.1
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 43.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 38.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/screenshots/department-of-better-technology-2026-07-25T211725.png
 security:
 - kind: authentication

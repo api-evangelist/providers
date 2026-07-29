@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 13
 apis:
 - description: Manage users, roles, and permissions within the Exabeam platform.
@@ -195,7 +197,7 @@ overview: 'Exabeam publishes 13 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Exabeam''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
-random_paper: 43
+random_paper: 30
 scopes:
 - name: Exabeam Scopes
   scope_count: 3
@@ -203,18 +205,21 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 39.1
+  delta: 0.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 47.4
   previous_composite: 38.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exabeam/refs/heads/main/screenshots/exabeam-2026-07-25T213833.png
 security:

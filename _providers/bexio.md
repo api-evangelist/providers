@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 78.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -64,8 +66,40 @@ apis:
 - description: The Sales Orders API from bexio — 5 operation(s) for sales orders.
   name: bexio Sales Orders API
   slug: bexio-sales-orders-api
-artifact_total: 19
+artifact_total: 28
+collections:
+- collection_type: postman
+  name: bexio Accounting API
+  slug: postman-bexio-accounting-api
+- collection_type: postman
+  name: bexio Accounting Banking API
+  slug: postman-bexio-banking-api
+- collection_type: postman
+  name: bexio Accounting Contacts API
+  slug: postman-bexio-contacts-api
+- collection_type: postman
+  name: bexio Accounting Files API
+  slug: postman-bexio-files-api
+- collection_type: postman
+  name: bexio Accounting Items API
+  slug: postman-bexio-items-api
+- collection_type: postman
+  name: bexio Accounting Payroll API
+  slug: postman-bexio-payroll-api
+- collection_type: postman
+  name: bexio Accounting Projects API
+  slug: postman-bexio-projects-api
+- collection_type: postman
+  name: bexio Accounting Purchase API
+  slug: postman-bexio-purchase-api
+- collection_type: postman
+  name: bexio Accounting Sales Orders API
+  slug: postman-bexio-sales-orders-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bexio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -245,12 +279,12 @@ network: true
 overview: 'bexio publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Banking API, Contacts API, and 6 more. Tagged areas include Accounting, ERP, Invoicing, SMB, and Switzerland.
 
 
-  bexio''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 33 more developer resources.'
+  bexio''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 34 more developer resources.'
 plans:
 - name: Bexio Plans Pricing
   plan_count: 5
   slug: bexio-plans-pricing
-random_paper: 59
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Bexio Rate Limits
@@ -261,19 +295,29 @@ scopes:
   slug: bexio-scopes
   summary_line: 71 scopes
 score:
-  band: strong
-  composite: 66.7
-  delta: 0.0
+  band: exemplar
+  composite: 66.8
+  delta: 0.1
   facets:
     commercial_clarity: 100.0
-    contract_quality: 49.6
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.7
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 76.3
   previous_composite: 66.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -152,7 +154,7 @@ plans:
 - name: Zoho Sheet Plans Pricing
   plan_count: 4
   slug: zoho-sheet-plans-pricing
-random_paper: 10
+random_paper: 29
 rate_limits:
 - limit_count: 6
   name: Zoho Sheet Rate Limits
@@ -173,18 +175,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit/clientCredentials
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 50.1
+  delta: -4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.9
+    contract_quality: 60.2
     developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 54.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/screenshots/zoho-sheet-2026-06-20T201949.png
 security:

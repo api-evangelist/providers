@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 62.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -63,12 +65,44 @@ apis:
 - description: Receive signed HTTPS callbacks when Prezent jobs complete or fail. Subscriptions are scoped per API key, retried over a 21h window, and auto-disabled after 50 consecutive failures. See the [Webhooks g
   name: Prezent Webhooks API
   slug: prezent-webhooks-api
-artifact_total: 16
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Prezent Webhooks
   slug: prezent-webhooks
+collections:
+- collection_type: postman
+  name: Prezent Platform Audiences API
+  slug: postman-prezent-audiences-api
+- collection_type: postman
+  name: Prezent Platform Audiences AutoGenerator API
+  slug: postman-prezent-autogenerator-api
+- collection_type: postman
+  name: Prezent Platform Audiences File Access API
+  slug: postman-prezent-file-access-api
+- collection_type: postman
+  name: Prezent Platform Audiences Health API
+  slug: postman-prezent-health-api
+- collection_type: postman
+  name: Prezent Platform Audiences Streaming API
+  slug: postman-prezent-streaming-api
+- collection_type: postman
+  name: Prezent Platform Audiences Template Converter API
+  slug: postman-prezent-template-converter-api
+- collection_type: postman
+  name: Prezent Platform Audiences Themes API
+  slug: postman-prezent-themes-api
+- collection_type: postman
+  name: Prezent Platform Audiences Upload API
+  slug: postman-prezent-upload-api
+- collection_type: postman
+  name: Prezent Platform Audiences Webhooks API
+  slug: postman-prezent-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/prezent/overview
 - group: company
   title: ''
   type: Website
@@ -223,31 +257,42 @@ overview: 'Prezent publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Prezent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Prezent''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, sandbox, and 27 more developer resources.'
-random_paper: 28
+  Prezent''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, sandbox, and 28 more developer resources.'
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Prezent Rate Limits
   slug: prezent-rate-limits
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 58.1
+  delta: -3.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.8
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 71.5
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 47.4
   previous_composite: 61.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 37.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

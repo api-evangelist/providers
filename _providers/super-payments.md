@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.1
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Checkout Session management
@@ -53,12 +55,41 @@ apis:
 - description: Settlement batches, details, and reconciliation
   name: Super Payments Settlements API
   slug: super-payments-settlements-api
-artifact_total: 13
+artifact_total: 21
 asyncapis:
 - description: Super Payments delivers real-time event notifications to merchant-configured endpoints. Webhooks are configured per Integration in the Business Portal. Every request carries a super-signature header (
   name: Super Payments Webhooks
   slug: super-payments-webhooks-asyncapi
+collections:
+- collection_type: postman
+  name: Super Payments Checkout Sessions API
+  slug: postman-super-payments-checkout-sessions-api
+- collection_type: postman
+  name: Super Payments Checkout Sessions Customer API
+  slug: postman-super-payments-customer-api
+- collection_type: postman
+  name: Super Payments Checkout Sessions Payment Links API
+  slug: postman-super-payments-payment-links-api
+- collection_type: postman
+  name: Super Payments Checkout Sessions Payment Methods API
+  slug: postman-super-payments-payment-methods-api
+- collection_type: postman
+  name: Super Checkout Sessions Payments API
+  slug: postman-super-payments-payments-api
+- collection_type: postman
+  name: Super Payments Checkout Sessions Refunds API
+  slug: postman-super-payments-refunds-api
+- collection_type: postman
+  name: Super Payments Checkout Sessions Rewards API
+  slug: postman-super-payments-rewards-api
+- collection_type: postman
+  name: Super Payments Checkout Sessions Settlements API
+  slug: postman-super-payments-settlements-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/super-payments/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -217,31 +248,41 @@ overview: 'Super Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
   The Super Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Super Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 57
+  Super Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Super Payments Rate Limits
   slug: super-payments-rate-limits
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 61.1
+  delta: 0.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 70.3
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 71.1
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 73.7
   previous_composite: 61.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 51.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -221,25 +223,32 @@ plans:
 - name: Openhands Plans Pricing
   plan_count: 1
   slug: openhands-plans-pricing
-random_paper: 8
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Openhands Rate Limits
   slug: openhands-rate-limits
 score:
   band: thin
-  composite: 43.1
-  delta: 0.8
+  composite: 41.7
+  delta: -1.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 47.7
+    contract_quality: 49.9
     developer_ergonomics: 47.8
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 42.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 43.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/screenshots/openhands-2026-06-20T191005.png
 security:

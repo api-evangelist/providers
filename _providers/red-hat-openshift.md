@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -85,8 +87,41 @@ apis:
 - description: Query available OpenShift versions
   name: Red Hat OpenShift Versions API
   slug: red-hat-openshift-versions-api
-artifact_total: 59
+artifact_total: 70
 collections:
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons API
+  slug: postman-red-hat-openshift-add-ons-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Builds API
+  slug: postman-red-hat-openshift-builds-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Clusters API
+  slug: postman-red-hat-openshift-clusters-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Deployment Configs API
+  slug: postman-red-hat-openshift-deployment-configs-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Identity Providers API
+  slug: postman-red-hat-openshift-identity-providers-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Image Streams API
+  slug: postman-red-hat-openshift-image-streams-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Machine Pools API
+  slug: postman-red-hat-openshift-machine-pools-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Projects API
+  slug: postman-red-hat-openshift-projects-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Routes API
+  slug: postman-red-hat-openshift-routes-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Security Context Constraints API
+  slug: postman-red-hat-openshift-security-context-constraints-api
+- collection_type: postman
+  name: Red Hat OpenShift Container Platform Add-ons Versions API
+  slug: postman-red-hat-openshift-versions-api
 - collection_type: open
   name: Red Hat OpenShift Container Platform API
   slug: open-red-hat-openshift-api
@@ -94,6 +129,10 @@ collections:
   name: Red Hat OpenShift Cluster Manager API
   slug: open-red-hat-openshift-cluster-manager
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/red-hat-openshift/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -301,12 +340,12 @@ overview: 'Red Hat OpenShift publishes 11 APIs on the [APIs.io](https://apis.io/
   The Red Hat OpenShift catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat OpenShift''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, training material, and 15 more developer resources.'
+  Red Hat OpenShift''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, training material, and 16 more developer resources.'
 plans:
 - name: Red Hat Openshift Plans Pricing
   plan_count: 8
   slug: red-hat-openshift-plans-pricing
-random_paper: 66
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Red Hat Openshift Rate Limits
@@ -330,18 +369,25 @@ rules:
   slug: red-hat-openshift-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 3.2
+  composite: 56.8
+  delta: -4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.4
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 61.6
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 58.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/screenshots/red-hat-openshift-2026-06-20T192719.png
 security:

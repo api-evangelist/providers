@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -991,7 +993,7 @@ plans:
 - name: Microsoft Azure Api Management Plans Pricing
   plan_count: 8
   slug: microsoft-azure-api-management-plans-pricing
-random_paper: 43
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Microsoft Azure Api Management Rate Limits
@@ -1020,19 +1022,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 81.6
-  delta: 4.7
+  composite: 74.2
+  delta: -7.4
   facets:
     commercial_clarity: 86.8
-    contract_quality: 62.6
+    contract_quality: 51.3
     developer_ergonomics: 93.5
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 76.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 81.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 70
+      marker_coverage: 100.0
+      total: 70
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Microsoft Azure Api Management Authentication

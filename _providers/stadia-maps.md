@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 45.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: The Attributes API from Stadia Maps — 1 operation(s) for attributes.
@@ -62,8 +64,46 @@ apis:
 - description: The Search API from Stadia Maps — 3 operation(s) for search.
   name: Stadia Maps Search API
   slug: stadia-maps-search-api
-artifact_total: 25
+artifact_total: 36
+collections:
+- collection_type: postman
+  name: Stadia Maps Attributes API
+  slug: postman-stadia-maps-attributes-api
+- collection_type: postman
+  name: Stadia Maps Autocomplete API
+  slug: postman-stadia-maps-autocomplete-api
+- collection_type: postman
+  name: Stadia Maps Geospatial API
+  slug: postman-stadia-maps-geospatial-api
+- collection_type: postman
+  name: Stadia Maps Lookups API
+  slug: postman-stadia-maps-lookups-api
+- collection_type: postman
+  name: Stadia Maps Match API
+  slug: postman-stadia-maps-match-api
+- collection_type: postman
+  name: Stadia Maps Place API
+  slug: postman-stadia-maps-place-api
+- collection_type: postman
+  name: Stadia Maps Reverse API
+  slug: postman-stadia-maps-reverse-api
+- collection_type: postman
+  name: Stadia Maps Roads API
+  slug: postman-stadia-maps-roads-api
+- collection_type: postman
+  name: Stadia Maps Routes API
+  slug: postman-stadia-maps-routes-api
+- collection_type: postman
+  name: Stadia Maps Routing API
+  slug: postman-stadia-maps-routing-api
+- collection_type: postman
+  name: Stadia Maps Search API
+  slug: postman-stadia-maps-search-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/stadia-maps/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -168,12 +208,12 @@ overview: 'Stadia Maps publishes 11 APIs on the [APIs.io](https://apis.io/) netw
   The Stadia Maps catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Stadia Maps'' developer surface includes developer portal, documentation, API reference, pricing, authentication, engineering blog, and 8 more developer resources.'
+  Stadia Maps'' developer surface includes developer portal, documentation, API reference, pricing, authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Stadia Maps Plans Pricing
   plan_count: 3
   slug: stadia-maps-plans-pricing
-random_paper: 20
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Stadia Maps Rate Limits
@@ -197,18 +237,24 @@ rules:
   slug: stadia-maps-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 58.1
+  delta: -4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.8
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 70.5
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 62.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/screenshots/stadia-maps-2026-06-20T194456.png
 security:

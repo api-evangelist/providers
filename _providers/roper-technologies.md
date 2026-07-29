@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: Aderant provides comprehensive business management software for law firms and professional services organizations. Its API surfaces support matter management, time and billing, financial reporting, bu
@@ -139,7 +141,7 @@ press:
 - date: '2026-05-25'
   title: Roper Technologies strengthens AI leadership with key ...
   url: https://www.ropertech.com/news-releases/news-release-details/roper-technologies-strengthens-ai-leadership-key-executive/
-random_paper: 45
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Roper Technologies Rate Limits
@@ -154,19 +156,19 @@ rules:
     warn: 3
   slug: roper-technologies-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.0
-  delta: 0.0
+  band: emerging
+  composite: 25.3
+  delta: -4.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 9.4
+    contract_quality: 8.1
     developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 30.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,26 +103,29 @@ overview: 'taktile is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   taktile''s developer surface includes documentation, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 2
+random_paper: 57
 score:
   band: emerging
-  composite: 25.9
-  delta: 0.0
+  composite: 23.8
+  delta: -2.1
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 47.4
   previous_composite: 25.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

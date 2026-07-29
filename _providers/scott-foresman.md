@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Savvas Learning Company (formerly Pearson K12 Learning) is the successor brand to Scott Foresman and over 100 other Pearson K-12 imprints. Savvas provides digital learning platforms, curriculum conten
@@ -79,7 +81,7 @@ plans:
 - name: Scott Foresman Plans Pricing
   plan_count: 3
   slug: scott-foresman-plans-pricing
-random_paper: 33
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Scott Foresman Rate Limits
@@ -95,18 +97,18 @@ rules:
   slug: scott-foresman-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 30.6
+  delta: -4.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 26.4
+    contract_quality: 22.6
     developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 31.6
   previous_composite: 35.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scott-foresman/refs/heads/main/screenshots/scott-foresman-2026-06-20T193546.png
 security:

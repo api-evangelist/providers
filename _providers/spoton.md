@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -82,8 +84,58 @@ apis:
 - description: Add guests to a restaurant waitlist.
   name: SpotOn Waitlist API
   slug: spoton-waitlist-api
-artifact_total: 135
+artifact_total: 150
+collections:
+- collection_type: postman
+  name: SpotOn Reserve Availability API
+  slug: postman-spoton-availability-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Cash Deposits API
+  slug: postman-spoton-cash-deposits-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Employees API
+  slug: postman-spoton-employees-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Job Positions API
+  slug: postman-spoton-job-positions-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Locations API
+  slug: postman-spoton-locations-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Menu Items API
+  slug: postman-spoton-menu-items-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Order Types API
+  slug: postman-spoton-order-types-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Orders API
+  slug: postman-spoton-orders-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Paid In Outs API
+  slug: postman-spoton-paid-in-outs-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Payment Options API
+  slug: postman-spoton-payment-options-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Report Categories API
+  slug: postman-spoton-report-categories-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Reservations API
+  slug: postman-spoton-reservations-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Restaurants API
+  slug: postman-spoton-restaurants-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Time Clock Entries API
+  slug: postman-spoton-time-clock-entries-api
+- collection_type: postman
+  name: SpotOn Reserve Availability Waitlist API
+  slug: postman-spoton-waitlist-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/spoton/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -493,12 +545,12 @@ overview: 'SpotOn publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
   The SpotOn catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SpotOn''s developer surface includes authentication, documentation, pricing, support, engineering blog, and 14 more developer resources.'
+  SpotOn''s developer surface includes authentication, documentation, pricing, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Spoton Plans Pricing
   plan_count: 3
   slug: spoton-plans-pricing
-random_paper: 63
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Spoton Rate Limits
@@ -521,25 +573,33 @@ rules:
     warn: 20
   slug: spoton-rules
 score:
-  band: strong
-  composite: 62.6
-  delta: 0.0
+  band: developing
+  composite: 54.9
+  delta: -7.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 80.5
-    developer_ergonomics: 34.8
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 39.1
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 62.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 15
+      marker_coverage: 100.0
+      total: 15
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 34.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoton/refs/heads/main/screenshots/spoton-2026-06-20T194358.png
 security:
 - kind: authentication

@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 51.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.8
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Aidbox's HL7 FHIR REST API for creating, reading, updating, deleting, and searching clinical and administrative resources. Supports FHIR R4 (4.0.1), R5, and R6, with standard FHIR interactions, transa
@@ -218,32 +220,37 @@ overview: 'Aidbox publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Aidbox''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 31 more developer resources.'
-random_paper: 19
+random_paper: 15
 scopes:
 - name: Aidbox Scopes
   scope_count: 12
   slug: aidbox-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials/implicit/password
 score:
-  band: developing
-  composite: 52.9
-  delta: 0.0
+  band: strong
+  composite: 58.5
+  delta: 5.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 22.6
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 55.0
+    developer_ergonomics: 75.5
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 63.2
   previous_composite: 52.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 71.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/screenshots/aidbox-2026-07-25T195346.png
 security:
 - kind: authentication

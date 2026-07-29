@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Interactive engineering tools for bearing selection, bearing life calculation, tolerance lookup, lubrication, gear force calculations, and precision bearing selection. Accessible through Timken's engi
@@ -130,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: The Timken Company
   url: https://www.facebook.com/timken/?locale=ro_RO
-random_paper: 36
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Timken Rate Limits
@@ -146,19 +148,19 @@ rules:
   slug: timken-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 34.5
+  delta: -5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 26.4
+    contract_quality: 22.6
     developer_ergonomics: 8.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 40.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/screenshots/timken-2026-06-20T195401.png
 security:
 - kind: domain-security

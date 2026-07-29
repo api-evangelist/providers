@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -55,12 +57,31 @@ apis:
 - description: Refund payments back to users
   name: TrueLayer Refunds API
   slug: truelayer-refunds-api
-artifact_total: 24
+artifact_total: 29
 collections:
+- collection_type: postman
+  name: TrueLayer Payments Mandates API
+  slug: postman-truelayer-mandates-api
+- collection_type: postman
+  name: TrueLayer Payments Mandates Merchant Accounts API
+  slug: postman-truelayer-merchant-accounts-api
+- collection_type: postman
+  name: TrueLayer Mandates Payments API
+  slug: postman-truelayer-payments-api
+- collection_type: postman
+  name: TrueLayer Payments Mandates Payouts API
+  slug: postman-truelayer-payouts-api
+- collection_type: postman
+  name: TrueLayer Payments Mandates Refunds API
+  slug: postman-truelayer-refunds-api
 - collection_type: open
   name: TrueLayer Payments API
   slug: open-truelayer-payments
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/truelayer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -179,12 +200,12 @@ overview: 'TrueLayer publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The TrueLayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TrueLayer''s developer surface includes authentication, documentation, API reference, developer console, sandbox, changelog, engineering blog, and 11 more developer resources.'
+  TrueLayer''s developer surface includes authentication, documentation, API reference, developer console, sandbox, changelog, engineering blog, and 12 more developer resources.'
 plans:
 - name: Truelayer Plans Pricing
   plan_count: 3
   slug: truelayer-plans-pricing
-random_paper: 37
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Truelayer Rate Limits
@@ -208,24 +229,32 @@ rules:
   slug: truelayer-rules
 score:
   band: strong
-  composite: 62.6
-  delta: 3.9
+  composite: 56.9
+  delta: -5.7
   facets:
     commercial_clarity: 47.4
-    contract_quality: 70.8
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 73.0
+    developer_ergonomics: 54.3
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.7
+  previous_composite: 62.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 40.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png
 security:
 - kind: authentication

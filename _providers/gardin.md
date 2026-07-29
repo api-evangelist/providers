@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: 'Asynchronous bulk data API for downloading chlorophyll-fluorescence (ChF) and Gardin-indices data. Submit a query, poll its status, then download the result set as CSV. Supports control-area, device, '
@@ -163,27 +165,30 @@ overview: 'Gardin publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Gardin''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 17
+random_paper: 13
 scopes:
 - name: Gardin Scopes
   scope_count: 11
   slug: gardin-scopes
   summary_line: 11 scopes
 score:
-  band: thin
-  composite: 35.7
-  delta: 0.0
+  band: developing
+  composite: 42.4
+  delta: 6.7
   facets:
     commercial_clarity: 10.5
-    contract_quality: 22.6
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 54.3
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 44.7
   previous_composite: 35.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/screenshots/gardin-2026-07-25T215444.png
 security:
 - kind: authentication

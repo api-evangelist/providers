@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Live stock market news with tagged tickers, per-entity sentiment and match scores, entity statistics and trending endpoints, delivered as a GET-only JSON API authenticated with an api_token query para
@@ -159,30 +161,40 @@ plans:
 - name: Marketaux Plans
   plan_count: 6
   slug: marketaux-plans
-random_paper: 26
+random_paper: 54
 rate_limits:
 - limit_count: 6
   name: Marketaux Rate Limits
   slug: marketaux-rate-limits
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 44.1
+  delta: -4.5
   facets:
     commercial_clarity: 76.3
-    contract_quality: 37.7
-    developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 16.1
+    developer_ergonomics: 42.9
+    discoverability: 94.4
+    governance: 11.5
     operational_transparency: 31.6
   previous_composite: 48.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/screenshots/marketaux-2026-06-20T184952.png
 security:

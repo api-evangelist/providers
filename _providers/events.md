@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 18
 apis:
 - description: CNCF-graduated specification (graduated January 25, 2024) for describing event data in a common way. Defines a payload envelope with required attributes id, source, specversion, and type, and optional
@@ -188,7 +190,7 @@ overview: 'Events publishes 18 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Events'' developer surface includes developer portal and 4 more developer resources.'
-random_paper: 49
+random_paper: 45
 rules:
 - name: Events API Rules
   rule_count: 5
@@ -200,19 +202,25 @@ rules:
   slug: events-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.8
-  delta: 0.0
+  composite: 20.6
+  delta: -6.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 8.7
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 5.3
   previous_composite: 26.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 15.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/screenshots/events-2026-06-20T180902.png
 security:
 - kind: domain-security

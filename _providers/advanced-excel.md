@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Worksheet management within a workbook
   name: Advanced Excel Worksheets API
   slug: advanced-excel-worksheets-api
-artifact_total: 70
+artifact_total: 75
 collections:
+- collection_type: postman
+  name: Microsoft Graph Excel Charts API
+  slug: postman-advanced-excel-charts-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Ranges API
+  slug: postman-advanced-excel-ranges-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Tables API
+  slug: postman-advanced-excel-tables-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Workbooks API
+  slug: postman-advanced-excel-workbooks-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Worksheets API
+  slug: postman-advanced-excel-worksheets-api
 - collection_type: open
   name: Microsoft Graph Excel API
   slug: open-microsoft-graph-excel-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/advanced-excel/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -266,12 +287,12 @@ overview: 'Advanced Excel publishes 5 APIs on the [APIs.io](https://apis.io/) ne
   The Advanced Excel catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Advanced Excel''s developer surface includes authentication, documentation, getting-started guide, and 9 more developer resources.'
+  Advanced Excel''s developer surface includes authentication, documentation, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Advanced Excel Plans Pricing
   plan_count: 3
   slug: advanced-excel-plans-pricing
-random_paper: 36
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Advanced Excel Rate Limits
@@ -292,18 +313,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.0
-  delta: 4.6
+  composite: 58.7
+  delta: -3.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 74.3
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 75.4
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 57.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-excel/refs/heads/main/screenshots/advanced-excel-2026-06-20T165321.png
 security:

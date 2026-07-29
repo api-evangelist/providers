@@ -16,11 +16,11 @@
      "slug": "curaleaf",
      "description": "The largest cannabis company in the world by revenue operating cultivation, processing, and retail dispensary operations. Operates in multiple U.S. states and international markets producing cannabis flower, pre-rolls, edibles, and vape products under leading brands.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/curaleaf/refs/heads/main/screenshots/curaleaf-2026-06-20T175333.png",
-     "score": 14.1,
+     "score": 10.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 47.5,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -28,12 +28,13 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 43.5
+      "score": 25.0,
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -50,7 +51,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 1
     },
@@ -59,11 +61,11 @@
      "slug": "green-thumb-industries",
      "description": "A leading U.S. cannabis consumer packaged goods company operating a nationwide portfolio of retail dispensaries under the RISE brand and a collection of cannabis brands. Operates manufacturing facilities and retail locations across multiple states.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-thumb-industries/refs/heads/main/screenshots/green-thumb-industries-2026-06-20T182354.png",
-     "score": 9.0,
+     "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 47.5,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -71,7 +73,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -87,7 +89,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 2
     },
@@ -96,11 +99,11 @@
      "slug": "tilray-brands",
      "description": "A global lifestyle and consumer packaged goods company operating across cannabis, beverage alcohol, and wellness segments. One of the largest cannabis companies worldwide with cultivation, processing, and distribution operations spanning North America, Europe, and beyond.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tilray-brands/refs/heads/main/screenshots/tilray-brands-2026-06-20T195356.png",
-     "score": 6.2,
+     "score": 4.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -108,7 +111,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -124,7 +127,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 3
     }

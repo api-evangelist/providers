@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -67,12 +69,46 @@ apis:
 - description: The Ocean AWS API from Spot by NetApp — 3 operation(s) for ocean aws.
   name: Spot by NetApp Ocean AWS API
   slug: spot-by-netapp-ocean-aws-api
-artifact_total: 25
+artifact_total: 35
 collections:
+- collection_type: postman
+  name: Spot by NetApp Audit Service API
+  slug: postman-spot-by-netapp-audit-service-api
+- collection_type: postman
+  name: Spot by NetApp Audit Service Create an API Token API
+  slug: postman-spot-by-netapp-create-an-api-token-api
+- collection_type: postman
+  name: Spot by NetApp Audit Service Elastigroup AWS API
+  slug: postman-spot-by-netapp-elastigroup-aws-api
+- collection_type: postman
+  name: Spot by NetApp Audit Service Elastigroup Azure Spot VMs API
+  slug: postman-spot-by-netapp-elastigroup-azure-spot-vms-api
+- collection_type: postman
+  name: Spot by NetApp Audit Service Elastigroup GCP API
+  slug: postman-spot-by-netapp-elastigroup-gcp-api
+- collection_type: postman
+  name: Spot by NetApp Audit Service Health Check Service API
+  slug: postman-spot-by-netapp-health-check-service-api
+- collection_type: postman
+  name: Spot by NetApp Audit Service Insights Service API
+  slug: postman-spot-by-netapp-insights-service-api
+- collection_type: postman
+  name: Spot by NetApp Audit Service Notification Subscription Service API
+  slug: postman-spot-by-netapp-notification-subscription-service-api
+- collection_type: postman
+  name: Spot by NetApp Audit Service Ocean Automatic Rightsizing API
+  slug: postman-spot-by-netapp-ocean-automatic-rightsizing-api
+- collection_type: postman
+  name: Spot by NetApp Audit Service Ocean AWS API
+  slug: postman-spot-by-netapp-ocean-aws-api
 - collection_type: open
   name: Spot by NetApp API
   slug: open-spot-by-netapp
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/spot-by-netapp/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -190,12 +226,12 @@ overview: 'Spot by NetApp publishes 10 APIs on the [APIs.io](https://apis.io/) n
   The Spot by NetApp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spot by NetApp''s developer surface includes authentication, developer portal, documentation, GitHub presence, CLI, developer console, engineering blog, and 12 more developer resources.'
+  Spot by NetApp''s developer surface includes authentication, developer portal, documentation, GitHub presence, CLI, developer console, engineering blog, and 13 more developer resources.'
 plans:
 - name: Spot By Netapp Plans Pricing
   plan_count: 3
   slug: spot-by-netapp-plans-pricing
-random_paper: 51
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Spot By Netapp Rate Limits
@@ -219,18 +255,25 @@ rules:
   slug: spot-by-netapp-rules
 score:
   band: strong
-  composite: 62.7
-  delta: 3.3
+  composite: 59.5
+  delta: -3.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 61.9
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 63.6
+    developer_ergonomics: 69.6
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 59.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/screenshots/spot-by-netapp-2026-06-20T194351.png
 security:

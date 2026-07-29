@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 45.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for the SafetyCulture platform — inspections, templates, assets, actions, issues, users, groups, schedules, training, credentials, and webhooks. Bearer-token auth over HTTPS.
@@ -185,26 +187,30 @@ overview: 'SafetyCulture publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   SafetyCulture''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 64
+random_paper: 38
 rate_limits:
 - limit_count: 6
   name: Safetyculture Rate Limits
   slug: safetyculture-rate-limits
 score:
-  band: developing
-  composite: 52.3
-  delta: 0.0
+  band: strong
+  composite: 58.2
+  delta: 5.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 22.6
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 69.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 71.1
   previous_composite: 52.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Safetyculture Authentication

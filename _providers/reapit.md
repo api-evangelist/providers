@@ -12,23 +12,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
-    spec_presence: false
+    openapi_examples: documented
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.7
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: 'The core Foundations REST API over the Reapit agency CRM data platform. It is documented as a hypermedia REST API with date-based versioning (the `api-version: 2020-01-31` header is required), optimis'
@@ -259,7 +261,7 @@ overview: 'Reapit publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Reapit''s developer surface includes authentication, changelog, CLI, sandbox, getting-started guide, API reference, documentation, and 38 more developer resources.'
-random_paper: 33
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Reapit Rate Limits
@@ -270,20 +272,24 @@ scopes:
   slug: reapit-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 51.2
-  delta: 0.0
+  band: strong
+  composite: 59.9
+  delta: 8.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 58.0
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 76.3
   previous_composite: 51.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Reapit Authentication

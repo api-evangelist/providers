@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 68.0
+  scored_at: '2026-07-28'
 api_count: 27
 apis:
 - description: The Accounts API from Tower — 2 operation(s) for accounts.
@@ -255,26 +257,35 @@ overview: 'Tower publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 23 more developer resources.'
-random_paper: 17
+random_paper: 22
 scopes:
 - name: Tower Scopes
   scope_count: 53
   slug: tower-scopes
   summary_line: 53 scopes
 score:
-  band: developing
-  composite: 56.6
-  delta: 0.0
+  band: strong
+  composite: 56.8
+  delta: 0.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.7
+    contract_quality: 64.9
     developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 56.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

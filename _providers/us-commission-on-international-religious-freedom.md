@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The US Commission on International Religious Freedom (USCIRF) is an independent, bipartisan federal government commission created by the International Religious Freedom Act of 1998 that monitors relig
@@ -146,7 +148,7 @@ plans:
 - name: Us Commission On International Religious Freedom Plans Pricing
   plan_count: 3
   slug: us-commission-on-international-religious-freedom-plans-pricing
-random_paper: 56
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Us Commission On International Religious Freedom Rate Limits
@@ -162,19 +164,19 @@ rules:
   slug: us-commission-on-international-religious-freedom-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 36.4
+  delta: -5.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 34.0
+    contract_quality: 29.0
     developer_ergonomics: 8.7
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 41.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/screenshots/us-commission-on-international-religious-freedom-2026-06-20T200619.png
 security:
 - kind: domain-security

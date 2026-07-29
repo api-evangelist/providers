@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -80,8 +82,23 @@ arazzos:
 - description: Read an image set's latest version, apply DICOM metadata updates, then list its versions.
   name: Amazon HealthImaging Update Image Set Metadata
   slug: amazon-healthimaging-update-image-set-metadata-workflow
-artifact_total: 321
+artifact_total: 326
 collections:
+- collection_type: postman
+  name: AWS Health Imaging Datastore API
+  slug: postman-amazon-healthimaging-datastore-api
+- collection_type: postman
+  name: AWS Health Imaging Datastore GetDICOMImportJob API
+  slug: postman-amazon-healthimaging-getdicomimportjob-api
+- collection_type: postman
+  name: AWS Health Imaging Datastore ListDICOMImportJobs API
+  slug: postman-amazon-healthimaging-listdicomimportjobs-api
+- collection_type: postman
+  name: AWS Health Imaging Datastore StartDICOMImportJob API
+  slug: postman-amazon-healthimaging-startdicomimportjob-api
+- collection_type: postman
+  name: AWS Health Imaging Datastore Tags API
+  slug: postman-amazon-healthimaging-tags-api
 - collection_type: postman
   name: AWS Health Imaging
   slug: postman-amazon-healthimaging
@@ -1102,7 +1119,7 @@ plans:
 - name: Amazon Healthimaging Plans Pricing
   plan_count: 3
   slug: amazon-healthimaging-plans-pricing
-random_paper: 13
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Amazon Healthimaging Rate Limits
@@ -1125,25 +1142,33 @@ rules:
     warn: 8
   slug: amazon-healthimaging-spectral-rules
 score:
-  band: exemplar
-  composite: 71.6
-  delta: 3.9
+  band: strong
+  composite: 63.6
+  delta: -8.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 70.8
+    contract_quality: 75.9
     developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 67.7
+  previous_composite: 71.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 45.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/screenshots/amazon-healthimaging-2026-07-25T200012.png
 security:
 - kind: authentication

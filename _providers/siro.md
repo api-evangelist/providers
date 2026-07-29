@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.8
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The Audit API from Siro — 1 operation(s) for audit.
@@ -163,25 +165,34 @@ overview: 'Siro publishes 4 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Siro''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 37
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Siro Rate Limits
   slug: siro-rate-limits
 score:
-  band: thin
-  composite: 44.9
-  delta: 0.0
+  band: developing
+  composite: 43.8
+  delta: -1.1
   facets:
     commercial_clarity: 42.1
-    contract_quality: 47.8
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.0
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 7.9
   previous_composite: 44.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

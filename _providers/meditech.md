@@ -1,33 +1,35 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Unknown pricing · Registration request required
+  onboarding: unknown
+  pricing: unknown
   public: false
   source:
-  - plans
-  - authentication
+  - https://ehr.meditech.com/ehr-solutions/greenfield-workspace
+  - https://greenfield.meditech.com/explorer/topic/welcome
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,8 +39,8 @@ agentic_access:
   summary_line: 10 operations
 api_count: 9
 apis:
-- description: 'Meditech provides electronic health record (EHR) APIs for community hospitals and healthcare organizations. APIs enable access to patient records, lab results, pharmacy orders, radiology reports, and '
-  name: Meditech EHR API
+- description: 'MEDITECH''s FHIR API surface for Expanse, exposed to approved developers through the Greenfield Workspace. US Core FHIR R4 provides view-only access to patient-facing data after the patient authorizes '
+  name: MEDITECH Expanse FHIR API
   slug: meditech-api
 - description: Allergy and intolerance records
   name: meditech Allergy API
@@ -64,7 +66,7 @@ apis:
 - description: US Core Patient resources
   name: meditech Patient API
   slug: meditech-patient-api
-artifact_total: 20
+artifact_total: 17
 collections:
 - collection_type: open
   name: Meditech Expanse FHIR R4 API
@@ -93,14 +95,54 @@ common:
 - group: start
   title: ''
   type: Portal
-  url: https://ehr.meditech.com/
+  url: https://greenfield.meditech.com/
 - group: company
   title: ''
   type: Website
-  url: https://ehr.meditech.com/
+  url: https://www.meditech.com/
 - group: docs
   title: ''
   type: Documentation
+  url: https://greenfield.meditech.com/explorer/topic/welcome
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://greenfield.meditech.com/explorer/api
+- group: other
+  title: ''
+  type: Endpoints
+  url: https://greenfield.meditech.com/explorer/endpoints
+- group: auth
+  title: ''
+  type: Scopes
+  url: https://greenfield.meditech.com/explorer/scope
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://greenfield.meditech.com/explorer/authorization
+- group: design
+  title: ''
+  type: Errors
+  url: https://greenfield.meditech.com/explorer/status-codes
+- group: start
+  title: ''
+  type: SignUp
+  url: https://ehr.meditech.com/ehr-solutions/greenfield-workspace
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://ehr.meditech.com/ehr-solutions/how-to-work-in-the-greenfield-workspace
+- group: other
+  title: ''
+  type: Resources
+  url: https://ehr.meditech.com/ehr-solutions/greenfield-workspace-resources
+- group: other
+  title: ''
+  type: HL7Interfaces
+  url: https://ehr.meditech.com/hl7-outbound-list-for-greenfield
+- group: other
+  title: ''
+  type: Interoperability
   url: https://ehr.meditech.com/ehr-solutions/meditech-interoperability
 - group: company
   title: ''
@@ -117,7 +159,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-fhir-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/_original/meditech-fhir-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -126,11 +168,16 @@ common:
   title: ''
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/json-ld/meditech-context.jsonld
-description: EHR Interoperability benefits everyone in the care network and helps you connect across the continuum of care. MEDITECH supports industry standards.
-finops:
-- name: Meditech Finops
-  service_category: API
-  slug: meditech-finops
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/meditech-fhir.postman_collection.json
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/meditech-fhir.opencollection.json
+created: '2026-05-04'
+description: MEDITECH (Medical Information Technology, Inc.) is an electronic health record vendor serving community hospitals and health systems, primarily through its MEDITECH Expanse platform. Its API program is delivered through the Greenfield Workspace — a registration-gated developer environment where approved app developers get interactive documentation and a sandbox to execute APIs against a real MEDITECH EHR. Published surfaces are US Core FHIR R4 (view-only patient-facing data, USCDI v1, DSTU2/R4 compatible) and FHIR Scheduling APIs. MEDITECH also operates Traverse Exchange, its national data exchange network and TEFCA on-ramp, connecting 700+ facilities across 41 US states plus Canadian deployments.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meditech.png
 json_schemas:
 - name: Meditech FHIR R4 Patient
@@ -142,28 +189,20 @@ jsonld:
   property_count: 6
   slug: meditech-context
 layout: provider
-modified: '2026-05-19'
-name: meditech
+modified: '2026-07-27'
+name: MEDITECH
 nav: Providers
 network: true
-overview: 'meditech publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Allergy API, Capability API, Condition API, and 5 more.
+overview: 'MEDITECH publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Allergy API, Capability API, Condition API, and 5 more. Tagged areas include Company, EHR, Healthcare, FHIR, and HL7.
 
 
-  The meditech catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The MEDITECH catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  meditech''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 9 more developer resources.'
-plans:
-- name: Meditech Plans Pricing
-  plan_count: 3
-  slug: meditech-plans-pricing
-random_paper: 19
-rate_limits:
-- limit_count: 5
-  name: Meditech Rate Limits
-  slug: meditech-rate-limits
+  MEDITECH''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, getting-started guide, engineering blog, and 19 more developer resources.'
+random_paper: 65
 rules:
-- name: meditech API Rules
+- name: MEDITECH API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -178,19 +217,32 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.0
-  delta: 3.8
+  composite: 45.4
+  delta: -8.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 69.5
-    developer_ergonomics: 34.8
-    discoverability: 67.5
-    governance: 73.7
-    operational_transparency: 31.6
-  previous_composite: 50.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    commercial_clarity: 23.7
+    contract_quality: 58.1
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 58.3
+    operational_transparency: 0.0
+  previous_composite: 54.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 47.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:
 - kind: authentication
@@ -202,5 +254,12 @@ security:
   slug: meditech-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: meditech
-website: https://ehr.meditech.com/
+tags:
+- Company
+- EHR
+- Healthcare
+- FHIR
+- HL7
+- Interoperability
+website: https://www.meditech.com/
 ---

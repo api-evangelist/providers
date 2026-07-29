@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -197,7 +199,7 @@ overview: 'GoCardless publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   GoCardless'' developer surface includes authentication, sandbox, changelog, documentation, pricing, signup flow, support, and 15 more developer resources.'
-random_paper: 43
+random_paper: 62
 rules:
 - name: GoCardless API Rules
   rule_count: 6
@@ -214,24 +216,32 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 50.5
-  delta: 2.8
+  composite: 44.4
+  delta: -6.1
   facets:
     commercial_clarity: 18.4
-    contract_quality: 61.9
+    contract_quality: 63.6
     developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 47.7
+  previous_composite: 50.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 71.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 50.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/screenshots/gocardless-2026-06-20T181944.png
 security:
 - kind: authentication

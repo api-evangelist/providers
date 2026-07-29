@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Public GraphQL subgraph indexing the Perpetual Protocol Curie (v2) perpetual futures protocol on Optimism (positions, markets, trades, liquidations, funding). Served via The Graph hosted service and S
@@ -137,30 +139,31 @@ overview: 'Perp publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Perp''s developer surface includes documentation, API reference, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 31
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Perp Rate Limits
   slug: perp-rate-limits
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 35.2
+  delta: 4.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 52.2
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 44.7
   previous_composite: 30.4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

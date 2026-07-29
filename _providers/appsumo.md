@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,8 +45,19 @@ apis:
 - description: Partner profile management
   name: AppSumo Profile API
   slug: appsumo-profile-api
-artifact_total: 14
+artifact_total: 16
+collections:
+- collection_type: postman
+  name: AppSumo Licensing Licenses API
+  slug: postman-appsumo-licenses-api
+- collection_type: postman
+  name: AppSumo Licensing Licenses Profile API
+  slug: postman-appsumo-profile-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/appsumo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,12 +185,12 @@ overview: 'AppSumo publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   The AppSumo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AppSumo''s developer surface includes authentication, documentation, signup flow, pricing, getting-started guide, support, engineering blog, and 16 more developer resources.'
+  AppSumo''s developer surface includes authentication, documentation, signup flow, pricing, getting-started guide, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Appsumo Plans Pricing
   plan_count: 3
   slug: appsumo-plans-pricing
-random_paper: 25
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Appsumo Rate Limits
@@ -201,18 +214,25 @@ rules:
   slug: appsumo-spectral-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 61.1
+  delta: -2.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 74.3
-    developer_ergonomics: 37.0
-    discoverability: 60.0
-    governance: 73.7
+    contract_quality: 74.9
+    developer_ergonomics: 41.3
+    discoverability: 44.4
+    governance: 58.3
     operational_transparency: 44.7
   previous_composite: 63.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/screenshots/appsumo-2026-06-20T172331.png
 security:

@@ -312,6 +312,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-banking-apis.png"
   },
   {
+    "slug": "state-of-australian-energy-apis",
+    "title": "The State of Australian Energy APIs",
+    "tagline": "What twenty-four Australian energy organizations actually publish, scored — proof that a statutory data mandate transplants from one industry to another, and what it costs to verify one.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-energy-apis.png"
+  },
+  {
     "slug": "state-of-australian-healthcare-apis",
     "title": "The State of Australian Healthcare APIs",
     "tagline": "What twelve Australian healthcare organizations actually publish, scored — where the challengers out-execute the national agency, and one built the incumbents' FHIR.",
@@ -344,12 +352,28 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-real-estate-apis.png"
   },
   {
+    "slug": "state-of-australian-travel-apis",
+    "title": "The State of Australian Travel APIs",
+    "tagline": "What eleven Australian travel and aviation organizations actually publish, scored — the control group, and the lowest contract-quality reading in this entire research programme.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-travel-apis.png"
+  },
+  {
     "slug": "state-of-canadian-banking-apis",
     "title": "The State of Canadian Banking APIs",
     "tagline": "What 42 Canadian banks, credit unions, caisses, and fintechs actually publish, scored — the emptiest banking market measured, where the rails outrank the banks.",
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-banking-apis.png"
+  },
+  {
+    "slug": "state-of-canadian-energy-apis",
+    "title": "The State of Canadian Energy APIs",
+    "tagline": "What eighteen Canadian energy organizations actually publish, scored — one province mandated Green Button, and the country's best API belongs to a utility nobody compelled.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-energy-apis.png"
   },
   {
     "slug": "state-of-canadian-healthcare-apis",
@@ -384,6 +408,22 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-real-estate-apis.png"
   },
   {
+    "slug": "state-of-canadian-travel-apis",
+    "title": "The State of Canadian Travel APIs",
+    "tagline": "What nine Canadian travel and aviation organizations actually publish, scored — the country that authored the travel industry's flagship standard, and the emptiest market in the quartet.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-travel-apis.png"
+  },
+  {
+    "slug": "state-of-headless-apis",
+    "title": "The State of Headless APIs",
+    "tagline": "What one hundred and eight headless CMS, commerce and browser providers actually publish, scored — the architecture whose entire promise is that the API is the product, tested against the evidence, where the monoliths keep the promise better than the disruptors.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-headless-apis.png"
+  },
+  {
     "slug": "state-of-market-data-apis",
     "title": "The State of Market Data APIs",
     "tagline": "What the market data providers actually publish, scored — and where the durable value hides in a commoditizing feed.",
@@ -406,6 +446,14 @@
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-banking-apis.png"
+  },
+  {
+    "slug": "state-of-uk-energy-apis",
+    "title": "The State of UK Energy APIs",
+    "tagline": "What twenty-six UK energy organizations actually publish, scored — the market that mandated the pipes instead of the data, and got exactly what it compelled.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-energy-apis.png"
   },
   {
     "slug": "state-of-uk-healthcare-apis",
@@ -440,12 +488,28 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-real-estate-apis.png"
   },
   {
+    "slug": "state-of-uk-travel-apis",
+    "title": "The State of UK Travel APIs",
+    "tagline": "What fourteen UK travel and aviation organizations actually publish, scored — the country that proved mandates work, in the one sector it never mandated.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-travel-apis.png"
+  },
+  {
     "slug": "state-of-us-banking-apis",
     "title": "The State of US Banking APIs",
     "tagline": "What 113 US banks, credit unions, neobanks, and banking-rails providers actually publish, scored — the one open-finance market with no mandate, and the widest split in banking.",
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-banking-apis.png"
+  },
+  {
+    "slug": "state-of-us-energy-apis",
+    "title": "The State of US Energy APIs",
+    "tagline": "What sixty US energy organizations actually publish, scored — the market with the best standard, the largest scale, no obligation, and the lowest average of the four.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-energy-apis.png"
   },
   {
     "slug": "state-of-us-healthcare-apis",
@@ -478,6 +542,14 @@
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-real-estate-apis.png"
+  },
+  {
+    "slug": "state-of-us-travel-apis",
+    "title": "The State of US Travel APIs",
+    "tagline": "What thirty US travel and aviation organizations actually publish, scored — the sector where switching cost IS the commercial structure, and the published surface is inversely related to market power.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-travel-apis.png"
   },
   {
     "slug": "techstars-api-portfolio",

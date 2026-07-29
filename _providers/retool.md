@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -58,12 +60,31 @@ apis:
 - description: Create, read, update, and delete users within a Retool organization. Manage user roles (admin, standard, end-user) and activation status.
   name: Retool Users API
   slug: retool-users-api
-artifact_total: 26
+artifact_total: 31
 collections:
+- collection_type: postman
+  name: Retool Management Apps API
+  slug: postman-retool-apps-api
+- collection_type: postman
+  name: Retool Management Apps Folders API
+  slug: postman-retool-folders-api
+- collection_type: postman
+  name: Retool Management Apps Groups API
+  slug: postman-retool-groups-api
+- collection_type: postman
+  name: Retool Management Apps Resources API
+  slug: postman-retool-resources-api
+- collection_type: postman
+  name: Retool Management Apps Users API
+  slug: postman-retool-users-api
 - collection_type: open
   name: Retool Management API
   slug: open-retool-management-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/retool/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,12 +216,12 @@ overview: 'Retool publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Retool catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Retool''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, support, GitHub presence, and 13 more developer resources.'
+  Retool''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, support, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Retool Plans Pricing
   plan_count: 4
   slug: retool-plans-pricing
-random_paper: 49
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Retool Rate Limits
@@ -224,18 +245,25 @@ rules:
   slug: retool-management-api-rules
 score:
   band: strong
-  composite: 66.3
-  delta: 2.0
+  composite: 63.3
+  delta: -3.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.9
-    developer_ergonomics: 32.6
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 72.3
+    developer_ergonomics: 37.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 64.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/screenshots/retool-2026-06-20T193043.png
 security:

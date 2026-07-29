@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Trade capture and processing
   name: SS&C Geneva Trades API
   slug: ssc-geneva-trades-api
-artifact_total: 19
+artifact_total: 24
 collections:
+- collection_type: postman
+  name: SS&C Geneva Fund Accounting Investors API
+  slug: postman-ssc-geneva-investors-api
+- collection_type: postman
+  name: SS&C Geneva Fund Accounting Investors NAV API
+  slug: postman-ssc-geneva-nav-api
+- collection_type: postman
+  name: SS&C Geneva Fund Accounting Investors Portfolios API
+  slug: postman-ssc-geneva-portfolios-api
+- collection_type: postman
+  name: SS&C Geneva Fund Accounting Investors Positions API
+  slug: postman-ssc-geneva-positions-api
+- collection_type: postman
+  name: SS&C Geneva Fund Accounting Investors Trades API
+  slug: postman-ssc-geneva-trades-api
 - collection_type: open
   name: SS&C Geneva Fund Accounting API
   slug: open-ssc-geneva-fund-accounting
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ssc-geneva/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,12 +181,12 @@ overview: 'SS&C Geneva publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The SS&C Geneva catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SS&C Geneva''s developer surface includes authentication, developer portal, engineering blog, support, documentation, and 11 more developer resources.'
+  SS&C Geneva''s developer surface includes authentication, developer portal, engineering blog, support, documentation, and 12 more developer resources.'
 plans:
 - name: Ssc Geneva Plans Pricing
   plan_count: 3
   slug: ssc-geneva-plans-pricing
-random_paper: 52
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Ssc Geneva Rate Limits
@@ -188,20 +209,27 @@ rules:
     warn: 5
   slug: ssc-geneva-rules
 score:
-  band: strong
-  composite: 60.8
-  delta: 4.6
+  band: developing
+  composite: 55.7
+  delta: -5.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 77.3
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 72.4
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 56.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/screenshots/ssc-geneva-2026-06-20T194436.png
 security:
 - kind: authentication

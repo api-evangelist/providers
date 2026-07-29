@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -193,7 +195,7 @@ overview: 'SpAItial publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SpAItial''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
-random_paper: 39
+random_paper: 8
 scopes:
 - name: Spaitial Scopes
   scope_count: 0
@@ -201,18 +203,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 52.0
+  delta: -0.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 59.7
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.1
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 34.2
   previous_composite: 52.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

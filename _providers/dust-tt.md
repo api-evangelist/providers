@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -458,7 +460,7 @@ plans:
 - name: Dust Plans Pricing
   plan_count: 2
   slug: dust-plans-pricing
-random_paper: 45
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Dust Rate Limits
@@ -474,19 +476,26 @@ rules:
   slug: dust-tt-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 76.0
-  delta: 5.5
+  composite: 71.3
+  delta: -4.7
   facets:
     commercial_clarity: 76.3
-    contract_quality: 74.2
+    contract_quality: 73.5
     developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 78.9
-  previous_composite: 70.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 76.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/screenshots/dust-tt-2026-06-20T180330.png
 security:
 - kind: authentication

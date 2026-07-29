@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -73,8 +75,44 @@ apis:
 - description: Manage workspaces and workspace users. Workspaces divide your organization into sub-categories such as departments or dev/prod environments.
   name: Tray.ai Workspaces API
   slug: tray-ai-workspaces-api
-artifact_total: 77
+artifact_total: 89
 collections:
+- collection_type: postman
+  name: Tray.ai Embedded Authentication API
+  slug: postman-tray-ai-authentication-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Authentications API
+  slug: postman-tray-ai-authentications-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Call Connector API
+  slug: postman-tray-ai-call-connector-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Connectors API
+  slug: postman-tray-ai-connectors-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Deployments API
+  slug: postman-tray-ai-deployments-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Projects API
+  slug: postman-tray-ai-projects-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Solution Instances API
+  slug: postman-tray-ai-solution-instances-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Solutions API
+  slug: postman-tray-ai-solutions-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Triggers API
+  slug: postman-tray-ai-triggers-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Users API
+  slug: postman-tray-ai-users-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Workflows API
+  slug: postman-tray-ai-workflows-api
+- collection_type: postman
+  name: Tray.ai Embedded Authentication Workspaces API
+  slug: postman-tray-ai-workspaces-api
 - collection_type: open
   name: Tray.ai Embedded API
   slug: open-tray-ai-embedded-api
@@ -82,6 +120,10 @@ collections:
   name: Tray.ai Platform API
   slug: open-tray-ai-platform-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/trayai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -328,12 +370,12 @@ overview: 'Tray.ai publishes 12 APIs on the [APIs.io](https://apis.io/) network,
   The Tray.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tray.ai''s developer surface includes authentication, engineering blog, developer portal, tooling, and 31 more developer resources.'
+  Tray.ai''s developer surface includes authentication, engineering blog, developer portal, tooling, and 32 more developer resources.'
 plans:
 - name: Tray Ai Plans Pricing
   plan_count: 3
   slug: tray-ai-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 7
   name: Tray Ai Rate Limits
@@ -357,19 +399,26 @@ rules:
   slug: tray-ai-rules
 score:
   band: strong
-  composite: 69.6
-  delta: 5.5
+  composite: 64.9
+  delta: -4.7
   facets:
     commercial_clarity: 81.6
-    contract_quality: 77.9
+    contract_quality: 78.4
     developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 64.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 69.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/screenshots/tray-ai-2026-06-20T195639.png
 security:
 - kind: authentication

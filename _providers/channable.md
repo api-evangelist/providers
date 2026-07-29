@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.2
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: The order_attachments API from Channable — 2 operation(s) for order_attachments.
@@ -166,25 +168,34 @@ overview: 'Channable publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Channable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 19 more developer resources.'
-random_paper: 40
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Channable Rate Limits
   slug: channable-rate-limits
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 46.0
+  delta: -0.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 49.6
+    contract_quality: 45.8
     developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 46.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/screenshots/channable-2026-07-25T205043.png
 security:

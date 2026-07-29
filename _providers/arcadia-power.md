@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -82,12 +84,49 @@ apis:
 - description: Asynchronous events for statement, meter, and credential lifecycle.
   name: Arcadia Webhooks API
   slug: arcadia-power-webhooks-api
-artifact_total: 46
+artifact_total: 57
 collections:
+- collection_type: postman
+  name: Arcadia Plug Accounts API
+  slug: postman-arcadia-power-accounts-api
+- collection_type: postman
+  name: Arcadia Plug Accounts Credentials API
+  slug: postman-arcadia-power-credentials-api
+- collection_type: postman
+  name: Arcadia Plug Accounts Files API
+  slug: postman-arcadia-power-files-api
+- collection_type: postman
+  name: Arcadia Plug Accounts Intervals API
+  slug: postman-arcadia-power-intervals-api
+- collection_type: postman
+  name: Arcadia Plug Accounts Meters API
+  slug: postman-arcadia-power-meters-api
+- collection_type: postman
+  name: Arcadia Plug Accounts OAuth API
+  slug: postman-arcadia-power-oauth-api
+- collection_type: postman
+  name: Arcadia Plug Accounts Organizations API
+  slug: postman-arcadia-power-organizations-api
+- collection_type: postman
+  name: Arcadia Plug Accounts Providers API
+  slug: postman-arcadia-power-providers-api
+- collection_type: postman
+  name: Arcadia Plug Accounts Sites API
+  slug: postman-arcadia-power-sites-api
+- collection_type: postman
+  name: Arcadia Plug Accounts Statements API
+  slug: postman-arcadia-power-statements-api
+- collection_type: postman
+  name: Arcadia Plug Accounts Webhooks API
+  slug: postman-arcadia-power-webhooks-api
 - collection_type: open
   name: Arcadia Plug API
   slug: open-arcadia-plug-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/arcadia/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -243,12 +282,12 @@ overview: 'Arcadia publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The Arcadia catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Arcadia''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, changelog, and 19 more developer resources.'
+  Arcadia''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, changelog, and 20 more developer resources.'
 plans:
 - name: Arcadia Power Plans Pricing
   plan_count: 4
   slug: arcadia-power-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Arcadia Power Rate Limits
@@ -264,18 +303,31 @@ rules:
   slug: arcadia-power-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 4.2
+  composite: 58.6
+  delta: -4.7
   facets:
     commercial_clarity: 68.4
-    contract_quality: 67.7
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 68.7
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 48.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/screenshots/arcadia-power-2026-06-20T172402.png
 security:

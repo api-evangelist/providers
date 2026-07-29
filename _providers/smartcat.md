@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 8
@@ -264,21 +266,31 @@ overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   Smartcat''s developer surface includes changelog, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
-random_paper: 47
+random_paper: 16
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 51.8
+  delta: -2.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 48.7
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 46.5
+    developer_ergonomics: 58.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 54.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

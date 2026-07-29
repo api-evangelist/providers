@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful API providing 140+ endpoints for payment processing, customer management, invoicing, subscriptions, marketplace split payments, Pix, boleto bancário, credit card tokenization, webhooks, and fi
@@ -102,30 +104,31 @@ plans:
 - name: Iugu Plans Pricing
   plan_count: 3
   slug: iugu-plans-pricing
-random_paper: 34
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Iugu Rate Limits
   slug: iugu-rate-limits
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 29.1
+  delta: -3.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 32.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 9.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iugu/refs/heads/main/screenshots/iugu-2026-06-20T183637.png
 security:

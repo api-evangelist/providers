@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -61,8 +63,32 @@ apis:
 - description: The Tools API from arcade-dev — 9 operation(s) for tools.
   name: arcade-dev Tools API
   slug: arcade-dev-tools-api
-artifact_total: 63
+artifact_total: 71
 collections:
+- collection_type: postman
+  name: Arcade Admin API
+  slug: postman-arcade-dev-admin-api
+- collection_type: postman
+  name: Arcade Admin Authorization API
+  slug: postman-arcade-dev-authorization-api
+- collection_type: postman
+  name: Arcade Admin Gateways API
+  slug: postman-arcade-dev-gateways-api
+- collection_type: postman
+  name: Arcade Admin Hooks API
+  slug: postman-arcade-dev-hooks-api
+- collection_type: postman
+  name: Arcade Admin LLM API
+  slug: postman-arcade-dev-llm-api
+- collection_type: postman
+  name: Arcade Admin Operations API
+  slug: postman-arcade-dev-operations-api
+- collection_type: postman
+  name: Arcade Admin Plugins API
+  slug: postman-arcade-dev-plugins-api
+- collection_type: postman
+  name: Arcade Admin Tools API
+  slug: postman-arcade-dev-tools-api
 - collection_type: open
   name: Arcade Admin API
   slug: open-arcade-admin-api
@@ -91,6 +117,10 @@ collections:
   name: Arcade Workers API
   slug: open-arcade-workers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/arcade-dev/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -361,12 +391,12 @@ overview: 'arcade-dev publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The arcade-dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  arcade-dev''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 35 more developer resources.'
+  arcade-dev''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 36 more developer resources.'
 plans:
 - name: Arcade Dev Plans Pricing
   plan_count: 3
   slug: arcade-dev-plans-pricing
-random_paper: 20
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Arcade Dev Rate Limits
@@ -390,18 +420,25 @@ rules:
   slug: arcade-dev-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 4.2
+  composite: 58.0
+  delta: -3.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 76.1
-    developer_ergonomics: 56.5
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 77.1
+    developer_ergonomics: 60.9
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 56.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/screenshots/arcade-dev-2026-06-20T172356.png
 security:

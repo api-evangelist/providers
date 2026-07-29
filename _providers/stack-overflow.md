@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -176,7 +178,7 @@ plans:
 - name: Stack Overflow Plans Pricing
   plan_count: 3
   slug: stack-overflow-plans-pricing
-random_paper: 35
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Stack Overflow Rate Limits
@@ -205,18 +207,25 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.9
-  delta: 2.5
+  composite: 49.1
+  delta: -4.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.3
+    contract_quality: 66.4
     developer_ergonomics: 13.0
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 51.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 53.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/screenshots/stack-overflow-2026-06-20T194441.png
 security:

@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -290,7 +292,7 @@ overview: 'Amazon CloudTrail publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 23 more developer resources.'
-random_paper: 66
+random_paper: 72
 rules:
 - name: Amazon CloudTrail API Rules
   rule_count: 5
@@ -309,19 +311,28 @@ rules:
     warn: 10
   slug: amazon-cloudtrail-spectral-rules
 score:
-  band: developing
-  composite: 59.1
-  delta: 0.0
+  band: strong
+  composite: 57.9
+  delta: -1.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.6
+    contract_quality: 73.7
     developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 59.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/screenshots/amazon-cloudtrail-2026-07-25T195952.png
 security:

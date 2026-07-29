@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 44.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 31.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
@@ -146,7 +148,7 @@ overview: 'Archive Technologies publishes 1 API on the [APIs.io](https://apis.io
 
 
   Archive Technologies'' developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 27
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Archive Technologies Rate Limits
@@ -158,18 +160,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 33.1
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 56.5
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 51.6
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 52.6
   previous_composite: 34.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/screenshots/archive-technologies-2026-07-25T201038.png
 security:

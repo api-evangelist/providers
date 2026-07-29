@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,8 +45,14 @@ apis:
 - description: Nameserver history (legacy) for a domain
   name: CompleteDNS NS History API
   slug: completedns-ns-history-api
-artifact_total: 14
+artifact_total: 16
 collections:
+- collection_type: postman
+  name: CompleteDNS API v1 DNS History API
+  slug: postman-completedns-dns-history-api
+- collection_type: postman
+  name: CompleteDNS API v1 DNS History NS History API
+  slug: postman-completedns-ns-history-api
 - collection_type: open
   name: CompleteDNS API v1
   slug: open-completedns-v1
@@ -52,6 +60,10 @@ collections:
   name: CompleteDNS API v2
   slug: open-completedns-v2
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/completedns/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -131,12 +143,12 @@ overview: 'CompleteDNS publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
   The CompleteDNS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CompleteDNS''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, and 8 more developer resources.'
+  CompleteDNS''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, and 9 more developer resources.'
 plans:
 - name: Completedns Plans Pricing
   plan_count: 3
   slug: completedns-plans-pricing
-random_paper: 26
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Completedns Rate Limits
@@ -160,18 +172,25 @@ rules:
   slug: completedns-rules
 score:
   band: strong
-  composite: 61.7
-  delta: 3.2
+  composite: 57.8
+  delta: -3.9
   facets:
     commercial_clarity: 84.2
-    contract_quality: 68.1
-    developer_ergonomics: 28.3
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 66.1
+    developer_ergonomics: 32.6
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 58.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/screenshots/completedns-2026-06-20T174832.png
 security:

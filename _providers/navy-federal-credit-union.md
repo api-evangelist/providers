@@ -2,11 +2,13 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Details and summary information for member accounts, including name, status, activity dates, balances, and more. Part of Navy Federal's consumer- permissioned Open Banking API Catalog; access is gated
@@ -138,26 +140,29 @@ overview: 'Navy Federal Credit Union publishes 8 APIs on the [APIs.io](https://a
 
 
   Navy Federal Credit Union''s developer surface includes documentation, signup flow, support, API reference, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 44
+random_paper: 28
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 30.7
+  delta: -0.8
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 10.5
   previous_composite: 31.5
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 55.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

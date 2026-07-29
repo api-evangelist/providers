@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 59.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -746,7 +748,7 @@ plans:
 - name: Sendgrid Plans Pricing
   plan_count: 4
   slug: sendgrid-plans-pricing
-random_paper: 32
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Sendgrid Rate Limits
@@ -770,18 +772,27 @@ rules:
   slug: sendgrid-spectral-rules
 score:
   band: exemplar
-  composite: 77.2
-  delta: 1.2
+  composite: 76.4
+  delta: -0.8
   facets:
     commercial_clarity: 92.1
-    contract_quality: 72.4
-    developer_ergonomics: 87.0
-    discoverability: 67.5
-    governance: 52.6
+    contract_quality: 73.7
+    developer_ergonomics: 80.4
+    discoverability: 68.5
+    governance: 53.1
     operational_transparency: 78.9
-  previous_composite: 76.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 77.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 63
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:

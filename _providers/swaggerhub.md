@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -64,8 +66,35 @@ apis:
 - description: Manage team membership and access
   name: SwaggerHub Teams API
   slug: swaggerhub-teams-api
-artifact_total: 24
+artifact_total: 33
 collections:
+- collection_type: postman
+  name: SwaggerHub Registry APIs API
+  slug: postman-swaggerhub-apis-api
+- collection_type: postman
+  name: SwaggerHub Registry APIs Domains API
+  slug: postman-swaggerhub-domains-api
+- collection_type: postman
+  name: SwaggerHub Registry APIs Integrations API
+  slug: postman-swaggerhub-integrations-api
+- collection_type: postman
+  name: SwaggerHub Registry APIs Organizations API
+  slug: postman-swaggerhub-organizations-api
+- collection_type: postman
+  name: SwaggerHub Registry APIs Projects API
+  slug: postman-swaggerhub-projects-api
+- collection_type: postman
+  name: SwaggerHub Registry APIs Search API
+  slug: postman-swaggerhub-search-api
+- collection_type: postman
+  name: SwaggerHub Registry APIs Settings API
+  slug: postman-swaggerhub-settings-api
+- collection_type: postman
+  name: SwaggerHub Registry APIs Standardization API
+  slug: postman-swaggerhub-standardization-api
+- collection_type: postman
+  name: SwaggerHub Registry APIs Teams API
+  slug: postman-swaggerhub-teams-api
 - collection_type: open
   name: SwaggerHub Registry API
   slug: open-swaggerhub-registry-api
@@ -73,6 +102,10 @@ collections:
   name: SwaggerHub User Management API
   slug: open-swaggerhub-user-management
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/swaggerhub/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,12 +224,12 @@ overview: 'SwaggerHub publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The SwaggerHub catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SwaggerHub''s developer surface includes authentication, developer portal, signup flow, documentation, getting-started guide, pricing, engineering blog, and 13 more developer resources.'
+  SwaggerHub''s developer surface includes authentication, developer portal, signup flow, documentation, getting-started guide, pricing, engineering blog, and 14 more developer resources.'
 plans:
 - name: Swaggerhub Plans Pricing
   plan_count: 3
   slug: swaggerhub-plans-pricing
-random_paper: 51
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Swaggerhub Rate Limits
@@ -220,18 +253,25 @@ rules:
   slug: swaggerhub-rules
 score:
   band: strong
-  composite: 68.7
-  delta: 3.2
+  composite: 65.6
+  delta: -3.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 63.1
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 64.7
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 65.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/screenshots/swaggerhub-2026-06-20T194753.png
 security:

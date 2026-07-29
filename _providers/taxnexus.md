@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful HTTPS-based API for cannabis tax compliance. Enables calculation of state, county, and local cannabis excise taxes, storage of tax data, and support for monthly cannabis tax return filing acro
@@ -98,25 +100,25 @@ plans:
 - name: Taxnexus Plans Pricing
   plan_count: 3
   slug: taxnexus-plans-pricing
-random_paper: 12
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Taxnexus Rate Limits
   slug: taxnexus-rate-limits
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 22.4
+  delta: -2.4
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

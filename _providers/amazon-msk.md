@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -55,12 +57,34 @@ apis:
 - description: The Tags API from Amazon MSK — 2 operation(s) for tags.
   name: Amazon MSK Tags API
   slug: amazon-msk-tags-api
-artifact_total: 433
+artifact_total: 439
 collections:
+- collection_type: postman
+  name: Managed Streaming for Kafka Clusters API
+  slug: postman-amazon-msk-clusters-api
+- collection_type: postman
+  name: Managed Streaming for Kafka Clusters Compatible Kafka Versions API
+  slug: postman-amazon-msk-compatible-kafka-versions-api
+- collection_type: postman
+  name: Managed Streaming for Kafka Clusters Configurations API
+  slug: postman-amazon-msk-configurations-api
+- collection_type: postman
+  name: Managed Streaming for Kafka Clusters Kafka Versions API
+  slug: postman-amazon-msk-kafka-versions-api
+- collection_type: postman
+  name: Managed Streaming for Kafka Clusters Operations API
+  slug: postman-amazon-msk-operations-api
+- collection_type: postman
+  name: Managed Streaming for Kafka Clusters Tags API
+  slug: postman-amazon-msk-tags-api
 - collection_type: open
   name: Amazon MSK API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-msk/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1387,12 +1411,12 @@ overview: 'Amazon MSK publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon MSK catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Msk Plans Pricing
   plan_count: 3
   slug: amazon-msk-plans-pricing
-random_paper: 2
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Amazon Msk Rate Limits
@@ -1416,18 +1440,25 @@ rules:
   slug: amazon-msk-spectral-rules
 score:
   band: strong
-  composite: 65.7
-  delta: 3.3
+  composite: 62.4
+  delta: -3.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 71.0
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 72.2
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 62.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/screenshots/amazon-msk-2026-06-20T171749.png
 security:

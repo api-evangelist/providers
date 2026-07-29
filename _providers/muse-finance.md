@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Embedded-finance REST API for submitting and converting leads, managing finance applications and agreements, funds requests and credit-backed offers. Authenticated with a JWT bearer token plus an x-ap
@@ -133,26 +135,29 @@ overview: 'Muse Finance publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Muse Finance''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 13 more developer resources.'
-random_paper: 55
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Muse Finance Rate Limits
   slug: muse-finance-rate-limits
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 38.8
+  delta: 5.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 22.6
-    developer_ergonomics: 58.7
-    discoverability: 80.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 52.2
+    discoverability: 66.7
+    governance: 3.1
     operational_transparency: 44.7
   previous_composite: 33.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Muse Finance Authentication

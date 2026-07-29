@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -727,7 +729,7 @@ overview: 'Amazon Application Discovery Service publishes 6 APIs on the [APIs.io
 
 
   Amazon Application Discovery Service''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 18
+random_paper: 71
 rules:
 - name: Amazon Application Discovery Service API Rules
   rule_count: 5
@@ -747,18 +749,27 @@ rules:
   slug: amazon-application-discovery-service-spectral-rules
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 36.5
+  delta: -3.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 82.3
+    contract_quality: 70.3
     developer_ergonomics: 10.9
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 83.3
+    governance: 69.8
     operational_transparency: 0.0
   previous_composite: 40.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/screenshots/amazon-application-discovery-service-2026-07-25T195925.png
 security:

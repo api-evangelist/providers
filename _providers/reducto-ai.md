@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -67,8 +69,38 @@ apis:
 - description: The Webhooks API from reducto-ai — 1 operation(s) for webhooks.
   name: reducto-ai Webhooks API
   slug: reducto-ai-webhooks-api
-artifact_total: 79
+artifact_total: 89
 collections:
+- collection_type: postman
+  name: Reducto Classify API
+  slug: postman-reducto-ai-classify-api
+- collection_type: postman
+  name: Reducto Classify Edit API
+  slug: postman-reducto-ai-edit-api
+- collection_type: postman
+  name: Reducto Classify Extract API
+  slug: postman-reducto-ai-extract-api
+- collection_type: postman
+  name: Reducto Classify Jobs API
+  slug: postman-reducto-ai-jobs-api
+- collection_type: postman
+  name: Reducto Classify Parse API
+  slug: postman-reducto-ai-parse-api
+- collection_type: postman
+  name: Reducto Classify Pipeline API
+  slug: postman-reducto-ai-pipeline-api
+- collection_type: postman
+  name: Reducto Classify Platform API
+  slug: postman-reducto-ai-platform-api
+- collection_type: postman
+  name: Reducto Classify Split API
+  slug: postman-reducto-ai-split-api
+- collection_type: postman
+  name: Reducto Classify Upload API
+  slug: postman-reducto-ai-upload-api
+- collection_type: postman
+  name: Reducto Classify Webhooks API
+  slug: postman-reducto-ai-webhooks-api
 - collection_type: open
   name: Reducto Classify API
   slug: open-reducto-classify-api
@@ -100,6 +132,10 @@ collections:
   name: Reducto Webhooks API
   slug: open-reducto-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/reducto-ai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -407,12 +443,12 @@ overview: 'reducto-ai publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
   The reducto-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  reducto-ai''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, pricing, and 51 more developer resources.'
+  reducto-ai''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, pricing, and 52 more developer resources.'
 plans:
 - name: Reducto Plans Pricing
   plan_count: 3
   slug: reducto-plans-pricing
-random_paper: 53
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Reducto Rate Limits
@@ -427,19 +463,26 @@ rules:
     warn: 5
   slug: reducto-ai-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 68.8
-  delta: 3.4
+  band: exemplar
+  composite: 66.4
+  delta: -2.4
   facets:
     commercial_clarity: 78.9
-    contract_quality: 70.0
-    developer_ergonomics: 58.7
-    discoverability: 67.5
-    governance: 73.7
+    contract_quality: 71.3
+    developer_ergonomics: 63.0
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 65.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/screenshots/reducto-ai-2026-06-20T192741.png
 security:

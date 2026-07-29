@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -70,16 +72,50 @@ apis:
 - description: Manage webhook subscriptions
   name: ShipStation Webhooks API
   slug: shipstation-webhooks-api
-artifact_total: 72
+artifact_total: 82
 asyncapis:
 - description: AsyncAPI description of the ShipStation V1 outbound webhook surface. ShipStation delivers event notifications by issuing HTTP POST requests with a JSON body to a `target_url` that the customer registe
   name: ShipStation Webhooks
   slug: shipstation-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: ShipStation V1 Accounts API
+  slug: postman-shipstation-accounts-api
+- collection_type: postman
+  name: ShipStation V1 Accounts Carriers API
+  slug: postman-shipstation-carriers-api
+- collection_type: postman
+  name: ShipStation V1 Accounts Customers API
+  slug: postman-shipstation-customers-api
+- collection_type: postman
+  name: ShipStation V1 Accounts Fulfillments API
+  slug: postman-shipstation-fulfillments-api
+- collection_type: postman
+  name: ShipStation V1 Accounts Orders API
+  slug: postman-shipstation-orders-api
+- collection_type: postman
+  name: ShipStation V1 Accounts Products API
+  slug: postman-shipstation-products-api
+- collection_type: postman
+  name: ShipStation V1 Accounts Shipments API
+  slug: postman-shipstation-shipments-api
+- collection_type: postman
+  name: ShipStation V1 Accounts Stores API
+  slug: postman-shipstation-stores-api
+- collection_type: postman
+  name: ShipStation V1 Accounts Warehouses API
+  slug: postman-shipstation-warehouses-api
+- collection_type: postman
+  name: ShipStation V1 Accounts Webhooks API
+  slug: postman-shipstation-webhooks-api
 - collection_type: open
   name: ShipStation V1 API
   slug: open-shipstation-v1
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/shipstation/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -287,12 +323,12 @@ overview: 'ShipStation publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The ShipStation catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  ShipStation''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 10 more developer resources.'
+  ShipStation''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Shipstation Plans Pricing
   plan_count: 3
   slug: shipstation-plans-pricing
-random_paper: 50
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Shipstation Rate Limits
@@ -324,18 +360,25 @@ rules:
   slug: shipstation-rules
 score:
   band: strong
-  composite: 60.7
-  delta: 4.2
+  composite: 58.6
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 85.8
-    developer_ergonomics: 43.5
-    discoverability: 87.5
-    governance: 52.6
+    contract_quality: 88.3
+    developer_ergonomics: 47.8
+    discoverability: 64.8
+    governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/screenshots/shipstation-2026-06-20T193826.png
 security:

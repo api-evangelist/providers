@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,8 +66,34 @@ apis:
 - description: Instagram Business and Creator account profiles
   name: Instagram Users API
   slug: instagram-users-api
-artifact_total: 80
+artifact_total: 87
+collections:
+- collection_type: postman
+  name: Instagram Graph Comments API
+  slug: postman-instagram-comments-api
+- collection_type: postman
+  name: Instagram Graph Comments Hashtags API
+  slug: postman-instagram-hashtags-api
+- collection_type: postman
+  name: Instagram Graph Comments Insights API
+  slug: postman-instagram-insights-api
+- collection_type: postman
+  name: Instagram Graph Comments Media API
+  slug: postman-instagram-media-api
+- collection_type: postman
+  name: Instagram Graph Comments Mentions API
+  slug: postman-instagram-mentions-api
+- collection_type: postman
+  name: Instagram Graph Comments Publishing API
+  slug: postman-instagram-publishing-api
+- collection_type: postman
+  name: Instagram Graph Comments Users API
+  slug: postman-instagram-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/instagram/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -285,12 +313,12 @@ overview: 'Instagram publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The Instagram catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Instagram''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, engineering blog, and 9 more developer resources.'
+  Instagram''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Instagram Plans Pricing
   plan_count: 2
   slug: instagram-plans-pricing
-random_paper: 14
+random_paper: 42
 rate_limits:
 - limit_count: 6
   name: Instagram Rate Limits
@@ -319,18 +347,25 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 58.0
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.5
-    developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 65.9
+    developer_ergonomics: 41.3
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 68.4
   previous_composite: 61.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/screenshots/instagram-2026-06-20T183411.png
 security:

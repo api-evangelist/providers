@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 88.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 65.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -64,12 +66,129 @@ apis:
 - description: Data and analytics catalog spanning S&P Global business units (Market Intelligence, Ratings, Commodity Insights/Platts, Mobility, Sustainable1, Indices, Dow Jones) plus third-party vendors. Distributi
   name: S&P Global Marketplace
   slug: sp-marketplace
-artifact_total: 146
+artifact_total: 185
 asyncapis:
 - description: Real-time streaming transcription WebSocket API from Kensho Technologies (a wholly-owned S&P Global subsidiary). Companion to the Kensho Scribe v2 batch REST API. Streams uncompressed PCM audio chunks
   name: Kensho Scribe Real Time API
   slug: kensho-scribe-realtime-asyncapi
 collections:
+- collection_type: postman
+  name: Kensho Extract API
+  slug: postman-kensho-extract
+- collection_type: postman
+  name: LLM-ready API
+  slug: postman-kensho-llmready
+- collection_type: postman
+  name: NERD Service API
+  slug: postman-kensho-nerd
+- collection_type: postman
+  name: Scribe Batch API
+  slug: postman-kensho-scribe-batch-v1
+- collection_type: postman
+  name: Scribe Batch API
+  slug: postman-kensho-scribe-batch-v2
+- collection_type: postman
+  name: Kensho Extract annotations-async API
+  slug: postman-sp-global-annotations-async-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Auditors API
+  slug: postman-sp-global-auditors-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Ciqpro API
+  slug: postman-sp-global-ciqpro-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Company Groups API
+  slug: postman-sp-global-company-groups-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Competitors API
+  slug: postman-sp-global-competitors-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Cusip API
+  slug: postman-sp-global-cusip-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Earnings API
+  slug: postman-sp-global-earnings-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Estimates API
+  slug: postman-sp-global-estimates-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Extractions API
+  slug: postman-sp-global-extractions-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Fundinground API
+  slug: postman-sp-global-fundinground-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Fundingrounds API
+  slug: postman-sp-global-fundingrounds-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Id API
+  slug: postman-sp-global-id-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Ids API
+  slug: postman-sp-global-ids-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Info API
+  slug: postman-sp-global-info-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Isin API
+  slug: postman-sp-global-isin-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Latest API
+  slug: postman-sp-global-latest-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Line Item API
+  slug: postman-sp-global-line-item-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Market Cap API
+  slug: postman-sp-global-market-cap-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Merger API
+  slug: postman-sp-global-merger-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Mergers API
+  slug: postman-sp-global-mergers-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Price Chart API
+  slug: postman-sp-global-price-chart-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Pricing API
+  slug: postman-sp-global-pricing-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Relationship API
+  slug: postman-sp-global-relationship-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Securities API
+  slug: postman-sp-global-securities-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Segments API
+  slug: postman-sp-global-segments-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Statements API
+  slug: postman-sp-global-statements-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Ticker Groups API
+  slug: postman-sp-global-ticker-groups-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Trading Item Groups API
+  slug: postman-sp-global-trading-item-groups-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Trading Items API
+  slug: postman-sp-global-trading-items-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Transcript API
+  slug: postman-sp-global-transcript-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Transcription API
+  slug: postman-sp-global-transcription-api
+- collection_type: postman
+  name: Kensho Extract annotations-async upload-url API
+  slug: postman-sp-global-upload-url-api
+- collection_type: postman
+  name: Kensho Extract annotations-async user-info API
+  slug: postman-sp-global-user-info-api
+- collection_type: postman
+  name: Kensho Extract annotations-async Users API
+  slug: postman-sp-global-users-api
 - collection_type: open
   name: Kensho Extract API
   slug: open-kensho-extract
@@ -86,6 +205,10 @@ collections:
   name: Scribe Batch API
   slug: open-kensho-scribe-batch-v2
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sp-global/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -606,12 +729,12 @@ overview: 'S&P Global publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The S&P Global catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  S&P Global''s developer surface includes authentication, developer portal, documentation, code examples, GitHub presence, engineering blog, changelog, and 37 more developer resources.'
+  S&P Global''s developer surface includes authentication, developer portal, documentation, code examples, GitHub presence, engineering blog, changelog, and 38 more developer resources.'
 plans:
 - name: Sp Global Plans Pricing
   plan_count: 7
   slug: sp-global-plans-pricing
-random_paper: 13
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Sp Global Rate Limits
@@ -647,19 +770,29 @@ scopes:
   slug: sp-global-scopes
   summary_line: 2 scopes · authorizationCode/refresh_token
 score:
-  band: strong
-  composite: 68.1
-  delta: 2.0
+  band: exemplar
+  composite: 68.5
+  delta: 0.4
   facets:
     commercial_clarity: 73.7
     contract_quality: 72.0
     developer_ergonomics: 69.6
-    discoverability: 87.5
-    governance: 65.8
+    discoverability: 83.3
+    governance: 72.9
     operational_transparency: 36.8
-  previous_composite: 66.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:

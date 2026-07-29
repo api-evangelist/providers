@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -69,12 +71,50 @@ apis:
 - description: API to check addresses of wallets.
   name: Ripio Wallets API
   slug: ripio-wallets-api
-artifact_total: 19
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Ripio Trade Webhooks
   slug: ripio-trade-webhooks
+collections:
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book API
+  slug: postman-ripio-book-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book Cryptocurrency Deposits API
+  slug: postman-ripio-cryptocurrency-deposits-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book Cryptocurrency Withdrawals API
+  slug: postman-ripio-cryptocurrency-withdrawals-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book General endpoints API
+  slug: postman-ripio-general-endpoints-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book Orders API
+  slug: postman-ripio-orders-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book Public API
+  slug: postman-ripio-public-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book Ticker API
+  slug: postman-ripio-ticker-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book Ticket API
+  slug: postman-ripio-ticket-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book Transactions API
+  slug: postman-ripio-transactions-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book User API
+  slug: postman-ripio-user-api
+- collection_type: postman
+  name: Ripio Trade - API Documentation Book Wallets API
+  slug: postman-ripio-wallets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ripio/overview
 - group: company
   title: ''
   type: Website
@@ -225,31 +265,42 @@ overview: 'Ripio publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Ripio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ripio''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 3
+  Ripio''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 28 more developer resources.'
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Ripio Rate Limits
   slug: ripio-rate-limits
 score:
   band: strong
-  composite: 60.6
-  delta: 0.0
+  composite: 58.1
+  delta: -2.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.8
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 47.4
   previous_composite: 60.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 60.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

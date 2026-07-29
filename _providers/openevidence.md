@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 12
 common:
@@ -134,26 +136,27 @@ overview: 'OpenEvidence is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   OpenEvidence''s developer surface includes signup flow, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 45
+random_paper: 37
 score:
   band: emerging
-  composite: 20.9
-  delta: 0.0
+  composite: 16.7
+  delta: -4.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 20.9
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 31.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openevidence/refs/heads/main/screenshots/openevidence-2026-06-20T190957.png
 security:

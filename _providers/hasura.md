@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,16 +78,44 @@ apis:
 - description: The Version API from Hasura — 1 operation(s) for version.
   name: Hasura Version API
   slug: hasura-version-api
-artifact_total: 30
+artifact_total: 38
 asyncapis:
 - description: AsyncAPI definition for Hasura GraphQL Engine real-time subscriptions delivered over WebSocket at the `/v1/graphql` endpoint. Hasura supports two WebSocket subprotocols, negotiated via the `Sec-WebSoc
   name: Hasura GraphQL Subscriptions over WebSocket
   slug: hasura-asyncapi
 collections:
+- collection_type: postman
+  name: Hasura Engine HTTP APIs Graphql API
+  slug: postman-hasura-graphql-api
+- collection_type: postman
+  name: Hasura Engine HTTP APIs Graphql Healthz API
+  slug: postman-hasura-healthz-api
+- collection_type: postman
+  name: Hasura Engine HTTP APIs Graphql Metadata API
+  slug: postman-hasura-metadata-api
+- collection_type: postman
+  name: Hasura Engine HTTP APIs Graphql Query API
+  slug: postman-hasura-query-api
+- collection_type: postman
+  name: Hasura Engine HTTP APIs Graphql Source Health API
+  slug: postman-hasura-source-health-api
+- collection_type: postman
+  name: Hasura Engine HTTP APIs Graphql V1alpha1 API
+  slug: postman-hasura-v1alpha1-api
+- collection_type: postman
+  name: Hasura Engine HTTP APIs Graphql V1beta1 API
+  slug: postman-hasura-v1beta1-api
+- collection_type: postman
+  name: Hasura Engine HTTP APIs Graphql Version API
+  slug: postman-hasura-version-api
 - collection_type: open
   name: Hasura GraphQL Engine HTTP APIs
   slug: open-hasura
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hasura/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -333,12 +363,12 @@ overview: 'Hasura publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Hasura catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Hasura''s developer surface includes authentication, getting-started guide, CLI, support, FAQ, engineering blog, pricing, and 47 more developer resources.'
+  Hasura''s developer surface includes authentication, getting-started guide, CLI, support, FAQ, engineering blog, pricing, and 48 more developer resources.'
 plans:
 - name: Hasura Plans Pricing
   plan_count: 3
   slug: hasura-plans-pricing
-random_paper: 32
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Hasura Rate Limits
@@ -353,19 +383,26 @@ rules:
     warn: 5
   slug: hasura-asyncapi-spectral-rules
 score:
-  band: strong
-  composite: 69.2
-  delta: 2.0
+  band: exemplar
+  composite: 66.5
+  delta: -2.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 65.0
-    developer_ergonomics: 58.7
-    discoverability: 62.5
-    governance: 52.6
+    contract_quality: 62.3
+    developer_ergonomics: 63.0
+    discoverability: 46.3
+    governance: 41.7
     operational_transparency: 78.9
-  previous_composite: 67.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png
 security:

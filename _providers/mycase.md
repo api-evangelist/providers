@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -218,7 +220,7 @@ overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   MyCase''s developer surface includes authentication, pricing, signup flow, developer portal, documentation, support, engineering blog, and 25 more developer resources.'
-random_paper: 30
+random_paper: 26
 rules:
 - name: MyCase API Rules
   rule_count: 5
@@ -230,23 +232,31 @@ rules:
   slug: mycase-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 1.7
+  composite: 46.1
+  delta: -4.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.8
+    contract_quality: 66.4
     developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 52.6
+    discoverability: 64.8
+    governance: 41.7
     operational_transparency: 15.8
-  previous_composite: 49.0
+  previous_composite: 50.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/screenshots/mycase-2026-06-20T185916.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: true
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 348
   human_in_the_loop: 16
@@ -449,7 +451,7 @@ plans:
 - name: Reclaim Ai Plans Pricing
   plan_count: 4
   slug: reclaim-ai-plans-pricing
-random_paper: 28
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Reclaim Ai Rate Limits
@@ -470,18 +472,25 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 44.6
+  delta: -4.1
   facets:
     commercial_clarity: 57.9
-    contract_quality: 46.8
+    contract_quality: 44.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
-    governance: 73.7
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 42.1
   previous_composite: 48.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 83
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/screenshots/reclaim-ai-2026-06-20T192710.png
 security:

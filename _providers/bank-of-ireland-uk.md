@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -180,7 +182,7 @@ overview: 'Bank of Ireland (UK) publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Bank of Ireland (UK)''s developer surface includes authentication, getting-started guide, developer portal, documentation, support, and 25 more developer resources.'
-random_paper: 19
+random_paper: 25
 scopes:
 - name: Bank Of Ireland Uk Scopes
   scope_count: 4
@@ -188,23 +190,34 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 45.4
+  delta: -2.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 54.0
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.6
+    developer_ergonomics: 47.3
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 23.7
   previous_composite: 47.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 72.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/screenshots/bank-of-ireland-uk-2026-07-25T202335.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 2
@@ -124,7 +126,7 @@ apis:
 - description: The Webhooks API from Discord — 8 operation(s) for webhooks.
   name: Discord Webhooks API
   slug: discord-webhooks-api
-artifact_total: 502
+artifact_total: 527
 asyncapis:
 - description: The Discord Gateway API provides persistent, stateful WebSocket connections between your client and Discord servers. These connections are used for sending and receiving real-time events your client c
   name: Discord Gateway API
@@ -133,6 +135,81 @@ asyncapis:
   name: Discord Voice API
   slug: discord-voice-api-asyncapi
 collections:
+- collection_type: postman
+  name: Discord Interactions Application Commands API
+  slug: postman-discord-application-commands-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Applications API
+  slug: postman-discord-applications-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Audit Log API
+  slug: postman-discord-audit-log-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Auto Moderation API
+  slug: postman-discord-auto-moderation-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Channels API
+  slug: postman-discord-channels-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Emojis API
+  slug: postman-discord-emojis-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Gateway API
+  slug: postman-discord-gateway-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Guilds API
+  slug: postman-discord-guilds-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Interaction Responses API
+  slug: postman-discord-interaction-responses-api
+- collection_type: postman
+  name: Discord Application Commands Interactions API
+  slug: postman-discord-interactions-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Invites API
+  slug: postman-discord-invites-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Members API
+  slug: postman-discord-members-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Messages API
+  slug: postman-discord-messages-api
+- collection_type: postman
+  name: Discord Interactions Application Commands OAuth2 API
+  slug: postman-discord-oauth2-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Role Connections API
+  slug: postman-discord-role-connections-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Roles API
+  slug: postman-discord-roles-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Scheduled Events API
+  slug: postman-discord-scheduled-events-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Stage Instances API
+  slug: postman-discord-stage-instances-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Sticker Packs API
+  slug: postman-discord-sticker-packs-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Stickers API
+  slug: postman-discord-stickers-api
+- collection_type: postman
+  name: Discord Interactions Application Commands User Identity API
+  slug: postman-discord-user-identity-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Users API
+  slug: postman-discord-users-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Voice API
+  slug: postman-discord-voice-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Webhook Events API
+  slug: postman-discord-webhook-events-api
+- collection_type: postman
+  name: Discord Interactions Application Commands Webhooks API
+  slug: postman-discord-webhooks-api
 - collection_type: open
   name: Discord Interactions API
   slug: open-discord-interactions-api
@@ -149,6 +226,10 @@ collections:
   name: Discord Webhook Events API
   slug: open-discord-webhook-events-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/discord/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1713,12 +1794,12 @@ overview: 'Discord publishes 27 APIs on the [APIs.io](https://apis.io/) network,
   The Discord catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Discord''s developer surface includes authentication, developer portal, engineering blog, documentation, getting-started guide, changelog, support, and 44 more developer resources.'
+  Discord''s developer surface includes authentication, developer portal, engineering blog, documentation, getting-started guide, changelog, support, and 45 more developer resources.'
 plans:
 - name: Discord Plans Pricing
   plan_count: 3
   slug: discord-plans-pricing
-random_paper: 64
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Discord Rate Limits
@@ -1747,18 +1828,31 @@ scopes:
   summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 62.8
-  delta: 2.0
+  composite: 61.0
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.0
+    contract_quality: 73.9
     developer_ergonomics: 50.0
-    discoverability: 75.0
-    governance: 52.6
+    discoverability: 55.6
+    governance: 41.7
     operational_transparency: 68.4
-  previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 66.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/screenshots/discord-2026-06-20T180039.png
 security:

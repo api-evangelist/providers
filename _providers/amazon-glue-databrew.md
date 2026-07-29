@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -67,8 +69,43 @@ apis:
 - description: The Tags API from Amazon Glue DataBrew — 2 operation(s) for tags.
   name: Amazon Glue DataBrew Tags API
   slug: amazon-glue-databrew-tags-api
-artifact_total: 715
+artifact_total: 725
+collections:
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets API
+  slug: postman-amazon-glue-databrew-datasets-api
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets Jobs API
+  slug: postman-amazon-glue-databrew-jobs-api
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets ProfileJobs API
+  slug: postman-amazon-glue-databrew-profilejobs-api
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets Projects API
+  slug: postman-amazon-glue-databrew-projects-api
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets RecipeJobs API
+  slug: postman-amazon-glue-databrew-recipejobs-api
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets Recipes API
+  slug: postman-amazon-glue-databrew-recipes-api
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets RecipeVersions#name API
+  slug: postman-amazon-glue-databrew-recipeversions-name-api
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets Rulesets API
+  slug: postman-amazon-glue-databrew-rulesets-api
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets Schedules API
+  slug: postman-amazon-glue-databrew-schedules-api
+- collection_type: postman
+  name: AWS Glue DataBrew Datasets Tags API
+  slug: postman-amazon-glue-databrew-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-glue-databrew/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2232,12 +2269,12 @@ overview: 'Amazon Glue DataBrew publishes 10 APIs on the [APIs.io](https://apis.
   The Amazon Glue DataBrew catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Glue DataBrew''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon Glue DataBrew''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Glue Databrew Plans Pricing
   plan_count: 3
   slug: amazon-glue-databrew-plans-pricing
-random_paper: 35
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Glue Databrew Rate Limits
@@ -2261,18 +2298,25 @@ rules:
   slug: amazon-glue-databrew-spectral-rules
 score:
   band: strong
-  composite: 66.9
-  delta: 0.0
+  composite: 63.5
+  delta: -3.4
   facets:
     commercial_clarity: 68.4
-    contract_quality: 75.8
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 76.6
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 66.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/screenshots/amazon-glue-databrew-2026-06-20T171658.png
 security:

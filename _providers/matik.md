@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for automating content generation with Matik — manage templates, generate presentations/documents/spreadsheets, run dynamic content queries against connected data sources, manage da
@@ -165,27 +167,31 @@ overview: 'Matik publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Matik''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 58
+random_paper: 72
 scopes:
 - name: Matik Scopes
   scope_count: 2
   slug: matik-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 43.5
-  delta: 0.0
+  band: developing
+  composite: 50.7
+  delta: 7.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 39.5
   previous_composite: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/matik/refs/heads/main/screenshots/matik-2026-07-25T230412.png
 security:
 - kind: authentication

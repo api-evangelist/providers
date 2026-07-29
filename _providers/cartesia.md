@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -148,7 +150,7 @@ plans:
 - name: Cartesia Plans Pricing
   plan_count: 1
   slug: cartesia-plans-pricing
-random_paper: 28
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Cartesia Rate Limits
@@ -164,19 +166,32 @@ rules:
   slug: cartesia-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 52.5
-  delta: 3.2
+  composite: 45.6
+  delta: -6.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.5
+    contract_quality: 65.7
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 49.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartesia/refs/heads/main/screenshots/cartesia-2026-06-20T174023.png
 security:
 - kind: authentication

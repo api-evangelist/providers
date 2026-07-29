@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -188,21 +190,31 @@ overview: 'Fleet publishes 1 API on the [APIs.io](https://apis.io/) network: Fle
 
 
   Fleet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 52
+random_paper: 66
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 54.8
+  delta: 1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 46.9
-    developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 49.2
+    developer_ergonomics: 60.3
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 53.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/screenshots/fleet-2026-07-25T214732.png
 security:

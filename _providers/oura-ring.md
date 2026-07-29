@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -102,12 +104,82 @@ apis:
 - description: The Workout Routes API from Oura — 2 operation(s) for workout routes.
   name: Oura Workout Routes API
   slug: oura-ring-workout-routes-api
-artifact_total: 64
+artifact_total: 86
 collections:
+- collection_type: postman
+  name: Oura Daily Activity Routes API
+  slug: postman-oura-ring-daily-activity-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Daily Cardiovascular Age Routes API
+  slug: postman-oura-ring-daily-cardiovascular-age-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Daily Readiness Routes API
+  slug: postman-oura-ring-daily-readiness-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Daily Resilience Routes API
+  slug: postman-oura-ring-daily-resilience-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Daily Sleep Routes API
+  slug: postman-oura-ring-daily-sleep-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Daily Spo2 Routes API
+  slug: postman-oura-ring-daily-spo2-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Daily Stress Routes API
+  slug: postman-oura-ring-daily-stress-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Enhanced Tag Routes API
+  slug: postman-oura-ring-enhanced-tag-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Heart Rate Routes API
+  slug: postman-oura-ring-heart-rate-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Interbeat Interval Routes API
+  slug: postman-oura-ring-interbeat-interval-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Personal Info Routes API
+  slug: postman-oura-ring-personal-info-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Rest Mode Period Routes API
+  slug: postman-oura-ring-rest-mode-period-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Ring Battery Level Routes API
+  slug: postman-oura-ring-ring-battery-level-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Ring Configuration Routes API
+  slug: postman-oura-ring-ring-configuration-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Sandbox Routes API
+  slug: postman-oura-ring-sandbox-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Session Routes API
+  slug: postman-oura-ring-session-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Sleep Routes API
+  slug: postman-oura-ring-sleep-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Sleep Time Routes API
+  slug: postman-oura-ring-sleep-time-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Tag Routes API
+  slug: postman-oura-ring-tag-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes VO2 Max Routes API
+  slug: postman-oura-ring-vo2-max-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Webhook Subscription Routes API
+  slug: postman-oura-ring-webhook-subscription-routes-api
+- collection_type: postman
+  name: Oura Daily Activity Routes Workout Routes API
+  slug: postman-oura-ring-workout-routes-api
 - collection_type: open
   name: Oura API
   slug: open-oura-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/oura/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -304,12 +376,12 @@ overview: 'Oura publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
   The Oura catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Oura''s developer surface includes developer portal, documentation, getting-started guide, signup flow, authentication, engineering blog, support, and 24 more developer resources.'
+  Oura''s developer surface includes developer portal, documentation, getting-started guide, signup flow, authentication, engineering blog, support, and 25 more developer resources.'
 plans:
 - name: Oura Ring Plans Pricing
   plan_count: 6
   slug: oura-ring-plans-pricing
-random_paper: 32
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Oura Ring Rate Limits
@@ -332,25 +404,33 @@ rules:
     warn: 5
   slug: oura-ring-rules
 score:
-  band: strong
-  composite: 62.1
-  delta: 1.7
+  band: developing
+  composite: 54.7
+  delta: -7.4
   facets:
     commercial_clarity: 68.4
-    contract_quality: 52.2
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 54.0
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 60.4
+  previous_composite: 62.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 45.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura-ring/refs/heads/main/screenshots/oura-ring-2026-06-20T191228.png
 security:
 - kind: domain-security

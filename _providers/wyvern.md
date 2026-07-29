@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Public SpatioTemporal Asset Catalog (STAC 1.0.0) for Wyvern's Open Data Program, serving free hyperspectral imagery (L2A surface reflectance and L1B radiance) as machine-readable JSON catalogs, collec
@@ -97,26 +99,29 @@ overview: 'Wyvern publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wyvern''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, changelog, and 7 more developer resources.'
-random_paper: 3
+random_paper: 67
 score:
   band: emerging
-  composite: 22.8
-  delta: 0.0
+  composite: 22.9
+  delta: 0.1
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 22.8
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

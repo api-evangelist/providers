@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -227,7 +229,7 @@ overview: 'CREA (REALTOR.ca) publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   CREA (REALTOR.ca)''s developer surface includes authentication, changelog, getting-started guide, documentation, support, engineering blog, and 37 more developer resources.'
-random_paper: 3
+random_paper: 26
 scopes:
 - name: Crea Scopes
   scope_count: 5
@@ -235,18 +237,28 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 40.0
+  delta: -1.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 37.7
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 49.5
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 26.3
   previous_composite: 41.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

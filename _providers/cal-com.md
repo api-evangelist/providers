@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 44.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 66
@@ -187,7 +189,7 @@ plans:
 - name: Cal Com Plans Pricing
   plan_count: 6
   slug: cal-com-plans-pricing
-random_paper: 56
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Cal Com Rate Limits
@@ -203,19 +205,26 @@ rules:
   slug: cal-com-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 2.5
+  composite: 43.2
+  delta: -5.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 53.7
+    contract_quality: 48.1
     developer_ergonomics: 10.9
-    discoverability: 92.5
-    governance: 60.5
+    discoverability: 68.5
+    governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 46.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 48.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/screenshots/cal-com-2026-06-20T173857.png
 security:
 - kind: domain-security

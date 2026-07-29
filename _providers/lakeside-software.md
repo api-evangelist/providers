@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The SysTrack API provides programmatic REST access to SysTrack data on a cloud tenant or on-premises installation — enumerating groups, listing the systems within a group, retrieving sensor data for a
@@ -152,22 +154,25 @@ overview: 'Lakeside Software publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Lakeside Software''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 54
+random_paper: 60
 score:
-  band: thin
-  composite: 41.2
-  delta: 0.0
+  band: developing
+  composite: 49.4
+  delta: 8.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 41.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakeside-software/refs/heads/main/screenshots/lakeside-software-2026-07-25T224431.png
 security:
 - kind: authentication

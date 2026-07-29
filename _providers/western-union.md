@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -179,7 +181,7 @@ press:
 - date: '2026-05-25'
   title: Western Union Builds on Accelerator Momentum with New ...
   url: https://ir.westernunion.com/news/archived-press-releases/press-release-details/2019/Western-Union-Builds-on-Accelerator-Momentum-with-New-Artificial-Intelligence-Projects/default.aspx
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Western Union Rate Limits
@@ -203,18 +205,25 @@ rules:
   slug: western-union-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 2.5
+  composite: 49.7
+  delta: -3.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.8
+    contract_quality: 69.1
     developer_ergonomics: 30.4
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 50.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 53.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/screenshots/western-union-2026-06-20T201410.png
 security:

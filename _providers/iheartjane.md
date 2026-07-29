@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'Jane''s documented HTTP API (published as a Swagger UI at api.iheartjane.com/jane-api-docs) for retrieving live store menu products and for generating the access tokens used to authenticate downstream '
@@ -68,21 +70,21 @@ overview: 'Jane (iHeartJane) publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Jane (iHeartJane)''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 31
+random_paper: 50
 score:
   band: minimal
-  composite: 12.7
-  delta: 0.0
+  composite: 10.3
+  delta: -2.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iheartjane/refs/heads/main/screenshots/iheartjane-2026-07-25T222053.png
 security:

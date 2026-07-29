@@ -1,12 +1,14 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Partner-facing eligibility lookup that returns the list of US states and the Hiscox products offered by profession, used to determine whether a risk can be quoted before a quote is requested. Listed a
@@ -135,26 +137,29 @@ overview: 'Hiscox publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Hiscox''s developer surface includes documentation, API reference, FAQ, support, signup flow, getting-started guide, engineering blog, and 15 more developer resources.'
-random_paper: 42
+random_paper: 38
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 32.9
+  delta: -2.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 34.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
-    regime: Payments
-    regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 45.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/screenshots/hiscox-2026-07-25T221253.png
 security:

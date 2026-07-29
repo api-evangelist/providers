@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 44.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 31.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: HTTP REST API to interact with a Secoda workspace — CRUD over catalog resources (databases, schemas, tables, columns, dashboards, charts, collections, documents, glossary/terms, tags, custom propertie
@@ -170,25 +172,29 @@ overview: 'Secoda publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Secoda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Secoda Rate Limits
   slug: secoda-rate-limits
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 40.2
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 50.0
   previous_composite: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

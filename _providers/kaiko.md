@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,12 +63,28 @@ apis:
 - description: Asset supply and market-capitalization rankings.
   name: Kaiko Supply API
   slug: kaiko-supply-api
-artifact_total: 17
+artifact_total: 21
 collections:
+- collection_type: postman
+  name: Kaiko Market Data REST Canton Oracle API
+  slug: postman-kaiko-canton-oracle-api
+- collection_type: postman
+  name: Kaiko Market Data REST Canton Oracle Index Reference Data API
+  slug: postman-kaiko-index-reference-data-api
+- collection_type: postman
+  name: Kaiko Market Data REST Canton Oracle Indices API
+  slug: postman-kaiko-indices-api
+- collection_type: postman
+  name: Kaiko Market Data REST Canton Oracle Supply API
+  slug: postman-kaiko-supply-api
 - collection_type: open
   name: Kaiko Market Data REST API
   slug: open-kaiko
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kaiko/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -222,35 +240,46 @@ network: true
 overview: 'Kaiko publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Canton Oracle API, Index Reference Data API, Indices API, and 1 more. Tagged areas include Web3, Crypto, Market Data, Institutional, and FX.
 
 
-  Kaiko''s developer surface includes authentication, developer portal, documentation, changelog, pricing, engineering blog, support, and 27 more developer resources.'
+  Kaiko''s developer surface includes authentication, developer portal, documentation, changelog, pricing, engineering blog, support, and 28 more developer resources.'
 plans:
 - name: Kaiko Plans Pricing
   plan_count: 2
   slug: kaiko-plans-pricing
-random_paper: 51
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Kaiko Rate Limits
   slug: kaiko-rate-limits
 score:
   band: strong
-  composite: 61.9
-  delta: 1.7
+  composite: 61.4
+  delta: -0.5
   facets:
     commercial_clarity: 76.3
-    contract_quality: 56.6
-    developer_ergonomics: 78.3
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 58.5
+    developer_ergonomics: 66.8
+    discoverability: 83.3
+    governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 60.2
+  previous_composite: 61.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 60.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/screenshots/kaiko-2026-06-20T183855.png
 security:

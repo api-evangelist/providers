@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 50.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.7
+  scored_at: '2026-07-28'
 api_count: 22
 apis:
 - description: Card account associated to one of Yokoy's card programs. Only active card accounts are allowed to order new cards.
@@ -205,7 +207,7 @@ overview: 'Yokoy publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 27
+random_paper: 32
 scopes:
 - name: Yokoy Scopes
   scope_count: 0
@@ -213,18 +215,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 46.5
+  delta: -0.7
   facets:
     commercial_clarity: 15.8
-    contract_quality: 57.9
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 57.1
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 50.0
   previous_composite: 47.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

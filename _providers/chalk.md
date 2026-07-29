@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'REST + gRPC API for querying features from the Chalk Context Engine — online single-row queries, bulk (feather/Arrow) queries, and asynchronous offline dataset generation — plus deployment of feature '
@@ -170,7 +172,7 @@ overview: 'Chalk publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chalk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 23 more developer resources.'
-random_paper: 39
+random_paper: 53
 scopes:
 - name: Chalk Scopes
   scope_count: 3
@@ -178,18 +180,21 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 38.7
+  delta: -0.4
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 76.1
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 69.6
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 47.4
   previous_composite: 39.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/screenshots/chalk-2026-07-25T205026.png
 security:

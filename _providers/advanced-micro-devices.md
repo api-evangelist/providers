@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -61,8 +63,32 @@ apis:
 - description: Performance counters and profiling data
   name: Advanced Micro Devices Performance API
   slug: advanced-micro-devices-performance-api
-artifact_total: 84
+artifact_total: 92
 collections:
+- collection_type: postman
+  name: AMD Developer Cloud Configuration API
+  slug: postman-advanced-micro-devices-configuration-api
+- collection_type: postman
+  name: AMD Developer Cloud Configuration Credits API
+  slug: postman-advanced-micro-devices-credits-api
+- collection_type: postman
+  name: AMD Developer Cloud Configuration Devices API
+  slug: postman-advanced-micro-devices-devices-api
+- collection_type: postman
+  name: AMD Developer Cloud Configuration Health API
+  slug: postman-advanced-micro-devices-health-api
+- collection_type: postman
+  name: AMD Developer Cloud Configuration Instances API
+  slug: postman-advanced-micro-devices-instances-api
+- collection_type: postman
+  name: AMD Developer Cloud Configuration Models API
+  slug: postman-advanced-micro-devices-models-api
+- collection_type: postman
+  name: AMD Developer Cloud Configuration Monitoring API
+  slug: postman-advanced-micro-devices-monitoring-api
+- collection_type: postman
+  name: AMD Developer Cloud Configuration Performance API
+  slug: postman-advanced-micro-devices-performance-api
 - collection_type: open
   name: AMD Developer Cloud API
   slug: open-amd-developer-cloud-api
@@ -70,6 +96,10 @@ collections:
   name: AMD ROCm Management API
   slug: open-amd-rocm-management-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/advanced-micro-devices/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -318,7 +348,7 @@ overview: 'Advanced Micro Devices publishes 8 APIs on the [APIs.io](https://apis
   The Advanced Micro Devices catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Advanced Micro Devices'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, academy / training, and 8 more developer resources.'
+  Advanced Micro Devices'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, academy / training, and 9 more developer resources.'
 plans:
 - name: Advanced Micro Devices Plans Pricing
   plan_count: 3
@@ -339,7 +369,7 @@ press:
 - date: '2026-05-25'
   title: Advanced Micro Devices, Inc. (AMD) Stock Price, News ...
   url: https://finance.yahoo.com/quote/AMD/
-random_paper: 13
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Advanced Micro Devices Rate Limits
@@ -371,18 +401,25 @@ rules:
   slug: amd-spectral-rules
 score:
   band: strong
-  composite: 62.1
-  delta: 4.6
+  composite: 58.8
+  delta: -3.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.3
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 75.4
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 57.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/screenshots/advanced-micro-devices-2026-06-20T165331.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 58.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 4
@@ -142,7 +144,7 @@ apis:
 - description: Manage webhook endpoints for receiving callbacks on message delivery, inbound messages, and other events.
   name: Sinch Webhooks API
   slug: sinch-webhooks-api
-artifact_total: 105
+artifact_total: 140
 asyncapis:
 - description: 'Event-driven webhooks for the Sinch Conversation API. The Conversation API delivers contact messages, delivery receipts, and various notifications through HTTP POST callbacks. Up to 5 webhooks can be '
   name: Sinch Conversation API Webhooks
@@ -157,6 +159,111 @@ asyncapis:
   name: Sinch Voice Callbacks
   slug: sinch-voice-callbacks-asyncapi
 collections:
+- collection_type: postman
+  name: Sinch Brands Access Control Lists API
+  slug: postman-sinch-access-control-lists-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Active Numbers API
+  slug: postman-sinch-active-numbers-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Applications API
+  slug: postman-sinch-applications-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Apps API
+  slug: postman-sinch-apps-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Available Numbers API
+  slug: postman-sinch-available-numbers-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Available Regions API
+  slug: postman-sinch-available-regions-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Batches API
+  slug: postman-sinch-batches-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Brand Metadata API
+  slug: postman-sinch-brand-metadata-api
+- collection_type: postman
+  name: Sinch Access Control Lists Brands API
+  slug: postman-sinch-brands-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Callouts API
+  slug: postman-sinch-callouts-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Calls API
+  slug: postman-sinch-calls-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Capability API
+  slug: postman-sinch-capability-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Conferences API
+  slug: postman-sinch-conferences-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Contacts API
+  slug: postman-sinch-contacts-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Conversations API
+  slug: postman-sinch-conversations-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Delivery Reports API
+  slug: postman-sinch-delivery-reports-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Events API
+  slug: postman-sinch-events-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Fax to Email API
+  slug: postman-sinch-fax-to-email-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Faxes API
+  slug: postman-sinch-faxes-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Groups API
+  slug: postman-sinch-groups-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Inbounds API
+  slug: postman-sinch-inbounds-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists KakaoTalk Senders API
+  slug: postman-sinch-kakaotalk-senders-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists LINE Senders API
+  slug: postman-sinch-line-senders-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Market Requirements API
+  slug: postman-sinch-market-requirements-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Messages API
+  slug: postman-sinch-messages-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Phone Numbers API
+  slug: postman-sinch-phone-numbers-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Projects API
+  slug: postman-sinch-projects-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists RCS Senders API
+  slug: postman-sinch-rcs-senders-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Registrations API
+  slug: postman-sinch-registrations-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists SIP Endpoints API
+  slug: postman-sinch-sip-endpoints-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists SIP Trunks API
+  slug: postman-sinch-sip-trunks-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Telegram Senders API
+  slug: postman-sinch-telegram-senders-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Transcoding API
+  slug: postman-sinch-transcoding-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Verifications API
+  slug: postman-sinch-verifications-api
+- collection_type: postman
+  name: Sinch Brands Access Control Lists Webhooks API
+  slug: postman-sinch-webhooks-api
 - collection_type: open
   name: Sinch Brands API
   slug: open-sinch-brands
@@ -188,6 +295,10 @@ collections:
   name: Sinch Voice API
   slug: open-sinch-voice
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sinch/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -331,12 +442,12 @@ overview: 'Sinch publishes 35 APIs on the [APIs.io](https://apis.io/) network, i
   The Sinch catalog on APIs.io includes 4 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Sinch''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 12 more developer resources.'
+  Sinch''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Sinch Plans Pricing
   plan_count: 2
   slug: sinch-plans-pricing
-random_paper: 57
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Sinch Rate Limits
@@ -373,18 +484,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.5
-  delta: 2.5
+  composite: 62.0
+  delta: -1.5
   facets:
     commercial_clarity: 68.4
-    contract_quality: 77.9
-    developer_ergonomics: 34.8
-    discoverability: 92.5
-    governance: 60.5
+    contract_quality: 81.8
+    developer_ergonomics: 39.1
+    discoverability: 68.5
+    governance: 47.9
     operational_transparency: 52.6
-  previous_composite: 61.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 65.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/screenshots/sinch-2026-06-20T193947.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The Fusio Backend API provides a REST interface to configure and manage all aspects of a Fusio API management instance. It covers operations, routes, schemas, actions, connections, apps, users, and ma
@@ -128,25 +130,25 @@ plans:
 - name: Fusio Plans Pricing
   plan_count: 3
   slug: fusio-plans-pricing
-random_paper: 6
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Fusio Rate Limits
   slug: fusio-rate-limits
 score:
-  band: thin
-  composite: 30.0
-  delta: 0.0
+  band: emerging
+  composite: 27.7
+  delta: -2.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 30.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/screenshots/fusio-2026-06-20T181622.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Publish identity, resource and authorization metadata from custom or unsupported applications into the Veza Entity Catalog, and run authorization assessment queries and reports.
@@ -153,21 +155,25 @@ overview: 'Veza publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Veza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 30
+random_paper: 53
 score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
+  band: developing
+  composite: 42.3
+  delta: 3.7
   facets:
     commercial_clarity: 23.7
-    contract_quality: 22.6
-    developer_ergonomics: 76.1
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 64.7
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 28.9
   previous_composite: 38.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

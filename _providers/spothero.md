@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,12 +57,31 @@ apis:
 - description: Search for available parking locations and facilities
   name: SpotHero Search API
   slug: spothero-search-api
-artifact_total: 22
+artifact_total: 27
 collections:
+- collection_type: postman
+  name: SpotHero Parking Availability API
+  slug: postman-spothero-availability-api
+- collection_type: postman
+  name: SpotHero Parking Availability Facilities API
+  slug: postman-spothero-facilities-api
+- collection_type: postman
+  name: SpotHero Parking Availability Rates API
+  slug: postman-spothero-rates-api
+- collection_type: postman
+  name: SpotHero Parking Availability Reservations API
+  slug: postman-spothero-reservations-api
+- collection_type: postman
+  name: SpotHero Parking Availability Search API
+  slug: postman-spothero-search-api
 - collection_type: open
   name: SpotHero Parking API
   slug: open-spothero-parking
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/spothero/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,12 +202,12 @@ overview: 'SpotHero publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The SpotHero catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SpotHero''s developer surface includes authentication, documentation, engineering blog, and 16 more developer resources.'
+  SpotHero''s developer surface includes authentication, documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Spothero Plans Pricing
   plan_count: 3
   slug: spothero-plans-pricing
-random_paper: 0
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Spothero Rate Limits
@@ -209,19 +230,26 @@ rules:
     warn: 7
   slug: spothero-rules
 score:
-  band: strong
-  composite: 60.0
-  delta: 3.3
+  band: developing
+  composite: 55.6
+  delta: -4.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.0
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.9
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 56.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/screenshots/spothero-2026-06-20T194352.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -1117,7 +1119,7 @@ plans:
 - name: Shopify Plans Pricing
   plan_count: 4
   slug: shopify-plans-pricing
-random_paper: 22
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Shopify Rate Limits
@@ -1149,23 +1151,31 @@ rules:
   slug: shopify-spectral-rules
 score:
   band: strong
-  composite: 68.7
-  delta: 0.0
+  composite: 63.8
+  delta: -4.9
   facets:
     commercial_clarity: 73.7
-    contract_quality: 66.2
+    contract_quality: 67.1
     developer_ergonomics: 71.7
-    discoverability: 55.0
-    governance: 73.7
+    discoverability: 40.7
+    governance: 58.3
     operational_transparency: 86.8
   previous_composite: 68.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 197
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -338,30 +340,38 @@ plans:
 - name: Zuora Plans Pricing
   plan_count: 3
   slug: zuora-plans-pricing
-random_paper: 17
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Zuora Rate Limits
   slug: zuora-rate-limits
 score:
   band: emerging
-  composite: 28.7
-  delta: 0.0
+  composite: 25.8
+  delta: -2.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 19.6
-    discoverability: 55.0
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 28.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 79
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 9.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/screenshots/zuora-2026-06-20T202000.png
 security:

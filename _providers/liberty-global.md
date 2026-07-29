@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -142,21 +144,37 @@ overview: 'Liberty Global publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 19 more developer resources.'
-random_paper: 5
+random_paper: 47
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 36.1
+  delta: 4.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 36.0
-    developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 34.5
+    developer_ergonomics: 21.2
+    discoverability: 83.3
+    governance: 20.8
     operational_transparency: 21.1
   previous_composite: 31.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

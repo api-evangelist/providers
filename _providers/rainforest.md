@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -115,12 +117,86 @@ arazzos:
 - description: Create a merchant, submit its application, and confirm it reaches ACTIVE.
   name: Rainforest — onboard a merchant
   slug: rainforest-onboard-merchant
-artifact_total: 32
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Rainforest Webhooks
   slug: rainforest-webhooks
+collections:
+- collection_type: postman
+  name: Authentication ACH Returns API
+  slug: postman-rainforest-ach-returns-api
+- collection_type: postman
+  name: Authentication ACH Returns API Keys API
+  slug: postman-rainforest-api-keys-api
+- collection_type: postman
+  name: Authentication ACH Returns Billing Profiles API
+  slug: postman-rainforest-billing-profiles-api
+- collection_type: postman
+  name: Authentication ACH Returns BIN Lookups API
+  slug: postman-rainforest-bin-lookups-api
+- collection_type: postman
+  name: Authentication ACH Returns Chargebacks API
+  slug: postman-rainforest-chargebacks-api
+- collection_type: postman
+  name: Authentication ACH Returns Deposit Method Configs API
+  slug: postman-rainforest-deposit-method-configs-api
+- collection_type: postman
+  name: Authentication ACH Returns Deposit Methods API
+  slug: postman-rainforest-deposit-methods-api
+- collection_type: postman
+  name: Authentication ACH Returns Deposits API
+  slug: postman-rainforest-deposits-api
+- collection_type: postman
+  name: Authentication ACH Returns Devices API
+  slug: postman-rainforest-devices-api
+- collection_type: postman
+  name: Authentication ACH Returns File Upload Configs API
+  slug: postman-rainforest-file-upload-configs-api
+- collection_type: postman
+  name: Authentication ACH Returns File Uploads API
+  slug: postman-rainforest-file-uploads-api
+- collection_type: postman
+  name: Authentication ACH Returns Forward Requests API
+  slug: postman-rainforest-forward-requests-api
+- collection_type: postman
+  name: Authentication ACH Returns Health API
+  slug: postman-rainforest-health-api
+- collection_type: postman
+  name: Authentication ACH Returns Merchant Applications API
+  slug: postman-rainforest-merchant-applications-api
+- collection_type: postman
+  name: Authentication ACH Returns Merchants API
+  slug: postman-rainforest-merchants-api
+- collection_type: postman
+  name: Authentication ACH Returns Payin Configs API
+  slug: postman-rainforest-payin-configs-api
+- collection_type: postman
+  name: Authentication ACH Returns Payins API
+  slug: postman-rainforest-payins-api
+- collection_type: postman
+  name: Authentication ACH Returns Payment Method Configs API
+  slug: postman-rainforest-payment-method-configs-api
+- collection_type: postman
+  name: Authentication ACH Returns Payment Method Domains API
+  slug: postman-rainforest-payment-method-domains-api
+- collection_type: postman
+  name: Authentication ACH Returns Payment Methods API
+  slug: postman-rainforest-payment-methods-api
+- collection_type: postman
+  name: Authentication ACH Returns Payments API
+  slug: postman-rainforest-payments-api
+- collection_type: postman
+  name: Authentication ACH Returns Refunds API
+  slug: postman-rainforest-refunds-api
+- collection_type: postman
+  name: Authentication ACH Returns Sessions API
+  slug: postman-rainforest-sessions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/rainforest/overview
 - group: company
   title: ''
   type: Website
@@ -291,27 +367,38 @@ overview: 'Rainforest publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
   The Rainforest catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 31 more developer resources.'
-random_paper: 65
+  Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 32 more developer resources.'
+random_paper: 7
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 61.5
+  delta: -0.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.7
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.5
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 61.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 59.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

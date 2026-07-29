@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -147,7 +149,7 @@ plans:
 - name: Retell Plans Pricing
   plan_count: 3
   slug: retell-plans-pricing
-random_paper: 36
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Retell Rate Limits
@@ -162,20 +164,33 @@ rules:
     warn: 5
   slug: retell-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 49.2
-  delta: 3.2
+  band: thin
+  composite: 41.2
+  delta: -8.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.6
+    contract_quality: 64.2
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 46.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 49.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Retell Authentication

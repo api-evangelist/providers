@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -73,12 +75,49 @@ apis:
 - description: The ?restype=service&comp=userdelegationkey API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=userdelegationkey.
   name: Azure Blob Storage ?restype=service&comp=userdelegationkey API
   slug: microsoft-azure-blob-storage-restype-service-comp-userdelegationkey-api
-artifact_total: 29
+artifact_total: 40
 collections:
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs API
+  slug: postman-microsoft-azure-blob-storage-append-blobs-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs Azure Blob Storage REST API API
+  slug: postman-microsoft-azure-blob-storage-azure-blob-storage-rest-api-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs API
+  slug: postman-microsoft-azure-blob-storage-blobs-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs Block Blobs API
+  slug: postman-microsoft-azure-blob-storage-block-blobs-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs ?comp=blobs API
+  slug: postman-microsoft-azure-blob-storage-comp-blobs-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs Containers API
+  slug: postman-microsoft-azure-blob-storage-containers-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs Page Blobs API
+  slug: postman-microsoft-azure-blob-storage-page-blobs-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs ?restype=service&comp=batch API
+  slug: postman-microsoft-azure-blob-storage-restype-service-comp-batch-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs ?restype=service&comp=properties API
+  slug: postman-microsoft-azure-blob-storage-restype-service-comp-properties-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs ?restype=service&comp=stats API
+  slug: postman-microsoft-azure-blob-storage-restype-service-comp-stats-api
+- collection_type: postman
+  name: Azure Blob Storage REST Append Blobs ?restype=service&comp=userdelegationkey API
+  slug: postman-microsoft-azure-blob-storage-restype-service-comp-userdelegationkey-api
 - collection_type: open
   name: Azure Blob Storage REST API
   slug: open-azure-blob-storage-rest
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-blob-storage/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -218,12 +257,12 @@ overview: 'Azure Blob Storage publishes 11 APIs on the [APIs.io](https://apis.io
   The Azure Blob Storage catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Azure Blob Storage''s developer surface includes authentication, developer portal, support, engineering blog, getting-started guide, changelog, documentation, and 16 more developer resources.'
+  Azure Blob Storage''s developer surface includes authentication, developer portal, support, engineering blog, getting-started guide, changelog, documentation, and 17 more developer resources.'
 plans:
 - name: Microsoft Azure Blob Storage Plans Pricing
   plan_count: 6
   slug: microsoft-azure-blob-storage-plans-pricing
-random_paper: 52
+random_paper: 68
 rate_limits:
 - limit_count: 6
   name: Microsoft Azure Blob Storage Rate Limits
@@ -238,19 +277,26 @@ rules:
     warn: 3
   slug: microsoft-azure-blob-storage-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 68.1
-  delta: 3.3
+  band: exemplar
+  composite: 66.0
+  delta: -2.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 57.0
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 58.8
+    developer_ergonomics: 63.0
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 78.9
-  previous_composite: 64.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/screenshots/microsoft-azure-blob-storage-2026-06-20T185402.png
 security:

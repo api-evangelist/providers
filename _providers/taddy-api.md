@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,12 +45,19 @@ apis:
 - description: The GraphQL API from Taddy API — 1 operation(s) for graphql.
   name: Taddy API GraphQL API
   slug: taddy-api-graphql-api
-artifact_total: 18
+artifact_total: 19
 collections:
+- collection_type: postman
+  name: Taddy Podcast GraphQL API
+  slug: postman-taddy-api-graphql-api
 - collection_type: open
   name: Taddy Podcast API
   slug: open-taddy-podcast
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/taddy-api/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,12 +187,12 @@ overview: 'Taddy API publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Taddy API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Taddy API''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 14 more developer resources.'
+  Taddy API''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 15 more developer resources.'
 plans:
 - name: Taddy Api Plans Pricing
   plan_count: 3
   slug: taddy-api-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Taddy Api Rate Limits
@@ -207,18 +216,25 @@ rules:
   slug: taddy-api-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 3.3
+  composite: 57.6
+  delta: -3.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.0
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 70.3
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 57.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/screenshots/taddy-api-2026-06-20T194850.png
 security:

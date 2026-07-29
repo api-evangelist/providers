@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -67,8 +69,38 @@ apis:
 - description: Predefined-fleet data, subscription-based.
   name: VesselFinder Vessels List API
   slug: vesselfinder-vessels-list-api
-artifact_total: 44
+artifact_total: 54
 collections:
+- collection_type: postman
+  name: VesselFinder AIS Containers API
+  slug: postman-vesselfinder-containers-api
+- collection_type: postman
+  name: VesselFinder AIS Containers Distance API
+  slug: postman-vesselfinder-distance-api
+- collection_type: postman
+  name: VesselFinder AIS Containers Expected Arrivals API
+  slug: postman-vesselfinder-expected-arrivals-api
+- collection_type: postman
+  name: VesselFinder AIS Containers List Manager API
+  slug: postman-vesselfinder-list-manager-api
+- collection_type: postman
+  name: VesselFinder AIS Containers Live Data API
+  slug: postman-vesselfinder-live-data-api
+- collection_type: postman
+  name: VesselFinder AIS Containers Master Data API
+  slug: postman-vesselfinder-master-data-api
+- collection_type: postman
+  name: VesselFinder AIS Containers Port Calls API
+  slug: postman-vesselfinder-port-calls-api
+- collection_type: postman
+  name: VesselFinder AIS Containers Status API
+  slug: postman-vesselfinder-status-api
+- collection_type: postman
+  name: VesselFinder AIS Containers Vessels API
+  slug: postman-vesselfinder-vessels-api
+- collection_type: postman
+  name: VesselFinder AIS Containers Vessels List API
+  slug: postman-vesselfinder-vessels-list-api
 - collection_type: open
   name: VesselFinder AIS API
   slug: open-vesselfinder-ais-api
@@ -76,6 +108,10 @@ collections:
   name: VesselFinder Container Tracking API
   slug: open-vesselfinder-container-tracking-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/vesselfinder/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -264,12 +300,12 @@ overview: 'VesselFinder publishes 10 APIs on the [APIs.io](https://apis.io/) net
   The VesselFinder catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  VesselFinder''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, FAQ, support, and 24 more developer resources.'
+  VesselFinder''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, FAQ, support, and 25 more developer resources.'
 plans:
 - name: Vesselfinder Plans Pricing
   plan_count: 10
   slug: vesselfinder-plans-pricing
-random_paper: 66
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Vesselfinder Rate Limits
@@ -293,18 +329,25 @@ rules:
   slug: vesselfinder-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 4.2
+  composite: 59.6
+  delta: -3.8
   facets:
     commercial_clarity: 71.1
-    contract_quality: 75.6
-    developer_ergonomics: 52.2
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 56.5
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png
 security:

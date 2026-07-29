@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -180,25 +182,35 @@ overview: 'Tana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Doc
 
 
   Tana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 12
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Tana Rate Limits
   slug: tana-rate-limits
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 46.3
+  delta: -1.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 54.0
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 55.9
+    developer_ergonomics: 58.2
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 47.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

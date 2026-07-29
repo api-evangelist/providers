@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -259,7 +261,7 @@ plans:
 - name: U S Bureau Of Labor Statistics Plans Pricing
   plan_count: 3
   slug: u-s-bureau-of-labor-statistics-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: U S Bureau Of Labor Statistics Rate Limits
@@ -283,19 +285,26 @@ rules:
   slug: u-s-bureau-of-labor-statistics-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 56.8
-  delta: 0.0
+  composite: 49.9
+  delta: -6.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 80.5
+    contract_quality: 68.6
     developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 60.5
+    discoverability: 68.5
+    governance: 47.9
     operational_transparency: 31.6
   previous_composite: 56.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/screenshots/u-s-bureau-of-labor-statistics-2026-06-20T195913.png
 security:
 - kind: authentication

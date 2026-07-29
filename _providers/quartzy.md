@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -133,7 +135,7 @@ plans:
 - name: Quartzy Plans Pricing
   plan_count: 3
   slug: quartzy-plans-pricing
-random_paper: 52
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Quartzy Rate Limits
@@ -144,24 +146,32 @@ scopes:
   slug: quartzy-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.5
-  delta: 2.7
+  band: thin
+  composite: 40.6
+  delta: -4.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.4
+    contract_quality: 60.5
     developer_ergonomics: 23.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.8
+  previous_composite: 45.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 43.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

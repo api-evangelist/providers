@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -118,21 +120,24 @@ overview: 'Bentolabs AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bentolabs AI''s developer surface includes documentation, getting-started guide, engineering blog, CLI, authentication, and 13 more developer resources.'
-random_paper: 45
+random_paper: 46
 score:
   band: emerging
-  composite: 28.2
-  delta: 0.0
+  composite: 27.2
+  delta: -1.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 69.6
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentolabs-ai/refs/heads/main/screenshots/bentolabs-ai-2026-07-25T202737.png
 security:

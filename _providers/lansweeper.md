@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: GraphQL API for querying IT asset, software, user, and site data discovered and inventoried by Lansweeper. Authentication is via Personal Access Token or OAuth Bearer token; all requests are HTTP POST
@@ -81,21 +83,21 @@ overview: 'Lansweeper publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Lansweeper''s developer surface includes documentation, pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 58
+random_paper: 0
 score:
   band: minimal
-  composite: 14.2
-  delta: 0.0
+  composite: 11.8
+  delta: -2.4
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 14.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lansweeper/refs/heads/main/screenshots/lansweeper-2026-06-20T184316.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,8 +53,23 @@ apis:
 - description: Proxy endpoints for routing third-party API traffic through the Lunar Gateway with policy enforcement, traffic controls, and observability.
   name: Lunar.dev Proxy API
   slug: lunar-dev-proxy-api
-artifact_total: 49
+artifact_total: 54
 collections:
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery API
+  slug: postman-lunar-dev-discovery-api
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery Flows API
+  slug: postman-lunar-dev-flows-api
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery Health API
+  slug: postman-lunar-dev-health-api
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery Policies API
+  slug: postman-lunar-dev-policies-api
+- collection_type: postman
+  name: Lunar.dev Gateway Admin Discovery Proxy API
+  slug: postman-lunar-dev-proxy-api
 - collection_type: open
   name: Lunar.dev Gateway Admin API
   slug: open-lunar-dev-gateway-admin
@@ -60,6 +77,10 @@ collections:
   name: Lunar.dev Gateway Proxy API
   slug: open-lunar-dev-gateway-proxy
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lunardev/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -214,12 +235,12 @@ overview: 'Lunar.dev publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The Lunar.dev catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Lunar.dev''s developer surface includes YouTube channel, engineering blog, FAQ, documentation, getting-started guide, signup flow, support, and 16 more developer resources.'
+  Lunar.dev''s developer surface includes YouTube channel, engineering blog, FAQ, documentation, getting-started guide, signup flow, support, and 17 more developer resources.'
 plans:
 - name: Lunar Dev Plans Pricing
   plan_count: 3
   slug: lunar-dev-plans-pricing
-random_paper: 26
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Lunar Dev Rate Limits
@@ -235,18 +256,25 @@ rules:
   slug: lunar-dev-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 4.2
+  composite: 56.1
+  delta: -4.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 66.0
-    developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 59.8
+    developer_ergonomics: 30.4
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 56.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar-dev/refs/heads/main/screenshots/lunar-dev-2026-06-20T184803.png
 security:

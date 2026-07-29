@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST data-integration API for Crunchtime's Inventory Management, Labor & Scheduling, and Cruise products. GET and POST operations move employees, locations, budgets, categories, products, recipes, sal
@@ -126,25 +128,28 @@ overview: 'Crunchtime Information Systems publishes 1 API on the [APIs.io](https
 
 
   Crunchtime Information Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 12 more developer resources.'
-random_paper: 18
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Crunchtime Information Systems Rate Limits
   slug: crunchtime-information-systems-rate-limits
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 29.0
+  delta: -2.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 73.9
-    discoverability: 92.5
+    developer_ergonomics: 62.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 31.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/screenshots/crunchtime-information-systems-2026-07-25T210822.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -76,12 +78,34 @@ apis:
 - description: Manage MCP server instances
   name: Barndoor Servers API
   slug: barndoor-servers-api
-artifact_total: 143
+artifact_total: 149
 collections:
+- collection_type: postman
+  name: Barndoor Platform Agents API
+  slug: postman-barndoor-agents-api
+- collection_type: postman
+  name: Barndoor Platform Agents Connections API
+  slug: postman-barndoor-connections-api
+- collection_type: postman
+  name: Barndoor Platform Agents MCP Proxy API
+  slug: postman-barndoor-mcp-proxy-api
+- collection_type: postman
+  name: Barndoor Platform Agents Policies API
+  slug: postman-barndoor-policies-api
+- collection_type: postman
+  name: Barndoor Platform Agents Policy API
+  slug: postman-barndoor-policy-api
+- collection_type: postman
+  name: Barndoor Platform Agents Servers API
+  slug: postman-barndoor-servers-api
 - collection_type: open
   name: Barndoor Platform API
   slug: open-barndoor
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/barndoor/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -549,12 +573,12 @@ overview: 'Barndoor publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Barndoor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Barndoor''s developer surface includes authentication, engineering blog, documentation, API reference, developer portal, signup flow, pricing, and 23 more developer resources.'
+  Barndoor''s developer surface includes authentication, engineering blog, documentation, API reference, developer portal, signup flow, pricing, and 24 more developer resources.'
 plans:
 - name: Barndoor Plans Pricing
   plan_count: 4
   slug: barndoor-plans-pricing
-random_paper: 39
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Barndoor Rate Limits
@@ -578,18 +602,25 @@ rules:
   slug: barndoor-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 3.2
+  composite: 61.4
+  delta: -3.7
   facets:
     commercial_clarity: 65.8
-    contract_quality: 66.7
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 67.6
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 61.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/screenshots/barndoor-2026-06-20T173002.png
 security:

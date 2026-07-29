@@ -1,12 +1,14 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 50.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -129,7 +131,7 @@ overview: 'EMIS Health publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   EMIS Health''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, and 15 more developer resources.'
-random_paper: 17
+random_paper: 27
 scopes:
 - name: Emis Health Scopes
   scope_count: 7
@@ -137,23 +139,34 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 34.3
+  delta: -3.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 37.7
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 53.8
+    discoverability: 83.3
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 37.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 55.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/screenshots/emis-health-2026-07-25T213240.png
 security:

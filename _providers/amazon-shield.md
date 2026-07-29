@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: 'The #ListProtections API from Amazon Shield — 1 operation(s) for #listprotections.'
   name: 'Amazon Shield #ListProtections API'
   slug: amazon-shield-listprotections-api
-artifact_total: 65
+artifact_total: 72
 collections:
+- collection_type: postman
+  name: Amazon Shield REST Amazon Shield REST API API
+  slug: postman-amazon-shield-amazon-shield-rest-api-api
+- collection_type: postman
+  name: 'Amazon Shield REST Amazon Shield REST API #CreateProtectionGroup API'
+  slug: postman-amazon-shield-createprotectiongroup-api
+- collection_type: postman
+  name: 'Amazon Shield REST Amazon Shield REST API #CreateSubscription API'
+  slug: postman-amazon-shield-createsubscription-api
+- collection_type: postman
+  name: 'Amazon Shield REST Amazon Shield REST API #DescribeAttack API'
+  slug: postman-amazon-shield-describeattack-api
+- collection_type: postman
+  name: 'Amazon Shield REST Amazon Shield REST API #DescribeProtection API'
+  slug: postman-amazon-shield-describeprotection-api
+- collection_type: postman
+  name: 'Amazon Shield REST Amazon Shield REST API #DescribeSubscription API'
+  slug: postman-amazon-shield-describesubscription-api
+- collection_type: postman
+  name: 'Amazon Shield REST Amazon Shield REST API #ListProtections API'
+  slug: postman-amazon-shield-listprotections-api
 - collection_type: open
   name: Amazon Shield REST API
   slug: open-amazon-shield-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-shield/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -497,12 +524,12 @@ overview: 'Amazon Shield publishes 7 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Shield catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Shield''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 61 more developer resources.'
+  Amazon Shield''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 62 more developer resources.'
 plans:
 - name: Amazon Shield Plans Pricing
   plan_count: 3
   slug: amazon-shield-plans-pricing
-random_paper: 32
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Shield Rate Limits
@@ -526,18 +553,25 @@ rules:
   slug: amazon-shield-spectral-rules
 score:
   band: strong
-  composite: 65.4
-  delta: 3.2
+  composite: 62.2
+  delta: -3.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 66.4
-    developer_ergonomics: 32.6
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 67.8
+    developer_ergonomics: 37.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 62.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/screenshots/amazon-shield-2026-06-20T171822.png
 security:

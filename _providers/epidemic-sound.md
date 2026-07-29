@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -261,7 +263,7 @@ plans:
 - name: Epidemic Sound Plans Pricing
   plan_count: 5
   slug: epidemic-sound-plans-pricing
-random_paper: 2
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Epidemic Sound Rate Limits
@@ -273,18 +275,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.7
-  delta: 3.3
+  composite: 49.5
+  delta: -2.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 58.0
+    contract_quality: 59.7
     developer_ergonomics: 47.8
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 48.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/screenshots/epidemic-sound-2026-06-20T180755.png
 security:

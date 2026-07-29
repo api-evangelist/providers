@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.5
+  scored_at: '2026-07-28'
 api_count: 12
 apis:
 - description: OAuth access keys are created in Merchant Dashboard and can be exchanged for bearer tokens. Use the `/access-keys/token` endpoint to mint a bearer token from a valid `client_id` and `client_secret`.
@@ -65,12 +67,53 @@ apis:
 - description: Webhooks allow you to receive real-time notifications about events in your Resolve account. When an event occurs, Resolve sends an HTTP POST request to your configured webhook endpoint with details ab
   name: Resolve Webhooks API
   slug: resolve-webhooks-api
-artifact_total: 18
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Resolve Webhooks
   slug: resolve-webhooks
+collections:
+- collection_type: postman
+  name: Resolve API Reference Access Keys API
+  slug: postman-resolve-access-keys-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Charges API
+  slug: postman-resolve-charges-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Credit Notes API
+  slug: postman-resolve-credit-notes-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Customers API
+  slug: postman-resolve-customers-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Invoices API
+  slug: postman-resolve-invoices-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Merchants API
+  slug: postman-resolve-merchants-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Orders API
+  slug: postman-resolve-orders-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Payments API
+  slug: postman-resolve-payments-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Payout Transactions API
+  slug: postman-resolve-payout-transactions-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Payouts API
+  slug: postman-resolve-payouts-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Shipments API
+  slug: postman-resolve-shipments-api
+- collection_type: postman
+  name: Resolve API Reference Access Keys Webhooks API
+  slug: postman-resolve-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/resolve/overview
 - group: company
   title: ''
   type: Website
@@ -217,8 +260,8 @@ overview: 'Resolve publishes 12 APIs on the [APIs.io](https://apis.io/) network,
   The Resolve catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 20
+  Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Resolve Rate Limits
@@ -230,23 +273,33 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 57.7
+  delta: -4.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 67.4
-    developer_ergonomics: 73.9
-    discoverability: 75.0
-    governance: 0.0
+    contract_quality: 65.7
+    developer_ergonomics: 73.4
+    discoverability: 63.0
+    governance: 11.5
     operational_transparency: 57.9
   previous_composite: 61.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 62.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

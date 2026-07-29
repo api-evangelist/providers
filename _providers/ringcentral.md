@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: true
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 64.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -347,12 +349,234 @@ arazzos:
 - description: Create a webinar, add a scheduled session to it, register an attendee, and read the registrant back for their join link.
   name: RingCentral Create a Webinar, Schedule a Session, and Register an Attendee
   slug: ringcentral-webinar-registration-workflow
-artifact_total: 115
+artifact_total: 189
 asyncapis:
 - description: AsyncAPI 2.6 description of the asynchronous event surface exposed by the RingCentral Subscription API. RingCentral delivers events from the RingCentral platform to subscribers via two documented tran
   name: RingCentral Subscriptions and Event Notifications
   slug: ringcentral-subscriptions-asyncapi
 collections:
+- collection_type: postman
+  name: RingCentral Adaptive Cards API
+  slug: postman-ringcentral-adaptive-cards-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards API Info API
+  slug: postman-ringcentral-api-info-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Audio API
+  slug: postman-ringcentral-audio-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Audit Trail API
+  slug: postman-ringcentral-audit-trail-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Automatic Location Updates API
+  slug: postman-ringcentral-automatic-location-updates-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Bridge Management API
+  slug: postman-ringcentral-bridge-management-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Business Analytics API
+  slug: postman-ringcentral-business-analytics-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Business Hours API
+  slug: postman-ringcentral-business-hours-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Calendar Events API
+  slug: postman-ringcentral-calendar-events-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Call Blocking API
+  slug: postman-ringcentral-call-blocking-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Call Control API
+  slug: postman-ringcentral-call-control-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Call Forwarding API
+  slug: postman-ringcentral-call-forwarding-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Call Handling Rules API
+  slug: postman-ringcentral-call-handling-rules-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Call Log API
+  slug: postman-ringcentral-call-log-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Call Monitoring Groups API
+  slug: postman-ringcentral-call-monitoring-groups-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Call Queues API
+  slug: postman-ringcentral-call-queues-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Call Recording Settings API
+  slug: postman-ringcentral-call-recording-settings-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Call Recordings API
+  slug: postman-ringcentral-call-recordings-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Chats API
+  slug: postman-ringcentral-chats-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Company API
+  slug: postman-ringcentral-company-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Compliance Exports API
+  slug: postman-ringcentral-compliance-exports-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Contents API
+  slug: postman-ringcentral-contents-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Conversations API
+  slug: postman-ringcentral-conversations-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Custom Fields API
+  slug: postman-ringcentral-custom-fields-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Delegation Management API
+  slug: postman-ringcentral-delegation-management-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Device SIP Registration API
+  slug: postman-ringcentral-device-sip-registration-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Devices API
+  slug: postman-ringcentral-devices-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Extensions API
+  slug: postman-ringcentral-extensions-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards External Contacts API
+  slug: postman-ringcentral-external-contacts-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Fax API
+  slug: postman-ringcentral-fax-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Features API
+  slug: postman-ringcentral-features-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Greetings API
+  slug: postman-ringcentral-greetings-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards High Volume SMS API
+  slug: postman-ringcentral-high-volume-sms-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Historical Recordings API
+  slug: postman-ringcentral-historical-recordings-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Historical Webinars API
+  slug: postman-ringcentral-historical-webinars-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Identities API
+  slug: postman-ringcentral-identities-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Incoming Webhooks API
+  slug: postman-ringcentral-incoming-webhooks-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Insights API
+  slug: postman-ringcentral-insights-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Internal Contacts API
+  slug: postman-ringcentral-internal-contacts-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Invitees API
+  slug: postman-ringcentral-invitees-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards IVR API
+  slug: postman-ringcentral-ivr-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Meeting Recordings API
+  slug: postman-ringcentral-meeting-recordings-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Meetings History API
+  slug: postman-ringcentral-meetings-history-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Message Exports API
+  slug: postman-ringcentral-message-exports-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Message Store API
+  slug: postman-ringcentral-message-store-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Multi-Site API
+  slug: postman-ringcentral-multi-site-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Notes API
+  slug: postman-ringcentral-notes-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards OAuth 2.0 / OpenID Connect API
+  slug: postman-ringcentral-oauth-2-0-openid-connect-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Pager Messages API
+  slug: postman-ringcentral-pager-messages-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Paging Only Groups API
+  slug: postman-ringcentral-paging-only-groups-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Phone Numbers API
+  slug: postman-ringcentral-phone-numbers-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Posts API
+  slug: postman-ringcentral-posts-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Presence API
+  slug: postman-ringcentral-presence-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Profile API
+  slug: postman-ringcentral-profile-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards RCM Meetings (Legacy) API
+  slug: postman-ringcentral-rcm-meetings-legacy-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Regional Settings API
+  slug: postman-ringcentral-regional-settings-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Registrants API
+  slug: postman-ringcentral-registrants-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Registration Management API
+  slug: postman-ringcentral-registration-management-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards RingOut API
+  slug: postman-ringcentral-ringout-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Role Management API
+  slug: postman-ringcentral-role-management-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards SCIM API
+  slug: postman-ringcentral-scim-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Site Administration API
+  slug: postman-ringcentral-site-administration-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards SMS API
+  slug: postman-ringcentral-sms-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards SMS Templates API
+  slug: postman-ringcentral-sms-templates-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Status API
+  slug: postman-ringcentral-status-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Subscriptions API
+  slug: postman-ringcentral-subscriptions-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Tasks API
+  slug: postman-ringcentral-tasks-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Teams API
+  slug: postman-ringcentral-teams-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Text API
+  slug: postman-ringcentral-text-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards User Permissions API
+  slug: postman-ringcentral-user-permissions-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards User Settings API
+  slug: postman-ringcentral-user-settings-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Video Configuration API
+  slug: postman-ringcentral-video-configuration-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Webinar Subscriptions API
+  slug: postman-ringcentral-webinar-subscriptions-api
+- collection_type: postman
+  name: RingCentral Adaptive Cards Webinars and Sessions API
+  slug: postman-ringcentral-webinars-and-sessions-api
 - collection_type: open
   name: RingCentral API
   slug: open-ringcentral-platform
@@ -504,7 +728,7 @@ common:
 - group: build
   title: ''
   type: PostmanWorkspace
-  url: https://www.postman.com/ringcentral
+  url: https://www.postman.com/kinlaneapi/ringcentral/overview
 - group: company
   title: ''
   type: X (Twitter)
@@ -612,7 +836,7 @@ plans:
 - name: Ringcentral Plans Pricing
   plan_count: 5
   slug: ringcentral-plans-pricing
-random_paper: 21
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Ringcentral Rate Limits
@@ -632,19 +856,34 @@ scopes:
   slug: ringcentral-scopes
   summary_line: 38 scopes · authorizationCode
 score:
-  band: strong
-  composite: 69.5
-  delta: 0.0
+  band: exemplar
+  composite: 66.9
+  delta: -2.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 66.3
+    contract_quality: 65.1
     developer_ergonomics: 73.9
-    discoverability: 67.5
-    governance: 60.5
+    discoverability: 68.5
+    governance: 59.4
     operational_transparency: 76.3
   previous_composite: 69.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 74
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 54.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png
 security:

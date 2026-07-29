@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 0
 common:
@@ -69,21 +71,21 @@ press:
 - date: '2026-05-25'
   title: WYNDHAM HOTELS & RESORTS REPORTS STRONG ...
   url: https://www.prnewswire.com/news-releases/wyndham-hotels--resorts-reports-strong-first-quarter-results-302757605.html
-random_paper: 14
+random_paper: 11
 score:
   band: minimal
-  composite: 4.8
-  delta: 0.0
+  composite: 3.5
+  delta: -1.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 47.5
+    discoverability: 35.2
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wyndham-worldwide/refs/heads/main/screenshots/wyndham-worldwide-2026-06-20T201642.png
 slug: wyndham-worldwide

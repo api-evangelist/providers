@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 35.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.5
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: RESTful access to Mattermark company, investor, funding-event, news and personnel data, with page-based pagination and MSFL query endpoints.
@@ -141,25 +143,28 @@ overview: 'Mattermark publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Mattermark''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 15 more developer resources.'
-random_paper: 60
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Mattermark Rate Limits
   slug: mattermark-rate-limits
 score:
-  band: emerging
-  composite: 29.6
-  delta: 0.0
+  band: thin
+  composite: 28.1
+  delta: -1.5
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
-    developer_ergonomics: 56.5
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 29.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/screenshots/mattermark-2026-07-25T230426.png
 security:

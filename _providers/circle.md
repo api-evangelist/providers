@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -191,7 +193,7 @@ plans:
 - name: Circle Plans Pricing
   plan_count: 3
   slug: circle-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Circle Rate Limits
@@ -223,24 +225,32 @@ rules:
   slug: circle-rules
 score:
   band: developing
-  composite: 59.6
-  delta: 2.7
+  composite: 54.3
+  delta: -5.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.4
+    contract_quality: 67.8
     developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 56.9
+  previous_composite: 59.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/screenshots/circle-2026-06-20T174349.png
 security:
 - kind: authentication

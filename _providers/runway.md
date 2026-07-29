@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -85,12 +87,54 @@ apis:
 - description: Upscale video resolution and quality.
   name: Runway Video Upscale API
   slug: runway-video-upscale-api
-artifact_total: 53
+artifact_total: 67
 asyncapis:
 - description: The Runway Characters realtime event interface describes the WebRTC-based communication protocol for live conversational avatar sessions powered by GWM-1. Once a realtime session is created via the RE
   name: Runway Characters Realtime Events
   slug: runway-characters-asyncapi
 collections:
+- collection_type: postman
+  name: Runway Characters Avatars API
+  slug: postman-runway-avatars-api
+- collection_type: postman
+  name: Runway Characters Avatars Character Performance API
+  slug: postman-runway-character-performance-api
+- collection_type: postman
+  name: Runway Characters Avatars Documents API
+  slug: postman-runway-documents-api
+- collection_type: postman
+  name: Runway Characters Avatars Frame Interpolation API
+  slug: postman-runway-frame-interpolation-api
+- collection_type: postman
+  name: Runway Characters Avatars Image to Video API
+  slug: postman-runway-image-to-video-api
+- collection_type: postman
+  name: Runway Characters Avatars Lip Sync API
+  slug: postman-runway-lip-sync-api
+- collection_type: postman
+  name: Runway Characters Avatars Realtime Sessions API
+  slug: postman-runway-realtime-sessions-api
+- collection_type: postman
+  name: Runway Characters Avatars Sound Effects API
+  slug: postman-runway-sound-effects-api
+- collection_type: postman
+  name: Runway Characters Avatars Tasks API
+  slug: postman-runway-tasks-api
+- collection_type: postman
+  name: Runway Characters Avatars Text to Image API
+  slug: postman-runway-text-to-image-api
+- collection_type: postman
+  name: Runway Characters Avatars Text to Video API
+  slug: postman-runway-text-to-video-api
+- collection_type: postman
+  name: Runway Characters Avatars Uploads API
+  slug: postman-runway-uploads-api
+- collection_type: postman
+  name: Runway Characters Avatars Video to Video API
+  slug: postman-runway-video-to-video-api
+- collection_type: postman
+  name: Runway Characters Avatars Video Upscale API
+  slug: postman-runway-video-upscale-api
 - collection_type: open
   name: Runway Characters API
   slug: open-runway-characters
@@ -101,6 +145,10 @@ collections:
   name: Runway Video Generation API
   slug: open-runway-video-generation
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/runway/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,12 +287,12 @@ overview: 'Runway publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
   The Runway catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Runway''s developer surface includes authentication, developer portal, documentation, engineering blog, changelog, and 14 more developer resources.'
+  Runway''s developer surface includes authentication, developer portal, documentation, engineering blog, changelog, and 15 more developer resources.'
 plans:
 - name: Runway Plans Pricing
   plan_count: 5
   slug: runway-plans-pricing
-random_paper: 66
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Runway Rate Limits
@@ -276,18 +324,25 @@ rules:
   slug: runway-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 2.0
+  composite: 60.7
+  delta: -2.8
   facets:
     commercial_clarity: 73.7
-    contract_quality: 75.2
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 65.8
+    contract_quality: 76.3
+    developer_ergonomics: 43.5
+    discoverability: 64.8
+    governance: 52.1
     operational_transparency: 42.1
-  previous_composite: 61.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:

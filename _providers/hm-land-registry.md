@@ -14,21 +14,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 93.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -388,26 +390,37 @@ overview: 'HM Land Registry publishes 7 APIs on the [APIs.io](https://apis.io/) 
 
 
   HM Land Registry''s developer surface includes authentication, documentation, API reference, signup flow, support, sandbox, changelog, and 53 more developer resources.'
-random_paper: 43
+random_paper: 67
 score:
-  band: developing
-  composite: 59.5
-  delta: 0.0
+  band: strong
+  composite: 56.2
+  delta: -3.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 79.6
-    developer_ergonomics: 73.9
-    discoverability: 87.5
-    governance: 13.2
+    contract_quality: 77.8
+    developer_ergonomics: 62.5
+    discoverability: 83.3
+    governance: 21.9
     operational_transparency: 31.6
   previous_composite: 59.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 36.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 57.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

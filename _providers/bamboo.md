@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 22
@@ -370,7 +372,7 @@ plans:
 - name: Bamboo Plans Pricing
   plan_count: 3
   slug: bamboo-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Bamboo Rate Limits
@@ -386,23 +388,31 @@ rules:
   slug: bamboo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 39.0
+  delta: -2.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.2
+    contract_quality: 52.2
     developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 41.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboo/refs/heads/main/screenshots/bamboo-2026-06-20T172931.png
 security:

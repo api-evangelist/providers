@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Nextra is the core Next.js plugin and library that provides MDX compilation, file-system page mapping, static image handling, search indexing, syntax highlighting, LaTeX support, and i18n utilities. I
@@ -122,7 +124,7 @@ plans:
 - name: Nextra Plans Pricing
   plan_count: 3
   slug: nextra-plans-pricing
-random_paper: 46
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Nextra Rate Limits
@@ -138,19 +140,19 @@ rules:
   slug: nextra-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 42.9
-  delta: 0.0
+  composite: 37.8
+  delta: -5.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 26.4
+    contract_quality: 22.6
     developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 42.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/screenshots/nextra-2026-06-20T190301.png
 security:
 - kind: domain-security

@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Real-time GraphQL content API for querying and mutating content stored in Caisy projects. Supports filtering, pagination, sorting, nested document referencing, and rich text as AST. Each project expos
@@ -93,22 +95,22 @@ overview: 'Caisy publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Caisy''s developer surface includes documentation, pricing, changelog, engineering blog, and 7 more developer resources.'
-random_paper: 61
+random_paper: 75
 score:
   band: emerging
-  composite: 15.0
-  delta: 0.0
+  composite: 24.5
+  delta: 9.5
   facets:
     commercial_clarity: 10.5
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 10.9
-    discoverability: 80.0
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 15.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/caisy/refs/heads/main/screenshots/caisy-2026-06-20T173839.png
 security:
 - kind: domain-security

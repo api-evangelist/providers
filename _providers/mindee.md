@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -419,7 +421,7 @@ plans:
 - name: Mindee Plans Pricing
   plan_count: 4
   slug: mindee-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Mindee Rate Limits
@@ -443,18 +445,25 @@ rules:
   slug: mindee-rules
 score:
   band: strong
-  composite: 64.5
-  delta: 3.4
+  composite: 59.8
+  delta: -4.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 77.4
+    contract_quality: 76.7
     developer_ergonomics: 60.9
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 61.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/screenshots/mindee-2026-06-20T185555.png
 security:

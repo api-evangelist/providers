@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -268,27 +270,38 @@ overview: 'One Codex publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Codex''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 14
+random_paper: 51
 score:
   band: developing
-  composite: 59.6
-  delta: 0.0
+  composite: 53.9
+  delta: -5.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 61.5
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.6
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 39.5
   previous_composite: 59.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 45.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: One Codex Authentication

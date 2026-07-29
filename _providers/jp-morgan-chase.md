@@ -10,29 +10,110 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
-    auth_clarity: false
+    asyncapi_events: true
+    auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    openapi_examples: verified
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
-api_count: 1
+  schema_version: 0.2
+  score: 51.4
+  scored_at: '2026-07-28'
+api_count: 26
 apis:
-- description: J.P. Morgan Payments offers a suite of APIs covering ACH, real-time payments, wires, FX, virtual accounts, account services, and treasury management for enterprise clients. APIs are accessed through t
-  name: J.P. Morgan Payments APIs
-  slug: payments
-artifact_total: 5
+- description: Streamline your client onboarding process to create, update, and manage clients, parties, documents, and due diligence requirements in a fully digital workflow so you can automate Know Your Customer (
+  name: Digital Onboarding API
+  slug: digital-onboarding-api
+- description: The consumer profile management API provides merchant functionality to create, store, update, and maintain customer or consumer profiles.
+  name: Consumer Profile Management API
+  slug: consumer-profile-management-api
+- description: Merchant Services Tokenization APIs enable merchants to secure their cards on file by replacing the sensitive Primary Account Number (PAN) with a token. Currently supports network tokenization via Mas
+  name: Tokenization API
+  slug: tokenization-api
+- description: Data Reports API enables easy access to build consumable data sets. It is designed for merchants or system integrators looking for transaction-level payment data.
+  name: Reporting API
+  slug: reporting-api
+- description: Notification API enables merchants to subscribe to and receive notifications in real-time.
+  name: Notifications API
+  slug: notifications-api
+- description: '## Pay By Bank v1 - PIS API --- > J.P. Morgan as a registered Third Party Provider (**TPP**) of Open Banking services, > offers a seamless integration platform for Pay by Bank such that: > - clients c'
+  name: Pay By Bank PIS
+  slug: pay-by-bank-pis
+- description: Streamline your digital payment experience to create, update, and manage payment requests and payment links, letting your customers pay instantly via shareable QR codes or payment URLs. You can easily
+  name: Request to Pay via QR Code API
+  slug: request-to-pay-via-qr-code-api
+- description: The Checkout API provides a unified interface for merchants to enable consumer checkout and accept payments within their overall commerce experience.
+  name: Checkout API
+  slug: checkout-api
+- description: Enable access to account information services that allow J.P. Morgan clients to leverage Open Banking for data from customer bank accounts. Support consent management, account verification, balance re
+  name: Account Information Services
+  slug: account-information-services
+- description: End to end disputes management interface.
+  name: Dispute Management API
+  slug: dispute-management-api
+- description: Manage your accounts programmatically. Create new accounts, retrieve details and balances, and organize all your client accounts in one place. This allows you to automate account operations and keep y
+  name: Accounts API
+  slug: accounts-api
+- description: Connect to retrieve account details, transactions, payment network information, and statements for eligible USD-denominated US checking, savings, and money market accounts using the Financial Data Exc
+  name: J.P. Morgan Business Direct Connect
+  slug: j-p-morgan-business-direct-connect
+- description: Enable and manage payments, refunds, withdrawals, and provider connectivity across multiple markets using secure open banking infrastructure.
+  name: Payment Initiation Service
+  slug: payment-initiation-service
+- description: Programmatically receives and decisions Payment Holds, automating your fraud review and hold resolution workflow to minimize operational delays while adhering to corporate IT standards.
+  name: Alerts and Decisioning API
+  slug: alerts-and-decisioning-api
+- description: Initiate, track, and manage payments and payment returns across a wide range of payment types, including ACH, wires, real-time payments, cards, and digital wallets, so you can automate your payment wo
+  name: Global Payments
+  slug: global-payments
+- description: Product configuration APIs that can be used to create, configure and maintain Commerce platform accounts.
+  name: Product Configuration API
+  slug: product-configuration-api
+- description: Streamline how you set up, manage, and verify payees by creating, updating, listing, and validating recipients for your payment transactions. This helps keep your payment workflows organized and secur
+  name: Recipients API
+  slug: recipients-api
+- description: Set up and manage webhook subscriptions to receive real-time notifications about key events, like transactions, account changes, or client onboarding, directly to your platform, so you can automate wo
+  name: Webhooks API
+  slug: webhooks-api
+- description: Standalone authentication API for processing consumer payments
+  name: 3-D Secure API
+  slug: 3-d-secure-api
+- description: The Account Updater API provides recurring and stored payment merchants with their customers latest card account credentials.
+  name: Account Updater API
+  slug: account-updater-api
+- description: Streamline your global payment operations by initiating, tracking, and managing multiple payment types across international markets through a single, unified interface, so you can handle everything fr
+  name: Global Payments API
+  slug: global-payments-api
+- description: Create, track, and manage payments, such as ACH, wire, and real-time transfers, while easily filtering and retrieving transaction details by type, status, account, or date. This lets you automate fund
+  name: Transactions API
+  slug: transactions-api
+- description: 'Access real-time and historical balances for your eligible J.P. Morgan accounts, so you can easily track cash positions and reconcile transactions across up to 100 accounts per request. This API lets '
+  name: Blockchain Deposit Account Balances API
+  slug: blockchain-deposit-account-balances-api
+- description: Manage your documents programmatically. Generate new documents and retrieve documents relevant to your accounts. This allows you to obtain important documentation with ease.
+  name: Documents API
+  slug: documents-api
+- description: Verify accounts and identities for individuals and organizations in real time, so you can confidently onboard customers, reduce fraud, and meet compliance requirements with a single, streamlined integ
+  name: Validation Services API
+  slug: validation-services-api
+- description: 'The Wallet Decryption API decrypts the Apple Pay, Google Pay, and Paze wallet encrypted payment bundles to obtain network tokens, cryptograms, electronic commerce indicators (ECIs), and other payment '
+  name: Wallet Decryption API
+  slug: wallet-decryption-api
+artifact_total: 32
+asyncapis:
+- description: ''
+  name: Jp Morgan Chase Webhooks
+  slug: jp-morgan-chase-webhooks
 common:
 - group: auth
   title: ''
@@ -58,19 +139,121 @@ common:
   title: ''
   type: LlmsText
   url: https://developer.payments.jpmorgan.com/llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.payments.jpmorgan.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.payments.jpmorgan.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.payments.jpmorgan.com/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.payments.jpmorgan.com/docs/quick-start
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/jp-morgan-chase-authentication.yml
+- group: design
+  title: ''
+  type: Versioning
+  url: https://developer.payments.jpmorgan.com/api/versioning
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/jp-morgan-chase-error-catalog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/jp-morgan-chase-changelog-index.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://developer.payments.jpmorgan.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.payments.jpmorgan.com/docs/become-a-client
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://developer.payments.jpmorgan.com/api/environments
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/jp-morgan-chase-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/jp-morgan-chase-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/jp-morgan-chase-finops.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/jp-morgan-chase-domain-security.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.jpmorgan.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.jpmorganchase.com/privacy
+- group: build
+  title: ''
+  type: Examples
+  url: examples/jp-morgan-chase-examples.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/jp-morgan-chase-idempotency.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/jp-morgan-chase-webhooks.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer.jpmorgan.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.jpmorganchase.com/about
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.jpmorganchase.com/news-stories
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://www.jpmorganchase.com/ir
 created: '2026-03-24'
-description: JPMorgan Chase is a leading global financial services firm and one of the largest banking institutions in the United States, with operations across investment banking, financial services, asset management, and private equity. J.P. Morgan publishes a Payments Developer Portal exposing APIs for payments, treasury, and account services.
+description: JPMorgan Chase is a leading global financial services firm and one of the largest banking institutions in the United States, with operations across investment banking, financial services, asset management, and private equity. Its J.P. Morgan Payments Developer Portal publishes 26 API definitions covering 194 operations across payments, treasury, onboarding, tokenization, disputes, reporting and blockchain deposit accounts, with OAuth 2.0, mTLS and digital-signature authentication and a Mock environment for client testing.
 finops:
 - name: Jp Morgan Chase Finops
   service_category: Banking / Payments
   slug: jp-morgan-chase-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jp-morgan-chase.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-07-28'
 name: JPMorgan Chase
 nav: Providers
 network: true
-overview: JPMorgan Chase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Payments, Treasury, and Fortune 100.
+overview: 'JPMorgan Chase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Digital Onboarding API, Consumer Profile Management API, Tokenization API, and 23 more. Tagged areas include Banking, Financial Services, Payments, Treasury, and Fortune 100.
+
+
+  The JPMorgan Chase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  JPMorgan Chase''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, signup flow, and 23 more developer resources.'
 plans:
 - name: Jp Morgan Chase Plans Pricing
   plan_count: 1
@@ -91,33 +274,53 @@ press:
 - date: '2026-05-25'
   title: 'JPMorgan Chase leads banking sector in AI adoption: report'
   url: https://www.ciodive.com/news/jpmorgan-chase-capital-one-ai-adoption-leaders-evident/730208/
-random_paper: 40
+- date: ''
+  title: 'From the desks of Jonathan Cox, Jennifer Dooly and James Janoskey: Why permitting reform matters now'
+  url: https://www.jpmorganchase.com/newsroom/from-the-desk-of/why-permitting-reform-matters-now
+- date: ''
+  title: Registration opens for San Francisco’s 40th JPMorganChase Corporate Challenge
+  url: https://www.jpmorganchase.com/newsroom/press-releases/2026/sfo-40th-jmpcc-registration
+- date: ''
+  title: JPMorganChase announces $24 million to help strengthen shipbuilding in Philadelphia and America’s defense industrial base
+  url: https://www.jpmorganchase.com/newsroom/press-releases/2026/24-million-strengthening-shipbuilding-philadelphia
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Jp Morgan Chase Rate Limits
   slug: jp-morgan-chase-rate-limits
 score:
-  band: emerging
-  composite: 16.6
-  delta: 0.0
+  band: developing
+  composite: 51.9
+  delta: 35.3
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 80.0
+    commercial_clarity: 63.2
+    contract_quality: 67.6
+    developer_ergonomics: 54.3
+    discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 60.5
   previous_composite: 16.6
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 30.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:
+- kind: authentication
+  name: Jp Morgan Chase Authentication
+  slug: jp-morgan-chase-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Jp Morgan Chase Domain Security
   slug: jp-morgan-chase-domain-security

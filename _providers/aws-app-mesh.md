@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -49,8 +51,25 @@ apis:
 - description: The Untag#resourceArn API from AWS App Mesh — 1 operation(s) for untag#resourcearn.
   name: AWS App Mesh Untag#resourceArn API
   slug: aws-app-mesh-untag-resourcearn-api
-artifact_total: 1045
+artifact_total: 1049
+collections:
+- collection_type: postman
+  name: AWS App Mesh Meshes API
+  slug: postman-aws-app-mesh-meshes-api
+- collection_type: postman
+  name: AWS App Mesh Meshes Tag#resourceArn API
+  slug: postman-aws-app-mesh-tag-resourcearn-api
+- collection_type: postman
+  name: AWS App Mesh Meshes Tags#resourceArn API
+  slug: postman-aws-app-mesh-tags-resourcearn-api
+- collection_type: postman
+  name: AWS App Mesh Meshes Untag#resourceArn API
+  slug: postman-aws-app-mesh-untag-resourcearn-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aws-app-mesh/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3239,12 +3258,12 @@ overview: 'AWS App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The AWS App Mesh catalog on APIs.io includes 20 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  AWS App Mesh''s developer surface includes authentication, documentation, getting-started guide, pricing, FAQ, developer console, support, and 11 more developer resources.'
+  AWS App Mesh''s developer surface includes authentication, documentation, getting-started guide, pricing, FAQ, developer console, support, and 12 more developer resources.'
 plans:
 - name: Aws App Mesh Plans Pricing
   plan_count: 3
   slug: aws-app-mesh-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Aws App Mesh Rate Limits
@@ -3268,18 +3287,25 @@ rules:
   slug: aws-app-mesh-spectral-rules
 score:
   band: strong
-  composite: 68.5
-  delta: 0.0
+  composite: 65.0
+  delta: -3.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 71.7
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 72.9
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 47.4
   previous_composite: 68.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/screenshots/aws-app-mesh-2026-06-20T172740.png
 security:

@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.7
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: Public, unauthenticated OBIE Open Data API returning the location and details of every Halifax cashpoint (ATM) in the UK. Confirmed live (HTTP 200, JSON) at the v2.2 base.
@@ -157,31 +159,41 @@ overview: 'Halifax publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Halifax''s developer surface includes documentation, support, getting-started guide, authentication, sandbox, and 18 more developer resources.'
-random_paper: 53
+random_paper: 40
 scopes:
 - name: Halifax Scopes
   scope_count: 4
   slug: halifax-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 46.1
-  delta: 0.0
+  band: thin
+  composite: 41.6
+  delta: -4.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 37.7
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 5.3
   previous_composite: 46.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 67.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/screenshots/halifax-2026-07-25T220540.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -103,16 +105,77 @@ apis:
 - description: Endpoints for managing CSI and host volumes attached to Nomad allocations.
   name: HashiCorp Nomad Volumes API
   slug: nomad-volumes-api
-artifact_total: 34
+artifact_total: 53
 asyncapis:
 - description: The Nomad Event Stream provides a way to subscribe to Job, Allocation, Evaluation, Deployment, Node, Node Pool, and Service changes in near real time. The /v1/event/stream endpoint streams events as n
   name: HashiCorp Nomad Event Stream
   slug: nomad-event-stream-asyncapi
 collections:
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL API
+  slug: postman-nomad-acl-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Agent API
+  slug: postman-nomad-agent-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Allocations API
+  slug: postman-nomad-allocations-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Deployments API
+  slug: postman-nomad-deployments-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Evaluations API
+  slug: postman-nomad-evaluations-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Jobs API
+  slug: postman-nomad-jobs-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Namespaces API
+  slug: postman-nomad-namespaces-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Node Pools API
+  slug: postman-nomad-node-pools-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Nodes API
+  slug: postman-nomad-nodes-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Operator API
+  slug: postman-nomad-operator-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Regions API
+  slug: postman-nomad-regions-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Scaling API
+  slug: postman-nomad-scaling-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Search API
+  slug: postman-nomad-search-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Service API
+  slug: postman-nomad-service-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Services API
+  slug: postman-nomad-services-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Status API
+  slug: postman-nomad-status-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL System API
+  slug: postman-nomad-system-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Variables API
+  slug: postman-nomad-variables-api
+- collection_type: postman
+  name: HashiCorp Nomad HTTP ACL Volumes API
+  slug: postman-nomad-volumes-api
 - collection_type: open
   name: HashiCorp Nomad HTTP API
   slug: open-nomad-http-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hashicorp-nomad/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -192,12 +255,12 @@ overview: 'HashiCorp Nomad publishes 19 APIs on the [APIs.io](https://apis.io/) 
   The HashiCorp Nomad catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  HashiCorp Nomad''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 8 more developer resources.'
+  HashiCorp Nomad''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Nomad Plans Pricing
   plan_count: 3
   slug: nomad-plans-pricing
-random_paper: 51
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Nomad Rate Limits
@@ -221,18 +284,25 @@ rules:
   slug: nomad-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 3.4
+  composite: 57.3
+  delta: -3.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 80.0
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 52.6
+    contract_quality: 76.6
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 41.7
     operational_transparency: 31.6
-  previous_composite: 57.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/screenshots/nomad-2026-06-20T190354.png
 security:

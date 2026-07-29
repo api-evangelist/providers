@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 61.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -145,12 +147,113 @@ arazzos:
 - description: Resolve key columns, upsert rows idempotently, await the mutation, and verify.
   name: Upsert and reconcile Coda table rows
   slug: coda-project-upsert-rows
-artifact_total: 45
+artifact_total: 77
 asyncapis:
 - description: ''
   name: Coda Project Webhooks
   slug: coda-project-webhooks
+collections:
+- collection_type: postman
+  name: Superhuman Docs Admin Account API
+  slug: postman-coda-project-account-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Analytics API
+  slug: postman-coda-project-analytics-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account API Tokens API
+  slug: postman-coda-project-api-tokens-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Automations API
+  slug: postman-coda-project-automations-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Columns API
+  slug: postman-coda-project-columns-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Controls API
+  slug: postman-coda-project-controls-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account CustomDocDomains API
+  slug: postman-coda-project-customdocdomains-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Doc Export API
+  slug: postman-coda-project-doc-export-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Doc Permissions API
+  slug: postman-coda-project-doc-permissions-api
+- collection_type: postman
+  name: Superhuman Admin Account Docs API
+  slug: postman-coda-project-docs-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Events API
+  slug: postman-coda-project-events-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Folder Permissions API
+  slug: postman-coda-project-folder-permissions-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Folders API
+  slug: postman-coda-project-folders-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Formulas API
+  slug: postman-coda-project-formulas-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Go Links API
+  slug: postman-coda-project-go-links-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Groups API
+  slug: postman-coda-project-groups-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account LegalHolds API
+  slug: postman-coda-project-legalholds-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Miscellaneous API
+  slug: postman-coda-project-miscellaneous-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Organization Users API
+  slug: postman-coda-project-organization-users-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Organizations API
+  slug: postman-coda-project-organizations-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Pack Configurations API
+  slug: postman-coda-project-pack-configurations-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Pack Controls API
+  slug: postman-coda-project-pack-controls-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Packs API
+  slug: postman-coda-project-packs-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Pages API
+  slug: postman-coda-project-pages-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Permissions API
+  slug: postman-coda-project-permissions-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Preferences API
+  slug: postman-coda-project-preferences-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Publishing API
+  slug: postman-coda-project-publishing-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Rows API
+  slug: postman-coda-project-rows-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Tables API
+  slug: postman-coda-project-tables-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Webhooks API
+  slug: postman-coda-project-webhooks-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Workspace Users API
+  slug: postman-coda-project-workspace-users-api
+- collection_type: postman
+  name: Superhuman Docs Admin Account Workspaces API
+  slug: postman-coda-project-workspaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/coda-project/overview
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -325,8 +428,8 @@ overview: 'Coda Project publishes 32 APIs on the [APIs.io](https://apis.io/) net
   The Coda Project catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 55
+  Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 33 more developer resources.'
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Coda Project Rate Limits
@@ -338,18 +441,28 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 60.8
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.9
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 67.6
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 61.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/screenshots/coda-project-2026-07-25T205859.png
 security:

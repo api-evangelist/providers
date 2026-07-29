@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Accounts Payable and Receivable REST API for issuing invoices, accepting crypto and fiat payments, running payroll, and managing organizations and clients. JSON request and response bodies, Bearer
@@ -157,7 +159,7 @@ overview: 'Request Finance publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Request Finance''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Request Rate Limits
@@ -169,23 +171,28 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 50.2
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 22.6
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 68.4
   previous_composite: 47.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 69.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

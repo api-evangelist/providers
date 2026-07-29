@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -67,8 +69,29 @@ apis:
 - description: Supplier management
   name: Oracle Retail Suppliers API
   slug: oracle-retail-suppliers-api
-artifact_total: 42
+artifact_total: 49
 collections:
+- collection_type: postman
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment API
+  slug: postman-oracle-retail-fulfillment-api
+- collection_type: postman
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Inventory API
+  slug: postman-oracle-retail-inventory-api
+- collection_type: postman
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Items API
+  slug: postman-oracle-retail-items-api
+- collection_type: postman
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Orders API
+  slug: postman-oracle-retail-orders-api
+- collection_type: postman
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment PurchaseOrders API
+  slug: postman-oracle-retail-purchaseorders-api
+- collection_type: postman
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Returns API
+  slug: postman-oracle-retail-returns-api
+- collection_type: postman
+  name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Suppliers API
+  slug: postman-oracle-retail-suppliers-api
 - collection_type: open
   name: Oracle Retail Merchandising Foundation Cloud Service API
   slug: open-oracle-retail-merchandising
@@ -76,6 +99,10 @@ collections:
   name: Oracle Retail Order Management Suite Cloud Service API
   slug: open-oracle-retail-order-management
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/oracle-retail/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -244,12 +271,12 @@ overview: 'Oracle Retail publishes 7 APIs on the [APIs.io](https://apis.io/) net
   The Oracle Retail catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Retail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 15 more developer resources.'
+  Oracle Retail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Oracle Retail Plans Pricing
   plan_count: 3
   slug: oracle-retail-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Oracle Retail Rate Limits
@@ -270,18 +297,25 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: strong
-  composite: 60.3
-  delta: 2.0
+  composite: 56.3
+  delta: -4.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.3
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 64.4
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/screenshots/oracle-retail-2026-06-20T191144.png
 security:

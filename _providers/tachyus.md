@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.0
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Daily/monthly production records for a well.
@@ -144,7 +146,7 @@ overview: 'Tachyus publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Tachyus'' developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 17 more developer resources.'
-random_paper: 21
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Tachyus Rate Limits
@@ -156,18 +158,33 @@ scopes:
   summary_line: 6 scopes
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 41.3
+  delta: -0.5
   facets:
     commercial_clarity: 10.5
-    contract_quality: 54.9
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.8
+    developer_ergonomics: 49.5
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 41.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 51.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -104,8 +106,47 @@ arazzos:
 - description: Create a role, read it back, then place it in a node's run list.
   name: Chef Define a Role and Assign It to a Node
   slug: chef-role-assignment-workflow
-artifact_total: 39
+artifact_total: 52
 collections:
+- collection_type: postman
+  name: Chef Automate Channels API
+  slug: postman-chef-channels-api
+- collection_type: postman
+  name: Chef Automate Channels Clients API
+  slug: postman-chef-clients-api
+- collection_type: postman
+  name: Chef Automate Channels Cookbooks API
+  slug: postman-chef-cookbooks-api
+- collection_type: postman
+  name: Chef Automate Channels Data Bags API
+  slug: postman-chef-data-bags-api
+- collection_type: postman
+  name: Chef Automate Channels Environments API
+  slug: postman-chef-environments-api
+- collection_type: postman
+  name: Chef Automate Channels IAM API
+  slug: postman-chef-iam-api
+- collection_type: postman
+  name: Chef Automate Channels Nodes API
+  slug: postman-chef-nodes-api
+- collection_type: postman
+  name: Chef Automate Channels Packages API
+  slug: postman-chef-packages-api
+- collection_type: postman
+  name: Chef Automate Channels Profiles API
+  slug: postman-chef-profiles-api
+- collection_type: postman
+  name: Chef Automate Channels Reports API
+  slug: postman-chef-reports-api
+- collection_type: postman
+  name: Chef Automate Channels Roles API
+  slug: postman-chef-roles-api
+- collection_type: postman
+  name: Chef Automate Channels Scans API
+  slug: postman-chef-scans-api
+- collection_type: postman
+  name: Chef Automate Channels Users API
+  slug: postman-chef-users-api
 - collection_type: open
   name: Chef Automate API
   slug: open-chef-automate-api
@@ -116,6 +157,10 @@ collections:
   name: Chef Infra Server API
   slug: open-chef-infra-server-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/chef/overview
 - group: build
   title: ''
   type: Packages
@@ -313,12 +358,12 @@ overview: 'Chef publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
   The Chef catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chef''s developer surface includes CLI, changelog, authentication, documentation, getting-started guide, engineering blog, GitHub presence, and 33 more developer resources.'
+  Chef''s developer surface includes CLI, changelog, authentication, documentation, getting-started guide, engineering blog, GitHub presence, and 34 more developer resources.'
 plans:
 - name: Chef Plans Pricing
   plan_count: 3
   slug: chef-plans-pricing
-random_paper: 66
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Chef Rate Limits
@@ -334,18 +379,27 @@ rules:
   slug: chef-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.6
-  delta: 2.0
+  composite: 62.6
+  delta: -2.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 55.8
-    developer_ergonomics: 52.2
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 53.4
+    developer_ergonomics: 50.0
+    discoverability: 83.3
+    governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 62.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/screenshots/chef-2026-06-20T174250.png
 security:

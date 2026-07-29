@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Official Carbon Intensity forecast API for Great Britain, developed by NESO in partnership with EDF Europe, University of Oxford, and WWF. Provides 96+ hour ahead national and regional carbon intensit
@@ -101,31 +103,32 @@ plans:
 - name: Neso Data Portal Plans
   plan_count: 1
   slug: neso-data-portal-plans
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Neso Data Portal Rate Limits
   slug: neso-data-portal-rate-limits
 score:
-  band: thin
-  composite: 30.6
-  delta: 0.0
+  band: emerging
+  composite: 25.4
+  delta: -5.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 13.0
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 30.6
   regulatory:
     applies: true
-    regime: Government & Public Sector
-    regime_id: government
-    score: 34.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 21.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-grid/refs/heads/main/screenshots/national-grid-2026-06-20T190017.png
 security:
 - kind: domain-security

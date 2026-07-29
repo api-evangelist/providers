@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 61.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -74,12 +76,44 @@ arazzos:
 - description: Pull a wallet's portfolio, positions, transaction history, and PnL in one flow.
   name: Zerion wallet overview
   slug: zerion-wallet-overview.arazzo
-artifact_total: 19
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Zerion Transactions Webhooks
   slug: zerion-transactions-webhooks
+collections:
+- collection_type: postman
+  name: REST chains API
+  slug: postman-zerion-chains-api
+- collection_type: postman
+  name: REST chains dapps API
+  slug: postman-zerion-dapps-api
+- collection_type: postman
+  name: REST chains fungibles API
+  slug: postman-zerion-fungibles-api
+- collection_type: postman
+  name: REST chains gas API
+  slug: postman-zerion-gas-api
+- collection_type: postman
+  name: REST chains nfts API
+  slug: postman-zerion-nfts-api
+- collection_type: postman
+  name: REST chains subscriptions to transactions API
+  slug: postman-zerion-subscriptions-to-transactions-api
+- collection_type: postman
+  name: REST chains swap API
+  slug: postman-zerion-swap-api
+- collection_type: postman
+  name: REST chains wallet sets API
+  slug: postman-zerion-wallet-sets-api
+- collection_type: postman
+  name: REST chains wallets API
+  slug: postman-zerion-wallets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/zerion/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -230,35 +264,46 @@ overview: 'Zerion publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Zerion catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zerion''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 26 more developer resources.'
+  Zerion''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 27 more developer resources.'
 plans:
 - name: Zerion Plans
   plan_count: 5
   slug: zerion-plans
-random_paper: 51
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Zerion Rate Limits
   slug: zerion-rate-limits
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 59.7
+  delta: -2.2
   facets:
     commercial_clarity: 76.3
-    contract_quality: 71.8
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.3
+    developer_ergonomics: 75.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 36.8
   previous_composite: 61.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

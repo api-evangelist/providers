@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -52,8 +54,28 @@ apis:
 - description: The Tags API from Amazon Mainframe Modernization — 2 operation(s) for tags.
   name: Amazon Mainframe Modernization Tags API
   slug: amazon-mainframe-modernization-tags-api
-artifact_total: 529
+artifact_total: 534
+collections:
+- collection_type: postman
+  name: AWSMainframeModernization Applications API
+  slug: postman-amazon-mainframe-modernization-applications-api
+- collection_type: postman
+  name: AWSMainframeModernization Applications Engine Versions API
+  slug: postman-amazon-mainframe-modernization-engine-versions-api
+- collection_type: postman
+  name: AWSMainframeModernization Applications Environments API
+  slug: postman-amazon-mainframe-modernization-environments-api
+- collection_type: postman
+  name: AWSMainframeModernization Applications Signed Bi Url API
+  slug: postman-amazon-mainframe-modernization-signed-bi-url-api
+- collection_type: postman
+  name: AWSMainframeModernization Applications Tags API
+  slug: postman-amazon-mainframe-modernization-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-mainframe-modernization/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1679,12 +1701,12 @@ overview: 'Amazon Mainframe Modernization publishes 5 APIs on the [APIs.io](http
   The Amazon Mainframe Modernization catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Mainframe Modernization''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Mainframe Modernization''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Mainframe Modernization Plans Pricing
   plan_count: 3
   slug: amazon-mainframe-modernization-plans-pricing
-random_paper: 31
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Amazon Mainframe Modernization Rate Limits
@@ -1708,18 +1730,25 @@ rules:
   slug: amazon-mainframe-modernization-spectral-rules
 score:
   band: exemplar
-  composite: 70.0
-  delta: 0.0
+  composite: 66.4
+  delta: -3.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 72.7
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 73.9
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 70.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/screenshots/amazon-mainframe-modernization-2026-06-20T171731.png
 security:

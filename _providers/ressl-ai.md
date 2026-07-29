@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Discover mock SaaS providers granted to your organization
@@ -137,21 +139,30 @@ overview: 'Ressl publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pr
 
 
   Ressl''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, and 15 more developer resources.'
-random_paper: 52
+random_paper: 30
 score:
   band: thin
   composite: 41.5
   delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 63.7
-    developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 65.3
+    developer_ergonomics: 58.7
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 41.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

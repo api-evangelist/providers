@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -106,16 +108,89 @@ apis:
 - description: 'Access registered users on Lichess. <https://lichess.org/player> - Each user blog exposes an atom (RSS) feed, like <https://lichess.org/@/thibault/blog.atom> - User blogs mashup feed: https://lichess.'
   name: Lichess Users API
   slug: lichess-users-api
-artifact_total: 64
+artifact_total: 87
 asyncapis:
 - description: AsyncAPI description of Lichess's streaming surface. Lichess does NOT expose its public real-time API over WebSocket; instead, streams are delivered over plain HTTPS using chunked transfer encoding, w
   name: Lichess Streaming API
   slug: lichess-asyncapi
 collections:
+- collection_type: postman
+  name: Lichess.org API reference Account API
+  slug: postman-lichess-account-api
+- collection_type: postman
+  name: Lichess.org API reference Account Analysis API
+  slug: postman-lichess-analysis-api
+- collection_type: postman
+  name: Lichess.org API reference Account Board API
+  slug: postman-lichess-board-api
+- collection_type: postman
+  name: Lichess.org API reference Account Bot API
+  slug: postman-lichess-bot-api
+- collection_type: postman
+  name: Lichess.org API reference Account Broadcasts API
+  slug: postman-lichess-broadcasts-api
+- collection_type: postman
+  name: Lichess.org API reference Account Bulk pairings API
+  slug: postman-lichess-bulk-pairings-api
+- collection_type: postman
+  name: Lichess.org API reference Account Challenges API
+  slug: postman-lichess-challenges-api
+- collection_type: postman
+  name: Lichess.org API reference Account External engine API
+  slug: postman-lichess-external-engine-api
+- collection_type: postman
+  name: Lichess.org API reference Account FIDE API
+  slug: postman-lichess-fide-api
+- collection_type: postman
+  name: Lichess.org API reference Account Games API
+  slug: postman-lichess-games-api
+- collection_type: postman
+  name: Lichess.org API reference Account Messaging API
+  slug: postman-lichess-messaging-api
+- collection_type: postman
+  name: Lichess.org API reference Account OAuth API
+  slug: postman-lichess-oauth-api
+- collection_type: postman
+  name: Lichess.org API reference Account Opening Explorer API
+  slug: postman-lichess-opening-explorer-api
+- collection_type: postman
+  name: Lichess.org API reference Account Puzzles API
+  slug: postman-lichess-puzzles-api
+- collection_type: postman
+  name: Lichess.org API reference Account Relations API
+  slug: postman-lichess-relations-api
+- collection_type: postman
+  name: Lichess.org API reference Account Simuls API
+  slug: postman-lichess-simuls-api
+- collection_type: postman
+  name: Lichess.org API reference Account Studies API
+  slug: postman-lichess-studies-api
+- collection_type: postman
+  name: Lichess.org API reference Account Tablebase API
+  slug: postman-lichess-tablebase-api
+- collection_type: postman
+  name: Lichess.org API reference Account Teams API
+  slug: postman-lichess-teams-api
+- collection_type: postman
+  name: Lichess.org API reference Account Tournaments (Arena) API
+  slug: postman-lichess-tournaments-arena-api
+- collection_type: postman
+  name: Lichess.org API reference Account Tournaments (Swiss) API
+  slug: postman-lichess-tournaments-swiss-api
+- collection_type: postman
+  name: Lichess.org API reference Account TV API
+  slug: postman-lichess-tv-api
+- collection_type: postman
+  name: Lichess.org API reference Account Users API
+  slug: postman-lichess-users-api
 - collection_type: open
   name: Lichess.org API reference
   slug: open-lichess
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lichess/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -361,12 +436,12 @@ overview: 'Lichess publishes 23 APIs on the [APIs.io](https://apis.io/) network,
   The Lichess catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Lichess'' developer surface includes authentication, developer portal, documentation, sandbox, tooling, code examples, engineering blog, and 41 more developer resources.'
+  Lichess'' developer surface includes authentication, developer portal, documentation, sandbox, tooling, code examples, engineering blog, and 42 more developer resources.'
 plans:
 - name: Lichess Plans Pricing
   plan_count: 2
   slug: lichess-plans-pricing
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 16
   name: Lichess Rate Limits
@@ -403,19 +478,26 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.2
-  delta: 5.5
+  composite: 60.9
+  delta: -3.3
   facets:
     commercial_clarity: 42.1
-    contract_quality: 85.0
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 60.5
+    contract_quality: 84.8
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 52.6
-  previous_composite: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 64.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/screenshots/lichess-2026-06-20T184507.png
 security:
 - kind: authentication

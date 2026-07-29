@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -91,8 +93,47 @@ apis:
 - description: Pre-built and customer-defined workflow-agent invocations.
   name: AlphaSense Workflow Agents API
   slug: alphasense-workflow-agents-api
-artifact_total: 91
+artifact_total: 104
 collections:
+- collection_type: postman
+  name: AlphaSense Agent Authentication API
+  slug: postman-alphasense-authentication-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Brokers API
+  slug: postman-alphasense-brokers-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Companies API
+  slug: postman-alphasense-companies-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Deep Research API
+  slug: postman-alphasense-deep-research-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Document Search API
+  slug: postman-alphasense-document-search-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Download API
+  slug: postman-alphasense-download-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication GenSearch API
+  slug: postman-alphasense-gensearch-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Ingestion API
+  slug: postman-alphasense-ingestion-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Search API
+  slug: postman-alphasense-search-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Trends API
+  slug: postman-alphasense-trends-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication User API
+  slug: postman-alphasense-user-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Watchlist API
+  slug: postman-alphasense-watchlist-api
+- collection_type: postman
+  name: AlphaSense Agent Authentication Workflow Agents API
+  slug: postman-alphasense-workflow-agents-api
 - collection_type: open
   name: AlphaSense Agent API
   slug: open-alphasense-agent-api
@@ -100,6 +141,10 @@ collections:
   name: AlphaSense Utility APIs
   slug: open-alphasense-utility-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/alphasense/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -331,12 +376,12 @@ overview: 'AlphaSense publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
   The AlphaSense catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AlphaSense''s developer surface includes authentication, documentation, getting-started guide, support, and 17 more developer resources.'
+  AlphaSense''s developer surface includes authentication, documentation, getting-started guide, support, and 18 more developer resources.'
 plans:
 - name: Alphasense Plans Pricing
   plan_count: 6
   slug: alphasense-plans-pricing
-random_paper: 40
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Alphasense Rate Limits
@@ -360,18 +405,25 @@ rules:
   slug: alphasense-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 4.7
+  composite: 57.6
+  delta: -3.4
   facets:
     commercial_clarity: 47.4
-    contract_quality: 73.5
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 56.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/screenshots/alphasense-2026-06-20T171557.png
 security:

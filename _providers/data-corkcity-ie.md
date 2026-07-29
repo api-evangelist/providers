@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: CKAN Action API for Cork City Open Data, ~32 datasets.
@@ -74,30 +76,31 @@ plans:
 - name: Data Corkcity Ie Plans Pricing
   plan_count: 0
   slug: data-corkcity-ie-plans-pricing
-random_paper: 14
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Data Corkcity Ie Rate Limits
   slug: data-corkcity-ie-rate-limits
 score:
   band: minimal
-  composite: 10.1
-  delta: 0.0
+  composite: 8.0
+  delta: -2.1
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 11.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-corkcity-ie/refs/heads/main/screenshots/data-corkcity-ie-2026-06-20T175523.png
 security:

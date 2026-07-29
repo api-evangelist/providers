@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.3
+  scored_at: '2026-07-28'
 api_count: 27
 apis:
 - description: Notification and alerting related endpoints (such as webhooks)
@@ -243,21 +245,30 @@ overview: 'Qwiet Ai publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Qwiet Ai''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 20 more developer resources.'
-random_paper: 53
+random_paper: 31
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 52.5
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.0
+    contract_quality: 63.2
     developer_ergonomics: 82.6
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 53.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

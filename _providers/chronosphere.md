@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: true
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -197,25 +199,32 @@ plans:
 - name: Chronosphere Plans Pricing
   plan_count: 3
   slug: chronosphere-plans-pricing
-random_paper: 4
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Chronosphere Rate Limits
   slug: chronosphere-rate-limits
 score:
   band: thin
-  composite: 32.4
-  delta: 2.0
+  composite: 30.2
+  delta: -2.2
   facets:
     commercial_clarity: 47.4
-    contract_quality: 38.9
+    contract_quality: 36.4
     developer_ergonomics: 10.9
-    discoverability: 62.5
+    discoverability: 46.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 32.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/screenshots/chronosphere-2026-06-20T174330.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 60.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -160,12 +162,139 @@ apis:
 - description: A unified interface that simplifies authentication and authorization across customers, partners, and external SaaS tools.
   name: WorkOS workos-connect API
   slug: workos-workos-connect-api
-artifact_total: 265
+artifact_total: 306
 collections:
+- collection_type: postman
+  name: WorkOS admin-portal API
+  slug: postman-workos-admin-portal-api
+- collection_type: postman
+  name: WorkOS admin-portal api_keys API
+  slug: postman-workos-api-keys-api
+- collection_type: postman
+  name: WorkOS admin-portal application.client-secrets API
+  slug: postman-workos-application-client-secrets-api
+- collection_type: postman
+  name: WorkOS admin-portal applications API
+  slug: postman-workos-applications-api
+- collection_type: postman
+  name: WorkOS admin-portal audit-logs API
+  slug: postman-workos-audit-logs-api
+- collection_type: postman
+  name: WorkOS admin-portal authorization API
+  slug: postman-workos-authorization-api
+- collection_type: postman
+  name: WorkOS admin-portal connections API
+  slug: postman-workos-connections-api
+- collection_type: postman
+  name: WorkOS admin-portal directories API
+  slug: postman-workos-directories-api
+- collection_type: postman
+  name: WorkOS admin-portal directory-groups API
+  slug: postman-workos-directory-groups-api
+- collection_type: postman
+  name: WorkOS admin-portal directory-users API
+  slug: postman-workos-directory-users-api
+- collection_type: postman
+  name: WorkOS admin-portal events API
+  slug: postman-workos-events-api
+- collection_type: postman
+  name: WorkOS admin-portal feature-flags API
+  slug: postman-workos-feature-flags-api
+- collection_type: postman
+  name: WorkOS admin-portal feature-flags.targets API
+  slug: postman-workos-feature-flags-targets-api
+- collection_type: postman
+  name: WorkOS admin-portal groups API
+  slug: postman-workos-groups-api
+- collection_type: postman
+  name: WorkOS admin-portal multi-factor-auth API
+  slug: postman-workos-multi-factor-auth-api
+- collection_type: postman
+  name: WorkOS admin-portal multi-factor-auth.challenges API
+  slug: postman-workos-multi-factor-auth-challenges-api
+- collection_type: postman
+  name: WorkOS admin-portal organization-domains API
+  slug: postman-workos-organization-domains-api
+- collection_type: postman
+  name: WorkOS admin-portal organizations.api_keys API
+  slug: postman-workos-organizations-api-keys-api
+- collection_type: postman
+  name: WorkOS admin-portal organizations API
+  slug: postman-workos-organizations-api
+- collection_type: postman
+  name: WorkOS admin-portal organizations.feature-flags API
+  slug: postman-workos-organizations-feature-flags-api
+- collection_type: postman
+  name: WorkOS admin-portal permissions API
+  slug: postman-workos-permissions-api
+- collection_type: postman
+  name: WorkOS admin-portal pipes API
+  slug: postman-workos-pipes-api
+- collection_type: postman
+  name: WorkOS admin-portal radar API
+  slug: postman-workos-radar-api
+- collection_type: postman
+  name: WorkOS admin-portal sso API
+  slug: postman-workos-sso-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.authentication API
+  slug: postman-workos-user-management-authentication-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.cors-origins API
+  slug: postman-workos-user-management-cors-origins-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.data-providers API
+  slug: postman-workos-user-management-data-providers-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.invitations API
+  slug: postman-workos-user-management-invitations-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.jwt-template API
+  slug: postman-workos-user-management-jwt-template-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.magic-auth API
+  slug: postman-workos-user-management-magic-auth-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.multi-factor-authentication API
+  slug: postman-workos-user-management-multi-factor-authentication-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.organization-membership API
+  slug: postman-workos-user-management-organization-membership-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.organization-membership.groups API
+  slug: postman-workos-user-management-organization-membership-groups-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.redirect-uris API
+  slug: postman-workos-user-management-redirect-uris-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.session-tokens API
+  slug: postman-workos-user-management-session-tokens-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.users API
+  slug: postman-workos-user-management-users-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.users.authorized-applications API
+  slug: postman-workos-user-management-users-authorized-applications-api
+- collection_type: postman
+  name: WorkOS admin-portal user-management.users.feature-flags API
+  slug: postman-workos-user-management-users-feature-flags-api
+- collection_type: postman
+  name: WorkOS admin-portal webhooks API
+  slug: postman-workos-webhooks-api
+- collection_type: postman
+  name: WorkOS admin-portal widgets API
+  slug: postman-workos-widgets-api
+- collection_type: postman
+  name: WorkOS admin-portal workos-connect API
+  slug: postman-workos-workos-connect-api
 - collection_type: open
   name: WorkOS
   slug: open-workos
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/workos/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1071,12 +1200,12 @@ overview: 'WorkOS publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
   The WorkOS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WorkOS''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, CLI, and 65 more developer resources.'
+  WorkOS''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, CLI, and 66 more developer resources.'
 plans:
 - name: Workos Plans Pricing
   plan_count: 7
   slug: workos-plans-pricing
-random_paper: 65
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Workos Rate Limits
@@ -1100,18 +1229,25 @@ rules:
   slug: workos-rules
 score:
   band: strong
-  composite: 68.5
-  delta: 2.5
+  composite: 65.5
+  delta: -3.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 66.5
-    developer_ergonomics: 58.7
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 69.4
+    developer_ergonomics: 63.0
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 66.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 41
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/screenshots/workos-2026-06-20T201614.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 25.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The default API from Salad Transcription API — 2 operation(s) for default.
@@ -129,7 +131,7 @@ plans:
 - name: Salad Transcription Api Plans Pricing
   plan_count: 3
   slug: salad-transcription-api-plans-pricing
-random_paper: 33
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Salad Transcription Api Rate Limits
@@ -153,18 +155,24 @@ rules:
   slug: salad-transcription-api-rules
 score:
   band: developing
-  composite: 55.1
-  delta: 0.0
+  composite: 50.6
+  delta: -4.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 60.2
+    contract_quality: 57.6
     developer_ergonomics: 6.5
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 47.4
   previous_composite: 55.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salad-transcription-api/refs/heads/main/screenshots/salad-transcription-api-2026-06-20T193339.png
 security:

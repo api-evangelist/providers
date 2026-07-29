@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Admin/management REST API for MultiLine, used to connect external applications to a Movius organization. Supports provisioning and managing API users, assigning and reassigning business numbers, confi
@@ -114,21 +116,29 @@ overview: 'Movius publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Movius'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 10 more developer resources.'
-random_paper: 63
+random_paper: 59
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 32.9
+  delta: 1.7
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 79.6
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 31.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

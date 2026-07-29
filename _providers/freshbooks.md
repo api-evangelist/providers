@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -152,7 +154,7 @@ overview: 'FreshBooks publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FreshBooks'' developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 58
+random_paper: 0
 rules:
 - name: FreshBooks API Rules
   rule_count: 6
@@ -164,18 +166,25 @@ rules:
   slug: freshbooks-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 43.0
-  delta: 3.3
+  composite: 39.5
+  delta: -3.5
   facets:
     commercial_clarity: 23.7
-    contract_quality: 57.1
+    contract_quality: 58.9
     developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 5.3
-  previous_composite: 39.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 43.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/screenshots/freshbooks-2026-06-20T181538.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Public-facing presence of the Defense Intelligence Agency, providing organizational information, leadership, careers, news, and links to mission-specific programs. The website is the primary public su
@@ -96,25 +98,25 @@ plans:
 - name: Defense Intelligence Agency Plans Pricing
   plan_count: 3
   slug: defense-intelligence-agency-plans-pricing
-random_paper: 66
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Defense Intelligence Agency Rate Limits
   slug: defense-intelligence-agency-rate-limits
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 21.3
+  delta: -2.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 23.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-intelligence-agency/refs/heads/main/screenshots/defense-intelligence-agency-2026-06-20T175838.png
 security:

@@ -15,41 +15,43 @@
      "name": "Sibill",
      "slug": "sibill",
      "description": "Sibill is an Italian fintech platform that centralizes financial and administrative management for small and medium-sized businesses (PMI). It unifies electronic invoicing (submitted to the Agenzia delle Entrate SDI), treasury and cash-flow monitoring, payments, business accounts and debit cards, and AI-assisted reconciliation of bank transactions against invoices and deadlines. The Sibill Integration API exposes companies, bank accounts, categories, counterparts, documents, payment flows, reconciliations, products and transactions over a REST interface secured with Bearer API keys, with cursor pagination, field expansion, and Document/Flow webhooks. Backed by Creandum.",
-     "score": 52.9,
+     "score": 46.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 63.4,
-      "governance": 0.0,
+      "discoverability": 92.6,
+      "contract_quality": 57.6,
+      "governance": 11.5,
       "operational_transparency": 23.7,
-      "developer_ergonomics": 73.9,
+      "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 54.3
+      "score": 31.6,
+      "matched_via": "tags"
      },
-     "agent_score": 75.9,
-     "agent_band": "agent-native",
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
       "asyncapi_events": true,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 1
     }
@@ -69,41 +71,43 @@
      "slug": "politecnico-di-torino",
      "description": "Politecnico di Torino (PoliTO) is Italy's oldest technical university, founded in 1859 in Turin, and a leading European institution for engineering, architecture, and design, ranked #241 in the QS World University Rankings 2025. Its public developer footprint centers on an official OpenAPI specification (polito/api-spec) for the REST API that powers the official students mobile application, plus an institutional open-data portal publishing academic datasets. Code is published openly under the verified @polito GitHub organization, while the production API itself is consumed by official first-party apps and is not offered as a self-service public developer program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/screenshots/politecnico-di-torino-2026-06-20T191855.png",
-     "score": 42.9,
+     "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 59.9,
-      "governance": 73.7,
+      "discoverability": 64.8,
+      "contract_quality": 58.9,
+      "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 37.0
+      "score": 31.5,
+      "matched_via": "tags"
      },
-     "agent_score": 44.6,
+     "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 2
     },
@@ -112,41 +116,43 @@
      "slug": "university-of-padua",
      "description": "The University of Padua (Università degli Studi di Padova) is a public research university in Padua, Italy, founded in 1222 and ranked #236 in the QS World University Rankings 2025. Its public developer/API footprint is centered on the University Library System (SBA) rather than a single official developer portal: PHAIDRA, the digital-collections platform, exposes a documented REST API (OpenAPI), a IIIF image service, and an OAI-PMH endpoint, while the EPrints-based Padua@Research and Research Data Unipd repositories provide OAI-PMH metadata harvesting. Authentication across university services is delivered through a Shibboleth/SAML Single Sign-On integrated with the IDEM GARR federation and eduGAIN. There is no central institutional GitHub organization for the university as a whole; public code lives in individual lab and department orgs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/screenshots/university-of-padua-2026-06-20T200320.png",
-     "score": 42.1,
+     "score": 37.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 58.6,
-      "governance": 73.7,
+      "discoverability": 64.8,
+      "contract_quality": 59.0,
+      "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 37.0
+      "score": 31.5,
+      "matched_via": "tags"
      },
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 3
     }
@@ -158,34 +164,35 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 15,
-   "shown": 15,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "Bancomat",
      "slug": "bancomat",
      "description": "BANCOMAT S.p.A. is Italy's leading payment network operator managing the PagoBancomat debit card scheme, ATM network, and BANCOMAT Pay mobile payment service. Launched in 1983 for ATM withdrawals and expanded in 1986 with PagoBancomat for PIN-based POS payments, the network underpins Italian electronic payment infrastructure. BANCOMAT Pay, introduced in 2019, enables mobile e-commerce and P2P payments linked to bank accounts via phone number and IBAN.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/screenshots/bancomat-2026-06-20T172935.png",
-     "score": 27.8,
+     "score": 23.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 15.1,
-      "governance": 39.5,
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
+      "governance": 31.3,
       "operational_transparency": 31.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 23.9
+      "score": 13.9,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -195,12 +202,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 4
     },
@@ -209,26 +217,27 @@
      "slug": "politecnico-di-milano",
      "description": "Politecnico di Milano is Italy's largest technical university, focused on engineering, architecture, and design, and ranked #111 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is limited and not consolidated into a single developer portal. The most concrete public API surface is the OAI-PMH metadata endpoint of its IRIS Re.Public@Polimi institutional research repository (CINECA platform), an open data portal at opendata.polimi.it (browse/download, with no documented programmatic API), and a Shibboleth/SAML2 identity provider participating in the Italian IDEM (GARR) federation. Most student-facing service APIs (online services / mobile app backends) are gated behind authentication and are not publicly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/screenshots/politecnico-di-milano-2026-06-20T191910.png",
-     "score": 25.3,
+     "score": 22.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
+      "discoverability": 64.8,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 37.0
+      "score": 31.5,
+      "matched_via": "tags"
      },
-     "agent_score": 15.2,
+     "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -238,12 +247,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 5
     },
@@ -252,26 +262,27 @@
      "slug": "university-of-bologna",
      "description": "The University of Bologna (Alma Mater Studiorum - Università di Bologna) is the oldest university in the Western world and a leading Italian research institution, ranked #133 in the QS World University Rankings 2025. Its public developer and API footprint centers on open data and open scholarship rather than a unified developer portal: a CKAN-based open data portal at dati.unibo.it exposes a standard CKAN Action API over institutional datasets, and the AlmaDL AMS Acta institutional repository (EPrints) exposes an OAI-PMH metadata-harvesting interface. The university also maintains an official open-source GitHub organization. Most administrative, course, and identity systems require institutional credentials and are not openly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bologna/refs/heads/main/screenshots/university-of-bologna-2026-06-20T200136.png",
-     "score": 24.0,
+     "score": 20.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 15.1,
+      "discoverability": 68.5,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 23.9
+      "score": 20.4,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -281,12 +292,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 6
     },
@@ -295,26 +307,27 @@
      "slug": "sapienza-university-of-rome",
      "description": "Sapienza University of Rome (Sapienza Università di Roma) is Italy's largest university and ranked #132 in the QS World University Rankings 2025. Its public machine-readable footprint is centered on research and library data rather than a unified developer portal: the IRIS institutional research catalogue exposes a DSpace OAI-PMH endpoint for harvesting research metadata, and the Sapienza Library System (Sistema Bibliotecario Sapienza) publishes open data and linked data following the 5-star open data model. There is no single official, documented public REST API gateway; identity is federated via the Italian IDEM Shibboleth/SAML federation. A GitHub organization carrying the Sapienza name exists but hosts research and coursework projects rather than official platform APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/screenshots/sapienza-university-of-rome-2026-06-20T193443.png",
-     "score": 21.4,
+     "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 15.1,
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 23.9
+      "score": 20.4,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -324,12 +337,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 7
     },
@@ -338,11 +352,11 @@
      "slug": "dati-comune-milano-it",
      "description": "City of Milan Open Data is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,594 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-milano-it/refs/heads/main/screenshots/dati-comune-milano-it-2026-06-20T175655.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -350,14 +364,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -367,12 +382,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 8
     },
@@ -381,11 +397,11 @@
      "slug": "dati-emilia-romagna-it",
      "description": "dati.emilia-romagna.it is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,851 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-emilia-romagna-it/refs/heads/main/screenshots/dati-emilia-romagna-it-2026-06-20T175659.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -393,14 +409,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -410,12 +427,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 9
     },
@@ -424,11 +442,11 @@
      "slug": "dati-gov-it",
      "description": "dati.gov.it is a national government open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65,388 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-gov-it/refs/heads/main/screenshots/dati-gov-it-2026-06-20T175659.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -436,14 +454,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -453,12 +472,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 10
     },
@@ -467,11 +487,11 @@
      "slug": "dati-toscana-it",
      "description": "Open Data Regione Toscana is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 12,382 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-toscana-it/refs/heads/main/screenshots/dati-toscana-it-2026-06-20T175713.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -479,14 +499,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -496,12 +517,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 11
     },
@@ -510,11 +532,11 @@
      "slug": "dati-trentino-it",
      "description": "Open Data Trentino is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,381 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-trentino-it/refs/heads/main/screenshots/dati-trentino-it-2026-06-20T175707.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -522,14 +544,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -539,12 +562,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 12
     },
@@ -553,11 +577,11 @@
      "slug": "dati-comune-matera-it",
      "description": "Portale Dati aperti del Comune di Matera is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 250 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-matera-it/refs/heads/main/screenshots/dati-comune-matera-it-2026-06-20T175656.png",
-     "score": 18.5,
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -565,14 +589,15 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -582,257 +607,41 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 13
     },
     {
-     "name": "Lazio Open Data",
-     "slug": "dati-lazio-it",
-     "description": "Lazio Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 406 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-lazio-it/refs/heads/main/screenshots/dati-lazio-it-2026-06-20T175706.png",
-     "score": 15.1,
+     "name": "Fibraweb, S.p.a.",
+     "slug": "fibraweb-spa",
+     "description": "Fibraweb S.p.A. is an Italian telecommunications infrastructure operator, founded in 2012 and headquartered in Perugia (Umbria), that designs, builds and operates its own fiber-optic access network for businesses, wholesale operators and public administrations. The company delivers FTTH/FTTB ultra-broadband internet access, dedicated internet access circuits, and local and long-distance voice/telephony services across the Umbria, Marche, Toscana and Lazio regions, with a proprietary network of roughly 1,500 km of fiber reaching 150 industrial zones and the ability to connect over 30,000 companies. Fibraweb is a Battery Ventures portfolio company (investors also include Equiter and GTD Grupo Teleductos) and holds ISO 9001, ISO/IEC 27001 and ISO/IEC 27017 certifications. It was added to the API Evangelist network as a portfolio lead; the company does not currently publish a public developer API, developer portal, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fibraweb-spa/refs/heads/main/screenshots/fibraweb-spa-2026-07-25T214406.png",
+     "score": 13.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
+      "governance": 12.5,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 13.0
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 27.8,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 14
-    },
-    {
-     "name": "Liguria Open Data",
-     "slug": "dati-regione-liguria-it",
-     "description": "Liguria Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 123 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-liguria-it/refs/heads/main/screenshots/dati-regione-liguria-it-2026-06-20T175703.png",
-     "score": 15.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 13.0
-     },
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "Messina Open Data",
-     "slug": "opendata-comune-messina-it",
-     "description": "Messina Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 109 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-messina-it/refs/heads/main/screenshots/opendata-comune-messina-it-2026-06-20T190931.png",
-     "score": 15.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 13.0
-     },
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Modena Open Data",
-     "slug": "opendata-comune-modena-it",
-     "description": "Modena Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 111 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-modena-it/refs/heads/main/screenshots/opendata-comune-modena-it-2026-06-20T190931.png",
-     "score": 15.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 13.0
-     },
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 17
-    },
-    {
-     "name": "Naples Open Data",
-     "slug": "dati-comune-napoli-it",
-     "description": "Naples Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 36 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-napoli-it/refs/heads/main/screenshots/dati-comune-napoli-it-2026-06-20T175659.png",
-     "score": 15.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 13.0
-     },
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 18
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0–14.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 20,
-   "shown": 20,
-   "providers": [
-    {
-     "name": "Pillar",
-     "slug": "pillar",
-     "description": "Pillar is an Italian construction-technology company, founded in 2025 and headquartered in Milan, building what it calls the operating system for the construction industry (il sistema operativo per l'edilizia). Its cloud platform unifies the back office of building firms (imprese edili) — invoicing (fatturazione), cash-flow management (flussi di cassa), bank reconciliation, quotes and estimates (preventivi), procurement, job and project cost control (gestione commessa), and delivery notes and site work reports (DDT e rapportini) — alongside on-site safety (Pillar Sicurezza) and an AI layer (Pillar AI) that automates data entry in real time, including inputs captured from the job site over WhatsApp. Pillar is backed by Earlybird Venture Capital and today reaches customers through a book-a-demo model rather than a public self-serve signup or a developer-facing API; no public API, SDK, or developer documentation surface was found during enrichment.",
-     "score": 14.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -848,20 +657,283 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Lazio Open Data",
+     "slug": "dati-lazio-it",
+     "description": "Lazio Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 406 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-lazio-it/refs/heads/main/screenshots/dati-lazio-it-2026-06-20T175706.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "Liguria Open Data",
+     "slug": "dati-regione-liguria-it",
+     "description": "Liguria Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 123 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-liguria-it/refs/heads/main/screenshots/dati-regione-liguria-it-2026-06-20T175703.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 16
+    },
+    {
+     "name": "Messina Open Data",
+     "slug": "opendata-comune-messina-it",
+     "description": "Messina Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 109 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-messina-it/refs/heads/main/screenshots/opendata-comune-messina-it-2026-06-20T190931.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "Modena Open Data",
+     "slug": "opendata-comune-modena-it",
+     "description": "Modena Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 111 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-modena-it/refs/heads/main/screenshots/opendata-comune-modena-it-2026-06-20T190931.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "Naples Open Data",
+     "slug": "dati-comune-napoli-it",
+     "description": "Naples Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 36 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-napoli-it/refs/heads/main/screenshots/dati-comune-napoli-it-2026-06-20T175659.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 19
+    },
+    {
+     "name": "Pillar",
+     "slug": "pillar",
+     "description": "Pillar is an Italian construction-technology company, founded in 2025 and headquartered in Milan, building what it calls the operating system for the construction industry (il sistema operativo per l'edilizia). Its cloud platform unifies the back office of building firms (imprese edili) — invoicing (fatturazione), cash-flow management (flussi di cassa), bank reconciliation, quotes and estimates (preventivi), procurement, job and project cost control (gestione commessa), and delivery notes and site work reports (DDT e rapportini) — alongside on-site safety (Pillar Sicurezza) and an AI layer (Pillar AI) that automates data entry in real time, including inputs captured from the job site over WhatsApp. Pillar is backed by Earlybird Venture Capital and today reaches customers through a book-a-demo model rather than a public self-serve signup or a developer-facing API; no public API, SDK, or developer documentation surface was found during enrichment.",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 20
     },
     {
      "name": "Brumbrum",
      "slug": "brumbrum",
      "description": "Brumbrum is an Italian online used-car marketplace, part of the pan-European Aramis Group, that sells certified pre-owned vehicles fully online with home delivery, financing, trade-in (permuta), warranty coverage, a 14-day return trial and a best-price guarantee. Vehicles are inspected and reconditioned at its Reggio Emilia facility (300+ quality checks) with retail presence near Milan. Brumbrum is a consumer e-commerce brand rather than an API provider; it publishes no public developer portal, API documentation, or machine-readable API specification. This profile in the API Evangelist network captures the company's public web identity and the security/discovery signals probed from its domain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brumbrum/refs/heads/main/screenshots/brumbrum-2026-07-25T204002.png",
-     "score": 13.6,
-     "band": "minimal",
-     "band_label": "Minimal",
+     "score": 13.0,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 61.1,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 10.5,
@@ -869,9 +941,9 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 6.3,
-     "agent_band": "human-only",
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -885,63 +957,31 @@
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
-      "agent_card": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "LAMMA Toscana Open Data",
-     "slug": "dati-lamma-toscana-it",
-     "description": "LAMMA Toscana Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 184 datasets from Tuscany's meteorological and environmental research agency.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-lamma-toscana-it/refs/heads/main/screenshots/dati-lamma-toscana-it-2026-06-20T175701.png",
-     "score": 12.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 7.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 13.0
-     },
-     "agent_score": 6.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 21
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 17,
+   "shown": 17,
+   "providers": [
     {
      "name": "TIM",
      "slug": "tim-com",
      "description": "TIM S.p.A. (formerly Telecom Italia) is the incumbent Italian telecommunications operator headquartered in Rome and one of the largest telcos in Europe. The group operates fixed and mobile networks across Italy under the TIM Consumer and TIM Enterprise brands, runs TIM Brasil (the second-largest mobile operator in Brazil), and owns a portfolio of technology subsidiaries including Sparkle (international connectivity and quantum-safe infrastructure), Noovle (cloud), Telsy (cybersecurity), and Olivetti (IT services). TIM exposes its mobile network as a programmable platform through the developer.tim.it portal in Italy and through TIM Open Gateway in Brazil, both implementing CAMARA-standard network APIs (SIM Swap, Number Verification, Know Your Customer, IP-to-MSISDN, IP-to- Number, Device Location) jointly defined by the Linux Foundation, TM Forum, and GSMA. These APIs let banks, fintechs, insurers, retailers, and online services authenticate users, detect SIM-swap fraud, verify customer identity, and locate devices using TIM's mobile network as the trust anchor. As of late 2025 TIM Brasil reported 50 million Open Gateway API queries across its catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tim-com/refs/heads/main/screenshots/tim-com-2026-06-20T195400.png",
-     "score": 12.2,
+     "score": 11.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 87.5,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -949,7 +989,14 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 16.7,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -965,20 +1012,66 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 22
+    },
+    {
+     "name": "LAMMA Toscana Open Data",
+     "slug": "dati-lamma-toscana-it",
+     "description": "LAMMA Toscana Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 184 datasets from Tuscany's meteorological and environmental research agency.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-lamma-toscana-it/refs/heads/main/screenshots/dati-lamma-toscana-it-2026-06-20T175701.png",
+     "score": 10.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 23
     },
     {
      "name": "Lecce Open Data",
      "slug": "dati-comune-lecce-it",
      "description": "Lecce Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 480 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-lecce-it/refs/heads/main/screenshots/dati-comune-lecce-it-2026-06-20T175652.png",
-     "score": 11.9,
+     "score": 9.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -986,14 +1079,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1003,25 +1097,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Umbria Region Open Data",
      "slug": "dati-regione-umbria-it",
      "description": "Umbria Region Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 457 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/screenshots/dati-regione-umbria-it-2026-06-20T175707.png",
-     "score": 11.9,
+     "score": 9.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1029,14 +1124,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1046,25 +1142,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Consip Open Data",
      "slug": "dati-consip-it",
      "description": "Consip Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 16 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-consip-it/refs/heads/main/screenshots/dati-consip-it-2026-06-20T175659.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1072,14 +1169,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1089,25 +1187,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Genoa Open Data",
      "slug": "dati-comune-genova-it",
      "description": "Genoa Open Data is a municipal government open-data portal for Italy running CKAN (~163 datasets).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-genova-it/refs/heads/main/screenshots/dati-comune-genova-it-2026-06-20T175653.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1115,14 +1214,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1132,25 +1232,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Maggioli Cloud Open Data",
      "slug": "opendata-maggioli-cloud",
      "description": "Maggioli Cloud Open Data is a organization open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 6,061 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-maggioli-cloud/refs/heads/main/screenshots/opendata-maggioli-cloud-2026-06-20T190943.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1158,14 +1259,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1175,25 +1277,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Rimini Open Data",
      "slug": "dati-comune-rimini-it",
      "description": "Rimini Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 72 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-rimini-it/refs/heads/main/screenshots/dati-comune-rimini-it-2026-06-20T175658.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1201,14 +1304,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1218,25 +1322,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Rome Open Data",
      "slug": "dati-comune-roma-it",
      "description": "Rome Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 365 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-roma-it/refs/heads/main/screenshots/dati-comune-roma-it-2026-06-20T175657.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1244,14 +1349,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1261,25 +1367,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "South Tyrol Civis Open Data",
      "slug": "data-civis-bz-it",
      "description": "South Tyrol Civis Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 938 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-civis-bz-it/refs/heads/main/screenshots/data-civis-bz-it-2026-06-20T175518.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1287,14 +1394,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1304,25 +1412,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "South Tyrol Retecivica Data",
      "slug": "dati-retecivica-bz-it",
      "description": "South Tyrol Retecivica Data is a regional government open-data portal for Italy running CKAN (~938 datasets).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/screenshots/dati-retecivica-bz-it-2026-06-20T175704.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1330,14 +1439,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1347,25 +1457,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Trento Open Data",
      "slug": "opendata-comune-trento-it",
      "description": "Trento Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 0 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-trento-it/refs/heads/main/screenshots/opendata-comune-trento-it-2026-06-20T190933.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1373,14 +1484,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1390,25 +1502,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Turin Open Data",
      "slug": "aperto-comune-torino-it",
      "description": "Turin Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 2,076 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aperto-comune-torino-it/refs/heads/main/screenshots/aperto-comune-torino-it-2026-06-20T172202.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1416,14 +1529,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1433,25 +1547,26 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "University of Bologna Open Data",
      "slug": "dati-unibo-it",
      "description": "University of Bologna Open Data is a university open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 34 datasets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-unibo-it/refs/heads/main/screenshots/dati-unibo-it-2026-06-20T175707.png",
-     "score": 11.6,
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1459,14 +1574,15 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 13.0
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "agent_score": 6.3,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1476,49 +1592,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "Fibraweb, S.p.a.",
-     "slug": "fibraweb-spa",
-     "description": "Fibraweb S.p.A. is an Italian telecommunications infrastructure operator, founded in 2012 and headquartered in Perugia (Umbria), that designs, builds and operates its own fiber-optic access network for businesses, wholesale operators and public administrations. The company delivers FTTH/FTTB ultra-broadband internet access, dedicated internet access circuits, and local and long-distance voice/telephony services across the Umbria, Marche, Toscana and Lazio regions, with a proprietary network of roughly 1,500 km of fiber reaching 150 industrial zones and the ability to connect over 30,000 companies. Fibraweb is a Battery Ventures portfolio company (investors also include Equiter and GTD Grupo Teleductos) and holds ISO 9001, ISO/IEC 27001 and ISO/IEC 27017 certifications. It was added to the API Evangelist network as a portfolio lead; the company does not currently publish a public developer API, developer portal, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fibraweb-spa/refs/heads/main/screenshots/fibraweb-spa-2026-07-25T214406.png",
-     "score": 11.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 35
     },
@@ -1527,11 +1607,11 @@
      "slug": "istante",
      "description": "Istante is an Italian technology company (VAT IT03635230547, based in the Perugia area) that develops and operates Athena, a business-process-automation platform built around a team of specialized AI assistants. Athena covers assistants for communication routing and email classification, credit management and collections, a 24/7 voice/phone assistant, quote and order processing, automated tender monitoring and scoring, outbound lead engagement, contract and legal analysis, and HR and onboarding. It is positioned to collaborate with staff rather than replace them, keeping critical decisions under human oversight, and is offered on a fixed-cost \"Digital Working Units\" (DWU) pricing model rather than variable token pricing. The platform integrates across email, Microsoft Teams, WhatsApp, SMS, and phone, and is presented as GDPR and EU AI Act compliant. Istante was surfaced as a portfolio company of Canaan Partners and added to the API Evangelist network for enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/istante/refs/heads/main/screenshots/istante-2026-07-25T222950.png",
-     "score": 9.7,
+     "score": 8.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1539,7 +1619,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1555,7 +1635,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 36
     },
@@ -1564,11 +1645,11 @@
      "slug": "alba-robot",
      "description": "ALBA Robot is a Turin, Italy based autonomous micro-mobility company building a fleet of self-driving robots for indoor and pedestrian spaces such as airports, hospitals, and large facilities. Its product line includes ALBA One, ALBA Ride, ALBA Ride +, and the ALBA Caddie autonomous baggage transport robot, and it layers digital services such as Digital Twins and Digital Out-of-Home (DOOH) advertising on top of the mobility platform. ALBA Robot runs pilots and deployments with airports including Cagliari, London Gatwick, Dallas, Milan, Turin, and Dubai (with dnata), and operates from Turin with a US presence in Detroit, Michigan. Surfaced as a Techstars portfolio company and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, developer portal, OpenAPI, SDKs, or GitHub organization; it is a hardware/robotics fleet operator rather than an API provider.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alba-robot/refs/heads/main/screenshots/alba-robot-2026-07-25T195539.png",
-     "score": 8.1,
+     "score": 8.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1576,7 +1657,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1592,7 +1673,8 @@
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 37
     },
@@ -1600,11 +1682,11 @@
      "name": "Tutornow",
      "slug": "tutornow",
      "description": "Tutornow (tutornow.it) is an Italian online tutoring platform (\"ripetizioni\") that connects students from elementary school through university with qualified tutors across 150+ subjects, including math, physics, chemistry, and languages. It offers individual and group online lessons starting around €15/hour, homework help, exam and university preparation, academic-recovery programs, and specialized support for students with learning differences (DSA/BES), with 250,000+ lesson hours delivered and 20,000+ tutors across major Italian cities. Tutornow is a consumer (B2C) education service and publishes no public developer API, API documentation, or developer portal — this profile is maintained as a company record in the API Evangelist network.",
-     "score": 6.8,
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -1612,7 +1694,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1628,7 +1710,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 38
     }

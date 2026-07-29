@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
+    mcp_server: derived
+    openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -849,7 +851,7 @@ overview: 'Amazon API Gateway publishes 16 APIs on the [APIs.io](https://apis.io
 
 
   Amazon API Gateway''s developer surface includes authentication, engineering blog, support, developer console, SDKs, status page, documentation, and 27 more developer resources.'
-random_paper: 36
+random_paper: 33
 rules:
 - name: Amazon API Gateway API Rules
   rule_count: 9
@@ -876,19 +878,28 @@ rules:
     warn: 10
   slug: amazon-api-gateway-spectral-rules
 score:
-  band: developing
-  composite: 59.8
-  delta: 0.0
+  band: strong
+  composite: 58.0
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 82.6
-    developer_ergonomics: 47.8
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 83.2
+    developer_ergonomics: 41.3
+    discoverability: 77.8
+    governance: 69.8
     operational_transparency: 5.3
   previous_composite: 59.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png
 security:

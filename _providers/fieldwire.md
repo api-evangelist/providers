@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -124,12 +126,99 @@ apis:
 - description: Account-level user, role, and permission management.
   name: Fieldwire Users API
   slug: fieldwire-users-api
-artifact_total: 52
+artifact_total: 81
 asyncapis:
 - description: Outbound webhook events delivered by Fieldwire to subscriber `post_url` endpoints. Subscribers register through the Webhooks REST API; Fieldwire POSTs JSON payloads describing entity changes (created,
   name: Fieldwire Webhooks
   slug: fieldwire-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Fieldwire Account Actual Costs API
+  slug: postman-fieldwire-actual-costs-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Attachments API
+  slug: postman-fieldwire-attachments-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Authentication API
+  slug: postman-fieldwire-authentication-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Bubbles API
+  slug: postman-fieldwire-bubbles-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Budget Line Items API
+  slug: postman-fieldwire-budget-line-items-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Building Information Models API
+  slug: postman-fieldwire-building-information-models-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Change Orders API
+  slug: postman-fieldwire-change-orders-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Custom Stamps API
+  slug: postman-fieldwire-custom-stamps-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Floorplans API
+  slug: postman-fieldwire-floorplans-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Form Inputs API
+  slug: postman-fieldwire-form-inputs-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Form Records API
+  slug: postman-fieldwire-form-records-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Form Sections API
+  slug: postman-fieldwire-form-sections-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Form Templates API
+  slug: postman-fieldwire-form-templates-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Hyperlinks API
+  slug: postman-fieldwire-hyperlinks-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Markups API
+  slug: postman-fieldwire-markups-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Project Stats API
+  slug: postman-fieldwire-project-stats-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Project Teams API
+  slug: postman-fieldwire-project-teams-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Project Users API
+  slug: postman-fieldwire-project-users-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Projects API
+  slug: postman-fieldwire-projects-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs RFIs API
+  slug: postman-fieldwire-rfis-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs S3 Tokens API
+  slug: postman-fieldwire-s3-tokens-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Sheets API
+  slug: postman-fieldwire-sheets-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Spec Sections API
+  slug: postman-fieldwire-spec-sections-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Submittals API
+  slug: postman-fieldwire-submittals-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Subscriptions API
+  slug: postman-fieldwire-subscriptions-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Task Check Items API
+  slug: postman-fieldwire-task-check-items-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Task Relations API
+  slug: postman-fieldwire-task-relations-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Tasks API
+  slug: postman-fieldwire-tasks-api
+- collection_type: postman
+  name: Fieldwire Account Actual Costs Users API
+  slug: postman-fieldwire-users-api
 - collection_type: open
   name: Fieldwire Account API
   slug: open-fieldwire-account-api
@@ -158,6 +247,10 @@ collections:
   name: Fieldwire Webhooks API
   slug: open-fieldwire-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fieldwire/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -324,12 +417,12 @@ overview: 'Fieldwire publishes 29 APIs on the [APIs.io](https://apis.io/) networ
   The Fieldwire catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Fieldwire''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, changelog, support, and 26 more developer resources.'
+  Fieldwire''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, changelog, support, and 27 more developer resources.'
 plans:
 - name: Fieldwire Plans Pricing
   plan_count: 5
   slug: fieldwire-plans-pricing
-random_paper: 3
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Fieldwire Rate Limits
@@ -361,18 +454,25 @@ rules:
   slug: fieldwire-rules
 score:
   band: strong
-  composite: 62.6
-  delta: 2.6
+  composite: 61.3
+  delta: -1.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 72.7
-    developer_ergonomics: 50.0
-    discoverability: 67.5
-    governance: 60.5
+    contract_quality: 77.4
+    developer_ergonomics: 54.3
+    discoverability: 50.0
+    governance: 47.9
     operational_transparency: 47.4
-  previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/screenshots/fieldwire-2026-06-20T181155.png
 security:

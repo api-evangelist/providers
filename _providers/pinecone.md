@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
-  pricing: paid
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: flavored
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -35,37 +26,60 @@ agentic_access:
   operation_count: 66
   slug: pinecone-agentic-access
   summary_line: 66 operations · 39 acting
-api_count: 9
+api_count: 6
 apis:
-- description: Actions that manage API Keys.
-  name: Pinecone API Keys API
-  slug: pinecone-api-keys-api
-- description: The Bulk Operations API from Pinecone — 2 operation(s) for bulk operations.
-  name: Pinecone Bulk Operations API
-  slug: pinecone-bulk-operations-api
-- description: Model inference
+- description: Use the Database Control API to manage indexes, collections, and backups in Pinecone Database. The control plane handles lifecycle and configuration of vector storage resources.
+  name: Pinecone Database Control API
+  slug: pinecone-database-control
+- description: Use the Database Data API to upsert, query, fetch, update, and delete vector records in Pinecone indexes. The data plane is the high-throughput interface for real-time vector search.
+  name: Pinecone Database Data API
+  slug: pinecone-database-data
+- description: Use the Inference API to generate vector embeddings and rerank results using models hosted on Pinecone's infrastructure.
   name: Pinecone Inference API
-  slug: pinecone-inference-api
-- description: Actions that manage Assistants
-  name: Pinecone Manage Assistants API
-  slug: pinecone-manage-assistants-api
-- description: Actions that manage indexes
-  name: Pinecone Manage Indexes API
-  slug: pinecone-manage-indexes-api
-- description: The Namespace Operations API from Pinecone — 2 operation(s) for namespace operations.
-  name: Pinecone Namespace Operations API
-  slug: pinecone-namespace-operations-api
-- description: Actions that manage organizations.
-  name: Pinecone Organizations API
-  slug: pinecone-organizations-api
-- description: Actions that manage projects.
-  name: Pinecone Projects API
-  slug: pinecone-projects-api
-- description: The Vector Operations API from Pinecone — 10 operation(s) for vector operations.
-  name: Pinecone Vector Operations API
-  slug: pinecone-vector-operations-api
-artifact_total: 218
+  slug: pinecone-inference
+- description: Use the Assistant Control API to create and manage Pinecone Assistants for retrieval-augmented generation (RAG) over your documents.
+  name: Pinecone Assistant Control API
+  slug: pinecone-assistant-control
+- description: Use the Assistant Data API to upload documents to a Pinecone Assistant, ask questions, and receive responses grounded in those documents.
+  name: Pinecone Assistant Data API
+  slug: pinecone-assistant-data
+- description: Use the Admin API to manage Pinecone organizations, projects, API keys, and service accounts at the platform level.
+  name: Pinecone Admin API
+  slug: pinecone-admin
+artifact_total: 224
+collections:
+- collection_type: postman
+  name: Pinecone Admin API Keys API
+  slug: postman-pinecone-api-keys-api
+- collection_type: postman
+  name: Pinecone Admin API Keys Bulk Operations API
+  slug: postman-pinecone-bulk-operations-api
+- collection_type: postman
+  name: Pinecone Admin API Keys Inference API
+  slug: postman-pinecone-inference-api
+- collection_type: postman
+  name: Pinecone Admin API Keys Manage Assistants API
+  slug: postman-pinecone-manage-assistants-api
+- collection_type: postman
+  name: Pinecone Admin API Keys Manage Indexes API
+  slug: postman-pinecone-manage-indexes-api
+- collection_type: postman
+  name: Pinecone Admin API Keys Namespace Operations API
+  slug: postman-pinecone-namespace-operations-api
+- collection_type: postman
+  name: Pinecone Admin API Keys Organizations API
+  slug: postman-pinecone-organizations-api
+- collection_type: postman
+  name: Pinecone Admin API Keys Projects API
+  slug: postman-pinecone-projects-api
+- collection_type: postman
+  name: Pinecone Admin API Keys Vector Operations API
+  slug: postman-pinecone-vector-operations-api
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/pinecone-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -742,18 +756,18 @@ modified: '2026-05-19'
 name: Pinecone
 nav: Providers
 network: true
-overview: 'Pinecone publishes 9 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Bulk Operations API, Inference API, and 6 more. Tagged areas include Vector Databases, AI, Embeddings, and RAG.
+overview: 'Pinecone publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Database Control API, Database Data API, Inference API, and 3 more. Tagged areas include Vector Databases, AI, Embeddings, and RAG.
 
 
   The Pinecone catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Pinecone''s developer surface includes authentication, pricing, engineering blog, documentation, getting-started guide, code examples, changelog, and 15 more developer resources.'
+  Pinecone''s developer surface includes authentication, pricing, engineering blog, documentation, getting-started guide, code examples, changelog, and 16 more developer resources.'
 plans:
 - name: Pinecone Plans Pricing
   plan_count: 4
   slug: pinecone-plans-pricing
-random_paper: 33
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Pinecone Rate Limits
@@ -769,19 +783,26 @@ rules:
   slug: pinecone-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 68.5
-  delta: 0.0
+  composite: 62.9
+  delta: -5.6
   facets:
     commercial_clarity: 92.1
-    contract_quality: 60.3
+    contract_quality: 54.3
     developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 73.7
   previous_composite: 68.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/screenshots/pinecone-2026-06-20T191712.png
 security:
 - kind: authentication

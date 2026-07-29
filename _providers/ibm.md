@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -242,12 +244,37 @@ arazzos:
 - description: Create a trusted profile, attach a SAML claim rule, and verify the trust took effect.
   name: IBM Cloud IAM Set Up a Trusted Profile for Federated Access
   slug: ibm-trusted-profile-federation-workflow
-artifact_total: 99
+artifact_total: 106
 collections:
+- collection_type: postman
+  name: IBM Cloud IAM API Keys API
+  slug: postman-ibm-api-keys-api
+- collection_type: postman
+  name: IBM Cloud IAM API Keys Claim Rules API
+  slug: postman-ibm-claim-rules-api
+- collection_type: postman
+  name: IBM Cloud IAM API Keys Policies API
+  slug: postman-ibm-policies-api
+- collection_type: postman
+  name: IBM Cloud IAM API Keys Roles API
+  slug: postman-ibm-roles-api
+- collection_type: postman
+  name: IBM Cloud IAM API Keys Service IDs API
+  slug: postman-ibm-service-ids-api
+- collection_type: postman
+  name: IBM Cloud IAM API Keys Tokens API
+  slug: postman-ibm-tokens-api
+- collection_type: postman
+  name: IBM Cloud IAM API Keys Trusted Profiles API
+  slug: postman-ibm-trusted-profiles-api
 - collection_type: open
   name: IBM Cloud IAM API
   slug: open-ibm-cloud-iam
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ibm/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -524,7 +551,7 @@ overview: 'IBM publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The IBM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  IBM''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, support, signup flow, and 49 more developer resources.'
+  IBM''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, support, signup flow, and 50 more developer resources.'
 plans:
 - name: Ibm Plans Pricing
   plan_count: 3
@@ -545,7 +572,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence press releases
   url: https://newsroom.ibm.com/press-releases-artificial-intelligence
-random_paper: 40
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Ibm Rate Limits
@@ -566,18 +593,27 @@ scopes:
   summary_line: 7 scopes
 score:
   band: exemplar
-  composite: 72.7
-  delta: 3.8
+  composite: 74.1
+  delta: 1.4
   facets:
     commercial_clarity: 78.9
-    contract_quality: 72.6
-    developer_ergonomics: 65.2
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 74.5
+    developer_ergonomics: 69.6
+    discoverability: 85.2
+    governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 68.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 72.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:

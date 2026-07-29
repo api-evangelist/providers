@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 73.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -90,12 +92,71 @@ apis:
 - description: Sandbox-only endpoint that advances the state of test transfers and other resources so developers can simulate ACH processing, clearing, and failure scenarios on demand rather than waiting for real ba
   name: Dwolla Sandbox Simulations API
   slug: dwolla-sandbox-simulations-api
-artifact_total: 25
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Dwolla Webhooks
   slug: dwolla-webhooks
+collections:
+- collection_type: postman
+  name: Dwolla API - Accounts
+  slug: postman-dwolla-accounts
+- collection_type: postman
+  name: Dwolla API - Beneficial Owners
+  slug: postman-dwolla-beneficial-owners
+- collection_type: postman
+  name: Dwolla API - Client Tokens
+  slug: postman-dwolla-client-tokens
+- collection_type: postman
+  name: Dwolla API - Customers
+  slug: postman-dwolla-customers
+- collection_type: postman
+  name: Dwolla API - Documents
+  slug: postman-dwolla-documents
+- collection_type: postman
+  name: Dwolla API - Events
+  slug: postman-dwolla-events
+- collection_type: postman
+  name: Dwolla API - Exchange Sessions
+  slug: postman-dwolla-exchange-sessions
+- collection_type: postman
+  name: Dwolla API - Exchanges
+  slug: postman-dwolla-exchanges
+- collection_type: postman
+  name: Dwolla API - Funding Sources
+  slug: postman-dwolla-funding-sources
+- collection_type: postman
+  name: Dwolla API - Kba
+  slug: postman-dwolla-kba
+- collection_type: postman
+  name: Dwolla API - Labels
+  slug: postman-dwolla-labels
+- collection_type: postman
+  name: Dwolla API - Mass Payments
+  slug: postman-dwolla-mass-payments
+- collection_type: postman
+  name: Dwolla API - Root
+  slug: postman-dwolla-root
+- collection_type: postman
+  name: Dwolla API - Sandbox Simulations
+  slug: postman-dwolla-sandbox-simulations
+- collection_type: postman
+  name: Dwolla API - Tokens
+  slug: postman-dwolla-tokens
+- collection_type: postman
+  name: Dwolla API - Transfers
+  slug: postman-dwolla-transfers
+- collection_type: postman
+  name: Dwolla API - Webhook Subscriptions
+  slug: postman-dwolla-webhook-subscriptions
+- collection_type: postman
+  name: Dwolla API - Webhooks
+  slug: postman-dwolla-webhooks
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dwolla/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -294,31 +355,42 @@ overview: 'Dwolla publishes 18 APIs on the [APIs.io](https://apis.io/) network, 
   The Dwolla catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 38 more developer resources.'
-random_paper: 31
+  Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 39 more developer resources.'
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Dwolla Rate Limits
   slug: dwolla-rate-limits
 score:
   band: strong
-  composite: 62.5
-  delta: 0.0
+  composite: 59.9
+  delta: -2.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.2
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 68.4
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 62.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 38.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png
 security:

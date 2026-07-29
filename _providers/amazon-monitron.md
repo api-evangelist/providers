@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,8 +48,22 @@ apis:
 - description: The Tags API from Amazon Monitron — 1 operation(s) for tags.
   name: Amazon Monitron Tags API
   slug: amazon-monitron-tags-api
-artifact_total: 39
+artifact_total: 42
+collections:
+- collection_type: postman
+  name: Amazon Monitron ProjectAdmins API
+  slug: postman-amazon-monitron-projectadmins-api
+- collection_type: postman
+  name: Amazon Monitron ProjectAdmins Projects API
+  slug: postman-amazon-monitron-projects-api
+- collection_type: postman
+  name: Amazon Monitron ProjectAdmins Tags API
+  slug: postman-amazon-monitron-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-monitron/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -202,12 +218,12 @@ overview: 'Amazon Monitron publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Amazon Monitron catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Monitron''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon Monitron''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Monitron Plans Pricing
   plan_count: 3
   slug: amazon-monitron-plans-pricing
-random_paper: 13
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Amazon Monitron Rate Limits
@@ -231,19 +247,26 @@ rules:
   slug: amazon-monitron-spectral-rules
 score:
   band: strong
-  composite: 64.1
-  delta: 0.0
+  composite: 57.5
+  delta: -6.6
   facets:
     commercial_clarity: 68.4
-    contract_quality: 64.6
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 52.3
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 64.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/screenshots/amazon-monitron-2026-06-20T171745.png
 security:
 - kind: authentication

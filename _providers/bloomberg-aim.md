@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -91,8 +93,59 @@ apis:
 - description: Manage security universes for data requests
   name: Bloomberg AIM Universes API
   slug: bloomberg-aim-universes-api
-artifact_total: 294
+artifact_total: 311
 collections:
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies API
+  slug: postman-bloomberg-aim-broker-strategies-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Catalogs API
+  slug: postman-bloomberg-aim-catalogs-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Distributions API
+  slug: postman-bloomberg-aim-distributions-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Field Lists API
+  slug: postman-bloomberg-aim-field-lists-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Field Search API
+  slug: postman-bloomberg-aim-field-search-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Fills API
+  slug: postman-bloomberg-aim-fills-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Historical Data API
+  slug: postman-bloomberg-aim-historical-data-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Instruments API
+  slug: postman-bloomberg-aim-instruments-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Intraday Data API
+  slug: postman-bloomberg-aim-intraday-data-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Orders API
+  slug: postman-bloomberg-aim-orders-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Reference Data API
+  slug: postman-bloomberg-aim-reference-data-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Replies API
+  slug: postman-bloomberg-aim-replies-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Requests API
+  slug: postman-bloomberg-aim-requests-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Routes API
+  slug: postman-bloomberg-aim-routes-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Teams API
+  slug: postman-bloomberg-aim-teams-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Triggers API
+  slug: postman-bloomberg-aim-triggers-api
+- collection_type: postman
+  name: Bloomberg Data License API (HAPI) Broker Strategies Universes API
+  slug: postman-bloomberg-aim-universes-api
 - collection_type: open
   name: Bloomberg Data License API (HAPI)
   slug: open-bloomberg-data-license-api
@@ -103,6 +156,10 @@ collections:
   name: Bloomberg HTTP API
   slug: open-bloomberg-http-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bloomberg-aim/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -938,12 +995,12 @@ overview: 'Bloomberg AIM publishes 17 APIs on the [APIs.io](https://apis.io/) ne
   The Bloomberg AIM catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 10 more developer resources.'
+  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 11 more developer resources.'
 plans:
 - name: Bloomberg Aim Plans Pricing
   plan_count: 1
   slug: bloomberg-aim-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Bloomberg Aim Rate Limits
@@ -972,23 +1029,31 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 64.9
-  delta: 1.7
+  composite: 60.8
+  delta: -4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
-    developer_ergonomics: 63.0
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 69.4
+    developer_ergonomics: 67.4
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 63.2
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/screenshots/bloomberg-aim-2026-06-20T173406.png
 security:

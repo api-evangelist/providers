@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -67,8 +69,43 @@ apis:
 - description: The UserSettings API from Amazon WorkSpaces Web — 2 operation(s) for usersettings.
   name: Amazon WorkSpaces Web UserSettings API
   slug: amazon-workspaces-web-usersettings-api
-artifact_total: 503
+artifact_total: 513
+collections:
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings API
+  slug: postman-amazon-workspaces-web-browsersettings-api
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings IdentityProviders API
+  slug: postman-amazon-workspaces-web-identityproviders-api
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings IpAccessSettings API
+  slug: postman-amazon-workspaces-web-ipaccesssettings-api
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings NetworkSettings API
+  slug: postman-amazon-workspaces-web-networksettings-api
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings PortalIdp API
+  slug: postman-amazon-workspaces-web-portalidp-api
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings Portals API
+  slug: postman-amazon-workspaces-web-portals-api
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings Tags API
+  slug: postman-amazon-workspaces-web-tags-api
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings TrustStores API
+  slug: postman-amazon-workspaces-web-truststores-api
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings UserAccessLoggingSettings API
+  slug: postman-amazon-workspaces-web-useraccessloggingsettings-api
+- collection_type: postman
+  name: Amazon WorkSpaces Web BrowserSettings UserSettings API
+  slug: postman-amazon-workspaces-web-usersettings-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-workspaces-web/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1595,12 +1632,12 @@ overview: 'Amazon WorkSpaces Web publishes 10 APIs on the [APIs.io](https://apis
   The Amazon WorkSpaces Web catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon WorkSpaces Web''s developer surface includes authentication, engineering blog, developer portal, documentation, developer console, support, signup flow, and 12 more developer resources.'
+  Amazon WorkSpaces Web''s developer surface includes authentication, engineering blog, developer portal, documentation, developer console, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Workspaces Web Plans Pricing
   plan_count: 3
   slug: amazon-workspaces-web-plans-pricing
-random_paper: 36
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Amazon Workspaces Web Rate Limits
@@ -1624,18 +1661,25 @@ rules:
   slug: amazon-workspaces-web-spectral-rules
 score:
   band: strong
-  composite: 68.9
-  delta: 0.0
+  composite: 65.6
+  delta: -3.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.1
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.2
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 68.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/screenshots/amazon-workspaces-web-2026-06-20T171850.png
 security:

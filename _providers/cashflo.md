@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: true
+    idempotency: documented
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 35.6
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Ingest API from CashFlo — 3 operation(s) for ingest.
@@ -110,26 +112,36 @@ overview: 'CashFlo publishes 1 API on the [APIs.io](https://apis.io/) network: I
 
 
   CashFlo''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 11 more developer resources.'
-random_paper: 56
+random_paper: 43
 score:
   band: thin
-  composite: 43.5
-  delta: 0.0
+  composite: 39.8
+  delta: -3.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 52.2
+    contract_quality: 48.9
     developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 43.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/screenshots/cashflo-2026-07-25T204721.png
 security:

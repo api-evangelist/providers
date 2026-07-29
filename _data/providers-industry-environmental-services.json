@@ -16,19 +16,19 @@
      "slug": "clean-harbors",
      "description": "Clean Harbors is the largest provider of environmental and industrial services in North America, delivering hazardous and non-hazardous waste management, emergency response, industrial cleaning, environmental remediation, and used-oil and solvent recycling through its Safety-Kleen subsidiary. Clean Harbors does not publish a public developer portal or general-purpose REST API surface; programmatic interfaces are limited to the authenticated customer portal at clhsaas.cleanharbors.com (CLH SaaS) for service requests, manifests, and reporting, and partner-mediated EDI feeds. Customers also use the EPA e-Manifest system for federally regulated hazardous-waste manifest tracking.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clean-harbors/refs/heads/main/screenshots/clean-harbors-2026-06-20T174450.png",
-     "score": 17.7,
+     "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 15.1,
+      "discoverability": 50.0,
+      "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 15.8,
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -44,7 +44,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 1
     },
@@ -53,11 +54,11 @@
      "slug": "rollins",
      "description": "Rollins is a major US corporation and Fortune 1000 company. The Rollins API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rollins/refs/heads/main/screenshots/rollins-2026-06-20T193207.png",
-     "score": 15.7,
+     "score": 14.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
@@ -65,8 +66,8 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
-     "agent_score": 6.3,
+     "schema_version": 0.6,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -76,12 +77,13 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 2
     }
@@ -101,11 +103,11 @@
      "slug": "american-water-works",
      "description": "American Water Works Company is the largest publicly traded U.S. water and wastewater utility company, providing drinking water, wastewater, and other related services to approximately 14 million people in more than 1,700 communities across 14 states. The company operates through regulated utility subsidiaries and offers customer self-service through its MyWater online portal and mobile app.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-water-works/refs/heads/main/screenshots/american-water-works-2026-06-20T171919.png",
-     "score": 9.2,
+     "score": 8.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -113,7 +115,14 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 16.2,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -129,7 +138,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 3
     },
@@ -138,11 +148,11 @@
      "slug": "ecolab",
      "description": "Ecolab is a Fortune 500 global leader in water, hygiene, and infection prevention solutions and services. The company helps customers in food, healthcare, hospitality, industrial, and energy markets keep their environments clean, safe, and healthy while protecting people and vital resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecolab/refs/heads/main/screenshots/ecolab-2026-06-20T180448.png",
-     "score": 6.8,
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -150,7 +160,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -166,7 +176,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 4
     },
@@ -175,11 +186,11 @@
      "slug": "xylem",
      "description": "Xylem is a leading global water technology company committed to developing innovative technology solutions to the world's water challenges across the full water cycle.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/screenshots/xylem-2026-06-20T201717.png",
-     "score": 5.8,
+     "score": 4.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.0,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
@@ -187,7 +198,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -203,7 +214,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 5
     },
@@ -212,11 +224,11 @@
      "slug": "veolia",
      "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/veolia/refs/heads/main/screenshots/veolia-2026-06-20T200919.png",
-     "score": 5.2,
+     "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 47.5,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
@@ -224,7 +236,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-28",
-     "schema_version": "0.5.1",
+     "schema_version": 0.6,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -240,7 +252,8 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 6
     }

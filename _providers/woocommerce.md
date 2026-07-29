@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -1052,7 +1054,7 @@ plans:
 - name: Woocommerce Plans Pricing
   plan_count: 4
   slug: woocommerce-plans-pricing
-random_paper: 28
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Woocommerce Rate Limits
@@ -1084,18 +1086,25 @@ rules:
   slug: woocommerce-spectral-rules
 score:
   band: strong
-  composite: 67.7
-  delta: 3.1
+  composite: 63.0
+  delta: -4.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 87.8
+    contract_quality: 83.9
     developer_ergonomics: 65.2
-    discoverability: 80.0
-    governance: 65.8
+    discoverability: 59.3
+    governance: 52.1
     operational_transparency: 68.4
-  previous_composite: 64.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png
 security:

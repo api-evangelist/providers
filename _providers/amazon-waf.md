@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: The Web ACLs API from Amazon WAF — 3 operation(s) for web acls.
   name: Amazon WAF Web ACLs API
   slug: amazon-waf-web-acls-api
-artifact_total: 29
+artifact_total: 32
 collections:
+- collection_type: postman
+  name: Amazon WAF IP Sets API
+  slug: postman-amazon-waf-ip-sets-api
+- collection_type: postman
+  name: Amazon WAF IP Sets Rule Groups API
+  slug: postman-amazon-waf-rule-groups-api
+- collection_type: postman
+  name: Amazon WAF IP Sets Web ACLs API
+  slug: postman-amazon-waf-web-acls-api
 - collection_type: open
   name: Amazon WAF API
   slug: open-amazon-waf
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-waf/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -208,12 +223,12 @@ overview: 'Amazon WAF publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon WAF catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon WAF''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
+  Amazon WAF''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Waf Plans Pricing
   plan_count: 3
   slug: amazon-waf-plans-pricing
-random_paper: 57
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Waf Rate Limits
@@ -237,18 +252,25 @@ rules:
   slug: amazon-waf-spectral-rules
 score:
   band: strong
-  composite: 67.8
-  delta: 4.5
+  composite: 65.3
+  delta: -2.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.0
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 70.3
+    developer_ergonomics: 45.7
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 63.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/screenshots/amazon-waf-2026-06-20T171845.png
 security:

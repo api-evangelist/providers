@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -67,12 +69,46 @@ apis:
 - description: The Workflows API from Torii — 1 operation(s) for workflows.
   name: Torii Workflows API
   slug: torii-workflows-api
-artifact_total: 70
+artifact_total: 80
 collections:
+- collection_type: postman
+  name: Torii Apps API
+  slug: postman-torii-apps-api
+- collection_type: postman
+  name: Torii Apps Audit API
+  slug: postman-torii-audit-api
+- collection_type: postman
+  name: Torii Apps Contracts API
+  slug: postman-torii-contracts-api
+- collection_type: postman
+  name: Torii Apps Files API
+  slug: postman-torii-files-api
+- collection_type: postman
+  name: Torii Apps Metadata API
+  slug: postman-torii-metadata-api
+- collection_type: postman
+  name: Torii Apps Parsings API
+  slug: postman-torii-parsings-api
+- collection_type: postman
+  name: Torii Apps SCIM API
+  slug: postman-torii-scim-api
+- collection_type: postman
+  name: Torii Apps Services API
+  slug: postman-torii-services-api
+- collection_type: postman
+  name: Torii Apps Users API
+  slug: postman-torii-users-api
+- collection_type: postman
+  name: Torii Apps Workflows API
+  slug: postman-torii-workflows-api
 - collection_type: open
   name: Torii API
   slug: open-torii-torii
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/torii/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -247,12 +283,12 @@ overview: 'Torii publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
   The Torii catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Torii''s developer surface includes authentication, documentation, pricing, engineering blog, and 17 more developer resources.'
+  Torii''s developer surface includes authentication, documentation, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Torii Plans Pricing
   plan_count: 3
   slug: torii-plans-pricing
-random_paper: 7
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Torii Rate Limits
@@ -276,18 +312,25 @@ rules:
   slug: torii-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 4.3
+  composite: 61.8
+  delta: -3.4
   facets:
     commercial_clarity: 92.1
-    contract_quality: 76.5
-    developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 77.1
+    developer_ergonomics: 26.1
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/screenshots/torii-2026-06-20T195457.png
 security:

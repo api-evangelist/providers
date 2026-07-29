@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -567,7 +569,7 @@ overview: 'Amadeus Traveler Media publishes 5 APIs on the [APIs.io](https://apis
 
 
   Amadeus Traveler Media''s developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 22 more developer resources.'
-random_paper: 31
+random_paper: 51
 rules:
 - name: Amadeus Traveler Media API Rules
   rule_count: 5
@@ -587,19 +589,28 @@ rules:
   slug: amadeus-traveler-media-spectral-rules
 score:
   band: developing
-  composite: 58.9
-  delta: 0.0
+  composite: 53.9
+  delta: -5.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.5
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 50.0
+    developer_ergonomics: 54.3
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 58.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/screenshots/amadeus-traveler-media-2026-07-25T195907.png
 security:
 - kind: domain-security

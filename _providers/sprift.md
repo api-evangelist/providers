@@ -12,23 +12,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -269,21 +271,31 @@ overview: 'Sprift publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sprift''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, support, engineering blog, and 34 more developer resources.'
-random_paper: 52
+random_paper: 48
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 42.7
+  delta: -3.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.4
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 47.3
+    discoverability: 83.3
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 46.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

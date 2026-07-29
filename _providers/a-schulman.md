@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: High-performance plastic compounds, composites, masterbatches, and specialty powders for automotive, packaging, electronics, agriculture, and consumer goods applications. Products include engineered c
@@ -100,25 +102,25 @@ press:
 - date: '2026-05-25'
   title: Kevin A. Schulman | Stanford Graduate School of Business
   url: https://www.gsb.stanford.edu/faculty-research/faculty/kevin-schulman
-random_paper: 49
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: A Schulman Rate Limits
   slug: a-schulman-rate-limits
 score:
   band: emerging
-  composite: 16.5
-  delta: 0.0
+  composite: 14.5
+  delta: -2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

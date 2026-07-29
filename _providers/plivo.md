@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -109,16 +111,26 @@ apis:
 - description: Send and retrieve SMS, MMS, and WhatsApp messages.
   name: Plivo Message API
   slug: plivo-message-api
-artifact_total: 35
+artifact_total: 37
 asyncapis:
 - description: The Plivo Audio Streaming API delivers near real-time raw audio from active Plivo voice calls to a customer-operated WebSocket server, and (when bidirectional streaming is enabled) accepts audio and c
   name: Plivo Audio Streaming WebSocket API
   slug: plivo-asyncapi
 collections:
+- collection_type: postman
+  name: Plivo Account API
+  slug: postman-plivo-account-api
+- collection_type: postman
+  name: Plivo Account Message API
+  slug: postman-plivo-message-api
 - collection_type: open
   name: Plivo API
   slug: open-plivo
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/plivo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -277,12 +289,12 @@ overview: 'Plivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Plivo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Plivo''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 27 more developer resources.'
+  Plivo''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 28 more developer resources.'
 plans:
 - name: Plivo Plans Pricing
   plan_count: 3
   slug: plivo-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Plivo Rate Limits
@@ -298,19 +310,32 @@ rules:
   slug: plivo-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 66.4
-  delta: 0.8
+  composite: 58.1
+  delta: -8.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 63.6
-    developer_ergonomics: 63.0
-    discoverability: 75.0
-    governance: 60.5
+    contract_quality: 65.0
+    developer_ergonomics: 67.4
+    discoverability: 55.6
+    governance: 47.9
     operational_transparency: 68.4
-  previous_composite: 65.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 66.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 23.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/screenshots/plivo-2026-06-20T191841.png
 security:
 - kind: authentication

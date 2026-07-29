@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: near-conformant
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.0
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: The Agents API from Beyond Presence — 2 operation(s) for agents.
@@ -50,12 +52,38 @@ apis:
 - description: The Sessions API from Beyond Presence — 2 operation(s) for sessions.
   name: Beyond Presence Sessions API
   slug: beyond-presence-sessions-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Beyond Presence Webhooks
   slug: beyond-presence-webhooks
+collections:
+- collection_type: postman
+  name: Fast Agents API
+  slug: postman-beyond-presence-agents-api
+- collection_type: postman
+  name: Fast Agents Authentication API
+  slug: postman-beyond-presence-authentication-api
+- collection_type: postman
+  name: Fast Agents Avatars API
+  slug: postman-beyond-presence-avatars-api
+- collection_type: postman
+  name: Fast Agents Calls API
+  slug: postman-beyond-presence-calls-api
+- collection_type: postman
+  name: Fast Agents External APIs API
+  slug: postman-beyond-presence-external-apis-api
+- collection_type: postman
+  name: Fast Agents Knowledge Files API
+  slug: postman-beyond-presence-knowledge-files-api
+- collection_type: postman
+  name: Fast Agents Sessions API
+  slug: postman-beyond-presence-sessions-api
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/beyond-presence-a2a.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -198,22 +226,31 @@ overview: 'Beyond Presence publishes 7 APIs on the [APIs.io](https://apis.io/) n
   The Beyond Presence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 43
+  Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
+random_paper: 76
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 58.9
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.3
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 68.6
+    developer_ergonomics: 62.5
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 50.0
   previous_composite: 61.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-presence/refs/heads/main/screenshots/beyond-presence-2026-07-25T202842.png
 security:

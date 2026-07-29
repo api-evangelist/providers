@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -110,30 +112,38 @@ plans:
 - name: Diamond Search Plans Pricing
   plan_count: 4
   slug: diamond-search-plans-pricing
-random_paper: 47
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Diamond Search Rate Limits
   slug: diamond-search-rate-limits
 score:
   band: thin
-  composite: 40.9
-  delta: 2.8
+  composite: 39.4
+  delta: -1.5
   facets:
     commercial_clarity: 73.7
-    contract_quality: 48.1
+    contract_quality: 50.3
     developer_ergonomics: 10.9
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 38.1
+  previous_composite: 40.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 43.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/screenshots/diamond-search-2026-06-20T180003.png
 security:

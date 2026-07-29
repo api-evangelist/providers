@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: Operations for retrieving user/employee information.
   name: Absence.io Users API
   slug: absence-io-users-api
-artifact_total: 56
+artifact_total: 63
 collections:
+- collection_type: postman
+  name: Absence.io Absences API
+  slug: postman-absence-io-absences-api
+- collection_type: postman
+  name: Absence.io Absences Allowances API
+  slug: postman-absence-io-allowances-api
+- collection_type: postman
+  name: Absence.io Absences Departments API
+  slug: postman-absence-io-departments-api
+- collection_type: postman
+  name: Absence.io Absences Locations API
+  slug: postman-absence-io-locations-api
+- collection_type: postman
+  name: Absence.io Absences Reason Types API
+  slug: postman-absence-io-reason-types-api
+- collection_type: postman
+  name: Absence.io Absences Timespans API
+  slug: postman-absence-io-timespans-api
+- collection_type: postman
+  name: Absence.io Absences Users API
+  slug: postman-absence-io-users-api
 - collection_type: open
   name: Absence.io API
   slug: open-absence-io
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/absenceio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -235,12 +262,12 @@ overview: 'Absence.io publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Absence.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Absence.io''s developer surface includes authentication, pricing, engineering blog, and 11 more developer resources.'
+  Absence.io''s developer surface includes authentication, pricing, engineering blog, and 12 more developer resources.'
 plans:
 - name: Absence Io Plans Pricing
   plan_count: 3
   slug: absence-io-plans-pricing
-random_paper: 30
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Absence Io Rate Limits
@@ -263,20 +290,27 @@ rules:
     warn: 16
   slug: absence-io-spectral-rules
 score:
-  band: strong
-  composite: 60.1
-  delta: 4.2
+  band: developing
+  composite: 53.9
+  delta: -6.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 82.3
-    developer_ergonomics: 13.0
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 70.3
+    developer_ergonomics: 17.4
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 55.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 60.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/screenshots/absence-io-2026-06-20T163343.png
 security:
 - kind: authentication

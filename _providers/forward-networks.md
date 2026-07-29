@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 2
@@ -230,21 +232,31 @@ overview: 'Forward Networks publishes 20 APIs on the [APIs.io](https://apis.io/)
 
 
   Forward Networks'' developer surface includes documentation, authentication, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 63
+random_paper: 1
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 44.9
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 47.6
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 42.5
+    developer_ergonomics: 47.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 46.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/screenshots/forward-networks-2026-07-25T215024.png
 security:

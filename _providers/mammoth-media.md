@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 58.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST + GraphQL API for TokenBot copy-trading — manage exchange accounts, strategies, copiers, trades, notifications, rewards, withdrawals, API keys, and webhooks. API-key or secp256k1 signed-request a
@@ -177,30 +179,35 @@ overview: 'Mammoth Media publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Mammoth Media''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, CLI, and 23 more developer resources.'
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Mammoth Media Rate Limits
   slug: mammoth-media-rate-limits
 score:
-  band: thin
-  composite: 44.2
-  delta: 0.0
+  band: developing
+  composite: 47.5
+  delta: 3.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
-    developer_ergonomics: 84.8
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 79.9
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 28.9
   previous_composite: 44.2
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/screenshots/mammoth-media-2026-07-25T230015.png
 security:

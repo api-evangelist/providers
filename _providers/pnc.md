@@ -11,13 +11,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -25,9 +27,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 6.3
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Account Verification Services API from PNC's developer portal for confirming the ownership and status of bank accounts before disbursing or collecting funds, helping corporate and institutional client
@@ -123,26 +125,27 @@ overview: 'PNC publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PNC''s developer surface includes documentation, engineering blog, support, and 12 more developer resources.'
-random_paper: 49
+random_paper: 13
 score:
   band: emerging
-  composite: 23.4
-  delta: 0.0
+  composite: 19.6
+  delta: -3.8
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 87.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 23.4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 25.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pnc/refs/heads/main/screenshots/pnc-2026-06-20T191824.png
 security:

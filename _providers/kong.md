@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -454,8 +456,404 @@ apis:
 - description: 'The workspace object describes the workspace entity, which has an ID and a name. <br><br> Workspaces provide a way to segment Kong Gateway entities. Entities in a workspace are isolated from those in '
   name: Kong Workspaces API
   slug: kong-workspaces-api
-artifact_total: 1519
+artifact_total: 1651
 collections:
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API
+  slug: postman-kong-acls-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Add-Ons API
+  slug: postman-kong-add-ons-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API API
+  slug: postman-kong-api-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Attributes API
+  slug: postman-kong-api-attributes-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Documentation API
+  slug: postman-kong-api-documentation-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Image API
+  slug: postman-kong-api-image-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Implementation API
+  slug: postman-kong-api-implementation-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API-keys API
+  slug: postman-kong-api-keys-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Operations API
+  slug: postman-kong-api-operations-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Package Documentation API
+  slug: postman-kong-api-package-documentation-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Package Image API
+  slug: postman-kong-api-package-image-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Package Operations API
+  slug: postman-kong-api-package-operations-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Package Specification API
+  slug: postman-kong-api-package-specification-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Packages API
+  slug: postman-kong-api-packages-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Publication API
+  slug: postman-kong-api-publication-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Specification API
+  slug: postman-kong-api-specification-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs API Version API
+  slug: postman-kong-api-version-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs App Auth Strategies API
+  slug: postman-kong-app-auth-strategies-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Application Registrations API
+  slug: postman-kong-application-registrations-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Applications API
+  slug: postman-kong-applications-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Assets API
+  slug: postman-kong-assets-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Auth Settings API
+  slug: postman-kong-auth-settings-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Authentication API
+  slug: postman-kong-authentication-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Basic-auth credentials API
+  slug: postman-kong-basic-auth-credentials-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs CA Certificates API
+  slug: postman-kong-ca-certificates-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Catalog Integrations API
+  slug: postman-kong-catalog-integrations-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Catalog Resource Mappings API
+  slug: postman-kong-catalog-resource-mappings-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Catalog Resource Services API
+  slug: postman-kong-catalog-resource-services-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Catalog Resources API
+  slug: postman-kong-catalog-resources-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Catalog Service API Mappings API
+  slug: postman-kong-catalog-service-api-mappings-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Catalog Service Resources API
+  slug: postman-kong-catalog-service-resources-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Catalog Services API
+  slug: postman-kong-catalog-services-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Certificates API
+  slug: postman-kong-certificates-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Cloud Gateways Resource Quotas API
+  slug: postman-kong-cloud-gateways-resource-quotas-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Config Store Secrets API
+  slug: postman-kong-config-store-secrets-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Config Stores API
+  slug: postman-kong-config-stores-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Consumer Groups API
+  slug: postman-kong-consumer-groups-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Consumers API
+  slug: postman-kong-consumers-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Control Plane Groups API
+  slug: postman-kong-control-plane-groups-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Control Planes API
+  slug: postman-kong-control-planes-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Criteria Templates API
+  slug: postman-kong-criteria-templates-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Custom Domains API
+  slug: postman-kong-custom-domains-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Custom Plugin Schemas API
+  slug: postman-kong-custom-plugin-schemas-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs CustomPlugins API
+  slug: postman-kong-customplugins-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Dashboards API
+  slug: postman-kong-dashboards-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Data-Plane Group Configurations API
+  slug: postman-kong-data-plane-group-configurations-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs DCR Providers API
+  slug: postman-kong-dcr-providers-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Degraphql_routes API
+  slug: postman-kong-degraphql-routes-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs DP Certificates API
+  slug: postman-kong-dp-certificates-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs DP Nodes API
+  slug: postman-kong-dp-nodes-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Backend Clusters API
+  slug: postman-kong-event-gateway-backend-clusters-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway DataPlane Certificates API
+  slug: postman-kong-event-gateway-dataplane-certificates-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Listener Policies API
+  slug: postman-kong-event-gateway-listener-policies-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Listeners API
+  slug: postman-kong-event-gateway-listeners-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Nodes API
+  slug: postman-kong-event-gateway-nodes-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Schema Registries API
+  slug: postman-kong-event-gateway-schema-registries-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Static Keys API
+  slug: postman-kong-event-gateway-static-keys-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway TLS Trust Bundles API
+  slug: postman-kong-event-gateway-tls-trust-bundles-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Virtual Cluster Consume Policies API
+  slug: postman-kong-event-gateway-virtual-cluster-consume-policies-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Virtual Cluster Policies API
+  slug: postman-kong-event-gateway-virtual-cluster-policies-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Virtual Cluster Produce Policies API
+  slug: postman-kong-event-gateway-virtual-cluster-produce-policies-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateway Virtual Clusters API
+  slug: postman-kong-event-gateway-virtual-clusters-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Event Gateways API
+  slug: postman-kong-event-gateways-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs GraphQL Cost Decorations API
+  slug: postman-kong-graphql-cost-decorations-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Groups API
+  slug: postman-kong-groups-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs HMAC-auth credentials API
+  slug: postman-kong-hmac-auth-credentials-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Impersonation Settings API
+  slug: postman-kong-impersonation-settings-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Integration Instance Auth Config API
+  slug: postman-kong-integration-instance-auth-config-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Integration Instance Auth Credentials API
+  slug: postman-kong-integration-instance-auth-credentials-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Integration Instances API
+  slug: postman-kong-integration-instances-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Invites API
+  slug: postman-kong-invites-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs JWTs API
+  slug: postman-kong-jwts-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Keys API
+  slug: postman-kong-keys-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs KeySets API
+  slug: postman-kong-keysets-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs MCP Servers API
+  slug: postman-kong-mcp-servers-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Me API
+  slug: postman-kong-me-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Metering Events API
+  slug: postman-kong-metering-events-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Meters API
+  slug: postman-kong-meters-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs MTLS-auth credentials API
+  slug: postman-kong-mtls-auth-credentials-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Networks API
+  slug: postman-kong-networks-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Notifications API
+  slug: postman-kong-notifications-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs OpenMeter Apps API
+  slug: postman-kong-openmeter-apps-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs OpenMeter Billing API
+  slug: postman-kong-openmeter-billing-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs OpenMeter Customers API
+  slug: postman-kong-openmeter-customers-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs OpenMeter Entitlements API
+  slug: postman-kong-openmeter-entitlements-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs OpenMeter Subscriptions API
+  slug: postman-kong-openmeter-subscriptions-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Pages API
+  slug: postman-kong-pages-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Partial Links API
+  slug: postman-kong-partial-links-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Partials API
+  slug: postman-kong-partials-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Personal Access Tokens API
+  slug: postman-kong-personal-access-tokens-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Plugins API
+  slug: postman-kong-plugins-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Audit Logs API
+  slug: postman-kong-portal-audit-logs-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Auth Settings API
+  slug: postman-kong-portal-auth-settings-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Custom Domains API
+  slug: postman-kong-portal-custom-domains-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Customization API
+  slug: postman-kong-portal-customization-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Developers API
+  slug: postman-kong-portal-developers-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Emails API
+  slug: postman-kong-portal-emails-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Integrations API
+  slug: postman-kong-portal-integrations-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Team Membership API
+  slug: postman-kong-portal-team-membership-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Team Roles API
+  slug: postman-kong-portal-team-roles-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portal Teams API
+  slug: postman-kong-portal-teams-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portals API
+  slug: postman-kong-portals-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Portals IP Allow List API
+  slug: postman-kong-portals-ip-allow-list-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Private DNS API
+  slug: postman-kong-private-dns-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Provider Accounts API
+  slug: postman-kong-provider-accounts-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs RBACRoleEndpoints API
+  slug: postman-kong-rbacroleendpoints-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs RBACRoleEntities API
+  slug: postman-kong-rbacroleentities-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs RBACRoles API
+  slug: postman-kong-rbacroles-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs RBACUserGroups API
+  slug: postman-kong-rbacusergroups-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs RBACUserRoles API
+  slug: postman-kong-rbacuserroles-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs RBACUsers API
+  slug: postman-kong-rbacusers-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Resource Availability API
+  slug: postman-kong-resource-availability-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Resource Configurations API
+  slug: postman-kong-resource-configurations-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Roles API
+  slug: postman-kong-roles-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Routes API
+  slug: postman-kong-routes-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Schemas API
+  slug: postman-kong-schemas-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Scorecards API
+  slug: postman-kong-scorecards-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Services API
+  slug: postman-kong-services-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Snippets API
+  slug: postman-kong-snippets-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs SNIs API
+  slug: postman-kong-snis-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs System Accounts - Access Tokens API
+  slug: postman-kong-system-accounts-access-tokens-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs System Accounts API
+  slug: postman-kong-system-accounts-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs System Accounts - Roles API
+  slug: postman-kong-system-accounts-roles-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs System Accounts - Team Membership API
+  slug: postman-kong-system-accounts-team-membership-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Targets API
+  slug: postman-kong-targets-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Team Membership API
+  slug: postman-kong-team-membership-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Teams API
+  slug: postman-kong-teams-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Transit Gateways API
+  slug: postman-kong-transit-gateways-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Upstreams API
+  slug: postman-kong-upstreams-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Users API
+  slug: postman-kong-users-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Vaults API
+  slug: postman-kong-vaults-api
+- collection_type: postman
+  name: Kong Enterprise Admin ACLs Workspaces API
+  slug: postman-kong-workspaces-api
 - collection_type: open
   name: Kong Enterprise Admin API
   slug: open-kong-gateway-admin-api
@@ -463,6 +861,10 @@ collections:
   name: Konnect API - Go SDK
   slug: open-kong-konnect-platform-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kong/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4650,12 +5052,12 @@ overview: 'Kong publishes 132 APIs on the [APIs.io](https://apis.io/) network, i
   The Kong catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 15 more developer resources.'
+  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 16 more developer resources.'
 plans:
 - name: Kong Plans Pricing
   plan_count: 6
   slug: kong-plans-pricing
-random_paper: 23
+random_paper: 46
 rate_limits:
 - limit_count: 10
   name: Kong Rate Limits
@@ -4679,18 +5081,25 @@ rules:
   slug: kong-spectral-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 2.6
+  composite: 58.7
+  delta: -4.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.8
-    developer_ergonomics: 58.7
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 65.4
+    developer_ergonomics: 63.0
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 132
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:

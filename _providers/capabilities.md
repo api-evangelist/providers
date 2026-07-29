@@ -20,7 +20,7 @@ modified: '2026-04-23'
 name: Capabilities
 nav: Providers
 network: true
-random_paper: 34
+random_paper: 26
 slug: capabilities
 tags:
 - API Capabilities

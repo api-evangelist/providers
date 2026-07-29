@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -214,7 +216,7 @@ plans:
 - name: Finnhub Plans Pricing
   plan_count: 3
   slug: finnhub-plans-pricing
-random_paper: 66
+random_paper: 53
 rate_limits:
 - limit_count: 6
   name: Finnhub Rate Limits
@@ -230,23 +232,34 @@ rules:
   slug: finnhub-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 58.1
-  delta: 2.8
+  composite: 55.4
+  delta: -2.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.0
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 52.6
+    developer_ergonomics: 45.1
+    discoverability: 92.6
+    governance: 53.1
     operational_transparency: 36.8
-  previous_composite: 55.3
+  previous_composite: 58.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 87.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 45.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/screenshots/finnhub-2026-06-20T181219.png
 security:

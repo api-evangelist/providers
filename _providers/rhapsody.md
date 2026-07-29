@@ -11,13 +11,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -25,9 +27,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Rhapsody's flagship healthcare integration engine, connecting systems across FHIR, HL7 v2, REST, CDA, X12/EDI, SQL, DICOM, AMQP, and MCP from a single platform, with a REST administration/management A
@@ -120,26 +122,29 @@ overview: 'Rhapsody publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Rhapsody''s developer surface includes authentication, documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 58
+random_paper: 27
 score:
-  band: thin
-  composite: 30.5
-  delta: 0.0
+  band: emerging
+  composite: 27.9
+  delta: -2.6
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 72.2
+    governance: 12.5
     operational_transparency: 10.5
   previous_composite: 30.5
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 47.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

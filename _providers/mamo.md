@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 37.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 api_count: 12
 apis:
 - description: The Business Details API from Mamo — 2 operation(s) for business details.
@@ -65,12 +67,53 @@ apis:
 - description: The Webhooks API from Mamo — 2 operation(s) for webhooks.
   name: Mamo Webhooks API
   slug: mamo-webhooks-api
-artifact_total: 17
+artifact_total: 29
 asyncapis:
 - description: Webhook event surface for the Mamo Business API. Merchants register a webhook URL via POST /webhooks with a set of enabled_events; Mamo POSTs a JSON event payload to that URL when the corresponding ev
   name: Mamo Business Webhooks
   slug: mamo-webhooks-asyncapi
+collections:
+- collection_type: postman
+  name: Mamo Business Business Details API
+  slug: postman-mamo-business-details-api
+- collection_type: postman
+  name: Mamo Business Business Details Cards API
+  slug: postman-mamo-cards-api
+- collection_type: postman
+  name: Mamo Business Business Details Expenses API
+  slug: postman-mamo-expenses-api
+- collection_type: postman
+  name: Mamo Business Business Details Getting Started API
+  slug: postman-mamo-getting-started-api
+- collection_type: postman
+  name: Mamo Business Business Details Invoices API
+  slug: postman-mamo-invoices-api
+- collection_type: postman
+  name: Mamo Business Business Details Payment Links API
+  slug: postman-mamo-payment-links-api
+- collection_type: postman
+  name: Mamo Business Business Details Payouts API
+  slug: postman-mamo-payouts-api
+- collection_type: postman
+  name: Mamo Business Business Details Receipts API
+  slug: postman-mamo-receipts-api
+- collection_type: postman
+  name: Mamo Business Business Details Recipients API
+  slug: postman-mamo-recipients-api
+- collection_type: postman
+  name: Mamo Business Business Details Subscriptions API
+  slug: postman-mamo-subscriptions-api
+- collection_type: postman
+  name: Mamo Business Business Details Transactions API
+  slug: postman-mamo-transactions-api
+- collection_type: postman
+  name: Mamo Business Business Details Webhooks API
+  slug: postman-mamo-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mamo/overview
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -193,27 +236,37 @@ overview: 'Mamo publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
   The Mamo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 20 more developer resources.'
-random_paper: 18
+  Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
+random_paper: 41
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 60.8
+  delta: 0.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.8
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 71.1
+    developer_ergonomics: 64.7
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 47.4
   previous_composite: 60.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 67.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/screenshots/mamo-2026-07-25T230010.png
 security:

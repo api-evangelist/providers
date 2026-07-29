@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -58,12 +60,33 @@ apis:
 - description: The Write API from DeepL — 1 operation(s) for write.
   name: DeepL Write API
   slug: deepl-write-api
-artifact_total: 24
+artifact_total: 31
 asyncapis:
 - description: WebSocket streaming API for real-time voice transcription and translation. After obtaining a streaming URL and token via the REST API (POST /v3/voice/realtime), establish a WebSocket connection to str
   name: DeepL Voice API - WebSocket Streaming
   slug: deepl-voice-api-asyncapi
 collections:
+- collection_type: postman
+  name: DeepL Translation Documents API
+  slug: postman-deepl-documents-api
+- collection_type: postman
+  name: DeepL Translation Documents Glossaries API
+  slug: postman-deepl-glossaries-api
+- collection_type: postman
+  name: DeepL Translation Documents Languages API
+  slug: postman-deepl-languages-api
+- collection_type: postman
+  name: DeepL Translation Documents Translate API
+  slug: postman-deepl-translate-api
+- collection_type: postman
+  name: DeepL Translation Documents Usage API
+  slug: postman-deepl-usage-api
+- collection_type: postman
+  name: DeepL Translation Documents Voice API
+  slug: postman-deepl-voice-api
+- collection_type: postman
+  name: DeepL Translation Documents Write API
+  slug: postman-deepl-write-api
 - collection_type: open
   name: DeepL Translation API
   slug: open-deepl-translation-api
@@ -71,6 +94,10 @@ collections:
   name: DeepL Voice API
   slug: open-deepl-voice-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/deepl/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -177,12 +204,12 @@ overview: 'DeepL publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The DeepL catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  DeepL''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 14 more developer resources.'
+  DeepL''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 15 more developer resources.'
 plans:
 - name: Deepl Plans Pricing
   plan_count: 3
   slug: deepl-plans-pricing
-random_paper: 46
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Deepl Rate Limits
@@ -214,19 +241,26 @@ rules:
   slug: deepl-translation-api-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 5.5
+  composite: 60.9
+  delta: -3.1
   facets:
     commercial_clarity: 78.9
-    contract_quality: 75.2
-    developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 65.8
+    contract_quality: 76.3
+    developer_ergonomics: 41.3
+    discoverability: 74.1
+    governance: 52.1
     operational_transparency: 31.6
-  previous_composite: 58.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 64.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/screenshots/deepl-2026-06-20T175808.png
 security:
 - kind: authentication

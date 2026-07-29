@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 4
@@ -223,31 +225,37 @@ overview: 'Modulr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Modulr''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 29 more developer resources.'
-random_paper: 47
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Modulr Rate Limits
   slug: modulr-rate-limits
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 47.7
+  delta: -5.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.4
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 75.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 65.8
   previous_composite: 52.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Modulr Authentication

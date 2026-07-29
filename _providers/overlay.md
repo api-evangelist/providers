@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: CoinGecko/CMC-style aggregator market-data feed.
@@ -140,26 +142,36 @@ overview: 'Overlay publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Overlay''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
-random_paper: 22
+random_paper: 0
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 31.6
+  delta: -4.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 52.8
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 39.8
+    developer_ergonomics: 54.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 36.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 28.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

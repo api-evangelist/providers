@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -281,7 +283,7 @@ plans:
 - name: Us African Development Foundation Plans Pricing
   plan_count: 3
   slug: us-african-development-foundation-plans-pricing
-random_paper: 25
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Us African Development Foundation Rate Limits
@@ -305,19 +307,26 @@ rules:
   slug: us-african-development-foundation-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 5.4
+  composite: 45.8
+  delta: -7.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 74.3
+    contract_quality: 62.7
     developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 48.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 53.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/screenshots/us-african-development-foundation-2026-06-20T200541.png
 security:
 - kind: domain-security

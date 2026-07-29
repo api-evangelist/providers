@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -91,8 +93,53 @@ apis:
 - description: Web service operations for time entry, timesheet management, time calculations, and clock-in/clock-out records.
   name: Workday Studio Time Tracking API
   slug: workday-studio-time-tracking-api
-artifact_total: 102
+artifact_total: 117
 collections:
+- collection_type: postman
+  name: Workday Studio Integration Absence Management API
+  slug: postman-workday-studio-absence-management-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Benefits Administration API
+  slug: postman-workday-studio-benefits-administration-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Compensation API
+  slug: postman-workday-studio-compensation-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Financial Management API
+  slug: postman-workday-studio-financial-management-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Human Resources API
+  slug: postman-workday-studio-human-resources-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Integration Assemblies API
+  slug: postman-workday-studio-integration-assemblies-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Integration Events API
+  slug: postman-workday-studio-integration-events-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Integration Systems API
+  slug: postman-workday-studio-integration-systems-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Integration Templates API
+  slug: postman-workday-studio-integration-templates-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Launch Parameters API
+  slug: postman-workday-studio-launch-parameters-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Payroll API
+  slug: postman-workday-studio-payroll-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Recruiting API
+  slug: postman-workday-studio-recruiting-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Service Directory API
+  slug: postman-workday-studio-service-directory-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Staffing API
+  slug: postman-workday-studio-staffing-api
+- collection_type: postman
+  name: Workday Studio Integration Absence Management Time Tracking API
+  slug: postman-workday-studio-time-tracking-api
 - collection_type: open
   name: Workday Studio Integration API
   slug: open-workday-studio-integration
@@ -100,6 +147,10 @@ collections:
   name: Workday Studio Workday Web Services API
   slug: open-workday-studio-web-services
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/workday-studio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -387,12 +438,12 @@ overview: 'Workday Studio publishes 15 APIs on the [APIs.io](https://apis.io/) n
   The Workday Studio catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Workday Studio''s developer surface includes authentication, developer portal, developer console, signup flow, documentation, getting-started guide, API reference, and 20 more developer resources.'
+  Workday Studio''s developer surface includes authentication, developer portal, developer console, signup flow, documentation, getting-started guide, API reference, and 21 more developer resources.'
 plans:
 - name: Workday Studio Plans Pricing
   plan_count: 1
   slug: workday-studio-plans-pricing
-random_paper: 50
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Workday Studio Rate Limits
@@ -421,18 +472,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.4
-  delta: 0.8
+  composite: 60.5
+  delta: -3.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 60.2
-    developer_ergonomics: 58.7
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 57.6
+    developer_ergonomics: 63.0
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 63.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/screenshots/workday-studio-2026-06-20T201611.png
 security:

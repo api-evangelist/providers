@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 15.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Monitor and retrieve data across social platforms (X, Instagram, Intercom, and more); apply filters, configure alerts, and track API usage.
@@ -176,22 +178,24 @@ overview: 'Lucidya Ltd publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Lucidya Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 20 more developer resources.'
-random_paper: 28
+random_paper: 38
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 52.3
+  delta: 6.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 81.5
+    governance: 12.5
     operational_transparency: 55.3
   previous_composite: 45.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png
 security:
 - kind: authentication

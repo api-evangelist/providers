@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: flavored
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -35,14 +26,83 @@ agentic_access:
   operation_count: 3118
   slug: cloudflare-agentic-access
   summary_line: 3118 operations · 1576 acting · 52 human-in-the-loop
-api_count: 87
+api_count: 54
 apis:
+- description: Easily integrate with Cloudflare's products and services using the Cloudflare API. Authentication is essential when utilizing the API to ensure proper authorization and access control. Generate an API
+  name: Cloudflare API
+  slug: cloudflare-api
+- description: Managing all the details of your Cloudflare Account using the API.
+  name: Cloudflare Accounts API
+  slug: cloudflare-accounts-api
+- description: Managing certificates used across Cloudflare.
+  name: Cloudflare Certificates API
+  slug: cloudflare-certificates-api
+- description: Provides the ability to manage IP addresses used across a Cloudflare account.
+  name: Cloudflare IP Addresses API
+  slug: cloudflare-ip-addresses-api
+- description: Provides the ability to manage memberships across accounts.
+  name: Cloudflare Memberships API
+  slug: cloudflare-memberships-api
+- description: Provides the ability to access all of Cloudflare's radar capabilities.
+  name: Cloudflare Radar API
+  slug: cloudflare-radar-api
+- description: Provides the ability to manage all of the users across a Cloudflare account.
+  name: Cloudflare User API
+  slug: cloudflare-user-api
+- description: Provides the ability to manage DNS Zones across the Cloudflare platform.
+  name: Cloudflare Zones API
+  slug: cloudflare-zones-api
+- description: The Cloudflare DNS API allows developers to programmatically manage DNS records for their zones, including creating, listing, updating, and deleting records. It also supports batch operations, DNS rec
+  name: Cloudflare DNS API
+  slug: cloudflare-dns-api
+- description: 'Cloudflare Workers allows developers to deploy serverless code to Cloudflare''s global network. The Workers API provides endpoints for managing worker scripts, versions, deployments, and configuration '
+  name: Cloudflare Workers API
+  slug: cloudflare-workers-api
+- description: The Cloudflare Workers AI API enables developers to run machine learning models on Cloudflare's global network via a REST API. The catalog offers 78+ open-source models spanning text generation (Llama
+  name: Cloudflare Workers AI API
+  slug: cloudflare-workers-ai-api
+- description: Cloudflare AI Gateway provides visibility and control over AI applications with analytics, logging, caching, rate limiting, request retries, model fallback, guardrails, and evaluations. It supports 23
+  name: Cloudflare AI Gateway API
+  slug: cloudflare-ai-gateway-api
+- description: 'Cloudflare R2 is S3-compatible object storage with zero egress fees. The R2 API allows developers to create and manage buckets, upload and retrieve objects, and configure access controls. R2 supports '
+  name: Cloudflare R2 API
+  slug: cloudflare-r2-api
+- description: The Cloudflare D1 API provides endpoints for managing serverless SQL databases on Cloudflare's network. Developers can create, list, and delete databases, as well as execute raw queries and export dat
+  name: Cloudflare D1 API
+  slug: cloudflare-d1-api
+- description: Cloudflare Workers KV is a global, low-latency key-value data store. The KV API allows developers to create namespaces, write and read key-value pairs, list keys, and perform bulk operations with supp
+  name: Cloudflare KV API
+  slug: cloudflare-kv-api
+- description: The Cloudflare Queues API enables developers to create and manage message queues that integrate with Cloudflare Workers. Queues support guaranteed delivery, work offloading from requests, worker-to-wo
+  name: Cloudflare Queues API
+  slug: cloudflare-queues-api
+- description: Cloudflare Durable Objects combine compute with persistent storage in a single Worker. The API provides transactional and strongly consistent storage with support for SQL, key-value, alarms, and WebSo
+  name: Cloudflare Durable Objects API
+  slug: cloudflare-durable-objects-api
+- description: Cloudflare Vectorize is a globally distributed vector database for building AI-powered applications. The API allows developers to create indexes, insert and upsert vectors, and perform similarity quer
+  name: Cloudflare Vectorize API
+  slug: cloudflare-vectorize-api
+- description: The Cloudflare Pages API enables developers to build automations and integrate Pages with their development workflow. It provides endpoints to manage projects, deployments, and builds, including creat
+  name: Cloudflare Pages API
+  slug: cloudflare-pages-api
+- description: 'Cloudflare Stream provides a single API for uploading, storing, encoding, and delivering live and on-demand video. The API supports direct uploads, TUS resumable uploads, live streaming via RTMPS and '
+  name: Cloudflare Stream API
+  slug: cloudflare-stream-api
+- description: The Cloudflare Images API allows developers to upload, store, and transform images at scale. It supports direct uploads, URL-based uploads, on-the-fly image transformations via URL parameters, and int
+  name: Cloudflare Images API
+  slug: cloudflare-images-api
+- description: 'Cloudflare Turnstile is a CAPTCHA replacement that verifies visitors without showing a challenge. The API provides a widget for client-side integration and a server-side siteverify endpoint for token '
+  name: Cloudflare Turnstile API
+  slug: cloudflare-turnstile-api
 - description: The Cloudflare Load Balancing API enables developers to distribute traffic across endpoints to reduce strain and latency. It provides endpoints for managing load balancers, pools, monitors, and health
   name: Cloudflare Load Balancing API
   slug: cloudflare-load-balancing-api
 - description: The Cloudflare Web Application Firewall API checks incoming web and API requests and filters undesired traffic using rulesets. It supports managed rules, custom rules, rate limiting rules, and provide
   name: Cloudflare WAF API
   slug: cloudflare-waf-api
+- description: The Cloudflare Logpush API allows developers to configure jobs that push logs to storage services, SIEMs, and log management providers. It supports datasets including HTTP requests, firewall events, D
+  name: Cloudflare Logpush API
+  slug: cloudflare-logpush-api
 - description: The Cloudflare GraphQL Analytics API provides flexible access to analytics data across Cloudflare products including HTTP requests, firewall events, and load balancing metrics. Developers can query sp
   name: Cloudflare GraphQL Analytics API
   slug: cloudflare-graphql-analytics-api
@@ -58,6 +118,9 @@ apis:
 - description: Cloudflare Spectrum extends Cloudflare's DDoS protection and performance benefits to any TCP or UDP application. The API enables developers to manage Spectrum applications, configure origin connection
   name: Cloudflare Spectrum API
   slug: cloudflare-spectrum-api
+- description: Cloudflare Hyperdrive accelerates access to existing databases from Cloudflare Workers by providing connection pooling and query caching at the edge. The API allows developers to create and manage Hyp
+  name: Cloudflare Hyperdrive API
+  slug: cloudflare-hyperdrive-api
 - description: 'Cloudflare API Shield provides API discovery, schema validation, and security features to protect APIs from abuse. It includes API Gateway capabilities for routing, authentication, and rate limiting, '
   name: Cloudflare API Shield API
   slug: cloudflare-api-shield-api
@@ -127,177 +190,6 @@ apis:
 - description: Claude Managed Agents on Cloudflare is a partnership offering announced May 19, 2026 that exposes Anthropic-managed Claude agents running on Cloudflare's Agents SDK / Durable Objects substrate. It int
   name: Claude Managed Agents on Cloudflare API
   slug: cloudflare-agents-managed-api
-- description: The Accounts API from Cloudflare — 441 operation(s) for accounts.
-  name: Cloudflare Accounts API
-  slug: cloudflare-accounts-api
-- description: Execute AI models for text generation, embeddings, image classification, and other machine learning tasks.
-  name: Cloudflare AI Inference API
-  slug: cloudflare-ai-inference-api
-- description: Create, list, and delete R2 storage buckets.
-  name: Cloudflare Buckets API
-  slug: cloudflare-buckets-api
-- description: Write, read, and delete multiple key-value pairs in a single request.
-  name: Cloudflare Bulk Operations API
-  slug: cloudflare-bulk-operations-api
-- description: The Certificates API from Cloudflare — 2 operation(s) for certificates.
-  name: Cloudflare Certificates API
-  slug: cloudflare-certificates-api
-- description: Configure bucket settings including CORS, lifecycle rules, and public access.
-  name: Cloudflare Configuration API
-  slug: cloudflare-configuration-api
-- description: Create, list, update, and delete Hyperdrive configurations that connect Workers to databases.
-  name: Cloudflare Configurations API
-  slug: cloudflare-configurations-api
-- description: Manage consumers that process messages from queues.
-  name: Cloudflare Consumers API
-  slug: cloudflare-consumers-api
-- description: Create, list, update, and delete D1 serverless SQL databases.
-  name: Cloudflare Databases API
-  slug: cloudflare-databases-api
-- description: List available datasets and their fields for log exports.
-  name: Cloudflare Datasets API
-  slug: cloudflare-datasets-api
-- description: Create, list, and manage deployments for Pages projects.
-  name: Cloudflare Deployments API
-  slug: cloudflare-deployments-api
-- description: Create one-time upload URLs for client-side image uploads.
-  name: Cloudflare Direct Uploads API
-  slug: cloudflare-direct-uploads-api
-- description: Access DNS query analytics for a zone with aggregated and time-grouped metrics.
-  name: Cloudflare DNS Analytics API
-  slug: cloudflare-dns-analytics-api
-- description: Execute multiple DNS record operations in a single API call.
-  name: Cloudflare DNS Batch Operations API
-  slug: cloudflare-dns-batch-operations-api
-- description: Import and export DNS records using BIND zone file format.
-  name: Cloudflare DNS Record Import/Export API
-  slug: cloudflare-dns-record-import-export-api
-- description: Scan for common DNS records on a domain and review discovered records.
-  name: Cloudflare DNS Record Scanning API
-  slug: cloudflare-dns-record-scanning-api
-- description: Manage DNS records for a zone including A, AAAA, CNAME, MX, TXT, SRV, and other record types.
-  name: Cloudflare DNS Records API
-  slug: cloudflare-dns-records-api
-- description: Manage DNSSEC settings for a zone to protect against DNS spoofing.
-  name: Cloudflare DNSSEC API
-  slug: cloudflare-dnssec-api
-- description: Attach and detach custom domains to Worker scripts.
-  name: Cloudflare Domains API
-  slug: cloudflare-domains-api
-- description: Create, list, update, and delete AI Gateway instances.
-  name: Cloudflare Gateways API
-  slug: cloudflare-gateways-api
-- description: Upload, list, update, and delete image assets.
-  name: Cloudflare Images API
-  slug: cloudflare-images-api
-- description: Import SQL into and export SQL from D1 databases.
-  name: Cloudflare Import/Export API
-  slug: cloudflare-import-export-api
-- description: Create, list, update, and delete vector indexes.
-  name: Cloudflare Indexes API
-  slug: cloudflare-indexes-api
-- description: The Ips API from Cloudflare — 1 operation(s) for ips.
-  name: Cloudflare Ips API
-  slug: cloudflare-ips-api
-- description: Read, write, and delete individual key-value pairs.
-  name: Cloudflare Key-Value Pairs API
-  slug: cloudflare-key-value-pairs-api
-- description: List and manage keys within a namespace.
-  name: Cloudflare Keys API
-  slug: cloudflare-keys-api
-- description: Manage live streaming inputs for RTMPS and SRT ingestion.
-  name: Cloudflare Live Inputs API
-  slug: cloudflare-live-inputs-api
-- description: Create, list, update, and delete Logpush jobs that push logs to external destinations.
-  name: Cloudflare Logpush Jobs API
-  slug: cloudflare-logpush-jobs-api
-- description: Access request logs and analytics for AI Gateway traffic.
-  name: Cloudflare Logs API
-  slug: cloudflare-logs-api
-- description: The Memberships API from Cloudflare — 2 operation(s) for memberships.
-  name: Cloudflare Memberships API
-  slug: cloudflare-memberships-api
-- description: Send, pull, and acknowledge messages.
-  name: Cloudflare Messages API
-  slug: cloudflare-messages-api
-- description: Read metadata associated with keys.
-  name: Cloudflare Metadata API
-  slug: cloudflare-metadata-api
-- description: Manage Durable Object namespaces that group related object instances.
-  name: Cloudflare Namespaces API
-  slug: cloudflare-namespaces-api
-- description: List and manage individual Durable Object instances within a namespace.
-  name: Cloudflare Objects API
-  slug: cloudflare-objects-api
-- description: OpenAI-compatible endpoints for chat completions, text completions, embeddings, and responses.
-  name: Cloudflare OpenAI Compatible API
-  slug: cloudflare-openai-compatible-api
-- description: The Organizations API from Cloudflare — 1 operation(s) for organizations.
-  name: Cloudflare Organizations API
-  slug: cloudflare-organizations-api
-- description: Validate ownership of a log destination.
-  name: Cloudflare Ownership API
-  slug: cloudflare-ownership-api
-- description: Manage Pages projects including creation, configuration, and deletion.
-  name: Cloudflare Projects API
-  slug: cloudflare-projects-api
-- description: Purge all messages from a queue.
-  name: Cloudflare Purge API
-  slug: cloudflare-purge-api
-- description: Execute SQL queries against D1 databases.
-  name: Cloudflare Queries API
-  slug: cloudflare-queries-api
-- description: Create, list, update, and delete message queues.
-  name: Cloudflare Queues API
-  slug: cloudflare-queues-api
-- description: The Radar API from Cloudflare — 169 operation(s) for radar.
-  name: Cloudflare Radar API
-  slug: cloudflare-radar-api
-- description: Map URL patterns to Worker scripts within a zone.
-  name: Cloudflare Routes API
-  slug: cloudflare-routes-api
-- description: Upload, download, and manage Worker scripts by name.
-  name: Cloudflare Scripts API
-  slug: cloudflare-scripts-api
-- description: Manage encrypted environment variables for Worker scripts.
-  name: Cloudflare Secrets API
-  slug: cloudflare-secrets-api
-- description: Manage signing keys for signed video URLs.
-  name: Cloudflare Signing Keys API
-  slug: cloudflare-signing-keys-api
-- description: Browse and restore D1 databases to previous points in time.
-  name: Cloudflare Time Travel API
-  slug: cloudflare-time-travel-api
-- description: The User API from Cloudflare — 28 operation(s) for user.
-  name: Cloudflare User API
-  slug: cloudflare-user-api
-- description: Manage image variants that define transformation presets.
-  name: Cloudflare Variants API
-  slug: cloudflare-variants-api
-- description: Insert, upsert, query, get, and delete vectors within an index.
-  name: Cloudflare Vectors API
-  slug: cloudflare-vectors-api
-- description: Verify Turnstile challenge tokens on the server side.
-  name: Cloudflare Verification API
-  slug: cloudflare-verification-api
-- description: Manage immutable snapshots of Worker code and configuration.
-  name: Cloudflare Versions API
-  slug: cloudflare-versions-api
-- description: Upload, list, update, and delete video assets.
-  name: Cloudflare Videos API
-  slug: cloudflare-videos-api
-- description: Configure webhooks for video processing notifications.
-  name: Cloudflare Webhooks API
-  slug: cloudflare-webhooks-api
-- description: Create, list, update, and delete Turnstile widget configurations.
-  name: Cloudflare Widgets API
-  slug: cloudflare-widgets-api
-- description: Manage Worker resources including creating, updating, and deleting Workers.
-  name: Cloudflare Workers API
-  slug: cloudflare-workers-api
-- description: The Zones API from Cloudflare — 265 operation(s) for zones.
-  name: Cloudflare Zones API
-  slug: cloudflare-zones-api
 arazzos:
 - description: Create a zone IP access rule, list the rules, then remove it.
   name: Cloudflare Block IP Access Rule
@@ -368,7 +260,7 @@ arazzos:
 - description: Find a DNS record by name and update it if present, otherwise create it.
   name: Cloudflare Upsert DNS Record
   slug: cloudflare-upsert-dns-record-workflow
-artifact_total: 460
+artifact_total: 427
 asyncapis:
 - description: Cloudflare Notifications sends webhook events to configured endpoints when various alerts fire across your account. Webhooks deliver JSON payloads for events including DDoS attacks, SSL certificate ex
   name: Cloudflare Notifications Webhooks
@@ -498,6 +390,10 @@ collections:
   name: Cloudflare Workers API
   slug: open-cloudflare-workers
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/cloudflare-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1683,18 +1579,18 @@ modified: '2026-05-22'
 name: Cloudflare
 nav: Providers
 network: true
-overview: 'Cloudflare publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AI Inference API, Buckets API, and 54 more. Tagged areas include AI Gateway, API Gateway, Artificial Intelligence, CDN, and Cloud.
+overview: 'Cloudflare publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Certificates API, and 22 more. Tagged areas include AI Gateway, API Gateway, Artificial Intelligence, CDN, and Cloud.
 
 
   The Cloudflare catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 17 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Cloudflare''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, signup flow, pricing, changelog, and 87 more developer resources.'
+  Cloudflare''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, signup flow, pricing, changelog, and 88 more developer resources.'
 plans:
 - name: Cloudflare Plans Pricing
   plan_count: 6
   slug: cloudflare-plans-pricing
-random_paper: 37
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Cloudflare Rate Limits
@@ -1726,18 +1622,25 @@ rules:
   slug: cloudflare-spectral-rules
 score:
   band: exemplar
-  composite: 72.5
-  delta: 1.3
+  composite: 70.3
+  delta: -2.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 71.8
+    contract_quality: 72.6
     developer_ergonomics: 87.0
-    discoverability: 67.5
-    governance: 60.5
+    discoverability: 59.3
+    governance: 47.9
     operational_transparency: 68.4
-  previous_composite: 71.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 72.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 57
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png
 security:

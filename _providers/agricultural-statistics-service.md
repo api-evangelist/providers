@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,8 +54,19 @@ apis:
 - description: Agricultural statistics data retrieval and filtering
   name: Agricultural Statistics Service Statistics API
   slug: agricultural-statistics-service-statistics-api
-artifact_total: 45
+artifact_total: 47
+collections:
+- collection_type: postman
+  name: USDA NASS QuickStats Parameters API
+  slug: postman-agricultural-statistics-service-parameters-api
+- collection_type: postman
+  name: USDA NASS QuickStats Parameters Statistics API
+  slug: postman-agricultural-statistics-service-statistics-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/agricultural-statistics-service/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,12 +204,12 @@ overview: 'Agricultural Statistics Service publishes 2 APIs on the [APIs.io](htt
   The Agricultural Statistics Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Agricultural Statistics Service''s developer surface includes authentication, engineering blog, developer portal, and 8 more developer resources.'
+  Agricultural Statistics Service''s developer surface includes authentication, engineering blog, developer portal, and 9 more developer resources.'
 plans:
 - name: Agricultural Statistics Service Plans Pricing
   plan_count: 3
   slug: agricultural-statistics-service-plans-pricing
-random_paper: 41
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Agricultural Statistics Service Rate Limits
@@ -219,25 +232,33 @@ rules:
     warn: 16
   slug: agricultural-statistics-service-spectral-rules
 score:
-  band: strong
-  composite: 60.6
-  delta: 0.0
+  band: developing
+  composite: 53.6
+  delta: -7.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 80.5
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 60.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 46.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/screenshots/agricultural-statistics-service-2026-06-20T170425.png
 security:
 - kind: authentication

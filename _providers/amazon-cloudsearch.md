@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -280,7 +282,7 @@ overview: 'Amazon CloudSearch publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon CloudSearch''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 20
+random_paper: 8
 rules:
 - name: Amazon CloudSearch API Rules
   rule_count: 5
@@ -304,14 +306,23 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.6
+    contract_quality: 73.7
     developer_ergonomics: 30.4
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 85.2
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 55.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/screenshots/amazon-cloudsearch-2026-07-25T195949.png
 security:

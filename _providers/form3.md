@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -47,12 +49,20 @@ apis:
 - description: 'Manage users, roles, access-control entries and public keys under a flexible security and approval model, and read full audit trails and platform metrics. Represented by the Users, Roles, ACE, Public '
   name: Form3 Security & Access API
   slug: form3-security-access-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Form3 Notifications Webhooks
   slug: form3-notifications-webhooks
+collections:
+- collection_type: postman
+  name: Form3 Public API
+  slug: postman-form3-payments
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/form3/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -220,33 +230,39 @@ overview: 'Form3 publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Form3 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Form3''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, and 31 more developer resources.'
-random_paper: 11
+  Form3''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, and 32 more developer resources.'
+random_paper: 25
 scopes:
 - name: Form3 Scopes
   scope_count: 0
   slug: form3-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.3
-  delta: 0.0
+  band: developing
+  composite: 53.8
+  delta: -7.5
   facets:
     commercial_clarity: 36.8
-    contract_quality: 60.4
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 55.3
   previous_composite: 61.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 71.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:
 - kind: authentication

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 59.7
+  scored_at: '2026-07-28'
 api_count: 58
 apis:
 - description: The Addons API from Vanilla Forums — 2 operation(s) for addons.
@@ -344,7 +346,7 @@ overview: 'Vanilla Forums publishes 58 APIs on the [APIs.io](https://apis.io/) n
 
 
   Vanilla Forums'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 22 more developer resources.'
-random_paper: 28
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Vanilla Forums Rate Limits
@@ -355,14 +357,23 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 51.7
-    developer_ergonomics: 73.9
-    discoverability: 75.0
-    governance: 0.0
+    contract_quality: 50.6
+    developer_ergonomics: 69.0
+    discoverability: 74.1
+    governance: 11.5
     operational_transparency: 76.3
   previous_composite: 54.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 58
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

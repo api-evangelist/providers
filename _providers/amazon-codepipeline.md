@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -2650,7 +2652,7 @@ overview: 'Amazon CodePipeline publishes 41 APIs on the [APIs.io](https://apis.i
 
 
   Amazon CodePipeline''s developer surface includes authentication, engineering blog, getting-started guide, pricing, developer console, developer portal, documentation, and 21 more developer resources.'
-random_paper: 52
+random_paper: 31
 rules:
 - name: Amazon CodePipeline API Rules
   rule_count: 5
@@ -2669,19 +2671,28 @@ rules:
     warn: 9
   slug: amazon-codepipeline-spectral-rules
 score:
-  band: developing
-  composite: 59.6
-  delta: 0.0
+  band: strong
+  composite: 57.9
+  delta: -1.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 71.6
-    developer_ergonomics: 56.5
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 72.8
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 59.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 41
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/screenshots/amazon-codepipeline-2026-07-25T195959.png
 security:

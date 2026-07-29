@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: The Device Faults API from Moxion Power Co — 1 operation(s) for device faults.
@@ -137,21 +139,30 @@ overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, and 13 more developer resources.'
-random_paper: 27
+random_paper: 60
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 40.6
+  delta: -0.4
   facets:
     commercial_clarity: 13.2
-    contract_quality: 58.4
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 13.2
+    contract_quality: 60.2
+    developer_ergonomics: 49.5
+    discoverability: 92.6
+    governance: 31.3
     operational_transparency: 0.0
   previous_composite: 41.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

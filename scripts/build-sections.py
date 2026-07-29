@@ -37,6 +37,7 @@ ALL = os.path.join(ROOT, "all")
 PROVIDERS = os.path.join(ROOT, "api-search", "providers", "_providers")
 INDUSTRIES_YML = os.path.join(ROOT, "signals-jobs", "_data", "industries.yml")
 SCORING_YML = os.path.join(ROOT, "api-search", "signals", "_data", "scoring.yml")
+DELISTED_YML = os.path.join(ROOT, "api-search", "network", "_data", "delisted.yml")
 
 NAME_RE = re.compile(r"^name:\s*(.+?)\s*$")
 DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
@@ -454,6 +455,23 @@ BAND_LABELS = {
 LISTING_LIMIT = 1000
 
 
+def delisted_slugs():
+    """Slugs a company has asked us to remove — never list these, ever.
+
+    See network/_data/delisted.yml, the network-wide takedown registry. A
+    delisted provider keeps a bare repo under all/<slug>/, so any scan of
+    all/* must exclude it explicitly rather than rely on which artifacts the
+    takedown happened to delete.
+    """
+    if not os.path.isfile(DELISTED_YML):
+        print("WARNING: %s not found — delisting guard is INACTIVE" % DELISTED_YML)
+        return set()
+    with open(DELISTED_YML, "r", encoding="utf-8") as fh:
+        doc = yaml.safe_load(fh) or []
+    rows = doc if isinstance(doc, list) else doc.get("delisted", doc.get("providers", []))
+    return {r["slug"] for r in rows if isinstance(r, dict) and r.get("slug")}
+
+
 def slugify(name):
     s = name.lower()
     s = re.sub(r"\(([^)]*)\)", r" \1 ", s)
@@ -712,7 +730,11 @@ def main():
 
     apis_cache = {}
 
+    delisted = delisted_slugs()
+
     def meta_of(slug):
+        if slug in delisted:
+            return None
         if slug not in apis_cache:
             apis_cache[slug] = read_apis_yml(slug)
         return apis_cache[slug]

@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -88,22 +90,22 @@ overview: 'Anyroad is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Anyroad''s developer surface includes support, pricing, and 8 more developer resources.'
-random_paper: 2
+random_paper: 57
 score:
-  band: emerging
-  composite: 26.4
-  delta: 0.0
+  band: thin
+  composite: 31.9
+  delta: 5.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 4.3
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 26.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyroad/refs/heads/main/screenshots/anyroad-2026-07-25T200517.png
 security:
 - kind: domain-security

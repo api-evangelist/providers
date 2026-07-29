@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -62,8 +64,14 @@ arazzos:
 - description: Resolve a pipe's ARN by name, apply tags to it, then list the resource tags to verify they were stored.
   name: EventBridge Pipes Tag Pipe and Verify
   slug: amazon-eventbridge-pipes-tag-pipe-and-verify-workflow
-artifact_total: 508
+artifact_total: 510
 collections:
+- collection_type: postman
+  name: Amazon EventBridge Pipes API
+  slug: postman-amazon-eventbridge-pipes-pipes-api
+- collection_type: postman
+  name: Amazon EventBridge Pipes Tags API
+  slug: postman-amazon-eventbridge-pipes-tags-api
 - collection_type: postman
   name: Amazon EventBridge Pipes
   slug: postman-amazon-eventbridge-pipes
@@ -1679,7 +1687,7 @@ plans:
 - name: Amazon Eventbridge Pipes Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-pipes-plans-pricing
-random_paper: 0
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Pipes Rate Limits
@@ -1703,19 +1711,32 @@ rules:
   slug: amazon-eventbridge-pipes-spectral-rules
 score:
   band: exemplar
-  composite: 73.5
-  delta: 5.5
+  composite: 68.2
+  delta: -5.3
   facets:
     commercial_clarity: 89.5
-    contract_quality: 74.3
+    contract_quality: 81.4
     developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 68.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 73.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/screenshots/amazon-eventbridge-pipes-2026-06-20T171645.png
 security:
 - kind: authentication

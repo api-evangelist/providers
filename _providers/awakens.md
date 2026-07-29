@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 37.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: OAuth 2.0 REST API for requesting a consenting user's genetic trait reports from Genomelink. A report is fetched by trait name and population (for example GET /v1/reports/eye-color/?population=europea
@@ -146,7 +148,7 @@ overview: 'AWAKENS publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   AWAKENS''s developer surface includes signup flow, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 66
+random_paper: 53
 scopes:
 - name: Awakens Scopes
   scope_count: 0
@@ -154,24 +156,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 29.3
+  delta: -5.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 42.9
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 5.3
   previous_composite: 34.9
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 52.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/awakens/refs/heads/main/screenshots/awakens-2026-07-25T202019.png
 security:
 - kind: authentication

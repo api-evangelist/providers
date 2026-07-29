@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -1412,7 +1414,7 @@ plans:
 - name: Kraken Plans Pricing
   plan_count: 8
   slug: kraken-plans-pricing
-random_paper: 24
+random_paper: 20
 rate_limits:
 - limit_count: 16
   name: Kraken Rate Limits
@@ -1444,23 +1446,33 @@ rules:
   slug: kraken-rules
 score:
   band: exemplar
-  composite: 74.3
-  delta: 2.8
+  composite: 73.2
+  delta: -1.1
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.6
+    contract_quality: 62.1
     developer_ergonomics: 78.3
     discoverability: 100.0
-    governance: 65.8
+    governance: 63.5
     operational_transparency: 52.6
-  previous_composite: 71.5
+  previous_composite: 74.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 12
+      marker_coverage: 100.0
+      total: 12
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 83.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png
 security:

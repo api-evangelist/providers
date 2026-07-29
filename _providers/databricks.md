@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 60.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -995,7 +997,7 @@ plans:
 - name: Databricks Plans Pricing
   plan_count: 5
   slug: databricks-plans-pricing
-random_paper: 28
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Databricks Rate Limits
@@ -1019,18 +1021,25 @@ rules:
   slug: databricks-spectral-rules
 score:
   band: exemplar
-  composite: 75.0
-  delta: 1.3
+  composite: 71.2
+  delta: -3.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 66.4
+    contract_quality: 65.7
     developer_ergonomics: 78.3
-    discoverability: 67.5
-    governance: 73.7
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 78.9
-  previous_composite: 73.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 75.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/screenshots/databricks-2026-06-20T175634.png
 security:

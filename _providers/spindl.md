@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Server-side custom event ingestion for attribution.
@@ -137,21 +139,30 @@ overview: 'Spindl publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Spindl''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, support, and 15 more developer resources.'
-random_paper: 38
+random_paper: 34
 score:
   band: thin
-  composite: 44.1
-  delta: 0.0
+  composite: 41.7
+  delta: -2.4
   facets:
     commercial_clarity: 23.7
-    contract_quality: 63.7
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 64.4
+    developer_ergonomics: 56.0
+    discoverability: 75.9
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 44.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 45.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -198,7 +200,7 @@ overview: 'NOAA CO-OPS publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 18 more developer resources.'
-random_paper: 33
+random_paper: 52
 rules:
 - name: NOAA CO-OPS API Rules
   rule_count: 5
@@ -210,23 +212,31 @@ rules:
   slug: noaa-co-ops-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 43.1
-  delta: 0.0
+  composite: 38.5
+  delta: -4.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 52.8
+    contract_quality: 51.6
     developer_ergonomics: 17.4
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 15.8
   previous_composite: 43.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 35.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/screenshots/noaa-co-ops-2026-06-20T190339.png
 security:

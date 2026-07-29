@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,26 +84,27 @@ name: Surgery Partners
 nav: Providers
 network: true
 overview: Surgery Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Surgery, Surgical Services, and Ambulatory Care.
-random_paper: 9
+random_paper: 15
 score:
   band: minimal
-  composite: 12.2
-  delta: 0.0
+  composite: 9.2
+  delta: -3.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 47.5
+    discoverability: 35.2
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 17.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surgery-partners/refs/heads/main/screenshots/surgery-partners-2026-06-20T194734.png
 security:

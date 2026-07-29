@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 3
@@ -124,12 +126,103 @@ apis:
 - description: The zeus API from SigNoz — 2 operation(s) for zeus.
   name: SigNoz zeus API
   slug: signoz-zeus-api
-artifact_total: 59
+artifact_total: 88
 collections:
+- collection_type: postman
+  name: SigNoz alerts API
+  slug: postman-signoz-alerts-api
+- collection_type: postman
+  name: SigNoz alerts authdomains API
+  slug: postman-signoz-authdomains-api
+- collection_type: postman
+  name: SigNoz alerts authz API
+  slug: postman-signoz-authz-api
+- collection_type: postman
+  name: SigNoz alerts channels API
+  slug: postman-signoz-channels-api
+- collection_type: postman
+  name: SigNoz alerts cloudintegration API
+  slug: postman-signoz-cloudintegration-api
+- collection_type: postman
+  name: SigNoz alerts dashboard API
+  slug: postman-signoz-dashboard-api
+- collection_type: postman
+  name: SigNoz alerts downtimeschedules API
+  slug: postman-signoz-downtimeschedules-api
+- collection_type: postman
+  name: SigNoz alerts features API
+  slug: postman-signoz-features-api
+- collection_type: postman
+  name: SigNoz alerts fields API
+  slug: postman-signoz-fields-api
+- collection_type: postman
+  name: SigNoz alerts gateway API
+  slug: postman-signoz-gateway-api
+- collection_type: postman
+  name: SigNoz alerts global API
+  slug: postman-signoz-global-api
+- collection_type: postman
+  name: SigNoz alerts health API
+  slug: postman-signoz-health-api
+- collection_type: postman
+  name: SigNoz alerts inframonitoring API
+  slug: postman-signoz-inframonitoring-api
+- collection_type: postman
+  name: SigNoz alerts llmpricingrules API
+  slug: postman-signoz-llmpricingrules-api
+- collection_type: postman
+  name: SigNoz alerts logs API
+  slug: postman-signoz-logs-api
+- collection_type: postman
+  name: SigNoz alerts metrics API
+  slug: postman-signoz-metrics-api
+- collection_type: postman
+  name: SigNoz alerts orgs API
+  slug: postman-signoz-orgs-api
+- collection_type: postman
+  name: SigNoz alerts preferences API
+  slug: postman-signoz-preferences-api
+- collection_type: postman
+  name: SigNoz alerts querier API
+  slug: postman-signoz-querier-api
+- collection_type: postman
+  name: SigNoz alerts role API
+  slug: postman-signoz-role-api
+- collection_type: postman
+  name: SigNoz alerts routepolicies API
+  slug: postman-signoz-routepolicies-api
+- collection_type: postman
+  name: SigNoz alerts rules API
+  slug: postman-signoz-rules-api
+- collection_type: postman
+  name: SigNoz alerts serviceaccount API
+  slug: postman-signoz-serviceaccount-api
+- collection_type: postman
+  name: SigNoz alerts sessions API
+  slug: postman-signoz-sessions-api
+- collection_type: postman
+  name: SigNoz alerts spanmapper API
+  slug: postman-signoz-spanmapper-api
+- collection_type: postman
+  name: SigNoz alerts tracedetail API
+  slug: postman-signoz-tracedetail-api
+- collection_type: postman
+  name: SigNoz alerts traces API
+  slug: postman-signoz-traces-api
+- collection_type: postman
+  name: SigNoz alerts users API
+  slug: postman-signoz-users-api
+- collection_type: postman
+  name: SigNoz alerts zeus API
+  slug: postman-signoz-zeus-api
 - collection_type: open
   name: SigNoz
   slug: open-signoz
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/signoz/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -256,12 +349,12 @@ overview: 'SigNoz publishes 29 APIs on the [APIs.io](https://apis.io/) network, 
   The SigNoz catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SigNoz''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, support, changelog, and 11 more developer resources.'
+  SigNoz''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, support, changelog, and 12 more developer resources.'
 plans:
 - name: Signoz Plans Pricing
   plan_count: 3
   slug: signoz-plans-pricing
-random_paper: 54
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Signoz Rate Limits
@@ -285,18 +378,25 @@ rules:
   slug: signoz-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 3.3
+  composite: 57.7
+  delta: -3.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.4
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 60.9
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 57.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/screenshots/signoz-2026-06-20T193914.png
 security:

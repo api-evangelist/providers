@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'REST API for accepting bKash payments — token-based auth (Grant/Refresh Token), Checkout and Tokenized Checkout (create/execute/query payment, create/execute agreement), Refund, Instant Payout (B2C), '
@@ -149,26 +151,30 @@ overview: 'bKash publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   bKash''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, sandbox, pricing, and 16 more developer resources.'
-random_paper: 45
+random_paper: 59
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 40.4
+  delta: 3.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 22.6
-    developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 58.7
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 28.9
   previous_composite: 37.4
+  provenance:
+    conformance: derived
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 32.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/screenshots/bkash-2026-07-25T203226.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -109,12 +111,89 @@ apis:
 - description: The Webhook Events API from HitPay — 2 operation(s) for webhook events.
   name: HitPay Webhook Events API
   slug: hitpay-webhook-events-api
-artifact_total: 34
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Hitpay Events Webhooks
   slug: hitpay-events-webhooks
+collections:
+- collection_type: postman
+  name: HitPay Account Status API
+  slug: postman-hitpay-account-status-api
+- collection_type: postman
+  name: HitPay Account Status Balances API
+  slug: postman-hitpay-balances-api
+- collection_type: postman
+  name: HitPay Account Status Beneficiaries API
+  slug: postman-hitpay-beneficiaries-api
+- collection_type: postman
+  name: HitPay Account Status Charge API
+  slug: postman-hitpay-charge-api
+- collection_type: postman
+  name: HitPay Account Status Charges API
+  slug: postman-hitpay-charges-api
+- collection_type: postman
+  name: HitPay Account Status Customers API
+  slug: postman-hitpay-customers-api
+- collection_type: postman
+  name: HitPay Account Status Invoices API
+  slug: postman-hitpay-invoices-api
+- collection_type: postman
+  name: HitPay Account Status Notifications API
+  slug: postman-hitpay-notifications-api
+- collection_type: postman
+  name: HitPay Account Status Orders API
+  slug: postman-hitpay-orders-api
+- collection_type: postman
+  name: HitPay Account Status Payment Requests API
+  slug: postman-hitpay-payment-requests-api
+- collection_type: postman
+  name: HitPay Account Status Product Category API
+  slug: postman-hitpay-product-category-api
+- collection_type: postman
+  name: HitPay Account Status Products API
+  slug: postman-hitpay-products-api
+- collection_type: postman
+  name: HitPay Account Status Readers API
+  slug: postman-hitpay-readers-api
+- collection_type: postman
+  name: HitPay Account Status Recurring Billing API
+  slug: postman-hitpay-recurring-billing-api
+- collection_type: postman
+  name: HitPay Account Status Refund API
+  slug: postman-hitpay-refund-api
+- collection_type: postman
+  name: HitPay Account Status Refunds API
+  slug: postman-hitpay-refunds-api
+- collection_type: postman
+  name: HitPay Account Status Remitters API
+  slug: postman-hitpay-remitters-api
+- collection_type: postman
+  name: HitPay Account Status Staffs API
+  slug: postman-hitpay-staffs-api
+- collection_type: postman
+  name: HitPay Account Status Static Qr API
+  slug: postman-hitpay-static-qr-api
+- collection_type: postman
+  name: HitPay Account Status Subscription Plan API
+  slug: postman-hitpay-subscription-plan-api
+- collection_type: postman
+  name: HitPay Account Status Subscription Plans API
+  slug: postman-hitpay-subscription-plans-api
+- collection_type: postman
+  name: HitPay Account Status Transfers API
+  slug: postman-hitpay-transfers-api
+- collection_type: postman
+  name: HitPay Account Status Virtual Accounts API
+  slug: postman-hitpay-virtual-accounts-api
+- collection_type: postman
+  name: HitPay Account Status Webhook Events API
+  slug: postman-hitpay-webhook-events-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hitpay/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -285,35 +364,46 @@ overview: 'HitPay publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
   The HitPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HitPay''s developer surface includes authentication, documentation, engineering blog, CLI, sandbox, changelog, getting-started guide, and 30 more developer resources.'
+  HitPay''s developer surface includes authentication, documentation, engineering blog, CLI, sandbox, changelog, getting-started guide, and 31 more developer resources.'
 plans:
 - name: Hitpay Plans Pricing
   plan_count: 3
   slug: hitpay-plans-pricing
-random_paper: 43
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Hitpay Rate Limits
   slug: hitpay-rate-limits
 score:
-  band: strong
-  composite: 68.4
-  delta: 0.0
+  band: exemplar
+  composite: 68.6
+  delta: 0.2
   facets:
     commercial_clarity: 100.0
-    contract_quality: 61.3
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 62.5
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 50.0
   previous_composite: 68.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/screenshots/hitpay-2026-07-25T221304.png
 security:

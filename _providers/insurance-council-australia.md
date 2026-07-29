@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.0
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: 'insurancecouncil.com.au runs on WordPress and leaves the standard WordPress REST API reachable anonymously at /wp-json/, returning JSON for pages, media (the PDF publication corpus of media releases, '
@@ -199,7 +201,7 @@ overview: 'Insurance Council of Australia publishes 3 APIs on the [APIs.io](http
 
 
   Insurance Council of Australia''s developer surface includes authentication, developer portal, documentation, engineering blog, support, YouTube channel, and 25 more developer resources.'
-random_paper: 53
+random_paper: 1
 scopes:
 - name: Insurance Council Australia Scopes
   scope_count: 1
@@ -207,23 +209,27 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 34.4
+  delta: -2.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 18.9
+    contract_quality: 16.1
     developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 3.1
     operational_transparency: 0.0
   previous_composite: 37.1
+  provenance:
+    conformance: derived
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 63.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/screenshots/insurance-council-australia-2026-07-25T222633.png
 security:

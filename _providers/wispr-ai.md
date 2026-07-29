@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.9
+  scored_at: '2026-07-28'
 api_count: 50
 apis:
 - description: The Analytics API from Wispr AI — 3 operation(s) for analytics.
@@ -313,21 +315,36 @@ overview: 'Wispr AI publishes 50 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wispr AI''s developer surface includes engineering blog, pricing, support, signup flow, changelog, authentication, and 23 more developer resources.'
-random_paper: 64
+random_paper: 42
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 46.6
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 49.3
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 47.2
+    developer_ergonomics: 21.2
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 47.4
   previous_composite: 47.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

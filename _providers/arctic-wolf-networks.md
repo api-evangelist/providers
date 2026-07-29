@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: RESTful API (v2.0.0) for Arctic Wolf partner applications managing multiple customer tenants — create a partner application, generate an OAuth client-credentials bearer token, run health checks, and i
@@ -145,7 +147,7 @@ overview: 'Arctic Wolf Networks publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   Arctic Wolf Networks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 13
+random_paper: 51
 scopes:
 - name: Arctic Wolf Networks Scopes
   scope_count: 1
@@ -153,18 +155,20 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 34.7
+  delta: 0.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 33.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/screenshots/arctic-wolf-networks-2026-07-25T201104.png
 security:

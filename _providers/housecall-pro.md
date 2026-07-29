@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Housecall Pro Public API is a REST + JSON API hosted on Stoplight that gives MAX-plan customers programmatic access to core platform resources — customers, leads, jobs, estimates, invoices, paymen
@@ -34,6 +36,10 @@ apis:
   slug: housecall-pro-public-api
 artifact_total: 29
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/housecall-pro/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -211,12 +217,12 @@ overview: 'Housecall Pro publishes 1 API on the [APIs.io](https://apis.io/) netw
   The Housecall Pro catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Housecall Pro''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, pricing, signup flow, and 24 more developer resources.'
+  Housecall Pro''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Housecall Pro Plans Pricing
   plan_count: 3
   slug: housecall-pro-plans-pricing
-random_paper: 50
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Housecall Pro Rate Limits
@@ -232,24 +238,31 @@ rules:
   slug: housecall-pro-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 57.8
+  delta: -5.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 71.7
-    developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 69.4
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 23.7
   previous_composite: 63.5
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/screenshots/housecall-pro-2026-06-20T182849.png
 security:
 - kind: domain-security

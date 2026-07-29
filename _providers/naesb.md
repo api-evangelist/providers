@@ -1,10 +1,8 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-27'
   label: Paid membership or per-document purchase · Registry API requires accredited certificate
-  method: manual
-  onboarding: application-approval
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -14,19 +12,197 @@ access_model:
   - https://www.naesb.org/pdf4/eir_webregistry_technical_guide_v6.1_1018.pdf
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 13.7
+  scored_at: '2026-07-28'
 api_count: 2
-artifact_total: 0
+apis:
+- description: The NAESB REQ.21 ESPI Model Business Practices define the data exchange protocol for transferring retail energy usage information from a utility (Data Custodian) to a Third Party with the Retail Custo
+  name: NAESB REQ.21 Energy Services Provider Interface (ESPI)
+  slug: naesb-espi-green-button
+- description: 'The NAESB Electric Industry Registry is the central repository of registry information used by the North American wholesale electric industry for electronic tagging; it replaced the NERC TSIN in 2012 '
+  name: NAESB Electric Industry Registry (EIR) webRegistry Web Services
+  slug: naesb-eir-webregistry
+artifact_total: 4
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/naesb-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.naesb.org/
+- group: company
+  title: ''
+  type: About
+  url: https://www.naesb.org/aboutus.asp
+- group: operate
+  title: ''
+  type: ContactUs
+  url: https://www.naesb.org/contactus.asp
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.naesb.org/ESPI_Standards.asp
+- group: build
+  title: ''
+  type: Tools
+  url: https://www.naesb.org/naesb_tools.asp
+- group: auth
+  title: ''
+  type: Certification
+  url: https://www.naesb.org/materials/certification.asp
+- group: other
+  title: ''
+  type: CertifiedProducts
+  url: https://www.naesb.org/pdf2/cert_products.pdf
+- group: auth
+  title: ''
+  type: CertificationAuthorities
+  url: https://www.naesb.org/pdf4/ac_authorities_2023.pdf
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.naesb.org/pdf/ordrform.pdf
+- group: other
+  title: ''
+  type: Licensing
+  url: https://www.naesb.org/copyright.asp
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.naesb.org/pdf4/terms&conditions.pdf
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.naesb.org/privacy.asp
+- group: other
+  title: ''
+  type: Membership
+  url: https://www.naesb.org/membership.asp
+- group: company
+  title: ''
+  type: Newsletter
+  url: https://www.naesb.org/bulletin_newsletter.asp
+- group: operate
+  title: ''
+  type: PressReleases
+  url: https://www.naesb.org/news.asp
+- group: other
+  title: ''
+  type: WhitePapers
+  url: https://www.naesb.org/white_papers.asp
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.naesb.org/contactus.asp
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.naesb.org/materials/certification.asp
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/naesb-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/naesb-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/naesb-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/naesb-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/naesb-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/naesb-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/naesb-data-model.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/naesb-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2026-07-27'
 description: 'The North American Energy Standards Board (NAESB) is the non-profit, industry-consensus standards development organization formed in 1994 that writes the business practice standards for the North American wholesale and retail natural gas and electricity markets, organized into four quadrants — Wholesale Electric (WEQ), Retail Electric (REQ), Wholesale Gas (WGQ) and Retail Gas (RGQ). Headquartered in Houston, Texas, its home market is the United States (with Canadian and Mexican participation). NAESB sits upstream of every utility, ISO/RTO and energy-data platform in the value chain: it authors REQ.21 Energy Services Provider Interface (ESPI), the standard that is the basis of every Green Button implementation in North America, and it operates the NAESB Electric Industry Registry (EIR) that underpins electronic tagging across the wholesale electric market. Its API posture is deliberately split and must not be overstated. NAESB is not a data holder and no consumer-data mandate
   applies to it; the Green Button standard it publishes is adopted by US utilities purely voluntarily, with no federal obligation behind it. The specifications themselves are copyright-protected and paywalled — $8,000/year membership, $2,000 per quadrant version, or $250 per individual standard — with only a free, view-only, three-business-day evaluation waiver for non-members. The single genuinely open artifact is the set of ESPI XML schemas, released under Apache 2.0 as a documented one-time exception to the NAESB Copyright Policy and downloadable anonymously after a one-click terms-of-use acknowledgement. The one real API NAESB operates, the EIR webRegistry SOAP service administered by OATI, is closed: it requires a paid registry subscription and a digitally signed X.509 certificate issued by an NAESB-Authorized Certification Authority, and its endpoint could not even complete a TLS handshake anonymously. Open standard schemas, closed standards text, closed registry API, no consumer data
   and no open market data of its own.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
+image: https://www.naesb.org/images/naesb-logo.jpg
 layout: provider
 modified: '2026-07-27'
 name: NAESB
 nav: Providers
 network: true
-random_paper: 45
+overview: 'NAESB publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Standards, Utilities, and Electricity.
+
+
+  NAESB''s developer surface includes documentation, tooling, pricing, support, authentication, changelog, and 22 more developer resources.'
+random_paper: 59
+score:
+  band: emerging
+  composite: 25.8
+  delta: 1.8
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 25.5
+    discoverability: 77.8
+    governance: 3.1
+    operational_transparency: 15.8
+  previous_composite: 24.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 40.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
+security:
+- kind: authentication
+  name: Naesb Authentication
+  slug: naesb-authentication
+  summary_line: mutualTLS/oauth2 · 2 schemes
+- kind: domain-security
+  name: Naesb Domain Security
+  slug: naesb-domain-security
+  summary_line: TLSv1.2 · DMARC
 slug: naesb
 tags:
 - Energy
@@ -39,4 +215,5 @@ tags:
 - Smart Metering
 - Energy Markets
 - Grid
+website: https://www.naesb.org/
 ---

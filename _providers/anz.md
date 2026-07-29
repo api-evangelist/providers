@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -206,7 +208,7 @@ overview: 'Australia and New Zealand Banking Group (ANZ) publishes 7 APIs on the
 
 
   Australia and New Zealand Banking Group (ANZ)''s developer surface includes authentication, API reference, support, documentation, and 22 more developer resources.'
-random_paper: 57
+random_paper: 21
 scopes:
 - name: Anz Scopes
   scope_count: 5
@@ -214,23 +216,34 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 46.7
+  delta: -3.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 53.6
-    developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.0
+    developer_ergonomics: 42.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 50.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/screenshots/anz-2026-07-21T114652.png
 security:

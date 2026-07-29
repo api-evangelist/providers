@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -1992,7 +1994,7 @@ plans:
 - name: Airbus Oneatlas Plans Pricing
   plan_count: 4
   slug: airbus-oneatlas-plans-pricing
-random_paper: 50
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Airbus Oneatlas Rate Limits
@@ -2024,18 +2026,25 @@ rules:
   slug: oneatlas-spectral-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 1.2
+  composite: 51.0
+  delta: -3.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.8
+    contract_quality: 59.6
     developer_ergonomics: 30.4
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 53.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 54.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/screenshots/airbus-oneatlas-2026-06-20T171419.png
 security:

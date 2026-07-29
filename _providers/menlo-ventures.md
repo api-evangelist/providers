@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Menlo Ventures
 nav: Providers
 network: true
-random_paper: 48
+random_paper: 13
 slug: menlo-ventures
 tags:
 - Venture Capital

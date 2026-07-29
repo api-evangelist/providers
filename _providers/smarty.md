@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,8 +57,31 @@ apis:
 - description: The Verify API from Smarty — 1 operation(s) for verify.
   name: Smarty Verify API
   slug: smarty-verify-api
-artifact_total: 18
+artifact_total: 24
+collections:
+- collection_type: postman
+  name: International Address Autocomplete Lookup API
+  slug: postman-smarty-lookup-api
+- collection_type: postman
+  name: International Address Autocomplete Lookup reverse-geo API
+  slug: postman-smarty-reverse-geo-api
+- collection_type: postman
+  name: International Address Autocomplete Lookup street-address API
+  slug: postman-smarty-street-address-api
+- collection_type: postman
+  name: International Address Autocomplete Lookup us-enrichment API
+  slug: postman-smarty-us-enrichment-api
+- collection_type: postman
+  name: International Address Autocomplete Lookup US Extract API API
+  slug: postman-smarty-us-extract-api-api
+- collection_type: postman
+  name: International Address Autocomplete Lookup Verify API
+  slug: postman-smarty-verify-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/smarty/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,12 +199,12 @@ overview: 'Smarty publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Smarty catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Smarty''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 15 more developer resources.'
+  Smarty''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 16 more developer resources.'
 plans:
 - name: Smarty Plans Pricing
   plan_count: 5
   slug: smarty-plans-pricing
-random_paper: 60
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Smarty Rate Limits
@@ -195,18 +220,25 @@ rules:
   slug: smarty-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 56.7
+  delta: -4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.6
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 67.6
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/screenshots/smarty-2026-06-20T194052.png
 security:

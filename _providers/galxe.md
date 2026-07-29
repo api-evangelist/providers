@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 49.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Galxe's public GraphQL API for building web3 experiences — query credentials and eligibility, quests, spaces, loyalty-points leaderboards, and Starboard social/onchain influence metrics, and push cred
@@ -163,7 +165,7 @@ plans:
 - name: Galxe Plans
   plan_count: 2
   slug: galxe-plans
-random_paper: 53
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Galxe Rate Limits
@@ -175,18 +177,22 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 35.0
+  delta: -2.4
   facets:
     commercial_clarity: 55.3
     contract_quality: 0.0
-    developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 60.3
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 37.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galxe/refs/heads/main/screenshots/galxe-2026-07-25T215406.png
 security:

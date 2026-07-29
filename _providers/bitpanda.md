@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.7
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Asset metadata lookup
@@ -179,26 +181,36 @@ overview: 'Bitpanda publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bitpanda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 19
+random_paper: 65
 score:
-  band: developing
-  composite: 57.9
-  delta: 0.0
+  band: strong
+  composite: 56.7
+  delta: -1.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.7
+    contract_quality: 61.9
     developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 28.9
   previous_composite: 57.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/screenshots/bitpanda-2026-07-25T203204.png
 security:

@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Free · Open access
-  onboarding: open
-  pricing: free
-  public: true
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: near-conformant
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -35,61 +26,50 @@ agentic_access:
   operation_count: 83
   slug: opensea-agentic-access
   summary_line: 83 operations · 22 acting
-api_count: 17
+api_count: 12
 apis:
+- description: Retrieve individual NFT metadata, ownership, rarity, analytics, and owners across supported blockchain chains. Supports batch NFT retrieval, metadata refresh, validation, and collection-based listing.
+  name: OpenSea NFT API
+  slug: nft-api
+- description: Query NFT collection details, traits, floor prices, holders, offer aggregates, trending and top collections. Supports batch retrieval by slugs and discovery of new and popular collections.
+  name: OpenSea Collection API
+  slug: collection-api
+- description: Create, fulfill, and query NFT listings on OpenSea. Supports best listing retrieval per collection or NFT, cross-chain fulfillment, and collection sweep purchases with automatic substitution for unava
+  name: OpenSea Listing API
+  slug: listing-api
+- description: Build, create, fulfill, and query NFT offers and bids on OpenSea. Supports collection-wide offers, trait-based offers, item-specific bids, and best-offer retrieval per NFT.
+  name: OpenSea Offer API
+  slug: offer-api
+- description: Look up and cancel individual orders by chain, protocol address, and order hash. Supports both Seaport listing and offer orders.
+  name: OpenSea Order API
+  slug: order-api
+- description: Retrieve historical NFT marketplace events including sales, transfers, mints, and cancellations by account, collection, or individual NFT. Also supports real-time event streaming via the Stream API We
+  name: OpenSea Events API
+  slug: events-api
+- description: Retrieve fungible token details, balances, holders, liquidity pools, price history, OHLCV candlestick data, trending tokens, and swap quotes for token trading across supported chains.
+  name: OpenSea Token API
+  slug: token-api
+- description: Retrieve OpenSea account profiles, resolve ENS/usernames, and access portfolio analytics including net worth history, P&L tracking, owned collections, favorites, listings, and offers.
+  name: OpenSea Account API
+  slug: account-api
+- description: Discover NFT drops, check mint eligibility, build mint transactions, deploy NFT contracts, and track transaction receipts for minting operations.
+  name: OpenSea Drops API
+  slug: drops-api
+- description: Search across OpenSea collections, NFTs, tokens, and accounts by keyword. Powers discovery of assets and creators across the OpenSea marketplace.
+  name: OpenSea Search API
+  slug: search-api
 - description: Real-time WebSocket event streaming for NFT marketplace activity per collection, including item listed, item sold, item transferred, item metadata updates, item cancelled, item received offer, and ite
   name: OpenSea Stream API
   slug: stream-api
-- description: Account endpoints to retrieve OpenSea account profiles and resolve identifiers
-  name: OpenSea Account Endpoints API
-  slug: opensea-account-endpoints-api
-- description: Analytics endpoints to retrieve events, stats, and trading data
-  name: OpenSea Analytics Endpoints API
-  slug: opensea-analytics-endpoints-api
-- description: The Auth Endpoints API from OpenSea — 1 operation(s) for auth endpoints.
-  name: OpenSea Auth Endpoints API
-  slug: opensea-auth-endpoints-api
-- description: Chain endpoints to discover supported blockchains and their capabilities
-  name: OpenSea Chain Endpoints API
-  slug: opensea-chain-endpoints-api
-- description: Collection endpoints to retrieve collection details, traits, and trending data
-  name: OpenSea Collection Endpoints API
-  slug: opensea-collection-endpoints-api
-- description: Contract endpoints to retrieve contract metadata and payment token details
-  name: OpenSea Contract Endpoints API
-  slug: opensea-contract-endpoints-api
-- description: Endpoints for discovering drops, checking mint eligibility, and building mint transactions
-  name: OpenSea Drops Endpoints API
-  slug: opensea-drops-endpoints-api
-- description: Listing endpoints for creating, fulfilling, and querying listings
-  name: OpenSea Listing Endpoints API
-  slug: opensea-listing-endpoints-api
-- description: NFT endpoints to retrieve individual NFTs, metadata, ownership, and rarity
-  name: OpenSea NFT Endpoints API
-  slug: opensea-nft-endpoints-api
-- description: Offer endpoints for building, creating, fulfilling, and querying offers
-  name: OpenSea Offer Endpoints API
-  slug: opensea-offer-endpoints-api
-- description: Order endpoints for looking up and canceling individual orders
-  name: OpenSea Order Endpoints API
-  slug: opensea-order-endpoints-api
-- description: Search endpoints for discovering collections, tokens, NFTs, and accounts
-  name: OpenSea Search Endpoints API
-  slug: opensea-search-endpoints-api
-- description: Swap endpoints for getting token swap quotes with executable transaction data
-  name: OpenSea Swap Endpoints API
-  slug: opensea-swap-endpoints-api
-- description: Token endpoints for getting token details, balances, and trending data
-  name: OpenSea Token Endpoints API
-  slug: opensea-token-endpoints-api
-- description: '[Beta] Tool endpoints for discovering and inspecting registered onchain tools. This API is under active development and may change without notice.'
-  name: OpenSea Tool Endpoints [Beta] API
-  slug: opensea-tool-endpoints-beta-api
-- description: Transaction endpoints for checking transaction receipts and status
-  name: OpenSea Transaction Endpoints API
-  slug: opensea-transaction-endpoints-api
-artifact_total: 329
+- description: Get swap quotes and execute token trading with executable transaction data across supported blockchain chains.
+  name: OpenSea Swap API
+  slug: swap-api
+artifact_total: 324
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/opensea-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -410,7 +390,7 @@ finops:
 - name: Opensea Finops
   service_category: NFT Marketplace
   slug: opensea-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opensea.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: AccountResolveResponse
   property_count: 3
@@ -1082,18 +1062,18 @@ modified: '2026-06-13'
 name: OpenSea
 nav: Providers
 network: true
-overview: 'OpenSea publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Endpoints API, Analytics Endpoints API, Auth Endpoints API, and 13 more. Tagged areas include NFT, Marketplace, Web3, Blockchain, and Trading.
+overview: 'OpenSea publishes 11 APIs on the [APIs.io](https://apis.io/) network, including NFT API, Collection API, Listing API, and 8 more. Tagged areas include NFT, Marketplace, Web3, Blockchain, and Trading.
 
 
   The OpenSea catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenSea''s developer surface includes authentication, CLI, support, engineering blog, and 12 more developer resources.'
+  OpenSea''s developer surface includes authentication, CLI, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Opensea Plans
   plan_count: 2
   slug: opensea-plans
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Opensea Rate Limits
@@ -1109,24 +1089,32 @@ rules:
   slug: opensea-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 58.6
-  delta: 0.0
+  composite: 50.7
+  delta: -7.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
+    contract_quality: 48.4
     developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 47.4
   previous_composite: 58.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 61.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/screenshots/opensea-2026-06-20T191039.png
 security:
 - kind: authentication

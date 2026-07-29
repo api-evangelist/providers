@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -109,12 +111,81 @@ apis:
 - description: Configure and manage CVP VXML Servers
   name: Cisco Voice Portal VXML Server Management API
   slug: cisco-voice-portal-vxml-server-management-api
-artifact_total: 218
+artifact_total: 241
 asyncapis:
 - description: The Cisco Unified Customer Voice Portal (CVP) generates real-time events during call processing that can be consumed for monitoring, analytics, and integration purposes. CVP publishes call lifecycle e
   name: Cisco Voice Portal Call Events API
   slug: cisco-voice-portal-call-events-asyncapi
 collections:
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration API
+  slug: postman-cisco-voice-portal-application-configuration-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Application Management API
+  slug: postman-cisco-voice-portal-application-management-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Call Detail Records API
+  slug: postman-cisco-voice-portal-call-detail-records-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Call Management API
+  slug: postman-cisco-voice-portal-call-management-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Call Routing API
+  slug: postman-cisco-voice-portal-call-routing-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Call Server Management API
+  slug: postman-cisco-voice-portal-call-server-management-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Deployment API
+  slug: postman-cisco-voice-portal-deployment-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Device Management API
+  slug: postman-cisco-voice-portal-device-management-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Dialed Number Patterns API
+  slug: postman-cisco-voice-portal-dialed-number-patterns-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Grammar Management API
+  slug: postman-cisco-voice-portal-grammar-management-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Health API
+  slug: postman-cisco-voice-portal-health-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Historical Reports API
+  slug: postman-cisco-voice-portal-historical-reports-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Media Management API
+  slug: postman-cisco-voice-portal-media-management-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Micro-Applications API
+  slug: postman-cisco-voice-portal-micro-applications-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Real-Time Statistics API
+  slug: postman-cisco-voice-portal-real-time-statistics-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Report Templates API
+  slug: postman-cisco-voice-portal-report-templates-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Server Status API
+  slug: postman-cisco-voice-portal-server-status-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration Session Monitoring API
+  slug: postman-cisco-voice-portal-session-monitoring-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration SIP Configuration API
+  slug: postman-cisco-voice-portal-sip-configuration-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration SIP Sessions API
+  slug: postman-cisco-voice-portal-sip-sessions-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration System Configuration API
+  slug: postman-cisco-voice-portal-system-configuration-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration User Management API
+  slug: postman-cisco-voice-portal-user-management-api
+- collection_type: postman
+  name: Cisco Voice Portal Administration Application Configuration VXML Server Management API
+  slug: postman-cisco-voice-portal-vxml-server-management-api
 - collection_type: open
   name: Cisco Voice Portal Administration API
   slug: open-cisco-voice-portal-administration
@@ -128,6 +199,10 @@ collections:
   name: Cisco Voice Portal VXML Services API
   slug: open-cisco-voice-portal-vxml-services
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cisco-voice-portal/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -771,12 +846,12 @@ overview: 'Cisco Voice Portal publishes 24 APIs on the [APIs.io](https://apis.io
   The Cisco Voice Portal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Cisco Voice Portal''s developer surface includes authentication, support, documentation, getting-started guide, engineering blog, signup flow, release notes, and 13 more developer resources.'
+  Cisco Voice Portal''s developer surface includes authentication, support, documentation, getting-started guide, engineering blog, signup flow, release notes, and 14 more developer resources.'
 plans:
 - name: Cisco Voice Portal Plans Pricing
   plan_count: 1
   slug: cisco-voice-portal-plans-pricing
-random_paper: 43
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Cisco Voice Portal Rate Limits
@@ -808,19 +883,32 @@ rules:
   slug: cisco-voice-portal-spectral-rules
 score:
   band: strong
-  composite: 62.6
-  delta: 3.2
+  composite: 56.4
+  delta: -6.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.5
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 67.9
+    developer_ergonomics: 50.0
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 59.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 62.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 43.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/screenshots/cisco-voice-portal-2026-06-20T174408.png
 security:
 - kind: authentication

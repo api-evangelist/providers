@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,26 +99,27 @@ overview: 'OpenGamma is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   OpenGamma''s developer surface includes documentation, getting-started guide, API reference, support, CLI, changelog, and 8 more developer resources.'
-random_paper: 65
+random_paper: 25
 score:
   band: emerging
-  composite: 17.4
-  delta: 0.0
+  composite: 16.1
+  delta: -1.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 10.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

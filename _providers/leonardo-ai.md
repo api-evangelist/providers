@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -79,12 +81,54 @@ apis:
 - description: The Variation API from Leonardo.AI — 6 operation(s) for variation.
   name: Leonardo.AI Variation API
   slug: leonardo-ai-variation-api
-artifact_total: 66
+artifact_total: 80
 asyncapis:
 - description: AsyncAPI description of Leonardo.AI's outbound webhook callback surface. Leonardo delivers asynchronous job-completion notifications to a customer- hosted HTTPS endpoint that is configured per Product
   name: Leonardo.AI Webhook Callbacks
   slug: leonardo-ai-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets API
+  slug: postman-leonardo-ai-3d-model-assets-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Blueprints API
+  slug: postman-leonardo-ai-blueprints-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Dataset API
+  slug: postman-leonardo-ai-dataset-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Elements API
+  slug: postman-leonardo-ai-elements-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Image API
+  slug: postman-leonardo-ai-image-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Init Images API
+  slug: postman-leonardo-ai-init-images-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Media API
+  slug: postman-leonardo-ai-media-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Models API
+  slug: postman-leonardo-ai-models-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Motion API
+  slug: postman-leonardo-ai-motion-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Pricing Calculator API
+  slug: postman-leonardo-ai-pricing-calculator-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Prompt API
+  slug: postman-leonardo-ai-prompt-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Realtime Canvas API
+  slug: postman-leonardo-ai-realtime-canvas-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets User API
+  slug: postman-leonardo-ai-user-api
+- collection_type: postman
+  name: Leonardo.AI 3D Model Assets Variation API
+  slug: postman-leonardo-ai-variation-api
 - collection_type: open
   name: Leonardo.AI 3D Model Assets API
   slug: open-leonardo-ai-3d-model-assets
@@ -128,6 +172,10 @@ collections:
   name: Leonardo.AI Video Generation API
   slug: open-leonardo-ai-video-generation
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/leonardoai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -374,12 +422,12 @@ overview: 'Leonardo.AI publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   The Leonardo.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Leonardo.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, tooling, signup flow, and 37 more developer resources.'
+  Leonardo.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, tooling, signup flow, and 38 more developer resources.'
 plans:
 - name: Leonardo Ai Plans Pricing
   plan_count: 5
   slug: leonardo-ai-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Leonardo Ai Rate Limits
@@ -411,18 +459,25 @@ rules:
   slug: leonardo-ai-rules
 score:
   band: strong
-  composite: 66.2
-  delta: 3.5
+  composite: 63.5
+  delta: -2.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 80.4
-    developer_ergonomics: 60.9
-    discoverability: 80.0
-    governance: 60.5
+    contract_quality: 80.5
+    developer_ergonomics: 65.2
+    discoverability: 59.3
+    governance: 47.9
     operational_transparency: 34.2
-  previous_composite: 62.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/screenshots/leonardo-ai-2026-06-20T184426.png
 security:

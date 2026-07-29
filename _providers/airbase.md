@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: 'Programmatically create, list, retrieve, and update bills and vendor invoices flowing through Airbase''s AP automation - including bill line items, approval state, payment status, and payment method - '
@@ -107,25 +109,25 @@ plans:
 - name: Airbase Plans Pricing
   plan_count: 2
   slug: airbase-plans-pricing
-random_paper: 47
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Airbase Rate Limits
   slug: airbase-rate-limits
 score:
   band: emerging
-  composite: 19.0
-  delta: 0.0
+  composite: 16.7
+  delta: -2.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbase/refs/heads/main/screenshots/airbase-2026-07-25T195412.png
 security:

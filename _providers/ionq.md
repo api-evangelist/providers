@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 62.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -58,12 +60,34 @@ apis:
 - description: The whoami API from IonQ — 1 operation(s) for whoami.
   name: IonQ whoami API
   slug: ionq-whoami-api
-artifact_total: 42
+artifact_total: 48
 collections:
+- collection_type: postman
+  name: IonQ Cloud Platform backends API
+  slug: postman-ionq-backends-api
+- collection_type: postman
+  name: IonQ Cloud Platform backends characterizations API
+  slug: postman-ionq-characterizations-api
+- collection_type: postman
+  name: IonQ Cloud Platform backends Jobs API
+  slug: postman-ionq-jobs-api
+- collection_type: postman
+  name: IonQ Cloud Platform backends Sessions API
+  slug: postman-ionq-sessions-api
+- collection_type: postman
+  name: IonQ Cloud Platform backends usage API
+  slug: postman-ionq-usage-api
+- collection_type: postman
+  name: IonQ Cloud Platform backends whoami API
+  slug: postman-ionq-whoami-api
 - collection_type: open
   name: IonQ Cloud Platform API
   slug: open-ionq-quantum-cloud
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ionq/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -400,12 +424,12 @@ overview: 'IonQ publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
   The IonQ catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  IonQ''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, support, engineering blog, and 61 more developer resources.'
+  IonQ''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, support, engineering blog, and 62 more developer resources.'
 plans:
 - name: Ionq Plans Pricing
   plan_count: 4
   slug: ionq-plans-pricing
-random_paper: 31
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Ionq Rate Limits
@@ -429,19 +453,26 @@ rules:
   slug: ionq-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 5.5
+  composite: 61.3
+  delta: -3.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.0
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 67.7
+    developer_ergonomics: 65.2
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 59.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 65.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/screenshots/ionq-2026-06-20T183533.png
 security:
 - kind: authentication

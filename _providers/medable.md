@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Schema-driven object API for building clinical applications on Medable: custom objects and typed properties, querying and aggregation, server-side scripting, accounts, connections, notifications, and '
@@ -158,26 +160,30 @@ overview: 'Medable publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Medable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 34
+random_paper: 21
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 34.8
+  delta: -4.8
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 73.9
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 36.8
   previous_composite: 39.6
+  provenance:
+    conformance: derived
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

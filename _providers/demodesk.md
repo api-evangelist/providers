@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.6
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The Externally recorded demos API from Demodesk — 3 operation(s) for externally recorded demos.
@@ -159,7 +161,7 @@ overview: 'Demodesk publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Demodesk''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 28
+random_paper: 74
 scopes:
 - name: Demodesk Scopes
   scope_count: 1
@@ -167,18 +169,27 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.3
+  delta: -1.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.3
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 58.3
+    developer_ergonomics: 51.6
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 50.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/screenshots/demodesk-2026-07-25T211714.png
 security:

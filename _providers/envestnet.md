@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -1373,7 +1375,7 @@ plans:
 - name: Envestnet Plans Pricing
   plan_count: 2
   slug: envestnet-plans-pricing
-random_paper: 36
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Envestnet Rate Limits
@@ -1388,25 +1390,33 @@ rules:
     warn: 3
   slug: envestnet-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.6
-  delta: 0.0
+  band: thin
+  composite: 40.1
+  delta: -6.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.4
+    contract_quality: 50.1
     developer_ergonomics: 10.9
-    discoverability: 75.0
-    governance: 73.7
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 42.1
   previous_composite: 46.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 25.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/screenshots/envestnet-2026-06-20T180737.png
 security:
 - kind: domain-security

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 api_count: 10
 apis:
 - description: 'The Affinity API endpoints allow API users to leverage the power of the Signal AI Knowledge Graph, derived from billions of documents and updated regularly. The Signal AI Knowledge Graph consists of: '
@@ -161,26 +163,35 @@ overview: 'Signal AI publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Signal AI''s developer surface includes authentication, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 1
+random_paper: 38
 scopes:
 - name: Signal Ai Scopes
   scope_count: 6
   slug: signal-ai-scopes
   summary_line: 6 scopes · clientCredentials
 score:
-  band: thin
-  composite: 42.9
-  delta: 0.0
+  band: developing
+  composite: 42.6
+  delta: -0.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.9
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 52.0
+    developer_ergonomics: 45.1
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 42.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

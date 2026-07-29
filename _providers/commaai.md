@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The comma connect API is a JWT-authenticated REST API for comma / openpilot users and devices. It exposes the authenticated user profile and device list, per-device operations (info, location, stats, '
@@ -142,21 +144,24 @@ overview: 'Comma.ai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Comma.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 16 more developer resources.'
-random_paper: 47
+random_paper: 34
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 32.9
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 60.9
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 34.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/screenshots/commaai-2026-07-25T210118.png
 security:

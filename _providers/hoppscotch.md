@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT. It provides a minimalist, web-based API development suite with real-time collabora
@@ -166,26 +168,26 @@ plans:
 - name: Hoppscotch Plans Pricing
   plan_count: 3
   slug: hoppscotch-plans-pricing
-random_paper: 63
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Hoppscotch Rate Limits
   slug: hoppscotch-rate-limits
 score:
-  band: thin
-  composite: 37.7
-  delta: 0.0
+  band: developing
+  composite: 48.0
+  delta: 10.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 78.9
   previous_composite: 37.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hoppscotch/refs/heads/main/screenshots/hoppscotch-2026-06-20T182832.png
 security:
 - kind: domain-security

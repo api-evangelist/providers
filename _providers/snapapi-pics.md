@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.9
+  scored_at: '2026-07-28'
 api_count: 13
 apis:
 - description: AI-powered web analysis with your own LLM key (BYOK)
@@ -117,21 +119,27 @@ overview: 'SnapAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SnapAPI''s developer surface includes documentation, API reference, signup flow, pricing, changelog, engineering blog, and 3 more developer resources.'
-random_paper: 0
+random_paper: 69
 score:
   band: thin
-  composite: 35.0
-  delta: 0.0
+  composite: 32.4
+  delta: -2.6
   facets:
     commercial_clarity: 10.5
-    contract_quality: 61.1
+    contract_quality: 61.4
     developer_ergonomics: 17.4
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 35.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 slug: snapapi-pics
 tags:

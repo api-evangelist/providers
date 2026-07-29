@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Symetra's Benefits Administration API enables HR platforms, benefits administrators, and technology partners to integrate with Symetra's group benefits products. The API supports automated data exchan
@@ -132,30 +134,31 @@ press:
 - date: '2026-05-25'
   title: Sumitomo Life to Acquire Symetra for $3.76 Billion - Best's News
   url: https://news.ambest.com/newscontent.aspx?refnum=185237&altsrc=114&SrvId=156
-random_paper: 51
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Symetra Financial Rate Limits
   slug: symetra-financial-rate-limits
 score:
-  band: thin
-  composite: 32.0
-  delta: 0.0
+  band: emerging
+  composite: 27.3
+  delta: -4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 6.5
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 32.0
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 30.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

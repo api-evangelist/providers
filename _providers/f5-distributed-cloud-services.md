@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -111,21 +113,28 @@ overview: 'F5 Distributed Cloud Services publishes 2 APIs on the [APIs.io](https
 
 
   F5 Distributed Cloud Services'' developer surface includes authentication, documentation, pricing, signup flow, developer console, support, engineering blog, and 5 more developer resources.'
-random_paper: 24
+random_paper: 31
 score:
   band: thin
-  composite: 33.7
-  delta: 3.2
+  composite: 31.6
+  delta: -2.1
   facets:
     commercial_clarity: 18.4
-    contract_quality: 51.3
+    contract_quality: 53.4
     developer_ergonomics: 32.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 33.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/screenshots/f5-distributed-cloud-services-2026-06-20T180955.png
 security:

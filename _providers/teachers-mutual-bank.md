@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.4
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -168,7 +170,7 @@ overview: 'Teachers Mutual Bank publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Teachers Mutual Bank''s developer surface includes authentication, API reference, getting-started guide, documentation, support, and 20 more developer resources.'
-random_paper: 41
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Teachers Mutual Bank Rate Limits
@@ -180,24 +182,34 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 44.7
+  delta: -5.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.0
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.0
+    developer_ergonomics: 53.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 50.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 53.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/screenshots/teachers-mutual-bank-2026-07-21T114753.png
 security:
 - kind: authentication

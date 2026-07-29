@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 46.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,21 +131,31 @@ overview: 'Seismic Systems publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Seismic Systems'' developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, authentication, and 12 more developer resources.'
-random_paper: 22
+random_paper: 46
 score:
   band: thin
-  composite: 43.1
-  delta: 0.0
+  composite: 40.2
+  delta: -2.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.9
+    contract_quality: 39.8
     developer_ergonomics: 76.1
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 43.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

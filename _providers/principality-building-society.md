@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 34.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.8
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The UK Open Banking Implementation Entity (OBIE) Open Data API standard - public, unauthenticated reference data covering Branches, ATMs, Personal Current Accounts, Business Current Accounts, Unsecure
@@ -94,27 +96,35 @@ overview: 'Principality Building Society publishes 1 API on the [APIs.io](https:
 
 
   Principality Building Society''s developer surface includes authentication, product news, support, and 9 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: emerging
-  composite: 29.8
-  delta: 0.0
+  composite: 24.2
+  delta: -5.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 15.2
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 72.2
+    governance: 3.1
     operational_transparency: 0.0
   previous_composite: 29.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 31.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Principality Building Society Authentication

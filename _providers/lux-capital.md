@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Lux Capital
 nav: Providers
 network: true
-random_paper: 36
+random_paper: 46
 slug: lux-capital
 tags:
 - Venture Capital

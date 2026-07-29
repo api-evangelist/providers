@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful v1 API for the August Health EHR platform covering organizations, facilities, rooms, census, residents, contacts, assessments, incidents & notes, medications (orders and administrations), vita
@@ -169,30 +171,35 @@ overview: 'August Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   August Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 48
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: August Health Rate Limits
   slug: august-health-rate-limits
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 46.5
+  delta: 0.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 56.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 45.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 37.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/screenshots/august-health-2026-07-25T201720.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -216,7 +218,7 @@ overview: 'Adapter publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Adapter''s developer surface includes authentication, engineering blog, signup flow, support, and 17 more developer resources.'
-random_paper: 57
+random_paper: 44
 scopes:
 - name: Adapter Scopes
   scope_count: 2
@@ -224,18 +226,28 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 35.8
+  delta: 0.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 48.7
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 46.7
+    developer_ergonomics: 27.7
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 35.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

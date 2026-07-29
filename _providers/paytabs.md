@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -43,12 +45,23 @@ apis:
 - description: Query and manage existing transactions.
   name: PayTabs Transactions API
   slug: paytabs-transactions-api
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: 'PayTabs delivers transaction outcomes to merchants via server-to-server HTTP POST notifications. There are two flavors of the same payload: the Callback (a one-time notification whose URL is passed pe'
   name: PayTabs IPN / Callback Notifications
   slug: paytabs-webhooks-asyncapi
+collections:
+- collection_type: postman
+  name: PayTabs PT2 Payments API
+  slug: postman-paytabs-payments-api
+- collection_type: postman
+  name: PayTabs PT2 Payments Transactions API
+  slug: postman-paytabs-transactions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/paytabs/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -235,35 +248,46 @@ overview: 'PayTabs publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   The PayTabs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PayTabs'' developer surface includes authentication, documentation, engineering blog, getting-started guide, API reference, support, pricing, and 34 more developer resources.'
+  PayTabs'' developer surface includes authentication, documentation, engineering blog, getting-started guide, API reference, support, pricing, and 35 more developer resources.'
 plans:
 - name: Paytabs Plans Pricing
   plan_count: 2
   slug: paytabs-plans-pricing
-random_paper: 8
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Paytabs Rate Limits
   slug: paytabs-rate-limits
 score:
   band: exemplar
-  composite: 70.6
-  delta: 0.0
+  composite: 70.5
+  delta: -0.1
   facets:
     commercial_clarity: 89.5
-    contract_quality: 69.0
-    developer_ergonomics: 84.8
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 70.3
+    developer_ergonomics: 73.4
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 60.5
   previous_composite: 70.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

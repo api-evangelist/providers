@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,25 +116,32 @@ press:
 - date: '2026-05-25'
   title: Live Nation Entertainment Full Year And Fourth Quarter ...
   url: https://newsroom.livenation.com/news/live-nation-entertainment-full-year-and-fourth-quarter-2025-results/
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Live Nation Entertainment Rate Limits
   slug: live-nation-entertainment-rate-limits
 score:
   band: thin
-  composite: 33.3
-  delta: 2.5
+  composite: 32.0
+  delta: -1.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 50.4
+    contract_quality: 52.5
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 33.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/screenshots/live-nation-entertainment-2026-06-20T184616.png
 security:

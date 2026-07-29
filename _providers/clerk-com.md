@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: true
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 16
@@ -265,8 +267,236 @@ apis:
 - description: Well-known endpoints like JWKS, deep linking, and openid-configuration.
   name: Clerk Well Known API
   slug: clerk-com-well-known-api
-artifact_total: 144
+artifact_total: 220
 collections:
+- collection_type: postman
+  name: Clerk Backend Account Portal API
+  slug: postman-clerk-com-account-portal-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Active Sessions API
+  slug: postman-clerk-com-active-sessions-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Actor Tokens API
+  slug: postman-clerk-com-actor-tokens-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Agent Tasks API
+  slug: postman-clerk-com-agent-tasks-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Allow-list / Block-list API
+  slug: postman-clerk-com-allow-list-block-list-api
+- collection_type: postman
+  name: Clerk Backend Account Portal API Keys API
+  slug: postman-clerk-com-api-keys-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Application Transfers API
+  slug: postman-clerk-com-application-transfers-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Applications API
+  slug: postman-clerk-com-applications-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Backup Codes API
+  slug: postman-clerk-com-backup-codes-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Beta Features API
+  slug: postman-clerk-com-beta-features-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Billing API
+  slug: postman-clerk-com-billing-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Checkouts API
+  slug: postman-clerk-com-checkouts-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Clear Site Data API
+  slug: postman-clerk-com-clear-site-data-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Client API
+  slug: postman-clerk-com-client-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Clients API
+  slug: postman-clerk-com-clients-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Config API
+  slug: postman-clerk-com-config-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Dev Browser API
+  slug: postman-clerk-com-dev-browser-api
+- collection_type: postman
+  name: Clerk Backend Account Portal DevBrowser API
+  slug: postman-clerk-com-devbrowser-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Domains API
+  slug: postman-clerk-com-domains-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Email Addresses API
+  slug: postman-clerk-com-email-addresses-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Email & SMS Templates API
+  slug: postman-clerk-com-email-sms-templates-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Enterprise Connections API
+  slug: postman-clerk-com-enterprise-connections-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Environment API
+  slug: postman-clerk-com-environment-api
+- collection_type: postman
+  name: Clerk Backend Account Portal External Accounts API
+  slug: postman-clerk-com-external-accounts-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Health API
+  slug: postman-clerk-com-health-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Instance Settings API
+  slug: postman-clerk-com-instance-settings-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Invitations API
+  slug: postman-clerk-com-invitations-api
+- collection_type: postman
+  name: Clerk Backend Account Portal JWKS API
+  slug: postman-clerk-com-jwks-api
+- collection_type: postman
+  name: Clerk Backend Account Portal JWT Templates API
+  slug: postman-clerk-com-jwt-templates-api
+- collection_type: postman
+  name: Clerk Backend Account Portal M2M Tokens API
+  slug: postman-clerk-com-m2m-tokens-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Machines API
+  slug: postman-clerk-com-machines-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Members API
+  slug: postman-clerk-com-members-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Membership Requests API
+  slug: postman-clerk-com-membership-requests-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Miscellaneous API
+  slug: postman-clerk-com-miscellaneous-api
+- collection_type: postman
+  name: Clerk Backend Account Portal OAuth Access Tokens API
+  slug: postman-clerk-com-oauth-access-tokens-api
+- collection_type: postman
+  name: Clerk Backend Account Portal OAuth Applications API
+  slug: postman-clerk-com-oauth-applications-api
+- collection_type: postman
+  name: Clerk Backend Account Portal OAuth2 Callbacks API
+  slug: postman-clerk-com-oauth2-callbacks-api
+- collection_type: postman
+  name: Clerk Backend Account Portal OAuth2 Identity Provider API
+  slug: postman-clerk-com-oauth2-identity-provider-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Organization API
+  slug: postman-clerk-com-organization-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Organization Creation Defaults API
+  slug: postman-clerk-com-organization-creation-defaults-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Organization Domains API
+  slug: postman-clerk-com-organization-domains-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Organization Invitations API
+  slug: postman-clerk-com-organization-invitations-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Organization Memberships API
+  slug: postman-clerk-com-organization-memberships-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Organization Permissions API
+  slug: postman-clerk-com-organization-permissions-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Organization Roles API
+  slug: postman-clerk-com-organization-roles-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Organizations API
+  slug: postman-clerk-com-organizations-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Organizations Memberships API
+  slug: postman-clerk-com-organizations-memberships-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Passkeys API
+  slug: postman-clerk-com-passkeys-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Payment Attempts API
+  slug: postman-clerk-com-payment-attempts-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Payment Methods API
+  slug: postman-clerk-com-payment-methods-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Phone Numbers API
+  slug: postman-clerk-com-phone-numbers-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Plans API
+  slug: postman-clerk-com-plans-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Proxy Checks API
+  slug: postman-clerk-com-proxy-checks-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Proxy Health API
+  slug: postman-clerk-com-proxy-health-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Redirect API
+  slug: postman-clerk-com-redirect-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Redirect URLs API
+  slug: postman-clerk-com-redirect-urls-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Role Sets API
+  slug: postman-clerk-com-role-sets-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Roles API
+  slug: postman-clerk-com-roles-api
+- collection_type: postman
+  name: Clerk Backend Account Portal SAML API
+  slug: postman-clerk-com-saml-api
+- collection_type: postman
+  name: Clerk Backend Account Portal SAML Connections API
+  slug: postman-clerk-com-saml-connections-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Sessions API
+  slug: postman-clerk-com-sessions-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Sign-in Tokens API
+  slug: postman-clerk-com-sign-in-tokens-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Sign Ins API
+  slug: postman-clerk-com-sign-ins-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Sign Ups API
+  slug: postman-clerk-com-sign-ups-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Statements API
+  slug: postman-clerk-com-statements-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Subscription Items API
+  slug: postman-clerk-com-subscription-items-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Subscriptions API
+  slug: postman-clerk-com-subscriptions-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Testing Tokens API
+  slug: postman-clerk-com-testing-tokens-api
+- collection_type: postman
+  name: Clerk Backend Account Portal TOTP API
+  slug: postman-clerk-com-totp-api
+- collection_type: postman
+  name: Clerk Backend Account Portal User API
+  slug: postman-clerk-com-user-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Users API
+  slug: postman-clerk-com-users-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Waitlist API
+  slug: postman-clerk-com-waitlist-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Waitlist Entries API
+  slug: postman-clerk-com-waitlist-entries-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Web3 Wallets API
+  slug: postman-clerk-com-web3-wallets-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Webhooks API
+  slug: postman-clerk-com-webhooks-api
+- collection_type: postman
+  name: Clerk Backend Account Portal Well Known API
+  slug: postman-clerk-com-well-known-api
 - collection_type: open
   name: Clerk Backend API
   slug: open-clerk-backend-api
@@ -280,6 +510,10 @@ collections:
   name: Clerk Webhook Events
   slug: open-clerk-webhooks
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/clerk/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -748,12 +982,12 @@ overview: 'Clerk publishes 76 APIs on the [APIs.io](https://apis.io/) network, i
   The Clerk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Clerk''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, changelog, support, and 63 more developer resources.'
+  Clerk''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, changelog, support, and 64 more developer resources.'
 plans:
 - name: Clerk Com Plans Pricing
   plan_count: 4
   slug: clerk-com-plans-pricing
-random_paper: 9
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Clerk Com Rate Limits
@@ -777,18 +1011,25 @@ rules:
   slug: clerk-rules
 score:
   band: strong
-  composite: 68.5
-  delta: 2.5
+  composite: 64.9
+  delta: -3.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 65.2
-    developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 65.5
+    developer_ergonomics: 52.2
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 66.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 77
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/screenshots/clerk-com-2026-06-20T174512.png
 security:

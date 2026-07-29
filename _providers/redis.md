@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Core Redis commands and data structure operations. Redis supports strings, hashes, lists, sets, sorted sets, streams, and more. The primary interface is the Redis Serialization Protocol (RESP) over TC
@@ -195,7 +197,7 @@ plans:
 - name: Redis Plans Pricing
   plan_count: 4
   slug: redis-plans-pricing
-random_paper: 59
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Redis Rate Limits
@@ -211,19 +213,19 @@ rules:
   slug: redis-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 44.4
+  delta: -5.1
   facets:
     commercial_clarity: 68.4
-    contract_quality: 28.3
+    contract_quality: 24.2
     developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 49.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/screenshots/redis-2026-06-20T192736.png
 security:
 - kind: domain-security

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.0
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: Fetch applicant data, hiring status and leads for a job.
@@ -182,21 +184,30 @@ overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Phenom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 20 more developer resources.'
-random_paper: 35
+random_paper: 31
 score:
   band: developing
   composite: 48.0
   delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.4
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.2
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 15.8
   previous_composite: 48.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

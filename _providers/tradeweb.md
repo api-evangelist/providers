@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Electronic trading API for executing trades across fixed income, derivatives, and ETF markets. Supports RFQ (Request for Quote), click-to-trade, and automated execution via AiEX (Automated Intelligent
@@ -162,7 +164,7 @@ plans:
 - name: Tradeweb Plans Pricing
   plan_count: 3
   slug: tradeweb-plans-pricing
-random_paper: 30
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Tradeweb Rate Limits
@@ -186,23 +188,24 @@ rules:
   slug: tradeweb-spectral-rules
 score:
   band: thin
-  composite: 44.6
-  delta: 0.0
+  composite: 40.2
+  delta: -4.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 23.9
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 44.6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The backend half of the Truecaller OAuth SDK flow. After the mobile SDK returns an authorization code, partners exchange it at POST /v1/token (authorization_code grant with PKCE code_verifier; refresh
@@ -186,27 +188,29 @@ overview: 'Truecaller publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Truecaller''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 55
+random_paper: 74
 scopes:
 - name: Truecaller Scopes
   scope_count: 6
   slug: truecaller-scopes
   summary_line: 6 scopes · authorizationCode/refreshToken
 score:
-  band: thin
-  composite: 40.4
-  delta: 0.0
+  band: developing
+  composite: 48.4
+  delta: 8.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 47.4
   previous_composite: 40.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Truecaller Authentication

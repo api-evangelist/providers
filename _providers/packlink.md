@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -167,21 +169,31 @@ overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Packlink''s developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 29
+random_paper: 75
 score:
   band: thin
-  composite: 44.0
-  delta: 0.0
+  composite: 41.7
+  delta: -2.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.7
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.3
+    developer_ergonomics: 36.4
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 44.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

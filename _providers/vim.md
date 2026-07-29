@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -206,7 +208,7 @@ overview: 'Vim publishes 1 API on the [APIs.io](https://apis.io/) network: Data 
 
 
   Vim''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, and 28 more developer resources.'
-random_paper: 60
+random_paper: 24
 scopes:
 - name: Vim Scopes
   scope_count: 4
@@ -214,24 +216,35 @@ scopes:
   summary_line: 4 scopes · implicit/clientCredentials
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 44.5
+  delta: -5.6
   facets:
     commercial_clarity: 36.8
-    contract_quality: 37.7
-    developer_ergonomics: 69.6
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 58.2
+    discoverability: 83.3
+    governance: 20.8
     operational_transparency: 31.6
   previous_composite: 50.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 58.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Vim Authentication

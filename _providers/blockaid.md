@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -230,21 +232,31 @@ overview: 'Blockaid publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Blockaid''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 9
+random_paper: 55
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 44.1
+  delta: -1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 66.5
-    developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 67.5
+    developer_ergonomics: 42.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 45.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/screenshots/blockaid-2026-07-25T203339.png
 security:

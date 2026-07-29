@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 58.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -194,25 +196,35 @@ overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 18 more developer resources.'
-random_paper: 66
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Brainfish Rate Limits
   slug: brainfish-rate-limits
 score:
-  band: developing
-  composite: 57.7
-  delta: 0.0
+  band: strong
+  composite: 58.8
+  delta: 1.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.9
-    developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 63.0
+    developer_ergonomics: 58.2
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 57.9
   previous_composite: 57.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
 security:

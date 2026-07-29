@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.7
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The Suunto Cloud API (also called the Integration API) gives approved partners OAuth2-authorized access to a Suunto App user's workout and daily-activity data. Workouts are delivered as FIT files carr
@@ -164,31 +166,35 @@ overview: 'Liesheng Group publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Liesheng Group''s developer surface includes support, documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 31
+random_paper: 0
 scopes:
 - name: Liesheng Scopes
   scope_count: 1
   slug: liesheng-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 45.3
+  delta: 3.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 7.9
   previous_composite: 41.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 52.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/screenshots/liesheng-2026-07-25T225031.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 64.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 3
@@ -102,12 +104,83 @@ apis:
 - description: The Webhooks API from Twitter/X — 5 operation(s) for webhooks.
   name: Twitter/X Webhooks API
   slug: twitter-x-webhooks-api
-artifact_total: 30
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Twitter X Webhooks
   slug: twitter-x-webhooks
+collections:
+- collection_type: postman
+  name: X API v2 Account Activity API
+  slug: postman-twitter-x-account-activity-api
+- collection_type: postman
+  name: X API v2 Account Activity API
+  slug: postman-twitter-x-activity-api
+- collection_type: postman
+  name: X API v2 Account Activity Articles API
+  slug: postman-twitter-x-articles-api
+- collection_type: postman
+  name: X API v2 Account Activity Bookmarks API
+  slug: postman-twitter-x-bookmarks-api
+- collection_type: postman
+  name: X API v2 Account Activity Chat API
+  slug: postman-twitter-x-chat-api
+- collection_type: postman
+  name: X API v2 Account Activity Communities API
+  slug: postman-twitter-x-communities-api
+- collection_type: postman
+  name: X API v2 Account Activity Community Notes API
+  slug: postman-twitter-x-community-notes-api
+- collection_type: postman
+  name: X API v2 Account Activity Compliance API
+  slug: postman-twitter-x-compliance-api
+- collection_type: postman
+  name: X API v2 Account Activity Connections API
+  slug: postman-twitter-x-connections-api
+- collection_type: postman
+  name: X API v2 Account Activity Direct Messages API
+  slug: postman-twitter-x-direct-messages-api
+- collection_type: postman
+  name: X API v2 Account Activity General API
+  slug: postman-twitter-x-general-api
+- collection_type: postman
+  name: X API v2 Account Activity Likes API
+  slug: postman-twitter-x-likes-api
+- collection_type: postman
+  name: X API v2 Account Activity Lists API
+  slug: postman-twitter-x-lists-api
+- collection_type: postman
+  name: X API v2 Account Activity Media API
+  slug: postman-twitter-x-media-api
+- collection_type: postman
+  name: X API v2 Account Activity News API
+  slug: postman-twitter-x-news-api
+- collection_type: postman
+  name: X API v2 Account Activity Spaces API
+  slug: postman-twitter-x-spaces-api
+- collection_type: postman
+  name: X API v2 Account Activity Stream API
+  slug: postman-twitter-x-stream-api
+- collection_type: postman
+  name: X API v2 Account Activity Trends API
+  slug: postman-twitter-x-trends-api
+- collection_type: postman
+  name: X API v2 Account Activity Tweets API
+  slug: postman-twitter-x-tweets-api
+- collection_type: postman
+  name: X API v2 Account Activity Usage API
+  slug: postman-twitter-x-usage-api
+- collection_type: postman
+  name: X API v2 Account Activity Users API
+  slug: postman-twitter-x-users-api
+- collection_type: postman
+  name: X API v2 Account Activity Webhooks API
+  slug: postman-twitter-x-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/twitterx/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -278,8 +351,8 @@ overview: 'Twitter/X publishes 22 APIs on the [APIs.io](https://apis.io/) networ
   The Twitter/X catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Twitter/X''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 31 more developer resources.'
-random_paper: 0
+  Twitter/X''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 32 more developer resources.'
+random_paper: 28
 rate_limits:
 - limit_count: 18
   name: Twitter X Rate Limits
@@ -291,18 +364,28 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.0
-  delta: 0.0
+  composite: 65.5
+  delta: 0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.7
+    contract_quality: 63.1
     developer_ergonomics: 89.1
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 94.7
   previous_composite: 65.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: first-party
+    skills: unknown
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

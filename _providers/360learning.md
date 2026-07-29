@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -240,26 +242,36 @@ overview: '360Learning publishes 17 APIs on the [APIs.io](https://apis.io/) netw
 
 
   360Learning''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 25 more developer resources.'
-random_paper: 49
+random_paper: 0
 scopes:
 - name: 360Learning Scopes
   scope_count: 45
   slug: 360learning-scopes
   summary_line: 45 scopes
 score:
-  band: developing
-  composite: 58.9
-  delta: 0.0
+  band: strong
+  composite: 57.5
+  delta: -1.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.6
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.6
+    developer_ergonomics: 56.0
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 47.4
   previous_composite: 58.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:

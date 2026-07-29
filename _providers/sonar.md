@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,12 +60,34 @@ apis:
 - description: API token generation and management
   name: Sonar User Tokens API
   slug: sonar-user-tokens-api
-artifact_total: 23
+artifact_total: 29
 collections:
+- collection_type: postman
+  name: SonarCloud Issues API
+  slug: postman-sonar-issues-api
+- collection_type: postman
+  name: SonarCloud Issues Measures API
+  slug: postman-sonar-measures-api
+- collection_type: postman
+  name: SonarCloud Issues Organizations API
+  slug: postman-sonar-organizations-api
+- collection_type: postman
+  name: SonarCloud Issues Projects API
+  slug: postman-sonar-projects-api
+- collection_type: postman
+  name: SonarCloud Issues Quality Gates API
+  slug: postman-sonar-quality-gates-api
+- collection_type: postman
+  name: SonarCloud Issues User Tokens API
+  slug: postman-sonar-user-tokens-api
 - collection_type: open
   name: SonarCloud API
   slug: open-sonar-sonarcloud-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sonar/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -169,12 +193,12 @@ overview: 'Sonar publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Sonar catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sonar''s developer surface includes authentication, engineering blog, support, pricing, and 11 more developer resources.'
+  Sonar''s developer surface includes authentication, engineering blog, support, pricing, and 12 more developer resources.'
 plans:
 - name: Sonar Plans Pricing
   plan_count: 3
   slug: sonar-plans-pricing
-random_paper: 3
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Sonar Rate Limits
@@ -198,18 +222,25 @@ rules:
   slug: sonar-rules
 score:
   band: strong
-  composite: 63.8
-  delta: 4.2
+  composite: 60.5
+  delta: -3.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.5
-    developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 30.4
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 59.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/screenshots/sonar-2026-06-20T194158.png
 security:

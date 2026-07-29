@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 29.7
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The Apps API from OneSignal — 21 operation(s) for apps.
@@ -111,25 +113,37 @@ plans:
 - name: Onesignal Plans Pricing
   plan_count: 1
   slug: onesignal-plans-pricing
-random_paper: 8
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Onesignal Rate Limits
   slug: onesignal-rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 3.3
+  composite: 30.0
+  delta: -3.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.8
+    contract_quality: 64.9
     developer_ergonomics: 2.2
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 33.6
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png
 security:

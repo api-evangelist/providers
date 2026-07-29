@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Create and manage the loan records that appraisal orders are placed against - sync loan data from the LOS, retrieve loan detail, update loan fields, and receive a webhook when a loan is deleted. Endpo
@@ -111,25 +113,25 @@ plans:
 - name: Reggora Plans Pricing
   plan_count: 2
   slug: reggora-plans-pricing
-random_paper: 63
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Reggora Rate Limits
   slug: reggora-rate-limits
 score:
   band: emerging
-  composite: 23.6
-  delta: 0.0
+  composite: 21.1
+  delta: -2.5
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 23.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

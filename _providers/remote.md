@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 59.2
+  scored_at: '2026-07-28'
 api_count: 101
 apis:
 - description: The Address Details API from Remote — 1 operation(s) for address details.
@@ -332,12 +334,320 @@ apis:
 - description: The Work Authorization API from Remote — 2 operation(s) for work authorization.
   name: Remote Work Authorization API
   slug: remote-work-authorization-api
-artifact_total: 108
+artifact_total: 209
 asyncapis:
 - description: ''
   name: Remote Webhooks
   slug: remote-webhooks
+collections:
+- collection_type: postman
+  name: Remote Address Details API
+  slug: postman-remote-address-details-api
+- collection_type: postman
+  name: Remote Address Details Administrative Details API
+  slug: postman-remote-administrative-details-api
+- collection_type: postman
+  name: Remote Address Details Background Checks API
+  slug: postman-remote-background-checks-api
+- collection_type: postman
+  name: Remote Address Details Bank Account Details API
+  slug: postman-remote-bank-account-details-api
+- collection_type: postman
+  name: Remote Address Details Basic Information API
+  slug: postman-remote-basic-information-api
+- collection_type: postman
+  name: Remote Address Details Benefit Offers API
+  slug: postman-remote-benefit-offers-api
+- collection_type: postman
+  name: Remote Address Details Benefit Offers By Employment API
+  slug: postman-remote-benefit-offers-by-employment-api
+- collection_type: postman
+  name: Remote Address Details Benefit Renewals API
+  slug: postman-remote-benefit-renewals-api
+- collection_type: postman
+  name: Remote Address Details Benefits API
+  slug: postman-remote-benefits-api
+- collection_type: postman
+  name: Remote Address Details Billing Address Details API
+  slug: postman-remote-billing-address-details-api
+- collection_type: postman
+  name: Remote Address Details Billing API
+  slug: postman-remote-billing-api
+- collection_type: postman
+  name: Remote Address Details Billing Documents API
+  slug: postman-remote-billing-documents-api
+- collection_type: postman
+  name: Remote Address Details Companies API
+  slug: postman-remote-companies-api
+- collection_type: postman
+  name: Remote Address Details Company Management API
+  slug: postman-remote-company-management-api
+- collection_type: postman
+  name: Remote Address Details Company Managers API
+  slug: postman-remote-company-managers-api
+- collection_type: postman
+  name: Remote Address Details Company Tokens API
+  slug: postman-remote-company-tokens-api
+- collection_type: postman
+  name: Remote Address Details Compliance API
+  slug: postman-remote-compliance-api
+- collection_type: postman
+  name: Remote Address Details Contract Amendments API
+  slug: postman-remote-contract-amendments-api
+- collection_type: postman
+  name: Remote Address Details Contract Details API
+  slug: postman-remote-contract-details-api
+- collection_type: postman
+  name: Remote Address Details Contract Documents API
+  slug: postman-remote-contract-documents-api
+- collection_type: postman
+  name: Remote Address Details Contract Eligibility API
+  slug: postman-remote-contract-eligibility-api
+- collection_type: postman
+  name: Remote Address Details Contractors API
+  slug: postman-remote-contractors-api
+- collection_type: postman
+  name: Remote Address Details Contracts API
+  slug: postman-remote-contracts-api
+- collection_type: postman
+  name: Remote Address Details Cost Calculator API
+  slug: postman-remote-cost-calculator-api
+- collection_type: postman
+  name: Remote Address Details Cost Center Allocations API
+  slug: postman-remote-cost-center-allocations-api
+- collection_type: postman
+  name: Remote Address Details Countries API
+  slug: postman-remote-countries-api
+- collection_type: postman
+  name: Remote Address Details Currencies API
+  slug: postman-remote-currencies-api
+- collection_type: postman
+  name: Remote Address Details Currency Conversion API
+  slug: postman-remote-currency-conversion-api
+- collection_type: postman
+  name: Remote Address Details Custom Fields API
+  slug: postman-remote-custom-fields-api
+- collection_type: postman
+  name: Remote Address Details Departments API
+  slug: postman-remote-departments-api
+- collection_type: postman
+  name: Remote Address Details Eligibility API
+  slug: postman-remote-eligibility-api
+- collection_type: postman
+  name: Remote Address Details Emergency Contact API
+  slug: postman-remote-emergency-contact-api
+- collection_type: postman
+  name: Remote Address Details Employee Actions API
+  slug: postman-remote-employee-actions-api
+- collection_type: postman
+  name: Remote Address Details Employee Address API
+  slug: postman-remote-employee-address-api
+- collection_type: postman
+  name: Remote Address Details Employee Bank Account API
+  slug: postman-remote-employee-bank-account-api
+- collection_type: postman
+  name: Remote Address Details Employee Documents API
+  slug: postman-remote-employee-documents-api
+- collection_type: postman
+  name: Remote Address Details Employee Emergency Contact API
+  slug: postman-remote-employee-emergency-contact-api
+- collection_type: postman
+  name: Remote Address Details Employee Federal Taxes API
+  slug: postman-remote-employee-federal-taxes-api
+- collection_type: postman
+  name: Remote Address Details Employee Files API
+  slug: postman-remote-employee-files-api
+- collection_type: postman
+  name: Remote Address Details Employee Personal Details API
+  slug: postman-remote-employee-personal-details-api
+- collection_type: postman
+  name: Remote Address Details Employee State Taxes API
+  slug: postman-remote-employee-state-taxes-api
+- collection_type: postman
+  name: Remote Address Details Employee Time Off API
+  slug: postman-remote-employee-time-off-api
+- collection_type: postman
+  name: Remote Address Details Employment Agreements API
+  slug: postman-remote-employment-agreements-api
+- collection_type: postman
+  name: Remote Address Details Employment Contracts API
+  slug: postman-remote-employment-contracts-api
+- collection_type: postman
+  name: Remote Address Details Employment Management API
+  slug: postman-remote-employment-management-api
+- collection_type: postman
+  name: Remote Address Details Employments API
+  slug: postman-remote-employments-api
+- collection_type: postman
+  name: Remote Address Details Engagement Agreement Details API
+  slug: postman-remote-engagement-agreement-details-api
+- collection_type: postman
+  name: Remote Address Details Expenses API
+  slug: postman-remote-expenses-api
+- collection_type: postman
+  name: Remote Address Details Federal Taxes API
+  slug: postman-remote-federal-taxes-api
+- collection_type: postman
+  name: Remote Address Details Files API
+  slug: postman-remote-files-api
+- collection_type: postman
+  name: Remote Address Details Getting Started API
+  slug: postman-remote-getting-started-api
+- collection_type: postman
+  name: Remote Address Details GL Reports API
+  slug: postman-remote-gl-reports-api
+- collection_type: postman
+  name: Remote Address Details Help Center Articles API
+  slug: postman-remote-help-center-articles-api
+- collection_type: postman
+  name: Remote Address Details Identity API
+  slug: postman-remote-identity-api
+- collection_type: postman
+  name: Remote Address Details Identity Verification API
+  slug: postman-remote-identity-verification-api
+- collection_type: postman
+  name: Remote Address Details Incentives API
+  slug: postman-remote-incentives-api
+- collection_type: postman
+  name: Remote Address Details Integrations API
+  slug: postman-remote-integrations-api
+- collection_type: postman
+  name: Remote Address Details Invoice Schedules API
+  slug: postman-remote-invoice-schedules-api
+- collection_type: postman
+  name: Remote Address Details Invoices API
+  slug: postman-remote-invoices-api
+- collection_type: postman
+  name: Remote Address Details Jobs API
+  slug: postman-remote-jobs-api
+- collection_type: postman
+  name: Remote Address Details Leave Policies API
+  slug: postman-remote-leave-policies-api
+- collection_type: postman
+  name: Remote Address Details Legal Entities API
+  slug: postman-remote-legal-entities-api
+- collection_type: postman
+  name: Remote Address Details Magic Link API
+  slug: postman-remote-magic-link-api
+- collection_type: postman
+  name: Remote Address Details OAuth2 API
+  slug: postman-remote-oauth2-api
+- collection_type: postman
+  name: Remote Address Details Offboarding API
+  slug: postman-remote-offboarding-api
+- collection_type: postman
+  name: Remote Address Details Onboarding API
+  slug: postman-remote-onboarding-api
+- collection_type: postman
+  name: Remote Address Details Org Structure API
+  slug: postman-remote-org-structure-api
+- collection_type: postman
+  name: Remote Address Details Partner Configuration API
+  slug: postman-remote-partner-configuration-api
+- collection_type: postman
+  name: Remote Address Details Pay Codes API
+  slug: postman-remote-pay-codes-api
+- collection_type: postman
+  name: Remote Address Details Pay & Compensation API
+  slug: postman-remote-pay-compensation-api
+- collection_type: postman
+  name: Remote Address Details Pay Items API
+  slug: postman-remote-pay-items-api
+- collection_type: postman
+  name: Remote Address Details Payroll Calendars API
+  slug: postman-remote-payroll-calendars-api
+- collection_type: postman
+  name: Remote Address Details Payroll Runs API
+  slug: postman-remote-payroll-runs-api
+- collection_type: postman
+  name: Remote Address Details Payslips API
+  slug: postman-remote-payslips-api
+- collection_type: postman
+  name: Remote Address Details Personal Details API
+  slug: postman-remote-personal-details-api
+- collection_type: postman
+  name: Remote Address Details Personal Information API
+  slug: postman-remote-personal-information-api
+- collection_type: postman
+  name: Remote Address Details Pre-Onboarding Documents API
+  slug: postman-remote-pre-onboarding-documents-api
+- collection_type: postman
+  name: Remote Address Details Pre-Onboarding Requirements API
+  slug: postman-remote-pre-onboarding-requirements-api
+- collection_type: postman
+  name: Remote Address Details Pricing Plan API
+  slug: postman-remote-pricing-plan-api
+- collection_type: postman
+  name: Remote Address Details Pricing Plans API
+  slug: postman-remote-pricing-plans-api
+- collection_type: postman
+  name: Remote Address Details Probation Extensions API
+  slug: postman-remote-probation-extensions-api
+- collection_type: postman
+  name: Remote Address Details Probation Letters API
+  slug: postman-remote-probation-letters-api
+- collection_type: postman
+  name: Remote Address Details Recurring Incentives API
+  slug: postman-remote-recurring-incentives-api
+- collection_type: postman
+  name: Remote Address Details Resignations API
+  slug: postman-remote-resignations-api
+- collection_type: postman
+  name: Remote Address Details Risk Reserve API
+  slug: postman-remote-risk-reserve-api
+- collection_type: postman
+  name: Remote Address Details Sandbox API
+  slug: postman-remote-sandbox-api
+- collection_type: postman
+  name: Remote Address Details SCIM API
+  slug: postman-remote-scim-api
+- collection_type: postman
+  name: Remote Address Details SSO Configuration API
+  slug: postman-remote-sso-configuration-api
+- collection_type: postman
+  name: Remote Address Details Subscriptions API
+  slug: postman-remote-subscriptions-api
+- collection_type: postman
+  name: Remote Address Details Telemetry API
+  slug: postman-remote-telemetry-api
+- collection_type: postman
+  name: Remote Address Details Terminations API
+  slug: postman-remote-terminations-api
+- collection_type: postman
+  name: Remote Address Details Test Schema API
+  slug: postman-remote-test-schema-api
+- collection_type: postman
+  name: Remote Address Details Testing & Sandbox API
+  slug: postman-remote-testing-sandbox-api
+- collection_type: postman
+  name: Remote Address Details Time & Attendance API
+  slug: postman-remote-time-attendance-api
+- collection_type: postman
+  name: Remote Address Details Time Off API
+  slug: postman-remote-time-off-api
+- collection_type: postman
+  name: Remote Address Details Time Off Balances API
+  slug: postman-remote-time-off-balances-api
+- collection_type: postman
+  name: Remote Address Details Timesheets API
+  slug: postman-remote-timesheets-api
+- collection_type: postman
+  name: Remote Address Details Travel Letters API
+  slug: postman-remote-travel-letters-api
+- collection_type: postman
+  name: Remote Address Details Webhook Events API
+  slug: postman-remote-webhook-events-api
+- collection_type: postman
+  name: Remote Address Details Webhooks API
+  slug: postman-remote-webhooks-api
+- collection_type: postman
+  name: Remote Address Details Work Authorization API
+  slug: postman-remote-work-authorization-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/remote/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -488,8 +798,8 @@ overview: 'Remote publishes 101 APIs on the [APIs.io](https://apis.io/) network,
   The Remote catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Remote''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 40
+  Remote''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Remote Rate Limits
@@ -501,18 +811,27 @@ scopes:
   summary_line: 86 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 61.2
+  delta: 1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.0
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 68.7
+    developer_ergonomics: 79.9
+    discoverability: 75.9
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 101
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Manage virtual and physical racing tracks
   name: Amazon DeepRacer Tracks API
   slug: amazon-deepracer-tracks-api
-artifact_total: 49
+artifact_total: 53
 collections:
+- collection_type: postman
+  name: Amazon DeepRacer Cars API
+  slug: postman-amazon-deepracer-cars-api
+- collection_type: postman
+  name: Amazon DeepRacer Cars Leaderboards API
+  slug: postman-amazon-deepracer-leaderboards-api
+- collection_type: postman
+  name: Amazon DeepRacer Cars Models API
+  slug: postman-amazon-deepracer-models-api
+- collection_type: postman
+  name: Amazon DeepRacer Cars Tracks API
+  slug: postman-amazon-deepracer-tracks-api
 - collection_type: open
   name: Amazon DeepRacer API
   slug: open-amazon-deepracer
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-deepracer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -252,12 +270,12 @@ overview: 'Amazon DeepRacer publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Amazon DeepRacer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DeepRacer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon DeepRacer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Deepracer Plans Pricing
   plan_count: 3
   slug: amazon-deepracer-plans-pricing
-random_paper: 66
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Amazon Deepracer Rate Limits
@@ -281,18 +299,25 @@ rules:
   slug: amazon-deepracer-spectral-rules
 score:
   band: strong
-  composite: 66.7
-  delta: 3.2
+  composite: 63.8
+  delta: -2.9
   facets:
     commercial_clarity: 81.6
-    contract_quality: 70.8
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 72.0
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/screenshots/amazon-deepracer-2026-06-20T171619.png
 security:

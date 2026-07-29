@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'IBM Cloud Kubernetes Service is a managed Kubernetes offering that delivers powerful tools, an intuitive user experience, and built-in security for rapid delivery of applications that can be bound to '
@@ -101,7 +103,7 @@ plans:
 - name: Ibm Cloud Kubernetes Plans Pricing
   plan_count: 3
   slug: ibm-cloud-kubernetes-plans-pricing
-random_paper: 45
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Ibm Cloud Kubernetes Rate Limits
@@ -117,18 +119,18 @@ rules:
   slug: ibm-cloud-kubernetes-rules
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 28.4
+  delta: -2.4
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 80.0
-    governance: 13.2
+    discoverability: 59.3
+    governance: 10.4
     operational_transparency: 52.6
   previous_composite: 30.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/screenshots/ibm-cloud-kubernetes-2026-06-20T183124.png
 security:

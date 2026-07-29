@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 18.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 14.0
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Playwright provides a cross-browser automation API for end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API, enabling reliable testing with auto-wait, ne
@@ -105,25 +107,25 @@ plans:
 - name: Microsoft Playwright Plans Pricing
   plan_count: 3
   slug: microsoft-playwright-plans-pricing
-random_paper: 18
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Microsoft Playwright Rate Limits
   slug: microsoft-playwright-rate-limits
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 30.1
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 31.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/screenshots/microsoft-playwright-2026-06-20T185519.png
 security:

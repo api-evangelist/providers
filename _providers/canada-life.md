@@ -1,12 +1,14 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'A live, production API gateway at api.canadalife.com serving Canada Life''s partner, distributor and MGA integrations. It is fully gated: every business path probed (including /v1, /docs, /health, /ope'
@@ -136,7 +138,7 @@ overview: 'Canada Life publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Canada Life''s developer surface includes support, engineering blog, product news, authentication, and 20 more developer resources.'
-random_paper: 41
+random_paper: 60
 scopes:
 - name: Canada Life Scopes
   scope_count: 36
@@ -144,23 +146,26 @@ scopes:
   summary_line: 36 scopes · clientCredentials/authorizationCode
 score:
   band: emerging
-  composite: 28.9
-  delta: 0.0
+  composite: 27.3
+  delta: -1.6
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 10.5
   previous_composite: 28.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 72.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-life/refs/heads/main/screenshots/canada-life-2026-07-25T204322.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -116,30 +118,31 @@ plans:
 - name: Waystar Plans Pricing
   plan_count: 2
   slug: waystar-plans-pricing
-random_paper: 31
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Waystar Rate Limits
   slug: waystar-rate-limits
 score:
   band: emerging
-  composite: 23.9
-  delta: 0.0
+  composite: 20.7
+  delta: -3.2
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 23.9
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 18.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Mi Triple-S is the online provider portal for Triple-S Salud, offering healthcare providers access to insured eligibility verification, claims and payments management, re-credentialing, and provider d
@@ -142,7 +144,7 @@ press:
 - date: '2026-05-25'
   title: Health Insurance Company Seeks Supreme Court Review ...
   url: https://www.taxnotes.com/research/federal/court-documents/court-petitions-and-briefs/health-insurance-company-seeks-supreme-court-review-of-decision-to/wkvm
-random_paper: 10
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Triple S Management Rate Limits
@@ -158,24 +160,25 @@ rules:
   slug: triple-s-management-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 28.3
+  delta: -5.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 33.7
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-s-management/refs/heads/main/screenshots/triple-s-management-2026-06-20T195730.png
 security:
 - kind: domain-security

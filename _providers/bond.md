@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 23.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: Create, retrieve, update, and delete individual consumer customer resources for a brand and run Know-Your-Customer (KYC) identity verification against them. Endpoints start and retrieve KYC status, re
@@ -191,26 +193,29 @@ overview: 'Bond publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bond''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 11
+random_paper: 34
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 48.2
+  delta: 2.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 45.5
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 38.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/screenshots/bond-2026-07-25T203549.png
 security:

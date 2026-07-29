@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: The `allProducts` query on Nacelle's Storefront GraphQL API returns normalized product entries (variants, pricing, media, metafields) drawn from ingested Shopify or other commerce sources, with Relay-
@@ -118,26 +120,26 @@ plans:
 - name: Nacelle Plans Pricing
   plan_count: 1
   slug: nacelle-plans-pricing
-random_paper: 44
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Nacelle Rate Limits
   slug: nacelle-rate-limits
 score:
-  band: emerging
-  composite: 24.3
-  delta: 3.2
+  band: thin
+  composite: 32.5
+  delta: 8.2
   facets:
     commercial_clarity: 36.8
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 21.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 24.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: domain-security
   name: Nacelle Domain Security

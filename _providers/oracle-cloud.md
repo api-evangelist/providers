@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 2
@@ -1672,7 +1674,7 @@ plans:
 - name: Oracle Cloud Plans Pricing
   plan_count: 6
   slug: oracle-cloud-plans-pricing
-random_paper: 54
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Oracle Cloud Rate Limits
@@ -1696,19 +1698,26 @@ rules:
   slug: oracle-cloud-spectral-rules
 score:
   band: exemplar
-  composite: 76.6
-  delta: 4.7
+  composite: 69.4
+  delta: -7.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 77.7
+    contract_quality: 65.9
     developer_ergonomics: 78.3
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 71.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 76.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 25
+      marker_coverage: 100.0
+      total: 25
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png
 security:
 - kind: authentication

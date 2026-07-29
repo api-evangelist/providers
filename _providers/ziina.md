@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -68,12 +70,38 @@ arazzos:
 - description: Issue a refund against an existing payment intent, then poll the refund until it reaches a terminal status.
   name: Ziina - refund a payment and confirm
   slug: ziina-refund-payment.arazzo
-artifact_total: 21
+artifact_total: 28
 asyncapis:
 - description: Event surface for Ziina payment webhooks. When a webhook URL is registered (POST /webhook), Ziina delivers events as HTTP POST callbacks over HTTPS to that URL. Non-2xx responses are retried up to 3 t
   name: Ziina Webhooks
   slug: ziina-webhooks-asyncapi
+collections:
+- collection_type: postman
+  name: Ziina Account API
+  slug: postman-ziina-account-api
+- collection_type: postman
+  name: Ziina Account HealthCheck API
+  slug: postman-ziina-healthcheck-api
+- collection_type: postman
+  name: Ziina Account Log API
+  slug: postman-ziina-log-api
+- collection_type: postman
+  name: Ziina Account PaymentIntent API
+  slug: postman-ziina-paymentintent-api
+- collection_type: postman
+  name: Ziina Account Refund API
+  slug: postman-ziina-refund-api
+- collection_type: postman
+  name: Ziina Account Transfer API
+  slug: postman-ziina-transfer-api
+- collection_type: postman
+  name: Ziina Account Webhook API
+  slug: postman-ziina-webhook-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ziina/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -256,12 +284,12 @@ overview: 'Ziina publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Ziina catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ziina''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, API reference, support, and 33 more developer resources.'
+  Ziina''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, API reference, support, and 34 more developer resources.'
 plans:
 - name: Ziina Plans Pricing
   plan_count: 3
   slug: ziina-plans-pricing
-random_paper: 63
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Ziina Rate Limits
@@ -273,23 +301,34 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 68.3
-  delta: 0.0
+  composite: 65.7
+  delta: -2.6
   facets:
     commercial_clarity: 100.0
-    contract_quality: 53.7
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 55.7
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 34.2
   previous_composite: 68.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 84.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

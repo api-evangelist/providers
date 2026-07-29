@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 30.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 17.3
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: Unified, multi-chain REST data API (formerly Ubiquity) providing fully indexed blockchain data across 50+ networks. Lookup blocks by number or hash, fetch transactions, account balances for one or man
@@ -396,7 +398,7 @@ plans:
 - name: Blockdaemon Plans Pricing
   plan_count: 4
   slug: blockdaemon-plans-pricing
-random_paper: 63
+random_paper: 73
 rate_limits:
 - limit_count: 6
   name: Blockdaemon Rate Limits
@@ -412,19 +414,19 @@ rules:
   slug: blockdaemon-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 48.9
+  delta: -5.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 52.2
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 53.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockdaemon/refs/heads/main/screenshots/blockdaemon-2026-06-20T173357.png
 security:
 - kind: domain-security

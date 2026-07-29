@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -148,8 +150,124 @@ apis:
 - description: Use the `/webhooks-lookup` resource to create, list, show details for, and delete webhook lookups.
   name: PayPal Webhooks-Lookup API
   slug: paypal-webhooks-lookup-api
-artifact_total: 672
+artifact_total: 709
+collections:
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Activate API
+  slug: postman-paypal-activate-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations API
+  slug: postman-paypal-authorizations-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Balances API
+  slug: postman-paypal-balances-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Billing API
+  slug: postman-paypal-billing-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Cancel API
+  slug: postman-paypal-cancel-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Capture API
+  slug: postman-paypal-capture-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Captures API
+  slug: postman-paypal-captures-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Deactivate API
+  slug: postman-paypal-deactivate-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Disputes-Actions API
+  slug: postman-paypal-disputes-actions-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Disputes API
+  slug: postman-paypal-disputes-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Invoices API
+  slug: postman-paypal-invoices-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Orders API
+  slug: postman-paypal-orders-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Partner-Referrals API
+  slug: postman-paypal-partner-referrals-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Payment-Tokens API
+  slug: postman-paypal-payment-tokens-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Payouts API
+  slug: postman-paypal-payouts-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Payouts-Item API
+  slug: postman-paypal-payouts-item-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Plans API
+  slug: postman-paypal-plans-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Pricing API
+  slug: postman-paypal-pricing-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Products API
+  slug: postman-paypal-products-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Refunds API
+  slug: postman-paypal-refunds-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Revise API
+  slug: postman-paypal-revise-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Schemes API
+  slug: postman-paypal-schemes-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Search-Invoices API
+  slug: postman-paypal-search-invoices-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Setup-Tokens API
+  slug: postman-paypal-setup-tokens-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Simulate-Event API
+  slug: postman-paypal-simulate-event-api
+- collection_type: postman
+  name: Paypal Authorizations Subscriptions API
+  slug: postman-paypal-subscriptions-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Suspend API
+  slug: postman-paypal-suspend-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Templates API
+  slug: postman-paypal-templates-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Trackers API
+  slug: postman-paypal-trackers-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Trackers-Batch API
+  slug: postman-paypal-trackers-batch-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Transactions API
+  slug: postman-paypal-transactions-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Verify-Webhook-Signature API
+  slug: postman-paypal-verify-webhook-signature-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Web-Profiles API
+  slug: postman-paypal-web-profiles-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Webhooks API
+  slug: postman-paypal-webhooks-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Webhooks-Event-Types API
+  slug: postman-paypal-webhooks-event-types-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Webhooks-Events API
+  slug: postman-paypal-webhooks-events-api
+- collection_type: postman
+  name: Paypal Subscriptions Authorizations Webhooks-Lookup API
+  slug: postman-paypal-webhooks-lookup-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/paypal/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2112,12 +2230,12 @@ overview: 'PayPal publishes 37 APIs on the [APIs.io](https://apis.io/) network, 
   The PayPal catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  PayPal''s developer surface includes sandbox, changelog, authentication, documentation, pricing, engineering blog, and 18 more developer resources.'
+  PayPal''s developer surface includes sandbox, changelog, authentication, documentation, pricing, engineering blog, and 19 more developer resources.'
 plans:
 - name: Paypal Plans Pricing
   plan_count: 7
   slug: paypal-plans-pricing
-random_paper: 35
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Paypal Rate Limits
@@ -2138,23 +2256,31 @@ scopes:
   summary_line: 39 scopes · clientCredentials
 score:
   band: strong
-  composite: 66.7
-  delta: 0.0
+  composite: 62.7
+  delta: -4.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 55.3
-    developer_ergonomics: 37.0
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 61.8
+    developer_ergonomics: 41.3
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 68.4
   previous_composite: 66.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 97.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 70.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png
 security:

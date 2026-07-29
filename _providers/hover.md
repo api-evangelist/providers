@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for creating and managing property capture jobs, retrieving 3D models and measurement deliverables, inspections, estimates, instant-design leads, and webhooks. OAuth 2.0 authenticated. Versio
@@ -137,31 +139,35 @@ overview: 'HOVER publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   HOVER''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 4
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Hover Rate Limits
   slug: hover-rate-limits
 score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
+  band: developing
+  composite: 43.7
+  delta: 5.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 38.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 28.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/screenshots/hover-2026-07-25T221536.png
 security:
 - kind: authentication

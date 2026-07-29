@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -64,12 +66,44 @@ apis:
 - description: Server-level information and utilities
   name: Apache CouchDB Server API
   slug: apache-couchdb-server-api
-artifact_total: 113
+artifact_total: 122
 asyncapis:
 - description: AsyncAPI 2.6 description of the Apache CouchDB database `_changes` feed. CouchDB exposes a per-database, append-only stream of document mutations at `GET /{db}/_changes` (and `POST /{db}/_changes` for
   name: Apache CouchDB _changes Feed
   slug: apache-couchdb-changes-feed-asyncapi
+collections:
+- collection_type: postman
+  name: Apache CouchDB HTTP Authentication API
+  slug: postman-apache-couchdb-authentication-api
+- collection_type: postman
+  name: Apache CouchDB HTTP Authentication Changes API
+  slug: postman-apache-couchdb-changes-api
+- collection_type: postman
+  name: Apache CouchDB HTTP Authentication Cluster API
+  slug: postman-apache-couchdb-cluster-api
+- collection_type: postman
+  name: Apache CouchDB HTTP Authentication Database API
+  slug: postman-apache-couchdb-database-api
+- collection_type: postman
+  name: Apache CouchDB HTTP Authentication Design Documents API
+  slug: postman-apache-couchdb-design-documents-api
+- collection_type: postman
+  name: Apache CouchDB HTTP Authentication Documents API
+  slug: postman-apache-couchdb-documents-api
+- collection_type: postman
+  name: Apache CouchDB HTTP Authentication Mango API
+  slug: postman-apache-couchdb-mango-api
+- collection_type: postman
+  name: Apache CouchDB HTTP Authentication Replication API
+  slug: postman-apache-couchdb-replication-api
+- collection_type: postman
+  name: Apache CouchDB HTTP Authentication Server API
+  slug: postman-apache-couchdb-server-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apache-couchdb/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -402,12 +436,12 @@ overview: 'Apache CouchDB publishes 9 APIs on the [APIs.io](https://apis.io/) ne
   The Apache CouchDB catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Apache CouchDB''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, release notes, support, and 8 more developer resources.'
+  Apache CouchDB''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, release notes, support, and 9 more developer resources.'
 plans:
 - name: Apache Couchdb Plans Pricing
   plan_count: 3
   slug: apache-couchdb-plans-pricing
-random_paper: 23
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Apache Couchdb Rate Limits
@@ -438,20 +472,27 @@ rules:
     warn: 21
   slug: apache-couchdb-spectral-rules
 score:
-  band: strong
-  composite: 62.2
-  delta: 0.0
+  band: developing
+  composite: 55.0
+  delta: -7.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 86.1
-    developer_ergonomics: 45.7
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 69.5
+    developer_ergonomics: 50.0
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 62.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/screenshots/apache-couchdb-2026-06-20T172052.png
 security:
 - kind: authentication

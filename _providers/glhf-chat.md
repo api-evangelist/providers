@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,7 +114,7 @@ plans:
 - name: Glhf Chat Plans Pricing
   plan_count: 2
   slug: glhf-chat-plans-pricing
-random_paper: 62
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Glhf Chat Rate Limits
@@ -128,18 +130,25 @@ rules:
   slug: glhf-chat-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 44.4
-  delta: 3.3
+  composite: 41.2
+  delta: -3.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 72.6
+    contract_quality: 72.0
     developer_ergonomics: 19.6
-    discoverability: 92.5
-    governance: 26.3
+    discoverability: 68.5
+    governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 41.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 44.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

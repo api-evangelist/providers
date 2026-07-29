@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -61,12 +63,25 @@ apis:
 - description: Semantic search over the Jentic API and workflow catalog using natural language queries.
   name: Jentic Search API
   slug: jentic-search-api
-artifact_total: 30
+artifact_total: 33
 collections:
+- collection_type: postman
+  name: Jentic Authentication API
+  slug: postman-jentic-authentication-api
+- collection_type: postman
+  name: Jentic Authentication Execution API
+  slug: postman-jentic-execution-api
+- collection_type: postman
+  name: Jentic Authentication Search API
+  slug: postman-jentic-search-api
 - collection_type: open
   name: Jentic API
   slug: open-jentic
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/jentic/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -240,12 +255,12 @@ overview: 'Jentic publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
   The Jentic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Jentic''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, developer console, YouTube channel, and 23 more developer resources.'
+  Jentic''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, developer console, YouTube channel, and 24 more developer resources.'
 plans:
 - name: Jentic Plans Pricing
   plan_count: 2
   slug: jentic-plans-pricing
-random_paper: 25
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Jentic Rate Limits
@@ -269,18 +284,25 @@ rules:
   slug: jentic-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 4.2
+  composite: 59.9
+  delta: -3.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 77.0
-    developer_ergonomics: 32.6
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 78.0
+    developer_ergonomics: 37.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/screenshots/jentic-2026-06-20T183721.png
 security:

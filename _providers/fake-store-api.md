@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -98,25 +100,32 @@ plans:
 - name: Fake Store Api Plans Pricing
   plan_count: 3
   slug: fake-store-api-plans-pricing
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Fake Store Api Rate Limits
   slug: fake-store-api-rate-limits
 score:
   band: thin
-  composite: 35.1
-  delta: 3.2
+  composite: 33.1
+  delta: -2.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 45.6
+    contract_quality: 47.9
     developer_ergonomics: 8.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 31.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 35.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/screenshots/fake-store-api-2026-06-20T181017.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Booking, tracking, and listing shipment orders
@@ -81,26 +83,36 @@ overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: O
 
 
   PostEx''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 63
+random_paper: 59
 score:
   band: emerging
-  composite: 29.4
-  delta: 0.0
+  composite: 26.7
+  delta: -2.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 61.9
-    developer_ergonomics: 26.1
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 60.2
+    developer_ergonomics: 14.7
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 29.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

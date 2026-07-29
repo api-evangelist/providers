@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -179,8 +181,29 @@ arazzos:
 - description: Turn raw coordinates into a street address, then list the points of interest surrounding that point.
   name: Google Maps Reverse Geocode a Coordinate and Discover What Is Around It
   slug: google-maps-reverse-geocode-to-nearby-workflow
-artifact_total: 302
+artifact_total: 309
 collections:
+- collection_type: postman
+  name: Google Maps Directions Autocomplete API
+  slug: postman-google-maps-autocomplete-api
+- collection_type: postman
+  name: Google Maps Autocomplete Directions API
+  slug: postman-google-maps-directions-api
+- collection_type: postman
+  name: Google Maps Directions Autocomplete Geocoding API
+  slug: postman-google-maps-geocoding-api
+- collection_type: postman
+  name: Google Maps Directions Autocomplete Nearby Search API
+  slug: postman-google-maps-nearby-search-api
+- collection_type: postman
+  name: Google Maps Directions Autocomplete Photos API
+  slug: postman-google-maps-photos-api
+- collection_type: postman
+  name: Google Maps Directions Autocomplete Place Details API
+  slug: postman-google-maps-place-details-api
+- collection_type: postman
+  name: Google Maps Directions Autocomplete Text Search API
+  slug: postman-google-maps-text-search-api
 - collection_type: open
   name: Google Maps Directions API
   slug: open-google-maps-directions-api
@@ -191,6 +214,10 @@ collections:
   name: Google Maps Places API (New)
   slug: open-google-maps-places-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-maps-platform/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1072,12 +1099,12 @@ overview: 'Google Maps Platform publishes 7 APIs on the [APIs.io](https://apis.i
   The Google Maps Platform catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Maps Platform''s developer surface includes authentication, developer console, pricing, engineering blog, support, FAQ, getting-started guide, and 39 more developer resources.'
+  Google Maps Platform''s developer surface includes authentication, developer console, pricing, engineering blog, support, FAQ, getting-started guide, and 40 more developer resources.'
 plans:
 - name: Google Maps Plans Pricing
   plan_count: 3
   slug: google-maps-plans-pricing
-random_paper: 27
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Google Maps Rate Limits
@@ -1100,19 +1127,28 @@ rules:
     warn: 9
   slug: google-maps-spectral-rules
 score:
-  band: strong
-  composite: 65.8
-  delta: 2.2
+  band: exemplar
+  composite: 66.8
+  delta: 1.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 82.3
-    developer_ergonomics: 58.7
-    discoverability: 55.0
-    governance: 73.7
+    contract_quality: 85.4
+    developer_ergonomics: 56.5
+    discoverability: 66.7
+    governance: 69.8
     operational_transparency: 42.1
-  previous_composite: 63.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png
 security:

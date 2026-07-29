@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -61,12 +63,34 @@ apis:
 - description: Operations for working with CloudWatch metrics and metric data
   name: AWS CloudWatch Metrics API
   slug: cloudwatch-metrics-api
-artifact_total: 335
+artifact_total: 341
 collections:
+- collection_type: postman
+  name: AWS CloudWatch Amazon CloudWatch Alarms API
+  slug: postman-cloudwatch-alarms-api
+- collection_type: postman
+  name: AWS CloudWatch Amazon CloudWatch Alarms Anomaly Detection API
+  slug: postman-cloudwatch-anomaly-detection-api
+- collection_type: postman
+  name: AWS CloudWatch Amazon CloudWatch Alarms Composite Alarms API
+  slug: postman-cloudwatch-composite-alarms-api
+- collection_type: postman
+  name: AWS CloudWatch Amazon CloudWatch Alarms Dashboards API
+  slug: postman-cloudwatch-dashboards-api
+- collection_type: postman
+  name: AWS CloudWatch Amazon CloudWatch Alarms Metric Streams API
+  slug: postman-cloudwatch-metric-streams-api
+- collection_type: postman
+  name: AWS CloudWatch Amazon CloudWatch Alarms Metrics API
+  slug: postman-cloudwatch-metrics-api
 - collection_type: open
   name: AWS CloudWatch Amazon CloudWatch API
   slug: open-cloudwatch
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aws-cloudwatch/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1075,12 +1099,12 @@ overview: 'AWS CloudWatch publishes 6 APIs on the [APIs.io](https://apis.io/) ne
   The AWS CloudWatch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AWS CloudWatch''s developer surface includes authentication, engineering blog, FAQ, support, changelog, pricing, developer console, and 13 more developer resources.'
+  AWS CloudWatch''s developer surface includes authentication, engineering blog, FAQ, support, changelog, pricing, developer console, and 14 more developer resources.'
 plans:
 - name: Cloudwatch Plans Pricing
   plan_count: 7
   slug: cloudwatch-plans-pricing
-random_paper: 50
+random_paper: 69
 rate_limits:
 - limit_count: 10
   name: Cloudwatch Rate Limits
@@ -1104,19 +1128,26 @@ rules:
   slug: cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 68.0
-  delta: 5.5
+  composite: 64.7
+  delta: -3.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 76.3
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 77.3
+    developer_ergonomics: 43.5
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 62.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 68.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
 security:
 - kind: authentication

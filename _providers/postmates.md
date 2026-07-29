@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'The Postmates Fleet API (also referred to as the Postmates On-Demand Delivery API and Postmates Anywhere API) was a REST API that let merchants programmatically create delivery jobs, quote pickup and '
@@ -105,25 +107,25 @@ plans:
 - name: Postmates Plans Pricing
   plan_count: 1
   slug: postmates-plans-pricing
-random_paper: 40
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Postmates Rate Limits
   slug: postmates-rate-limits
 score:
   band: emerging
-  composite: 26.3
-  delta: 0.0
+  composite: 24.7
+  delta: -1.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 26.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postmates/refs/heads/main/screenshots/postmates-2026-06-20T192010.png
 security:

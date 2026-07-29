@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
+    openapi_examples: documented
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 1.6
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: 'The Three.js core library provides the scene graph, cameras, lights, geometries, materials, textures, loaders, and animation primitives used to build interactive 3D applications in the browser and on '
@@ -221,7 +223,7 @@ overview: 'Three.js publishes 6 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Three.js'' developer surface includes developer portal, documentation, code examples, sandbox, changelog, support, tooling, and 22 more developer resources.'
-random_paper: 9
+random_paper: 64
 rules:
 - name: Three.js API Rules
   rule_count: 5
@@ -233,19 +235,19 @@ rules:
   slug: threejs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 30.4
+  delta: -5.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 34.0
+    contract_quality: 29.0
     developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 35.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/threejs/refs/heads/main/screenshots/threejs-2026-06-20T195317.png
 security:
 - kind: domain-security

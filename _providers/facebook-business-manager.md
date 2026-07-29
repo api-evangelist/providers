@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -106,8 +108,50 @@ apis:
 - description: Upload and manage videos on a Facebook Page.
   name: Facebook Business Manager Videos API
   slug: facebook-business-manager-videos-api
-artifact_total: 66
+artifact_total: 80
 collections:
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts API
+  slug: postman-facebook-business-manager-ad-accounts-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Ad Creatives API
+  slug: postman-facebook-business-manager-ad-creatives-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Ad Images API
+  slug: postman-facebook-business-manager-ad-images-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Ad Sets API
+  slug: postman-facebook-business-manager-ad-sets-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Ads API
+  slug: postman-facebook-business-manager-ads-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Campaigns API
+  slug: postman-facebook-business-manager-campaigns-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Comments API
+  slug: postman-facebook-business-manager-comments-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Custom Audiences API
+  slug: postman-facebook-business-manager-custom-audiences-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Insights API
+  slug: postman-facebook-business-manager-insights-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Page Insights API
+  slug: postman-facebook-business-manager-page-insights-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Pages API
+  slug: postman-facebook-business-manager-pages-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Photos API
+  slug: postman-facebook-business-manager-photos-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Posts API
+  slug: postman-facebook-business-manager-posts-api
+- collection_type: postman
+  name: Facebook Business Manager Facebook Marketing Ad Accounts Videos API
+  slug: postman-facebook-business-manager-videos-api
 - collection_type: open
   name: Facebook Business Manager Facebook Marketing API
   slug: open-facebook-marketing
@@ -115,6 +159,10 @@ collections:
   name: Facebook Business Manager Facebook Pages API
   slug: open-facebook-pages
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/facebook-business-manager/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -338,12 +386,12 @@ overview: 'Facebook Business Manager publishes 14 APIs on the [APIs.io](https://
   The Facebook Business Manager catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Facebook Business Manager''s developer surface includes authentication, developer portal, developer console, support, getting-started guide, documentation, changelog, and 19 more developer resources.'
+  Facebook Business Manager''s developer surface includes authentication, developer portal, developer console, support, getting-started guide, documentation, changelog, and 20 more developer resources.'
 plans:
 - name: Facebook Business Manager Plans Pricing
   plan_count: 3
   slug: facebook-business-manager-plans-pricing
-random_paper: 7
+random_paper: 59
 rate_limits:
 - limit_count: 11
   name: Facebook Business Manager Rate Limits
@@ -359,18 +407,25 @@ rules:
   slug: facebook-business-manager-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 66.6
-  delta: 3.2
+  composite: 63.5
+  delta: -3.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 61.9
+    developer_ergonomics: 63.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 63.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/screenshots/facebook-business-manager-2026-06-20T181003.png
 security:

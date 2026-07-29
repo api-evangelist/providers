@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Comprehensive reference documentation for all .NET APIs including the .NET Runtime, base class libraries, ASP.NET Core, Entity Framework, and Azure SDK libraries. Browse types, members, namespaces, an
@@ -101,25 +103,25 @@ plans:
 - name: Microsoft Dotnet Plans Pricing
   plan_count: 3
   slug: microsoft-dotnet-plans-pricing
-random_paper: 49
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Microsoft Dotnet Rate Limits
   slug: microsoft-dotnet-rate-limits
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 38.6
+  delta: -2.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 34.8
-    discoverability: 80.0
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dotnet/refs/heads/main/screenshots/microsoft-dotnet-2026-06-20T185454.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -277,7 +279,7 @@ plans:
 - name: Magicbell Plans Pricing
   plan_count: 3
   slug: magicbell-plans-pricing
-random_paper: 44
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Magicbell Rate Limits
@@ -293,19 +295,32 @@ rules:
   slug: magicbell-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 56.8
-  delta: 0.0
+  composite: 47.4
+  delta: -9.4
   facets:
     commercial_clarity: 57.9
-    contract_quality: 49.6
+    contract_quality: 48.7
     developer_ergonomics: 17.4
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 56.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 22.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/screenshots/magicbell-2026-06-20T184842.png
 security:
 - kind: domain-security

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -387,7 +389,7 @@ plans:
 - name: Deel Com Plans Pricing
   plan_count: 15
   slug: deel-com-plans-pricing
-random_paper: 2
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Deel Com Rate Limits
@@ -403,18 +405,25 @@ rules:
   slug: deel-com-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.6
-  delta: 4.7
+  composite: 60.1
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 65.8
-  previous_composite: 58.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 91
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/screenshots/deel-com-2026-06-20T175806.png
 security:

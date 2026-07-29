@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful consumer API for building applications on top of the Linkable card-linked-offer platform. Per the provider developer page it exposes consumer registration, view and opt-out (consumerapi/consum
@@ -127,26 +129,30 @@ overview: 'Linkable Networks (Collinson Group) publishes 1 API on the [APIs.io](
 
 
   Linkable Networks (Collinson Group)''s developer surface includes documentation, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 64
+random_paper: 8
 score:
   band: emerging
-  composite: 26.7
-  delta: 0.0
+  composite: 24.5
+  delta: -2.2
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 37.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 26.7
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 32.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/screenshots/linkable-networks-collinson-group-2026-07-25T225253.png
 security:

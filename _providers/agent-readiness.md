@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 15
 apis:
 - description: An open JSON-RPC protocol that lets AI agents talk to tools, resources, and prompts through a uniform server surface. MCP is the most direct expression of "an API designed for an agent" — every API su
@@ -186,7 +188,7 @@ overview: 'Agent Readiness publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Agent Readiness'' developer surface includes documentation and 8 more developer resources.'
-random_paper: 34
+random_paper: 67
 rules:
 - name: Agent Readiness API Rules
   rule_count: 5
@@ -198,19 +200,19 @@ rules:
   slug: agent-readiness-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 33.0
+  delta: -7.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 69.8
+    contract_quality: 59.7
     developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 5.3
   previous_composite: 40.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-readiness/refs/heads/main/screenshots/agent-readiness-2026-06-20T165921.png
 security:
 - kind: domain-security

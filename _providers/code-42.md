@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Code42 Incydr's public REST API for insider risk management — actors, agents, alert rules, audit log, cases, departments, directory groups, file events, sessions, trusted activities, users, and watchl
@@ -130,21 +132,23 @@ overview: 'Code 42 publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Code 42''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, changelog, and 14 more developer resources.'
-random_paper: 14
+random_paper: 19
 score:
-  band: emerging
-  composite: 29.9
-  delta: 0.0
+  band: thin
+  composite: 29.7
+  delta: -0.2
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 44.7
   previous_composite: 29.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/screenshots/code-42-2026-07-25T205903.png
 security:

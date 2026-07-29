@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful HTTP API for storing, querying, uploading, downloading, converting, compressing, organizing, versioning, and deleting 3D content entries (targets and holograms) in echo3D collections. Requests
@@ -173,27 +175,30 @@ overview: 'echo3D publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   echo3D''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 22 more developer resources.'
-random_paper: 22
+random_paper: 27
 scopes:
 - name: Echo3D Scopes
   scope_count: 14
   slug: echo3d-scopes
   summary_line: 14 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 39.0
-  delta: 0.0
+  band: developing
+  composite: 46.1
+  delta: 7.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 13.2
   previous_composite: 39.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/screenshots/echo3d-2026-07-25T212938.png
 security:
 - kind: authentication

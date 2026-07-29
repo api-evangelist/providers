@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -140,8 +142,56 @@ arazzos:
 - description: List a user's accounts and deployed triggers, then delete the user and all their resources.
   name: Pipedream Offboard an External User
   slug: pipedream-user-offboarding-workflow
-artifact_total: 218
+artifact_total: 234
 collections:
+- collection_type: postman
+  name: Pipedream MCP Server Accounts API
+  slug: postman-pipedream-accounts-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Actions API
+  slug: postman-pipedream-actions-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts App Categories API
+  slug: postman-pipedream-app-categories-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Apps API
+  slug: postman-pipedream-apps-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Components API
+  slug: postman-pipedream-components-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Deployed Triggers API
+  slug: postman-pipedream-deployed-triggers-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts File Stash API
+  slug: postman-pipedream-file-stash-api
+- collection_type: postman
+  name: Pipedream Server Accounts MCP API
+  slug: postman-pipedream-mcp-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts OAuth API
+  slug: postman-pipedream-oauth-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Projects API
+  slug: postman-pipedream-projects-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Proxy API
+  slug: postman-pipedream-proxy-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Tokens API
+  slug: postman-pipedream-tokens-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Triggers API
+  slug: postman-pipedream-triggers-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Usage API
+  slug: postman-pipedream-usage-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Users API
+  slug: postman-pipedream-users-api
+- collection_type: postman
+  name: Pipedream MCP Server Accounts Webhooks API
+  slug: postman-pipedream-webhooks-api
 - collection_type: open
   name: Pipedream MCP Server
   slug: open-pipedream-mcp
@@ -149,6 +199,10 @@ collections:
   name: Pipedream API
   slug: open-pipedream
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pipedream/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -883,12 +937,12 @@ overview: 'Pipedream publishes 16 APIs on the [APIs.io](https://apis.io/) networ
   The Pipedream catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Pipedream''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 50 more developer resources.'
+  Pipedream''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 51 more developer resources.'
 plans:
 - name: Pipedream Plans Pricing
   plan_count: 4
   slug: pipedream-plans-pricing
-random_paper: 67
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Pipedream Rate Limits
@@ -917,18 +971,25 @@ scopes:
   summary_line: 16 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 74.4
-  delta: 0.0
+  composite: 72.0
+  delta: -2.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 66.8
-    developer_ergonomics: 67.4
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 69.1
+    developer_ergonomics: 71.7
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 78.9
   previous_composite: 74.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/screenshots/pipedream-2026-06-20T191726.png
 security:

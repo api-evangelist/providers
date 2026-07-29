@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.4
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Create and manage bank accounts and their account holders through the GraphQL Partner API - open accounts, read balances and status, and access the IBAN and BIC distributed to each account. Queries in
@@ -117,31 +119,32 @@ plans:
 - name: Swan Io Plans Pricing
   plan_count: 2
   slug: swan-io-plans-pricing
-random_paper: 22
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Swan Io Rate Limits
   slug: swan-io-rate-limits
 score:
-  band: emerging
-  composite: 23.9
-  delta: 2.7
+  band: thin
+  composite: 29.8
+  delta: 5.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 21.2
+  previous_composite: 23.9
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Swan Io Authentication

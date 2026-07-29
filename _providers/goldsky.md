@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Managed subgraph hosting compatible with The Graph - deploy subgraph definitions and get a hosted GraphQL endpoint per subgraph for querying indexed onchain data. Includes sync acceleration and direct
@@ -115,25 +117,25 @@ plans:
 - name: Goldsky Plans Pricing
   plan_count: 1
   slug: goldsky-plans-pricing
-random_paper: 17
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Goldsky Rate Limits
   slug: goldsky-rate-limits
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 18.8
+  delta: -2.6
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goldsky/refs/heads/main/screenshots/goldsky-2026-06-20T181952.png
 security:

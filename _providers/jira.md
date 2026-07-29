@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 66.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -104,16 +106,44 @@ arazzos:
 - description: Read an issue, discover its legal transitions, apply one, and verify the new status.
   name: Jira Transition an Issue to a New Status
   slug: jira-transition-issue-workflow
-artifact_total: 200
+artifact_total: 208
 asyncapis:
 - description: Jira Cloud webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in your Jira instance. Webhooks can be registered via the Jira REST API or through the Jira administr
   name: Jira Cloud Webhooks
   slug: jira-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Jira Cloud Platform REST Issue Comments API
+  slug: postman-jira-issue-comments-api
+- collection_type: postman
+  name: Jira Cloud Platform REST Issue Comments Issue Priorities API
+  slug: postman-jira-issue-priorities-api
+- collection_type: postman
+  name: Jira Cloud Platform REST Issue Comments Issue Search API
+  slug: postman-jira-issue-search-api
+- collection_type: postman
+  name: Jira Cloud Platform REST Issue Comments Issue Statuses API
+  slug: postman-jira-issue-statuses-api
+- collection_type: postman
+  name: Jira Cloud Platform REST Issue Comments Issue Transitions API
+  slug: postman-jira-issue-transitions-api
+- collection_type: postman
+  name: Jira Cloud Platform REST Issue Comments Issue Types API
+  slug: postman-jira-issue-types-api
+- collection_type: postman
+  name: Jira Cloud Platform REST Issue Comments Issues API
+  slug: postman-jira-issues-api
+- collection_type: postman
+  name: Jira Cloud Platform REST Issue Comments Projects API
+  slug: postman-jira-projects-api
 - collection_type: open
   name: Jira Cloud Platform REST API
   slug: open-jira-cloud-platform-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/jira/overview
 - group: build
   title: ''
   type: Packages
@@ -766,12 +796,12 @@ overview: 'Jira publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
   The Jira catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Jira''s developer surface includes changelog, CLI, authentication, developer portal, getting-started guide, support, engineering blog, and 39 more developer resources.'
+  Jira''s developer surface includes changelog, CLI, authentication, developer portal, getting-started guide, support, engineering blog, and 40 more developer resources.'
 plans:
 - name: Jira Plans Pricing
   plan_count: 4
   slug: jira-plans-pricing
-random_paper: 14
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Jira Rate Limits
@@ -808,18 +838,27 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.2
-  delta: 3.2
+  composite: 72.5
+  delta: 1.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 80.9
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 60.5
+    contract_quality: 81.7
+    developer_ergonomics: 63.0
+    discoverability: 90.7
+    governance: 59.4
     operational_transparency: 73.7
-  previous_composite: 68.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 71.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/screenshots/jira-2026-06-20T183734.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The Southwestern Energy investor relations portal provides financial data, shareholder information, earnings summaries, SEC filings, and corporate governance information. The investor relations infras
@@ -129,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Chesapeake Energy Corp. is buying Southwestern ...
   url: https://www.facebook.com/Investopedia/posts/chesapeake-energy-corp-is-buying-southwestern-energy-co-to-become-the-largest-na/765851035566707/
-random_paper: 62
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Southwestern Energy Rate Limits
@@ -144,20 +146,26 @@ rules:
     warn: 4
   slug: southwestern-energy-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 34.2
-  delta: 0.0
+  band: emerging
+  composite: 26.9
+  delta: -7.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.1
+    contract_quality: 27.4
     developer_ergonomics: 2.2
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 34.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 14.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwestern-energy/refs/heads/main/screenshots/southwestern-energy-2026-06-20T194233.png
 security:
 - kind: domain-security

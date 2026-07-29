@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,8 +48,22 @@ apis:
 - description: The PipelineTemplateDefinitions API from Azure DevOps — 1 operation(s) for pipelinetemplatedefinitions.
   name: Azure DevOps PipelineTemplateDefinitions API
   slug: azure-dev-ops-pipelinetemplatedefinitions-api
-artifact_total: 58
+artifact_total: 61
+collections:
+- collection_type: postman
+  name: Azure DevOps Operations API
+  slug: postman-azure-dev-ops-operations-api
+- collection_type: postman
+  name: Azure DevOps Operations Pipelines API
+  slug: postman-azure-dev-ops-pipelines-api
+- collection_type: postman
+  name: Azure DevOps Operations PipelineTemplateDefinitions API
+  slug: postman-azure-dev-ops-pipelinetemplatedefinitions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-devops/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -277,12 +293,12 @@ overview: 'Azure DevOps publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   The Azure DevOps catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure DevOps'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 11 more developer resources.'
+  Azure DevOps'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Azure Dev Ops Plans Pricing
   plan_count: 3
   slug: azure-dev-ops-plans-pricing
-random_paper: 6
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Azure Dev Ops Rate Limits
@@ -311,19 +327,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 56.4
+  delta: -6.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.5
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 50.0
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 47.4
   previous_composite: 62.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/screenshots/azure-dev-ops-2026-06-20T172849.png
 security:
 - kind: authentication

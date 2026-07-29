@@ -2,11 +2,13 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The NPP API Framework defines the mandatory technical approach and data attributes for APIs built on the New Payments Platform, aligned to the ISO 20022 messaging standard. NPP Australia does not itse
@@ -135,26 +137,29 @@ overview: 'NPP Australia (AP+) publishes 3 APIs on the [APIs.io](https://apis.io
 
 
   NPP Australia (AP+)''s developer surface includes documentation, API reference, sandbox, signup flow, engineering blog, getting-started guide, support, and 16 more developer resources.'
-random_paper: 53
+random_paper: 36
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 31.8
+  delta: -3.3
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 35.1
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

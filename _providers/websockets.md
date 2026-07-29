@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 12
 asyncapis:
@@ -129,7 +131,7 @@ overview: 'WebSockets is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   The WebSockets catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.'
-random_paper: 62
+random_paper: 4
 rules:
 - name: WebSockets API Rules
   rule_count: 4
@@ -148,19 +150,19 @@ rules:
     warn: 3
   slug: websockets-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 26.3
-  delta: 0.0
+  band: thin
+  composite: 29.3
+  delta: 3.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 37.7
+    contract_quality: 64.5
     developer_ergonomics: 0.0
-    discoverability: 67.5
-    governance: 78.9
+    discoverability: 50.0
+    governance: 62.5
     operational_transparency: 5.3
   previous_composite: 26.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/websockets/refs/heads/main/screenshots/websockets-2026-06-20T201337.png
 slug: websockets

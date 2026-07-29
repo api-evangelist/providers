@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Launchable (CloudBees Smart Tests) service API that the Launchable CLI calls to record builds, create test sessions, upload test results, request predictive test subsets and split subsets for para
@@ -167,21 +169,23 @@ overview: 'Launchable publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Launchable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 19
+random_paper: 38
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 39.4
+  delta: 0.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 47.4
   previous_composite: 38.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchable/refs/heads/main/screenshots/launchable-2026-07-25T224613.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Read-only REST API for fetching reporting data across dimensions and metrics to analyze campaign performance. Write operations are deprecated; use the GraphQL API for write operations.
@@ -114,26 +116,26 @@ plans:
 - name: Stackadapt Plans Pricing
   plan_count: 5
   slug: stackadapt-plans-pricing
-random_paper: 36
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Stackadapt Rate Limits
   slug: stackadapt-rate-limits
 score:
-  band: emerging
-  composite: 22.9
-  delta: 0.0
+  band: thin
+  composite: 32.3
+  delta: 9.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 22.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/screenshots/stackadapt-2026-06-20T194444.png
 security:
 - kind: domain-security

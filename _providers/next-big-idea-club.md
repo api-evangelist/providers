@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 50.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Membership, subscription, library and course operations.
@@ -106,7 +108,7 @@ overview: 'Next Big Idea Club publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Next Big Idea Club''s developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 13
+random_paper: 19
 scopes:
 - name: Next Big Idea Club Scopes
   scope_count: 4
@@ -114,18 +116,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 33.4
+  delta: -0.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 49.6
-    developer_ergonomics: 26.1
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.7
+    developer_ergonomics: 19.6
+    discoverability: 87.0
+    governance: 8.3
     operational_transparency: 0.0
   previous_composite: 33.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

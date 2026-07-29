@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.0
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Discovery APIs to search and find information about titles in a library's OverDrive collection — Library Account, Search, Metadata, and Library Availability.
@@ -132,21 +134,24 @@ overview: 'OverDrive publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   OverDrive''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 13 more developer resources.'
-random_paper: 30
+random_paper: 58
 score:
   band: emerging
-  composite: 27.8
-  delta: 0.0
+  composite: 26.1
+  delta: -1.7
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 52.2
+    discoverability: 92.6
+    governance: 3.1
     operational_transparency: 26.3
   previous_composite: 27.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

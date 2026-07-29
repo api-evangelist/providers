@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 18.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 17.1
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,26 +123,30 @@ overview: 'Shakepay is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Shakepay''s developer surface includes engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 38
+random_paper: 7
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 29.2
+  delta: -1.3
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 30.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

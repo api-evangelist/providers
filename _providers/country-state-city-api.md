@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -135,7 +137,7 @@ plans:
 - name: Country State City Api Plans Pricing
   plan_count: 3
   slug: country-state-city-api-plans-pricing
-random_paper: 47
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Country State City Api Rate Limits
@@ -151,18 +153,25 @@ rules:
   slug: country-state-city-api-rules
 score:
   band: developing
-  composite: 52.0
-  delta: 3.2
+  composite: 48.9
+  delta: -3.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 54.9
+    contract_quality: 56.8
     developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 39.5
+    discoverability: 74.1
+    governance: 31.3
     operational_transparency: 31.6
-  previous_composite: 48.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 52.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/screenshots/country-state-city-api-2026-06-20T175144.png
 security:

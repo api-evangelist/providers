@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -91,8 +93,58 @@ apis:
 - description: The Track API from Dub — 3 operation(s) for track.
   name: Dub Track API
   slug: dub-track-api
-artifact_total: 37
+artifact_total: 52
+collections:
+- collection_type: postman
+  name: Dub Analytics API
+  slug: postman-dub-analytics-api
+- collection_type: postman
+  name: Dub Analytics Bounties API
+  slug: postman-dub-bounties-api
+- collection_type: postman
+  name: Dub Analytics Commissions API
+  slug: postman-dub-commissions-api
+- collection_type: postman
+  name: Dub Analytics Customers API
+  slug: postman-dub-customers-api
+- collection_type: postman
+  name: Dub Analytics Domains API
+  slug: postman-dub-domains-api
+- collection_type: postman
+  name: Dub Analytics Embed Tokens API
+  slug: postman-dub-embed-tokens-api
+- collection_type: postman
+  name: Dub Analytics Events API
+  slug: postman-dub-events-api
+- collection_type: postman
+  name: Dub Analytics Folders API
+  slug: postman-dub-folders-api
+- collection_type: postman
+  name: Dub Analytics Links API
+  slug: postman-dub-links-api
+- collection_type: postman
+  name: Dub Analytics Partner Applications API
+  slug: postman-dub-partner-applications-api
+- collection_type: postman
+  name: Dub Analytics Partners API
+  slug: postman-dub-partners-api
+- collection_type: postman
+  name: Dub Analytics Payouts API
+  slug: postman-dub-payouts-api
+- collection_type: postman
+  name: Dub Analytics QR Codes API
+  slug: postman-dub-qr-codes-api
+- collection_type: postman
+  name: Dub Analytics Tags API
+  slug: postman-dub-tags-api
+- collection_type: postman
+  name: Dub Analytics Track API
+  slug: postman-dub-track-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dub/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -249,12 +301,12 @@ overview: 'Dub publishes 15 APIs on the [APIs.io](https://apis.io/) network, inc
   The Dub catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Dub''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, and 20 more developer resources.'
+  Dub''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, and 21 more developer resources.'
 plans:
 - name: Dub Plans Pricing
   plan_count: 5
   slug: dub-plans-pricing
-random_paper: 43
+random_paper: 7
 rate_limits:
 - limit_count: 8
   name: Dub Rate Limits
@@ -270,18 +322,25 @@ rules:
   slug: dub-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 66.2
-  delta: 0.0
+  composite: 62.0
+  delta: -4.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 78.6
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 77.4
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 66.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/screenshots/dub-2026-06-20T180305.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: WebSocket-based (WebAssembly) JavaScript/TypeScript market data API for browser and Node.js, installed as npm package '@activfinancial/one-api' (latest 1.1.4). Supports snapshots, real-time subscripti
@@ -138,26 +140,27 @@ overview: 'Options Technology publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Options Technology''s developer surface includes developer portal, documentation, engineering blog, support, API reference, getting-started guide, authentication, and 16 more developer resources.'
-random_paper: 5
+random_paper: 61
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 32.3
+  delta: -2.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 35.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/screenshots/options-technology-2026-07-22T202537.png
 security:

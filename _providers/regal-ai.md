@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -61,12 +63,33 @@ apis:
 - description: The Phone Numbers API from Regal — 1 operation(s) for phone numbers.
   name: Regal Phone Numbers API
   slug: regal-ai-phone-numbers-api
-artifact_total: 51
+artifact_total: 58
 asyncapis:
 - description: Regal Reporting Webhooks deliver 40+ event types covering agent activity, call lifecycle, recordings and transcripts, AI analysis, tasks, SMS, MMS, email, voicemail, contact lifecycle, scheduling, and
   name: Regal Reporting Webhooks
   slug: regal-reporting-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Regal Branded Phone Numbers API
+  slug: postman-regal-ai-branded-phone-numbers-api
+- collection_type: postman
+  name: Regal Branded Phone Numbers Business Profiles API
+  slug: postman-regal-ai-business-profiles-api
+- collection_type: postman
+  name: Regal Branded Phone Numbers Campaigns API
+  slug: postman-regal-ai-campaigns-api
+- collection_type: postman
+  name: Regal Branded Phone Numbers Dispositions API
+  slug: postman-regal-ai-dispositions-api
+- collection_type: postman
+  name: Regal Branded Phone Numbers Events API
+  slug: postman-regal-ai-events-api
+- collection_type: postman
+  name: Regal Branded Phone Numbers Messages API
+  slug: postman-regal-ai-messages-api
+- collection_type: postman
+  name: Regal Branded Phone Numbers API
+  slug: postman-regal-ai-phone-numbers-api
 - collection_type: open
   name: Regal Branded Phone Numbers API
   slug: open-regal-branded-phone-numbers-api
@@ -80,6 +103,10 @@ collections:
   name: Regal Messages API
   slug: open-regal-messages-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/regal/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -333,12 +360,12 @@ overview: 'Regal publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Regal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Regal''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, signup flow, pricing, and 37 more developer resources.'
+  Regal''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, signup flow, pricing, and 38 more developer resources.'
 plans:
 - name: Regal Ai Plans Pricing
   plan_count: 1
   slug: regal-ai-plans-pricing
-random_paper: 22
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Regal Ai Rate Limits
@@ -370,19 +397,32 @@ rules:
   slug: regal-rules
 score:
   band: strong
-  composite: 64.5
-  delta: 3.9
+  composite: 58.5
+  delta: -6.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 81.2
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 81.9
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 15.8
-  previous_composite: 60.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 64.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/screenshots/regal-ai-2026-06-20T192753.png
 security:
 - kind: authentication

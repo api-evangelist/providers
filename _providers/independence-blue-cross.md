@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,8 +51,17 @@ apis:
 - description: Public Da Vinci Plan-Net FHIR R4 provider directory resources.
   name: Independence Blue Cross Provider Directory API
   slug: independence-blue-cross-provider-directory-api
-artifact_total: 62
+artifact_total: 65
 collections:
+- collection_type: postman
+  name: Independence Blue Cross Drug FHIR Formulary API
+  slug: postman-independence-blue-cross-formulary-api
+- collection_type: postman
+  name: Independence Blue Cross Drug FHIR Formulary Patient Access API
+  slug: postman-independence-blue-cross-patient-access-api
+- collection_type: postman
+  name: Independence Blue Cross Drug FHIR Formulary Provider Directory API
+  slug: postman-independence-blue-cross-provider-directory-api
 - collection_type: open
   name: Independence Blue Cross Drug Formulary FHIR API
   slug: open-independence-blue-cross-formulary
@@ -61,6 +72,10 @@ collections:
   name: Independence Blue Cross Provider Directory FHIR API
   slug: open-independence-blue-cross-provider
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/independence-blue-cross/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -317,12 +332,12 @@ overview: 'Independence Blue Cross publishes 3 APIs on the [APIs.io](https://api
   The Independence Blue Cross catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Independence Blue Cross'' developer surface includes authentication, developer portal, documentation, YouTube channel, engineering blog, and 33 more developer resources.'
+  Independence Blue Cross'' developer surface includes authentication, developer portal, documentation, YouTube channel, engineering blog, and 34 more developer resources.'
 plans:
 - name: Independence Blue Cross Plans Pricing
   plan_count: 5
   slug: independence-blue-cross-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Independence Blue Cross Rate Limits
@@ -351,24 +366,32 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.9
-  delta: 0.0
+  composite: 57.3
+  delta: -6.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 65.5
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.9
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 63.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 52.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -73,7 +75,7 @@ apis:
 - description: Manage store locations associated with businesses.
   name: doordash Stores API
   slug: doordash-stores-api
-artifact_total: 209
+artifact_total: 221
 asyncapis:
 - description: 'DoorDash Drive sends webhook notifications for delivery status updates, enabling near-real-time information flow from DoorDash and Dashers to partner applications. Webhooks support scenarios like map '
   name: DoorDash Drive Delivery Webhooks
@@ -85,6 +87,42 @@ asyncapis:
   name: DoorDash Reporting Webhooks
   slug: doordash-reporting-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses API
+  slug: postman-doordash-addresses-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Businesses API
+  slug: postman-doordash-businesses-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Catalog API
+  slug: postman-doordash-catalog-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Deliveries API
+  slug: postman-doordash-deliveries-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Inventory API
+  slug: postman-doordash-inventory-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Items API
+  slug: postman-doordash-items-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Menus API
+  slug: postman-doordash-menus-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Orders API
+  slug: postman-doordash-orders-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Promotions API
+  slug: postman-doordash-promotions-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Quotes API
+  slug: postman-doordash-quotes-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Reports API
+  slug: postman-doordash-reports-api
+- collection_type: postman
+  name: DoorDash Drive Classic Addresses Stores API
+  slug: postman-doordash-stores-api
 - collection_type: open
   name: DoorDash Drive Classic API
   slug: open-doordash-drive-classic
@@ -101,6 +139,10 @@ collections:
   name: DoorDash Reporting API
   slug: open-doordash-reporting
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/doordash/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -777,12 +819,12 @@ overview: 'doordash publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The doordash catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 9 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  doordash''s developer surface includes authentication, documentation, engineering blog, support, tooling, and 22 more developer resources.'
+  doordash''s developer surface includes authentication, documentation, engineering blog, support, tooling, and 23 more developer resources.'
 plans:
 - name: Doordash Plans Pricing
   plan_count: 3
   slug: doordash-plans-pricing
-random_paper: 36
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Doordash Rate Limits
@@ -814,18 +856,25 @@ rules:
   slug: doordash-spectral-rules
 score:
   band: strong
-  composite: 65.7
-  delta: 3.3
+  composite: 63.3
+  delta: -2.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 84.1
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 65.8
+    contract_quality: 86.9
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 52.1
     operational_transparency: 26.3
-  previous_composite: 62.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png
 security:

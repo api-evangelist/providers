@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 7
@@ -142,12 +144,121 @@ apis:
 - description: The Workflows API from TetraScience — 5 operation(s) for workflows.
   name: TetraScience Workflows API
   slug: tetrascience-workflows-api
-artifact_total: 45
+artifact_total: 80
 collections:
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups API
+  slug: postman-tetrascience-access-groups-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Agents API
+  slug: postman-tetrascience-agents-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups ai-workflows API
+  slug: postman-tetrascience-ai-workflows-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Attributes API
+  slug: postman-tetrascience-attributes-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Audit Trail API
+  slug: postman-tetrascience-audit-trail-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups clusters API
+  slug: postman-tetrascience-clusters-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Commands API
+  slug: postman-tetrascience-commands-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Connectors API
+  slug: postman-tetrascience-connectors-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Data Acquisition API
+  slug: postman-tetrascience-data-acquisition-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Data App Providers API
+  slug: postman-tetrascience-data-app-providers-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Data Apps API
+  slug: postman-tetrascience-data-apps-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups databricks API
+  slug: postman-tetrascience-databricks-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Edit Subscriptions API
+  slug: postman-tetrascience-edit-subscriptions-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Embedded Data Apps API
+  slug: postman-tetrascience-embedded-data-apps-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Files API
+  slug: postman-tetrascience-files-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Hubs API
+  slug: postman-tetrascience-hubs-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups IDS API
+  slug: postman-tetrascience-ids-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups lakehouse API
+  slug: postman-tetrascience-lakehouse-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Linked Data Apps API
+  slug: postman-tetrascience-linked-data-apps-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Login API
+  slug: postman-tetrascience-login-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Logs API
+  slug: postman-tetrascience-logs-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Organizations API
+  slug: postman-tetrascience-organizations-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Pipelines API
+  slug: postman-tetrascience-pipelines-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Protocols API
+  slug: postman-tetrascience-protocols-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Requests API
+  slug: postman-tetrascience-requests-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Roles API
+  slug: postman-tetrascience-roles-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Schemas API
+  slug: postman-tetrascience-schemas-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Search API
+  slug: postman-tetrascience-search-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Task Scripts API
+  slug: postman-tetrascience-task-scripts-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Tenants API
+  slug: postman-tetrascience-tenants-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups tetraflows API
+  slug: postman-tetrascience-tetraflows-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups tetraspheres API
+  slug: postman-tetrascience-tetraspheres-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Users API
+  slug: postman-tetrascience-users-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups View Subscriptions API
+  slug: postman-tetrascience-view-subscriptions-api
+- collection_type: postman
+  name: TetraScience Data and AI Cloud Access Groups Workflows API
+  slug: postman-tetrascience-workflows-api
 - collection_type: open
   name: TetraScience Data and AI Cloud API
   slug: open-tetrascience
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tetrascience/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -259,12 +370,12 @@ overview: 'TetraScience publishes 35 APIs on the [APIs.io](https://apis.io/) net
   The TetraScience catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TetraScience''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 15 more developer resources.'
+  TetraScience''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Tetrascience Plans Pricing
   plan_count: 3
   slug: tetrascience-plans-pricing
-random_paper: 50
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Tetrascience Rate Limits
@@ -279,25 +390,33 @@ rules:
     warn: 6
   slug: tetrascience-rules
 score:
-  band: strong
-  composite: 62.1
-  delta: 2.2
+  band: developing
+  composite: 55.7
+  delta: -6.4
   facets:
     commercial_clarity: 76.3
-    contract_quality: 69.4
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 34.2
+    contract_quality: 68.7
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 27.1
     operational_transparency: 52.6
-  previous_composite: 59.9
+  previous_composite: 62.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 37.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/screenshots/tetrascience-2026-06-20T195201.png
 security:
 - kind: authentication

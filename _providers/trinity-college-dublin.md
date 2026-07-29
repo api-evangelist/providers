@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: TARA is Trinity College Dublin's open-access institutional repository, built on DSpace. It exposes an OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) interface for harvesting Dubli
@@ -117,25 +119,25 @@ plans:
 - name: Trinity College Dublin Plans Pricing
   plan_count: 2
   slug: trinity-college-dublin-plans-pricing
-random_paper: 2
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Trinity College Dublin Rate Limits
   slug: trinity-college-dublin-rate-limits
 score:
   band: emerging
-  composite: 23.6
-  delta: 0.0
+  composite: 21.0
+  delta: -2.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 13.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 23.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png
 security:

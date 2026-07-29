@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -117,7 +119,7 @@ plans:
 - name: Microsoft Azure Cdn Plans Pricing
   plan_count: 3
   slug: microsoft-azure-cdn-plans-pricing
-random_paper: 28
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Cdn Rate Limits
@@ -128,19 +130,26 @@ scopes:
   slug: microsoft-azure-cdn-scopes
   summary_line: 1 scope · implicit
 score:
-  band: thin
-  composite: 44.2
-  delta: 3.2
+  band: developing
+  composite: 43.0
+  delta: -1.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 53.1
+    contract_quality: 55.1
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 41.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 44.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/screenshots/microsoft-azure-cdn-2026-06-20T185404.png
 security:

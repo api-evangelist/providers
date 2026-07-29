@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.9
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Generate, cancel, and retrieve GST e-invoices (IRN) and e-waybills, including government IRP/NIC-compatible endpoints, DSC PDF signing, and bulk operations.
@@ -146,26 +148,27 @@ overview: 'Cleartax publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Cleartax''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 15 more developer resources.'
-random_paper: 36
+random_paper: 5
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 34.8
+  delta: -1.9
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 100.0
+    discoverability: 92.6
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 36.7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 48.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/screenshots/cleartax-2026-07-25T205549.png
 security:

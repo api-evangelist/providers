@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,8 +68,34 @@ apis:
 - description: View functions,
   name: Aptos View API
   slug: aptos-view-api
-artifact_total: 246
+artifact_total: 253
+collections:
+- collection_type: postman
+  name: Aptos Node Accounts API
+  slug: postman-aptos-accounts-api
+- collection_type: postman
+  name: Aptos Node Accounts Blocks API
+  slug: postman-aptos-blocks-api
+- collection_type: postman
+  name: Aptos Node Accounts Events API
+  slug: postman-aptos-events-api
+- collection_type: postman
+  name: Aptos Node Accounts General API
+  slug: postman-aptos-general-api
+- collection_type: postman
+  name: Aptos Node Accounts Tables API
+  slug: postman-aptos-tables-api
+- collection_type: postman
+  name: Aptos Node Accounts Transactions API
+  slug: postman-aptos-transactions-api
+- collection_type: postman
+  name: Aptos Node Accounts View API
+  slug: postman-aptos-view-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aptos/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -851,12 +879,12 @@ overview: 'Aptos publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Aptos catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Aptos'' developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 15 more developer resources.'
+  Aptos'' developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 16 more developer resources.'
 plans:
 - name: Aptos Plans Pricing
   plan_count: 3
   slug: aptos-plans-pricing
-random_paper: 7
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Aptos Rate Limits
@@ -872,18 +900,25 @@ rules:
   slug: aptos-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 59.4
+  delta: -3.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 59.3
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 58.9
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 63.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/screenshots/aptos-2026-06-20T172345.png
 security:

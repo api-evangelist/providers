@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 18.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 13.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful API for Prosper investors and third-party agents to view account information, search active loan listings, place orders to purchase Notes, and retrieve owned Notes, invested loans, and loan pa
@@ -130,21 +132,25 @@ overview: 'Prosper publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Prosper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 13 more developer resources.'
-random_paper: 31
+random_paper: 9
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 30.1
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 60.3
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 0.0
   previous_composite: 31.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

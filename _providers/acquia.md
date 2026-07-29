@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 24
@@ -408,7 +410,7 @@ plans:
 - name: Acquia Plans Pricing
   plan_count: 8
   slug: acquia-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Acquia Rate Limits
@@ -437,18 +439,25 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 58.1
-  delta: 2.0
+  composite: 53.2
+  delta: -4.9
   facets:
     commercial_clarity: 57.9
-    contract_quality: 66.3
+    contract_quality: 63.4
     developer_ergonomics: 32.6
-    discoverability: 75.0
-    governance: 86.8
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 56.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 58.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/screenshots/acquia-2026-06-20T163944.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 61.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,16 +69,62 @@ apis:
 - description: Asset Reference & Classification (ARC) — reference data, classifications, and updates for digital assets.
   name: Amberdata ARC API
   slug: amberdata-arc-api
-artifact_total: 20
+artifact_total: 34
 asyncapis:
 - description: AsyncAPI 2.6 description of Amberdata's **real-time WebSocket streaming** surface. Unlike the Groq reference (which exposes no WebSocket), Amberdata DOES publish a documented public WebSocket API. Cli
   name: Amberdata WebSocket Streaming API
   slug: amberdata-asyncapi
 collections:
+- collection_type: postman
+  name: Asset Reference & Classification API
+  slug: postman-amberdata-arc
+- collection_type: postman
+  name: blockchain-api
+  slug: postman-amberdata-blockchain
+- collection_type: postman
+  name: Amberdata DeFi API
+  slug: postman-amberdata-defi-api
+- collection_type: postman
+  name: Defi Market API
+  slug: postman-amberdata-defi-market
+- collection_type: postman
+  name: Defi API
+  slug: postman-amberdata-defi
+- collection_type: postman
+  name: derivatives-api
+  slug: postman-amberdata-derivatives
+- collection_type: postman
+  name: Amberdata DeFi Futures API
+  slug: postman-amberdata-futures-api
+- collection_type: postman
+  name: market-api
+  slug: postman-amberdata-market
+- collection_type: postman
+  name: Market Metrics
+  slug: postman-amberdata-metrics
+- collection_type: postman
+  name: Amberdata DeFi On-Chain API
+  slug: postman-amberdata-on-chain-api
+- collection_type: postman
+  name: Amberdata DeFi Options API
+  slug: postman-amberdata-options-api
+- collection_type: postman
+  name: Pricing
+  slug: postman-amberdata-price
+- collection_type: postman
+  name: Amberdata DeFi Spot API
+  slug: postman-amberdata-spot-api
+- collection_type: postman
+  name: spot-analytics
+  slug: postman-amberdata-spot
 - collection_type: open
   name: Amberdata API
   slug: open-amberdata
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amberdata/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -231,12 +279,12 @@ overview: 'Amberdata publishes 10 APIs on the [APIs.io](https://apis.io/) networ
   The Amberdata catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Amberdata''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, pricing, and 26 more developer resources.'
+  Amberdata''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, pricing, and 27 more developer resources.'
 plans:
 - name: Amberdata Plans Pricing
   plan_count: 2
   slug: amberdata-plans-pricing
-random_paper: 45
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Amberdata Rate Limits
@@ -252,23 +300,34 @@ rules:
   slug: amberdata-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 64.8
-  delta: 2.8
+  composite: 63.3
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.5
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 52.6
+    contract_quality: 58.9
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 53.1
     operational_transparency: 76.3
-  previous_composite: 62.0
+  previous_composite: 64.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/screenshots/amberdata-2026-07-22T202146.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 0
@@ -423,7 +425,7 @@ overview: 'LianLian Global publishes 47 APIs on the [APIs.io](https://apis.io/) 
 
 
   LianLian Global''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 48 more developer resources.'
-random_paper: 14
+random_paper: 47
 scopes:
 - name: Lianlian Global Scopes
   scope_count: 1
@@ -431,24 +433,35 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 50.4
+  delta: -5.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.4
-    developer_ergonomics: 87.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 80.4
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 55.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png
 security:
 - kind: authentication

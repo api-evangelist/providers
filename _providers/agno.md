@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 1
@@ -239,7 +241,7 @@ plans:
 - name: Agno Plans Pricing
   plan_count: 3
   slug: agno-plans-pricing
-random_paper: 13
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Agno Rate Limits
@@ -255,19 +257,26 @@ rules:
   slug: agno-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 57.5
-  delta: 0.0
+  composite: 51.8
+  delta: -5.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.5
+    contract_quality: 59.9
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 57.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/screenshots/agno-2026-06-20T170338.png
 security:
 - kind: authentication

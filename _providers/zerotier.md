@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -60,12 +62,41 @@ apis:
 - description: Utility endpoints
   name: ZeroTier util API
   slug: zerotier-util-api
-artifact_total: 15
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Zerotier Webhooks
   slug: zerotier-webhooks
+collections:
+- collection_type: postman
+  name: ZeroTier Central controller API
+  slug: postman-zerotier-controller-api
+- collection_type: postman
+  name: ZeroTier Central controller network API
+  slug: postman-zerotier-network-api
+- collection_type: postman
+  name: ZeroTier Central controller network-member API
+  slug: postman-zerotier-network-member-api
+- collection_type: postman
+  name: ZeroTier Central controller organizations API
+  slug: postman-zerotier-organizations-api
+- collection_type: postman
+  name: ZeroTier Central controller peer API
+  slug: postman-zerotier-peer-api
+- collection_type: postman
+  name: ZeroTier Central controller status API
+  slug: postman-zerotier-status-api
+- collection_type: postman
+  name: ZeroTier Central controller user API
+  slug: postman-zerotier-user-api
+- collection_type: postman
+  name: ZeroTier Central controller util API
+  slug: postman-zerotier-util-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/zerotier/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -244,22 +275,32 @@ overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The ZeroTier catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ZeroTier''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 33 more developer resources.'
-random_paper: 0
+  ZeroTier''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 34 more developer resources.'
+random_paper: 37
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 61.9
+  delta: -1.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.8
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.0
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 63.2
   previous_composite: 63.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

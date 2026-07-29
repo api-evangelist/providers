@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -62,12 +64,53 @@ apis:
 - description: Deprecated Afterpay Global API for creating and managing recurring billing agreements; retained here as harvested for historical completeness and marked deprecated by Cash App.
   name: Afterpay Billing Agreements API (Deprecated)
   slug: afterpay-billing-agreements-api
-artifact_total: 19
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Cash App Webhooks
   slug: cash-app-webhooks
+collections:
+- collection_type: postman
+  name: Billing Agreements (Deprecated)
+  slug: postman-cash-app-billing-agreements-deprecated-openapi
+- collection_type: postman
+  name: Checkouts
+  slug: postman-cash-app-checkouts-openapi
+- collection_type: postman
+  name: Configuration
+  slug: postman-cash-app-configuration-openapi
+- collection_type: postman
+  name: Customer Request API
+  slug: postman-cash-app-customer-request-api-openapi
+- collection_type: postman
+  name: Disputes
+  slug: postman-cash-app-disputes-openapi
+- collection_type: postman
+  name: Grants - Afterpay
+  slug: postman-cash-app-grants-afterpay-openapi
+- collection_type: postman
+  name: Add Cash App Pay to Your Site
+  slug: postman-cash-app-grants-cash-app-pay-openapi
+- collection_type: postman
+  name: Management API
+  slug: postman-cash-app-management-api-openapi
+- collection_type: postman
+  name: Network API
+  slug: postman-cash-app-network-api-openapi
+- collection_type: postman
+  name: Orders
+  slug: postman-cash-app-orders-openapi
+- collection_type: postman
+  name: Payments
+  slug: postman-cash-app-payments-openapi
+- collection_type: postman
+  name: Service Status
+  slug: postman-cash-app-service-status-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cash-app/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -251,33 +294,39 @@ overview: 'Cash App publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The Cash App catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cash App''s developer surface includes authentication, documentation, support, getting-started guide, signup flow, changelog, sandbox, and 34 more developer resources.'
-random_paper: 33
+  Cash App''s developer surface includes authentication, documentation, support, getting-started guide, signup flow, changelog, sandbox, and 35 more developer resources.'
+random_paper: 11
 scopes:
 - name: Cash App Scopes
   scope_count: 4
   slug: cash-app-scopes
   summary_line: 4 scopes
 score:
-  band: strong
-  composite: 60.4
-  delta: 0.0
+  band: developing
+  composite: 54.0
+  delta: -6.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.4
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 71.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 63.2
   previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 60.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png
 security:
 - kind: authentication

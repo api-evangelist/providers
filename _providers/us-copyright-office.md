@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The Copyright Public Records System (CPRS) provides access to U.S. copyright registration and recordation data with advanced search capabilities and improved interfaces. Replaced the Online Public Cat
@@ -167,7 +169,7 @@ plans:
 - name: Us Copyright Office Plans Pricing
   plan_count: 3
   slug: us-copyright-office-plans-pricing
-random_paper: 23
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Us Copyright Office Rate Limits
@@ -183,24 +185,25 @@ rules:
   slug: us-copyright-office-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 44.2
-  delta: 0.0
+  composite: 38.8
+  delta: -5.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 39.6
+    contract_quality: 33.9
     developer_ergonomics: 21.7
-    discoverability: 75.0
-    governance: 86.8
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 44.2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-copyright-office/refs/heads/main/screenshots/us-copyright-office-2026-06-20T200655.png
 security:
 - kind: domain-security

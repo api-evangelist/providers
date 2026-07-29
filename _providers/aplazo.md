@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for merchants to originate Aplazo installment loans at checkout, retrieve loan status, and process refunds and cancellations. Credentials (apiToken + merchantId) are exchanged at POST /api/au
@@ -133,26 +135,30 @@ overview: 'Aplazo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aplazo''s developer surface includes support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 35
+random_paper: 31
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 32.6
+  delta: 1.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 22.6
-    developer_ergonomics: 43.5
-    discoverability: 92.5
+    contract_quality: 51.6
+    developer_ergonomics: 32.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 31.6
+  provenance:
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/screenshots/aplazo-2026-07-25T200637.png
 security:

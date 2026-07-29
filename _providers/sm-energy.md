@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'SM Energy Company (NYSE: SM) financial and operational data is accessible through investor relations resources, SEC EDGAR filings, and third-party financial data providers. The company reports quarter'
@@ -132,25 +134,31 @@ press:
 - date: '2026-04-07'
   title: SM Energy Schedules First Quarter 2026 Conference Call for May 7, 2026
   url: https://www.sm-energy.com/investors/news-events/press-releases/detail/374/sm-energy-schedules-first-quarter-2026-conference-call-for-may-7-2026
-random_paper: 35
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Sm Energy Rate Limits
   slug: sm-energy-rate-limits
 score:
   band: emerging
-  composite: 20.5
-  delta: 0.0
+  composite: 17.3
+  delta: -3.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 9.4
+    contract_quality: 8.1
     developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 13.2
+    discoverability: 59.3
+    governance: 10.4
     operational_transparency: 21.1
   previous_composite: 20.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 14.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sm-energy/refs/heads/main/screenshots/sm-energy-2026-06-20T194032.png
 security:

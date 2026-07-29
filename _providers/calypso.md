@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Main REST API for the Nasdaq Calypso platform. Provides programmatic access to remotely control calls to the Calypso platform from other software, enabling regulatory analytics, current limits usage q
@@ -123,30 +125,31 @@ plans:
 - name: Calypso Plans Pricing
   plan_count: 3
   slug: calypso-plans-pricing
-random_paper: 15
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Calypso Rate Limits
   slug: calypso-rate-limits
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 28.8
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 30.5
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 33.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/screenshots/calypso-2026-06-20T173858.png
 security:

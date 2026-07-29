@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The CoreView Public API provides programmatic access to Microsoft 365 governance operations — delegated administration, operators, platform reporting, license pools, and customer/tenant management — v
@@ -142,7 +144,7 @@ overview: 'CoreView (FKA 4ward365) publishes 1 API on the [APIs.io](https://apis
 
 
   CoreView (FKA 4ward365)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 0
+random_paper: 56
 scopes:
 - name: Coreview Fka 4Ward365 Scopes
   scope_count: 14
@@ -150,18 +152,21 @@ scopes:
   summary_line: 14 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 32.6
+  delta: -0.4
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
-    developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 54.3
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 33.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/screenshots/coreview-fka-4ward365-2026-07-25T210431.png
 security:

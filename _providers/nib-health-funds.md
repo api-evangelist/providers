@@ -2,11 +2,13 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The Auth0-backed OpenID Connect tenant behind nib member sign-in, issuer https://id.nib.com.au/. It is the only nib API surface with anonymously readable, machine-readable metadata: the OIDC discovery'
@@ -130,7 +132,7 @@ overview: 'nib publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   nib''s developer surface includes authentication, engineering blog, support, and 20 more developer resources.'
-random_paper: 13
+random_paper: 37
 scopes:
 - name: Nib Health Funds Scopes
   scope_count: 14
@@ -138,23 +140,26 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/implicit/deviceCode
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 29.1
+  delta: -2.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 15.8
   previous_composite: 31.7
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 72.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

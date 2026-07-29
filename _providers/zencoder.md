@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -192,21 +194,31 @@ overview: 'Zencoder publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zencoder''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 22 more developer resources.'
-random_paper: 42
+random_paper: 11
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 50.8
+  delta: -3.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.8
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.0
+    developer_ergonomics: 66.8
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 54.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

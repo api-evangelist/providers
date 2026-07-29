@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 13
 apis:
 - description: JSON-RPC WebSocket API for interacting with the Qlik Associative Engine, creating and manipulating apps, and building visualizations.
@@ -172,25 +174,25 @@ plans:
 - name: Qliksense Plans Pricing
   plan_count: 3
   slug: qliksense-plans-pricing
-random_paper: 23
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Qliksense Rate Limits
   slug: qliksense-rate-limits
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 38.4
+  delta: -2.6
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 41.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/screenshots/qliksense-2026-06-20T192343.png
 security:

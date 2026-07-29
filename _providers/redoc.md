@@ -1,32 +1,24 @@
 ---
-access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  trial: false
-  try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: conformant
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 10.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: ReDoc is an open-source API documentation renderer for OpenAPI specifications, originally created by Rebilly and now maintained by Redocly. It generates a responsive three-panel documentation layout f
@@ -34,6 +26,10 @@ apis:
   slug: redoc
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/redoc-a2a.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -122,7 +118,7 @@ finops:
 - name: Redoc Finops
   service_category: API
   slug: redoc-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/redoc.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: ReDoc Configuration
   property_count: 39
@@ -147,12 +143,12 @@ overview: 'ReDoc publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The ReDoc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ReDoc''s developer surface includes documentation, GitHub presence, getting-started guide, CLI, changelog, engineering blog, and 12 more developer resources.'
+  ReDoc''s developer surface includes documentation, GitHub presence, getting-started guide, CLI, changelog, engineering blog, and 13 more developer resources.'
 plans:
 - name: Redoc Plans Pricing
   plan_count: 3
   slug: redoc-plans-pricing
-random_paper: 49
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Redoc Rate Limits
@@ -168,18 +164,18 @@ rules:
   slug: redoc-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 43.7
-  delta: 0.0
+  composite: 39.0
+  delta: -4.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 34.8
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 43.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/screenshots/redoc-2026-06-20T192730.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -61,12 +63,40 @@ apis:
 - description: The VehicleCheck API from Track-POD — 3 operation(s) for vehiclecheck.
   name: Track-POD VehicleCheck API
   slug: track-pod-vehiclecheck-api
-artifact_total: 43
+artifact_total: 51
 collections:
+- collection_type: postman
+  name: Track-POD Address API
+  slug: postman-track-pod-address-api
+- collection_type: postman
+  name: Track-POD Address Driver API
+  slug: postman-track-pod-driver-api
+- collection_type: postman
+  name: Track-POD Address Order API
+  slug: postman-track-pod-order-api
+- collection_type: postman
+  name: Track-POD Address RejectReason API
+  slug: postman-track-pod-rejectreason-api
+- collection_type: postman
+  name: Track-POD Address Route API
+  slug: postman-track-pod-route-api
+- collection_type: postman
+  name: Track-POD Address Test API
+  slug: postman-track-pod-test-api
+- collection_type: postman
+  name: Track-POD Address Vehicle API
+  slug: postman-track-pod-vehicle-api
+- collection_type: postman
+  name: Track-POD Address VehicleCheck API
+  slug: postman-track-pod-vehiclecheck-api
 - collection_type: open
   name: Track-POD API
   slug: open-track-pod
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/track-pod/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -236,12 +266,12 @@ overview: 'Track-POD publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The Track-POD catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Track-POD''s developer surface includes authentication, documentation, sandbox, getting-started guide, pricing, engineering blog, signup flow, and 19 more developer resources.'
+  Track-POD''s developer surface includes authentication, documentation, sandbox, getting-started guide, pricing, engineering blog, signup flow, and 20 more developer resources.'
 plans:
 - name: Track Pod Plans Pricing
   plan_count: 8
   slug: track-pod-plans-pricing
-random_paper: 17
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Track Pod Rate Limits
@@ -265,19 +295,26 @@ rules:
   slug: track-pod-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 5.4
+  composite: 57.4
+  delta: -4.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.8
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 56.4
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 39.5
-  previous_composite: 56.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 62.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/screenshots/track-pod-2026-06-20T195516.png
 security:
 - kind: authentication

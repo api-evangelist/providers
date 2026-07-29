@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -97,8 +99,73 @@ apis:
 - description: Everything related to scoring / weighting metrics
   name: Netdata weights API
   slug: netdata-weights-api
-artifact_total: 36
+artifact_total: 56
+collections:
+- collection_type: postman
+  name: Netdata agent API
+  slug: postman-netdata-agent-api
+- collection_type: postman
+  name: Netdata agent alerts API
+  slug: postman-netdata-alerts-api
+- collection_type: postman
+  name: Netdata agent authentication API
+  slug: postman-netdata-authentication-api
+- collection_type: postman
+  name: Netdata agent badges API
+  slug: postman-netdata-badges-api
+- collection_type: postman
+  name: Netdata agent charts API
+  slug: postman-netdata-charts-api
+- collection_type: postman
+  name: Netdata agent claiming API
+  slug: postman-netdata-claiming-api
+- collection_type: postman
+  name: Netdata agent config API
+  slug: postman-netdata-config-api
+- collection_type: postman
+  name: Netdata agent contexts API
+  slug: postman-netdata-contexts-api
+- collection_type: postman
+  name: Netdata agent data API
+  slug: postman-netdata-data-api
+- collection_type: postman
+  name: Netdata agent dyncfg API
+  slug: postman-netdata-dyncfg-api
+- collection_type: postman
+  name: Netdata agent functions API
+  slug: postman-netdata-functions-api
+- collection_type: postman
+  name: Netdata agent management API
+  slug: postman-netdata-management-api
+- collection_type: postman
+  name: Netdata agent nodes API
+  slug: postman-netdata-nodes-api
+- collection_type: postman
+  name: Netdata agent registry API
+  slug: postman-netdata-registry-api
+- collection_type: postman
+  name: Netdata agent settings API
+  slug: postman-netdata-settings-api
+- collection_type: postman
+  name: Netdata agent streaming API
+  slug: postman-netdata-streaming-api
+- collection_type: postman
+  name: Netdata agent variables API
+  slug: postman-netdata-variables-api
+- collection_type: postman
+  name: Netdata agent versions API
+  slug: postman-netdata-versions-api
+- collection_type: postman
+  name: Netdata agent webrtc API
+  slug: postman-netdata-webrtc-api
+- collection_type: postman
+  name: Netdata agent weights API
+  slug: postman-netdata-weights-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/netdata/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,12 +288,12 @@ overview: 'Netdata publishes 20 APIs on the [APIs.io](https://apis.io/) network,
   The Netdata catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Netdata''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 14 more developer resources.'
+  Netdata''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 15 more developer resources.'
 plans:
 - name: Netdata Plans Pricing
   plan_count: 3
   slug: netdata-plans-pricing
-random_paper: 57
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Netdata Rate Limits
@@ -242,18 +309,25 @@ rules:
   slug: netdata-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 57.9
+  delta: -3.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 75.1
-    developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 75.5
+    developer_ergonomics: 26.1
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 57.9
   previous_composite: 61.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/screenshots/netdata-2026-06-20T190147.png
 security:

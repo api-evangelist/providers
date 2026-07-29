@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,7 +177,7 @@ overview: 'Ripe Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Ripe Insurance''s developer surface includes authentication, support, product news, engineering blog, and 27 more developer resources.'
-random_paper: 17
+random_paper: 59
 scopes:
 - name: Ripe Insurance Scopes
   scope_count: 2
@@ -183,23 +185,34 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 35.0
+  delta: -4.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 37.7
-    developer_ergonomics: 32.6
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 21.2
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 39.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 63.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

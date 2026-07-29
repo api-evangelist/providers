@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -332,7 +334,7 @@ plans:
 - name: Revel Systems Plans Pricing
   plan_count: 1
   slug: revel-systems-plans-pricing
-random_paper: 19
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Revel Systems Rate Limits
@@ -364,19 +366,26 @@ rules:
   slug: revel-systems-rules
 score:
   band: developing
-  composite: 49.5
-  delta: 3.8
+  composite: 43.1
+  delta: -6.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 84.8
+    contract_quality: 74.5
     developer_ergonomics: 10.9
-    discoverability: 75.0
-    governance: 78.9
+    discoverability: 55.6
+    governance: 62.5
     operational_transparency: 26.3
-  previous_composite: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 49.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/screenshots/revel-systems-2026-06-20T193052.png
 security:
 - kind: authentication

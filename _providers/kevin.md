@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'PSD2 open-banking platform API: Authentication, General, Payment Initiation (PIS) and Account Information (AIS) services for account-to-account bank payments, card (hybrid) payments, refunds and accou'
@@ -133,7 +135,7 @@ overview: 'Kevin. publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kevin.''s developer surface includes documentation, API reference, CLI, authentication, and 15 more developer resources.'
-random_paper: 65
+random_paper: 2
 scopes:
 - name: Kevin Scopes
   scope_count: 2
@@ -141,23 +143,28 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 32.3
+  delta: 0.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 22.6
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 7.9
   previous_composite: 31.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 43.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

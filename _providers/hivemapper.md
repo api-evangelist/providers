@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 37.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 31.8
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Devices, calibration, and query history.
@@ -158,21 +160,30 @@ overview: 'Hivemapper publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Hivemapper''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 17 more developer resources.'
-random_paper: 53
+random_paper: 72
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 50.0
+  delta: 0.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.2
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.9
+    developer_ergonomics: 71.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 49.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/screenshots/hivemapper-2026-07-25T221306.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -175,7 +177,7 @@ plans:
 - name: Department Of Transportation Plans Pricing
   plan_count: 1
   slug: department-of-transportation-plans-pricing
-random_paper: 67
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Department Of Transportation Rate Limits
@@ -199,18 +201,25 @@ rules:
   slug: dot-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 4.2
+  composite: 44.1
+  delta: -3.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.4
+    contract_quality: 60.2
     developer_ergonomics: 28.3
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 47.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/screenshots/department-of-transportation-2026-06-20T175923.png
 security:

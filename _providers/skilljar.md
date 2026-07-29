@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 6
@@ -407,7 +409,7 @@ overview: 'Skilljar publishes 78 APIs on the [APIs.io](https://apis.io/) network
 
 
   Skilljar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 44
+random_paper: 13
 scopes:
 - name: Skilljar Scopes
   scope_count: 89
@@ -415,18 +417,28 @@ scopes:
   summary_line: 89 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 45.6
+  delta: -2.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.0
-    developer_ergonomics: 67.4
-    discoverability: 75.0
-    governance: 0.0
+    contract_quality: 51.8
+    developer_ergonomics: 56.0
+    discoverability: 74.1
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 47.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 78
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

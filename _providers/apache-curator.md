@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Curator provides a high-level Java API with fluent builders for ZooKeeper operations, along with pre-built recipes for leader election, distributed locks (shared, reentrant, read-write, semaphore), ba
@@ -167,7 +169,7 @@ plans:
 - name: Apache Curator Plans Pricing
   plan_count: 3
   slug: apache-curator-plans-pricing
-random_paper: 63
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Apache Curator Rate Limits
@@ -182,20 +184,20 @@ rules:
     warn: 3
   slug: apache-curator-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.7
-  delta: 0.0
+  band: thin
+  composite: 41.0
+  delta: -5.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 39.6
+    contract_quality: 33.9
     developer_ergonomics: 28.3
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 46.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-curator/refs/heads/main/screenshots/apache-curator-2026-06-20T172050.png
 security:
 - kind: domain-security

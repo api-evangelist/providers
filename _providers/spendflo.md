@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Spendflo API provides programmatic access to SaaS spend management, procurement workflows, vendor management, usage analytics, and contract management data. It enables enterprise-grade integration
@@ -130,7 +132,7 @@ plans:
 - name: Spendflo Plans Pricing
   plan_count: 3
   slug: spendflo-plans-pricing
-random_paper: 43
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Spendflo Rate Limits
@@ -153,20 +155,20 @@ rules:
     warn: 2
   slug: spendflo-rules
 score:
-  band: developing
-  composite: 45.7
-  delta: 0.0
+  band: thin
+  composite: 40.3
+  delta: -5.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 32.1
+    contract_quality: 27.4
     developer_ergonomics: 6.5
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 31.6
   previous_composite: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/screenshots/spendflo-2026-06-20T194314.png
 security:
 - kind: domain-security

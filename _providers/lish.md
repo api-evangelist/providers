@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.0
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: Category terms used to classify posts.
@@ -149,21 +151,30 @@ overview: 'Lish publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lish''s developer surface includes authentication, engineering blog, support, signup flow, and 14 more developer resources.'
-random_paper: 24
+random_paper: 47
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 32.9
+  delta: -3.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 57.5
-    developer_ergonomics: 23.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 46.6
+    developer_ergonomics: 19.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 36.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/screenshots/lish-2026-07-25T225325.png
 security:

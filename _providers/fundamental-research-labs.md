@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,12 +48,26 @@ apis:
 - description: 'Export team usage metrics for reporting, finance, and internal analytics. Usage Metrics in Shortcut provides a prefilled request with your team_id; use this reference to customize date range, format, '
   name: Fundamental Research Labs Usage API
   slug: fundamental-research-labs-usage-api
-artifact_total: 10
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Fundamental Research Labs Webhooks
   slug: fundamental-research-labs-webhooks
+collections:
+- collection_type: postman
+  name: Shortcut Authentication API
+  slug: postman-fundamental-research-labs-authentication-api
+- collection_type: postman
+  name: Shortcut Authentication Spreadsheets API
+  slug: postman-fundamental-research-labs-spreadsheets-api
+- collection_type: postman
+  name: Shortcut Authentication Usage API
+  slug: postman-fundamental-research-labs-usage-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fundamental-research-labs/overview
 - group: company
   title: ''
   type: Website
@@ -198,30 +214,40 @@ overview: 'Fundamental Research Labs publishes 3 APIs on the [APIs.io](https://a
   The Fundamental Research Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fundamental Research Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 25 more developer resources.'
+  Fundamental Research Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 26 more developer resources.'
 plans:
 - name: Fundamental Research Labs Plans
   plan_count: 4
   slug: fundamental-research-labs-plans
-random_paper: 4
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Fundamental Research Labs Rate Limits
   slug: fundamental-research-labs-rate-limits
 score:
   band: strong
-  composite: 63.7
-  delta: 0.0
+  composite: 62.3
+  delta: -1.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 56.9
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 54.5
+    developer_ergonomics: 66.8
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 60.5
   previous_composite: 63.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:

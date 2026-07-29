@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: First-party GraphQL API powering Drip Shop Live's livestream shopping clients — streams, auctions, box breaks, giveaways, catalog, carts, orders, payments and messaging. 268 queries, 283 mutations, 56
@@ -102,27 +104,31 @@ overview: 'Dripshop publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Dripshop''s developer surface includes authentication, support, getting-started guide, and 9 more developer resources.'
-random_paper: 57
+random_paper: 26
 score:
-  band: emerging
-  composite: 22.4
-  delta: 0.0
+  band: thin
+  composite: 28.4
+  delta: 6.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 0.0
-    developer_ergonomics: 34.8
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 43.2
+    developer_ergonomics: 28.3
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 0.0
   previous_composite: 22.4
+  provenance:
+    conformance: derived
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 32.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dripshop/refs/heads/main/screenshots/dripshop-2026-07-25T212415.png
 security:
 - kind: authentication

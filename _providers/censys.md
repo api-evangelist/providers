@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -79,14 +81,56 @@ apis:
 - description: Endpoints related to the Adversary Investigation product
   name: Censys Threat Hunting API
   slug: censys-threat-hunting-api
-artifact_total: 3517
+artifact_total: 3531
 collections:
+- collection_type: postman
+  name: Asset Graph Account Management API
+  slug: postman-censys-account-management-api
+- collection_type: postman
+  name: Asset Graph Account Management Adversary Investigation API
+  slug: postman-censys-adversary-investigation-api
 - collection_type: postman
   name: Censys ASM
   slug: postman-censys-asm
 - collection_type: postman
+  name: Asset Graph Account Management Asset Graphs API
+  slug: postman-censys-asset-graphs-api
+- collection_type: postman
+  name: Asset Graph Account Management Assets API
+  slug: postman-censys-assets-api
+- collection_type: postman
+  name: Asset Graph Account Management Collections API
+  slug: postman-censys-collections-api
+- collection_type: postman
+  name: Asset Graph Account Management Excluded Assets API
+  slug: postman-censys-excluded-assets-api
+- collection_type: postman
+  name: Asset Graph Account Management Global Data API
+  slug: postman-censys-global-data-api
+- collection_type: postman
+  name: Asset Graph Account Management Graph Executions API
+  slug: postman-censys-graph-executions-api
+- collection_type: postman
+  name: Asset Graph Account Management Risks API
+  slug: postman-censys-risks-api
+- collection_type: postman
   name: Censys Search
   slug: postman-censys-search
+- collection_type: postman
+  name: Asset Graph Account Management Seeds API
+  slug: postman-censys-seeds-api
+- collection_type: postman
+  name: Asset Graph Account Management Shards API
+  slug: postman-censys-shards-api
+- collection_type: postman
+  name: Asset Graph Account Management Supply Chain Intelligence API
+  slug: postman-censys-supply-chain-intelligence-api
+- collection_type: postman
+  name: Asset Graph Account Management Tags and Comments API
+  slug: postman-censys-tags-and-comments-api
+- collection_type: postman
+  name: Asset Graph Account Management Threat Hunting API
+  slug: postman-censys-threat-hunting-api
 - collection_type: open
   name: Asset Graph API
   slug: open-censys-asset-graph
@@ -94,6 +138,10 @@ collections:
   name: Censys Platform API
   slug: open-censys-platform
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/censys/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -10655,12 +10703,12 @@ overview: 'Censys publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
   The Censys catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Censys'' developer surface includes authentication, developer portal, signup flow, pricing, engineering blog, support, CLI, and 24 more developer resources.'
+  Censys'' developer surface includes authentication, developer portal, signup flow, pricing, engineering blog, support, CLI, and 25 more developer resources.'
 plans:
 - name: Censys Plans Pricing
   plan_count: 4
   slug: censys-plans-pricing
-random_paper: 49
+random_paper: 45
 rate_limits:
 - limit_count: 8
   name: Censys Rate Limits
@@ -10684,18 +10732,25 @@ rules:
   slug: censys-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 3.3
+  composite: 61.8
+  delta: -3.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.3
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 67.6
+    developer_ergonomics: 37.0
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 61.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/screenshots/censys-2026-06-20T174122.png
 security:

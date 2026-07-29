@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 15.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Forta GraphQL API exposes the network's alerts and blockchain project threat-intelligence data. A single GraphQL endpoint accepts POST queries authenticated with a Bearer API key; the primary root
@@ -145,22 +147,24 @@ overview: 'Forta publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Forta''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 64
+random_paper: 1
 score:
-  band: thin
-  composite: 37.8
-  delta: 0.0
+  band: developing
+  composite: 44.9
+  delta: 7.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 13.2
   previous_composite: 37.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta/refs/heads/main/screenshots/forta-2026-07-25T214954.png
 security:
 - kind: authentication

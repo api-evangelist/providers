@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -49,8 +51,20 @@ apis:
 - description: Retrieve detector confidence levels without runtime enforcement.
   name: Lakera Results API
   slug: lakera-ai-results-api
-artifact_total: 43
+artifact_total: 47
 collections:
+- collection_type: postman
+  name: Lakera Guard API
+  slug: postman-lakera-ai-guard-api
+- collection_type: postman
+  name: Lakera Guard Policies API
+  slug: postman-lakera-ai-policies-api
+- collection_type: postman
+  name: Lakera Guard Projects API
+  slug: postman-lakera-ai-projects-api
+- collection_type: postman
+  name: Lakera Guard Results API
+  slug: postman-lakera-ai-results-api
 - collection_type: open
   name: Lakera Guard API
   slug: open-lakera-guard-api
@@ -58,6 +72,10 @@ collections:
   name: Lakera Platform API
   slug: open-lakera-platform-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lakera/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -268,12 +286,12 @@ overview: 'Lakera publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Lakera catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Lakera''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 29 more developer resources.'
+  Lakera''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 30 more developer resources.'
 plans:
 - name: Lakera Ai Plans Pricing
   plan_count: 4
   slug: lakera-ai-plans-pricing
-random_paper: 55
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Lakera Ai Rate Limits
@@ -297,18 +315,25 @@ rules:
   slug: lakera-rules
 score:
   band: strong
-  composite: 66.2
-  delta: 4.2
+  composite: 62.7
+  delta: -3.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 73.5
-    developer_ergonomics: 60.9
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 73.7
+    developer_ergonomics: 65.2
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 62.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/screenshots/lakera-ai-2026-06-20T184246.png
 security:

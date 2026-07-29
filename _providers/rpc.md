@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 4
 common:
@@ -97,7 +99,7 @@ press:
 - date: ''
   title: RPC launches Porter, its in-house AI assistant built to ...
   url: https://www.rpclegal.com/press-and-media/rpc-launches-porter
-random_paper: 53
+random_paper: 17
 rules:
 - name: RPC API Rules
   rule_count: 5
@@ -109,19 +111,25 @@ rules:
   slug: rpc-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.1
-  delta: 0.0
+  composite: 18.1
+  delta: -5.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 10.9
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 0.0
   previous_composite: 23.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 14.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rpc/refs/heads/main/screenshots/rpc-2026-06-20T193232.png
 security:
 - kind: domain-security

@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The FRVR games SDK — one JavaScript SDK (plus Unity, Cocos Creator, and Construct 3 wrappers) that integrates ads, IAP, analytics, auth, storage, social, leaderboards, tournaments, and notifications i
@@ -122,21 +124,23 @@ overview: 'FRVR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FRVR''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, signup flow, sandbox, and 12 more developer resources.'
-random_paper: 40
+random_paper: 63
 score:
-  band: emerging
-  composite: 29.8
-  delta: 0.0
+  band: thin
+  composite: 28.5
+  delta: -1.3
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 5.3
   previous_composite: 29.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/screenshots/frvr-2026-07-25T215241.png
 security:

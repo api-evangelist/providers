@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Tinyproxy is a lightweight HTTP/HTTPS proxy daemon for POSIX operating systems with minimal system resource requirements. Provides forward proxying, HTTPS CONNECT tunneling, domain filtering, access c
@@ -106,7 +108,7 @@ plans:
 - name: Tinyproxy Plans Pricing
   plan_count: 3
   slug: tinyproxy-plans-pricing
-random_paper: 10
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Tinyproxy Rate Limits
@@ -122,19 +124,19 @@ rules:
   slug: tinyproxy-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 34.3
+  delta: -5.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 26.4
+    contract_quality: 22.6
     developer_ergonomics: 8.7
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 39.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinyproxy/refs/heads/main/screenshots/tinyproxy-2026-06-20T195408.png
 slug: tinyproxy
 tags:

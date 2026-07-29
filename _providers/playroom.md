@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.5
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -146,21 +148,24 @@ overview: 'Playroom is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Playroom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 67
+random_paper: 36
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 32.2
+  delta: -2.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 73.9
-    discoverability: 67.5
+    developer_ergonomics: 69.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 34.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

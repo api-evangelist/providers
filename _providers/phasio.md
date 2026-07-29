@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.5
+  scored_at: '2026-07-28'
 api_count: 92
 apis:
 - description: Internal API for activity operations including conversation creation
@@ -442,21 +444,30 @@ overview: 'Phasio publishes 92 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Phasio''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 21 more developer resources.'
-random_paper: 32
+random_paper: 28
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 52.9
+  delta: -0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.0
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 67.1
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 7.9
   previous_composite: 53.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 92
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,8 +54,28 @@ apis:
 - description: Individual account and trade line data
   name: Bloom Credit Trade Lines API
   slug: bloom-credit-trade-lines-api
-artifact_total: 42
+artifact_total: 47
+collections:
+- collection_type: postman
+  name: Bloom Credit Consumers API
+  slug: postman-bloom-credit-consumers-api
+- collection_type: postman
+  name: Bloom Credit Consumers Credit Reports API
+  slug: postman-bloom-credit-credit-reports-api
+- collection_type: postman
+  name: Bloom Credit Consumers Credit Scores API
+  slug: postman-bloom-credit-credit-scores-api
+- collection_type: postman
+  name: Bloom Credit Consumers Monitoring API
+  slug: postman-bloom-credit-monitoring-api
+- collection_type: postman
+  name: Bloom Credit Consumers Trade Lines API
+  slug: postman-bloom-credit-trade-lines-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bloom-credit/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,12 +228,12 @@ overview: 'Bloom Credit publishes 5 APIs on the [APIs.io](https://apis.io/) netw
   The Bloom Credit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bloom Credit''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 12 more developer resources.'
+  Bloom Credit''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 13 more developer resources.'
 plans:
 - name: Bloom Credit Plans Pricing
   plan_count: 3
   slug: bloom-credit-plans-pricing
-random_paper: 61
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Bloom Credit Rate Limits
@@ -234,20 +256,27 @@ rules:
     warn: 21
   slug: bloom-credit-spectral-rules
 score:
-  band: strong
-  composite: 60.2
-  delta: 0.0
+  band: developing
+  composite: 54.7
+  delta: -5.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.5
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 57.7
+    developer_ergonomics: 43.5
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/screenshots/bloom-credit-2026-06-20T173402.png
 security:
 - kind: authentication

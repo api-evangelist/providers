@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: User management operations for accessing Spiceworks user and technician profiles
   name: Spiceworks Users API
   slug: spiceworks-users-api
-artifact_total: 20
+artifact_total: 24
 collections:
+- collection_type: postman
+  name: Spiceworks Cloud Apps Comments API
+  slug: postman-spiceworks-comments-api
+- collection_type: postman
+  name: Spiceworks Cloud Apps Comments Devices API
+  slug: postman-spiceworks-devices-api
+- collection_type: postman
+  name: Spiceworks Cloud Apps Comments Tickets API
+  slug: postman-spiceworks-tickets-api
+- collection_type: postman
+  name: Spiceworks Cloud Apps Comments Users API
+  slug: postman-spiceworks-users-api
 - collection_type: open
   name: Spiceworks Cloud Apps API
   slug: open-spiceworks-cloud-apps
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/spiceworks/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -184,12 +202,12 @@ overview: 'Spiceworks publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The Spiceworks catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spiceworks'' developer surface includes authentication, signup flow, developer portal, documentation, support, engineering blog, YouTube channel, and 15 more developer resources.'
+  Spiceworks'' developer surface includes authentication, signup flow, developer portal, documentation, support, engineering blog, YouTube channel, and 16 more developer resources.'
 plans:
 - name: Spiceworks Plans Pricing
   plan_count: 3
   slug: spiceworks-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Spiceworks Rate Limits
@@ -218,18 +236,25 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: strong
-  composite: 63.2
-  delta: 2.0
+  composite: 60.3
+  delta: -2.9
   facets:
     commercial_clarity: 73.7
-    contract_quality: 69.9
-    developer_ergonomics: 41.3
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 71.2
+    developer_ergonomics: 45.7
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/screenshots/spiceworks-2026-06-20T194312.png
 security:

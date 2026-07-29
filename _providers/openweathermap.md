@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -500,7 +502,7 @@ plans:
 - name: Openweathermap Plans Pricing
   plan_count: 7
   slug: openweathermap-plans-pricing
-random_paper: 8
+random_paper: 41
 rate_limits:
 - limit_count: 12
   name: Openweathermap Rate Limits
@@ -524,18 +526,27 @@ rules:
   slug: openweathermap-rules
 score:
   band: exemplar
-  composite: 73.5
-  delta: 4.8
+  composite: 72.5
+  delta: -1.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 78.3
-    developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 82.1
+    developer_ergonomics: 56.5
+    discoverability: 94.4
+    governance: 80.2
     operational_transparency: 36.8
-  previous_composite: 68.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 73.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png
 security:

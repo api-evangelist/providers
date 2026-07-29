@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 3
@@ -142,8 +144,113 @@ apis:
 - description: The Workspace Management API from fireblocks — 13 operation(s) for workspace management.
   name: fireblocks Workspace Management API
   slug: fireblocks-workspace-management-api
-artifact_total: 92
+artifact_total: 127
 collections:
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests API
+  slug: postman-fireblocks-approval-requests-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Blockchains & Assets API
+  slug: postman-fireblocks-blockchains-assets-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Compliance API
+  slug: postman-fireblocks-compliance-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Connected Accounts (Beta) API
+  slug: postman-fireblocks-connected-accounts-beta-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Contract Interactions API
+  slug: postman-fireblocks-contract-interactions-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Contract Templates API
+  slug: postman-fireblocks-contract-templates-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Cosigners (Beta) API
+  slug: postman-fireblocks-cosigners-beta-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests dApp Connections API
+  slug: postman-fireblocks-dapp-connections-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Deployed Contracts API
+  slug: postman-fireblocks-deployed-contracts-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Exchange Accounts API
+  slug: postman-fireblocks-exchange-accounts-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Fiat Accounts API
+  slug: postman-fireblocks-fiat-accounts-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Fireblocks Network API
+  slug: postman-fireblocks-fireblocks-network-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Gas Station API
+  slug: postman-fireblocks-gas-station-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Job Management API
+  slug: postman-fireblocks-job-management-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Key Link API
+  slug: postman-fireblocks-key-link-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Keys (Beta) API
+  slug: postman-fireblocks-keys-beta-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests NFTs API
+  slug: postman-fireblocks-nfts-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Off Exchange API
+  slug: postman-fireblocks-off-exchange-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Payments - Flows API
+  slug: postman-fireblocks-payments-flows-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Payments - Payout API
+  slug: postman-fireblocks-payments-payout-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Policy Editor (Beta) API
+  slug: postman-fireblocks-policy-editor-beta-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Policy Editor V2 (Beta) API
+  slug: postman-fireblocks-policy-editor-v2-beta-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Smart Transfers API
+  slug: postman-fireblocks-smart-transfers-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Staking API
+  slug: postman-fireblocks-staking-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Tags API
+  slug: postman-fireblocks-tags-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Tokenization API
+  slug: postman-fireblocks-tokenization-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Trading (Beta) API
+  slug: postman-fireblocks-trading-beta-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Transactions API
+  slug: postman-fireblocks-transactions-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Vaults API
+  slug: postman-fireblocks-vaults-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Webhooks API
+  slug: postman-fireblocks-webhooks-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Webhooks V2 API
+  slug: postman-fireblocks-webhooks-v2-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Whitelisted Contracts API
+  slug: postman-fireblocks-whitelisted-contracts-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Whitelisted External Wallets API
+  slug: postman-fireblocks-whitelisted-external-wallets-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Whitelisted Internal Wallets API
+  slug: postman-fireblocks-whitelisted-internal-wallets-api
+- collection_type: postman
+  name: Fireblocks Blockchains and Assets Approval Requests Workspace Management API
+  slug: postman-fireblocks-workspace-management-api
 - collection_type: open
   name: Fireblocks Blockchains and Assets API
   slug: open-fireblocks-assets-api
@@ -190,6 +297,10 @@ collections:
   name: Fireblocks Workspace Management API
   slug: open-fireblocks-workspace-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fireblocks/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -542,12 +653,12 @@ overview: 'fireblocks publishes 35 APIs on the [APIs.io](https://apis.io/) netwo
   The fireblocks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  fireblocks'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, product news, and 65 more developer resources.'
+  fireblocks'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, product news, and 66 more developer resources.'
 plans:
 - name: Fireblocks Plans Pricing
   plan_count: 6
   slug: fireblocks-plans-pricing
-random_paper: 40
+random_paper: 59
 rate_limits:
 - limit_count: 6
   name: Fireblocks Rate Limits
@@ -562,19 +673,26 @@ rules:
     warn: 3
   slug: fireblocks-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 69.6
-  delta: 4.5
+  band: exemplar
+  composite: 66.1
+  delta: -3.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 67.3
-    developer_ergonomics: 63.0
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 66.2
+    developer_ergonomics: 67.4
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 65.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: A lightweight (3kB gzipped) JavaScript SDK that lets developers programmatically create, open, and embed StackBlitz projects in web pages, documentation sites, or blog posts. Provides six primary meth
@@ -117,25 +119,25 @@ plans:
 - name: Stackblitz Plans Pricing
   plan_count: 4
   slug: stackblitz-plans-pricing
-random_paper: 63
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Stackblitz Rate Limits
   slug: stackblitz-rate-limits
 score:
   band: emerging
-  composite: 29.4
-  delta: 0.0
+  composite: 26.8
+  delta: -2.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 10.9
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 29.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackblitz/refs/heads/main/screenshots/stackblitz-2026-06-20T194443.png
 security:

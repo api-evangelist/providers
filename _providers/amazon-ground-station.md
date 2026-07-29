@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -73,8 +75,49 @@ apis:
 - description: The Tags API from Amazon Ground Station — 2 operation(s) for tags.
   name: Amazon Ground Station Tags API
   slug: amazon-ground-station-tags-api
-artifact_total: 553
+artifact_total: 565
+collections:
+- collection_type: postman
+  name: AWS Ground Station Agent API
+  slug: postman-amazon-ground-station-agent-api
+- collection_type: postman
+  name: AWS Ground Station Agent Config API
+  slug: postman-amazon-ground-station-config-api
+- collection_type: postman
+  name: AWS Ground Station Agent Contact API
+  slug: postman-amazon-ground-station-contact-api
+- collection_type: postman
+  name: AWS Ground Station Agent Contacts API
+  slug: postman-amazon-ground-station-contacts-api
+- collection_type: postman
+  name: AWS Ground Station Agent DataflowEndpointGroup API
+  slug: postman-amazon-ground-station-dataflowendpointgroup-api
+- collection_type: postman
+  name: AWS Ground Station Agent Ephemerides API
+  slug: postman-amazon-ground-station-ephemerides-api
+- collection_type: postman
+  name: AWS Ground Station Agent Ephemeris API
+  slug: postman-amazon-ground-station-ephemeris-api
+- collection_type: postman
+  name: AWS Ground Station Agent Groundstation API
+  slug: postman-amazon-ground-station-groundstation-api
+- collection_type: postman
+  name: AWS Ground Station Agent Minute Usage API
+  slug: postman-amazon-ground-station-minute-usage-api
+- collection_type: postman
+  name: AWS Ground Station Agent Missionprofile API
+  slug: postman-amazon-ground-station-missionprofile-api
+- collection_type: postman
+  name: AWS Ground Station Agent Satellite API
+  slug: postman-amazon-ground-station-satellite-api
+- collection_type: postman
+  name: AWS Ground Station Agent Tags API
+  slug: postman-amazon-ground-station-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-ground-station/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1743,12 +1786,12 @@ overview: 'Amazon Ground Station publishes 12 APIs on the [APIs.io](https://apis
   The Amazon Ground Station catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Ground Station''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon Ground Station''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Ground Station Plans Pricing
   plan_count: 3
   slug: amazon-ground-station-plans-pricing
-random_paper: 53
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Ground Station Rate Limits
@@ -1772,18 +1815,25 @@ rules:
   slug: amazon-ground-station-spectral-rules
 score:
   band: strong
-  composite: 67.2
-  delta: 0.0
+  composite: 63.9
+  delta: -3.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 77.0
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 78.0
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/screenshots/amazon-ground-station-2026-06-20T171659.png
 security:

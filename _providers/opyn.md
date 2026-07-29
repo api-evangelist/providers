@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: GraphQL API powered by The Graph that indexes all on-chain Squeeth events on Ethereum mainnet. Enables developers to query oSQTH positions, short vaults, vault collateral and debt, funding (mark/index
@@ -132,31 +134,32 @@ plans:
 - name: Opyn Plans Pricing
   plan_count: 2
   slug: opyn-plans-pricing
-random_paper: 46
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Opyn Rate Limits
   slug: opyn-rate-limits
 score:
-  band: emerging
-  composite: 20.9
-  delta: 0.0
+  band: thin
+  composite: 28.9
+  delta: 8.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 8.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 20.9
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 20.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/opyn/refs/heads/main/screenshots/opyn-2026-06-20T191115.png
 security:
 - kind: domain-security

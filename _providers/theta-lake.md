@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The Theta Lake API (v1) provides programmatic access to the DCGA platform: ingest AI, audio, chat, document, email, and video content; manage records, comments, labels, and dispositions; run unified s'
@@ -142,7 +144,7 @@ overview: 'Theta Lake publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Theta Lake''s developer surface includes documentation, API reference, signup flow, engineering blog, support, authentication, getting-started guide, and 16 more developer resources.'
-random_paper: 40
+random_paper: 68
 scopes:
 - name: Theta Lake Scopes
   scope_count: 70
@@ -150,18 +152,27 @@ scopes:
   summary_line: 70 scopes · clientCredentials
 score:
   band: thin
-  composite: 42.2
-  delta: 0.0
+  composite: 40.5
+  delta: -1.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 37.7
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 56.0
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 42.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

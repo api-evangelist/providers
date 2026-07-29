@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,21 +95,24 @@ overview: 'MeetAndy AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   MeetAndy AI''s developer surface includes documentation, getting-started guide, signup flow, changelog, and 8 more developer resources.'
-random_paper: 14
+random_paper: 24
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 22.3
+  delta: -1.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 23.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

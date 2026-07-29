@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Aquila is QuEra's 256-qubit neutral-atom quantum computer, the first publicly accessible neutral-atom QPU. It runs Analog Hamiltonian Simulation (AHS) programs and is accessed programmatically through
@@ -150,21 +152,21 @@ overview: 'QuEra Computing publishes 8 APIs on the [APIs.io](https://apis.io/) n
 
 
   QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 11 more developer resources.'
-random_paper: 5
+random_paper: 29
 score:
   band: emerging
-  composite: 20.7
-  delta: 0.0
+  composite: 18.4
+  delta: -2.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 45.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 20.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

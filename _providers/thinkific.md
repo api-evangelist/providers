@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -106,8 +108,82 @@ apis:
 - description: Users operations
   name: Thinkific Users API
   slug: thinkific-users-api
-artifact_total: 43
+artifact_total: 66
+collections:
+- collection_type: postman
+  name: Thinkific Admin Bundles API
+  slug: postman-thinkific-bundles-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Categories API
+  slug: postman-thinkific-categories-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Category Memberships API
+  slug: postman-thinkific-category-memberships-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Chapters API
+  slug: postman-thinkific-chapters-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Contents API
+  slug: postman-thinkific-contents-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Coupons API
+  slug: postman-thinkific-coupons-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Course Reviews API
+  slug: postman-thinkific-course-reviews-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Courses API
+  slug: postman-thinkific-courses-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Custom Profile Field Definitions API
+  slug: postman-thinkific-custom-profile-field-definitions-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Enrollments API
+  slug: postman-thinkific-enrollments-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Events API
+  slug: postman-thinkific-events-api
+- collection_type: postman
+  name: Thinkific Admin Bundles External Orders API
+  slug: postman-thinkific-external-orders-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Group Analysts API
+  slug: postman-thinkific-group-analysts-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Group Users API
+  slug: postman-thinkific-group-users-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Groups API
+  slug: postman-thinkific-groups-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Instructors API
+  slug: postman-thinkific-instructors-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Orders API
+  slug: postman-thinkific-orders-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Product Publish Request API
+  slug: postman-thinkific-product-publish-request-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Products API
+  slug: postman-thinkific-products-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Promotions API
+  slug: postman-thinkific-promotions-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Site Scripts API
+  slug: postman-thinkific-site-scripts-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Users API
+  slug: postman-thinkific-users-api
+- collection_type: postman
+  name: Thinkific Admin Bundles Webhooks API
+  slug: postman-thinkific-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/thinkific/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -245,12 +321,12 @@ overview: 'Thinkific publishes 23 APIs on the [APIs.io](https://apis.io/) networ
   The Thinkific catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Thinkific''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, pricing, and 13 more developer resources.'
+  Thinkific''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, pricing, and 14 more developer resources.'
 plans:
 - name: Thinkific Plans Pricing
   plan_count: 4
   slug: thinkific-plans-pricing
-random_paper: 1
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Thinkific Rate Limits
@@ -266,18 +342,25 @@ rules:
   slug: thinkific-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 58.7
+  delta: -4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.9
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 67.1
+    developer_ergonomics: 37.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 62.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/screenshots/thinkific-2026-06-20T195305.png
 security:

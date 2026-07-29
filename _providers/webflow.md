@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 60.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -521,7 +523,7 @@ plans:
 - name: Webflow Plans Pricing
   plan_count: 14
   slug: webflow-plans-pricing
-random_paper: 10
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Webflow Rate Limits
@@ -558,18 +560,25 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.1
-  delta: 2.0
+  composite: 70.8
+  delta: -3.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 74.0
+    contract_quality: 75.7
     developer_ergonomics: 65.2
-    discoverability: 75.0
-    governance: 73.7
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 76.3
-  previous_composite: 72.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 74.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:

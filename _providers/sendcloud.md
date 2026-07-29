@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: near-conformant
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -35,80 +26,68 @@ agentic_access:
   operation_count: 94
   slug: sendcloud-agentic-access
   summary_line: 94 operations · 42 acting
-api_count: 24
+api_count: 20
 apis:
-- description: The Address API from Sendcloud — 1 operation(s) for address.
-  name: Sendcloud Address API
-  slug: sendcloud-address-api
-- description: The Analytics API from Sendcloud — 2 operation(s) for analytics.
-  name: Sendcloud Analytics API
-  slug: sendcloud-analytics-api
-- description: The Broadcast API from Sendcloud — 1 operation(s) for broadcast.
-  name: Sendcloud Broadcast API
-  slug: sendcloud-broadcast-api
-- description: The Connections API from Sendcloud — 2 operation(s) for connections.
-  name: Sendcloud Connections API
-  slug: sendcloud-connections-api
-- description: The Customs Documents Download API from Sendcloud — 2 operation(s) for customs documents download.
-  name: Sendcloud Customs Documents Download API
-  slug: sendcloud-customs-documents-download-api
-- description: Integration exception logs API
-  name: Sendcloud Exception logs API
-  slug: sendcloud-exception-logs-api
-- description: The Integrations API from Sendcloud — 6 operation(s) for integrations.
-  name: Sendcloud Integrations API
-  slug: sendcloud-integrations-api
-- description: The Label Download API from Sendcloud — 4 operation(s) for label download.
-  name: Sendcloud Label Download API
-  slug: sendcloud-label-download-api
-- description: The Labels API from Sendcloud — 2 operation(s) for labels.
-  name: Sendcloud Labels API
-  slug: sendcloud-labels-api
-- description: The OAuth2 API from Sendcloud — 1 operation(s) for oauth2.
-  name: Sendcloud OAuth2 API
-  slug: sendcloud-oauth2-api
-- description: OrderAPI
-  name: Sendcloud Orders API
-  slug: sendcloud-orders-api
-- description: The Parcel Documents API from Sendcloud — 2 operation(s) for parcel documents.
-  name: Sendcloud Parcel Documents API
-  slug: sendcloud-parcel-documents-api
-- description: The Parcel Tracking API from Sendcloud — 2 operation(s) for parcel tracking.
-  name: Sendcloud Parcel Tracking API
-  slug: sendcloud-parcel-tracking-api
-- description: Get insights about parcels
-  name: Sendcloud Parcels API
-  slug: sendcloud-parcels-api
-- description: Get insights about products
-  name: Sendcloud Products API
-  slug: sendcloud-products-api
-- description: Generate data exports and reports.
-  name: Sendcloud Reporting API
-  slug: sendcloud-reporting-api
-- description: The Returns API from Sendcloud — 6 operation(s) for returns.
-  name: Sendcloud Returns API
-  slug: sendcloud-returns-api
-- description: Service Points API
-  name: Sendcloud Service Points API
-  slug: sendcloud-service-points-api
-- description: OrderLabelAPI
-  name: Sendcloud Ship an Order API
-  slug: sendcloud-ship-an-order-api
-- description: Shipments API
-  name: Sendcloud Shipments API
-  slug: sendcloud-shipments-api
-- description: The Subscriptions API from Sendcloud — 2 operation(s) for subscriptions.
-  name: Sendcloud Subscriptions API
-  slug: sendcloud-subscriptions-api
-- description: The Tracking API from Sendcloud — 1 operation(s) for tracking.
-  name: Sendcloud Tracking API
-  slug: sendcloud-tracking-api
-- description: Get insights about average transit times per carriers and shipping methods
-  name: Sendcloud Transit times API
-  slug: sendcloud-transit-times-api
-- description: Get list of carriers and shipping methods a user ever used
-  name: Sendcloud User Carriers and Shipping Methods API
-  slug: sendcloud-user-carriers-and-shipping-methods-api
+- description: Create, announce, retrieve, and cancel outgoing shipments and their associated parcels on the Sendcloud platform. Supports synchronous and asynchronous announcement, shipping-rules-driven defaults, ad
+  name: Sendcloud Shipments API v3
+  slug: shipments-api-v3
+- description: Manage orders pulled in from connected commerce platforms and marketplaces. List, retrieve, update, and delete orders before converting them into shipments via the Ship an Order flow.
+  name: Sendcloud Orders API v3
+  slug: orders-api-v3
+- description: Composite v3 flow that turns an existing order into a shipment, requests a label, and returns a usable parcel in one call.
+  name: Sendcloud Ship an Order API v3
+  slug: ship-an-order-api-v3
+- description: Create, validate, list, announce, and cancel return shipments. Supports drop-off at service point, in-store, home pickup, and postbox delivery options across European carriers.
+  name: Sendcloud Returns API v3
+  slug: returns-api-v3
+- description: Look up parcel-shop, locker, and post-office drop-off / pickup locations across 160+ European carriers, filter by country, postcode, carrier, and radius, and check service-point availability.
+  name: Sendcloud Service Points API v3
+  slug: service-points-api-v3
+- description: Retrieve normalised tracking information for a parcel by tracking number and register external parcels for Sendcloud's branded tracking experience and webhook notifications.
+  name: Sendcloud Parcel Tracking API v3
+  slug: parcel-tracking-api-v3
+- description: Retrieve shipping labels, customs declarations (CN22 / CN23), commercial invoices, and QR codes for individual parcels or in batch.
+  name: Sendcloud Parcel Documents API v3
+  slug: parcel-documents-api-v3
+- description: Outbound webhook delivery surface — parcel-status-changed, return-created and other typed events sent to merchant-configured HTTPS endpoints.
+  name: Sendcloud Webhooks API v3
+  slug: webhooks-api-v3
+- description: Manage typed event subscriptions and webhook delivery connections — register endpoints, list subscriptions, and broadcast test events.
+  name: Sendcloud Event Subscriptions API v3
+  slug: event-subscriptions-api-v3
+- description: Manage connectors between Sendcloud and external commerce / WMS / marketplace platforms (Shopify, WooCommerce, Magento, Amazon, Etsy, etc.).
+  name: Sendcloud Integrations API v3
+  slug: integrations-api-v3
+- description: Aggregated shipping spend, carrier mix, service-level performance, and return-rate analytics.
+  name: Sendcloud Analytics API v3
+  slug: analytics-api-v3
+- description: Per-shipment cost reports and billing line items for back-office reconciliation.
+  name: Sendcloud Reporting API v3
+  slug: reporting-api-v3
+- description: Legacy v2 Parcels surface for announcing shipments and retrieving parcel state. Superseded by the v3 Shipments API; documented for migration paths.
+  name: Sendcloud Parcels API v2
+  slug: parcels-api-v2
+- description: Legacy v2 Labels surface for downloading the shipping label PDF / ZPL associated with a parcel. Superseded by the v3 Parcel Documents API.
+  name: Sendcloud Labels API v2
+  slug: labels-api-v2
+- description: Legacy v2 Tracking surface. Superseded by the v3 Parcel Tracking API.
+  name: Sendcloud Tracking API v2
+  slug: tracking-api-v2
+- description: Legacy v2 Webhooks surface. Superseded by the v3 Event Subscriptions API.
+  name: Sendcloud Webhooks API v2
+  slug: webhooks-api-v2
+- description: Legacy v2 Integrations surface managing connectors to commerce platforms.
+  name: Sendcloud Integrations API v2
+  slug: integrations-api-v2
+- description: Legacy v2 Analytics surface exposing aggregated shipping metrics.
+  name: Sendcloud Analytics API v2
+  slug: analytics-api-v2
+- description: Legacy v2 Reporting surface for shipment-level billing line items.
+  name: Sendcloud Reporting API v2
+  slug: reporting-api-v2
+- description: Legacy v2 Parcel Documents surface for retrieving labels and customs paperwork.
+  name: Sendcloud Parcel Documents API v2
+  slug: parcel-documents-api-v2
 arazzos:
 - description: Announce a shipment synchronously, then retrieve the return portal URL customers use to create a return.
   name: Sendcloud Announce a Shipment and Get its Return Portal URL
@@ -146,7 +125,7 @@ arazzos:
 - description: Validate a return payload, create the return, then retrieve its full detail.
   name: Sendcloud Validate and Create a Return
   slug: sendcloud-validate-create-return-workflow
-artifact_total: 127
+artifact_total: 123
 collections:
 - collection_type: postman
   name: Shipments
@@ -269,6 +248,10 @@ collections:
   name: Webhooks
   slug: open-sendcloud-v3-webhooks
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/sendcloud-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -508,7 +491,7 @@ finops:
 - name: Sendcloud Finops
   service_category: Shipping API
   slug: sendcloud-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sendcloud.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: DeliveryOption
   property_count: 0
@@ -554,18 +537,18 @@ modified: '2026-05-25'
 name: Sendcloud
 nav: Providers
 network: true
-overview: 'Sendcloud publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Address API, Analytics API, Broadcast API, and 21 more. Tagged areas include Shipping, Logistics, Ecommerce, Carriers, and Labels.
+overview: 'Sendcloud publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Shipments API v3, Orders API v3, Ship an Order API v3, and 17 more. Tagged areas include Shipping, Logistics, Ecommerce, Carriers, and Labels.
 
 
   The Sendcloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sendcloud''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 41 more developer resources.'
+  Sendcloud''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 42 more developer resources.'
 plans:
 - name: Sendcloud Plans Pricing
   plan_count: 6
   slug: sendcloud-plans-pricing
-random_paper: 9
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Sendcloud Rate Limits
@@ -593,20 +576,27 @@ scopes:
   slug: sendcloud-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: exemplar
-  composite: 70.8
-  delta: 4.7
+  band: strong
+  composite: 65.2
+  delta: -5.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 80.4
+    contract_quality: 74.2
     developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 66.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 70.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png
 security:
 - kind: authentication

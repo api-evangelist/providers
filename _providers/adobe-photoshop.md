@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -122,12 +124,47 @@ arazzos:
 - description: Inspect a PSD's text layers, rewrite their content and styling, then render the result.
   name: Adobe Photoshop Text Layer Personalization
   slug: adobe-photoshop-text-layer-personalization-workflow
-artifact_total: 117
+artifact_total: 127
 asyncapis:
 - description: Event-driven notifications for Adobe Photoshop API asynchronous job processing. When registered through Adobe I/O Events, webhooks deliver real-time notifications when Photoshop API jobs complete or f
   name: Adobe Photoshop API Webhook Events
   slug: adobe-photoshop-api-asyncapi-original
+collections:
+- collection_type: postman
+  name: Adobe Photoshop Actions API
+  slug: postman-adobe-photoshop-actions-api
+- collection_type: postman
+  name: Adobe Photoshop Actions Background Removal API
+  slug: postman-adobe-photoshop-background-removal-api
+- collection_type: postman
+  name: Adobe Photoshop Actions Crop and Effects API
+  slug: postman-adobe-photoshop-crop-and-effects-api
+- collection_type: postman
+  name: Adobe Photoshop Actions Document Operations API
+  slug: postman-adobe-photoshop-document-operations-api
+- collection_type: postman
+  name: Adobe Photoshop Actions Generative API
+  slug: postman-adobe-photoshop-generative-api
+- collection_type: postman
+  name: Adobe Photoshop Actions Health API
+  slug: postman-adobe-photoshop-health-api
+- collection_type: postman
+  name: Adobe Photoshop Actions Renditions API
+  slug: postman-adobe-photoshop-renditions-api
+- collection_type: postman
+  name: Adobe Photoshop Actions Smart Objects API
+  slug: postman-adobe-photoshop-smart-objects-api
+- collection_type: postman
+  name: Adobe Photoshop Actions Status API
+  slug: postman-adobe-photoshop-status-api
+- collection_type: postman
+  name: Adobe Photoshop Actions Text API
+  slug: postman-adobe-photoshop-text-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/adobe-photoshop/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -528,12 +565,12 @@ overview: 'Adobe Photoshop publishes 10 APIs on the [APIs.io](https://apis.io/) 
   The Adobe Photoshop catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Adobe Photoshop''s developer surface includes authentication, changelog, developer portal, documentation, getting-started guide, API reference, engineering blog, and 41 more developer resources.'
+  Adobe Photoshop''s developer surface includes authentication, changelog, developer portal, documentation, getting-started guide, API reference, engineering blog, and 42 more developer resources.'
 plans:
 - name: Adobe Photoshop Plans Pricing
   plan_count: 4
   slug: adobe-photoshop-plans-pricing
-random_paper: 52
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Adobe Photoshop Rate Limits
@@ -564,19 +601,28 @@ rules:
     warn: 13
   slug: adobe-photoshop-spectral-rules
 score:
-  band: strong
-  composite: 68.0
-  delta: 0.0
+  band: exemplar
+  composite: 66.7
+  delta: -1.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 89.0
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 34.2
+    contract_quality: 86.4
+    developer_ergonomics: 54.3
+    discoverability: 92.6
+    governance: 38.5
     operational_transparency: 63.2
   previous_composite: 68.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:

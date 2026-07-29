@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: The people:searchContacts API from Google People — 1 operation(s) for people:searchcontacts.
   name: Google People people:searchContacts API
   slug: google-people-people-searchcontacts-api
-artifact_total: 17
+artifact_total: 22
 collections:
+- collection_type: postman
+  name: Google People contactGroups API
+  slug: postman-google-people-contactgroups-api
+- collection_type: postman
+  name: Google contactGroups People API
+  slug: postman-google-people-people-api
+- collection_type: postman
+  name: Google People contactGroups people:batchGet API
+  slug: postman-google-people-people-batchget-api
+- collection_type: postman
+  name: Google People contactGroups people:createContact API
+  slug: postman-google-people-people-createcontact-api
+- collection_type: postman
+  name: Google People contactGroups people:searchContacts API
+  slug: postman-google-people-people-searchcontacts-api
 - collection_type: open
   name: Google People API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-people/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,12 +166,12 @@ overview: 'Google People publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Google People catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google People''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, and 10 more developer resources.'
+  Google People''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, and 11 more developer resources.'
 plans:
 - name: Google People Plans Pricing
   plan_count: 3
   slug: google-people-plans-pricing
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Google People Rate Limits
@@ -171,18 +192,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.7
-  delta: 4.5
+  composite: 60.5
+  delta: -3.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.0
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 70.3
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/screenshots/google-people-2026-06-20T182221.png
 security:

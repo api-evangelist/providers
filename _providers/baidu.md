@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.8
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: OpenAI-compatible LLM / Model-as-a-Service API hosting the ERNIE family and select open models (DeepSeek, GLM, etc.) via chat completions and embeddings.
@@ -101,21 +103,23 @@ overview: 'Baidu publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Baidu''s developer surface includes documentation, API reference, signup flow, authentication, and 8 more developer resources.'
-random_paper: 41
+random_paper: 55
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 20.9
+  delta: -1.7
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 22.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baidu/refs/heads/main/screenshots/baidu-2026-07-25T202358.png
 security:

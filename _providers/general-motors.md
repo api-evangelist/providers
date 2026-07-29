@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: You can reach customers in their cars using GMs powerful, in-vehicle platform. Our tools can provide access to close to 200 data points, allowing you to monitor vehicle data in real-time to deliver th
@@ -98,26 +100,26 @@ press:
 - date: '2026-05-25'
   title: Using AI to advance manufacturing at General Motors
   url: https://news.gm.com/home.detail.html/Pages/topic/us/en/2025/mar/0311-ai.html
-random_paper: 27
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: General Motors Rate Limits
   slug: general-motors-rate-limits
 score:
-  band: emerging
-  composite: 21.1
-  delta: 0.0
+  band: thin
+  composite: 31.1
+  delta: 10.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 19.6
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-motors/refs/heads/main/screenshots/general-motors-2026-06-20T181729.png
 security:
 - kind: domain-security

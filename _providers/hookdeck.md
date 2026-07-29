@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 7
@@ -503,7 +505,7 @@ plans:
 - name: Hookdeck Plans Pricing
   plan_count: 3
   slug: hookdeck-plans-pricing
-random_paper: 24
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Hookdeck Rate Limits
@@ -519,19 +521,32 @@ rules:
   slug: hookdeck-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 77.5
-  delta: 5.5
+  composite: 67.5
+  delta: -10.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 74.0
+    contract_quality: 75.1
     developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 78.9
-  previous_composite: 72.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 77.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Messages API from Botanalytics — 1 operation(s) for messages.
@@ -142,21 +144,30 @@ overview: 'Botanalytics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Botanalytics'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 1
+random_paper: 61
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 44.5
+  delta: -2.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.4
-    developer_ergonomics: 76.1
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 60.2
+    developer_ergonomics: 64.7
+    discoverability: 75.9
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 46.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botanalytics/refs/heads/main/screenshots/botanalytics-2026-07-25T203639.png
 security:

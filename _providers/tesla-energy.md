@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -67,12 +69,46 @@ apis:
 - description: Tariff schedule, peak/off-peak rate plans, and TOU optimization
   name: Tesla Energy Time Of Use API
   slug: tesla-energy-time-of-use-api
-artifact_total: 44
+artifact_total: 54
 collections:
+- collection_type: postman
+  name: Tesla Fleet Energy Backup API
+  slug: postman-tesla-energy-backup-api
+- collection_type: postman
+  name: Tesla Fleet Energy Backup History API
+  slug: postman-tesla-energy-history-api
+- collection_type: postman
+  name: Tesla Fleet Energy Backup Live Status API
+  slug: postman-tesla-energy-live-status-api
+- collection_type: postman
+  name: Tesla Fleet Energy Backup Off Grid Charging API
+  slug: postman-tesla-energy-off-grid-charging-api
+- collection_type: postman
+  name: Tesla Fleet Energy Backup Operation API
+  slug: postman-tesla-energy-operation-api
+- collection_type: postman
+  name: Tesla Fleet Energy Backup Products API
+  slug: postman-tesla-energy-products-api
+- collection_type: postman
+  name: Tesla Fleet Energy Backup Programs API
+  slug: postman-tesla-energy-programs-api
+- collection_type: postman
+  name: Tesla Fleet Energy Backup Site Info API
+  slug: postman-tesla-energy-site-info-api
+- collection_type: postman
+  name: Tesla Fleet Energy Backup Storm Mode API
+  slug: postman-tesla-energy-storm-mode-api
+- collection_type: postman
+  name: Tesla Fleet Energy Backup Time Of Use API
+  slug: postman-tesla-energy-time-of-use-api
 - collection_type: open
   name: Tesla Fleet Energy API
   slug: open-tesla-energy-fleet-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tesla-energy/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -266,12 +302,12 @@ overview: 'Tesla Energy publishes 10 APIs on the [APIs.io](https://apis.io/) net
   The Tesla Energy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tesla Energy''s developer surface includes authentication, developer portal, documentation, changelog, FAQ, support, and 28 more developer resources.'
+  Tesla Energy''s developer surface includes authentication, developer portal, documentation, changelog, FAQ, support, and 29 more developer resources.'
 plans:
 - name: Tesla Energy Plans Pricing
   plan_count: 5
   slug: tesla-energy-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Tesla Energy Rate Limits
@@ -300,19 +336,32 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 67.9
-  delta: 5.5
+  composite: 62.7
+  delta: -5.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 78.8
+    contract_quality: 79.7
     developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 62.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 67.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 56.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Tesla Energy Authentication

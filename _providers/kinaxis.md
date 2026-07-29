@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: REST-based interface exposing the Kinaxis Maestro (RapidResponse) supply chain planning platform for data integration, process orchestration, and insight embedding. Enables reading and writing plannin
@@ -112,25 +114,25 @@ plans:
 - name: Kinaxis Plans Pricing
   plan_count: 1
   slug: kinaxis-plans-pricing
-random_paper: 11
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Kinaxis Rate Limits
   slug: kinaxis-rate-limits
 score:
   band: emerging
-  composite: 22.3
-  delta: 0.0
+  composite: 19.8
+  delta: -2.5
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 22.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/screenshots/kinaxis-2026-06-20T184039.png
 security:

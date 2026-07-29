@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Asynchronous REST API for asking natural-language analytics questions against connected data. Create a session, submit an inquiry, then poll or long-poll for a grounded answer with generated SQL, stru
@@ -130,21 +132,24 @@ overview: 'Jedify publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jedify''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 13 more developer resources.'
-random_paper: 23
+random_paper: 19
 score:
   band: emerging
-  composite: 28.6
-  delta: 0.0
+  composite: 26.0
+  delta: -2.6
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
-    developer_ergonomics: 63.0
-    discoverability: 92.5
+    developer_ergonomics: 58.2
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 28.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/screenshots/jedify-2026-07-25T223116.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 4
@@ -148,7 +150,7 @@ plans:
 - name: Akeyless Plans Pricing
   plan_count: 2
   slug: akeyless-plans-pricing
-random_paper: 49
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Akeyless Rate Limits
@@ -164,18 +166,25 @@ rules:
   slug: akeyless-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 42.9
+  delta: -3.7
   facets:
     commercial_clarity: 47.4
-    contract_quality: 56.6
+    contract_quality: 58.5
     developer_ergonomics: 10.9
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 46.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akeyless/refs/heads/main/screenshots/akeyless-2026-06-20T171453.png
 security:

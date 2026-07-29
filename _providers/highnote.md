@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,16 +60,23 @@ apis:
 - description: Register HTTPS webhook notification targets (addWebhookNotificationTarget), activate and deactivate them, and subscribe to event types (addSubscriptionsToNotificationTarget) so Highnote pushes account
   name: Highnote Webhooks & Event Notifications API
   slug: highnote-webhooks-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: Highnote delivers event notifications to registered HTTPS webhook notification targets (addWebhookNotificationTarget) via outbound POST. Subscribe a target to event types with addSubscriptionsToNotifi
   name: Highnote Event Notifications
   slug: highnote-events-asyncapi
 collections:
+- collection_type: postman
+  name: Highnote GraphQL API
+  slug: postman-highnote-graphql-api
 - collection_type: open
   name: Highnote GraphQL API
   slug: open-highnote
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/highnote/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -259,35 +268,46 @@ overview: 'Highnote publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Highnote catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Highnote''s developer surface includes authentication, documentation, engineering blog, pricing, support, getting-started guide, signup flow, and 34 more developer resources.'
+  Highnote''s developer surface includes authentication, documentation, engineering blog, pricing, support, getting-started guide, signup flow, and 35 more developer resources.'
 plans:
 - name: Highnote Plans Pricing
   plan_count: 2
   slug: highnote-plans-pricing
-random_paper: 38
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Highnote Rate Limits
   slug: highnote-rate-limits
 score:
-  band: strong
-  composite: 68.3
-  delta: 2.8
+  band: exemplar
+  composite: 69.5
+  delta: 1.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 72.6
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 74.5
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 73.7
-  previous_composite: 65.5
+  previous_composite: 68.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:

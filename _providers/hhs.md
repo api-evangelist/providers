@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 29.7
+  scored_at: '2026-07-28'
 api_count: 21
 apis:
 - description: OpenFDA provides RESTful APIs and raw download access to high-value FDA public datasets including drug adverse events, drug labels, drug recalls, medical device 510(k) clearances, device classificatio
@@ -190,7 +192,7 @@ plans:
 - name: Simpler Grants
   plan_count: 2
   slug: simpler-grants
-random_paper: 51
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Openfda
@@ -209,24 +211,31 @@ rules:
   slug: hhs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 43.5
-  delta: 0.0
+  composite: 36.7
+  delta: -6.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.5
+    contract_quality: 58.0
     developer_ergonomics: 2.2
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 5.3
   previous_composite: 43.5
+  provenance:
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 17.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png
 security:
 - kind: domain-security

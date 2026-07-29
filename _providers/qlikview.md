@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 10
 apis:
 - description: Server-side API for managing QlikView Server operations, documents, and sessions.
@@ -138,25 +140,25 @@ plans:
 - name: Qlikview Plans Pricing
   plan_count: 3
   slug: qlikview-plans-pricing
-random_paper: 60
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Qlikview Rate Limits
   slug: qlikview-rate-limits
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 36.9
+  delta: -3.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 19.6
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 40.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/screenshots/qlikview-2026-06-20T192347.png
 security:

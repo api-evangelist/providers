@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -179,21 +181,31 @@ overview: 'Class (fka ClassEDU) publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Class (fka ClassEDU)''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 21 more developer resources.'
-random_paper: 14
+random_paper: 11
 score:
-  band: thin
-  composite: 44.6
-  delta: 0.0
+  band: developing
+  composite: 42.3
+  delta: -2.3
   facets:
     commercial_clarity: 36.8
-    contract_quality: 55.6
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 57.5
+    developer_ergonomics: 45.1
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 44.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/screenshots/class-fka-classedu-2026-07-25T205514.png
 security:

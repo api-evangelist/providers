@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Cloud-based request/response REST API delivering real-time and delayed Level 1/Level 2 quotes, trades, historical OHLCV and tick data, full option chains with Greeks, fundamentals, earnings, news from
@@ -130,26 +132,27 @@ overview: 'QuoteMedia publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   QuoteMedia''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 14 more developer resources.'
-random_paper: 50
+random_paper: 69
 score:
   band: emerging
-  composite: 26.3
-  delta: 0.0
+  composite: 24.4
+  delta: -1.9
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 87.5
+    discoverability: 83.3
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 26.3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 33.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/screenshots/quotemedia-2026-07-22T202611.png
 security:

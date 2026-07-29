@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 23.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful API for the Venzee / Jasper PIM platform. Manage products, variants, categories, brands, attributes and options, channel-specific pricing and inventory, and digital assets; subscribe to webhoo
@@ -121,22 +123,22 @@ overview: 'Venzee publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Venzee''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 41
+random_paper: 37
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 39.1
+  delta: 6.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 41.3
-    discoverability: 92.5
+    discoverability: 79.6
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 33.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Venzee Authentication

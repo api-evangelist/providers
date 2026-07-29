@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 62.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.7
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: REST API for trading, order management, RFQ, account balances and transactions, transfers/deposits/withdrawals, custody (sFOX SAFE), staking, post-trade settlement, market data, and reporting. Bearer-
@@ -163,30 +165,34 @@ overview: 'Sfox publishes 2 APIs on the [APIs.io](https://apis.io/) network: RES
 
 
   Sfox''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 40
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Sfox Rate Limits
   slug: sfox-rate-limits
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 49.1
+  delta: -2.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.1
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 54.3
+    developer_ergonomics: 60.9
+    discoverability: 92.6
+    governance: 3.1
     operational_transparency: 44.7
   previous_composite: 51.8
+  provenance:
+    conformance: derived
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 55.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

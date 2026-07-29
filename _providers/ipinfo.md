@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -113,12 +115,67 @@ arazzos:
 - description: Screen an IP for privacy/anonymizer signals and confirm residential proxy use.
   name: IPinfo IP Threat Screening
   slug: ipinfo-threat-screening-workflow
-artifact_total: 147
+artifact_total: 164
 collections:
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse API
+  slug: postman-ipinfo-abuse-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse asn API
+  slug: postman-ipinfo-asn-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse carrier API
+  slug: postman-ipinfo-carrier-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse company API
+  slug: postman-ipinfo-company-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse domains API
+  slug: postman-ipinfo-domains-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse general API
+  slug: postman-ipinfo-general-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse ipinfo core API
+  slug: postman-ipinfo-ipinfo-core-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse ipinfo lite API
+  slug: postman-ipinfo-ipinfo-lite-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse ipinfo max API
+  slug: postman-ipinfo-ipinfo-max-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse ipinfo plus API
+  slug: postman-ipinfo-ipinfo-plus-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse places API
+  slug: postman-ipinfo-places-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse privacy detection API
+  slug: postman-ipinfo-privacy-detection-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse privacy detection extended API
+  slug: postman-ipinfo-privacy-detection-extended-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse ranges API
+  slug: postman-ipinfo-ranges-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse residential proxy detection API
+  slug: postman-ipinfo-residential-proxy-detection-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse single API
+  slug: postman-ipinfo-single-api
+- collection_type: postman
+  name: IPinfo.io OpenAPI Specification abuse whois API
+  slug: postman-ipinfo-whois-api
 - collection_type: open
   name: IPinfo.io OpenAPI Specification
   slug: open-ipinfo
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ipinfo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -597,12 +654,12 @@ overview: 'IPinfo publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
   The IPinfo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  IPinfo''s developer surface includes authentication, CLI, signup flow, pricing, developer console, engineering blog, support, and 39 more developer resources.'
+  IPinfo''s developer surface includes authentication, CLI, signup flow, pricing, developer console, engineering blog, support, and 40 more developer resources.'
 plans:
 - name: Ipinfo Plans Pricing
   plan_count: 6
   slug: ipinfo-plans-pricing
-random_paper: 33
+random_paper: 29
 rate_limits:
 - limit_count: 9
   name: Ipinfo Rate Limits
@@ -626,18 +683,27 @@ rules:
   slug: ipinfo-spectral-rules
 score:
   band: exemplar
-  composite: 75.6
-  delta: 3.8
+  composite: 75.3
+  delta: -0.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 76.4
-    developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 74.0
+    developer_ergonomics: 52.2
+    discoverability: 94.4
+    governance: 80.2
     operational_transparency: 68.4
-  previous_composite: 71.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 75.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/screenshots/ipinfo-2026-06-20T183555.png
 security:

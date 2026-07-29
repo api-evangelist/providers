@@ -1,21 +1,14 @@
 ---
-access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: near-conformant
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 4.3
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: The FastMCP Server is the Python entry point for exposing tools, resources, prompts, and apps to any Model Context Protocol client. Developers instantiate a `FastMCP` server object and register compon
@@ -48,6 +41,10 @@ apis:
   slug: fastmcp-cli
 artifact_total: 45
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/fastmcp-a2a.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -184,7 +181,7 @@ features:
   name: Apps runtime
 - description: FastMCP 1.0 was incorporated into the official Anthropic MCP Python SDK; the standalone FastMCP project (now v3) continues as the leading Python framework, reportedly powering ~70% of MCP servers across all languages.
   name: Anthropic-adopted lineage
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fastmcp.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 integrations:
 - description: First-party integration with the Anthropic Messages API; FastMCP 1.0 was adopted into the official Anthropic MCP Python SDK.
   name: Anthropic API
@@ -224,22 +221,22 @@ network: true
 overview: 'FastMCP publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, Model Context Protocol, Python, Framework, and Open Source.
 
 
-  FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 19 more developer resources.'
-random_paper: 2
+  FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 20 more developer resources.'
+random_paper: 57
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 17.1
+  delta: -2.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastmcp/refs/heads/main/screenshots/fastmcp-2026-06-20T181055.png
 security:

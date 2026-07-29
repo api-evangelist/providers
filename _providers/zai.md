@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -38,12 +40,29 @@ apis:
 - description: Asynchronous API for submitting long-running operations and retrieving their results without blocking, complementing the synchronous Assembly API. OpenAPI 3.0.0, version 1.0.0, 3 documented paths, sup
   name: Zai Asynchronous API
   slug: zai-async-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Zai Webhooks
   slug: zai-webhooks
+collections:
+- collection_type: postman
+  name: Assembly API
+  slug: postman-zai-assembly-api
+- collection_type: postman
+  name: Asynchronous API
+  slug: postman-zai-async-api
+- collection_type: postman
+  name: PayTo
+  slug: postman-zai-payto
+- collection_type: postman
+  name: Virtual Accounts and PayIDs
+  slug: postman-zai-virtual-accounts-payid
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/zai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,8 +222,8 @@ overview: 'Zai publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
   The Zai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zai''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 28 more developer resources.'
-random_paper: 52
+  Zai''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 29 more developer resources.'
+random_paper: 16
 scopes:
 - name: Zai Scopes
   scope_count: 0
@@ -212,23 +231,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 56.8
+  delta: -3.4
   facets:
     commercial_clarity: 52.6
-    contract_quality: 60.4
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 28.9
   previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

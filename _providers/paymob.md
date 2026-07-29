@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -91,8 +93,62 @@ apis:
 - description: The Void API from Paymob — 3 operation(s) for void.
   name: Paymob Void API
   slug: paymob-void-api
-artifact_total: 81
+artifact_total: 99
 collections:
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts API
+  slug: postman-paymob-accounts-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Authentication API
+  slug: postman-paymob-authentication-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Capture API
+  slug: postman-paymob-capture-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Card Tokens API
+  slug: postman-paymob-card-tokens-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Checkout API
+  slug: postman-paymob-checkout-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Disbursement API
+  slug: postman-paymob-disbursement-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Intentions API
+  slug: postman-paymob-intentions-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Orders API
+  slug: postman-paymob-orders-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Payment Keys API
+  slug: postman-paymob-payment-keys-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Payment Links API
+  slug: postman-paymob-payment-links-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Payments API
+  slug: postman-paymob-payments-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Refund API
+  slug: postman-paymob-refund-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Saved Card Payments API
+  slug: postman-paymob-saved-card-payments-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Subscription Plans API
+  slug: postman-paymob-subscription-plans-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Subscriptions API
+  slug: postman-paymob-subscriptions-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Topup API
+  slug: postman-paymob-topup-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Transactions API
+  slug: postman-paymob-transactions-api
+- collection_type: postman
+  name: Paymob Accept Legacy (v2) Accounts Void API
+  slug: postman-paymob-void-api
 - collection_type: open
   name: Paymob Accept Legacy (v2) API
   slug: open-paymob-accept-api
@@ -109,6 +165,10 @@ collections:
   name: Paymob Subscriptions API
   slug: open-paymob-subscriptions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/paymob/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -390,12 +450,12 @@ overview: 'Paymob publishes 18 APIs on the [APIs.io](https://apis.io/) network, 
   The Paymob catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Paymob''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, developer console, signup flow, and 37 more developer resources.'
+  Paymob''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, developer console, signup flow, and 38 more developer resources.'
 plans:
 - name: Paymob Plans Pricing
   plan_count: 3
   slug: paymob-plans-pricing
-random_paper: 36
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Paymob Rate Limits
@@ -419,23 +479,31 @@ rules:
   slug: paymob-rules
 score:
   band: strong
-  composite: 64.5
-  delta: 3.6
+  composite: 59.7
+  delta: -4.8
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.8
-    developer_ergonomics: 67.4
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 66.1
+    developer_ergonomics: 71.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 60.9
+  previous_composite: 64.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/screenshots/paymob-2026-06-20T191508.png
 security:

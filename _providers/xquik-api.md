@@ -2,11 +2,13 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: REST API for X (Twitter) data and automation with OpenAPI 3.1 contract covering 93 paths across API Keys, Account, Articles, Communities, Composition, Draws, Events, Extractions, Lists, Media, Monitor
@@ -34,19 +36,22 @@ name: Xquik API
 nav: Providers
 network: true
 overview: 'Xquik API publishes 1 API on the [APIs.io](https://apis.io/) network: Xquik REST API. Tagged areas include social media data, X / Twitter, social listening & monitoring, data extraction / scraping, and automation.'
-random_paper: 37
+random_paper: 74
 score:
   band: emerging
-  composite: 17.4
+  composite: 14.0
+  delta: -3.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 0.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 17.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 slug: xquik-api
 tags:
 - social media data

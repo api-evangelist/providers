@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The SDK API from Atla — 3 operation(s) for sdk.
@@ -130,21 +132,30 @@ overview: 'Atla publishes 1 API on the [APIs.io](https://apis.io/) network: SDK 
 
 
   Atla''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
-random_paper: 10
+random_paper: 33
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 38.8
+  delta: 0.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 56.6
-    developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 58.5
+    developer_ergonomics: 66.8
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 38.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/screenshots/atla-2026-07-25T201538.png
 security:

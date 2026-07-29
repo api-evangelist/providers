@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: REST API providing real-time fraud risk scores including Synthetic Abuse Score, ID Theft Score, First-Party Fraud Score, and PII Risk Scores. Returns a numeric score (0–999) along with reason codes ex
@@ -121,25 +123,25 @@ plans:
 - name: Sentilink Plans Pricing
   plan_count: 2
   slug: sentilink-plans-pricing
-random_paper: 25
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Sentilink Rate Limits
   slug: sentilink-rate-limits
 score:
-  band: thin
-  composite: 30.2
-  delta: 0.0
+  band: emerging
+  composite: 27.0
+  delta: -3.2
   facets:
     commercial_clarity: 47.4
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 17.4
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 30.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentilink/refs/heads/main/screenshots/sentilink-2026-06-20T193706.png
 security:

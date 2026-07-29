@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -49,8 +51,25 @@ apis:
 - description: The Data Out API from Triple Whale — 4 operation(s) for data out.
   name: Triple Whale Data Out API
   slug: triple-whale-data-out-api
-artifact_total: 15
+artifact_total: 19
+collections:
+- collection_type: postman
+  name: Triple Whale API Keys API
+  slug: postman-triple-whale-api-keys-api
+- collection_type: postman
+  name: Triple Whale API Keys Compliance API
+  slug: postman-triple-whale-compliance-api
+- collection_type: postman
+  name: Triple Whale API Keys Data In API
+  slug: postman-triple-whale-data-in-api
+- collection_type: postman
+  name: Triple Whale API Keys Data Out API
+  slug: postman-triple-whale-data-out-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/triple-whale/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,12 +168,12 @@ overview: 'Triple Whale publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The Triple Whale catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Triple Whale''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Triple Whale''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Triple Whale Plans Pricing
   plan_count: 4
   slug: triple-whale-plans-pricing
-random_paper: 6
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Triple Whale Rate Limits
@@ -170,18 +189,25 @@ rules:
   slug: triple-whale-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 57.9
+  delta: -3.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 73.2
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 74.3
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 61.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
 security:

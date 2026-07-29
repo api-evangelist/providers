@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -133,12 +135,112 @@ apis:
 - description: The UpdateSamplingRule API from Amazon X-Ray — 1 operation(s) for updatesamplingrule.
   name: Amazon X-Ray UpdateSamplingRule API
   slug: amazon-xray-updatesamplingrule-api
-artifact_total: 636
+artifact_total: 668
 collections:
+- collection_type: postman
+  name: AWS X-Ray CreateGroup API
+  slug: postman-amazon-xray-creategroup-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup CreateSamplingRule API
+  slug: postman-amazon-xray-createsamplingrule-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup DeleteGroup API
+  slug: postman-amazon-xray-deletegroup-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup DeleteResourcePolicy API
+  slug: postman-amazon-xray-deleteresourcepolicy-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup DeleteSamplingRule API
+  slug: postman-amazon-xray-deletesamplingrule-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup EncryptionConfig API
+  slug: postman-amazon-xray-encryptionconfig-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup GetGroup API
+  slug: postman-amazon-xray-getgroup-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup GetSamplingRules API
+  slug: postman-amazon-xray-getsamplingrules-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup Groups API
+  slug: postman-amazon-xray-groups-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup Insight API
+  slug: postman-amazon-xray-insight-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup InsightEvents API
+  slug: postman-amazon-xray-insightevents-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup InsightImpactGraph API
+  slug: postman-amazon-xray-insightimpactgraph-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup InsightSummaries API
+  slug: postman-amazon-xray-insightsummaries-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup ListResourcePolicies API
+  slug: postman-amazon-xray-listresourcepolicies-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup ListTagsForResource API
+  slug: postman-amazon-xray-listtagsforresource-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup PutEncryptionConfig API
+  slug: postman-amazon-xray-putencryptionconfig-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup PutResourcePolicy API
+  slug: postman-amazon-xray-putresourcepolicy-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup Sampling API
+  slug: postman-amazon-xray-sampling-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup SamplingStatisticSummaries API
+  slug: postman-amazon-xray-samplingstatisticsummaries-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup SamplingTargets API
+  slug: postman-amazon-xray-samplingtargets-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup Service Graph API
+  slug: postman-amazon-xray-service-graph-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup ServiceGraph API
+  slug: postman-amazon-xray-servicegraph-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup TagResource API
+  slug: postman-amazon-xray-tagresource-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup TelemetryRecords API
+  slug: postman-amazon-xray-telemetryrecords-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup TimeSeriesServiceStatistics API
+  slug: postman-amazon-xray-timeseriesservicestatistics-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup TraceGraph API
+  slug: postman-amazon-xray-tracegraph-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup Traces API
+  slug: postman-amazon-xray-traces-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup TraceSegments API
+  slug: postman-amazon-xray-tracesegments-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup TraceSummaries API
+  slug: postman-amazon-xray-tracesummaries-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup UntagResource API
+  slug: postman-amazon-xray-untagresource-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup UpdateGroup API
+  slug: postman-amazon-xray-updategroup-api
+- collection_type: postman
+  name: AWS X-Ray CreateGroup UpdateSamplingRule API
+  slug: postman-amazon-xray-updatesamplingrule-api
 - collection_type: open
   name: Amazon X-Ray API
   slug: open-amazon-xray
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-x-ray/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2007,12 +2109,12 @@ overview: 'Amazon X-Ray publishes 32 APIs on the [APIs.io](https://apis.io/) net
   The Amazon X-Ray catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon X-Ray''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
+  Amazon X-Ray''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Xray Plans Pricing
   plan_count: 3
   slug: amazon-xray-plans-pricing
-random_paper: 55
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Amazon Xray Rate Limits
@@ -2035,19 +2137,26 @@ rules:
     warn: 10
   slug: amazon-xray-spectral-rules
 score:
-  band: strong
-  composite: 69.4
-  delta: 3.8
+  band: exemplar
+  composite: 66.0
+  delta: -3.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.2
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 74.5
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 65.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/screenshots/amazon-xray-2026-06-20T171851.png
 security:

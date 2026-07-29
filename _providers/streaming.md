@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
+    openapi_examples: documented
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 1.6
+  scored_at: '2026-07-28'
 api_count: 21
 apis:
 - description: Distributed, partitioned, replicated log. The reference open-source streaming platform; durable, ordered topics with consumer groups, exactly -once semantics, and the de facto wire protocol for the st
@@ -181,7 +183,7 @@ overview: 'Streaming publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Streaming''s developer surface includes code examples and 9 more developer resources.'
-random_paper: 18
+random_paper: 46
 rules:
 - name: Streaming API Rules
   rule_count: 5
@@ -193,19 +195,19 @@ rules:
   slug: streaming-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 24.4
-  delta: 0.0
+  composite: 19.2
+  delta: -5.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 0.0
   previous_composite: 24.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/streaming/refs/heads/main/screenshots/streaming-2026-06-20T194618.png
 security:
 - kind: domain-security

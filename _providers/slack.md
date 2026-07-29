@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -1144,7 +1146,7 @@ plans:
 - name: Slack Plans Pricing
   plan_count: 4
   slug: slack-plans-pricing
-random_paper: 50
+random_paper: 64
 rate_limits:
 - limit_count: 6
   name: Slack Rate Limits
@@ -1181,18 +1183,31 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.1
-  delta: 4.7
+  composite: 70.2
+  delta: -2.9
   facets:
     commercial_clarity: 68.4
-    contract_quality: 73.8
+    contract_quality: 71.8
     developer_ergonomics: 84.8
-    discoverability: 80.0
-    governance: 39.5
+    discoverability: 59.3
+    governance: 31.3
     operational_transparency: 86.8
-  previous_composite: 68.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 73.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 108
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:

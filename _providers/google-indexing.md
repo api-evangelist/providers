@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,12 +45,22 @@ apis:
 - description: The urlNotifications:publish API from Google Indexing — 1 operation(s) for urlnotifications:publish.
   name: Google Indexing urlNotifications:publish API
   slug: google-indexing-urlnotifications-publish-api
-artifact_total: 15
+artifact_total: 17
 collections:
+- collection_type: postman
+  name: Google Indexing urlNotifications API
+  slug: postman-google-indexing-urlnotifications-api
+- collection_type: postman
+  name: Google Indexing urlNotifications urlNotifications:publish API
+  slug: postman-google-indexing-urlnotifications-publish-api
 - collection_type: open
   name: Google Indexing API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-indexing/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,12 +144,12 @@ overview: 'Google Indexing publishes 2 APIs on the [APIs.io](https://apis.io/) n
   The Google Indexing catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Indexing''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, and 9 more developer resources.'
+  Google Indexing''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, and 10 more developer resources.'
 plans:
 - name: Google Indexing Plans Pricing
   plan_count: 3
   slug: google-indexing-plans-pricing
-random_paper: 40
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Google Indexing Rate Limits
@@ -166,18 +178,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 63.2
-  delta: 4.6
+  composite: 60.1
+  delta: -3.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.6
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 73.7
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 58.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/screenshots/google-indexing-2026-06-20T182255.png
 security:

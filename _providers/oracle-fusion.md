@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -193,8 +195,164 @@ apis:
 - description: Manage worker (employee and contingent worker) records
   name: Oracle Fusion Cloud Applications Workers API
   slug: oracle-fusion-workers-api
-artifact_total: 178
+artifact_total: 230
 collections:
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences API
+  slug: postman-oracle-fusion-absences-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Access Groups API
+  slug: postman-oracle-fusion-access-groups-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Accounts API
+  slug: postman-oracle-fusion-accounts-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Accounts Receivable API
+  slug: postman-oracle-fusion-accounts-receivable-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Activities API
+  slug: postman-oracle-fusion-activities-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Announcements API
+  slug: postman-oracle-fusion-announcements-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Oracle Fusion Common Features REST Absences Applications API
+  slug: postman-oracle-fusion-applications-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Assignments API
+  slug: postman-oracle-fusion-assignments-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Audit API
+  slug: postman-oracle-fusion-audit-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Award Budgets API
+  slug: postman-oracle-fusion-award-budgets-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Awards API
+  slug: postman-oracle-fusion-awards-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Budgetary Control API
+  slug: postman-oracle-fusion-budgetary-control-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Cash Management API
+  slug: postman-oracle-fusion-cash-management-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Change Orders API
+  slug: postman-oracle-fusion-change-orders-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Common Lookups API
+  slug: postman-oracle-fusion-common-lookups-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Compensation API
+  slug: postman-oracle-fusion-compensation-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Contacts API
+  slug: postman-oracle-fusion-contacts-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Currency Rates API
+  slug: postman-oracle-fusion-currency-rates-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Data Management API
+  slug: postman-oracle-fusion-data-management-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Deliverables API
+  slug: postman-oracle-fusion-deliverables-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences ERP Integrations API
+  slug: postman-oracle-fusion-erp-integrations-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Expenditure Types API
+  slug: postman-oracle-fusion-expenditure-types-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Expense Reports API
+  slug: postman-oracle-fusion-expense-reports-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common REST Absences Features API
+  slug: postman-oracle-fusion-features-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Financial Project Plans API
+  slug: postman-oracle-fusion-financial-project-plans-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences General Ledger API
+  slug: postman-oracle-fusion-general-ledger-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Inventory API
+  slug: postman-oracle-fusion-inventory-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Invoices API
+  slug: postman-oracle-fusion-invoices-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Items API
+  slug: postman-oracle-fusion-items-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Jobs API
+  slug: postman-oracle-fusion-jobs-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Leads API
+  slug: postman-oracle-fusion-leads-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Learning API
+  slug: postman-oracle-fusion-learning-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Manage Tasks API
+  slug: postman-oracle-fusion-manage-tasks-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Migration API
+  slug: postman-oracle-fusion-migration-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Opportunities API
+  slug: postman-oracle-fusion-opportunities-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Payments API
+  slug: postman-oracle-fusion-payments-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Payroll API
+  slug: postman-oracle-fusion-payroll-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Persons API
+  slug: postman-oracle-fusion-persons-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Planning API
+  slug: postman-oracle-fusion-planning-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Project Tasks API
+  slug: postman-oracle-fusion-project-tasks-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Projects API
+  slug: postman-oracle-fusion-projects-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Purchase Orders API
+  slug: postman-oracle-fusion-purchase-orders-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Recruiting API
+  slug: postman-oracle-fusion-recruiting-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Roles API
+  slug: postman-oracle-fusion-roles-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Sales Orders API
+  slug: postman-oracle-fusion-sales-orders-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Scheduled Processes API
+  slug: postman-oracle-fusion-scheduled-processes-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Service Requests API
+  slug: postman-oracle-fusion-service-requests-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Shipments API
+  slug: postman-oracle-fusion-shipments-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Suppliers API
+  slug: postman-oracle-fusion-suppliers-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Talent Profiles API
+  slug: postman-oracle-fusion-talent-profiles-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Work Orders API
+  slug: postman-oracle-fusion-work-orders-api
+- collection_type: postman
+  name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST Absences Workers API
+  slug: postman-oracle-fusion-workers-api
 - collection_type: open
   name: Oracle Fusion Cloud Applications Oracle Fusion Common Features REST API
   slug: open-oracle-fusion-common
@@ -217,6 +375,10 @@ collections:
   name: Oracle Fusion Cloud Applications Oracle Fusion Cloud SCM REST API
   slug: open-oracle-fusion-scm
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/oracle-fusion-cloud-applications/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -655,12 +817,12 @@ overview: 'Oracle Fusion Cloud Applications publishes 52 APIs on the [APIs.io](h
   The Oracle Fusion Cloud Applications catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Fusion Cloud Applications'' developer surface includes authentication, developer portal, support, getting-started guide, changelog, signup flow, and 14 more developer resources.'
+  Oracle Fusion Cloud Applications'' developer surface includes authentication, developer portal, support, getting-started guide, changelog, signup flow, and 15 more developer resources.'
 plans:
 - name: Oracle Fusion Plans Pricing
   plan_count: 2
   slug: oracle-fusion-plans-pricing
-random_paper: 43
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Oracle Fusion Rate Limits
@@ -676,18 +838,25 @@ rules:
   slug: oracle-fusion-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 2.5
+  composite: 60.3
+  delta: -3.1
   facets:
     commercial_clarity: 63.2
-    contract_quality: 67.3
-    developer_ergonomics: 34.8
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 68.6
+    developer_ergonomics: 39.1
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 52
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/screenshots/oracle-fusion-2026-06-20T191134.png
 security:

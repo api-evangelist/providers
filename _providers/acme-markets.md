@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Public store-locator surface used by the Acme Markets website to render store information (address, hours, services, phone, departments). Pages are rendered under the `local.acmemarkets.com` subdomain
@@ -120,21 +122,21 @@ name: Acme Markets
 nav: Providers
 network: true
 overview: Acme Markets publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Albertsons Banner, Delivery, E-Commerce, Grocery, and Loyalty.
-random_paper: 54
+random_paper: 55
 score:
   band: minimal
-  composite: 14.9
-  delta: 0.0
+  composite: 12.3
+  delta: -2.6
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 14.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

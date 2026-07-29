@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Sprout Social Public API provides programmatic access to publishing, analytics, messaging, listening, and social care case data across major social networks. Requires Advanced plan or higher.
@@ -122,26 +124,32 @@ plans:
 - name: Sprout Social Plans Pricing
   plan_count: 5
   slug: sprout-social-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Sprout Social Rate Limits
   slug: sprout-social-rate-limits
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 37.0
+  delta: 6.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 9.4
+    contract_quality: 54.3
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 30.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 22.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: domain-security
   name: Sprout Social Domain Security

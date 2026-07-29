@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,7 +178,7 @@ press:
 - date: '2026-05-25'
   title: CT-STARWOOD-HOTELS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/3177140/ct-starwood-hotels?publisherId=90456
-random_paper: 46
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Starwood Hotels And Resorts Rate Limits
@@ -200,18 +202,25 @@ rules:
   slug: starwood-hotels-and-resorts-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 2.5
+  composite: 44.4
+  delta: -4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.8
+    contract_quality: 61.0
     developer_ergonomics: 10.9
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 46.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 49.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/screenshots/starwood-hotels-and-resorts-2026-06-20T194521.png
 security:

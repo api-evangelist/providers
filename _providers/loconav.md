@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.8
+  scored_at: '2026-07-28'
 api_count: 12
 apis:
 - description: <p>With our Alert subscription APIs, you can manage the alerts effectively on a platform</p>
@@ -181,25 +183,34 @@ overview: 'LocoNav publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LocoNav''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 6
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Loconav Rate Limits
   slug: loconav-rate-limits
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 47.5
+  delta: -1.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 67.0
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 67.2
+    developer_ergonomics: 49.5
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 13.2
   previous_composite: 49.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png
 security:

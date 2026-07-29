@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful HTTP interface for streaming and querying mobile threat, device, OS, application, and vulnerability data from a Lookout Mobile Endpoint Security tenant. Uses OAuth 2.0 client-credentials authe
@@ -122,25 +124,27 @@ overview: 'Lookout publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Lookout''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 33
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Lookout Rate Limits
   slug: lookout-rate-limits
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 26.1
+  delta: -0.1
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 10.5
   previous_composite: 26.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/screenshots/lookout-2026-07-25T225520.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -104,8 +106,37 @@ arazzos:
 - description: Find a customer by ID and update it if it exists, otherwise create it.
   name: Amberflo Upsert Customer
   slug: amberflo-upsert-customer-workflow
-artifact_total: 101
+artifact_total: 109
+collections:
+- collection_type: postman
+  name: Amberflo Billing Customers API
+  slug: postman-amberflo-customers-api
+- collection_type: postman
+  name: Amberflo Billing Customers Event Ingestion API
+  slug: postman-amberflo-event-ingestion-api
+- collection_type: postman
+  name: Amberflo Billing Customers Filtering Rules API
+  slug: postman-amberflo-filtering-rules-api
+- collection_type: postman
+  name: Amberflo Billing Customers Invoices API
+  slug: postman-amberflo-invoices-api
+- collection_type: postman
+  name: Amberflo Billing Customers Meter Definitions API
+  slug: postman-amberflo-meter-definitions-api
+- collection_type: postman
+  name: Amberflo Billing Customers Prepaid Orders API
+  slug: postman-amberflo-prepaid-orders-api
+- collection_type: postman
+  name: Amberflo Billing Customers Pricing Plans API
+  slug: postman-amberflo-pricing-plans-api
+- collection_type: postman
+  name: Amberflo Billing Customers Usage Queries API
+  slug: postman-amberflo-usage-queries-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amberflo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -464,12 +495,12 @@ overview: 'Amberflo publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The Amberflo catalog on APIs.io includes 8 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amberflo''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, pricing, engineering blog, and 30 more developer resources.'
+  Amberflo''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, pricing, engineering blog, and 31 more developer resources.'
 plans:
 - name: Amberflo Plans Pricing
   plan_count: 4
   slug: amberflo-plans-pricing
-random_paper: 24
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Amberflo Rate Limits
@@ -493,19 +524,26 @@ rules:
   slug: amberflo-spectral-rules
 score:
   band: exemplar
-  composite: 75.7
-  delta: 0.0
+  composite: 68.8
+  delta: -6.9
   facets:
     commercial_clarity: 100.0
-    contract_quality: 71.7
-    developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 59.4
+    developer_ergonomics: 67.4
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 75.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/screenshots/amberflo-2026-06-20T171855.png
 security:
 - kind: authentication

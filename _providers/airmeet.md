@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Exchange access/secret keys for an access token.
@@ -47,12 +49,35 @@ apis:
 - description: Register webhook subscriptions for Airmeet event triggers.
   name: Airmeet Webhooks API
   slug: airmeet-webhooks-api
-artifact_total: 12
+artifact_total: 18
 asyncapis:
 - description: Airmeet delivers event engagement and lifecycle notifications via webhooks. Subscribers register a destination URL against a trigger via POST /platform-integration/v1/webhook-register (headers x-acces
   name: Airmeet Webhooks
   slug: airmeet-webhooks-asyncapi
+collections:
+- collection_type: postman
+  name: Airmeet Public Authentication API
+  slug: postman-airmeet-authentication-api
+- collection_type: postman
+  name: Airmeet Public Authentication Event Details API
+  slug: postman-airmeet-event-details-api
+- collection_type: postman
+  name: Airmeet Public Authentication Manage Event API
+  slug: postman-airmeet-manage-event-api
+- collection_type: postman
+  name: Airmeet Public Authentication Manage Event Series API
+  slug: postman-airmeet-manage-event-series-api
+- collection_type: postman
+  name: Airmeet Public Authentication Manage Registrations API
+  slug: postman-airmeet-manage-registrations-api
+- collection_type: postman
+  name: Airmeet Public Authentication Webhooks API
+  slug: postman-airmeet-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/airmeet/overview
 - group: company
   title: ''
   type: Website
@@ -191,22 +216,31 @@ overview: 'Airmeet publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Airmeet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Airmeet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
-random_paper: 63
+  Airmeet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 24 more developer resources.'
+random_paper: 50
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 60.0
+  delta: -0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.6
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.3
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 50.0
   previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/screenshots/airmeet-2026-07-25T195432.png
 security:

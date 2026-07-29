@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -61,8 +63,37 @@ apis:
 - description: The Tags#resourceArn&tagKeys API from Amazon IoT Events — 1 operation(s) for tags#resourcearn&tagkeys.
   name: Amazon IoT Events Tags#resourceArn&tagKeys API
   slug: amazon-iot-events-tags-resourcearn-tagkeys-api
-artifact_total: 446
+artifact_total: 454
+collections:
+- collection_type: postman
+  name: AWS IoT Events Alarm Models API
+  slug: postman-amazon-iot-events-alarm-models-api
+- collection_type: postman
+  name: AWS IoT Events Alarm Models Analysis API
+  slug: postman-amazon-iot-events-analysis-api
+- collection_type: postman
+  name: AWS IoT Events Alarm Models Detector Models API
+  slug: postman-amazon-iot-events-detector-models-api
+- collection_type: postman
+  name: AWS IoT Events Alarm Models Input Routings API
+  slug: postman-amazon-iot-events-input-routings-api
+- collection_type: postman
+  name: AWS IoT Events Alarm Models Inputs API
+  slug: postman-amazon-iot-events-inputs-api
+- collection_type: postman
+  name: AWS IoT Events Alarm Models Logging API
+  slug: postman-amazon-iot-events-logging-api
+- collection_type: postman
+  name: AWS IoT Events Alarm Models Tags#resourceArn API
+  slug: postman-amazon-iot-events-tags-resourcearn-api
+- collection_type: postman
+  name: AWS IoT Events Alarm Models Tags#resourceArn&tagKeys API
+  slug: postman-amazon-iot-events-tags-resourcearn-tagkeys-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-iot-events/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1442,12 +1473,12 @@ overview: 'Amazon IoT Events publishes 8 APIs on the [APIs.io](https://apis.io/)
   The Amazon IoT Events catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IoT Events'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon IoT Events'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Iot Events Plans Pricing
   plan_count: 3
   slug: amazon-iot-events-plans-pricing
-random_paper: 29
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Events Rate Limits
@@ -1471,18 +1502,25 @@ rules:
   slug: amazon-iot-events-spectral-rules
 score:
   band: strong
-  composite: 67.4
-  delta: 0.0
+  composite: 64.2
+  delta: -3.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.1
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 68.5
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/screenshots/amazon-iot-events-2026-06-20T171710.png
 security:

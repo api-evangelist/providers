@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 51.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: 'Order management across stocks, options, futures, crypto, and event contracts — place, preview, replace, cancel, batch (combo OTO/OCO/OTOCO), and algo (TWAP/VWAP/POV) orders, plus accounts, balances, '
@@ -159,26 +161,31 @@ overview: 'Webull publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Webull''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, CLI, sandbox, and 17 more developer resources.'
-random_paper: 39
+random_paper: 35
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 40.3
+  delta: 4.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 3.1
     operational_transparency: 28.9
   previous_composite: 35.7
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 28.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

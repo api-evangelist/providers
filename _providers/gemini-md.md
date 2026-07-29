@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 4.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 4.5
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,21 +67,21 @@ overview: 'GEMINI.md is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   GEMINI.md''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 3
+random_paper: 40
 score:
   band: minimal
-  composite: 9.2
-  delta: 0.0
+  composite: 7.4
+  delta: -1.8
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 9.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemini-md/refs/heads/main/screenshots/gemini-md-2026-06-20T181723.png
 skill_count: 3

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -111,12 +113,92 @@ apis:
 - description: Dashboard widget CRUD operations
   name: Coval Widgets API
   slug: coval-widgets-api
-artifact_total: 31
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Coval Webhooks
   slug: coval-webhooks
+collections:
+- collection_type: postman
+  name: Coval Agents API
+  slug: postman-coval-agents-api
+- collection_type: postman
+  name: Coval Agents API Keys API
+  slug: postman-coval-api-keys-api
+- collection_type: postman
+  name: Coval Agents Audio API
+  slug: postman-coval-audio-api
+- collection_type: postman
+  name: Coval Agents Conversations API
+  slug: postman-coval-conversations-api
+- collection_type: postman
+  name: Coval Agents Dashboards API
+  slug: postman-coval-dashboards-api
+- collection_type: postman
+  name: Coval Agents Metric Outputs API
+  slug: postman-coval-metric-outputs-api
+- collection_type: postman
+  name: Coval Agents Metrics API
+  slug: postman-coval-metrics-api
+- collection_type: postman
+  name: Coval Agents Monitor Events API
+  slug: postman-coval-monitor-events-api
+- collection_type: postman
+  name: Coval Agents Monitors API
+  slug: postman-coval-monitors-api
+- collection_type: postman
+  name: Coval Agents Mutations API
+  slug: postman-coval-mutations-api
+- collection_type: postman
+  name: Coval Agents Organization Conversations Config API
+  slug: postman-coval-organization-conversations-config-api
+- collection_type: postman
+  name: Coval Agents Personas API
+  slug: postman-coval-personas-api
+- collection_type: postman
+  name: Coval Agents Reports API
+  slug: postman-coval-reports-api
+- collection_type: postman
+  name: Coval Agents Review Annotations API
+  slug: postman-coval-review-annotations-api
+- collection_type: postman
+  name: Coval Agents Review Projects API
+  slug: postman-coval-review-projects-api
+- collection_type: postman
+  name: Coval Agents Run Templates API
+  slug: postman-coval-run-templates-api
+- collection_type: postman
+  name: Coval Agents Runs API
+  slug: postman-coval-runs-api
+- collection_type: postman
+  name: Coval Agents Scheduled Runs API
+  slug: postman-coval-scheduled-runs-api
+- collection_type: postman
+  name: Coval Agents Simulations API
+  slug: postman-coval-simulations-api
+- collection_type: postman
+  name: Coval Agents Tags API
+  slug: postman-coval-tags-api
+- collection_type: postman
+  name: Coval Agents Test Cases API
+  slug: postman-coval-test-cases-api
+- collection_type: postman
+  name: Coval Agents Test Sets API
+  slug: postman-coval-test-sets-api
+- collection_type: postman
+  name: Coval Agents Traces API
+  slug: postman-coval-traces-api
+- collection_type: postman
+  name: Coval Agents Webhooks API
+  slug: postman-coval-webhooks-api
+- collection_type: postman
+  name: Coval Agents Widgets API
+  slug: postman-coval-widgets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/coval/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -259,22 +341,32 @@ overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
   The Coval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 57
+  Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
+random_paper: 71
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 62.7
+  delta: 0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.6
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 72.7
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 62.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/screenshots/coval-2026-07-25T210531.png
 security:

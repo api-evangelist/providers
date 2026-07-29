@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: iOS and Android app that measures driving behavior via smartphone telematics, generates a usage-based price, and handles enrollment, policy management, and claims (3-minute claim filing). Telematics i
@@ -94,30 +96,31 @@ plans:
 - name: Root Insurance Plans Pricing
   plan_count: 1
   slug: root-insurance-plans-pricing
-random_paper: 37
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Root Insurance Rate Limits
   slug: root-insurance-rate-limits
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 16.2
+  delta: -3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/root-insurance/refs/heads/main/screenshots/root-insurance-2026-06-20T193219.png
 security:

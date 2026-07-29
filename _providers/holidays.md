@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 45.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,8 +50,25 @@ apis:
 - description: Working / business day calculations honoring country workweeks and holidays.
   name: Holiday API Workdays API
   slug: holidays-workdays-api
-artifact_total: 48
+artifact_total: 52
+collections:
+- collection_type: postman
+  name: Holiday Countries API
+  slug: postman-holidays-countries-api
+- collection_type: postman
+  name: Holiday Countries Holidays API
+  slug: postman-holidays-holidays-api
+- collection_type: postman
+  name: Holiday Countries Languages API
+  slug: postman-holidays-languages-api
+- collection_type: postman
+  name: Holiday Countries Workdays API
+  slug: postman-holidays-workdays-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/holiday-api/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -260,12 +279,12 @@ overview: 'Holiday API publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
   The Holiday API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Holiday API''s developer surface includes developer portal, documentation, pricing, signup flow, code examples, and 22 more developer resources.'
+  Holiday API''s developer surface includes developer portal, documentation, pricing, signup flow, code examples, and 23 more developer resources.'
 plans:
 - name: Holidays Plans Pricing
   plan_count: 3
   slug: holidays-plans-pricing
-random_paper: 45
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Holidays Rate Limits
@@ -289,18 +308,25 @@ rules:
   slug: holidays-rules
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 58.4
+  delta: -3.5
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.3
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 37.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 26.3
   previous_composite: 61.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/screenshots/holidays-2026-06-20T182809.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The Indian Affairs GIS Open Data Hub publishes authoritative geospatial datasets as downloadable and machine-readable resources via Esri ArcGIS Hub, including federally recognized tribal boundaries, l
@@ -104,25 +106,25 @@ plans:
 - name: Bureau Of Indian Affairs Plans Pricing
   plan_count: 3
   slug: bureau-of-indian-affairs-plans-pricing
-random_paper: 39
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Bureau Of Indian Affairs Rate Limits
   slug: bureau-of-indian-affairs-rate-limits
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 21.0
+  delta: -2.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 23.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-indian-affairs/refs/heads/main/screenshots/bureau-of-indian-affairs-2026-06-20T173807.png
 security:

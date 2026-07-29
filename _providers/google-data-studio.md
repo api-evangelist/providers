@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -55,8 +57,20 @@ apis:
 - description: Operations for creating and configuring pre-built Looker Studio reports
   name: Google Data Studio Reports API
   slug: google-data-studio-reports-api
-artifact_total: 23
+artifact_total: 27
 collections:
+- collection_type: postman
+  name: Google Data Studio Assets API
+  slug: postman-google-data-studio-assets-api
+- collection_type: postman
+  name: Google Data Studio Assets Embedding API
+  slug: postman-google-data-studio-embedding-api
+- collection_type: postman
+  name: Google Data Studio Assets Permissions API
+  slug: postman-google-data-studio-permissions-api
+- collection_type: postman
+  name: Google Data Studio Assets Reports API
+  slug: postman-google-data-studio-reports-api
 - collection_type: open
   name: Google Data Studio API
   slug: open-google-data-studio-api
@@ -64,6 +78,10 @@ collections:
   name: Google Data Studio Looker Studio Linking API
   slug: open-google-data-studio-linking-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-data-studio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -223,12 +241,12 @@ overview: 'Google Data Studio publishes 4 APIs on the [APIs.io](https://apis.io/
   The Google Data Studio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Data Studio''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, changelog, and 23 more developer resources.'
+  Google Data Studio''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, changelog, and 24 more developer resources.'
 plans:
 - name: Google Data Studio Plans Pricing
   plan_count: 6
   slug: google-data-studio-plans-pricing
-random_paper: 33
+random_paper: 30
 rate_limits:
 - limit_count: 13
   name: Google Data Studio Rate Limits
@@ -248,19 +266,26 @@ scopes:
   slug: google-data-studio-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 68.9
-  delta: 2.0
+  band: exemplar
+  composite: 66.6
+  delta: -2.3
   facets:
     commercial_clarity: 84.2
-    contract_quality: 65.9
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 66.5
+    developer_ergonomics: 50.0
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 66.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/screenshots/google-data-studio-2026-06-20T182153.png
 security:

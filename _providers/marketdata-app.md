@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Real-time and historical stock candles, quotes, bulk data, prices, earnings, and news.
   name: Market Data Stocks API
   slug: marketdata-app-stocks-api
-artifact_total: 12
+artifact_total: 16
 collections:
+- collection_type: postman
+  name: Market Data Indices API
+  slug: postman-marketdata-app-indices-api
+- collection_type: postman
+  name: Market Data Indices Markets API
+  slug: postman-marketdata-app-markets-api
+- collection_type: postman
+  name: Market Data Indices Options API
+  slug: postman-marketdata-app-options-api
+- collection_type: postman
+  name: Market Data Indices Stocks API
+  slug: postman-marketdata-app-stocks-api
 - collection_type: open
   name: Market Data API
   slug: open-marketdata-app
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/market-data/overview
 - group: docs
   title: ''
   type: OpenAPI
@@ -218,35 +236,46 @@ network: true
 overview: 'Market Data publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Indices API, Markets API, Options API, and 1 more. Tagged areas include Market Data, Financial Data, Stocks, Options, and Indices.
 
 
-  Market Data''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
+  Market Data''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
 plans:
 - name: Marketdata App Plans Pricing
   plan_count: 6
   slug: marketdata-app-plans-pricing
-random_paper: 60
+random_paper: 34
 rate_limits:
 - limit_count: 7
   name: Marketdata App Rate Limits
   slug: marketdata-app-rate-limits
 score:
   band: strong
-  composite: 65.6
-  delta: 2.8
+  composite: 64.0
+  delta: -1.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 58.4
-    developer_ergonomics: 82.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 59.3
+    developer_ergonomics: 71.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 73.7
-  previous_composite: 62.8
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 80.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:

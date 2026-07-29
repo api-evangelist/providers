@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 240
   human_in_the_loop: 9
@@ -320,7 +322,7 @@ plans:
 - name: Mongodb Plans Pricing
   plan_count: 4
   slug: mongodb-plans-pricing
-random_paper: 62
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Mongodb Rate Limits
@@ -332,18 +334,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 49.0
+  delta: -1.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 55.6
+    contract_quality: 54.4
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 50.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 51
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/screenshots/mongodb-2026-06-20T185729.png
 security:

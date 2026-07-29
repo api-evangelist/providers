@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -197,12 +199,54 @@ arazzos:
 - description: Authenticate, submit a tick history extraction, check the job status, and download the result when complete.
   name: Refinitiv Eikon Tick History Extraction and Poll
   slug: refinitiv-eikon-tickhistory-extraction-poll-workflow
-artifact_total: 98
+artifact_total: 112
 asyncapis:
 - description: Standards-based WebSocket API providing real-time streaming market data using JSON message formats following the Open Message Model (OMM). Connects to Refinitiv Real-Time Distribution Systems (RTDS) a
   name: LSEG (Refinitiv) Real-Time WebSocket API
   slug: refinitiv-eikon-asyncapi
 collections:
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication API
+  slug: postman-refinitiv-eikon-authentication-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication ESG API
+  slug: postman-refinitiv-eikon-esg-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Extractions API
+  slug: postman-refinitiv-eikon-extractions-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Files API
+  slug: postman-refinitiv-eikon-files-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Historical Pricing API
+  slug: postman-refinitiv-eikon-historical-pricing-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Instrument Lists API
+  slug: postman-refinitiv-eikon-instrument-lists-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Jobs API
+  slug: postman-refinitiv-eikon-jobs-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication News API
+  slug: postman-refinitiv-eikon-news-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication On-Demand Extractions API
+  slug: postman-refinitiv-eikon-on-demand-extractions-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Report Templates API
+  slug: postman-refinitiv-eikon-report-templates-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Schedules API
+  slug: postman-refinitiv-eikon-schedules-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Search API
+  slug: postman-refinitiv-eikon-search-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Streaming Pricing API
+  slug: postman-refinitiv-eikon-streaming-pricing-api
+- collection_type: postman
+  name: Refinitiv Eikon Refinitiv Data Platform APIs Authentication Symbology API
+  slug: postman-refinitiv-eikon-symbology-api
 - collection_type: open
   name: Refinitiv Eikon Refinitiv Data Platform APIs
   slug: open-refinitiv-eikon-data-platform
@@ -213,6 +257,10 @@ collections:
   name: Refinitiv Eikon LSEG Tick History REST API
   slug: open-refinitiv-eikon-tick-history
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/refinitiv-eikon/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -484,12 +532,12 @@ overview: 'Refinitiv Eikon publishes 15 APIs on the [APIs.io](https://apis.io/) 
   The Refinitiv Eikon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Refinitiv Eikon''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 31 more developer resources.'
+  Refinitiv Eikon''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 32 more developer resources.'
 plans:
 - name: Refinitiv Eikon Plans Pricing
   plan_count: 1
   slug: refinitiv-eikon-plans-pricing
-random_paper: 59
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Refinitiv Eikon Rate Limits
@@ -521,23 +569,31 @@ rules:
   slug: refinitiv-eikon-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 2.1
+  composite: 62.5
+  delta: -3.1
   facets:
     commercial_clarity: 63.2
-    contract_quality: 75.5
-    developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 76.4
+    developer_ergonomics: 56.5
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 63.5
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:

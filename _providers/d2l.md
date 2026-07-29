@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: The core Learning Platform API provides access to organizational units, user accounts, enrollments, roles, permissions, and configuration variables. Manage courses, departments, semesters, and the ful
@@ -134,25 +136,25 @@ plans:
 - name: D2L Plans Pricing
   plan_count: 2
   slug: d2l-plans-pricing
-random_paper: 54
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: D2L Rate Limits
   slug: d2l-rate-limits
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 38.4
+  delta: -1.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.5
+    contract_quality: 61.7
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 40.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d2l/refs/heads/main/screenshots/d2l-2026-06-20T175420.png
 security:

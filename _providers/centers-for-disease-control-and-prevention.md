@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -146,30 +148,38 @@ plans:
 - name: Centers For Disease Control And Prevention Plans Pricing
   plan_count: 3
   slug: centers-for-disease-control-and-prevention-plans-pricing
-random_paper: 0
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Centers For Disease Control And Prevention Rate Limits
   slug: centers-for-disease-control-and-prevention-rate-limits
 score:
   band: thin
-  composite: 41.0
-  delta: 1.7
+  composite: 36.5
+  delta: -4.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.4
+    contract_quality: 56.8
     developer_ergonomics: 19.6
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.3
+  previous_composite: 41.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 34.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/screenshots/centers-for-disease-control-and-prevention-2026-06-20T174125.png
 security:

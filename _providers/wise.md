@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 6
@@ -287,7 +289,7 @@ plans:
 - name: Wise Plans Pricing
   plan_count: 3
   slug: wise-plans-pricing
-random_paper: 32
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Wise Rate Limits
@@ -303,24 +305,32 @@ rules:
   slug: wise-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 46.4
+  delta: -5.3
   facets:
     commercial_clarity: 47.4
-    contract_quality: 69.7
+    contract_quality: 71.6
     developer_ergonomics: 26.1
-    discoverability: 67.5
-    governance: 52.6
+    discoverability: 50.0
+    governance: 41.7
     operational_transparency: 52.6
   previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 29.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -183,7 +185,7 @@ plans:
 - name: Codesandbox Plans Pricing
   plan_count: 4
   slug: codesandbox-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 7
   name: Codesandbox Rate Limits
@@ -199,18 +201,25 @@ rules:
   slug: codesandbox-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 59.0
-  delta: 0.0
+  composite: 54.9
+  delta: -4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.8
+    contract_quality: 72.9
     developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 68.4
   previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/screenshots/codesandbox-2026-06-20T174706.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,8 +54,22 @@ apis:
 - description: Get currently trending news topics from social networks
   name: Bing News Search Trending Topics API
   slug: bing-news-trending-topics-api
-artifact_total: 17
+artifact_total: 20
+collections:
+- collection_type: postman
+  name: Bing News Search API v7 News Category API
+  slug: postman-bing-news-news-category-api
+- collection_type: postman
+  name: Bing API v7 News Category News Search API
+  slug: postman-bing-news-news-search-api
+- collection_type: postman
+  name: Bing News Search API v7 News Category Trending Topics API
+  slug: postman-bing-news-trending-topics-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bing-news-search/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,12 +165,12 @@ overview: 'Bing News Search publishes 3 APIs on the [APIs.io](https://apis.io/) 
   The Bing News Search catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Bing News Search''s developer surface includes authentication, developer portal, documentation, API reference, pricing, getting-started guide, support, and 8 more developer resources.'
+  Bing News Search''s developer surface includes authentication, developer portal, documentation, API reference, pricing, getting-started guide, support, and 9 more developer resources.'
 plans:
 - name: Bing News Plans Pricing
   plan_count: 2
   slug: bing-news-plans-pricing
-random_paper: 22
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Bing News Rate Limits
@@ -170,18 +186,25 @@ rules:
   slug: bing-news-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 0.0
+  composite: 58.5
+  delta: -4.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.9
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 60.2
+    developer_ergonomics: 60.9
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 62.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/screenshots/bing-news-2026-06-20T173246.png
 security:

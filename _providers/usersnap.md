@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,12 +50,29 @@ apis:
 - description: Submit feedback
   name: Usersnap submit API
   slug: usersnap-submit-api
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Usersnap Webhooks
   slug: usersnap-webhooks
+collections:
+- collection_type: postman
+  name: Usersnap feedback API
+  slug: postman-usersnap-feedback-api
+- collection_type: postman
+  name: Usersnap feedback pre_submit API
+  slug: postman-usersnap-pre-submit-api
+- collection_type: postman
+  name: Usersnap feedback project API
+  slug: postman-usersnap-project-api
+- collection_type: postman
+  name: Usersnap feedback submit API
+  slug: postman-usersnap-submit-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/usersnap/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -220,8 +239,8 @@ overview: 'Usersnap publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Usersnap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Usersnap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 65
+  Usersnap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+random_paper: 34
 scopes:
 - name: Usersnap Scopes
   scope_count: 2
@@ -229,18 +248,28 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 62.0
+  delta: 0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.0
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.7
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 55.3
   previous_composite: 61.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

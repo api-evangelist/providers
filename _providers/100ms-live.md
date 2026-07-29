@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 8
@@ -73,12 +75,52 @@ apis:
 - description: Per-room RTMP ingest stream keys.
   name: 100ms Stream Keys API
   slug: 100ms-live-stream-keys-api
-artifact_total: 32
+artifact_total: 44
 collections:
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms API
+  slug: postman-100ms-live-active-rooms-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms Analytics API
+  slug: postman-100ms-live-analytics-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms External Streams API
+  slug: postman-100ms-live-external-streams-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms Live Streams API
+  slug: postman-100ms-live-live-streams-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms Policy API
+  slug: postman-100ms-live-policy-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms Polls API
+  slug: postman-100ms-live-polls-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms Recording Assets API
+  slug: postman-100ms-live-recording-assets-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms Recordings API
+  slug: postman-100ms-live-recordings-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms Room Codes API
+  slug: postman-100ms-live-room-codes-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms API
+  slug: postman-100ms-live-rooms-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms Sessions API
+  slug: postman-100ms-live-sessions-api
+- collection_type: postman
+  name: 100ms Server-Side Active Rooms Stream Keys API
+  slug: postman-100ms-live-stream-keys-api
 - collection_type: open
   name: 100ms Server-Side API
   slug: open-100ms-live-server-side-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/100ms/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -258,12 +300,12 @@ overview: '100ms publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
   The 100ms catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  100ms'' developer surface includes authentication, developer portal, documentation, signup flow, pricing, GitHub presence, engineering blog, and 25 more developer resources.'
+  100ms'' developer surface includes authentication, developer portal, documentation, signup flow, pricing, GitHub presence, engineering blog, and 26 more developer resources.'
 plans:
 - name: 100Ms Live Plans Pricing
   plan_count: 3
   slug: 100ms-live-plans-pricing
-random_paper: 30
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: 100Ms Live Rate Limits
@@ -287,18 +329,25 @@ rules:
   slug: 100ms-live-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 3.2
+  composite: 60.6
+  delta: -2.9
   facets:
     commercial_clarity: 57.9
-    contract_quality: 58.7
+    contract_quality: 65.9
     developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 60.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/screenshots/100ms-live-2026-06-20T162232.png
 security:

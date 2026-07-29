@@ -20,7 +20,7 @@ modified: '2026-04-23'
 name: Cloud Storage and Data Acquisition
 nav: Providers
 network: true
-random_paper: 50
+random_paper: 71
 slug: cloud-storage-and-data-acquisition
 tags:
 - Bulk Transfer

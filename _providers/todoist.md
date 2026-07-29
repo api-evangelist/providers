@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -70,8 +72,35 @@ apis:
 - description: Workspace management operations
   name: Todoist Workspaces API
   slug: todoist-workspaces-api
-artifact_total: 31
+artifact_total: 40
 collections:
+- collection_type: postman
+  name: Todoist Comments API
+  slug: postman-todoist-comments-api
+- collection_type: postman
+  name: Todoist Comments Labels API
+  slug: postman-todoist-labels-api
+- collection_type: postman
+  name: Todoist Comments Projects API
+  slug: postman-todoist-projects-api
+- collection_type: postman
+  name: Todoist Comments Reminders API
+  slug: postman-todoist-reminders-api
+- collection_type: postman
+  name: Todoist Comments Sections API
+  slug: postman-todoist-sections-api
+- collection_type: postman
+  name: Todoist Comments Sync API
+  slug: postman-todoist-sync-api
+- collection_type: postman
+  name: Todoist Comments Tasks API
+  slug: postman-todoist-tasks-api
+- collection_type: postman
+  name: Todoist Comments User API
+  slug: postman-todoist-user-api
+- collection_type: postman
+  name: Todoist Comments Workspaces API
+  slug: postman-todoist-workspaces-api
 - collection_type: open
   name: Todoist Webhooks
   slug: open-todoist-asyncapi
@@ -79,6 +108,10 @@ collections:
   name: Todoist API
   slug: open-todoist
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/todoist/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,12 +248,12 @@ overview: 'Todoist publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The Todoist catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Todoist''s developer surface includes authentication, documentation, signup flow, engineering blog, pricing, and 17 more developer resources.'
+  Todoist''s developer surface includes authentication, documentation, signup flow, engineering blog, pricing, and 18 more developer resources.'
 plans:
 - name: Todoist Plans Pricing
   plan_count: 3
   slug: todoist-plans-pricing
-random_paper: 26
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Todoist Rate Limits
@@ -244,18 +277,25 @@ rules:
   slug: todoist-rules
 score:
   band: strong
-  composite: 67.7
-  delta: 4.6
+  composite: 65.4
+  delta: -2.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 69.0
-    developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 74.1
+    developer_ergonomics: 41.3
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 63.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 90.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/screenshots/todoist-2026-06-20T195429.png
 security:

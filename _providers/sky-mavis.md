@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 37.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.0
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: REST Web3 data API on the Ronin blockchain — query accounts, NFTs, tokens, collections, blocks, smart contracts and transactions. Authenticated with an X-API-KEY issued from the Ronin Developer Consol
@@ -156,7 +158,7 @@ overview: 'Sky Mavis publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sky Mavis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 18 more developer resources.'
-random_paper: 48
+random_paper: 8
 scopes:
 - name: Sky Mavis Scopes
   scope_count: 3
@@ -164,24 +166,29 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 35.5
+  delta: -5.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 41.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Sky Mavis Authentication

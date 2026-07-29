@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 2
@@ -216,7 +218,7 @@ plans:
 - name: Together Ai Plans Pricing
   plan_count: 6
   slug: together-ai-plans-pricing
-random_paper: 25
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Together Ai Rate Limits
@@ -232,18 +234,25 @@ rules:
   slug: together-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 2.5
+  composite: 45.1
+  delta: -3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.2
+    contract_quality: 64.9
     developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 52.6
+    discoverability: 68.5
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 45.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 48.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/screenshots/together-ai-2026-06-20T195434.png
 security:

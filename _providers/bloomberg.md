@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -52,16 +54,50 @@ apis:
 - description: The Bloomberg Open API (BLPAPI) Core — the foundational service-oriented, socket-based API used by the Desktop API, Server API (SAPI), B-PIPE, and Bloomberg Platform products. Provides Request/Respons
   name: Bloomberg BLPAPI Core
   slug: bloomberg-blpapi-core
-artifact_total: 54
+artifact_total: 64
 asyncapis:
 - description: Event surface of the Bloomberg Open API (BLPAPI) Subscription paradigm. Clients call Session.subscribe(SubscriptionList) over a BLPAPI SDK session (Desktop API localhost:8194 or SAPI/B-PIPE host); str
   name: Bloomberg BLPAPI Market Data Subscriptions
   slug: bloomberg-market-data-asyncapi
 collections:
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery API
+  slug: postman-bloomberg-field-discovery-api
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery Historical Data API
+  slug: postman-bloomberg-historical-data-api
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery Intraday Bars API
+  slug: postman-bloomberg-intraday-bars-api
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery Intraday Ticks API
+  slug: postman-bloomberg-intraday-ticks-api
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery Real-Time Bars API
+  slug: postman-bloomberg-real-time-bars-api
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery Real-Time Market Data API
+  slug: postman-bloomberg-real-time-market-data-api
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery Reference Data API
+  slug: postman-bloomberg-reference-data-api
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery Request/Response API
+  slug: postman-bloomberg-request-response-api
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery Subscriptions API
+  slug: postman-bloomberg-subscriptions-api
+- collection_type: postman
+  name: Bloomberg BLPAPI Core Field Discovery VWAP API
+  slug: postman-bloomberg-vwap-api
 - collection_type: open
   name: Bloomberg BLPAPI Core
   slug: open-blpapi-core
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bloomberg/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -310,12 +346,12 @@ overview: 'Bloomberg publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Bloomberg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 26 more developer resources.'
+  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 27 more developer resources.'
 plans:
 - name: Bloomberg Plans Pricing
   plan_count: 2
   slug: bloomberg-plans-pricing
-random_paper: 1
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Bloomberg Rate Limits
@@ -344,23 +380,34 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 76.5
-  delta: 3.6
+  composite: 72.9
+  delta: -3.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 77.9
-    developer_ergonomics: 73.9
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 66.8
+    discoverability: 83.3
+    governance: 89.6
     operational_transparency: 63.2
-  previous_composite: 72.9
+  previous_composite: 76.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
 security:

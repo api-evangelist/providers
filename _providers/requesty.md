@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Open access
-  onboarding: open
-  pricing: freemium
-  public: true
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: near-conformant
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -35,24 +26,21 @@ agentic_access:
   operation_count: 10
   slug: requesty-agentic-access
   summary_line: 10 operations · 5 acting
-api_count: 5
+api_count: 4
 apis:
-- description: Programmatic management of Requesty API keys.
-  name: Requesty API Keys API
-  slug: requesty-api-keys-api
-- description: OpenAI-compatible chat completions routed across providers.
-  name: Requesty Chat API
-  slug: requesty-chat-api
-- description: Vector embedding generation.
-  name: Requesty Embeddings API
-  slug: requesty-embeddings-api
-- description: Catalog of routable models.
+- description: OpenAI-compatible chat completions routed across 300+ models from OpenAI, Anthropic, DeepSeek, Together AI, and more, with streaming, tool use, web search, automatic fallbacks, and response caching.
+  name: Requesty Chat Completions API
+  slug: requesty-chat-completions-api
+- description: Lists the 300+ models routable through the Requesty gateway with their identifiers, provider, context length, and per-token pricing.
   name: Requesty Models API
   slug: requesty-models-api
-- description: Usage statistics and spend reporting.
-  name: Requesty Usage API
-  slug: requesty-usage-api
-artifact_total: 16
+- description: Retrieves per-key and organization-level usage statistics, request cost, and spend reporting for observability and FinOps across the gateway.
+  name: Requesty Usage & Analytics API
+  slug: requesty-usage-analytics-api
+- description: Programmatically create, list, inspect, and delete API keys and manage their spending limits, labels, and expiration for governing gateway access.
+  name: Requesty API Keys API
+  slug: requesty-api-keys-api
+artifact_total: 15
 asyncapis:
 - description: AsyncAPI 2.6 description of Requesty's **chat completion streaming** surface. Requesty does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://docs.reques
   name: Requesty Chat Completions Streaming (HTTP + SSE)
@@ -62,6 +50,10 @@ collections:
   name: Requesty Router API
   slug: open-requesty
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/requesty-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -120,24 +112,24 @@ finops:
 - name: Requesty Finops
   service_category: AI and Machine Learning
   slug: requesty-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/requesty.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-06-20'
 name: Requesty
 nav: Providers
 network: true
-overview: 'Requesty publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Chat API, Embeddings API, and 2 more. Tagged areas include AI, LLM, Routing, Gateway, and Observability.
+overview: 'Requesty publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Models API, Usage & Analytics API, and 1 more. Tagged areas include AI, LLM, Routing, Gateway, and Observability.
 
 
   The Requesty catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Requesty''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  Requesty''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Requesty Plans Pricing
   plan_count: 3
   slug: requesty-plans-pricing
-random_paper: 14
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Requesty Rate Limits
@@ -153,19 +145,26 @@ rules:
   slug: requesty-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 3.2
+  composite: 45.9
+  delta: -5.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 67.3
+    contract_quality: 59.7
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 48.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/screenshots/requesty-2026-06-20T192926.png
 security:
 - kind: authentication

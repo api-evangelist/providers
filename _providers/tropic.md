@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Configure and manage webhook subscriptions
   name: Tropic Webhooks API
   slug: tropic-webhooks-api
-artifact_total: 22
+artifact_total: 27
 collections:
+- collection_type: postman
+  name: Tropic Contracts API
+  slug: postman-tropic-contracts-api
+- collection_type: postman
+  name: Tropic Contracts Requests API
+  slug: postman-tropic-requests-api
+- collection_type: postman
+  name: Tropic Contracts Suppliers API
+  slug: postman-tropic-suppliers-api
+- collection_type: postman
+  name: Tropic Contracts Users API
+  slug: postman-tropic-users-api
+- collection_type: postman
+  name: Tropic Contracts Webhooks API
+  slug: postman-tropic-webhooks-api
 - collection_type: open
   name: Tropic API
   slug: open-tropic
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tropic/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,12 +167,12 @@ overview: 'Tropic publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Tropic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tropic''s developer surface includes authentication, documentation, engineering blog, pricing, and 7 more developer resources.'
+  Tropic''s developer surface includes authentication, documentation, engineering blog, pricing, and 8 more developer resources.'
 plans:
 - name: Tropic Plans Pricing
   plan_count: 3
   slug: tropic-plans-pricing
-random_paper: 45
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Tropic Rate Limits
@@ -175,19 +196,26 @@ rules:
   slug: tropic-rules
 score:
   band: strong
-  composite: 60.1
-  delta: 5.5
+  composite: 56.8
+  delta: -3.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 74.3
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 75.4
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 54.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 60.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/screenshots/tropic-2026-06-20T195744.png
 security:
 - kind: authentication

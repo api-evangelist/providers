@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: WebSocket/WebAssembly JavaScript API for the ACTIV OnePlatform (Options Atlas), delivering real-time streaming subscriptions, snapshots, queries, and time-series (tick, intraday bar, history bar) mark
@@ -126,26 +128,27 @@ overview: 'ACTIV Financial Systems publishes 1 API on the [APIs.io](https://apis
 
 
   ACTIV Financial Systems'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 38
+random_paper: 40
 score:
   band: emerging
-  composite: 28.3
-  delta: 0.0
+  composite: 26.6
+  delta: -1.7
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 28.3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 34.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 26.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activ-financial-systems/refs/heads/main/screenshots/activ-financial-systems-2026-07-22T202115.png
 security:

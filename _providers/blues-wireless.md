@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: true
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -79,8 +81,52 @@ apis:
 - description: Webhook APIs for non-notecard event ingestion
   name: Blues webhook API
   slug: blues-wireless-webhook-api
-artifact_total: 34
+artifact_total: 47
+collections:
+- collection_type: postman
+  name: Notehub alert API
+  slug: postman-blues-wireless-alert-api
+- collection_type: postman
+  name: Notehub alert authorization API
+  slug: postman-blues-wireless-authorization-api
+- collection_type: postman
+  name: Notehub alert billing_account API
+  slug: postman-blues-wireless-billing-account-api
+- collection_type: postman
+  name: Notehub alert device API
+  slug: postman-blues-wireless-device-api
+- collection_type: postman
+  name: Notehub alert event API
+  slug: postman-blues-wireless-event-api
+- collection_type: postman
+  name: Notehub alert external devices API
+  slug: postman-blues-wireless-external-devices-api
+- collection_type: postman
+  name: Notehub alert jobs API
+  slug: postman-blues-wireless-jobs-api
+- collection_type: postman
+  name: Notehub alert monitor API
+  slug: postman-blues-wireless-monitor-api
+- collection_type: postman
+  name: Notehub alert organization API
+  slug: postman-blues-wireless-organization-api
+- collection_type: postman
+  name: Notehub alert project API
+  slug: postman-blues-wireless-project-api
+- collection_type: postman
+  name: Notehub alert route API
+  slug: postman-blues-wireless-route-api
+- collection_type: postman
+  name: Notehub alert usage API
+  slug: postman-blues-wireless-usage-api
+- collection_type: postman
+  name: Notehub alert webhook API
+  slug: postman-blues-wireless-webhook-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/blues/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -218,12 +264,12 @@ overview: 'Blues publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Blues catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Blues'' developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 14 more developer resources.'
+  Blues'' developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 15 more developer resources.'
 plans:
 - name: Blues Wireless Plans Pricing
   plan_count: 2
   slug: blues-wireless-plans-pricing
-random_paper: 34
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Blues Wireless Rate Limits
@@ -239,18 +285,25 @@ rules:
   slug: blues-wireless-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 56.1
+  delta: -3.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 64.7
-    developer_ergonomics: 37.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 63.6
+    developer_ergonomics: 41.3
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/screenshots/blues-wireless-2026-06-20T173533.png
 security:

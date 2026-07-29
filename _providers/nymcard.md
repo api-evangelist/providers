@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 51.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful card-issuing and payments platform API for users, cards, card products, accounts, funding/transfers, limits, transactions and webhooks.
@@ -165,27 +167,32 @@ overview: 'Nymcard publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Nymcard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 2
+random_paper: 57
 score:
-  band: thin
-  composite: 43.3
-  delta: 0.0
+  band: developing
+  composite: 49.2
+  delta: 5.9
   facets:
     commercial_clarity: 31.6
-    contract_quality: 22.6
-    developer_ergonomics: 78.3
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 66.8
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 43.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 62.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Nymcard Authentication

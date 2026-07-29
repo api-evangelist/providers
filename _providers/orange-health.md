@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Create and manage diagnostic collection orders.
@@ -123,27 +125,37 @@ overview: 'Orange Health publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Orange Health''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 19
+random_paper: 2
 score:
-  band: developing
-  composite: 46.3
-  delta: 0.0
+  band: thin
+  composite: 40.8
+  delta: -5.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 73.2
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 71.1
+    developer_ergonomics: 36.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 18.4
   previous_composite: 46.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 32.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Orange Health Authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -139,25 +141,32 @@ plans:
 - name: Cisco Directory Connector Plans Pricing
   plan_count: 3
   slug: cisco-directory-connector-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Cisco Directory Connector Rate Limits
   slug: cisco-directory-connector-rate-limits
 score:
   band: developing
-  composite: 50.9
-  delta: 3.2
+  composite: 48.8
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 55.8
+    contract_quality: 57.6
     developer_ergonomics: 43.5
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 47.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 50.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/screenshots/cisco-directory-connector-2026-06-20T174400.png
 security:

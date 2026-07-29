@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: The Reports API from Google Merchant Center — 1 operation(s) for reports.
   name: Google Merchant Center Reports API
   slug: google-merchant-center-reports-api
-artifact_total: 16
+artifact_total: 21
 collections:
+- collection_type: postman
+  name: Google Merchant Center Google Merchant Accounts API
+  slug: postman-google-merchant-center-accounts-api
+- collection_type: postman
+  name: Google Merchant Center Google Merchant Accounts Inventories API
+  slug: postman-google-merchant-center-inventories-api
+- collection_type: postman
+  name: Google Merchant Center Google Merchant Accounts Products API
+  slug: postman-google-merchant-center-products-api
+- collection_type: postman
+  name: Google Merchant Center Google Merchant Accounts Promotions API
+  slug: postman-google-merchant-center-promotions-api
+- collection_type: postman
+  name: Google Merchant Center Google Merchant Accounts Reports API
+  slug: postman-google-merchant-center-reports-api
 - collection_type: open
   name: Google Merchant Center Google Merchant API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-merchant-center/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,12 +161,12 @@ overview: 'Google Merchant Center publishes 5 APIs on the [APIs.io](https://apis
   The Google Merchant Center catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Google Merchant Center''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Merchant Center''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Merchant Center Plans Pricing
   plan_count: 3
   slug: google-merchant-center-plans-pricing
-random_paper: 42
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Google Merchant Center Rate Limits
@@ -174,18 +195,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.1
-  delta: 4.6
+  composite: 60.9
+  delta: -3.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.9
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 63.6
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/screenshots/google-merchant-center-2026-06-20T182216.png
 security:

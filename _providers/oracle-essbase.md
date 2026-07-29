@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -106,12 +108,73 @@ apis:
 - description: Manage server-level and application-level substitution variables
   name: Oracle Essbase Variables API
   slug: oracle-essbase-variables-api
-artifact_total: 69
+artifact_total: 88
 collections:
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration API
+  slug: postman-oracle-essbase-application-configuration-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Applications API
+  slug: postman-oracle-essbase-applications-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Connections API
+  slug: postman-oracle-essbase-connections-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Databases API
+  slug: postman-oracle-essbase-databases-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Dimensions API
+  slug: postman-oracle-essbase-dimensions-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Files API
+  slug: postman-oracle-essbase-files-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Filters API
+  slug: postman-oracle-essbase-filters-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Groups API
+  slug: postman-oracle-essbase-groups-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Jobs API
+  slug: postman-oracle-essbase-jobs-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Locks API
+  slug: postman-oracle-essbase-locks-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Partitions API
+  slug: postman-oracle-essbase-partitions-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Reports API
+  slug: postman-oracle-essbase-reports-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Roles API
+  slug: postman-oracle-essbase-roles-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Scripts API
+  slug: postman-oracle-essbase-scripts-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Server API
+  slug: postman-oracle-essbase-server-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Sessions API
+  slug: postman-oracle-essbase-sessions-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration User Session API
+  slug: postman-oracle-essbase-user-session-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Users API
+  slug: postman-oracle-essbase-users-api
+- collection_type: postman
+  name: Oracle Essbase REST Application Configuration Variables API
+  slug: postman-oracle-essbase-variables-api
 - collection_type: open
   name: Oracle Essbase REST API
   slug: open-oracle-essbase-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/oracle-essbase/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -332,12 +395,12 @@ overview: 'Oracle Essbase publishes 19 APIs on the [APIs.io](https://apis.io/) n
   The Oracle Essbase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Essbase''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, signup flow, and 14 more developer resources.'
+  Oracle Essbase''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, signup flow, and 15 more developer resources.'
 plans:
 - name: Oracle Essbase Plans Pricing
   plan_count: 2
   slug: oracle-essbase-plans-pricing
-random_paper: 57
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Oracle Essbase Rate Limits
@@ -353,18 +416,25 @@ rules:
   slug: oracle-essbase-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 3.5
+  composite: 61.3
+  delta: -3.9
   facets:
     commercial_clarity: 63.2
-    contract_quality: 76.1
-    developer_ergonomics: 45.7
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 72.9
+    developer_ergonomics: 50.0
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 61.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-essbase/refs/heads/main/screenshots/oracle-essbase-2026-06-20T191127.png
 security:

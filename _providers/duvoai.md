@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: flavored
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -120,6 +122,10 @@ asyncapis:
   name: Duvoai Webhooks
   slug: duvoai-webhooks
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/duvoai-a2a.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -246,8 +252,8 @@ overview: 'duvo.ai publishes 26 APIs on the [APIs.io](https://apis.io/) network,
   The duvo.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  duvo.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 20 more developer resources.'
-random_paper: 36
+  duvo.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 21 more developer resources.'
+random_paper: 32
 scopes:
 - name: Duvoai Scopes
   scope_count: 8
@@ -255,18 +261,28 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 49.3
+  delta: 1.1
   facets:
     commercial_clarity: 31.6
-    contract_quality: 61.7
+    contract_quality: 63.4
     developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 48.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvoai/refs/heads/main/screenshots/duvoai-2026-07-25T212701.png
 security:

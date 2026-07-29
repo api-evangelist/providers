@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.9
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: OAuth 2.0 authorization-code API giving partners full access to Altruist custody data — accounts, households, positions, transactions, and cost basis — for advisor tools, reporting, and reconciliation
@@ -165,7 +167,7 @@ overview: 'Altruist publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Altruist''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 21 more developer resources.'
-random_paper: 4
+random_paper: 41
 scopes:
 - name: Altruist Scopes
   scope_count: 1
@@ -173,18 +175,21 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 41.0
+  delta: -0.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 60.9
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 50.0
   previous_composite: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/screenshots/altruist-2026-07-25T195845.png
 security:

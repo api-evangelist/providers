@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,12 +45,22 @@ apis:
 - description: Perform speech recognition on audio
   name: Google Cloud Speech-To-Text Speech API
   slug: google-cloud-speech-to-text-speech-api
-artifact_total: 12
+artifact_total: 14
 collections:
+- collection_type: postman
+  name: Google Cloud Speech-to-Text Operations API
+  slug: postman-google-cloud-speech-to-text-operations-api
+- collection_type: postman
+  name: Google Cloud -to-Text Operations Speech API
+  slug: postman-google-cloud-speech-to-text-speech-api
 - collection_type: open
   name: Google Cloud Speech-to-Text API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-speech-to-text/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -135,12 +147,12 @@ overview: 'Google Cloud Speech-To-Text publishes 2 APIs on the [APIs.io](https:/
   The Google Cloud Speech-To-Text catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Speech-To-Text''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 10 more developer resources.'
+  Google Cloud Speech-To-Text''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Cloud Speech To Text Plans Pricing
   plan_count: 3
   slug: google-cloud-speech-to-text-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Google Cloud Speech To Text Rate Limits
@@ -161,18 +173,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.5
-  delta: 4.6
+  composite: 59.9
+  delta: -2.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.9
-    developer_ergonomics: 45.7
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 63.6
+    developer_ergonomics: 50.0
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 57.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-speech-to-text/refs/heads/main/screenshots/google-cloud-speech-to-text-2026-06-20T182137.png
 security:

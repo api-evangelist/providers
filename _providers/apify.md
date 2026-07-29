@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,8 +57,31 @@ apis:
 - description: User and account management.
   name: Apify Users API
   slug: apify-users-api
-artifact_total: 47
+artifact_total: 53
+collections:
+- collection_type: postman
+  name: Apify Actor Runs API
+  slug: postman-apify-actor-runs-api
+- collection_type: postman
+  name: Apify Actor Runs Actors API
+  slug: postman-apify-actors-api
+- collection_type: postman
+  name: Apify Actor Runs Datasets API
+  slug: postman-apify-datasets-api
+- collection_type: postman
+  name: Apify Actor Runs Key-Value Stores API
+  slug: postman-apify-key-value-stores-api
+- collection_type: postman
+  name: Apify Actor Runs Request Queues API
+  slug: postman-apify-request-queues-api
+- collection_type: postman
+  name: Apify Actor Runs Users API
+  slug: postman-apify-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apify/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -216,12 +241,12 @@ overview: 'Apify publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Apify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apify''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, academy / training, and 12 more developer resources.'
+  Apify''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, academy / training, and 13 more developer resources.'
 plans:
 - name: Apify Plans Pricing
   plan_count: 3
   slug: apify-plans-pricing
-random_paper: 61
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Apify Rate Limits
@@ -245,19 +270,26 @@ rules:
   slug: apify-spectral-rules
 score:
   band: strong
-  composite: 66.2
-  delta: 0.0
+  composite: 59.7
+  delta: -6.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 77.9
-    developer_ergonomics: 52.2
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 66.1
+    developer_ergonomics: 56.5
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 66.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/screenshots/apify-2026-06-20T172249.png
 security:
 - kind: authentication

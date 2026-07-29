@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,8 +60,29 @@ apis:
 - description: Guest registration, authentication, and profile management.
   name: Punchh Users API
   slug: punchh-users-api
-artifact_total: 87
+artifact_total: 94
 collections:
+- collection_type: postman
+  name: PAR Punchh Mobile Check-In API
+  slug: postman-punchh-check-in-api
+- collection_type: postman
+  name: PAR Punchh Mobile Check-In Check-Ins API
+  slug: postman-punchh-check-ins-api
+- collection_type: postman
+  name: PAR Punchh Mobile Check-In Configuration API
+  slug: postman-punchh-configuration-api
+- collection_type: postman
+  name: PAR Punchh Mobile Check-In Offers API
+  slug: postman-punchh-offers-api
+- collection_type: postman
+  name: PAR Punchh Mobile Check-In Receipts API
+  slug: postman-punchh-receipts-api
+- collection_type: postman
+  name: PAR Punchh Mobile Check-In Redemptions API
+  slug: postman-punchh-redemptions-api
+- collection_type: postman
+  name: PAR Punchh Mobile Check-In Users API
+  slug: postman-punchh-users-api
 - collection_type: open
   name: PAR Punchh Mobile API
   slug: open-punchh-mobile
@@ -73,6 +96,10 @@ collections:
   name: PAR Punchh POS and Kiosk API
   slug: open-punchh-pos
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/punchh/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -342,12 +369,12 @@ overview: 'Punchh publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Punchh catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Punchh''s developer surface includes authentication, documentation, developer portal, getting-started guide, engineering blog, and 13 more developer resources.'
+  Punchh''s developer surface includes authentication, documentation, developer portal, getting-started guide, engineering blog, and 14 more developer resources.'
 plans:
 - name: Punchh Plans Pricing
   plan_count: 1
   slug: punchh-plans-pricing
-random_paper: 34
+random_paper: 30
 rate_limits:
 - limit_count: 4
   name: Punchh Rate Limits
@@ -370,20 +397,27 @@ rules:
     warn: 23
   slug: punchh-spectral-rules
 score:
-  band: strong
-  composite: 60.4
-  delta: 4.7
+  band: developing
+  composite: 52.8
+  delta: -7.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 80.0
+    contract_quality: 68.0
     developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 55.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:
 - kind: authentication

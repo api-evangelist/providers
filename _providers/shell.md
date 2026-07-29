@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -73,8 +75,41 @@ apis:
 - description: Retrieve fuel card transaction data
   name: Shell Transactions API
   slug: shell-transactions-api
-artifact_total: 59
+artifact_total: 70
 collections:
+- collection_type: postman
+  name: Shell B2B Mobility Accounts API
+  slug: postman-shell-accounts-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Cards API
+  slug: postman-shell-cards-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Catalogue API
+  slug: postman-shell-catalogue-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Invoices API
+  slug: postman-shell-invoices-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Limits API
+  slug: postman-shell-limits-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Offers API
+  slug: postman-shell-offers-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Orders API
+  slug: postman-shell-orders-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Points API
+  slug: postman-shell-points-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Products API
+  slug: postman-shell-products-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Sites API
+  slug: postman-shell-sites-api
+- collection_type: postman
+  name: Shell B2B Mobility Accounts Transactions API
+  slug: postman-shell-transactions-api
 - collection_type: open
   name: Shell B2B Mobility API
   slug: open-shell-b2b-mobility
@@ -85,6 +120,10 @@ collections:
   name: Shell Lubricants API
   slug: open-shell-lubricants
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/shell/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -289,12 +328,12 @@ overview: 'Shell publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Shell catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Shell''s developer surface includes authentication, getting-started guide, support, engineering blog, and 15 more developer resources.'
+  Shell''s developer surface includes authentication, getting-started guide, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Shell Plans Pricing
   plan_count: 1
   slug: shell-plans-pricing
-random_paper: 60
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Shell Rate Limits
@@ -323,18 +362,31 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: strong
-  composite: 60.8
-  delta: 4.3
+  composite: 57.4
+  delta: -3.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 74.9
-    developer_ergonomics: 37.0
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 76.0
+    developer_ergonomics: 41.3
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 56.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png
 security:

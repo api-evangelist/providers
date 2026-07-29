@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
+    openapi_examples: documented
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 1.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 26
 common:
@@ -203,21 +205,21 @@ overview: 'Promptfoo is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Promptfoo''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, tooling, code examples, and 27 more developer resources.'
-random_paper: 23
+random_paper: 42
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 20.9
+  delta: -1.7
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 22.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

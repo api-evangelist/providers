@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -447,8 +449,392 @@ apis:
 - description: UV index hourly and daily forecast endpoints.
   name: EPA — U.S. Environmental Protection Agency UV Index API
   slug: epa-uv-index-api
-artifact_total: 2032
+artifact_total: 2160
 collections:
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes API
+  slug: postman-epa-account-type-codes-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Accounts API
+  slug: postman-epa-accounts-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Air Emission Testing API
+  slug: postman-epa-air-emission-testing-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Allowance Compliance API
+  slug: postman-epa-allowance-compliance-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Allowance Holdings API
+  slug: postman-epa-allowance-holdings-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Allowance Transactions API
+  slug: postman-epa-allowance-transactions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Analysis Services API
+  slug: postman-epa-analysis-services-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Analyzer Ranges API
+  slug: postman-epa-analyzer-ranges-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Annual Data API
+  slug: postman-epa-annual-data-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Appendix E Correlation Test Run API
+  slug: postman-epa-appendix-e-correlation-test-run-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Appendix E Correlation Test Summary API
+  slug: postman-epa-appendix-e-correlation-test-summary-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Appendix E Heat Input From Gas API
+  slug: postman-epa-appendix-e-heat-input-from-gas-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Appendix E Heat Input From Oil API
+  slug: postman-epa-appendix-e-heat-input-from-oil-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Annual Emissions API
+  slug: postman-epa-apportioned-annual-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Daily Emissions API
+  slug: postman-epa-apportioned-daily-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Emissions API
+  slug: postman-epa-apportioned-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Hourly Emissions API
+  slug: postman-epa-apportioned-hourly-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Hourly MATS Emissions API
+  slug: postman-epa-apportioned-hourly-mats-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned MATS Emissions API
+  slug: postman-epa-apportioned-mats-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Monthly Emissions API
+  slug: postman-epa-apportioned-monthly-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Ozone Emissions API
+  slug: postman-epa-apportioned-ozone-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Apportioned Quarterly Emissions API
+  slug: postman-epa-apportioned-quarterly-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Attributes API
+  slug: postman-epa-attributes-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Bap API
+  slug: postman-epa-bap-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Bulk Files API
+  slug: postman-epa-bulk-files-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Calibration Injection API
+  slug: postman-epa-calibration-injection-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Case Enforcement API
+  slug: postman-epa-case-enforcement-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes CIP Indexing Services API
+  slug: postman-epa-cip-indexing-services-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Codes & Descriptions API
+  slug: postman-epa-codes-descriptions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Comments API
+  slug: postman-epa-comments-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Components API
+  slug: postman-epa-components-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Config API
+  slug: postman-epa-config-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Configurations API
+  slug: postman-epa-configurations-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Contact API
+  slug: postman-epa-contact-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Control Codes API
+  slug: postman-epa-control-codes-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Custom Search API
+  slug: postman-epa-custom-search-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Cycle Time Injection API
+  slug: postman-epa-cycle-time-injection-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Cycle Time Summary API
+  slug: postman-epa-cycle-time-summary-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Daily Data API
+  slug: postman-epa-daily-data-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Data Service API
+  slug: postman-epa-data-service-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Defaults API
+  slug: postman-epa-defaults-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Detailed Facility Report API
+  slug: postman-epa-detailed-facility-report-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Effluent Charts API
+  slug: postman-epa-effluent-charts-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Emissions API
+  slug: postman-epa-emissions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Emissions Compliance API
+  slug: postman-epa-emissions-compliance-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Emissions Views API
+  slug: postman-epa-emissions-views-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Facilities API
+  slug: postman-epa-facilities-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Facility Info API
+  slug: postman-epa-facility-info-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Facility Information API
+  slug: postman-epa-facility-information-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Flow Rata Run API
+  slug: postman-epa-flow-rata-run-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Flow To Load Check API
+  slug: postman-epa-flow-to-load-check-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Flow To Load Reference API
+  slug: postman-epa-flow-to-load-reference-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Formio API
+  slug: postman-epa-formio-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Formulas API
+  slug: postman-epa-formulas-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Fuel Flow To Load Baseline API
+  slug: postman-epa-fuel-flow-to-load-baseline-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Fuel Flow To Load Test API
+  slug: postman-epa-fuel-flow-to-load-test-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Fuel Flowmeter Accuracy API
+  slug: postman-epa-fuel-flowmeter-accuracy-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Fuel Type Codes API
+  slug: postman-epa-fuel-type-codes-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Glossary API
+  slug: postman-epa-glossary-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes GraphQL API
+  slug: postman-epa-graphql-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Health API
+  slug: postman-epa-health-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Help API
+  slug: postman-epa-help-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Hg Injection API
+  slug: postman-epa-hg-injection-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Hg Summary API
+  slug: postman-epa-hg-summary-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes How's My Waterway API
+  slug: postman-epa-how-s-my-waterway-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes LEE Qualifications API
+  slug: postman-epa-lee-qualifications-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Linearity Injection API
+  slug: postman-epa-linearity-injection-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Linearity Summary API
+  slug: postman-epa-linearity-summary-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Lists API
+  slug: postman-epa-lists-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes LME Qualifications API
+  slug: postman-epa-lme-qualifications-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Loads API
+  slug: postman-epa-loads-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Locations API
+  slug: postman-epa-locations-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Login API
+  slug: postman-epa-login-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Logout API
+  slug: postman-epa-logout-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Lookups API
+  slug: postman-epa-lookups-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes MATS Methods API
+  slug: postman-epa-mats-methods-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Meta Data API
+  slug: postman-epa-meta-data-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Metadata API
+  slug: postman-epa-metadata-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Methods API
+  slug: postman-epa-methods-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Monitors API
+  slug: postman-epa-monitors-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Online Offline Calibration API
+  slug: postman-epa-online-offline-calibration-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes PCT Qualifications API
+  slug: postman-epa-pct-qualifications-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Plans API
+  slug: postman-epa-plans-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Point Source Categories API
+  slug: postman-epa-point-source-categories-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Pollutants API
+  slug: postman-epa-pollutants-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Program Codes API
+  slug: postman-epa-program-codes-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Protocol Gas API
+  slug: postman-epa-protocol-gas-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes QA Certification API
+  slug: postman-epa-qa-certification-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes QA Certification Event API
+  slug: postman-epa-qa-certification-event-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Qualifications API
+  slug: postman-epa-qualifications-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Quality Assurance API
+  slug: postman-epa-quality-assurance-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Quarterly Data API
+  slug: postman-epa-quarterly-data-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Rata API
+  slug: postman-epa-rata-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Rata Run API
+  slug: postman-epa-rata-run-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Rata Summary API
+  slug: postman-epa-rata-summary-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Rata Traverse API
+  slug: postman-epa-rata-traverse-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Rectangular Duct WAF API
+  slug: postman-epa-rectangular-duct-waf-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Relationships API
+  slug: postman-epa-relationships-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Reporting Frequencies API
+  slug: postman-epa-reporting-frequencies-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Reporting Periods API
+  slug: postman-epa-reporting-periods-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Reports API
+  slug: postman-epa-reports-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Resource Conservation and Recovery Act API
+  slug: postman-epa-resource-conservation-and-recovery-act-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Safe Drinking Water API
+  slug: postman-epa-safe-drinking-water-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Sample Data API
+  slug: postman-epa-sample-data-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Sign Up API
+  slug: postman-epa-sign-up-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Spans API
+  slug: postman-epa-spans-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Status API
+  slug: postman-epa-status-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Support API
+  slug: postman-epa-support-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes System Components API
+  slug: postman-epa-system-components-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes System Fuel Flows API
+  slug: postman-epa-system-fuel-flows-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Systems API
+  slug: postman-epa-systems-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Test Extension Exemption API
+  slug: postman-epa-test-extension-exemption-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Test Qualification API
+  slug: postman-epa-test-qualification-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Test Summary API
+  slug: postman-epa-test-summary-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Transactions API
+  slug: postman-epa-transactions-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Transmitter Transducer Accuracy API
+  slug: postman-epa-transmitter-transducer-accuracy-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Treatment Technologies API
+  slug: postman-epa-treatment-technologies-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Capacities API
+  slug: postman-epa-unit-capacities-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Controls API
+  slug: postman-epa-unit-controls-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Default Test API
+  slug: postman-epa-unit-default-test-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Default Test Run API
+  slug: postman-epa-unit-default-test-run-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Fuels API
+  slug: postman-epa-unit-fuels-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Programs API
+  slug: postman-epa-unit-programs-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Unit Type Codes API
+  slug: postman-epa-unit-type-codes-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Units API
+  slug: postman-epa-units-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes User API
+  slug: postman-epa-user-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes Utility Services API
+  slug: postman-epa-utility-services-api
+- collection_type: postman
+  name: EPA Air Quality System (AQS) Account Type Codes UV Index API
+  slug: postman-epa-uv-index-api
 - collection_type: open
   name: EPA Air Quality System (AQS) API
   slug: open-aqs
@@ -516,6 +902,10 @@ collections:
   name: US EPA How's My Waterway
   slug: open-mywaterway
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/epa--us-environmental-protection-agency/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -6214,8 +6604,8 @@ overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on th
   The EPA — U.S. Environmental Protection Agency catalog on APIs.io includes 23 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  EPA — U.S. Environmental Protection Agency''s developer surface includes authentication, API reference, getting-started guide, documentation, engineering blog, YouTube channel, support, and 18 more developer resources.'
-random_paper: 38
+  EPA — U.S. Environmental Protection Agency''s developer surface includes authentication, API reference, getting-started guide, documentation, engineering blog, YouTube channel, support, and 19 more developer resources.'
+random_paper: 2
 rate_limits:
 - limit_count: 11
   name: Epa Rate Limits
@@ -6239,23 +6629,31 @@ rules:
   slug: epa-rules
 score:
   band: strong
-  composite: 60.5
-  delta: 4.0
+  composite: 57.1
+  delta: -3.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.0
-    developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 70.6
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 56.5
+  previous_composite: 60.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 128
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 55.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:

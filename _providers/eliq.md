@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The Eliq Auth API authenticates client applications and issues access tokens used to call the Insights, Data Management, and Intelligence APIs. It supports the credential flows required for utility-si
@@ -95,25 +97,31 @@ plans:
 - name: Eliq Plans Pricing
   plan_count: 3
   slug: eliq-plans-pricing
-random_paper: 19
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Eliq Rate Limits
   slug: eliq-rate-limits
 score:
   band: emerging
-  composite: 24.1
-  delta: 0.0
+  composite: 20.1
+  delta: -4.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 24.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 8.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eliq/refs/heads/main/screenshots/eliq-2026-06-20T180608.png
 security:

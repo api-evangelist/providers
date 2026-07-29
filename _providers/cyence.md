@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Partner-gated REST API that exposes Cyence cyber risk analytics — exposure signals, breach-probability and loss estimates, and portfolio accumulation data — for pricing, risk selection, and underwriti
@@ -77,26 +79,27 @@ overview: 'Cyence publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cyence''s developer surface includes documentation, API reference, engineering blog, and 5 more developer resources.'
-random_paper: 19
+random_paper: 15
 score:
   band: emerging
-  composite: 17.5
-  delta: 0.0
+  composite: 14.7
+  delta: -2.8
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 26.1
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 16.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyence/refs/heads/main/screenshots/cyence-2026-07-25T211038.png
 security:

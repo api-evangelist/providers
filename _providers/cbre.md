@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,25 +165,32 @@ press:
 - date: '2026-05-25'
   title: Companies Add Artificial Intelligence Expertise with ...
   url: https://www.cbre.com/press-releases/companies-add-artificial-intelligence-expertise-with-specialized-jobs-skills-amid-slower-tech-talent
-random_paper: 4
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Cbre Rate Limits
   slug: cbre-rate-limits
 score:
   band: thin
-  composite: 41.6
-  delta: 3.2
+  composite: 39.7
+  delta: -1.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.2
+    contract_quality: 61.9
     developer_ergonomics: 19.6
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 41.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cbre/refs/heads/main/screenshots/cbre-2026-06-20T174059.png
 security:

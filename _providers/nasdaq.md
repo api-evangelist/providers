@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Real-time Nasdaq market data delivered over Apache Kafka (TLS) with SASL/OAUTHBEARER authentication against a Keycloak pro-realm token endpoint. Topics documented in the NCDS Java and Python SDKs: GID'
@@ -61,7 +63,7 @@ overview: 'Nasdaq publishes 1 API on the [APIs.io](https://apis.io/) network: Cl
 
 
   The Nasdaq catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 20
+random_paper: 16
 rules:
 - name: Nasdaq API Rules
   rule_count: 6
@@ -73,18 +75,18 @@ rules:
   slug: nasdaq-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 19.6
-  delta: 0.0
+  composite: 23.8
+  delta: 4.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 0.0
-    discoverability: 60.0
-    governance: 60.5
+    discoverability: 44.4
+    governance: 47.9
     operational_transparency: 5.3
   previous_composite: 19.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/screenshots/nasdaq-2026-06-20T190000.png
 security:

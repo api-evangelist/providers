@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -173,7 +175,7 @@ plans:
 - name: Formstack Plans Pricing
   plan_count: 1
   slug: formstack-plans-pricing
-random_paper: 18
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Formstack Rate Limits
@@ -185,18 +187,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 42.6
-  delta: 3.2
+  composite: 40.4
+  delta: -2.2
   facets:
     commercial_clarity: 36.8
-    contract_quality: 61.9
+    contract_quality: 63.1
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 39.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 42.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 88.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/screenshots/formstack-2026-06-20T181438.png
 security:

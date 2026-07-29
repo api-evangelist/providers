@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -156,7 +158,7 @@ overview: 'Gateway Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Gateway Bank''s developer surface includes authentication, documentation, and 18 more developer resources.'
-random_paper: 55
+random_paper: 56
 scopes:
 - name: Gateway Bank Scopes
   scope_count: 5
@@ -164,23 +166,34 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 39.4
+  delta: -2.2
   facets:
     commercial_clarity: 18.4
-    contract_quality: 54.0
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.0
+    developer_ergonomics: 23.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 7.9
   previous_composite: 41.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 72.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/screenshots/gateway-bank-2026-07-21T114722.png
 security:

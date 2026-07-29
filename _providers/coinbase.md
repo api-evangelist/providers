@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -124,7 +126,7 @@ apis:
 - description: Manage crypto withdrawals from exchange accounts to external addresses or Coinbase accounts.
   name: Coinbase Withdrawals API
   slug: coinbase-withdrawals-api
-artifact_total: 93
+artifact_total: 119
 asyncapis:
 - description: The Coinbase Advanced Trade WebSocket API provides real-time market data streaming including heartbeats, ticker updates, candle data, market trades, level2 order book updates, and user order status ch
   name: Coinbase Advanced Trade WebSocket
@@ -136,6 +138,84 @@ asyncapis:
   name: Coinbase Exchange WebSocket Feed
   slug: coinbase-exchange-asyncapi
 collections:
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts API
+  slug: postman-coinbase-accounts-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Activities API
+  slug: postman-coinbase-activities-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Address Book API
+  slug: postman-coinbase-address-book-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Allocations API
+  slug: postman-coinbase-allocations-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Assets API
+  slug: postman-coinbase-assets-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Balances API
+  slug: postman-coinbase-balances-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Buy API
+  slug: postman-coinbase-buy-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Charges API
+  slug: postman-coinbase-charges-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Checkouts API
+  slug: postman-coinbase-checkouts-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Conversions API
+  slug: postman-coinbase-conversions-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Currencies API
+  slug: postman-coinbase-currencies-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Deposits API
+  slug: postman-coinbase-deposits-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Events API
+  slug: postman-coinbase-events-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Fees API
+  slug: postman-coinbase-fees-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Invoices API
+  slug: postman-coinbase-invoices-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Market Data API
+  slug: postman-coinbase-market-data-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Orders API
+  slug: postman-coinbase-orders-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Portfolios API
+  slug: postman-coinbase-portfolios-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Products API
+  slug: postman-coinbase-products-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Profiles API
+  slug: postman-coinbase-profiles-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Sell API
+  slug: postman-coinbase-sell-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Session API
+  slug: postman-coinbase-session-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Transactions API
+  slug: postman-coinbase-transactions-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Users API
+  slug: postman-coinbase-users-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Wallets API
+  slug: postman-coinbase-wallets-api
+- collection_type: postman
+  name: Coinbase Advanced Trade Accounts Withdrawals API
+  slug: postman-coinbase-withdrawals-api
 - collection_type: open
   name: Coinbase Advanced Trade API
   slug: open-coinbase-advanced-trade
@@ -152,6 +232,10 @@ collections:
   name: Coinbase Prime API
   slug: open-coinbase-prime
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/coinbase/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -393,12 +477,12 @@ overview: 'Coinbase publishes 26 APIs on the [APIs.io](https://apis.io/) network
   The Coinbase catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Coinbase''s developer surface includes authentication, documentation, engineering blog, GitHub presence, support, and 15 more developer resources.'
+  Coinbase''s developer surface includes authentication, documentation, engineering blog, GitHub presence, support, and 16 more developer resources.'
 plans:
 - name: Coinbase Plans Pricing
   plan_count: 11
   slug: coinbase-plans-pricing
-random_paper: 20
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Coinbase Rate Limits
@@ -430,23 +514,31 @@ rules:
   slug: coinbase-rules
 score:
   band: strong
-  composite: 60.3
-  delta: 1.1
+  composite: 57.2
+  delta: -3.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 72.8
-    developer_ergonomics: 34.8
-    discoverability: 80.0
-    governance: 52.6
+    contract_quality: 77.5
+    developer_ergonomics: 39.1
+    discoverability: 59.3
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 59.2
+  previous_composite: 60.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png
 security:

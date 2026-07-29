@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The NodeZero API is a publicly accessible GraphQL API that exposes a subset of the Horizon3.ai Portal: schedule and control autonomous pentest operations, and read pentests, ops, weaknesses, attack pa'
@@ -197,27 +199,31 @@ overview: 'Horizon3.ai publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Horizon3.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 28 more developer resources.'
-random_paper: 10
+random_paper: 29
 scopes:
 - name: Horizon3Ai Scopes
   scope_count: 2
   slug: horizon3ai-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.8
-  delta: 0.0
+  band: strong
+  composite: 56.0
+  delta: 7.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 22.6
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 64.7
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 60.5
   previous_composite: 48.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/screenshots/horizon3ai-2026-07-25T221429.png
 security:
 - kind: authentication

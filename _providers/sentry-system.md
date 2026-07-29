@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -758,7 +760,7 @@ plans:
 - name: Sentry System Plans Pricing
   plan_count: 4
   slug: sentry-system-plans-pricing
-random_paper: 39
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Sentry System Rate Limits
@@ -779,18 +781,27 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 77.5
-  delta: 4.7
+  composite: 77.8
+  delta: 0.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 76.0
+    contract_quality: 77.0
     developer_ergonomics: 71.7
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 85.2
+    governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 72.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 77.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/screenshots/sentry-system-2026-06-20T193714.png
 security:

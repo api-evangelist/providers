@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 19
 common:
@@ -106,25 +108,25 @@ plans:
 - name: 7 Eleven Plans Pricing
   plan_count: 1
   slug: 7-eleven-plans-pricing
-random_paper: 59
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: 7 Eleven Rate Limits
   slug: 7-eleven-rate-limits
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 18.7
+  delta: -1.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 42.5
+    discoverability: 31.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 19.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/screenshots/7-eleven-2026-06-20T162752.png
 security:

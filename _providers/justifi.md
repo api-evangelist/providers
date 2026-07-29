@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: true
-    mcp_server: true
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -250,26 +252,37 @@ overview: 'JustiFi publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 
 
   JustiFi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 20 more developer resources.'
-random_paper: 18
+random_paper: 73
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 49.6
+  delta: -3.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 60.4
-    developer_ergonomics: 82.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 71.2
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 21.1
   previous_composite: 53.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 53.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/screenshots/justifi-2026-07-25T223338.png
 security:

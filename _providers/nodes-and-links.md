@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Production API for the Nodes & Links project-controls platform, served from AWS API Gateway with OAuth bearer-token authentication. The full API reference is served inside the authenticated developer '
@@ -110,21 +112,23 @@ overview: 'Nodes and Links publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Nodes and Links'' developer surface includes documentation, signup flow, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 51
+random_paper: 16
 score:
   band: emerging
-  composite: 28.1
-  delta: 0.0
+  composite: 27.9
+  delta: -0.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 28.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 31.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -229,21 +231,31 @@ overview: 'Brickwork publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brickwork''s developer surface includes documentation, API reference, pricing, support, authentication, and 14 more developer resources.'
-random_paper: 22
+random_paper: 50
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 38.3
+  delta: -2.3
   facets:
     commercial_clarity: 31.6
-    contract_quality: 50.8
-    developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 52.9
+    developer_ergonomics: 42.9
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 40.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/screenshots/brickwork-2026-07-25T203804.png
 security:

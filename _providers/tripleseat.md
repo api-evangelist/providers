@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -58,16 +60,41 @@ apis:
 - description: Retrieve Tripleseat users.
   name: Tripleseat Users API
   slug: tripleseat-users-api
-artifact_total: 71
+artifact_total: 78
 asyncapis:
 - description: Tripleseat webhooks POST a JSON package to a subscriber URL when a lead or booking lifecycle event occurs. Each request carries an X-Signature header computed with SHA256-HMAC using the webhook endpoi
   name: Tripleseat Webhooks
   slug: tripleseat-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Tripleseat Accounts API
+  slug: postman-tripleseat-accounts-api
+- collection_type: postman
+  name: Tripleseat Accounts Contacts API
+  slug: postman-tripleseat-contacts-api
+- collection_type: postman
+  name: Tripleseat Accounts Events API
+  slug: postman-tripleseat-events-api
+- collection_type: postman
+  name: Tripleseat Accounts Leads API
+  slug: postman-tripleseat-leads-api
+- collection_type: postman
+  name: Tripleseat Accounts Locations API
+  slug: postman-tripleseat-locations-api
+- collection_type: postman
+  name: Tripleseat Accounts Sites API
+  slug: postman-tripleseat-sites-api
+- collection_type: postman
+  name: Tripleseat Accounts Users API
+  slug: postman-tripleseat-users-api
 - collection_type: open
   name: Tripleseat API
   slug: open-tripleseat
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tripleseat/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -302,12 +329,12 @@ overview: 'Tripleseat publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Tripleseat catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Tripleseat''s developer surface includes authentication, documentation, support, engineering blog, pricing, and 14 more developer resources.'
+  Tripleseat''s developer surface includes authentication, documentation, support, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Tripleseat Plans Pricing
   plan_count: 5
   slug: tripleseat-plans-pricing
-random_paper: 65
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Tripleseat Rate Limits
@@ -344,19 +371,26 @@ scopes:
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 62.7
-  delta: 5.4
+  composite: 59.4
+  delta: -3.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 92.9
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 65.8
+    contract_quality: 93.2
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 52.1
     operational_transparency: 36.8
-  previous_composite: 57.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 62.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/screenshots/tripleseat-2026-06-20T195730.png
 security:
 - kind: authentication

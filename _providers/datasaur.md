@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.5
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -173,22 +175,26 @@ overview: 'Datasaur is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Datasaur''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 37
+random_paper: 6
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 51.6
+  delta: 5.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 22.6
-    developer_ergonomics: 73.9
-    discoverability: 67.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 62.5
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 52.6
   previous_composite: 46.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/screenshots/datasaur-2026-07-25T211356.png
 security:
 - kind: authentication

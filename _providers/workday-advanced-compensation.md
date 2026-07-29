@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -235,7 +237,7 @@ plans:
 - name: Workday Advanced Compensation Plans Pricing
   plan_count: 3
   slug: workday-advanced-compensation-plans-pricing
-random_paper: 53
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Workday Advanced Compensation Rate Limits
@@ -264,19 +266,26 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 59.6
-  delta: 2.9
+  composite: 53.2
+  delta: -6.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 80.5
+    contract_quality: 68.6
     developer_ergonomics: 32.6
-    discoverability: 50.0
-    governance: 86.8
+    discoverability: 37.0
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 56.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 59.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/screenshots/workday-advanced-compensation-2026-06-20T201555.png
 security:
 - kind: authentication

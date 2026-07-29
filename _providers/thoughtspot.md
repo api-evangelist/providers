@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 62.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 13
@@ -207,12 +209,188 @@ apis:
 - description: The Webhooks API from ThoughtSpot — 5 operation(s) for webhooks.
   name: ThoughtSpot Webhooks API
   slug: thoughtspot-webhooks-api
-artifact_total: 63
+artifact_total: 120
 asyncapis:
 - description: ''
   name: Thoughtspot Webhooks
   slug: thoughtspot-webhooks
+collections:
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl API
+  slug: postman-thoughtspot-10-1-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.10.0.cl API
+  slug: postman-thoughtspot-10-10-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.12.0.cl API
+  slug: postman-thoughtspot-10-12-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.13.0.cl API
+  slug: postman-thoughtspot-10-13-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.14.0.cl API
+  slug: postman-thoughtspot-10-14-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.15.0.cl API
+  slug: postman-thoughtspot-10-15-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.3.0.cl API
+  slug: postman-thoughtspot-10-3-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.4.0.cl API
+  slug: postman-thoughtspot-10-4-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.6.0.cl API
+  slug: postman-thoughtspot-10-6-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.7.0.cl API
+  slug: postman-thoughtspot-10-7-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.8.0.cl API
+  slug: postman-thoughtspot-10-8-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 10.9.0.cl API
+  slug: postman-thoughtspot-10-9-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 26.2.0.cl API
+  slug: postman-thoughtspot-26-2-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 26.3.0.cl API
+  slug: postman-thoughtspot-26-3-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 26.4.0.cl API
+  slug: postman-thoughtspot-26-4-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 26.5.0.cl API
+  slug: postman-thoughtspot-26-5-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 26.6.0.cl API
+  slug: postman-thoughtspot-26-6-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 26.7.0.cl API
+  slug: postman-thoughtspot-26-7-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 26.8.0.cl API
+  slug: postman-thoughtspot-26-8-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 26.9.0.cl API
+  slug: postman-thoughtspot-26-9-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 9.0.0.cl API
+  slug: postman-thoughtspot-9-0-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 9.12.0.cl API
+  slug: postman-thoughtspot-9-12-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 9.2.0.cl API
+  slug: postman-thoughtspot-9-2-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 9.4.0.cl API
+  slug: postman-thoughtspot-9-4-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 9.5.0.cl API
+  slug: postman-thoughtspot-9-5-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 9.6.0.cl API
+  slug: postman-thoughtspot-9-6-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 9.7.0.cl API
+  slug: postman-thoughtspot-9-7-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl 9.9.0.cl API
+  slug: postman-thoughtspot-9-9-0-cl-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl AI API
+  slug: postman-thoughtspot-ai-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Authentication API
+  slug: postman-thoughtspot-authentication-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Collections API
+  slug: postman-thoughtspot-collections-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Connection Configurations API
+  slug: postman-thoughtspot-connection-configurations-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Connections API
+  slug: postman-thoughtspot-connections-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Custom Action API
+  slug: postman-thoughtspot-custom-action-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Custom Calendars API
+  slug: postman-thoughtspot-custom-calendars-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Data API
+  slug: postman-thoughtspot-data-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl DBT API
+  slug: postman-thoughtspot-dbt-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Email Customization API
+  slug: postman-thoughtspot-email-customization-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Groups API
+  slug: postman-thoughtspot-groups-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Input Tables API
+  slug: postman-thoughtspot-input-tables-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Jobs API
+  slug: postman-thoughtspot-jobs-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Log API
+  slug: postman-thoughtspot-log-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Manual Translation API
+  slug: postman-thoughtspot-manual-translation-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Metadata API
+  slug: postman-thoughtspot-metadata-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Orgs API
+  slug: postman-thoughtspot-orgs-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Reports API
+  slug: postman-thoughtspot-reports-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Roles API
+  slug: postman-thoughtspot-roles-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Schedules API
+  slug: postman-thoughtspot-schedules-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Security API
+  slug: postman-thoughtspot-security-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Semantic Integrations API
+  slug: postman-thoughtspot-semantic-integrations-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Style Customization API
+  slug: postman-thoughtspot-style-customization-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl System API
+  slug: postman-thoughtspot-system-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Tags API
+  slug: postman-thoughtspot-tags-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Users API
+  slug: postman-thoughtspot-users-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Variable API
+  slug: postman-thoughtspot-variable-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Version Control API
+  slug: postman-thoughtspot-version-control-api
+- collection_type: postman
+  name: ThoughtSpot Public REST 10.1.0.cl Webhooks API
+  slug: postman-thoughtspot-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/thoughtspot/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -355,22 +533,32 @@ overview: 'ThoughtSpot publishes 57 APIs on the [APIs.io](https://apis.io/) netw
   The ThoughtSpot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ThoughtSpot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 1
+  ThoughtSpot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+random_paper: 70
 score:
   band: strong
   composite: 60.0
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.5
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 57.5
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 57
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

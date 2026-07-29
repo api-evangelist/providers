@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Lead and CRM integration surface. Includes the outbound Lead Forwarding Service (forwards incoming and processed dealership lead data to a third-party vendor as XML or email), inbound Activity Insert/
@@ -78,21 +80,21 @@ overview: 'DealerSocket publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   DealerSocket''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 46
+random_paper: 38
 score:
   band: minimal
-  composite: 10.5
-  delta: 0.0
+  composite: 8.2
+  delta: -2.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/screenshots/dealersocket-2026-07-25T211514.png
 security:

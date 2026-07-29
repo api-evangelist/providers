@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Core Angular 17 framework APIs featuring stable Signals for reactive state management, deferrable views (@defer blocks) for lazy loading template dependencies, new built-in control flow syntax (@if, @
@@ -128,25 +130,25 @@ plans:
 - name: Angular 17 Plans Pricing
   plan_count: 3
   slug: angular-17-plans-pricing
-random_paper: 11
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Angular 17 Rate Limits
   slug: angular-17-rate-limits
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 23.8
+  delta: -2.4
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 26.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-17/refs/heads/main/screenshots/angular-17-2026-06-20T171956.png
 security:

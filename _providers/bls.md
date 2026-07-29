@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -161,7 +163,7 @@ plans:
 - name: Bls Plans Pricing
   plan_count: 2
   slug: bls-plans-pricing
-random_paper: 49
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Bls Rate Limits
@@ -177,23 +179,31 @@ rules:
   slug: bls-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 46.3
+  delta: -4.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 76.1
+    contract_quality: 75.1
     developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 51.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bls/refs/heads/main/screenshots/bls-2026-06-20T173523.png
 security:

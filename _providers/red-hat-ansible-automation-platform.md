@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: 'Enterprise REST API for the Red Hat Ansible Automation Controller providing centralized management of automation jobs, workflows, inventories, credentials, and RBAC with enterprise authentication and '
@@ -145,25 +147,25 @@ plans:
 - name: Red Hat Ansible Automation Platform Plans Pricing
   plan_count: 3
   slug: red-hat-ansible-automation-platform-plans-pricing
-random_paper: 36
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Red Hat Ansible Automation Platform Rate Limits
   slug: red-hat-ansible-automation-platform-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 35.4
+  delta: -2.6
   facets:
     commercial_clarity: 71.1
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 38.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/screenshots/red-hat-ansible-automation-platform-2026-06-20T192716.png
 security:

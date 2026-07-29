@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -55,8 +57,26 @@ apis:
 - description: Run analytical queries against Keen event collections.
   name: Keen Queries API
   slug: keen-queries-api
-artifact_total: 24
+artifact_total: 30
 collections:
+- collection_type: postman
+  name: Keen Cached Queries API
+  slug: postman-keen-cached-queries-api
+- collection_type: postman
+  name: Keen Cached Queries Collections API
+  slug: postman-keen-collections-api
+- collection_type: postman
+  name: Keen Cached Queries Events API
+  slug: postman-keen-events-api
+- collection_type: postman
+  name: Keen Cached Queries Extractions API
+  slug: postman-keen-extractions-api
+- collection_type: postman
+  name: Keen Cached Queries API
+  slug: postman-keen-queries-api
+- collection_type: postman
+  name: Keen Cached Queries Saved Queries API
+  slug: postman-keen-saved-queries-api
 - collection_type: open
   name: Keen Cached Queries API
   slug: open-keen-cached-queries-api
@@ -73,6 +93,10 @@ collections:
   name: Keen Saved Queries API
   slug: open-keen-saved-queries-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/keen/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -183,12 +207,12 @@ overview: 'Keen publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
   The Keen catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Keen''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, signup flow, and 11 more developer resources.'
+  Keen''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, signup flow, and 12 more developer resources.'
 plans:
 - name: Keen Plans Pricing
   plan_count: 4
   slug: keen-plans-pricing
-random_paper: 11
+random_paper: 34
 rate_limits:
 - limit_count: 13
   name: Keen Rate Limits
@@ -204,18 +228,25 @@ rules:
   slug: keen-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 66.3
-  delta: 2.0
+  composite: 63.5
+  delta: -2.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 60.2
-    developer_ergonomics: 50.0
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 61.9
+    developer_ergonomics: 54.3
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 64.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/screenshots/keen-2026-06-20T183935.png
 security:

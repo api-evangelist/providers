@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.3
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: The API Authentication API from Unitary AI — 1 operation(s) for api authentication.
@@ -157,21 +159,30 @@ overview: 'Unitary AI publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Unitary AI''s developer surface includes documentation, getting-started guide, API reference, authentication, engineering blog, support, and 16 more developer resources.'
-random_paper: 7
+random_paper: 26
 score:
   band: thin
-  composite: 43.2
-  delta: 0.0
+  composite: 40.3
+  delta: -2.9
   facets:
     commercial_clarity: 18.4
-    contract_quality: 64.1
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 59.3
+    developer_ergonomics: 47.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 43.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

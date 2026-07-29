@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 178
   human_in_the_loop: 2
@@ -151,12 +153,128 @@ apis:
 - description: A webhook is a way to receive events that occur on the PagerDuty platform via an HTTP POST request. V3 webhooks are set up by creating a webhook subscription.
   name: PagerDuty Webhooks API
   slug: pagerduty-webhooks-api
-artifact_total: 63
+artifact_total: 100
 asyncapis:
 - description: 'AsyncAPI description of PagerDuty''s event-driven surface. Two complementary channels are modelled: 1. Outbound V3 Webhooks — PagerDuty POSTs a JSON envelope to subscriber URLs whenever a configured in'
   name: PagerDuty Events
   slug: pagerduty-events-asyncapi
+collections:
+- collection_type: postman
+  name: PagerDuty Abilities API
+  slug: postman-pagerduty-abilities-api
+- collection_type: postman
+  name: PagerDuty Abilities Add-Ons API
+  slug: postman-pagerduty-add-ons-api
+- collection_type: postman
+  name: PagerDuty Abilities Alert Grouping Settings API
+  slug: postman-pagerduty-alert-grouping-settings-api
+- collection_type: postman
+  name: PagerDuty Abilities Analytics API
+  slug: postman-pagerduty-analytics-api
+- collection_type: postman
+  name: PagerDuty Abilities Audit API
+  slug: postman-pagerduty-audit-api
+- collection_type: postman
+  name: PagerDuty Abilities Automation Actions API
+  slug: postman-pagerduty-automation-actions-api
+- collection_type: postman
+  name: PagerDuty Abilities Business Services API
+  slug: postman-pagerduty-business-services-api
+- collection_type: postman
+  name: PagerDuty Abilities Change Events API
+  slug: postman-pagerduty-change-events-api
+- collection_type: postman
+  name: PagerDuty Abilities Change Tags API
+  slug: postman-pagerduty-change-tags-api
+- collection_type: postman
+  name: PagerDuty Abilities Custom Fields API
+  slug: postman-pagerduty-custom-fields-api
+- collection_type: postman
+  name: PagerDuty Abilities Escalation Policies API
+  slug: postman-pagerduty-escalation-policies-api
+- collection_type: postman
+  name: PagerDuty Abilities Event Orchestrations API
+  slug: postman-pagerduty-event-orchestrations-api
+- collection_type: postman
+  name: PagerDuty Abilities Extension Schemas API
+  slug: postman-pagerduty-extension-schemas-api
+- collection_type: postman
+  name: PagerDuty Abilities Extensions API
+  slug: postman-pagerduty-extensions-api
+- collection_type: postman
+  name: PagerDuty Abilities Incident Workflows API
+  slug: postman-pagerduty-incident-workflows-api
+- collection_type: postman
+  name: PagerDuty Abilities Incidents API
+  slug: postman-pagerduty-incidents-api
+- collection_type: postman
+  name: PagerDuty Abilities Licenses API
+  slug: postman-pagerduty-licenses-api
+- collection_type: postman
+  name: PagerDuty Abilities Log Entries API
+  slug: postman-pagerduty-log-entries-api
+- collection_type: postman
+  name: PagerDuty Abilities Maintenance Windows API
+  slug: postman-pagerduty-maintenance-windows-api
+- collection_type: postman
+  name: PagerDuty Abilities Notifications API
+  slug: postman-pagerduty-notifications-api
+- collection_type: postman
+  name: PagerDuty Abilities On-Calls API
+  slug: postman-pagerduty-on-calls-api
+- collection_type: postman
+  name: PagerDuty Abilities Paused Incident Reports API
+  slug: postman-pagerduty-paused-incident-reports-api
+- collection_type: postman
+  name: PagerDuty Abilities Priorities API
+  slug: postman-pagerduty-priorities-api
+- collection_type: postman
+  name: PagerDuty Abilities Response Plays API
+  slug: postman-pagerduty-response-plays-api
+- collection_type: postman
+  name: PagerDuty Abilities Rulesets API
+  slug: postman-pagerduty-rulesets-api
+- collection_type: postman
+  name: PagerDuty Abilities Schedules API
+  slug: postman-pagerduty-schedules-api
+- collection_type: postman
+  name: PagerDuty Abilities Service Dependencies API
+  slug: postman-pagerduty-service-dependencies-api
+- collection_type: postman
+  name: PagerDuty Abilities Services API
+  slug: postman-pagerduty-services-api
+- collection_type: postman
+  name: PagerDuty Abilities Standards API
+  slug: postman-pagerduty-standards-api
+- collection_type: postman
+  name: PagerDuty Abilities Status Dashboards API
+  slug: postman-pagerduty-status-dashboards-api
+- collection_type: postman
+  name: PagerDuty Abilities Status Pages API
+  slug: postman-pagerduty-status-pages-api
+- collection_type: postman
+  name: PagerDuty Abilities Tags API
+  slug: postman-pagerduty-tags-api
+- collection_type: postman
+  name: PagerDuty Abilities Teams API
+  slug: postman-pagerduty-teams-api
+- collection_type: postman
+  name: PagerDuty Abilities Templates API
+  slug: postman-pagerduty-templates-api
+- collection_type: postman
+  name: PagerDuty Abilities Users API
+  slug: postman-pagerduty-users-api
+- collection_type: postman
+  name: PagerDuty Abilities Vendors API
+  slug: postman-pagerduty-vendors-api
+- collection_type: postman
+  name: PagerDuty Abilities Webhooks API
+  slug: postman-pagerduty-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pagerduty/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -279,12 +397,12 @@ overview: 'PagerDuty publishes 38 APIs on the [APIs.io](https://apis.io/) networ
   The PagerDuty catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  PagerDuty''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, support, and 13 more developer resources.'
+  PagerDuty''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Pagerduty Plans Pricing
   plan_count: 4
   slug: pagerduty-plans-pricing
-random_paper: 29
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Pagerduty Rate Limits
@@ -300,18 +418,25 @@ rules:
   slug: pagerduty-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 63.0
-  delta: 0.0
+  composite: 61.9
+  delta: -1.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 69.9
-    developer_ergonomics: 54.3
-    discoverability: 67.5
-    governance: 52.6
+    contract_quality: 74.3
+    developer_ergonomics: 58.7
+    discoverability: 50.0
+    governance: 41.7
     operational_transparency: 52.6
   previous_composite: 63.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagerduty/refs/heads/main/screenshots/pagerduty-2026-06-20T191325.png
 security:

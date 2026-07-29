@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -46,12 +48,19 @@ apis:
 - description: Manage cloud addresses for VNC Cloud connectivity brokering.
   name: VNC Cloud Addresses API
   slug: vnc-cloud-addresses-api
-artifact_total: 21
+artifact_total: 22
 collections:
+- collection_type: postman
+  name: VNC Cloud Cloud Addresses API
+  slug: postman-vnc-cloud-addresses-api
 - collection_type: open
   name: VNC Cloud API
   slug: open-vnc-cloud
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/vnc/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,12 +185,12 @@ overview: 'VNC publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud
   The VNC catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  VNC''s developer surface includes authentication, documentation, getting-started guide, pricing, support, and 15 more developer resources.'
+  VNC''s developer surface includes authentication, documentation, getting-started guide, pricing, support, and 16 more developer resources.'
 plans:
 - name: Vnc Plans Pricing
   plan_count: 4
   slug: vnc-plans-pricing
-random_paper: 55
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Vnc Rate Limits
@@ -205,18 +214,25 @@ rules:
   slug: vnc-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 3.3
+  composite: 58.8
+  delta: -2.6
   facets:
     commercial_clarity: 68.4
-    contract_quality: 72.6
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 73.7
+    developer_ergonomics: 39.1
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 58.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/screenshots/vnc-2026-06-20T201123.png
 security:

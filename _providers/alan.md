@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 6.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -62,26 +64,27 @@ name: Alan
 nav: Providers
 network: true
 overview: Alan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Insurance, Health Insurance, and InsurTech.
-random_paper: 4
+random_paper: 27
 score:
   band: minimal
-  composite: 10.8
-  delta: 0.0
+  composite: 9.1
+  delta: -1.7
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 10.8
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 18.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alan/refs/heads/main/screenshots/alan-2026-07-25T195537.png
 security:

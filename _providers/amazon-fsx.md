@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -39,12 +41,19 @@ apis:
 - description: Operations for creating and managing file systems
   name: Amazon FSx File Systems API
   slug: amazon-fsx-file-systems-api
-artifact_total: 41
+artifact_total: 42
 collections:
+- collection_type: postman
+  name: Amazon FSx File Systems API
+  slug: postman-amazon-fsx-file-systems-api
 - collection_type: open
   name: Amazon FSx API
   slug: open-amazon-fsx
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-fsx/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -214,12 +223,12 @@ overview: 'Amazon FSx publishes 1 API on the [APIs.io](https://apis.io/) network
   The Amazon FSx catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon FSx''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 13 more developer resources.'
+  Amazon FSx''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 14 more developer resources.'
 plans:
 - name: Amazon Fsx Plans Pricing
   plan_count: 3
   slug: amazon-fsx-plans-pricing
-random_paper: 8
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Amazon Fsx Rate Limits
@@ -243,19 +252,26 @@ rules:
   slug: amazon-fsx-spectral-rules
 score:
   band: strong
-  composite: 62.2
-  delta: 5.5
+  composite: 59.6
+  delta: -2.6
   facets:
     commercial_clarity: 68.4
-    contract_quality: 63.7
-    developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 65.3
+    developer_ergonomics: 34.8
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 56.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/screenshots/amazon-fsx-2026-06-20T171653.png
 security:
 - kind: domain-security

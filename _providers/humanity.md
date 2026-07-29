@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Humanity HVII Public API is a REST API for workforce management — employees, positions, locations, shifts, shift swaps and trades, timeclocks, leaves, messages, training, tasks (master/shift/emplo
@@ -122,21 +124,24 @@ overview: 'Humanity publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Humanity''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 63
+random_paper: 32
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 30.0
+  delta: -0.4
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 54.3
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanity/refs/heads/main/screenshots/humanity-2026-07-25T221658.png
 security:

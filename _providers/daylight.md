@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Daylight's partner/product API surface at api.daylight.ai, protected by OAuth2 / OpenID Connect (Bearer token, authorization server at auth.app.daylight.ai). Access is authenticated (returns 401 witho
@@ -123,26 +125,29 @@ overview: 'Daylight publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Daylight''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 38
+random_paper: 7
 scopes:
 - name: Daylight Scopes
   scope_count: 2
   slug: daylight-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: emerging
-  composite: 27.7
-  delta: 0.0
+  band: thin
+  composite: 28.6
+  delta: 0.9
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 27.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/screenshots/daylight-2026-07-25T211450.png
 security:

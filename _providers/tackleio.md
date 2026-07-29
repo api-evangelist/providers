@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.5
+  scored_at: '2026-07-28'
 api_count: 28
 apis:
 - description: Operations for API Authentication
@@ -250,7 +252,7 @@ overview: 'Tackle.io publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Tackle.io''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 21 more developer resources.'
-random_paper: 28
+random_paper: 74
 scopes:
 - name: Tackleio Scopes
   scope_count: 0
@@ -258,18 +260,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 52.5
+  delta: 0.4
   facets:
     commercial_clarity: 36.8
-    contract_quality: 68.1
-    developer_ergonomics: 73.9
-    discoverability: 67.5
-    governance: 0.0
+    contract_quality: 67.6
+    developer_ergonomics: 69.0
+    discoverability: 68.5
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 52.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -192,27 +194,33 @@ plans:
 - name: Evari Plans
   plan_count: 6
   slug: evari-plans
-random_paper: 59
+random_paper: 73
 score:
   band: developing
-  composite: 56.3
-  delta: 0.0
+  composite: 50.9
+  delta: -5.4
   facets:
     commercial_clarity: 92.1
-    contract_quality: 49.1
-    developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 41.9
+    developer_ergonomics: 40.8
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 15.8
   previous_composite: 56.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 54.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png
 security:
 - kind: authentication

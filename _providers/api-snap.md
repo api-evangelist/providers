@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: General-purpose developer utilities
   name: API Snap Utilities API
   slug: api-snap-utilities-api
-artifact_total: 60
+artifact_total: 65
 collections:
+- collection_type: postman
+  name: API Snap Browser API
+  slug: postman-api-snap-browser-api
+- collection_type: postman
+  name: API Snap Browser Documents API
+  slug: postman-api-snap-documents-api
+- collection_type: postman
+  name: API Snap Browser Images API
+  slug: postman-api-snap-images-api
+- collection_type: postman
+  name: API Snap Browser Security API
+  slug: postman-api-snap-security-api
+- collection_type: postman
+  name: API Snap Browser Utilities API
+  slug: postman-api-snap-utilities-api
 - collection_type: open
   name: API Snap
   slug: open-api-snap
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/api-snap/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -253,12 +274,12 @@ overview: 'API Snap publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The API Snap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  API Snap''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, and 12 more developer resources.'
+  API Snap''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Api Snap Plans Pricing
   plan_count: 4
   slug: api-snap-plans-pricing
-random_paper: 45
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Api Snap Rate Limits
@@ -282,19 +303,26 @@ rules:
   slug: api-snap-spectral-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 5.5
+  composite: 57.3
+  delta: -3.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 80.5
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 81.4
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 55.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/screenshots/api-snap-2026-07-25T200604.png
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,7 +171,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 48
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -185,23 +187,31 @@ rules:
   slug: nexus-mutual-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 43.5
+  delta: -3.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.4
+    contract_quality: 55.7
     developer_ergonomics: 17.4
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 75.9
+    governance: 58.3
     operational_transparency: 31.6
   previous_composite: 47.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 28.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/screenshots/nexus-mutual-2026-06-20T190302.png
 security:

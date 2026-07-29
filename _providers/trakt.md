@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -103,12 +105,82 @@ apis:
 - description: Profiles, settings, follows, friends, social activity, comments, watching.
   name: Trakt Users API
   slug: trakt-users-api
-artifact_total: 77
+artifact_total: 99
 collections:
+- collection_type: postman
+  name: Trakt Calendars API
+  slug: postman-trakt-calendars-api
+- collection_type: postman
+  name: Trakt Calendars Certifications API
+  slug: postman-trakt-certifications-api
+- collection_type: postman
+  name: Trakt Calendars Checkin API
+  slug: postman-trakt-checkin-api
+- collection_type: postman
+  name: Trakt Calendars Comments API
+  slug: postman-trakt-comments-api
+- collection_type: postman
+  name: Trakt Calendars Countries API
+  slug: postman-trakt-countries-api
+- collection_type: postman
+  name: Trakt Calendars Episodes API
+  slug: postman-trakt-episodes-api
+- collection_type: postman
+  name: Trakt Calendars Genres API
+  slug: postman-trakt-genres-api
+- collection_type: postman
+  name: Trakt Calendars Languages API
+  slug: postman-trakt-languages-api
+- collection_type: postman
+  name: Trakt Calendars Lists API
+  slug: postman-trakt-lists-api
+- collection_type: postman
+  name: Trakt Calendars Movies API
+  slug: postman-trakt-movies-api
+- collection_type: postman
+  name: Trakt Calendars Networks API
+  slug: postman-trakt-networks-api
+- collection_type: postman
+  name: Trakt Calendars Notes API
+  slug: postman-trakt-notes-api
+- collection_type: postman
+  name: Trakt Calendars OAuth API
+  slug: postman-trakt-oauth-api
+- collection_type: postman
+  name: Trakt Calendars People API
+  slug: postman-trakt-people-api
+- collection_type: postman
+  name: Trakt Calendars Recommendations API
+  slug: postman-trakt-recommendations-api
+- collection_type: postman
+  name: Trakt Calendars Scrobble API
+  slug: postman-trakt-scrobble-api
+- collection_type: postman
+  name: Trakt Calendars Search API
+  slug: postman-trakt-search-api
+- collection_type: postman
+  name: Trakt Calendars Seasons API
+  slug: postman-trakt-seasons-api
+- collection_type: postman
+  name: Trakt Calendars Shows API
+  slug: postman-trakt-shows-api
+- collection_type: postman
+  name: Trakt Calendars Studios API
+  slug: postman-trakt-studios-api
+- collection_type: postman
+  name: Trakt Calendars Sync API
+  slug: postman-trakt-sync-api
+- collection_type: postman
+  name: Trakt Calendars Users API
+  slug: postman-trakt-users-api
 - collection_type: open
   name: Trakt API
   slug: open-trakt
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/trakt/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -385,12 +457,12 @@ overview: 'Trakt publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
   The Trakt catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trakt''s developer surface includes authentication, documentation, signup flow, pricing, support, FAQ, engineering blog, and 34 more developer resources.'
+  Trakt''s developer surface includes authentication, documentation, signup flow, pricing, support, FAQ, engineering blog, and 35 more developer resources.'
 plans:
 - name: Trakt Plans Pricing
   plan_count: 3
   slug: trakt-plans-pricing
-random_paper: 6
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Trakt Rate Limits
@@ -414,18 +486,25 @@ rules:
   slug: trakt-rules
 score:
   band: strong
-  composite: 65.8
-  delta: 4.7
+  composite: 63.2
+  delta: -2.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.5
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 69.8
+    developer_ergonomics: 54.3
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 61.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/screenshots/trakt-2026-06-20T195545.png
 security:

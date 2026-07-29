@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -67,12 +69,46 @@ apis:
 - description: The PDF Merging & Splitting API from PDF.co — 4 operation(s) for pdf merging & splitting.
   name: PDF.co PDF Merging & Splitting API
   slug: pdf-co-pdf-merging-splitting-api
-artifact_total: 25
+artifact_total: 35
 collections:
+- collection_type: postman
+  name: PDF.co Barcodes API
+  slug: postman-pdf-co-barcodes-api
+- collection_type: postman
+  name: PDF.co Barcodes Document, File & System API
+  slug: postman-pdf-co-document-file-system-api
+- collection_type: postman
+  name: PDF.co Barcodes Editing API
+  slug: postman-pdf-co-editing-api
+- collection_type: postman
+  name: PDF.co Barcodes Excel Conversion API
+  slug: postman-pdf-co-excel-conversion-api
+- collection_type: postman
+  name: PDF.co Barcodes Extraction API
+  slug: postman-pdf-co-extraction-api
+- collection_type: postman
+  name: PDF.co Barcodes Find & Search API
+  slug: postman-pdf-co-find-search-api
+- collection_type: postman
+  name: PDF.co Barcodes Forms API
+  slug: postman-pdf-co-forms-api
+- collection_type: postman
+  name: PDF.co Barcodes Pages API
+  slug: postman-pdf-co-pages-api
+- collection_type: postman
+  name: PDF.co Barcodes PDF Conversion API
+  slug: postman-pdf-co-pdf-conversion-api
+- collection_type: postman
+  name: PDF.co Barcodes PDF Merging & Splitting API
+  slug: postman-pdf-co-pdf-merging-splitting-api
 - collection_type: open
   name: PDF.co API
   slug: open-pdf-co
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pdfco/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -224,12 +260,12 @@ overview: 'PDF.co publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The PDF.co catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PDF.co''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, GitHub presence, and 21 more developer resources.'
+  PDF.co''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, GitHub presence, and 22 more developer resources.'
 plans:
 - name: Pdf Co Plans Pricing
   plan_count: 7
   slug: pdf-co-plans-pricing
-random_paper: 25
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Pdf Co Rate Limits
@@ -245,18 +281,25 @@ rules:
   slug: pdf-co-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 2.6
+  composite: 58.1
+  delta: -3.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 68.0
-    developer_ergonomics: 34.8
-    discoverability: 67.5
-    governance: 73.7
+    contract_quality: 67.1
+    developer_ergonomics: 39.1
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 23.7
-  previous_composite: 58.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/screenshots/pdf-co-2026-06-20T191516.png
 security:

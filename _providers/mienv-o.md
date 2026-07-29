@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 3.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for comparing carrier rates, creating shipments and shipping labels, and tracking parcels across Latin American carriers. Live, authenticated host at api.mienvio.mx/v2.
@@ -85,21 +87,21 @@ overview: 'Mienvío publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Mienvío''s developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 19
+random_paper: 6
 score:
   band: emerging
-  composite: 17.9
-  delta: 0.0
+  composite: 17.4
+  delta: -0.5
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

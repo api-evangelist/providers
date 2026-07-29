@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Simplified HTTP version of the MTProto API for bots
@@ -61,21 +63,21 @@ overview: 'Telegram Bot publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Telegram Bot''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 63
+random_paper: 64
 score:
-  band: minimal
-  composite: 13.8
-  delta: 0.0
+  band: emerging
+  composite: 18.2
+  delta: 4.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 26.4
+    contract_quality: 48.1
     developer_ergonomics: 2.2
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telegram-bot/refs/heads/main/screenshots/telegram-bot-2026-06-20T195036.png
 security:

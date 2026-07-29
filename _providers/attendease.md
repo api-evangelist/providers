@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.4
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Organization-level REST API (v2) spanning business units, events, members, attendees, session attendance, check-ins, partners, and contact lists. Authenticated with HMAC-SHA1 request signing (APIAuth)
@@ -149,21 +151,25 @@ overview: 'Attendease publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Attendease''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 34
+random_paper: 53
 score:
   band: emerging
-  composite: 29.4
-  delta: 0.0
+  composite: 25.8
+  delta: -3.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 51.6
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 5.3
   previous_composite: 29.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/screenshots/attendease-2026-07-25T201628.png
 security:

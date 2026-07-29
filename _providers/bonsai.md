@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.0
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 5
 common:
@@ -118,25 +120,27 @@ overview: 'Bonsai is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bonsai''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
-random_paper: 24
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Bonsai Rate Limits
   slug: bonsai-rate-limits
 score:
   band: emerging
-  composite: 29.0
-  delta: 0.0
+  composite: 27.3
+  delta: -1.7
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonsai/refs/heads/main/screenshots/bonsai-2026-07-25T203600.png
 security:

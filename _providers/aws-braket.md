@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -52,8 +54,23 @@ apis:
 - description: Per-device opt-in cost controls for QPU tasks.
   name: AWS Braket SpendingLimits API
   slug: aws-braket-spendinglimits-api
-artifact_total: 46
+artifact_total: 51
 collections:
+- collection_type: postman
+  name: AWS Braket Devices API
+  slug: postman-aws-braket-devices-api
+- collection_type: postman
+  name: AWS Braket Devices HybridJobs API
+  slug: postman-aws-braket-hybridjobs-api
+- collection_type: postman
+  name: AWS Braket Devices QuantumTasks API
+  slug: postman-aws-braket-quantumtasks-api
+- collection_type: postman
+  name: AWS Braket Devices SpendingLimits API
+  slug: postman-aws-braket-spendinglimits-api
+- collection_type: postman
+  name: AWS Braket Devices Tags API
+  slug: postman-aws-braket-tags-api
 - collection_type: open
   name: AWS Braket Devices API
   slug: open-aws-braket-devices-api
@@ -70,6 +87,10 @@ collections:
   name: AWS Braket Tags API
   slug: open-aws-braket-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aws-braket/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -330,12 +351,12 @@ overview: 'AWS Braket publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The AWS Braket catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AWS Braket''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, signup flow, and 41 more developer resources.'
+  AWS Braket''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, signup flow, and 42 more developer resources.'
 plans:
 - name: Aws Braket Plans Pricing
   plan_count: 5
   slug: aws-braket-plans-pricing
-random_paper: 57
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Aws Braket Rate Limits
@@ -359,18 +380,25 @@ rules:
   slug: aws-braket-rules
 score:
   band: strong
-  composite: 66.8
-  delta: 4.2
+  composite: 63.6
+  delta: -3.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 71.3
-    developer_ergonomics: 56.5
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 72.5
+    developer_ergonomics: 60.9
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 62.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/screenshots/aws-braket-2026-06-20T172752.png
 security:

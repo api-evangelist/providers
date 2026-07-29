@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Live OAI-PMH 2.0 metadata harvesting interface for the Kyushu University Institutional Repository (QIR), run by the Kyushu University Library. Returns scholarly metadata in the JPCOAR schema (metadata
@@ -101,25 +103,25 @@ plans:
 - name: Kyushu Plans Pricing
   plan_count: 2
   slug: kyushu-plans-pricing
-random_paper: 1
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Kyushu Rate Limits
   slug: kyushu-rate-limits
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 28.2
+  delta: -3.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 52.8
+    contract_quality: 45.2
     developer_ergonomics: 8.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 32.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/screenshots/kyushu-2026-06-20T184233.png
 security:

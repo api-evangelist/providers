@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 50.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful loyalty & gamification API for managing customers, events, orders, payments, points transactions, holds, coupons, reward campaigns, VIP tiers, redemption options, leaderboards and batch operat
@@ -169,26 +171,29 @@ overview: 'Gameball publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Gameball''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 5
+random_paper: 51
 rate_limits:
 - limit_count: 8
   name: Gameball Rate Limits
   slug: gameball-rate-limits
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 51.1
+  delta: 5.9
   facets:
     commercial_clarity: 44.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 60.5
   previous_composite: 45.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/screenshots/gameball-2026-07-25T215414.png
 security:
 - kind: authentication

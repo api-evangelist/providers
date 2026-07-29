@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for the Anomali ThreatStream Threat Intelligence Platform — manage threat intelligence, observables, investigations, imports, and integrations. Authentication uses an apikey credential in the
@@ -93,21 +95,21 @@ overview: 'Anomali publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Anomali''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 57
+random_paper: 44
 score:
   band: emerging
-  composite: 18.9
-  delta: 0.0
+  composite: 16.5
+  delta: -2.4
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 18.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomali/refs/heads/main/screenshots/anomali-2026-07-25T200450.png
 security:

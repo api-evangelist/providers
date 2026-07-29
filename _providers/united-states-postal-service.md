@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -379,7 +381,7 @@ plans:
 - name: United States Postal Service Plans Pricing
   plan_count: 2
   slug: united-states-postal-service-plans-pricing
-random_paper: 0
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: United States Postal Service Rate Limits
@@ -403,24 +405,32 @@ rules:
   slug: united-states-postal-service-spectral-rules
 score:
   band: developing
-  composite: 58.7
-  delta: 4.6
+  composite: 51.1
+  delta: -7.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 82.3
+    contract_quality: 70.3
     developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 54.1
+  previous_composite: 58.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 38.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/screenshots/united-states-postal-service-2026-06-20T200056.png
 security:
 - kind: authentication

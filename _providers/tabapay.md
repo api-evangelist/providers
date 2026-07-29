@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 61.5
+  scored_at: '2026-07-28'
 api_count: 16
 apis:
 - description: The 3D Secure API from TabaPay — 3 operation(s) for 3d secure.
@@ -223,30 +225,40 @@ overview: 'TabaPay publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TabaPay''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 58
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Tabapay Rate Limits
   slug: tabapay-rate-limits
 score:
-  band: developing
-  composite: 57.5
-  delta: 0.0
+  band: strong
+  composite: 58.1
+  delta: 0.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 55.8
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 53.0
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 52.6
   previous_composite: 57.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

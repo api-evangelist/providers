@@ -18,7 +18,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 4903
+  "count": 4904
  },
  {
   "slug": "automotive",
@@ -109,7 +109,7 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 1963
+  "count": 1964
  },
  {
   "slug": "data-analytics",
@@ -130,7 +130,7 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 2876
+  "count": 2877
  },
  {
   "slug": "digital-health",
@@ -151,7 +151,7 @@
   "name": "Education & EdTech",
   "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
   "icon": "school",
-  "count": 1057
+  "count": 1058
  },
  {
   "slug": "energy",
@@ -228,7 +228,7 @@
   "name": "Gaming & Interactive",
   "description": "Game studios and the engines, multiplayer backends, and immersive platforms behind interactive entertainment.",
   "icon": "sports_esports",
-  "count": 660
+  "count": 659
  },
  {
   "slug": "government",

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: true
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 18.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 13.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The read/write REST interface a Snapchain node serves on port 3381 under the /v1 path. Read endpoints (casts, reactions, links, user data, verifications, fids, username proofs, storage limits, on-chai
@@ -98,21 +100,21 @@ overview: 'Merkle Manufactory Inc. publishes 1 API on the [APIs.io](https://apis
 
 
   Merkle Manufactory Inc.''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 7 more developer resources.'
-random_paper: 61
+random_paper: 4
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 20.9
+  delta: -1.7
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 22.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

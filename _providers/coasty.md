@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 93.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 71.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 5
@@ -61,12 +63,41 @@ apis:
 - description: Versioned, branching multi-step automations (DSL) and their runs.
   name: Coasty workflows API
   slug: coasty-workflows-api
-artifact_total: 16
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Coasty Webhooks
   slug: coasty-webhooks
+collections:
+- collection_type: postman
+  name: Coasty Public keys API
+  slug: postman-coasty-keys-api
+- collection_type: postman
+  name: Coasty Public keys machines API
+  slug: postman-coasty-machines-api
+- collection_type: postman
+  name: Coasty Public keys predict API
+  slug: postman-coasty-predict-api
+- collection_type: postman
+  name: Coasty Public keys runs API
+  slug: postman-coasty-runs-api
+- collection_type: postman
+  name: Coasty Public keys schedules API
+  slug: postman-coasty-schedules-api
+- collection_type: postman
+  name: Coasty Public keys sessions API
+  slug: postman-coasty-sessions-api
+- collection_type: postman
+  name: Coasty Public keys triggers API
+  slug: postman-coasty-triggers-api
+- collection_type: postman
+  name: Coasty Public keys workflows API
+  slug: postman-coasty-workflows-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/coasty/overview
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -233,30 +264,40 @@ overview: 'Coasty publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The Coasty catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coasty''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Coasty''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Coasty Plans
   plan_count: 4
   slug: coasty-plans
-random_paper: 47
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Coasty Rate Limits
   slug: coasty-rate-limits
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 63.2
+  delta: 0.1
   facets:
     commercial_clarity: 76.3
-    contract_quality: 67.6
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 66.0
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 63.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/screenshots/coasty-2026-07-25T205838.png
 security:

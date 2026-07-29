@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -97,12 +99,31 @@ apis:
 - description: Create, retrieve, update, and delete backup policies. Manage policy schedules, client lists, and backup selections that define what data gets backed up, when, and how.
   name: Veritas NetBackup Policies API
   slug: veritas-netbackup-policies-api
-artifact_total: 187
+artifact_total: 192
 collections:
+- collection_type: postman
+  name: Veritas NetBackup REST Clients API
+  slug: postman-veritas-netbackup-clients-api
+- collection_type: postman
+  name: Veritas NetBackup REST Clients Images API
+  slug: postman-veritas-netbackup-images-api
+- collection_type: postman
+  name: Veritas NetBackup REST Clients Jobs API
+  slug: postman-veritas-netbackup-jobs-api
+- collection_type: postman
+  name: Veritas NetBackup REST Clients Login API
+  slug: postman-veritas-netbackup-login-api
+- collection_type: postman
+  name: Veritas NetBackup REST Clients Policies API
+  slug: postman-veritas-netbackup-policies-api
 - collection_type: open
   name: Veritas NetBackup REST API
   slug: open-veritas-netbackup-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/veritas-netbackup/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -696,12 +717,12 @@ overview: 'Veritas NetBackup publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Veritas NetBackup catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Veritas NetBackup''s developer surface includes authentication, support, documentation, API reference, getting-started guide, pricing, engineering blog, and 24 more developer resources.'
+  Veritas NetBackup''s developer surface includes authentication, support, documentation, API reference, getting-started guide, pricing, engineering blog, and 25 more developer resources.'
 plans:
 - name: Veritas Netbackup Plans Pricing
   plan_count: 1
   slug: veritas-netbackup-plans-pricing
-random_paper: 0
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Veritas Netbackup Rate Limits
@@ -725,18 +746,25 @@ rules:
   slug: veritas-netbackup-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 4.6
+  composite: 60.0
+  delta: -3.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.6
-    developer_ergonomics: 50.0
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 69.5
+    developer_ergonomics: 54.3
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/screenshots/veritas-netbackup-2026-06-20T200933.png
 security:

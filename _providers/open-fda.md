@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 17
 apis:
 - description: Access FDA Adverse Event Reporting System (FAERS) data covering adverse event reports for drugs and therapeutic biologic products from 2004 onward, updated quarterly.
@@ -214,7 +216,7 @@ plans:
 - name: Open Fda Plans Pricing
   plan_count: 2
   slug: open-fda-plans-pricing
-random_paper: 30
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Open Fda Rate Limits
@@ -230,24 +232,25 @@ rules:
   slug: open-fda-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 31.0
+  delta: -5.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 65.8
+    discoverability: 74.1
+    governance: 52.1
     operational_transparency: 21.1
   previous_composite: 36.1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/screenshots/open-fda-2026-06-20T190739.png
 security:
 - kind: domain-security

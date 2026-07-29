@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.5
+  scored_at: '2026-07-28'
 api_count: 21
 apis:
 - description: 'The public Substrate JSON-RPC 2.0 interface to the Kusama relay chain. Probed live on 2026-07-19: 130 methods are advertised by rpc_methods, spanning chain (blocks/headers), state (storage, metadata, '
@@ -241,21 +243,30 @@ overview: 'Kusama publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kusama''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 22 more developer resources.'
-random_paper: 30
+random_paper: 26
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 49.9
+  delta: -1.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.5
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.8
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 51.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/screenshots/kusama-2026-07-25T224336.png
 security:

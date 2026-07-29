@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -186,7 +188,7 @@ overview: 'Bynder publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Bynder''s developer surface includes authentication, engineering blog, documentation, API reference, pricing, support, and 12 more developer resources.'
-random_paper: 32
+random_paper: 28
 scopes:
 - name: Bynder Scopes
   scope_count: 7
@@ -194,18 +196,25 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 36.7
-  delta: 3.2
+  composite: 34.6
+  delta: -2.1
   facets:
     commercial_clarity: 18.4
-    contract_quality: 51.1
+    contract_quality: 53.2
     developer_ergonomics: 47.8
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 36.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/screenshots/bynder-2026-06-20T173826.png
 security:

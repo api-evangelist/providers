@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Live hosted Shopify Storefront MCP server on the Function of Beauty domain, exposing product catalog search, cart management, store policy/FAQ lookup, and product detail tools over JSON-RPC 2.0.
@@ -106,7 +108,7 @@ overview: 'Function of Beauty publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Function of Beauty''s developer surface includes support, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 55
+random_paper: 52
 scopes:
 - name: Function Of Beauty Scopes
   scope_count: 4
@@ -114,18 +116,20 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 20.8
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 26.1
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 21.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -104,7 +106,7 @@ overview: 'Wove publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Wove''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 41
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Wove Rate Limits
@@ -116,18 +118,25 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 26.2
+  delta: 0.7
   facets:
     commercial_clarity: 7.9
-    contract_quality: 56.0
+    contract_quality: 56.7
     developer_ergonomics: 10.9
-    discoverability: 50.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 25.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

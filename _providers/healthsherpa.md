@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: verified
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 64.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -172,26 +174,37 @@ overview: 'HealthSherpa publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   HealthSherpa''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 49
+random_paper: 41
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 43.8
+  delta: -2.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 68.3
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.4
+    developer_ergonomics: 58.7
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 46.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 33.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/screenshots/healthsherpa-2026-07-25T220840.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: The Unreal Engine C++ API is the primary programmatic surface of the engine. It is shipped as engine source on GitHub (under the Unreal Engine EULA) and documented as a per-module class reference cove
@@ -149,25 +151,25 @@ plans:
 - name: Unreal Engine Plans Pricing
   plan_count: 1
   slug: unreal-engine-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Unreal Engine Rate Limits
   slug: unreal-engine-rate-limits
 score:
   band: emerging
-  composite: 24.3
-  delta: 0.0
+  composite: 22.4
+  delta: -1.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 100.0
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 24.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

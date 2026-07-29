@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 12.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Quiq's REST API and webhooks for building native chat and messaging applications on any platform, with event notifications delivered via webhooks. The API is tenant-scoped to each customer organizatio
@@ -125,21 +127,29 @@ overview: 'Quiq publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Quiq''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 40
+random_paper: 63
 score:
-  band: emerging
-  composite: 29.8
-  delta: 0.0
+  band: thin
+  composite: 31.8
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 79.6
+    governance: 12.5
     operational_transparency: 18.4
   previous_composite: 29.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

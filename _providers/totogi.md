@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 36.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.4
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Totogi Charging-as-a-Service is a serverless, multi-tenant 5G Standalone and 5G Advanced converged charging system delivered as SaaS on AWS, with built-in policy control. Its account-management surfac
@@ -183,27 +185,37 @@ overview: 'Totogi publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Totogi''s developer surface includes FAQ, engineering blog, support, YouTube channel, authentication, changelog, and 28 more developer resources.'
-random_paper: 50
+random_paper: 46
 scopes:
 - name: Totogi Scopes
   scope_count: 0
   slug: totogi-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 30.5
-  delta: 0.0
+  band: developing
+  composite: 45.5
+  delta: 15.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 22.6
-    developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 63.0
+    developer_ergonomics: 25.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 28.9
   previous_composite: 30.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Totogi Authentication

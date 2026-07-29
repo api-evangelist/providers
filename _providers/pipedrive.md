@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 0
@@ -181,12 +183,156 @@ apis:
 - description: See <a href="https://pipedrive.readme.io/docs/guide-for-webhooks-v2?ref=api_reference" target="_blank" rel="noopener noreferrer">the guide for Webhooks</a> for more information.
   name: Pipedrive Webhooks API
   slug: pipedrive-webhooks-api
-artifact_total: 70
+artifact_total: 118
 asyncapis:
 - description: 'AsyncAPI description of the Pipedrive Webhooks v2 surface. Pipedrive delivers webhook notifications as HTTP `POST` requests carrying a JSON body. A webhook subscription is identified by combining two '
   name: Pipedrive Webhooks v2
   slug: pipedrive-webhooks-v2-asyncapi
 collections:
+- collection_type: postman
+  name: Pipedrive API v1 Activities API
+  slug: postman-pipedrive-activities-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities ActivityFields API
+  slug: postman-pipedrive-activityfields-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities ActivityTypes API
+  slug: postman-pipedrive-activitytypes-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Beta API
+  slug: postman-pipedrive-beta-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Billing API
+  slug: postman-pipedrive-billing-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities CallLogs API
+  slug: postman-pipedrive-calllogs-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Channels API
+  slug: postman-pipedrive-channels-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Currencies API
+  slug: postman-pipedrive-currencies-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities DealFields API
+  slug: postman-pipedrive-dealfields-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities DealInstallments API
+  slug: postman-pipedrive-dealinstallments-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities DealProducts API
+  slug: postman-pipedrive-dealproducts-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Deals API
+  slug: postman-pipedrive-deals-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Files API
+  slug: postman-pipedrive-files-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Filters API
+  slug: postman-pipedrive-filters-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Goals API
+  slug: postman-pipedrive-goals-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities ItemSearch API
+  slug: postman-pipedrive-itemsearch-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities LeadFields API
+  slug: postman-pipedrive-leadfields-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities LeadLabels API
+  slug: postman-pipedrive-leadlabels-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Leads API
+  slug: postman-pipedrive-leads-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities LeadSources API
+  slug: postman-pipedrive-leadsources-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities LegacyTeams API
+  slug: postman-pipedrive-legacyteams-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Mailbox API
+  slug: postman-pipedrive-mailbox-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Meetings API
+  slug: postman-pipedrive-meetings-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities NoteFields API
+  slug: postman-pipedrive-notefields-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Notes API
+  slug: postman-pipedrive-notes-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Oauth API
+  slug: postman-pipedrive-oauth-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities OrganizationFields API
+  slug: postman-pipedrive-organizationfields-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities OrganizationRelationships API
+  slug: postman-pipedrive-organizationrelationships-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Organizations API
+  slug: postman-pipedrive-organizations-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities PermissionSets API
+  slug: postman-pipedrive-permissionsets-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities PersonFields API
+  slug: postman-pipedrive-personfields-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Persons API
+  slug: postman-pipedrive-persons-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Pipelines API
+  slug: postman-pipedrive-pipelines-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities ProductFields API
+  slug: postman-pipedrive-productfields-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Products API
+  slug: postman-pipedrive-products-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities ProjectBoards API
+  slug: postman-pipedrive-projectboards-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities ProjectFields API
+  slug: postman-pipedrive-projectfields-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities ProjectPhases API
+  slug: postman-pipedrive-projectphases-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Projects API
+  slug: postman-pipedrive-projects-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities ProjectTemplates API
+  slug: postman-pipedrive-projecttemplates-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Recents API
+  slug: postman-pipedrive-recents-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Roles API
+  slug: postman-pipedrive-roles-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Stages API
+  slug: postman-pipedrive-stages-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Tasks API
+  slug: postman-pipedrive-tasks-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities UserConnections API
+  slug: postman-pipedrive-userconnections-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Users API
+  slug: postman-pipedrive-users-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities UserSettings API
+  slug: postman-pipedrive-usersettings-api
+- collection_type: postman
+  name: Pipedrive API v1 Activities Webhooks API
+  slug: postman-pipedrive-webhooks-api
 - collection_type: open
   name: Pipedrive API v1
   slug: open-pipedrive-v1
@@ -194,6 +340,10 @@ collections:
   name: Pipedrive API v2
   slug: open-pipedrive-v2
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pipedrive/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -319,12 +469,12 @@ overview: 'Pipedrive publishes 48 APIs on the [APIs.io](https://apis.io/) networ
   The Pipedrive catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Pipedrive''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 17 more developer resources.'
+  Pipedrive''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Pipedrive Plans Pricing
   plan_count: 11
   slug: pipedrive-plans-pricing
-random_paper: 16
+random_paper: 44
 rate_limits:
 - limit_count: 7
   name: Pipedrive Rate Limits
@@ -345,18 +495,25 @@ scopes:
   summary_line: 28 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.1
-  delta: 0.0
+  composite: 59.4
+  delta: -0.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 63.1
-    developer_ergonomics: 32.6
-    discoverability: 67.5
-    governance: 52.6
+    contract_quality: 69.3
+    developer_ergonomics: 37.0
+    discoverability: 50.0
+    governance: 41.7
     operational_transparency: 60.5
   previous_composite: 60.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png
 security:

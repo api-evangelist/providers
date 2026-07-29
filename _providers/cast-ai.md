@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -88,12 +90,67 @@ apis:
 - description: Manage workload optimization settings, view workload recommendations, and configure workload autoscaling.
   name: CAST AI Workload Optimization API
   slug: cast-ai-workload-optimization-api
-artifact_total: 68
+artifact_total: 85
 collections:
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler API
+  slug: postman-cast-ai-ai-enabler-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Allocation Groups API
+  slug: postman-cast-ai-allocation-groups-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Autoscaler API
+  slug: postman-cast-ai-autoscaler-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Cluster Actions API
+  slug: postman-cast-ai-cluster-actions-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Cost Reports API
+  slug: postman-cast-ai-cost-reports-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler External Clusters API
+  slug: postman-cast-ai-external-clusters-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Hibernation Schedules API
+  slug: postman-cast-ai-hibernation-schedules-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Insights API
+  slug: postman-cast-ai-insights-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Inventory API
+  slug: postman-cast-ai-inventory-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Node Configuration API
+  slug: postman-cast-ai-node-configuration-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Node Templates API
+  slug: postman-cast-ai-node-templates-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Operations API
+  slug: postman-cast-ai-operations-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Policies API
+  slug: postman-cast-ai-policies-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Pricing API
+  slug: postman-cast-ai-pricing-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Scheduled Rebalancing API
+  slug: postman-cast-ai-scheduled-rebalancing-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Settings API
+  slug: postman-cast-ai-settings-api
+- collection_type: postman
+  name: CAST AI Kubernetes Cost Optimization AI Enabler Workload Optimization API
+  slug: postman-cast-ai-workload-optimization-api
 - collection_type: open
   name: CAST AI Kubernetes Cost Optimization API
   slug: open-cast-ai-kubernetes-cost-optimization
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cast-ai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -259,12 +316,12 @@ overview: 'CAST AI publishes 17 APIs on the [APIs.io](https://apis.io/) network,
   The CAST AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CAST AI''s developer surface includes authentication, documentation, getting-started guide, changelog, pricing, engineering blog, support, and 17 more developer resources.'
+  CAST AI''s developer surface includes authentication, documentation, getting-started guide, changelog, pricing, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Cast Ai Plans Pricing
   plan_count: 3
   slug: cast-ai-plans-pricing
-random_paper: 62
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Cast Ai Rate Limits
@@ -280,19 +337,26 @@ rules:
   slug: cast-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 69.1
-  delta: 5.5
+  composite: 65.8
+  delta: -3.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.5
-    developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 74.6
+    developer_ergonomics: 41.3
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 78.9
-  previous_composite: 63.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 69.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/screenshots/cast-ai-2026-06-20T174036.png
 security:
 - kind: authentication

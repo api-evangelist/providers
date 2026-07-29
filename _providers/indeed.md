@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -82,12 +84,25 @@ apis:
 - description: Operations for creating, updating, expiring, and retrieving job postings on Indeed. Supports qualifications, working hours, salary, benefits, employer information, and Indeed Apply configuration.
   name: Indeed Jobs API
   slug: indeed-jobs-api
-artifact_total: 166
+artifact_total: 169
 collections:
+- collection_type: postman
+  name: Indeed Employer Candidates API
+  slug: postman-indeed-candidates-api
+- collection_type: postman
+  name: Indeed Employer Candidates Employers API
+  slug: postman-indeed-employers-api
+- collection_type: postman
+  name: Indeed Employer Candidates Jobs API
+  slug: postman-indeed-jobs-api
 - collection_type: open
   name: Indeed Employer API
   slug: open-indeed-employer-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/indeed/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -582,12 +597,12 @@ overview: 'Indeed publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
   The Indeed catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Indeed''s developer surface includes authentication, support, engineering blog, getting-started guide, release notes, sandbox, and 12 more developer resources.'
+  Indeed''s developer surface includes authentication, support, engineering blog, getting-started guide, release notes, sandbox, and 13 more developer resources.'
 plans:
 - name: Indeed Plans Pricing
   plan_count: 2
   slug: indeed-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Indeed Rate Limits
@@ -616,18 +631,25 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 64.1
-  delta: 4.6
+  composite: 60.3
+  delta: -3.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 76.1
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 75.4
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 59.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/screenshots/indeed-2026-06-20T183344.png
 security:

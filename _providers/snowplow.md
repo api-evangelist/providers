@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,12 +51,25 @@ apis:
 - description: Manage JSON Schema data structures (event schemas) in Snowplow. Data structures define the shape of events tracked in your pipeline. Supports versioning, validation, and deployment to dev/prod registr
   name: Snowplow Data Structures API
   slug: snowplow-data-structures-api
-artifact_total: 20
+artifact_total: 23
 collections:
+- collection_type: postman
+  name: Snowplow Console Authentication API
+  slug: postman-snowplow-authentication-api
+- collection_type: postman
+  name: Snowplow Console Authentication Data Products API
+  slug: postman-snowplow-data-products-api
+- collection_type: postman
+  name: Snowplow Console Authentication Data Structures API
+  slug: postman-snowplow-data-structures-api
 - collection_type: open
   name: Snowplow Console API
   slug: open-snowplow-console-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/snowplow/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,12 +187,12 @@ overview: 'Snowplow publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Snowplow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Snowplow''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 12 more developer resources.'
+  Snowplow''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 13 more developer resources.'
 plans:
 - name: Snowplow Plans Pricing
   plan_count: 3
   slug: snowplow-plans-pricing
-random_paper: 21
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Snowplow Rate Limits
@@ -201,18 +216,25 @@ rules:
   slug: snowplow-rules
 score:
   band: strong
-  composite: 61.5
-  delta: 2.0
+  composite: 58.5
+  delta: -3.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.9
-    developer_ergonomics: 37.0
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 71.2
+    developer_ergonomics: 41.3
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 59.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/screenshots/snowplow-2026-06-20T194113.png
 security:

@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 22.1
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The primary Trestle interface — a RESO Web API 2.0 / OData 4.0 endpoint that republishes MLS data mapped to the RESO Data Dictionary. The anonymously readable OData service document advertises 18 enti
@@ -202,7 +204,7 @@ overview: 'Trestle publishes 4 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Trestle''s developer surface includes documentation, FAQ, signup flow, support, getting-started guide, API reference, engineering blog, and 31 more developer resources.'
-random_paper: 23
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Trestle Rate Limits
@@ -214,18 +216,22 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 40.4
-  delta: 0.0
+  composite: 40.5
+  delta: 0.1
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 63.0
-    discoverability: 87.5
-    governance: 0.0
+    developer_ergonomics: 58.2
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 81.6
   previous_composite: 40.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

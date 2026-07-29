@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: List supported languages and their ISO codes.
   name: Calendarific Languages API
   slug: calendarific-languages-api
-artifact_total: 41
+artifact_total: 44
 collections:
+- collection_type: postman
+  name: Calendarific Holiday Countries API
+  slug: postman-calendarific-countries-api
+- collection_type: postman
+  name: Calendarific Holiday Countries Holidays API
+  slug: postman-calendarific-holidays-api
+- collection_type: postman
+  name: Calendarific Holiday Countries Languages API
+  slug: postman-calendarific-languages-api
 - collection_type: open
   name: Calendarific Holiday API
   slug: open-calendarific
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/calendarific/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -233,12 +248,12 @@ overview: 'Calendarific publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   The Calendarific catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Calendarific''s developer surface includes authentication, signup flow, pricing, support, tooling, and 21 more developer resources.'
+  Calendarific''s developer surface includes authentication, signup flow, pricing, support, tooling, and 22 more developer resources.'
 plans:
 - name: Calendarific Plans Pricing
   plan_count: 4
   slug: calendarific-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Calendarific Rate Limits
@@ -262,19 +277,26 @@ rules:
   slug: calendarific-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 5.4
+  composite: 61.5
+  delta: -3.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 77.9
-    developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 75.4
+    developer_ergonomics: 43.5
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 65.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/screenshots/calendarific-2026-06-20T173842.png
 security:
 - kind: authentication

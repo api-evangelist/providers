@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.7
+  scored_at: '2026-07-28'
 api_count: 13
 apis:
 - description: The Apis API from Resend — 2 operation(s) for apis.
@@ -68,12 +70,56 @@ apis:
 - description: The Verify API from Resend — 1 operation(s) for verify.
   name: Resend Verify API
   slug: resend-verify-api
-artifact_total: 37
+artifact_total: 50
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Resend webhook surface. Resend delivers webhook events to subscriber-configured HTTPS endpoints using Svix as the underlying delivery and signing infrastructure. Every '
   name: Resend Webhooks
   slug: resend-webhooks-asyncapi
+collections:
+- collection_type: postman
+  name: Resend Apis API
+  slug: postman-resend-apis-api
+- collection_type: postman
+  name: Resend Audience API
+  slug: postman-resend-audience-api
+- collection_type: postman
+  name: Resend Audiences API
+  slug: postman-resend-audiences-api
+- collection_type: postman
+  name: Resend Batch API
+  slug: postman-resend-batch-api
+- collection_type: postman
+  name: Resend Broadcasts API
+  slug: postman-resend-broadcasts-api
+- collection_type: postman
+  name: Resend Cancel API
+  slug: postman-resend-cancel-api
+- collection_type: postman
+  name: Resend Contacts API
+  slug: postman-resend-contacts-api
+- collection_type: postman
+  name: Resend Domains API
+  slug: postman-resend-domains-api
+- collection_type: postman
+  name: Resend Email API
+  slug: postman-resend-email-api
+- collection_type: postman
+  name: Resend Emails API
+  slug: postman-resend-emails-api
+- collection_type: postman
+  name: Resend Keys API
+  slug: postman-resend-keys-api
+- collection_type: postman
+  name: Resend Send API
+  slug: postman-resend-send-api
+- collection_type: postman
+  name: Resend Verify API
+  slug: postman-resend-verify-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/resend/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -234,12 +280,12 @@ overview: 'Resend publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
   The Resend catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Resend''s developer surface includes changelog, engineering blog, code examples, pricing, signup flow, CLI, and 21 more developer resources.'
+  Resend''s developer surface includes changelog, engineering blog, code examples, pricing, signup flow, CLI, and 22 more developer resources.'
 plans:
 - name: Resend Plans Pricing
   plan_count: 3
   slug: resend-plans-pricing
-random_paper: 29
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Resend Rate Limits
@@ -271,18 +317,24 @@ rules:
   slug: resend-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 61.2
+  delta: -2.8
   facets:
     commercial_clarity: 71.1
-    contract_quality: 71.7
-    developer_ergonomics: 32.6
-    discoverability: 87.5
-    governance: 52.6
+    contract_quality: 71.5
+    developer_ergonomics: 37.0
+    discoverability: 64.8
+    governance: 41.7
     operational_transparency: 78.9
   previous_composite: 64.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

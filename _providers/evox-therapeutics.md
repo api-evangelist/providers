@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 3.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,26 +83,27 @@ overview: 'Evox Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Evox Therapeutics'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 24
+random_paper: 21
 score:
   band: minimal
-  composite: 11.2
-  delta: 0.0
+  composite: 9.9
+  delta: -1.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 12.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evox-therapeutics/refs/heads/main/screenshots/evox-therapeutics-2026-07-25T213816.png
 security:

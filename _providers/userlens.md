@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: User identification, company grouping, and event ingestion
@@ -146,21 +148,30 @@ overview: 'Userlens publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Userlens'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 65
+random_paper: 34
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 44.6
+  delta: -3.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 60.2
-    developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 49.2
+    developer_ergonomics: 49.5
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 5.3
   previous_composite: 47.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

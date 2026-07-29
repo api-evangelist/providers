@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Desktop browser for macOS and Windows, organized around Spaces, Profiles, Tabs, Split View, and Themes. Built on Chromium.
@@ -102,25 +104,25 @@ plans:
 - name: Arc Browser Plans Pricing
   plan_count: 1
   slug: arc-browser-plans-pricing
-random_paper: 39
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Arc Browser Rate Limits
   slug: arc-browser-rate-limits
 score:
   band: emerging
-  composite: 20.5
-  delta: 0.0
+  composite: 18.0
+  delta: -2.5
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 20.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arc-browser/refs/heads/main/screenshots/arc-browser-2026-06-20T172352.png
 security:

@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -146,7 +148,7 @@ overview: 'Monid publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Monid''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 59
+random_paper: 73
 scopes:
 - name: Monid Scopes
   scope_count: 5
@@ -154,18 +156,28 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 38.2
+  delta: 0.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 69.6
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 20.8
     operational_transparency: 21.1
   previous_composite: 37.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

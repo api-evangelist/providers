@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -153,7 +155,7 @@ plans:
 - name: Georgia Institute Of Technology Plans Pricing
   plan_count: 2
   slug: georgia-institute-of-technology-plans-pricing
-random_paper: 39
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Georgia Institute Of Technology Rate Limits
@@ -177,23 +179,31 @@ rules:
   slug: georgia-institute-of-technology-rules
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 36.7
+  delta: -4.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 45.1
+    contract_quality: 44.3
     developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 26.3
   previous_composite: 41.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/screenshots/georgia-institute-of-technology-2026-06-20T181758.png
 security:

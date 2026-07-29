@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 25.7
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: GraphQL API for querying Arweave transaction and block metadata by tags, owner addresses, recipients, block height ranges, and transaction IDs. Supports cursor-based pagination and sorting. Primary en
@@ -50,8 +52,28 @@ apis:
 - description: Endpoints for querying wallet balances and transaction history
   name: Arweave Wallets API
   slug: arweave-wallets-api
-artifact_total: 21
+artifact_total: 26
+collections:
+- collection_type: postman
+  name: Arweave HTTP Node Blocks API
+  slug: postman-arweave-blocks-api
+- collection_type: postman
+  name: Arweave HTTP Node Chunks API
+  slug: postman-arweave-chunks-api
+- collection_type: postman
+  name: Arweave HTTP Node Network API
+  slug: postman-arweave-network-api
+- collection_type: postman
+  name: Arweave HTTP Node Transactions API
+  slug: postman-arweave-transactions-api
+- collection_type: postman
+  name: Arweave HTTP Node Wallets API
+  slug: postman-arweave-wallets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/arweave/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -173,12 +195,12 @@ overview: 'Arweave publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Arweave catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Arweave''s developer surface includes documentation, getting-started guide, engineering blog, and 15 more developer resources.'
+  Arweave''s developer surface includes documentation, getting-started guide, engineering blog, and 16 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -194,18 +216,24 @@ rules:
   slug: arweave-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 58.0
+  delta: -3.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.0
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 72.7
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 61.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/screenshots/arweave-2026-06-20T172449.png
 security:

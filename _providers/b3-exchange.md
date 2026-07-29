@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.0
+  scored_at: '2026-07-28'
 api_count: 10
 apis:
 - description: D-1 investor data for authorized fintechs and custodians - investment positions, account transactions, listed-asset buy/sell activity, public offering participation, and provisioned corporate events -
@@ -188,7 +190,7 @@ overview: 'B3 (Brasil Bolsa Balcão) publishes 8 APIs on the [APIs.io](https://a
 
 
   B3 (Brasil Bolsa Balcão)''s developer surface includes developer portal, documentation, support, authentication, sandbox, changelog, API reference, and 21 more developer resources.'
-random_paper: 9
+random_paper: 28
 scopes:
 - name: B3 Exchange Scopes
   scope_count: 2
@@ -196,23 +198,28 @@ scopes:
   summary_line: 2 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 45.3
+  delta: -4.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 37.7
-    developer_ergonomics: 71.7
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 60.3
+    discoverability: 83.3
+    governance: 20.8
     operational_transparency: 26.3
   previous_composite: 49.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
 security:

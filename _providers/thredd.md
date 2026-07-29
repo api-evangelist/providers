@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 api_count: 10
 apis:
 - description: Create, retrieve, update, renew, replace, and convert physical and virtual cards; manage card status, cardholder details, card images, encrypted card data, and bulk card creation. The core issuing sur
@@ -167,31 +169,35 @@ overview: 'Thredd publishes 10 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Thredd''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 16 more developer resources.'
-random_paper: 23
+random_paper: 19
 scopes:
 - name: Thredd Scopes
   scope_count: 6
   slug: thredd-scopes
   summary_line: 6 scopes
 score:
-  band: thin
-  composite: 42.2
-  delta: 0.0
+  band: developing
+  composite: 46.7
+  delta: 4.5
   facets:
     commercial_clarity: 23.7
-    contract_quality: 22.6
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 54.3
+    discoverability: 81.5
+    governance: 12.5
     operational_transparency: 39.5
   previous_composite: 42.2
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 65.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

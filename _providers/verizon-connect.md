@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 18
 apis:
 - description: Exchanges Base64-encoded Reveal REST credentials for a short-lived bearer authorization token (valid ~20 minutes) via GET /token. Subsequent API calls send an Atmosphere authorization header combining
@@ -133,25 +135,25 @@ plans:
 - name: Verizon Connect Plans Pricing
   plan_count: 3
   slug: verizon-connect-plans-pricing
-random_paper: 8
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Verizon Connect Rate Limits
   slug: verizon-connect-rate-limits
 score:
   band: emerging
-  composite: 22.4
-  delta: 0.0
+  composite: 19.8
+  delta: -2.6
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 22.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: GraphQL API for efficient asset/resource management — query and mutate organizations, sites, buildings, floors, rooms, zones, hives, sensors, asset tags, and webhooks across the Butlr spatial data-mod
@@ -152,22 +154,26 @@ overview: 'Butlr Technologies publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Butlr Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 46
+random_paper: 34
 score:
-  band: thin
-  composite: 40.0
-  delta: 0.0
+  band: developing
+  composite: 45.0
+  delta: 5.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 62.5
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 36.8
   previous_composite: 40.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/butlr-technologies/refs/heads/main/screenshots/butlr-technologies-2026-07-25T204122.png
 security:
 - kind: authentication

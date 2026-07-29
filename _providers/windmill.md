@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -245,12 +247,193 @@ arazzos:
 - description: Resolve a script, create a cron schedule for it, then read the schedule back.
   name: Windmill Schedule a Script
   slug: windmill-schedule-script-workflow
-artifact_total: 100
+artifact_total: 159
 collections:
+- collection_type: postman
+  name: Windmill admin API
+  slug: postman-windmill-admin-api
+- collection_type: postman
+  name: Windmill admin agent_workers API
+  slug: postman-windmill-agent-workers-api
+- collection_type: postman
+  name: Windmill admin app API
+  slug: postman-windmill-app-api
+- collection_type: postman
+  name: Windmill admin asset API
+  slug: postman-windmill-asset-api
+- collection_type: postman
+  name: Windmill admin audit API
+  slug: postman-windmill-audit-api
+- collection_type: postman
+  name: Windmill admin azure_trigger API
+  slug: postman-windmill-azure-trigger-api
+- collection_type: postman
+  name: Windmill admin capture API
+  slug: postman-windmill-capture-api
+- collection_type: postman
+  name: Windmill admin concurrencyGroups API
+  slug: postman-windmill-concurrencygroups-api
+- collection_type: postman
+  name: Windmill admin config API
+  slug: postman-windmill-config-api
+- collection_type: postman
+  name: Windmill admin documentation API
+  slug: postman-windmill-documentation-api
+- collection_type: postman
+  name: Windmill admin draft API
+  slug: postman-windmill-draft-api
+- collection_type: postman
+  name: Windmill admin email_trigger API
+  slug: postman-windmill-email-trigger-api
+- collection_type: postman
+  name: Windmill admin favorite API
+  slug: postman-windmill-favorite-api
+- collection_type: postman
+  name: Windmill admin flow API
+  slug: postman-windmill-flow-api
+- collection_type: postman
+  name: Windmill admin flow_conversations API
+  slug: postman-windmill-flow-conversations-api
+- collection_type: postman
+  name: Windmill admin folder API
+  slug: postman-windmill-folder-api
+- collection_type: postman
+  name: Windmill admin gcp_trigger API
+  slug: postman-windmill-gcp-trigger-api
+- collection_type: postman
+  name: Windmill admin Git Sync API
+  slug: postman-windmill-git-sync-api
+- collection_type: postman
+  name: Windmill admin granular_acl API
+  slug: postman-windmill-granular-acl-api
+- collection_type: postman
+  name: Windmill admin group API
+  slug: postman-windmill-group-api
+- collection_type: postman
+  name: Windmill admin health API
+  slug: postman-windmill-health-api
+- collection_type: postman
+  name: Windmill admin helpers API
+  slug: postman-windmill-helpers-api
+- collection_type: postman
+  name: Windmill admin http_trigger API
+  slug: postman-windmill-http-trigger-api
+- collection_type: postman
+  name: Windmill admin indexSearch API
+  slug: postman-windmill-indexsearch-api
+- collection_type: postman
+  name: Windmill admin input API
+  slug: postman-windmill-input-api
+- collection_type: postman
+  name: Windmill admin integration API
+  slug: postman-windmill-integration-api
+- collection_type: postman
+  name: Windmill admin job API
+  slug: postman-windmill-job-api
+- collection_type: postman
+  name: Windmill admin kafka_trigger API
+  slug: postman-windmill-kafka-trigger-api
+- collection_type: postman
+  name: Windmill admin mcp API
+  slug: postman-windmill-mcp-api
+- collection_type: postman
+  name: Windmill admin mcp_oauth API
+  slug: postman-windmill-mcp-oauth-api
+- collection_type: postman
+  name: Windmill admin metrics API
+  slug: postman-windmill-metrics-api
+- collection_type: postman
+  name: Windmill admin mqtt_trigger API
+  slug: postman-windmill-mqtt-trigger-api
+- collection_type: postman
+  name: Windmill admin native_trigger API
+  slug: postman-windmill-native-trigger-api
+- collection_type: postman
+  name: Windmill admin nats_trigger API
+  slug: postman-windmill-nats-trigger-api
+- collection_type: postman
+  name: Windmill admin npm_proxy API
+  slug: postman-windmill-npm-proxy-api
+- collection_type: postman
+  name: Windmill admin oauth API
+  slug: postman-windmill-oauth-api
+- collection_type: postman
+  name: Windmill admin oidc API
+  slug: postman-windmill-oidc-api
+- collection_type: postman
+  name: Windmill admin openapi API
+  slug: postman-windmill-openapi-api
+- collection_type: postman
+  name: Windmill admin path_autocomplete API
+  slug: postman-windmill-path-autocomplete-api
+- collection_type: postman
+  name: Windmill admin postgres_trigger API
+  slug: postman-windmill-postgres-trigger-api
+- collection_type: postman
+  name: Windmill admin raw_app API
+  slug: postman-windmill-raw-app-api
+- collection_type: postman
+  name: Windmill admin resource API
+  slug: postman-windmill-resource-api
+- collection_type: postman
+  name: Windmill admin schedule API
+  slug: postman-windmill-schedule-api
+- collection_type: postman
+  name: Windmill admin script API
+  slug: postman-windmill-script-api
+- collection_type: postman
+  name: Windmill admin service_logs API
+  slug: postman-windmill-service-logs-api
+- collection_type: postman
+  name: Windmill admin setting API
+  slug: postman-windmill-setting-api
+- collection_type: postman
+  name: Windmill admin settings API
+  slug: postman-windmill-settings-api
+- collection_type: postman
+  name: Windmill admin sqs_trigger API
+  slug: postman-windmill-sqs-trigger-api
+- collection_type: postman
+  name: Windmill admin teams API
+  slug: postman-windmill-teams-api
+- collection_type: postman
+  name: Windmill admin token API
+  slug: postman-windmill-token-api
+- collection_type: postman
+  name: Windmill admin trigger API
+  slug: postman-windmill-trigger-api
+- collection_type: postman
+  name: Windmill admin user API
+  slug: postman-windmill-user-api
+- collection_type: postman
+  name: Windmill admin variable API
+  slug: postman-windmill-variable-api
+- collection_type: postman
+  name: Windmill admin volume API
+  slug: postman-windmill-volume-api
+- collection_type: postman
+  name: Windmill admin websocket_trigger API
+  slug: postman-windmill-websocket-trigger-api
+- collection_type: postman
+  name: Windmill admin worker API
+  slug: postman-windmill-worker-api
+- collection_type: postman
+  name: Windmill admin workspace API
+  slug: postman-windmill-workspace-api
+- collection_type: postman
+  name: Windmill admin workspace_dependencies API
+  slug: postman-windmill-workspace-dependencies-api
+- collection_type: postman
+  name: Windmill admin workspace_integration API
+  slug: postman-windmill-workspace-integration-api
 - collection_type: open
   name: Windmill API
   slug: open-windmill-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/windmill/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -500,12 +683,12 @@ overview: 'Windmill publishes 59 APIs on the [APIs.io](https://apis.io/) network
   The Windmill catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Windmill''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 33 more developer resources.'
+  Windmill''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 34 more developer resources.'
 plans:
 - name: Windmill Plans Pricing
   plan_count: 3
   slug: windmill-plans-pricing
-random_paper: 48
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Windmill Rate Limits
@@ -529,18 +712,25 @@ rules:
   slug: windmill-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 2.5
+  composite: 61.8
+  delta: -3.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 55.8
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 47.4
+    contract_quality: 53.3
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 37.5
     operational_transparency: 73.7
-  previous_composite: 62.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 59
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:

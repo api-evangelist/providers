@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -178,7 +180,7 @@ overview: 'Amazon Batch publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Amazon Batch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
-random_paper: 49
+random_paper: 50
 rules:
 - name: Amazon Batch API Rules
   rule_count: 6
@@ -190,18 +192,27 @@ rules:
   slug: amazon-batch-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 53.2
+  delta: -0.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 68.1
+    contract_quality: 69.5
     developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 87.0
+    governance: 69.8
     operational_transparency: 15.8
   previous_composite: 53.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/screenshots/amazon-batch-2026-07-25T195933.png
 security:

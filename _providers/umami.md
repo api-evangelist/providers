@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: Website management and configuration
   name: Umami Websites API
   slug: umami-websites-api
-artifact_total: 95
+artifact_total: 102
 collections:
+- collection_type: postman
+  name: Umami Analytics Authentication API
+  slug: postman-umami-authentication-api
+- collection_type: postman
+  name: Umami Analytics Authentication Events API
+  slug: postman-umami-events-api
+- collection_type: postman
+  name: Umami Analytics Authentication Sessions API
+  slug: postman-umami-sessions-api
+- collection_type: postman
+  name: Umami Analytics Authentication Teams API
+  slug: postman-umami-teams-api
+- collection_type: postman
+  name: Umami Analytics Authentication Users API
+  slug: postman-umami-users-api
+- collection_type: postman
+  name: Umami Analytics Authentication Website Statistics API
+  slug: postman-umami-website-statistics-api
+- collection_type: postman
+  name: Umami Analytics Authentication Websites API
+  slug: postman-umami-websites-api
 - collection_type: open
   name: Umami Analytics API
   slug: open-umami
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/umami/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -349,12 +376,12 @@ overview: 'Umami publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Umami catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Umami''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 8 more developer resources.'
+  Umami''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 9 more developer resources.'
 plans:
 - name: Umami Plans Pricing
   plan_count: 3
   slug: umami-plans-pricing
-random_paper: 61
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Umami Rate Limits
@@ -377,20 +404,27 @@ rules:
     warn: 15
   slug: umami-spectral-rules
 score:
-  band: strong
-  composite: 61.2
-  delta: 5.5
+  band: developing
+  composite: 54.4
+  delta: -6.8
   facets:
     commercial_clarity: 63.2
-    contract_quality: 72.6
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 61.0
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 55.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/screenshots/umami-2026-06-20T200011.png
 security:
 - kind: authentication

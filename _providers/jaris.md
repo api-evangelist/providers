@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 4
 common:
@@ -122,26 +124,27 @@ overview: 'Jaris is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jaris'' developer surface includes documentation, getting-started guide, engineering blog, support, pricing, authentication, and 14 more developer resources.'
-random_paper: 61
+random_paper: 75
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 32.7
+  delta: -2.8
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 35.5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 48.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaris/refs/heads/main/screenshots/jaris-2026-07-25T223054.png
 security:

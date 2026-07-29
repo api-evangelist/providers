@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 202
   human_in_the_loop: 9
@@ -643,12 +645,622 @@ apis:
 - description: 'The #X Amz Target=AWSGlue.UpdateWorkflow API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateworkflow.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateWorkflow API'
   slug: amazon-glue-x-amz-target-awsglue-updateworkflow-api
-artifact_total: 1655
+artifact_total: 1857
 collections:
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchcreatepartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchDeleteConnection API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchdeleteconnection-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchDeletePartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchdeletepartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchDeleteTable API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchdeletetable-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchDeleteTableVersion API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchdeletetableversion-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchGetBlueprints API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchgetblueprints-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchGetCrawlers API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchgetcrawlers-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchGetCustomEntityTypes API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchgetcustomentitytypes-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchGetDataQualityResult API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchgetdataqualityresult-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchGetDevEndpoints API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchgetdevendpoints-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchGetJobs API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchgetjobs-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchGetPartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchgetpartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchGetTriggers API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchgettriggers-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchGetWorkflows API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchgetworkflows-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchStopJobRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchstopjobrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchUpdatePartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-batchupdatepartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CancelDataQualityRuleRecommendationRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-canceldataqualityrulerecommendationrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CancelDataQualityRulesetEvaluationRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-canceldataqualityrulesetevaluationrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CancelMLTaskRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-cancelmltaskrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CancelStatement API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-cancelstatement-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CheckSchemaVersionValidity API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-checkschemaversionvalidity-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateBlueprint API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createblueprint-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateClassifier API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createclassifier-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateConnection API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createconnection-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateCrawler API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createcrawler-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateCustomEntityType API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createcustomentitytype-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateDatabase API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createdatabase-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateDataQualityRuleset API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createdataqualityruleset-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateDevEndpoint API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createdevendpoint-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateJob API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createjob-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateMLTransform API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createmltransform-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreatePartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createpartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreatePartitionIndex API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createpartitionindex-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateRegistry API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createregistry-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateSchema API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createschema-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateScript API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createscript-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateSecurityConfiguration API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createsecurityconfiguration-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateSession API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createsession-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateTable API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createtable-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateTrigger API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createtrigger-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateUserDefinedFunction API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createuserdefinedfunction-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.CreateWorkflow API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-createworkflow-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteBlueprint API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deleteblueprint-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteClassifier API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deleteclassifier-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteColumnStatisticsForPartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletecolumnstatisticsforpartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteColumnStatisticsForTable API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletecolumnstatisticsfortable-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteConnection API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deleteconnection-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteCrawler API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletecrawler-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteCustomEntityType API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletecustomentitytype-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteDatabase API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletedatabase-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteDataQualityRuleset API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletedataqualityruleset-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteDevEndpoint API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletedevendpoint-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteJob API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletejob-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteMLTransform API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletemltransform-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeletePartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletepartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeletePartitionIndex API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletepartitionindex-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteRegistry API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deleteregistry-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteResourcePolicy API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deleteresourcepolicy-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteSchema API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deleteschema-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteSchemaVersions API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deleteschemaversions-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteSecurityConfiguration API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletesecurityconfiguration-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteSession API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletesession-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteTable API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletetable-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteTableVersion API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletetableversion-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteTrigger API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deletetrigger-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteUserDefinedFunction API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deleteuserdefinedfunction-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.DeleteWorkflow API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-deleteworkflow-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetBlueprint API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getblueprint-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetBlueprintRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getblueprintrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetBlueprintRuns API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getblueprintruns-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetCatalogImportStatus API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getcatalogimportstatus-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetClassifier API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getclassifier-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetClassifiers API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getclassifiers-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetColumnStatisticsForPartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getcolumnstatisticsforpartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetColumnStatisticsForTable API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getcolumnstatisticsfortable-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetConnection API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getconnection-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetConnections API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getconnections-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetCrawler API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getcrawler-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetCrawlerMetrics API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getcrawlermetrics-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetCrawlers API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getcrawlers-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetCustomEntityType API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getcustomentitytype-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDatabase API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdatabase-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDatabases API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdatabases-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDataCatalogEncryptionSettings API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdatacatalogencryptionsettings-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDataflowGraph API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdataflowgraph-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDataQualityResult API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdataqualityresult-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDataQualityRuleRecommendationRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdataqualityrulerecommendationrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDataQualityRuleset API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdataqualityruleset-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDataQualityRulesetEvaluationRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdataqualityrulesetevaluationrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDevEndpoint API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdevendpoint-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetDevEndpoints API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getdevendpoints-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetJob API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getjob-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetJobBookmark API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getjobbookmark-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetJobRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getjobrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetJobRuns API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getjobruns-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetJobs API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getjobs-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetMapping API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getmapping-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetMLTaskRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getmltaskrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetMLTaskRuns API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getmltaskruns-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetMLTransform API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getmltransform-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetMLTransforms API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getmltransforms-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetPartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getpartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetPartitionIndexes API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getpartitionindexes-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetPartitions API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getpartitions-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetPlan API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getplan-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetRegistry API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getregistry-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetResourcePolicies API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getresourcepolicies-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetResourcePolicy API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getresourcepolicy-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetSchema API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getschema-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetSchemaByDefinition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getschemabydefinition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetSchemaVersion API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getschemaversion-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetSchemaVersionsDiff API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getschemaversionsdiff-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetSecurityConfiguration API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getsecurityconfiguration-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetSecurityConfigurations API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getsecurityconfigurations-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetSession API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getsession-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetStatement API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getstatement-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetTable API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-gettable-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetTables API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-gettables-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetTableVersion API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-gettableversion-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetTableVersions API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-gettableversions-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetTags API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-gettags-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetTrigger API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-gettrigger-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetTriggers API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-gettriggers-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetUnfilteredPartitionMetadata API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getunfilteredpartitionmetadata-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetUnfilteredPartitionsMetadata API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getunfilteredpartitionsmetadata-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetUnfilteredTableMetadata API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getunfilteredtablemetadata-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetUserDefinedFunction API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getuserdefinedfunction-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetUserDefinedFunctions API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getuserdefinedfunctions-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetWorkflow API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getworkflow-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetWorkflowRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getworkflowrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetWorkflowRunProperties API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getworkflowrunproperties-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.GetWorkflowRuns API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-getworkflowruns-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ImportCatalogToGlue API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-importcatalogtoglue-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListBlueprints API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listblueprints-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListCrawlers API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listcrawlers-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListCrawls API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listcrawls-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListCustomEntityTypes API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listcustomentitytypes-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListDataQualityResults API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listdataqualityresults-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListDataQualityRuleRecommendationRuns API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listdataqualityrulerecommendationruns-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListDataQualityRulesetEvaluationRuns API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listdataqualityrulesetevaluationruns-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListDataQualityRulesets API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listdataqualityrulesets-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListDevEndpoints API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listdevendpoints-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListJobs API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listjobs-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListMLTransforms API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listmltransforms-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListRegistries API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listregistries-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListSchemas API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listschemas-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListSchemaVersions API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listschemaversions-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListSessions API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listsessions-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListStatements API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-liststatements-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListTriggers API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listtriggers-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ListWorkflows API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-listworkflows-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.PutDataCatalogEncryptionSettings API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-putdatacatalogencryptionsettings-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.PutResourcePolicy API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-putresourcepolicy-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.PutSchemaVersionMetadata API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-putschemaversionmetadata-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.PutWorkflowRunProperties API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-putworkflowrunproperties-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.QuerySchemaVersionMetadata API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-queryschemaversionmetadata-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.RegisterSchemaVersion API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-registerschemaversion-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.RemoveSchemaVersionMetadata API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-removeschemaversionmetadata-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ResetJobBookmark API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-resetjobbookmark-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.ResumeWorkflowRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-resumeworkflowrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.RunStatement API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-runstatement-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.SearchTables API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-searchtables-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartBlueprintRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startblueprintrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartCrawler API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startcrawler-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartCrawlerSchedule API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startcrawlerschedule-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartDataQualityRuleRecommendationRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startdataqualityrulerecommendationrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartDataQualityRulesetEvaluationRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startdataqualityrulesetevaluationrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartExportLabelsTaskRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startexportlabelstaskrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartImportLabelsTaskRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startimportlabelstaskrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartJobRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startjobrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartMLEvaluationTaskRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startmlevaluationtaskrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartMLLabelingSetGenerationTaskRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startmllabelingsetgenerationtaskrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartTrigger API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-starttrigger-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StartWorkflowRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-startworkflowrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StopCrawler API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-stopcrawler-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StopCrawlerSchedule API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-stopcrawlerschedule-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StopSession API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-stopsession-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StopTrigger API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-stoptrigger-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.StopWorkflowRun API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-stopworkflowrun-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.TagResource API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-tagresource-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UntagResource API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-untagresource-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateBlueprint API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updateblueprint-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateClassifier API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updateclassifier-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateColumnStatisticsForPartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatecolumnstatisticsforpartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateColumnStatisticsForTable API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatecolumnstatisticsfortable-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateConnection API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updateconnection-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateCrawler API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatecrawler-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateCrawlerSchedule API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatecrawlerschedule-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateDatabase API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatedatabase-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateDataQualityRuleset API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatedataqualityruleset-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateDevEndpoint API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatedevendpoint-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateJob API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatejob-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateJobFromSourceControl API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatejobfromsourcecontrol-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateMLTransform API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatemltransform-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdatePartition API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatepartition-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateRegistry API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updateregistry-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateSchema API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updateschema-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateSourceControlFromJob API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatesourcecontrolfromjob-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateTable API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatetable-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateTrigger API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updatetrigger-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateUserDefinedFunction API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updateuserdefinedfunction-api
+- collection_type: postman
+  name: 'AWS Glue #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.BatchCreatePartition #X Amz Target=AWSGlue.UpdateWorkflow API'
+  slug: postman-amazon-glue-x-amz-target-awsglue-updateworkflow-api
 - collection_type: open
   name: AWS Glue
   slug: open-amazon-glue
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-glue/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -5042,12 +5654,12 @@ overview: 'Amazon Glue publishes 202 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Glue catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Glue''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon Glue''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Glue Plans Pricing
   plan_count: 3
   slug: amazon-glue-plans-pricing
-random_paper: 32
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Amazon Glue Rate Limits
@@ -5071,18 +5683,25 @@ rules:
   slug: amazon-glue-spectral-rules
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 61.1
+  delta: -2.7
   facets:
     commercial_clarity: 68.4
-    contract_quality: 71.5
-    developer_ergonomics: 41.3
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 72.8
+    developer_ergonomics: 45.7
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 63.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 202
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/screenshots/amazon-glue-2026-06-20T171658.png
 security:

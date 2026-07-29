@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 58.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -152,7 +154,7 @@ overview: 'Honeybadger publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Honeybadger''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 4
+random_paper: 5
 rules:
 - name: Honeybadger API Rules
   rule_count: 8
@@ -164,18 +166,25 @@ rules:
   slug: honeybadger-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 43.3
-  delta: 3.3
+  composite: 39.8
+  delta: -3.5
   facets:
     commercial_clarity: 18.4
-    contract_quality: 62.5
+    contract_quality: 64.1
     developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 5.3
-  previous_composite: 40.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 43.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/screenshots/honeybadger-2026-06-20T182819.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -55,12 +57,31 @@ apis:
 - description: Reference and non-price data that complements the market data feeds - a security master (instrument definitions and identifiers), corporate actions (splits, dividends, symbol changes, and other events
   name: Databento Reference API
   slug: databento-reference-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: postman
+  name: Databento Historical and Reference Batch API
+  slug: postman-databento-batch-api
+- collection_type: postman
+  name: Databento Historical and Reference Batch Metadata API
+  slug: postman-databento-metadata-api
+- collection_type: postman
+  name: Databento Historical and Batch Reference API
+  slug: postman-databento-reference-api
+- collection_type: postman
+  name: Databento Historical and Reference Batch Symbology API
+  slug: postman-databento-symbology-api
+- collection_type: postman
+  name: Databento Historical and Reference Batch Timeseries API
+  slug: postman-databento-timeseries-api
 - collection_type: open
   name: Databento Historical and Reference API
   slug: open-databento
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/databento/overview
 - group: docs
   title: ''
   type: OpenAPI
@@ -232,12 +253,12 @@ network: true
 overview: 'Databento publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Historical Timeseries API, Metadata API, Symbology API, and 2 more. Tagged areas include Market Data, Financial Data, Reference Data, Historical Market Data, and Trading.
 
 
-  Databento''s developer surface includes changelog, CLI, pricing, support, signup flow, getting-started guide, API reference, and 31 more developer resources.'
+  Databento''s developer surface includes changelog, CLI, pricing, support, signup flow, getting-started guide, API reference, and 32 more developer resources.'
 plans:
 - name: Databento Plans Pricing
   plan_count: 5
   slug: databento-plans-pricing
-random_paper: 62
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Databento Rate Limits
@@ -248,24 +269,35 @@ scopes:
   slug: databento-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 68.7
-  delta: 2.7
+  band: exemplar
+  composite: 66.5
+  delta: -2.2
   facets:
     commercial_clarity: 84.2
-    contract_quality: 59.1
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.5
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 81.6
-  previous_composite: 66.0
+  previous_composite: 68.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png
 security:

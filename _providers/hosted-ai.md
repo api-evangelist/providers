@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'REST API for the Hosted·ai neocloud platform, split into an Admin Panel API (GPUaaS infrastructure: GPU pools, nodes, GPU/NPU hardware discovery, high availability, floating IPs, regions) and a User P'
@@ -134,21 +136,25 @@ overview: 'Hosted·ai publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Hosted·ai''s developer surface includes documentation, API reference, pricing, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 10
+random_paper: 47
 score:
   band: emerging
-  composite: 28.1
-  delta: 0.0
+  composite: 24.5
+  delta: -3.6
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 28.9
   previous_composite: 28.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hosted-ai/refs/heads/main/screenshots/hosted-ai-2026-07-25T221443.png
 security:

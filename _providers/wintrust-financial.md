@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Wintrust's commercial "API banking" for treasury clients. Rather than a documented REST API, Wintrust connects business customers directly to its secure file transfer protocol (SFTP) for account balan
@@ -85,30 +87,33 @@ plans:
 - name: Wintrust Financial Plans Pricing
   plan_count: 1
   slug: wintrust-financial-plans-pricing
-random_paper: 54
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Wintrust Financial Rate Limits
   slug: wintrust-financial-rate-limits
 score:
   band: emerging
-  composite: 19.5
-  delta: 0.0
+  composite: 17.2
+  delta: -2.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 80.0
-    governance: 0.0
+    discoverability: 66.7
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 19.5
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 13.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wintrust-financial/refs/heads/main/screenshots/wintrust-financial-2026-06-20T201518.png
 security:

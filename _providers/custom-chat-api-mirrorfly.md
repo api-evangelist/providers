@@ -2,11 +2,13 @@
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for building in-app chat, split into User APIs and Admin APIs (users, contacts, recent/history chat, groups, media, metadata, presence, block/unblock, call logs, device to
@@ -31,19 +33,28 @@ name: Custom Chat API | MirrorFly
 nav: Providers
 network: true
 overview: Custom Chat API | MirrorFly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Chat API, Messaging, CPaaS, VoIP, and Voice.
-random_paper: 14
+random_paper: 66
 score:
   band: minimal
-  composite: 8.0
+  composite: 5.0
+  delta: -3.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 8.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 0.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/screenshots/custom-chat-api-mirrorfly-2026-07-25T211005.png
 slug: custom-chat-api-mirrorfly
 tags:

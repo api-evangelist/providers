@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -64,12 +66,31 @@ apis:
 - description: Manage Red Hat subscriptions and entitlements for organizations and hosts.
   name: Red Hat Satellite Subscriptions API
   slug: red-hat-satellite-subscriptions-api
-artifact_total: 108
+artifact_total: 113
 collections:
+- collection_type: postman
+  name: Red Hat Satellite REST Content Views API
+  slug: postman-red-hat-satellite-content-views-api
+- collection_type: postman
+  name: Red Hat Satellite REST Content Views Hosts API
+  slug: postman-red-hat-satellite-hosts-api
+- collection_type: postman
+  name: Red Hat Satellite REST Content Views Lifecycle Environments API
+  slug: postman-red-hat-satellite-lifecycle-environments-api
+- collection_type: postman
+  name: Red Hat Satellite REST Content Views Organizations API
+  slug: postman-red-hat-satellite-organizations-api
+- collection_type: postman
+  name: Red Hat Satellite REST Content Views Subscriptions API
+  slug: postman-red-hat-satellite-subscriptions-api
 - collection_type: open
   name: Red Hat Satellite REST API
   slug: open-red-hat-satellite-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/red-hat-satellite/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -426,12 +447,12 @@ overview: 'Red Hat Satellite publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Red Hat Satellite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Satellite''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, API reference, and 18 more developer resources.'
+  Red Hat Satellite''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, API reference, and 19 more developer resources.'
 plans:
 - name: Red Hat Satellite Plans Pricing
   plan_count: 1
   slug: red-hat-satellite-plans-pricing
-random_paper: 57
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Red Hat Satellite Rate Limits
@@ -460,18 +481,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.4
-  delta: 4.2
+  composite: 57.3
+  delta: -4.1
   facets:
     commercial_clarity: 36.8
-    contract_quality: 76.1
-    developer_ergonomics: 47.8
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 72.7
+    developer_ergonomics: 52.2
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 57.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/screenshots/red-hat-satellite-2026-06-20T192721.png
 security:

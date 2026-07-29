@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 29.1
+  scored_at: '2026-07-28'
 api_count: 18
 apis:
 - description: The answers API from Evrim — 2 operation(s) for answers.
@@ -169,26 +171,36 @@ overview: 'Evrim publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Evrim''s developer surface includes documentation, engineering blog, authentication, changelog, and 13 more developer resources.'
-random_paper: 3
+random_paper: 8
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 28.5
+  delta: -4.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 41.5
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 37.3
+    developer_ergonomics: 32.1
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 32.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evrim/refs/heads/main/screenshots/evrim-2026-07-25T213819.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -163,7 +165,7 @@ plans:
 - name: Fumadocs Plans Pricing
   plan_count: 1
   slug: fumadocs-plans-pricing
-random_paper: 34
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Fumadocs Rate Limits
@@ -179,19 +181,26 @@ rules:
   slug: fumadocs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 44.1
-  delta: 3.3
+  composite: 38.8
+  delta: -5.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 65.5
+    contract_quality: 59.3
     developer_ergonomics: 10.9
-    discoverability: 75.0
-    governance: 73.7
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 40.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 44.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fumadocs/refs/heads/main/screenshots/fumadocs-2026-06-20T181650.png
 security:
 - kind: domain-security

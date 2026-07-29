@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -55,12 +57,35 @@ apis:
 - description: SNAP BI-SNAP Virtual Account lifecycle.
   name: DOKU Virtual Account API
   slug: doku-virtual-account-api
-artifact_total: 16
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Doku Webhooks
   slug: doku-webhooks
+collections:
+- collection_type: postman
+  name: DOKU Payment Access Token API
+  slug: postman-doku-access-token-api
+- collection_type: postman
+  name: DOKU Payment Access Token Checkout API
+  slug: postman-doku-checkout-api
+- collection_type: postman
+  name: DOKU Payment Access Token Direct Debit & e-Wallet API
+  slug: postman-doku-direct-debit-e-wallet-api
+- collection_type: postman
+  name: DOKU Payment Access Token Payout API
+  slug: postman-doku-payout-api
+- collection_type: postman
+  name: DOKU Payment Access Token QRIS API
+  slug: postman-doku-qris-api
+- collection_type: postman
+  name: DOKU Payment Access Token Virtual Account API
+  slug: postman-doku-virtual-account-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/doku/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -231,35 +256,46 @@ overview: 'DOKU publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
   The DOKU catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DOKU''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, support, pricing, and 30 more developer resources.'
+  DOKU''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, support, pricing, and 31 more developer resources.'
 plans:
 - name: Doku Plans Pricing
   plan_count: 3
   slug: doku-plans-pricing
-random_paper: 27
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Doku Rate Limits
   slug: doku-rate-limits
 score:
   band: exemplar
-  composite: 71.4
-  delta: 0.0
+  composite: 69.2
+  delta: -2.2
   facets:
     commercial_clarity: 100.0
-    contract_quality: 66.1
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.7
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 68.4
   previous_composite: 71.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 56.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png
 security:

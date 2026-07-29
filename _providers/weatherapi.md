@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -557,7 +559,7 @@ plans:
 - name: Weatherapi Plans Pricing
   plan_count: 5
   slug: weatherapi-plans-pricing
-random_paper: 46
+random_paper: 65
 rate_limits:
 - limit_count: 7
   name: Weatherapi Rate Limits
@@ -581,18 +583,25 @@ rules:
   slug: weatherapi-rules
 score:
   band: strong
-  composite: 66.1
-  delta: 3.3
+  composite: 62.3
+  delta: -3.8
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.5
+    contract_quality: 74.6
     developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 62.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/screenshots/weatherapi-2026-06-20T201311.png
 security:

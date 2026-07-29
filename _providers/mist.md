@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -810,25 +812,35 @@ overview: 'Mist publishes 211 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mist''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 37
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Mist Rate Limits
   slug: mist-rate-limits
 score:
   band: developing
-  composite: 57.2
-  delta: 0.0
+  composite: 54.2
+  delta: -3.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 73.5
-    developer_ergonomics: 76.1
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 72.0
+    developer_ergonomics: 64.7
+    discoverability: 75.9
+    governance: 11.5
     operational_transparency: 73.7
   previous_composite: 57.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 211
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

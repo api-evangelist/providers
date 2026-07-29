@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 49.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Credit underwriting and risk scoring for partner card issuance.
@@ -109,26 +111,35 @@ overview: 'alt.bank publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   alt.bank''s developer surface includes documentation, API reference, authentication, sandbox, and 9 more developer resources.'
-random_paper: 53
+random_paper: 40
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 32.7
+  delta: -4.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 69.0
-    developer_ergonomics: 56.5
-    discoverability: 92.5
+    contract_quality: 70.3
+    developer_ergonomics: 45.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 36.9
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 18.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altbank/refs/heads/main/screenshots/altbank-2026-07-25T195815.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.8
+  scored_at: '2026-07-28'
 api_count: 18
 apis:
 - description: The BuybackBidService API from Refurbed — 8 operation(s) for buybackbidservice.
@@ -189,25 +191,34 @@ overview: 'Refurbed publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Refurbed''s developer surface includes authentication, documentation, support, API reference, getting-started guide, and 17 more developer resources.'
-random_paper: 31
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Refurbed Rate Limits
   slug: refurbed-rate-limits
 score:
-  band: thin
-  composite: 31.4
-  delta: 0.0
+  band: emerging
+  composite: 27.3
+  delta: -4.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 37.7
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 45.1
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 31.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

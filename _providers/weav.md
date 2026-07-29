@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for the Weav.ai Decisioning Platform, exposing document, folder, form, agent, workflow, action, and chat services used to build agentic insurance decisioning flows. Authenticated with a Beare
@@ -106,26 +108,29 @@ overview: 'Weav publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Weav''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 27
+random_paper: 50
 score:
   band: emerging
-  composite: 20.9
-  delta: 0.0
+  composite: 18.4
+  delta: -2.5
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 56.5
-    discoverability: 80.0
+    developer_ergonomics: 50.0
+    discoverability: 77.8
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 20.9
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

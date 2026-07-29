@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -64,16 +66,38 @@ apis:
 - description: Create and control voice calls
   name: Vonage Voice API
   slug: vonage-voice-api
-artifact_total: 62
+artifact_total: 68
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Vonage''s publicly-documented WebSocket surface. The only Vonage product whose realtime protocol is publicly specified frame-by-frame is the Voice API WebSocket endpoint: th'
   name: Vonage Voice WebSocket API
   slug: vonage-asyncapi
 collections:
+- collection_type: postman
+  name: Vonage Communications Applications API
+  slug: postman-vonage-applications-api
+- collection_type: postman
+  name: Vonage Communications Applications Messages API
+  slug: postman-vonage-messages-api
+- collection_type: postman
+  name: Vonage Communications Applications Numbers API
+  slug: postman-vonage-numbers-api
+- collection_type: postman
+  name: Vonage Communications Applications SMS API
+  slug: postman-vonage-sms-api
+- collection_type: postman
+  name: Vonage Communications Applications Verify API
+  slug: postman-vonage-verify-api
+- collection_type: postman
+  name: Vonage Communications Applications Voice API
+  slug: postman-vonage-voice-api
 - collection_type: open
   name: Vonage Communications API
   slug: open-vonage
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/vonage/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -295,12 +319,12 @@ overview: 'Vonage publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Vonage catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Vonage''s developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, pricing, and 19 more developer resources.'
+  Vonage''s developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, pricing, and 20 more developer resources.'
 plans:
 - name: Vonage Plans Pricing
   plan_count: 2
   slug: vonage-plans-pricing
-random_paper: 28
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Vonage Rate Limits
@@ -332,19 +356,32 @@ rules:
   slug: vonage-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 3.2
+  composite: 59.7
+  delta: -5.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.6
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 60.5
+    contract_quality: 74.5
+    developer_ergonomics: 69.6
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 62.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 65.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 43.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png
 security:
 - kind: authentication

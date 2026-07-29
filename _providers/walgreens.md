@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -186,7 +188,7 @@ press:
 - date: '2026-05-25'
   title: Walgreens Turns to Digital Transformation | AVI Blog
   url: https://www.avi.com/content-hub/walgreens-turns-to-digital-transformation-to-enhance-the-customer-experience/
-random_paper: 16
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Walgreens Rate Limits
@@ -210,24 +212,32 @@ rules:
   slug: walgreens-rules
 score:
   band: developing
-  composite: 53.1
-  delta: 4.7
+  composite: 46.3
+  delta: -6.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 77.9
+    contract_quality: 78.8
     developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 48.4
+  previous_composite: 53.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 28.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png
 security:
 - kind: authentication

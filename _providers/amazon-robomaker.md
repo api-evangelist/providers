@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -202,12 +204,181 @@ apis:
 - description: The UpdateWorldTemplate API from Amazon RoboMaker — 1 operation(s) for updateworldtemplate.
   name: Amazon RoboMaker UpdateWorldTemplate API
   slug: amazon-robomaker-updateworldtemplate-api
-artifact_total: 795
+artifact_total: 850
 collections:
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds API
+  slug: postman-amazon-robomaker-batchdeleteworlds-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds BatchDescribeSimulationJob API
+  slug: postman-amazon-robomaker-batchdescribesimulationjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CancelDeploymentJob API
+  slug: postman-amazon-robomaker-canceldeploymentjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CancelSimulationJob API
+  slug: postman-amazon-robomaker-cancelsimulationjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CancelSimulationJobBatch API
+  slug: postman-amazon-robomaker-cancelsimulationjobbatch-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CancelWorldExportJob API
+  slug: postman-amazon-robomaker-cancelworldexportjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CancelWorldGenerationJob API
+  slug: postman-amazon-robomaker-cancelworldgenerationjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateDeploymentJob API
+  slug: postman-amazon-robomaker-createdeploymentjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateFleet API
+  slug: postman-amazon-robomaker-createfleet-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateRobot API
+  slug: postman-amazon-robomaker-createrobot-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateRobotApplication API
+  slug: postman-amazon-robomaker-createrobotapplication-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateRobotApplicationVersion API
+  slug: postman-amazon-robomaker-createrobotapplicationversion-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateSimulationApplication API
+  slug: postman-amazon-robomaker-createsimulationapplication-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateSimulationApplicationVersion API
+  slug: postman-amazon-robomaker-createsimulationapplicationversion-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateSimulationJob API
+  slug: postman-amazon-robomaker-createsimulationjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateWorldExportJob API
+  slug: postman-amazon-robomaker-createworldexportjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateWorldGenerationJob API
+  slug: postman-amazon-robomaker-createworldgenerationjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds CreateWorldTemplate API
+  slug: postman-amazon-robomaker-createworldtemplate-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DeleteFleet API
+  slug: postman-amazon-robomaker-deletefleet-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DeleteRobot API
+  slug: postman-amazon-robomaker-deleterobot-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DeleteRobotApplication API
+  slug: postman-amazon-robomaker-deleterobotapplication-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DeleteSimulationApplication API
+  slug: postman-amazon-robomaker-deletesimulationapplication-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DeleteWorldTemplate API
+  slug: postman-amazon-robomaker-deleteworldtemplate-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DeregisterRobot API
+  slug: postman-amazon-robomaker-deregisterrobot-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeDeploymentJob API
+  slug: postman-amazon-robomaker-describedeploymentjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeFleet API
+  slug: postman-amazon-robomaker-describefleet-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeRobot API
+  slug: postman-amazon-robomaker-describerobot-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeRobotApplication API
+  slug: postman-amazon-robomaker-describerobotapplication-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeSimulationApplication API
+  slug: postman-amazon-robomaker-describesimulationapplication-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeSimulationJob API
+  slug: postman-amazon-robomaker-describesimulationjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeSimulationJobBatch API
+  slug: postman-amazon-robomaker-describesimulationjobbatch-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeWorld API
+  slug: postman-amazon-robomaker-describeworld-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeWorldExportJob API
+  slug: postman-amazon-robomaker-describeworldexportjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeWorldGenerationJob API
+  slug: postman-amazon-robomaker-describeworldgenerationjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds DescribeWorldTemplate API
+  slug: postman-amazon-robomaker-describeworldtemplate-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds GetWorldTemplateBody API
+  slug: postman-amazon-robomaker-getworldtemplatebody-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListDeploymentJobs API
+  slug: postman-amazon-robomaker-listdeploymentjobs-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListFleets API
+  slug: postman-amazon-robomaker-listfleets-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListRobotApplications API
+  slug: postman-amazon-robomaker-listrobotapplications-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListRobots API
+  slug: postman-amazon-robomaker-listrobots-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListSimulationApplications API
+  slug: postman-amazon-robomaker-listsimulationapplications-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListSimulationJobBatches API
+  slug: postman-amazon-robomaker-listsimulationjobbatches-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListSimulationJobs API
+  slug: postman-amazon-robomaker-listsimulationjobs-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListWorldExportJobs API
+  slug: postman-amazon-robomaker-listworldexportjobs-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListWorldGenerationJobs API
+  slug: postman-amazon-robomaker-listworldgenerationjobs-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListWorlds API
+  slug: postman-amazon-robomaker-listworlds-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds ListWorldTemplates API
+  slug: postman-amazon-robomaker-listworldtemplates-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds RegisterRobot API
+  slug: postman-amazon-robomaker-registerrobot-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds RestartSimulationJob API
+  slug: postman-amazon-robomaker-restartsimulationjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds StartSimulationJobBatch API
+  slug: postman-amazon-robomaker-startsimulationjobbatch-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds SyncDeploymentJob API
+  slug: postman-amazon-robomaker-syncdeploymentjob-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds Tags API
+  slug: postman-amazon-robomaker-tags-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds UpdateRobotApplication API
+  slug: postman-amazon-robomaker-updaterobotapplication-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds UpdateSimulationApplication API
+  slug: postman-amazon-robomaker-updatesimulationapplication-api
+- collection_type: postman
+  name: AWS RoboMaker BatchDeleteWorlds UpdateWorldTemplate API
+  slug: postman-amazon-robomaker-updateworldtemplate-api
 - collection_type: open
   name: AWS RoboMaker
   slug: open-amazon-robomaker
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-robomaker/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -5410,12 +5581,12 @@ overview: 'Amazon RoboMaker publishes 55 APIs on the [APIs.io](https://apis.io/)
   The Amazon RoboMaker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon RoboMaker''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 742 more developer resources.'
+  Amazon RoboMaker''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 743 more developer resources.'
 plans:
 - name: Amazon Robomaker Plans Pricing
   plan_count: 3
   slug: amazon-robomaker-plans-pricing
-random_paper: 21
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Amazon Robomaker Rate Limits
@@ -5439,18 +5610,25 @@ rules:
   slug: amazon-robomaker-spectral-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 59.0
+  delta: -2.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 62.6
-    developer_ergonomics: 32.6
-    discoverability: 55.0
-    governance: 86.8
+    contract_quality: 64.5
+    developer_ergonomics: 37.0
+    discoverability: 40.7
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 55
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/screenshots/amazon-robomaker-2026-06-20T171810.png
 security:

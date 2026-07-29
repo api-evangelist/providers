@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -100,8 +102,73 @@ apis:
 - description: The Ws Signing Key API from SuprSend — 3 operation(s) for ws signing key.
   name: SuprSend Ws Signing Key API
   slug: suprsend-ws-signing-key-api
-artifact_total: 31
+artifact_total: 51
+collections:
+- collection_type: postman
+  name: SuprSend Broadcast API
+  slug: postman-suprsend-broadcast-api
+- collection_type: postman
+  name: SuprSend Broadcast Broadcast Run API
+  slug: postman-suprsend-broadcast-run-api
+- collection_type: postman
+  name: SuprSend Broadcast Bulk API
+  slug: postman-suprsend-bulk-api
+- collection_type: postman
+  name: SuprSend Broadcast Event API
+  slug: postman-suprsend-event-api
+- collection_type: postman
+  name: SuprSend Broadcast Message API
+  slug: postman-suprsend-message-api
+- collection_type: postman
+  name: SuprSend Broadcast Object API
+  slug: postman-suprsend-object-api
+- collection_type: postman
+  name: SuprSend Broadcast Preference Category API
+  slug: postman-suprsend-preference-category-api
+- collection_type: postman
+  name: SuprSend Broadcast Schema API
+  slug: postman-suprsend-schema-api
+- collection_type: postman
+  name: SuprSend Broadcast Subscriber List API
+  slug: postman-suprsend-subscriber-list-api
+- collection_type: postman
+  name: SuprSend Broadcast Template API
+  slug: postman-suprsend-template-api
+- collection_type: postman
+  name: SuprSend Broadcast Tenant API
+  slug: postman-suprsend-tenant-api
+- collection_type: postman
+  name: SuprSend Broadcast Translation API
+  slug: postman-suprsend-translation-api
+- collection_type: postman
+  name: SuprSend Broadcast Trigger API
+  slug: postman-suprsend-trigger-api
+- collection_type: postman
+  name: SuprSend Broadcast User API
+  slug: postman-suprsend-user-api
+- collection_type: postman
+  name: SuprSend Broadcast Workflow API
+  slug: postman-suprsend-workflow-api
+- collection_type: postman
+  name: SuprSend Broadcast Workflow Run API
+  slug: postman-suprsend-workflow-run-api
+- collection_type: postman
+  name: SuprSend Broadcast Workspace API
+  slug: postman-suprsend-workspace-api
+- collection_type: postman
+  name: SuprSend Broadcast Ws Api Key API
+  slug: postman-suprsend-ws-api-key-api
+- collection_type: postman
+  name: SuprSend Broadcast Ws Public Key API
+  slug: postman-suprsend-ws-public-key-api
+- collection_type: postman
+  name: SuprSend Broadcast Ws Signing Key API
+  slug: postman-suprsend-ws-signing-key-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/suprsend/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -209,12 +276,12 @@ overview: 'SuprSend publishes 20 APIs on the [APIs.io](https://apis.io/) network
   The SuprSend catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SuprSend''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, code examples, and 14 more developer resources.'
+  SuprSend''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, code examples, and 15 more developer resources.'
 plans:
 - name: Suprsend Plans Pricing
   plan_count: 4
   slug: suprsend-plans-pricing
-random_paper: 0
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Suprsend Rate Limits
@@ -229,20 +296,33 @@ rules:
     warn: 5
   slug: suprsend-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 62.2
-  delta: 0.0
+  band: developing
+  composite: 54.4
+  delta: -7.8
   facets:
     commercial_clarity: 57.9
-    contract_quality: 67.9
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 69.1
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 62.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 30.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/screenshots/suprsend-2026-06-20T194803.png
 security:
 - kind: authentication

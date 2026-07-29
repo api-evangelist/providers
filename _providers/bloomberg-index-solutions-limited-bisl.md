@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Access Bloomberg index constituent data, returns, analytics, and historical data for the Bloomberg Global Aggregate, US Aggregate, Euro Aggregate, and other benchmark indices via BLPAPI and Data Licen
@@ -92,25 +94,25 @@ plans:
 - name: Bloomberg Index Solutions Limited Bisl Plans Pricing
   plan_count: 3
   slug: bloomberg-index-solutions-limited-bisl-plans-pricing
-random_paper: 39
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Bloomberg Index Solutions Limited Bisl Rate Limits
   slug: bloomberg-index-solutions-limited-bisl-rate-limits
 score:
   band: emerging
-  composite: 28.5
-  delta: 0.0
+  composite: 26.5
+  delta: -2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 28.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-index-solutions-limited-bisl/refs/heads/main/screenshots/bloomberg-index-solutions-limited-bisl-2026-07-25T203402.png
 security:

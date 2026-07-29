@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: Operations for managing worker pools
   name: Google Cloud Build WorkerPools API
   slug: google-cloud-build-workerpools-api
-artifact_total: 15
+artifact_total: 18
 collections:
+- collection_type: postman
+  name: Google Cloud Build Builds API
+  slug: postman-google-cloud-build-builds-api
+- collection_type: postman
+  name: Google Cloud Build Builds Triggers API
+  slug: postman-google-cloud-build-triggers-api
+- collection_type: postman
+  name: Google Cloud Build Builds WorkerPools API
+  slug: postman-google-cloud-build-workerpools-api
 - collection_type: open
   name: Google Cloud Build API
   slug: open-cloud-build-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-build/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -151,12 +166,12 @@ overview: 'Google Cloud Build publishes 3 APIs on the [APIs.io](https://apis.io/
   The Google Cloud Build catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Build''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, developer console, CLI, and 11 more developer resources.'
+  Google Cloud Build''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, developer console, CLI, and 12 more developer resources.'
 plans:
 - name: Google Cloud Build Plans Pricing
   plan_count: 3
   slug: google-cloud-build-plans-pricing
-random_paper: 22
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Google Cloud Build Rate Limits
@@ -177,18 +192,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 67.8
-  delta: 4.6
+  composite: 64.6
+  delta: -3.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 66.4
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 67.8
+    developer_ergonomics: 60.9
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/screenshots/google-cloud-build-2026-06-20T182048.png
 security:

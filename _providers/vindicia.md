@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 23.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: REST API for subscription management and recurring billing — accounts, subscriptions, campaigns, tokens/virtual currency, and payment operations.
@@ -128,26 +130,27 @@ overview: 'Vindicia publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Vindicia''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 11 more developer resources.'
-random_paper: 23
+random_paper: 69
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 36.5
+  delta: 3.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 56.5
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 32.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

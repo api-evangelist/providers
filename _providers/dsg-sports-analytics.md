@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The DSG Sports Data API exposes live scores, statistics, historical data, player and team information, fixtures, results, and odds across 80-plus sports through a per-sport documentation tree at dsg-a
@@ -86,25 +88,25 @@ plans:
 - name: Dsg Sports Analytics Plans Pricing
   plan_count: 3
   slug: dsg-sports-analytics-plans-pricing
-random_paper: 19
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Dsg Sports Analytics Rate Limits
   slug: dsg-sports-analytics-rate-limits
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 22.7
+  delta: -2.4
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 25.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dsg-sports-analytics/refs/heads/main/screenshots/dsg-sports-analytics-2026-06-20T180255.png
 security:

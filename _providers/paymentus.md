@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The XOTP (Paymentus payment) API exposes core Service Commerce operations — make payment (Sale), account inquiry, payment history, void/cancel payment, customer profile create/read/update/delete and l
@@ -140,7 +142,7 @@ overview: 'Paymentus publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Paymentus'' developer surface includes API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 46
+random_paper: 74
 scopes:
 - name: Paymentus Scopes
   scope_count: 16
@@ -148,23 +150,27 @@ scopes:
   summary_line: 16 scopes
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 34.6
+  delta: -3.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
-    developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 41.3
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 37.6
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -467,7 +469,7 @@ plans:
 - name: Ukg Plans Pricing
   plan_count: 1
   slug: ukg-plans-pricing
-random_paper: 55
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Ukg Rate Limits
@@ -491,19 +493,26 @@ rules:
   slug: ukg-spectral-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 4.7
+  composite: 57.8
+  delta: -7.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 80.5
+    contract_quality: 68.6
     developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 60.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 65.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png
 security:
 - kind: authentication

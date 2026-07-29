@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 11.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 10.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Balance's v2 REST API for B2B payments, net-terms financing, invoicing, and accounts-receivable automation. Reference documentation is hosted on a password-gated ReadMe.io portal (access requested via
@@ -126,26 +128,30 @@ overview: 'Balance publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Balance''s developer surface includes documentation, engineering blog, support, signup flow, changelog, and 14 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: thin
-  composite: 35.0
-  delta: 0.0
+  composite: 34.9
+  delta: -0.1
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 42.1
   previous_composite: 35.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 59.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balance/refs/heads/main/screenshots/balance-2026-07-25T202259.png
 security:

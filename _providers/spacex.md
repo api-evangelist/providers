@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -349,7 +351,7 @@ plans:
 - name: Spacex Plans Pricing
   plan_count: 2
   slug: spacex-plans-pricing
-random_paper: 32
+random_paper: 28
 rate_limits:
 - limit_count: 4
   name: Spacex Rate Limits
@@ -373,24 +375,32 @@ rules:
   slug: spacex-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 2.9
+  composite: 43.5
+  delta: -7.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 71.7
+    contract_quality: 57.0
     developer_ergonomics: 30.4
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 48.1
+  previous_composite: 51.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 14
+      marker_coverage: 100.0
+      total: 14
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png
 security:
 - kind: authentication

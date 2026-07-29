@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -67,12 +69,46 @@ apis:
 - description: The Validations API from Quandoo — 1 operation(s) for validations.
   name: Quandoo Validations API
   slug: quandoo-validations-api
-artifact_total: 214
+artifact_total: 224
 collections:
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities API
+  slug: postman-quandoo-availabilities-api
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities Customers API
+  slug: postman-quandoo-customers-api
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities Merchants API
+  slug: postman-quandoo-merchants-api
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities Reservation Enquiries API
+  slug: postman-quandoo-reservation-enquiries-api
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities Reservation Settings API
+  slug: postman-quandoo-reservation-settings-api
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities Reservations API
+  slug: postman-quandoo-reservations-api
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities Reservations Tags API
+  slug: postman-quandoo-reservations-tags-api
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities Reviews API
+  slug: postman-quandoo-reviews-api
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities Status API
+  slug: postman-quandoo-status-api
+- collection_type: postman
+  name: Quandoo Public Partner Availabilities Validations API
+  slug: postman-quandoo-validations-api
 - collection_type: open
   name: Quandoo Public Partner API
   slug: open-quandoo-public-partner-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/quandoo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -723,12 +759,12 @@ overview: 'Quandoo publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The Quandoo catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Quandoo''s developer surface includes authentication, documentation, API reference, support, pricing, and 12 more developer resources.'
+  Quandoo''s developer surface includes authentication, documentation, API reference, support, pricing, and 13 more developer resources.'
 plans:
 - name: Quandoo Plans Pricing
   plan_count: 3
   slug: quandoo-plans-pricing
-random_paper: 11
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Quandoo Rate Limits
@@ -760,18 +796,25 @@ rules:
   slug: quandoo-spectral-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 4.8
+  composite: 57.3
+  delta: -3.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 78.0
-    developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 78.9
+    developer_ergonomics: 34.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 56.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/screenshots/quandoo-2026-06-20T192405.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Public Hasura GraphQL API for the VoyceMe platform — 332 queries, 21 public insert mutations, and 493 subscriptions across the voyce_ (comics platform), storypack_/storytech_ (AI characters), and blog
@@ -122,22 +124,26 @@ overview: 'VoyceMe publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   VoyceMe''s developer surface includes authentication, documentation, developer portal, engineering blog, support, and 13 more developer resources.'
-random_paper: 12
+random_paper: 67
 score:
-  band: emerging
-  composite: 23.5
-  delta: 0.0
+  band: thin
+  composite: 31.8
+  delta: 8.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 43.2
+    developer_ergonomics: 38.6
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 0.0
   previous_composite: 23.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Voyceme Authentication

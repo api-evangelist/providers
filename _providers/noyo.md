@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.4
+  scored_at: '2026-07-28'
 api_count: 64
 apis:
 - description: The Carrier Mapped Field API from Noyo — 1 operation(s) for carrier mapped field.
@@ -334,26 +336,36 @@ overview: 'Noyo publishes 64 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Noyo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 45
+random_paper: 68
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 44.4
+  delta: -4.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 56.7
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 53.4
+    developer_ergonomics: 58.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 49.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 64
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.7
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Account hierarchy.
@@ -138,25 +140,33 @@ overview: 'Solaredge publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Solaredge''s developer surface includes documentation, API reference, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 66
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Solaredge Rate Limits
   slug: solaredge-rate-limits
 score:
   band: thin
-  composite: 43.0
-  delta: 0.0
+  composite: 41.9
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.7
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.9
+    developer_ergonomics: 41.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 43.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

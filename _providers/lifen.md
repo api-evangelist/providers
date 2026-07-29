@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.1
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: The CommunicationRequest API from Lifen — 3 operation(s) for communicationrequest.
@@ -50,12 +52,38 @@ apis:
 - description: The Token API from Lifen — 1 operation(s) for token.
   name: Lifen Token API
   slug: lifen-token-api
-artifact_total: 13
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Lifen Platform Webhooks
   slug: lifen-platform-webhooks
+collections:
+- collection_type: postman
+  name: lifen-authentication-api CommunicationRequest API
+  slug: postman-lifen-communicationrequest-api
+- collection_type: postman
+  name: lifen-authentication-api CommunicationRequest Coverage API
+  slug: postman-lifen-coverage-api
+- collection_type: postman
+  name: lifen-authentication-api CommunicationRequest Encounter API
+  slug: postman-lifen-encounter-api
+- collection_type: postman
+  name: lifen-authentication-api CommunicationRequest Organization API
+  slug: postman-lifen-organization-api
+- collection_type: postman
+  name: lifen-authentication-api CommunicationRequest Patient API
+  slug: postman-lifen-patient-api
+- collection_type: postman
+  name: lifen-authentication-api CommunicationRequest Practitioner API
+  slug: postman-lifen-practitioner-api
+- collection_type: postman
+  name: lifen-authentication-api CommunicationRequest Token API
+  slug: postman-lifen-token-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lifen/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -211,8 +239,8 @@ overview: 'Lifen publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Lifen catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lifen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
-random_paper: 50
+  Lifen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Lifen Rate Limits
@@ -224,23 +252,33 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.3
-  delta: 0.0
+  composite: 56.9
+  delta: -3.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 62.7
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.3
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 60.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 65.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png
 security:

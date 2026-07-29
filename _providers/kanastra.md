@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 api_count: 20
 apis:
 - description: The Accounts API from Kanastra — 3 operation(s) for accounts.
@@ -142,7 +144,7 @@ overview: 'Kanastra publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kanastra''s developer surface includes documentation, API reference, authentication, and 4 more developer resources.'
-random_paper: 37
+random_paper: 6
 scopes:
 - name: Kanastra Scopes
   scope_count: 5
@@ -150,23 +152,33 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 35.2
-  delta: 2.7
+  composite: 37.3
+  delta: 2.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 64.2
+    contract_quality: 65.7
     developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 32.5
+  previous_composite: 35.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 49.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png
 security:

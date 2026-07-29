@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: GraphQL API for fetching feedback entries and group taxonomy, batch-importing feedback, and building classification groups. Authenticated with a personal API key sent as an HTTP Bearer token, scoped t
@@ -174,7 +176,7 @@ overview: 'Unwrap publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Unwrap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
-random_paper: 57
+random_paper: 53
 rate_limits:
 - limit_count: 4
   name: Unwrap Rate Limits
@@ -185,19 +187,23 @@ scopes:
   slug: unwrap-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
+  band: developing
   composite: 42.1
   delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 64.7
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 52.6
   previous_composite: 42.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

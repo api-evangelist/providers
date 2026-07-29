@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -130,8 +132,80 @@ apis:
 - description: Manage user accounts
   name: SolarWinds Users API
   slug: solarwinds-users-api
-artifact_total: 283
+artifact_total: 307
 collections:
+- collection_type: postman
+  name: SolarWinds Loggly Account API
+  slug: postman-solarwinds-account-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Assets API
+  slug: postman-solarwinds-assets-api
+- collection_type: postman
+  name: SolarWinds Loggly Account BulkOperations API
+  slug: postman-solarwinds-bulkoperations-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Categories API
+  slug: postman-solarwinds-categories-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Changes API
+  slug: postman-solarwinds-changes-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Checks API
+  slug: postman-solarwinds-checks-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Contacts API
+  slug: postman-solarwinds-contacts-api
+- collection_type: postman
+  name: SolarWinds Loggly Account CRUD API
+  slug: postman-solarwinds-crud-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Events API
+  slug: postman-solarwinds-events-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Groups API
+  slug: postman-solarwinds-groups-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Incidents API
+  slug: postman-solarwinds-incidents-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Invoke API
+  slug: postman-solarwinds-invoke-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Maintenance API
+  slug: postman-solarwinds-maintenance-api
+- collection_type: postman
+  name: SolarWinds Loggly Account ProbeServers API
+  slug: postman-solarwinds-probeservers-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Problems API
+  slug: postman-solarwinds-problems-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Query API
+  slug: postman-solarwinds-query-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Results API
+  slug: postman-solarwinds-results-api
+- collection_type: postman
+  name: SolarWinds Loggly Account SavedSearches API
+  slug: postman-solarwinds-savedsearches-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Search API
+  slug: postman-solarwinds-search-api
+- collection_type: postman
+  name: SolarWinds Loggly Account ServiceRequests API
+  slug: postman-solarwinds-servicerequests-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Summary API
+  slug: postman-solarwinds-summary-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Systems API
+  slug: postman-solarwinds-systems-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Teams API
+  slug: postman-solarwinds-teams-api
+- collection_type: postman
+  name: SolarWinds Loggly Account Users API
+  slug: postman-solarwinds-users-api
 - collection_type: open
   name: SolarWinds Loggly API
   slug: open-solarwinds-loggly
@@ -148,6 +222,10 @@ collections:
   name: SolarWinds Service Desk API
   slug: open-solarwinds-service-desk
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/solarwinds/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -929,12 +1007,12 @@ overview: 'SolarWinds publishes 24 APIs on the [APIs.io](https://apis.io/) netwo
   The SolarWinds catalog on APIs.io includes 6 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SolarWinds'' developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, and 15 more developer resources.'
+  SolarWinds'' developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, and 16 more developer resources.'
 plans:
 - name: Solarwinds Plans Pricing
   plan_count: 1
   slug: solarwinds-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Solarwinds Rate Limits
@@ -958,18 +1036,25 @@ rules:
   slug: solarwinds-spectral-rules
 score:
   band: strong
-  composite: 62.9
-  delta: 2.5
+  composite: 60.9
+  delta: -2.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 68.1
-    developer_ergonomics: 47.8
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 69.4
+    developer_ergonomics: 52.2
+    discoverability: 66.7
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/screenshots/solarwinds-2026-06-20T194153.png
 security:

@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: 'Modeled capability area for managing the client (patient) roster - demographics, contacts, insurance, and portal enrollment. TherapyNotes surfaces this only in its web application; there is no public '
@@ -83,26 +85,27 @@ plans:
 - name: Therapynotes Plans Pricing
   plan_count: 3
   slug: therapynotes-plans-pricing
-random_paper: 26
+random_paper: 9
 score:
   band: emerging
-  composite: 18.2
-  delta: 0.0
+  composite: 14.6
+  delta: -3.6
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 15.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

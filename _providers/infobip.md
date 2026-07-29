@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -164,7 +166,7 @@ apis:
 - description: Zalo offers businesses a dynamic tool - Zalo Notification Service. This solution is designed to revolutionize customer engagement and communication strategies, providing businesses with a direct and e
   name: Infobip Zalo API
   slug: infobip-zalo
-artifact_total: 56
+artifact_total: 102
 asyncapis:
 - description: AsyncAPI projection of the 102 webhooks published in the Infobip platform OpenAPI 3.1 document (the "webhooks" object). Each channel is an Infobip-originated HTTP callback delivered to a customer-conf
   name: Infobip platform webhooks
@@ -172,7 +174,150 @@ asyncapis:
 - description: ''
   name: Infobip Webhooks
   slug: infobip-webhooks
+collections:
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-2fa-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-account-management-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-ai-assistants-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-answers-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-apple-mfb-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-application-entity-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-billing-usage-api-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-biometrics-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-blocklist-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-camara-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-catalogs-api-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-common-assets-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-conversations-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-email-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-instagram-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-kakao-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-knowledge-base-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-line-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-live-chat-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-messages-api-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-messenger-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-metrics-api-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-mms-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-mobile-app-messaging-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-mobile-identity-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-moments-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-number-activation-state-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-number-lookup-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-numbers-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-omni-failover-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-open-channel-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-openapi-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-people-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-rcs-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-resources-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-sending-strategy-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-signals-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-sms-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-subscriptions-api-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-tiktok-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-viber-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-vocalize-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-voice-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-webrtc-calls-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-whatsapp-openapi
+- collection_type: postman
+  name: Infobip OpenAPI Specification
+  slug: postman-infobip-zalo-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/infobip/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -444,8 +589,8 @@ overview: 'Infobip publishes 46 APIs on the [APIs.io](https://apis.io/) network,
   The Infobip catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 56 more developer resources.'
-random_paper: 63
+  Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 57 more developer resources.'
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Infobip Rate Limits
@@ -457,18 +602,34 @@ scopes:
   summary_line: 159 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.6
-  delta: 0.0
+  composite: 65.3
+  delta: 3.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.4
-    developer_ergonomics: 84.8
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 79.9
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 63.2
   previous_composite: 61.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 93.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.9
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: RESTful API for programmatic access to an Amperity tenant — list and manage campaigns, campaign drafts, segments, ingest jobs, audit events, and workflow runs. Authenticated with an OAuth2 client-cred
@@ -133,21 +135,24 @@ overview: 'Amperity publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Amperity''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, and 14 more developer resources.'
-random_paper: 59
+random_paper: 28
 score:
   band: emerging
-  composite: 26.7
-  delta: 0.0
+  composite: 26.1
+  delta: -0.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 47.8
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 44.7
   previous_composite: 26.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/screenshots/amperity-2026-07-25T200122.png
 security:

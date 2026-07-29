@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -121,12 +123,79 @@ apis:
 - description: A **Webhook** is a way to send notifications about Gladly events as a POST request to the endpoint of your choice.
   name: Gladly Webhooks API
   slug: gladly-webhooks-api
-artifact_total: 129
+artifact_total: 150
 collections:
+- collection_type: postman
+  name: Gladly Agents API
+  slug: postman-gladly-agents-api
+- collection_type: postman
+  name: Gladly Agents Answer Management API
+  slug: postman-gladly-answer-management-api
+- collection_type: postman
+  name: Gladly Agents Audiences API
+  slug: postman-gladly-audiences-api
+- collection_type: postman
+  name: Gladly Agents Business Hours API
+  slug: postman-gladly-business-hours-api
+- collection_type: postman
+  name: Gladly Agents Communications API
+  slug: postman-gladly-communications-api
+- collection_type: postman
+  name: Gladly Agents Conversations API
+  slug: postman-gladly-conversations-api
+- collection_type: postman
+  name: Gladly Agents Customers API
+  slug: postman-gladly-customers-api
+- collection_type: postman
+  name: Gladly Agents Events API
+  slug: postman-gladly-events-api
+- collection_type: postman
+  name: Gladly Agents Export API
+  slug: postman-gladly-export-api
+- collection_type: postman
+  name: Gladly Agents Freeform Topics API
+  slug: postman-gladly-freeform-topics-api
+- collection_type: postman
+  name: Gladly Agents Inboxes API
+  slug: postman-gladly-inboxes-api
+- collection_type: postman
+  name: Gladly Agents Organization API
+  slug: postman-gladly-organization-api
+- collection_type: postman
+  name: Gladly Agents Payloads API
+  slug: postman-gladly-payloads-api
+- collection_type: postman
+  name: Gladly Agents Proactive Conversations API
+  slug: postman-gladly-proactive-conversations-api
+- collection_type: postman
+  name: Gladly Agents Public Answer API
+  slug: postman-gladly-public-answer-api
+- collection_type: postman
+  name: Gladly Agents Reports API
+  slug: postman-gladly-reports-api
+- collection_type: postman
+  name: Gladly Agents Tasks API
+  slug: postman-gladly-tasks-api
+- collection_type: postman
+  name: Gladly Agents Teams API
+  slug: postman-gladly-teams-api
+- collection_type: postman
+  name: Gladly Agents Topics API
+  slug: postman-gladly-topics-api
+- collection_type: postman
+  name: Gladly Agents User Identity API
+  slug: postman-gladly-user-identity-api
+- collection_type: postman
+  name: Gladly Agents Webhooks API
+  slug: postman-gladly-webhooks-api
 - collection_type: open
   name: Gladly API
   slug: open-gladly-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/gladly/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -423,12 +492,12 @@ overview: 'Gladly publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
   The Gladly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Gladly''s developer surface includes authentication, developer portal, documentation, API reference, support, getting-started guide, pricing, and 16 more developer resources.'
+  Gladly''s developer surface includes authentication, developer portal, documentation, API reference, support, getting-started guide, pricing, and 17 more developer resources.'
 plans:
 - name: Gladly Plans Pricing
   plan_count: 7
   slug: gladly-plans-pricing
-random_paper: 25
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Gladly Rate Limits
@@ -452,19 +521,32 @@ rules:
   slug: gladly-rules
 score:
   band: strong
-  composite: 63.9
-  delta: 3.5
+  composite: 56.8
+  delta: -7.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.7
-    developer_ergonomics: 52.2
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 70.5
+    developer_ergonomics: 56.5
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 60.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 63.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/screenshots/gladly-2026-06-20T181857.png
 security:
 - kind: authentication

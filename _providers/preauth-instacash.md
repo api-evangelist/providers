@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Create and manage pre-authorization orders.
@@ -157,26 +159,36 @@ overview: 'PreAuth (Instacash) publishes 1 API on the [APIs.io](https://apis.io/
 
 
   PreAuth (Instacash)''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 18 more developer resources.'
-random_paper: 64
+random_paper: 70
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 48.6
+  delta: -1.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 72.6
-    developer_ergonomics: 78.3
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 70.3
+    developer_ergonomics: 66.8
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 7.9
   previous_composite: 49.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

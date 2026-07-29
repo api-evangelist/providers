@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -91,12 +93,25 @@ apis:
 - description: Web sites are a core entity of IIS that determine where and how requests will be handled. The web site API allows consumers to create, read, delete, or update their web sites.
   name: Microsoft Windows Server Web Sites API
   slug: microsoft-windows-server-web-sites-api
-artifact_total: 164
+artifact_total: 167
 collections:
+- collection_type: postman
+  name: IIS Administration Application Pools API
+  slug: postman-microsoft-windows-server-application-pools-api
+- collection_type: postman
+  name: IIS Administration Application Pools Applications API
+  slug: postman-microsoft-windows-server-applications-api
+- collection_type: postman
+  name: IIS Administration Application Pools Web Sites API
+  slug: postman-microsoft-windows-server-web-sites-api
 - collection_type: open
   name: IIS Administration API
   slug: open-iis-administration-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-windows-server/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -558,12 +573,12 @@ overview: 'Microsoft Windows Server publishes 3 APIs on the [APIs.io](https://ap
   The Microsoft Windows Server catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Windows Server''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, and 6 more developer resources.'
+  Microsoft Windows Server''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, and 7 more developer resources.'
 plans:
 - name: Microsoft Windows Server Plans Pricing
   plan_count: 5
   slug: microsoft-windows-server-plans-pricing
-random_paper: 66
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Microsoft Windows Server Rate Limits
@@ -587,18 +602,25 @@ rules:
   slug: microsoft-windows-server-spectral-rules
 score:
   band: strong
-  composite: 60.6
-  delta: 2.0
+  composite: 56.5
+  delta: -4.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.5
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 59.3
+    developer_ergonomics: 39.1
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 58.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/screenshots/microsoft-windows-server-2026-06-20T185546.png
 security:

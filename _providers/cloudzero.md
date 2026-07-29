@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -73,12 +75,34 @@ apis:
 - description: Send, edit, and delete unit metric telemetry data related to your system operations.
   name: CloudZero Unit Metric Telemetry API
   slug: cloudzero-unit-metric-telemetry-api
-artifact_total: 37
+artifact_total: 43
 collections:
+- collection_type: postman
+  name: CloudZero Allocation Telemetry API
+  slug: postman-cloudzero-allocation-telemetry-api
+- collection_type: postman
+  name: CloudZero Allocation Telemetry AnyCost API
+  slug: postman-cloudzero-anycost-api
+- collection_type: postman
+  name: CloudZero Allocation Telemetry Billing API
+  slug: postman-cloudzero-billing-api
+- collection_type: postman
+  name: CloudZero Allocation Telemetry Budgets API
+  slug: postman-cloudzero-budgets-api
+- collection_type: postman
+  name: CloudZero Allocation Telemetry Insights API
+  slug: postman-cloudzero-insights-api
+- collection_type: postman
+  name: CloudZero Allocation Telemetry Unit Metric Telemetry API
+  slug: postman-cloudzero-unit-metric-telemetry-api
 - collection_type: open
   name: CloudZero API
   slug: open-cloudzero-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cloudzero/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,12 +230,12 @@ overview: 'CloudZero publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The CloudZero catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CloudZero''s developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, privacy policy, engineering blog, and 8 more developer resources.'
+  CloudZero''s developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, privacy policy, engineering blog, and 9 more developer resources.'
 plans:
 - name: Cloudzero Plans Pricing
   plan_count: 1
   slug: cloudzero-plans-pricing
-random_paper: 31
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Cloudzero Rate Limits
@@ -235,19 +259,26 @@ rules:
   slug: cloudzero-rules
 score:
   band: strong
-  composite: 63.1
-  delta: 5.4
+  composite: 59.8
+  delta: -3.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 76.1
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 77.1
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 57.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 63.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/screenshots/cloudzero-2026-06-20T174620.png
 security:
 - kind: authentication

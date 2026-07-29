@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -76,16 +78,26 @@ apis:
 - description: The Internal API API from RudderStack — 5 operation(s) for internal api.
   name: RudderStack Internal API API
   slug: rudderstack-internal-api-api
-artifact_total: 23
+artifact_total: 25
 asyncapis:
 - description: AsyncAPI 2.6 specification describing RudderStack's event-streaming surfaces over HTTP. RudderStack ingests customer events server-side via the HTTP Tracking API (identify, track, page, screen, group,
   name: RudderStack Event Streaming API
   slug: rudderstack-event-streaming-asyncapi
 collections:
+- collection_type: postman
+  name: RudderStack HTTP HTTP API API
+  slug: postman-rudderstack-http-api-api
+- collection_type: postman
+  name: RudderStack HTTP HTTP API Internal API API
+  slug: postman-rudderstack-internal-api-api
 - collection_type: open
   name: RudderStack HTTP API
   slug: open-rudderstack-gateway
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/rudderstack/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -240,12 +252,12 @@ overview: 'RudderStack publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
   The RudderStack catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  RudderStack''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 26 more developer resources.'
+  RudderStack''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 27 more developer resources.'
 plans:
 - name: Rudderstack Plans Pricing
   plan_count: 5
   slug: rudderstack-plans-pricing
-random_paper: 24
+random_paper: 25
 rate_limits:
 - limit_count: 6
   name: Rudderstack Rate Limits
@@ -261,18 +273,25 @@ rules:
   slug: rudderstack-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 65.0
-  delta: 0.8
+  composite: 62.7
+  delta: -2.3
   facets:
     commercial_clarity: 63.2
-    contract_quality: 71.2
-    developer_ergonomics: 54.3
-    discoverability: 75.0
-    governance: 60.5
+    contract_quality: 72.4
+    developer_ergonomics: 58.7
+    discoverability: 55.6
+    governance: 47.9
     operational_transparency: 68.4
-  previous_composite: 64.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/screenshots/rudderstack-2026-06-20T193249.png
 security:

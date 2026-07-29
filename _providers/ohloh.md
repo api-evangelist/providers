@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The REST API for Black Duck Open Hub (formerly Ohloh). Returns XML wrapped in a <response> root element that always carries a <status> (success/failed) and an <error> on failure. Requests append .xml '
@@ -114,25 +116,28 @@ overview: 'Ohloh publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ohloh''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 11 more developer resources.'
-random_paper: 62
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Ohloh Rate Limits
   slug: ohloh-rate-limits
 score:
   band: emerging
-  composite: 28.3
-  delta: 0.0
+  composite: 26.8
+  delta: -1.5
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 47.8
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 26.3
   previous_composite: 28.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

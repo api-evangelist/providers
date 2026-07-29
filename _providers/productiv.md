@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -70,12 +72,49 @@ apis:
 - description: Publish usage events for applications.
   name: Productiv Usage Events API
   slug: productiv-usage-events-api
-artifact_total: 60
+artifact_total: 71
 collections:
+- collection_type: postman
+  name: Productiv Developer App Details API
+  slug: postman-productiv-app-details-api
+- collection_type: postman
+  name: Productiv Developer App Details App Summaries API
+  slug: postman-productiv-app-summaries-api
+- collection_type: postman
+  name: Productiv Developer App Details Applications API
+  slug: postman-productiv-applications-api
+- collection_type: postman
+  name: Productiv Developer App Details Audit Events API
+  slug: postman-productiv-audit-events-api
+- collection_type: postman
+  name: Productiv Developer App Details Authentication API
+  slug: postman-productiv-authentication-api
+- collection_type: postman
+  name: Productiv Developer App Details Batch Upload API
+  slug: postman-productiv-batch-upload-api
+- collection_type: postman
+  name: Productiv Developer App Details Org Chart API
+  slug: postman-productiv-org-chart-api
+- collection_type: postman
+  name: Productiv Developer App Details Provisioned Users API
+  slug: postman-productiv-provisioned-users-api
+- collection_type: postman
+  name: Productiv Developer App Details Provisioning Workflows API
+  slug: postman-productiv-provisioning-workflows-api
+- collection_type: postman
+  name: Productiv Developer App Details Spend Data API
+  slug: postman-productiv-spend-data-api
+- collection_type: postman
+  name: Productiv Developer App Details Usage Events API
+  slug: postman-productiv-usage-events-api
 - collection_type: open
   name: Productiv Developer API
   slug: open-productiv-developer
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/productiv/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -225,12 +264,12 @@ overview: 'Productiv publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The Productiv catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Productiv''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Productiv''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Productiv Plans Pricing
   plan_count: 3
   slug: productiv-plans-pricing
-random_paper: 40
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Productiv Rate Limits
@@ -254,19 +293,26 @@ rules:
   slug: productiv-spectral-rules
 score:
   band: strong
-  composite: 60.7
-  delta: 5.5
+  composite: 57.0
+  delta: -3.7
   facets:
     commercial_clarity: 47.4
-    contract_quality: 79.6
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 80.5
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 55.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/screenshots/productiv-2026-06-20T192136.png
 security:
 - kind: authentication

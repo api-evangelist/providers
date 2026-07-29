@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for businesses to collect payments, send single and mass transfers, check balance, manage sub-companies, and receive HMAC-signed webhooks.
@@ -93,26 +95,31 @@ overview: 'Djamo publishes 1 API on the [APIs.io](https://apis.io/) network: Bus
 
 
   Djamo''s developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 47
+random_paper: 61
 score:
-  band: emerging
-  composite: 29.4
-  delta: 0.0
+  band: thin
+  composite: 30.9
+  delta: 1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 31.9
+    contract_quality: 53.1
     developer_ergonomics: 15.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 0.0
   previous_composite: 29.4
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 17.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/djamo/refs/heads/main/screenshots/djamo-2026-07-25T212138.png
 security:

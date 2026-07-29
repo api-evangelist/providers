@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.3
+  scored_at: '2026-07-28'
 api_count: 38
 apis:
 - description: With KPN Number Verify, you can quickly check whether the mobile number someone provides is the same as their SIM card.
@@ -339,7 +341,7 @@ overview: 'KPN publishes 34 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   KPN''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, support, changelog, and 38 more developer resources.'
-random_paper: 57
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Kpn Rate Limits
@@ -350,19 +352,34 @@ scopes:
   slug: kpn-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 59.1
-  delta: 0.0
+  band: strong
+  composite: 62.9
+  delta: 3.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.1
-    developer_ergonomics: 78.3
-    discoverability: 80.0
-    governance: 0.0
+    contract_quality: 64.2
+    developer_ergonomics: 66.8
+    discoverability: 77.8
+    governance: 20.8
     operational_transparency: 94.7
   previous_composite: 59.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 82.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 86.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

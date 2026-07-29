@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -206,7 +208,7 @@ plans:
 - name: Smartbear Plans Pricing
   plan_count: 1
   slug: smartbear-plans-pricing
-random_paper: 9
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Smartbear Rate Limits
@@ -230,18 +232,25 @@ rules:
   slug: smartbear-rules
 score:
   band: developing
-  composite: 56.4
-  delta: 2.0
+  composite: 52.4
+  delta: -4.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 62.7
+    contract_quality: 64.2
     developer_ergonomics: 43.5
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 54.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 56.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/screenshots/smartbear-2026-06-20T194038.png
 security:

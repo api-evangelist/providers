@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.9
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -173,7 +175,7 @@ overview: 'Great Southern Bank publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   Great Southern Bank''s developer surface includes authentication, API reference, developer portal, documentation, support, engineering blog, and 20 more developer resources.'
-random_paper: 17
+random_paper: 73
 scopes:
 - name: Great Southern Bank Scopes
   scope_count: 13
@@ -181,23 +183,33 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 44.1
+  delta: -4.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.0
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.0
+    developer_ergonomics: 45.1
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 7.9
   previous_composite: 48.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 67.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/screenshots/great-southern-bank-2026-07-21T114729.png
 security:

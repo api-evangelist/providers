@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -61,8 +63,26 @@ apis:
 - description: Tenant management endpoints for creating and retrieving tenants.
   name: Chroma Tenants API
   slug: chroma-tenants-api
-artifact_total: 41
+artifact_total: 47
 collections:
+- collection_type: postman
+  name: Chroma Cloud Collections API
+  slug: postman-chroma-collections-api
+- collection_type: postman
+  name: Chroma Cloud Collections Databases API
+  slug: postman-chroma-databases-api
+- collection_type: postman
+  name: Chroma Cloud Collections Records API
+  slug: postman-chroma-records-api
+- collection_type: postman
+  name: Chroma Cloud Collections Search API
+  slug: postman-chroma-search-api
+- collection_type: postman
+  name: Chroma Cloud Collections System API
+  slug: postman-chroma-system-api
+- collection_type: postman
+  name: Chroma Cloud Collections Tenants API
+  slug: postman-chroma-tenants-api
 - collection_type: open
   name: Chroma Cloud API
   slug: open-chroma-cloud-api
@@ -70,6 +90,10 @@ collections:
   name: Chroma Server API
   slug: open-chroma-server-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/chroma/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -219,12 +243,12 @@ overview: 'Chroma publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Chroma catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chroma''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, and 19 more developer resources.'
+  Chroma''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, and 20 more developer resources.'
 plans:
 - name: Chroma Plans Pricing
   plan_count: 3
   slug: chroma-plans-pricing
-random_paper: 22
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Chroma Rate Limits
@@ -240,18 +264,25 @@ rules:
   slug: chroma-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 2.0
+  composite: 59.7
+  delta: -1.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 63.4
-    developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 69.8
+    developer_ergonomics: 34.8
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 59.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/screenshots/chroma-2026-06-20T174327.png
 security:

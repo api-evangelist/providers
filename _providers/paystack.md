@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 6
@@ -724,7 +726,7 @@ plans:
 - name: Paystack Plans Pricing
   plan_count: 8
   slug: paystack-plans-pricing
-random_paper: 48
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Paystack Rate Limits
@@ -756,23 +758,31 @@ rules:
   slug: paystack-rules
 score:
   band: exemplar
-  composite: 72.4
-  delta: 2.7
+  composite: 68.2
+  delta: -4.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 74.9
+    contract_quality: 78.6
     developer_ergonomics: 71.7
-    discoverability: 80.0
-    governance: 65.8
+    discoverability: 59.3
+    governance: 52.1
     operational_transparency: 68.4
-  previous_composite: 69.7
+  previous_composite: 72.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 53.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/screenshots/paystack-2026-06-20T191508.png
 security:

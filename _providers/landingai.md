@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.7
+  scored_at: '2026-07-28'
 api_count: 13
 apis:
 - description: The Classes API from Landing.ai — 1 operation(s) for classes.
@@ -69,8 +71,52 @@ apis:
 - description: The Training API from Landing.ai — 6 operation(s) for training.
   name: Landing.ai Training API
   slug: landingai-training-api
-artifact_total: 20
+artifact_total: 33
+collections:
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes API'
+  slug: postman-landingai-classes-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Deployment API'
+  slug: postman-landingai-deployment-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, , Classify, Split, Section Classes Extract API'
+  slug: postman-landingai-extract-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Image API'
+  slug: postman-landingai-image-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Metadata API'
+  slug: postman-landingai-metadata-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Metrics API'
+  slug: postman-landingai-metrics-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Model API'
+  slug: postman-landingai-model-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: , Extract, Classify, Split, Section Classes Parse API'
+  slug: postman-landingai-parse-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Project API'
+  slug: postman-landingai-project-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Snapshot API'
+  slug: postman-landingai-snapshot-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Tags API'
+  slug: postman-landingai-tags-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Tools API'
+  slug: postman-landingai-tools-api
+- collection_type: postman
+  name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Training API'
+  slug: postman-landingai-training-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/landingai/overview
 - group: company
   title: ''
   type: Website
@@ -223,30 +269,39 @@ network: true
 overview: 'Landing.ai publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Classes API, Deployment API, Extract API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Document Extraction, and Document Processing.
 
 
-  Landing.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Landing.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Landingai Plans
   plan_count: 3
   slug: landingai-plans
-random_paper: 51
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Landingai Rate Limits
   slug: landingai-rate-limits
 score:
-  band: strong
-  composite: 63.9
-  delta: 0.0
+  band: exemplar
+  composite: 66.0
+  delta: 2.1
   facets:
     commercial_clarity: 92.1
-    contract_quality: 49.0
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.0
+    developer_ergonomics: 84.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 55.3
   previous_composite: 63.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/screenshots/landingai-2026-07-25T224504.png
 security:

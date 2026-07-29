@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 11.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 10.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Memory Store Model Context Protocol (MCP) server exposes shared team memory to AI clients (Claude, ChatGPT, Cursor, Raycast). It lets agents record and recall organizational context, search memory
@@ -109,21 +111,23 @@ overview: 'Memory Store publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Memory Store''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 43
+random_paper: 35
 score:
   band: emerging
-  composite: 28.9
-  delta: 0.0
+  composite: 26.5
+  delta: -2.4
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 43.5
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 28.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

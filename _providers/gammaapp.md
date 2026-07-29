@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The Gamma Public API generates presentations, documents, websites, and social posts from text. Everything runs asynchronously: create a generation, poll for status, and retrieve the result (gammaUrl, '
@@ -158,7 +160,7 @@ overview: 'Gamma.app publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Gamma.app''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 20
+random_paper: 66
 scopes:
 - name: Gammaapp Scopes
   scope_count: 2
@@ -166,18 +168,21 @@ scopes:
   summary_line: 2 scopes
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 39.9
+  delta: 1.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 44.7
   previous_composite: 38.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gammaapp/refs/heads/main/screenshots/gammaapp-2026-07-25T215431.png
 security:

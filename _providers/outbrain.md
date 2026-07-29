@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -67,8 +69,38 @@ apis:
 - description: Audience and contextual targeting
   name: Outbrain Targeting API
   slug: outbrain-targeting-api
-artifact_total: 49
+artifact_total: 59
 collections:
+- collection_type: postman
+  name: Outbrain Amplify Authentication API
+  slug: postman-outbrain-authentication-api
+- collection_type: postman
+  name: Outbrain Amplify Authentication Budgets API
+  slug: postman-outbrain-budgets-api
+- collection_type: postman
+  name: Outbrain Amplify Authentication Campaigns API
+  slug: postman-outbrain-campaigns-api
+- collection_type: postman
+  name: Outbrain Amplify Authentication Conversions API
+  slug: postman-outbrain-conversions-api
+- collection_type: postman
+  name: Outbrain Amplify Authentication Events API
+  slug: postman-outbrain-events-api
+- collection_type: postman
+  name: Outbrain Amplify Authentication Marketers API
+  slug: postman-outbrain-marketers-api
+- collection_type: postman
+  name: Outbrain Amplify Authentication PromotedLinks API
+  slug: postman-outbrain-promotedlinks-api
+- collection_type: postman
+  name: Outbrain Amplify Authentication Recommendations API
+  slug: postman-outbrain-recommendations-api
+- collection_type: postman
+  name: Outbrain Amplify Authentication Reporting API
+  slug: postman-outbrain-reporting-api
+- collection_type: postman
+  name: Outbrain Amplify Authentication Targeting API
+  slug: postman-outbrain-targeting-api
 - collection_type: open
   name: Outbrain Amplify API
   slug: open-outbrain-amplify-api
@@ -79,6 +111,10 @@ collections:
   name: Teads Advertiser Conversion API
   slug: open-outbrain-teads-conversion-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/outbrain/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -339,12 +375,12 @@ overview: 'Outbrain publishes 10 APIs on the [APIs.io](https://apis.io/) network
   The Outbrain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Outbrain''s developer surface includes authentication, developer portal, documentation, signup flow, training material, engineering blog, support, and 42 more developer resources.'
+  Outbrain''s developer surface includes authentication, developer portal, documentation, signup flow, training material, engineering blog, support, and 43 more developer resources.'
 plans:
 - name: Outbrain Plans Pricing
   plan_count: 4
   slug: outbrain-plans-pricing
-random_paper: 52
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Outbrain Rate Limits
@@ -368,18 +404,25 @@ rules:
   slug: outbrain-rules
 score:
   band: strong
-  composite: 66.0
-  delta: 4.3
+  composite: 62.7
+  delta: -3.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 73.3
-    developer_ergonomics: 50.0
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 74.4
+    developer_ergonomics: 54.3
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 61.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/screenshots/outbrain-2026-06-20T191227.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Vessel port call management and planning
   name: Navis (Kaleris) Vessel Visits API
   slug: navis-vessel-visits-api
-artifact_total: 16
+artifact_total: 21
 collections:
+- collection_type: postman
+  name: Navis N4 Terminal Operating System REST Gate API
+  slug: postman-navis-gate-api
+- collection_type: postman
+  name: Navis N4 Terminal Operating System REST Gate Holds API
+  slug: postman-navis-holds-api
+- collection_type: postman
+  name: Navis N4 Terminal Operating System REST Gate Operations API
+  slug: postman-navis-operations-api
+- collection_type: postman
+  name: Navis N4 Terminal Operating System REST Gate Units API
+  slug: postman-navis-units-api
+- collection_type: postman
+  name: Navis N4 Terminal Operating System REST Gate Vessel Visits API
+  slug: postman-navis-vessel-visits-api
 - collection_type: open
   name: Navis N4 Terminal Operating System REST API
   slug: open-navis-n4
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/navis-kaleris/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -137,12 +158,12 @@ overview: 'Navis (Kaleris) publishes 5 APIs on the [APIs.io](https://apis.io/) n
   The Navis (Kaleris) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Navis (Kaleris)''s developer surface includes authentication, developer portal, support, engineering blog, and 9 more developer resources.'
+  Navis (Kaleris)''s developer surface includes authentication, developer portal, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Navis Plans Pricing
   plan_count: 3
   slug: navis-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Navis Rate Limits
@@ -158,18 +179,25 @@ rules:
   slug: navis-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 3.4
+  composite: 56.7
+  delta: -4.1
   facets:
     commercial_clarity: 68.4
-    contract_quality: 72.4
-    developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 69.3
+    developer_ergonomics: 30.4
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 57.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/screenshots/navis-2026-06-20T190102.png
 security:

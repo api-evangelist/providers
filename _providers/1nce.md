@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -103,8 +105,74 @@ apis:
 - description: Top Up Management
   name: 1NCE Volume Top Up API
   slug: 1nce-volume-top-up-api
-artifact_total: 59
+artifact_total: 81
 collections:
+- collection_type: postman
+  name: Authorization Administration Logs API
+  slug: postman-1nce-administration-logs-api
+- collection_type: postman
+  name: Authorization Administration Logs Agreements API
+  slug: postman-1nce-agreements-api
+- collection_type: postman
+  name: Authorization Administration Logs Bearer Authorization API
+  slug: postman-1nce-bearer-authorization-api
+- collection_type: postman
+  name: Authorization Administration Logs Connectivity API
+  slug: postman-1nce-connectivity-api
+- collection_type: postman
+  name: Authorization Administration Logs Device Inspector API
+  slug: postman-1nce-device-inspector-api
+- collection_type: postman
+  name: Authorization Administration Logs Device Locator API
+  slug: postman-1nce-device-locator-api
+- collection_type: postman
+  name: Authorization Administration Logs Devices API
+  slug: postman-1nce-devices-api
+- collection_type: postman
+  name: Authorization Administration Logs General SIMs API
+  slug: postman-1nce-general-sims-api
+- collection_type: postman
+  name: Authorization Administration Logs IoT Integrator API
+  slug: postman-1nce-iot-integrator-api
+- collection_type: postman
+  name: Authorization Administration Logs Optimizer API
+  slug: postman-1nce-optimizer-api
+- collection_type: postman
+  name: Authorization Administration Logs Orders API
+  slug: postman-1nce-orders-api
+- collection_type: postman
+  name: Authorization Administration Logs Plugin system API
+  slug: postman-1nce-plugin-system-api
+- collection_type: postman
+  name: Authorization Administration Logs Products API
+  slug: postman-1nce-products-api
+- collection_type: postman
+  name: Authorization Administration Logs Service Requests API
+  slug: postman-1nce-service-requests-api
+- collection_type: postman
+  name: Authorization Administration Logs Settings API
+  slug: postman-1nce-settings-api
+- collection_type: postman
+  name: Authorization Administration Logs SIM Events API
+  slug: postman-1nce-sim-events-api
+- collection_type: postman
+  name: Authorization Administration Logs SIM Extension API
+  slug: postman-1nce-sim-extension-api
+- collection_type: postman
+  name: Authorization Administration Logs SIM Usage API
+  slug: postman-1nce-sim-usage-api
+- collection_type: postman
+  name: Authorization Administration Logs SMS API
+  slug: postman-1nce-sms-api
+- collection_type: postman
+  name: Authorization Administration Logs SMS by ICCID API
+  slug: postman-1nce-sms-by-iccid-api
+- collection_type: postman
+  name: Authorization Administration Logs Volume Limits API
+  slug: postman-1nce-volume-limits-api
+- collection_type: postman
+  name: Authorization Administration Logs Volume Top Up API
+  slug: postman-1nce-volume-top-up-api
 - collection_type: open
   name: Authorization
   slug: open-1nce-authorization-v2
@@ -130,6 +198,10 @@ collections:
   name: Support Management
   slug: open-1nce-support-management
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/1nce/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -331,12 +403,12 @@ overview: '1NCE publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
   The 1NCE catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  1NCE''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, code examples, and 31 more developer resources.'
+  1NCE''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, code examples, and 32 more developer resources.'
 plans:
 - name: 1Nce Plans Pricing
   plan_count: 5
   slug: 1nce-plans-pricing
-random_paper: 19
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: 1Nce Rate Limits
@@ -351,20 +423,33 @@ rules:
     warn: 5
   slug: 1nce-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 60.1
-  delta: 4.2
+  band: developing
+  composite: 54.6
+  delta: -5.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 75.6
-    developer_ergonomics: 54.3
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 74.5
+    developer_ergonomics: 58.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 55.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 60.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 43.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/screenshots/1nce-2026-06-20T162509.png
 security:
 - kind: authentication

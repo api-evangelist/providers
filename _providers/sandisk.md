@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The SanDisk iXpand SDK enables third-party iOS application developers to access and manage iXpand Flash Drive storage through the Lightning interface. It provides File System APIs with a familiar file
@@ -117,25 +119,25 @@ press:
 - date: '2026-05-25'
   title: Sandisk Announces Launch of Secondary Offering ...
   url: https://investor.sandisk.com/news-releases/news-release-details/sandisk-announces-launch-secondary-offering-common-stock-0
-random_paper: 1
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Sandisk Rate Limits
   slug: sandisk-rate-limits
 score:
   band: emerging
-  composite: 27.2
-  delta: 0.0
+  composite: 24.5
+  delta: -2.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 9.4
+    contract_quality: 8.1
     developer_ergonomics: 13.0
-    discoverability: 80.0
-    governance: 13.2
+    discoverability: 59.3
+    governance: 10.4
     operational_transparency: 36.8
   previous_composite: 27.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/screenshots/sandisk-2026-06-20T193405.png
 security:

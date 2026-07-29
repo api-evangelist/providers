@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -121,8 +123,82 @@ apis:
 - description: The Threat Subscriptions API from AT&T — 1 operation(s) for threat subscriptions.
   name: AT&T Threat Subscriptions API
   slug: att-threat-subscriptions-api
-artifact_total: 295
+artifact_total: 318
+collections:
+- collection_type: postman
+  name: AT&T Authentication API
+  slug: postman-att-authentication-api
+- collection_type: postman
+  name: AT&T Balance Management API
+  slug: postman-att-balance-management-api
+- collection_type: postman
+  name: AT&T Device Connectivity API
+  slug: postman-att-device-connectivity-api
+- collection_type: postman
+  name: AT&T Device Management API
+  slug: postman-att-device-management-api
+- collection_type: postman
+  name: AT&T Device Roaming API
+  slug: postman-att-device-roaming-api
+- collection_type: postman
+  name: AT&T Geographic Sites API
+  slug: postman-att-geographic-sites-api
+- collection_type: postman
+  name: AT&T Inbox Management API
+  slug: postman-att-inbox-management-api
+- collection_type: postman
+  name: AT&T Messages API
+  slug: postman-att-messages-api
+- collection_type: postman
+  name: AT&T Network Metrics API
+  slug: postman-att-network-metrics-api
+- collection_type: postman
+  name: AT&T Number Management API
+  slug: postman-att-number-management-api
+- collection_type: postman
+  name: AT&T Number Verification API
+  slug: postman-att-number-verification-api
+- collection_type: postman
+  name: AT&T Order Management API
+  slug: postman-att-order-management-api
+- collection_type: postman
+  name: AT&T Porting API
+  slug: postman-att-porting-api
+- collection_type: postman
+  name: AT&T Product Ordering API
+  slug: postman-att-product-ordering-api
+- collection_type: postman
+  name: AT&T Product Orders API
+  slug: postman-att-product-orders-api
+- collection_type: postman
+  name: AT&T Quality on Demand API
+  slug: postman-att-qod-sessions-api
+- collection_type: postman
+  name: AT&T Service Management API
+  slug: postman-att-service-management-api
+- collection_type: postman
+  name: AT&T Service Qualification API
+  slug: postman-att-service-qualification-api
+- collection_type: postman
+  name: AT&T SIM Swap API
+  slug: postman-att-sim-swap-api
+- collection_type: postman
+  name: AT&T SMS Messaging API
+  slug: postman-att-sms-messaging-api
+- collection_type: postman
+  name: AT&T Subscriber Management API
+  slug: postman-att-subscriber-management-api
+- collection_type: postman
+  name: AT&T Threat Detection API
+  slug: postman-att-threat-detection-api
+- collection_type: postman
+  name: AT&T Threat Subscriptions API
+  slug: postman-att-threat-subscriptions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/att/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -979,7 +1055,7 @@ overview: 'AT&T publishes 23 APIs on the [APIs.io](https://apis.io/) network, in
   The AT&T catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  AT&T''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, FAQ, signup flow, and 21 more developer resources.'
+  AT&T''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, FAQ, signup flow, and 22 more developer resources.'
 plans:
 - name: Att Plans Pricing
   plan_count: 2
@@ -1000,7 +1076,7 @@ press:
 - date: '2026-05-25'
   title: AT&T Tests New AI Digital Receptionist
   url: https://about.att.com/blogs/2025/ai-digital-receptionist.html
-random_paper: 57
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Att Rate Limits
@@ -1029,19 +1105,32 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 61.9
-  delta: 55.2
+  composite: 57.0
+  delta: -4.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.6
-    developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 64.8
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 6.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 20
+      marker_coverage: 87.0
+      total: 23
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 security:
 - kind: authentication
   name: Att Authentication

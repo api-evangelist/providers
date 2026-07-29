@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Public REST API for Arga's testing infrastructure — provision digital twins, deploy branches/PRs into sandboxes, run browser-agent validations, save and replay tests, manage scenarios (seed data), and
@@ -146,21 +148,24 @@ overview: 'Arga Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Arga Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 17 more developer resources.'
-random_paper: 58
+random_paper: 27
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 29.1
+  delta: -2.7
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
-    developer_ergonomics: 80.4
-    discoverability: 92.5
+    developer_ergonomics: 75.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 31.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/screenshots/arga-labs-2026-07-25T201136.png
 security:

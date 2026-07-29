@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Torq REST API allows programmatic management of workspace resources including workflows, users, secrets, triggers, and webhooks. API keys are workspace-scoped and support both US and EU regional e
@@ -114,25 +116,25 @@ plans:
 - name: Torq Plans Pricing
   plan_count: 3
   slug: torq-plans-pricing
-random_paper: 46
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Torq Rate Limits
   slug: torq-rate-limits
 score:
   band: thin
-  composite: 39.3
-  delta: 0.0
+  composite: 35.0
+  delta: -4.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 52.8
+    contract_quality: 45.2
     developer_ergonomics: 17.4
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 39.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/torq/refs/heads/main/screenshots/torq-2026-06-20T195501.png
 security:

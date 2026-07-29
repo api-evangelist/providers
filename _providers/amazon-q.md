@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,12 +60,28 @@ apis:
 - description: The Indices API from Amazon Q — 1 operation(s) for indices.
   name: Amazon Q Indices API
   slug: amazon-q-indices-api
-artifact_total: 44
+artifact_total: 48
 collections:
+- collection_type: postman
+  name: Amazon Q Business Applications API
+  slug: postman-amazon-q-applications-api
+- collection_type: postman
+  name: Amazon Q Business Applications Conversations API
+  slug: postman-amazon-q-conversations-api
+- collection_type: postman
+  name: Amazon Q Business Applications Data Sources API
+  slug: postman-amazon-q-data-sources-api
+- collection_type: postman
+  name: Amazon Q Business Applications Indices API
+  slug: postman-amazon-q-indices-api
 - collection_type: open
   name: Amazon Q Business API
   slug: open-amazon-q
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-q/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -341,12 +359,12 @@ overview: 'Amazon Q publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Amazon Q catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 36 more developer resources.'
+  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 37 more developer resources.'
 plans:
 - name: Amazon Q Plans Pricing
   plan_count: 7
   slug: amazon-q-plans-pricing
-random_paper: 56
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Amazon Q Rate Limits
@@ -370,18 +388,25 @@ rules:
   slug: amazon-q-spectral-rules
 score:
   band: strong
-  composite: 67.0
-  delta: 3.2
+  composite: 63.9
+  delta: -3.1
   facets:
     commercial_clarity: 78.9
-    contract_quality: 59.3
-    developer_ergonomics: 52.2
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 61.0
+    developer_ergonomics: 56.5
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 63.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/screenshots/amazon-q-2026-06-20T171808.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
-    spec_presence: false
+    openapi_examples: documented
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 19.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.4
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Library API for defining server-side logic for a "party" - a backend object backed by a Cloudflare Durable Object. Provides lifecycle hooks for connections, messages, requests, alarms, and state persi
@@ -118,7 +120,7 @@ plans:
 - name: Partykit Plans Pricing
   plan_count: 1
   slug: partykit-plans-pricing
-random_paper: 4
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Partykit Rate Limits
@@ -133,19 +135,19 @@ rules:
     warn: 4
   slug: partykit-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 43.0
-  delta: 0.0
+  band: developing
+  composite: 46.1
+  delta: 3.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 65.8
+    discoverability: 74.1
+    governance: 52.1
     operational_transparency: 26.3
   previous_composite: 43.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/partykit/refs/heads/main/screenshots/partykit-2026-06-20T191429.png
 security:

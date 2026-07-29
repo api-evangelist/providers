@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,12 +60,38 @@ apis:
 - description: Airway bill tracking
   name: Komerce Tracking API
   slug: komerce-tracking-api
-artifact_total: 14
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Komerce Webhooks
   slug: komerce-webhooks
+collections:
+- collection_type: postman
+  name: Komerce Payment Service Cost API
+  slug: postman-komerce-cost-api
+- collection_type: postman
+  name: Komerce Payment Service Cost Destinations API
+  slug: postman-komerce-destinations-api
+- collection_type: postman
+  name: Komerce Payment Service Cost Orders API
+  slug: postman-komerce-orders-api
+- collection_type: postman
+  name: Komerce Payment Service Cost Payments API
+  slug: postman-komerce-payments-api
+- collection_type: postman
+  name: Komerce Payment Service Cost Pickup API
+  slug: postman-komerce-pickup-api
+- collection_type: postman
+  name: Komerce Payment Service Cost QRIS API
+  slug: postman-komerce-qris-api
+- collection_type: postman
+  name: Komerce Payment Service Cost Tracking API
+  slug: postman-komerce-tracking-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/komerce/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -218,35 +246,46 @@ overview: 'Komerce publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Komerce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Komerce''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 27 more developer resources.'
+  Komerce''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 28 more developer resources.'
 plans:
 - name: Komerce Plans
   plan_count: 3
   slug: komerce-plans
-random_paper: 62
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Komerce Rate Limits
   slug: komerce-rate-limits
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 57.0
+  delta: -4.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 66.5
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 13.2
+    contract_quality: 66.4
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 21.9
     operational_transparency: 23.7
   previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png
 security:

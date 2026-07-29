@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Foundational API providing access to EquipmentWatch's manufacturer and model database, covering the taxonomy used across the broader API suite for construction and heavy equipment.
@@ -92,25 +94,25 @@ plans:
 - name: Equipmentwatch Plans Pricing
   plan_count: 3
   slug: equipmentwatch-plans-pricing
-random_paper: 23
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Equipmentwatch Rate Limits
   slug: equipmentwatch-rate-limits
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 18.9
+  delta: -2.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 21.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equipmentwatch/refs/heads/main/screenshots/equipmentwatch-2026-06-20T180808.png
 security:

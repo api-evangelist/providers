@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -57,12 +59,38 @@ apis:
 - description: Translate content at runtime and queue files for translation.
   name: General Translation Translation API
   slug: general-translation-translation-api
-artifact_total: 13
+artifact_total: 20
 asyncapis:
 - description: ''
   name: General Translation Webhooks
   slug: general-translation-webhooks
+collections:
+- collection_type: postman
+  name: General Translation Branches API
+  slug: postman-general-translation-branches-api
+- collection_type: postman
+  name: General Translation Branches Context API
+  slug: postman-general-translation-context-api
+- collection_type: postman
+  name: General Translation Branches Files API
+  slug: postman-general-translation-files-api
+- collection_type: postman
+  name: General Translation Branches Jobs API
+  slug: postman-general-translation-jobs-api
+- collection_type: postman
+  name: General Translation Branches Project API
+  slug: postman-general-translation-project-api
+- collection_type: postman
+  name: General Translation Branches Tags API
+  slug: postman-general-translation-tags-api
+- collection_type: postman
+  name: General Branches Translation API
+  slug: postman-general-translation-translation-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/general-translation/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -221,26 +249,36 @@ overview: 'General Translation publishes 7 APIs on the [APIs.io](https://apis.io
   The General Translation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  General Translation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
-random_paper: 6
+  General Translation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: General Translation Rate Limits
   slug: general-translation-rate-limits
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 61.4
+  delta: 0.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 68.3
-    developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.2
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/screenshots/general-translation-2026-07-25T215549.png
 security:

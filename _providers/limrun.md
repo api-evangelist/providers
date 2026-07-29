@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -204,7 +206,7 @@ overview: 'Limrun publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Limrun''s developer surface includes documentation, API reference, getting-started guide, signup flow, developer console, support, CLI, and 25 more developer resources.'
-random_paper: 51
+random_paper: 47
 scopes:
 - name: Limrun Scopes
   scope_count: 1
@@ -212,18 +214,28 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 45.5
+  delta: -0.4
   facets:
     commercial_clarity: 13.2
-    contract_quality: 40.5
+    contract_quality: 36.3
     developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 45.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/screenshots/limrun-2026-07-25T225212.png
 security:

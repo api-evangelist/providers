@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 73.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -197,7 +199,7 @@ overview: 'Anthropic Claude publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Anthropic Claude''s developer surface includes authentication, documentation, API reference, developer console, signup flow, pricing, support, and 23 more developer resources.'
-random_paper: 3
+random_paper: 18
 rules:
 - name: Anthropic Claude API Rules
   rule_count: 6
@@ -209,18 +211,25 @@ rules:
   slug: anthropic-claude-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 54.9
-  delta: 3.3
+  composite: 51.3
+  delta: -3.6
   facets:
     commercial_clarity: 31.6
-    contract_quality: 66.4
+    contract_quality: 67.8
     developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 51.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 54.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/screenshots/anthropic-claude-2026-06-20T172031.png
 security:

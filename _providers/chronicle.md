@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Workspace-scoped REST API to list templates, create presentations from templates, generate presentations from a prompt (asynchronous, poll-to-complete), upload reference files to ground generation, fe
@@ -178,7 +180,7 @@ overview: 'Chronicle publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Chronicle''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 67
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Chronicle Rate Limits
@@ -190,13 +192,17 @@ score:
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 38.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/screenshots/chronicle-2026-07-25T205309.png
 security:

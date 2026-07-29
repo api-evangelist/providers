@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: REST API surfacing end-user consent operations under the GDPR using the IAB Transparency & Consent Framework (TCF v2.2). Supports retrieving end-user consent status and history by site, merging an end
@@ -237,21 +239,21 @@ overview: 'Sourcepoint publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Sourcepoint''s developer surface includes developer portal, documentation, pricing, signup flow, engineering blog, product news, tooling, and 33 more developer resources.'
-random_paper: 55
+random_paper: 56
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 16.2
+  delta: -2.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 18.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png
 security:

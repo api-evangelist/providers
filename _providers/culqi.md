@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 7
@@ -73,12 +75,53 @@ apis:
 - description: Settlement transfers (abonos) paid out to the merchant.
   name: Culqi Transfers API
   slug: culqi-transfers-api
-artifact_total: 22
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Culqi Events Webhooks
   slug: culqi-events-webhooks
+collections:
+- collection_type: postman
+  name: Culqi API v2 3DS API
+  slug: postman-culqi-3ds-api
+- collection_type: postman
+  name: Culqi API v2 3DS Cards API
+  slug: postman-culqi-cards-api
+- collection_type: postman
+  name: Culqi API v2 3DS Charges API
+  slug: postman-culqi-charges-api
+- collection_type: postman
+  name: Culqi API v2 3DS Customers API
+  slug: postman-culqi-customers-api
+- collection_type: postman
+  name: Culqi API v2 3DS Events API
+  slug: postman-culqi-events-api
+- collection_type: postman
+  name: Culqi API v2 3DS Iins API
+  slug: postman-culqi-iins-api
+- collection_type: postman
+  name: Culqi API v2 3DS Orders API
+  slug: postman-culqi-orders-api
+- collection_type: postman
+  name: Culqi API v2 3DS Plans API
+  slug: postman-culqi-plans-api
+- collection_type: postman
+  name: Culqi API v2 3DS Refunds API
+  slug: postman-culqi-refunds-api
+- collection_type: postman
+  name: Culqi API v2 3DS Subscriptions API
+  slug: postman-culqi-subscriptions-api
+- collection_type: postman
+  name: Culqi API v2 3DS Tokens API
+  slug: postman-culqi-tokens-api
+- collection_type: postman
+  name: Culqi API v2 3DS Transfers API
+  slug: postman-culqi-transfers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/culqi/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -265,35 +308,46 @@ overview: 'Culqi publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
   The Culqi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Culqi''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 34 more developer resources.'
+  Culqi''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 35 more developer resources.'
 plans:
 - name: Culqi Plans Pricing
   plan_count: 5
   slug: culqi-plans-pricing
-random_paper: 66
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Culqi Rate Limits
   slug: culqi-rate-limits
 score:
   band: exemplar
-  composite: 71.6
-  delta: 0.0
+  composite: 69.7
+  delta: -1.9
   facets:
     commercial_clarity: 100.0
-    contract_quality: 66.4
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.4
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 52.6
   previous_composite: 71.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/screenshots/culqi-2026-07-25T210916.png
 security:

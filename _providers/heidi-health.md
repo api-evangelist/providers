@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -70,12 +72,46 @@ apis:
 - description: Audio upload and transcript retrieval.
   name: Heidi Health Transcription API
   slug: heidi-health-transcription-api
-artifact_total: 53
+artifact_total: 63
 collections:
+- collection_type: postman
+  name: Heidi Health Ask Heidi API
+  slug: postman-heidi-health-ask-heidi-api
+- collection_type: postman
+  name: Heidi Health Ask Heidi Authentication API
+  slug: postman-heidi-health-authentication-api
+- collection_type: postman
+  name: Heidi Health Ask Heidi Clinical Coding API
+  slug: postman-heidi-health-clinical-coding-api
+- collection_type: postman
+  name: Heidi Health Ask Heidi Consult Notes API
+  slug: postman-heidi-health-consult-notes-api
+- collection_type: postman
+  name: Heidi Health Ask Heidi Documents API
+  slug: postman-heidi-health-documents-api
+- collection_type: postman
+  name: Heidi Health Ask Heidi Patient Profiles API
+  slug: postman-heidi-health-patient-profiles-api
+- collection_type: postman
+  name: Heidi Health Ask Heidi Session Context API
+  slug: postman-heidi-health-session-context-api
+- collection_type: postman
+  name: Heidi Health Ask Heidi Sessions API
+  slug: postman-heidi-health-sessions-api
+- collection_type: postman
+  name: Heidi Health Ask Heidi Templates API
+  slug: postman-heidi-health-templates-api
+- collection_type: postman
+  name: Heidi Health Ask Heidi Transcription API
+  slug: postman-heidi-health-transcription-api
 - collection_type: open
   name: Heidi Health API
   slug: open-heidi-health
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/heidi-health/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -325,12 +361,12 @@ overview: 'Heidi Health publishes 10 APIs on the [APIs.io](https://apis.io/) net
   The Heidi Health catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Heidi Health''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, changelog, and 35 more developer resources.'
+  Heidi Health''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, changelog, and 36 more developer resources.'
 plans:
 - name: Heidi Health Plans Pricing
   plan_count: 4
   slug: heidi-health-plans-pricing
-random_paper: 34
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Heidi Health Rate Limits
@@ -354,24 +390,32 @@ rules:
   slug: heidi-health-rules
 score:
   band: strong
-  composite: 69.2
-  delta: 3.6
+  composite: 61.4
+  delta: -7.8
   facets:
     commercial_clarity: 100.0
-    contract_quality: 69.4
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 70.7
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 65.6
+  previous_composite: 69.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 45.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/screenshots/heidi-health-2026-06-20T182614.png
 security:
 - kind: authentication

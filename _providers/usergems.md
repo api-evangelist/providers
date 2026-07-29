@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: Honor data-subject deletion requests for tracked contacts.
   name: UserGems Privacy API
   slug: usergems-privacy-api
-artifact_total: 46
+artifact_total: 49
 collections:
+- collection_type: postman
+  name: UserGems Accounts API
+  slug: postman-usergems-accounts-api
+- collection_type: postman
+  name: UserGems Accounts Contacts API
+  slug: postman-usergems-contacts-api
+- collection_type: postman
+  name: UserGems Accounts Privacy API
+  slug: postman-usergems-privacy-api
 - collection_type: open
   name: UserGems API
   slug: open-usergems-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/usergems/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -252,12 +267,12 @@ overview: 'UserGems publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The UserGems catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  UserGems'' developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
+  UserGems'' developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
 plans:
 - name: Usergems Plans Pricing
   plan_count: 1
   slug: usergems-plans-pricing
-random_paper: 59
+random_paper: 28
 rate_limits:
 - limit_count: 4
   name: Usergems Rate Limits
@@ -281,18 +296,25 @@ rules:
   slug: usergems-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 4.3
+  composite: 59.3
+  delta: -3.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 77.0
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 78.0
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 58.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/screenshots/usergems-2026-06-20T200715.png
 security:

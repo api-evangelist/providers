@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 21
 apis:
 - description: 'tekton.dev/v1 kind=Task — defines a series of steps that launch specific build or delivery tools, ingest specific inputs (params, workspaces, resources), and produce specific outputs (results). Tasks '
@@ -218,25 +220,25 @@ plans:
 - name: Tekton Plans Pricing
   plan_count: 2
   slug: tekton-plans-pricing
-random_paper: 49
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Tekton Rate Limits
   slug: tekton-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.8
+  composite: 32.6
+  delta: -3.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 28.3
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 35.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 35.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/screenshots/tekton-2026-06-20T195017.png
 security:

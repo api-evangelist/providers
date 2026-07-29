@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -366,7 +368,7 @@ plans:
 - name: 123Formbuilder Plans Pricing
   plan_count: 5
   slug: 123formbuilder-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 7
   name: 123Formbuilder Rate Limits
@@ -389,25 +391,33 @@ rules:
     warn: 14
   slug: 123formbuilder-rules
 score:
-  band: exemplar
-  composite: 72.4
-  delta: 4.6
+  band: strong
+  composite: 65.3
+  delta: -7.1
   facets:
     commercial_clarity: 92.1
-    contract_quality: 79.8
+    contract_quality: 80.6
     developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 67.8
+  previous_composite: 72.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 56.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/screenshots/123formbuilder-2026-06-20T162300.png
 security:
 - kind: authentication

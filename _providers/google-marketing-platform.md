@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: The V1alpha API from Google Marketing Platform Admin — 4 operation(s) for v1alpha.
   name: Google Marketing Platform Admin V1alpha API
   slug: google-marketing-platform-v1alpha-api
-artifact_total: 43
+artifact_total: 44
 collections:
+- collection_type: postman
+  name: Google Marketing Platform Admin V1alpha API
+  slug: postman-google-marketing-platform-v1alpha-api
 - collection_type: open
   name: Google Marketing Platform Admin API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-marketing-platform-admin/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -220,12 +229,12 @@ overview: 'Google Marketing Platform Admin publishes 1 API on the [APIs.io](http
   The Google Marketing Platform Admin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Marketing Platform Admin''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 11 more developer resources.'
+  Google Marketing Platform Admin''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Google Marketing Platform Plans Pricing
   plan_count: 3
   slug: google-marketing-platform-plans-pricing
-random_paper: 42
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Google Marketing Platform Rate Limits
@@ -254,18 +263,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.8
-  delta: 4.6
+  composite: 63.0
+  delta: -2.8
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.9
-    developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 72.3
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/screenshots/google-marketing-platform-2026-06-20T182213.png
 security:

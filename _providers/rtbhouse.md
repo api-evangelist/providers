@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -149,7 +151,7 @@ plans:
 - name: Rtbhouse Plans Pricing
   plan_count: 1
   slug: rtbhouse-plans-pricing
-random_paper: 60
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Rtbhouse Rate Limits
@@ -165,18 +167,25 @@ rules:
   slug: rtbhouse-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 42.9
+  delta: -4.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 52.2
+    contract_quality: 54.2
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 46.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/screenshots/rtbhouse-2026-06-20T193241.png
 security:

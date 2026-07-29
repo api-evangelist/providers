@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: CKAN Action API for datos.gob.mx - Sitio oficial de datos abiertos del Gobierno de la República, a consistent JSON-over-HTTP interface over a catalog of 1,652 datasets. Standard actions include packag
@@ -82,30 +84,31 @@ plans:
 - name: Datos Gob Mx Plans Pricing
   plan_count: 1
   slug: datos-gob-mx-plans-pricing
-random_paper: 14
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Datos Gob Mx Rate Limits
   slug: datos-gob-mx-rate-limits
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 16.2
+  delta: -2.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 18.5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 11.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datos-gob-mx/refs/heads/main/screenshots/datos-gob-mx-2026-06-20T175720.png
 security:

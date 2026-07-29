@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -130,12 +132,57 @@ apis:
 - description: Business partner tax identification numbers
   name: SAP Tax Numbers API
   slug: sap-tax-numbers-api
-artifact_total: 145
+artifact_total: 160
 asyncapis:
 - description: Event-driven messaging API for SAP Business Technology Platform supporting AMQP, MQTT, and REST protocols. Enables publish/subscribe patterns for business events across SAP and third-party application
   name: SAP Event Mesh Events
   slug: sap-event-mesh-asyncapi
 collections:
+- collection_type: postman
+  name: SAP AI Core Addresses API
+  slug: postman-sap-addresses-api
+- collection_type: postman
+  name: SAP AI Core Addresses Artifacts API
+  slug: postman-sap-artifacts-api
+- collection_type: postman
+  name: SAP AI Core Addresses Authentication API
+  slug: postman-sap-authentication-api
+- collection_type: postman
+  name: SAP AI Core Addresses Bank Accounts API
+  slug: postman-sap-bank-accounts-api
+- collection_type: postman
+  name: SAP AI Core Addresses Business Partners API
+  slug: postman-sap-business-partners-api
+- collection_type: postman
+  name: SAP AI Core Addresses Configurations API
+  slug: postman-sap-configurations-api
+- collection_type: postman
+  name: SAP AI Core Addresses Deployments API
+  slug: postman-sap-deployments-api
+- collection_type: postman
+  name: SAP AI Core Addresses Executions API
+  slug: postman-sap-executions-api
+- collection_type: postman
+  name: SAP AI Core Addresses Invoices API
+  slug: postman-sap-invoices-api
+- collection_type: postman
+  name: SAP AI Core Addresses Items API
+  slug: postman-sap-items-api
+- collection_type: postman
+  name: SAP AI Core Addresses Journal Entries API
+  slug: postman-sap-journal-entries-api
+- collection_type: postman
+  name: SAP AI Core Addresses Orders API
+  slug: postman-sap-orders-api
+- collection_type: postman
+  name: SAP AI Core Addresses Roles API
+  slug: postman-sap-roles-api
+- collection_type: postman
+  name: SAP AI Core Addresses Scenarios API
+  slug: postman-sap-scenarios-api
+- collection_type: postman
+  name: SAP AI Core Addresses Tax Numbers API
+  slug: postman-sap-tax-numbers-api
 - collection_type: open
   name: SAP AI Core API
   slug: open-sap-ai-core
@@ -146,6 +193,10 @@ collections:
   name: SAP S/4HANA Cloud Business Partner API
   slug: open-sap-s4hana-cloud-business-partner
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sap/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -571,12 +622,12 @@ overview: 'SAP publishes 16 APIs on the [APIs.io](https://apis.io/) network, inc
   The SAP catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 27 more developer resources.'
+  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 28 more developer resources.'
 plans:
 - name: Sap Plans Pricing
   plan_count: 1
   slug: sap-plans-pricing
-random_paper: 52
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Sap Rate Limits
@@ -613,18 +664,25 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 61.7
-  delta: 0.8
+  composite: 60.7
+  delta: -1.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 74.1
-    developer_ergonomics: 52.2
-    discoverability: 62.5
-    governance: 52.6
+    contract_quality: 75.4
+    developer_ergonomics: 56.5
+    discoverability: 53.7
+    governance: 41.7
     operational_transparency: 57.9
-  previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -731,7 +733,7 @@ plans:
 - name: Airbnb Plans Pricing
   plan_count: 5
   slug: airbnb-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Airbnb Rate Limits
@@ -768,18 +770,25 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 56.8
-  delta: 2.5
+  composite: 54.0
+  delta: -2.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 75.8
+    contract_quality: 79.5
     developer_ergonomics: 21.7
-    discoverability: 80.0
-    governance: 65.8
+    discoverability: 59.3
+    governance: 52.1
     operational_transparency: 42.1
-  previous_composite: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 56.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png
 security:

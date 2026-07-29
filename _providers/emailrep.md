@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -321,7 +323,7 @@ plans:
 - name: Emailrep Plans Pricing
   plan_count: 3
   slug: emailrep-plans-pricing
-random_paper: 31
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Emailrep Rate Limits
@@ -345,19 +347,26 @@ rules:
   slug: emailrep-spectral-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 3.3
+  composite: 58.1
+  delta: -7.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.0
+    contract_quality: 57.6
     developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 62.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 65.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/screenshots/emailrep-2026-06-20T180624.png
 security:
 - kind: authentication

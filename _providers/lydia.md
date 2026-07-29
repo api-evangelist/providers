@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 6.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -66,26 +68,27 @@ name: Lydia
 nav: Providers
 network: true
 overview: Lydia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Mobile Payments, and Peer-to-Peer.
-random_paper: 55
+random_paper: 69
 score:
   band: minimal
-  composite: 10.8
-  delta: 0.0
+  composite: 8.6
+  delta: -2.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 10.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 15.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lydia/refs/heads/main/screenshots/lydia-2026-07-25T225745.png
 security:

@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 30.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 17.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'MLS Grid''s RESO Web API — a replication-oriented OData v4 surface over listing data normalized to the RESO Data Dictionary and pooled from the participating MLSs. Documented entity sets are Property, '
@@ -192,25 +194,27 @@ overview: 'MLS Grid publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   MLS Grid''s developer surface includes documentation, developer portal, signup flow, FAQ, engineering blog, support, changelog, and 30 more developer resources.'
-random_paper: 51
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Mls Grid Rate Limits
   slug: mls-grid-rate-limits
 score:
-  band: emerging
-  composite: 29.0
-  delta: 0.0
+  band: thin
+  composite: 29.6
+  delta: 0.6
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 92.5
-    governance: 13.2
+    discoverability: 87.0
+    governance: 22.9
     operational_transparency: 21.1
   previous_composite: 29.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

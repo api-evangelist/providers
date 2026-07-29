@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Collections are groups of registered `Persons`. You can use collections to organize your registered persons and to search for persons within a specific collection. You can also use collections to mana
@@ -130,21 +132,30 @@ overview: 'Seventh Sense publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Seventh Sense''s developer surface includes authentication, documentation, signup flow, and 14 more developer resources.'
-random_paper: 60
+random_paper: 43
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 34.2
+  delta: -2.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.5
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 46.6
+    developer_ergonomics: 38.6
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 37.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -262,7 +264,7 @@ overview: 'Holidu publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Holidu''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 26 more developer resources.'
-random_paper: 33
+random_paper: 29
 scopes:
 - name: Holidu Scopes
   scope_count: 0
@@ -270,18 +272,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 48.7
+  delta: -1.8
   facets:
     commercial_clarity: 13.2
-    contract_quality: 61.4
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.7
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 63.2
   previous_composite: 50.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/screenshots/holidu-2026-07-25T221319.png
 security:

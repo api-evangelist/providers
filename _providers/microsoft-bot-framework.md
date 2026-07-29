@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -129,25 +131,38 @@ plans:
 - name: Microsoft Bot Framework Plans Pricing
   plan_count: 3
   slug: microsoft-bot-framework-plans-pricing
-random_paper: 59
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Microsoft Bot Framework Rate Limits
   slug: microsoft-bot-framework-rate-limits
 score:
-  band: developing
-  composite: 45.0
-  delta: 2.0
+  band: thin
+  composite: 41.2
+  delta: -3.8
   facets:
     commercial_clarity: 71.1
-    contract_quality: 47.8
+    contract_quality: 50.0
     developer_ergonomics: 32.6
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 45.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/screenshots/microsoft-bot-framework-2026-06-20T185445.png
 security:

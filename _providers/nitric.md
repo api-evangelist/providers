@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: SDK resource for declaring HTTP APIs and routes in code. Nitric provisions the API gateway (e.g. AWS API Gateway, GCP API Gateway, Azure API Management) and wires routes to your handlers. This is a fr
@@ -120,25 +122,25 @@ plans:
 - name: Nitric Plans Pricing
   plan_count: 2
   slug: nitric-plans-pricing
-random_paper: 37
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Nitric Rate Limits
   slug: nitric-rate-limits
 score:
-  band: thin
-  composite: 30.4
-  delta: 3.3
+  band: emerging
+  composite: 26.4
+  delta: -4.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 8.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 27.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 30.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/screenshots/nitric-2026-06-20T190332.png
 security:

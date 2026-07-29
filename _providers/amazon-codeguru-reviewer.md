@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,8 +53,28 @@ apis:
 - description: The Tags API from Amazon CodeGuru Reviewer — 2 operation(s) for tags.
   name: Amazon CodeGuru Reviewer Tags API
   slug: amazon-codeguru-reviewer-tags-api
-artifact_total: 326
+artifact_total: 331
+collections:
+- collection_type: postman
+  name: Amazon CodeGuru Reviewer Associations API
+  slug: postman-amazon-codeguru-reviewer-associations-api
+- collection_type: postman
+  name: Amazon CodeGuru Reviewer Associations Codereviews API
+  slug: postman-amazon-codeguru-reviewer-codereviews-api
+- collection_type: postman
+  name: Amazon CodeGuru Reviewer Associations Codereviews#Type API
+  slug: postman-amazon-codeguru-reviewer-codereviews-type-api
+- collection_type: postman
+  name: Amazon CodeGuru Reviewer Associations Feedback API
+  slug: postman-amazon-codeguru-reviewer-feedback-api
+- collection_type: postman
+  name: Amazon CodeGuru Reviewer Associations Tags API
+  slug: postman-amazon-codeguru-reviewer-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-codeguru-reviewer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1092,8 +1114,8 @@ overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://ap
   The Amazon CodeGuru Reviewer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 17 more developer resources.'
-random_paper: 23
+  Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 18 more developer resources.'
+random_paper: 7
 rules:
 - name: Amazon CodeGuru Reviewer API Rules
   rule_count: 5
@@ -1113,18 +1135,27 @@ rules:
   slug: amazon-codeguru-reviewer-spectral-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 60.5
+  delta: -0.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 70.3
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 71.5
+    developer_ergonomics: 52.2
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:

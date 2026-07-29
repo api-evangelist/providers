@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 68.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 0
@@ -1432,7 +1434,7 @@ plans:
 - name: Asana Plans Pricing
   plan_count: 4
   slug: asana-plans-pricing
-random_paper: 40
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Asana Rate Limits
@@ -1461,18 +1463,25 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 80.4
-  delta: 2.6
+  composite: 76.4
+  delta: -4.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 84.6
+    contract_quality: 83.7
     developer_ergonomics: 63.0
-    discoverability: 80.0
-    governance: 65.8
+    discoverability: 59.3
+    governance: 52.1
     operational_transparency: 94.7
-  previous_composite: 77.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 80.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png
 security:

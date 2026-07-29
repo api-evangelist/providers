@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -1032,7 +1034,7 @@ overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Profiler''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
-random_paper: 17
+random_paper: 1
 rules:
 - name: Amazon CodeGuru Profiler API Rules
   rule_count: 5
@@ -1052,18 +1054,27 @@ rules:
   slug: amazon-codeguru-profiler-spectral-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 38.2
+  delta: -0.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 69.9
+    contract_quality: 71.8
     developer_ergonomics: 13.0
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 92.6
+    governance: 69.8
     operational_transparency: 0.0
   previous_composite: 38.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:

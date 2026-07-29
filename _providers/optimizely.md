@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -139,7 +141,7 @@ apis:
 - description: Manage unsubscribe lists for opt-out recipients.
   name: Optimizely Unsubscribes API
   slug: optimizely-unsubscribes-api
-artifact_total: 151
+artifact_total: 185
 asyncapis:
 - description: The Optimizely Content Marketing Platform (CMP) provides webhook notifications when content events occur, such as when assets are published, tasks are completed or modified, and content items are upda
   name: Optimizely CMP Webhooks
@@ -148,6 +150,108 @@ asyncapis:
   name: Optimizely Feature Experimentation Webhooks
   slug: optimizely-feature-experimentation-asyncapi
 collections:
+- collection_type: postman
+  name: Optimizely Campaign REST Assets API
+  slug: postman-optimizely-assets-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Attributes API
+  slug: postman-optimizely-attributes-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Audiences API
+  slug: postman-optimizely-audiences-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Campaigns API
+  slug: postman-optimizely-campaigns-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Catalog Entries API
+  slug: postman-optimizely-catalog-entries-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Catalog Entry Relations API
+  slug: postman-optimizely-catalog-entry-relations-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Catalog Nodes API
+  slug: postman-optimizely-catalog-nodes-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Catalogs API
+  slug: postman-optimizely-catalogs-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Content API
+  slug: postman-optimizely-content-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Content Types API
+  slug: postman-optimizely-content-types-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Customers API
+  slug: postman-optimizely-customers-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Environments API
+  slug: postman-optimizely-environments-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Events API
+  slug: postman-optimizely-events-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Experiments API
+  slug: postman-optimizely-experiments-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Extensions API
+  slug: postman-optimizely-extensions-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Features API
+  slug: postman-optimizely-features-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Flags API
+  slug: postman-optimizely-flags-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets GraphQL API
+  slug: postman-optimizely-graphql-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Labels API
+  slug: postman-optimizely-labels-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Mailing Lists API
+  slug: postman-optimizely-mailing-lists-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Objects API
+  slug: postman-optimizely-objects-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Orders API
+  slug: postman-optimizely-orders-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Pages API
+  slug: postman-optimizely-pages-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Profiles API
+  slug: postman-optimizely-profiles-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Projects API
+  slug: postman-optimizely-projects-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Recipients API
+  slug: postman-optimizely-recipients-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Rulesets API
+  slug: postman-optimizely-rulesets-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Schema API
+  slug: postman-optimizely-schema-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Segments API
+  slug: postman-optimizely-segments-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Sites API
+  slug: postman-optimizely-sites-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Smart Campaigns API
+  slug: postman-optimizely-smart-campaigns-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Tasks API
+  slug: postman-optimizely-tasks-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Transactional Mail API
+  slug: postman-optimizely-transactional-mail-api
+- collection_type: postman
+  name: Optimizely Campaign REST Assets Unsubscribes API
+  slug: postman-optimizely-unsubscribes-api
 - collection_type: open
   name: Optimizely Campaign REST API
   slug: open-optimizely-campaign
@@ -176,6 +280,10 @@ collections:
   name: Optimizely Web Experimentation REST API
   slug: open-optimizely-web-experimentation
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/optimizely/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -513,12 +621,12 @@ overview: 'Optimizely publishes 34 APIs on the [APIs.io](https://apis.io/) netwo
   The Optimizely catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Optimizely''s developer surface includes authentication, engineering blog, support, and 12 more developer resources.'
+  Optimizely''s developer surface includes authentication, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Optimizely Plans Pricing
   plan_count: 3
   slug: optimizely-plans-pricing
-random_paper: 22
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Optimizely Rate Limits
@@ -547,18 +655,25 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: strong
-  composite: 60.1
-  delta: 1.2
+  composite: 57.8
+  delta: -2.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 77.9
-    developer_ergonomics: 26.1
-    discoverability: 80.0
-    governance: 52.6
+    contract_quality: 78.6
+    developer_ergonomics: 30.4
+    discoverability: 59.3
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 58.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

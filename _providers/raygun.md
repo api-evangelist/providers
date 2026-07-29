@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -454,7 +456,7 @@ plans:
 - name: Raygun Plans Pricing
   plan_count: 13
   slug: raygun-plans-pricing
-random_paper: 50
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Raygun Rate Limits
@@ -478,18 +480,25 @@ rules:
   slug: raygun-rules
 score:
   band: exemplar
-  composite: 72.6
-  delta: 3.2
+  composite: 68.2
+  delta: -4.4
   facets:
     commercial_clarity: 78.9
-    contract_quality: 73.7
+    contract_quality: 73.9
     developer_ergonomics: 65.2
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 69.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 72.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 92.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/screenshots/raygun-2026-06-20T192616.png
 security:

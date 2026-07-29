@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -47,12 +49,20 @@ apis:
 - description: Strong Customer Authentication endpoints to authenticate a given payment method and manage SCA providers on a merchant profile, supporting 3-D Secure 2.x authentication flows for cardholder verificati
   name: Spreedly 3-D Secure / SCA Authentication API
   slug: spreedly-sca-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Spreedly Webhooks
   slug: spreedly-webhooks
+collections:
+- collection_type: postman
+  name: Spreedly API V1
+  slug: postman-spreedly-api-v1
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/spreedly/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -240,27 +250,33 @@ overview: 'Spreedly publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Spreedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 35 more developer resources.'
-random_paper: 56
+  Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 36 more developer resources.'
+random_paper: 25
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 62.1
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.4
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 63.2
   previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

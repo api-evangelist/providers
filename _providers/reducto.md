@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -88,8 +90,64 @@ apis:
 - description: The Version API from Reducto — 1 operation(s) for version.
   name: Reducto Version API
   slug: reducto-version-api
-artifact_total: 47
+artifact_total: 64
+collections:
+- collection_type: postman
+  name: Reducto Cancel API
+  slug: postman-reducto-cancel-api
+- collection_type: postman
+  name: Reducto Cancel Classify API
+  slug: postman-reducto-classify-api
+- collection_type: postman
+  name: Reducto Cancel Configure Webhook API
+  slug: postman-reducto-configure-webhook-api
+- collection_type: postman
+  name: Reducto Cancel Edit API
+  slug: postman-reducto-edit-api
+- collection_type: postman
+  name: Reducto Cancel Edit Async API
+  slug: postman-reducto-edit-async-api
+- collection_type: postman
+  name: Reducto Cancel Extract API
+  slug: postman-reducto-extract-api
+- collection_type: postman
+  name: Reducto Cancel Extract Async API
+  slug: postman-reducto-extract-async-api
+- collection_type: postman
+  name: Reducto Cancel Job API
+  slug: postman-reducto-job-api
+- collection_type: postman
+  name: Reducto Cancel Jobs API
+  slug: postman-reducto-jobs-api
+- collection_type: postman
+  name: Reducto Cancel Parse API
+  slug: postman-reducto-parse-api
+- collection_type: postman
+  name: Reducto Cancel Parse Async API
+  slug: postman-reducto-parse-async-api
+- collection_type: postman
+  name: Reducto Cancel Pipeline API
+  slug: postman-reducto-pipeline-api
+- collection_type: postman
+  name: Reducto Cancel Pipeline Async API
+  slug: postman-reducto-pipeline-async-api
+- collection_type: postman
+  name: Reducto Cancel Split API
+  slug: postman-reducto-split-api
+- collection_type: postman
+  name: Reducto Cancel Split Async API
+  slug: postman-reducto-split-async-api
+- collection_type: postman
+  name: Reducto Cancel Upload API
+  slug: postman-reducto-upload-api
+- collection_type: postman
+  name: Reducto Cancel Version API
+  slug: postman-reducto-version-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/reducto/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -251,12 +309,12 @@ overview: 'Reducto publishes 17 APIs on the [APIs.io](https://apis.io/) network,
   The Reducto catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Reducto''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 13 more developer resources.'
+  Reducto''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 14 more developer resources.'
 plans:
 - name: Reducto Plans Pricing
   plan_count: 3
   slug: reducto-plans-pricing
-random_paper: 10
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Reducto Rate Limits
@@ -272,18 +330,25 @@ rules:
   slug: reducto-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 57.8
+  delta: -3.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.3
-    developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 72.5
+    developer_ergonomics: 34.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 68.4
   previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/screenshots/reducto-2026-06-20T192736.png
 security:

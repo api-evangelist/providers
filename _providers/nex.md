@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -206,7 +208,7 @@ overview: 'Nex publishes 16 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Nex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 59
+random_paper: 23
 scopes:
 - name: Nex Scopes
   scope_count: 18
@@ -214,18 +216,28 @@ scopes:
   summary_line: 18 scopes
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 47.2
+  delta: -1.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.7
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.8
+    developer_ergonomics: 69.0
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 48.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

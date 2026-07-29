@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.4
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The RESO Web API is the ratified transport standard for real estate data, defined as a profile of OData 4.0/4.01 (Web API Core 2.0.0 and 2.1.0). Servers MUST expose an OData XML metadata document at /
@@ -251,22 +253,26 @@ overview: 'RESO (Real Estate Standards Organization) publishes 2 APIs on the [AP
 
 
   RESO (Real Estate Standards Organization)''s developer surface includes documentation, pricing, engineering blog, API reference, getting-started guide, support, signup flow, and 43 more developer resources.'
-random_paper: 33
+random_paper: 56
 score:
-  band: thin
-  composite: 41.6
-  delta: 0.0
+  band: developing
+  composite: 49.2
+  delta: 7.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
-    developer_ergonomics: 78.3
-    discoverability: 80.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 73.4
+    discoverability: 77.8
+    governance: 12.5
     operational_transparency: 42.1
   previous_composite: 41.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Reso Authentication

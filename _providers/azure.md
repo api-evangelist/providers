@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,8 +48,22 @@ apis:
 - description: Manage Azure subscriptions
   name: Microsoft Azure Subscriptions API
   slug: azure-subscriptions-api
-artifact_total: 42
+artifact_total: 45
+collections:
+- collection_type: postman
+  name: Microsoft Azure Management Resource Groups API
+  slug: postman-azure-resource-groups-api
+- collection_type: postman
+  name: Microsoft Azure Management Resource Groups Resources API
+  slug: postman-azure-resources-api
+- collection_type: postman
+  name: Microsoft Azure Management Resource Groups Subscriptions API
+  slug: postman-azure-subscriptions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-azure/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -208,12 +224,12 @@ overview: 'Microsoft Azure publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Microsoft Azure catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Azure''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, and 13 more developer resources.'
+  Microsoft Azure''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, and 14 more developer resources.'
 plans:
 - name: Azure Plans Pricing
   plan_count: 5
   slug: azure-plans-pricing
-random_paper: 7
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Azure Rate Limits
@@ -242,19 +258,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 64.2
-  delta: 0.0
+  composite: 57.5
+  delta: -6.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.6
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 53.4
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 64.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/screenshots/azure-2026-06-20T172833.png
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The Notary Project specification defines the signature envelope format, trust store and trust policy for container image signing and verification. It supports multiple signature formats and integrates
@@ -140,7 +142,7 @@ plans:
 - name: Notary Plans Pricing
   plan_count: 3
   slug: notary-plans-pricing
-random_paper: 57
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Notary Rate Limits
@@ -155,19 +157,19 @@ rules:
     warn: 4
   slug: notary-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.6
-  delta: 0.0
+  band: thin
+  composite: 41.8
+  delta: -4.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 39.6
+    contract_quality: 33.9
     developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 46.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/screenshots/notary-2026-06-20T190421.png
 security:

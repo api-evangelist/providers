@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,8 +48,22 @@ apis:
 - description: Approval group membership retrieval
   name: Ariba Sourcing Groups API
   slug: ariba-sourcing-groups-api
-artifact_total: 64
+artifact_total: 67
+collections:
+- collection_type: postman
+  name: Ariba Sourcing - External Approval Approval Tasks API
+  slug: postman-ariba-sourcing-approval-tasks-api
+- collection_type: postman
+  name: Ariba Sourcing - External Approval Approval Tasks Documents API
+  slug: postman-ariba-sourcing-documents-api
+- collection_type: postman
+  name: Ariba Sourcing - External Approval Approval Tasks Groups API
+  slug: postman-ariba-sourcing-groups-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ariba-sourcing/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -268,12 +284,12 @@ overview: 'Ariba Sourcing publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   The Ariba Sourcing catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ariba Sourcing''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, code examples, and 10 more developer resources.'
+  Ariba Sourcing''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, code examples, and 11 more developer resources.'
 plans:
 - name: Ariba Sourcing Plans Pricing
   plan_count: 3
   slug: ariba-sourcing-plans-pricing
-random_paper: 2
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Ariba Sourcing Rate Limits
@@ -302,19 +318,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 66.1
-  delta: 0.0
+  composite: 59.3
+  delta: -6.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 80.5
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 66.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/screenshots/ariba-sourcing-2026-06-20T172427.png
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.9
+  scored_at: '2026-07-28'
 api_count: 12
 apis:
 - description: Post categories.
@@ -168,27 +170,37 @@ overview: 'EDDA Technology publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   EDDA Technology''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 58
+random_paper: 13
 score:
-  band: thin
-  composite: 33.1
-  delta: 0.0
+  band: emerging
+  composite: 26.3
+  delta: -6.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 63.7
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 49.2
+    developer_ergonomics: 21.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 33.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 12
+      marker_coverage: 100.0
+      total: 12
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 21.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/screenshots/edda-2026-07-25T212816.png
 security:
 - kind: authentication

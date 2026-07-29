@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -173,7 +175,7 @@ press:
 - date: '2026-05-25'
   title: Synopsys Outlines Vision for Engineering the Future
   url: https://www.prnewswire.com/news-releases/synopsys-outlines-vision-for-engineering-the-future-302711205.html
-random_paper: 36
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Synopsys Rate Limits
@@ -202,18 +204,25 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 51.4
-  delta: 2.5
+  composite: 47.2
+  delta: -4.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 65.5
+    contract_quality: 66.9
     developer_ergonomics: 23.9
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 48.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/screenshots/synopsys-2026-06-20T194831.png
 security:

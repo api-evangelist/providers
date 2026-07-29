@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Legacy REST API previously documented at api-explorer.khanacademy.org (now redirects). Some endpoints under https://www.khanacademy.org/api/v1/ remain accessible for content topic trees and exercise d
@@ -94,26 +96,26 @@ plans:
 - name: Khan Academy Plans Pricing
   plan_count: 1
   slug: khan-academy-plans-pricing
-random_paper: 31
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Khan Academy Rate Limits
   slug: khan-academy-rate-limits
 score:
   band: emerging
-  composite: 17.6
-  delta: 0.0
+  composite: 26.4
+  delta: 8.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 2.2
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 17.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/khan-academy/refs/heads/main/screenshots/khan-academy-2026-06-20T184025.png
 security:
 - kind: domain-security

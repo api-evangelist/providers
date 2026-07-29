@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -228,7 +230,7 @@ plans:
 - name: Bindbee Plans Pricing
   plan_count: 3
   slug: bindbee-plans-pricing
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Bindbee Rate Limits
@@ -252,19 +254,26 @@ rules:
   slug: bindbee-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 45.5
+  delta: -6.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.6
+    contract_quality: 58.1
     developer_ergonomics: 30.4
-    discoverability: 62.5
-    governance: 86.8
+    discoverability: 46.3
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 52.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/screenshots/bindbee-2026-06-20T173245.png
 security:
 - kind: authentication

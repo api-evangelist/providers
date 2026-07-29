@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 4.7
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports, financial audit reports, strategic plans, bylaws
@@ -240,7 +242,7 @@ plans:
 - name: National Council On Disability Plans Pricing
   plan_count: 3
   slug: national-council-on-disability-plans-pricing
-random_paper: 37
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: National Council On Disability Rate Limits
@@ -256,24 +258,25 @@ rules:
   slug: national-council-on-disability-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 32.3
+  delta: -5.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 9.4
+    contract_quality: 8.1
     developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
   previous_composite: 38.1
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 22.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/screenshots/national-council-on-disability-2026-06-20T190008.png
 security:
 - kind: domain-security

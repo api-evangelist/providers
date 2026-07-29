@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 31.1
+  scored_at: '2026-07-28'
 api_count: 55
 apis:
 - description: The Account_numbers API from MX Platform — 2 operation(s) for account_numbers.
@@ -308,30 +310,37 @@ plans:
 - name: Mx Platform Plans Pricing
   plan_count: 3
   slug: mx-platform-plans-pricing
-random_paper: 55
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Mx Platform Rate Limits
   slug: mx-platform-rate-limits
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 47.7
+  delta: -4.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 57.3
+    contract_quality: 58.5
     developer_ergonomics: 15.2
-    discoverability: 80.0
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 76.3
   previous_composite: 52.0
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 55
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-platform/refs/heads/main/screenshots/mx-platform-2026-06-20T185909.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -113,26 +115,59 @@ arazzos:
 - description: Confirm an audience export is active, then page through the users it contains.
   name: Google Analytics Query Audience Export Users
   slug: google-analytics-query-audience-export-users-workflow
-artifact_total: 440
+artifact_total: 451
 collections:
+- collection_type: postman
+  name: Google Analytics Admin accounts API
+  slug: postman-google-analytics-accounts-api
+- collection_type: postman
+  name: Google Analytics Admin accounts accountSummaries API
+  slug: postman-google-analytics-accountsummaries-api
 - collection_type: postman
   name: Google Analytics Admin API
   slug: postman-google-analytics-admin-api
 - collection_type: postman
-  name: Google Analytics Data API
+  name: Google Analytics Admin accounts data API
   slug: postman-google-analytics-data-api
+- collection_type: postman
+  name: Google Analytics Admin accounts Events API
+  slug: postman-google-analytics-events-api
 - collection_type: postman
   name: Google Analytics API
   slug: postman-google-analytics-management-api-v3
 - collection_type: postman
+  name: Google Analytics Admin accounts management API
+  slug: postman-google-analytics-management-api
+- collection_type: postman
   name: Google Analytics Measurement Protocol (GA4)
   slug: postman-google-analytics-measurement-protocol
+- collection_type: postman
+  name: Google Analytics Admin accounts metadata API
+  slug: postman-google-analytics-metadata-api
+- collection_type: postman
+  name: Google Analytics Admin accounts properties API
+  slug: postman-google-analytics-properties-api
+- collection_type: postman
+  name: Google Analytics Admin accounts provisioning API
+  slug: postman-google-analytics-provisioning-api
 - collection_type: postman
   name: Analytics Reporting API
   slug: postman-google-analytics-reporting-api-v4
 - collection_type: postman
-  name: Google Analytics User Deletion API
+  name: Google Analytics Admin accounts reports API
+  slug: postman-google-analytics-reports-api
+- collection_type: postman
+  name: Google Analytics Admin accounts User Deletion API
   slug: postman-google-analytics-user-deletion-api
+- collection_type: postman
+  name: Google Analytics Admin accounts userActivity API
+  slug: postman-google-analytics-useractivity-api
+- collection_type: postman
+  name: Google Analytics Admin accounts userDeletion API
+  slug: postman-google-analytics-userdeletion-api
+- collection_type: postman
+  name: Google Analytics Admin accounts Validation API
+  slug: postman-google-analytics-validation-api
 common:
 - group: agent
   title: ''
@@ -1368,7 +1403,7 @@ plans:
 - name: Google Analytics Plans Pricing
   plan_count: 2
   slug: google-analytics-plans-pricing
-random_paper: 18
+random_paper: 33
 rate_limits:
 - limit_count: 10
   name: Google Analytics Rate Limits
@@ -1397,18 +1432,25 @@ scopes:
   summary_line: 7 scopes · implicit/authorizationCode
 score:
   band: strong
-  composite: 67.5
-  delta: 2.5
+  composite: 64.6
+  delta: -2.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.1
+    contract_quality: 68.5
     developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 65.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/screenshots/google-analytics-2026-07-25T220105.png
 security:

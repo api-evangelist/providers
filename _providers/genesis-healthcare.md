@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,26 +88,27 @@ overview: 'Genesis Healthcare is profiled on the [APIs.io](https://apis.io/) net
 
 
   Genesis Healthcare''s developer surface includes privacy policy, legal docs, and 9 more developer resources.'
-random_paper: 0
+random_paper: 65
 score:
   band: minimal
-  composite: 13.8
-  delta: 0.0
+  composite: 10.2
+  delta: -3.6
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 32.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genesis-healthcare/refs/heads/main/screenshots/genesis-healthcare-2026-06-20T181733.png
 security:

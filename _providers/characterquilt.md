@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The Branding API from CharacterQuilt — 2 operation(s) for branding.
@@ -96,21 +98,28 @@ overview: 'CharacterQuilt publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   CharacterQuilt''s developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 4
+random_paper: 37
 score:
   band: thin
-  composite: 34.7
-  delta: 0.0
+  composite: 34.2
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.0
+    contract_quality: 54.2
     developer_ergonomics: 15.2
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 34.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/screenshots/characterquilt-2026-07-25T205053.png
 security:

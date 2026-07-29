@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Release and publish management
   name: Apollo Config Releases API
   slug: apollo-config-releases-api
-artifact_total: 58
+artifact_total: 63
 collections:
+- collection_type: postman
+  name: Apollo Config Open Apps API
+  slug: postman-apollo-config-apps-api
+- collection_type: postman
+  name: Apollo Config Open Apps Clusters API
+  slug: postman-apollo-config-clusters-api
+- collection_type: postman
+  name: Apollo Config Open Apps Items API
+  slug: postman-apollo-config-items-api
+- collection_type: postman
+  name: Apollo Config Open Apps Namespaces API
+  slug: postman-apollo-config-namespaces-api
+- collection_type: postman
+  name: Apollo Config Open Apps Releases API
+  slug: postman-apollo-config-releases-api
 - collection_type: open
   name: Apollo Config Open API
   slug: open-apollo-open-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apollo-config/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -225,12 +246,12 @@ overview: 'Apollo Config publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Apollo Config catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apollo Config''s developer surface includes authentication, documentation, getting-started guide, release notes, support, code examples, and 10 more developer resources.'
+  Apollo Config''s developer surface includes authentication, documentation, getting-started guide, release notes, support, code examples, and 11 more developer resources.'
 plans:
 - name: Apollo Config Plans Pricing
   plan_count: 3
   slug: apollo-config-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Apollo Config Rate Limits
@@ -246,18 +267,25 @@ rules:
   slug: apollo-config-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 4.2
+  composite: 56.4
+  delta: -4.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 72.2
-    developer_ergonomics: 50.0
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 69.2
+    developer_ergonomics: 54.3
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 56.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/screenshots/apollo-config-2026-06-20T172307.png
 security:

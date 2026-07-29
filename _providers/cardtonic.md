@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The Cardtonic Gift Card Developer API enables merchants and platforms to integrate gift card services into their websites, mobile apps, and point-of-sale systems. The API exposes a catalog of more tha
@@ -128,30 +130,31 @@ plans:
 - name: Cardtonic Plans Pricing
   plan_count: 1
   slug: cardtonic-plans-pricing
-random_paper: 67
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Cardtonic Rate Limits
   slug: cardtonic-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: 1.7
+  composite: 29.1
+  delta: -4.4
   facets:
     commercial_clarity: 63.2
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 2.2
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.8
+  previous_composite: 33.5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 21.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/screenshots/cardtonic-2026-06-20T173956.png
 security:

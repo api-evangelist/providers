@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -79,8 +81,41 @@ apis:
 - description: Security zones and zone-to-zone matrix
   name: Tufin Zones API
   slug: tufin-zones-api
-artifact_total: 49
+artifact_total: 60
 collections:
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance API
+  slug: postman-tufin-compliance-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Devices API
+  slug: postman-tufin-devices-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Objects API
+  slug: postman-tufin-objects-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Revisions API
+  slug: postman-tufin-revisions-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Rules API
+  slug: postman-tufin-rules-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Tasks API
+  slug: postman-tufin-tasks-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Tickets API
+  slug: postman-tufin-tickets-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Topology API
+  slug: postman-tufin-topology-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Users API
+  slug: postman-tufin-users-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Workflow Definitions API
+  slug: postman-tufin-workflow-definitions-api
+- collection_type: postman
+  name: Tufin SecureChange REST Compliance Zones API
+  slug: postman-tufin-zones-api
 - collection_type: open
   name: Tufin SecureChange REST API
   slug: open-tufin-securechange
@@ -88,6 +123,10 @@ collections:
   name: Tufin SecureTrack REST API
   slug: open-tufin-securetrack
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tufin/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -299,12 +338,12 @@ overview: 'Tufin publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Tufin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tufin''s developer surface includes authentication, developer portal, support, documentation, engineering blog, getting-started guide, signup flow, and 21 more developer resources.'
+  Tufin''s developer surface includes authentication, developer portal, support, documentation, engineering blog, getting-started guide, signup flow, and 22 more developer resources.'
 plans:
 - name: Tufin Plans Pricing
   plan_count: 1
   slug: tufin-plans-pricing
-random_paper: 6
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Tufin Rate Limits
@@ -328,18 +367,25 @@ rules:
   slug: tufin-securetrack-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 3.2
+  composite: 58.5
+  delta: -4.7
   facets:
     commercial_clarity: 63.2
-    contract_quality: 61.7
+    contract_quality: 59.1
     developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/screenshots/tufin-2026-06-20T195822.png
 security:

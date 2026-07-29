@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 30.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: REST data APIs for ShotSpotter gunfire detection — incident data, CAD incident ID lookup, and ILS (Investigative Lead Summary) retrieval.
@@ -111,26 +113,29 @@ overview: 'ShotSpotter (SoundThinking) publishes 2 APIs on the [APIs.io](https:/
 
 
   ShotSpotter (SoundThinking)''s developer surface includes documentation, API reference, authentication, support, engineering blog, and 8 more developer resources.'
-random_paper: 7
+random_paper: 76
 score:
-  band: emerging
-  composite: 28.0
-  delta: 0.0
+  band: thin
+  composite: 32.1
+  delta: 4.1
   facets:
     commercial_clarity: 10.5
-    contract_quality: 22.6
-    developer_ergonomics: 50.0
-    discoverability: 80.0
+    contract_quality: 51.6
+    developer_ergonomics: 43.5
+    discoverability: 77.8
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 28.0
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 34.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 29.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

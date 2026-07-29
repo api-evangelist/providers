@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.1
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: REST API surface behind HUMAN's Applications Protection products (Account Defender, Bot Defender, Credential Intelligence, Code Defender / PCI DSS). Manage custom rules, custom lists, account informat
@@ -156,21 +158,24 @@ overview: 'PerimeterX (HUMAN Security) publishes 3 APIs on the [APIs.io](https:/
 
 
   PerimeterX (HUMAN Security)''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 19 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 32.8
+  delta: 1.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 31.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

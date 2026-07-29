@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -100,8 +102,65 @@ apis:
 - description: The Tasks API from Mezmo — 2 operation(s) for tasks.
   name: Mezmo Tasks API
   slug: mezmo-tasks-api
-artifact_total: 44
+artifact_total: 63
 collections:
+- collection_type: postman
+  name: Mezmo Alerts Archiving API
+  slug: postman-mezmo-archiving-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving AuditEvents API
+  slug: postman-mezmo-auditevents-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Classification API
+  slug: postman-mezmo-classification-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Deployments API
+  slug: postman-mezmo-deployments-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Destinations API
+  slug: postman-mezmo-destinations-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving EdgeClients API
+  slug: postman-mezmo-edgeclients-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Exclusions API
+  slug: postman-mezmo-exclusions-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Export API
+  slug: postman-mezmo-export-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Heartbeats API
+  slug: postman-mezmo-heartbeats-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Logs API
+  slug: postman-mezmo-logs-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Metrics API
+  slug: postman-mezmo-metrics-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Pipelines API
+  slug: postman-mezmo-pipelines-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving PresetAlerts API
+  slug: postman-mezmo-presetalerts-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Processors API
+  slug: postman-mezmo-processors-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Sources API
+  slug: postman-mezmo-sources-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Suspension API
+  slug: postman-mezmo-suspension-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Tasks API
+  slug: postman-mezmo-tasks-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Usage API
+  slug: postman-mezmo-usage-api
+- collection_type: postman
+  name: Mezmo Alerts Archiving Views API
+  slug: postman-mezmo-views-api
 - collection_type: open
   name: Mezmo Alerts API
   slug: open-mezmo-alerts-api
@@ -133,6 +192,10 @@ collections:
   name: Mezmo Views API
   slug: open-mezmo-views-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mezmo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -290,12 +353,12 @@ overview: 'Mezmo publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
   The Mezmo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mezmo''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, CLI, pricing, and 24 more developer resources.'
+  Mezmo''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, CLI, pricing, and 25 more developer resources.'
 plans:
 - name: Mezmo Plans Pricing
   plan_count: 2
   slug: mezmo-plans-pricing
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Mezmo Rate Limits
@@ -319,18 +382,25 @@ rules:
   slug: mezmo-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 2.0
+  composite: 58.6
+  delta: -2.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 54.3
-    developer_ergonomics: 60.9
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 56.1
+    developer_ergonomics: 65.2
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 59.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/screenshots/mezmo-2026-06-20T185318.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Real-time datafeeds (OMD-C SS, SP, SF tiers) for all securities traded on the Stock Exchange of Hong Kong, published in a proprietary binary message format over one-to-many IP multicast/UDP for high t
@@ -135,7 +137,7 @@ overview: 'HKEX publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   HKEX''s developer surface includes authentication, changelog, developer portal, documentation, engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 24
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Hkex Rate Limits
@@ -147,23 +149,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 32.5
+  delta: -1.7
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 34.2
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/screenshots/hkex-2026-07-22T202427.png
 security:

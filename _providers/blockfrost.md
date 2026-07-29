@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -97,8 +99,73 @@ apis:
 - description: The Nut.link API from Blockfrost — 4 operation(s) for nut.link.
   name: Blockfrost Nut.link API
   slug: blockfrost-nut-link-api
-artifact_total: 106
+artifact_total: 126
+collections:
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts API
+  slug: postman-blockfrost-cardano-accounts-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Addresses API
+  slug: postman-blockfrost-cardano-addresses-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Assets API
+  slug: postman-blockfrost-cardano-assets-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Blocks API
+  slug: postman-blockfrost-cardano-blocks-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Epochs API
+  slug: postman-blockfrost-cardano-epochs-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Governance API
+  slug: postman-blockfrost-cardano-governance-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Ledger API
+  slug: postman-blockfrost-cardano-ledger-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Mempool API
+  slug: postman-blockfrost-cardano-mempool-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Metadata API
+  slug: postman-blockfrost-cardano-metadata-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Network API
+  slug: postman-blockfrost-cardano-network-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Pools API
+  slug: postman-blockfrost-cardano-pools-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Scripts API
+  slug: postman-blockfrost-cardano-scripts-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Transactions API
+  slug: postman-blockfrost-cardano-transactions-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Cardano » Utilities API
+  slug: postman-blockfrost-cardano-utilities-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Health API
+  slug: postman-blockfrost-health-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts IPFS » Add API
+  slug: postman-blockfrost-ipfs-add-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts IPFS » Gateway API
+  slug: postman-blockfrost-ipfs-gateway-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts IPFS » Pins API
+  slug: postman-blockfrost-ipfs-pins-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Metrics API
+  slug: postman-blockfrost-metrics-api
+- collection_type: postman
+  name: Blockfrost.io ~ API Documentation Cardano » Accounts Nut.link API
+  slug: postman-blockfrost-nut-link-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/blockfrost/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -405,12 +472,12 @@ overview: 'Blockfrost publishes 20 APIs on the [APIs.io](https://apis.io/) netwo
   The Blockfrost catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Blockfrost''s developer surface includes authentication, documentation, getting-started guide, pricing, support, and 13 more developer resources.'
+  Blockfrost''s developer surface includes authentication, documentation, getting-started guide, pricing, support, and 14 more developer resources.'
 plans:
 - name: Blockfrost Plans Pricing
   plan_count: 3
   slug: blockfrost-plans-pricing
-random_paper: 61
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Blockfrost Rate Limits
@@ -434,18 +501,25 @@ rules:
   slug: blockfrost-spectral-rules
 score:
   band: strong
-  composite: 67.3
-  delta: 0.0
+  composite: 64.3
+  delta: -3.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 64.7
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 66.8
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockfrost/refs/heads/main/screenshots/blockfrost-2026-06-20T173358.png
 security:

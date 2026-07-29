@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.8
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The Baseline forecasts API from Sinai Technologies — 7 operation(s) for baseline forecasts.
@@ -152,7 +154,7 @@ overview: 'Sinai Technologies publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   Sinai Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
-random_paper: 25
+random_paper: 13
 scopes:
 - name: Sinai Technologies Scopes
   scope_count: 6
@@ -160,18 +162,27 @@ scopes:
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 45.8
+  delta: -2.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.5
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.0
+    developer_ergonomics: 56.0
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 47.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

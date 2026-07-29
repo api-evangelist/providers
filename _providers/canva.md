@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -73,12 +75,43 @@ apis:
 - description: Retrieve information about the authenticated user
   name: Canva Users API
   slug: canva-users-api
-artifact_total: 220
+artifact_total: 229
 collections:
+- collection_type: postman
+  name: Canva Connect Assets API
+  slug: postman-canva-assets-api
+- collection_type: postman
+  name: Canva Connect Assets Autofills API
+  slug: postman-canva-autofills-api
+- collection_type: postman
+  name: Canva Connect Assets Brand Templates API
+  slug: postman-canva-brand-templates-api
+- collection_type: postman
+  name: Canva Connect Assets Comments API
+  slug: postman-canva-comments-api
+- collection_type: postman
+  name: Canva Connect Assets Designs API
+  slug: postman-canva-designs-api
+- collection_type: postman
+  name: Canva Connect Assets Exports API
+  slug: postman-canva-exports-api
+- collection_type: postman
+  name: Canva Connect Assets Folders API
+  slug: postman-canva-folders-api
+- collection_type: postman
+  name: Canva Connect Assets Resizes API
+  slug: postman-canva-resizes-api
+- collection_type: postman
+  name: Canva Connect Assets Users API
+  slug: postman-canva-users-api
 - collection_type: open
   name: Canva Connect API
   slug: open-canva-connect-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/canva/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -785,12 +818,12 @@ overview: 'Canva publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
   The Canva catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Canva''s developer surface includes authentication, support, documentation, engineering blog, changelog, legal docs, FAQ, and 29 more developer resources.'
+  Canva''s developer surface includes authentication, support, documentation, engineering blog, changelog, legal docs, FAQ, and 30 more developer resources.'
 plans:
 - name: Canva Plans Pricing
   plan_count: 2
   slug: canva-plans-pricing
-random_paper: 45
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Canva Rate Limits
@@ -819,18 +852,25 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.6
-  delta: 3.8
+  composite: 62.5
+  delta: -2.1
   facets:
     commercial_clarity: 57.9
-    contract_quality: 76.1
-    developer_ergonomics: 41.3
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 77.0
+    developer_ergonomics: 45.7
+    discoverability: 66.7
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png
 security:

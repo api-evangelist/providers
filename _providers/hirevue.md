@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Creates, manages, and retrieves on-demand and live video interviews, including structured interview guides, candidate invitations, and recorded responses. Exposed to customers and certified ATS partne
@@ -100,25 +102,25 @@ plans:
 - name: Hirevue Plans Pricing
   plan_count: 1
   slug: hirevue-plans-pricing
-random_paper: 12
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Hirevue Rate Limits
   slug: hirevue-rate-limits
 score:
   band: emerging
-  composite: 20.5
-  delta: 0.0
+  composite: 18.0
+  delta: -2.5
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 20.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hirevue/refs/heads/main/screenshots/hirevue-2026-06-20T182756.png
 security:

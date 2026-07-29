@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 46.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.3
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: The business-to-business FHIR Gateway for connecting conformant clinical software to the My Health Record national shared health record. Exposes FHIR-based read and upload interactions for clinical do
@@ -163,32 +165,37 @@ overview: 'Australian Digital Health Agency publishes 6 APIs on the [APIs.io](ht
 
 
   Australian Digital Health Agency''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, and 18 more developer resources.'
-random_paper: 10
+random_paper: 49
 scopes:
 - name: Australian Digital Health Agency Scopes
   scope_count: 2
   slug: australian-digital-health-agency-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 29.0
-  delta: 0.0
+  band: thin
+  composite: 36.7
+  delta: 7.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 71.7
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 40.0
+    developer_ergonomics: 60.3
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 29.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 60.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Australian Digital Health Agency Authentication

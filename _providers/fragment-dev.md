@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Single GraphQL endpoint for defining a ledger Schema, creating Ledgers, posting balanced double-entry Ledger Entries, and reading balances and lines. All write mutations are idempotent via an idempote
@@ -117,31 +119,32 @@ plans:
 - name: Fragment Dev Plans Pricing
   plan_count: 3
   slug: fragment-dev-plans-pricing
-random_paper: 60
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Fragment Dev Rate Limits
   slug: fragment-dev-rate-limits
 score:
-  band: emerging
-  composite: 26.7
-  delta: 2.8
+  band: thin
+  composite: 33.1
+  delta: 6.4
   facets:
     commercial_clarity: 52.6
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 8.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 23.9
+  previous_composite: 26.7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 9.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fragment-dev/refs/heads/main/screenshots/fragment-dev-2026-07-25T215118.png
 security:
 - kind: domain-security

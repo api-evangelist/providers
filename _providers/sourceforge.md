@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: Project wiki page management
   name: SourceForge Wikis API
   slug: sourceforge-wikis-api
-artifact_total: 22
+artifact_total: 29
 collections:
+- collection_type: postman
+  name: SourceForge Allura Admin API
+  slug: postman-sourceforge-admin-api
+- collection_type: postman
+  name: SourceForge Allura Admin Blog API
+  slug: postman-sourceforge-blog-api
+- collection_type: postman
+  name: SourceForge Allura Admin Discussion API
+  slug: postman-sourceforge-discussion-api
+- collection_type: postman
+  name: SourceForge Allura Admin Projects API
+  slug: postman-sourceforge-projects-api
+- collection_type: postman
+  name: SourceForge Allura Admin Tracker API
+  slug: postman-sourceforge-tracker-api
+- collection_type: postman
+  name: SourceForge Allura Admin Users API
+  slug: postman-sourceforge-users-api
+- collection_type: postman
+  name: SourceForge Allura Admin Wikis API
+  slug: postman-sourceforge-wikis-api
 - collection_type: open
   name: SourceForge Allura API
   slug: open-sourceforge-allura
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sourceforge/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,12 +197,12 @@ overview: 'SourceForge publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   The SourceForge catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SourceForge''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 12 more developer resources.'
+  SourceForge''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Sourceforge Plans Pricing
   plan_count: 3
   slug: sourceforge-plans-pricing
-random_paper: 32
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Sourceforge Rate Limits
@@ -199,18 +226,25 @@ rules:
   slug: sourceforge-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 3.2
+  composite: 57.6
+  delta: -3.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.6
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 69.0
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 57.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/screenshots/sourceforge-2026-06-20T194221.png
 security:

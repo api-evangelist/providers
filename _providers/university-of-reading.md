@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for CentAUR, the Central Archive University of Reading institutional repository (EPrints). Supports standard OAI-PMH verbs (Identify, ListRecords, ListMetadat
@@ -94,25 +96,25 @@ plans:
 - name: University Of Reading Plans Pricing
   plan_count: 2
   slug: university-of-reading-plans-pricing
-random_paper: 47
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: University Of Reading Rate Limits
   slug: university-of-reading-rate-limits
 score:
   band: emerging
-  composite: 21.5
-  delta: 0.0
+  composite: 18.6
+  delta: -2.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/screenshots/university-of-reading-2026-06-20T200222.png
 security:

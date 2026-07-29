@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -164,25 +166,32 @@ plans:
 - name: Mem0 Plans Pricing
   plan_count: 1
   slug: mem0-plans-pricing
-random_paper: 27
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Mem0 Rate Limits
   slug: mem0-rate-limits
 score:
   band: thin
-  composite: 42.3
-  delta: 3.2
+  composite: 40.2
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 49.9
+    contract_quality: 51.7
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 42.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/screenshots/mem0-2026-06-20T185233.png
 security:

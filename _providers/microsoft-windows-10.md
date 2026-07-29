@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -1050,7 +1052,7 @@ plans:
 - name: Microsoft Windows 10 Plans Pricing
   plan_count: 5
   slug: microsoft-windows-10-plans-pricing
-random_paper: 44
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Microsoft Windows 10 Rate Limits
@@ -1065,19 +1067,26 @@ rules:
     warn: 4
   slug: microsoft-windows-10-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 69.6
-  delta: 2.5
+  band: exemplar
+  composite: 66.3
+  delta: -3.3
   facets:
     commercial_clarity: 73.7
-    contract_quality: 60.9
+    contract_quality: 62.0
     developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 75.9
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 67.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 77
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-10/refs/heads/main/screenshots/microsoft-windows-10-2026-06-20T185545.png
 security:

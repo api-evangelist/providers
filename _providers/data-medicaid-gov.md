@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: DKAN open-data API for Medicaid Open Data, covering a catalog of 255 datasets. Provides the DKAN search API (/api/1/search), the metastore (/api/1/metastore/schemas/dataset/items), and a CKAN-compatib
@@ -82,30 +84,31 @@ plans:
 - name: Data Medicaid Gov Plans Pricing
   plan_count: 1
   slug: data-medicaid-gov-plans-pricing
-random_paper: 16
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Data Medicaid Gov Rate Limits
   slug: data-medicaid-gov-rate-limits
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 16.2
+  delta: -2.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 18.5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 11.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-medicaid-gov/refs/heads/main/screenshots/data-medicaid-gov-2026-06-20T175546.png
 security:

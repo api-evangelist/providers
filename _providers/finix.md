@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -109,11 +111,69 @@ arazzos:
 - description: Convert a finix.js token into a Payment Instrument and create a Transfer (sale).
   name: Finix Tokenize and Charge
   slug: finix-tokenize-and-charge-workflow
-artifact_total: 32
+artifact_total: 51
 asyncapis:
 - description: Finix delivers real-time event notifications via webhooks (HTTP POST) when resources change. Subscribe with POST /webhooks. Each delivery carries an envelope { id, type, entity, occurred_at, system_ge
   name: Finix Webhook Events
   slug: finix-events-asyncapi
+collections:
+- collection_type: postman
+  name: Finix Authorizations API
+  slug: postman-finix-authorizations-api
+- collection_type: postman
+  name: Finix Authorizations Balance Transfers API
+  slug: postman-finix-balance-transfers-api
+- collection_type: postman
+  name: Finix Authorizations Compliance Forms API
+  slug: postman-finix-compliance-forms-api
+- collection_type: postman
+  name: Finix Authorizations Devices API
+  slug: postman-finix-devices-api
+- collection_type: postman
+  name: Finix Authorizations Disputes API
+  slug: postman-finix-disputes-api
+- collection_type: postman
+  name: Finix Authorizations Fee Profiles API
+  slug: postman-finix-fee-profiles-api
+- collection_type: postman
+  name: Finix Authorizations Files API
+  slug: postman-finix-files-api
+- collection_type: postman
+  name: Finix Authorizations Identities API
+  slug: postman-finix-identities-api
+- collection_type: postman
+  name: Finix Authorizations Instrument Updates API
+  slug: postman-finix-instrument-updates-api
+- collection_type: postman
+  name: Finix Authorizations Merchant Profiles API
+  slug: postman-finix-merchant-profiles-api
+- collection_type: postman
+  name: Finix Authorizations Merchants API
+  slug: postman-finix-merchants-api
+- collection_type: postman
+  name: Finix Authorizations Onboarding Forms API
+  slug: postman-finix-onboarding-forms-api
+- collection_type: postman
+  name: Finix Authorizations Payment Instruments API
+  slug: postman-finix-payment-instruments-api
+- collection_type: postman
+  name: Finix Authorizations Payout Profiles API
+  slug: postman-finix-payout-profiles-api
+- collection_type: postman
+  name: Finix Authorizations Settlements API
+  slug: postman-finix-settlements-api
+- collection_type: postman
+  name: Finix Authorizations Split Transfers API
+  slug: postman-finix-split-transfers-api
+- collection_type: postman
+  name: Finix Authorizations Transfers API
+  slug: postman-finix-transfers-api
+- collection_type: postman
+  name: Finix Authorizations Verifications API
+  slug: postman-finix-verifications-api
+- collection_type: postman
+  name: Finix Authorizations Webhooks API
+  slug: postman-finix-webhooks-api
 common:
 - group: company
   title: ''
@@ -170,7 +230,7 @@ common:
 - group: build
   title: ''
   type: PostmanWorkspace
-  url: https://www.postman.com/finix
+  url: https://www.postman.com/kinlaneapi/finix/overview
 - group: design
   title: ''
   type: Versioning
@@ -314,30 +374,41 @@ overview: 'Finix publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Finix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
-random_paper: 66
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Finix Rate Limits
   slug: finix-rate-limits
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 65.5
+  delta: 0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.9
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.9
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 65.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/screenshots/finix-2026-07-25T214523.png
 security:

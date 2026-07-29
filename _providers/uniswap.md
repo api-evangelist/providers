@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -79,12 +81,52 @@ apis:
 - description: The WalletEncode7702 API from Uniswap — 1 operation(s) for walletencode7702.
   name: Uniswap WalletEncode7702 API
   slug: uniswap-walletencode7702-api
-artifact_total: 84
+artifact_total: 96
 collections:
+- collection_type: postman
+  name: Token Trading Approval API
+  slug: postman-uniswap-approval-api
+- collection_type: postman
+  name: Token Trading Approval LimitOrderQuote API
+  slug: postman-uniswap-limitorderquote-api
+- collection_type: postman
+  name: Token Trading Approval Liquidity API
+  slug: postman-uniswap-liquidity-api
+- collection_type: postman
+  name: Token Trading Approval Order API
+  slug: postman-uniswap-order-api
+- collection_type: postman
+  name: Token Trading Approval Plan API
+  slug: postman-uniswap-plan-api
+- collection_type: postman
+  name: Token Trading Approval Quote API
+  slug: postman-uniswap-quote-api
+- collection_type: postman
+  name: Token Trading Approval Send API
+  slug: postman-uniswap-send-api
+- collection_type: postman
+  name: Token Trading Approval Swap API
+  slug: postman-uniswap-swap-api
+- collection_type: postman
+  name: Token Trading Approval SwappableTokens API
+  slug: postman-uniswap-swappabletokens-api
+- collection_type: postman
+  name: Token Trading Approval Wallet API
+  slug: postman-uniswap-wallet-api
+- collection_type: postman
+  name: Token Trading Approval WalletCheckDelegation API
+  slug: postman-uniswap-walletcheckdelegation-api
+- collection_type: postman
+  name: Token Trading Approval WalletEncode7702 API
+  slug: postman-uniswap-walletencode7702-api
 - collection_type: open
   name: Token Trading
   slug: open-uniswap-trading
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/uniswap/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -336,12 +378,12 @@ overview: 'Uniswap publishes 12 APIs on the [APIs.io](https://apis.io/) network,
   The Uniswap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Uniswap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 14 more developer resources.'
+  Uniswap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Uniswap Plans Pricing
   plan_count: 3
   slug: uniswap-plans-pricing
-random_paper: 27
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Uniswap Rate Limits
@@ -365,18 +407,25 @@ rules:
   slug: uniswap-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 4.2
+  composite: 56.8
+  delta: -3.4
   facets:
     commercial_clarity: 52.6
-    contract_quality: 71.9
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 72.3
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 56.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/screenshots/uniswap-2026-06-20T200036.png
 security:

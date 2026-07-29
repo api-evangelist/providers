@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -88,8 +90,25 @@ apis:
 - description: Manage projects
   name: Harness Projects API
   slug: harness-projects-api
-artifact_total: 73
+artifact_total: 77
+collections:
+- collection_type: postman
+  name: Harness Platform Organizations API
+  slug: postman-harness-organizations-api
+- collection_type: postman
+  name: Harness Platform Organizations Pipeline Execution API
+  slug: postman-harness-pipeline-execution-api
+- collection_type: postman
+  name: Harness Platform Organizations Pipelines API
+  slug: postman-harness-pipelines-api
+- collection_type: postman
+  name: Harness Platform Organizations Projects API
+  slug: postman-harness-projects-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/harness/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -243,12 +262,12 @@ overview: 'Harness publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   The Harness catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Harness'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, signup flow, engineering blog, and 16 more developer resources.'
+  Harness'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, signup flow, engineering blog, and 17 more developer resources.'
 plans:
 - name: Harness Plans Pricing
   plan_count: 3
   slug: harness-plans-pricing
-random_paper: 8
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Harness Rate Limits
@@ -264,19 +283,26 @@ rules:
   slug: harness-spectral-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 59.8
+  delta: -5.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 62.8
-    developer_ergonomics: 54.3
-    discoverability: 87.5
-    governance: 34.2
+    contract_quality: 49.2
+    developer_ergonomics: 58.7
+    discoverability: 64.8
+    governance: 27.1
     operational_transparency: 78.9
   previous_composite: 65.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/screenshots/harness-2026-06-20T182519.png
 security:
 - kind: authentication

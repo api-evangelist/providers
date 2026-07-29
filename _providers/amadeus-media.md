@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,8 +47,22 @@ apis:
 - description: The Hotels API from Amadeus Media — 3 operation(s) for hotels.
   name: Amadeus Media Hotels API
   slug: amadeus-media-hotels-api
-artifact_total: 75
+artifact_total: 78
+collections:
+- collection_type: postman
+  name: Amadeus Hotel Content API
+  slug: postman-amadeus-media-hotel-content-api
+- collection_type: postman
+  name: Amadeus Hotel Content Hotel Media API
+  slug: postman-amadeus-media-hotel-media-api
+- collection_type: postman
+  name: Amadeus Hotel Content Hotels API
+  slug: postman-amadeus-media-hotels-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amadeus-media/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -355,8 +371,8 @@ overview: 'Amadeus Media publishes 3 APIs on the [APIs.io](https://apis.io/) net
   The Amadeus Media catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amadeus Media''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, FAQ, and 21 more developer resources.'
-random_paper: 1
+  Amadeus Media''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, FAQ, and 22 more developer resources.'
+random_paper: 61
 rules:
 - name: Amadeus Media API Rules
   rule_count: 5
@@ -376,19 +392,28 @@ rules:
   slug: amadeus-media-spectral-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 59.0
+  delta: -5.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 78.8
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.9
+    developer_ergonomics: 58.7
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 64.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/screenshots/amadeus-media-2026-07-25T195903.png
 security:
 - kind: authentication

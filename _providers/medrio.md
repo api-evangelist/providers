@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: List the studies available to your account and read their configuration - domains, enabled features, reason-for-data-change options, and the reference data a study is built from (sites, roles, groups,
@@ -109,30 +111,31 @@ plans:
 - name: Medrio Plans Pricing
   plan_count: 1
   slug: medrio-plans-pricing
-random_paper: 28
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Medrio Rate Limits
   slug: medrio-rate-limits
 score:
-  band: thin
-  composite: 31.7
-  delta: 0.0
+  band: emerging
+  composite: 27.5
+  delta: -4.2
   facets:
     commercial_clarity: 42.1
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 15.2
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 31.7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 7.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

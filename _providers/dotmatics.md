@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: REST, GraphQL, and JDBC APIs for the Luma Scientific Intelligence Platform, enabling data access, workflow automation, instrument integration, and scientific data management for pharma and biotech R&D
@@ -115,30 +117,31 @@ plans:
 - name: Dotmatics Plans Pricing
   plan_count: 4
   slug: dotmatics-plans-pricing
-random_paper: 16
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Dotmatics Rate Limits
   slug: dotmatics-rate-limits
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 29.3
+  delta: -1.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 37.7
+    contract_quality: 43.2
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 31.1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 7.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotmatics/refs/heads/main/screenshots/dotmatics-2026-06-20T180201.png
 security:

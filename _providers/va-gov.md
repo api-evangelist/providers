@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -416,7 +418,7 @@ overview: 'VA Lighthouse publishes 30 APIs on the [APIs.io](https://apis.io/) ne
 
 
   VA Lighthouse''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, support, engineering blog, and 33 more developer resources.'
-random_paper: 48
+random_paper: 53
 scopes:
 - name: Va Gov Scopes
   scope_count: 35
@@ -424,23 +426,31 @@ scopes:
   summary_line: 35 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 49.4
-  delta: 2.1
+  composite: 45.7
+  delta: -3.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 63.1
+    contract_quality: 64.6
     developer_ergonomics: 52.2
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 47.3
+  previous_composite: 49.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 75.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png
 security:

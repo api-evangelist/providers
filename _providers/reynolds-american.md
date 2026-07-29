@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 4
 common:
@@ -78,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Reynolds American CEO David Waterfield on Growing ...
   url: https://www.linkedin.com/posts/reynoldsamericaninc_yesterday-reynolds-american-inc-president-activity-7430296497134399488-6ZU7
-random_paper: 57
+random_paper: 63
 rules:
 - name: Reynolds American API Rules
   rule_count: 4
@@ -90,18 +92,18 @@ rules:
   slug: reynolds-american-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.1
-  delta: 0.0
+  composite: 14.3
+  delta: -3.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 55.0
-    governance: 73.7
+    discoverability: 40.7
+    governance: 58.3
     operational_transparency: 0.0
   previous_composite: 18.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

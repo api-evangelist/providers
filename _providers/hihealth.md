@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.5
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The embedded credit-card API that powers hi.health. Partners issue and manage cards, cardholders, transactions, receipts, payments, statements and external transfers, with OAuth2 client-credentials au
@@ -164,7 +166,7 @@ overview: 'hi.health publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   hi.health''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
-random_paper: 23
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Hihealth Rate Limits
@@ -175,24 +177,28 @@ scopes:
   slug: hihealth-scopes
   summary_line: 3 scopes
 score:
-  band: thin
-  composite: 43.9
-  delta: 0.0
+  band: developing
+  composite: 48.7
+  delta: 4.8
   facets:
     commercial_clarity: 7.9
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 57.9
   previous_composite: 43.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 82.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 68.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/screenshots/hihealth-2026-07-25T221215.png
 security:

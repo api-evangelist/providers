@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,12 +51,22 @@ apis:
 - description: Query and invoke automation processes.
   name: Salesforce Automation System Process Automation API
   slug: salesforce-automation-system-process-automation-api
-artifact_total: 20
+artifact_total: 22
 collections:
+- collection_type: postman
+  name: Salesforce Flow Automation Flows API
+  slug: postman-salesforce-automation-system-flows-api
+- collection_type: postman
+  name: Salesforce Flow Automation Flows Process Automation API
+  slug: postman-salesforce-automation-system-process-automation-api
 - collection_type: open
   name: Salesforce Flow Automation API
   slug: open-salesforce-automation-flow
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/salesforce-automation-system/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,12 +168,12 @@ overview: 'Salesforce Automation System publishes 2 APIs on the [APIs.io](https:
   The Salesforce Automation System catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Automation System''s developer surface includes authentication, documentation, engineering blog, support, and 11 more developer resources.'
+  Salesforce Automation System''s developer surface includes authentication, documentation, engineering blog, support, and 12 more developer resources.'
 plans:
 - name: Salesforce Automation System Plans Pricing
   plan_count: 1
   slug: salesforce-automation-system-plans-pricing
-random_paper: 63
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Salesforce Automation System Rate Limits
@@ -190,18 +202,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.9
-  delta: 4.3
+  composite: 57.6
+  delta: -3.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 77.9
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 77.7
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 56.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/screenshots/salesforce-automation-system-2026-06-20T193343.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -52,12 +54,28 @@ apis:
 - description: The Users API from Recraft — 1 operation(s) for users.
   name: Recraft Users API
   slug: recraft-ai-users-api
-artifact_total: 45
+artifact_total: 49
 collections:
+- collection_type: postman
+  name: Recraft Images API
+  slug: postman-recraft-ai-images-api
+- collection_type: postman
+  name: Recraft Images Prompts API
+  slug: postman-recraft-ai-prompts-api
+- collection_type: postman
+  name: Recraft Images Styles API
+  slug: postman-recraft-ai-styles-api
+- collection_type: postman
+  name: Recraft Images Users API
+  slug: postman-recraft-ai-users-api
 - collection_type: open
   name: Recraft Images API
   slug: open-recraft-images-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/recraft/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -345,12 +363,12 @@ overview: 'Recraft publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   The Recraft catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Recraft''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, pricing, engineering blog, and 48 more developer resources.'
+  Recraft''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, pricing, engineering blog, and 49 more developer resources.'
 plans:
 - name: Recraft Ai Plans Pricing
   plan_count: 4
   slug: recraft-ai-plans-pricing
-random_paper: 38
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Recraft Ai Rate Limits
@@ -366,19 +384,26 @@ rules:
   slug: recraft-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 67.5
-  delta: 5.5
+  composite: 64.2
+  delta: -3.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 70.8
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 72.0
+    developer_ergonomics: 63.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 62.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 67.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recraft-ai/refs/heads/main/screenshots/recraft-ai-2026-06-20T192704.png
 security:
 - kind: authentication

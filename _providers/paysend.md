@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Paysend Enterprise's single Payout API disburses funds worldwide to cards and bank accounts through the Paysend payments network. A multi-task POST /processing endpoint carries operations including pa
@@ -132,26 +134,30 @@ overview: 'Paysend publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Paysend''s developer surface includes documentation, API reference, authentication, engineering blog, getting-started guide, support, sandbox, and 14 more developer resources.'
-random_paper: 8
+random_paper: 63
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 40.8
+  delta: 4.7
   facets:
     commercial_clarity: 18.4
-    contract_quality: 22.6
-    developer_ergonomics: 67.4
-    discoverability: 80.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 60.9
+    discoverability: 66.7
+    governance: 12.5
     operational_transparency: 13.2
   previous_composite: 36.1
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 53.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

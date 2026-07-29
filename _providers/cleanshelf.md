@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The Zylo Platform API is the successor to Cleanshelf. It exposes SaaS application discovery, inventory, license, contract, and spend data so enterprises can integrate Zylo with finance, procurement, a
@@ -119,7 +121,7 @@ plans:
 - name: Cleanshelf Plans Pricing
   plan_count: 3
   slug: cleanshelf-plans-pricing
-random_paper: 25
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Cleanshelf Rate Limits
@@ -135,18 +137,18 @@ rules:
   slug: cleanshelf-rules
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 32.0
+  delta: -3.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 13.0
-    discoverability: 80.0
-    governance: 26.3
+    discoverability: 59.3
+    governance: 20.8
     operational_transparency: 31.6
   previous_composite: 35.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleanshelf/refs/heads/main/screenshots/cleanshelf-2026-06-20T174453.png
 security:

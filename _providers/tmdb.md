@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The full TMDB REST API surface (v3). Covers movies, TV series, seasons, episodes, people, credits, images, collections, companies, networks, keywords, genres, reviews, lists, certifications, find, tre
@@ -1542,7 +1544,7 @@ plans:
 - name: Tmdb Plans Pricing
   plan_count: 2
   slug: tmdb-plans-pricing
-random_paper: 15
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Tmdb Rate Limits
@@ -1566,19 +1568,19 @@ rules:
   slug: tmdb-rules
 score:
   band: developing
-  composite: 58.3
-  delta: 0.0
+  composite: 51.6
+  delta: -6.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.5
+    contract_quality: 50.0
     developer_ergonomics: 39.1
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 47.4
   previous_composite: 58.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/screenshots/tmdb-2026-06-20T195425.png
 security:
 - kind: domain-security

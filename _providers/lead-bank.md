@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -169,30 +171,38 @@ plans:
 - name: Lead Bank Plans Pricing
   plan_count: 1
   slug: lead-bank-plans-pricing
-random_paper: 47
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Lead Bank Rate Limits
   slug: lead-bank-rate-limits
 score:
   band: thin
-  composite: 37.0
-  delta: 2.8
+  composite: 33.9
+  delta: -3.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.8
+    contract_quality: 58.8
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.2
+  previous_composite: 37.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/screenshots/lead-bank-2026-06-20T184345.png
 security:

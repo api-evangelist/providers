@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 62.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -238,7 +240,7 @@ overview: 'openFDA publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   openFDA''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, API reference, changelog, and 24 more developer resources.'
-random_paper: 53
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Openfda Rate Limits
@@ -262,24 +264,32 @@ rules:
   slug: openfda-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 2.8
+  composite: 49.4
+  delta: -5.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 62.8
+    contract_quality: 61.0
     developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 52.2
+  previous_composite: 55.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 46.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfda/refs/heads/main/screenshots/openfda-2026-06-20T190958.png
 security:
 - kind: authentication

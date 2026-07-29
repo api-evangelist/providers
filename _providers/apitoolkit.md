@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,12 +60,25 @@ apis:
 - description: Retrieve telemetry field schema for a project.
   name: APIToolkit (Monoscope) Schema API
   slug: apitoolkit-schema-api
-artifact_total: 85
+artifact_total: 88
 collections:
+- collection_type: postman
+  name: Monoscope Platform Metrics API
+  slug: postman-apitoolkit-metrics-api
+- collection_type: postman
+  name: Monoscope Platform Metrics Monitors API
+  slug: postman-apitoolkit-monitors-api
+- collection_type: postman
+  name: Monoscope Platform Metrics Schema API
+  slug: postman-apitoolkit-schema-api
 - collection_type: open
   name: Monoscope Platform API
   slug: open-monoscope-platform
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apitoolkit-monoscope/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -327,12 +342,12 @@ overview: 'APIToolkit (Monoscope) publishes 3 APIs on the [APIs.io](https://apis
   The APIToolkit (Monoscope) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  APIToolkit (Monoscope)''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, engineering blog, YouTube channel, and 15 more developer resources.'
+  APIToolkit (Monoscope)''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, engineering blog, YouTube channel, and 16 more developer resources.'
 plans:
 - name: Apitoolkit Plans Pricing
   plan_count: 4
   slug: apitoolkit-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Apitoolkit Rate Limits
@@ -356,18 +371,25 @@ rules:
   slug: monoscope-platform-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 2.0
+  composite: 57.5
+  delta: -2.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.3
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 68.6
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/screenshots/apitoolkit-2026-06-20T172258.png
 security:

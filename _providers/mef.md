@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 api_count: 95
 apis:
 - description: Product Offering Availability And Pricing Discovery Management — the OpenAPI definition published by Mplify (formerly MEF) in the MEF LSO Sonata SDK, Kylie release. LSO Sonata is the Interface Referen
@@ -541,7 +543,7 @@ overview: 'MEF publishes 95 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   MEF''s developer surface includes documentation, SDKs, tooling, getting-started guide, support, authentication, changelog, and 45 more developer resources.'
-random_paper: 40
+random_paper: 4
 scopes:
 - name: Mef Scopes
   scope_count: 218
@@ -549,18 +551,33 @@ scopes:
   summary_line: 218 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 52.3
+  delta: 2.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 56.9
-    developer_ergonomics: 91.3
-    discoverability: 67.5
-    governance: 0.0
+    contract_quality: 54.7
+    developer_ergonomics: 86.4
+    discoverability: 68.5
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 49.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 94
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 66.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

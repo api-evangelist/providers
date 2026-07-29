@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,8 +51,19 @@ apis:
 - description: The Livestock Mandatory Price Reporting System (LMPRS) API provides programmatic access to federally mandated livestock price report data. The API requires no authentication for public access and retu
   name: USDA AMS LMPRS API (Livestock Mandatory Price Reporting)
   slug: usda-ams-lmprs-api-livestock-mandatory-price-reporting
-artifact_total: 50
+artifact_total: 52
+collections:
+- collection_type: postman
+  name: USDA AMS MARS API (MyMarketNews) Offices API
+  slug: postman-agricultural-marketing-service-offices-api
+- collection_type: postman
+  name: USDA AMS MARS API (MyMarketNews) Offices Reports API
+  slug: postman-agricultural-marketing-service-reports-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/agricultural-marketing-service/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,12 +228,12 @@ overview: 'Agricultural Marketing Service publishes 2 APIs on the [APIs.io](http
   The Agricultural Marketing Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Agricultural Marketing Service''s developer surface includes authentication, engineering blog, developer portal, and 9 more developer resources.'
+  Agricultural Marketing Service''s developer surface includes authentication, engineering blog, developer portal, and 10 more developer resources.'
 plans:
 - name: Agricultural Marketing Service Plans Pricing
   plan_count: 3
   slug: agricultural-marketing-service-plans-pricing
-random_paper: 40
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Agricultural Marketing Service Rate Limits
@@ -243,20 +256,27 @@ rules:
     warn: 19
   slug: agricultural-marketing-service-spectral-rules
 score:
-  band: strong
-  composite: 60.7
-  delta: 0.0
+  band: developing
+  composite: 53.9
+  delta: -6.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 76.1
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 64.4
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 60.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/screenshots/agricultural-marketing-service-2026-06-20T170415.png
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 1
@@ -237,7 +239,7 @@ plans:
 - name: University Of Bath Plans Pricing
   plan_count: 2
   slug: university-of-bath-plans-pricing
-random_paper: 4
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: University Of Bath Rate Limits
@@ -261,24 +263,32 @@ rules:
   slug: university-of-bath-rules
 score:
   band: thin
-  composite: 44.9
-  delta: 0.0
+  composite: 39.7
+  delta: -5.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.1
+    contract_quality: 58.0
     developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 26.3
   previous_composite: 44.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bath/refs/heads/main/screenshots/university-of-bath-2026-06-20T200134.png
 security:
 - kind: authentication

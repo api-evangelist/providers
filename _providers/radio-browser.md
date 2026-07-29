@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -219,7 +221,7 @@ plans:
 - name: Radio Browser Plans Pricing
   plan_count: 1
   slug: radio-browser-plans-pricing
-random_paper: 52
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Radio Browser Rate Limits
@@ -243,23 +245,31 @@ rules:
   slug: radio-browser-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 4.6
+  composite: 42.4
+  delta: -4.2
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.6
+    contract_quality: 62.3
     developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 42.0
+  previous_composite: 46.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/screenshots/radio-browser-2026-06-20T192514.png
 security:

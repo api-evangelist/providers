@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,12 +54,19 @@ apis:
 - description: Charge, authorize, capture, void and refund transactions.
   name: Authorize.net Transactions API
   slug: authorize-net-transactions-api
-artifact_total: 33
+artifact_total: 34
 collections:
+- collection_type: postman
+  name: Authorize.Net Transactions API
+  slug: postman-authorize-net-transactions-api
 - collection_type: open
   name: Authorize.Net API
   slug: open-authorize-net
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/authorizenet/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -223,35 +232,43 @@ network: true
 overview: 'Authorize.net publishes 1 API on the [APIs.io](https://apis.io/) network: Transactions API. Tagged areas include Accept.js, Credit Cards, eChecks, Fraud Detection, and Payment Gateway.
 
 
-  Authorize.net''s developer surface includes authentication, sandbox, changelog, documentation, developer portal, engineering blog, signup flow, and 23 more developer resources.'
+  Authorize.net''s developer surface includes authentication, sandbox, changelog, documentation, developer portal, engineering blog, signup flow, and 24 more developer resources.'
 plans:
 - name: Authorize Net Plans Pricing
   plan_count: 3
   slug: authorize-net-plans-pricing
-random_paper: 67
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Authorize Net Rate Limits
   slug: authorize-net-rate-limits
 score:
   band: strong
-  composite: 63.0
-  delta: 2.8
+  composite: 59.6
+  delta: -3.4
   facets:
     commercial_clarity: 92.1
-    contract_quality: 56.6
-    developer_ergonomics: 65.2
-    discoverability: 100.0
+    contract_quality: 58.5
+    developer_ergonomics: 69.6
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 60.2
+  previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authorize-net/refs/heads/main/screenshots/authorize-net-2026-06-20T172612.png
 security:

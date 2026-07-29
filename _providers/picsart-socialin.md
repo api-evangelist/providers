@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -267,25 +269,35 @@ overview: 'PicsArt (Socialin) publishes 23 APIs on the [APIs.io](https://apis.io
 
 
   PicsArt (Socialin)''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
-random_paper: 21
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Picsart Socialin Rate Limits
   slug: picsart-socialin-rate-limits
 score:
-  band: developing
-  composite: 58.9
-  delta: 0.0
+  band: strong
+  composite: 58.2
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.4
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.2
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 76.3
   previous_composite: 58.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

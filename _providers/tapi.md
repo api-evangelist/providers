@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Regional bill-payment and payments infrastructure API — biller directory, service/bill payments, phone recharges, subscriptions, scheduled-payment agendas and digital gift cards, with a token-based Lo
@@ -125,26 +127,29 @@ overview: 'Tapi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tapi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, YouTube channel, and 11 more developer resources.'
-random_paper: 22
+random_paper: 45
 score:
   band: thin
-  composite: 30.2
-  delta: 0.0
+  composite: 32.7
+  delta: 2.5
   facets:
     commercial_clarity: 10.5
-    contract_quality: 22.6
-    developer_ergonomics: 56.5
-    discoverability: 80.0
+    contract_quality: 51.6
+    developer_ergonomics: 50.0
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 30.2
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 34.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 25.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 2
@@ -272,26 +274,37 @@ overview: 'Spotnana publishes 33 APIs on the [APIs.io](https://apis.io/) network
 
 
   Spotnana''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 52
+random_paper: 21
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 46.6
+  delta: -1.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 69.4
-    developer_ergonomics: 67.4
-    discoverability: 67.5
-    governance: 0.0
+    contract_quality: 67.8
+    developer_ergonomics: 62.5
+    discoverability: 68.5
+    governance: 11.5
     operational_transparency: 52.6
   previous_composite: 48.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 34.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

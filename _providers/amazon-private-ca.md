@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -106,8 +108,82 @@ apis:
 - description: 'The #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.updatecertificateauthority.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-updatecertificateauthority-api
-artifact_total: 258
+artifact_total: 281
+collections:
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-createcertificateauthority-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthorityAuditReport API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-createcertificateauthorityauditreport-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreatePermission API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-createpermission-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DeleteCertificateAuthority API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-deletecertificateauthority-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DeletePermission API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-deletepermission-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DeletePolicy API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-deletepolicy-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DescribeCertificateAuthority API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-describecertificateauthority-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.DescribeCertificateAuthorityAuditReport API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-describecertificateauthorityauditreport-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.GetCertificate API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-getcertificate-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCertificate API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-getcertificateauthoritycertificate-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCsr API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-getcertificateauthoritycsr-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.GetPolicy API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-getpolicy-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.ImportCertificateAuthorityCertificate API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-importcertificateauthoritycertificate-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.IssueCertificate API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-issuecertificate-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.ListCertificateAuthorities API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-listcertificateauthorities-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.ListPermissions API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-listpermissions-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.ListTags API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-listtags-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.PutPolicy API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-putpolicy-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.RestoreCertificateAuthority API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-restorecertificateauthority-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.RevokeCertificate API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-revokecertificate-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.TagCertificateAuthority API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-tagcertificateauthority-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.UntagCertificateAuthority API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-untagcertificateauthority-api
+- collection_type: postman
+  name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API'
+  slug: postman-amazon-private-ca-x-amz-target-acmprivateca-updatecertificateauthority-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-private-ca/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1700,12 +1776,12 @@ overview: 'Amazon Private CA publishes 23 APIs on the [APIs.io](https://apis.io/
   The Amazon Private CA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Private CA''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 222 more developer resources.'
+  Amazon Private CA''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 223 more developer resources.'
 plans:
 - name: Amazon Private Ca Plans Pricing
   plan_count: 3
   slug: amazon-private-ca-plans-pricing
-random_paper: 63
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Private Ca Rate Limits
@@ -1729,18 +1805,25 @@ rules:
   slug: amazon-private-ca-spectral-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 62.1
+  delta: -3.4
   facets:
     commercial_clarity: 68.4
-    contract_quality: 68.1
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 69.5
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 65.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/screenshots/amazon-private-ca-2026-06-20T171803.png
 security:

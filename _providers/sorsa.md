@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -61,12 +63,40 @@ apis:
 - description: Verify follow, comment, retweet, quote and community-membership relationships
   name: Sorsa Verification API
   slug: sorsa-verification-api
-artifact_total: 80
+artifact_total: 88
 collections:
+- collection_type: postman
+  name: Sorsa Community API
+  slug: postman-sorsa-community-api
+- collection_type: postman
+  name: Sorsa Community Lists API
+  slug: postman-sorsa-lists-api
+- collection_type: postman
+  name: Sorsa Community Search API
+  slug: postman-sorsa-search-api
+- collection_type: postman
+  name: Sorsa Community Sorsa Info Crypto Related API
+  slug: postman-sorsa-sorsa-info-crypto-related-api
+- collection_type: postman
+  name: Sorsa Community Technical Endpoints API
+  slug: postman-sorsa-technical-endpoints-api
+- collection_type: postman
+  name: Sorsa Community Tweets API
+  slug: postman-sorsa-tweets-api
+- collection_type: postman
+  name: Sorsa Community Users Data API
+  slug: postman-sorsa-users-data-api
+- collection_type: postman
+  name: Sorsa Community Verification API
+  slug: postman-sorsa-verification-api
 - collection_type: open
   name: Sorsa API
   slug: open-sorsa
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sorsa/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -327,12 +357,12 @@ overview: 'Sorsa publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Sorsa catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Sorsa''s developer surface includes authentication, documentation, signup flow, developer console, pricing, support, and 18 more developer resources.'
+  Sorsa''s developer surface includes authentication, documentation, signup flow, developer console, pricing, support, and 19 more developer resources.'
 plans:
 - name: Sorsa Plans Pricing
   plan_count: 4
   slug: sorsa-plans-pricing
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Sorsa Rate Limits
@@ -356,18 +386,25 @@ rules:
   slug: sorsa-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 4.7
+  composite: 57.2
+  delta: -4.2
   facets:
     commercial_clarity: 63.2
-    contract_quality: 77.0
-    developer_ergonomics: 39.1
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 43.5
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 15.8
-  previous_composite: 56.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/screenshots/sorsa-2026-06-20T194217.png
 security:

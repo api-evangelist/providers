@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.1
+  scored_at: '2026-07-28'
 api_count: 26
 apis:
 - description: OAuth 2.0 token service for every Cotality Australia and New Zealand API. Issues JWT access tokens via client_credentials, authorization_code and refresh_token grants. The developer portal documents P
@@ -315,7 +317,7 @@ overview: 'CoreLogic Australia publishes 10 APIs on the [APIs.io](https://apis.i
 
 
   CoreLogic Australia''s developer surface includes documentation, getting-started guide, signup flow, authentication, sandbox, support, FAQ, and 42 more developer resources.'
-random_paper: 54
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Corelogic Au Rate Limits
@@ -326,20 +328,24 @@ scopes:
   slug: corelogic-au-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials/implicit
 score:
-  band: thin
-  composite: 38.6
-  delta: 0.0
+  band: developing
+  composite: 45.9
+  delta: 7.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
-    developer_ergonomics: 69.6
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 64.7
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 26.3
   previous_composite: 38.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/screenshots/corelogic-au-2026-07-27T125335.png
 security:
 - kind: authentication

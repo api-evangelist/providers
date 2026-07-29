@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.1
+  scored_at: '2026-07-28'
 api_count: 42
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
@@ -155,12 +157,137 @@ apis:
 - description: The WebSocket Clusters API from Laravel — 3 operation(s) for websocket clusters.
   name: Laravel WebSocket Clusters API
   slug: laravel-websocket-clusters-api
-artifact_total: 49
+artifact_total: 89
 asyncapis:
 - description: ''
   name: Laravel Webhooks
   slug: laravel-webhooks
+collections:
+- collection_type: postman
+  name: Laravel Cloud Applications API
+  slug: postman-laravel-applications-api
+- collection_type: postman
+  name: Laravel Cloud Applications Background Processes API
+  slug: postman-laravel-background-processes-api
+- collection_type: postman
+  name: Laravel Cloud Applications Backups API
+  slug: postman-laravel-backups-api
+- collection_type: postman
+  name: Laravel Cloud Applications Bucket Keys API
+  slug: postman-laravel-bucket-keys-api
+- collection_type: postman
+  name: Laravel Cloud Applications Caches API
+  slug: postman-laravel-caches-api
+- collection_type: postman
+  name: Laravel Cloud Applications Commands API
+  slug: postman-laravel-commands-api
+- collection_type: postman
+  name: Laravel Cloud Applications Database Clusters API
+  slug: postman-laravel-database-clusters-api
+- collection_type: postman
+  name: Laravel Cloud Applications Database Restores API
+  slug: postman-laravel-database-restores-api
+- collection_type: postman
+  name: Laravel Cloud Applications Database Snapshots API
+  slug: postman-laravel-database-snapshots-api
+- collection_type: postman
+  name: Laravel Cloud Applications Databases API
+  slug: postman-laravel-databases-api
+- collection_type: postman
+  name: Laravel Cloud Applications Databases (Legacy) API
+  slug: postman-laravel-databases-legacy-api
+- collection_type: postman
+  name: Laravel Cloud Applications Dedicated Clusters API
+  slug: postman-laravel-dedicated-clusters-api
+- collection_type: postman
+  name: Laravel Cloud Applications Deployments API
+  slug: postman-laravel-deployments-api
+- collection_type: postman
+  name: Laravel Cloud Applications Domains API
+  slug: postman-laravel-domains-api
+- collection_type: postman
+  name: Laravel Cloud Applications Environments API
+  slug: postman-laravel-environments-api
+- collection_type: postman
+  name: Laravel Cloud Applications Firewall Rules API
+  slug: postman-laravel-firewall-rules-api
+- collection_type: postman
+  name: Laravel Cloud Applications Instances API
+  slug: postman-laravel-instances-api
+- collection_type: postman
+  name: Laravel Cloud Applications Integrations API
+  slug: postman-laravel-integrations-api
+- collection_type: postman
+  name: Laravel Cloud Applications Logs API
+  slug: postman-laravel-logs-api
+- collection_type: postman
+  name: Laravel Cloud Applications Meta API
+  slug: postman-laravel-meta-api
+- collection_type: postman
+  name: Laravel Cloud Applications Monitors API
+  slug: postman-laravel-monitors-api
+- collection_type: postman
+  name: Laravel Cloud Applications Nginx API
+  slug: postman-laravel-nginx-api
+- collection_type: postman
+  name: Laravel Cloud Applications Object Storage Buckets API
+  slug: postman-laravel-object-storage-buckets-api
+- collection_type: postman
+  name: Laravel Cloud Applications Organizations API
+  slug: postman-laravel-organizations-api
+- collection_type: postman
+  name: Laravel Cloud Applications Providers API
+  slug: postman-laravel-providers-api
+- collection_type: postman
+  name: Laravel Cloud Applications Recipes API
+  slug: postman-laravel-recipes-api
+- collection_type: postman
+  name: Laravel Cloud Applications Redirect Rules API
+  slug: postman-laravel-redirect-rules-api
+- collection_type: postman
+  name: Laravel Cloud Applications Roles API
+  slug: postman-laravel-roles-api
+- collection_type: postman
+  name: Laravel Cloud Applications Scheduled Jobs API
+  slug: postman-laravel-scheduled-jobs-api
+- collection_type: postman
+  name: Laravel Cloud Applications Security Rules API
+  slug: postman-laravel-security-rules-api
+- collection_type: postman
+  name: Laravel Cloud Applications Server Credentials API
+  slug: postman-laravel-server-credentials-api
+- collection_type: postman
+  name: Laravel Cloud Applications Servers API
+  slug: postman-laravel-servers-api
+- collection_type: postman
+  name: Laravel Cloud Applications Sites API
+  slug: postman-laravel-sites-api
+- collection_type: postman
+  name: Laravel Cloud Applications SSH Keys API
+  slug: postman-laravel-ssh-keys-api
+- collection_type: postman
+  name: Laravel Cloud Applications Storage Providers API
+  slug: postman-laravel-storage-providers-api
+- collection_type: postman
+  name: Laravel Cloud Applications Teams API
+  slug: postman-laravel-teams-api
+- collection_type: postman
+  name: Laravel Cloud Applications Usage API
+  slug: postman-laravel-usage-api
+- collection_type: postman
+  name: Laravel Cloud Applications User API
+  slug: postman-laravel-user-api
+- collection_type: postman
+  name: Laravel Cloud Applications WebSocket Applications API
+  slug: postman-laravel-websocket-applications-api
+- collection_type: postman
+  name: Laravel Cloud Applications WebSocket Clusters API
+  slug: postman-laravel-websocket-clusters-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/laravel/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -339,8 +466,8 @@ overview: 'Laravel publishes 40 APIs on the [APIs.io](https://apis.io/) network,
   The Laravel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Laravel''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 33 more developer resources.'
-random_paper: 63
+  Laravel''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 34 more developer resources.'
+random_paper: 50
 scopes:
 - name: Laravel Scopes
   scope_count: 62
@@ -348,18 +475,27 @@ scopes:
   summary_line: 62 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 63.9
+  delta: 0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.7
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 67.8
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 63.2
   previous_composite: 63.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 40
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/screenshots/laravel-2026-07-25T224538.png
 security:

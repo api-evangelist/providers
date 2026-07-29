@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Retrieve diagnostic results from IDEXX Reference Laboratories and IDEXX in-house analyzers (VetLab Station), including real-time test status updates and the full IDEXX diagnostic history for a patient
@@ -86,26 +88,27 @@ overview: 'IDEXX publishes 5 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   IDEXX''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 57
+random_paper: 8
 score:
   band: minimal
-  composite: 14.9
-  delta: 0.0
+  composite: 11.2
+  delta: -3.7
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.9
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 13.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idexx-labs/refs/heads/main/screenshots/idexx-labs-2026-07-25T222026.png
 security:

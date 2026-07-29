@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: true
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 51.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -197,7 +199,7 @@ overview: 'Linktree publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Linktree''s developer surface includes documentation, API reference, authentication, changelog, getting-started guide, support, engineering blog, and 28 more developer resources.'
-random_paper: 46
+random_paper: 15
 scopes:
 - name: Linktree Scopes
   scope_count: 30
@@ -210,13 +212,18 @@ score:
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 42.1
   previous_composite: 38.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/screenshots/linktree-2026-07-25T225257.png
 security:

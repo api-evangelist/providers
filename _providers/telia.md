@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -284,26 +286,42 @@ overview: 'Telia Company publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Telia Company''s developer surface includes authentication, CLI, changelog, sandbox, documentation, support, getting-started guide, and 33 more developer resources.'
-random_paper: 51
+random_paper: 65
 scopes:
 - name: Telia Scopes
   scope_count: 2
   slug: telia-scopes
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 53.2
-  delta: 0.0
+  band: strong
+  composite: 57.6
+  delta: 4.4
   facets:
     commercial_clarity: 13.2
-    contract_quality: 69.0
-    developer_ergonomics: 87.0
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 70.3
+    developer_ergonomics: 75.5
+    discoverability: 83.3
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 53.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 81.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

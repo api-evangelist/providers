@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 68.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -46,12 +48,21 @@ apis:
 - description: The Oauth2 API from Fitbit — 4 operation(s) for oauth2.
   name: Fitbit Oauth2 API
   slug: fitbit-oauth2-api
-artifact_total: 47
+artifact_total: 50
 asyncapis:
 - description: Fitbit's Subscription API streams sync notifications to a registered Subscriber endpoint each time a user has new data available for a subscribed collection. Five collections are subscribable per user
   name: Fitbit Subscriptions Webhooks
   slug: fitbit-subscriptions-asyncapi
 collections:
+- collection_type: postman
+  name: Fitbit Activity Foods API
+  slug: postman-fitbit-foods-api
+- collection_type: postman
+  name: Fitbit Activity Foods Oauth2 API
+  slug: postman-fitbit-oauth2-api
+- collection_type: postman
+  name: Fitbit Activity Foods User API
+  slug: postman-fitbit-user-api
 - collection_type: open
   name: Fitbit Activity API
   slug: open-fitbit-activity-api
@@ -89,6 +100,10 @@ collections:
   name: Fitbit User API
   slug: open-fitbit-user-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fitbit/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -327,12 +342,12 @@ overview: 'Fitbit publishes 3 APIs on the [APIs.io](https://apis.io/) network: U
   The Fitbit catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Fitbit''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, tooling, and 39 more developer resources.'
+  Fitbit''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, tooling, and 40 more developer resources.'
 plans:
 - name: Fitbit Plans Pricing
   plan_count: 6
   slug: fitbit-plans-pricing
-random_paper: 30
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Fitbit Rate Limits
@@ -361,24 +376,32 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.8
-  delta: 3.6
+  composite: 61.7
+  delta: -5.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 76.1
-    developer_ergonomics: 52.2
-    discoverability: 87.5
-    governance: 60.5
+    contract_quality: 80.3
+    developer_ergonomics: 56.5
+    discoverability: 64.8
+    governance: 47.9
     operational_transparency: 42.1
-  previous_composite: 63.2
+  previous_composite: 66.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 52.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/screenshots/fitbit-2026-06-20T181253.png
 security:
 - kind: authentication

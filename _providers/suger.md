@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -70,12 +72,49 @@ apis:
 - description: Access to Suger Support ticket resources
   name: Suger Support API
   slug: suger-support-api
-artifact_total: 28
+artifact_total: 39
 collections:
+- collection_type: postman
+  name: Suger API API
+  slug: postman-suger-api-api
+- collection_type: postman
+  name: Suger API Billing API
+  slug: postman-suger-billing-api
+- collection_type: postman
+  name: Suger API Buyer API
+  slug: postman-suger-buyer-api
+- collection_type: postman
+  name: Suger API Contact API
+  slug: postman-suger-contact-api
+- collection_type: postman
+  name: Suger API Entitlement API
+  slug: postman-suger-entitlement-api
+- collection_type: postman
+  name: Suger API Metering API
+  slug: postman-suger-metering-api
+- collection_type: postman
+  name: Suger API Notification API
+  slug: postman-suger-notification-api
+- collection_type: postman
+  name: Suger API Offer API
+  slug: postman-suger-offer-api
+- collection_type: postman
+  name: Suger API Product API
+  slug: postman-suger-product-api
+- collection_type: postman
+  name: Suger API Report API
+  slug: postman-suger-report-api
+- collection_type: postman
+  name: Suger API Support API
+  slug: postman-suger-support-api
 - collection_type: open
   name: Suger API
   slug: open-suger
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/suger/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -165,12 +204,12 @@ overview: 'Suger publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Suger catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Suger''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, and 7 more developer resources.'
+  Suger''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, and 8 more developer resources.'
 plans:
 - name: Suger Plans Pricing
   plan_count: 3
   slug: suger-plans-pricing
-random_paper: 6
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Suger Rate Limits
@@ -194,18 +233,25 @@ rules:
   slug: suger-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 3.3
+  composite: 56.3
+  delta: -4.1
   facets:
     commercial_clarity: 57.9
-    contract_quality: 66.9
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 64.9
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 57.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/screenshots/suger-2026-06-20T194638.png
 security:

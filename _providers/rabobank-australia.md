@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -152,31 +154,41 @@ overview: 'Rabobank Australia publishes 7 APIs on the [APIs.io](https://apis.io/
 
 
   Rabobank Australia''s developer surface includes authentication, API reference, documentation, support, and 17 more developer resources.'
-random_paper: 7
+random_paper: 72
 scopes:
 - name: Rabobank Australia Scopes
   scope_count: 10
   slug: rabobank-australia-scopes
   summary_line: 10 scopes
 score:
-  band: developing
-  composite: 45.0
-  delta: 0.0
+  band: thin
+  composite: 40.1
+  delta: -4.9
   facets:
     commercial_clarity: 18.4
-    contract_quality: 54.0
-    developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.0
+    developer_ergonomics: 42.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 7.9
   previous_composite: 45.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png
 security:

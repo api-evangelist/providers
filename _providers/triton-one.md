@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -76,8 +78,29 @@ apis:
 - description: Manage RPC consumption tokens.
   name: Triton One Tokens API
   slug: triton-one-tokens-api
-artifact_total: 54
+artifact_total: 61
 collections:
+- collection_type: postman
+  name: Triton One Customers Accounts API
+  slug: postman-triton-one-accounts-api
+- collection_type: postman
+  name: Triton One Customers Accounts AddressWatchLists API
+  slug: postman-triton-one-addresswatchlists-api
+- collection_type: postman
+  name: Triton One Customers Accounts Assets API
+  slug: postman-triton-one-assets-api
+- collection_type: postman
+  name: Triton One Customers Accounts Endpoints API
+  slug: postman-triton-one-endpoints-api
+- collection_type: postman
+  name: Triton One Customers Accounts Standard API
+  slug: postman-triton-one-standard-api
+- collection_type: postman
+  name: Triton One Customers Accounts Subscriptions API
+  slug: postman-triton-one-subscriptions-api
+- collection_type: postman
+  name: Triton One Customers Accounts Tokens API
+  slug: postman-triton-one-tokens-api
 - collection_type: open
   name: Triton One Customers API
   slug: open-triton-one-customers-api
@@ -88,6 +111,10 @@ collections:
   name: Triton One Solana RPC API
   slug: open-triton-one-solana-rpc-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/triton-one/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -255,12 +282,12 @@ overview: 'Triton One publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Triton One catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Triton One''s developer surface includes authentication, developer portal, documentation, pricing, support, getting-started guide, tooling, and 19 more developer resources.'
+  Triton One''s developer surface includes authentication, developer portal, documentation, pricing, support, getting-started guide, tooling, and 20 more developer resources.'
 plans:
 - name: Triton One Plans Pricing
   plan_count: 1
   slug: triton-one-plans-pricing
-random_paper: 19
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Triton One Rate Limits
@@ -276,18 +303,25 @@ rules:
   slug: triton-one-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 4.2
+  composite: 58.9
+  delta: -2.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.5
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 71.8
+    developer_ergonomics: 63.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 57.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/screenshots/triton-one-2026-06-20T195737.png
 security:

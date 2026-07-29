@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 4
 common:
@@ -110,21 +112,24 @@ overview: 'Armis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Armis'' developer surface includes documentation, engineering blog, support, authentication, CLI, and 11 more developer resources.'
-random_paper: 64
+random_paper: 1
 score:
   band: emerging
-  composite: 23.2
-  delta: 0.0
+  composite: 22.2
+  delta: -1.0
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 23.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/screenshots/armis-2026-07-25T201217.png
 security:

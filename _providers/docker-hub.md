@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -177,25 +179,32 @@ plans:
 - name: Docker Hub Plans Pricing
   plan_count: 3
   slug: docker-hub-plans-pricing
-random_paper: 44
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Docker Hub Rate Limits
   slug: docker-hub-rate-limits
 score:
   band: developing
-  composite: 49.9
-  delta: 2.5
+  composite: 47.7
+  delta: -2.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 54.4
+    contract_quality: 53.9
     developer_ergonomics: 26.1
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 47.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 49.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/screenshots/docker-hub-2026-06-20T180106.png
 security:

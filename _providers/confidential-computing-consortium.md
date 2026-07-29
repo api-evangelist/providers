@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: A portfolio of open source projects governed by the Confidential Computing Consortium covering Trusted Execution Environment runtimes, remote attestation services, trustworthy workload identity, and s
@@ -105,25 +107,25 @@ plans:
 - name: Confidential Computing Consortium Plans Pricing
   plan_count: 3
   slug: confidential-computing-consortium-plans-pricing
-random_paper: 43
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Confidential Computing Consortium Rate Limits
   slug: confidential-computing-consortium-rate-limits
 score:
   band: emerging
-  composite: 24.1
-  delta: 0.0
+  composite: 21.7
+  delta: -2.4
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 24.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confidential-computing-consortium/refs/heads/main/screenshots/confidential-computing-consortium-2026-06-20T174850.png
 security:

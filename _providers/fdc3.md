@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -157,7 +159,7 @@ plans:
 - name: Fdc3 Plans Pricing
   plan_count: 5
   slug: fdc3-plans-pricing
-random_paper: 12
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Fdc3 Rate Limits
@@ -173,19 +175,26 @@ rules:
   slug: fdc3-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 56.2
-  delta: 0.0
+  composite: 50.6
+  delta: -5.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.1
+    contract_quality: 56.4
     developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 56.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/screenshots/fdc3-2026-06-20T181104.png
 security:
 - kind: authentication

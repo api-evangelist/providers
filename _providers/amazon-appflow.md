@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -45,8 +47,22 @@ apis:
 - description: Operations for managing resource tags
   name: Amazon AppFlow Tags API
   slug: amazon-appflow-tags-api
-artifact_total: 210
+artifact_total: 213
+collections:
+- collection_type: postman
+  name: Amazon AppFlow Connectors API
+  slug: postman-amazon-appflow-connectors-api
+- collection_type: postman
+  name: Amazon AppFlow Connectors Flows API
+  slug: postman-amazon-appflow-flows-api
+- collection_type: postman
+  name: Amazon AppFlow Connectors Tags API
+  slug: postman-amazon-appflow-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-appflow/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -764,8 +780,8 @@ overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   The Amazon AppFlow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
-random_paper: 24
+  Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
+random_paper: 66
 rules:
 - name: Amazon AppFlow API Rules
   rule_count: 6
@@ -785,18 +801,27 @@ rules:
   slug: amazon-appflow-spectral-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 57.6
+  delta: -4.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 80.5
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 47.8
+    discoverability: 87.0
+    governance: 80.2
     operational_transparency: 31.6
   previous_composite: 62.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:

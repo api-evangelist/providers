@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -154,7 +156,7 @@ apis:
 - description: The Users API from Cumulocity — 2 operation(s) for users.
   name: Cumulocity Users API
   slug: cumulocity-users-api
-artifact_total: 111
+artifact_total: 148
 asyncapis:
 - description: Constrained-device MQTT broker fronting the Cumulocity REST API with a CSV-based SmartREST 2.0 payload format that saves up to 80% of mobile traffic versus JSON. Supports static templates for common o
   name: Cumulocity MQTT and SmartREST API
@@ -166,6 +168,117 @@ asyncapis:
   name: Cumulocity Notification 2.0 WebSocket
   slug: cumulocity-notification2-asyncapi
 collections:
+- collection_type: postman
+  name: Cumulocity Alarm Alarms API
+  slug: postman-cumulocity-alarms-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Application Binaries API
+  slug: postman-cumulocity-application-binaries-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Applications API
+  slug: postman-cumulocity-applications-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Asset Instances API
+  slug: postman-cumulocity-asset-instances-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Asset Models API
+  slug: postman-cumulocity-asset-models-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Audit Records API
+  slug: postman-cumulocity-audit-records-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Bayeux Handshake API
+  slug: postman-cumulocity-bayeux-handshake-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Binaries API
+  slug: postman-cumulocity-binaries-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Bootstrap Users API
+  slug: postman-cumulocity-bootstrap-users-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Bulk Operations API
+  slug: postman-cumulocity-bulk-operations-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Child References API
+  slug: postman-cumulocity-child-references-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Cloud Sync API
+  slug: postman-cumulocity-cloud-sync-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Current User API
+  slug: postman-cumulocity-current-user-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Device Credentials API
+  slug: postman-cumulocity-device-credentials-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Event Binaries API
+  slug: postman-cumulocity-event-binaries-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Events API
+  slug: postman-cumulocity-events-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms External IDs API
+  slug: postman-cumulocity-external-ids-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Groups API
+  slug: postman-cumulocity-groups-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Managed Objects API
+  slug: postman-cumulocity-managed-objects-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Measurements API
+  slug: postman-cumulocity-measurements-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms New Device Requests API
+  slug: postman-cumulocity-new-device-requests-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Offload Configurations API
+  slug: postman-cumulocity-offload-configurations-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Offload Jobs API
+  slug: postman-cumulocity-offload-jobs-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Operations API
+  slug: postman-cumulocity-operations-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Queries API
+  slug: postman-cumulocity-queries-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Retention Rules API
+  slug: postman-cumulocity-retention-rules-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Roles API
+  slug: postman-cumulocity-roles-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Series API
+  slug: postman-cumulocity-series-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Software Updates API
+  slug: postman-cumulocity-software-updates-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Subscriptions API
+  slug: postman-cumulocity-subscriptions-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Supported Measurements API
+  slug: postman-cumulocity-supported-measurements-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms System API
+  slug: postman-cumulocity-system-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Tenant Options API
+  slug: postman-cumulocity-tenant-options-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Tenant Statistics API
+  slug: postman-cumulocity-tenant-statistics-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Tenants API
+  slug: postman-cumulocity-tenants-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Tokens API
+  slug: postman-cumulocity-tokens-api
+- collection_type: postman
+  name: Cumulocity Alarm Alarms Users API
+  slug: postman-cumulocity-users-api
 - collection_type: open
   name: Cumulocity Alarm API
   slug: open-cumulocity-alarm-api
@@ -218,6 +331,10 @@ collections:
   name: Cumulocity User API
   slug: open-cumulocity-user-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cumulocity/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -583,12 +700,12 @@ overview: 'Cumulocity publishes 39 APIs on the [APIs.io](https://apis.io/) netwo
   The Cumulocity catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Cumulocity''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, pricing, and 61 more developer resources.'
+  Cumulocity''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, pricing, and 62 more developer resources.'
 plans:
 - name: Cumulocity Plans Pricing
   plan_count: 6
   slug: cumulocity-plans-pricing
-random_paper: 14
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Cumulocity Rate Limits
@@ -619,19 +736,26 @@ rules:
     warn: 4
   slug: cumulocity-rules
 score:
-  band: strong
-  composite: 68.5
-  delta: 1.9
+  band: exemplar
+  composite: 66.2
+  delta: -2.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 73.8
-    developer_ergonomics: 67.4
-    discoverability: 67.5
-    governance: 65.8
+    contract_quality: 74.8
+    developer_ergonomics: 71.7
+    discoverability: 50.0
+    governance: 52.1
     operational_transparency: 47.4
-  previous_composite: 66.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulocity/refs/heads/main/screenshots/cumulocity-2026-06-20T175331.png
 security:

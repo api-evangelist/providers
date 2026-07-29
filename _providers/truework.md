@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -52,8 +54,20 @@ apis:
 - description: The subpackage_tenantProperties API from Truework — 2 operation(s) for subpackage_tenantproperties.
   name: Truework subpackage_tenantProperties API
   slug: truework-subpackage-tenantproperties-api
-artifact_total: 36
+artifact_total: 40
 collections:
+- collection_type: postman
+  name: Truework Qualifications & Tenant Properties API (Beta) subpackage_orders API
+  slug: postman-truework-subpackage-orders-api
+- collection_type: postman
+  name: Truework Qualifications & Tenant Properties API (Beta) subpackage_orders subpackage_qualificationChecks API
+  slug: postman-truework-subpackage-qualificationchecks-api
+- collection_type: postman
+  name: Truework Qualifications & Tenant Properties API (Beta) subpackage_orders subpackage_reports API
+  slug: postman-truework-subpackage-reports-api
+- collection_type: postman
+  name: Truework Qualifications & Tenant Properties API (Beta) subpackage_orders subpackage_tenantProperties API
+  slug: postman-truework-subpackage-tenantproperties-api
 - collection_type: open
   name: Truework Qualifications & Tenant Properties API (Beta)
   slug: open-truework-beta
@@ -64,6 +78,10 @@ collections:
   name: Truework Webhooks
   slug: open-truework-webhooks
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/truework/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -289,12 +307,12 @@ overview: 'Truework publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Truework catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Truework''s developer surface includes authentication, developer portal, documentation, sandbox, getting-started guide, signup flow, support, and 37 more developer resources.'
+  Truework''s developer surface includes authentication, developer portal, documentation, sandbox, getting-started guide, signup flow, support, and 38 more developer resources.'
 plans:
 - name: Truework Plans Pricing
   plan_count: 3
   slug: truework-plans-pricing
-random_paper: 15
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Truework Rate Limits
@@ -310,19 +328,26 @@ rules:
   slug: truework-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.4
-  delta: 5.5
+  composite: 67.1
+  delta: -3.3
   facets:
     commercial_clarity: 63.2
-    contract_quality: 69.0
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 70.3
+    developer_ergonomics: 63.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 76.3
-  previous_composite: 64.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 70.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/screenshots/truework-2026-06-20T195901.png
 security:
 - kind: authentication

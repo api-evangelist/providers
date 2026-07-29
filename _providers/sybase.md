@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -73,12 +75,37 @@ apis:
 - description: Operations for managing server logins and database users including role assignments and permission management.
   name: Sybase Users API
   slug: sybase-users-api
-artifact_total: 43
+artifact_total: 50
 collections:
+- collection_type: postman
+  name: Sybase ASE REST Backups API
+  slug: postman-sybase-backups-api
+- collection_type: postman
+  name: Sybase ASE REST Backups Configuration API
+  slug: postman-sybase-configuration-api
+- collection_type: postman
+  name: Sybase ASE REST Backups Databases API
+  slug: postman-sybase-databases-api
+- collection_type: postman
+  name: Sybase ASE REST Backups Devices API
+  slug: postman-sybase-devices-api
+- collection_type: postman
+  name: Sybase ASE REST Backups Performance API
+  slug: postman-sybase-performance-api
+- collection_type: postman
+  name: Sybase ASE REST Backups Servers API
+  slug: postman-sybase-servers-api
+- collection_type: postman
+  name: Sybase ASE REST Backups Users API
+  slug: postman-sybase-users-api
 - collection_type: open
   name: Sybase ASE REST API
   slug: open-sybase-ase-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sybase/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -257,12 +284,12 @@ overview: 'Sybase publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Sybase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sybase''s developer surface includes authentication, developer portal, support, engineering blog, documentation, getting-started guide, changelog, and 16 more developer resources.'
+  Sybase''s developer surface includes authentication, developer portal, support, engineering blog, documentation, getting-started guide, changelog, and 17 more developer resources.'
 plans:
 - name: Sybase Plans Pricing
   plan_count: 1
   slug: sybase-plans-pricing
-random_paper: 35
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Sybase Rate Limits
@@ -286,18 +313,25 @@ rules:
   slug: sybase-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 3.3
+  composite: 63.0
+  delta: -2.9
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.3
-    developer_ergonomics: 52.2
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 64.4
+    developer_ergonomics: 56.5
+    discoverability: 63.0
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 62.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/screenshots/sybase-2026-06-20T194816.png
 security:

@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,7 +170,7 @@ overview: 'Ron Swanson Quotes publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Ron Swanson Quotes'' developer surface includes documentation, changelog, authentication, code examples, and 10 more developer resources.'
-random_paper: 39
+random_paper: 27
 rules:
 - name: Ron Swanson Quotes API Rules
   rule_count: 4
@@ -188,19 +190,26 @@ rules:
   slug: ron-swanson-quotes-rules
 score:
   band: thin
-  composite: 44.2
-  delta: 5.5
+  composite: 40.0
+  delta: -4.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 69.0
+    contract_quality: 70.3
     developer_ergonomics: 26.1
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 15.8
-  previous_composite: 38.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 44.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/screenshots/ron-swanson-quotes-2026-06-20T193218.png
 security:
 - kind: domain-security

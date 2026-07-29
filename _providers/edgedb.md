@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Executes EdgeQL queries over HTTP against a Gel/EdgeDB instance. Supports GET and POST requests with query, variables, globals, and config fields. Authentication uses HTTP Basic (password), Bearer tok
@@ -120,26 +122,26 @@ plans:
 - name: Edgedb Plans Pricing
   plan_count: 3
   slug: edgedb-plans-pricing
-random_paper: 59
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Edgedb Rate Limits
   slug: edgedb-rate-limits
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 38.3
+  delta: 6.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 15.1
+    contract_quality: 53.1
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 31.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/edgedb/refs/heads/main/screenshots/edgedb-2026-06-20T180552.png
 security:
 - kind: domain-security

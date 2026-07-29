@@ -1,21 +1,14 @@
 ---
-access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: near-conformant
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 4.3
+  scored_at: '2026-07-28'
 api_count: 17
 apis:
 - description: The authoritative protocol definition for the Model Context Protocol, maintained at modelcontextprotocol.io and in the modelcontextprotocol/ specification GitHub repository. The TypeScript schema (sch
@@ -81,6 +74,10 @@ apis:
   slug: chatgpt-mcp-host
 artifact_total: 66
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/mcp-a2a.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -178,7 +175,6 @@ features:
   name: Icons and Branding
 - description: MCP reserves the _meta property with a structured prefix/name format for attaching additional metadata to interactions.
   name: Reserved _meta Namespace
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mcp.png
 integrations:
 - description: Claude Desktop, Claude Code, and the Claude API are first-class MCP hosts and are the protocol's reference consumers.
   name: Anthropic Claude
@@ -231,8 +227,8 @@ overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https
   The Model Context Protocol (MCP) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 6 more developer resources.'
-random_paper: 48
+  Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 7 more developer resources.'
+random_paper: 12
 rules:
 - name: Model Context Protocol (MCP) API Rules
   rule_count: 6
@@ -243,20 +239,20 @@ rules:
     warn: 4
   slug: mcp-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 31.8
-  delta: 0.0
+  band: emerging
+  composite: 25.8
+  delta: -6.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.1
+    contract_quality: 27.4
     developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 61.1
+    governance: 68.8
     operational_transparency: 5.3
   previous_composite: 31.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/screenshots/mcp-2026-06-20T185104.png
 security:
 - kind: domain-security

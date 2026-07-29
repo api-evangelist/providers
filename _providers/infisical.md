@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 7
@@ -412,7 +414,7 @@ plans:
 - name: Infisical Plans Pricing
   plan_count: 4
   slug: infisical-plans-pricing
-random_paper: 62
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Infisical Rate Limits
@@ -428,18 +430,25 @@ rules:
   slug: infisical-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 44.3
+  delta: -4.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 46.3
+    contract_quality: 48.6
     developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 48.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 73
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/screenshots/infisical-2026-06-20T183331.png
 security:

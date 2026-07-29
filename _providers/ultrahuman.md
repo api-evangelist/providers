@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -119,31 +121,39 @@ plans:
 - name: Ultrahuman Plans Pricing
   plan_count: 4
   slug: ultrahuman-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Ultrahuman Rate Limits
   slug: ultrahuman-rate-limits
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: thin
+  composite: 40.0
+  delta: -5.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.4
+    contract_quality: 57.9
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 45.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 28.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Ultrahuman Authentication

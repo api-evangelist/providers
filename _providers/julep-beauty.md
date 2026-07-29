@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.9
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Julep's agent-commerce surface. The storefront advertises a Universal Commerce Protocol merchant profile and a live JSON-RPC Model Context Protocol endpoint covering catalog search and lookup, cart, d
@@ -158,7 +160,7 @@ overview: 'Julep Beauty publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Julep Beauty''s developer surface includes authentication, documentation, support, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Julep Beauty Rate Limits
@@ -170,18 +172,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 41.3
+  delta: 1.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.8
+    contract_quality: 55.1
     developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 5.3
   previous_composite: 39.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -232,8 +234,208 @@ apis:
 - description: 'The #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateworkspaceimagepermission.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
-artifact_total: 906
+artifact_total: 971
+collections:
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-associateconnectionalias-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateIpGroups API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-associateipgroups-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AuthorizeIpRules API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-authorizeiprules-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CopyWorkspaceImage API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-copyworkspaceimage-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateConnectClientAddIn API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-createconnectclientaddin-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateConnectionAlias API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-createconnectionalias-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateIpGroup API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-createipgroup-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateStandbyWorkspaces API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-createstandbyworkspaces-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateTags API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-createtags-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateUpdatedWorkspaceImage API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-createupdatedworkspaceimage-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateWorkspaceBundle API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-createworkspacebundle-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateWorkspaceImage API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-createworkspaceimage-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.CreateWorkspaces API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-createworkspaces-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteClientBranding API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-deleteclientbranding-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteConnectClientAddIn API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-deleteconnectclientaddin-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteConnectionAlias API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-deleteconnectionalias-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteIpGroup API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-deleteipgroup-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteTags API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-deletetags-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteWorkspaceBundle API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-deleteworkspacebundle-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeleteWorkspaceImage API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-deleteworkspaceimage-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DeregisterWorkspaceDirectory API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-deregisterworkspacedirectory-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeAccount API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeaccount-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeAccountModifications API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeaccountmodifications-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeClientBranding API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeclientbranding-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeClientProperties API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeclientproperties-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeConnectClientAddIns API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeconnectclientaddins-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeConnectionAliases API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliases-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeConnectionAliasPermissions API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliaspermissions-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeIpGroups API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeipgroups-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeTags API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describetags-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceBundles API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeworkspacebundles-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceDirectories API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeworkspacedirectories-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceImagePermissions API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimagepermissions-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceImages API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimages-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaces API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeworkspaces-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspacesConnectionStatus API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesconnectionstatus-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DescribeWorkspaceSnapshots API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesnapshots-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DisassociateConnectionAlias API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-disassociateconnectionalias-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.DisassociateIpGroups API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-disassociateipgroups-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ImportClientBranding API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-importclientbranding-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ImportWorkspaceImage API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-importworkspaceimage-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ListAvailableManagementCidrRanges API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-listavailablemanagementcidrranges-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.MigrateWorkspace API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-migrateworkspace-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyAccount API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-modifyaccount-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyCertificateBasedAuthProperties API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-modifycertificatebasedauthproperties-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyClientProperties API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-modifyclientproperties-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifySamlProperties API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-modifysamlproperties-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifySelfservicePermissions API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-modifyselfservicepermissions-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyWorkspaceAccessProperties API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceaccessproperties-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyWorkspaceCreationProperties API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacecreationproperties-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyWorkspaceProperties API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceproperties-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.ModifyWorkspaceState API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacestate-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RebootWorkspaces API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-rebootworkspaces-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RebuildWorkspaces API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-rebuildworkspaces-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RegisterWorkspaceDirectory API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-registerworkspacedirectory-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RestoreWorkspace API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-restoreworkspace-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.RevokeIpRules API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-revokeiprules-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.StartWorkspaces API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-startworkspaces-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.StopWorkspaces API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-stopworkspaces-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.TerminateWorkspaces API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-terminateworkspaces-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateConnectClientAddIn API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-updateconnectclientaddin-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateConnectionAliasPermission API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-updateconnectionaliaspermission-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateRulesOfIpGroup API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-updaterulesofipgroup-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateWorkspaceBundle API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-updateworkspacebundle-api
+- collection_type: postman
+  name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API'
+  slug: postman-amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-workspaces/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2808,12 +3010,12 @@ overview: 'Amazon WorkSpaces publishes 65 APIs on the [APIs.io](https://apis.io/
   The Amazon WorkSpaces catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon WorkSpaces'' developer surface includes authentication, engineering blog, developer portal, documentation, support, developer console, signup flow, and 13 more developer resources.'
+  Amazon WorkSpaces'' developer surface includes authentication, engineering blog, developer portal, documentation, support, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Workspaces Plans Pricing
   plan_count: 3
   slug: amazon-workspaces-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Amazon Workspaces Rate Limits
@@ -2837,18 +3039,25 @@ rules:
   slug: amazon-workspaces-spectral-rules
 score:
   band: strong
-  composite: 68.2
-  delta: 0.0
+  composite: 65.1
+  delta: -3.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.3
-    developer_ergonomics: 41.3
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 74.4
+    developer_ergonomics: 45.7
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 68.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 65
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/screenshots/amazon-workspaces-2026-06-20T171849.png
 security:

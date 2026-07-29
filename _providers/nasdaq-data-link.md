@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: REST API for tables data (datatables) — row and column filtered access to hundreds of financial, economic, and alternative datasets, with JSON, XML, and CSV formats, cursor-based pagination, and an as
@@ -164,7 +166,7 @@ overview: 'Nasdaq Data Link publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Nasdaq Data Link''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 20 more developer resources.'
-random_paper: 66
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Nasdaq Data Link Rate Limits
@@ -176,23 +178,27 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 39.6
+  delta: -1.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 76.1
     discoverability: 100.0
-    governance: 0.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 41.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/screenshots/nasdaq-data-link-2026-06-20T185954.png
 security:

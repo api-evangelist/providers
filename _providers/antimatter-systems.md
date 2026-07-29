@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,21 +96,21 @@ overview: 'Antimatter Systems is profiled on the [APIs.io](https://apis.io/) net
 
 
   Antimatter Systems'' developer surface includes signup flow, support, YouTube channel, and 10 more developer resources.'
-random_paper: 14
+random_paper: 70
 score:
-  band: minimal
-  composite: 13.0
-  delta: 0.0
+  band: emerging
+  composite: 13.1
+  delta: 0.1
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antimatter-systems/refs/heads/main/screenshots/antimatter-systems-2026-07-25T200424.png
 security:

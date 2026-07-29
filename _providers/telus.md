@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.1
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'The TELUS Insights Location API exposes de-identified, aggregated geo-intelligence derived from the TELUS mobile network across Canada. Consumers submit asynchronous count jobs — demographic, origin, '
@@ -171,7 +173,7 @@ overview: 'TELUS publishes 1 API on the [APIs.io](https://apis.io/) network: Ins
 
 
   TELUS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 24 more developer resources.'
-random_paper: 13
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Telus Rate Limits
@@ -183,24 +185,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 54.8
+  delta: 5.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 22.6
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 63.0
+    developer_ergonomics: 64.7
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 71.1
   previous_composite: 49.3
+  provenance:
+    conformance: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Telus Authentication

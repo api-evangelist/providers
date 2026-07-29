@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,8 +54,20 @@ apis:
 - description: Endpoints for checking payment transaction status
   name: Apple Pay Payment Status API
   slug: apple-pay-payment-status-api
-artifact_total: 42
+artifact_total: 46
 collections:
+- collection_type: postman
+  name: Apple Pay JS Merchant Registration API
+  slug: postman-apple-pay-merchant-registration-api
+- collection_type: postman
+  name: Apple Pay JS Merchant Registration Merchant Validation API
+  slug: postman-apple-pay-merchant-validation-api
+- collection_type: postman
+  name: Apple Pay JS Merchant Registration Payment Processing API
+  slug: postman-apple-pay-payment-processing-api
+- collection_type: postman
+  name: Apple Pay JS Merchant Registration Payment Status API
+  slug: postman-apple-pay-payment-status-api
 - collection_type: open
   name: Apple Pay JS API
   slug: open-apple-pay-js
@@ -61,6 +75,10 @@ collections:
   name: Apple Pay Payment Token API
   slug: open-apple-pay-payment-token
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apple-pay/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,12 +205,12 @@ overview: 'Apple Pay publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Apple Pay catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apple Pay''s developer surface includes authentication, developer portal, support, getting-started guide, and 9 more developer resources.'
+  Apple Pay''s developer surface includes authentication, developer portal, support, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Apple Pay Plans Pricing
   plan_count: 2
   slug: apple-pay-plans-pricing
-random_paper: 21
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Apple Pay Rate Limits
@@ -215,25 +233,33 @@ rules:
     warn: 16
   slug: apple-pay-spectral-rules
 score:
-  band: strong
-  composite: 60.4
-  delta: 4.7
+  band: developing
+  composite: 55.3
+  delta: -5.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 77.0
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 77.1
+    developer_ergonomics: 39.1
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 55.7
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 42.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/screenshots/apple-pay-2026-06-20T172320.png
 security:
 - kind: authentication

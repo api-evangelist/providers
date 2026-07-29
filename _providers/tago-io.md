@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -103,8 +105,79 @@ apis:
 - description: Manage widgets (Profile Token).
   name: TagoIO Widgets API
   slug: tago-io-widgets-api
-artifact_total: 35
+artifact_total: 57
+collections:
+- collection_type: postman
+  name: TagoIO Access Management API
+  slug: postman-tago-io-access-management-api
+- collection_type: postman
+  name: TagoIO Access Management Account API
+  slug: postman-tago-io-account-api
+- collection_type: postman
+  name: TagoIO Access Management Backup API
+  slug: postman-tago-io-backup-api
+- collection_type: postman
+  name: TagoIO Access Management Configuration Param API
+  slug: postman-tago-io-configuration-param-api
+- collection_type: postman
+  name: TagoIO Access Management Dashboards API
+  slug: postman-tago-io-dashboards-api
+- collection_type: postman
+  name: TagoIO Access Management Device Data API
+  slug: postman-tago-io-device-data-api
+- collection_type: postman
+  name: TagoIO Access Management Device Tokens API
+  slug: postman-tago-io-device-tokens-api
+- collection_type: postman
+  name: TagoIO Access Management Devices API
+  slug: postman-tago-io-devices-api
+- collection_type: postman
+  name: TagoIO Access Management Dictionary API
+  slug: postman-tago-io-dictionary-api
+- collection_type: postman
+  name: TagoIO Access Management Entity API
+  slug: postman-tago-io-entity-api
+- collection_type: postman
+  name: TagoIO Access Management Entity Data API
+  slug: postman-tago-io-entity-data-api
+- collection_type: postman
+  name: TagoIO Access Management Files API
+  slug: postman-tago-io-files-api
+- collection_type: postman
+  name: TagoIO Access Management Immutable Device API
+  slug: postman-tago-io-immutable-device-api
+- collection_type: postman
+  name: TagoIO Access Management Import/Export API
+  slug: postman-tago-io-import-export-api
+- collection_type: postman
+  name: TagoIO Access Management Network Ingest API
+  slug: postman-tago-io-network-ingest-api
+- collection_type: postman
+  name: TagoIO Access Management Notifications API
+  slug: postman-tago-io-notifications-api
+- collection_type: postman
+  name: TagoIO Access Management Profile API
+  slug: postman-tago-io-profile-api
+- collection_type: postman
+  name: TagoIO Access Management Statistics / Billing API
+  slug: postman-tago-io-statistics-billing-api
+- collection_type: postman
+  name: TagoIO Access Management Tago RUN API
+  slug: postman-tago-io-tago-run-api
+- collection_type: postman
+  name: TagoIO Access Management Upload API
+  slug: postman-tago-io-upload-api
+- collection_type: postman
+  name: TagoIO Access Management Users API
+  slug: postman-tago-io-users-api
+- collection_type: postman
+  name: TagoIO Access Management Widgets API
+  slug: postman-tago-io-widgets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tagoio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -230,12 +303,12 @@ overview: 'TagoIO publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
   The TagoIO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TagoIO''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, CLI, and 16 more developer resources.'
+  TagoIO''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, CLI, and 17 more developer resources.'
 plans:
 - name: Tago Io Plans Pricing
   plan_count: 4
   slug: tago-io-plans-pricing
-random_paper: 8
+random_paper: 72
 rate_limits:
 - limit_count: 7
   name: Tago Io Rate Limits
@@ -251,18 +324,25 @@ rules:
   slug: tago-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 0.0
+  composite: 61.5
+  delta: -3.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 74.5
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 75.5
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/screenshots/tago-io-2026-06-20T194853.png
 security:

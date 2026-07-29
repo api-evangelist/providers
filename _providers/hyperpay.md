@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -55,12 +57,29 @@ apis:
 - description: Tokenization of payment instruments for one-click and recurring.
   name: HyperPay Registrations API
   slug: hyperpay-registrations-api
-artifact_total: 16
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Hyperpay Webhooks
   slug: hyperpay-webhooks
+collections:
+- collection_type: postman
+  name: HyperPay Payment COPYandPAY API
+  slug: postman-hyperpay-copyandpay-api
+- collection_type: postman
+  name: HyperPay Payment COPYandPAY Payments API
+  slug: postman-hyperpay-payments-api
+- collection_type: postman
+  name: HyperPay Payment COPYandPAY Query API
+  slug: postman-hyperpay-query-api
+- collection_type: postman
+  name: HyperPay Payment COPYandPAY Registrations API
+  slug: postman-hyperpay-registrations-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hyperpay/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -219,35 +238,46 @@ overview: 'HyperPay publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The HyperPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HyperPay''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, sandbox, and 27 more developer resources.'
+  HyperPay''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, sandbox, and 28 more developer resources.'
 plans:
 - name: Hyperpay Plans Pricing
   plan_count: 2
   slug: hyperpay-plans-pricing
-random_paper: 66
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Hyperpay Rate Limits
   slug: hyperpay-rate-limits
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 60.7
+  delta: 0.2
   facets:
     commercial_clarity: 55.3
-    contract_quality: 67.7
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.7
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 36.8
   previous_composite: 60.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 69.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 71.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/screenshots/hyperpay-2026-07-25T221905.png
 security:

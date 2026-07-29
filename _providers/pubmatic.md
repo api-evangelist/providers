@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 11.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.0
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -186,22 +188,22 @@ overview: 'PubMatic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PubMatic''s developer surface includes GitHub presence, engineering blog, privacy policy, YouTube channel, and 30 more developer resources.'
-random_paper: 37
+random_paper: 6
 score:
-  band: minimal
-  composite: 12.6
-  delta: 0.0
+  band: emerging
+  composite: 21.6
+  delta: 9.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 12.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubmatic/refs/heads/main/screenshots/pubmatic-2026-06-20T192244.png
 security:
 - kind: domain-security

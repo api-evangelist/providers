@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: CQRS
 nav: Providers
 network: true
-random_paper: 33
+random_paper: 56
 slug: cqrs
 tags:
 - Architecture

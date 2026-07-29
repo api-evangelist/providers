@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -542,7 +544,7 @@ plans:
 - name: Assembled Plans Pricing
   plan_count: 6
   slug: assembled-plans-pricing
-random_paper: 60
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Assembled Rate Limits
@@ -566,18 +568,25 @@ rules:
   slug: assembled-rules
 score:
   band: exemplar
-  composite: 72.0
-  delta: 3.3
+  composite: 67.7
+  delta: -4.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 65.1
+    contract_quality: 65.5
     developer_ergonomics: 56.5
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 68.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 72.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/screenshots/assembled-2026-06-20T172502.png
 security:

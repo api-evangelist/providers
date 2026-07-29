@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -90,7 +92,7 @@ overview: 'Better is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Better''s developer surface includes engineering blog, support, pricing, authentication, and 8 more developer resources.'
-random_paper: 34
+random_paper: 30
 scopes:
 - name: Better Scopes
   scope_count: 4
@@ -98,23 +100,26 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 23.4
+  delta: -2.1
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 61.1
+    governance: 3.1
     operational_transparency: 0.0
   previous_composite: 25.5
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 63.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/better/refs/heads/main/screenshots/better-2026-07-25T202802.png
 security:

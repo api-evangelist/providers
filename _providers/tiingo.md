@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,12 +56,20 @@ apis:
 - description: Tagged equity news from 1,000+ publishers with ticker, topic, and source filters.
   name: Tiingo News API
   slug: news-api
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: Tiingo's WebSocket streaming interface for real-time market data. Clients subscribe and unsubscribe to data feeds by sending a JSON request containing eventName, an authorization API token, and eventD
   name: Tiingo WebSocket API
   slug: tiingo-websockets-asyncapi
+collections:
+- collection_type: postman
+  name: Tiingo API
+  slug: postman-tiingo
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tiingo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -210,35 +220,46 @@ overview: 'Tiingo publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Tiingo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tiingo''s developer surface includes developer portal, documentation, pricing, engineering blog, changelog, authentication, sandbox, and 25 more developer resources.'
+  Tiingo''s developer surface includes developer portal, documentation, pricing, engineering blog, changelog, authentication, sandbox, and 26 more developer resources.'
 plans:
 - name: Tiingo Plans Pricing
   plan_count: 4
   slug: tiingo-plans-pricing
-random_paper: 38
+random_paper: 34
 rate_limits:
 - limit_count: 4
   name: Tiingo Rate Limits
   slug: tiingo-rate-limits
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 62.3
+  delta: -0.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 55.8
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 57.6
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 68.4
   previous_composite: 62.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: ViX is the world's largest Spanish-language streaming service offering over 65,000 hours of content across free (ad-supported) and premium subscription tiers. ViX provides programmatic advertising acc
@@ -116,25 +118,25 @@ press:
 - date: '2026-05-25'
   title: Veritone® Announces Multi-Market Agreement with Univision ...
   url: https://investors.veritone.com/news-events/press-releases/detail/167/veritone-announces-multi-market-agreement-with-univision-radio-network-to-provide-near-real-time-intelligence-for-ad-campaigns-and-branded-solutions
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Univision Communications Rate Limits
   slug: univision-communications-rate-limits
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 21.8
+  delta: -3.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 2.2
-    discoverability: 87.5
-    governance: 13.2
+    discoverability: 64.8
+    governance: 10.4
     operational_transparency: 26.3
   previous_composite: 25.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/univision-communications/refs/heads/main/screenshots/univision-communications-2026-06-20T200411.png
 security:

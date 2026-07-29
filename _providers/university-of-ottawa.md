@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Public DSpace 7.6.5 REST/HATEOAS API for uO Research (Recherche uO Research), the University of Ottawa's institutional repository. The API root reports dspaceVersion "DSpace 7.6.5" and dspaceName "Rec
@@ -97,25 +99,25 @@ plans:
 - name: University Of Ottawa Plans Pricing
   plan_count: 2
   slug: university-of-ottawa-plans-pricing
-random_paper: 41
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: University Of Ottawa Rate Limits
   slug: university-of-ottawa-rate-limits
 score:
   band: emerging
-  composite: 23.6
-  delta: 0.0
+  composite: 20.5
+  delta: -3.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 0.0
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 23.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/screenshots/university-of-ottawa-2026-06-20T200215.png
 security:

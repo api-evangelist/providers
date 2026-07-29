@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.6
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Epic's HL7 FHIR R4 (4.0.1) REST API, aligned to the US Core implementation guides and exposing 59 resource types (Patient, Encounter, Observation, Condition, MedicationRequest, DiagnosticReport, Docum
@@ -162,32 +164,35 @@ overview: 'Epic Systems publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Epic Systems'' developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, and 18 more developer resources.'
-random_paper: 30
+random_paper: 22
 scopes:
 - name: Epic Systems Scopes
   scope_count: 0
   slug: epic-systems-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 39.2
-  delta: 0.0
+  band: developing
+  composite: 44.6
+  delta: 5.4
   facets:
     commercial_clarity: 23.7
-    contract_quality: 22.6
+    contract_quality: 55.0
     developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 3.1
     operational_transparency: 18.4
   previous_composite: 39.2
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 80.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 72.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/screenshots/epic-systems-2026-07-25T213516.png
 security:
 - kind: authentication

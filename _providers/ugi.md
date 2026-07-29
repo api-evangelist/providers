@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: UGI International manages LPG and natural gas distribution operations across Europe, primarily through Flaga, AvantiGas, and other regional brands serving 17 European countries with liquid petroleum g
@@ -103,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: 'Press Release: UGI Selects IntelliShift for Vehicle AI Video ...'
   url: https://intellishift.com/resources/blog/press-release-ugi-selects-intellishift-for-vehicle-ai-video-deployment/
-random_paper: 53
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Ugi Rate Limits
@@ -118,20 +120,26 @@ rules:
     warn: 3
   slug: ugi-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.6
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: -6.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 30.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 14.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ugi/refs/heads/main/screenshots/ugi-2026-06-20T195955.png
 security:
 - kind: domain-security

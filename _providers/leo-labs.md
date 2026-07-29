@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.8
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: LeoLabs catalog of tracked LEO objects, their measurements, states and propagations.
@@ -145,7 +147,7 @@ overview: 'LeoLabs publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   LeoLabs'' developer surface includes documentation, signup flow, engineering blog, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 35
+random_paper: 13
 scopes:
 - name: Leo Labs Scopes
   scope_count: 0
@@ -153,18 +155,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 44.9
-  delta: 0.0
+  composite: 40.0
+  delta: -4.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.3
-    developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 45.5
+    developer_ergonomics: 51.6
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 10.5
   previous_composite: 44.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/screenshots/leo-labs-2026-07-25T224917.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -64,8 +66,32 @@ apis:
 - description: Manage metadata and version history for KV v2 secrets.
   name: HashiCorp Vault Secrets Metadata API
   slug: vault-secrets-metadata-api
-artifact_total: 115
+artifact_total: 123
 collections:
+- collection_type: postman
+  name: HashiCorp Vault KV Secrets Engine Auth Methods API
+  slug: postman-vault-auth-methods-api
+- collection_type: postman
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Health API
+  slug: postman-vault-health-api
+- collection_type: postman
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Leases API
+  slug: postman-vault-leases-api
+- collection_type: postman
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Policies API
+  slug: postman-vault-policies-api
+- collection_type: postman
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Secrets Config API
+  slug: postman-vault-secrets-config-api
+- collection_type: postman
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Secrets Data API
+  slug: postman-vault-secrets-data-api
+- collection_type: postman
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Secrets Engines API
+  slug: postman-vault-secrets-engines-api
+- collection_type: postman
+  name: HashiCorp Vault KV Secrets Engine Auth Methods Secrets Metadata API
+  slug: postman-vault-secrets-metadata-api
 - collection_type: open
   name: HashiCorp Vault KV Secrets Engine API
   slug: open-vault-kv
@@ -73,6 +99,10 @@ collections:
   name: HashiCorp Vault System Backend API
   slug: open-vault-sys
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hashicorp-vault/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -408,12 +438,12 @@ overview: 'HashiCorp Vault publishes 8 APIs on the [APIs.io](https://apis.io/) n
   The HashiCorp Vault catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  HashiCorp Vault''s developer surface includes authentication, developer portal, engineering blog, Stack Overflow tag, training material, and 10 more developer resources.'
+  HashiCorp Vault''s developer surface includes authentication, developer portal, engineering blog, Stack Overflow tag, training material, and 11 more developer resources.'
 plans:
 - name: Vault Plans Pricing
   plan_count: 3
   slug: vault-plans-pricing
-random_paper: 12
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Vault Rate Limits
@@ -436,20 +466,27 @@ rules:
     warn: 17
   slug: vault-spectral-rules
 score:
-  band: strong
-  composite: 62.2
-  delta: 5.4
+  band: developing
+  composite: 54.5
+  delta: -7.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 80.5
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 63.8
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 56.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vault/refs/heads/main/screenshots/vault-2026-06-20T200835.png
 security:
 - kind: authentication

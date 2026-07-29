@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -107,8 +109,40 @@ arazzos:
 - description: Create a temporary worksheet, read it, rename and reposition it, then delete it.
   name: Microsoft Excel Scratch Worksheet Lifecycle
   slug: microsoft-excel-worksheet-lifecycle-workflow
-artifact_total: 67
+artifact_total: 76
+collections:
+- collection_type: postman
+  name: Microsoft Graph Excel Charts API
+  slug: postman-microsoft-excel-charts-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Functions API
+  slug: postman-microsoft-excel-functions-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Named Items API
+  slug: postman-microsoft-excel-named-items-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Ranges API
+  slug: postman-microsoft-excel-ranges-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Sessions API
+  slug: postman-microsoft-excel-sessions-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Table Columns API
+  slug: postman-microsoft-excel-table-columns-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Table Rows API
+  slug: postman-microsoft-excel-table-rows-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Tables API
+  slug: postman-microsoft-excel-tables-api
+- collection_type: postman
+  name: Microsoft Graph Excel Charts Worksheets API
+  slug: postman-microsoft-excel-worksheets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-excel/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -379,12 +413,12 @@ overview: 'Microsoft Excel publishes 9 APIs on the [APIs.io](https://apis.io/) n
   The Microsoft Excel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Excel''s developer surface includes authentication, changelog, CLI, sandbox, support, pricing, engineering blog, and 34 more developer resources.'
+  Microsoft Excel''s developer surface includes authentication, changelog, CLI, sandbox, support, pricing, engineering blog, and 35 more developer resources.'
 plans:
 - name: Microsoft Excel Plans Pricing
   plan_count: 5
   slug: microsoft-excel-plans-pricing
-random_paper: 60
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Microsoft Excel Rate Limits
@@ -413,18 +447,27 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.5
-  delta: 0.0
+  composite: 66.7
+  delta: -4.8
   facets:
     commercial_clarity: 78.9
-    contract_quality: 80.5
-    developer_ergonomics: 47.8
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 68.1
+    developer_ergonomics: 45.7
+    discoverability: 83.3
+    governance: 80.2
     operational_transparency: 52.6
   previous_composite: 71.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png
 security:

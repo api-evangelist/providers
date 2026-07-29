@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.3
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: PUBLIC, unauthenticated OBIE Open Data reference API for Bank of Scotland, exposing ATM locations, branch details, personal and business current account products, unsecured SME loans, and commercial c
@@ -122,7 +124,7 @@ overview: 'Bank of Scotland publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Bank of Scotland''s developer surface includes authentication, sandbox, documentation, and 15 more developer resources.'
-random_paper: 7
+random_paper: 31
 scopes:
 - name: Bank Of Scotland Scopes
   scope_count: 3
@@ -130,23 +132,33 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 37.0
+  delta: -3.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.0
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 50.6
+    developer_ergonomics: 36.4
+    discoverability: 72.2
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 40.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 60.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/screenshots/bank-of-scotland-2026-07-25T202339.png
 security:

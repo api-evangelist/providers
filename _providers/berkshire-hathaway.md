@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The BNSF API Center provides customer APIs for programmatic integration with BNSF Railway freight shipping operations. APIs enable real-time shipment tracing, intermodal hub operations, pricing and ra
@@ -95,30 +97,31 @@ press:
 - date: '2026-05-25'
   title: 'Berkshire Hathaway Specialty''s Mirza: How Generative AI ...'
   url: https://www.ambest.com/video/MediaArchive.aspx?lid=1068187747001&vid=6341117189112
-random_paper: 23
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Berkshire Hathaway Rate Limits
   slug: berkshire-hathaway-rate-limits
 score:
   band: emerging
-  composite: 19.0
-  delta: 0.0
+  composite: 16.5
+  delta: -2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 19.0
   regulatory:
     applies: true
-    regime: Insurance
-    regime_id: insurance
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 8.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/berkshire-hathaway/refs/heads/main/screenshots/berkshire-hathaway-2026-06-20T173143.png
 security:

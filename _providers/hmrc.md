@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,12 +63,28 @@ apis:
 - description: VAT return submission
   name: HMRC UK Tax Authority Returns API
   slug: hmrc-returns-api
-artifact_total: 31
+artifact_total: 35
 collections:
+- collection_type: postman
+  name: HMRC VAT (Making Tax Digital) Liabilities API
+  slug: postman-hmrc-liabilities-api
+- collection_type: postman
+  name: HMRC VAT (Making Tax Digital) Liabilities Obligations API
+  slug: postman-hmrc-obligations-api
+- collection_type: postman
+  name: HMRC VAT (Making Tax Digital) Liabilities Payments API
+  slug: postman-hmrc-payments-api
+- collection_type: postman
+  name: HMRC VAT (Making Tax Digital) Liabilities Returns API
+  slug: postman-hmrc-returns-api
 - collection_type: open
   name: HMRC VAT (Making Tax Digital) API
   slug: open-hmrc-vat-mtd
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hmrc-uk-tax-authority/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -200,12 +218,12 @@ overview: 'HMRC UK Tax Authority publishes 4 APIs on the [APIs.io](https://apis.
   The HMRC UK Tax Authority catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  HMRC UK Tax Authority''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 13 more developer resources.'
+  HMRC UK Tax Authority''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 14 more developer resources.'
 plans:
 - name: Hmrc Plans Pricing
   plan_count: 2
   slug: hmrc-plans-pricing
-random_paper: 18
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Hmrc Rate Limits
@@ -226,23 +244,31 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.1
-  delta: 2.8
+  composite: 57.6
+  delta: -4.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 66.4
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 67.8
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.3
+  previous_composite: 62.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 80.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/screenshots/hmrc-2026-06-20T182805.png
 security:

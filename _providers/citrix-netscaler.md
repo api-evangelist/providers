@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -64,12 +66,34 @@ apis:
 - description: System-level resources for managing the NetScaler appliance including system information, files, users, groups, and global settings.
   name: Citrix NetScaler System API
   slug: citrix-netscaler-system-api
-artifact_total: 64
+artifact_total: 70
 collections:
+- collection_type: postman
+  name: Citrix NetScaler NITRO REST Authentication API
+  slug: postman-citrix-netscaler-authentication-api
+- collection_type: postman
+  name: Citrix NetScaler NITRO REST Authentication CS Virtual Server API
+  slug: postman-citrix-netscaler-cs-virtual-server-api
+- collection_type: postman
+  name: Citrix NetScaler NITRO REST Authentication LB Virtual Server API
+  slug: postman-citrix-netscaler-lb-virtual-server-api
+- collection_type: postman
+  name: Citrix NetScaler NITRO REST Authentication NS Config API
+  slug: postman-citrix-netscaler-ns-config-api
+- collection_type: postman
+  name: Citrix NetScaler NITRO REST Authentication Statistics API
+  slug: postman-citrix-netscaler-statistics-api
+- collection_type: postman
+  name: Citrix NetScaler NITRO REST Authentication System API
+  slug: postman-citrix-netscaler-system-api
 - collection_type: open
   name: Citrix NetScaler NITRO REST API
   slug: open-citrix-netscaler-nitro
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/citrix-netscaler/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -278,12 +302,12 @@ overview: 'Citrix NetScaler publishes 6 APIs on the [APIs.io](https://apis.io/) 
   The Citrix NetScaler catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Citrix NetScaler''s developer surface includes authentication, developer portal, documentation, CLI, engineering blog, support, signup flow, and 12 more developer resources.'
+  Citrix NetScaler''s developer surface includes authentication, developer portal, documentation, CLI, engineering blog, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Citrix Netscaler Plans Pricing
   plan_count: 4
   slug: citrix-netscaler-plans-pricing
-random_paper: 33
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Citrix Netscaler Rate Limits
@@ -307,18 +331,25 @@ rules:
   slug: citrix-netscaler-spectral-rules
 score:
   band: strong
-  composite: 68.8
-  delta: 4.6
+  composite: 65.2
+  delta: -3.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 72.3
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 69.2
+    developer_ergonomics: 45.7
+    discoverability: 81.5
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 64.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/screenshots/citrix-netscaler-2026-06-20T174413.png
 security:

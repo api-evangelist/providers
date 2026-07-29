@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 1
@@ -79,8 +81,50 @@ apis:
 - description: The stores API from Mixedbread — 17 operation(s) for stores.
   name: Mixedbread stores API
   slug: mixedbread-ai-stores-api
-artifact_total: 41
+artifact_total: 55
 collections:
+- collection_type: postman
+  name: Mixedbread admin API
+  slug: postman-mixedbread-ai-admin-api
+- collection_type: postman
+  name: Mixedbread admin api_keys API
+  slug: postman-mixedbread-ai-api-keys-api
+- collection_type: postman
+  name: Mixedbread admin billing API
+  slug: postman-mixedbread-ai-billing-api
+- collection_type: postman
+  name: Mixedbread admin completions API
+  slug: postman-mixedbread-ai-completions-api
+- collection_type: postman
+  name: Mixedbread admin data_sources API
+  slug: postman-mixedbread-ai-data-sources-api
+- collection_type: postman
+  name: Mixedbread admin deprecated_vector_stores API
+  slug: postman-mixedbread-ai-deprecated-vector-stores-api
+- collection_type: postman
+  name: Mixedbread admin Embeddings API
+  slug: postman-mixedbread-ai-embeddings-api
+- collection_type: postman
+  name: Mixedbread admin extractions API
+  slug: postman-mixedbread-ai-extractions-api
+- collection_type: postman
+  name: Mixedbread admin files API
+  slug: postman-mixedbread-ai-files-api
+- collection_type: postman
+  name: Mixedbread admin Mixedbread Embeddings API API
+  slug: postman-mixedbread-ai-mixedbread-embeddings-api-api
+- collection_type: postman
+  name: Mixedbread admin parsing API
+  slug: postman-mixedbread-ai-parsing-api
+- collection_type: postman
+  name: Mixedbread admin Reranking API
+  slug: postman-mixedbread-ai-reranking-api
+- collection_type: postman
+  name: Mixedbread admin schemas API
+  slug: postman-mixedbread-ai-schemas-api
+- collection_type: postman
+  name: Mixedbread admin stores API
+  slug: postman-mixedbread-ai-stores-api
 - collection_type: open
   name: Mixedbread Admin API
   slug: open-mixedbread-admin-api
@@ -118,6 +162,10 @@ collections:
   name: Mixedbread Stores API
   slug: open-mixedbread-stores-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mixedbread/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -277,12 +325,12 @@ overview: 'Mixedbread publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
   The Mixedbread catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mixedbread''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, and 22 more developer resources.'
+  Mixedbread''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, and 23 more developer resources.'
 plans:
 - name: Mixedbread Ai Plans Pricing
   plan_count: 4
   slug: mixedbread-ai-plans-pricing
-random_paper: 0
+random_paper: 60
 rate_limits:
 - limit_count: 4
   name: Mixedbread Ai Rate Limits
@@ -306,18 +354,25 @@ rules:
   slug: mixedbread-ai-rules
 score:
   band: strong
-  composite: 60.0
-  delta: 4.7
+  composite: 56.5
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.8
-    developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 66.4
+    developer_ergonomics: 56.5
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 55.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

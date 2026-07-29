@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -391,7 +393,7 @@ press:
 - date: '2026-05-25'
   title: AI in the wild | Watts the Future
   url: https://www.netapp.com/video/tM47Foy3L_U/ai-in-the-wild-watts-the-future/
-random_paper: 36
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Netapp Rate Limits
@@ -415,19 +417,26 @@ rules:
   slug: netapp-spectral-rules
 score:
   band: developing
-  composite: 56.3
-  delta: 4.6
+  composite: 51.3
+  delta: -5.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 69.9
+    contract_quality: 63.6
     developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 51.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 56.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png
 security:
 - kind: authentication

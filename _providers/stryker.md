@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 5
 common:
@@ -122,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Advanced Digital Healthcare
   url: https://www.stryker.com/us/en/portfolios/medical-surgical-equipment/advanced-digital-healthcare.html
-random_paper: 40
+random_paper: 18
 rules:
 - name: Stryker API Rules
   rule_count: 5
@@ -134,18 +136,18 @@ rules:
   slug: stryker-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.3
-  delta: 0.0
+  composite: 20.9
+  delta: -4.4
   facets:
     commercial_clarity: 18.4
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 5.3
   previous_composite: 25.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stryker/refs/heads/main/screenshots/stryker-2026-06-20T194623.png
 security:

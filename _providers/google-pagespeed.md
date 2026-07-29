@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: Page performance analysis
   name: Google PageSpeed Analysis API
   slug: google-pagespeed-analysis-api
-artifact_total: 11
+artifact_total: 12
 collections:
+- collection_type: postman
+  name: Google PageSpeed PageSpeed Insights Analysis API
+  slug: postman-google-pagespeed-analysis-api
 - collection_type: open
   name: Google PageSpeed PageSpeed Insights API
   slug: open-pagespeed-insights
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-pagespeed/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -129,12 +138,12 @@ overview: 'Google PageSpeed publishes 1 API on the [APIs.io](https://apis.io/) n
   The Google PageSpeed catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google PageSpeed''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, developer console, and 8 more developer resources.'
+  Google PageSpeed''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, developer console, and 9 more developer resources.'
 plans:
 - name: Google Pagespeed Plans Pricing
   plan_count: 3
   slug: google-pagespeed-plans-pricing
-random_paper: 60
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Google Pagespeed Rate Limits
@@ -150,18 +159,25 @@ rules:
   slug: google-pagespeed-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.5
-  delta: 4.6
+  composite: 61.4
+  delta: -3.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.9
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 71.2
+    developer_ergonomics: 54.3
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-pagespeed/refs/heads/main/screenshots/google-pagespeed-2026-06-20T182219.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: The Webhooks API from AgeChecker.Net — 1 operation(s) for webhooks.
   name: AgeChecker.Net Webhooks API
   slug: agechecker-net-webhooks-api
-artifact_total: 28
+artifact_total: 31
 collections:
+- collection_type: postman
+  name: AgeChecker.Net Age Verification Sessions API
+  slug: postman-agechecker-net-sessions-api
+- collection_type: postman
+  name: AgeChecker.Net Age Sessions Verification API
+  slug: postman-agechecker-net-verification-api
+- collection_type: postman
+  name: AgeChecker.Net Age Verification Sessions Webhooks API
+  slug: postman-agechecker-net-webhooks-api
 - collection_type: open
   name: AgeChecker.Net Age Verification API
   slug: open-agechecker-net-age-verification
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/agecheckernet/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,12 +210,12 @@ overview: 'AgeChecker.Net publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   The AgeChecker.Net catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AgeChecker.Net''s developer surface includes authentication, developer portal, getting-started guide, code examples, and 14 more developer resources.'
+  AgeChecker.Net''s developer surface includes authentication, developer portal, getting-started guide, code examples, and 15 more developer resources.'
 plans:
 - name: Agechecker Net Plans Pricing
   plan_count: 3
   slug: agechecker-net-plans-pricing
-random_paper: 38
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Agechecker Net Rate Limits
@@ -224,18 +239,25 @@ rules:
   slug: agechecker-net-spectral-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 3.3
+  composite: 57.2
+  delta: -3.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.3
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 73.4
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 57.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/screenshots/agechecker-net-2026-06-20T165819.png
 security:

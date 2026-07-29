@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -118,8 +120,74 @@ apis:
 - description: User and group management
   name: Citrix Users API
   slug: citrix-users-api
-artifact_total: 88
+artifact_total: 110
 collections:
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies API
+  slug: postman-citrix-access-policies-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Application Domains API
+  slug: postman-citrix-application-domains-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Applications API
+  slug: postman-citrix-applications-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Authentication API
+  slug: postman-citrix-authentication-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Certificates API
+  slug: postman-citrix-certificates-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Content Switching API
+  slug: postman-citrix-content-switching-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Delivery Groups API
+  slug: postman-citrix-delivery-groups-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Devices API
+  slug: postman-citrix-devices-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Hypervisors API
+  slug: postman-citrix-hypervisors-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Launch API
+  slug: postman-citrix-launch-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Load Balancing API
+  slug: postman-citrix-load-balancing-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Machine Catalogs API
+  slug: postman-citrix-machine-catalogs-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Machines API
+  slug: postman-citrix-machines-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Notifications API
+  slug: postman-citrix-notifications-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies API
+  slug: postman-citrix-policies-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Resource Locations API
+  slug: postman-citrix-resource-locations-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Resources API
+  slug: postman-citrix-resources-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Service Principals API
+  slug: postman-citrix-service-principals-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Sessions API
+  slug: postman-citrix-sessions-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies SSL API
+  slug: postman-citrix-ssl-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies System API
+  slug: postman-citrix-system-api
+- collection_type: postman
+  name: Citrix ADC (NetScaler) NITRO Access Policies Users API
+  slug: postman-citrix-users-api
 - collection_type: open
   name: Citrix ADC (NetScaler) NITRO API
   slug: open-citrix-adc-nitro
@@ -139,6 +207,10 @@ collections:
   name: Citrix StoreFront Web API
   slug: open-citrix-storefront-web
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/citrix/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -386,7 +458,7 @@ overview: 'Citrix publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
   The Citrix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Citrix''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 16 more developer resources.'
+  Citrix''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Citrix Plans Pricing
   plan_count: 3
@@ -407,7 +479,7 @@ press:
 - date: '2026-05-25'
   title: Citrix Systems Archives - Software Strategies Blog
   url: http://softwarestrategiesblog.com/tag/citrix-systems/
-random_paper: 47
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Citrix Rate Limits
@@ -431,18 +503,25 @@ rules:
   slug: citrix-rules
 score:
   band: strong
-  composite: 64.3
-  delta: 2.5
+  composite: 60.2
+  delta: -4.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 63.6
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 60.9
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/screenshots/citrix-2026-06-20T174413.png
 security:

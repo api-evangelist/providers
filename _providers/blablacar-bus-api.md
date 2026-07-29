@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -196,7 +198,7 @@ plans:
 - name: Blablacar Bus Api Plans Pricing
   plan_count: 3
   slug: blablacar-bus-api-plans-pricing
-random_paper: 18
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Blablacar Bus Api Rate Limits
@@ -220,19 +222,26 @@ rules:
   slug: blablacar-bus-api-spectral-rules
 score:
   band: developing
-  composite: 57.9
-  delta: 0.0
+  composite: 50.6
+  delta: -7.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.7
+    contract_quality: 60.2
     developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 57.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/screenshots/blablacar-bus-api-2026-06-20T173332.png
 security:
 - kind: authentication

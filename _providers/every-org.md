@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The Every.org API is a powerful tool that allows developers to access and interact with a wide range of charitable giving data. By integrating the API into their applications, developers can retrieve '
@@ -86,26 +88,26 @@ plans:
 - name: Every Org Plans Pricing
   plan_count: 3
   slug: every-org-plans-pricing
-random_paper: 44
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Every Org Rate Limits
   slug: every-org-rate-limits
 score:
-  band: emerging
-  composite: 22.0
-  delta: 0.0
+  band: thin
+  composite: 31.9
+  delta: 9.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 6.5
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 22.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/screenshots/every-org-2026-06-20T180910.png
 security:
 - kind: domain-security

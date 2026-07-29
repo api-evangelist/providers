@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.1
+  scored_at: '2026-07-28'
 api_count: 12
 apis:
 - description: The access-management API from Upwind — 10 operation(s) for access-management.
@@ -65,12 +67,53 @@ apis:
 - description: The workflows API from Upwind — 2 operation(s) for workflows.
   name: Upwind workflows API
   slug: upwind-workflows-api
-artifact_total: 19
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Upwind Webhooks
   slug: upwind-webhooks
+collections:
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management API
+  slug: postman-upwind-access-management-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management api-security API
+  slug: postman-upwind-api-security-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management cloud-accounts API
+  slug: postman-upwind-cloud-accounts-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management configurations API
+  slug: postman-upwind-configurations-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management events API
+  slug: postman-upwind-events-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management integrations API
+  slug: postman-upwind-integrations-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management Inventory API
+  slug: postman-upwind-inventory-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management packages API
+  slug: postman-upwind-packages-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management shiftleft API
+  slug: postman-upwind-shiftleft-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management threats API
+  slug: postman-upwind-threats-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management vulnerabilities API
+  slug: postman-upwind-vulnerabilities-api
+- collection_type: postman
+  name: Upwind Management REST API v1 access-management workflows API
+  slug: postman-upwind-workflows-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/upwind/overview
 - group: company
   title: ''
   type: Website
@@ -221,8 +264,8 @@ overview: 'Upwind publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
   The Upwind catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Upwind''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 26 more developer resources.'
-random_paper: 51
+  Upwind''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 27 more developer resources.'
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Upwind Rate Limits
@@ -234,18 +277,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 61.3
+  delta: 0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.3
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.6
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 65.8
   previous_composite: 60.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

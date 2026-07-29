@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 37.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.0
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: 'OAuth 2.0 REST API for managing Snapchat advertising: organizations, ad accounts, campaigns, ad squads, ads, creatives, media, audience segments, measurement/reporting, the Conversions API (server-to-'
@@ -164,7 +166,7 @@ overview: 'Snap publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Snap''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 20 more developer resources.'
-random_paper: 26
+random_paper: 49
 scopes:
 - name: Snap Scopes
   scope_count: 0
@@ -172,18 +174,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 33.7
+  delta: -2.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 3.1
     operational_transparency: 39.5
   previous_composite: 36.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

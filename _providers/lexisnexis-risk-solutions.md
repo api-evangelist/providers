@@ -2,11 +2,13 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: C.L.U.E. Auto is a contributory claim-history information exchange containing up to seven years of personal automobile claims matching the search criteria, used by carriers during quoting and underwri
@@ -195,26 +197,29 @@ overview: 'LexisNexis Risk Solutions publishes 7 APIs on the [APIs.io](https://a
 
 
   LexisNexis Risk Solutions'' developer surface includes documentation, support, engineering blog, authentication, sandbox, and 30 more developer resources.'
-random_paper: 55
+random_paper: 21
 score:
   band: thin
-  composite: 39.3
-  delta: 0.0
+  composite: 36.6
+  delta: -2.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 47.8
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 39.3
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexisnexis-risk-solutions/refs/heads/main/screenshots/lexisnexis-risk-solutions-2026-07-25T224959.png
 security:

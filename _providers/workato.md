@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 61.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -978,7 +980,7 @@ plans:
 - name: Workato Plans Pricing
   plan_count: 4
   slug: workato-plans-pricing
-random_paper: 27
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Workato Rate Limits
@@ -1010,18 +1012,25 @@ rules:
   slug: workato-spectral-rules
 score:
   band: exemplar
-  composite: 76.6
-  delta: 3.5
+  composite: 72.4
+  delta: -4.2
   facets:
     commercial_clarity: 92.1
-    contract_quality: 91.5
+    contract_quality: 89.8
     developer_ergonomics: 45.7
-    discoverability: 80.0
-    governance: 65.8
+    discoverability: 59.3
+    governance: 52.1
     operational_transparency: 78.9
-  previous_composite: 73.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 76.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/screenshots/workato-2026-06-20T201551.png
 security:

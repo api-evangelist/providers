@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -193,7 +195,7 @@ plans:
 - name: Atlassian Jira Plans Pricing
   plan_count: 3
   slug: atlassian-jira-plans-pricing
-random_paper: 67
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Atlassian Jira Rate Limits
@@ -205,18 +207,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.8
-  delta: 3.2
+  composite: 49.7
+  delta: -3.1
   facets:
     commercial_clarity: 78.9
-    contract_quality: 51.3
+    contract_quality: 49.2
     developer_ergonomics: 37.0
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 49.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 52.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/screenshots/atlassian-jira-2026-06-20T172533.png
 security:

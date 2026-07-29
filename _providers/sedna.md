@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -201,26 +203,42 @@ overview: 'SEDNA publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   SEDNA''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 47
+random_paper: 61
 scopes:
 - name: Sedna Scopes
   scope_count: 53
   slug: sedna-scopes
   summary_line: 53 scopes · clientCredentials
 score:
-  band: thin
-  composite: 40.7
-  delta: 0.0
+  band: developing
+  composite: 45.4
+  delta: 4.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 42.3
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 43.9
+    developer_ergonomics: 51.6
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 23.7
   previous_composite: 40.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 65.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

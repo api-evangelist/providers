@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -183,8 +185,160 @@ apis:
 - description: 'The #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.updatedeploymentgroup.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-updatedeploymentgroup-api
-artifact_total: 1021
+artifact_total: 1070
+collections:
+- collection_type: postman
+  name: AWS CodeDeploy Applications API
+  slug: postman-amazon-codedeploy-applications-api
+- collection_type: postman
+  name: AWS CodeDeploy Applications Deployments API
+  slug: postman-amazon-codedeploy-deployments-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.AddTagsToOnPremisesInstances API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-addtagstoonpremisesinstances-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.BatchGetApplicationRevisions API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetapplicationrevisions-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.BatchGetApplications API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetapplications-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentGroups API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetdeploymentgroups-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentInstances API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetdeploymentinstances-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.BatchGetDeployments API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetdeployments-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentTargets API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetdeploymenttargets-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.BatchGetOnPremisesInstances API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetonpremisesinstances-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ContinueDeployment API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-continuedeployment-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.CreateApplication API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-createapplication-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.CreateDeployment API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-createdeployment-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.CreateDeploymentConfig API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-createdeploymentconfig-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.CreateDeploymentGroup API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-createdeploymentgroup-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.DeleteApplication API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-deleteapplication-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.DeleteDeploymentConfig API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-deletedeploymentconfig-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.DeleteDeploymentGroup API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-deletedeploymentgroup-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.DeleteGitHubAccountToken API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-deletegithubaccounttoken-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.DeleteResourcesByExternalId API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-deleteresourcesbyexternalid-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.DeregisterOnPremisesInstance API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-deregisteronpremisesinstance-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.GetApplication API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-getapplication-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.GetApplicationRevision API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-getapplicationrevision-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.GetDeployment API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeployment-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.GetDeploymentConfig API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeploymentconfig-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.GetDeploymentGroup API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeploymentgroup-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.GetDeploymentInstance API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeploymentinstance-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.GetDeploymentTarget API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeploymenttarget-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.GetOnPremisesInstance API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-getonpremisesinstance-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListApplicationRevisions API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listapplicationrevisions-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListApplications API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listapplications-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListDeploymentConfigs API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeploymentconfigs-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListDeploymentGroups API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeploymentgroups-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListDeploymentInstances API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeploymentinstances-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListDeployments API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeployments-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListDeploymentTargets API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeploymenttargets-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListGitHubAccountTokenNames API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listgithubaccounttokennames-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListOnPremisesInstances API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listonpremisesinstances-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.ListTagsForResource API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-listtagsforresource-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.PutLifecycleEventHookExecutionStatus API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-putlifecycleeventhookexecutionstatus-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.RegisterApplicationRevision API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-registerapplicationrevision-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.RegisterOnPremisesInstance API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-registeronpremisesinstance-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.RemoveTagsFromOnPremisesInstances API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-removetagsfromonpremisesinstances-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.SkipWaitTimeForInstanceTermination API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-skipwaittimeforinstancetermination-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.StopDeployment API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-stopdeployment-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.TagResource API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-tagresource-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.UntagResource API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-untagresource-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.UpdateApplication API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-updateapplication-api
+- collection_type: postman
+  name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API'
+  slug: postman-amazon-codedeploy-x-amz-target-codedeploy-20141006-updatedeploymentgroup-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-codedeploy/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3194,8 +3348,8 @@ overview: 'Amazon CodeDeploy publishes 49 APIs on the [APIs.io](https://apis.io/
   The Amazon CodeDeploy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeDeploy''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 24 more developer resources.'
-random_paper: 55
+  Amazon CodeDeploy''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 25 more developer resources.'
+random_paper: 61
 rules:
 - name: Amazon CodeDeploy API Rules
   rule_count: 5
@@ -3215,18 +3369,27 @@ rules:
   slug: amazon-codedeploy-spectral-rules
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 60.5
+  delta: -1.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 71.2
-    developer_ergonomics: 56.5
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 72.4
+    developer_ergonomics: 54.3
+    discoverability: 87.0
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 62.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 49
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/screenshots/amazon-codedeploy-2026-07-25T195954.png
 security:

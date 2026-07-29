@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: 'REST API for importing and querying event data used to train prediction engines. Authenticated with a per-app access key passed as the accessKey query parameter; JSON request/response with .json path '
@@ -97,21 +99,21 @@ overview: 'PredictionIO publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   PredictionIO''s developer surface includes documentation, API reference, getting-started guide, authentication, and 8 more developer resources.'
-random_paper: 65
+random_paper: 57
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 17.5
+  delta: -0.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 43.5
-    discoverability: 80.0
+    discoverability: 70.4
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 18.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

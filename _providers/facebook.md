@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -100,8 +102,76 @@ apis:
 - description: The Users API from Facebook — 4 operation(s) for users.
   name: Facebook Users API
   slug: facebook-users-api
-artifact_total: 136
+artifact_total: 157
+collections:
+- collection_type: postman
+  name: Facebook Graph Ad Accounts API
+  slug: postman-facebook-ad-accounts-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Ad Sets API
+  slug: postman-facebook-ad-sets-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Ads API
+  slug: postman-facebook-ads-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Audiences API
+  slug: postman-facebook-audiences-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Authentication API
+  slug: postman-facebook-authentication-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Campaigns API
+  slug: postman-facebook-campaigns-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Comments API
+  slug: postman-facebook-comments-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Conversations API
+  slug: postman-facebook-conversations-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Insights API
+  slug: postman-facebook-insights-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Media API
+  slug: postman-facebook-media-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Messages API
+  slug: postman-facebook-messages-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Pages API
+  slug: postman-facebook-pages-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Phone Numbers API
+  slug: postman-facebook-phone-numbers-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Photos API
+  slug: postman-facebook-photos-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Posts API
+  slug: postman-facebook-posts-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Profile API
+  slug: postman-facebook-profile-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Publishing API
+  slug: postman-facebook-publishing-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Replies API
+  slug: postman-facebook-replies-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Tags API
+  slug: postman-facebook-tags-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Templates API
+  slug: postman-facebook-templates-api
+- collection_type: postman
+  name: Facebook Graph Ad Accounts Users API
+  slug: postman-facebook-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/facebook/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -497,7 +567,7 @@ overview: 'Facebook publishes 21 APIs on the [APIs.io](https://apis.io/) network
   The Facebook catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Facebook''s developer surface includes authentication, developer portal, getting-started guide, changelog, engineering blog, support, FAQ, and 13 more developer resources.'
+  Facebook''s developer surface includes authentication, developer portal, getting-started guide, changelog, engineering blog, support, FAQ, and 14 more developer resources.'
 plans:
 - name: Facebook Plans Pricing
   plan_count: 4
@@ -518,7 +588,7 @@ press:
 - date: '2026-05-25'
   title: 'Introducing the Meta AI App: A New Way to Access Your AI ...'
   url: https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/
-random_paper: 10
+random_paper: 56
 rate_limits:
 - limit_count: 12
   name: Facebook Rate Limits
@@ -542,19 +612,32 @@ rules:
   slug: facebook-spectral-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 57.4
+  delta: -8.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.5
-    developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 57.1
+    developer_ergonomics: 41.3
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 65.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 21
+      marker_coverage: 100.0
+      total: 21
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 43.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/screenshots/facebook-2026-07-25T214133.png
 security:
 - kind: authentication

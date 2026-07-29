@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -196,7 +198,7 @@ plans:
 - name: Blissfully Plans Pricing
   plan_count: 2
   slug: blissfully-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Blissfully Rate Limits
@@ -220,19 +222,26 @@ rules:
   slug: blissfully-spectral-rules
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 47.9
+  delta: -7.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 71.7
+    contract_quality: 60.2
     developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 26.3
   previous_composite: 54.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/screenshots/blissfully-2026-06-20T173353.png
 security:
 - kind: authentication

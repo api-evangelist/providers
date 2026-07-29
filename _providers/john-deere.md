@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The John Deere API allows developers to access and integrate data from John Deere's connected agricultural equipment and software platforms. The API surfaces equipment performance, field conditions, m
@@ -82,26 +84,26 @@ plans:
 - name: John Deere Plans Pricing
   plan_count: 1
   slug: john-deere-plans-pricing
-random_paper: 41
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: John Deere Rate Limits
   slug: john-deere-rate-limits
 score:
-  band: emerging
-  composite: 20.7
-  delta: 0.0
+  band: thin
+  composite: 29.4
+  delta: 8.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 17.4
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/john-deere/refs/heads/main/screenshots/john-deere-2026-06-20T183749.png
 security:
 - kind: domain-security

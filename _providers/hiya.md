@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Branded calling API to register outbound originating numbers, manage Connect phone numbers and managed brands, upload and manage brand logos, and read branded-phones cache and billing analytics so bus
@@ -143,21 +145,27 @@ overview: 'Hiya publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Hiya''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 19
+random_paper: 42
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 28.1
+  delta: -1.9
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 100.0
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 30.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiya/refs/heads/main/screenshots/hiya-2026-07-25T221307.png
 security:

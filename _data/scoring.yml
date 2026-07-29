@@ -8,12 +8,48 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.5.1
+schema_version: 0.6
 last_updated: '2026-07-28'
 maintainer: kin@apievangelist.com
 
 # ---------------------------------------------------------------------------
 # CHANGELOG
+#   0.6 (2026-07-28) — THE PROVENANCE RELEASE. The largest correctness batch in
+#       the rubric's history, landing the queue that eight sector quartets
+#       accumulated. Five groups of change:
+#
+#       (1) PROVENANCE GRADING (the blocking fix). Through 0.5.1 the rubric
+#           credited the PRESENCE of an artifact and could not see WHO WROTE IT.
+#           The enrichment pipeline authors artifacts on a provider's behalf and
+#           stamps them `method: derived|generated` / `status: candidate`, and
+#           the score read none of it. Measured across the catalog on 2026-07-28:
+#           99.9% of agentic-access contracts (6,383 of 6,388), 88.7% of agent
+#           skills (2,018 of 2,274) and 61.8% of MCP servers (1,882 of 3,046)
+#           are API Evangelist's own work scoring as the provider's. 0.6 grades
+#           three authorship states — first-party, conformance, derived — via the
+#           `provenance:` block below, sourced from signals/_data/provenance.json.
+#       (2) A CONTRACT YOU CANNOT CALL. `servers[].url` is now parsed and graded:
+#           a resolvable production host outscores a placeholder (example.com) or
+#           a bare template (`{apiRoot}`). 834 providers hold no spec with a
+#           resolvable host; 10,950 of 87,612 specs are uncallable as published.
+#       (3) CONTRACT-TYPE-AGNOSTIC SCORING. contract_quality was OpenAPI-only, so
+#           GraphQL-native and FHIR-native providers read as having no contract.
+#           A GraphQL SDL and a FHIR CapabilityStatement now satisfy the contract
+#           requirement and are graded on their own richness.
+#       (4) SPEC-VERIFIED AGENT READINESS. The three link-based proxies
+#           (idempotency, rate_limit_signal, error_semantics) become GRADED: full
+#           credit when the behaviour is verified in the contract, half when only
+#           a documentation link asserts it. Adds `dry_run_mode`. This closes the
+#           one fair criticism a published competitor (Jentic JAIRF) can make.
+#       (5) BAND GATE + REGIME FIXES. No provider reaches Agent-Native without
+#           idempotency AND error semantics — additive scoring let 62 of 112
+#           points buy the top band with every safety rail at zero. The
+#           `broker` tag collision that scored insurance brokers against MiFID is
+#           fixed by most-specific regime matching; telecommunications and
+#           energy_utilities regimes added; regime-specific checks land.
+#
+#       Both band sets are re-cut against the re-scored distribution — mandatory,
+#       not cosmetic, because points and denominators both moved.
 #   0.5.1 (2026-07-28) — Added the agent_card dimension (8 pts) to the standalone
 #       Agent Readiness score, and RE-CUT its bands to 56/42/14. Additive: the
 #       composite and every base facet are untouched. agent_card is the first
@@ -116,6 +152,59 @@ aliases:
     - Knowledge Center
 
 # ---------------------------------------------------------------------------
+# provenance (schema 0.6+) — WHO PUBLISHED THE ARTIFACT.
+#
+# The rubric's core claim is that it measures what a provider actually ships.
+# Through 0.5.1 it could not: a spec, an MCP server or an agent skill authored
+# by API Evangelist on a provider's behalf satisfied exactly the same check as
+# one the provider published itself. In sectors where few providers publish
+# anything, that stopped being noise and started deciding the standings.
+#
+# Three authorship states, and the third is the one energy forced into the
+# model — an artifact can be genuinely provider-hosted and still not be the
+# provider's own design:
+#
+#   first-party   the provider wrote it and serves it            credit 1.00
+#   conformance   the provider serves a standards body's document credit 0.75
+#   derived       API Evangelist authored it on their behalf      credit 0.25
+#   unknown       no marker either way                            credit 1.00
+#
+# `derived` keeps a floor rather than scoring zero because a groundable derived
+# candidate is not worthless — it is a real, fetchable artifact one adapter away
+# from working, and an agent shopping the catalog can use it. It is simply not
+# evidence about the provider, so it must never outrank the real thing.
+#
+# `unknown` is credited IN FULL, deliberately. Only artifacts this pipeline
+# authored carry a marker, so an unmarked artifact is far more likely to be a
+# harvested provider-published one than an unlabelled derivation. Scoring
+# `unknown` as derived would punish providers for a gap in our own metadata.
+# The honest cost of that choice: OpenAPI marker coverage is 2.6% (2,274 of
+# 87,612 specs), so contract provenance is a FLOOR, not a census, and the
+# `provenance_coverage` figure is published beside the score rather than hidden.
+# Backfilling x-provenance across the OpenAPI corpus is collection work, and it
+# is the single highest-value thing that would sharpen this release.
+#
+# Source of truth: signals/_data/provenance.json, rebuilt by
+# `python3 signals/build_provenance.py` before every scoring pass.
+# ---------------------------------------------------------------------------
+provenance:
+  credit:
+    first-party: 1.00
+    conformance: 0.75
+    derived: 0.25
+    unknown: 1.00
+  # Checks and dimensions whose award is multiplied by the authorship credit of
+  # the artifact class named here. Everything else is unaffected.
+  applies_to:
+    mcp_server_present: mcp            # developer_ergonomics, 4 pts
+    agent_skill_present: skills        # developer_ergonomics, 3 pts
+    contract_present: openapi          # contract_quality, 20 pts
+    mcp_server: mcp                    # agent readiness, 12 pts
+    agent_skills: skills               # agent readiness, 5 pts
+    agentic_access: agentic_access     # agent readiness, 10 pts
+    conformance_declared: conformance  # governance, 6 pts
+
+# ---------------------------------------------------------------------------
 # Facet weights for the composite provider score.
 # Must sum to 1.0. Tune to dial in what "good" means for apis.io search.
 # ---------------------------------------------------------------------------
@@ -190,14 +279,31 @@ facets:
 
 # ---------------------------------------------------------------------------
 # industry_regulatory — the applicability map. A provider is "regulated" when
-# any of its (case-insensitive) tags match a regime's `tags`. First match wins;
-# the matched regime id + label are recorded on the provider. This map is the
+# any of its (case-insensitive) tags match a regime's `tags`. This map is the
 # knob to iterate as new sectors are scored — add a regime or widen its tags
 # here, never in code. Tags are matched against the provider's top-level `tags`.
+#
+# MATCHING CHANGED IN 0.6 — MOST SPECIFIC WINS, NOT FIRST DECLARED.
+# 0.5 took the first regime in declaration order that matched any tag, and that
+# produced a confirmed, measured bug: `securities_market_data` claimed the bare
+# tags `broker`, `brokerage` and `exchange`, which insurance brokers, broker
+# networks and brokerage-technology vendors match cleanly. Sixteen of 35 UK, ten
+# of 20 Canadian and seven of 20 Australian insurance organizations were scored
+# against MiFID II — Beazley, a Lloyd's syndicate, among them. The `insurance`
+# regime existed and was well drawn; it was simply losing a race it should
+# never have been in.
+#
+# 0.6 scores EVERY matching regime and keeps the one with the most tag hits,
+# breaking ties by `specificity` (higher wins) and then declaration order. A
+# Lloyd's syndicate tagged `insurance, broker, underwriting, claims` now returns
+# three hits for insurance against one for securities and lands correctly.
+# The ambiguous tags are additionally demoted out of `tags` into `weak_tags`,
+# which count toward a match only when no strong tag matched anywhere.
 # ---------------------------------------------------------------------------
 industry_regulatory:
   banking_open_finance:
     label: Banking & Open Finance
+    specificity: 3
     regimes: [CDR (Australia), UK Open Banking, PSD2/PSD3 (EU), 1033 (US), FDX]
     basis: >
       Consumer-permissioned data sharing and payment access, mandated or
@@ -206,45 +312,100 @@ industry_regulatory:
     tags: [banks, banking, open banking, open finance, cdr, consumer data right,
            psd2, psd3, 1033, fdx, consumer banking, neobank, building society,
            credit union, mutual bank, digital bank]
+    standards: [obie, uk-open-banking, cdr-banking, consumer-data-standards, fdx,
+                berlin-group-nextgenpsd2, fapi, fapi-2]
   securities_market_data:
     label: Securities & Market Data
+    specificity: 2
     regimes: [MiFID II (EU), SEC/FINRA (US), exchange data licensing, market-data redistribution]
     basis: >
       Licensed market data and securities activity: entitlement and
       redistribution terms, licensing/compliance disclosure, and auditability.
-    tags: [market data, securities, stock exchange, exchange, brokerage, broker,
-           trading, order execution, mifid, mifid ii, finra, sec, otc, derivatives]
+    tags: [market data, securities, stock exchange, order execution,
+           mifid, mifid ii, finra, sec, otc, derivatives, equities, market-data]
+    # `broker`, `brokerage` and `exchange` are shared with insurance, freight,
+    # energy and crypto. They match ONLY when nothing else matched — see the
+    # note on most-specific matching above.
+    weak_tags: [exchange, brokerage, broker, trading]
+    standards: [fix-protocol, mifid-ii, iso-20022]
   health:
     label: Health
+    specificity: 3
     regimes: [HIPAA (US), FHIR / US Core, 21st Century Cures Act, EHDS (EU)]
     basis: >
       Protected health information and interoperability mandates: FHIR
       conformance, consent, HIPAA-grade security, and info-blocking posture.
     tags: [health, healthcare, clinical, ehr, emr, fhir, medical, patient,
-           health data, life sciences, pharma, telehealth]
+           health data, life sciences, pharma, telehealth, payer, provider network]
+    standards: [fhir, smart-on-fhir, us-core, uscdi, da-vinci, carin-blue-button,
+                fhir-bulk-data, cds-hooks, c-cda, hl7-v2, dicom]
   payments:
     label: Payments
+    specificity: 3
     regimes: [PCI-DSS, card-network rules, SCA/PSD2, ISO 20022]
     basis: >
       Cardholder and payment data: PCI-DSS scope, strong customer
       authentication, and a security + disclosure posture.
     tags: [payments, payment, card, cards, acquiring, issuing, pci, pci-dss,
            merchant, checkout, wallet, payment gateway]
+    standards: [pci-dss, 3-d-secure, iso-20022, confirmation-of-payee, emv,
+                psd2-sca, open-payments]
   insurance:
     label: Insurance
+    specificity: 4
     regimes: [NAIC/solvency, open insurance, IDD (EU), state DOI rules]
     basis: >
       Policyholder data and market conduct: consent, disclosure, and
       standards conformance where an open-insurance regime exists.
-    tags: [insurance, insurtech, underwriting, claims, policy, actuarial, reinsurance]
+    tags: [insurance, insurtech, underwriting, claims, policy, actuarial,
+           reinsurance, broker network, lloyds, syndicate, p&c, life insurance,
+           health insurance, general insurance]
+    standards: [acord, acord-al3, acord-xml, ngds, grlc, cieca-bms, csio,
+                market-reform-contract]
+  telecommunications:
+    label: Telecommunications
+    specificity: 4
+    regimes: [FCC / Communications Act (CPNI), Ofcom / Communications Act 2003,
+              ACMA / Telecommunications Act, ITU Constitution, ePrivacy Directive]
+    basis: >
+      Network capability exposed as an API, over exactly the subscriber data
+      the CPNI and ePrivacy regimes restrict: number verification, SIM swap,
+      device location, and the consent surface each requires. Added in 0.6 —
+      scoring 83 telecom organizations under 0.5 fired the conditional facet for
+      only seven of them, via Government, Payments and Health, leaving a sector
+      supervised by four national regulators with no regulatory layer at all.
+    tags: [telecom, telecommunications, telco, carrier, mobile network operator,
+           mno, mvno, cpaas, sms, voice, messaging, network api, camara,
+           open gateway, sim, roaming, number verification, subscriber]
+    standards: [camara, tm-forum-open-api, gsma-open-gateway, ciba, 3gpp, mef, etsi]
+  energy_utilities:
+    label: Energy & Utilities
+    specificity: 4
+    regimes: [CDR Energy (Australia), Green Button / ESPI (North America),
+              Smart Energy Code + DCC (GB), Ofgem Data Best Practice,
+              FERC Order 889 / OASIS (US)]
+    basis: >
+      Customer energy data and network open data, both increasingly compelled:
+      a consumer data right over usage and billing, and "presumed open" network
+      data published under licence conditions. Added in 0.6 — the energy quartet
+      measured a verified mandate as worth about twelve points of composite,
+      the largest single effect in the series, against a regime that did not
+      exist in the map.
+    tags: [energy, utilities, utility, electricity, gas, power, grid, smart meter,
+           smart metering, distribution network, dso, dno, energy retailer,
+           green button, renewables, ev charging, water utility]
+    standards: [green-button, espi, cds-energy, cds-common, smart-energy-code,
+                ieee-2030-5, openadr]
   government:
     label: Government & Public Sector
+    specificity: 2
     regimes: [FedRAMP, eIDAS (EU), open-data standards, national gov API policy]
     basis: >
       Public-sector data and identity: security authorization, accessibility,
       open-data standards, and identity/eIDAS conformance.
     tags: [government, public sector, gov, govtech, civic, municipal, federal,
            state government, open data, public data]
+    standards: [dcat, ckan, eidas, fedramp, open-data-charter]
 
 # ---------------------------------------------------------------------------
 # Artifact-driven checks.
@@ -342,6 +503,52 @@ artifacts:
           Each indexed API declares a real, callable base URL. A localhost base URL
           fails this check — it signals a spec that was published without ever being
           pointed at production.
+      # --- 0.6: raise the bar from HUMAN findability to MACHINE discoverability
+      # Measured across two quartets, 252 organizations: discoverability averages 84.6
+      # and NOT ONE PROVIDER SCORES ZERO in any of eight markets — including thirteen US
+      # utilities that publish no contract at all and score 0.0 on every one of the
+      # agent-readiness dimensions. A facet a completely absent developer surface still
+      # scores in the eighties is not carrying information. Its bar — a findable website,
+      # documentation, support, terms — is met by any company with a marketing
+      # department, which in a 25,000-provider catalog is nearly all of them.
+      #
+      # These three raise the bar rather than cutting the weight, which is the choice
+      # more in keeping with the agentic thesis: for an agent, a beautifully designed
+      # marketing site is not discoverability at all. Cloudflare's top-200k scan supplies
+      # the adoption baseline these are cut against — 4% Content Signals, 3.9% markdown
+      # negotiation, fewer than 15 sites in 200,000 carrying an MCP Server Card or API
+      # catalog — which is the strongest external evidence yet that machine
+      # discoverability discriminates exactly where human findability does not.
+      - id: well_known_published
+        label: Serves a .well-known surface
+        facet: discoverability
+        points: 6
+        rule: 'well-known/ carries an api-catalog, security.txt, or a protected-resource doc'
+        description: >
+          The provider serves machine entrypoints at RFC 8615 well-known paths — an
+          api-catalog linkset (RFC 9727), a security.txt, an OAuth protected-resource
+          document. This is the address an agent tries FIRST, before it has read
+          anything, and it is the discoverability signal a marketing site cannot fake.
+      - id: llms_txt_published
+        label: Publishes llms.txt
+        facet: discoverability
+        points: 4
+        rule: 'llms/ carries an llms.txt'
+        description: >
+          An llms.txt — the provider stating, in a machine-readable file at a
+          conventional path, what a language model should read to understand the
+          product. Young, unratified, and adopted by 6,012 providers in this catalog,
+          which makes it the fastest-moving machine-discoverability signal there is.
+      - id: apis_json_self_hosted
+        label: Self-hosts the APIs.json index
+        facet: discoverability
+        points: 4
+        rule: 'apis.yml url points at a host the provider controls, not the catalog'
+        description: >
+          The provider serves its own APIs.json index from its own domain rather than
+          being catalogued from the outside. `apis_yml_present` above rewards the index
+          existing; this rewards the provider OWNING it — the difference between
+          describing yourself and being described.
 
   # -------------------------------------------------------------------------
   # OpenAPI specifications
@@ -354,15 +561,29 @@ artifacts:
       publishes, so they measure what the spec actually contains rather than whether one
       exists. A provider with several specs earns credit proportional to how many pass.
     checks:
-      - id: openapi_present
-        label: Publishes an OpenAPI spec
+      - id: contract_present
+        label: Publishes a machine-readable contract
         facet: contract_quality
         points: 20
-        rule: 'at least one api has spec_type == "OpenAPI"'
+        provenance: openapi
+        rule: 'at least one OpenAPI, AsyncAPI, GraphQL SDL or FHIR CapabilityStatement'
         description: >
-          At least one OpenAPI document exists. The largest single award in the rubric,
-          because nearly every downstream capability — SDK generation, mocking, linting,
-          agent tool-calling — is unlocked by having a contract at all.
+          At least one machine-readable contract exists, in ANY format the ecosystem
+          actually uses. The largest single award in the rubric, because nearly every
+          downstream capability — SDK generation, mocking, linting, agent tool-calling —
+          is unlocked by having a contract at all.
+
+          CONTRACT-TYPE-AGNOSTIC IN 0.6, and renamed from `openapi_present` to say so.
+          Through 0.5.1 this check read OpenAPI and AsyncAPI only, which meant entire
+          FHIR-native, GraphQL-native and EDI-native markets were recorded as having no
+          contract for a format the rubric simply declined to read. Epic served a
+          59-resource FHIR R4 CapabilityStatement — plus STU3, DSTU2 and a
+          smart-configuration — and read `spec_presence: false`, `contract_quality: 22.6`.
+          That was a measurement artifact, not a judgment about Epic.
+
+          PROVENANCE-GRADED IN 0.6. An API-Evangelist-modeled spec credits at 0.25.
+          A provider-served contract you can download should outrank one written on the
+          provider's behalf, and until 0.6 they were indistinguishable.
       - id: openapi_3_1
         label: OpenAPI 3.1
         facet: contract_quality
@@ -395,6 +616,38 @@ artifacts:
         description: >
           The spec points at a callable host. A localhost server fails — a contract you
           cannot call is documentation, not an interface.
+      - id: servers_resolvable
+        label: Servers resolve to a real host
+        facet: contract_quality
+        points: 5
+        graded: true
+        rule: 'share of specs whose servers[].url carries a registrable domain, not a
+               placeholder host or a bare template variable'
+        description: >
+          NEW IN 0.6. A specification can be genuinely provider-published, verbatim, and
+          still be uncallable. Every CAMARA server declaration in the entire telecom stack
+          is the template variable `{apiRoot}` and every openIdConnectUrl is a CAMARA
+          placeholder pointing at example.com — across 19 standards and exposure
+          repositories there was exactly one absolute base URL. Insurance produced the
+          same defect from the other direction: Majesco declares api.majesco.example.com
+          and ACORD api.insurer-internal.example.com. The rubric scored all of it as full
+          contract quality.
+
+          Graded on the SHARE of a provider's specs that carry a resolvable host, so a
+          provider with one placeholder spec among twenty is not treated like one whose
+          entire surface is uncallable. Catalog-wide at 0.6: 10,950 of 87,612 specs are
+          uncallable as published, and 834 providers hold no spec with a resolvable host
+          at all.
+
+          The distinction that took care to get right: a TEMPLATED host that still carries
+          a real domain — `https://{region}.api.acme.com`, or Yardi's
+          `https://{server}.yardi.com/{clientUrl}/webservices` — passes. A consumer with
+          the variable filled in reaches a host that exists. Only a host that is nothing
+          but substitution variables, or a known placeholder domain, fails. A naive
+          "contains a brace" test would have failed a large share of perfectly callable
+          multi-region specs, and a naive full-text grep for example.com over the catalog
+          returned 4,320 false positives, because real specs mention example.com in their
+          EXAMPLES. This check parses the `servers` block specifically.
       - id: operations_summary_coverage
         label: Operations have summaries
         facet: contract_quality
@@ -448,10 +701,17 @@ artifacts:
         label: Examples present
         facet: contract_quality
         points: 4
-        rule: 'at least one example present anywhere in spec'
+        graded: true
+        rule: 'share of operations carrying a request or response example'
         description: >
-          The spec carries at least one example. Examples are what make generated docs
-          and mock servers immediately useful.
+          GRADED IN 0.6, previously a bit. As a boolean this check fired on a single token
+          example anywhere in the document, which meant it ran near-universally across
+          payments and healthcare and carried almost no information. It now grades on the
+          SHARE of operations that actually carry a request or response example, so a
+          provider who documents every operation outscores one who documented a single
+          one. Examples are the cheapest way an agent learns a payload shape before it
+          ever makes a call, and "the spec contains the string example:" was never
+          evidence of that.
       - id: components_reuse
         label: Reusable components
         facet: contract_quality
@@ -545,6 +805,89 @@ artifacts:
         rule: 'securitySchemes defined for at least one server'
         description: >
           At least one server declares how to authenticate against it.
+
+  # -------------------------------------------------------------------------
+  # GraphQL — a first-class contract type as of 0.6
+  #
+  # 1,089 providers publish a GraphQL SDL and the rubric could not read a line of
+  # it, so a GraphQL-native company registered as having no contract at all. Like
+  # AsyncAPI, these checks are N/A for providers with no GraphQL surface — nobody
+  # is penalized for not being a GraphQL shop.
+  # -------------------------------------------------------------------------
+  graphql:
+    label: GraphQL
+    spec: https://spec.graphql.org/
+    description: >
+      The GraphQL schema definition. A published SDL is a machine-readable contract in
+      exactly the sense the contract facet means: introspectable, codegen-ready, and
+      sufficient for an agent to construct a valid query without reading prose.
+    checks:
+      - id: graphql_sdl_present
+        label: Publishes a GraphQL schema
+        facet: contract_quality
+        points: 10
+        rule: 'a .graphql / .gql SDL is published'
+        description: >
+          A schema definition file is published rather than only an interactive
+          playground. An endpoint with introspection disabled and no published SDL is,
+          to a consumer building against it, an undocumented API.
+      - id: graphql_type_depth
+        label: Schema defines a real type system
+        facet: contract_quality
+        points: 5
+        rule: 'SDL declares >= 20 type definitions'
+        description: >
+          Twenty or more type definitions — a modelled domain rather than a handful of
+          wrapper types around a REST passthrough.
+      - id: graphql_descriptions
+        label: Schema is documented
+        facet: contract_quality
+        points: 4
+        rule: '>= 50% of type definitions carry a description string'
+        description: >
+          Half or more of the declared types carry description strings. In GraphQL the
+          docstring IS the reference documentation — it is what renders in every
+          explorer and what an agent reads to pick a field.
+
+  # -------------------------------------------------------------------------
+  # FHIR — a first-class contract type as of 0.6
+  #
+  # A FHIR CapabilityStatement is the health sector's OpenAPI: a machine-readable
+  # declaration of every resource and interaction a server supports. Scoring US
+  # healthcare made the omission concrete — Epic read spec_presence: false and
+  # contract_quality 22.6 while serving a 59-resource R4 CapabilityStatement, and
+  # 1upHealth read the same 22.6 on a 144-resource statement.
+  #
+  # HONEST LIMITATION AT 0.6: only 22 CapabilityStatements are held across 11
+  # providers, so this check corrects the rubric but cannot yet correct the
+  # sector — harvesting statements from the FHIR-native cohort is collection work
+  # that has to follow. The check ships now so the collection has somewhere to land.
+  # -------------------------------------------------------------------------
+  fhir:
+    label: FHIR
+    spec: https://hl7.org/fhir/capabilitystatement.html
+    description: >
+      The FHIR conformance surface — a CapabilityStatement declaring the resources,
+      interactions, search parameters and profiles a server actually supports.
+    checks:
+      - id: fhir_capability_statement
+        label: Publishes a FHIR CapabilityStatement
+        facet: contract_quality
+        points: 12
+        rule: 'a CapabilityStatement / Conformance resource is published'
+        description: >
+          The server publishes its conformance statement. This is the FHIR equivalent of
+          shipping an OpenAPI, and it is served at a well-known path by every conformant
+          server, which makes its absence a deliberate omission rather than an oversight.
+      - id: fhir_resource_coverage
+        label: Broad resource coverage
+        facet: contract_quality
+        points: 6
+        rule: 'CapabilityStatement declares >= 20 resources'
+        description: >
+          Twenty or more resources declared — the difference between a server that
+          supports Patient and Observation and one that supports a working clinical
+          record.
 
   # -------------------------------------------------------------------------
   # JSON Schema artifacts
@@ -669,6 +1012,42 @@ artifacts:
         description: >
           A controlled vocabulary is published, so the provider's naming is a documented
           decision rather than an accident of whoever wrote each endpoint.
+      # --- 0.6: broaden the facet beyond "did you ship a Spectral file"
+      # governance (0.12) was effectively a single check and scored ~0 across all six
+      # sectors measured — 63 of 79 US insurance organizations at zero, 34 of 35 UK, 19
+      # of 20 Canadian, 66 of 83 in telecom. That is honest (almost nobody publishes a
+      # public ruleset) but it wastes the facet. These credit the OTHER ways a provider
+      # demonstrates it has internalized a standard.
+      - id: conformance_declared
+        label: Declared conformance profile
+        facet: governance
+        points: 6
+        provenance: conformance
+        rule: 'a conformance/ artifact declares conformance to named standards'
+        description: >
+          The provider declares which standards it conforms to — FHIR, FAPI, PCI, ISO
+          20022, CAMARA — as a machine-readable artifact resolving against the standards
+          catalog, rather than as a logo on a marketing page.
+
+          PROVENANCE-GRADED, and the grading is the whole point. Half the conformance
+          artifacts in the catalog (1,881 of 3,784) are API-Evangelist-derived readings
+          of a provider's specs, not claims the provider made. Only a first-party
+          declaration earns full credit here.
+
+          THE BOUNDARY THIS CHECK HOLDS: adopting someone else's standard is not
+          governance. Telecom is full of organizations that joined CAMARA, TM Forum or
+          GSMA Open Gateway and govern nothing; governance is what you do to yourself.
+          This credits evidence of INTERNALIZATION — a declared profile, an overlay, a
+          published lint posture — never bare membership in a programme.
+      - id: overlay_published
+        label: Publishes an OpenAPI Overlay
+        facet: governance
+        points: 4
+        rule: 'overlays/ contains an OpenAPI Overlay document'
+        description: >
+          An OpenAPI Overlay — the provider expressing a repeatable, versioned
+          transformation of its own contract rather than hand-editing it. Evidence of a
+          spec pipeline, which is what governance looks like in practice.
 
   # -------------------------------------------------------------------------
   # Operational transparency — common links + extracted data
@@ -845,18 +1224,33 @@ artifacts:
         label: MCP server
         facet: developer_ergonomics
         points: 4
-        rule: 'common[].type includes "MCPServer"'
+        provenance: mcp
+        rule: 'common[].type includes "MCPServer", graded by whether the provider runs it'
         description: >
           A Model Context Protocol server, making the API directly callable by agents.
           Weighted alongside the strongest human on-ramps because it increasingly is one.
+
+          PROVENANCE-GRADED IN 0.6, and this is where the defect was worst. 1,882 of the
+          3,046 MCP artifacts in the catalog are API-Evangelist-derived CANDIDATES with
+          `status: candidate` and `url: null` — 1,679 of them listed as an MCPServer in
+          the provider's index, earning full credit for a server that does not exist.
+          8x8's own artifact states that its 312-tool catalog "is a proposal, not an 8x8
+          product." A derived candidate keeps a floor because it is a real, groundable
+          artifact one adapter away from working; it can no longer outrank a running
+          server.
       - id: agent_skill_present
         label: Agent Skill
         facet: developer_ergonomics
         points: 3
-        rule: 'common[].type includes "AgentSkill"'
+        provenance: skills
+        rule: 'common[].type includes "AgentSkill", graded by who authored it'
         description: >
           A published Agent Skill — packaged instructions for an agent to use the API
           correctly, rather than leaving it to infer usage from the spec.
+
+          PROVENANCE-GRADED IN 0.6: 2,018 of 2,274 skill sets in the catalog were
+          generated by API Evangelist from the provider's own specs. Provider-published
+          agent skills exist, but they are rare — across the whole telecom sector, three.
       - id: support_channel
         label: Support channel
         facet: developer_ergonomics
@@ -1041,6 +1435,175 @@ artifacts:
           context). In a regulated space, speaking the mandated shape is the
           difference between interoperable and merely present.
 
+      # ---------------------------------------------------------------------
+      # REGIME-SPECIFIC CHECKS (new in 0.6)
+      #
+      # Everything above is regime-AGNOSTIC — the common posture every regulated
+      # regime expects. These award ONLY to providers matched to the named
+      # regime, and are N/A (excluded from the denominator) for everyone else,
+      # exactly as an absent artifact type is. A payments company is never
+      # measured against FHIR, and a hospital is never measured against PCI.
+      #
+      # Each resolves against the provider's conformance/ artifact, matched to
+      # the `standards:` list declared on its regime in industry_regulatory
+      # above. That turns the Standards catalog into a scoring input and closes
+      # the loop between the papers, the standards and the score.
+      # ---------------------------------------------------------------------
+      - id: reg_named_standard_conformance
+        label: Conforms to the standard named for its regime
+        facet: regulatory
+        points: 8
+        regime: any
+        rule: 'conformance/ declares conformance to a standard listed under the matched
+               regime`s `standards:` — not merely a generic Standard tag'
+        description: >
+          The provider conforms to the standard RECOGNIZED FOR ITS REGIME, resolved
+          against the standards catalog: OBIE, the DSB Consumer Data Standards, FDX or
+          Berlin Group for open banking; US Core / USCDI for health; ACORD, CIECA or
+          CSIO for insurance; CAMARA or TM Forum for telecom; Green Button / ESPI or
+          cds-energy for energy.
+
+          This supersedes the generic check above in strength for a reason the banking
+          quartet made plain: a `Standard` tag credits an intention, while naming the
+          instrument credits a fact. It is also the check the insurance quartet needed
+          to state its emptiest finding honestly — ACORD is live inside a
+          machine-readable contract at exactly one company worldwide.
+      - id: reg_fapi_profile
+        label: FAPI / hardened authorization profile
+        facet: regulatory
+        points: 6
+        regime: banking_open_finance
+        rule: 'conformance declares FAPI or FAPI 2.0, or auth artifacts document PAR,
+               private_key_jwt or mTLS-bound tokens'
+        description: >
+          The security profile CDR, UK Open Banking and PSD2 actually mandate, beyond
+          generic OAuth: the FAPI profile, pushed authorization requests, private_key_jwt
+          client authentication, mTLS-bound tokens. Generic OAuth is table stakes; this
+          is the stack the regime specifies.
+      - id: reg_consent_model
+        label: Published consent model
+        facet: regulatory
+        points: 7
+        regime: [banking_open_finance, health, insurance, telecommunications, energy_utilities]
+        rule: 'a machine-readable consent surface — consent scopes, a FHIR Consent
+               resource, a CDR consent artifact, or a documented consent/authorization model'
+        description: >
+          A consent surface a machine can read. This is the structural gap the whole
+          series found and the reason it is weighted where it is: in market after market
+          whose entire premise is consumer consent, machine-readable consent ran in the
+          single digits. A FHIR Consent resource is exposed by essentially nobody;
+          insurance ran at 2.5% in the US and zero among every market's leaders, in the
+          most personally-invasive data business in the economy.
+
+          Weighted heaviest in insurance and telecom precisely BECAUSE no rule compels
+          it there — where consent is unmandated its presence is a genuine
+          differentiator rather than a compliance artifact.
+      - id: reg_write_surface
+        label: Action / write surface
+        facet: regulatory
+        points: 4
+        regime: [banking_open_finance, payments]
+        rule: 'the contract exposes payment initiation, VRP, or another mutating
+               regulated operation'
+        description: >
+          The regime is actionable, not read-only. An agent that can move money on an
+          account is a different animal from one that can only read it, and the score
+          should say so: the UK — which mandated payment initiation — scored 87% on
+          idempotency, where read-only Australia scored 0%.
+      - id: reg_smart_configuration
+        label: SMART-on-FHIR configuration served
+        facet: regulatory
+        points: 6
+        regime: health
+        rule: 'a .well-known/smart-configuration is served, or SMART scopes are published'
+        description: >
+          A served `.well-known/smart-configuration` with published SMART-on-FHIR
+          scopes. The structural finding across all four healthcare markets: the
+          security scopes often exist, but the smart-configuration is served almost
+          nowhere — so the check has to weight a DISCOVERABLE, consent-legible surface
+          rather than the mere presence of scopes somewhere in prose.
+      - id: reg_pci_sca
+        label: PCI scope and strong customer authentication
+        facet: regulatory
+        points: 6
+        regime: payments
+        rule: 'PCI-DSS attestation or scope disclosure, plus 3-D Secure / SCA support'
+        description: >
+          PCI-DSS attestation or scope disclosure together with strong customer
+          authentication (3-D Secure, PSD2 SCA). The two disclosures every payments
+          regime is built on, and the ones a merchant's own auditor will ask for first.
+      - id: reg_entitlement_terms
+        label: Machine-readable entitlement and redistribution terms
+        facet: regulatory
+        points: 6
+        regime: securities_market_data
+        rule: 'redistribution / entitlement / data-licensing terms published as
+               machine-readable data'
+        description: >
+          Entitlement and redistribution terms in machine-readable form, plus MiFID II
+          or exchange data-licensing disclosure. In market data the licence IS the
+          product boundary, and a consumer who cannot read it programmatically cannot
+          build against it safely.
+      - id: reg_certification_signal
+        label: Third-party certification
+        facet: regulatory
+        points: 5
+        regime: [insurance, health, energy_utilities, telecommunications]
+        rule: 'a public, independently-issued certification is held and discoverable'
+        description: >
+          A certification issued and published by somebody other than the provider.
+          Canada runs the only public, tiered insurance API certification programme in
+          the world (CSIO) and it was invisible to the score — its own table lists the
+          country's largest P&C insurer as Not Yet Rated while smaller competitors hold
+          higher tiers, which is exactly the published signal a rubric should read.
+
+          THE CAUTION THIS CHECK CARRIES, learned from real estate: RESO certification
+          is real, independently tested and industry-mandated, and it is worth 2.0 points
+          of measured difference — because all three certified organizations return 401
+          on the very contract they are certified against. A certification claim is
+          credited here only alongside `servers_resolvable`; a badge for a document the
+          consumer cannot fetch is not conformance.
+      - id: reg_camara_conformance
+        label: CAMARA / network-API conformance
+        facet: regulatory
+        points: 6
+        regime: telecommunications
+        rule: 'an x-camara-commonalities version, /camara/ paths, CIBA support, or
+               TM Forum Open API conformance'
+        description: >
+          Conformance to the network-API standards the sector actually built: CAMARA
+          commonalities, the canonical API definitions, CIBA (the backchannel
+          authentication flow CAMARA specifies for network authorization, found in 3 of
+          19 standards repositories and absent from both specs of the one exposure
+          platform with a callable endpoint), and TM Forum Open API conformance — held
+          widely by carriers who publish no network API at all.
+      - id: reg_mandate_verified
+        label: Mandate implemented, not merely claimed
+        facet: regulatory
+        points: 8
+        regime: [banking_open_finance, energy_utilities, health]
+        rule: 'the mandated surface is evidenced by a resolvable endpoint, register entry
+               or conformant discovery document — not by a compliance page'
+        description: >
+          THE LARGEST UNMEASURED EFFECT IN THE CATALOG, and the reason it lands in 0.6
+          rather than waiting. Across 95 energy organizations scored on a deliberately
+          ruthless mandate ladder, a VERIFIED mandate was worth about twelve points of
+          composite — live-implemented 42.2 against not-applicable 36.6 — while a
+          CLAIMED-but-unverifiable mandate scored 30.4, BELOW the 30.2 of organizations
+          under no obligation at all.
+
+          That second number is the finding. Self-declared compliance is not merely
+          uninformative, it is NEGATIVE signal, and any assessment that reads compliance
+          pages instead of calling endpoints will rank the field backwards at the top.
+          Compare RESO in real estate at 2.0 points: same question, two sectors, a
+          six-fold difference in effect, because one mandate came with a public register
+          and conformant discovery endpoints and the other came with a badge.
+
+          The failure mode is already live here: two Ontario utilities present as Green
+          Button compliant and cannot be verified, one because its onboarding host
+          returns HTTP 200 for every path including invented ones, being a single-page-app
+          catch-all. Without a verification state that provider scores as compliant.
+
 # ---------------------------------------------------------------------------
 # Output bands — used to label providers in UI / search.
 # Composite score (0–100) maps to a band; bands drive sorting tiers and badges.
@@ -1064,48 +1627,80 @@ artifacts:
 #   - `exemplar` was documented as 70–100, but the catalog's observed ceiling is
 #     79.2. It is now expressed as an open-ended floor (70+) so the ladder stops
 #     advertising 20 points of range that nobody has ever occupied.
+#
+# v0.6 re-cut (2026-07-28), 25,573 providers, 70/60/45/30/15 -> 66/56/42/28/13.
+# THE PRINCIPLE: 0.6 is a correctness release, not a change in ambition. A
+# provider that published nothing different should not change band because the
+# rubric learned to read authorship. The batch moved the composite down by a
+# mean of 1.92 points and a median of 1.80 — provenance grading and the raised
+# discoverability bar pushing down, contract-type-agnostic scoring and broadened
+# governance pushing up — so the cuts move with it.
+#
+# Held against the 0.5.1 shares, the re-cut preserves what each rung MEANS:
+#
+#     band          0.5.1     0.6 at 66/56/42/28/13
+#     exemplar       1.1%      1.0%
+#     strong         3.8%      4.1%
+#     developing    13.4%     13.7%
+#     thin          15.0%     15.0%
+#     emerging      22.5%     23.5%
+#     minimal       44.2%     42.6%
+#
+# 2,239 providers change band — 8.8%, against 13.8% if the old cuts were left in
+# place. Every one of those moved because its evidence changed: GraphQL-native
+# providers rising as the contract facet learned to read them (grafast, pothos,
+# envelop, graphql-code-generator, agility-cms all +10.7), telecom rising into a
+# regime that did not exist (totogi +15.0), and providers resting on derived
+# artifacts falling.
+#
+# `minimal` at 42.6% still holds more of the catalog than any band should. That
+# is a CATALOG COMPOSITION fact, not a calibration miss: 4,999 providers sit in a
+# single 2-point bucket at 4–6, the true "index entry and nothing else" floor of
+# a 25,573-provider catalog that grew from 8,956. Splitting it needs a signal
+# that distinguishes those providers from each other, which no facet currently
+# has. Queued, not fudged.
 bands:
   - id: exemplar
     label: Exemplar
-    min: 70
-    range: 70+
-    share: 0.6%
+    min: 66
+    range: 66+
+    share: 1.0%
     description: >
       Reference-quality API operations across every facet — a rich contract, published
       governance, transparent operations, and machine-readable commercial terms. The
       top ~1% of the catalog, and the band no provider reaches by accident.
   - id: strong
     label: Strong
-    min: 60
-    range: 60 – 69.9
-    share: 6.4%
+    min: 56
+    range: 56 – 65.9
+    share: 4.2%
     description: >
       Solid contracts, transparent operations, and an easy start. Typically complete on
       four or five facets with one clear soft spot — most often governance or a missing
       commercial artifact.
   - id: developing
     label: Developing
-    min: 45
-    range: 45 – 59.9
-    share: 22.3%
+    min: 42
+    range: 42 – 55.9
+    share: 13.7%
     description: >
       Real signal across most facets with visible, nameable gaps. The contract exists
       but is thin on descriptions or examples, or the portal is good while governance
       and commercial terms are absent.
   - id: thin
     label: Thin
-    min: 30
-    range: 30 – 44.9
-    share: 30.0%
+    min: 28
+    range: 28 – 41.9
+    share: 14.9%
     description: >
       Limited machine-readable signal and partial portal coverage. Usually a provider
       with documentation a human can read but little a machine or agent can consume
       without scraping.
   - id: emerging
     label: Emerging
-    min: 15
-    range: 15 – 29.9
-    share: 24.9%
+    min: 13
+    range: 13 – 27.9
+    share: 23.5%
     description: >
       More than an index entry, but the surface is still mostly links rather than
       artifacts. These providers have started publishing — a portal, a few common
@@ -1114,8 +1709,8 @@ bands:
   - id: minimal
     label: Minimal
     min: 0
-    range: 0 – 14.9
-    share: 15.8%
+    range: 0 – 12.9
+    share: 42.6%
     description: >
       Index entry only; little beyond a description and a link. Nothing here is
       machine-readable enough for an agent to act on without a human first reading
@@ -1167,23 +1762,42 @@ agent_readiness:
         A public OpenAPI contract exists. Agents call APIs from contracts, not
         HTML docs — with no spec there is no programmatic surface to drive, which
         is why this is the single largest award.
+    # REWEIGHTED 15 -> 10 AND PROVENANCE-GRADED IN 0.6. Not a judgment that the
+    # x-agentic-access contract matters less — it is the most explicit agent-design
+    # signal in the catalog and has no equivalent anywhere in the field. It is a
+    # judgment that this dimension was measuring API Evangelist. Of the 6,388
+    # providers carrying an agentic-access artifact, 6,383 are `method: generated`
+    # — 99.9%. At 15 points every one of them earned the second-largest award in the
+    # model for work this pipeline did on their behalf, and a dimension nearly
+    # everyone earns identically is not discriminating between anyone.
     - id: agentic_access
       label: Agentic Access Contract
-      points: 15
-      signal: 'agentic_access artifact present (x-agentic-access), or common[].type AgenticAccess'
+      points: 10
+      provenance: agentic_access
+      signal: 'agentic_access artifact present (x-agentic-access), graded by author'
       description: >
         The provider publishes an x-agentic-access contract classifying each
         operation by action-class, consequence, and human-in-the-loop escalation.
         The most explicit "this API was designed to be driven by an agent" signal
-        in the catalog.
+        in the catalog — when the provider publishes it. A derived classification
+        keeps a floor: it is a real artifact an agent can fetch and act on, it is
+        simply not evidence about the provider's design intent.
     - id: mcp_server
       label: MCP Server
       points: 12
-      signal: 'common[].type includes MCPServer'
+      provenance: mcp
+      signal: 'common[].type includes MCPServer, graded by whether the provider runs it'
       description: >
         A Model Context Protocol server makes the API directly callable by agents
         over a uniform tool surface — the most direct expression of agent-first
         design.
+
+        PROVENANCE-GRADED IN 0.6. Across four national banking markets exactly one
+        institution ran a genuinely hosted MCP; in UK insurance the data credited
+        14.3% of the cohort and the real number was zero. Catalog-wide, 1,882 of
+        3,046 MCP artifacts are derived candidates with no URL. Twelve points is
+        the third-largest award in this model and it was being paid, more often
+        than not, for a server nobody can connect to.
     - id: auth_clarity
       label: Machine-Readable Auth
       points: 10
@@ -1192,37 +1806,76 @@ agent_readiness:
         The authentication model is documented in a form an agent can negotiate
         without reading prose — OIDC discovery, declared scopes, or OpenAPI
         security schemes.
+    # ---------------------------------------------------------------------
+    # THE THREE SPEC-VERIFIED DIMENSIONS (graded in 0.6)
+    #
+    # These were link-based proxies: a provider earned the full award for
+    # publishing a documentation page titled "Idempotent Requests". That is the
+    # one criticism of this rubric a reviewer will find first, it is fair, and
+    # a published competitor (Jentic's JAIRF, Apache-2.0, December 2025) ships
+    # this class of check today.
+    #
+    # 0.6 does NOT replace the proxies — replacing them would zero every
+    # provider with a documented behaviour and no published spec, which is a
+    # different error. Each becomes GRADED instead:
+    #
+    #   verified   the behaviour is present in the contract itself   1.00
+    #   documented only a provider-level link asserts it             0.50
+    #
+    # A provider who proves it in the spec now outscores one who claims it in
+    # prose, and one who does neither still scores zero.
+    # ---------------------------------------------------------------------
     - id: idempotency
       label: Idempotency
       points: 9
-      signal: 'common[].type matches /idempoten/i'
+      graded: true
+      credit: {verified: 1.0, documented: 0.5}
+      signal: 'OpenAPI mutating operations declare an Idempotency-Key header (verified),
+               else common[].type matches /idempoten/i (documented)'
       description: >
         Mutating operations accept an idempotency key. Agents retry; without
         idempotency a retry double-charges a card, sends a message twice, or opens
-        a duplicate ticket.
+        a duplicate ticket. Full credit requires the parameter to appear on POST /
+        PATCH / PUT operations in the contract — the difference between a provider
+        saying they support it and a contract an agent can act on.
     - id: error_semantics
       label: Stable Error Semantics
       points: 8
-      signal: 'common[].type includes ErrorCatalog, ErrorCodes, or DeclineCodes'
+      graded: true
+      credit: {verified: 1.0, documented: 0.5}
+      signal: 'OpenAPI $refs a shared error schema across 4xx/5xx responses (verified),
+               else common[].type includes ErrorCatalog / ErrorCodes / DeclineCodes'
       description: >
         Errors are a documented, stable envelope with stable codes. Agents branch
         on errors — free-text messages break that branching and send an agent into
-        blind retries.
+        blind retries. Full credit requires a single error schema referenced across
+        error responses: a typed envelope, not a catalogue of codes in a table.
     - id: openapi_examples
       label: Request/Response Examples
       points: 7
-      signal: 'common[].type includes Examples or Code Samples'
+      graded: true
+      credit: {verified: 1.0, partial: 0.5, documented: 0.25}
+      signal: 'share of operations carrying request/response examples; else an
+               Examples / Code Samples link'
       description: >
         Meaningful examples are published. Examples are the cheapest way an agent
-        learns a payload shape before it ever makes a call.
+        learns a payload shape before it ever makes a call. Graded in 0.6 because as
+        a bit it ran at roughly 0% across payments and healthcare and discriminated
+        between nobody: full credit at 50%+ of operations carrying an example, half
+        below that, a quarter for a documentation link alone.
     - id: rate_limit_signal
       label: Rate-Limit Signaling
       points: 7
-      signal: 'common[].type includes RateLimits, or a rate_limits artifact is present'
+      graded: true
+      credit: {verified: 1.0, documented: 0.5}
+      signal: 'OpenAPI responses document X-RateLimit-* / RateLimit headers (verified),
+               else a rate_limits artifact or RateLimits link (documented)'
       description: >
         Rate-limit behaviour is documented as machine-readable data. An agent needs
         to know when to back off; "you will get a 429 eventually" is not something
-        it can plan against.
+        it can plan against. Full credit requires the API to surface live rate-limit
+        state in RESPONSE HEADERS, which is what an agent reads mid-run — documented
+        limits tell it the ceiling, headers tell it where it is.
     - id: asyncapi_events
       label: Typed Event Surface
       points: 6
@@ -1233,10 +1886,14 @@ agent_readiness:
     - id: agent_skills
       label: Agent Skills
       points: 5
-      signal: 'skills artifact present, or common[].type includes AgentSkill'
+      provenance: skills
+      signal: 'skills artifact present, graded by who authored it'
       description: >
         Packaged operating instructions an agent should follow when using the API,
-        rather than leaving usage to be inferred from the spec.
+        rather than leaving usage to be inferred from the spec. PROVENANCE-GRADED
+        IN 0.6: 2,018 of 2,274 skill sets in the catalog are API-Evangelist-generated.
+        In UK insurance all 27 were; across all of telecom, provider-published agent
+        skills exist at exactly three companies.
     - id: well_known_catalog
       label: Well-Known Catalog
       points: 4
@@ -1279,6 +1936,20 @@ agent_readiness:
         agent_skills and agentic_access can all credit an artifact API Evangelist
         authored, this one is provider-published by construction, and so is immune to
         the provenance defect that distorts the others.
+    # NEW IN 0.6 — the fourth planned dimension, and the only one with no
+    # provider-level proxy to supersede. It has to be read from the contract or not
+    # at all, which is why it waited for spec parsing.
+    - id: dry_run_mode
+      label: Dry-Run / Simulate Mode
+      points: 4
+      signal: 'OpenAPI: destructive operations expose a dry_run / simulate / preview /
+               validate_only parameter'
+      description: >
+        A destructive operation can be planned before it is committed. This is the
+        safest agent-native affordance in existence and the rarest: it lets an agent
+        show a human what it is about to do, or check its own work, without doing it.
+        Every other safety rail in this model limits the damage of an action that has
+        already happened; this one is the only dimension that prevents it.
   # Cut points calibrated against the real distribution (re-cut 2026-07-28,
   # 25,573 providers) — re-derive with band_distribution.rb after any change to
   # dimensions or points. The spread is deliberately bimodal: a large floor at
@@ -1298,27 +1969,89 @@ agent_readiness:
   # the rescaled distribution: 56 sits in the 57–59 trough, 42 just below the
   # plateau now at 44, 14 at the old 15 boundary. Result: 15 providers change
   # band, all UPWARD, and every one of them earned it with a published agent card.
+  #
+  # WHY THEY MOVED AGAIN IN 0.6 (56/42/14 -> 46/34/6). This time the cause is a
+  # measurement change, not arithmetic, and it is the largest correction in the
+  # rubric's history. Provenance grading cut the credit for derived MCP servers,
+  # agent skills and agentic-access contracts to a quarter, which collapsed the
+  # enrichment baseline plateau — the ~3,300 providers who all scored ~44 on a
+  # spec, a GENERATED agentic-access contract, documented auth and rate limits.
+  # That plateau now sits at 30–32 and holds 2,084 providers.
+  #
+  # Every cut is placed at a real feature of the re-scored distribution:
+  #
+  #   6   the valley immediately above the floor. 15,651 providers sit at 0–4
+  #       with no agent signal at all; the 4–6 bucket holds 58.
+  #   34  the valley ABOVE the baseline plateau (34–36 holds 244, against 2,084
+  #       at 30–32). This is the correction stated as a cut point: a provider
+  #       whose only agent artifacts were written for it is agent-AWARE, not
+  #       agent-ready, and the old 42 cut sat on the wrong side of that plateau.
+  #   46  the shoulder of a >50% drop (44–46 holds 487, 46–48 holds 232).
+  #
+  # Resulting shares: agent-native 1.2%, agent-ready 14.3%, agent-aware 23.1%,
+  # human-only 61.4%. Agent-native falls from 6.1% to 1.2% and that IS the
+  # finding — most of the old cohort was agent-native on artifacts API Evangelist
+  # wrote. Of the 1,210 providers scoring above 46, the band gate below demotes
+  # 895 for having no idempotency and no stable error envelope.
+  # ---------------------------------------------------------------------------
+  # BAND GATE (new in 0.6) — no dimension compensates for a missing safety rail.
+  #
+  # Agent Readiness is additive, so strengths cover for absences. The four largest
+  # awards plus examples — spec_presence 18, agentic_access, mcp_server 12,
+  # auth_clarity 10, openapi_examples 7 — clear the Agent-Native floor with
+  # idempotency, error_semantics and rate_limit_signal ALL AT ZERO. That is
+  # precisely the provider whose agent retries a payment twice, branches on
+  # free-text errors, and backs off only after a 429. Calling it Agent-Native is
+  # the single worst false positive this model can produce.
+  #
+  # Jentic's JAIRF makes that configuration impossible with a weighted harmonic
+  # mean. Adopting one here would destabilise every score in the catalog and force
+  # a recalibration for a problem that lives in one band. The proportionate fix is
+  # a gate: cheap, mechanically simple, defensible in a sentence, and it touches no
+  # arithmetic below the top band. Same family as JAIRF's structural gates
+  # (FC < 40 caps at Level 0) — a score that adds up without ever refusing to award
+  # is a score that can be farmed.
+  #
+  # A provider that meets the gate on the DOCUMENTED half-credit still passes: the
+  # gate asks whether the rail exists at all, not how well it is evidenced.
+  band_gate:
+    agent-native:
+      requires_all: [idempotency, error_semantics]
+      demote_to: agent-ready
+      rationale: >
+        An agent driving a surface with no idempotency and no stable error envelope
+        is not being driven safely, however much else the provider publishes.
+
   bands:
     - id: agent-native
       label: Agent-Native
-      min: 56
-      share: 6.2%
+      min: 46
+      share: 1.2%
       description: >
-        Built to be driven by agents — the baseline contract plus the
-        differentiators most providers lack: an MCP server, idempotency, stable
-        error semantics, examples. The providers an agent can drive safely today.
+        Built to be driven by agents, and the provider built it — a contract, a
+        real agent surface the provider itself publishes, and the safety rails
+        the band gate now requires: idempotency AND a stable error envelope. The
+        providers an agent can drive safely today, as opposed to the providers
+        somebody has written agent artifacts about.
     - id: agent-ready
       label: Agent-Ready
-      min: 42
-      share: 17.5%
+      min: 34
+      share: 14.3%
       description: >
-        An agent can drive the core surface. A machine-readable contract, an
-        agentic-access classification, and documented auth are in place; the safety
-        rails (idempotency, stable errors, rate-limit signalling) mostly are not.
+        An agent can drive the core surface. A machine-readable contract and
+        documented auth are in place, and there is real agent-facing work beyond
+        the baseline; the safety rails (idempotency, stable errors, rate-limit
+        signalling) mostly are not.
+
+        NARROWED IN 0.6. This band used to hold the enrichment baseline plateau —
+        ~3,300 providers whose agentic-access contract was generated for them.
+        Once that credit was graded down the plateau fell to 30–32 and the cut
+        moved above it, so this band now means an agent surface the provider had
+        a hand in rather than one the catalog supplied.
     - id: agent-aware
       label: Agent-Aware
-      min: 14
-      share: 10.3%
+      min: 6
+      share: 23.1%
       description: >
         Partial machine-readable surface. An agent can read some of the API but
         would hit implicit conventions a human silently absorbs — the gaps where it
@@ -1326,49 +2059,45 @@ agent_readiness:
     - id: human-only
       label: Human-Only
       min: 0
-      share: 66.0%
+      share: 61.4%
       description: >
         Little an agent can consume without a human first reading the site. A
         developer can integrate it; their agent cannot yet.
 
-  # Deeper, spec-level dimensions on the roadmap. NOT scored yet — they need
-  # per-operation OpenAPI parsing (the current 12 dimensions read provider-level
-  # signals only). Listed so the /rating/ page shows the full agent-readiness
-  # model, and so the gap between "detected from a published link" and "verified
-  # in the contract" is explicit. When implemented these move into `dimensions:`
-  # with points and the bands get recalibrated.
+  # All four dimensions planned at 0.5.1 SHIPPED IN 0.6. Three landed as graded
+  # upgrades to the link-based proxies they were specified to supersede
+  # (idempotency, rate_limit_signal, error_semantics) rather than as replacements,
+  # so a provider with a documented behaviour and no published spec keeps half
+  # credit instead of dropping to zero. `dry_run_mode` landed as a new dimension,
+  # since no provider-level proxy for it exists.
+  #
+  # What is queued next, and why each is waiting:
   planned_dimensions:
-    - id: idempotency_key_param
-      label: Idempotency Key (verified in spec)
-      supersedes: idempotency
-      signal: 'OpenAPI: mutating operations declare an Idempotency-Key header parameter'
+    - id: agentic_commerce
+      label: Agentic Commerce Protocols
+      signal: 'UCP / ACP / AP2 / x402 support declared or implemented'
+      blocked_on: collection
       description: >
-        Today idempotency is credited from a provider-level link (an "Idempotent
-        Requests" doc). The deeper check parses each OpenAPI and confirms POST/PATCH
-        operations actually declare an Idempotency-Key header — the difference between
-        a provider saying they support it and the contract an agent can act on.
-    - id: rate_limit_headers
-      label: Rate-Limit Response Headers
-      supersedes: rate_limit_signal
-      signal: 'OpenAPI: responses document X-RateLimit-* (or RateLimit) headers'
+        Elogic weights protocol support — UCP, ACP, AP2, MCP — at 25% of its
+        commerce index, and Cloudflare tracks x402 and UCP as a fifth layer. This
+        rubric reads none of them. For a catalog whose thesis is that agents will
+        transact, that is a visible hole, and it is arriving fastest in exactly the
+        commerce-adjacent providers this catalog is thickest in. Waiting on a
+        first-party probe of the kind that produced `agent_card`, not on rubric work.
+    - id: pagination_ratio
+      label: Pagination Coverage
+      signal: 'share of collection-returning GET operations declaring pagination'
+      blocked_on: parser
       description: >
-        Today rate limits are credited from documented limits. The deeper check
-        confirms the API surfaces live rate-limit state in response headers
-        (X-RateLimit-Limit/Remaining/Reset), which is what an agent reads to know
-        when to back off mid-run rather than after a 429.
-    - id: error_envelope
-      label: Stable Error Envelope
-      supersedes: error_semantics
-      signal: 'OpenAPI: a shared error schema is $ref-ed across 4xx/5xx responses'
+        JAIRF scores pagination as a RATIO of paginated GET resources and this model
+        does not read it at all. Computable from the refined per-tag OpenAPIs the
+        catalog already carries; it needs a resource-classifier to know which GETs
+        return collections, which is the only reason it is not in 0.6.
+    - id: operation_distinctiveness
+      label: Operation Distinctiveness
+      signal: 'embedding distance between operation summaries within a spec'
+      blocked_on: parser
       description: >
-        Today error semantics are credited from an error-catalog link. The deeper
-        check confirms a single error schema is referenced across error responses —
-        a stable, typed envelope an agent can branch on, not just documented codes.
-    - id: dry_run_mode
-      label: Dry-Run / Simulate Mode
-      signal: 'OpenAPI: destructive operations expose a dry_run/simulate parameter'
-      description: >
-        No provider-level proxy exists for this one. The check parses each OpenAPI
-        for a dry-run or simulate parameter on destructive operations, letting an
-        agent plan an action before it commits — the safest agent-native affordance,
-        and the rarest.
+        Whether an agent can tell two operations apart from their descriptions.
+        JAIRF computes it with embeddings; nothing equivalent exists here. The most
+        directly agent-relevant check in a competitor's spec that this rubric lacks.

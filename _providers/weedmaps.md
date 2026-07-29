@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Keep a retailer's Weedmaps menu in sync with their point-of-sale. Retrieve menus and menu items, and create, retrieve, update, delete, and upsert-by-external-ID menu items to publish real-time product
@@ -107,25 +109,25 @@ plans:
 - name: Weedmaps Plans Pricing
   plan_count: 4
   slug: weedmaps-plans-pricing
-random_paper: 38
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Weedmaps Rate Limits
   slug: weedmaps-rate-limits
 score:
   band: emerging
-  composite: 26.3
-  delta: 0.0
+  composite: 23.8
+  delta: -2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 26.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

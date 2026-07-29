@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,8 +57,31 @@ apis:
 - description: Manage type definitions including entity types, classifications, and relationships.
   name: Apache Atlas Types API
   slug: apache-atlas-types-api
-artifact_total: 72
+artifact_total: 78
+collections:
+- collection_type: postman
+  name: Apache Atlas REST Discovery API
+  slug: postman-apache-atlas-discovery-api
+- collection_type: postman
+  name: Apache Atlas REST Discovery Entities API
+  slug: postman-apache-atlas-entities-api
+- collection_type: postman
+  name: Apache Atlas REST Discovery Glossary API
+  slug: postman-apache-atlas-glossary-api
+- collection_type: postman
+  name: Apache Atlas REST Discovery Lineage API
+  slug: postman-apache-atlas-lineage-api
+- collection_type: postman
+  name: Apache Atlas REST Discovery Relationships API
+  slug: postman-apache-atlas-relationships-api
+- collection_type: postman
+  name: Apache Atlas REST Discovery Types API
+  slug: postman-apache-atlas-types-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apache-atlas/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -270,12 +295,12 @@ overview: 'Apache Atlas publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Apache Atlas catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Atlas'' developer surface includes authentication, documentation, getting-started guide, support, changelog, and 8 more developer resources.'
+  Apache Atlas'' developer surface includes authentication, documentation, getting-started guide, support, changelog, and 9 more developer resources.'
 plans:
 - name: Apache Atlas Plans Pricing
   plan_count: 3
   slug: apache-atlas-plans-pricing
-random_paper: 32
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Apache Atlas Rate Limits
@@ -298,20 +323,27 @@ rules:
     warn: 12
   slug: apache-atlas-spectral-rules
 score:
-  band: strong
-  composite: 60.2
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  delta: -7.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.0
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 53.4
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/screenshots/apache-atlas-2026-06-20T172046.png
 security:
 - kind: authentication

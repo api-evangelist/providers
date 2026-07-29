@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.8
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: AI-powered conversational interface over your production systems.
@@ -153,21 +155,30 @@ overview: 'Deeptrace publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Deeptrace''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 18 more developer resources.'
-random_paper: 57
+random_paper: 17
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 47.8
+  delta: -2.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.7
-    developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 63.3
+    developer_ergonomics: 49.5
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 31.6
   previous_composite: 50.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/screenshots/deeptrace-2026-07-25T211610.png
 security:

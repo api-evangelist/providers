@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Search trademarks by keyword or phrase
   name: USPTO Trademark Search API Trademark Search API
   slug: uspto-trademark-search-api-trademark-search-api
-artifact_total: 21
+artifact_total: 26
 collections:
+- collection_type: postman
+  name: USPTO Trademark Search Database Status API
+  slug: postman-uspto-trademark-search-api-database-status-api
+- collection_type: postman
+  name: USPTO Trademark Search Database Status Owner Search API
+  slug: postman-uspto-trademark-search-api-owner-search-api
+- collection_type: postman
+  name: USPTO Trademark Search Database Status Trademark Availability API
+  slug: postman-uspto-trademark-search-api-trademark-availability-api
+- collection_type: postman
+  name: USPTO Trademark Search Database Status Trademark Lookup API
+  slug: postman-uspto-trademark-search-api-trademark-lookup-api
+- collection_type: postman
+  name: USPTO Database Status Trademark Search API
+  slug: postman-uspto-trademark-search-api-trademark-search-api
 - collection_type: open
   name: USPTO Trademark Search API
   slug: open-uspto-trademark-search-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/uspto-trademark-search-api/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,12 +187,12 @@ overview: 'USPTO Trademark Search API publishes 5 APIs on the [APIs.io](https://
   The USPTO Trademark Search API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  USPTO Trademark Search API''s developer surface includes authentication, signup flow, documentation, pricing, FAQ, engineering blog, and 10 more developer resources.'
+  USPTO Trademark Search API''s developer surface includes authentication, signup flow, documentation, pricing, FAQ, engineering blog, and 11 more developer resources.'
 plans:
 - name: Uspto Trademark Search Api Plans Pricing
   plan_count: 3
   slug: uspto-trademark-search-api-plans-pricing
-random_paper: 21
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Uspto Trademark Search Api Rate Limits
@@ -195,18 +216,25 @@ rules:
   slug: uspto-trademark-search-api-rules
 score:
   band: strong
-  composite: 63.6
-  delta: 4.6
+  composite: 60.0
+  delta: -3.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 77.3
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 78.3
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/screenshots/uspto-trademark-search-api-2026-06-20T200727.png
 security:

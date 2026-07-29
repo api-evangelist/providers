@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Utility endpoints for connectivity testing.
   name: Runa Utilities API
   slug: runa-utilities-api
-artifact_total: 19
+artifact_total: 23
 collections:
+- collection_type: postman
+  name: Runa Payouts Balance API
+  slug: postman-runa-balance-api
+- collection_type: postman
+  name: Runa Payouts Balance Orders API
+  slug: postman-runa-orders-api
+- collection_type: postman
+  name: Runa Payouts Balance Products API
+  slug: postman-runa-products-api
+- collection_type: postman
+  name: Runa Payouts Balance Utilities API
+  slug: postman-runa-utilities-api
 - collection_type: open
   name: Runa Payouts API
   slug: open-runa-payouts-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/runa/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,12 +163,12 @@ overview: 'Runa publishes 4 APIs on the [APIs.io](https://apis.io/) network, inc
   The Runa catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Runa''s developer surface includes authentication, developer portal, signup flow, sandbox, engineering blog, and 8 more developer resources.'
+  Runa''s developer surface includes authentication, developer portal, signup flow, sandbox, engineering blog, and 9 more developer resources.'
 plans:
 - name: Runa Plans Pricing
   plan_count: 3
   slug: runa-plans-pricing
-random_paper: 30
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Runa Rate Limits
@@ -173,25 +191,33 @@ rules:
     warn: 15
   slug: runa-spectral-rules
 score:
-  band: strong
-  composite: 61.2
-  delta: 2.8
+  band: developing
+  composite: 55.5
+  delta: -5.7
   facets:
     commercial_clarity: 68.4
-    contract_quality: 72.6
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 73.1
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 58.4
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/screenshots/runa-2026-06-20T193249.png
 security:
 - kind: authentication

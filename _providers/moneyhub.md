@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -32,12 +34,20 @@ apis:
 - description: Moneyhub's Open Banking Payments API initiates account-to-account payments (Payment Initiation Service) over the UK Faster Payments rails as a cheaper, near-instant alternative to cards, direct debits
   name: Moneyhub Open Banking Payments API
   slug: moneyhub-open-banking-payments-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Moneyhub Webhooks
   slug: moneyhub-webhooks
+collections:
+- collection_type: postman
+  name: Moneyhub Data API
+  slug: postman-moneyhub-data-api-swagger
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/moneyhub/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -205,8 +215,8 @@ overview: 'Moneyhub publishes 1 API on the [APIs.io](https://apis.io/) network: 
   The Moneyhub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Moneyhub''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 30 more developer resources.'
-random_paper: 55
+  Moneyhub''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 31 more developer resources.'
+random_paper: 24
 scopes:
 - name: Moneyhub Scopes
   scope_count: 108
@@ -214,23 +224,28 @@ scopes:
   summary_line: 108 scopes
 score:
   band: strong
-  composite: 63.0
-  delta: 0.0
+  composite: 60.1
+  delta: -2.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.4
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 67.4
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 63.2
   previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 84.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

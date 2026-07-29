@@ -1,22 +1,14 @@
 ---
-access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
-  public: false
-  source:
-  - authentication
-  trial: false
-  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: flavored
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 29.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -34,23 +26,21 @@ agentic_access:
   operation_count: 3
   slug: teamwork-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 3
+api_count: 1
 apis:
-- description: The Activity API from Teamwork.com — 1 operation(s) for activity.
-  name: Teamwork.com Activity API
-  slug: teamwork-activity-api
-- description: The Projects API from Teamwork.com — 1 operation(s) for projects.
-  name: Teamwork.com Projects API
-  slug: teamwork-projects-api
-- description: The Tasks API from Teamwork.com — 1 operation(s) for tasks.
-  name: Teamwork.com Tasks API
-  slug: teamwork-tasks-api
-artifact_total: 7
+- description: REST API for the Teamwork.com Projects product providing programmatic access to projects, tasks, milestones, time entries, people, companies, tags, and reporting. Authentication supports OAuth 2.0 Bea
+  name: Teamwork.com Projects API v3
+  slug: projects-api-v3
+artifact_total: 5
 collections:
 - collection_type: open
   name: Teamwork.com Projects API v3
   slug: open-teamwork
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/teamwork-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -101,32 +91,39 @@ common:
   url: https://www.teamwork.com/blog/
 created: '2026-05-11'
 description: Teamwork.com is a project management and client work platform built for client services, agencies, and professional services teams to manage projects, tasks, time tracking, billing, resource planning, and collaboration in one place. The platform provides product offerings including Projects, Desk, Chat, Spaces, and CRM with deep integrations across the client delivery lifecycle. Teamwork.com offers a comprehensive REST API (v3) for the Projects product allowing programmatic access to projects, tasks, time entries, milestones, people, and reporting, with Bearer Token (OAuth 2.0) and HTTP Basic authentication.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teamwork.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-05-11'
 name: Teamwork.com
 nav: Providers
 network: true
-overview: 'Teamwork.com publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activity API, Projects API, and Tasks API. Tagged areas include Project Management, Client Services, Task Management, Time Tracking, and Collaboration.
+overview: 'Teamwork.com publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API v3. Tagged areas include Project Management, Client Services, Task Management, Time Tracking, and Collaboration.
 
 
-  Teamwork.com''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 58
+  Teamwork.com''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
+random_paper: 27
 score:
-  band: thin
-  composite: 34.7
-  delta: 3.3
+  band: emerging
+  composite: 27.0
+  delta: -7.7
   facets:
     commercial_clarity: 10.5
-    contract_quality: 58.4
+    contract_quality: 40.3
     developer_ergonomics: 26.1
-    discoverability: 100.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 34.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/screenshots/teamwork-2026-06-20T195100.png
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,12 +66,31 @@ apis:
 - description: Real User Measurements (RUM) keys
   name: Azure Traffic Manager UserMetrics API
   slug: microsoft-azure-traffic-manager-usermetrics-api
-artifact_total: 18
+artifact_total: 23
 collections:
+- collection_type: postman
+  name: Azure Traffic Manager REST Endpoints API
+  slug: postman-microsoft-azure-traffic-manager-endpoints-api
+- collection_type: postman
+  name: Azure Traffic Manager REST Endpoints GeographicHierarchies API
+  slug: postman-microsoft-azure-traffic-manager-geographichierarchies-api
+- collection_type: postman
+  name: Azure Traffic Manager REST Endpoints HeatMap API
+  slug: postman-microsoft-azure-traffic-manager-heatmap-api
+- collection_type: postman
+  name: Azure Traffic Manager REST Endpoints Profiles API
+  slug: postman-microsoft-azure-traffic-manager-profiles-api
+- collection_type: postman
+  name: Azure Traffic Manager REST Endpoints UserMetrics API
+  slug: postman-microsoft-azure-traffic-manager-usermetrics-api
 - collection_type: open
   name: Azure Traffic Manager REST API
   slug: open-microsoft-azure-traffic-manager
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-traffic-manager/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -217,12 +238,12 @@ network: true
 overview: 'Azure Traffic Manager publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Endpoints API, GeographicHierarchies API, HeatMap API, and 2 more. Tagged areas include DNS Load Balancing, Failover, Global Routing, Networking, and Traffic Distribution.
 
 
-  Azure Traffic Manager''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 25 more developer resources.'
+  Azure Traffic Manager''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 26 more developer resources.'
 plans:
 - name: Microsoft Azure Traffic Manager Plans Pricing
   plan_count: 3
   slug: microsoft-azure-traffic-manager-plans-pricing
-random_paper: 6
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Traffic Manager Rate Limits
@@ -234,18 +255,25 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 60.7
-  delta: 3.2
+  composite: 60.3
+  delta: -0.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 51.3
-    developer_ergonomics: 60.9
-    discoverability: 100.0
+    contract_quality: 53.4
+    developer_ergonomics: 65.2
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 57.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/screenshots/microsoft-azure-traffic-manager-2026-06-20T185440.png
 security:

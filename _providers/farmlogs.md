@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Field boundary mapping and per-field record-keeping, the original core of FarmLogs. This capability now lives inside Bushel Farm (formerly Bushel Farm/FarmLogs); no self-serve public REST reference, b
@@ -103,25 +105,25 @@ plans:
 - name: Farmlogs Plans Pricing
   plan_count: 1
   slug: farmlogs-plans-pricing
-random_paper: 43
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Farmlogs Rate Limits
   slug: farmlogs-rate-limits
 score:
   band: emerging
-  composite: 28.9
-  delta: 2.0
+  composite: 25.3
+  delta: -3.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 10.9
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 28.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmlogs/refs/heads/main/screenshots/farmlogs-2026-07-25T214231.png
 security:

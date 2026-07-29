@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -61,12 +63,37 @@ apis:
 - description: Query performance data using Google Ads Query Language (GAQL)
   name: Google Ads Reporting API
   slug: google-ads-reporting-api
-artifact_total: 22
+artifact_total: 29
 collections:
+- collection_type: postman
+  name: Google Ads Ad Groups API
+  slug: postman-google-ads-ad-groups-api
+- collection_type: postman
+  name: Google Ad Groups Ads API
+  slug: postman-google-ads-ads-api
+- collection_type: postman
+  name: Google Ads Ad Groups Bidding Strategies API
+  slug: postman-google-ads-bidding-strategies-api
+- collection_type: postman
+  name: Google Ads Ad Groups Campaigns API
+  slug: postman-google-ads-campaigns-api
+- collection_type: postman
+  name: Google Ads Ad Groups Customers API
+  slug: postman-google-ads-customers-api
+- collection_type: postman
+  name: Google Ads Ad Groups Keywords API
+  slug: postman-google-ads-keywords-api
+- collection_type: postman
+  name: Google Ads Ad Groups Reporting API
+  slug: postman-google-ads-reporting-api
 - collection_type: open
   name: Google Ads API
   slug: open-google-ads-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-ads/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -198,12 +225,12 @@ overview: 'Google Ads publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Google Ads catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Ads'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, Stack Overflow tag, developer console, and 17 more developer resources.'
+  Google Ads'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, Stack Overflow tag, developer console, and 18 more developer resources.'
 plans:
 - name: Google Ads Plans Pricing
   plan_count: 3
   slug: google-ads-plans-pricing
-random_paper: 42
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Google Ads Rate Limits
@@ -224,18 +251,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 67.6
-  delta: 3.2
+  composite: 64.4
+  delta: -3.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.4
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 73.9
+    developer_ergonomics: 63.0
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 64.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/screenshots/google-ads-2026-06-20T182011.png
 security:

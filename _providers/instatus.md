@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Post to and update maintenance and incidents on your status page through an HTTP REST API
@@ -61,21 +63,21 @@ overview: 'Instatus publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Instatus'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 7
+random_paper: 44
 score:
-  band: minimal
-  composite: 14.5
-  delta: 0.0
+  band: emerging
+  composite: 18.8
+  delta: 4.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 29.2
+    contract_quality: 50.6
     developer_ergonomics: 2.2
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instatus/refs/heads/main/screenshots/instatus-2026-06-20T183418.png
 security:

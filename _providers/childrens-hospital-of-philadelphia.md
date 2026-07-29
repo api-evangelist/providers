@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -208,7 +210,7 @@ overview: 'Children''s Hospital of Philadelphia publishes 4 APIs on the [APIs.io
 
 
   Children''s Hospital of Philadelphia''s developer surface includes authentication, developer portal, engineering blog, support, and 12 more developer resources.'
-random_paper: 25
+random_paper: 37
 rules:
 - name: Children's Hospital of Philadelphia API Rules
   rule_count: 5
@@ -233,24 +235,32 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 54.1
-  delta: 3.5
+  composite: 46.4
+  delta: -7.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 69.9
+    contract_quality: 71.2
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 50.6
+  previous_composite: 54.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 58.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/screenshots/childrens-hospital-of-philadelphia-2026-06-20T174310.png
 security:
 - kind: authentication

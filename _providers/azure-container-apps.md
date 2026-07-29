@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -92,12 +94,31 @@ arazzos:
 - description: Roll out a new image to a container app, wait for provisioning, then list the resulting revisions.
   name: Azure Container Apps Update App and List Revisions
   slug: azure-container-apps-update-app-and-list-revisions-workflow
-artifact_total: 86
+artifact_total: 91
 collections:
+- collection_type: postman
+  name: Azure Container Apps Authentication API
+  slug: postman-azure-container-apps-authentication-api
+- collection_type: postman
+  name: Azure Authentication Container Apps API
+  slug: postman-azure-container-apps-container-apps-api
+- collection_type: postman
+  name: Azure Container Apps Authentication Jobs API
+  slug: postman-azure-container-apps-jobs-api
+- collection_type: postman
+  name: Azure Container Apps Authentication Managed Environments API
+  slug: postman-azure-container-apps-managed-environments-api
+- collection_type: postman
+  name: Azure Container Apps Authentication Revisions API
+  slug: postman-azure-container-apps-revisions-api
 - collection_type: open
   name: Azure Container Apps API
   slug: open-azure-container-apps
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/azure-container-apps/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -400,12 +421,12 @@ overview: 'Azure Container Apps publishes 5 APIs on the [APIs.io](https://apis.i
   The Azure Container Apps catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure Container Apps'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Azure Container Apps'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Azure Container Apps Plans Pricing
   plan_count: 3
   slug: azure-container-apps-plans-pricing
-random_paper: 0
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Azure Container Apps Rate Limits
@@ -434,18 +455,25 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 69.1
-  delta: 4.3
+  composite: 65.7
+  delta: -3.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 78.8
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 79.7
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 64.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/screenshots/azure-container-apps-2026-06-20T172841.png
 security:

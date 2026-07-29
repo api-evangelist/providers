@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Synchronous RESTful interface for accessing European electricity market data including load, generation, transmission, balancing, outages, congestion management, and system operations datasets. Authen
@@ -101,30 +103,31 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 42
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: emerging
-  composite: 19.9
-  delta: 0.0
+  composite: 16.6
+  delta: -3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.9
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 21.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 13.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entsoe/refs/heads/main/screenshots/entsoe-2026-06-20T180732.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: The Advertisers API from Google Display & Video 360 — 5 operation(s) for advertisers.
   name: Google Display & Video 360 Advertisers API
   slug: google-display-video-360-advertisers-api
-artifact_total: 12
+artifact_total: 13
 collections:
+- collection_type: postman
+  name: Google Display & Video 360 Advertisers API
+  slug: postman-google-display-video-360-advertisers-api
 - collection_type: open
   name: Google Display & Video 360 API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-display--video-360/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,12 +141,12 @@ overview: 'Google Display & Video 360 publishes 1 API on the [APIs.io](https://a
   The Google Display & Video 360 catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Display & Video 360''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Display & Video 360''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Display Video 360 Plans Pricing
   plan_count: 3
   slug: google-display-video-360-plans-pricing
-random_paper: 42
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Google Display Video 360 Rate Limits
@@ -158,18 +167,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 63.3
-  delta: 4.5
+  composite: 60.9
+  delta: -2.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.9
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 65.7
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/screenshots/google-display-video-360-2026-06-20T182156.png
 security:

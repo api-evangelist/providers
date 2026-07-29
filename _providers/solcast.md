@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -55,12 +57,34 @@ apis:
 - description: Typical Meteorological Year data computed from 2007 to 2023 satellite observations.
   name: Solcast TMY Data API
   slug: solcast-tmy-data-api
-artifact_total: 28
+artifact_total: 34
 collections:
+- collection_type: postman
+  name: Solcast Aggregations API
+  slug: postman-solcast-aggregations-api
+- collection_type: postman
+  name: Solcast Aggregations Forecast Data API
+  slug: postman-solcast-forecast-data-api
+- collection_type: postman
+  name: Solcast Aggregations Historic Data API
+  slug: postman-solcast-historic-data-api
+- collection_type: postman
+  name: Solcast Aggregations Live Data API
+  slug: postman-solcast-live-data-api
+- collection_type: postman
+  name: Solcast Aggregations PV Power Sites API
+  slug: postman-solcast-pv-power-sites-api
+- collection_type: postman
+  name: Solcast Aggregations TMY Data API
+  slug: postman-solcast-tmy-data-api
 - collection_type: open
   name: Solcast API
   slug: open-solcast
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/solcast/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -211,12 +235,12 @@ overview: 'Solcast publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Solcast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Solcast''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
+  Solcast''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
 plans:
 - name: Solcast Plans Pricing
   plan_count: 5
   slug: solcast-plans-pricing
-random_paper: 13
+random_paper: 68
 rate_limits:
 - limit_count: 6
   name: Solcast Rate Limits
@@ -240,19 +264,32 @@ rules:
   slug: solcast-rules
 score:
   band: strong
-  composite: 69.3
-  delta: 5.5
+  composite: 61.0
+  delta: -8.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 79.6
-    developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 80.1
+    developer_ergonomics: 41.3
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 63.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 69.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/screenshots/solcast-2026-06-20T194150.png
 security:
 - kind: authentication

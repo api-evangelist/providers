@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The ImandraX cloud-native automated reasoning engine, exposed as a protobuf-defined gRPC API. Services include Eval (evaluate code snippets, parse terms/types, manage artifacts), Simple (verify, test,
@@ -134,21 +136,23 @@ overview: 'Imandra publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Imandra''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 52
+random_paper: 39
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 31.6
+  delta: -1.6
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 71.7
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 33.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/screenshots/imandra-2026-07-25T222120.png
 security:

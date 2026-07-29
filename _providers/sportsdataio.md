@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -558,7 +560,7 @@ plans:
 - name: Sportsdataio Plans Pricing
   plan_count: 4
   slug: sportsdataio-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Sportsdataio Rate Limits
@@ -582,18 +584,25 @@ rules:
   slug: sportsdataio-rules
 score:
   band: developing
-  composite: 59.4
-  delta: 3.2
+  composite: 55.4
+  delta: -4.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 61.4
+    contract_quality: 62.9
     developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 56.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 59.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/screenshots/sportsdataio-2026-06-20T194350.png
 security:

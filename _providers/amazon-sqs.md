@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -49,16 +51,32 @@ apis:
 - description: The Tags API from Amazon SQS — 1 operation(s) for tags.
   name: Amazon SQS Tags API
   slug: amazon-sqs-tags-api
-artifact_total: 91
+artifact_total: 95
 asyncapis:
 - description: AsyncAPI specification for Amazon SQS event-driven messaging patterns. Amazon SQS provides reliable, highly-scalable hosted queues for storing messages as they travel between applications or microserv
   name: Amazon Simple Queue Service (SQS) Event Source Mapping
   slug: amazon-sqs-asyncapi
 collections:
+- collection_type: postman
+  name: Amazon SQS Amazon Simple Queue Service (SQS) Messages API
+  slug: postman-amazon-sqs-messages-api
+- collection_type: postman
+  name: Amazon SQS Amazon Simple Queue Service (SQS) Messages Permissions API
+  slug: postman-amazon-sqs-permissions-api
+- collection_type: postman
+  name: Amazon SQS Amazon Simple Queue Service (SQS) Messages Queues API
+  slug: postman-amazon-sqs-queues-api
+- collection_type: postman
+  name: Amazon SQS Amazon Simple Queue Service (SQS) Messages Tags API
+  slug: postman-amazon-sqs-tags-api
 - collection_type: open
   name: Amazon SQS Amazon Simple Queue Service (SQS) API
   slug: open-amazon-sqs
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-sqs/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -336,12 +354,12 @@ overview: 'Amazon SQS publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon SQS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon SQS''s developer surface includes authentication, engineering blog, developer console, support, code examples, and 9 more developer resources.'
+  Amazon SQS''s developer surface includes authentication, engineering blog, developer console, support, code examples, and 10 more developer resources.'
 plans:
 - name: Amazon Sqs Plans Pricing
   plan_count: 3
   slug: amazon-sqs-plans-pricing
-random_paper: 14
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Amazon Sqs Rate Limits
@@ -372,19 +390,32 @@ rules:
     warn: 9
   slug: amazon-sqs-spectral-rules
 score:
-  band: strong
-  composite: 60.1
-  delta: 3.2
+  band: developing
+  composite: 55.6
+  delta: -4.5
   facets:
     commercial_clarity: 68.4
-    contract_quality: 77.9
-    developer_ergonomics: 23.9
-    discoverability: 87.5
-    governance: 60.5
+    contract_quality: 75.4
+    developer_ergonomics: 28.3
+    discoverability: 64.8
+    governance: 47.9
     operational_transparency: 47.4
-  previous_composite: 56.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/screenshots/amazon-sqs-2026-06-20T171828.png
 security:

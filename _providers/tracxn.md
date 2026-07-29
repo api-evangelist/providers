@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 28.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Programmatic access to Tracxn's private-market database (API version 2.2). JSON-over-HTTPS POST endpoints for companies, investors, funding transactions and acquisition transactions, filtered by feed/
@@ -150,21 +152,24 @@ overview: 'Tracxn publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tracxn''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, FAQ, engineering blog, and 18 more developer resources.'
-random_paper: 44
+random_paper: 40
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 30.6
+  delta: -1.3
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 5.3
   previous_composite: 31.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

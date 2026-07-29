@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Beautiful Soup 4 is a Python library providing a parse tree API for HTML and XML documents. It exposes Tag, NavigableString, BeautifulSoup, and Comment objects with navigation methods (find, find_all,
@@ -104,25 +106,25 @@ plans:
 - name: Beautiful Soup Plans Pricing
   plan_count: 3
   slug: beautiful-soup-plans-pricing
-random_paper: 33
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Beautiful Soup Rate Limits
   slug: beautiful-soup-rate-limits
 score:
   band: emerging
-  composite: 25.8
-  delta: 0.0
+  composite: 23.7
+  delta: -2.1
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 25.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beautiful-soup/refs/heads/main/screenshots/beautiful-soup-2026-06-20T173111.png
 security:

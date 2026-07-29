@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 8
@@ -664,7 +666,7 @@ plans:
 - name: Viam Plans Pricing
   plan_count: 4
   slug: viam-plans-pricing
-random_paper: 21
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Viam Rate Limits
@@ -688,18 +690,25 @@ rules:
   slug: viam-rules
 score:
   band: strong
-  composite: 67.7
-  delta: 3.4
+  composite: 64.1
+  delta: -3.6
   facets:
     commercial_clarity: 78.9
-    contract_quality: 72.6
+    contract_quality: 73.7
     developer_ergonomics: 60.9
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 64.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 52
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/screenshots/viam-2026-06-20T201013.png
 security:

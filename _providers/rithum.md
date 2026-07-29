@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -61,12 +63,40 @@ apis:
 - description: Event stream management for real-time data
   name: Rithum Streams API
   slug: rithum-streams-api
-artifact_total: 23
+artifact_total: 31
 collections:
+- collection_type: postman
+  name: Dsco Platform Authentication API
+  slug: postman-rithum-authentication-api
+- collection_type: postman
+  name: Dsco Platform Authentication Catalog API
+  slug: postman-rithum-catalog-api
+- collection_type: postman
+  name: Dsco Platform Authentication Inventory API
+  slug: postman-rithum-inventory-api
+- collection_type: postman
+  name: Dsco Platform Authentication Invoices API
+  slug: postman-rithum-invoices-api
+- collection_type: postman
+  name: Dsco Platform Authentication Orders API
+  slug: postman-rithum-orders-api
+- collection_type: postman
+  name: Dsco Platform Authentication Returns API
+  slug: postman-rithum-returns-api
+- collection_type: postman
+  name: Dsco Platform Authentication Shipments API
+  slug: postman-rithum-shipments-api
+- collection_type: postman
+  name: Dsco Platform Authentication Streams API
+  slug: postman-rithum-streams-api
 - collection_type: open
   name: Dsco Platform API
   slug: open-dsco-platform
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/rithum/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,12 +194,12 @@ overview: 'Rithum publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The Rithum catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Rithum''s developer surface includes authentication, documentation, support, engineering blog, GitHub presence, and 9 more developer resources.'
+  Rithum''s developer surface includes authentication, documentation, support, engineering blog, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Rithum Plans Pricing
   plan_count: 3
   slug: rithum-plans-pricing
-random_paper: 53
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Rithum Rate Limits
@@ -193,19 +223,26 @@ rules:
   slug: rithum-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.6
-  delta: 5.4
+  composite: 58.2
+  delta: -3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.4
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 75.1
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 56.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/screenshots/rithum-2026-06-20T193131.png
 security:
 - kind: authentication

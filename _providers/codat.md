@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -1187,7 +1189,7 @@ plans:
 - name: Codat Plans Pricing
   plan_count: 1
   slug: codat-plans-pricing
-random_paper: 47
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Codat Rate Limits
@@ -1203,18 +1205,25 @@ rules:
   slug: codat-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.6
-  delta: 1.2
+  composite: 53.8
+  delta: -1.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.3
+    contract_quality: 67.0
     developer_ergonomics: 56.5
-    discoverability: 55.0
-    governance: 73.7
+    discoverability: 40.7
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 54.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 55.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/screenshots/codat-2026-06-20T174652.png
 security:

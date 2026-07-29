@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -82,16 +84,65 @@ apis:
 - description: Operations for managing organization workspaces, including listing, creating, and deactivating workspaces.
   name: PandaDoc Workspaces API
   slug: pandadoc-workspaces-api
-artifact_total: 97
+artifact_total: 112
 asyncapis:
 - description: The PandaDoc webhook system delivers real-time event notifications to registered subscriber endpoints when document lifecycle and platform events occur. PandaDoc sends HTTP POST requests containing JS
   name: PandaDoc Webhook Events
   slug: pandadoc-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: PandaDoc REST API Logs API
+  slug: postman-pandadoc-api-logs-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Contacts API
+  slug: postman-pandadoc-contacts-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Document Attachments API
+  slug: postman-pandadoc-document-attachments-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Document Fields API
+  slug: postman-pandadoc-document-fields-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Document Link to CRM API
+  slug: postman-pandadoc-document-link-to-crm-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Document Recipients API
+  slug: postman-pandadoc-document-recipients-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Document Reminders API
+  slug: postman-pandadoc-document-reminders-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Documents API
+  slug: postman-pandadoc-documents-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Folders API
+  slug: postman-pandadoc-folders-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Forms API
+  slug: postman-pandadoc-forms-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Members API
+  slug: postman-pandadoc-members-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Templates API
+  slug: postman-pandadoc-templates-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Webhook Events API
+  slug: postman-pandadoc-webhook-events-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Webhook Subscriptions API
+  slug: postman-pandadoc-webhook-subscriptions-api
+- collection_type: postman
+  name: PandaDoc REST API Logs Workspaces API
+  slug: postman-pandadoc-workspaces-api
 - collection_type: open
   name: PandaDoc REST API
   slug: open-pandadoc-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pandadoc/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -369,12 +420,12 @@ overview: 'PandaDoc publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The PandaDoc catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  PandaDoc''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 13 more developer resources.'
+  PandaDoc''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Pandadoc Plans Pricing
   plan_count: 4
   slug: pandadoc-plans-pricing
-random_paper: 10
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Pandadoc Rate Limits
@@ -403,18 +454,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.1
-  delta: 3.2
+  composite: 58.8
+  delta: -2.3
   facets:
     commercial_clarity: 73.7
-    contract_quality: 78.8
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 52.6
+    contract_quality: 81.8
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 57.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/screenshots/pandadoc-2026-06-20T191334.png
 security:

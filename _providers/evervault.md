@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.3
+  scored_at: '2026-07-28'
 api_count: 12
 apis:
 - description: 3D Secure is a security protocol designed to prevent fraud in online card transactions. It adds an additional layer of authentication during the payment process.
@@ -65,12 +67,53 @@ apis:
 - description: The Webhooks API from Evervault — 2 operation(s) for webhooks.
   name: Evervault Webhooks API
   slug: evervault-webhooks-api
-artifact_total: 17
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Evervault Webhooks
   slug: evervault-webhooks
+collections:
+- collection_type: postman
+  name: Evervault 3D Secure API
+  slug: postman-evervault-3d-secure-api
+- collection_type: postman
+  name: Evervault Acquirers API
+  slug: postman-evervault-acquirers-api
+- collection_type: postman
+  name: Evervault Card Account Updates API
+  slug: postman-evervault-card-account-updates-api
+- collection_type: postman
+  name: Evervault Client Tokens API
+  slug: postman-evervault-client-tokens-api
+- collection_type: postman
+  name: Evervault Core API
+  slug: postman-evervault-core-api
+- collection_type: postman
+  name: Evervault Functions API
+  slug: postman-evervault-functions-api
+- collection_type: postman
+  name: Evervault Insights API
+  slug: postman-evervault-insights-api
+- collection_type: postman
+  name: Evervault Merchants API
+  slug: postman-evervault-merchants-api
+- collection_type: postman
+  name: Evervault Network Tokens API
+  slug: postman-evervault-network-tokens-api
+- collection_type: postman
+  name: Evervault Payments API
+  slug: postman-evervault-payments-api
+- collection_type: postman
+  name: Evervault Relays API
+  slug: postman-evervault-relays-api
+- collection_type: postman
+  name: Evervault Webhooks API
+  slug: postman-evervault-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/evervault/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -225,27 +268,37 @@ overview: 'Evervault publishes 12 APIs on the [APIs.io](https://apis.io/) networ
   The Evervault catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 27 more developer resources.'
-random_paper: 38
+  Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
+random_paper: 66
 score:
   band: strong
-  composite: 64.3
-  delta: 0.0
+  composite: 63.3
+  delta: -1.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 70.2
-    developer_ergonomics: 82.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 71.2
+    developer_ergonomics: 75.5
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 64.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

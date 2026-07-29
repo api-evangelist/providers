@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -88,8 +90,64 @@ apis:
 - description: 'The #X Amz Target=AWSMigrationHub.PutResourceAttributes API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.putresourceattributes.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.PutResourceAttributes API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-putresourceattributes-api
-artifact_total: 271
+artifact_total: 288
+collections:
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-associatecreatedartifact-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateDiscoveredResource API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-associatediscoveredresource-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.CreateProgressUpdateStream API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-createprogressupdatestream-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DeleteProgressUpdateStream API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-deleteprogressupdatestream-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DescribeApplicationState API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-describeapplicationstate-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DescribeMigrationTask API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-describemigrationtask-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DisassociateCreatedArtifact API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-disassociatecreatedartifact-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.DisassociateDiscoveredResource API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-disassociatediscoveredresource-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ImportMigrationTask API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-importmigrationtask-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListApplicationStates API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-listapplicationstates-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListCreatedArtifacts API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-listcreatedartifacts-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListDiscoveredResources API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-listdiscoveredresources-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListMigrationTasks API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-listmigrationtasks-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.ListProgressUpdateStreams API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-listprogressupdatestreams-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.NotifyApplicationState API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-notifyapplicationstate-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.NotifyMigrationTaskState API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-notifymigrationtaskstate-api
+- collection_type: postman
+  name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.PutResourceAttributes API'
+  slug: postman-amazon-migration-hub-x-amz-target-awsmigrationhub-putresourceattributes-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-migration-hub/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -901,12 +959,12 @@ overview: 'Amazon Migration Hub publishes 17 APIs on the [APIs.io](https://apis.
   The Amazon Migration Hub catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Migration Hub''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon Migration Hub''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Migration Hub Plans Pricing
   plan_count: 3
   slug: amazon-migration-hub-plans-pricing
-random_paper: 53
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Amazon Migration Hub Rate Limits
@@ -930,18 +988,25 @@ rules:
   slug: amazon-migration-hub-spectral-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 62.6
+  delta: -3.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 71.7
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 72.9
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 65.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/screenshots/amazon-migration-hub-2026-06-20T171744.png
 security:

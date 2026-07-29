@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.7
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Obtain an access token for calling the Open API.
@@ -143,21 +145,30 @@ overview: 'Advance Intelligence Group publishes 4 APIs on the [APIs.io](https://
 
 
   Advance Intelligence Group''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
-  band: thin
-  composite: 43.0
-  delta: 0.0
+  band: developing
+  composite: 42.1
+  delta: -0.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.4
-    developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.8
+    developer_ergonomics: 51.6
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 43.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png
 security:

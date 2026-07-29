@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -118,8 +120,83 @@ apis:
 - description: Inspect the current authenticated user.
   name: Greenhouse Users API
   slug: greenhouse-io-users-api
-artifact_total: 68
+artifact_total: 93
 collections:
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed API
+  slug: postman-greenhouse-io-activityfeed-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Applications API
+  slug: postman-greenhouse-io-applications-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Approvals API
+  slug: postman-greenhouse-io-approvals-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Auth API
+  slug: postman-greenhouse-io-auth-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Candidates API
+  slug: postman-greenhouse-io-candidates-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed CustomFields API
+  slug: postman-greenhouse-io-customfields-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Departments API
+  slug: postman-greenhouse-io-departments-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Events API
+  slug: postman-greenhouse-io-events-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed GraphQL API
+  slug: postman-greenhouse-io-graphql-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed JobOpenings API
+  slug: postman-greenhouse-io-jobopenings-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed JobPosts API
+  slug: postman-greenhouse-io-jobposts-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Jobs API
+  slug: postman-greenhouse-io-jobs-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed JobStages API
+  slug: postman-greenhouse-io-jobstages-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Offers API
+  slug: postman-greenhouse-io-offers-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Offices API
+  slug: postman-greenhouse-io-offices-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed ProspectPools API
+  slug: postman-greenhouse-io-prospectpools-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed RejectionReasons API
+  slug: postman-greenhouse-io-rejectionreasons-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed ScheduledInterviews API
+  slug: postman-greenhouse-io-scheduledinterviews-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Scorecards API
+  slug: postman-greenhouse-io-scorecards-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Sources API
+  slug: postman-greenhouse-io-sources-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Tags API
+  slug: postman-greenhouse-io-tags-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed TestDelivery API
+  slug: postman-greenhouse-io-testdelivery-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Tests API
+  slug: postman-greenhouse-io-tests-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed TrackingLinks API
+  slug: postman-greenhouse-io-trackinglinks-api
+- collection_type: postman
+  name: Greenhouse Assessment Partner ActivityFeed Users API
+  slug: postman-greenhouse-io-users-api
 - collection_type: open
   name: Greenhouse Assessment Partner API
   slug: open-greenhouse-assessment-api
@@ -139,6 +216,10 @@ collections:
   name: Greenhouse Onboarding API
   slug: open-greenhouse-onboarding-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/greenhouse/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -335,12 +416,12 @@ overview: 'Greenhouse publishes 25 APIs on the [APIs.io](https://apis.io/) netwo
   The Greenhouse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Greenhouse''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 30 more developer resources.'
+  Greenhouse''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 31 more developer resources.'
 plans:
 - name: Greenhouse Io Plans Pricing
   plan_count: 3
   slug: greenhouse-io-plans-pricing
-random_paper: 46
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Greenhouse Io Rate Limits
@@ -361,18 +442,25 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 65.3
-  delta: 3.5
+  composite: 61.5
+  delta: -3.8
   facets:
     commercial_clarity: 68.4
-    contract_quality: 71.6
-    developer_ergonomics: 50.0
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 68.6
+    developer_ergonomics: 54.3
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 61.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/screenshots/greenhouse-io-2026-06-20T182402.png
 security:

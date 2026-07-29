@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
+    openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -233,26 +235,34 @@ overview: 'Fawry publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fawry''s developer surface includes developer portal, getting-started guide, documentation, signup flow, support, code examples, YouTube channel, and 32 more developer resources.'
-random_paper: 9
+random_paper: 14
 score:
   band: emerging
-  composite: 29.6
-  delta: 1.7
+  composite: 27.0
+  delta: -2.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 54.0
+    contract_quality: 53.4
     developer_ergonomics: 47.8
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 27.9
+  previous_composite: 29.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 13.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 9.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/screenshots/fawry-2026-06-20T181100.png
 security:

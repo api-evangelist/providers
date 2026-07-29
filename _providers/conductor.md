@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 44.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -300,7 +302,7 @@ plans:
 - name: Conductor Plans Pricing
   plan_count: 3
   slug: conductor-plans-pricing
-random_paper: 25
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Conductor Rate Limits
@@ -332,18 +334,25 @@ rules:
   slug: conductor-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: 4.2
+  composite: 47.9
+  delta: -4.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 82.3
+    contract_quality: 83.0
     developer_ergonomics: 2.2
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 48.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 52.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/screenshots/conductor-2026-06-20T174854.png
 security:

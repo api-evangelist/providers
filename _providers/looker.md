@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -67,12 +69,31 @@ apis:
 - description: Manage Looker users including creating, updating, and retrieving user accounts, credentials, roles, and sessions.
   name: Looker User API
   slug: looker-user-api
-artifact_total: 124
+artifact_total: 129
 collections:
+- collection_type: postman
+  name: Looker Auth API
+  slug: postman-looker-auth-api
+- collection_type: postman
+  name: Looker Auth Dashboard API
+  slug: postman-looker-dashboard-api
+- collection_type: postman
+  name: Looker Auth Look API
+  slug: postman-looker-look-api
+- collection_type: postman
+  name: Looker Auth Query API
+  slug: postman-looker-query-api
+- collection_type: postman
+  name: Looker Auth User API
+  slug: postman-looker-user-api
 - collection_type: open
   name: Looker API
   slug: open-looker-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/looker/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -462,12 +483,12 @@ overview: 'Looker publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Looker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Looker''s developer surface includes authentication, support, changelog, release notes, pricing, getting-started guide, and 13 more developer resources.'
+  Looker''s developer surface includes authentication, support, changelog, release notes, pricing, getting-started guide, and 14 more developer resources.'
 plans:
 - name: Looker Plans Pricing
   plan_count: 7
   slug: looker-plans-pricing
-random_paper: 40
+random_paper: 36
 rate_limits:
 - limit_count: 8
   name: Looker Rate Limits
@@ -491,18 +512,25 @@ rules:
   slug: looker-spectral-rules
 score:
   band: strong
-  composite: 66.0
-  delta: 3.3
+  composite: 62.3
+  delta: -3.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.1
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 66.1
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 62.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/screenshots/looker-2026-06-20T184712.png
 security:

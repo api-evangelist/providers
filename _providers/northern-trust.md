@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 19.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: The Custody API in the Northern Trust API Store gives institutional clients programmatic access to global custody data — holdings, positions, safekept assets, settlements, and account-level custody in
@@ -164,31 +166,34 @@ press:
 - date: '2026-05-25'
   title: Uncovering Alpha In The Networked Economy
   url: https://www.northerntrust.com/content/dam/northerntrust/pws/nt/documents/asset-management/uncovering-alpha-in-the-networked-economy.pdf
-random_paper: 7
+random_paper: 40
 scopes:
 - name: Northern Trust Scopes
   scope_count: 10
   slug: northern-trust-scopes
   summary_line: 10 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.9
-  delta: 0.0
+  band: developing
+  composite: 43.4
+  delta: 4.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 38.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 60.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northern-trust/refs/heads/main/screenshots/northern-trust-2026-06-20T190416.png
 security:

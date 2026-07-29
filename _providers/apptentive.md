@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 64.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -146,25 +148,35 @@ overview: 'Apptentive publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Apptentive''s developer surface includes authentication, documentation, support, engineering blog, and 16 more developer resources.'
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Apptentive Rate Limits
   slug: apptentive-rate-limits
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 35.1
+  delta: -1.9
   facets:
     commercial_clarity: 26.3
-    contract_quality: 37.7
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 36.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 21.1
   previous_composite: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/screenshots/apptentive-2026-07-25T200848.png
 security:

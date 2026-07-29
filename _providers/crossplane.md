@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: Providers are Crossplane packages that install controllers and CRDs for managing resources on a specific infrastructure platform such as AWS, GCP, or Azure.
   name: Crossplane Providers API
   slug: crossplane-providers-api
-artifact_total: 20
+artifact_total: 27
 collections:
+- collection_type: postman
+  name: Crossplane Kubernetes CompositeResourceDefinitions API
+  slug: postman-crossplane-compositeresourcedefinitions-api
+- collection_type: postman
+  name: Crossplane Kubernetes CompositeResourceDefinitions Compositions API
+  slug: postman-crossplane-compositions-api
+- collection_type: postman
+  name: Crossplane Kubernetes CompositeResourceDefinitions Configurations API
+  slug: postman-crossplane-configurations-api
+- collection_type: postman
+  name: Crossplane Kubernetes CompositeResourceDefinitions DeploymentRuntimeConfigs API
+  slug: postman-crossplane-deploymentruntimeconfigs-api
+- collection_type: postman
+  name: Crossplane Kubernetes CompositeResourceDefinitions EnvironmentConfigs API
+  slug: postman-crossplane-environmentconfigs-api
+- collection_type: postman
+  name: Crossplane Kubernetes CompositeResourceDefinitions Functions API
+  slug: postman-crossplane-functions-api
+- collection_type: postman
+  name: Crossplane Kubernetes CompositeResourceDefinitions Providers API
+  slug: postman-crossplane-providers-api
 - collection_type: open
   name: Crossplane Kubernetes API
   slug: open-crossplane-kubernetes-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/crossplane/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,12 +208,12 @@ overview: 'Crossplane publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Crossplane catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Crossplane''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 16 more developer resources.'
+  Crossplane''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 17 more developer resources.'
 plans:
 - name: Crossplane Plans Pricing
   plan_count: 3
   slug: crossplane-plans-pricing
-random_paper: 62
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Crossplane Rate Limits
@@ -210,19 +237,26 @@ rules:
   slug: crossplane-kubernetes-api-rules
 score:
   band: strong
-  composite: 63.6
-  delta: 5.5
+  composite: 59.9
+  delta: -3.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 78.8
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 79.7
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 58.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 63.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/screenshots/crossplane-2026-06-20T175248.png
 security:
 - kind: authentication

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: The BMW Vehicle Identification API allows users to access detailed information about BMW vehicles by inputting their unique vehicle identification number (VIN). Provides essential data about a vehicle
@@ -113,26 +115,26 @@ plans:
 - name: Bmw Plans Pricing
   plan_count: 3
   slug: bmw-plans-pricing
-random_paper: 54
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Bmw Rate Limits
   slug: bmw-rate-limits
 score:
   band: thin
-  composite: 30.9
-  delta: 0.0
+  composite: 40.6
+  delta: 9.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 26.1
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 30.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmw/refs/heads/main/screenshots/bmw-2026-06-20T173545.png
 security:
 - kind: domain-security

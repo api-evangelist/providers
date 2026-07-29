@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -109,12 +111,88 @@ apis:
 - description: The Usage API from Amazon Macie — 2 operation(s) for usage.
   name: Amazon Macie Usage API
   slug: amazon-macie-usage-api
-artifact_total: 1314
+artifact_total: 1338
 collections:
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId API
+  slug: postman-amazon-macie-admin-adminaccountid-api
+- collection_type: postman
+  name: 'Amazon Macie 2 #adminAccountId Admin API'
+  slug: postman-amazon-macie-admin-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Administrator API
+  slug: postman-amazon-macie-administrator-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Allow Lists API
+  slug: postman-amazon-macie-allow-lists-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Automated Discovery API
+  slug: postman-amazon-macie-automated-discovery-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Classification Export Configuration API
+  slug: postman-amazon-macie-classification-export-configuration-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Classification Scopes API
+  slug: postman-amazon-macie-classification-scopes-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Custom Data Identifiers API
+  slug: postman-amazon-macie-custom-data-identifiers-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Datasources API
+  slug: postman-amazon-macie-datasources-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Findings API
+  slug: postman-amazon-macie-findings-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Findings Publication Configuration API
+  slug: postman-amazon-macie-findings-publication-configuration-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Findingsfilters API
+  slug: postman-amazon-macie-findingsfilters-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Invitations API
+  slug: postman-amazon-macie-invitations-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Jobs API
+  slug: postman-amazon-macie-jobs-api
+- collection_type: postman
+  name: Amazon 2 Admin#adminAccountId Macie API
+  slug: postman-amazon-macie-macie-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Managed Data Identifiers API
+  slug: postman-amazon-macie-managed-data-identifiers-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Master API
+  slug: postman-amazon-macie-master-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Members API
+  slug: postman-amazon-macie-members-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Resource Profiles API
+  slug: postman-amazon-macie-resource-profiles-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Resource Profiles#resourceArn API
+  slug: postman-amazon-macie-resource-profiles-resourcearn-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Reveal Configuration API
+  slug: postman-amazon-macie-reveal-configuration-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Tags API
+  slug: postman-amazon-macie-tags-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Templates API
+  slug: postman-amazon-macie-templates-api
+- collection_type: postman
+  name: Amazon Macie 2 Admin#adminAccountId Usage API
+  slug: postman-amazon-macie-usage-api
 - collection_type: open
   name: Amazon Macie API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-macie/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4030,12 +4108,12 @@ overview: 'Amazon Macie publishes 24 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Macie catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Macie''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Macie''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Macie Plans Pricing
   plan_count: 3
   slug: amazon-macie-plans-pricing
-random_paper: 46
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Amazon Macie Rate Limits
@@ -4059,18 +4137,25 @@ rules:
   slug: amazon-macie-spectral-rules
 score:
   band: strong
-  composite: 69.2
-  delta: 4.6
+  composite: 65.6
+  delta: -3.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.4
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 70.6
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 64.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/screenshots/amazon-macie-2026-06-20T171730.png
 security:

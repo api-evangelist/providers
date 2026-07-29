@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.7
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Credit balance, usage, and transaction history.
@@ -172,7 +174,7 @@ overview: 'Orthogonal publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Orthogonal''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 22 more developer resources.'
-random_paper: 65
+random_paper: 7
 scopes:
 - name: Orthogonal Scopes
   scope_count: 0
@@ -180,18 +182,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 47.0
+  delta: -2.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.9
+    contract_quality: 44.1
     developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 49.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

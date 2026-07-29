@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -271,12 +273,34 @@ apis:
 - description: Access and manage supplier profiles, onboarding, qualifications, performance, and risk assessments on the SAP Ariba Network.
   name: SAP Ariba Suppliers API
   slug: sap-ariba-suppliers-api
-artifact_total: 237
+artifact_total: 243
 collections:
+- collection_type: postman
+  name: SAP Ariba Procurement Invoices API
+  slug: postman-sap-ariba-invoices-api
+- collection_type: postman
+  name: SAP Ariba Procurement Invoices Purchase Order Line Items API
+  slug: postman-sap-ariba-purchase-order-line-items-api
+- collection_type: postman
+  name: SAP Ariba Procurement Invoices Purchase Orders API
+  slug: postman-sap-ariba-purchase-orders-api
+- collection_type: postman
+  name: SAP Ariba Procurement Invoices Receipts API
+  slug: postman-sap-ariba-receipts-api
+- collection_type: postman
+  name: SAP Ariba Procurement Invoices Requisitions API
+  slug: postman-sap-ariba-requisitions-api
+- collection_type: postman
+  name: SAP Ariba Procurement Invoices Suppliers API
+  slug: postman-sap-ariba-suppliers-api
 - collection_type: open
   name: SAP Ariba Procurement API
   slug: open-sap-ariba-procurement-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sap-ariba/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -839,12 +863,12 @@ overview: 'SAP Ariba publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The SAP Ariba catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SAP Ariba''s developer surface includes authentication, getting-started guide, support, release notes, developer portal, documentation, code examples, and 21 more developer resources.'
+  SAP Ariba''s developer surface includes authentication, getting-started guide, support, release notes, developer portal, documentation, code examples, and 22 more developer resources.'
 plans:
 - name: Sap Ariba Plans Pricing
   plan_count: 1
   slug: sap-ariba-plans-pricing
-random_paper: 64
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Sap Ariba Rate Limits
@@ -873,18 +897,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.0
-  delta: 2.5
+  composite: 57.8
+  delta: -3.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.8
-    developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 68.6
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 58.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/screenshots/sap-ariba-2026-06-20T193415.png
 security:

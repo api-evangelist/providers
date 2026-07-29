@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -83,8 +85,31 @@ arazzos:
 - description: Find a failed run in a flow's history, inspect it, and resubmit its trigger.
   name: Microsoft Power Automate Triage and Resubmit a Failed Run
   slug: microsoft-power-automate-triage-failed-run-workflow
-artifact_total: 65
+artifact_total: 71
+collections:
+- collection_type: postman
+  name: Microsoft Power Automate Management Connections API
+  slug: postman-microsoft-power-automate-connections-api
+- collection_type: postman
+  name: Microsoft Power Automate Management Connections Connectors API
+  slug: postman-microsoft-power-automate-connectors-api
+- collection_type: postman
+  name: Microsoft Power Automate Management Connections Environments API
+  slug: postman-microsoft-power-automate-environments-api
+- collection_type: postman
+  name: Microsoft Power Automate Management Connections Flow Permissions API
+  slug: postman-microsoft-power-automate-flow-permissions-api
+- collection_type: postman
+  name: Microsoft Power Automate Management Connections Flow Runs API
+  slug: postman-microsoft-power-automate-flow-runs-api
+- collection_type: postman
+  name: Microsoft Power Automate Management Connections Flows API
+  slug: postman-microsoft-power-automate-flows-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-power-automate/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -349,12 +374,12 @@ overview: 'Microsoft Power Automate publishes 6 APIs on the [APIs.io](https://ap
   The Microsoft Power Automate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Automate''s developer surface includes authentication, changelog, CLI, developer portal, engineering blog, support, training material, and 34 more developer resources.'
+  Microsoft Power Automate''s developer surface includes authentication, changelog, CLI, developer portal, engineering blog, support, training material, and 35 more developer resources.'
 plans:
 - name: Microsoft Power Automate Plans Pricing
   plan_count: 3
   slug: microsoft-power-automate-plans-pricing
-random_paper: 45
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Automate Rate Limits
@@ -383,19 +408,28 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 72.8
-  delta: 0.0
+  composite: 67.8
+  delta: -5.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 80.5
-    developer_ergonomics: 41.3
+    contract_quality: 65.3
+    developer_ergonomics: 39.1
     discoverability: 100.0
-    governance: 86.8
+    governance: 80.2
     operational_transparency: 63.2
   previous_composite: 72.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-06-20T185521.png
 security:
 - kind: authentication

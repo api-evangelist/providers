@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -153,26 +155,33 @@ plans:
 - name: Amazon Resilience Hub Plans Pricing
   plan_count: 3
   slug: amazon-resilience-hub-plans-pricing
-random_paper: 6
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Amazon Resilience Hub Rate Limits
   slug: amazon-resilience-hub-rate-limits
 score:
   band: developing
-  composite: 55.6
-  delta: 3.2
+  composite: 50.6
+  delta: -5.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 61.9
+    contract_quality: 50.8
     developer_ergonomics: 41.3
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 52.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 55.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/screenshots/amazon-resilience-hub-2026-06-20T171808.png
 security:
 - kind: authentication

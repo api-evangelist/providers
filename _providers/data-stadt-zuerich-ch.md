@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: CKAN Action API for Zurich Open Data, ~925 datasets. Base URL https://data.stadt-zuerich.ch/api/3/action/.
@@ -85,30 +87,31 @@ plans:
 - name: Data Stadt Zuerich Ch Plans Pricing
   plan_count: 0
   slug: data-stadt-zuerich-ch-plans-pricing
-random_paper: 14
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Data Stadt Zuerich Ch Rate Limits
   slug: data-stadt-zuerich-ch-rate-limits
 score:
   band: minimal
-  composite: 13.5
-  delta: 0.0
+  composite: 11.2
+  delta: -2.3
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 22.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-stadt-zuerich-ch/refs/heads/main/screenshots/data-stadt-zuerich-ch-2026-06-20T175620.png
 security:

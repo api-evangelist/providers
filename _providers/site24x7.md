@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -184,7 +186,7 @@ plans:
 - name: Site24X7 Plans Pricing
   plan_count: 8
   slug: site24x7-plans-pricing
-random_paper: 34
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Site24X7 Rate Limits
@@ -200,19 +202,26 @@ rules:
   slug: site24x7-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 59.5
-  delta: 0.0
+  composite: 54.5
+  delta: -5.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 71.7
+    contract_quality: 69.5
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 59.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/screenshots/site24x7-2026-06-20T193955.png
 security:
 - kind: authentication

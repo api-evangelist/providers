@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Specific control plane and CLI that builds, deploys and runs agent-defined infrastructure from a single specific.hcl file, spanning local development and production on Specific Cloud.
@@ -138,21 +140,24 @@ overview: 'Specific publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Specific''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 15 more developer resources.'
-random_paper: 22
+random_paper: 68
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 30.1
+  delta: -0.6
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 69.6
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 30.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

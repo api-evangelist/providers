@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -236,7 +238,7 @@ plans:
 - name: Truto Plans Pricing
   plan_count: 2
   slug: truto-plans-pricing
-random_paper: 30
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Truto Rate Limits
@@ -260,18 +262,25 @@ rules:
   slug: truto-rules
 score:
   band: developing
-  composite: 57.0
-  delta: 3.2
+  composite: 52.9
+  delta: -4.1
   facets:
     commercial_clarity: 47.4
-    contract_quality: 68.1
+    contract_quality: 69.5
     developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 53.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 57.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/screenshots/truto-2026-06-20T195809.png
 security:

@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
+    mcp_server: derived
+    openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,27 +182,38 @@ overview: 'NAIC publishes 1 API on the [APIs.io](https://apis.io/) network: Cont
 
 
   NAIC''s developer surface includes authentication, code examples, engineering blog, documentation, developer portal, support, and 22 more developer resources.'
-random_paper: 3
+random_paper: 26
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 31.8
+  delta: -6.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 49.6
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 39.0
+    developer_ergonomics: 38.6
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 0.0
   previous_composite: 38.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 37.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Naic Authentication

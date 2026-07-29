@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 10
 apis:
 - description: REST APIs for MSCI index data including index levels and performance, constituents, security master, dividends, and corporate events for MSCI indexes across supported variants and currencies.
@@ -149,21 +151,24 @@ overview: 'MSCI publishes 10 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   MSCI''s developer surface includes documentation, API reference, support, authentication, and 14 more developer resources.'
-random_paper: 20
+random_paper: 43
 score:
-  band: emerging
-  composite: 27.7
-  delta: 0.0
+  band: thin
+  composite: 28.5
+  delta: 0.8
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 27.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/msci/refs/heads/main/screenshots/msci-2026-06-20T185849.png
 security:

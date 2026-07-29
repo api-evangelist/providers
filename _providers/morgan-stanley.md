@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.8
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: 'The institutional REST APIs on the Morgan Stanley API Platform let onboarded clients and third-party partners integrate Morgan Stanley data and services directly into their own systems and processes. '
@@ -170,30 +172,33 @@ press:
 - date: '2026-05-25'
   title: Research
   url: https://www.morganstanley.com/what-we-do/research
-random_paper: 29
+random_paper: 71
 rate_limits:
 - limit_count: 2
   name: Morgan Stanley Rate Limits
   slug: morgan-stanley-rate-limits
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 34.6
+  delta: -0.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 47.8
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 72.2
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 35.1
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 55.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/screenshots/morgan-stanley-2026-06-20T185816.png
 security:

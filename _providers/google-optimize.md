@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: API for managing Google Optimize experiments, variants, and accessing optimization data. Sunset on September 30, 2023. Migrate to Google Analytics 4 experiments or third-party A/B testing tools.
@@ -94,7 +96,7 @@ plans:
 - name: Google Optimize Plans Pricing
   plan_count: 3
   slug: google-optimize-plans-pricing
-random_paper: 67
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Google Optimize Rate Limits
@@ -110,18 +112,18 @@ rules:
   slug: google-optimize-spectral-rules
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 28.5
+  delta: -3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 92.5
-    governance: 34.2
+    discoverability: 68.5
+    governance: 27.1
     operational_transparency: 31.6
   previous_composite: 31.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-optimize/refs/heads/main/screenshots/google-optimize-2026-06-20T182219.png
 security:

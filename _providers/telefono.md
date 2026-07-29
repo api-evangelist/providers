@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -152,7 +154,7 @@ plans:
 - name: Telefono Plans Pricing
   plan_count: 1
   slug: telefono-plans-pricing
-random_paper: 44
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Telefono Rate Limits
@@ -176,19 +178,32 @@ rules:
   slug: telefono-rules
 score:
   band: developing
-  composite: 57.8
-  delta: 3.3
+  composite: 50.3
+  delta: -7.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.6
+    contract_quality: 66.1
     developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 81.5
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 54.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 57.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 26.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/screenshots/telefono-2026-06-20T195031.png
 security:
 - kind: authentication

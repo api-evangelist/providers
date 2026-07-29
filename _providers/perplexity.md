@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,16 +75,41 @@ apis:
 - description: The Sonar API from Perplexity — 1 operation(s) for sonar.
   name: Perplexity Sonar API
   slug: perplexity-sonar-api
-artifact_total: 151
+artifact_total: 158
 asyncapis:
 - description: AsyncAPI description of Perplexity's HTTP-based streaming surface. IMPORTANT TRANSPORT NOTE ------------------------ Perplexity does NOT expose a WebSocket (ws://, wss://) API. Every streaming interac
   name: Perplexity Streaming API (HTTP + Server-Sent Events)
   slug: perplexity-asyncapi
 collections:
+- collection_type: postman
+  name: Perplexity AI Agent API
+  slug: postman-perplexity-agent-api
+- collection_type: postman
+  name: Perplexity AI Agent Async API
+  slug: postman-perplexity-async-api
+- collection_type: postman
+  name: Perplexity AI Agent Contextualizedembeddings API
+  slug: postman-perplexity-contextualizedembeddings-api
+- collection_type: postman
+  name: Perplexity AI Agent Embeddings API
+  slug: postman-perplexity-embeddings-api
+- collection_type: postman
+  name: Perplexity AI Agent Models API
+  slug: postman-perplexity-models-api
+- collection_type: postman
+  name: Perplexity AI Agent Search API
+  slug: postman-perplexity-search-api
+- collection_type: postman
+  name: Perplexity AI Agent Sonar API
+  slug: postman-perplexity-sonar-api
 - collection_type: open
   name: Perplexity AI API
   slug: open-perplexity
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/perplexity/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -642,12 +669,12 @@ overview: 'Perplexity publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The Perplexity catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Perplexity''s developer surface includes authentication, getting-started guide, API reference, pricing, engineering blog, changelog, signup flow, and 39 more developer resources.'
+  Perplexity''s developer surface includes authentication, getting-started guide, API reference, pricing, engineering blog, changelog, signup flow, and 40 more developer resources.'
 plans:
 - name: Perplexity Plans Pricing
   plan_count: 4
   slug: perplexity-plans-pricing
-random_paper: 22
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Perplexity Rate Limits
@@ -671,18 +698,25 @@ rules:
   slug: perplexity-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.0
-  delta: 2.0
+  composite: 64.0
+  delta: -1.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 67.4
-    developer_ergonomics: 58.7
-    discoverability: 62.5
-    governance: 52.6
+    contract_quality: 72.0
+    developer_ergonomics: 63.0
+    discoverability: 46.3
+    governance: 41.7
     operational_transparency: 73.7
-  previous_composite: 63.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/screenshots/perplexity-2026-06-20T191624.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -64,8 +66,31 @@ apis:
 - description: The Users API from Sauce Labs — 1 operation(s) for users.
   name: Sauce Labs Users API
   slug: sauce-labs-users-api
-artifact_total: 22
+artifact_total: 28
+collections:
+- collection_type: postman
+  name: Sauce Labs Jobs Devices API
+  slug: postman-sauce-labs-devices-api
+- collection_type: postman
+  name: Sauce Labs Jobs Devices Job Assets API
+  slug: postman-sauce-labs-job-assets-api
+- collection_type: postman
+  name: Sauce Labs Devices Jobs API
+  slug: postman-sauce-labs-jobs-api
+- collection_type: postman
+  name: Sauce Labs Jobs Devices Platform API
+  slug: postman-sauce-labs-platform-api
+- collection_type: postman
+  name: Sauce Labs Jobs Devices Sessions API
+  slug: postman-sauce-labs-sessions-api
+- collection_type: postman
+  name: Sauce Labs Jobs Devices Users API
+  slug: postman-sauce-labs-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sauce-labs/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -182,12 +207,12 @@ overview: 'Sauce Labs publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Sauce Labs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sauce Labs'' developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 14 more developer resources.'
+  Sauce Labs'' developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 15 more developer resources.'
 plans:
 - name: Sauce Labs Plans Pricing
   plan_count: 5
   slug: sauce-labs-plans-pricing
-random_paper: 40
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Sauce Labs Rate Limits
@@ -203,18 +228,25 @@ rules:
   slug: sauce-labs-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 57.7
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.9
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 66.4
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/screenshots/sauce-labs-2026-06-20T193442.png
 security:

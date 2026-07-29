@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Single GraphQL endpoint delivering Spire's satellite AIS maritime data - vessel positions, voyages, port calls, and predicted ETAs - with flexible querying for analytics and integration use cases. Now
@@ -119,25 +121,25 @@ plans:
 - name: Spire Global Plans Pricing
   plan_count: 1
   slug: spire-global-plans-pricing
-random_paper: 61
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Spire Global Rate Limits
   slug: spire-global-rate-limits
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 16.6
+  delta: -2.6
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 19.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spire-global/refs/heads/main/screenshots/spire-global-2026-06-20T194320.png
 security:

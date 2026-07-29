@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -64,8 +66,37 @@ apis:
 - description: The Transcription V2 API from Gladia — 3 operation(s) for transcription v2.
   name: Gladia Transcription V2 API
   slug: gladia-transcription-v2-api
-artifact_total: 28
+artifact_total: 36
+collections:
+- collection_type: postman
+  name: Gladia Control AudioToText API
+  slug: postman-gladia-audiototext-api
+- collection_type: postman
+  name: Gladia Control AudioToText File Management API
+  slug: postman-gladia-file-management-api
+- collection_type: postman
+  name: Gladia Control AudioToText Job History API
+  slug: postman-gladia-job-history-api
+- collection_type: postman
+  name: Gladia Control AudioToText Live V2 API
+  slug: postman-gladia-live-v2-api
+- collection_type: postman
+  name: Gladia Control AudioToText OpenRouter API
+  slug: postman-gladia-openrouter-api
+- collection_type: postman
+  name: Gladia Control AudioToText Pre-recorded V2 API
+  slug: postman-gladia-pre-recorded-v2-api
+- collection_type: postman
+  name: Gladia Control AudioToText Transcription V1 API
+  slug: postman-gladia-transcription-v1-api
+- collection_type: postman
+  name: Gladia Control AudioToText Transcription V2 API
+  slug: postman-gladia-transcription-v2-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/gladia/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -218,12 +249,12 @@ overview: 'Gladia publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Gladia catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gladia''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 20 more developer resources.'
+  Gladia''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 21 more developer resources.'
 plans:
 - name: Gladia Plans Pricing
   plan_count: 3
   slug: gladia-plans-pricing
-random_paper: 66
+random_paper: 71
 rate_limits:
 - limit_count: 8
   name: Gladia Rate Limits
@@ -239,18 +270,25 @@ rules:
   slug: gladia-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 57.4
+  delta: -3.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 63.3
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 64.1
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 61.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/screenshots/gladia-2026-06-20T181856.png
 security:

@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -124,7 +126,7 @@ overview: 'An API of Ice And Fire publishes 4 APIs on the [APIs.io](https://apis
 
 
   An API of Ice And Fire''s developer surface includes documentation and 12 more developer resources.'
-random_paper: 21
+random_paper: 68
 rules:
 - name: An API of Ice And Fire API Rules
   rule_count: 53
@@ -135,25 +137,33 @@ rules:
     warn: 26
   slug: an-api-of-ice-and-fire-spectral-rules
 score:
-  band: thin
-  composite: 32.0
-  delta: 2.8
+  band: emerging
+  composite: 26.3
+  delta: -5.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 54.9
+    contract_quality: 44.1
     developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 60.5
+    discoverability: 81.5
+    governance: 47.9
     operational_transparency: 5.3
-  previous_composite: 29.2
+  previous_composite: 32.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 20.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/screenshots/an-api-of-ice-and-fire-2026-06-20T171942.png
 security:
 - kind: domain-security

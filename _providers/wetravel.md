@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -216,30 +218,41 @@ overview: 'WeTravel publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 58
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Wetravel Rate Limits
   slug: wetravel-rate-limits
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 46.5
+  delta: -2.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 65.9
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.5
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 63.2
   previous_composite: 49.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 50.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 35.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

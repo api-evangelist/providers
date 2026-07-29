@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -61,8 +63,32 @@ apis:
 - description: Endpoints for creating and managing training jobs including pre-training, supervised fine-tuning, and reinforcement learning pipelines.
   name: Mistral AI Training Jobs API
   slug: mistral-ai-training-jobs-api
-artifact_total: 71
+artifact_total: 79
 collections:
+- collection_type: postman
+  name: Mistral AI Agents API
+  slug: postman-mistral-ai-agents-api
+- collection_type: postman
+  name: Mistral AI Agents Batch Jobs API
+  slug: postman-mistral-ai-batch-jobs-api
+- collection_type: postman
+  name: Mistral AI Agents Chat Completions API
+  slug: postman-mistral-ai-chat-completions-api
+- collection_type: postman
+  name: Mistral AI Agents Embeddings API
+  slug: postman-mistral-ai-embeddings-api
+- collection_type: postman
+  name: Mistral AI Agents Fine-Tuning Jobs API
+  slug: postman-mistral-ai-fine-tuning-jobs-api
+- collection_type: postman
+  name: Mistral AI Agents Models API
+  slug: postman-mistral-ai-models-api
+- collection_type: postman
+  name: Mistral AI Agents OCR API
+  slug: postman-mistral-ai-ocr-api
+- collection_type: postman
+  name: Mistral AI Agents Training Jobs API
+  slug: postman-mistral-ai-training-jobs-api
 - collection_type: open
   name: Mistral AI Agents API
   slug: open-mistral-ai-agents
@@ -88,6 +114,10 @@ collections:
   name: Mistral AI OCR API
   slug: open-mistral-ai-ocr
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mistral-ai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -331,12 +361,12 @@ overview: 'Mistral AI publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The Mistral AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Mistral AI''s developer surface includes authentication, developer portal, documentation, engineering blog, and 15 more developer resources.'
+  Mistral AI''s developer surface includes authentication, developer portal, documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Mistral Ai Plans Pricing
   plan_count: 6
   slug: mistral-ai-plans-pricing
-random_paper: 59
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Mistral Ai Rate Limits
@@ -352,18 +382,25 @@ rules:
   slug: mistral-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 3.2
+  composite: 58.6
+  delta: -2.5
   facets:
     commercial_clarity: 73.7
-    contract_quality: 66.8
-    developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 70.8
+    developer_ergonomics: 34.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 57.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mistral-ai/refs/heads/main/screenshots/mistral-ai-2026-06-20T185616.png
 security:

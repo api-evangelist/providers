@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 6
@@ -245,7 +247,7 @@ plans:
 - name: Slashid Plans Pricing
   plan_count: 3
   slug: slashid-plans-pricing
-random_paper: 64
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Slashid Rate Limits
@@ -261,19 +263,26 @@ rules:
   slug: slashid-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 58.0
-  delta: 0.0
+  composite: 52.8
+  delta: -5.2
   facets:
     commercial_clarity: 47.4
-    contract_quality: 67.8
+    contract_quality: 66.1
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 58.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/screenshots/slashid-2026-06-20T194022.png
 security:
 - kind: authentication

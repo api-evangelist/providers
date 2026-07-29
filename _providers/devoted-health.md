@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 21
 apis:
 - description: The CodeSystem FHIR resource type
@@ -206,31 +208,41 @@ overview: 'Devoted Health publishes 21 APIs on the [APIs.io](https://apis.io/) n
 
 
   Devoted Health''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 62
+random_paper: 36
 scopes:
 - name: Devoted Health Scopes
   scope_count: 14
   slug: devoted-health-scopes
   summary_line: 14 scopes
 score:
-  band: thin
-  composite: 43.3
-  delta: 0.0
+  band: developing
+  composite: 44.1
+  delta: 0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 37.7
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 47.5
+    developer_ergonomics: 45.1
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 0.0
   previous_composite: 43.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 70.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/screenshots/devoted-health-2026-07-25T211822.png
 security:

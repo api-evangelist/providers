@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -208,7 +210,7 @@ plans:
 - name: Spike Sh Plans Pricing
   plan_count: 3
   slug: spike-sh-plans-pricing
-random_paper: 56
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Spike Sh Rate Limits
@@ -224,18 +226,25 @@ rules:
   slug: spike-sh-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 50.6
+  delta: -4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
+    contract_quality: 69.5
     developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 54.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/screenshots/spike-sh-2026-06-20T194313.png
 security:

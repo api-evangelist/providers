@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Core API for interacting with Excel objects, workbooks, worksheets, ranges, and cells through VBA automation.
@@ -100,25 +102,25 @@ plans:
 - name: Microsoft Excel Macros Plans Pricing
   plan_count: 3
   slug: microsoft-excel-macros-plans-pricing
-random_paper: 2
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Microsoft Excel Macros Rate Limits
   slug: microsoft-excel-macros-rate-limits
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 31.0
+  delta: -2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 75.0
+    discoverability: 55.6
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 33.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-macros/refs/heads/main/screenshots/microsoft-excel-macros-2026-06-20T185500.png
 security:

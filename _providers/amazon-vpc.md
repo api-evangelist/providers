@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,12 +57,34 @@ apis:
 - description: Operations for creating and managing Virtual Private Clouds
   name: Amazon VPC VPCs API
   slug: amazon-vpc-vpcs-api
-artifact_total: 50
+artifact_total: 56
 collections:
+- collection_type: postman
+  name: Amazon VPC Internet Gateways API
+  slug: postman-amazon-vpc-internet-gateways-api
+- collection_type: postman
+  name: Amazon VPC Internet Gateways NAT Gateways API
+  slug: postman-amazon-vpc-nat-gateways-api
+- collection_type: postman
+  name: Amazon VPC Internet Gateways Network ACLs API
+  slug: postman-amazon-vpc-network-acls-api
+- collection_type: postman
+  name: Amazon VPC Internet Gateways Route Tables API
+  slug: postman-amazon-vpc-route-tables-api
+- collection_type: postman
+  name: Amazon VPC Internet Gateways Subnets API
+  slug: postman-amazon-vpc-subnets-api
+- collection_type: postman
+  name: Amazon VPC Internet Gateways VPCs API
+  slug: postman-amazon-vpc-vpcs-api
 - collection_type: open
   name: Amazon VPC API
   slug: open-amazon-vpc
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-vpc/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -279,12 +303,12 @@ overview: 'Amazon VPC publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon VPC catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon VPC''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
+  Amazon VPC''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
 plans:
 - name: Amazon Vpc Plans Pricing
   plan_count: 3
   slug: amazon-vpc-plans-pricing
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Vpc Rate Limits
@@ -308,18 +332,25 @@ rules:
   slug: amazon-vpc-spectral-rules
 score:
   band: exemplar
-  composite: 73.2
-  delta: 4.6
+  composite: 70.2
+  delta: -3.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 74.3
+    developer_ergonomics: 45.7
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 68.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 73.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/screenshots/amazon-vpc-2026-06-20T171843.png
 security:

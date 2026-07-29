@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +176,7 @@ plans:
 - name: Nvd Plans Pricing
   plan_count: 2
   slug: nvd-plans-pricing
-random_paper: 56
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Nvd Rate Limits
@@ -190,18 +192,25 @@ rules:
   slug: nvd-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 3.3
+  composite: 48.6
+  delta: -3.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 72.4
+    contract_quality: 73.6
     developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 49.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 52.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/screenshots/nvd-2026-06-20T190537.png
 security:

@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 6.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -138,21 +140,23 @@ overview: 'LearnPlatform is profiled on the [APIs.io](https://apis.io/) network.
 
 
   LearnPlatform''s developer surface includes developer portal, documentation, support, engineering blog, signup flow, changelog, and 18 more developer resources.'
-random_paper: 39
+random_paper: 13
 score:
-  band: emerging
-  composite: 28.7
-  delta: 0.0
+  band: thin
+  composite: 30.3
+  delta: 1.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 55.3
   previous_composite: 28.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/screenshots/learnplatform-2026-07-25T224800.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 54.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -304,7 +306,7 @@ plans:
 - name: Nomba Plans Pricing
   plan_count: 1
   slug: nomba-plans-pricing
-random_paper: 49
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Nomba Rate Limits
@@ -328,23 +330,31 @@ rules:
   slug: nomba-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 2.8
+  composite: 43.4
+  delta: -4.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 78.8
+    contract_quality: 76.9
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 60.5
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 21.1
-  previous_composite: 45.1
+  previous_composite: 47.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
   regulatory:
     applies: true
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 32.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/screenshots/nomba-2026-06-20T190355.png
 security:

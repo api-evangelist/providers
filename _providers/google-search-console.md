@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,12 +57,28 @@ apis:
 - description: Inspect individual URLs to retrieve detailed indexing, crawling, and serving information. Check whether a URL is indexed, view crawl details, mobile usability status, and rich results eligibility.
   name: Google Search Console URL Inspection API
   slug: google-search-console-url-inspection-api
-artifact_total: 99
+artifact_total: 103
 collections:
+- collection_type: postman
+  name: Google Search Console Search Analytics API
+  slug: postman-google-search-console-search-analytics-api
+- collection_type: postman
+  name: Google Search Console Search Analytics Sitemaps API
+  slug: postman-google-search-console-sitemaps-api
+- collection_type: postman
+  name: Google Search Console Search Analytics Sites API
+  slug: postman-google-search-console-sites-api
+- collection_type: postman
+  name: Google Search Console Search Analytics URL Inspection API
+  slug: postman-google-search-console-url-inspection-api
 - collection_type: open
   name: Google Search Console API
   slug: open-google-search-console-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-search-console/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -373,12 +391,12 @@ overview: 'Google Search Console publishes 4 APIs on the [APIs.io](https://apis.
   The Google Search Console catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Search Console''s developer surface includes authentication, engineering blog, support, developer console, and 13 more developer resources.'
+  Google Search Console''s developer surface includes authentication, engineering blog, support, developer console, and 14 more developer resources.'
 plans:
 - name: Google Search Console Plans Pricing
   plan_count: 1
   slug: google-search-console-plans-pricing
-random_paper: 4
+random_paper: 33
 rate_limits:
 - limit_count: 11
   name: Google Search Console Rate Limits
@@ -407,18 +425,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
-  delta: 4.6
+  composite: 57.5
+  delta: -2.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.5
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 73.7
+    developer_ergonomics: 43.5
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 55.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/screenshots/google-search-console-2026-06-20T182231.png
 security:

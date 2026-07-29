@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,12 +75,25 @@ apis:
 - description: Operations on the entity definition entity set. Provides metadata about Dataverse tables (entities) including their logical names, collection names, and structural information. Read-only access via Re
   name: Microsoft Power Apps Entities API
   slug: microsoft-power-apps-entities-api
-artifact_total: 66
+artifact_total: 69
 collections:
+- collection_type: postman
+  name: Microsoft Power Apps Microsoft Dataverse Web Accounts API
+  slug: postman-microsoft-power-apps-accounts-api
+- collection_type: postman
+  name: Microsoft Power Apps Microsoft Dataverse Web Accounts Contacts API
+  slug: postman-microsoft-power-apps-contacts-api
+- collection_type: postman
+  name: Microsoft Power Apps Microsoft Dataverse Web Accounts Entities API
+  slug: postman-microsoft-power-apps-entities-api
 - collection_type: open
   name: Microsoft Power Apps Microsoft Dataverse Web API
   slug: open-microsoft-power-apps-dataverse-web-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-power-apps/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -310,12 +325,12 @@ overview: 'Microsoft Power Apps publishes 3 APIs on the [APIs.io](https://apis.i
   The Microsoft Power Apps catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Apps'' developer surface includes authentication, engineering blog, pricing, support, training material, documentation, CLI, and 17 more developer resources.'
+  Microsoft Power Apps'' developer surface includes authentication, engineering blog, pricing, support, training material, documentation, CLI, and 18 more developer resources.'
 plans:
 - name: Microsoft Power Apps Plans Pricing
   plan_count: 6
   slug: microsoft-power-apps-plans-pricing
-random_paper: 25
+random_paper: 63
 rate_limits:
 - limit_count: 9
   name: Microsoft Power Apps Rate Limits
@@ -344,18 +359,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 68.0
-  delta: 4.6
+  composite: 64.5
+  delta: -3.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 72.2
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 73.7
-  previous_composite: 63.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/screenshots/microsoft-power-apps-2026-06-20T185522.png
 security:

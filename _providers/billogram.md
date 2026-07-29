@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'RESTful JSON API for managing invoices (billograms), customers, items, credit invoices, payment sources, offers, billing tabs, reports, and webhooks. Authenticated with HTTP Basic Auth (API User ID + '
@@ -109,26 +111,29 @@ overview: 'Billogram publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Billogram''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 10 more developer resources.'
-random_paper: 1
+random_paper: 29
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 35.0
+  delta: 4.5
   facets:
     commercial_clarity: 23.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 10.5
   previous_composite: 30.5
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 34.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 25.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/billogram/refs/heads/main/screenshots/billogram-2026-07-25T202950.png
 security:

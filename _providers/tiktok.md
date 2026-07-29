@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -67,8 +69,38 @@ apis:
 - description: Campaign performance reporting
   name: TikTok Reporting API
   slug: tiktok-reporting-api
-artifact_total: 28
+artifact_total: 38
 collections:
+- collection_type: postman
+  name: TikTok API for Business Ad Groups API
+  slug: postman-tiktok-ad-groups-api
+- collection_type: postman
+  name: TikTok API for Business Ad Groups Ads API
+  slug: postman-tiktok-ads-api
+- collection_type: postman
+  name: TikTok API for Business Ad Groups Audiences API
+  slug: postman-tiktok-audiences-api
+- collection_type: postman
+  name: TikTok API for Business Ad Groups Campaigns API
+  slug: postman-tiktok-campaigns-api
+- collection_type: postman
+  name: TikTok API for Business Ad Groups Data Portability API
+  slug: postman-tiktok-data-portability-api
+- collection_type: postman
+  name: TikTok API for Business Ad Groups Finance API
+  slug: postman-tiktok-finance-api
+- collection_type: postman
+  name: TikTok API for Business Ad Groups Logistics API
+  slug: postman-tiktok-logistics-api
+- collection_type: postman
+  name: TikTok API for Business Ad Groups Orders API
+  slug: postman-tiktok-orders-api
+- collection_type: postman
+  name: TikTok API for Business Ad Groups Products API
+  slug: postman-tiktok-products-api
+- collection_type: postman
+  name: TikTok API for Business Ad Groups Reporting API
+  slug: postman-tiktok-reporting-api
 - collection_type: open
   name: TikTok API for Business
   slug: open-tiktok-business
@@ -79,6 +111,10 @@ collections:
   name: TikTok Shop API
   slug: open-tiktok-shop
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tiktok/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -208,12 +244,12 @@ overview: 'TikTok publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The TikTok catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TikTok''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 14 more developer resources.'
+  TikTok''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 15 more developer resources.'
 plans:
 - name: Tiktok Plans Pricing
   plan_count: 4
   slug: tiktok-plans-pricing
-random_paper: 50
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Tiktok Rate Limits
@@ -236,19 +272,26 @@ rules:
     warn: 2
   slug: tiktok-rules
 score:
-  band: strong
-  composite: 68.1
-  delta: 3.2
+  band: exemplar
+  composite: 66.2
+  delta: -1.9
   facets:
     commercial_clarity: 73.7
-    contract_quality: 64.4
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 70.7
+    developer_ergonomics: 52.2
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 64.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/screenshots/tiktok-2026-06-20T195349.png
 security:

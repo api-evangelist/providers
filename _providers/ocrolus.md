@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 70.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -84,12 +86,65 @@ apis:
 - description: The Webhooks API from Ocrolus — 4 operation(s) for webhooks.
   name: Ocrolus Webhooks API
   slug: ocrolus-webhooks-api
-artifact_total: 24
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Ocrolus Webhooks
   slug: ocrolus-webhooks
+collections:
+- collection_type: postman
+  name: Account Level Webhooks Book Commands API
+  slug: postman-ocrolus-book-commands-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Book Queries API
+  slug: postman-ocrolus-book-queries-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Business history API
+  slug: postman-ocrolus-business-history-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Business Verification (Deprecated) API
+  slug: postman-ocrolus-business-verification-deprecated-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Capture API
+  slug: postman-ocrolus-capture-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Cash Flow Analytics API
+  slug: postman-ocrolus-cash-flow-analytics-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Detect API
+  slug: postman-ocrolus-detect-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Encore API
+  slug: postman-ocrolus-encore-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands File Uploads API
+  slug: postman-ocrolus-file-uploads-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Income API
+  slug: postman-ocrolus-income-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Legacy Cash Flow Analytics (Deprecated) API
+  slug: postman-ocrolus-legacy-cash-flow-analytics-deprecated-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Oauth API
+  slug: postman-ocrolus-oauth-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Org Level Webhooks API
+  slug: postman-ocrolus-org-level-webhooks-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands Tag Management API
+  slug: postman-ocrolus-tag-management-api
+- collection_type: postman
+  name: Account Level Webhooks Book Commands User management API
+  slug: postman-ocrolus-user-management-api
+- collection_type: postman
+  name: Account Level Book Commands Webhooks API
+  slug: postman-ocrolus-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ocrolus/overview
 - group: company
   title: ''
   type: Website
@@ -284,31 +339,42 @@ overview: 'Ocrolus publishes 16 APIs on the [APIs.io](https://apis.io/) network,
   The Ocrolus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ocrolus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 37 more developer resources.'
-random_paper: 27
+  Ocrolus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 38 more developer resources.'
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Ocrolus Rate Limits
   slug: ocrolus-rate-limits
 score:
   band: strong
-  composite: 63.7
-  delta: 0.0
+  composite: 59.9
+  delta: -3.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.3
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 68.4
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 76.3
   previous_composite: 63.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

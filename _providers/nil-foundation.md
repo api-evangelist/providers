@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 37.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Ethereum-style JSON-RPC 2.0 API exposing the =nil; cluster — blocks, transactions (messages), accounts, contract calls, gas pricing, shard enumeration, tokens, and event filters. Read methods require '
@@ -138,21 +140,24 @@ overview: '=nil; Foundation publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   =nil; Foundation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, changelog, and 15 more developer resources.'
-random_paper: 19
+random_paper: 61
 score:
   band: emerging
-  composite: 29.0
-  delta: 0.0
+  composite: 26.4
+  delta: -2.6
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 63.0
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 28.9
   previous_composite: 29.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

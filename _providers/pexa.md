@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 60.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -41,12 +43,32 @@ apis:
 - description: The PEXA Plus Marketplace B2B API exposes marketplace services to business partners — health check, title search ordering and billing — under the PEXA Plus product. Published as an OpenAPI 3.0.3 contr
   name: PEXA Plus Marketplace B2B API
   slug: pexa-plus-marketplace-b2b-api
-artifact_total: 12
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Pexa Notification Webhooks
   slug: pexa-notification-webhooks
+collections:
+- collection_type: postman
+  name: Notification Service [$]
+  slug: postman-pexa-notification-service
+- collection_type: postman
+  name: PEXA Plus Marketplace B2B API
+  slug: postman-pexa-plus-marketplace-b2b-api-oas300
+- collection_type: postman
+  name: PEXA Plus Marketplace B2B API
+  slug: postman-pexa-plus-marketplace-b2b-api
+- collection_type: postman
+  name: Projects API
+  slug: postman-pexa-projects-api-v4
+- collection_type: postman
+  name: Standalone Discharge Experience API
+  slug: postman-pexa-standalone-discharge-experience-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pexa/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -270,8 +292,8 @@ overview: 'PEXA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The PEXA catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PEXA''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 44 more developer resources.'
-random_paper: 22
+  PEXA''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 45 more developer resources.'
+random_paper: 45
 scopes:
 - name: Pexa Scopes
   scope_count: 11
@@ -279,18 +301,28 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.1
-  delta: 0.0
+  composite: 60.3
+  delta: 0.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 70.5
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 69.7
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 60.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 57.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/screenshots/pexa-2026-07-27T125357.png
 security:

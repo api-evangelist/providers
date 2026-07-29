@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -336,7 +338,7 @@ plans:
 - name: Betsolutions Plans Pricing
   plan_count: 1
   slug: betsolutions-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Betsolutions Rate Limits
@@ -360,19 +362,26 @@ rules:
   slug: betsolutions-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 44.2
+  delta: -7.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.7
+    contract_quality: 60.2
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 26.3
   previous_composite: 51.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/screenshots/betsolutions-2026-06-20T173201.png
 security:
 - kind: authentication

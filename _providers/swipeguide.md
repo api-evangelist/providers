@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for the L2L Dispatch Smart Manufacturing Platform. HTTPS GET/POST/PUT/DELETE over per-tenant hosts, API-key authenticated, JSON by default (XML optional). Covers 60+ shop-floor resources incl
@@ -114,21 +116,24 @@ overview: 'Swipeguide publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Swipeguide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 10 more developer resources.'
-random_paper: 58
+random_paper: 0
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 26.5
+  delta: 0.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 39.1
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 25.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

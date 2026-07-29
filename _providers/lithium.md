@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.1
+  scored_at: '2026-07-28'
 api_count: 100
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -531,7 +533,7 @@ overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lithium''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 37 more developer resources.'
-random_paper: 16
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Lithium Rate Limits
@@ -542,19 +544,34 @@ scopes:
   slug: lithium-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 58.3
-  delta: 0.0
+  band: strong
+  composite: 61.2
+  delta: 2.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.8
-    developer_ergonomics: 80.4
-    discoverability: 67.5
-    governance: 0.0
+    contract_quality: 66.1
+    developer_ergonomics: 69.0
+    discoverability: 68.5
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 58.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 99
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:

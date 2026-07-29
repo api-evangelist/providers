@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -112,8 +114,83 @@ apis:
 - description: The Team Secrets API from Paperspace — 2 operation(s) for team secrets.
   name: Paperspace Team Secrets API
   slug: paperspace-team-secrets-api
-artifact_total: 64
+artifact_total: 89
 collections:
+- collection_type: postman
+  name: Paperspace Container Registries Activity API
+  slug: postman-paperspace-activity-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Authentication API
+  slug: postman-paperspace-authentication-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Collaborators API
+  slug: postman-paperspace-collaborators-api
+- collection_type: postman
+  name: Paperspace Activity Container Registries API
+  slug: postman-paperspace-container-registries-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Custom Templates API
+  slug: postman-paperspace-custom-templates-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Dataset Versions API
+  slug: postman-paperspace-dataset-versions-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Datasets API
+  slug: postman-paperspace-datasets-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Deployments API
+  slug: postman-paperspace-deployments-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Machine Access API
+  slug: postman-paperspace-machine-access-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Machine Events API
+  slug: postman-paperspace-machine-events-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Machine Types API
+  slug: postman-paperspace-machine-types-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Machines API
+  slug: postman-paperspace-machines-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Models API
+  slug: postman-paperspace-models-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity OS Templates API
+  slug: postman-paperspace-os-templates-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Private Networks API
+  slug: postman-paperspace-private-networks-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Projects API
+  slug: postman-paperspace-projects-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Public IPs API
+  slug: postman-paperspace-public-ips-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Secrets API
+  slug: postman-paperspace-secrets-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Shared Drives API
+  slug: postman-paperspace-shared-drives-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Snapshots API
+  slug: postman-paperspace-snapshots-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Startup Scripts API
+  slug: postman-paperspace-startup-scripts-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Storage Providers API
+  slug: postman-paperspace-storage-providers-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Tags API
+  slug: postman-paperspace-tags-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Team Members API
+  slug: postman-paperspace-team-members-api
+- collection_type: postman
+  name: Paperspace Container Registries Activity Team Secrets API
+  slug: postman-paperspace-team-secrets-api
 - collection_type: open
   name: Paperspace Container Registries API
   slug: open-paperspace-container-registries-api
@@ -145,6 +222,10 @@ collections:
   name: Paperspace Templates and Startup Scripts API
   slug: open-paperspace-templates-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/paperspace/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -373,12 +454,12 @@ overview: 'Paperspace publishes 25 APIs on the [APIs.io](https://apis.io/) netwo
   The Paperspace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Paperspace''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, developer console, engineering blog, and 36 more developer resources.'
+  Paperspace''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, developer console, engineering blog, and 37 more developer resources.'
 plans:
 - name: Paperspace Plans Pricing
   plan_count: 6
   slug: paperspace-plans-pricing
-random_paper: 40
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Paperspace Rate Limits
@@ -402,18 +483,25 @@ rules:
   slug: paperspace-rules
 score:
   band: strong
-  composite: 64.2
-  delta: 1.3
+  composite: 61.6
+  delta: -2.6
   facets:
     commercial_clarity: 78.9
-    contract_quality: 63.7
-    developer_ergonomics: 63.0
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 65.3
+    developer_ergonomics: 67.4
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 62.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png
 security:

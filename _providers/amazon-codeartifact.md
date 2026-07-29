@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -75,8 +77,52 @@ apis:
 - description: The Untag#resourceArn API from Amazon CodeArtifact — 1 operation(s) for untag#resourcearn.
   name: Amazon CodeArtifact Untag#resourceArn API
   slug: amazon-codeartifact-untag-resourcearn-api
-artifact_total: 472
+artifact_total: 485
+collections:
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain API
+  slug: postman-amazon-codeartifact-authorization-token-domain-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token# Domain API
+  slug: postman-amazon-codeartifact-domain-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Domain#domain API
+  slug: postman-amazon-codeartifact-domain-domain-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Domains API
+  slug: postman-amazon-codeartifact-domains-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Package API
+  slug: postman-amazon-codeartifact-package-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Package#domain&repository&format&package API
+  slug: postman-amazon-codeartifact-package-domain-repository-format-package-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Packages#domain&repository API
+  slug: postman-amazon-codeartifact-packages-domain-repository-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Repositories API
+  slug: postman-amazon-codeartifact-repositories-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Repository API
+  slug: postman-amazon-codeartifact-repository-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Repository#domain&repository API
+  slug: postman-amazon-codeartifact-repository-domain-repository-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Tag#resourceArn API
+  slug: postman-amazon-codeartifact-tag-resourcearn-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Tags#resourceArn API
+  slug: postman-amazon-codeartifact-tags-resourcearn-api
+- collection_type: postman
+  name: CodeArtifact Authorization Token#domain Untag#resourceArn API
+  slug: postman-amazon-codeartifact-untag-resourcearn-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-codeartifact/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1517,8 +1563,8 @@ overview: 'Amazon CodeArtifact publishes 13 APIs on the [APIs.io](https://apis.i
   The Amazon CodeArtifact catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 44
+  Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
+random_paper: 23
 rules:
 - name: Amazon CodeArtifact API Rules
   rule_count: 5
@@ -1538,18 +1584,27 @@ rules:
   slug: amazon-codeartifact-spectral-rules
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 62.1
+  delta: -0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 77.6
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 78.1
+    developer_ergonomics: 52.2
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 62.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/screenshots/amazon-codeartifact-2026-07-25T195952.png
 security:

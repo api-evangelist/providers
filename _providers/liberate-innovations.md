@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 22.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.6
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Advance workflow instances that are paused on an intermediate event.
@@ -150,26 +152,36 @@ overview: 'Liberate Innovations publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   Liberate Innovations'' developer surface includes documentation, API reference, getting-started guide, engineering blog, product news, signup flow, support, and 18 more developer resources.'
-random_paper: 53
+random_paper: 14
 score:
-  band: developing
-  composite: 46.0
-  delta: 0.0
+  band: thin
+  composite: 41.6
+  delta: -4.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
-    developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 52.5
+    developer_ergonomics: 42.9
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 46.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 28.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/screenshots/liberate-innovations-2026-07-25T225018.png
 security:

@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: flavored
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 3
@@ -35,8 +26,11 @@ agentic_access:
   operation_count: 77
   slug: speakeasy-agentic-access
   summary_line: 77 operations · 38 acting · 3 human-in-the-loop
-api_count: 20
+api_count: 8
 apis:
+- description: The platform to build APIs your users love. Best-in-class API tooling for robust SDKs, API documentation, Terraform providers, MCP servers, and end-to-end contract testing. OpenAPI-native with no prop
+  name: Speakeasy
+  slug: speakeasy
 - description: Generate idiomatic, type-safe SDKs in 7+ languages from OpenAPI specs. Supports TypeScript, Python, Go, Java, C#, PHP, Ruby, and more with automated CI/CD integration and publishing to popular package
   name: Speakeasy SDK Generation
   slug: sdk-generation
@@ -58,51 +52,55 @@ apis:
 - description: 'The MCP Cloud platform by Speakeasy. Ship better agents with production-ready MCP infrastructure. Host remote MCP servers, power in-application chat, and manage and secure MCP servers for your entire '
   name: Speakeasy Gram
   slug: gram
-- description: REST APIs for working with Registry artifacts
-  name: Speakeasy Artifacts API
-  slug: speakeasy-artifacts-api
-- description: REST APIs for managing Authentication
-  name: Speakeasy Auth API
-  slug: speakeasy-auth-api
-- description: REST APIs for retrieving Code Samples
-  name: Speakeasy CodeSamples API
-  slug: speakeasy-codesamples-api
-- description: REST APIs for managing events captured by a speakeasy binary (CLI, GitHub Action etc)
-  name: Speakeasy Events API
-  slug: speakeasy-events-api
-- description: REST APIs for managing the github integration
-  name: Speakeasy Github API
-  slug: speakeasy-github-api
-- description: REST APIs for managing Organizations (speakeasy L1 Tenancy construct)
-  name: Speakeasy Organizations API
-  slug: speakeasy-organizations-api
-- description: The PublishingTokens API from Speakeasy — 4 operation(s) for publishingtokens.
-  name: Speakeasy PublishingTokens API
-  slug: speakeasy-publishingtokens-api
-- description: REST APIs for managing reports (lint reports, change reports, etc)
-  name: Speakeasy Reports API
-  slug: speakeasy-reports-api
-- description: The SchemaStore API from Speakeasy — 1 operation(s) for schemastore.
-  name: Speakeasy SchemaStore API
-  slug: speakeasy-schemastore-api
-- description: REST APIs for managing short URLs
-  name: Speakeasy ShortURLs API
-  slug: speakeasy-shorturls-api
-- description: REST APIs for managing subscriptions
-  name: Speakeasy Subscriptions API
-  slug: speakeasy-subscriptions-api
-- description: REST APIs for managing LLM OAS suggestions
-  name: Speakeasy Suggest API
-  slug: speakeasy-suggest-api
-- description: REST APIs for managing Workspaces (speakeasy tenancy)
-  name: Speakeasy Workspaces API
-  slug: speakeasy-workspaces-api
-artifact_total: 135
+artifact_total: 136
 collections:
+- collection_type: postman
+  name: Speakeasy Artifacts API
+  slug: postman-speakeasy-artifacts-api
+- collection_type: postman
+  name: Speakeasy Artifacts Auth API
+  slug: postman-speakeasy-auth-api
+- collection_type: postman
+  name: Speakeasy Artifacts CodeSamples API
+  slug: postman-speakeasy-codesamples-api
+- collection_type: postman
+  name: Speakeasy Artifacts Events API
+  slug: postman-speakeasy-events-api
+- collection_type: postman
+  name: Speakeasy Artifacts Github API
+  slug: postman-speakeasy-github-api
+- collection_type: postman
+  name: Speakeasy Artifacts Organizations API
+  slug: postman-speakeasy-organizations-api
+- collection_type: postman
+  name: Speakeasy Artifacts PublishingTokens API
+  slug: postman-speakeasy-publishingtokens-api
+- collection_type: postman
+  name: Speakeasy Artifacts Reports API
+  slug: postman-speakeasy-reports-api
+- collection_type: postman
+  name: Speakeasy Artifacts SchemaStore API
+  slug: postman-speakeasy-schemastore-api
+- collection_type: postman
+  name: Speakeasy Artifacts ShortURLs API
+  slug: postman-speakeasy-shorturls-api
+- collection_type: postman
+  name: Speakeasy Artifacts Subscriptions API
+  slug: postman-speakeasy-subscriptions-api
+- collection_type: postman
+  name: Speakeasy Artifacts Suggest API
+  slug: postman-speakeasy-suggest-api
+- collection_type: postman
+  name: Speakeasy Artifacts Workspaces API
+  slug: postman-speakeasy-workspaces-api
 - collection_type: open
   name: Speakeasy API
   slug: open-speakeasy
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/speakeasy-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -273,7 +271,7 @@ finops:
 - name: Speakeasy Finops
   service_category: Developer Tools / SDK & MCP Generation
   slug: speakeasy-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/speakeasy.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: AccessDetails
   property_count: 3
@@ -511,18 +509,18 @@ modified: '2026-05-19'
 name: Speakeasy
 nav: Providers
 network: true
-overview: 'Speakeasy publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Auth API, CodeSamples API, and 10 more. Tagged areas include AI, Documentation, MCP, Platform, and SDKs.
+overview: 'Speakeasy publishes 1 API on the [APIs.io](https://apis.io/) network: Speakeasy. Tagged areas include AI, Documentation, MCP, Platform, and SDKs.
 
 
   The Speakeasy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Speakeasy''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, signup flow, CLI, and 25 more developer resources.'
+  Speakeasy''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, signup flow, CLI, and 26 more developer resources.'
 plans:
 - name: Speakeasy Plans Pricing
   plan_count: 5
   slug: speakeasy-plans-pricing
-random_paper: 14
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Speakeasy Rate Limits
@@ -546,18 +544,25 @@ rules:
   slug: speakeasy-rules
 score:
   band: strong
-  composite: 66.4
-  delta: 2.0
+  composite: 61.5
+  delta: -4.9
   facets:
     commercial_clarity: 92.1
-    contract_quality: 56.5
+    contract_quality: 53.2
     developer_ergonomics: 28.3
-    discoverability: 75.0
-    governance: 86.8
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 64.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

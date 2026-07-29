@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -55,12 +57,34 @@ apis:
 - description: Create, retrieve, update, and delete Virtual Tag configurations
   name: Finout Virtual Tags API
   slug: finout-virtual-tags-api
-artifact_total: 22
+artifact_total: 28
 collections:
+- collection_type: postman
+  name: Finout Cost API
+  slug: postman-finout-cost-api
+- collection_type: postman
+  name: Finout Cost CostGuard API
+  slug: postman-finout-costguard-api
+- collection_type: postman
+  name: Finout Cost Endpoints API
+  slug: postman-finout-endpoints-api
+- collection_type: postman
+  name: Finout Cost Query Language API
+  slug: postman-finout-query-language-api
+- collection_type: postman
+  name: Finout Cost Virtual Tag Metadata API
+  slug: postman-finout-virtual-tag-metadata-api
+- collection_type: postman
+  name: Finout Cost Virtual Tags API
+  slug: postman-finout-virtual-tags-api
 - collection_type: open
   name: Finout API
   slug: open-finout-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/finout/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,12 +200,12 @@ overview: 'Finout publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Finout catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Finout''s developer surface includes authentication, pricing, engineering blog, documentation, and 14 more developer resources.'
+  Finout''s developer surface includes authentication, pricing, engineering blog, documentation, and 15 more developer resources.'
 plans:
 - name: Finout Plans Pricing
   plan_count: 3
   slug: finout-plans-pricing
-random_paper: 49
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Finout Rate Limits
@@ -197,19 +221,26 @@ rules:
   slug: finout-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.6
-  delta: 5.4
+  composite: 57.7
+  delta: -2.9
   facets:
     commercial_clarity: 65.8
-    contract_quality: 76.1
-    developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 77.1
+    developer_ergonomics: 34.8
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 55.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 60.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/screenshots/finout-2026-06-20T181223.png
 security:
 - kind: authentication

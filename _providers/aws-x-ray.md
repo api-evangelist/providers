@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -64,12 +66,43 @@ apis:
 - description: The UntagResource API from AWS X-Ray — 1 operation(s) for untagresource.
   name: AWS X-Ray UntagResource API
   slug: aws-x-ray-untagresource-api
-artifact_total: 92
+artifact_total: 101
 collections:
+- collection_type: postman
+  name: AWS X-Ray Encryption API
+  slug: postman-aws-x-ray-encryption-api
+- collection_type: postman
+  name: AWS X-Ray Encryption Groups API
+  slug: postman-aws-x-ray-groups-api
+- collection_type: postman
+  name: AWS X-Ray Encryption Insights API
+  slug: postman-aws-x-ray-insights-api
+- collection_type: postman
+  name: AWS X-Ray Encryption Sampling API
+  slug: postman-aws-x-ray-sampling-api
+- collection_type: postman
+  name: AWS X-Ray Encryption Service Graph API
+  slug: postman-aws-x-ray-service-graph-api
+- collection_type: postman
+  name: AWS X-Ray Encryption TagResource API
+  slug: postman-aws-x-ray-tagresource-api
+- collection_type: postman
+  name: AWS X-Ray Encryption Tags API
+  slug: postman-aws-x-ray-tags-api
+- collection_type: postman
+  name: AWS X-Ray Encryption Traces API
+  slug: postman-aws-x-ray-traces-api
+- collection_type: postman
+  name: AWS X-Ray Encryption UntagResource API
+  slug: postman-aws-x-ray-untagresource-api
 - collection_type: open
   name: AWS X-Ray API
   slug: open-aws-x-ray
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aws-x-ray/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -354,12 +387,12 @@ overview: 'AWS X-Ray publishes 9 APIs on the [APIs.io](https://apis.io/) network
   The AWS X-Ray catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AWS X-Ray''s developer surface includes authentication, documentation, getting-started guide, pricing, FAQ, support, engineering blog, and 10 more developer resources.'
+  AWS X-Ray''s developer surface includes authentication, documentation, getting-started guide, pricing, FAQ, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Aws X Ray Plans Pricing
   plan_count: 3
   slug: aws-x-ray-plans-pricing
-random_paper: 57
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Aws X Ray Rate Limits
@@ -383,18 +416,25 @@ rules:
   slug: aws-x-ray-spectral-rules
 score:
   band: strong
-  composite: 65.8
-  delta: 4.6
+  composite: 62.5
+  delta: -3.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.0
-    developer_ergonomics: 37.0
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 70.3
+    developer_ergonomics: 41.3
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/screenshots/aws-x-ray-2026-06-20T172820.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.2
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: 'The primary protocol for KurrentDB. The published protocol buffer definitions cover the v2 streams service (multi-stream appends, reads), the schema registry service, the secondary index service, and '
@@ -56,12 +58,41 @@ apis:
 - description: User account management
   name: Kurrent Users API
   slug: kurrent-users-api
-artifact_total: 15
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Kurrent Connectors Webhooks
   slug: kurrent-connectors-webhooks
+collections:
+- collection_type: postman
+  name: KurrentDB HTTP Admin API
+  slug: postman-kurrent-admin-api
+- collection_type: postman
+  name: KurrentDB HTTP Admin Gossip API
+  slug: postman-kurrent-gossip-api
+- collection_type: postman
+  name: KurrentDB HTTP Admin Info API
+  slug: postman-kurrent-info-api
+- collection_type: postman
+  name: KurrentDB HTTP Admin Projections API
+  slug: postman-kurrent-projections-api
+- collection_type: postman
+  name: KurrentDB HTTP Admin Statistics API
+  slug: postman-kurrent-statistics-api
+- collection_type: postman
+  name: KurrentDB HTTP Admin Streams API
+  slug: postman-kurrent-streams-api
+- collection_type: postman
+  name: KurrentDB HTTP Admin Subscriptions API
+  slug: postman-kurrent-subscriptions-api
+- collection_type: postman
+  name: KurrentDB HTTP Admin Users API
+  slug: postman-kurrent-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kurrent/overview
 - group: company
   title: ''
   type: Website
@@ -265,8 +296,8 @@ overview: 'Kurrent publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Kurrent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kurrent''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 31
+  Kurrent''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
+random_paper: 9
 scopes:
 - name: Kurrent Scopes
   scope_count: 14
@@ -274,18 +305,27 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 61.9
+  delta: 0.8
   facets:
     commercial_clarity: 52.6
-    contract_quality: 65.5
-    developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 62.7
+    developer_ergonomics: 91.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 52.6
   previous_composite: 61.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/screenshots/kurrent-2026-07-25T224337.png
 security:

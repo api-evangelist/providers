@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.0
+  scored_at: '2026-07-28'
 api_count: 12
 apis:
 - description: The Account API from Johrh — 9 operation(s) for account.
@@ -87,21 +89,27 @@ name: Johrh
 nav: Providers
 network: true
 overview: Johrh publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Categories API, and 9 more. Tagged areas include Company, Retail, E-commerce, Fashion, and Apparel.
-random_paper: 63
+random_paper: 0
 score:
   band: emerging
-  composite: 20.6
-  delta: 0.0
+  composite: 18.6
+  delta: -2.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 42.2
+    contract_quality: 40.4
     developer_ergonomics: 0.0
-    discoverability: 100.0
+    discoverability: 85.2
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 20.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/screenshots/johrh-2026-07-25T223224.png
 security:

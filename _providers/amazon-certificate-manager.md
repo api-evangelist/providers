@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -240,7 +242,7 @@ overview: 'Amazon Certificate Manager publishes 1 API on the [APIs.io](https://a
 
 
   Amazon Certificate Manager''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 38
+random_paper: 4
 rules:
 - name: Amazon Certificate Manager API Rules
   rule_count: 5
@@ -259,19 +261,28 @@ rules:
     warn: 13
   slug: amazon-certificate-manager-spectral-rules
 score:
-  band: developing
-  composite: 57.6
-  delta: 0.0
+  band: strong
+  composite: 56.5
+  delta: -1.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 72.0
     developer_ergonomics: 30.4
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 87.0
+    governance: 80.2
     operational_transparency: 31.6
   previous_composite: 57.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/screenshots/amazon-certificate-manager-2026-07-25T195941.png
 security:

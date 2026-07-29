@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Obtain and configure machine data from the DataPlatform, Proemion's API-first telematics cloud. Secured with OAuth2 client credentials (OpenID Connect / Keycloak).
@@ -156,7 +158,7 @@ overview: 'Proemion publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Proemion''s developer surface includes documentation, API reference, engineering blog, support, CLI, authentication, and 20 more developer resources.'
-random_paper: 57
+random_paper: 26
 scopes:
 - name: Proemion Scopes
   scope_count: 12
@@ -164,18 +166,20 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 31.1
+  delta: 1.1
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 30.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

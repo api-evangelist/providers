@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: REST API for managing reverse ETL syncs, sources, destinations, datasets, models, and segments programmatically. Used to provision, update, and monitor Census workspaces, schedule syncs, and integrate
@@ -89,26 +91,26 @@ plans:
 - name: Census Co Plans Pricing
   plan_count: 1
   slug: census-co-plans-pricing
-random_paper: 28
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Census Co Rate Limits
   slug: census-co-rate-limits
 score:
-  band: emerging
-  composite: 20.6
-  delta: 0.0
+  band: thin
+  composite: 30.3
+  delta: 9.7
   facets:
     commercial_clarity: 36.8
-    contract_quality: 0.0
+    contract_quality: 48.1
     developer_ergonomics: 8.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 20.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/census-co/refs/heads/main/screenshots/census-co-2026-06-20T174117.png
 security:
 - kind: domain-security

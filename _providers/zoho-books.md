@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Zoho Books REST API v3 provides full programmatic access to the Zoho Books accounting data model including contacts, invoices, estimates, sales orders, purchase orders, bills, expenses, banking, i
@@ -105,26 +107,33 @@ overview: 'Zoho Books publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Zoho Books'' developer surface includes documentation, pricing, signup flow, support, engineering blog, developer console, and 9 more developer resources.'
-random_paper: 15
+random_paper: 34
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 31.8
+  delta: -4.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 37.7
+    contract_quality: 40.3
     developer_ergonomics: 21.7
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 36.0
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 25.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/screenshots/zoho-books-2026-06-20T201932.png
 security:

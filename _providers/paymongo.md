@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -67,12 +69,47 @@ apis:
 - description: The Webhooks API from PayMongo — 4 operation(s) for webhooks.
   name: PayMongo Webhooks API
   slug: paymongo-webhooks-api
-artifact_total: 20
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Paymongo Webhooks
   slug: paymongo-webhooks
+collections:
+- collection_type: postman
+  name: PayMongo Checkout Sessions API
+  slug: postman-paymongo-checkout-sessions-api
+- collection_type: postman
+  name: PayMongo Checkout Sessions Customers API
+  slug: postman-paymongo-customers-api
+- collection_type: postman
+  name: PayMongo Checkout Sessions Payment Intents API
+  slug: postman-paymongo-payment-intents-api
+- collection_type: postman
+  name: PayMongo Checkout Sessions Payment Links API
+  slug: postman-paymongo-payment-links-api
+- collection_type: postman
+  name: PayMongo Checkout Sessions Payment Methods API
+  slug: postman-paymongo-payment-methods-api
+- collection_type: postman
+  name: PayMongo Checkout Sessions Payments API
+  slug: postman-paymongo-payments-api
+- collection_type: postman
+  name: PayMongo Checkout Sessions QR Ph API
+  slug: postman-paymongo-qr-ph-api
+- collection_type: postman
+  name: PayMongo Checkout Sessions Refunds API
+  slug: postman-paymongo-refunds-api
+- collection_type: postman
+  name: PayMongo Checkout Sessions Sources API
+  slug: postman-paymongo-sources-api
+- collection_type: postman
+  name: PayMongo Checkout Sessions Webhooks API
+  slug: postman-paymongo-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/paymongo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -259,35 +296,46 @@ overview: 'PayMongo publishes 10 APIs on the [APIs.io](https://apis.io/) network
   The PayMongo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PayMongo''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, pricing, signup flow, and 34 more developer resources.'
+  PayMongo''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, pricing, signup flow, and 35 more developer resources.'
 plans:
 - name: Paymongo Plans Pricing
   plan_count: 4
   slug: paymongo-plans-pricing
-random_paper: 58
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Paymongo Rate Limits
   slug: paymongo-rate-limits
 score:
   band: exemplar
-  composite: 73.5
-  delta: 0.0
+  composite: 73.6
+  delta: 0.1
   facets:
     commercial_clarity: 100.0
-    contract_quality: 66.0
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.1
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 84.2
   previous_composite: 73.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

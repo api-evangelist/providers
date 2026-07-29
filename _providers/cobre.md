@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 50.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Cobre's REST API (v1) for local and cross-border money movements, accounts and balances, counterparties, Bre-B keys, FX quotes, stablecoin payouts, reports/reconciliation and webhook subscriptions.
@@ -152,30 +154,34 @@ overview: 'Cobre publishes 1 API on the [APIs.io](https://apis.io/) network: Pla
 
 
   Cobre''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, sandbox, and 16 more developer resources.'
-random_paper: 47
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Cobre Rate Limits
   slug: cobre-rate-limits
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 39.0
+  delta: 2.3
   facets:
     commercial_clarity: 7.9
-    contract_quality: 29.2
+    contract_quality: 50.6
     developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 23.7
   previous_composite: 36.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 47.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/screenshots/cobre-2026-07-25T205845.png
 security:

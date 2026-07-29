@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Enterprise API directory and gateway operated by U-M Information and Technology Services on Apigee X, providing access to institutional data APIs spanning teaching & learning, research, clinical care,
@@ -124,30 +126,31 @@ plans:
 - name: University Of Michigan Ann Arbor Plans Pricing
   plan_count: 2
   slug: university-of-michigan-ann-arbor-plans-pricing
-random_paper: 2
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: University Of Michigan Ann Arbor Rate Limits
   slug: university-of-michigan-ann-arbor-rate-limits
 score:
   band: emerging
-  composite: 27.7
-  delta: 0.0
+  composite: 24.5
+  delta: -3.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 21.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 27.7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

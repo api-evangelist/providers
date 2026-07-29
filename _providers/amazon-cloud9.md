@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -258,7 +260,7 @@ overview: 'Amazon Cloud9 publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Amazon Cloud9''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 59
+random_paper: 51
 rules:
 - name: Amazon Cloud9 API Rules
   rule_count: 5
@@ -278,19 +280,28 @@ rules:
   slug: amazon-cloud9-spectral-rules
 score:
   band: developing
-  composite: 59.5
-  delta: 0.0
+  composite: 54.1
+  delta: -5.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.5
-    developer_ergonomics: 50.0
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 61.0
+    developer_ergonomics: 43.5
+    discoverability: 77.8
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 59.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/screenshots/amazon-cloud9-2026-07-25T195945.png
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 29.3
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Single REST surface for publish, subscribe (long-poll), presence, history, signal, and App Context. Pub/Sub key authentication. SDKs available for 50+ languages and platforms.
@@ -112,7 +114,7 @@ plans:
 - name: Pubnub Plans Pricing
   plan_count: 6
   slug: pubnub-plans-pricing
-random_paper: 40
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Pubnub Rate Limits
@@ -128,18 +130,24 @@ rules:
   slug: pubnub-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 44.6
-  delta: 0.0
+  composite: 40.4
+  delta: -4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 29.2
+    contract_quality: 50.6
     developer_ergonomics: 19.6
-    discoverability: 92.5
-    governance: 60.5
+    discoverability: 68.5
+    governance: 47.9
     operational_transparency: 52.6
   previous_composite: 44.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubnub/refs/heads/main/screenshots/pubnub-2026-06-20T192250.png
 security:

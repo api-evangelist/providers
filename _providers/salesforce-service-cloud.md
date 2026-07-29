@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -91,12 +93,42 @@ apis:
 - description: Chat deployment settings
   name: Salesforce Service Cloud Settings API
   slug: salesforce-service-cloud-settings-api
-artifact_total: 37
+artifact_total: 47
 asyncapis:
 - description: 'Real-time event streaming API for Salesforce Service Cloud using the Bayeux protocol over CometD. Supports PushTopic events for sObject changes, Platform Events for custom event-driven architectures, '
   name: Salesforce Service Cloud Streaming API
   slug: salesforce-streaming-api-asyncapi
 collections:
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts API
+  slug: postman-salesforce-service-cloud-accounts-api
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Availability API
+  slug: postman-salesforce-service-cloud-availability-api
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Cases API
+  slug: postman-salesforce-service-cloud-cases-api
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Contacts API
+  slug: postman-salesforce-service-cloud-contacts-api
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Knowledge API
+  slug: postman-salesforce-service-cloud-knowledge-api
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Messages API
+  slug: postman-salesforce-service-cloud-messages-api
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Query API
+  slug: postman-salesforce-service-cloud-query-api
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Search API
+  slug: postman-salesforce-service-cloud-search-api
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Sessions API
+  slug: postman-salesforce-service-cloud-sessions-api
+- collection_type: postman
+  name: Salesforce Service Cloud Salesforce Chat REST Accounts Settings API
+  slug: postman-salesforce-service-cloud-settings-api
 - collection_type: open
   name: Salesforce Service Cloud Salesforce Chat REST API
   slug: open-salesforce-live-agent
@@ -104,6 +136,10 @@ collections:
   name: Salesforce Service Cloud REST API
   slug: open-salesforce-service-cloud-rest
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/salesforce-service-cloud/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -258,12 +294,12 @@ overview: 'Salesforce Service Cloud publishes 11 APIs on the [APIs.io](https://a
   The Salesforce Service Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Salesforce Service Cloud''s developer surface includes authentication, getting-started guide, support, pricing, engineering blog, signup flow, developer console, and 21 more developer resources.'
+  Salesforce Service Cloud''s developer surface includes authentication, getting-started guide, support, pricing, engineering blog, signup flow, developer console, and 22 more developer resources.'
 plans:
 - name: Salesforce Service Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-service-cloud-plans-pricing
-random_paper: 61
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Salesforce Service Cloud Rate Limits
@@ -300,18 +336,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.5
-  delta: 3.2
+  composite: 59.4
+  delta: -2.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 72.0
-    developer_ergonomics: 43.5
-    discoverability: 87.5
-    governance: 65.8
+    contract_quality: 72.8
+    developer_ergonomics: 47.8
+    discoverability: 72.2
+    governance: 52.1
     operational_transparency: 26.3
-  previous_composite: 58.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/screenshots/salesforce-service-cloud-2026-06-20T193350.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Manage API keys (also called API tokens) used to authenticate Control Plane API requests. Distinct from disk tokens.
@@ -41,8 +43,25 @@ apis:
 - description: Run commands on a disk without provisioning compute
   name: Archil Serverless Execution API
   slug: archil-serverless-execution-api
-artifact_total: 9
+artifact_total: 13
+collections:
+- collection_type: postman
+  name: Archil Control Plane API Tokens API
+  slug: postman-archil-api-tokens-api
+- collection_type: postman
+  name: Archil Control Plane API Tokens Disk Users API
+  slug: postman-archil-disk-users-api
+- collection_type: postman
+  name: Archil Control Plane API Tokens Disks API
+  slug: postman-archil-disks-api
+- collection_type: postman
+  name: Archil Control Plane API Tokens Serverless Execution API
+  slug: postman-archil-serverless-execution-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/archil/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -171,22 +190,31 @@ network: true
 overview: 'Archil publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API Tokens API, Disk Users API, Disks API, and 1 more. Tagged areas include Company, Cloud Storage, Filesystem, Object Storage, and Artificial Intelligence.
 
 
-  Archil''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 15
+  Archil''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 22 more developer resources.'
+random_paper: 11
 score:
   band: strong
-  composite: 60.3
-  delta: 0.0
+  composite: 59.1
+  delta: -1.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.7
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.9
+    developer_ergonomics: 73.4
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 47.4
   previous_composite: 60.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/screenshots/archil-2026-07-25T201028.png
 security:

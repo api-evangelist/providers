@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 7
@@ -126,12 +128,107 @@ apis:
 - description: The UserSettingsService API from Chef Software — 1 operation(s) for usersettingsservice.
   name: Chef Software UserSettingsService API
   slug: chef-software-usersettingsservice-api
-artifact_total: 37
+artifact_total: 67
 asyncapis:
 - description: ''
   name: Chef Software Data Feed Webhooks
   slug: chef-software-data-feed-webhooks
+collections:
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService API
+  slug: postman-chef-software-applicationsservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService Authorization API
+  slug: postman-chef-software-authorization-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService Cds API
+  slug: postman-chef-software-cds-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService ChefIngester API
+  slug: postman-chef-software-chefingester-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService Comp_Assets API
+  slug: postman-chef-software-comp-assets-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService ConfigMgmt API
+  slug: postman-chef-software-configmgmt-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService DatafeedService API
+  slug: postman-chef-software-datafeedservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService DataLifecycle API
+  slug: postman-chef-software-datalifecycle-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService EventFeedService API
+  slug: postman-chef-software-eventfeedservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService hidden API
+  slug: postman-chef-software-hidden-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService InfraProxy API
+  slug: postman-chef-software-infraproxy-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService JobScheduler API
+  slug: postman-chef-software-jobscheduler-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService JobsService API
+  slug: postman-chef-software-jobsservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService NodeManagerService API
+  slug: postman-chef-software-nodemanagerservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService NodesService API
+  slug: postman-chef-software-nodesservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService policies API
+  slug: postman-chef-software-policies-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService ProfilesService API
+  slug: postman-chef-software-profilesservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService projects API
+  slug: postman-chef-software-projects-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService ReportingService API
+  slug: postman-chef-software-reportingservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService ReportManagerService API
+  slug: postman-chef-software-reportmanagerservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService retention API
+  slug: postman-chef-software-retention-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService roles API
+  slug: postman-chef-software-roles-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService rules API
+  slug: postman-chef-software-rules-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService SecretsService API
+  slug: postman-chef-software-secretsservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService service_groups API
+  slug: postman-chef-software-service-groups-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService StatsService API
+  slug: postman-chef-software-statsservice-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService teams API
+  slug: postman-chef-software-teams-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService tokens API
+  slug: postman-chef-software-tokens-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService users API
+  slug: postman-chef-software-users-api
+- collection_type: postman
+  name: external/applications/applications.proto ApplicationsService UserSettingsService API
+  slug: postman-chef-software-usersettingsservice-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/chef-software/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -290,22 +387,32 @@ overview: 'Chef Software publishes 30 APIs on the [APIs.io](https://apis.io/) ne
   The Chef Software catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chef Software''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 28 more developer resources.'
-random_paper: 34
+  Chef Software''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 29 more developer resources.'
+random_paper: 17
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 57.4
+  delta: -4.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.4
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 73.4
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 63.2
   previous_composite: 61.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/screenshots/chef-software-2026-07-25T205137.png
 security:

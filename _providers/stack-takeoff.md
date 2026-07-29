@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.4
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Create and update projects and organize their contents in folders - the top-level container that takeoffs, plans, and estimates hang off of. Modeled from STACK's developer tutorials (POST/PUT /Project
@@ -109,25 +111,25 @@ plans:
 - name: Stack Takeoff Plans Pricing
   plan_count: 4
   slug: stack-takeoff-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Stack Takeoff Rate Limits
   slug: stack-takeoff-rate-limits
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 34.5
+  delta: -3.9
   facets:
     commercial_clarity: 52.6
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 38.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

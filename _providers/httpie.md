@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,7 +124,7 @@ plans:
 - name: Httpie Plans Pricing
   plan_count: 3
   slug: httpie-plans-pricing
-random_paper: 42
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Httpie Rate Limits
@@ -138,18 +140,25 @@ rules:
   slug: httpie-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 3.4
+  composite: 46.0
+  delta: -4.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.6
+    contract_quality: 64.4
     developer_ergonomics: 10.9
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 46.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 50.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/screenshots/httpie-2026-06-20T182915.png
 security:

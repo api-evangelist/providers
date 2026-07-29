@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -69,12 +71,49 @@ apis:
 - description: The Webhooks API from FastDOL — 1 operation(s) for webhooks.
   name: FastDOL Webhooks API
   slug: fastdol-webhooks-api
-artifact_total: 114
+artifact_total: 125
 collections:
+- collection_type: postman
+  name: FastDOL Auth API
+  slug: postman-fastdol-auth-api
+- collection_type: postman
+  name: FastDOL Auth Dashboard API
+  slug: postman-fastdol-dashboard-api
+- collection_type: postman
+  name: FastDOL Auth Employers API
+  slug: postman-fastdol-employers-api
+- collection_type: postman
+  name: FastDOL Auth Export API
+  slug: postman-fastdol-export-api
+- collection_type: postman
+  name: FastDOL Auth Health API
+  slug: postman-fastdol-health-api
+- collection_type: postman
+  name: FastDOL Auth Industries API
+  slug: postman-fastdol-industries-api
+- collection_type: postman
+  name: FastDOL Auth Inspections API
+  slug: postman-fastdol-inspections-api
+- collection_type: postman
+  name: FastDOL Auth Sitemap API
+  slug: postman-fastdol-sitemap-api
+- collection_type: postman
+  name: FastDOL Auth Stats API
+  slug: postman-fastdol-stats-api
+- collection_type: postman
+  name: FastDOL Auth Usage API
+  slug: postman-fastdol-usage-api
+- collection_type: postman
+  name: FastDOL Auth Webhooks API
+  slug: postman-fastdol-webhooks-api
 - collection_type: open
   name: FastDOL API
   slug: open-fastdol
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fastdol/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -420,12 +459,12 @@ overview: 'FastDOL publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The FastDOL catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  FastDOL''s developer surface includes documentation, API reference, sandbox, signup flow, pricing, engineering blog, support, and 18 more developer resources.'
+  FastDOL''s developer surface includes documentation, API reference, sandbox, signup flow, pricing, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Fastdol Plans Pricing
   plan_count: 2
   slug: fastdol-plans-pricing
-random_paper: 1
+random_paper: 56
 rate_limits:
 - limit_count: 10
   name: Fastdol Rate Limits
@@ -449,18 +488,25 @@ rules:
   slug: fastdol-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 4.6
+  composite: 60.8
+  delta: -3.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 69.1
-    developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 70.4
+    developer_ergonomics: 43.5
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 59.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/screenshots/fastdol-2026-06-20T181047.png
 security:

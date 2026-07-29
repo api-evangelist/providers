@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -94,21 +96,23 @@ overview: 'Black Ore is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Black Ore''s developer surface includes pricing, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 64
+random_paper: 33
 score:
   band: emerging
-  composite: 22.3
-  delta: 0.0
+  composite: 23.2
+  delta: 0.9
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 61.1
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 22.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-ore/refs/heads/main/screenshots/black-ore-2026-07-25T203234.png
 security:

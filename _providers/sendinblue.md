@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: A service that provides solutions relating to marketing and/or transactional email and/or SMS
@@ -61,7 +63,7 @@ overview: 'Sendinblue publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   The Sendinblue catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 45
+random_paper: 64
 rules:
 - name: Sendinblue API Rules
   rule_count: 8
@@ -73,18 +75,18 @@ rules:
   slug: sendinblue-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 24.3
+  delta: 2.9
   facets:
     commercial_clarity: 0.0
-    contract_quality: 33.3
+    contract_quality: 54.3
     developer_ergonomics: 0.0
-    discoverability: 67.5
-    governance: 52.6
+    discoverability: 57.4
+    governance: 41.7
     operational_transparency: 0.0
   previous_composite: 21.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendinblue/refs/heads/main/screenshots/sendinblue-2026-06-20T193701.png
 security:

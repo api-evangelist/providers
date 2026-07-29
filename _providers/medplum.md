@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -83,12 +85,16 @@ arazzos:
 - description: Search for a Patient by identifier and update it if found, otherwise create it.
   name: Medplum Upsert Patient
   slug: medplum-upsert-patient-workflow
-artifact_total: 73
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Medplum - OpenAPI 3.0
   slug: postman-medplum-openapi-original
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/medplum-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -350,7 +356,11 @@ jsonld:
   property_count: 2
   slug: medplum-context
 layout: provider
-modified: '2026-05-25'
+mcp_servers:
+- description: ''
+  name: medplum-mcp.yml
+  slug: medplum-mcpyml
+modified: '2026-07-27'
 name: Medplum
 nav: Providers
 network: true
@@ -360,14 +370,14 @@ overview: 'Medplum publishes 1 API on the [APIs.io](https://apis.io/) network: F
   The Medplum catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Medplum''s developer surface includes authentication, documentation, getting-started guide, API reference, CLI, developer console, pricing, and 32 more developer resources.'
+  Medplum''s developer surface includes authentication, documentation, getting-started guide, API reference, CLI, developer console, pricing, and 33 more developer resources.'
 plans:
 - name: Medplum Plans Pricing
   plan_count: 6
   slug: medplum-plans-pricing
-random_paper: 8
+random_paper: 63
 rate_limits:
-- limit_count: 5
+- limit_count: 4
   name: Medplum Rate Limits
   slug: medplum-rate-limits
 rules:
@@ -388,25 +398,34 @@ rules:
     warn: 4
   slug: medplum-rules
 score:
-  band: exemplar
-  composite: 73.7
-  delta: 5.7
+  band: strong
+  composite: 65.9
+  delta: -7.8
   facets:
     commercial_clarity: 78.9
-    contract_quality: 71.7
-    developer_ergonomics: 76.1
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 69.4
+    developer_ergonomics: 84.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 68.0
+  previous_composite: 73.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+    score: 45.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png
 security:
 - kind: authentication

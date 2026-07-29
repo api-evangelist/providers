@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -205,7 +207,7 @@ plans:
 - name: Nhost Plans Pricing
   plan_count: 4
   slug: nhost-plans-pricing
-random_paper: 12
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Nhost Rate Limits
@@ -221,18 +223,25 @@ rules:
   slug: nhost-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 50.4
+  delta: -4.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 63.6
+    contract_quality: 64.3
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 55.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/screenshots/nhost-2026-06-20T190311.png
 security:

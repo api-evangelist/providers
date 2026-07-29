@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -106,21 +108,21 @@ press:
 - date: '2026-05-25'
   title: Investindustrial Completes Acquisition of TreeHouse Foods
   url: https://www.stocktitan.net/news/THS/investindustrial-completes-acquisition-of-tree-house-e2404f5eln85.html
-random_paper: 0
+random_paper: 24
 score:
   band: minimal
-  composite: 14.2
-  delta: 0.0
+  composite: 11.6
+  delta: -2.6
   facets:
     commercial_clarity: 10.5
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 67.5
-    governance: 13.2
+    discoverability: 50.0
+    governance: 10.4
     operational_transparency: 0.0
   previous_composite: 14.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

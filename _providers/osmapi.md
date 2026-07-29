@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -163,7 +165,7 @@ plans:
 - name: Osmapi Plans Pricing
   plan_count: 3
   slug: osmapi-plans-pricing
-random_paper: 37
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Osmapi Rate Limits
@@ -179,18 +181,25 @@ rules:
   slug: osmapi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.4
-  delta: 3.2
+  composite: 51.0
+  delta: -4.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.6
+    contract_quality: 64.4
     developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 52.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 55.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/screenshots/osmapi-2026-06-20T191217.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 40.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 22.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: JSON-RPC 2.0 wallet backend for the MobileCoin network - manage accounts and addresses, build and submit transactions, read balances, and query the ledger and network status. Self-hosted; runs locally
@@ -174,26 +176,31 @@ overview: 'Mobilecoin publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Mobilecoin''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 24 more developer resources.'
-random_paper: 37
+random_paper: 56
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 35.8
+  delta: -4.9
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 87.0
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 75.5
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 39.5
   previous_composite: 40.7
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 48.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

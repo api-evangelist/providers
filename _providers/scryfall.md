@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Scryfall REST API exposes Magic - The Gathering card data, set metadata, Oracle rulings, symbology, catalogs of in-game data points, daily bulk-data exports, and card-object migration records. The
@@ -34,6 +36,10 @@ apis:
   slug: scryfall-api
 artifact_total: 68
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/scryfall/overview
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -334,12 +340,12 @@ overview: 'Scryfall publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Scryfall catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scryfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, tooling, and 30 more developer resources.'
+  Scryfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, tooling, and 31 more developer resources.'
 plans:
 - name: Scryfall Plans Pricing
   plan_count: 2
   slug: scryfall-plans-pricing
-random_paper: 48
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Scryfall Rate Limits
@@ -363,23 +369,30 @@ rules:
   slug: scryfall-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 57.1
+  delta: -4.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 66.0
-    developer_ergonomics: 47.8
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 64.5
+    developer_ergonomics: 52.2
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 61.8
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/screenshots/scryfall-2026-06-20T193609.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The MyStericycle.com customer portal provides healthcare organizations with 24/7 online access to account management, waste pickup scheduling, HIPAA and OSHA compliance training, compliance reporting,
@@ -113,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Stericycle Opens State-of-the-Art Regulated Medical Waste ...
   url: https://www.prnewswire.com/news-releases/stericycle-opens-state-of-the-art-regulated-medical-waste-incineration-facility-in-nevada-302286800.html
-random_paper: 59
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Stericycle Rate Limits
@@ -128,25 +130,26 @@ rules:
     warn: 3
   slug: stericycle-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 31.3
-  delta: 0.0
+  band: emerging
+  composite: 26.0
+  delta: -5.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 17.4
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 31.3
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 13.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/screenshots/stericycle-2026-06-20T194548.png
 security:
 - kind: domain-security

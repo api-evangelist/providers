@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 46.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The Cakewalk Open API is a REST API for building custom access-governance workflows and integrations. It exposes users, user groups, work apps, accesses, permission levels, requests, tasks, policies, '
@@ -165,7 +167,7 @@ overview: 'Cakewalk publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Cakewalk''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 19
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Cakewalk Rate Limits
@@ -176,20 +178,24 @@ scopes:
   slug: cakewalk-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 37.1
-  delta: 0.0
+  band: developing
+  composite: 43.2
+  delta: 6.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 22.6
-    developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 58.2
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 13.2
   previous_composite: 37.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/screenshots/cakewalk-2026-07-25T204223.png
 security:
 - kind: authentication

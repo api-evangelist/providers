@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -43,8 +45,19 @@ apis:
 - description: The WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API from Amazon S3 API — 1 operation(s) for writegetobjectresponse#x amz request route&x amz request token.
   name: Amazon S3 API WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
   slug: aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
-artifact_total: 1750
+artifact_total: 1752
+collections:
+- collection_type: postman
+  name: Amazon Simple Storage Service API
+  slug: postman-aws-s3-amazon-simple-storage-service-api
+- collection_type: postman
+  name: Amazon Simple Storage Service WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
+  slug: postman-aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-s3-api/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -5326,12 +5339,12 @@ overview: 'Amazon S3 API publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Amazon S3 API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon S3 API''s developer surface includes authentication, engineering blog, support, developer console, pricing, changelog, documentation, and 10 more developer resources.'
+  Amazon S3 API''s developer surface includes authentication, engineering blog, support, developer console, pricing, changelog, documentation, and 11 more developer resources.'
 plans:
 - name: Aws S3 Plans Pricing
   plan_count: 3
   slug: aws-s3-plans-pricing
-random_paper: 66
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Aws S3 Rate Limits
@@ -5355,18 +5368,25 @@ rules:
   slug: aws-s3-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 57.7
+  delta: -2.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 50.0
-    developer_ergonomics: 32.6
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 52.1
+    developer_ergonomics: 37.0
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 63.2
   previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/screenshots/aws-s3-2026-06-20T172817.png
 security:

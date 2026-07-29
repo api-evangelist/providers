@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 80.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 51.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -265,7 +267,7 @@ overview: 'NatWest Group publishes 21 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NatWest Group''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, engineering blog, support, and 30 more developer resources.'
-random_paper: 26
+random_paper: 4
 scopes:
 - name: Natwest Scopes
   scope_count: 5
@@ -273,23 +275,34 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 59.2
-  delta: 0.0
+  composite: 54.5
+  delta: -4.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 51.8
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 49.7
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 55.3
   previous_composite: 59.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 74.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

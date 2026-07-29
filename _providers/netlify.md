@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 1
@@ -142,12 +144,122 @@ apis:
 - description: The X-Internal API from Netlify — 3 operation(s) for x-internal.
   name: Netlify X-Internal API
   slug: netlify-x-internal-api
-artifact_total: 135
+artifact_total: 170
 asyncapis:
 - description: 'AsyncAPI description of Netlify''s asynchronous event surface. Two documented surfaces are modelled here: 1. Outgoing webhooks (deploy / form / split test notifications). Netlify issues an HTTP POST to'
   name: Netlify Webhooks and Build Hooks
   slug: netlify-webhooks-asyncapi
+collections:
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken API
+  slug: postman-netlify-accesstoken-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken accountMembership API
+  slug: postman-netlify-accountmembership-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken accountType API
+  slug: postman-netlify-accounttype-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Asset API
+  slug: postman-netlify-asset-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken assetPublicSignature API
+  slug: postman-netlify-assetpublicsignature-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken auditLog API
+  slug: postman-netlify-auditlog-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Build API
+  slug: postman-netlify-build-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken buildHook API
+  slug: postman-netlify-buildhook-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken buildLogMsg API
+  slug: postman-netlify-buildlogmsg-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Deploy API
+  slug: postman-netlify-deploy-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken deployedBranch API
+  slug: postman-netlify-deployedbranch-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken deployKey API
+  slug: postman-netlify-deploykey-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken devServer API
+  slug: postman-netlify-devserver-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken devServerHook API
+  slug: postman-netlify-devserverhook-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken dnsZone API
+  slug: postman-netlify-dnszone-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken environmentVariables API
+  slug: postman-netlify-environmentvariables-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken File API
+  slug: postman-netlify-file-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Form API
+  slug: postman-netlify-form-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Function API
+  slug: postman-netlify-function-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Hook API
+  slug: postman-netlify-hook-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken hookType API
+  slug: postman-netlify-hooktype-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Member API
+  slug: postman-netlify-member-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Metadata API
+  slug: postman-netlify-metadata-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken paymentMethod API
+  slug: postman-netlify-paymentmethod-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Purge API
+  slug: postman-netlify-purge-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken serviceInstance API
+  slug: postman-netlify-serviceinstance-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Services API
+  slug: postman-netlify-services-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Site API
+  slug: postman-netlify-site-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken sniCertificate API
+  slug: postman-netlify-snicertificate-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Snippet API
+  slug: postman-netlify-snippet-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken splitTest API
+  slug: postman-netlify-splittest-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Submission API
+  slug: postman-netlify-submission-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken Ticket API
+  slug: postman-netlify-ticket-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken User API
+  slug: postman-netlify-user-api
+- collection_type: postman
+  name: Netlify Netlify's API documentation accessToken X-Internal API
+  slug: postman-netlify-x-internal-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/netlify/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -534,12 +646,12 @@ overview: 'Netlify publishes 35 APIs on the [APIs.io](https://apis.io/) network,
   The Netlify catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Netlify''s developer surface includes authentication, engineering blog, changelog, support, signup flow, developer portal, pricing, and 25 more developer resources.'
+  Netlify''s developer surface includes authentication, engineering blog, changelog, support, signup flow, developer portal, pricing, and 26 more developer resources.'
 plans:
 - name: Netlify Plans Pricing
   plan_count: 4
   slug: netlify-plans-pricing
-random_paper: 15
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Netlify Rate Limits
@@ -568,18 +680,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 64.4
+  delta: -1.1
   facets:
     commercial_clarity: 78.9
-    contract_quality: 52.0
-    developer_ergonomics: 60.9
-    discoverability: 80.0
-    governance: 52.6
+    contract_quality: 57.5
+    developer_ergonomics: 65.2
+    discoverability: 59.3
+    governance: 41.7
     operational_transparency: 78.9
   previous_composite: 65.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/screenshots/netlify-2026-06-20T190259.png
 security:

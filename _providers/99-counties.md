@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the 99 Counties Shopify store via the Universal Commerce Protocol over MCP — catalog search, cart, checkout, fulfillment, and buyer-approved order completion.
@@ -118,7 +120,7 @@ overview: '99 Counties publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   99 Counties'' developer surface includes documentation, authentication, engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 13
+random_paper: 32
 scopes:
 - name: 99 Counties Scopes
   scope_count: 4
@@ -131,13 +133,17 @@ score:
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 37.0
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 32.1
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 23.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Speechly''s gRPC API surface: Identity (access tokens), SLU (streaming spoken language understanding), WLU (written language understanding), Batch audio processing, Config/Model management, Analytics, '
@@ -110,21 +112,30 @@ overview: 'Speechly publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Speechly''s developer surface includes CLI, authentication, and 13 more developer resources.'
-random_paper: 45
+random_paper: 14
 score:
   band: emerging
-  composite: 16.5
-  delta: 0.0
+  composite: 15.3
+  delta: -1.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 32.6
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 5.3
   previous_composite: 16.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 23.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

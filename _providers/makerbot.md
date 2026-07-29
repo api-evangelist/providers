@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 28.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Bearer-token / OAuth 2.0 authenticated JSON REST API for browsing and managing Thingiverse things (3D models), their files and images, users, collections, categories, tags, and search. Operated by Mak
@@ -130,21 +132,24 @@ overview: 'Makerbot publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Makerbot''s developer surface includes documentation, API reference, authentication, signup flow, support, and 15 more developer resources.'
-random_paper: 37
+random_paper: 6
 score:
-  band: emerging
-  composite: 29.7
-  delta: 0.0
+  band: thin
+  composite: 29.3
+  delta: -0.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 47.8
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 29.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/screenshots/makerbot-2026-07-25T225942.png
 security:

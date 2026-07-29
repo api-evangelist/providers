@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Integration-specific datasets (Kelp, ether.fi).
@@ -100,21 +102,30 @@ overview: 'Sommelier publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sommelier''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 21
+random_paper: 49
 score:
-  band: emerging
-  composite: 29.3
-  delta: 0.0
+  band: thin
+  composite: 28.0
+  delta: -1.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 49.3
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.6
+    developer_ergonomics: 23.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 29.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

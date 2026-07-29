@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -157,7 +159,7 @@ plans:
 - name: Cargosmart Plans Pricing
   plan_count: 1
   slug: cargosmart-plans-pricing
-random_paper: 55
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Cargosmart Rate Limits
@@ -186,18 +188,25 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.1
-  delta: 3.2
+  composite: 45.5
+  delta: -3.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 74.5
+    contract_quality: 75.6
     developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 21.1
-  previous_composite: 45.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 49.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/screenshots/cargosmart-2026-06-20T174010.png
 security:

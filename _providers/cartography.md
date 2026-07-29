@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: Python tool that ingests infrastructure data from 30+ providers into a Neo4j graph for cross-provider security analysis.
@@ -132,25 +134,25 @@ plans:
 - name: Cartography Plans Pricing
   plan_count: 3
   slug: cartography-plans-pricing
-random_paper: 32
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Cartography Rate Limits
   slug: cartography-rate-limits
 score:
   band: thin
-  composite: 30.6
-  delta: 0.0
+  composite: 28.0
+  delta: -2.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 9.4
+    contract_quality: 8.1
     developer_ergonomics: 23.9
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 30.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartography/refs/heads/main/screenshots/cartography-2026-07-25T204658.png
 slug: cartography

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -142,25 +144,32 @@ plans:
 - name: Hexa Plans Pricing
   plan_count: 3
   slug: hexa-plans-pricing
-random_paper: 14
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Hexa Rate Limits
   slug: hexa-rate-limits
 score:
   band: thin
-  composite: 43.2
-  delta: 3.3
+  composite: 41.2
+  delta: -2.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 47.0
+    contract_quality: 48.1
     developer_ergonomics: 21.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 43.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hexa/refs/heads/main/screenshots/hexa-2026-06-20T182713.png
 security:

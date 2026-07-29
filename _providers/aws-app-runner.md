@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -76,12 +78,55 @@ apis:
 - description: Manage VPC connectors
   name: AWS App Runner VPC API
   slug: aws-app-runner-vpc-api
-artifact_total: 89
+artifact_total: 102
 collections:
+- collection_type: postman
+  name: AWS App Runner Auto Scaling API
+  slug: postman-aws-app-runner-auto-scaling-api
+- collection_type: postman
+  name: AWS App Runner Auto Scaling AWS App Runner API API
+  slug: postman-aws-app-runner-aws-app-runner-api-api
+- collection_type: postman
+  name: AWS App Runner Auto Scaling Connections API
+  slug: postman-aws-app-runner-connections-api
+- collection_type: postman
+  name: AWS App Runner Auto Scaling Custom Domains API
+  slug: postman-aws-app-runner-custom-domains-api
+- collection_type: postman
+  name: 'AWS App Runner Auto Scaling #DeleteService API'
+  slug: postman-aws-app-runner-deleteservice-api
+- collection_type: postman
+  name: AWS App Runner Auto Scaling Deployments API
+  slug: postman-aws-app-runner-deployments-api
+- collection_type: postman
+  name: 'AWS App Runner Auto Scaling #DescribeService API'
+  slug: postman-aws-app-runner-describeservice-api
+- collection_type: postman
+  name: 'AWS App Runner Auto Scaling #ListServices API'
+  slug: postman-aws-app-runner-listservices-api
+- collection_type: postman
+  name: AWS App Runner Auto Scaling Observability API
+  slug: postman-aws-app-runner-observability-api
+- collection_type: postman
+  name: 'AWS App Runner Auto Scaling #PauseService API'
+  slug: postman-aws-app-runner-pauseservice-api
+- collection_type: postman
+  name: 'AWS App Runner Auto Scaling #ResumeService API'
+  slug: postman-aws-app-runner-resumeservice-api
+- collection_type: postman
+  name: 'AWS App Runner Auto Scaling #UpdateService API'
+  slug: postman-aws-app-runner-updateservice-api
+- collection_type: postman
+  name: AWS App Runner Auto Scaling VPC API
+  slug: postman-aws-app-runner-vpc-api
 - collection_type: open
   name: AWS App Runner API
   slug: open-aws-app-runner
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aws-app-runner/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -358,12 +403,12 @@ overview: 'AWS App Runner publishes 13 APIs on the [APIs.io](https://apis.io/) n
   The AWS App Runner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AWS App Runner''s developer surface includes authentication, documentation, pricing, FAQ, developer console, support, engineering blog, and 12 more developer resources.'
+  AWS App Runner''s developer surface includes authentication, documentation, pricing, FAQ, developer console, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Aws App Runner Plans Pricing
   plan_count: 3
   slug: aws-app-runner-plans-pricing
-random_paper: 48
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Aws App Runner Rate Limits
@@ -387,18 +432,25 @@ rules:
   slug: aws-app-runner-spectral-rules
 score:
   band: strong
-  composite: 67.0
-  delta: 3.2
+  composite: 63.5
+  delta: -3.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.9
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 71.2
+    developer_ergonomics: 37.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 63.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/screenshots/aws-app-runner-2026-06-20T172739.png
 security:

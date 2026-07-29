@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 40.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.4
+  scored_at: '2026-07-28'
 api_count: 28
 apis:
 - description: The ApiKeyManagement API from Fortify Software — 5 operation(s) for apikeymanagement.
@@ -223,7 +225,7 @@ overview: 'Fortify Software publishes 28 APIs on the [APIs.io](https://apis.io/)
 
 
   Fortify Software''s developer surface includes documentation, API reference, support, engineering blog, CLI, changelog, and 17 more developer resources.'
-random_paper: 59
+random_paper: 74
 scopes:
 - name: Fortify Software Scopes
   scope_count: 13
@@ -231,18 +233,27 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 34.3
+  delta: -3.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 37.7
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 47.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 37.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/screenshots/fortify-software-2026-07-25T215010.png
 security:

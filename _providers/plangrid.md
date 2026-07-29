@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 28.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'REST API for the PlanGrid construction productivity platform. Manage projects, annotations, comments, documents, photos, sheets and versions, snapshots, RFIs, submittal packages, field reports, tasks '
@@ -134,7 +136,7 @@ overview: 'PlanGrid publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   PlanGrid''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 33
+random_paper: 2
 scopes:
 - name: Plangrid Scopes
   scope_count: 2
@@ -142,18 +144,21 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 23.5
+  delta: -2.5
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 58.7
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 28.9
   previous_composite: 26.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

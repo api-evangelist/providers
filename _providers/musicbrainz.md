@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -85,12 +87,64 @@ apis:
 - description: Lookup, browse, and search for musical works (abstract compositions).
   name: MusicBrainz Works API
   slug: musicbrainz-works-api
-artifact_total: 36
+artifact_total: 52
 collections:
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas API
+  slug: postman-musicbrainz-areas-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Artists API
+  slug: postman-musicbrainz-artists-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Collections API
+  slug: postman-musicbrainz-collections-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Events API
+  slug: postman-musicbrainz-events-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Genres API
+  slug: postman-musicbrainz-genres-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Identifiers API
+  slug: postman-musicbrainz-identifiers-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Instruments API
+  slug: postman-musicbrainz-instruments-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Labels API
+  slug: postman-musicbrainz-labels-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Places API
+  slug: postman-musicbrainz-places-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Recordings API
+  slug: postman-musicbrainz-recordings-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Release Groups API
+  slug: postman-musicbrainz-release-groups-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Releases API
+  slug: postman-musicbrainz-releases-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Series API
+  slug: postman-musicbrainz-series-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Submission API
+  slug: postman-musicbrainz-submission-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas URLs API
+  slug: postman-musicbrainz-urls-api
+- collection_type: postman
+  name: MusicBrainz Web Service v2 Areas Works API
+  slug: postman-musicbrainz-works-api
 - collection_type: open
   name: MusicBrainz Web Service v2
   slug: open-musicbrainz-web-service
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/musicbrainz/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -308,12 +362,12 @@ overview: 'MusicBrainz publishes 16 APIs on the [APIs.io](https://apis.io/) netw
   The MusicBrainz catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MusicBrainz''s developer surface includes authentication, documentation, engineering blog, CLI, tooling, and 36 more developer resources.'
+  MusicBrainz''s developer surface includes authentication, documentation, engineering blog, CLI, tooling, and 37 more developer resources.'
 plans:
 - name: Musicbrainz Plans Pricing
   plan_count: 3
   slug: musicbrainz-plans-pricing
-random_paper: 35
+random_paper: 36
 rate_limits:
 - limit_count: 4
   name: Musicbrainz Rate Limits
@@ -341,25 +395,33 @@ scopes:
   slug: musicbrainz-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 60.7
-  delta: 4.0
+  band: developing
+  composite: 54.1
+  delta: -6.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 75.6
-    developer_ergonomics: 28.3
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 66.1
+    developer_ergonomics: 32.6
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 56.7
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 16
+      marker_coverage: 100.0
+      total: 16
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 64.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png
 security:
 - kind: authentication

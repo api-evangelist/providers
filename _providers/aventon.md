@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The agent-driven commerce surface exposed on the aventon.com Shopify storefront via the Universal Commerce Protocol (ucp.dev). An MCP endpoint offers catalog search, cart, checkout, discount, fulfillm
@@ -90,7 +92,7 @@ overview: 'Aventon publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Aventon''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 15
+random_paper: 70
 scopes:
 - name: Aventon Scopes
   scope_count: 4
@@ -98,18 +100,21 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.4
-  delta: 0.0
+  composite: 18.3
+  delta: 0.9
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 17.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

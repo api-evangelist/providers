@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for Luno market data, accounts, trading, transfers and withdrawals, plus a WebSocket market-data stream. Legacy API under /api/1/ and the newer Exchange API under /api/exchange/{1,2,3}/.
@@ -173,30 +175,35 @@ overview: 'Luno publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Luno''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 38
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Luno Rate Limits
   slug: luno-rate-limits
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 51.9
+  delta: 1.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.2
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 44.4
+    developer_ergonomics: 64.7
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 52.6
   previous_composite: 50.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/screenshots/luno-2026-07-25T225732.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The StackShare GraphQL API provides programmatic access to StackShare''s database of developer tools and company tech stacks. It exposes four primary capability areas: Leads (find companies using speci'
@@ -137,7 +139,7 @@ plans:
 - name: Stackshare Plans Pricing
   plan_count: 3
   slug: stackshare-plans-pricing
-random_paper: 45
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Stackshare Rate Limits
@@ -152,19 +154,19 @@ rules:
     warn: 3
   slug: stackshare-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.1
-  delta: 0.0
+  band: thin
+  composite: 41.7
+  delta: -4.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 32.6
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 46.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

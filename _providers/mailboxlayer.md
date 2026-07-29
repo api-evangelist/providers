@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: Email address validation and verification operations.
   name: mailboxlayer Verification API
   slug: mailboxlayer-verification-api
-artifact_total: 49
+artifact_total: 50
 collections:
+- collection_type: postman
+  name: mailboxlayer Verification API
+  slug: postman-mailboxlayer-verification-api
 - collection_type: open
   name: mailboxlayer API
   slug: open-mailboxlayer
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mailboxlayer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -229,12 +238,12 @@ overview: 'mailboxlayer publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The mailboxlayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  mailboxlayer''s developer surface includes authentication, developer portal, signup flow, pricing, getting-started guide, support, and 17 more developer resources.'
+  mailboxlayer''s developer surface includes authentication, developer portal, signup flow, pricing, getting-started guide, support, and 18 more developer resources.'
 plans:
 - name: Mailboxlayer Plans Pricing
   plan_count: 5
   slug: mailboxlayer-plans-pricing
-random_paper: 65
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Mailboxlayer Rate Limits
@@ -258,19 +267,26 @@ rules:
   slug: mailboxlayer-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 5.5
+  composite: 60.5
+  delta: -2.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 74.3
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 75.4
+    developer_ergonomics: 54.3
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 57.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/screenshots/mailboxlayer-2026-06-20T184850.png
 security:
 - kind: authentication

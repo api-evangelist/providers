@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 66.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -102,12 +104,83 @@ apis:
 - description: Endpoints for retrieving transaction information
   name: Lightspark Transactions API
   slug: lightspark-transactions-api
-artifact_total: 30
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Lightspark Grid Webhooks
   slug: lightspark-grid-webhooks
+collections:
+- collection_type: postman
+  name: Grid Agent Management API
+  slug: postman-lightspark-agent-management-api
+- collection_type: postman
+  name: Grid Agent Management Agent Operations API
+  slug: postman-lightspark-agent-operations-api
+- collection_type: postman
+  name: Grid Agent Management API Tokens API
+  slug: postman-lightspark-api-tokens-api
+- collection_type: postman
+  name: Grid Agent Management Available UMA Providers API
+  slug: postman-lightspark-available-uma-providers-api
+- collection_type: postman
+  name: Grid Agent Management Cards API
+  slug: postman-lightspark-cards-api
+- collection_type: postman
+  name: Grid Agent Management Contact Verification API
+  slug: postman-lightspark-contact-verification-api
+- collection_type: postman
+  name: Grid Agent Management Cross-Currency Transfers API
+  slug: postman-lightspark-cross-currency-transfers-api
+- collection_type: postman
+  name: Grid Agent Management Customers API
+  slug: postman-lightspark-customers-api
+- collection_type: postman
+  name: Grid Agent Management Discoveries API
+  slug: postman-lightspark-discoveries-api
+- collection_type: postman
+  name: Grid Agent Management Documents API
+  slug: postman-lightspark-documents-api
+- collection_type: postman
+  name: Grid Agent Management Embedded Wallet Auth API
+  slug: postman-lightspark-embedded-wallet-auth-api
+- collection_type: postman
+  name: Grid Agent Management Exchange Rates API
+  slug: postman-lightspark-exchange-rates-api
+- collection_type: postman
+  name: Grid Agent Management External Accounts API
+  slug: postman-lightspark-external-accounts-api
+- collection_type: postman
+  name: Grid Agent Management Internal Accounts API
+  slug: postman-lightspark-internal-accounts-api
+- collection_type: postman
+  name: Grid Agent Management Invitations API
+  slug: postman-lightspark-invitations-api
+- collection_type: postman
+  name: Grid Agent Management KYC/KYB Verifications API
+  slug: postman-lightspark-kyc-kyb-verifications-api
+- collection_type: postman
+  name: Grid Agent Management Platform Configuration API
+  slug: postman-lightspark-platform-configuration-api
+- collection_type: postman
+  name: Grid Agent Management Same-Currency Transfers API
+  slug: postman-lightspark-same-currency-transfers-api
+- collection_type: postman
+  name: Grid Agent Management Sandbox API
+  slug: postman-lightspark-sandbox-api
+- collection_type: postman
+  name: Grid Agent Management Stablecoins API
+  slug: postman-lightspark-stablecoins-api
+- collection_type: postman
+  name: Grid Agent Management Strong Customer Authentication API
+  slug: postman-lightspark-strong-customer-authentication-api
+- collection_type: postman
+  name: Grid Agent Management Transactions API
+  slug: postman-lightspark-transactions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lightspark/overview
 - group: company
   title: ''
   type: Website
@@ -286,8 +359,8 @@ overview: 'Lightspark publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
   The Lightspark catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 33 more developer resources.'
-random_paper: 61
+  Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
+random_paper: 3
 rules:
 - name: Lightspark API Rules
   rule_count: 13
@@ -298,24 +371,35 @@ rules:
     warn: 4
   slug: lightspark-grid-spectral
 score:
-  band: strong
-  composite: 69.5
-  delta: 0.0
+  band: exemplar
+  composite: 66.6
+  delta: -2.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.7
-    developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 34.2
+    contract_quality: 71.5
+    developer_ergonomics: 86.4
+    discoverability: 92.6
+    governance: 47.9
     operational_transparency: 63.2
   previous_composite: 69.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 56.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:

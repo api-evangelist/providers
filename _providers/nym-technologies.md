@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.3
+  scored_at: '2026-07-28'
 api_count: 23
 apis:
 - description: The API Status API from Nym Technologies — 3 operation(s) for api status.
@@ -252,21 +254,30 @@ overview: 'Nym Technologies publishes 23 APIs on the [APIs.io](https://apis.io/)
 
 
   Nym Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 27 more developer resources.'
-random_paper: 37
+random_paper: 52
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 51.4
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 35.0
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 33.0
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 60.5
   previous_composite: 53.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

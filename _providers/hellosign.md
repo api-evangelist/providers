@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 64.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -72,12 +74,53 @@ apis:
 - description: '{''$ref'': ''./markdown/en/tags/unclaimed-draft-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Unclaimed Draft API
   slug: hellosign-unclaimed-draft-api
-artifact_total: 20
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Hellosign Events Webhooks
   slug: hellosign-events-webhooks
+collections:
+- collection_type: postman
+  name: Dropbox Sign Account API
+  slug: postman-hellosign-account-api
+- collection_type: postman
+  name: Dropbox Sign Account Api App API
+  slug: postman-hellosign-api-app-api
+- collection_type: postman
+  name: Dropbox Sign Account Bulk Send Job API
+  slug: postman-hellosign-bulk-send-job-api
+- collection_type: postman
+  name: Dropbox Sign Account Embedded API
+  slug: postman-hellosign-embedded-api
+- collection_type: postman
+  name: Dropbox Sign Account Fax API
+  slug: postman-hellosign-fax-api
+- collection_type: postman
+  name: Dropbox Sign Account Fax Line API
+  slug: postman-hellosign-fax-line-api
+- collection_type: postman
+  name: Dropbox Sign Account OAuth API
+  slug: postman-hellosign-oauth-api
+- collection_type: postman
+  name: Dropbox Sign Account Report API
+  slug: postman-hellosign-report-api
+- collection_type: postman
+  name: Dropbox Sign Account Signature Request API
+  slug: postman-hellosign-signature-request-api
+- collection_type: postman
+  name: Dropbox Sign Account Team API
+  slug: postman-hellosign-team-api
+- collection_type: postman
+  name: Dropbox Sign Account Template API
+  slug: postman-hellosign-template-api
+- collection_type: postman
+  name: Dropbox Sign Account Unclaimed Draft API
+  slug: postman-hellosign-unclaimed-draft-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dropbox-sign-hellosign/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -232,8 +275,8 @@ overview: 'Dropbox Sign (HelloSign) publishes 12 APIs on the [APIs.io](https://a
   The Dropbox Sign (HelloSign) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
-random_paper: 13
+  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
+random_paper: 41
 scopes:
 - name: Hellosign Scopes
   scope_count: 7
@@ -241,18 +284,28 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 64.8
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.3
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 68.6
+    developer_ergonomics: 77.7
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 63.2
   previous_composite: 62.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/screenshots/hellosign-2026-07-25T220935.png
 security:

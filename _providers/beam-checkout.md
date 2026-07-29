@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Beam's v1 REST payments API — payment links, charges, refunds, transactions, card authorizations (auth/capture/cancel), network tokenization, and Beam Bolt in-person payments.
@@ -173,27 +175,31 @@ overview: 'Beam Checkout publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Beam Checkout''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, pricing, and 21 more developer resources.'
-random_paper: 12
+random_paper: 72
 score:
   band: developing
-  composite: 48.5
-  delta: 2.8
+  composite: 54.8
+  delta: 6.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 22.6
-    developer_ergonomics: 69.6
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 63.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 45.7
+  previous_composite: 48.5
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/beam-checkout/refs/heads/main/screenshots/beam-checkout-2026-07-25T202537.png
 security:
 - kind: authentication

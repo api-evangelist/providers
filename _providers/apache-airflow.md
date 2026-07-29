@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -134,8 +136,67 @@ arazzos:
 - description: Look up an Airflow variable and update it if it exists, otherwise create it, then read the result back.
   name: Apache Airflow Upsert a Variable
   slug: apache-airflow-upsert-variable-workflow
-artifact_total: 265
+artifact_total: 283
+collections:
+- collection_type: postman
+  name: Airflow API (Stable) Config API
+  slug: postman-apache-airflow-config-api
+- collection_type: postman
+  name: Airflow API (Stable) Config Connection API
+  slug: postman-apache-airflow-connection-api
+- collection_type: postman
+  name: Airflow API (Stable) Config DAG API
+  slug: postman-apache-airflow-dag-api
+- collection_type: postman
+  name: Airflow API (Stable) Config DAGRun API
+  slug: postman-apache-airflow-dagrun-api
+- collection_type: postman
+  name: Airflow API (Stable) Config DagWarning API
+  slug: postman-apache-airflow-dagwarning-api
+- collection_type: postman
+  name: Airflow API (Stable) Config Dataset API
+  slug: postman-apache-airflow-dataset-api
+- collection_type: postman
+  name: Airflow API (Stable) Config EventLog API
+  slug: postman-apache-airflow-eventlog-api
+- collection_type: postman
+  name: Airflow API (Stable) Config ImportError API
+  slug: postman-apache-airflow-importerror-api
+- collection_type: postman
+  name: Airflow API (Stable) Config Monitoring API
+  slug: postman-apache-airflow-monitoring-api
+- collection_type: postman
+  name: Airflow API (Stable) Config Permission API
+  slug: postman-apache-airflow-permission-api
+- collection_type: postman
+  name: Airflow API (Stable) Config Plugin API
+  slug: postman-apache-airflow-plugin-api
+- collection_type: postman
+  name: Airflow API (Stable) Config Pool API
+  slug: postman-apache-airflow-pool-api
+- collection_type: postman
+  name: Airflow API (Stable) Config Provider API
+  slug: postman-apache-airflow-provider-api
+- collection_type: postman
+  name: Airflow API (Stable) Config Role API
+  slug: postman-apache-airflow-role-api
+- collection_type: postman
+  name: Airflow API (Stable) Config TaskInstance API
+  slug: postman-apache-airflow-taskinstance-api
+- collection_type: postman
+  name: Airflow API (Stable) Config User API
+  slug: postman-apache-airflow-user-api
+- collection_type: postman
+  name: Airflow API (Stable) Config Variable API
+  slug: postman-apache-airflow-variable-api
+- collection_type: postman
+  name: Airflow API (Stable) Config XCom API
+  slug: postman-apache-airflow-xcom-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apache-airflow/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -966,12 +1027,12 @@ overview: 'Apache Airflow publishes 18 APIs on the [APIs.io](https://apis.io/) n
   The Apache Airflow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Airflow''s developer surface includes changelog, CLI, authentication, documentation, getting-started guide, engineering blog, support, and 35 more developer resources.'
+  Apache Airflow''s developer surface includes changelog, CLI, authentication, documentation, getting-started guide, engineering blog, support, and 36 more developer resources.'
 plans:
 - name: Apache Airflow Plans Pricing
   plan_count: 3
   slug: apache-airflow-plans-pricing
-random_paper: 51
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Apache Airflow Rate Limits
@@ -995,18 +1056,27 @@ rules:
   slug: apache-airflow-spectral-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 0.0
+  composite: 61.2
+  delta: -1.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.9
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 63.3
+    developer_ergonomics: 56.5
+    discoverability: 83.3
+    governance: 80.2
     operational_transparency: 63.2
   previous_composite: 62.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/screenshots/apache-airflow-2026-06-20T172038.png
 security:

@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Hosted Platform-as-a-Service REST API for Me Protocol — the backend behind the embeddable rewards SDKs. Authenticates SDK integrations with an API key and brokers reward issuance, redemption, and cros
@@ -106,26 +108,27 @@ overview: 'My AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   My AI''s developer surface includes documentation, getting-started guide, pricing, engineering blog, authentication, sandbox, and 9 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: emerging
-  composite: 23.4
-  delta: 0.0
+  composite: 20.9
+  delta: -2.5
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 23.4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 18.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

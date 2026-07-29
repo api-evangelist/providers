@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -158,7 +160,7 @@ plans:
 - name: Papaya Global Plans Pricing
   plan_count: 6
   slug: papaya-global-plans-pricing
-random_paper: 14
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Papaya Global Rate Limits
@@ -174,24 +176,32 @@ rules:
   slug: papaya-global-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 48.7
+  delta: -5.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.3
+    contract_quality: 71.9
     developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 53.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/screenshots/papaya-global-2026-06-20T191348.png
 security:
 - kind: authentication

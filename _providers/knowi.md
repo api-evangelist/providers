@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -140,25 +142,32 @@ plans:
 - name: Knowi Plans Pricing
   plan_count: 3
   slug: knowi-plans-pricing
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Knowi Rate Limits
   slug: knowi-rate-limits
 score:
   band: developing
-  composite: 46.4
-  delta: 2.0
+  composite: 44.7
+  delta: -1.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 56.6
+    contract_quality: 58.5
     developer_ergonomics: 26.1
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 44.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 46.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/screenshots/knowi-2026-06-20T184113.png
 security:

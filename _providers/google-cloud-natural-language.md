@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,12 +53,31 @@ apis:
 - description: The documents:classifyText API from Google Cloud Natural Language — 1 operation(s) for documents:classifytext.
   name: Google Cloud Natural Language documents:classifyText API
   slug: google-cloud-natural-language-documents-classifytext-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: postman
+  name: Google Cloud Natural Language documents:analyzeEntities API
+  slug: postman-google-cloud-natural-language-documents-analyzeentities-api
+- collection_type: postman
+  name: Google Cloud Natural Language documents:analyzeEntities documents:analyzeSentiment API
+  slug: postman-google-cloud-natural-language-documents-analyzesentiment-api
+- collection_type: postman
+  name: Google Cloud Natural Language documents:analyzeEntities documents:analyzeSyntax API
+  slug: postman-google-cloud-natural-language-documents-analyzesyntax-api
+- collection_type: postman
+  name: Google Cloud Natural Language documents:analyzeEntities documents:annotateText API
+  slug: postman-google-cloud-natural-language-documents-annotatetext-api
+- collection_type: postman
+  name: Google Cloud Natural Language documents:analyzeEntities documents:classifyText API
+  slug: postman-google-cloud-natural-language-documents-classifytext-api
 - collection_type: open
   name: Google Cloud Natural Language API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-natural-language/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,12 +161,12 @@ overview: 'Google Cloud Natural Language publishes 5 APIs on the [APIs.io](https
   The Google Cloud Natural Language catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Natural Language''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, and 8 more developer resources.'
+  Google Cloud Natural Language''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, and 9 more developer resources.'
 plans:
 - name: Google Cloud Natural Language Plans Pricing
   plan_count: 3
   slug: google-cloud-natural-language-plans-pricing
-random_paper: 46
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Google Cloud Natural Language Rate Limits
@@ -161,18 +182,25 @@ rules:
   slug: google-cloud-natural-language-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.3
-  delta: 4.6
+  composite: 61.1
+  delta: -3.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 62.8
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 64.4
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/screenshots/google-cloud-natural-language-2026-06-20T182126.png
 security:

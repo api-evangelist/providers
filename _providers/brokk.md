@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 15.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 14.4
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,21 +99,23 @@ overview: 'Brokk is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Brokk''s developer surface includes documentation, engineering blog, CLI, changelog, and 9 more developer resources.'
-random_paper: 61
+random_paper: 75
 score:
   band: emerging
-  composite: 16.0
-  delta: 0.0
+  composite: 16.1
+  delta: 0.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/screenshots/brokk-2026-07-25T203947.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: The Taylor & Francis Content API provides programmatic access to eBook and chapter downloads from the taylorfrancis.com platform. Using DOI-based identifiers, institutional subscribers can retrieve PD
@@ -111,25 +113,25 @@ plans:
 - name: Taylor Francis Plans Pricing
   plan_count: 3
   slug: taylor-francis-plans-pricing
-random_paper: 26
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Taylor Francis Rate Limits
   slug: taylor-francis-rate-limits
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 29.6
+  delta: -2.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 31.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylor-francis/refs/heads/main/screenshots/taylor-francis-2026-06-20T194941.png
 security:

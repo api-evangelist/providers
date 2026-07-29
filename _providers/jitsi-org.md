@@ -20,7 +20,7 @@ modified: '2026-05-25'
 name: Jitsi
 nav: Providers
 network: true
-random_paper: 36
+random_paper: 73
 slug: jitsi-org
 tags:
 - Video Conferencing

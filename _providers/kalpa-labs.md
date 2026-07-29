@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Health checks and capability discovery.
@@ -148,25 +150,40 @@ overview: 'Kalpa Labs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kalpa Labs'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, authentication, and 17 more developer resources.'
-random_paper: 32
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Kalpa Labs Rate Limits
   slug: kalpa-labs-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 36.5
+  delta: -3.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 55.8
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 56.5
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 40.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 23.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/screenshots/kalpa-labs-2026-07-25T223437.png
 security:

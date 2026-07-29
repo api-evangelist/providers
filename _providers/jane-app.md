@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 46.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -197,32 +199,43 @@ overview: 'Jane publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jane''s developer surface includes authentication, sandbox, support, documentation, API reference, getting-started guide, pricing, and 25 more developer resources.'
-random_paper: 32
+random_paper: 10
 scopes:
 - name: Jane App Scopes
   scope_count: 30
   slug: jane-app-scopes
   summary_line: 30 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.8
-  delta: 0.0
+  band: strong
+  composite: 56.0
+  delta: 7.2
   facets:
     commercial_clarity: 47.4
-    contract_quality: 22.6
-    developer_ergonomics: 65.2
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 59.7
+    developer_ergonomics: 60.3
+    discoverability: 83.3
+    governance: 20.8
     operational_transparency: 39.5
   previous_composite: 48.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 76.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png
 security:
 - kind: authentication

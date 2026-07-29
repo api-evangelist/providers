@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -43,8 +45,19 @@ apis:
 - description: The Tags API from Amazon Lookout for Vision — 2 operation(s) for tags.
   name: Amazon Lookout for Vision Tags API
   slug: amazon-lookout-for-vision-tags-api
-artifact_total: 416
+artifact_total: 418
+collections:
+- collection_type: postman
+  name: Amazon Lookout for Vision Projects API
+  slug: postman-amazon-lookout-for-vision-projects-api
+- collection_type: postman
+  name: Amazon Lookout for Vision Projects Tags API
+  slug: postman-amazon-lookout-for-vision-tags-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-lookout-for-vision/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1337,12 +1350,12 @@ overview: 'Amazon Lookout for Vision publishes 2 APIs on the [APIs.io](https://a
   The Amazon Lookout for Vision catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lookout for Vision''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Lookout for Vision''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Lookout For Vision Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-vision-plans-pricing
-random_paper: 37
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Vision Rate Limits
@@ -1365,19 +1378,26 @@ rules:
     warn: 10
   slug: amazon-lookout-for-vision-spectral-rules
 score:
-  band: strong
-  composite: 69.5
-  delta: 0.0
+  band: exemplar
+  composite: 66.1
+  delta: -3.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 69.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/screenshots/amazon-lookout-for-vision-2026-06-20T171731.png
 security:

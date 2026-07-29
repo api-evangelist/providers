@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Coro Public API enables service providers and developers to build applications that integrate with the Coro Cybersecurity platform. Organized around workspaces (regular, channel, child), it covers
@@ -153,21 +155,24 @@ overview: 'CoroNet publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   CoroNet''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 14
+random_paper: 69
 score:
-  band: thin
-  composite: 42.5
-  delta: 0.0
+  band: developing
+  composite: 45.2
+  delta: 2.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 27.8
-    developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 49.4
+    developer_ergonomics: 54.3
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 39.5
   previous_composite: 42.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coronet/refs/heads/main/screenshots/coronet-2026-07-25T210438.png
 security:

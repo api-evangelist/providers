@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: The Supported Rules API from Zally — 1 operation(s) for supported rules.
   name: Zally Supported Rules API
   slug: zally-supported-rules-api
-artifact_total: 49
+artifact_total: 52
 collections:
+- collection_type: postman
+  name: Zally - Zalando's API Linter Api Violations API
+  slug: postman-zally-api-violations-api
+- collection_type: postman
+  name: Zally - Zalando's API Linter Api Violations Review Statistics API
+  slug: postman-zally-review-statistics-api
+- collection_type: postman
+  name: Zally - Zalando's API Linter Api Violations Supported Rules API
+  slug: postman-zally-supported-rules-api
 - collection_type: open
   name: Zally - Zalando's API Linter
   slug: open-zally-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/zally/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -227,12 +242,12 @@ overview: 'Zally publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ap
   The Zally catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zally''s developer surface includes authentication, documentation, changelog, CLI, and 11 more developer resources.'
+  Zally''s developer surface includes authentication, documentation, changelog, CLI, and 12 more developer resources.'
 plans:
 - name: Zally Plans Pricing
   plan_count: 3
   slug: zally-plans-pricing
-random_paper: 12
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Zally Rate Limits
@@ -256,18 +271,25 @@ rules:
   slug: zally-rules
 score:
   band: strong
-  composite: 60.0
-  delta: 4.6
+  composite: 56.5
+  delta: -3.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 73.5
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 37.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 55.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/screenshots/zally-2026-06-20T201756.png
 security:

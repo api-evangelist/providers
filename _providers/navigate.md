@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.8
+  scored_at: '2026-07-28'
 api_count: 16
 apis:
 - description: The Access codes API from Navigate — 1 operation(s) for access codes.
@@ -123,21 +125,30 @@ overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Navigate''s developer surface includes support and 7 more developer resources.'
-random_paper: 31
+random_paper: 0
 score:
-  band: emerging
-  composite: 29.8
-  delta: 0.0
+  band: thin
+  composite: 30.9
+  delta: 1.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 48.2
+    contract_quality: 50.4
     developer_ergonomics: 4.3
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 29.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

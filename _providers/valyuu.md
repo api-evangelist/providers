@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Partner-facing trade-in API behind Valyuu's embedded recommerce platform. Version 1 exposes device catalog lookups (categories, brands, series, models, and model condition/attribute questions), FAQ co
@@ -98,21 +100,23 @@ overview: 'Valyuu publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Valyuu''s developer surface includes authentication, sandbox, and 10 more developer resources.'
-random_paper: 66
+random_paper: 62
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 17.5
+  delta: -1.9
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 26.1
-    discoverability: 92.5
+    developer_ergonomics: 19.6
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -700,7 +702,7 @@ plans:
 - name: Grubhub Plans Pricing
   plan_count: 4
   slug: grubhub-plans-pricing
-random_paper: 3
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Grubhub Rate Limits
@@ -737,18 +739,25 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.9
-  delta: 2.5
+  composite: 48.1
+  delta: -2.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 78.8
+    contract_quality: 82.5
     developer_ergonomics: 13.0
-    discoverability: 80.0
-    governance: 65.8
+    discoverability: 59.3
+    governance: 52.1
     operational_transparency: 36.8
-  previous_composite: 48.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 50.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png
 security:

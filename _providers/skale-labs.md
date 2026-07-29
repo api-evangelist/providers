@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API served by SKALE Chains (per-chain RPC/WSS endpoints), plus SKALE Programmable Privacy methods (bite_getDecryptedTransactionData, bite_getCommitteesInfo).
@@ -134,26 +136,31 @@ overview: 'Skale Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Skale Labs'' developer surface includes documentation, API reference, getting-started guide, support, pricing, CLI, sandbox, and 14 more developer resources.'
-random_paper: 39
+random_paper: 67
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 30.2
+  delta: -1.7
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 84.8
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 31.9
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

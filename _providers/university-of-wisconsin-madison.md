@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Enterprise API providing authoritative person/identity data for the University of Wisconsin-Madison. Access is gated and requires an approved institutional access request; a Mock Person API is publish
@@ -123,25 +125,25 @@ plans:
 - name: University Of Wisconsin Madison Plans Pricing
   plan_count: 2
   slug: university-of-wisconsin-madison-plans-pricing
-random_paper: 10
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: University Of Wisconsin Madison Rate Limits
   slug: university-of-wisconsin-madison-rate-limits
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 22.8
+  delta: -2.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 19.6
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 25.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/screenshots/university-of-wisconsin-madison-2026-06-20T200421.png
 security:

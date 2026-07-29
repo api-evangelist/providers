@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Tradogram REST API enables two-way data synchronization between Tradogram and external systems. It provides programmatic access to core procurement modules including purchase orders, requisitions,
@@ -110,25 +112,25 @@ plans:
 - name: Tradogram Plans Pricing
   plan_count: 4
   slug: tradogram-plans-pricing
-random_paper: 9
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Tradogram Rate Limits
   slug: tradogram-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 34.4
+  delta: -4.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.8
+    contract_quality: 45.2
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 38.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradogram/refs/heads/main/screenshots/tradogram-2026-06-20T195531.png
 security:

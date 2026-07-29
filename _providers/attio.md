@@ -1,22 +1,14 @@
 ---
-access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
-  public: false
-  source:
-  - authentication
-  trial: false
-  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: flavored
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 29.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -34,62 +26,21 @@ agentic_access:
   operation_count: 45
   slug: attio-agentic-access
   summary_line: 45 operations · 23 acting
-api_count: 16
+api_count: 1
 apis:
-- description: The Attributes API from Attio — 2 operation(s) for attributes.
-  name: Attio Attributes API
-  slug: attio-attributes-api
-- description: The Call Recordings API from Attio — 1 operation(s) for call recordings.
-  name: Attio Call Recordings API
-  slug: attio-call-recordings-api
-- description: The Comments API from Attio — 2 operation(s) for comments.
-  name: Attio Comments API
-  slug: attio-comments-api
-- description: The Entries API from Attio — 1 operation(s) for entries.
-  name: Attio Entries API
-  slug: attio-entries-api
-- description: The Files API from Attio — 1 operation(s) for files.
-  name: Attio Files API
-  slug: attio-files-api
-- description: The Lists API from Attio — 2 operation(s) for lists.
-  name: Attio Lists API
-  slug: attio-lists-api
-- description: The Meetings API from Attio — 2 operation(s) for meetings.
-  name: Attio Meetings API
-  slug: attio-meetings-api
-- description: The Meta API from Attio — 1 operation(s) for meta.
-  name: Attio Meta API
-  slug: attio-meta-api
-- description: The Notes API from Attio — 1 operation(s) for notes.
-  name: Attio Notes API
-  slug: attio-notes-api
-- description: The OAuth API from Attio — 2 operation(s) for oauth.
-  name: Attio OAuth API
-  slug: attio-oauth-api
-- description: The Objects API from Attio — 2 operation(s) for objects.
-  name: Attio Objects API
-  slug: attio-objects-api
-- description: The Records API from Attio — 3 operation(s) for records.
-  name: Attio Records API
-  slug: attio-records-api
-- description: The Tasks API from Attio — 1 operation(s) for tasks.
-  name: Attio Tasks API
-  slug: attio-tasks-api
-- description: The Threads API from Attio — 1 operation(s) for threads.
-  name: Attio Threads API
-  slug: attio-threads-api
-- description: The Webhooks API from Attio — 2 operation(s) for webhooks.
-  name: Attio Webhooks API
-  slug: attio-webhooks-api
-- description: The Workspace Members API from Attio — 2 operation(s) for workspace members.
-  name: Attio Workspace Members API
-  slug: attio-workspace-members-api
-artifact_total: 21
+- description: 'Public REST API for the Attio CRM platform with full CRUD access to records, objects, attributes, lists, entries, tasks, notes, threads, comments, workspace members, and webhooks. Authentication uses '
+  name: Attio REST API
+  slug: rest-api
+artifact_total: 6
 collections:
 - collection_type: open
   name: Attio REST API
   slug: open-attio
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/attio-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,17 +87,17 @@ common:
   url: https://docs.attio.com/llms.txt
 created: '2026-05-11'
 description: Attio is a modern, flexible, and data-driven customer relationship management (CRM) platform that lets revenue teams build a CRM around their unique data model with customizable objects, attributes, lists, and workflows. Attio syncs contacts and companies from email and calendar, enriches them with data, and powers reporting, sequences, and automations. The Attio REST API exposes full CRUD access to records, lists, objects, attributes, tasks, notes, threads, comments, and webhooks using Bearer token authentication and a public OpenAPI specification.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/attio.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-05-11'
 name: Attio
 nav: Providers
 network: true
-overview: 'Attio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Call Recordings API, Comments API, and 13 more. Tagged areas include CRM, Customer Relationship Management, Sales, Contacts, and Companies.
+overview: 'Attio publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include CRM, Customer Relationship Management, Sales, Contacts, and Companies.
 
 
-  Attio''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 1
+  Attio''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
+random_paper: 6
 scopes:
 - name: Attio Scopes
   scope_count: 7
@@ -154,19 +105,26 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: emerging
-  composite: 29.5
-  delta: 3.2
+  composite: 23.6
+  delta: -5.9
   facets:
     commercial_clarity: 10.5
-    contract_quality: 51.3
+    contract_quality: 40.3
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 29.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/screenshots/attio-2026-06-20T172546.png
 security:
 - kind: authentication

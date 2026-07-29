@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: The Sessions API from Google Cloud Dialogflow CX — 1 operation(s) for sessions.
   name: Google Cloud Dialogflow CX Sessions API
   slug: google-cloud-dialogflow-cx-sessions-api
-artifact_total: 16
+artifact_total: 20
 collections:
+- collection_type: postman
+  name: Google Cloud Dialogflow CX Agents API
+  slug: postman-google-cloud-dialogflow-cx-agents-api
+- collection_type: postman
+  name: Google Cloud Dialogflow CX Agents Flows API
+  slug: postman-google-cloud-dialogflow-cx-flows-api
+- collection_type: postman
+  name: Google Cloud Dialogflow CX Agents Intents API
+  slug: postman-google-cloud-dialogflow-cx-intents-api
+- collection_type: postman
+  name: Google Cloud Dialogflow CX Agents Sessions API
+  slug: postman-google-cloud-dialogflow-cx-sessions-api
 - collection_type: open
   name: Google Cloud Dialogflow CX API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-dialogflow-cx/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,12 +164,12 @@ overview: 'Google Cloud Dialogflow CX publishes 4 APIs on the [APIs.io](https://
   The Google Cloud Dialogflow CX catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Dialogflow CX''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Cloud Dialogflow CX''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Cloud Dialogflow Cx Plans Pricing
   plan_count: 3
   slug: google-cloud-dialogflow-cx-plans-pricing
-random_paper: 6
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Google Cloud Dialogflow Cx Rate Limits
@@ -172,18 +190,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.5
-  delta: 4.5
+  composite: 61.3
+  delta: -3.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 63.7
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 65.3
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/screenshots/google-cloud-dialogflow-cx-2026-06-20T182105.png
 security:

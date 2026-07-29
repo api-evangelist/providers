@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -121,8 +123,97 @@ apis:
 - description: The UpdateMetricSet API from Amazon Lookout for Metrics — 1 operation(s) for updatemetricset.
   name: Amazon Lookout for Metrics UpdateMetricSet API
   slug: amazon-lookout-for-metrics-updatemetricset-api
-artifact_total: 738
+artifact_total: 766
+collections:
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector API
+  slug: postman-amazon-lookout-for-metrics-activateanomalydetector-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector BackTestAnomalyDetector API
+  slug: postman-amazon-lookout-for-metrics-backtestanomalydetector-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector CreateAlert API
+  slug: postman-amazon-lookout-for-metrics-createalert-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector CreateAnomalyDetector API
+  slug: postman-amazon-lookout-for-metrics-createanomalydetector-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector CreateMetricSet API
+  slug: postman-amazon-lookout-for-metrics-createmetricset-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DeactivateAnomalyDetector API
+  slug: postman-amazon-lookout-for-metrics-deactivateanomalydetector-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DeleteAlert API
+  slug: postman-amazon-lookout-for-metrics-deletealert-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DeleteAnomalyDetector API
+  slug: postman-amazon-lookout-for-metrics-deleteanomalydetector-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DescribeAlert API
+  slug: postman-amazon-lookout-for-metrics-describealert-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DescribeAnomalyDetectionExecutions API
+  slug: postman-amazon-lookout-for-metrics-describeanomalydetectionexecutions-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DescribeAnomalyDetector API
+  slug: postman-amazon-lookout-for-metrics-describeanomalydetector-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DescribeMetricSet API
+  slug: postman-amazon-lookout-for-metrics-describemetricset-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector DetectMetricSetConfig API
+  slug: postman-amazon-lookout-for-metrics-detectmetricsetconfig-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector GetAnomalyGroup API
+  slug: postman-amazon-lookout-for-metrics-getanomalygroup-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector GetDataQualityMetrics API
+  slug: postman-amazon-lookout-for-metrics-getdataqualitymetrics-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector GetFeedback API
+  slug: postman-amazon-lookout-for-metrics-getfeedback-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector GetSampleData API
+  slug: postman-amazon-lookout-for-metrics-getsampledata-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAlerts API
+  slug: postman-amazon-lookout-for-metrics-listalerts-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAnomalyDetectors API
+  slug: postman-amazon-lookout-for-metrics-listanomalydetectors-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAnomalyGroupRelatedMetrics API
+  slug: postman-amazon-lookout-for-metrics-listanomalygrouprelatedmetrics-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAnomalyGroupSummaries API
+  slug: postman-amazon-lookout-for-metrics-listanomalygroupsummaries-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListAnomalyGroupTimeSeries API
+  slug: postman-amazon-lookout-for-metrics-listanomalygrouptimeseries-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector ListMetricSets API
+  slug: postman-amazon-lookout-for-metrics-listmetricsets-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector PutFeedback API
+  slug: postman-amazon-lookout-for-metrics-putfeedback-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector Tags API
+  slug: postman-amazon-lookout-for-metrics-tags-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector UpdateAlert API
+  slug: postman-amazon-lookout-for-metrics-updatealert-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector UpdateAnomalyDetector API
+  slug: postman-amazon-lookout-for-metrics-updateanomalydetector-api
+- collection_type: postman
+  name: Amazon Lookout for Metrics ActivateAnomalyDetector UpdateMetricSet API
+  slug: postman-amazon-lookout-for-metrics-updatemetricset-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-lookout-for-metrics/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2301,12 +2392,12 @@ overview: 'Amazon Lookout for Metrics publishes 28 APIs on the [APIs.io](https:/
   The Amazon Lookout for Metrics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lookout for Metrics'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Lookout for Metrics'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Lookout For Metrics Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-metrics-plans-pricing
-random_paper: 64
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Metrics Rate Limits
@@ -2330,18 +2421,25 @@ rules:
   slug: amazon-lookout-for-metrics-spectral-rules
 score:
   band: strong
-  composite: 67.0
-  delta: 0.0
+  composite: 64.2
+  delta: -2.8
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 74.6
+    developer_ergonomics: 45.7
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/screenshots/amazon-lookout-for-metrics-2026-06-20T171728.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,12 +53,32 @@ apis:
 - description: Observed queries, query digests, and query samples.
   name: VividCortex Queries API
   slug: vividcortex-queries-api
-artifact_total: 12
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Vividcortex Alerts Webhooks
   slug: vividcortex-alerts-webhooks
+collections:
+- collection_type: postman
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts API
+  slug: postman-vividcortex-alerts-api
+- collection_type: postman
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts Events API
+  slug: postman-vividcortex-events-api
+- collection_type: postman
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts Hosts API
+  slug: postman-vividcortex-hosts-api
+- collection_type: postman
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts Metrics API
+  slug: postman-vividcortex-metrics-api
+- collection_type: postman
+  name: VividCortex (SolarWinds Database Performance Monitor) Alerts Queries API
+  slug: postman-vividcortex-queries-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/vividcortex/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -211,22 +233,32 @@ overview: 'VividCortex publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The VividCortex catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VividCortex''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 27 more developer resources.'
-random_paper: 51
+  VividCortex''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 28 more developer resources.'
+random_paper: 52
 score:
   band: strong
-  composite: 60.4
-  delta: 0.0
+  composite: 59.6
+  delta: -0.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.4
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.3
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 55.3
   previous_composite: 60.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

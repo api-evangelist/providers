@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -258,7 +260,7 @@ plans:
 - name: Apache James Plans Pricing
   plan_count: 3
   slug: apache-james-plans-pricing
-random_paper: 27
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Apache James Rate Limits
@@ -282,19 +284,26 @@ rules:
   slug: apache-james-spectral-rules
 score:
   band: developing
-  composite: 59.0
-  delta: 0.0
+  composite: 53.9
+  delta: -5.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.9
+    contract_quality: 63.1
     developer_ergonomics: 32.6
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/screenshots/apache-james-2026-06-20T172110.png
 security:
 - kind: authentication

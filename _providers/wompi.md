@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -58,12 +60,35 @@ apis:
 - description: Create and track payment transactions.
   name: Wompi Transactions API
   slug: wompi-transactions-api
-artifact_total: 17
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Wompi Webhooks
   slug: wompi-webhooks
+collections:
+- collection_type: postman
+  name: Wompi Merchants API
+  slug: postman-wompi-merchants-api
+- collection_type: postman
+  name: Wompi Merchants Payment Links API
+  slug: postman-wompi-payment-links-api
+- collection_type: postman
+  name: Wompi Merchants Payment Sources API
+  slug: postman-wompi-payment-sources-api
+- collection_type: postman
+  name: Wompi Merchants PSE API
+  slug: postman-wompi-pse-api
+- collection_type: postman
+  name: Wompi Merchants Tokenization API
+  slug: postman-wompi-tokenization-api
+- collection_type: postman
+  name: Wompi Merchants Transactions API
+  slug: postman-wompi-transactions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wompi/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -214,35 +239,46 @@ overview: 'Wompi publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Wompi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wompi''s developer surface includes authentication, documentation, sandbox, API reference, getting-started guide, signup flow, and 26 more developer resources.'
+  Wompi''s developer surface includes authentication, documentation, sandbox, API reference, getting-started guide, signup flow, and 27 more developer resources.'
 plans:
 - name: Wompi Plans Pricing
   plan_count: 2
   slug: wompi-plans-pricing
-random_paper: 12
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Wompi Rate Limits
   slug: wompi-rate-limits
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 58.6
+  delta: -3.8
   facets:
     commercial_clarity: 68.4
-    contract_quality: 69.3
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 67.2
+    developer_ergonomics: 60.3
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 62.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 69.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 62.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

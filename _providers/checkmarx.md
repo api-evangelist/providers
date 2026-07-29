@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -82,8 +84,53 @@ apis:
 - description: Manage teams and access control
   name: Checkmarx Teams API
   slug: checkmarx-teams-api
-artifact_total: 30
+artifact_total: 45
 collections:
+- collection_type: postman
+  name: Checkmarx One Applications API
+  slug: postman-checkmarx-applications-api
+- collection_type: postman
+  name: Checkmarx One Applications Authentication API
+  slug: postman-checkmarx-authentication-api
+- collection_type: postman
+  name: Checkmarx One Applications Configuration API
+  slug: postman-checkmarx-configuration-api
+- collection_type: postman
+  name: Checkmarx One Applications Engines API
+  slug: postman-checkmarx-engines-api
+- collection_type: postman
+  name: Checkmarx One Applications Groups API
+  slug: postman-checkmarx-groups-api
+- collection_type: postman
+  name: Checkmarx One Applications Packages API
+  slug: postman-checkmarx-packages-api
+- collection_type: postman
+  name: Checkmarx One Applications Presets API
+  slug: postman-checkmarx-presets-api
+- collection_type: postman
+  name: Checkmarx One Applications Projects API
+  slug: postman-checkmarx-projects-api
+- collection_type: postman
+  name: Checkmarx One Applications Queries API
+  slug: postman-checkmarx-queries-api
+- collection_type: postman
+  name: Checkmarx One Applications Reports API
+  slug: postman-checkmarx-reports-api
+- collection_type: postman
+  name: Checkmarx One Applications Results API
+  slug: postman-checkmarx-results-api
+- collection_type: postman
+  name: Checkmarx One Applications Risk Reports API
+  slug: postman-checkmarx-risk-reports-api
+- collection_type: postman
+  name: Checkmarx One Applications Scans API
+  slug: postman-checkmarx-scans-api
+- collection_type: postman
+  name: Checkmarx One Applications Settings API
+  slug: postman-checkmarx-settings-api
+- collection_type: postman
+  name: Checkmarx One Applications Teams API
+  slug: postman-checkmarx-teams-api
 - collection_type: open
   name: Checkmarx One API
   slug: open-checkmarx-one
@@ -94,6 +141,10 @@ collections:
   name: Checkmarx SCA API
   slug: open-checkmarx-sca
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/checkmarx/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -208,12 +259,12 @@ overview: 'Checkmarx publishes 15 APIs on the [APIs.io](https://apis.io/) networ
   The Checkmarx catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Checkmarx''s developer surface includes authentication, documentation, support, engineering blog, product news, GitHub presence, and 14 more developer resources.'
+  Checkmarx''s developer surface includes authentication, documentation, support, engineering blog, product news, GitHub presence, and 15 more developer resources.'
 plans:
 - name: Checkmarx Plans Pricing
   plan_count: 5
   slug: checkmarx-plans-pricing
-random_paper: 66
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Checkmarx Rate Limits
@@ -229,18 +280,25 @@ rules:
   slug: checkmarx-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.9
-  delta: 3.2
+  composite: 62.5
+  delta: -1.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 66.8
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 72.3
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/screenshots/checkmarx-2026-06-20T174245.png
 security:

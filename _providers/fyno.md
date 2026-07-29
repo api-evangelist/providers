@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -193,7 +195,7 @@ plans:
 - name: Fyno Plans Pricing
   plan_count: 5
   slug: fyno-plans-pricing
-random_paper: 36
+random_paper: 59
 rate_limits:
 - limit_count: 6
   name: Fyno Rate Limits
@@ -208,20 +210,33 @@ rules:
     warn: 4
   slug: fyno-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 64.1
-  delta: 0.0
+  band: developing
+  composite: 55.3
+  delta: -8.8
   facets:
     commercial_clarity: 57.9
-    contract_quality: 70.2
+    contract_quality: 71.5
     developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 64.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 30.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/screenshots/fyno-2026-06-20T181627.png
 security:
 - kind: authentication

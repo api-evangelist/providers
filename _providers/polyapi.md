@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -67,12 +69,46 @@ apis:
 - description: Manage webhook endpoints that receive events via HTTP calls, with support for authentication and custom listeners.
   name: PolyAPI Webhooks API
   slug: polyapi-webhooks-api
-artifact_total: 123
+artifact_total: 133
 collections:
+- collection_type: postman
+  name: PolyAPI Platform API Functions API
+  slug: postman-polyapi-api-functions-api
+- collection_type: postman
+  name: PolyAPI Platform API Functions Assistants API
+  slug: postman-polyapi-assistants-api
+- collection_type: postman
+  name: PolyAPI Platform API Functions Client Functions API
+  slug: postman-polyapi-client-functions-api
+- collection_type: postman
+  name: PolyAPI Platform API Functions Environments API
+  slug: postman-polyapi-environments-api
+- collection_type: postman
+  name: PolyAPI Platform API Functions Jobs API
+  slug: postman-polyapi-jobs-api
+- collection_type: postman
+  name: PolyAPI Platform API Functions Schemas API
+  slug: postman-polyapi-schemas-api
+- collection_type: postman
+  name: PolyAPI Platform API Functions Server Functions API
+  slug: postman-polyapi-server-functions-api
+- collection_type: postman
+  name: PolyAPI Platform API Functions Triggers API
+  slug: postman-polyapi-triggers-api
+- collection_type: postman
+  name: PolyAPI Platform API Functions Variables API
+  slug: postman-polyapi-variables-api
+- collection_type: postman
+  name: PolyAPI Platform API Functions Webhooks API
+  slug: postman-polyapi-webhooks-api
 - collection_type: open
   name: PolyAPI Platform API
   slug: open-polyapi-platform
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/polyapi/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -304,12 +340,12 @@ overview: 'PolyAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The PolyAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PolyAPI''s developer surface includes authentication, pricing, changelog, documentation, getting-started guide, engineering blog, signup flow, and 20 more developer resources.'
+  PolyAPI''s developer surface includes authentication, pricing, changelog, documentation, getting-started guide, engineering blog, signup flow, and 21 more developer resources.'
 plans:
 - name: Polyapi Plans Pricing
   plan_count: 3
   slug: polyapi-plans-pricing
-random_paper: 18
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Polyapi Rate Limits
@@ -325,18 +361,25 @@ rules:
   slug: polyapi-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 67.7
-  delta: 4.2
+  composite: 64.7
+  delta: -3.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 76.1
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 77.1
+    developer_ergonomics: 43.5
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 81.6
-  previous_composite: 63.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/screenshots/polyapi-2026-06-20T191900.png
 security:

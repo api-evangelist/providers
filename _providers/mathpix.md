@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,8 +60,26 @@ apis:
 - description: Inspect OCR consumption.
   name: Mathpix Usage API
   slug: mathpix-usage-api
-artifact_total: 29
+artifact_total: 35
 collections:
+- collection_type: postman
+  name: Mathpix App Tokens API
+  slug: postman-mathpix-app-tokens-api
+- collection_type: postman
+  name: Mathpix App Tokens Batches API
+  slug: postman-mathpix-batches-api
+- collection_type: postman
+  name: Mathpix App Tokens Conversions API
+  slug: postman-mathpix-conversions-api
+- collection_type: postman
+  name: Mathpix App Tokens Images API
+  slug: postman-mathpix-images-api
+- collection_type: postman
+  name: Mathpix App Tokens Strokes API
+  slug: postman-mathpix-strokes-api
+- collection_type: postman
+  name: Mathpix App Tokens Usage API
+  slug: postman-mathpix-usage-api
 - collection_type: open
   name: Mathpix App Tokens API
   slug: open-mathpix-app-tokens-api
@@ -79,6 +99,10 @@ collections:
   name: Mathpix Strokes API
   slug: open-mathpix-strokes-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mathpix/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -260,12 +284,12 @@ overview: 'Mathpix publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Mathpix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mathpix''s developer surface includes authentication, GitHub presence, developer portal, documentation, pricing, signup flow, developer console, and 27 more developer resources.'
+  Mathpix''s developer surface includes authentication, GitHub presence, developer portal, documentation, pricing, signup flow, developer console, and 28 more developer resources.'
 plans:
 - name: Mathpix Plans Pricing
   plan_count: 4
   slug: mathpix-plans-pricing
-random_paper: 15
+random_paper: 70
 rate_limits:
 - limit_count: 7
   name: Mathpix Rate Limits
@@ -289,18 +313,25 @@ rules:
   slug: mathpix-rules
 score:
   band: strong
-  composite: 67.1
-  delta: 3.3
+  composite: 64.3
+  delta: -2.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 67.0
-    developer_ergonomics: 54.3
-    discoverability: 75.0
-    governance: 86.8
+    contract_quality: 68.4
+    developer_ergonomics: 58.7
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 63.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/screenshots/mathpix-2026-06-20T185033.png
 security:

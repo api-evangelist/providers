@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 35.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Token-authenticated REST API over data.thinknum.com for querying Thinknum's alternative datasets. Endpoints cover dataset query (filter/group/sort/ function), historical daily and monthly feeds, compa
@@ -146,25 +148,27 @@ overview: 'Thinknum publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Thinknum''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 17 more developer resources.'
-random_paper: 62
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Thinknum Rate Limits
   slug: thinknum-rate-limits
 score:
   band: thin
-  composite: 35.0
-  delta: 0.0
+  composite: 32.0
+  delta: -3.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
-    developer_ergonomics: 67.4
-    discoverability: 92.5
+    developer_ergonomics: 60.9
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 57.9
   previous_composite: 35.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

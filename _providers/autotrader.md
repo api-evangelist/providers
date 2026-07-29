@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 13
 apis:
 - description: 'Provides VRM and VIN lookups, MOT history, vehicle features, valuations, and retail metrics for individual vehicles. Enables dealers and partners to retrieve comprehensive vehicle data for appraisals '
@@ -138,25 +140,25 @@ plans:
 - name: Autotrader Plans Pricing
   plan_count: 1
   slug: autotrader-plans-pricing
-random_paper: 63
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Autotrader Rate Limits
   slug: autotrader-rate-limits
 score:
   band: emerging
-  composite: 25.0
-  delta: 0.0
+  composite: 22.4
+  delta: -2.6
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 25.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autotrader/refs/heads/main/screenshots/autotrader-2026-06-20T172717.png
 security:

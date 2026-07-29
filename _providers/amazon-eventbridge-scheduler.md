@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,8 +70,17 @@ arazzos:
 - description: Resolve a schedule group ARN, remove tag keys, then list remaining tags.
   name: EventBridge Scheduler Untag Schedule Group
   slug: amazon-eventbridge-scheduler-untag-schedule-group-workflow
-artifact_total: 321
+artifact_total: 324
 collections:
+- collection_type: postman
+  name: Amazon EventBridge Scheduler Schedule Groups API
+  slug: postman-amazon-eventbridge-scheduler-schedule-groups-api
+- collection_type: postman
+  name: Amazon EventBridge Scheduler Schedule Groups Schedules API
+  slug: postman-amazon-eventbridge-scheduler-schedules-api
+- collection_type: postman
+  name: Amazon EventBridge Scheduler Schedule Groups Tags API
+  slug: postman-amazon-eventbridge-scheduler-tags-api
 - collection_type: postman
   name: Amazon EventBridge Scheduler
   slug: postman-amazon-eventbridge-scheduler
@@ -1118,7 +1129,7 @@ plans:
 - name: Amazon Eventbridge Scheduler Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-scheduler-plans-pricing
-random_paper: 6
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Scheduler Rate Limits
@@ -1142,19 +1153,26 @@ rules:
   slug: amazon-eventbridge-scheduler-spectral-rules
 score:
   band: exemplar
-  composite: 74.8
-  delta: 5.5
+  composite: 71.0
+  delta: -3.8
   facets:
     commercial_clarity: 89.5
-    contract_quality: 76.4
+    contract_quality: 77.4
     developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 69.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 74.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/screenshots/amazon-eventbridge-scheduler-2026-06-20T171646.png
 security:
 - kind: authentication

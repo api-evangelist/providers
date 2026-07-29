@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -91,8 +93,53 @@ apis:
 - description: Product targeting operations
   name: Amazon Targets API
   slug: amazon-targets-api
-artifact_total: 235
+artifact_total: 250
 collections:
+- collection_type: postman
+  name: Amazon Advertising Ad Groups API
+  slug: postman-amazon-ad-groups-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Campaigns API
+  slug: postman-amazon-campaigns-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Catalog API
+  slug: postman-amazon-catalog-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Charge Permissions API
+  slug: postman-amazon-charge-permissions-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Charges API
+  slug: postman-amazon-charges-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Checkout Sessions API
+  slug: postman-amazon-checkout-sessions-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Finances API
+  slug: postman-amazon-finances-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Inventory API
+  slug: postman-amazon-inventory-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Keywords API
+  slug: postman-amazon-keywords-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Listings API
+  slug: postman-amazon-listings-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Orders API
+  slug: postman-amazon-orders-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Profiles API
+  slug: postman-amazon-profiles-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Refunds API
+  slug: postman-amazon-refunds-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Reports API
+  slug: postman-amazon-reports-api
+- collection_type: postman
+  name: Amazon Advertising Ad Groups Targets API
+  slug: postman-amazon-targets-api
 - collection_type: open
   name: Amazon Advertising API
   slug: open-amazon-advertising-api
@@ -103,6 +150,10 @@ collections:
   name: Amazon Selling Partner API
   slug: open-amazon-selling-partner-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -726,7 +777,7 @@ overview: 'Amazon publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
   The Amazon catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, engineering blog, and 15 more developer resources.'
+  Amazon''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, engineering blog, and 16 more developer resources.'
 plans:
 - name: Amazon Plans Pricing
   plan_count: 3
@@ -747,7 +798,7 @@ press:
 - date: '2026-05-25'
   title: Press Center - US Press Center - Amazon's Press Releases
   url: https://press.aboutamazon.com/press-release-archive
-random_paper: 34
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Amazon Rate Limits
@@ -771,24 +822,32 @@ rules:
   slug: amazon-spectral-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 3.9
+  composite: 59.2
+  delta: -6.7
   facets:
     commercial_clarity: 73.7
-    contract_quality: 75.0
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 76.4
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 62.0
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
   regulatory:
     applies: true
-    regime: Payments
-    regime_id: payments
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 43.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png
 security:
 - kind: authentication

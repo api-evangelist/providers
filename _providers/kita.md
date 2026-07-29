@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 97.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 65.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -79,12 +81,59 @@ apis:
 - description: Register and manage HMAC-signed outbound webhooks.
   name: Kita Webhooks API
   slug: kita-webhooks-api
-artifact_total: 23
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Kita Capture Webhooks
   slug: kita-capture-webhooks
+collections:
+- collection_type: postman
+  name: Kita Capture Applications API
+  slug: postman-kita-applications-api
+- collection_type: postman
+  name: Kita Capture Applications Batch API
+  slug: postman-kita-batch-api
+- collection_type: postman
+  name: Kita Capture Applications Conversation API
+  slug: postman-kita-conversation-api
+- collection_type: postman
+  name: Kita Capture Applications Credit API
+  slug: postman-kita-credit-api
+- collection_type: postman
+  name: Kita Capture Applications Documents API
+  slug: postman-kita-documents-api
+- collection_type: postman
+  name: Kita Capture Applications Exports API
+  slug: postman-kita-exports-api
+- collection_type: postman
+  name: Kita Capture Applications Folders API
+  slug: postman-kita-folders-api
+- collection_type: postman
+  name: Kita Capture Applications Memo API
+  slug: postman-kita-memo-api
+- collection_type: postman
+  name: Kita Capture Applications Processing API
+  slug: postman-kita-processing-api
+- collection_type: postman
+  name: Kita Capture Applications Results API
+  slug: postman-kita-results-api
+- collection_type: postman
+  name: Kita Capture Applications Schemas API
+  slug: postman-kita-schemas-api
+- collection_type: postman
+  name: Kita Capture Applications Transcripts API
+  slug: postman-kita-transcripts-api
+- collection_type: postman
+  name: Kita Capture Applications Verification API
+  slug: postman-kita-verification-api
+- collection_type: postman
+  name: Kita Capture Applications Webhooks API
+  slug: postman-kita-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kita/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -260,35 +309,46 @@ overview: 'Kita publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
   The Kita catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kita''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 32 more developer resources.'
+  Kita''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 33 more developer resources.'
 plans:
 - name: Kita Plans
   plan_count: 3
   slug: kita-plans
-random_paper: 17
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Kita Rate Limits
   slug: kita-rate-limits
 score:
   band: strong
-  composite: 67.1
-  delta: 0.0
+  composite: 64.0
+  delta: -3.1
   facets:
     commercial_clarity: 92.1
-    contract_quality: 70.4
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.3
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 67.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 54.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
 security:

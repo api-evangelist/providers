@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -189,7 +191,7 @@ plans:
 - name: Zuper Plans Pricing
   plan_count: 3
   slug: zuper-plans-pricing
-random_paper: 22
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Zuper Rate Limits
@@ -205,18 +207,25 @@ rules:
   slug: zuper-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 58.3
-  delta: 0.0
+  composite: 54.0
+  delta: -4.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 66.6
+    contract_quality: 67.4
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 58.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/screenshots/zuper-2026-06-20T202002.png
 security:

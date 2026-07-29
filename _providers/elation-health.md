@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 75.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -85,12 +87,65 @@ apis:
 - description: Interact with data imports into a practice - submitting and managing bulk clinical and administrative data imports - via the Elation Import API.
   name: Elation Import API
   slug: import-api
-artifact_total: 22
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Elation Health Events Webhooks
   slug: elation-health-events-webhooks
+collections:
+- collection_type: postman
+  name: API Authentication
+  slug: postman-elation-api-authentication
+- collection_type: postman
+  name: Billing API
+  slug: postman-elation-billing-api
+- collection_type: postman
+  name: Care Gaps API
+  slug: postman-elation-care-gaps-api-1
+- collection_type: postman
+  name: Elation Import API
+  slug: postman-elation-elation-import-api
+- collection_type: postman
+  name: Event Subscription API
+  slug: postman-elation-event-subscription-api
+- collection_type: postman
+  name: Insurance API
+  slug: postman-elation-insurance-api
+- collection_type: postman
+  name: Messaging API
+  slug: postman-elation-messaging-api
+- collection_type: postman
+  name: Orders API
+  slug: postman-elation-orders-api
+- collection_type: postman
+  name: Patient Document API
+  slug: postman-elation-patient-document-api
+- collection_type: postman
+  name: Patient Profile API
+  slug: postman-elation-patient-profile-api
+- collection_type: postman
+  name: Practice API
+  slug: postman-elation-practice-api
+- collection_type: postman
+  name: '[Premium] Patient Insurance API'
+  slug: postman-elation-premium-patient-insurance-api
+- collection_type: postman
+  name: Reference Data API
+  slug: postman-elation-reference-data-api
+- collection_type: postman
+  name: Scheduling API
+  slug: postman-elation-scheduling-api
+- collection_type: postman
+  name: User Management API
+  slug: postman-elation-user-management-api
+- collection_type: postman
+  name: Visit Notes API
+  slug: postman-elation-visit-notes-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/elation-health/overview
 - group: agent
   title: ''
   type: AgentSkill
@@ -250,8 +305,8 @@ overview: 'Elation Health publishes 16 APIs on the [APIs.io](https://apis.io/) n
   The Elation Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Elation Health''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, engineering blog, and 28 more developer resources.'
-random_paper: 63
+  Elation Health''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
+random_paper: 37
 scopes:
 - name: Elation Health Scopes
   scope_count: 5
@@ -259,23 +314,29 @@ scopes:
   summary_line: 5 scopes · clientCredentials/password
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 58.8
+  delta: -2.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 60.4
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 76.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png
 security:

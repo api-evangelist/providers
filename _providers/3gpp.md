@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 1
@@ -543,26 +545,42 @@ overview: '3GPP publishes 116 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   3GPP''s developer surface includes authentication, documentation, developer portal, tooling, engineering blog, changelog, support, and 28 more developer resources.'
-random_paper: 38
+random_paper: 70
 scopes:
 - name: 3Gpp Scopes
   scope_count: 6
   slug: 3gpp-scopes
   summary_line: 6 scopes · clientCredentials
 score:
-  band: thin
-  composite: 44.7
-  delta: 0.0
+  band: developing
+  composite: 47.8
+  delta: 3.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.2
-    developer_ergonomics: 67.4
-    discoverability: 80.0
-    governance: 0.0
+    contract_quality: 48.9
+    developer_ergonomics: 56.0
+    discoverability: 77.8
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 44.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 116
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 75.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

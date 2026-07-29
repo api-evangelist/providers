@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,26 +68,27 @@ name: eXp World Holdings
 nav: Providers
 network: true
 overview: eXp World Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Brokerage, PropTech, Cloud Workspace, and Fortune 500.
-random_paper: 63
+random_paper: 60
 score:
   band: minimal
-  composite: 13.2
-  delta: 0.0
+  composite: 10.9
+  delta: -2.3
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 60.0
+    discoverability: 44.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.2
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 23.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exp-world-holdings/refs/heads/main/screenshots/exp-world-holdings-2026-06-20T180934.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -95,8 +97,23 @@ arazzos:
 - description: List an application's packages, branch on whether any packages exist, and export the most recently modified one.
   name: Appian Resolve a Named Package and Export It
   slug: appian-resolve-and-export-named-package-workflow
-artifact_total: 119
+artifact_total: 124
 collections:
+- collection_type: postman
+  name: Appian Application Package Details Export API
+  slug: postman-appian-export-api
+- collection_type: postman
+  name: Appian Application Package Details Export Import API
+  slug: postman-appian-import-api
+- collection_type: postman
+  name: Appian Application Package Details Export Inspection API
+  slug: postman-appian-inspection-api
+- collection_type: postman
+  name: Appian Application Package Details Export Packages API
+  slug: postman-appian-packages-api
+- collection_type: postman
+  name: Appian Application Package Details Export Results API
+  slug: postman-appian-results-api
 - collection_type: open
   name: Appian Application Package Details API
   slug: open-appian-application-package-details
@@ -107,6 +124,10 @@ collections:
   name: API Collection
   slug: open-appian
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/appian/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -750,12 +771,12 @@ overview: 'Appian publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Appian catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Appian''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, pricing, and 88 more developer resources.'
+  Appian''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, pricing, and 89 more developer resources.'
 plans:
 - name: Appian Plans Pricing
   plan_count: 4
   slug: appian-plans-pricing
-random_paper: 21
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Appian Rate Limits
@@ -771,18 +792,25 @@ rules:
   slug: appian-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 78.0
-  delta: 2.0
+  composite: 73.1
+  delta: -4.9
   facets:
     commercial_clarity: 100.0
-    contract_quality: 73.5
-    developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 66.9
+    developer_ergonomics: 63.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 78.9
-  previous_composite: 76.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 78.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/screenshots/appian-2026-06-20T172316.png
 security:

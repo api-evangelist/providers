@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -61,12 +63,40 @@ apis:
 - description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.updateservice.'
   name: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
   slug: fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api
-artifact_total: 17
+artifact_total: 25
 collections:
+- collection_type: postman
+  name: AWS Fargate Amazon ECS API (Fargate) Clusters API
+  slug: postman-fargate-clusters-api
+- collection_type: postman
+  name: AWS Fargate Amazon ECS API (Fargate) Clusters Task Definitions API
+  slug: postman-fargate-task-definitions-api
+- collection_type: postman
+  name: AWS Fargate Amazon ECS API (Fargate) Clusters Tasks API
+  slug: postman-fargate-tasks-api
+- collection_type: postman
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API'
+  slug: postman-fargate-x-amz-target-amazonec2containerservicev20141113-createservice-api
+- collection_type: postman
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API'
+  slug: postman-fargate-x-amz-target-amazonec2containerservicev20141113-deleteservice-api
+- collection_type: postman
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API'
+  slug: postman-fargate-x-amz-target-amazonec2containerservicev20141113-describeservices-api
+- collection_type: postman
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API'
+  slug: postman-fargate-x-amz-target-amazonec2containerservicev20141113-listservices-api
+- collection_type: postman
+  name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
+  slug: postman-fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api
 - collection_type: open
   name: AWS Fargate Amazon ECS API (Fargate)
   slug: open-fargate-ecs
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aws-fargate/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -198,30 +228,37 @@ network: true
 overview: 'AWS Fargate publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Task Definitions API, Tasks API, and 5 more. Tagged areas include Compute, Containers, Docker, Kubernetes, and Serverless.
 
 
-  AWS Fargate''s developer surface includes authentication, developer portal, documentation, pricing, getting-started guide, FAQ, developer console, and 22 more developer resources.'
+  AWS Fargate''s developer surface includes authentication, developer portal, documentation, pricing, getting-started guide, FAQ, developer console, and 23 more developer resources.'
 plans:
 - name: Fargate Plans Pricing
   plan_count: 3
   slug: fargate-plans-pricing
-random_paper: 50
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Fargate Rate Limits
   slug: fargate-rate-limits
 score:
   band: strong
-  composite: 64.1
-  delta: 3.2
+  composite: 63.6
+  delta: -0.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 60.2
-    developer_ergonomics: 65.2
-    discoverability: 100.0
+    contract_quality: 61.9
+    developer_ergonomics: 69.6
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 78.9
-  previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/screenshots/fargate-2026-06-20T181042.png
 security:

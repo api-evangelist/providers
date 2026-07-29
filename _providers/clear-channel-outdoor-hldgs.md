@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for the CCO.IO Automated Direct platform. Supports search, retrieval and management of displays, networks, markets, products, orders, bookings, campaigns, creatives, photos, customers, accoun
@@ -180,7 +182,7 @@ plans:
 - name: Clear Channel Outdoor Hldgs Plans Pricing
   plan_count: 1
   slug: clear-channel-outdoor-hldgs-plans-pricing
-random_paper: 41
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Clear Channel Outdoor Hldgs Rate Limits
@@ -204,18 +206,24 @@ rules:
   slug: clear-channel-outdoor-hldgs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 37.3
+  delta: -3.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.5
+    contract_quality: 58.1
     developer_ergonomics: 17.4
-    discoverability: 85.0
-    governance: 39.5
+    discoverability: 63.0
+    governance: 31.3
     operational_transparency: 26.3
   previous_composite: 40.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor-hldgs/refs/heads/main/screenshots/clear-channel-outdoor-hldgs-2026-06-20T174457.png
 security:

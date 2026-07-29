@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 32.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.3
+  scored_at: '2026-07-28'
 api_count: 16
 apis:
 - description: The Attribute Worksheets API from CaptivateIQ — 5 operation(s) for attribute worksheets.
@@ -199,25 +201,34 @@ overview: 'CaptivateIQ publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   CaptivateIQ''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, support, and 20 more developer resources.'
-random_paper: 23
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Captivateiq Rate Limits
   slug: captivateiq-rate-limits
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 49.7
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.2
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 49.0
+    developer_ergonomics: 42.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 50.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
 security:

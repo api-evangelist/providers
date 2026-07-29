@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -1132,7 +1134,7 @@ plans:
 - name: Twilio Plans Pricing
   plan_count: 2
   slug: twilio-plans-pricing
-random_paper: 52
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Twilio Rate Limits
@@ -1164,18 +1166,34 @@ rules:
   slug: twilio-rules
 score:
   band: exemplar
-  composite: 76.8
-  delta: 1.2
+  composite: 73.6
+  delta: -3.2
   facets:
     commercial_clarity: 76.3
-    contract_quality: 61.8
+    contract_quality: 68.4
     developer_ergonomics: 84.8
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 77.8
+    governance: 69.8
     operational_transparency: 94.7
-  previous_composite: 75.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 76.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 115
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

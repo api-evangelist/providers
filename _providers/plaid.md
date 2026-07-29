@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -130,12 +132,110 @@ apis:
 - description: Plaid's Core Exchange FDX is part of the Plaid open-finance platform, exposing 1 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end use
   name: Plaid Core Exchange FDX API
   slug: plaid-fdx-api
-artifact_total: 60
+artifact_total: 91
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Plaid webhook surface. Plaid delivers asynchronous notifications via HTTP POST to the URL registered on an Item (`webhook` parameter in `/link/token/create`) or conf
   name: Plaid Webhooks
   slug: plaid-webhooks--asyncapi-original
+collections:
+- collection_type: postman
+  name: Plaid accounts/
+  slug: postman-plaid-accounts-
+- collection_type: postman
+  name: Plaid asset report/
+  slug: postman-plaid-asset-report-
+- collection_type: postman
+  name: Plaid auth/
+  slug: postman-plaid-auth-
+- collection_type: postman
+  name: Plaid bank transfer/
+  slug: postman-plaid-bank-transfer-
+- collection_type: postman
+  name: Plaid beacon/
+  slug: postman-plaid-beacon-
+- collection_type: postman
+  name: Plaid categories/
+  slug: postman-plaid-categories-
+- collection_type: postman
+  name: Plaid cra/
+  slug: postman-plaid-cra-
+- collection_type: postman
+  name: Plaid credit/
+  slug: postman-plaid-credit-
+- collection_type: postman
+  name: Plaid deposit switch/
+  slug: postman-plaid-deposit-switch-
+- collection_type: postman
+  name: Plaid employers/
+  slug: postman-plaid-employers-
+- collection_type: postman
+  name: Plaid fdx/
+  slug: postman-plaid-fdx-
+- collection_type: postman
+  name: Plaid identity/
+  slug: postman-plaid-identity-
+- collection_type: postman
+  name: Plaid identity verification/
+  slug: postman-plaid-identity-verification-
+- collection_type: postman
+  name: Plaid income/
+  slug: postman-plaid-income-
+- collection_type: postman
+  name: Plaid institutions/
+  slug: postman-plaid-institutions-
+- collection_type: postman
+  name: Plaid investments/
+  slug: postman-plaid-investments-
+- collection_type: postman
+  name: Plaid item/
+  slug: postman-plaid-item-
+- collection_type: postman
+  name: Plaid liabilities/
+  slug: postman-plaid-liabilities-
+- collection_type: postman
+  name: Plaid link/
+  slug: postman-plaid-link-
+- collection_type: postman
+  name: Plaid link delivery/
+  slug: postman-plaid-link-delivery-
+- collection_type: postman
+  name: Plaid partner/
+  slug: postman-plaid-partner-
+- collection_type: postman
+  name: Plaid payment initiation/
+  slug: postman-plaid-payment-initiation-
+- collection_type: postman
+  name: Plaid payment profile/
+  slug: postman-plaid-payment-profile-
+- collection_type: postman
+  name: Plaid processor/
+  slug: postman-plaid-processor-
+- collection_type: postman
+  name: Plaid sandbox/
+  slug: postman-plaid-sandbox-
+- collection_type: postman
+  name: Plaid signal/
+  slug: postman-plaid-signal-
+- collection_type: postman
+  name: Plaid statements/
+  slug: postman-plaid-statements-
+- collection_type: postman
+  name: Plaid transactions/
+  slug: postman-plaid-transactions-
+- collection_type: postman
+  name: Plaid transfer/
+  slug: postman-plaid-transfer-
+- collection_type: postman
+  name: Plaid wallet/
+  slug: postman-plaid-wallet-
+- collection_type: postman
+  name: Plaid watchlist screening/
+  slug: postman-plaid-watchlist-screening-
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/plaid/overview
 - group: company
   title: ''
   type: Website
@@ -388,12 +488,12 @@ overview: 'Plaid publishes 31 APIs on the [APIs.io](https://apis.io/) network, i
   The Plaid catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Plaid''s developer surface includes documentation, engineering blog, pricing, support, sandbox, authentication, changelog, and 45 more developer resources.'
+  Plaid''s developer surface includes documentation, engineering blog, pricing, support, sandbox, authentication, changelog, and 46 more developer resources.'
 plans:
 - name: Plaid Plans Pricing
   plan_count: 3
   slug: plaid-plans-pricing
-random_paper: 46
+random_paper: 60
 rate_limits:
 - limit_count: 4
   name: Plaid Rate Limits
@@ -417,23 +517,34 @@ rules:
   slug: plaid-spectral-rules
 score:
   band: exemplar
-  composite: 74.9
-  delta: 0.0
+  composite: 74.6
+  delta: -0.3
   facets:
     commercial_clarity: 100.0
-    contract_quality: 61.1
-    developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 52.6
+    contract_quality: 67.8
+    developer_ergonomics: 62.5
+    discoverability: 87.0
+    governance: 62.5
     operational_transparency: 84.2
   previous_composite: 74.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 63.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:

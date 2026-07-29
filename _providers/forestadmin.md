@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Forest Admin Admin Backend is a REST API deployed on the customer's own infrastructure. It translates UI calls from the Forest Admin browser interface into database queries covering CRUD operation
@@ -122,25 +124,25 @@ plans:
 - name: Forestadmin Plans Pricing
   plan_count: 3
   slug: forestadmin-plans-pricing
-random_paper: 24
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Forestadmin Rate Limits
   slug: forestadmin-rate-limits
 score:
-  band: developing
-  composite: 45.3
-  delta: 0.0
+  band: thin
+  composite: 40.5
+  delta: -4.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.5
+    contract_quality: 50.0
     developer_ergonomics: 15.2
-    discoverability: 92.5
-    governance: 13.2
+    discoverability: 68.5
+    governance: 10.4
     operational_transparency: 52.6
   previous_composite: 45.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forestadmin/refs/heads/main/screenshots/forestadmin-2026-06-20T181423.png
 security:

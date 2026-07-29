@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -101,21 +103,31 @@ overview: 'Chaldal publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Chaldal''s developer surface includes authentication, engineering blog, support, documentation, API reference, and 4 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: emerging
-  composite: 26.6
-  delta: 0.0
+  composite: 24.8
+  delta: -1.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 26.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/screenshots/chaldal-2026-07-25T205118.png
 security:

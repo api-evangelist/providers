@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 74.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -625,7 +627,7 @@ plans:
 - name: Microsoft Exchange Plans Pricing
   plan_count: 4
   slug: microsoft-exchange-plans-pricing
-random_paper: 26
+random_paper: 14
 rate_limits:
 - limit_count: 7
   name: Microsoft Exchange Rate Limits
@@ -646,18 +648,27 @@ scopes:
   summary_line: 18 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 76.6
-  delta: 2.5
+  composite: 74.5
+  delta: -2.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 68.3
-    developer_ergonomics: 78.3
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 69.6
+    developer_ergonomics: 71.7
+    discoverability: 87.0
+    governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 74.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 76.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:

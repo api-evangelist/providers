@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 80.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -164,7 +166,7 @@ overview: 'TSB Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TSB Bank''s developer surface includes authentication, documentation, support, and 23 more developer resources.'
-random_paper: 38
+random_paper: 16
 scopes:
 - name: Tsb Bank Scopes
   scope_count: 9
@@ -172,23 +174,34 @@ scopes:
   summary_line: 9 scopes · implicit
 score:
   band: thin
-  composite: 42.7
-  delta: 0.0
+  composite: 39.6
+  delta: -3.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 37.7
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 36.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 10.5
   previous_composite: 42.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 89.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

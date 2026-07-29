@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: gigstack API v2 — REST API for CFDI 4.0 invoicing, payments, collections, clients, services, receipts, retentions, webhooks and SAT catalogs in Mexico. Bearer JWT authentication; cursor pagination; st
@@ -169,26 +171,30 @@ overview: 'Gigstack publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Gigstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 29
+random_paper: 75
 score:
-  band: thin
-  composite: 41.5
-  delta: 0.0
+  band: developing
+  composite: 44.3
+  delta: 2.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 41.5
+  provenance:
+    conformance: derived
+    mcp: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/screenshots/gigstack-2026-07-25T215817.png
 security:

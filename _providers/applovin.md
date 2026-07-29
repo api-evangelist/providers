@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -70,8 +72,46 @@ apis:
 - description: Per-segment waterfall management
   name: AppLovin Waterfalls API
   slug: applovin-waterfalls-api
-artifact_total: 35
+artifact_total: 46
+collections:
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units API
+  slug: postman-applovin-ad-units-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Asset Reporting API
+  slug: postman-applovin-asset-reporting-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Assets API
+  slug: postman-applovin-assets-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Campaigns API
+  slug: postman-applovin-campaigns-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Conversion Events API
+  slug: postman-applovin-conversion-events-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Creative Sets API
+  slug: postman-applovin-creative-sets-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Experiments API
+  slug: postman-applovin-experiments-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Growth Reporting API
+  slug: postman-applovin-growth-reporting-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Revenue Reporting API
+  slug: postman-applovin-revenue-reporting-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Test Devices API
+  slug: postman-applovin-test-devices-api
+- collection_type: postman
+  name: AppLovin Axon Campaign Management Ad Units Waterfalls API
+  slug: postman-applovin-waterfalls-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/applovin/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -283,12 +323,12 @@ overview: 'AppLovin publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The AppLovin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AppLovin''s developer surface includes authentication, documentation, support, engineering blog, code examples, tooling, and 29 more developer resources.'
+  AppLovin''s developer surface includes authentication, documentation, support, engineering blog, code examples, tooling, and 30 more developer resources.'
 plans:
 - name: Applovin Plans Pricing
   plan_count: 1
   slug: applovin-plans-pricing
-random_paper: 57
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Applovin Rate Limits
@@ -311,20 +351,27 @@ rules:
     warn: 15
   slug: applovin-rules
 score:
-  band: strong
-  composite: 60.4
-  delta: 0.0
+  band: developing
+  composite: 53.6
+  delta: -6.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.4
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 57.0
+    developer_ergonomics: 54.3
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 26.3
   previous_composite: 60.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Spear is a developer platform focused on API development workflows, providing tools for API design, collaboration, and delivery through a unified workspace experience.
@@ -83,7 +85,7 @@ plans:
 - name: Spear Plans Pricing
   plan_count: 3
   slug: spear-plans-pricing
-random_paper: 63
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Spear Rate Limits
@@ -98,19 +100,19 @@ rules:
     warn: 4
   slug: spear-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 31.4
-  delta: 0.0
+  band: emerging
+  composite: 27.2
+  delta: -4.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 67.5
-    governance: 73.7
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 31.6
   previous_composite: 31.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spear/refs/heads/main/screenshots/spear-2026-06-20T194252.png
 security:

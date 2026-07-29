@@ -2,11 +2,13 @@
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,26 +71,27 @@ overview: 'Prospera Credit Union is profiled on the [APIs.io](https://apis.io/) 
 
 
   Prospera Credit Union''s developer surface includes YouTube channel, support, and 7 more developer resources.'
-random_paper: 46
+random_paper: 75
 score:
   band: minimal
-  composite: 11.5
-  delta: 0.0
+  composite: 8.7
+  delta: -2.8
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 21.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 12.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

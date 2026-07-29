@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 31.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -991,7 +993,7 @@ plans:
 - name: Akamai Api Security Plans Pricing
   plan_count: 3
   slug: akamai-api-security-plans-pricing
-random_paper: 0
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Akamai Api Security Rate Limits
@@ -1015,18 +1017,25 @@ rules:
   slug: akamai-api-security-spectral-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 49.3
+  delta: -4.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 56.6
+    contract_quality: 54.2
     developer_ergonomics: 15.2
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 53.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 64
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/screenshots/akamai-api-security-2026-06-20T171447.png
 security:

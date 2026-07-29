@@ -10,23 +10,25 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: Create, list, clone, export, and delete projects, and manage the environments (production, staging, etc.) within each project, via GraphQL queries and mutations.
@@ -117,26 +119,26 @@ plans:
 - name: Zeabur Plans Pricing
   plan_count: 3
   slug: zeabur-plans-pricing
-random_paper: 37
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Zeabur Rate Limits
   slug: zeabur-rate-limits
 score:
-  band: emerging
-  composite: 26.4
-  delta: 3.2
+  band: thin
+  composite: 34.7
+  delta: 8.3
   facets:
     commercial_clarity: 47.4
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 23.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 26.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: domain-security
   name: Zeabur Domain Security

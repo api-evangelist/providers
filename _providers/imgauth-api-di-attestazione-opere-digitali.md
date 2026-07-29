@@ -2,11 +2,13 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 17.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Attestation/proof-of-existence REST API. Client-side SHA-256 hashing, signed PDF certificates, RFC 3161 timestamps, OpenTimestamps/Bitcoin anchoring, verifiable certificate pages, and status telemetry
@@ -34,19 +36,22 @@ name: imgauth — API di attestazione opere digitali
 nav: Providers
 network: true
 overview: 'imgauth — API di attestazione opere digitali publishes 1 API on the [APIs.io](https://apis.io/) network: imgauth REST API. Tagged areas include digital notarization, timestamping, proof-of-existence, content authenticity, and provenance.'
-random_paper: 32
+random_paper: 22
 score:
   band: emerging
-  composite: 17.4
+  composite: 14.0
+  delta: -3.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 0.0
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 17.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 slug: imgauth-api-di-attestazione-opere-digitali
 tags:
 - digital notarization

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 6
 apis:
 - description: REST API for executing Power Query mashups and managing data transformations programmatically.
@@ -161,25 +163,25 @@ plans:
 - name: Power Query Plans Pricing
   plan_count: 3
   slug: power-query-plans-pricing
-random_paper: 12
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Power Query Rate Limits
   slug: power-query-rate-limits
 score:
-  band: developing
-  composite: 45.3
-  delta: 0.0
+  band: thin
+  composite: 41.9
+  delta: -3.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 34.8
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 45.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/screenshots/power-query-2026-06-20T192025.png
 security:

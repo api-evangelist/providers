@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.4
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: Wallet and bank account registration Every wallet address that interacts with Iron must be registered (linked) to a customer **before** it can be used in any flow — onramp, offramp, or swap. This is a
@@ -56,12 +58,44 @@ apis:
 - description: Operations on Webhooks
   name: Unstoppable Finance (Iron) Webhooks API
   slug: unstoppable-finance-webhooks-api
-artifact_total: 15
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Unstoppable Finance Webhooks
   slug: unstoppable-finance-webhooks
+collections:
+- collection_type: postman
+  name: Iron API - Sandbox Addresses API
+  slug: postman-unstoppable-finance-addresses-api
+- collection_type: postman
+  name: Iron API - Sandbox Addresses Autoramp API
+  slug: postman-unstoppable-finance-autoramp-api
+- collection_type: postman
+  name: Iron API - Sandbox Addresses Currencies API
+  slug: postman-unstoppable-finance-currencies-api
+- collection_type: postman
+  name: Iron API - Sandbox Addresses Customer API
+  slug: postman-unstoppable-finance-customer-api
+- collection_type: postman
+  name: Iron API - Sandbox Addresses ExchangeRate API
+  slug: postman-unstoppable-finance-exchangerate-api
+- collection_type: postman
+  name: Iron API - Sandbox Addresses FeeProfiles API
+  slug: postman-unstoppable-finance-feeprofiles-api
+- collection_type: postman
+  name: Iron API - Addresses Sandbox API
+  slug: postman-unstoppable-finance-sandbox-api
+- collection_type: postman
+  name: Iron API - Sandbox Addresses TermsAndConditions API
+  slug: postman-unstoppable-finance-termsandconditions-api
+- collection_type: postman
+  name: Iron API - Sandbox Addresses Webhooks API
+  slug: postman-unstoppable-finance-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/unstoppable-finance-iron/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -204,27 +238,37 @@ overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://
   The Unstoppable Finance (Iron) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unstoppable Finance (Iron)''s developer surface includes documentation, getting-started guide, authentication, sandbox, CLI, support, pricing, and 24 more developer resources.'
-random_paper: 62
+  Unstoppable Finance (Iron)''s developer surface includes documentation, getting-started guide, authentication, sandbox, CLI, support, pricing, and 25 more developer resources.'
+random_paper: 41
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 56.1
+  delta: -4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.1
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 66.8
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 34.2
   previous_composite: 60.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 45.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

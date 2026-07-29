@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 3
@@ -58,12 +60,29 @@ apis:
 - description: Direct server-to-server card and wallet transactions (remote.json).
   name: Telr Remote API
   slug: telr-remote-api
-artifact_total: 17
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Telr Webhooks
   slug: telr-webhooks
+collections:
+- collection_type: postman
+  name: Telr Payment Gateway Agreements API
+  slug: postman-telr-agreements-api
+- collection_type: postman
+  name: Telr Payment Gateway Agreements Hosted Payment Page API
+  slug: postman-telr-hosted-payment-page-api
+- collection_type: postman
+  name: Telr Payment Gateway Agreements Payments API API
+  slug: postman-telr-payments-api-api
+- collection_type: postman
+  name: Telr Payment Gateway Agreements Remote API
+  slug: postman-telr-remote-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/telr/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -230,35 +249,46 @@ overview: 'Telr publishes 4 APIs on the [APIs.io](https://apis.io/) network, inc
   The Telr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Telr''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, support, pricing, and 29 more developer resources.'
+  Telr''s developer surface includes authentication, documentation, engineering blog, sandbox, getting-started guide, support, pricing, and 30 more developer resources.'
 plans:
 - name: Telr Plans Pricing
   plan_count: 7
   slug: telr-plans-pricing
-random_paper: 31
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Telr Rate Limits
   slug: telr-rate-limits
 score:
   band: exemplar
-  composite: 70.2
-  delta: 0.0
+  composite: 67.5
+  delta: -2.7
   facets:
     commercial_clarity: 100.0
-    contract_quality: 69.0
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 67.8
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 70.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 65.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

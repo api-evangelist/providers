@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -64,12 +66,43 @@ apis:
 - description: Worker queue metrics
   name: Activepieces Worker Machines API
   slug: activepieces-worker-machines-api
-artifact_total: 125
+artifact_total: 134
 collections:
+- collection_type: postman
+  name: Activepieces Connections API
+  slug: postman-activepieces-connections-api
+- collection_type: postman
+  name: Activepieces Connections Flow Runs API
+  slug: postman-activepieces-flow-runs-api
+- collection_type: postman
+  name: Activepieces Connections Flows API
+  slug: postman-activepieces-flows-api
+- collection_type: postman
+  name: Activepieces Connections Folders API
+  slug: postman-activepieces-folders-api
+- collection_type: postman
+  name: Activepieces Connections Pieces API
+  slug: postman-activepieces-pieces-api
+- collection_type: postman
+  name: Activepieces Connections Projects API
+  slug: postman-activepieces-projects-api
+- collection_type: postman
+  name: Activepieces Connections Templates API
+  slug: postman-activepieces-templates-api
+- collection_type: postman
+  name: Activepieces Connections Users API
+  slug: postman-activepieces-users-api
+- collection_type: postman
+  name: Activepieces Connections Worker Machines API
+  slug: postman-activepieces-worker-machines-api
 - collection_type: open
   name: Activepieces API
   slug: open-activepieces
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/activepieces/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -427,12 +460,12 @@ overview: 'Activepieces publishes 9 APIs on the [APIs.io](https://apis.io/) netw
   The Activepieces catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Activepieces'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 10 more developer resources.'
+  Activepieces'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Activepieces Plans Pricing
   plan_count: 3
   slug: activepieces-plans-pricing
-random_paper: 45
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Activepieces Rate Limits
@@ -456,19 +489,26 @@ rules:
   slug: activepieces-spectral-rules
 score:
   band: strong
-  composite: 65.4
-  delta: 5.5
+  composite: 57.7
+  delta: -7.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 79.5
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 64.3
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 59.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 65.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/screenshots/activepieces-2026-06-20T164235.png
 security:
 - kind: authentication

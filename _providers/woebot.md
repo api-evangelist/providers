@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Gated partner API library for integrating the Woebot Health Platform into a partner's digital front door, EMR, or care pathway. Supports transmission of aggregated data including patient-reported outc
@@ -130,31 +132,32 @@ plans:
 - name: Woebot Plans Pricing
   plan_count: 1
   slug: woebot-plans-pricing
-random_paper: 44
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Woebot Rate Limits
   slug: woebot-rate-limits
 score:
   band: emerging
-  composite: 28.6
-  delta: 0.0
+  composite: 23.1
+  delta: -5.5
   facets:
     commercial_clarity: 57.9
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 28.6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 31.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/woebot/refs/heads/main/screenshots/woebot-2026-06-20T201534.png
 security:
 - kind: domain-security

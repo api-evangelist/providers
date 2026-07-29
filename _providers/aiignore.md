@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Command-line tool that generates .aiignore configuration files to protect secrets from AI coding tools including JetBrains AI, Cursor, GitHub Copilot, Claude Code, Codeium, and Windsurf with a single '
@@ -161,7 +163,7 @@ plans:
 - name: Aiignore Plans Pricing
   plan_count: 3
   slug: aiignore-plans-pricing
-random_paper: 30
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Aiignore Rate Limits
@@ -177,18 +179,18 @@ rules:
   slug: aiignore-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 31.6
+  delta: -4.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 17.4
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 31.6
   previous_composite: 36.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/screenshots/aiignore-2026-06-20T170859.png
 security:

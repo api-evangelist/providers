@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 5
 common:
@@ -121,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: Valmont and Prospera Technologies Announce Roadmap ...
   url: https://www.prnewswire.com/news-releases/valmont-and-prospera-technologies-announce-roadmap-to-autonomous-crop-management-technology-through-global-partnership-300797955.html
-random_paper: 8
+random_paper: 64
 rules:
 - name: Valmont Industries API Rules
   rule_count: 5
@@ -133,18 +135,18 @@ rules:
   slug: valmont-industries-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.0
-  delta: 0.0
+  composite: 18.6
+  delta: -4.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 10.9
-    discoverability: 67.5
-    governance: 73.7
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 0.0
   previous_composite: 23.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valmont-industries/refs/heads/main/screenshots/valmont-industries-2026-06-20T200803.png
 security:

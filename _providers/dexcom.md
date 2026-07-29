@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: User-entered events such as carbohydrate intake, insulin doses, exercise, and health events.
   name: Dexcom Events API
   slug: dexcom-events-api
-artifact_total: 109
+artifact_total: 116
 collections:
+- collection_type: postman
+  name: Dexcom Developer Alerts API
+  slug: postman-dexcom-alerts-api
+- collection_type: postman
+  name: Dexcom Developer Alerts Authentication API
+  slug: postman-dexcom-authentication-api
+- collection_type: postman
+  name: Dexcom Developer Alerts Calibrations API
+  slug: postman-dexcom-calibrations-api
+- collection_type: postman
+  name: Dexcom Developer Alerts Data Range API
+  slug: postman-dexcom-data-range-api
+- collection_type: postman
+  name: Dexcom Developer Alerts Devices API
+  slug: postman-dexcom-devices-api
+- collection_type: postman
+  name: Dexcom Developer Alerts Estimated Glucose Values API
+  slug: postman-dexcom-estimated-glucose-values-api
+- collection_type: postman
+  name: Dexcom Developer Alerts Events API
+  slug: postman-dexcom-events-api
 - collection_type: open
   name: Dexcom Developer API
   slug: open-dexcom-dexcom-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dexcom/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -398,12 +425,12 @@ overview: 'Dexcom publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Dexcom catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dexcom''s developer surface includes authentication, documentation, getting-started guide, sandbox, support, and 14 more developer resources.'
+  Dexcom''s developer surface includes authentication, documentation, getting-started guide, sandbox, support, and 15 more developer resources.'
 plans:
 - name: Dexcom Plans Pricing
   plan_count: 1
   slug: dexcom-plans-pricing
-random_paper: 28
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Dexcom Rate Limits
@@ -431,25 +458,33 @@ scopes:
   slug: dexcom-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 64.3
-  delta: 4.0
+  band: developing
+  composite: 55.0
+  delta: -9.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 76.4
-    developer_ergonomics: 50.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 64.4
+    developer_ergonomics: 54.3
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 60.3
+  previous_composite: 64.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 52.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/screenshots/dexcom-2026-06-20T175957.png
 security:
 - kind: authentication

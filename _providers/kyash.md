@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -126,26 +128,27 @@ overview: 'Kyash is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kyash''s developer surface includes engineering blog, support, pricing, signup flow, product news, and 16 more developer resources.'
-random_paper: 0
+random_paper: 5
 score:
   band: emerging
-  composite: 25.7
-  delta: 0.0
+  composite: 24.0
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 25.7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 29.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyash/refs/heads/main/screenshots/kyash-2026-07-25T224346.png
 security:

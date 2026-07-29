@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 58.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -76,16 +78,50 @@ apis:
 - description: Manage Postgres roles within a branch. Roles control database access and permissions.
   name: Neon Roles API
   slug: neon-roles-api
-artifact_total: 82
+artifact_total: 92
 asyncapis:
 - description: 'Neon Auth webhooks deliver HTTP POST requests when authentication events occur, including OTP delivery, magic link delivery, and user creation. Webhooks can be used to replace built-in email delivery '
   name: Neon Auth Webhook Events
   slug: neon-auth-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Neon Management API Keys API
+  slug: postman-neon-api-keys-api
+- collection_type: postman
+  name: Neon Management API Keys Auth API
+  slug: postman-neon-auth-api
+- collection_type: postman
+  name: Neon Management API Keys Branches API
+  slug: postman-neon-branches-api
+- collection_type: postman
+  name: Neon Management API Keys Consumption API
+  slug: postman-neon-consumption-api
+- collection_type: postman
+  name: Neon Management API Keys Data API API
+  slug: postman-neon-data-api-api
+- collection_type: postman
+  name: Neon Management API Keys Databases API
+  slug: postman-neon-databases-api
+- collection_type: postman
+  name: Neon Management API Keys Endpoints API
+  slug: postman-neon-endpoints-api
+- collection_type: postman
+  name: Neon Management API Keys Operations API
+  slug: postman-neon-operations-api
+- collection_type: postman
+  name: Neon Management API Keys Projects API
+  slug: postman-neon-projects-api
+- collection_type: postman
+  name: Neon Management API Keys Roles API
+  slug: postman-neon-roles-api
 - collection_type: open
   name: Neon Management API
   slug: open-neon-management-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/neon/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -297,12 +333,12 @@ overview: 'Neon publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
   The Neon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Neon''s developer surface includes authentication, developer portal, engineering blog, pricing, signup flow, support, and 13 more developer resources.'
+  Neon''s developer surface includes authentication, developer portal, engineering blog, pricing, signup flow, support, and 14 more developer resources.'
 plans:
 - name: Neon Plans Pricing
   plan_count: 3
   slug: neon-plans-pricing
-random_paper: 24
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Neon Rate Limits
@@ -326,18 +362,25 @@ rules:
   slug: neon-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.0
-  delta: 2.0
+  composite: 60.5
+  delta: -2.5
   facets:
     commercial_clarity: 92.1
-    contract_quality: 69.7
-    developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 52.6
+    contract_quality: 70.8
+    developer_ergonomics: 30.4
+    discoverability: 64.8
+    governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 61.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/screenshots/neon-2026-06-20T190138.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,8 +57,26 @@ apis:
 - description: Schedule maintenance windows to suppress alerts
   name: BigPanda Maintenance Plans API
   slug: bigpanda-maintenance-plans-api
-artifact_total: 72
+artifact_total: 78
 collections:
+- collection_type: postman
+  name: BigPanda Alerts API
+  slug: postman-bigpanda-alerts-api
+- collection_type: postman
+  name: BigPanda Alerts Audit API
+  slug: postman-bigpanda-audit-api
+- collection_type: postman
+  name: BigPanda Alerts Changes API
+  slug: postman-bigpanda-changes-api
+- collection_type: postman
+  name: BigPanda Alerts Environments API
+  slug: postman-bigpanda-environments-api
+- collection_type: postman
+  name: BigPanda Alerts Incidents API
+  slug: postman-bigpanda-incidents-api
+- collection_type: postman
+  name: BigPanda Alerts Maintenance Plans API
+  slug: postman-bigpanda-maintenance-plans-api
 - collection_type: open
   name: BigPanda API
   slug: open-bigpanda
@@ -104,7 +124,7 @@ common:
 - group: build
   title: ''
   type: PostmanWorkspace
-  url: https://www.postman.com/bigpandaio/bigpanda-api-staging/overview
+  url: https://www.postman.com/kinlaneapi/bigpanda/overview
 - group: operate
   title: ''
   type: StatusPage
@@ -299,7 +319,7 @@ plans:
 - name: Bigpanda Plans Pricing
   plan_count: 3
   slug: bigpanda-plans-pricing
-random_paper: 6
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Bigpanda Rate Limits
@@ -323,19 +343,26 @@ rules:
   slug: bigpanda-spectral-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 2.0
+  composite: 56.2
+  delta: -7.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 71.1
+    contract_quality: 59.6
     developer_ergonomics: 45.7
-    discoverability: 75.0
-    governance: 86.8
+    discoverability: 55.6
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/screenshots/bigpanda-2026-06-20T173234.png
 security:
 - kind: authentication

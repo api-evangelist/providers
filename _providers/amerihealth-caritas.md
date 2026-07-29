@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 0
@@ -323,7 +325,7 @@ plans:
 - name: Amerihealth Caritas Plans Pricing
   plan_count: 4
   slug: amerihealth-caritas-plans-pricing
-random_paper: 40
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Amerihealth Caritas Rate Limits
@@ -347,24 +349,32 @@ rules:
   slug: amerihealth-caritas-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 4.0
+  composite: 45.7
+  delta: -6.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.6
+    contract_quality: 57.8
     developer_ergonomics: 39.1
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 47.7
+  previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 21.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/screenshots/amerihealth-caritas-2026-06-20T171925.png
 security:
 - kind: authentication

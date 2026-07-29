@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -67,12 +69,37 @@ apis:
 - description: Manage translation strings across languages and namespaces
   name: SimpleLocalize Translations API
   slug: simplelocalize-translations-api
-artifact_total: 27
+artifact_total: 34
 collections:
+- collection_type: postman
+  name: SimpleLocalize Customers API
+  slug: postman-simplelocalize-customers-api
+- collection_type: postman
+  name: SimpleLocalize Customers Export API
+  slug: postman-simplelocalize-export-api
+- collection_type: postman
+  name: SimpleLocalize Customers Import API
+  slug: postman-simplelocalize-import-api
+- collection_type: postman
+  name: SimpleLocalize Customers Languages API
+  slug: postman-simplelocalize-languages-api
+- collection_type: postman
+  name: SimpleLocalize Customers Projects API
+  slug: postman-simplelocalize-projects-api
+- collection_type: postman
+  name: SimpleLocalize Customers Publication API
+  slug: postman-simplelocalize-publication-api
+- collection_type: postman
+  name: SimpleLocalize Customers Translations API
+  slug: postman-simplelocalize-translations-api
 - collection_type: open
   name: SimpleLocalize API
   slug: open-simplelocalize
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/simplelocalize/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -185,12 +212,12 @@ overview: 'SimpleLocalize publishes 7 APIs on the [APIs.io](https://apis.io/) ne
   The SimpleLocalize catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SimpleLocalize''s developer surface includes authentication, documentation, pricing, engineering blog, CLI, and 12 more developer resources.'
+  SimpleLocalize''s developer surface includes authentication, documentation, pricing, engineering blog, CLI, and 13 more developer resources.'
 plans:
 - name: Simplelocalize Plans Pricing
   plan_count: 5
   slug: simplelocalize-plans-pricing
-random_paper: 5
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Simplelocalize Rate Limits
@@ -214,18 +241,25 @@ rules:
   slug: simplelocalize-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 3.3
+  composite: 57.5
+  delta: -2.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 67.3
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 68.6
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 57.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/screenshots/simplelocalize-2026-06-20T193932.png
 security:

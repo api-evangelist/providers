@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
-    idempotency: true
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 22.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Antom (Ant Group Global) AMS REST API for online payments, tokenized and subscription payments, refunds, captures, disputes, payouts and 3-D Secure 2 authentication across global payment methods. RSA2
@@ -130,26 +132,29 @@ overview: 'Ant Group publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Ant Group''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 41
+random_paper: 1
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 34.4
+  delta: -0.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 34.5
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 48.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ant-group/refs/heads/main/screenshots/ant-group-2026-07-25T200357.png
 security:

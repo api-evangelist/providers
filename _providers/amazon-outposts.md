@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: The Tags API from Amazon Outposts — 2 operation(s) for tags.
   name: Amazon Outposts Tags API
   slug: amazon-outposts-tags-api
-artifact_total: 540
+artifact_total: 547
 collections:
+- collection_type: postman
+  name: AWS Outposts Catalog API
+  slug: postman-amazon-outposts-catalog-api
+- collection_type: postman
+  name: AWS Outposts Catalog Connections API
+  slug: postman-amazon-outposts-connections-api
+- collection_type: postman
+  name: AWS Outposts Catalog List Orders API
+  slug: postman-amazon-outposts-list-orders-api
+- collection_type: postman
+  name: AWS Outposts Catalog Orders API
+  slug: postman-amazon-outposts-orders-api
+- collection_type: postman
+  name: AWS Catalog Outposts API
+  slug: postman-amazon-outposts-outposts-api
+- collection_type: postman
+  name: AWS Outposts Catalog Sites API
+  slug: postman-amazon-outposts-sites-api
+- collection_type: postman
+  name: AWS Outposts Catalog Tags API
+  slug: postman-amazon-outposts-tags-api
 - collection_type: open
   name: AWS Outposts
   slug: open-amazon-outposts
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-outposts/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1757,12 +1784,12 @@ overview: 'Amazon Outposts publishes 7 APIs on the [APIs.io](https://apis.io/) n
   The Amazon Outposts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Outposts'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
+  Amazon Outposts'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
 plans:
 - name: Amazon Outposts Plans Pricing
   plan_count: 3
   slug: amazon-outposts-plans-pricing
-random_paper: 40
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Amazon Outposts Rate Limits
@@ -1786,18 +1813,25 @@ rules:
   slug: amazon-outposts-spectral-rules
 score:
   band: strong
-  composite: 68.4
-  delta: 3.3
+  composite: 65.1
+  delta: -3.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 71.1
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 72.2
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 65.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/screenshots/amazon-outposts-2026-06-20T171754.png
 security:

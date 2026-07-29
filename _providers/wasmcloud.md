@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 12.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: The wasmCloud control interface provides a NATS-based API for managing the wasmCloud lattice. It supports operations for starting and stopping actors and providers, establishing links between componen
@@ -216,7 +218,7 @@ plans:
 - name: Wasmcloud Plans Pricing
   plan_count: 3
   slug: wasmcloud-plans-pricing
-random_paper: 23
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Wasmcloud Rate Limits
@@ -240,18 +242,18 @@ rules:
   slug: wasmcloud-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 54.3
+  delta: 1.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.4
+    contract_quality: 78.4
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 78.9
+    discoverability: 72.2
+    governance: 62.5
     operational_transparency: 52.6
   previous_composite: 53.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/screenshots/wasmcloud-2026-06-20T201238.png
 security:

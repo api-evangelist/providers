@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -88,8 +90,61 @@ apis:
 - description: The Tokens API from Beyond Identity — 2 operation(s) for tokens.
   name: Beyond Identity Tokens API
   slug: beyond-identity-tokens-api
-artifact_total: 30
+artifact_total: 46
+collections:
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications API
+  slug: postman-beyond-identity-applications-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Authenticator Configurations API
+  slug: postman-beyond-identity-authenticator-configurations-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Credential Binding Jobs API
+  slug: postman-beyond-identity-credential-binding-jobs-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Credentials API
+  slug: postman-beyond-identity-credentials-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Groups API
+  slug: postman-beyond-identity-groups-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Identities API
+  slug: postman-beyond-identity-identities-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Identity Provider API
+  slug: postman-beyond-identity-identity-provider-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Launch Mechanisms API
+  slug: postman-beyond-identity-launch-mechanisms-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Realms API
+  slug: postman-beyond-identity-realms-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Resource Servers API
+  slug: postman-beyond-identity-resource-servers-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Roles API
+  slug: postman-beyond-identity-roles-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications SCIM API
+  slug: postman-beyond-identity-scim-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications SSO Configs API
+  slug: postman-beyond-identity-sso-configs-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Tenants API
+  slug: postman-beyond-identity-tenants-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Themes API
+  slug: postman-beyond-identity-themes-api
+- collection_type: postman
+  name: Beyond Identity Secure Access Applications Tokens API
+  slug: postman-beyond-identity-tokens-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/beyond-identity/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,12 +258,12 @@ overview: 'Beyond Identity publishes 16 APIs on the [APIs.io](https://apis.io/) 
   The Beyond Identity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Beyond Identity''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, support, and 13 more developer resources.'
+  Beyond Identity''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, support, and 14 more developer resources.'
 plans:
 - name: Beyond Identity Plans Pricing
   plan_count: 3
   slug: beyond-identity-plans-pricing
-random_paper: 64
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Beyond Identity Rate Limits
@@ -224,18 +279,25 @@ rules:
   slug: beyond-identity-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.7
-  delta: 0.0
+  composite: 61.9
+  delta: -3.8
   facets:
     commercial_clarity: 57.9
-    contract_quality: 78.3
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 78.6
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 65.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/screenshots/beyond-identity-2026-06-20T173212.png
 security:

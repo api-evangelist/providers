@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -39,12 +41,19 @@ apis:
 - description: The Projects API from Google Cloud Eventarc — 5 operation(s) for projects.
   name: Google Cloud Eventarc Projects API
   slug: google-cloud-eventarc-projects-api
-artifact_total: 9
+artifact_total: 10
 collections:
+- collection_type: postman
+  name: Google Cloud Eventarc Projects API
+  slug: postman-google-cloud-eventarc-projects-api
 - collection_type: open
   name: Google Cloud Eventarc API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-eventarc/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -119,12 +128,12 @@ overview: 'Google Cloud Eventarc publishes 1 API on the [APIs.io](https://apis.i
   The Google Cloud Eventarc catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Eventarc''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, and 8 more developer resources.'
+  Google Cloud Eventarc''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, and 9 more developer resources.'
 plans:
 - name: Google Cloud Eventarc Plans Pricing
   plan_count: 3
   slug: google-cloud-eventarc-plans-pricing
-random_paper: 10
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Google Cloud Eventarc Rate Limits
@@ -139,20 +148,33 @@ rules:
     warn: 4
   slug: google-cloud-eventarc-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 61.8
-  delta: 4.6
+  band: developing
+  composite: 55.4
+  delta: -6.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.8
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 57.6
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 57.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 61.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 36.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-eventarc/refs/heads/main/screenshots/google-cloud-eventarc-2026-06-20T182110.png
 security:
 - kind: domain-security

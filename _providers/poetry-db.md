@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Search and retrieve English-language poems by author, title, line content, and line count. Returns structured JSON with title, author, lines array, and linecount fields. No authentication required.
@@ -116,7 +118,7 @@ plans:
 - name: Poetry Db Plans Pricing
   plan_count: 1
   slug: poetry-db-plans-pricing
-random_paper: 34
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Poetry Db Rate Limits
@@ -132,23 +134,30 @@ rules:
   slug: poetry-db-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 34.8
+  delta: -4.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 52.8
+    contract_quality: 53.2
     developer_ergonomics: 8.7
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 5.3
   previous_composite: 39.1
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poetry-db/refs/heads/main/screenshots/poetry-db-2026-06-20T191838.png
 security:

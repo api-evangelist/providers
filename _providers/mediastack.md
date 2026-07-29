@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,12 +45,22 @@ apis:
 - description: Discovery of supported news sources, publishers, and blogs.
   name: Mediastack Sources API
   slug: mediastack-sources-api
-artifact_total: 45
+artifact_total: 47
 collections:
+- collection_type: postman
+  name: Mediastack News API
+  slug: postman-mediastack-news-api
+- collection_type: postman
+  name: Mediastack News Sources API
+  slug: postman-mediastack-sources-api
 - collection_type: open
   name: Mediastack News API
   slug: open-mediastack
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mediastack/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,12 +218,12 @@ overview: 'Mediastack publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The Mediastack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mediastack''s developer surface includes authentication, developer portal, signup flow, pricing, support, FAQ, and 13 more developer resources.'
+  Mediastack''s developer surface includes authentication, developer portal, signup flow, pricing, support, FAQ, and 14 more developer resources.'
 plans:
 - name: Mediastack Plans Pricing
   plan_count: 5
   slug: mediastack-plans-pricing
-random_paper: 26
+random_paper: 45
 rate_limits:
 - limit_count: 8
   name: Mediastack Rate Limits
@@ -235,19 +247,26 @@ rules:
   slug: mediastack-rules
 score:
   band: strong
-  composite: 62.2
-  delta: 5.4
+  composite: 59.1
+  delta: -3.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 77.9
-    developer_ergonomics: 23.9
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 77.1
+    developer_ergonomics: 28.3
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 56.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/screenshots/mediastack-2026-06-20T185116.png
 security:
 - kind: authentication

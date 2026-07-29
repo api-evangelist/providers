@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 6.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,26 +123,27 @@ overview: 'Wealthsimple is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Wealthsimple''s developer surface includes pricing, signup flow, support, engineering blog, and 16 more developer resources.'
-random_paper: 3
+random_paper: 63
 score:
   band: emerging
-  composite: 28.8
-  delta: 0.0
+  composite: 25.4
+  delta: -3.4
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 67.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 28.8
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

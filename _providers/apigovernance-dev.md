@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: APIGovernance.Dev provides automated API governance reviews using AI trained on 10,000 public APIs. It offers the API Governance Top-10 best practices list, CI/CD integration, and enterprise governanc
@@ -124,7 +126,7 @@ plans:
 - name: Apigovernance Dev Plans Pricing
   plan_count: 3
   slug: apigovernance-dev-plans-pricing
-random_paper: 42
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Apigovernance Dev Rate Limits
@@ -140,19 +142,19 @@ rules:
   slug: apigovernance-dev-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 34.3
+  delta: -5.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 34.0
+    contract_quality: 29.0
     developer_ergonomics: 0.0
-    discoverability: 80.0
-    governance: 73.7
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 31.6
   previous_composite: 39.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigovernance-dev/refs/heads/main/screenshots/apigovernance-dev-2026-06-20T172239.png
 security:
 - kind: domain-security

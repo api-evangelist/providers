@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -5782,7 +5784,7 @@ press:
 - date: '2026-05-25'
   title: Mastercard unveils new tools and collaborations to power ...
   url: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-new-tools-and-collaborations-to-power-smarter,-safer-agentic-commerce.html
-random_paper: 42
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Mastercard Rate Limits
@@ -5806,24 +5808,32 @@ rules:
   slug: mastercard-spectral-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 1.0
+  composite: 47.1
+  delta: -6.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.9
+    contract_quality: 56.2
     developer_ergonomics: 41.3
-    discoverability: 67.5
-    governance: 73.7
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 52.2
+  previous_composite: 53.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.6
+      derived: 0
+      marker_coverage: 0.0
+      total: 166
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 31.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png
 security:
 - kind: authentication

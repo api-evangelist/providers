@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,8 +48,17 @@ apis:
 - description: Endpoints for polling the status and retrieving completed image editing results.
   name: Flux Results API
   slug: flux-results-api
-artifact_total: 15
+artifact_total: 18
 collections:
+- collection_type: postman
+  name: Flux Image Editing API
+  slug: postman-flux-editing-api
+- collection_type: postman
+  name: Flux Image Editing Generation API
+  slug: postman-flux-generation-api
+- collection_type: postman
+  name: Flux Image Editing Results API
+  slug: postman-flux-results-api
 - collection_type: open
   name: Flux Image Editing API
   slug: open-flux-image-editing
@@ -55,6 +66,10 @@ collections:
   name: Flux Image Generation API
   slug: open-flux-image-generation
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/flux/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,12 +165,12 @@ overview: 'Flux publishes 3 APIs on the [APIs.io](https://apis.io/) network: Edi
   The Flux catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Flux''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, signup flow, and 10 more developer resources.'
+  Flux''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, signup flow, and 11 more developer resources.'
 plans:
 - name: Flux Plans Pricing
   plan_count: 3
   slug: flux-plans-pricing
-random_paper: 39
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Flux Rate Limits
@@ -171,18 +186,25 @@ rules:
   slug: flux-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 4.6
+  composite: 59.4
+  delta: -2.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.9
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 71.2
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 57.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/screenshots/flux-2026-06-20T181418.png
 security:

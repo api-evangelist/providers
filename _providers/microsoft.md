@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -202,8 +204,173 @@ apis:
 - description: Manage work items and queries
   name: Microsoft Work Items API
   slug: microsoft-work-items-api
-artifact_total: 130
+artifact_total: 185
 collections:
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts API
+  slug: postman-microsoft-accounts-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Applications API
+  slug: postman-microsoft-applications-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Audio API
+  slug: postman-microsoft-audio-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Calendar API
+  slug: postman-microsoft-calendar-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Channels API
+  slug: postman-microsoft-channels-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Chat API
+  slug: postman-microsoft-chat-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Chat Completions API
+  slug: postman-microsoft-chat-completions-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Completions API
+  slug: postman-microsoft-completions-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Computer Vision API
+  slug: postman-microsoft-computer-vision-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Contacts API
+  slug: postman-microsoft-contacts-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Dashboards API
+  slug: postman-microsoft-dashboards-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Datasets API
+  slug: postman-microsoft-datasets-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Deployments API
+  slug: postman-microsoft-deployments-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Device Compliance API
+  slug: postman-microsoft-device-compliance-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Device Configuration API
+  slug: postman-microsoft-device-configuration-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Drive API
+  slug: postman-microsoft-drive-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Drives API
+  slug: postman-microsoft-drives-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Email API
+  slug: postman-microsoft-email-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Embeddings API
+  slug: postman-microsoft-embeddings-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Entities API
+  slug: postman-microsoft-entities-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Git API
+  slug: postman-microsoft-git-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Groups API
+  slug: postman-microsoft-groups-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Identity API
+  slug: postman-microsoft-identity-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Image Search API
+  slug: postman-microsoft-image-search-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Images API
+  slug: postman-microsoft-images-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Imports API
+  slug: postman-microsoft-imports-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Items API
+  slug: postman-microsoft-items-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Leads API
+  slug: postman-microsoft-leads-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Lists API
+  slug: postman-microsoft-lists-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Mail API
+  slug: postman-microsoft-mail-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Managed Devices API
+  slug: postman-microsoft-managed-devices-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Members API
+  slug: postman-microsoft-members-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Messages API
+  slug: postman-microsoft-messages-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Metadata API
+  slug: postman-microsoft-metadata-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Mobile Apps API
+  slug: postman-microsoft-mobile-apps-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts News Search API
+  slug: postman-microsoft-news-search-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts OAuth2 Permissions API
+  slug: postman-microsoft-oauth2-permissions-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Opportunities API
+  slug: postman-microsoft-opportunities-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Pipelines API
+  slug: postman-microsoft-pipelines-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Projects API
+  slug: postman-microsoft-projects-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Reports API
+  slug: postman-microsoft-reports-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Resource Groups API
+  slug: postman-microsoft-resource-groups-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Resources API
+  slug: postman-microsoft-resources-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Service Principals API
+  slug: postman-microsoft-service-principals-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Sharing API
+  slug: postman-microsoft-sharing-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Sites API
+  slug: postman-microsoft-sites-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts SMS API
+  slug: postman-microsoft-sms-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Subscriptions API
+  slug: postman-microsoft-subscriptions-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Teams API
+  slug: postman-microsoft-teams-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Text Analytics API
+  slug: postman-microsoft-text-analytics-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Translator API
+  slug: postman-microsoft-translator-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Users API
+  slug: postman-microsoft-users-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Video Search API
+  slug: postman-microsoft-video-search-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Web Search API
+  slug: postman-microsoft-web-search-api
+- collection_type: postman
+  name: Microsoft Azure Cognitive Services Accounts Work Items API
+  slug: postman-microsoft-work-items-api
 - collection_type: open
   name: Microsoft Azure Cognitive Services API
   slug: open-microsoft-azure-cognitive-services
@@ -253,6 +420,10 @@ collections:
   name: Microsoft Teams API
   slug: open-microsoft-teams
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -452,7 +623,7 @@ overview: 'Microsoft publishes 55 APIs on the [APIs.io](https://apis.io/) networ
   The Microsoft catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Microsoft''s developer surface includes authentication, support, engineering blog, signup flow, pricing, GitHub presence, and 20 more developer resources.'
+  Microsoft''s developer surface includes authentication, support, engineering blog, signup flow, pricing, GitHub presence, and 21 more developer resources.'
 plans:
 - name: Microsoft Plans Pricing
   plan_count: 3
@@ -473,7 +644,7 @@ press:
 - date: '2026-05-25'
   title: Microsoft announces $5.5 billion spend and new ...
   url: https://news.microsoft.com/source/asia/2026/04/01/microsoft-announces-5-5-billion-spend-and-new-microsoft-elevate-programs-to-support-every-tertiary-student-educator-and-nonprofit-to-power-singapores-ai-future/
-random_paper: 30
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Microsoft Rate Limits
@@ -494,18 +665,25 @@ scopes:
   summary_line: 42 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 61.2
-  delta: 4.7
+  composite: 59.5
+  delta: -1.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 75.9
-    developer_ergonomics: 34.8
-    discoverability: 67.5
-    governance: 73.7
+    contract_quality: 77.2
+    developer_ergonomics: 39.1
+    discoverability: 57.4
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 56
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:

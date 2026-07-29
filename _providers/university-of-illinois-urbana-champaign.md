@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 3
@@ -185,7 +187,7 @@ plans:
 - name: University Of Illinois Urbana Champaign Plans Pricing
   plan_count: 2
   slug: university-of-illinois-urbana-champaign-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: University Of Illinois Urbana Champaign Rate Limits
@@ -209,23 +211,31 @@ rules:
   slug: university-of-illinois-urbana-champaign-rules
 score:
   band: thin
-  composite: 42.8
-  delta: 0.0
+  composite: 38.5
+  delta: -4.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 52.9
+    contract_quality: 54.1
     developer_ergonomics: 13.0
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
   previous_composite: 42.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/screenshots/university-of-illinois-urbana-champaign-2026-06-20T200155.png
 security:

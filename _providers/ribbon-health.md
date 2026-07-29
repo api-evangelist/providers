@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -373,7 +375,7 @@ plans:
 - name: Ribbon Health Plans Pricing
   plan_count: 1
   slug: ribbon-health-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 8
   name: Ribbon Health Rate Limits
@@ -389,24 +391,32 @@ rules:
   slug: ribbon-health-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 48.7
+  delta: -5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.8
+    contract_quality: 72.0
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 54.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 25.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/screenshots/ribbon-health-2026-06-20T193110.png
 security:
 - kind: authentication

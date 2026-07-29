@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Manage workspaces.
   name: Theneo Workspaces API
   slug: theneo-workspaces-api
-artifact_total: 25
+artifact_total: 30
 collections:
+- collection_type: postman
+  name: Theneo Import API
+  slug: postman-theneo-import-api
+- collection_type: postman
+  name: Theneo Import Projects API
+  slug: postman-theneo-projects-api
+- collection_type: postman
+  name: Theneo Import Publishing API
+  slug: postman-theneo-publishing-api
+- collection_type: postman
+  name: Theneo Import Users API
+  slug: postman-theneo-users-api
+- collection_type: postman
+  name: Theneo Import Workspaces API
+  slug: postman-theneo-workspaces-api
 - collection_type: open
   name: Theneo API
   slug: open-theneo-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/theneo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,12 +197,12 @@ overview: 'Theneo publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Theneo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Theneo''s developer surface includes authentication, documentation, FAQ, pricing, engineering blog, signup flow, and 10 more developer resources.'
+  Theneo''s developer surface includes authentication, documentation, FAQ, pricing, engineering blog, signup flow, and 11 more developer resources.'
 plans:
 - name: Theneo Plans Pricing
   plan_count: 4
   slug: theneo-plans-pricing
-random_paper: 31
+random_paper: 27
 rate_limits:
 - limit_count: 16
   name: Theneo Rate Limits
@@ -205,19 +226,26 @@ rules:
   slug: theneo-rules
 score:
   band: strong
-  composite: 60.6
-  delta: 5.5
+  composite: 57.3
+  delta: -3.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 73.5
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 74.6
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 55.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 60.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/screenshots/theneo-2026-06-20T195249.png
 security:
 - kind: authentication

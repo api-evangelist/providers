@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -145,8 +147,112 @@ apis:
 - description: The V2 API from LlamaParse — 19 operation(s) for v2.
   name: LlamaParse V2 API
   slug: llamaparse-v2-api
-artifact_total: 59
+artifact_total: 92
+collections:
+- collection_type: postman
+  name: Llama Platform Agent Data API
+  slug: postman-llamaparse-agent-data-api
+- collection_type: postman
+  name: Llama Platform Agent Data Batch Processing API
+  slug: postman-llamaparse-batch-processing-api
+- collection_type: postman
+  name: Llama Platform Agent Data Batches API
+  slug: postman-llamaparse-batches-api
+- collection_type: postman
+  name: Llama Platform Agent Data Beta API
+  slug: postman-llamaparse-beta-api
+- collection_type: postman
+  name: Llama Platform Agent Data Chat API
+  slug: postman-llamaparse-chat-api
+- collection_type: postman
+  name: Llama Platform Agent Data Classifier API
+  slug: postman-llamaparse-classifier-api
+- collection_type: postman
+  name: Llama Platform Agent Data Classify API
+  slug: postman-llamaparse-classify-api
+- collection_type: postman
+  name: Llama Platform Agent Data Configurations API
+  slug: postman-llamaparse-configurations-api
+- collection_type: postman
+  name: Llama Platform Agent Data Data Sinks API
+  slug: postman-llamaparse-data-sinks-api
+- collection_type: postman
+  name: Llama Platform Agent Data Data Sources API
+  slug: postman-llamaparse-data-sources-api
+- collection_type: postman
+  name: Llama Platform Agent Data Directories API
+  slug: postman-llamaparse-directories-api
+- collection_type: postman
+  name: Llama Platform Agent Data Directory Files API
+  slug: postman-llamaparse-directory-files-api
+- collection_type: postman
+  name: Llama Platform Agent Data Embedding Model Configs API
+  slug: postman-llamaparse-embedding-model-configs-api
+- collection_type: postman
+  name: Llama Platform Agent Data Extract API
+  slug: postman-llamaparse-extract-api
+- collection_type: postman
+  name: Llama Platform Agent Data Files API
+  slug: postman-llamaparse-files-api
+- collection_type: postman
+  name: Llama Platform Agent Data Indexes API
+  slug: postman-llamaparse-indexes-api
+- collection_type: postman
+  name: Llama Platform Agent Data Job Dashboard API
+  slug: postman-llamaparse-job-dashboard-api
+- collection_type: postman
+  name: Llama Platform Agent Data LlamaExtract API
+  slug: postman-llamaparse-llamaextract-api
+- collection_type: postman
+  name: Llama Platform Agent Data Organizations API
+  slug: postman-llamaparse-organizations-api
+- collection_type: postman
+  name: Llama Platform Agent Data Page Figures API
+  slug: postman-llamaparse-page-figures-api
+- collection_type: postman
+  name: Llama Platform Agent Data Page Screenshots API
+  slug: postman-llamaparse-page-screenshots-api
+- collection_type: postman
+  name: Llama Platform Agent Data Parse API
+  slug: postman-llamaparse-parse-api
+- collection_type: postman
+  name: Llama Platform Agent Data Parsing API
+  slug: postman-llamaparse-parsing-api
+- collection_type: postman
+  name: Llama Platform Agent Data Pipeline Data Sources API
+  slug: postman-llamaparse-pipeline-data-sources-api
+- collection_type: postman
+  name: Llama Platform Agent Data Pipeline Files API
+  slug: postman-llamaparse-pipeline-files-api
+- collection_type: postman
+  name: Llama Platform Agent Data Pipelines API
+  slug: postman-llamaparse-pipelines-api
+- collection_type: postman
+  name: Llama Platform Agent Data Projects API
+  slug: postman-llamaparse-projects-api
+- collection_type: postman
+  name: Llama Platform Agent Data Retrieval API
+  slug: postman-llamaparse-retrieval-api
+- collection_type: postman
+  name: Llama Platform Agent Data Retrievers API
+  slug: postman-llamaparse-retrievers-api
+- collection_type: postman
+  name: Llama Platform Agent Data Sheets API
+  slug: postman-llamaparse-sheets-api
+- collection_type: postman
+  name: Llama Platform Agent Data Split API
+  slug: postman-llamaparse-split-api
+- collection_type: postman
+  name: Llama Platform Agent Data Usage Metrics API
+  slug: postman-llamaparse-usage-metrics-api
+- collection_type: postman
+  name: Llama Platform Agent Data V2 API
+  slug: postman-llamaparse-v2-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/llamaparse/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -309,12 +415,12 @@ overview: 'LlamaParse publishes 35 APIs on the [APIs.io](https://apis.io/) netwo
   The LlamaParse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  LlamaParse''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, and 17 more developer resources.'
+  LlamaParse''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, and 18 more developer resources.'
 plans:
 - name: Llamaparse Plans Pricing
   plan_count: 4
   slug: llamaparse-plans-pricing
-random_paper: 38
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Llamaparse Rate Limits
@@ -329,19 +435,26 @@ rules:
     warn: 4
   slug: llamaparse-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 60.5
-  delta: 0.0
+  band: developing
+  composite: 55.6
+  delta: -4.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.1
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 58.0
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 60.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/screenshots/llamaparse-2026-06-20T184622.png
 security:

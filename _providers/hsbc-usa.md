@@ -1,12 +1,14 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 6.3
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: HSBC group corporate transaction-banking API for initiating outbound payments programmatically, documented on HSBC's Developer Portal and available to wholesale clients including HSBC USA corporate re
@@ -100,26 +102,27 @@ overview: 'HSBC USA publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   HSBC USA''s developer surface includes documentation, support, and 13 more developer resources.'
-random_paper: 42
+random_paper: 20
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 16.9
+  delta: -2.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 80.0
+    discoverability: 77.8
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 19.2
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 34.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-usa/refs/heads/main/screenshots/hsbc-usa-2026-07-25T221547.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -169,7 +171,7 @@ plans:
 - name: Threads Api Plans Pricing
   plan_count: 3
   slug: threads-api-plans-pricing
-random_paper: 18
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Threads Api Rate Limits
@@ -193,19 +195,26 @@ rules:
   slug: threads-api-rules
 score:
   band: developing
-  composite: 59.9
-  delta: 4.6
+  composite: 54.9
+  delta: -5.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 59.3
+    contract_quality: 56.8
     developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 55.3
-  previous_composite: 55.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 59.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/screenshots/threads-api-2026-06-20T195314.png
 security:
 - kind: authentication

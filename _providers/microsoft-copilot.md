@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,12 +60,31 @@ apis:
 - description: Perform hybrid search (semantic and lexical) across OneDrive for work or school content using natural language queries. Preview API.
   name: Microsoft Copilot Search API
   slug: microsoft-copilot-search-api
-artifact_total: 146
+artifact_total: 151
 collections:
+- collection_type: postman
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications API
+  slug: postman-microsoft-copilot-change-notifications-api
+- collection_type: postman
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications Chat API
+  slug: postman-microsoft-copilot-chat-api
+- collection_type: postman
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications Interaction Export API
+  slug: postman-microsoft-copilot-interaction-export-api
+- collection_type: postman
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications Retrieval API
+  slug: postman-microsoft-copilot-retrieval-api
+- collection_type: postman
+  name: Microsoft Copilot Microsoft 365 Copilot APIs Change Notifications Search API
+  slug: postman-microsoft-copilot-search-api
 - collection_type: open
   name: Microsoft Copilot Microsoft 365 Copilot APIs
   slug: open-microsoft-copilot
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-copilot/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -533,12 +554,12 @@ overview: 'Microsoft Copilot publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Microsoft Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Copilot''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, developer portal, code examples, and 14 more developer resources.'
+  Microsoft Copilot''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, developer portal, code examples, and 15 more developer resources.'
 plans:
 - name: Microsoft Copilot Plans Pricing
   plan_count: 7
   slug: microsoft-copilot-plans-pricing
-random_paper: 21
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Microsoft Copilot Rate Limits
@@ -566,19 +587,26 @@ scopes:
   slug: microsoft-copilot-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 68.5
-  delta: 4.6
+  band: exemplar
+  composite: 66.2
+  delta: -2.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.5
-    developer_ergonomics: 43.5
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 74.6
+    developer_ergonomics: 47.8
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 73.7
-  previous_composite: 63.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/screenshots/microsoft-copilot-2026-06-20T185448.png
 security:

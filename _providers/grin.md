@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: GRIN's bi-directional REST API lets a brand's own software communicate with GRIN to synchronize creators, content, programs, and reporting data. Reference documentation is published on Stoplight at ap
@@ -113,21 +115,21 @@ overview: 'Grin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Grin''s developer surface includes API reference, documentation, support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 24
+random_paper: 47
 score:
   band: emerging
-  composite: 28.7
-  delta: 0.0
+  composite: 26.3
+  delta: -2.4
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 28.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grin/refs/heads/main/screenshots/grin-2026-07-25T220334.png
 security:

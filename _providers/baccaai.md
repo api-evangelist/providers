@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -73,21 +75,21 @@ overview: 'Bacca.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Bacca.ai''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 12
+random_paper: 76
 score:
   band: minimal
-  composite: 12.5
-  delta: 0.0
+  composite: 11.4
+  delta: -1.1
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baccaai/refs/heads/main/screenshots/baccaai-2026-07-25T202205.png
 security:

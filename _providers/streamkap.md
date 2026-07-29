@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: flavored
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -37,39 +28,43 @@ agentic_access:
   summary_line: 32 operations · 17 acting
 api_count: 9
 apis:
-- description: Obtain and refresh access tokens and manage credentials.
-  name: Streamkap Authentication API
-  slug: streamkap-authentication-api
-- description: Discover available connector types.
-  name: Streamkap Connectors API
-  slug: streamkap-connectors-api
-- description: Configure and manage sink destinations.
-  name: Streamkap Destinations API
-  slug: streamkap-destinations-api
-- description: Manage Kafka users and permissions.
-  name: Streamkap Kafka Access API
-  slug: streamkap-kafka-access-api
-- description: Manage CDC pipelines and their lifecycle.
-  name: Streamkap Pipelines API
-  slug: streamkap-pipelines-api
-- description: Configure source connectors and snapshots.
+- description: Create, configure, deploy, pause, resume, restart, and reset source connectors that capture change data from databases and other systems, plus snapshot control (blocking, incremental, parallel), metri
   name: Streamkap Sources API
   slug: streamkap-sources-api
-- description: Create and manage resource tags.
-  name: Streamkap Tags API
-  slug: streamkap-tags-api
-- description: Manage underlying Kafka topics.
-  name: Streamkap Topics API
-  slug: streamkap-topics-api
-- description: Deploy and manage in-stream transforms.
+- description: 'Manage sink destinations - Snowflake, Databricks, BigQuery, ClickHouse, Redshift, S3, Iceberg, and more - including create, update, deploy, lifecycle control, configuration schemas, metrics, and bulk '
+  name: Streamkap Destinations API
+  slug: streamkap-destinations-api
+- description: Create and manage end-to-end pipelines that wire a source to a destination (optionally through transforms), with lifecycle management, per-pipeline metrics and logs, and bulk operations.
+  name: Streamkap Pipelines API
+  slug: streamkap-pipelines-api
+- description: Discover the catalog of available source and destination connector types and their configuration schemas so sources and destinations can be provisioned programmatically against the correct connector d
+  name: Streamkap Connectors API
+  slug: streamkap-connectors-api
+- description: Author, clone, unit-test, preview, and deploy in-stream transforms (SQL, Python, TypeScript) running on Flink, including input/output topic wiring, checkpoints, DLQ errors, and job status.
   name: Streamkap Transforms API
   slug: streamkap-transforms-api
+- description: Create, inspect, and manage the underlying Kafka topics - browse messages and message values, read topic metrics, statistics, and Kafka broker metadata, publish records, and drive topic-level snapshot
+  name: Streamkap Topics API
+  slug: streamkap-topics-api
+- description: Create, search, update, and delete tags used to label and group sources, destinations, pipelines, transforms, and topics for organization and bulk operations.
+  name: Streamkap Tags API
+  slug: streamkap-tags-api
+- description: Provision Kafka users and their ACLs for direct broker access, inspect consumer groups and reset their offsets, and browse the Schema Registry subjects and versions backing the streams.
+  name: Streamkap Kafka Access API
+  slug: streamkap-kafka-access-api
+- description: Exchange a client-id and secret (or a project key) for a JWT access token, refresh tokens, manage client credentials and project keys, and inspect the caller's identity, permissions, and roles.
+  name: Streamkap Authentication API
+  slug: streamkap-authentication-api
 artifact_total: 17
 collections:
 - collection_type: open
   name: Streamkap API
   slug: open-streamkap
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/streamkap-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -120,39 +115,46 @@ finops:
 - name: Streamkap Finops
   service_category: Analytics
   slug: streamkap-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/streamkap.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-01'
 name: Streamkap
 nav: Providers
 network: true
-overview: 'Streamkap publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Connectors API, Destinations API, and 6 more. Tagged areas include Streaming, ETL, CDC, Kafka, and Flink.
+overview: 'Streamkap publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Sources API, Destinations API, Pipelines API, and 6 more. Tagged areas include Streaming, ETL, CDC, Kafka, and Flink.
 
 
-  Streamkap''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Streamkap''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Streamkap Plans Pricing
   plan_count: 4
   slug: streamkap-plans-pricing
-random_paper: 16
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Streamkap Rate Limits
   slug: streamkap-rate-limits
 score:
   band: thin
-  composite: 40.6
-  delta: 3.3
+  composite: 35.7
+  delta: -4.9
   facets:
     commercial_clarity: 47.4
-    contract_quality: 49.6
+    contract_quality: 40.3
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 40.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

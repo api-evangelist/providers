@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Meya Grid HTTP gateway that receives inbound integration and API/webhook events for a Meya app. Webhook URLs follow the format https://grid.meya.ai/gateway/v2/{integration}/{app_id}/{dot_path}.
@@ -120,21 +122,27 @@ overview: 'Meya.ai publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Meya.ai''s developer surface includes documentation, API reference, engineering blog, signup flow, changelog, CLI, and 11 more developer resources.'
-random_paper: 18
+random_paper: 14
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 32.5
+  delta: 1.3
   facets:
     commercial_clarity: 13.2
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 39.1
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 44.7
   previous_composite: 31.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -163,25 +165,32 @@ plans:
 - name: Persona Plans Pricing
   plan_count: 3
   slug: persona-plans-pricing
-random_paper: 12
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Persona Rate Limits
   slug: persona-rate-limits
 score:
   band: developing
-  composite: 54.0
-  delta: 3.3
+  composite: 52.1
+  delta: -1.9
   facets:
     commercial_clarity: 92.1
-    contract_quality: 52.1
+    contract_quality: 53.6
     developer_ergonomics: 34.8
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 50.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 54.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 87.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/screenshots/persona-2026-06-20T191619.png
 security:

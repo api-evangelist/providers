@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Decentralized cryptocurrency exchange
@@ -72,7 +74,7 @@ overview: 'dYdX publishes 1 API on the [APIs.io](https://apis.io/) network: dYdX
 
 
   dYdX''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 33
+random_paper: 56
 rules:
 - name: dYdX API Rules
   rule_count: 7
@@ -84,19 +86,19 @@ rules:
   slug: dydx-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 20.0
-  delta: 0.0
+  composite: 25.7
+  delta: 5.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 22.2
+    contract_quality: 55.0
     developer_ergonomics: 2.2
-    discoverability: 67.5
-    governance: 60.5
+    discoverability: 57.4
+    governance: 47.9
     operational_transparency: 0.0
   previous_composite: 20.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dydx/refs/heads/main/screenshots/dydx-2026-06-20T180339.png
 security:
 - kind: domain-security

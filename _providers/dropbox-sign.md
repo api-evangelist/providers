@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -139,7 +141,7 @@ overview: 'Dropbox Sign publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Dropbox Sign''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 20
+random_paper: 12
 rules:
 - name: Dropbox Sign API Rules
   rule_count: 4
@@ -156,18 +158,25 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.4
-  delta: 2.0
+  composite: 35.4
+  delta: -2.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 61.9
+    contract_quality: 65.7
     developer_ergonomics: 28.3
-    discoverability: 87.5
-    governance: 26.3
+    discoverability: 64.8
+    governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 35.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 37.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/screenshots/dropbox-sign-2026-06-20T180245.png
 security:

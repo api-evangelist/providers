@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -301,7 +303,7 @@ plans:
 - name: Cohere Plans Pricing
   plan_count: 6
   slug: cohere-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Cohere Rate Limits
@@ -325,18 +327,25 @@ rules:
   slug: cohere-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 2.5
+  composite: 45.7
+  delta: -2.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 80.6
+    contract_quality: 81.8
     developer_ergonomics: 13.0
-    discoverability: 67.5
-    governance: 52.6
+    discoverability: 50.0
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 46.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 48.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/screenshots/cohere-2026-06-20T174719.png
 security:

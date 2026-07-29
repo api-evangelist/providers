@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 4
@@ -205,8 +207,181 @@ apis:
 - description: 'The #X Amz Target=SWBExternalService.UpdatePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.updatepermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.UpdatePermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api
-artifact_total: 584
+artifact_total: 640
+collections:
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroup-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroupMembership API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroupmembership-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateUser API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-createuser-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DeleteGroup API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroup-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DeleteGroupMembership API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroupmembership-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DeleteUser API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-deleteuser-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DescribeGroup API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroup-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DescribeGroupMembership API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroupmembership-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.DescribeUser API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-describeuser-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.GetGroupId API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupid-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.GetGroupMembershipId API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupmembershipid-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.GetUserId API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-getuserid-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.IsMemberInGroups API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-ismemberingroups-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.ListGroupMemberships API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmemberships-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.ListGroupMembershipsForMember API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmembershipsformember-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.ListGroups API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroups-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.ListUsers API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-listusers-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.UpdateGroup API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-updategroup-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.UpdateUser API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-awsidentitystore-updateuser-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.AttachCustomerManagedPolicyReferenceToPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-attachcustomermanagedpolicyreferencetopermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.AttachManagedPolicyToPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-attachmanagedpolicytopermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.CreateAccountAssignment API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-createaccountassignment-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.CreateInstanceAccessControlAttributeConfiguration API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-createinstanceaccesscontrolattributeconfiguration-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.CreatePermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-createpermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeleteAccountAssignment API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteaccountassignment-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeleteInlinePolicyFromPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinlinepolicyfrompermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeleteInstanceAccessControlAttributeConfiguration API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinstanceaccesscontrolattributeconfiguration-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeletePermissionsBoundaryFromPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionsboundaryfrompermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DeletePermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribeAccountAssignmentCreationStatus API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentcreationstatus-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribeAccountAssignmentDeletionStatus API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentdeletionstatus-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribeInstanceAccessControlAttributeConfiguration API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-describeinstanceaccesscontrolattributeconfiguration-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribePermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DescribePermissionSetProvisioningStatus API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionsetprovisioningstatus-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DetachCustomerManagedPolicyReferenceFromPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-detachcustomermanagedpolicyreferencefrompermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.DetachManagedPolicyFromPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-detachmanagedpolicyfrompermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.GetInlinePolicyForPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-getinlinepolicyforpermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.GetPermissionsBoundaryForPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-getpermissionsboundaryforpermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListAccountAssignmentCreationStatus API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentcreationstatus-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListAccountAssignmentDeletionStatus API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentdeletionstatus-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListAccountAssignments API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignments-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListAccountsForProvisionedPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountsforprovisionedpermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListCustomerManagedPolicyReferencesInPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listcustomermanagedpolicyreferencesinpermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListInstances API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listinstances-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListManagedPoliciesInPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listmanagedpoliciesinpermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListPermissionSetProvisioningStatus API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetprovisioningstatus-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListPermissionSets API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsets-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListPermissionSetsProvisionedToAccount API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetsprovisionedtoaccount-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ListTagsForResource API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-listtagsforresource-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.ProvisionPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-provisionpermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.PutInlinePolicyToPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-putinlinepolicytopermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.PutPermissionsBoundaryToPermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-putpermissionsboundarytopermissionset-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.TagResource API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-tagresource-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.UntagResource API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-untagresource-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.UpdateInstanceAccessControlAttributeConfiguration API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-updateinstanceaccesscontrolattributeconfiguration-api
+- collection_type: postman
+  name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.UpdatePermissionSet API'
+  slug: postman-amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-iam-identity-center/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1851,12 +2026,12 @@ overview: 'Amazon IAM Identity Center publishes 56 APIs on the [APIs.io](https:/
   The Amazon IAM Identity Center catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IAM Identity Center''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon IAM Identity Center''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Iam Identity Center Plans Pricing
   plan_count: 3
   slug: amazon-iam-identity-center-plans-pricing
-random_paper: 23
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Identity Center Rate Limits
@@ -1880,18 +2055,25 @@ rules:
   slug: amazon-iam-identity-center-spectral-rules
 score:
   band: strong
-  composite: 66.9
-  delta: 0.0
+  composite: 63.9
+  delta: -3.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 68.1
-    developer_ergonomics: 41.3
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 69.5
+    developer_ergonomics: 45.7
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 66.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 56
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/screenshots/amazon-iam-identity-center-2026-06-20T171703.png
 security:

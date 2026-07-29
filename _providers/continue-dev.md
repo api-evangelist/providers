@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,12 +54,19 @@ apis:
 - description: The Ide API from Continue — 8 operation(s) for ide.
   name: Continue Ide API
   slug: continue-dev-ide-api
-artifact_total: 65
+artifact_total: 66
 collections:
+- collection_type: postman
+  name: Continue Hub Ide API
+  slug: postman-continue-dev-ide-api
 - collection_type: open
   name: Continue Hub IDE API
   slug: open-continue-dev-hub-ide-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/continue/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -301,12 +310,12 @@ overview: 'Continue publishes 1 API on the [APIs.io](https://apis.io/) network: 
   The Continue catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Continue''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, pricing, getting-started guide, and 31 more developer resources.'
+  Continue''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, pricing, getting-started guide, and 32 more developer resources.'
 plans:
 - name: Continue Dev Plans Pricing
   plan_count: 4
   slug: continue-dev-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Continue Dev Rate Limits
@@ -330,19 +339,26 @@ rules:
   slug: continue-dev-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 5.5
+  composite: 58.3
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 69.5
+    developer_ergonomics: 52.2
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 56.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/screenshots/continue-dev-2026-06-20T174940.png
 security:
 - kind: authentication

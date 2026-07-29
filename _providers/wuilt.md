@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint powering the Wuilt website/e-commerce builder. Introspection is enabled; the schema exposes read queries across sites, pages, sections, menus, forms, form submissions, plans, p
@@ -121,22 +123,22 @@ overview: 'Wuilt publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wuilt''s developer surface includes signup flow, pricing, engineering blog, support, FAQ, YouTube channel, and 13 more developer resources.'
-random_paper: 21
+random_paper: 26
 score:
-  band: emerging
-  composite: 19.5
-  delta: 0.0
+  band: thin
+  composite: 28.6
+  delta: 9.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 6.5
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 19.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 slug: wuilt
 tags:
 - Company

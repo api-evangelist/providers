@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for the Request Finance platform — accounts payable / receivable, invoices, payroll, organizations and clients — that Consola Finance's crypto accounting product is now part of. JSON over HTT
@@ -129,7 +131,7 @@ overview: 'Consola Finance publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Consola Finance''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 24
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Consola Finance Rate Limits
@@ -141,19 +143,19 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 41.8
+  delta: 6.7
   facets:
     commercial_clarity: 23.7
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 58.7
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 35.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/consola-finance/refs/heads/main/screenshots/consola-finance-2026-07-25T210307.png
 security:
 - kind: authentication

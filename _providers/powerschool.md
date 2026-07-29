@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -198,7 +200,7 @@ plans:
 - name: Powerschool Plans Pricing
   plan_count: 3
   slug: powerschool-plans-pricing
-random_paper: 49
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Powerschool Rate Limits
@@ -214,18 +216,25 @@ rules:
   slug: powerschool-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 56.2
-  delta: 0.0
+  composite: 51.6
+  delta: -4.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 68.6
+    contract_quality: 69.0
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 21.1
   previous_composite: 56.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/screenshots/powerschool-2026-06-20T192035.png
 security:

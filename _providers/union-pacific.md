@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -187,7 +189,7 @@ press:
 - date: '2026-05-22'
   title: AI is Enhancing How Union Pacific Inspects Track
   url: https://www.up.com/news/safety/ai-powered-vision-inspects-track-260522
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Union Pacific Rate Limits
@@ -211,19 +213,26 @@ rules:
   slug: union-pacific-spectral-rules
 score:
   band: thin
-  composite: 44.3
-  delta: 0.0
+  composite: 37.2
+  delta: -7.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 70.8
+    contract_quality: 59.3
     developer_ergonomics: 0.0
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 44.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: domain-security
   name: Union Pacific Domain Security

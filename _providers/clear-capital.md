@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.4
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: Lending-grade automated valuation model (ClearAVM) and Rental AVM delivered over a RESTful interface, returning a point value estimate, value certainty, and supporting analytics for a subject property
@@ -108,25 +110,25 @@ plans:
 - name: Clear Capital Plans Pricing
   plan_count: 1
   slug: clear-capital-plans-pricing
-random_paper: 6
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Clear Capital Rate Limits
   slug: clear-capital-rate-limits
 score:
   band: thin
-  composite: 34.1
-  delta: 3.2
+  composite: 30.2
+  delta: -3.9
   facets:
     commercial_clarity: 36.8
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 34.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/screenshots/clear-capital-2026-07-25T205535.png
 security:

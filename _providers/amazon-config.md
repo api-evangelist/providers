@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -4152,7 +4154,7 @@ overview: 'Amazon Config publishes 92 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon Config''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
-random_paper: 29
+random_paper: 12
 rules:
 - name: Amazon Config API Rules
   rule_count: 5
@@ -4172,18 +4174,27 @@ rules:
   slug: amazon-config-spectral-rules
 score:
   band: developing
-  composite: 56.2
-  delta: 0.0
+  composite: 54.5
+  delta: -1.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 71.5
-    developer_ergonomics: 50.0
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 72.7
+    developer_ergonomics: 43.5
+    discoverability: 68.5
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 56.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 92
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/screenshots/amazon-config-2026-07-25T200004.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 40.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST Product API (v2) to query marketing data from connected data sources, with synchronous and asynchronous query execution, plus a Management API for API keys, saved queries, teams, data-source logi
@@ -190,26 +192,30 @@ overview: 'Supermetrics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Supermetrics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 26
+random_paper: 9
 scopes:
 - name: Supermetrics Scopes
   scope_count: 13
   slug: supermetrics-scopes
   summary_line: 13 scopes · authorizationCode
 score:
-  band: thin
+  band: developing
   composite: 44.6
   delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 75.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 55.3
   previous_composite: 44.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Flashpoint's REST API exposes threat intelligence, compromised credentials, vulnerability, and fraud data programmatically. Access is documented on the Flashpoint developer portal (docs.flashpoint.io)
@@ -81,21 +83,21 @@ overview: 'Flashpoint publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Flashpoint''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 60
+random_paper: 2
 score:
   band: emerging
-  composite: 17.4
-  delta: 0.0
+  composite: 15.7
+  delta: -1.7
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 92.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 17.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flashpoint/refs/heads/main/screenshots/flashpoint-2026-07-25T214719.png
 security:

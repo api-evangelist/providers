@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -67,12 +69,27 @@ apis:
 - description: Project and account user management
   name: Autodesk Construction Cloud Users API
   slug: autodesk-construction-cloud-users-api
-artifact_total: 64
+artifact_total: 69
 asyncapis:
 - description: Autodesk Construction Cloud (ACC) and APS Webhooks deliver event notifications for project activities including issue creation, document updates, RFI changes, submittal status changes, and model coord
   name: Autodesk Construction Cloud Webhooks
   slug: acc-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Autodesk Construction Cloud Admin Companies API
+  slug: postman-autodesk-construction-cloud-companies-api
+- collection_type: postman
+  name: Autodesk Construction Cloud Admin Companies Issues API
+  slug: postman-autodesk-construction-cloud-issues-api
+- collection_type: postman
+  name: Autodesk Construction Cloud Admin Companies IssueTypes API
+  slug: postman-autodesk-construction-cloud-issuetypes-api
+- collection_type: postman
+  name: Autodesk Construction Cloud Admin Companies Projects API
+  slug: postman-autodesk-construction-cloud-projects-api
+- collection_type: postman
+  name: Autodesk Construction Cloud Admin Companies Users API
+  slug: postman-autodesk-construction-cloud-users-api
 - collection_type: open
   name: Autodesk Construction Cloud Admin API
   slug: open-acc-admin
@@ -80,6 +97,10 @@ collections:
   name: Autodesk Construction Cloud Issues API
   slug: open-acc-issues
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/autodesk-construction-cloud/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -282,12 +303,12 @@ overview: 'Autodesk Construction Cloud publishes 5 APIs on the [APIs.io](https:/
   The Autodesk Construction Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Autodesk Construction Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, changelog, and 13 more developer resources.'
+  Autodesk Construction Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, changelog, and 14 more developer resources.'
 plans:
 - name: Autodesk Construction Cloud Plans Pricing
   plan_count: 3
   slug: autodesk-construction-cloud-plans-pricing
-random_paper: 24
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Autodesk Construction Cloud Rate Limits
@@ -316,18 +337,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 65.6
-  delta: 4.6
+  composite: 63.5
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 78.4
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 52.6
+    contract_quality: 82.2
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 68.4
-  previous_composite: 61.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/screenshots/autodesk-construction-cloud-2026-06-20T172629.png
 security:

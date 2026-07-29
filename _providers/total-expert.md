@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -87,16 +89,71 @@ apis:
 - description: The Webhooks API from Total Expert — 3 operation(s) for webhooks.
   name: Total Expert Webhooks API
   slug: total-expert-webhooks-api
-artifact_total: 26
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Total Expert Webhooks
   slug: total-expert-webhooks
 collections:
 - collection_type: postman
+  name: Total Expert Public Account Endpoints API
+  slug: postman-total-expert-account-endpoints-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Activity Endpoints API
+  slug: postman-total-expert-activity-endpoints-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints ALM Leads (formerly Lead Opportunities) API
+  slug: postman-total-expert-alm-leads-formerly-lead-opportunities-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Authentication API
+  slug: postman-total-expert-authentication-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Contact Endpoints API
+  slug: postman-total-expert-contact-endpoints-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Email APIs API
+  slug: postman-total-expert-email-apis-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Email Unsubscribes API
+  slug: postman-total-expert-email-unsubscribes-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Entities API
+  slug: postman-total-expert-entities-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Heartbeat API
+  slug: postman-total-expert-heartbeat-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Insight Endpoints API
+  slug: postman-total-expert-insight-endpoints-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Lead Opportunities (New) API
+  slug: postman-total-expert-lead-opportunities-new-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Loan Endpoints API
+  slug: postman-total-expert-loan-endpoints-api
+- collection_type: postman
   name: Total Expert Public API
   slug: postman-total-expert-public-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Scenarios API
+  slug: postman-total-expert-scenarios-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Schema Endpoints API
+  slug: postman-total-expert-schema-endpoints-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints SMS Opting API
+  slug: postman-total-expert-sms-opting-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints User Endpoints API
+  slug: postman-total-expert-user-endpoints-api
+- collection_type: postman
+  name: Total Expert Public Account Endpoints Webhooks API
+  slug: postman-total-expert-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/total-expert/overview
 - group: company
   title: ''
   type: Website
@@ -247,8 +304,8 @@ overview: 'Total Expert publishes 17 APIs on the [APIs.io](https://apis.io/) net
   The Total Expert catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
-random_paper: 33
+  Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 27 more developer resources.'
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Total Expert Rate Limits
@@ -260,23 +317,34 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.1
-  delta: 2.8
+  composite: 56.6
+  delta: -4.5
   facets:
     commercial_clarity: 36.8
-    contract_quality: 67.9
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 68.6
+    developer_ergonomics: 66.8
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 50.0
-  previous_composite: 58.3
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 59.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

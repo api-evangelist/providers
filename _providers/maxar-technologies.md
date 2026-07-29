@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -112,8 +114,71 @@ apis:
 - description: The WMTS API from Maxar Technologies — 1 operation(s) for wmts.
   name: Maxar Technologies WMTS API
   slug: maxar-technologies-wmts-api
-artifact_total: 57
+artifact_total: 78
 collections:
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts API
+  slug: postman-maxar-technologies-accounts-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts API Keys API
+  slug: postman-maxar-technologies-api-keys-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Collections API
+  slug: postman-maxar-technologies-collections-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Credits API
+  slug: postman-maxar-technologies-credits-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Deliveries API
+  slug: postman-maxar-technologies-deliveries-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Estimates API
+  slug: postman-maxar-technologies-estimates-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Events API
+  slug: postman-maxar-technologies-events-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Feasibility API
+  slug: postman-maxar-technologies-feasibility-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Image API
+  slug: postman-maxar-technologies-image-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Introspection API
+  slug: postman-maxar-technologies-introspection-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Items API
+  slug: postman-maxar-technologies-items-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Monitors API
+  slug: postman-maxar-technologies-monitors-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Orders API
+  slug: postman-maxar-technologies-orders-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Search API
+  slug: postman-maxar-technologies-search-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Subscriptions API
+  slug: postman-maxar-technologies-subscriptions-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Tasks API
+  slug: postman-maxar-technologies-tasks-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Tokens API
+  slug: postman-maxar-technologies-tokens-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts Users API
+  slug: postman-maxar-technologies-users-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts WFS API
+  slug: postman-maxar-technologies-wfs-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts WMS API
+  slug: postman-maxar-technologies-wms-api
+- collection_type: postman
+  name: Vantor Hub Account Services Accounts WMTS API
+  slug: postman-maxar-technologies-wmts-api
 - collection_type: open
   name: Vantor Hub Account Services API
   slug: open-admin
@@ -136,6 +201,10 @@ collections:
   name: Maxar Geospatial Platform Tasking API
   slug: open-tasking
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/maxar-technologies/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -356,12 +425,12 @@ overview: 'Maxar Technologies publishes 21 APIs on the [APIs.io](https://apis.io
   The Maxar Technologies catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Maxar Technologies'' developer surface includes authentication, documentation, GitHub presence, changelog, and 32 more developer resources.'
+  Maxar Technologies'' developer surface includes authentication, documentation, GitHub presence, changelog, and 33 more developer resources.'
 plans:
 - name: Maxar Technologies Plans Pricing
   plan_count: 4
   slug: maxar-technologies-plans-pricing
-random_paper: 30
+random_paper: 18
 rate_limits:
 - limit_count: 6
   name: Maxar Technologies Rate Limits
@@ -385,18 +454,25 @@ rules:
   slug: maxar-technologies-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 2.5
+  composite: 59.8
+  delta: -2.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 56.1
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 62.8
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 59.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png
 security:

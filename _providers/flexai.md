@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -58,8 +60,34 @@ apis:
 - description: Video generation
   name: FlexAI Video API
   slug: flexai-video-api
-artifact_total: 13
+artifact_total: 20
+collections:
+- collection_type: postman
+  name: FlexAI Token Factory Audio API
+  slug: postman-flexai-audio-api
+- collection_type: postman
+  name: FlexAI Token Factory Audio Chat API
+  slug: postman-flexai-chat-api
+- collection_type: postman
+  name: FlexAI Token Factory Audio Completions API
+  slug: postman-flexai-completions-api
+- collection_type: postman
+  name: FlexAI Token Factory Audio Embeddings API
+  slug: postman-flexai-embeddings-api
+- collection_type: postman
+  name: FlexAI Token Factory Audio Images API
+  slug: postman-flexai-images-api
+- collection_type: postman
+  name: FlexAI Token Factory Audio Models API
+  slug: postman-flexai-models-api
+- collection_type: postman
+  name: FlexAI Token Factory Audio Video API
+  slug: postman-flexai-video-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/flexai/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -187,30 +215,40 @@ network: true
 overview: 'FlexAI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 4 more. Tagged areas include Company, Ai/Ml, Artificial Intelligence, Machine Learning, and Inference.
 
 
-  FlexAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
+  FlexAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
 plans:
 - name: Flexai Plans
   plan_count: 3
   slug: flexai-plans
-random_paper: 21
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Flexai Rate Limits
   slug: flexai-rate-limits
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 56.5
+  delta: -4.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 59.4
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 47.5
+    developer_ergonomics: 60.3
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 47.4
   previous_composite: 61.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/screenshots/flexai-2026-07-25T214748.png
 security:

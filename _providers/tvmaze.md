@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -88,8 +90,59 @@ apis:
 - description: The voted shows API from TVmaze — 2 operation(s) for voted shows.
   name: TVmaze voted shows API
   slug: tvmaze-voted-shows-api
-artifact_total: 135
+artifact_total: 152
 collections:
+- collection_type: postman
+  name: TVmaze Premium User auth API
+  slug: postman-tvmaze-auth-api
+- collection_type: postman
+  name: TVmaze Premium User auth Episodes API
+  slug: postman-tvmaze-episodes-api
+- collection_type: postman
+  name: TVmaze Premium User auth followed networks API
+  slug: postman-tvmaze-followed-networks-api
+- collection_type: postman
+  name: TVmaze Premium User auth followed people API
+  slug: postman-tvmaze-followed-people-api
+- collection_type: postman
+  name: TVmaze Premium User auth followed shows API
+  slug: postman-tvmaze-followed-shows-api
+- collection_type: postman
+  name: TVmaze Premium User auth followed webchannels API
+  slug: postman-tvmaze-followed-webchannels-api
+- collection_type: postman
+  name: TVmaze Premium User auth marked episodes API
+  slug: postman-tvmaze-marked-episodes-api
+- collection_type: postman
+  name: TVmaze Premium User auth People API
+  slug: postman-tvmaze-people-api
+- collection_type: postman
+  name: TVmaze Premium User auth Schedule API
+  slug: postman-tvmaze-schedule-api
+- collection_type: postman
+  name: TVmaze Premium User auth scrobbling API
+  slug: postman-tvmaze-scrobbling-api
+- collection_type: postman
+  name: TVmaze Premium User auth Search API
+  slug: postman-tvmaze-search-api
+- collection_type: postman
+  name: TVmaze Premium User auth Seasons API
+  slug: postman-tvmaze-seasons-api
+- collection_type: postman
+  name: TVmaze Premium User auth Shows API
+  slug: postman-tvmaze-shows-api
+- collection_type: postman
+  name: TVmaze Premium User auth tagged shows API
+  slug: postman-tvmaze-tagged-shows-api
+- collection_type: postman
+  name: TVmaze Premium User auth Updates API
+  slug: postman-tvmaze-updates-api
+- collection_type: postman
+  name: TVmaze Premium User auth voted episodes API
+  slug: postman-tvmaze-voted-episodes-api
+- collection_type: postman
+  name: TVmaze Premium User auth voted shows API
+  slug: postman-tvmaze-voted-shows-api
 - collection_type: open
   name: TVmaze Premium User API
   slug: open-tvmaze-premium
@@ -97,6 +150,10 @@ collections:
   name: TVmaze Public API
   slug: open-tvmaze-public
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tvmaze/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -505,12 +562,12 @@ overview: 'TVmaze publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
   The TVmaze catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TVmaze''s developer surface includes authentication, documentation, API reference, signup flow, developer console, pricing, support, and 19 more developer resources.'
+  TVmaze''s developer surface includes authentication, documentation, API reference, signup flow, developer console, pricing, support, and 20 more developer resources.'
 plans:
 - name: Tvmaze Plans Pricing
   plan_count: 5
   slug: tvmaze-plans-pricing
-random_paper: 51
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Tvmaze Rate Limits
@@ -534,18 +591,25 @@ rules:
   slug: tvmaze-rules
 score:
   band: strong
-  composite: 66.5
-  delta: 4.7
+  composite: 63.7
+  delta: -2.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 72.6
-    developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 72.9
+    developer_ergonomics: 50.0
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 61.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/screenshots/tvmaze-2026-06-20T195842.png
 security:

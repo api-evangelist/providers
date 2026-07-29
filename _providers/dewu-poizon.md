@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 9.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 9.0
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,21 +76,21 @@ overview: 'Dewu (POIZON) is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Dewu (POIZON)''s developer surface includes authentication, documentation, API reference, and 5 more developer resources.'
-random_paper: 65
+random_paper: 75
 score:
   band: minimal
-  composite: 13.7
-  delta: 0.0
+  composite: 12.7
+  delta: -1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dewu-poizon/refs/heads/main/screenshots/dewu-poizon-2026-07-25T211934.png
 security:

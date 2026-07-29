@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: verified
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 60.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 3
@@ -172,16 +174,146 @@ apis:
 - description: The WebhookSubscriptions API from Square — 5 operation(s) for webhooksubscriptions.
   name: Square WebhookSubscriptions API
   slug: square-webhooksubscriptions-api
-artifact_total: 117
+artifact_total: 159
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Square webhook event surface. Square delivers HTTPS POST notifications to a subscriber-provided `notification_url` whenever an event occurs on a seller''s account. Each '
   name: Square Webhooks
   slug: square-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Square ApplePay API
+  slug: postman-square-applepay-api
+- collection_type: postman
+  name: Square ApplePay BankAccounts API
+  slug: postman-square-bankaccounts-api
+- collection_type: postman
+  name: Square ApplePay BookingCustomAttributes API
+  slug: postman-square-bookingcustomattributes-api
+- collection_type: postman
+  name: Square ApplePay Bookings API
+  slug: postman-square-bookings-api
+- collection_type: postman
+  name: Square ApplePay Cards API
+  slug: postman-square-cards-api
+- collection_type: postman
+  name: Square ApplePay CashDrawers API
+  slug: postman-square-cashdrawers-api
+- collection_type: postman
+  name: Square ApplePay Catalog API
+  slug: postman-square-catalog-api
+- collection_type: postman
+  name: Square ApplePay Checkout API
+  slug: postman-square-checkout-api
+- collection_type: postman
+  name: Square ApplePay CustomerCustomAttributes API
+  slug: postman-square-customercustomattributes-api
+- collection_type: postman
+  name: Square ApplePay CustomerGroups API
+  slug: postman-square-customergroups-api
+- collection_type: postman
+  name: Square ApplePay Customers API
+  slug: postman-square-customers-api
+- collection_type: postman
+  name: Square ApplePay CustomerSegments API
+  slug: postman-square-customersegments-api
+- collection_type: postman
+  name: Square ApplePay Devices API
+  slug: postman-square-devices-api
+- collection_type: postman
+  name: Square ApplePay Disputes API
+  slug: postman-square-disputes-api
+- collection_type: postman
+  name: Square ApplePay Employees API
+  slug: postman-square-employees-api
+- collection_type: postman
+  name: Square ApplePay Events API
+  slug: postman-square-events-api
+- collection_type: postman
+  name: Square ApplePay GiftCardActivities API
+  slug: postman-square-giftcardactivities-api
+- collection_type: postman
+  name: Square ApplePay GiftCards API
+  slug: postman-square-giftcards-api
+- collection_type: postman
+  name: Square ApplePay Inventory API
+  slug: postman-square-inventory-api
+- collection_type: postman
+  name: Square ApplePay Invoices API
+  slug: postman-square-invoices-api
+- collection_type: postman
+  name: Square ApplePay Labor API
+  slug: postman-square-labor-api
+- collection_type: postman
+  name: Square ApplePay LocationCustomAttributes API
+  slug: postman-square-locationcustomattributes-api
+- collection_type: postman
+  name: Square ApplePay Locations API
+  slug: postman-square-locations-api
+- collection_type: postman
+  name: Square ApplePay Loyalty API
+  slug: postman-square-loyalty-api
+- collection_type: postman
+  name: Square ApplePay MerchantCustomAttributes API
+  slug: postman-square-merchantcustomattributes-api
+- collection_type: postman
+  name: Square ApplePay Merchants API
+  slug: postman-square-merchants-api
+- collection_type: postman
+  name: Square ApplePay MobileAuthorization API
+  slug: postman-square-mobileauthorization-api
+- collection_type: postman
+  name: Square ApplePay OAuth API
+  slug: postman-square-oauth-api
+- collection_type: postman
+  name: Square ApplePay OrderCustomAttributes API
+  slug: postman-square-ordercustomattributes-api
+- collection_type: postman
+  name: Square ApplePay Orders API
+  slug: postman-square-orders-api
+- collection_type: postman
+  name: Square ApplePay Payments API
+  slug: postman-square-payments-api
+- collection_type: postman
+  name: Square ApplePay Payouts API
+  slug: postman-square-payouts-api
+- collection_type: postman
+  name: Square ApplePay Refunds API
+  slug: postman-square-refunds-api
+- collection_type: postman
+  name: Square ApplePay Sites API
+  slug: postman-square-sites-api
+- collection_type: postman
+  name: Square ApplePay Snippets API
+  slug: postman-square-snippets-api
+- collection_type: postman
+  name: Square ApplePay Subscriptions API
+  slug: postman-square-subscriptions-api
+- collection_type: postman
+  name: Square ApplePay Team API
+  slug: postman-square-team-api
+- collection_type: postman
+  name: Square ApplePay Terminal API
+  slug: postman-square-terminal-api
+- collection_type: postman
+  name: Square ApplePay Transactions API
+  slug: postman-square-transactions-api
+- collection_type: postman
+  name: Square ApplePay V1Transactions API
+  slug: postman-square-v1transactions-api
+- collection_type: postman
+  name: Square ApplePay Vendors API
+  slug: postman-square-vendors-api
+- collection_type: postman
+  name: Square ApplePay WebhookSubscriptions API
+  slug: postman-square-webhooksubscriptions-api
 - collection_type: open
   name: Square
   slug: open-square
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/square/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -677,12 +809,12 @@ overview: 'Square publishes 42 APIs on the [APIs.io](https://apis.io/) network, 
   The Square catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Square''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, changelog, sandbox, and 86 more developer resources.'
+  Square''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, changelog, sandbox, and 87 more developer resources.'
 plans:
 - name: Square Plans Pricing
   plan_count: 4
   slug: square-plans-pricing
-random_paper: 45
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Square Rate Limits
@@ -719,24 +851,32 @@ scopes:
   summary_line: 58 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.7
-  delta: 1.0
+  composite: 70.7
+  delta: -6.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 72.3
-    developer_ergonomics: 82.6
-    discoverability: 67.5
-    governance: 65.8
+    contract_quality: 71.4
+    developer_ergonomics: 87.0
+    discoverability: 50.0
+    governance: 52.1
     operational_transparency: 76.3
-  previous_composite: 75.7
+  previous_composite: 76.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 62.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png
 security:
 - kind: authentication

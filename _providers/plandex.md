@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -82,12 +84,61 @@ apis:
 - description: User listing and removal within an org.
   name: Plandex Users API
   slug: plandex-users-api
-artifact_total: 87
+artifact_total: 102
 collections:
+- collection_type: postman
+  name: Plandex Server Accounts API
+  slug: postman-plandex-accounts-api
+- collection_type: postman
+  name: Plandex Server Accounts Branches API
+  slug: postman-plandex-branches-api
+- collection_type: postman
+  name: Plandex Server Accounts Context API
+  slug: postman-plandex-context-api
+- collection_type: postman
+  name: Plandex Server Accounts Conversation API
+  slug: postman-plandex-conversation-api
+- collection_type: postman
+  name: Plandex Server Accounts Diffs API
+  slug: postman-plandex-diffs-api
+- collection_type: postman
+  name: Plandex Server Accounts Execution API
+  slug: postman-plandex-execution-api
+- collection_type: postman
+  name: Plandex Server Accounts FileMap API
+  slug: postman-plandex-filemap-api
+- collection_type: postman
+  name: Plandex Server Accounts Health API
+  slug: postman-plandex-health-api
+- collection_type: postman
+  name: Plandex Server Accounts Invites API
+  slug: postman-plandex-invites-api
+- collection_type: postman
+  name: Plandex Server Accounts Models API
+  slug: postman-plandex-models-api
+- collection_type: postman
+  name: Plandex Server Accounts Orgs API
+  slug: postman-plandex-orgs-api
+- collection_type: postman
+  name: Plandex Server Accounts Plans API
+  slug: postman-plandex-plans-api
+- collection_type: postman
+  name: Plandex Server Accounts Projects API
+  slug: postman-plandex-projects-api
+- collection_type: postman
+  name: Plandex Server Accounts Settings API
+  slug: postman-plandex-settings-api
+- collection_type: postman
+  name: Plandex Server Accounts Users API
+  slug: postman-plandex-users-api
 - collection_type: open
   name: Plandex Server API
   slug: open-plandex-server
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/plandex/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -373,12 +424,12 @@ overview: 'Plandex publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Plandex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Plandex''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, CLI, pricing, engineering blog, and 28 more developer resources.'
+  Plandex''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, CLI, pricing, engineering blog, and 29 more developer resources.'
 plans:
 - name: Plandex Plans Pricing
   plan_count: 3
   slug: plandex-plans-pricing
-random_paper: 0
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Plandex Rate Limits
@@ -402,18 +453,25 @@ rules:
   slug: plandex-rules
 score:
   band: strong
-  composite: 67.1
-  delta: 3.5
+  composite: 64.0
+  delta: -3.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 70.1
-    developer_ergonomics: 43.5
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 71.4
+    developer_ergonomics: 47.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 63.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

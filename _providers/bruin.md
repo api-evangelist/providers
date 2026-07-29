@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 4
 common:
@@ -149,21 +151,25 @@ overview: 'Bruin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bruin''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 19 more developer resources.'
-random_paper: 0
+random_paper: 5
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 35.3
+  delta: 0.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 69.6
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 31.6
   previous_composite: 34.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/screenshots/bruin-2026-07-25T204000.png
 security:

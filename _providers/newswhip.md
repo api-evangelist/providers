@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 26.4
+  scored_at: '2026-07-28'
 api_count: 15
 apis:
 - description: The Articles API from NewsWhip — 1 operation(s) for articles.
@@ -168,21 +170,30 @@ overview: 'NewsWhip publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   NewsWhip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 12 more developer resources.'
-random_paper: 1
+random_paper: 38
 score:
-  band: thin
-  composite: 44.8
-  delta: 0.0
+  band: developing
+  composite: 42.6
+  delta: -2.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.7
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 53.8
+    developer_ergonomics: 45.1
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 44.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -88,12 +90,25 @@ apis:
 - description: Create, manage, and automate customer journeys across multiple channels and touchpoints. Journeys define the automated workflows that guide customers through marketing interactions.
   name: Salesforce Marketing Cloud Journeys API
   slug: salesforce-marketing-cloud-journeys-api
-artifact_total: 159
+artifact_total: 162
 collections:
+- collection_type: postman
+  name: Salesforce Marketing Cloud REST Assets API
+  slug: postman-salesforce-marketing-cloud-assets-api
+- collection_type: postman
+  name: Salesforce Marketing Cloud REST Assets Contacts API
+  slug: postman-salesforce-marketing-cloud-contacts-api
+- collection_type: postman
+  name: Salesforce Marketing Cloud REST Assets Journeys API
+  slug: postman-salesforce-marketing-cloud-journeys-api
 - collection_type: open
   name: Salesforce Marketing Cloud REST API
   slug: open-salesforce-marketing-cloud
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/salesforce-marketing-cloud/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -564,12 +579,12 @@ overview: 'Salesforce Marketing Cloud publishes 3 APIs on the [APIs.io](https://
   The Salesforce Marketing Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Marketing Cloud''s developer surface includes authentication, engineering blog, documentation, API reference, support, pricing, changelog, and 12 more developer resources.'
+  Salesforce Marketing Cloud''s developer surface includes authentication, engineering blog, documentation, API reference, support, pricing, changelog, and 13 more developer resources.'
 plans:
 - name: Salesforce Marketing Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-marketing-cloud-plans-pricing
-random_paper: 66
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Salesforce Marketing Cloud Rate Limits
@@ -598,18 +613,25 @@ scopes:
   summary_line: 42 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.3
-  delta: 3.3
+  composite: 59.6
+  delta: -2.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 68.7
+    developer_ergonomics: 52.2
+    discoverability: 81.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:

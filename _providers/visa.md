@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -507,7 +509,7 @@ press:
 - date: '2026-05-25'
   title: Visa's 30-Year AI Legacy Fuels Launch of New Global AI ...
   url: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20076.html
-random_paper: 27
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Visa Rate Limits
@@ -531,23 +533,31 @@ rules:
   slug: visa-rules
 score:
   band: thin
-  composite: 44.7
-  delta: 1.0
+  composite: 41.3
+  delta: -3.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 53.1
+    contract_quality: 61.1
     developer_ergonomics: 26.1
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 43.7
+  previous_composite: 44.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 26.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png
 security:

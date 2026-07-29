@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -821,7 +823,7 @@ plans:
 - name: Nginx Plans Pricing
   plan_count: 6
   slug: nginx-plans-pricing
-random_paper: 4
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Nginx Rate Limits
@@ -845,19 +847,26 @@ rules:
   slug: nginx-spectral-rules
 score:
   band: developing
-  composite: 59.0
-  delta: 0.0
+  composite: 51.0
+  delta: -8.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 59.8
+    contract_quality: 44.6
     developer_ergonomics: 47.8
-    discoverability: 80.0
-    governance: 86.8
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 63.2
   previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 28
+      marker_coverage: 100.0
+      total: 28
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
 security:
 - kind: domain-security

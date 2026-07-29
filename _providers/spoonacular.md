@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: The Wine API from Spoonacular — 4 operation(s) for wine.
   name: Spoonacular Wine API
   slug: spoonacular-wine-api
-artifact_total: 56
+artifact_total: 63
 collections:
+- collection_type: postman
+  name: spoonacular Ingredients API
+  slug: postman-spoonacular-ingredients-api
+- collection_type: postman
+  name: spoonacular Ingredients Meal Planning API
+  slug: postman-spoonacular-meal-planning-api
+- collection_type: postman
+  name: spoonacular Ingredients Menu Items API
+  slug: postman-spoonacular-menu-items-api
+- collection_type: postman
+  name: spoonacular Ingredients Misc API
+  slug: postman-spoonacular-misc-api
+- collection_type: postman
+  name: spoonacular Ingredients Products API
+  slug: postman-spoonacular-products-api
+- collection_type: postman
+  name: spoonacular Ingredients Recipes API
+  slug: postman-spoonacular-recipes-api
+- collection_type: postman
+  name: spoonacular Ingredients Wine API
+  slug: postman-spoonacular-wine-api
 - collection_type: open
   name: spoonacular API
   slug: open-spoonacular
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/spoonacular/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -278,12 +305,12 @@ overview: 'Spoonacular publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   The Spoonacular catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spoonacular''s developer surface includes authentication, engineering blog, developer console, signup flow, pricing, code examples, tooling, and 16 more developer resources.'
+  Spoonacular''s developer surface includes authentication, engineering blog, developer console, signup flow, pricing, code examples, tooling, and 17 more developer resources.'
 plans:
 - name: Spoonacular Plans Pricing
   plan_count: 5
   slug: spoonacular-plans-pricing
-random_paper: 35
+random_paper: 36
 rate_limits:
 - limit_count: 6
   name: Spoonacular Rate Limits
@@ -307,19 +334,26 @@ rules:
   slug: spoonacular-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 5.5
+  composite: 57.3
+  delta: -2.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.0
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 73.0
+    developer_ergonomics: 39.1
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 54.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/screenshots/spoonacular-2026-06-20T194333.png
 security:
 - kind: authentication

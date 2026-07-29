@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -179,7 +181,7 @@ plans:
 - name: Xiaomi Plans Pricing
   plan_count: 1
   slug: xiaomi-plans-pricing
-random_paper: 35
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Xiaomi Rate Limits
@@ -208,18 +210,25 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.7
-  delta: 3.3
+  composite: 48.1
+  delta: -4.6
   facets:
     commercial_clarity: 36.8
-    contract_quality: 65.0
+    contract_quality: 65.7
     developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 49.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 52.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/screenshots/xiaomi-2026-06-20T201705.png
 security:

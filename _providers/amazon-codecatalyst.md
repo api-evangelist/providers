@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -48,8 +50,25 @@ apis:
 - description: The UserDetails API from Amazon CodeCatalyst — 1 operation(s) for userdetails.
   name: Amazon CodeCatalyst UserDetails API
   slug: amazon-codecatalyst-userdetails-api
-artifact_total: 456
+artifact_total: 460
+collections:
+- collection_type: postman
+  name: Amazon CodeCatalyst AccessTokens API
+  slug: postman-amazon-codecatalyst-accesstokens-api
+- collection_type: postman
+  name: Amazon CodeCatalyst AccessTokens Session API
+  slug: postman-amazon-codecatalyst-session-api
+- collection_type: postman
+  name: Amazon CodeCatalyst AccessTokens Spaces API
+  slug: postman-amazon-codecatalyst-spaces-api
+- collection_type: postman
+  name: Amazon CodeCatalyst AccessTokens UserDetails API
+  slug: postman-amazon-codecatalyst-userdetails-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-codecatalyst/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1488,8 +1507,8 @@ overview: 'Amazon CodeCatalyst publishes 4 APIs on the [APIs.io](https://apis.io
   The Amazon CodeCatalyst catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 67
+  Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
+random_paper: 46
 rules:
 - name: Amazon CodeCatalyst API Rules
   rule_count: 5
@@ -1509,18 +1528,27 @@ rules:
   slug: amazon-codecatalyst-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 60.6
+  delta: -0.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 70.8
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 72.0
+    developer_ergonomics: 52.2
+    discoverability: 92.6
+    governance: 80.2
     operational_transparency: 21.1
   previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/screenshots/amazon-codecatalyst-2026-07-25T195952.png
 security:

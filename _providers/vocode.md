@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -130,25 +132,32 @@ plans:
 - name: Vocode Plans Pricing
   plan_count: 4
   slug: vocode-plans-pricing
-random_paper: 28
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Vocode Rate Limits
   slug: vocode-rate-limits
 score:
   band: thin
-  composite: 40.1
-  delta: 3.2
+  composite: 38.0
+  delta: -2.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 54.1
+    contract_quality: 56.1
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 40.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

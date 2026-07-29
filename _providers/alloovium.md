@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Alloovium's public REST API v2 for document intelligence over construction projects — vault (projects, documents, hybrid search), chat (grounded, cited answers), workflows (automation runs), and templ
@@ -158,7 +160,7 @@ overview: 'Alloovium publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Alloovium''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, support, authentication, and 20 more developer resources.'
-random_paper: 32
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Alloovium Rate Limits
@@ -169,19 +171,23 @@ scopes:
   slug: alloovium-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: thin
-  composite: 44.3
-  delta: 0.0
+  band: developing
+  composite: 43.0
+  delta: -1.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 37.7
-    developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 66.8
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 26.3
   previous_composite: 44.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/screenshots/alloovium-2026-07-25T195710.png
 security:

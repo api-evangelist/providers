@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -61,16 +63,44 @@ apis:
 - description: Operations for creating, listing, configuring, and deleting SNS topics. Topics are communication channels to which messages are published and from which notifications are delivered to subscribers.
   name: Amazon SNS Topics API
   slug: amazon-sns-topics-api
-artifact_total: 115
+artifact_total: 123
 asyncapis:
 - description: 'Amazon Simple Notification Service (SNS) delivers notifications to subscribed endpoints when messages are published to topics. This AsyncAPI specification describes the notification messages that SNS '
   name: Amazon SNS Notifications
   slug: amazon-sns-notifications-asyncapi
 collections:
+- collection_type: postman
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource ?Action=ListTagsForResource API
+  slug: postman-amazon-sns-action-listtagsforresource-api
+- collection_type: postman
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource ?Action=TagResource API
+  slug: postman-amazon-sns-action-tagresource-api
+- collection_type: postman
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource ?Action=UntagResource API
+  slug: postman-amazon-sns-action-untagresource-api
+- collection_type: postman
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource Platform Applications API
+  slug: postman-amazon-sns-platform-applications-api
+- collection_type: postman
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource Publishing API
+  slug: postman-amazon-sns-publishing-api
+- collection_type: postman
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource SMS API
+  slug: postman-amazon-sns-sms-api
+- collection_type: postman
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource Subscriptions API
+  slug: postman-amazon-sns-subscriptions-api
+- collection_type: postman
+  name: Amazon SNS Amazon Simple Notification Service (SNS) ?Action=ListTagsForResource ?Action=ListTagsForResource Topics API
+  slug: postman-amazon-sns-topics-api
 - collection_type: open
   name: Amazon SNS Amazon Simple Notification Service (SNS) API
   slug: open-amazon-sns-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-sns/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -416,12 +446,12 @@ overview: 'Amazon SNS publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon SNS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon SNS''s developer surface includes authentication, engineering blog, developer console, support, and 11 more developer resources.'
+  Amazon SNS''s developer surface includes authentication, engineering blog, developer console, support, and 12 more developer resources.'
 plans:
 - name: Amazon Sns Plans Pricing
   plan_count: 3
   slug: amazon-sns-plans-pricing
-random_paper: 11
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Amazon Sns Rate Limits
@@ -453,18 +483,31 @@ rules:
   slug: amazon-sns-spectral-rules
 score:
   band: strong
-  composite: 62.2
-  delta: 3.2
+  composite: 57.3
+  delta: -4.9
   facets:
     commercial_clarity: 76.3
-    contract_quality: 78.8
-    developer_ergonomics: 23.9
-    discoverability: 100.0
-    governance: 52.6
+    contract_quality: 76.3
+    developer_ergonomics: 28.3
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 47.4
-  previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png
 security:

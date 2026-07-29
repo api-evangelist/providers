@@ -1,21 +1,14 @@
 ---
-access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: flavored
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 1.8
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: HTTP endpoint for invoking a single published glif (AI workflow) by ID and passing a list of named or positional string inputs. POST a JSON body with `id` and `inputs` to https://simple-api.glif.app u
@@ -36,6 +29,10 @@ apis:
   slug: glif-rest-api
 artifact_total: 4
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/glif-app-a2a.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -135,7 +132,7 @@ common:
 created: '2026-05-25'
 description: Glif is a creative AI platform from Spellcasters, Inc. — originally launched in 2023 as a no-code visual workflow builder for chaining text, image, audio, and video models into shareable "glifs", and re-launched in March 2026 as Glif 2.0, a single chat-based AI agent with access to 100+ native tools (Claude Sonnet 4.5, Claude Opus 4.1, GPT-4o, Nano Banana Pro, Flux 2 Turbo, Seedream V4, Kling 2.5 Turbo Pro, VEO 3.1, Hailuo 2.3, ElevenLabs, MiniMax v2, FFmpeg, web search and more). Glif raised a $17.5M seed round led by a16z and USV in April 2026. The platform is used by creators, e-commerce sellers, performance marketers, and agencies to produce short-form video, product shoots, ad campaigns, character/comic art, memes, logos, and SVG vector graphics. Glif's public REST and Simple APIs were deprecated on 2026-05-20 in favor of the chat agent surface; the open Glif MCP server, ComfyUI custom nodes, Chrome extension, and Python client remain the canonical programmatic entry points
   to the platform. Profiled in the API Evangelist network as a reference case for the "no-code AI workflow builder → AI agent" platform pivot, alongside peers such as Anthropic, OpenAI, and other foundation-model orchestration providers.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glif-app.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-05-25'
 name: Glif
@@ -144,22 +141,22 @@ network: true
 overview: 'Glif publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Artificial Intelligence, No-Code, Workflows, and Creative AI.
 
 
-  Glif''s developer surface includes developer portal, documentation, changelog, pricing, support, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 36
+  Glif''s developer surface includes developer portal, documentation, changelog, pricing, support, GitHub presence, YouTube channel, and 18 more developer resources.'
+random_paper: 14
 score:
   band: emerging
-  composite: 23.2
-  delta: 0.0
+  composite: 21.0
+  delta: -2.2
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 28.3
-    discoverability: 85.0
+    discoverability: 63.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 23.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glif-app/refs/heads/main/screenshots/glif-app-2026-06-20T181913.png
 security:

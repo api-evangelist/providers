@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -486,7 +488,7 @@ plans:
 - name: Adobe Campaign Plans Pricing
   plan_count: 2
   slug: adobe-campaign-plans-pricing
-random_paper: 24
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Adobe Campaign Rate Limits
@@ -518,18 +520,25 @@ rules:
   slug: adobe-campaign-spectral-rules
 score:
   band: developing
-  composite: 59.7
-  delta: 0.0
+  composite: 55.5
+  delta: -4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 81.1
+    contract_quality: 80.8
     developer_ergonomics: 37.0
-    discoverability: 100.0
-    governance: 60.5
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 36.8
   previous_composite: 59.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 5
@@ -5722,7 +5724,7 @@ plans:
 - name: Aws Cognito Plans Pricing
   plan_count: 3
   slug: aws-cognito-plans-pricing
-random_paper: 43
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Aws Cognito Rate Limits
@@ -5746,18 +5748,25 @@ rules:
   slug: aws-cognito-spectral-rules
 score:
   band: strong
-  composite: 68.9
-  delta: 0.0
+  composite: 64.6
+  delta: -4.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 71.5
+    contract_quality: 72.7
     developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 68.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 124
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/screenshots/aws-cognito-2026-06-20T172748.png
 security:

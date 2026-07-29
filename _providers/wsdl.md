@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 41
 common:
@@ -241,7 +243,7 @@ overview: 'WSDL is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   WSDL''s developer surface includes documentation and 26 more developer resources.'
-random_paper: 34
+random_paper: 57
 rules:
 - name: WSDL API Rules
   rule_count: 5
@@ -253,18 +255,18 @@ rules:
   slug: wsdl-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 25.7
-  delta: 0.0
+  composite: 21.7
+  delta: -4.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 20.8
+    contract_quality: 17.7
     developer_ergonomics: 13.0
-    discoverability: 67.5
-    governance: 86.8
+    discoverability: 57.4
+    governance: 68.8
     operational_transparency: 5.3
   previous_composite: 25.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/screenshots/wsdl-2026-06-20T201632.png
 security:

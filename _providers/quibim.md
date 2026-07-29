@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,26 +87,29 @@ overview: 'QUIBIM is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   QUIBIM''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 35
+random_paper: 31
 score:
   band: emerging
-  composite: 20.9
-  delta: 0.0
+  composite: 17.4
+  delta: -3.5
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 50.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 20.9
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 52.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 30.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 68.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -207,30 +209,41 @@ overview: 'Forum publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Forum''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 9
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Forum Rate Limits
   slug: forum-rate-limits
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 47.5
+  delta: -1.4
   facets:
     commercial_clarity: 23.7
-    contract_quality: 74.3
+    contract_quality: 72.8
     developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 23.7
   previous_composite: 48.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 35.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/screenshots/forum-2026-07-25T215019.png
 security:

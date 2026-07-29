@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: The VPC Attachments API from Amazon Transit Gateway — 1 operation(s) for vpc attachments.
   name: Amazon Transit Gateway VPC Attachments API
   slug: amazon-transit-gateway-vpc-attachments-api
-artifact_total: 25
+artifact_total: 28
 collections:
+- collection_type: postman
+  name: Amazon Transit Gateway Route Tables API
+  slug: postman-amazon-transit-gateway-route-tables-api
+- collection_type: postman
+  name: Amazon Transit Gateway Route Tables Transit Gateways API
+  slug: postman-amazon-transit-gateway-transit-gateways-api
+- collection_type: postman
+  name: Amazon Transit Gateway Route Tables VPC Attachments API
+  slug: postman-amazon-transit-gateway-vpc-attachments-api
 - collection_type: open
   name: Amazon Transit Gateway API
   slug: open-amazon-transit-gateway
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-transit-gateway/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -196,12 +211,12 @@ overview: 'Amazon Transit Gateway publishes 3 APIs on the [APIs.io](https://apis
   The Amazon Transit Gateway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Transit Gateway''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
+  Amazon Transit Gateway''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Transit Gateway Plans Pricing
   plan_count: 3
   slug: amazon-transit-gateway-plans-pricing
-random_paper: 19
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Amazon Transit Gateway Rate Limits
@@ -224,19 +239,26 @@ rules:
     warn: 10
   slug: amazon-transit-gateway-spectral-rules
 score:
-  band: strong
-  composite: 68.7
-  delta: 4.5
+  band: exemplar
+  composite: 66.2
+  delta: -2.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 72.6
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 73.7
+    developer_ergonomics: 45.7
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 64.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 68.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/screenshots/amazon-transit-gateway-2026-06-20T171838.png
 security:

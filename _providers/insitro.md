@@ -9,13 +9,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 6.3
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,26 +80,27 @@ name: insitro
 nav: Providers
 network: true
 overview: insitro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drug Discovery, Machine Learning, Biotechnology, and Life Sciences.
-random_paper: 28
+random_paper: 6
 score:
   band: minimal
-  composite: 14.5
-  delta: 0.0
+  composite: 11.7
+  delta: -2.8
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 14.5
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 34.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.7
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: The Address Book API from Utila — 5 operation(s) for address book.
@@ -50,12 +52,38 @@ apis:
 - description: The Wallets API from Utila — 10 operation(s) for wallets.
   name: Utila Wallets API
   slug: utila-wallets-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Utila Webhooks
   slug: utila-webhooks
+collections:
+- collection_type: postman
+  name: Utila Address Book API
+  slug: postman-utila-address-book-api
+- collection_type: postman
+  name: Utila Address Book Assets API
+  slug: postman-utila-assets-api
+- collection_type: postman
+  name: Utila Address Book Balances API
+  slug: postman-utila-balances-api
+- collection_type: postman
+  name: Utila Address Book Blockchains API
+  slug: postman-utila-blockchains-api
+- collection_type: postman
+  name: Utila Address Book Transactions API
+  slug: postman-utila-transactions-api
+- collection_type: postman
+  name: Utila Address Book Vaults API
+  slug: postman-utila-vaults-api
+- collection_type: postman
+  name: Utila Address Book Wallets API
+  slug: postman-utila-wallets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/utila/overview
 - group: company
   title: ''
   type: Website
@@ -206,27 +234,37 @@ overview: 'Utila publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Utila catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Utila''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 26 more developer resources.'
-random_paper: 67
+  Utila''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 27 more developer resources.'
+random_paper: 4
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 58.2
+  delta: -3.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.5
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 63.6
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 52.6
   previous_composite: 62.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

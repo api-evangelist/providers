@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 67.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 5
@@ -324,7 +326,7 @@ overview: 'Kiteworks publishes 41 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kiteworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 43
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Kiteworks Rate Limits
@@ -335,19 +337,29 @@ scopes:
   slug: kiteworks-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 56.1
-  delta: 0.0
+  band: strong
+  composite: 56.2
+  delta: 0.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.4
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 53.8
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 39.5
   previous_composite: 56.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 41
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/screenshots/kiteworks-2026-07-25T223908.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 59.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,15 +112,33 @@ arazzos:
 - description: Resolve a ticker's details, pull recent news, and read its previous close.
   name: Polygon Ticker News Context
   slug: polygon-ticker-news-context-workflow
-artifact_total: 79
+artifact_total: 90
 asyncapis:
 - description: 'Polygon real-time market data WebSocket clusters. Each asset class (stocks, options, indices, forex, crypto) has its own dedicated cluster at `wss://socket.polygon.io/{cluster}`. Clients authenticate '
   name: Polygon WebSocket Streaming API
   slug: polygon-websocket-asyncapi
 collections:
 - collection_type: postman
+  name: Polygon Crypto REST Aggregates API
+  slug: postman-polygon-aggregates-api
+- collection_type: postman
+  name: Polygon Crypto REST Aggregates Books API
+  slug: postman-polygon-books-api
+- collection_type: postman
+  name: Polygon Crypto REST Aggregates Contracts API
+  slug: postman-polygon-contracts-api
+- collection_type: postman
+  name: Polygon Crypto REST Aggregates Conversion API
+  slug: postman-polygon-conversion-api
+- collection_type: postman
+  name: Polygon Crypto REST Aggregates CorporateActions API
+  slug: postman-polygon-corporateactions-api
+- collection_type: postman
   name: Polygon Crypto REST API
   slug: postman-polygon-crypto
+- collection_type: postman
+  name: Polygon Crypto REST Aggregates DailyBars API
+  slug: postman-polygon-dailybars-api
 - collection_type: postman
   name: Polygon Forex REST API
   slug: postman-polygon-forex
@@ -126,14 +146,29 @@ collections:
   name: Polygon Indices REST API
   slug: postman-polygon-indices
 - collection_type: postman
+  name: Polygon Crypto REST Aggregates Markets API
+  slug: postman-polygon-markets-api
+- collection_type: postman
+  name: Polygon Crypto REST Aggregates News API
+  slug: postman-polygon-news-api
+- collection_type: postman
   name: Polygon Options REST API
   slug: postman-polygon-options
+- collection_type: postman
+  name: Polygon Crypto REST Aggregates Quotes API
+  slug: postman-polygon-quotes-api
 - collection_type: postman
   name: Polygon Reference REST API
   slug: postman-polygon-reference
 - collection_type: postman
+  name: Polygon Crypto REST Aggregates Snapshots API
+  slug: postman-polygon-snapshots-api
+- collection_type: postman
   name: Polygon Stocks REST API
   slug: postman-polygon-stocks
+- collection_type: postman
+  name: Polygon Crypto REST Aggregates Tickers API
+  slug: postman-polygon-tickers-api
 - collection_type: open
   name: Polygon Crypto REST API
   slug: open-polygon-crypto
@@ -479,7 +514,7 @@ plans:
 - name: Polygon Plans Pricing
   plan_count: 12
   slug: polygon-plans-pricing
-random_paper: 28
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Polygon Rate Limits
@@ -516,23 +551,34 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 79.7
-  delta: 4.4
+  composite: 77.0
+  delta: -2.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 77.1
-    developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 65.8
+    contract_quality: 77.9
+    developer_ergonomics: 82.1
+    discoverability: 92.6
+    governance: 63.5
     operational_transparency: 68.4
-  previous_composite: 75.3
+  previous_composite: 79.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:

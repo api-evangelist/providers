@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 28.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: RESTful JSON API for triggering and monitoring pipelines and tasks, managing users/groups, parameters, audit logs, SCM migration, and GitCustodian, authenticated with scoped JWT Personal Access Tokens
@@ -142,7 +144,7 @@ overview: 'Opsera publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Opsera''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 38
+random_paper: 34
 scopes:
 - name: Opsera Scopes
   scope_count: 2
@@ -150,18 +152,21 @@ scopes:
   summary_line: 2 scopes
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 33.0
+  delta: -0.1
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 33.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

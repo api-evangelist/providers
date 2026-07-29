@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -76,8 +78,52 @@ apis:
 - description: The Workspaces API from Microsoft Azure Health Data Services — 3 operation(s) for workspaces.
   name: Microsoft Azure Health Data Services Workspaces API
   slug: azure-health-workspaces-api
-artifact_total: 36
+artifact_total: 49
+collections:
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection API
+  slug: postman-azure-health-collection-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection Deid API
+  slug: postman-azure-health-deid-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection DicomServices API
+  slug: postman-azure-health-dicomservices-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection FhirServices API
+  slug: postman-azure-health-fhirservices-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection IotConnectors API
+  slug: postman-azure-health-iotconnectors-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection Jobs API
+  slug: postman-azure-health-jobs-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection PrivateEndpointConnections API
+  slug: postman-azure-health-privateendpointconnections-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection PrivateLinkResources API
+  slug: postman-azure-health-privatelinkresources-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection Proxy API
+  slug: postman-azure-health-proxy-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection Resource API
+  slug: postman-azure-health-resource-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection WorkspacePrivateEndpointConnections API
+  slug: postman-azure-health-workspaceprivateendpointconnections-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection WorkspacePrivateLinkResources API
+  slug: postman-azure-health-workspaceprivatelinkresources-api
+- collection_type: postman
+  name: Azure Health Data Services de-identification service Collection Workspaces API
+  slug: postman-azure-health-workspaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-azure-health-data-services/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,12 +285,12 @@ overview: 'Microsoft Azure Health Data Services publishes 13 APIs on the [APIs.i
   The Microsoft Azure Health Data Services catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Microsoft Azure Health Data Services'' developer surface includes authentication, documentation, pricing, signup flow, changelog, status page, support, and 17 more developer resources.'
+  Microsoft Azure Health Data Services'' developer surface includes authentication, documentation, pricing, signup flow, changelog, status page, support, and 18 more developer resources.'
 plans:
 - name: Microsoft Azure Health Data Services Plans
   plan_count: 5
   slug: microsoft-azure-health-data-services-plans
-random_paper: 2
+random_paper: 71
 rate_limits:
 - limit_count: 9
   name: Microsoft Azure Health Data Services Rate Limits
@@ -264,25 +310,33 @@ scopes:
   slug: azure-health-scopes
   summary_line: 2 scopes · authorizationCode/implicit
 score:
-  band: strong
-  composite: 60.2
-  delta: 0.0
+  band: developing
+  composite: 51.8
+  delta: -8.4
   facets:
     commercial_clarity: 57.9
-    contract_quality: 52.8
-    developer_ergonomics: 32.6
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 45.2
+    developer_ergonomics: 37.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 82.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 56.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/screenshots/azure-health-2026-06-20T172859.png
 security:
 - kind: authentication

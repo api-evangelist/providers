@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 25.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'The Gamelocker backend (gamelocker.unruly-studios.com) is a self-hosted GitLab instance that stores each learner''s coding "profiles" and game files as GitLab projects and repository files. It exposes '
@@ -114,7 +116,7 @@ overview: 'Unruly Studios publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Unruly Studios'' developer surface includes signup flow, pricing, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 15
+random_paper: 48
 scopes:
 - name: Unruly Studios Scopes
   scope_count: 0
@@ -122,18 +124,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 27.9
-  delta: 0.0
+  composite: 26.0
+  delta: -1.9
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 34.8
-    discoverability: 92.5
+    developer_ergonomics: 28.3
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 27.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

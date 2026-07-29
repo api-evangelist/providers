@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,31 +203,42 @@ overview: 'Connells Group publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 29 more developer resources.'
-random_paper: 46
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Connells Rate Limits
   slug: connells-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 31.4
+  delta: -5.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 49.6
-    developer_ergonomics: 19.6
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 36.6
+    developer_ergonomics: 14.7
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 36.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Connells Authentication

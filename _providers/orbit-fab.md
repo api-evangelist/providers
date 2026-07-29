@@ -1,94 +1,59 @@
 ---
-access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: flavored
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
-  schema_version: 0.1
-  score: 3.8
-  scored_at: '2026-07-27'
+    well_known_catalog: false
+  schema_version: 0.2
+  score: 1.8
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/orbit-fab-a2a.yml
 - group: company
   title: ''
   type: Website
-  url: https://www.orbitfab.com/
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.orbitfab.com/news/
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.orbitfab.com/privacy-policy/
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.orbitfab.com/terms-of-use/
-- group: operate
-  title: ''
-  type: Support
-  url: https://www.orbitfab.com/contact/
-- group: agent
-  title: ''
-  type: WellKnown
-  url: well-known/orbit-fab-well-known.yml
-- group: other
-  title: ''
-  type: APICatalog
-  url: well-known/orbit-fab-api-catalog.json
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/orbit-fab-domain-security.yml
+  url: https://orbitfab.com/
 created: '2026-07-17'
-description: Orbit Fab is an in-space refueling company building "Gas Stations in Space" — the propellant supply infrastructure that lets satellites and spacecraft be refueled on orbit instead of being retired when their fuel runs out. Its offering centers on the RAFTI (Rapidly Attachable Fluid Transfer Interface) refueling port, the GRIP active grappling-and-resupply interface, a network of orbital Fuel Depots and Fuel Shuttles, and UMPIRE mission-planning software. Orbit Fab sells hydrazine and other propellant refueling services (including in GEO), and licenses RAFTI as a drop-in fill-and-drain valve replacement that the U.S. Space Force has recognized as a preferred refueling interface. The company is a hardware, aerospace, and space-logistics business; as of this profile it publishes no public developer API, SDK, or developer portal. Added to the API Evangelist network as a Techstars portfolio company and enriched to record its identity and public-web surface.
-image: https://www.orbitfab.com/wp-content/uploads/2021/06/orbit-fab-logo.png
+description: Orbit Fab is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
-modified: '2026-07-20'
+modified: '2026-07-17'
 name: Orbit Fab
 nav: Providers
 network: true
-overview: 'Orbit Fab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Aerospace, Satellite, and Refueling.
-
-
-  Orbit Fab''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 2
+overview: Orbit Fab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+random_paper: 39
 score:
   band: minimal
-  composite: 12.3
-  delta: 0.0
+  composite: 3.9
+  delta: -8.4
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 67.5
+    developer_ergonomics: 0.0
+    discoverability: 38.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: domain-security
   name: Orbit Fab Domain Security
@@ -97,13 +62,5 @@ security:
 slug: orbit-fab
 tags:
 - Company
-- Space
-- Aerospace
-- Satellite
-- Refueling
-- Space Logistics
-- In-Space Servicing
-- Propellant
-- Hardware
-website: https://www.orbitfab.com/
+website: https://orbitfab.com/
 ---

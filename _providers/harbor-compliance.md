@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,12 +57,34 @@ apis:
 - description: Registered agent appointment and management for business entities.
   name: Harbor Compliance Registered Agents API
   slug: harbor-compliance-registered-agents-api
-artifact_total: 16
+artifact_total: 22
 collections:
+- collection_type: postman
+  name: Harbor Compliance Compliance Filings API
+  slug: postman-harbor-compliance-compliance-filings-api
+- collection_type: postman
+  name: Harbor Compliance Compliance Filings Entities API
+  slug: postman-harbor-compliance-entities-api
+- collection_type: postman
+  name: Harbor Compliance Compliance Filings Jurisdictions API
+  slug: postman-harbor-compliance-jurisdictions-api
+- collection_type: postman
+  name: Harbor Compliance Compliance Filings Licenses API
+  slug: postman-harbor-compliance-licenses-api
+- collection_type: postman
+  name: Harbor Compliance Compliance Filings Orders API
+  slug: postman-harbor-compliance-orders-api
+- collection_type: postman
+  name: Harbor Compliance Compliance Filings Registered Agents API
+  slug: postman-harbor-compliance-registered-agents-api
 - collection_type: open
   name: Harbor Compliance API
   slug: open-harbor-compliance
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/harbor-compliance/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -152,12 +176,12 @@ overview: 'Harbor Compliance publishes 6 APIs on the [APIs.io](https://apis.io/)
   The Harbor Compliance catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Harbor Compliance''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 10 more developer resources.'
+  Harbor Compliance''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Harbor Compliance Plans Pricing
   plan_count: 3
   slug: harbor-compliance-plans-pricing
-random_paper: 34
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Harbor Compliance Rate Limits
@@ -173,18 +197,25 @@ rules:
   slug: harbor-compliance-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 3.4
+  composite: 60.6
+  delta: -2.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 69.9
-    developer_ergonomics: 45.7
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 71.2
+    developer_ergonomics: 50.0
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 59.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/screenshots/harbor-compliance-2026-06-20T182514.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -481,7 +483,7 @@ overview: 'Aider publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aider''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, tooling, and 28 more developer resources.'
-random_paper: 41
+random_paper: 55
 rate_limits:
 - limit_count: 4
   name: Aider Rate Limits
@@ -504,20 +506,27 @@ rules:
     warn: 15
   slug: aider-rules
 score:
-  band: developing
-  composite: 47.9
-  delta: 2.5
+  band: thin
+  composite: 38.6
+  delta: -9.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 68.1
+    contract_quality: 49.3
     developer_ergonomics: 21.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 45.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 47.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 14
+      marker_coverage: 100.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/screenshots/aider-2026-06-20T170838.png
 security:
 - kind: authentication

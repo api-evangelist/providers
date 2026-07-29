@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -70,8 +72,41 @@ apis:
 - description: Operations for loading and rendering community visualizations in Looker Studio reports.
   name: Looker Studio Visualization API
   slug: looker-studio-visualization-api
-artifact_total: 62
+artifact_total: 73
 collections:
+- collection_type: postman
+  name: Looker Studio Assets API
+  slug: postman-looker-studio-assets-api
+- collection_type: postman
+  name: Looker Studio Assets Authentication API
+  slug: postman-looker-studio-authentication-api
+- collection_type: postman
+  name: Looker Studio Assets Configuration API
+  slug: postman-looker-studio-configuration-api
+- collection_type: postman
+  name: Looker Studio Assets Data API
+  slug: postman-looker-studio-data-api
+- collection_type: postman
+  name: Looker Studio Assets Embed API
+  slug: postman-looker-studio-embed-api
+- collection_type: postman
+  name: Looker Studio Assets Manifest API
+  slug: postman-looker-studio-manifest-api
+- collection_type: postman
+  name: Looker Studio Assets oEmbed API
+  slug: postman-looker-studio-oembed-api
+- collection_type: postman
+  name: Looker Studio Assets Permissions API
+  slug: postman-looker-studio-permissions-api
+- collection_type: postman
+  name: Looker Studio Assets Reports API
+  slug: postman-looker-studio-reports-api
+- collection_type: postman
+  name: Looker Studio Assets Schema API
+  slug: postman-looker-studio-schema-api
+- collection_type: postman
+  name: Looker Studio Assets Visualization API
+  slug: postman-looker-studio-visualization-api
 - collection_type: open
   name: Looker Studio API
   slug: open-looker-studio-api
@@ -88,6 +123,10 @@ collections:
   name: Looker Studio Linking API
   slug: open-looker-studio-linking-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/looker-studio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -321,12 +360,12 @@ overview: 'Looker Studio publishes 11 APIs on the [APIs.io](https://apis.io/) ne
   The Looker Studio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Looker Studio''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 18 more developer resources.'
+  Looker Studio''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 19 more developer resources.'
 plans:
 - name: Looker Studio Plans Pricing
   plan_count: 2
   slug: looker-studio-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Looker Studio Rate Limits
@@ -346,19 +385,26 @@ scopes:
   slug: looker-studio-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 69.4
-  delta: 4.7
+  band: exemplar
+  composite: 67.0
+  delta: -2.4
   facets:
     commercial_clarity: 73.7
-    contract_quality: 74.1
-    developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 75.2
+    developer_ergonomics: 50.0
+    discoverability: 75.9
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 64.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/screenshots/looker-studio-2026-06-20T184714.png
 security:

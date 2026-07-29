@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: ReQL (RethinkDB Query Language) is the expressive query language exposed by RethinkDB through official client drivers. Drivers communicate with the RethinkDB server using a native JSON protocol over T
@@ -93,21 +95,21 @@ overview: 'RethinkDB publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   RethinkDB''s developer surface includes documentation, API reference, engineering blog, and 9 more developer resources.'
-random_paper: 3
+random_paper: 31
 score:
   band: minimal
-  composite: 14.3
-  delta: 0.0
+  composite: 11.9
+  delta: -2.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 14.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rethinkdb/refs/heads/main/screenshots/rethinkdb-2026-06-20T193037.png
 security:

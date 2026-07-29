@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: The Views API from Amazon Resource Explorer — 5 operation(s) for views.
   name: Amazon Resource Explorer Views API
   slug: amazon-resource-explorer-views-api
-artifact_total: 36
+artifact_total: 41
 collections:
+- collection_type: postman
+  name: Amazon Resource Explorer Index API
+  slug: postman-amazon-resource-explorer-index-api
+- collection_type: postman
+  name: Amazon Resource Explorer Index Resources API
+  slug: postman-amazon-resource-explorer-resources-api
+- collection_type: postman
+  name: Amazon Resource Explorer Index Search API
+  slug: postman-amazon-resource-explorer-search-api
+- collection_type: postman
+  name: Amazon Resource Explorer Index Tags API
+  slug: postman-amazon-resource-explorer-tags-api
+- collection_type: postman
+  name: Amazon Resource Explorer Index Views API
+  slug: postman-amazon-resource-explorer-views-api
 - collection_type: open
   name: Amazon Resource Explorer API
   slug: open-amazon-resource-explorer
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-resource-explorer/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -309,12 +330,12 @@ overview: 'Amazon Resource Explorer publishes 5 APIs on the [APIs.io](https://ap
   The Amazon Resource Explorer catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Resource Explorer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, code examples, and 34 more developer resources.'
+  Amazon Resource Explorer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, code examples, and 35 more developer resources.'
 plans:
 - name: Amazon Resource Explorer Plans Pricing
   plan_count: 3
   slug: amazon-resource-explorer-plans-pricing
-random_paper: 41
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Amazon Resource Explorer Rate Limits
@@ -338,18 +359,25 @@ rules:
   slug: amazon-resource-explorer-spectral-rules
 score:
   band: strong
-  composite: 64.1
-  delta: 3.2
+  composite: 61.0
+  delta: -3.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 59.3
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 61.0
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/screenshots/amazon-resource-explorer-2026-06-20T171809.png
 security:

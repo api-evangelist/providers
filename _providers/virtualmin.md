@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: HTTP-based Remote API served from Webmin's remote.cgi on port 10000. Each call passes a `program` parameter naming one of ~200 command-line programs (create-domain, list-domains, create-user, create-a
@@ -134,21 +136,23 @@ overview: 'Virtualmin publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Virtualmin''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 14 more developer resources.'
-random_paper: 11
+random_paper: 21
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 32.1
+  delta: -1.9
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 65.2
-    discoverability: 92.5
+    developer_ergonomics: 58.7
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 34.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

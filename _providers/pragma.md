@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.8
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Public external REST API for FirstLook, Pragma's playtest and community platform. Uses scoped API tokens to query players, look up or find-or-create a player, record analytics events (sessions, counte
@@ -146,7 +148,7 @@ overview: 'Pragma publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Pragma''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 20
+random_paper: 16
 scopes:
 - name: Pragma Scopes
   scope_count: 5
@@ -154,18 +156,21 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 33.1
+  delta: -1.3
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 34.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 3.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,21 +95,21 @@ overview: 'Aluna is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aluna''s developer surface includes support, getting-started guide, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 53
+random_paper: 67
 score:
   band: emerging
-  composite: 16.6
-  delta: 0.0
+  composite: 15.9
+  delta: -0.7
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aluna/refs/heads/main/screenshots/aluna-2026-07-25T195851.png
 security:

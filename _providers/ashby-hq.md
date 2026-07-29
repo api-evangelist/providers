@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -242,12 +244,169 @@ arazzos:
 - description: Confirm the API key's access, register a webhook, verify it, then enable or rotate it.
   name: Ashby Register and Manage a Webhook Subscription
   slug: ashby-hq-webhook-lifecycle-workflow
-artifact_total: 106
+artifact_total: 157
 collections:
+- collection_type: postman
+  name: Ashby API Key API
+  slug: postman-ashby-hq-api-key-api
+- collection_type: postman
+  name: Ashby API Key Application API
+  slug: postman-ashby-hq-application-api
+- collection_type: postman
+  name: Ashby API Key Application Feedback API
+  slug: postman-ashby-hq-application-feedback-api
+- collection_type: postman
+  name: Ashby API Key Application Feedback Request API
+  slug: postman-ashby-hq-application-feedback-request-api
+- collection_type: postman
+  name: Ashby API Key Application Form API
+  slug: postman-ashby-hq-application-form-api
+- collection_type: postman
+  name: Ashby API Key Application Hiring Team Role API
+  slug: postman-ashby-hq-application-hiring-team-role-api
+- collection_type: postman
+  name: Ashby API Key Approval API
+  slug: postman-ashby-hq-approval-api
+- collection_type: postman
+  name: Ashby API Key Approval Definition API
+  slug: postman-ashby-hq-approval-definition-api
+- collection_type: postman
+  name: Ashby API Key Archive Reason API
+  slug: postman-ashby-hq-archive-reason-api
+- collection_type: postman
+  name: Ashby API Key Assessment API
+  slug: postman-ashby-hq-assessment-api
+- collection_type: postman
+  name: Ashby API Key Brand API
+  slug: postman-ashby-hq-brand-api
+- collection_type: postman
+  name: Ashby API Key Candidate API
+  slug: postman-ashby-hq-candidate-api
+- collection_type: postman
+  name: Ashby API Key Candidate Tag API
+  slug: postman-ashby-hq-candidate-tag-api
+- collection_type: postman
+  name: Ashby API Key Close Reason API
+  slug: postman-ashby-hq-close-reason-api
+- collection_type: postman
+  name: Ashby API Key Communication Template API
+  slug: postman-ashby-hq-communication-template-api
+- collection_type: postman
+  name: Ashby API Key Custom Field API
+  slug: postman-ashby-hq-custom-field-api
+- collection_type: postman
+  name: Ashby API Key Department API
+  slug: postman-ashby-hq-department-api
+- collection_type: postman
+  name: Ashby API Key Department & Team API
+  slug: postman-ashby-hq-department-team-api
+- collection_type: postman
+  name: Ashby API Key Feedback Form Definition API
+  slug: postman-ashby-hq-feedback-form-definition-api
+- collection_type: postman
+  name: Ashby API Key File API
+  slug: postman-ashby-hq-file-api
+- collection_type: postman
+  name: Ashby API Key Hiring Team API
+  slug: postman-ashby-hq-hiring-team-api
+- collection_type: postman
+  name: Ashby API Key Hiring Team Role API
+  slug: postman-ashby-hq-hiring-team-role-api
+- collection_type: postman
+  name: Ashby API Key Interview API
+  slug: postman-ashby-hq-interview-api
+- collection_type: postman
+  name: Ashby API Key Interview Briefing API
+  slug: postman-ashby-hq-interview-briefing-api
+- collection_type: postman
+  name: Ashby API Key Interview Event API
+  slug: postman-ashby-hq-interview-event-api
+- collection_type: postman
+  name: Ashby API Key Interview Plan API
+  slug: postman-ashby-hq-interview-plan-api
+- collection_type: postman
+  name: Ashby API Key Interview Schedule API
+  slug: postman-ashby-hq-interview-schedule-api
+- collection_type: postman
+  name: Ashby API Key Interview Stage API
+  slug: postman-ashby-hq-interview-stage-api
+- collection_type: postman
+  name: Ashby API Key Interview Stage Group API
+  slug: postman-ashby-hq-interview-stage-group-api
+- collection_type: postman
+  name: Ashby API Key Interviewer Pool API
+  slug: postman-ashby-hq-interviewer-pool-api
+- collection_type: postman
+  name: Ashby API Key Job API
+  slug: postman-ashby-hq-job-api
+- collection_type: postman
+  name: Ashby API Key Job Board API
+  slug: postman-ashby-hq-job-board-api
+- collection_type: postman
+  name: Ashby API Key Job Interview Plan API
+  slug: postman-ashby-hq-job-interview-plan-api
+- collection_type: postman
+  name: Ashby API Key Job Posting API
+  slug: postman-ashby-hq-job-posting-api
+- collection_type: postman
+  name: Ashby API Key Job Template API
+  slug: postman-ashby-hq-job-template-api
+- collection_type: postman
+  name: Ashby API Key Location API
+  slug: postman-ashby-hq-location-api
+- collection_type: postman
+  name: Ashby API Key Notetaker Transcript API
+  slug: postman-ashby-hq-notetaker-transcript-api
+- collection_type: postman
+  name: Ashby API Key Offer API
+  slug: postman-ashby-hq-offer-api
+- collection_type: postman
+  name: Ashby API Key Offer Process API
+  slug: postman-ashby-hq-offer-process-api
+- collection_type: postman
+  name: Ashby API Key Openings API
+  slug: postman-ashby-hq-openings-api
+- collection_type: postman
+  name: Ashby API Key Project API
+  slug: postman-ashby-hq-project-api
+- collection_type: postman
+  name: Ashby API Key Referral API
+  slug: postman-ashby-hq-referral-api
+- collection_type: postman
+  name: Ashby API Key Referral Form API
+  slug: postman-ashby-hq-referral-form-api
+- collection_type: postman
+  name: Ashby API Key Report API
+  slug: postman-ashby-hq-report-api
+- collection_type: postman
+  name: Ashby API Key Source API
+  slug: postman-ashby-hq-source-api
+- collection_type: postman
+  name: Ashby API Key Source Tracking Links API
+  slug: postman-ashby-hq-source-tracking-links-api
+- collection_type: postman
+  name: Ashby API Key Survey Form Definition API
+  slug: postman-ashby-hq-survey-form-definition-api
+- collection_type: postman
+  name: Ashby API Key Survey Request API
+  slug: postman-ashby-hq-survey-request-api
+- collection_type: postman
+  name: Ashby API Key Survey Submission API
+  slug: postman-ashby-hq-survey-submission-api
+- collection_type: postman
+  name: Ashby API Key User API
+  slug: postman-ashby-hq-user-api
+- collection_type: postman
+  name: Ashby API Key Webhook API
+  slug: postman-ashby-hq-webhook-api
 - collection_type: open
   name: Ashby API
   slug: open-ashby
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ashby/overview
 - group: agent
   title: ''
   type: MCPServer
@@ -590,12 +749,12 @@ overview: 'Ashby publishes 51 APIs on the [APIs.io](https://apis.io/) network, i
   The Ashby catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ashby''s developer surface includes changelog, sandbox, authentication, developer portal, getting-started guide, documentation, support, and 62 more developer resources.'
+  Ashby''s developer surface includes changelog, sandbox, authentication, developer portal, getting-started guide, documentation, support, and 63 more developer resources.'
 plans:
 - name: Ashby Hq Plans Pricing
   plan_count: 6
   slug: ashby-hq-plans-pricing
-random_paper: 49
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Ashby Hq Rate Limits
@@ -611,18 +770,27 @@ rules:
   slug: ashby-hq-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.5
-  delta: 3.5
+  composite: 74.8
+  delta: 0.3
   facets:
     commercial_clarity: 81.6
-    contract_quality: 75.4
-    developer_ergonomics: 60.9
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 76.1
+    developer_ergonomics: 65.2
+    discoverability: 77.8
+    governance: 69.8
     operational_transparency: 78.9
-  previous_composite: 71.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 74.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 51
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/screenshots/ashby-hq-2026-06-20T172500.png
 security:

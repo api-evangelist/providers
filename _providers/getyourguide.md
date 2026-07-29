@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.0
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: The Bookings API from GetYourGuide — 2 operation(s) for bookings.
@@ -182,21 +184,30 @@ overview: 'GetYourGuide publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   GetYourGuide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 17
+random_paper: 0
 score:
-  band: thin
-  composite: 44.5
-  delta: 0.0
+  band: developing
+  composite: 42.5
+  delta: -2.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 53.8
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 52.3
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 44.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/screenshots/getyourguide-2026-07-25T215748.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -224,7 +226,7 @@ plans:
 - name: Unitedhealthcare Plans Pricing
   plan_count: 3
   slug: unitedhealthcare-plans-pricing
-random_paper: 58
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Unitedhealthcare Rate Limits
@@ -248,24 +250,32 @@ rules:
   slug: unitedhealthcare-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 2.8
+  composite: 43.9
+  delta: -5.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.9
+    contract_quality: 71.2
     developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 46.3
+  previous_composite: 49.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 25.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/screenshots/unitedhealthcare-2026-06-20T200108.png
 security:
 - kind: authentication

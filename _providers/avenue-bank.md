@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: true
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +158,7 @@ overview: 'Avenue Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Avenue Bank''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 13
+random_paper: 23
 scopes:
 - name: Avenue Bank Scopes
   scope_count: 5
@@ -164,24 +166,35 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 42.6
-  delta: 0.0
+  composite: 36.0
+  delta: -6.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.1
-    developer_ergonomics: 32.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 36.7
+    developer_ergonomics: 21.2
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 42.6
+  provenance:
+    agentic_access: first-party
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 70.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/screenshots/avenue-bank-2026-07-21T114700.png
 security:
 - kind: authentication

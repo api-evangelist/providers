@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: near-conformant
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,6 +43,10 @@ apis:
   slug: interfaze-chat-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/interfaze-a2a.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -164,22 +170,32 @@ network: true
 overview: 'Interfaze publishes 1 API on the [APIs.io](https://apis.io/) network: Chat API. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and OCR.
 
 
-  Interfaze''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 20 more developer resources.'
-random_paper: 16
+  Interfaze''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 21 more developer resources.'
+random_paper: 44
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 50.6
+  delta: -0.9
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.2
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 58.5
+    developer_ergonomics: 60.9
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 36.8
   previous_composite: 51.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/screenshots/interfaze-2026-07-25T222700.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -127,25 +129,32 @@ plans:
 - name: Eclipse Rdf4J Plans Pricing
   plan_count: 3
   slug: eclipse-rdf4j-plans-pricing
-random_paper: 36
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Eclipse Rdf4J Rate Limits
   slug: eclipse-rdf4j-rate-limits
 score:
   band: thin
-  composite: 40.5
-  delta: 2.0
+  composite: 37.7
+  delta: -2.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 47.0
+    contract_quality: 45.0
     developer_ergonomics: 26.1
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 38.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 40.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/screenshots/eclipse-rdf4j-2026-06-20T180427.png
 security:

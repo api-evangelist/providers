@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -85,8 +87,56 @@ apis:
 - description: API usage statistics and request metrics.
   name: Choreo Usage API
   slug: choreo-usage-api
-artifact_total: 61
+artifact_total: 77
 collections:
+- collection_type: postman
+  name: Choreo API Management Alerts API
+  slug: postman-choreo-alerts-api
+- collection_type: postman
+  name: Choreo API Management Alerts Apis API
+  slug: postman-choreo-apis-api
+- collection_type: postman
+  name: Choreo API Management Alerts Application Keys API
+  slug: postman-choreo-application-keys-api
+- collection_type: postman
+  name: Choreo API Management Alerts Applications API
+  slug: postman-choreo-applications-api
+- collection_type: postman
+  name: Choreo API Management Alerts Builds API
+  slug: postman-choreo-builds-api
+- collection_type: postman
+  name: Choreo API Management Alerts Business Plans API
+  slug: postman-choreo-business-plans-api
+- collection_type: postman
+  name: Choreo API Management Alerts Components API
+  slug: postman-choreo-components-api
+- collection_type: postman
+  name: Choreo API Management Alerts Deployments API
+  slug: postman-choreo-deployments-api
+- collection_type: postman
+  name: Choreo API Management Alerts Environments API
+  slug: postman-choreo-environments-api
+- collection_type: postman
+  name: Choreo API Management Alerts Errors API
+  slug: postman-choreo-errors-api
+- collection_type: postman
+  name: Choreo API Management Alerts Latency API
+  slug: postman-choreo-latency-api
+- collection_type: postman
+  name: Choreo API Management Alerts Logs API
+  slug: postman-choreo-logs-api
+- collection_type: postman
+  name: Choreo API Management Alerts Organizations API
+  slug: postman-choreo-organizations-api
+- collection_type: postman
+  name: Choreo API Management Alerts Projects API
+  slug: postman-choreo-projects-api
+- collection_type: postman
+  name: Choreo API Management Alerts Subscriptions API
+  slug: postman-choreo-subscriptions-api
+- collection_type: postman
+  name: Choreo API Management Alerts Usage API
+  slug: postman-choreo-usage-api
 - collection_type: open
   name: Choreo API Management API
   slug: open-choreo-api-management
@@ -97,6 +147,10 @@ collections:
   name: Choreo Insights API
   slug: open-choreo-insights
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/choreo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -269,12 +323,12 @@ overview: 'Choreo publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
   The Choreo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Choreo''s developer surface includes authentication, developer console, documentation, signup flow, pricing, engineering blog, and 19 more developer resources.'
+  Choreo''s developer surface includes authentication, developer console, documentation, signup flow, pricing, engineering blog, and 20 more developer resources.'
 plans:
 - name: Choreo Plans Pricing
   plan_count: 3
   slug: choreo-plans-pricing
-random_paper: 28
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Choreo Rate Limits
@@ -295,18 +349,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 67.1
-  delta: 4.2
+  composite: 64.1
+  delta: -3.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 78.5
-    developer_ergonomics: 37.0
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 79.4
+    developer_ergonomics: 41.3
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 62.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/screenshots/choreo-2026-06-20T174326.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -298,8 +300,269 @@ apis:
 - description: The WQL API from Workday Integration — 1 operation(s) for wql.
   name: Workday Integration WQL API
   slug: workday-integration-wql-api
-artifact_total: 277
+artifact_total: 364
 collections:
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types API
+  slug: postman-workday-integration-absence-types-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types ACA Compliance API
+  slug: postman-workday-integration-aca-compliance-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Academic Advising API
+  slug: postman-workday-integration-academic-advising-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Academic Foundation API
+  slug: postman-workday-integration-academic-foundation-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Admissions API
+  slug: postman-workday-integration-admissions-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Adoption API
+  slug: postman-workday-integration-adoption-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Assignments API
+  slug: postman-workday-integration-assignments-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Audit API
+  slug: postman-workday-integration-audit-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Balances API
+  slug: postman-workday-integration-balances-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Bank Accounts API
+  slug: postman-workday-integration-bank-accounts-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Bank Statements API
+  slug: postman-workday-integration-bank-statements-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Benefit Elections API
+  slug: postman-workday-integration-benefit-elections-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Benefit Plans API
+  slug: postman-workday-integration-benefit-plans-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Benefits Partners API
+  slug: postman-workday-integration-benefits-partners-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Campus Engagement API
+  slug: postman-workday-integration-campus-engagement-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Cash Positions API
+  slug: postman-workday-integration-cash-positions-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Clock Events API
+  slug: postman-workday-integration-clock-events-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Compensation Reviews API
+  slug: postman-workday-integration-compensation-reviews-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Completions API
+  slug: postman-workday-integration-completions-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Contracts API
+  slug: postman-workday-integration-contracts-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Courses API
+  slug: postman-workday-integration-courses-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Customers API
+  slug: postman-workday-integration-customers-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Data Change Tasks API
+  slug: postman-workday-integration-data-change-tasks-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Data Translation API
+  slug: postman-workday-integration-data-translation-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Dependents API
+  slug: postman-workday-integration-dependents-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Document Generation API
+  slug: postman-workday-integration-document-generation-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Drive API
+  slug: postman-workday-integration-drive-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Extensibility API
+  slug: postman-workday-integration-extensibility-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types External Integrations API
+  slug: postman-workday-integration-external-integrations-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Feedback API
+  slug: postman-workday-integration-feedback-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types File Containers API
+  slug: postman-workday-integration-file-containers-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Financial Aid API
+  slug: postman-workday-integration-financial-aid-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Flex Teams API
+  slug: postman-workday-integration-flex-teams-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Goals API
+  slug: postman-workday-integration-goals-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Identity Management API
+  slug: postman-workday-integration-identity-management-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Integration Events API
+  slug: postman-workday-integration-integration-events-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Integration Systems API
+  slug: postman-workday-integration-integration-systems-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Interviews API
+  slug: postman-workday-integration-interviews-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Inventory API
+  slug: postman-workday-integration-inventory-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Job Postings API
+  slug: postman-workday-integration-job-postings-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Job Profiles API
+  slug: postman-workday-integration-job-profiles-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Jobs API
+  slug: postman-workday-integration-jobs-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Leave of Absence API
+  slug: postman-workday-integration-leave-of-absence-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Mentorships API
+  slug: postman-workday-integration-mentorships-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Messaging API
+  slug: postman-workday-integration-messaging-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Metadata Translations API
+  slug: postman-workday-integration-metadata-translations-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Moments API
+  slug: postman-workday-integration-moments-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Notifications API
+  slug: postman-workday-integration-notifications-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Org Studio API
+  slug: postman-workday-integration-org-studio-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Organizations API
+  slug: postman-workday-integration-organizations-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Pay Groups API
+  slug: postman-workday-integration-pay-groups-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Payments API
+  slug: postman-workday-integration-payments-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Payroll API
+  slug: postman-workday-integration-payroll-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Payroll Australia API
+  slug: postman-workday-integration-payroll-australia-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Payroll Canada API
+  slug: postman-workday-integration-payroll-canada-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Payroll France API
+  slug: postman-workday-integration-payroll-france-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Payroll Inputs API
+  slug: postman-workday-integration-payroll-inputs-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Payroll Interface API
+  slug: postman-workday-integration-payroll-interface-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Payroll UK API
+  slug: postman-workday-integration-payroll-uk-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Performance Reviews API
+  slug: postman-workday-integration-performance-reviews-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Positions API
+  slug: postman-workday-integration-positions-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Professional Services API
+  slug: postman-workday-integration-professional-services-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Prospects API
+  slug: postman-workday-integration-prospects-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Reference Data API
+  slug: postman-workday-integration-reference-data-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Requests API
+  slug: postman-workday-integration-requests-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Resource Management API
+  slug: postman-workday-integration-resource-management-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Revenue Schedules API
+  slug: postman-workday-integration-revenue-schedules-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Scheduling API
+  slug: postman-workday-integration-scheduling-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Scorecards API
+  slug: postman-workday-integration-scorecards-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Settlement Services API
+  slug: postman-workday-integration-settlement-services-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Student Core API
+  slug: postman-workday-integration-student-core-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Student Finance API
+  slug: postman-workday-integration-student-finance-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Student Records API
+  slug: postman-workday-integration-student-records-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Student Recruiting API
+  slug: postman-workday-integration-student-recruiting-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Suppliers API
+  slug: postman-workday-integration-suppliers-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Tables API
+  slug: postman-workday-integration-tables-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Talent Pools API
+  slug: postman-workday-integration-talent-pools-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Tax Rates API
+  slug: postman-workday-integration-tax-rates-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Time Blocks API
+  slug: postman-workday-integration-time-blocks-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Time Off API
+  slug: postman-workday-integration-time-off-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Time Reviews API
+  slug: postman-workday-integration-time-reviews-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Transfer Credit API
+  slug: postman-workday-integration-transfer-credit-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Validations API
+  slug: postman-workday-integration-validations-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Workers API
+  slug: postman-workday-integration-workers-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Workforce Planning API
+  slug: postman-workday-integration-workforce-planning-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types Worktags API
+  slug: postman-workday-integration-worktags-api
+- collection_type: postman
+  name: Workday Integration Workday Absence Management Absence Types WQL API
+  slug: postman-workday-integration-wql-api
 - collection_type: open
   name: Workday Integration Workday Absence Management API
   slug: open-workday-integration-absence-management
@@ -460,6 +723,10 @@ collections:
   name: Workday Integration Workday Workforce Planning API
   slug: open-workday-integration-workforce-planning
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/workday-integration/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1028,12 +1295,12 @@ overview: 'Workday Integration publishes 87 APIs on the [APIs.io](https://apis.i
   The Workday Integration catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Integration''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 34 more developer resources.'
+  Workday Integration''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 35 more developer resources.'
 plans:
 - name: Workday Integration Plans Pricing
   plan_count: 1
   slug: workday-integration-plans-pricing
-random_paper: 30
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Workday Integration Rate Limits
@@ -1062,18 +1329,25 @@ scopes:
   summary_line: 67 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.7
-  delta: 2.5
+  composite: 62.6
+  delta: -4.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 67.3
-    developer_ergonomics: 58.7
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 64.4
+    developer_ergonomics: 63.0
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 64.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 87
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/screenshots/workday-integration-2026-06-20T201602.png
 security:

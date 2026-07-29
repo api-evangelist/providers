@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.4
+  scored_at: '2026-07-28'
 api_count: 19
 apis:
 - description: 'Query indexed logs against the Logz.io managed Elasticsearch / OpenSearch cluster using a request body that mirrors the upstream Elasticsearch Search API. Includes `/v1/search` for ad-hoc queries and '
@@ -489,7 +491,7 @@ plans:
 - name: Logz Io Plans Pricing
   plan_count: 7
   slug: logz-io-plans-pricing
-random_paper: 25
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Logz Io Rate Limits
@@ -505,19 +507,25 @@ rules:
   slug: logz-io-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 77.1
-  delta: 0.0
+  composite: 71.1
+  delta: -6.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 71.7
+    contract_quality: 65.4
     developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 68.4
   previous_composite: 77.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/screenshots/logz-io-2026-06-20T184702.png
 security:
 - kind: domain-security

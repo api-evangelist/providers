@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 47.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -156,7 +158,7 @@ overview: 'Wistia publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Wistia''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 45
+random_paper: 41
 rules:
 - name: Wistia API Rules
   rule_count: 8
@@ -168,18 +170,25 @@ rules:
   slug: wistia-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 41.4
-  delta: 3.3
+  composite: 37.9
+  delta: -3.5
   facets:
     commercial_clarity: 18.4
-    contract_quality: 61.9
+    contract_quality: 63.6
     developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 52.6
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 5.3
-  previous_composite: 38.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 41.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/screenshots/wistia-2026-06-20T201532.png
 security:

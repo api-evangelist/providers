@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Production JSON API served from api.metricwire.com backing the Metricwire research data collection platform (studies, participants, schedules, survey responses, and passive/sensor data). No public Ope
@@ -89,21 +91,23 @@ overview: 'Metricwire publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Metricwire''s developer surface includes support and 10 more developer resources.'
-random_paper: 63
+random_paper: 5
 score:
   band: emerging
-  composite: 20.6
-  delta: 0.0
+  composite: 20.4
+  delta: -0.2
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 20.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -40,8 +42,16 @@ apis:
 - description: Methods for retrieving album metadata and managing album tags
   name: Last.fm Album API
   slug: last-fm-album-api
-artifact_total: 29
+artifact_total: 30
+collections:
+- collection_type: postman
+  name: Last.fm Album API
+  slug: postman-last-fm-album-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lastfm/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,12 +180,12 @@ overview: 'Last.fm publishes 1 API on the [APIs.io](https://apis.io/) network: A
   The Last.fm catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Last.fm''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, and 12 more developer resources.'
+  Last.fm''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Last Fm Plans Pricing
   plan_count: 3
   slug: last-fm-plans-pricing
-random_paper: 12
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Last Fm Rate Limits
@@ -191,18 +201,25 @@ rules:
   slug: last-fm-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 58.2
+  delta: -3.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.8
-    developer_ergonomics: 32.6
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 72.0
+    developer_ergonomics: 37.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 61.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/last-fm/refs/heads/main/screenshots/last-fm-2026-06-20T184321.png
 security:

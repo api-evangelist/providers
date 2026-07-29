@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 64.2
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: File upload endpoints
@@ -207,25 +209,34 @@ plans:
 - name: Spaitial Ai Plans
   plan_count: 4
   slug: spaitial-ai-plans
-random_paper: 14
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Spaitial Ai Rate Limits
   slug: spaitial-ai-rate-limits
 score:
-  band: developing
-  composite: 58.7
-  delta: 0.0
+  band: strong
+  composite: 58.5
+  delta: -0.2
   facets:
     commercial_clarity: 76.3
-    contract_quality: 59.7
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.1
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 28.9
   previous_composite: 58.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

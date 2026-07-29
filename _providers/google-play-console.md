@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: The V1alpha1 API from Google Play Console Developer Reporting — 4 operation(s) for v1alpha1.
   name: Google Play Console Developer Reporting V1alpha1 API
   slug: google-play-console-v1alpha1-api
-artifact_total: 11
+artifact_total: 12
 collections:
+- collection_type: postman
+  name: Google Play Console Developer Reporting Google Play Developer Reporting V1alpha1 API
+  slug: postman-google-play-console-v1alpha1-api
 - collection_type: open
   name: Google Play Console Developer Reporting Google Play Developer Reporting API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-play-console-developer-reporting/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,12 +133,12 @@ overview: 'Google Play Console Developer Reporting publishes 1 API on the [APIs.
   The Google Play Console Developer Reporting catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Play Console Developer Reporting''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 9 more developer resources.'
+  Google Play Console Developer Reporting''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
 plans:
 - name: Google Play Console Plans Pricing
   plan_count: 3
   slug: google-play-console-plans-pricing
-random_paper: 16
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Google Play Console Rate Limits
@@ -150,18 +159,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.7
-  delta: 4.6
+  composite: 59.7
+  delta: -3.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.9
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 63.6
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 58.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/screenshots/google-play-console-2026-06-20T182226.png
 security:

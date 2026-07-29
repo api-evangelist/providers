@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -128,7 +130,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 48
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -140,18 +142,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 29.2
+  delta: -1.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 51.2
+    contract_quality: 52.5
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 30.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/screenshots/vatsim-2026-06-20T200846.png
 security:

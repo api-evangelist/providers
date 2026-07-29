@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Next Web provides an RSS 2.0 feed updated hourly with the latest technology news, analysis, and articles published on thenextweb.com. The feed covers topics including artificial intelligence, star
@@ -150,7 +152,7 @@ plans:
 - name: The Next Web Plans Pricing
   plan_count: 3
   slug: the-next-web-plans-pricing
-random_paper: 20
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: The Next Web Rate Limits
@@ -166,19 +168,19 @@ rules:
   slug: the-next-web-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 35.2
+  delta: -5.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 40.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/screenshots/the-next-web-2026-06-20T195230.png
 security:
 - kind: domain-security

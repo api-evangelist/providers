@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -58,12 +60,38 @@ apis:
 - description: The s7.1 API from Xiaoman (OKKI) — 35 operation(s) for s7.1.
   name: Xiaoman (OKKI) s7.1 API
   slug: xiaoman-s7-1-api
-artifact_total: 16
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Xiaoman Crm Webhooks
   slug: xiaoman-crm-webhooks
+collections:
+- collection_type: postman
+  name: OKKI Go Companies API
+  slug: postman-xiaoman-companies-api
+- collection_type: postman
+  name: OKKI Go Companies Contacts API
+  slug: postman-xiaoman-contacts-api
+- collection_type: postman
+  name: OKKI Go Companies Credits API
+  slug: postman-xiaoman-credits-api
+- collection_type: postman
+  name: OKKI Go Companies 产品 API
+  slug: postman-xiaoman-default-api
+- collection_type: postman
+  name: OKKI Go Companies devops相关 API
+  slug: postman-xiaoman-devops-api
+- collection_type: postman
+  name: OKKI Go Companies Emails API
+  slug: postman-xiaoman-emails-api
+- collection_type: postman
+  name: OKKI Go Companies s7.1 API
+  slug: postman-xiaoman-s7-1-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/xiaoman-okki/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,12 +234,12 @@ overview: 'Xiaoman (OKKI) publishes 7 APIs on the [APIs.io](https://apis.io/) ne
   The Xiaoman (OKKI) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Xiaoman (OKKI)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 24 more developer resources.'
+  Xiaoman (OKKI)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 25 more developer resources.'
 plans:
 - name: Xiaoman Plans
   plan_count: 4
   slug: xiaoman-plans
-random_paper: 1
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Xiaoman Rate Limits
@@ -223,18 +251,28 @@ scopes:
   summary_line: 12 scopes · password/clientCredentials
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 61.9
+  delta: 0.7
   facets:
     commercial_clarity: 76.3
-    contract_quality: 59.0
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.8
+    developer_ergonomics: 78.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 61.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: unknown
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

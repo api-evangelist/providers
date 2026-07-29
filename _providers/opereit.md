@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 29.1
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The Contracts API from Opereit — 3 operation(s) for contracts.
@@ -108,21 +110,30 @@ overview: 'Opereit publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Opereit''s developer surface includes documentation, API reference, getting-started guide, authentication, and 8 more developer resources.'
-random_paper: 12
+random_paper: 67
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 37.2
+  delta: -1.9
   facets:
     commercial_clarity: 13.2
-    contract_quality: 60.2
-    developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 58.5
+    developer_ergonomics: 49.5
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 39.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

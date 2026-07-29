@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: The recommended tenant-scoped Open API for customers, tickets, organizations, agents, agent groups, departments, knowledge base, IM sessions, call center, outbound call tasks, questionnaires, work log
@@ -173,26 +175,28 @@ overview: 'Udesk publishes 5 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Udesk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 64
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Udesk Rate Limits
   slug: udesk-rate-limits
 score:
-  band: thin
-  composite: 43.2
-  delta: 0.0
+  band: developing
+  composite: 51.2
+  delta: 8.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 44.7
   previous_composite: 43.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: authentication
   name: Udesk Authentication

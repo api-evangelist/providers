@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 3
@@ -322,12 +324,301 @@ apis:
 - description: 'The #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatevtldevicetype.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api
-artifact_total: 771
+artifact_total: 866
 collections:
+- collection_type: postman
+  name: Amazon Storage Gateway REST Amazon Storage Gateway REST API API
+  slug: postman-amazon-storage-gateway-amazon-storage-gateway-rest-api-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #CreateNFSFileShare API'
+  slug: postman-amazon-storage-gateway-createnfsfileshare-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #DescribeGatewayInformation API'
+  slug: postman-amazon-storage-gateway-describegatewayinformation-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #ListGateways API'
+  slug: postman-amazon-storage-gateway-listgateways-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #ListVolumes API'
+  slug: postman-amazon-storage-gateway-listvolumes-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ActivateGateway API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-activategateway-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AddCache API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-addcache-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AddTagsToResource API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-addtagstoresource-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AddUploadBuffer API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-adduploadbuffer-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AddWorkingStorage API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-addworkingstorage-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AssignTapePool API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-assigntapepool-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AssociateFileSystem API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-associatefilesystem-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.AttachVolume API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-attachvolume-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CancelArchival API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-cancelarchival-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CancelRetrieval API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-cancelretrieval-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateCachediSCSIVolume API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createcachediscsivolume-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateNFSFileShare API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createnfsfileshare-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateSMBFileShare API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createsmbfileshare-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateSnapshot API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createsnapshot-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateSnapshotFromVolumeRecoveryPoint API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createsnapshotfromvolumerecoverypoint-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateStorediSCSIVolume API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createstorediscsivolume-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateTapePool API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createtapepool-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateTapes API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createtapes-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.CreateTapeWithBarcode API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-createtapewithbarcode-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteAutomaticTapeCreationPolicy API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deleteautomatictapecreationpolicy-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteBandwidthRateLimit API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletebandwidthratelimit-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteChapCredentials API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletechapcredentials-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteFileShare API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletefileshare-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteGateway API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletegateway-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteSnapshotSchedule API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletesnapshotschedule-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteTape API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletetape-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteTapeArchive API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletetapearchive-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteTapePool API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletetapepool-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DeleteVolume API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletevolume-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeAvailabilityMonitorTest API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describeavailabilitymonitortest-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimit API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describebandwidthratelimit-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimitSchedule API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describebandwidthratelimitschedule-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeCache API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describecache-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeCachediSCSIVolumes API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describecachediscsivolumes-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeChapCredentials API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describechapcredentials-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeFileSystemAssociations API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describefilesystemassociations-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeGatewayInformation API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describegatewayinformation-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeMaintenanceStartTime API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describemaintenancestarttime-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeNFSFileShares API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describenfsfileshares-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeSMBFileShares API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describesmbfileshares-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeSMBSettings API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describesmbsettings-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeSnapshotSchedule API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describesnapshotschedule-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeStorediSCSIVolumes API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describestorediscsivolumes-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeTapeArchives API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describetapearchives-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeTapeRecoveryPoints API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describetaperecoverypoints-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeTapes API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describetapes-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeUploadBuffer API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describeuploadbuffer-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeVTLDevices API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describevtldevices-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DescribeWorkingStorage API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-describeworkingstorage-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DetachVolume API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-detachvolume-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DisableGateway API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-disablegateway-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.DisassociateFileSystem API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-disassociatefilesystem-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.JoinDomain API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-joindomain-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListAutomaticTapeCreationPolicies API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listautomatictapecreationpolicies-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListFileShares API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listfileshares-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListFileSystemAssociations API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listfilesystemassociations-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListGateways API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listgateways-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListLocalDisks API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listlocaldisks-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListTagsForResource API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listtagsforresource-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListTapePools API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listtapepools-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListTapes API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listtapes-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListVolumeInitiators API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listvolumeinitiators-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListVolumeRecoveryPoints API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listvolumerecoverypoints-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ListVolumes API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-listvolumes-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.NotifyWhenUploaded API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-notifywhenuploaded-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.RefreshCache API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-refreshcache-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.RemoveTagsFromResource API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-removetagsfromresource-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ResetCache API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-resetcache-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.RetrieveTapeArchive API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-retrievetapearchive-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.RetrieveTapeRecoveryPoint API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-retrievetaperecoverypoint-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.SetLocalConsolePassword API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-setlocalconsolepassword-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.SetSMBGuestPassword API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-setsmbguestpassword-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.ShutdownGateway API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-shutdowngateway-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.StartAvailabilityMonitorTest API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-startavailabilitymonitortest-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.StartGateway API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-startgateway-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateAutomaticTapeCreationPolicy API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updateautomatictapecreationpolicy-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimit API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatebandwidthratelimit-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimitSchedule API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatebandwidthratelimitschedule-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateChapCredentials API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatechapcredentials-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateFileSystemAssociation API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatefilesystemassociation-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateGatewayInformation API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updategatewayinformation-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateGatewaySoftwareNow API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updategatewaysoftwarenow-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateMaintenanceStartTime API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatemaintenancestarttime-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateNFSFileShare API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatenfsfileshare-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSMBFileShare API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmbfileshare-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSMBFileShareVisibility API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmbfilesharevisibility-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSMBLocalGroups API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmblocalgroups-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSMBSecurityStrategy API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmbsecuritystrategy-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateSnapshotSchedule API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesnapshotschedule-api
+- collection_type: postman
+  name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API'
+  slug: postman-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api
 - collection_type: open
   name: Amazon Storage Gateway REST API
   slug: open-amazon-storage-gateway-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-storage-gateway/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2406,12 +2697,12 @@ overview: 'Amazon Storage Gateway publishes 95 APIs on the [APIs.io](https://api
   The Amazon Storage Gateway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Storage Gateway''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Storage Gateway''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Storage Gateway Plans Pricing
   plan_count: 3
   slug: amazon-storage-gateway-plans-pricing
-random_paper: 3
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Storage Gateway Rate Limits
@@ -2435,18 +2726,25 @@ rules:
   slug: amazon-storage-gateway-spectral-rules
 score:
   band: strong
-  composite: 67.8
-  delta: 2.5
+  composite: 64.7
+  delta: -3.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 66.7
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 66.2
+    developer_ergonomics: 45.7
+    discoverability: 75.9
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 65.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 95
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/screenshots/amazon-storage-gateway-2026-06-20T171833.png
 security:

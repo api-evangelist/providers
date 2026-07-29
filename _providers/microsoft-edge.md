@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -356,7 +358,7 @@ plans:
 - name: Microsoft Edge Plans Pricing
   plan_count: 2
   slug: microsoft-edge-plans-pricing
-random_paper: 4
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Microsoft Edge Rate Limits
@@ -379,20 +381,27 @@ rules:
     warn: 16
   slug: microsoft-edge-spectral-rules
 score:
-  band: exemplar
-  composite: 70.1
-  delta: 5.4
+  band: strong
+  composite: 63.2
+  delta: -6.9
   facets:
     commercial_clarity: 63.2
-    contract_quality: 76.1
+    contract_quality: 64.4
     developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 64.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 70.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Microsoft Edge Authentication

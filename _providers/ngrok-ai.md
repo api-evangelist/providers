@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -155,25 +157,32 @@ plans:
 - name: Ngrok Ai Plans Pricing
   plan_count: 3
   slug: ngrok-ai-plans-pricing
-random_paper: 44
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Ngrok Ai Rate Limits
   slug: ngrok-ai-rate-limits
 score:
   band: developing
-  composite: 49.1
-  delta: 3.3
+  composite: 45.9
+  delta: -3.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 53.1
+    contract_quality: 50.8
     developer_ergonomics: 37.0
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 45.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 49.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ngrok-ai/refs/heads/main/screenshots/ngrok-ai-2026-06-20T190315.png
 security:

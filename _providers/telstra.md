@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,8 +57,26 @@ apis:
 - description: Mobile number verification operations.
   name: Telstra Verification API
   slug: telstra-verification-api
-artifact_total: 38
+artifact_total: 44
 collections:
+- collection_type: postman
+  name: Telstra Messaging Authentication API
+  slug: postman-telstra-authentication-api
+- collection_type: postman
+  name: Telstra Messaging Authentication HealthCheck API
+  slug: postman-telstra-healthcheck-api
+- collection_type: postman
+  name: Telstra Messaging Authentication MMS API
+  slug: postman-telstra-mms-api
+- collection_type: postman
+  name: Telstra Messaging Authentication Provisioning API
+  slug: postman-telstra-provisioning-api
+- collection_type: postman
+  name: Telstra Messaging Authentication SMS API
+  slug: postman-telstra-sms-api
+- collection_type: postman
+  name: Telstra Messaging Authentication Verification API
+  slug: postman-telstra-verification-api
 - collection_type: open
   name: Telstra Messaging API
   slug: open-telstra-messaging-api
@@ -64,6 +84,10 @@ collections:
   name: Telstra Mobile Number Verification API
   slug: open-telstra-mobile-number-verification-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/telstra/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -243,12 +267,12 @@ overview: 'Telstra publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Telstra catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Telstra''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, GitHub presence, and 23 more developer resources.'
+  Telstra''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, GitHub presence, and 24 more developer resources.'
 plans:
 - name: Telstra Plans Pricing
   plan_count: 2
   slug: telstra-plans-pricing
-random_paper: 19
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Telstra Rate Limits
@@ -277,19 +301,32 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.4
-  delta: 5.5
+  composite: 57.8
+  delta: -3.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.9
-    developer_ergonomics: 50.0
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 74.0
+    developer_ergonomics: 54.3
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 55.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png
 security:
 - kind: authentication

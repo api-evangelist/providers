@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -166,26 +168,37 @@ overview: 'Valgo publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Valgo''s developer surface includes authentication, changelog, support, signup flow, engineering blog, and 17 more developer resources.'
-random_paper: 61
+random_paper: 75
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 37.3
+  delta: -3.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 43.6
-    developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 41.7
+    developer_ergonomics: 32.6
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 40.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 37.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

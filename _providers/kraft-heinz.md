@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,21 +87,21 @@ press:
 - date: '2026-05-25'
   title: Kraft Heinz and TheNotCompany Partner to Accelerate AI ...
   url: https://www.delimarketnews.com/culture/kraft-heinz-and-thenotcompany-partner-accelerate-ai-driven-plant-based-innovation-miguel-patricio-and-matias-muchnick-detail/anne-allen/mon-02282022-0850/13144
-random_paper: 35
+random_paper: 45
 score:
   band: minimal
-  composite: 5.5
-  delta: 0.0
+  composite: 4.1
+  delta: -1.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.0
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraft-heinz/refs/heads/main/screenshots/kraft-heinz-2026-06-20T184146.png
 security:

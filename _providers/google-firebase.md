@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,8 +54,14 @@ apis:
 - description: Send messages to devices and topics
   name: Google Firebase Messages API
   slug: google-firebase-messages-api
-artifact_total: 28
+artifact_total: 30
 collections:
+- collection_type: postman
+  name: Google Firebase Firebase Cloud Messaging API (FCM) Data API
+  slug: postman-google-firebase-data-api
+- collection_type: postman
+  name: Google Firebase Firebase Cloud Messaging API (FCM) Data Messages API
+  slug: postman-google-firebase-messages-api
 - collection_type: open
   name: Google Firebase Firebase Cloud Messaging API (FCM)
   slug: open-firebase-cloud-messaging
@@ -61,6 +69,10 @@ collections:
   name: Google Firebase Firebase Realtime Database API
   slug: open-firebase-realtime-database
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-firebase/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,12 +192,12 @@ overview: 'Google Firebase publishes 2 APIs on the [APIs.io](https://apis.io/) n
   The Google Firebase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Firebase''s developer surface includes authentication, getting-started guide, pricing, developer console, support, engineering blog, and 10 more developer resources.'
+  Google Firebase''s developer surface includes authentication, getting-started guide, pricing, developer console, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Google Firebase Plans Pricing
   plan_count: 2
   slug: google-firebase-plans-pricing
-random_paper: 19
+random_paper: 52
 rate_limits:
 - limit_count: 11
   name: Google Firebase Rate Limits
@@ -214,19 +226,26 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.2
-  delta: 5.5
+  composite: 56.9
+  delta: -3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 73.5
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 74.6
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 54.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/screenshots/google-firebase-2026-06-20T182200.png
 security:
 - kind: authentication

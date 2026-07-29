@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 50.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,12 +72,34 @@ apis:
 - description: Bring together real-time news sources, and the best of the business web and social media to empower decision makers. The NewsEdge API provides access to Moody's 24,000+ news sources for integration in
   name: Moody's NewsEdge API
   slug: newsedge-api
-artifact_total: 83
+artifact_total: 89
 collections:
+- collection_type: postman
+  name: Moody's Data Buffet Baskets API
+  slug: postman-moodys-baskets-api
+- collection_type: postman
+  name: Moody's Data Buffet Baskets Health API
+  slug: postman-moodys-health-api
+- collection_type: postman
+  name: Moody's Data Buffet Baskets Orders API
+  slug: postman-moodys-orders-api
+- collection_type: postman
+  name: Moody's Data Buffet Baskets Reference API
+  slug: postman-moodys-reference-api
+- collection_type: postman
+  name: Moody's Data Buffet Baskets Search API
+  slug: postman-moodys-search-api
+- collection_type: postman
+  name: Moody's Data Buffet Baskets Series API
+  slug: postman-moodys-series-api
 - collection_type: open
   name: Moody's Data Buffet API
   slug: open-moodys-data-buffet-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/moodys/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -418,7 +442,7 @@ overview: 'Moody''s publishes 1 API on the [APIs.io](https://apis.io/) network: 
   The Moody''s catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Moody''s'' developer surface includes authentication, CLI, sandbox, developer portal, getting-started guide, developer console, engineering blog, and 30 more developer resources.'
+  Moody''s'' developer surface includes authentication, CLI, sandbox, developer portal, getting-started guide, developer console, engineering blog, and 31 more developer resources.'
 plans:
 - name: Moodys Plans Pricing
   plan_count: 1
@@ -439,7 +463,7 @@ press:
 - date: '2026-05-25'
   title: Moody's Advances Decision-Grade Credit Intelligence ...
   url: https://www.businesswire.com/news/home/20260421137955/en/Moodys-Advances-Decision-Grade-Credit-Intelligence-Across-Enterprise-AI-Workflows-Powered-by-Microsoft-365-Copilot
-random_paper: 55
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Moodys Rate Limits
@@ -468,23 +492,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.0
-  delta: 0.0
+  composite: 66.6
+  delta: -3.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.5
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 71.2
+    developer_ergonomics: 69.0
+    discoverability: 92.6
+    governance: 69.8
     operational_transparency: 50.0
   previous_composite: 70.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 71.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:

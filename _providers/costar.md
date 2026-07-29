@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 14
 apis:
 - description: CoStar's flagship commercial real estate information platform covering property, tenant, lease, sale, and market analytics across office, industrial, retail, multifamily, and specialty CRE asset class
@@ -121,25 +123,25 @@ plans:
 - name: Costar Plans Pricing
   plan_count: 1
   slug: costar-plans-pricing
-random_paper: 40
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Costar Rate Limits
   slug: costar-rate-limits
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 17.5
+  delta: -2.6
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 20.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/screenshots/costar-2026-06-20T175051.png
 security:

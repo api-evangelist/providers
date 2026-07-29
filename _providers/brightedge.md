@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -254,21 +256,31 @@ overview: 'BrightEdge publishes 44 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   BrightEdge''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 11 more developer resources.'
-random_paper: 25
+random_paper: 44
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 40.9
+  delta: 1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 48.9
+    contract_quality: 46.8
     developer_ergonomics: 30.4
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 39.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/screenshots/brightedge-2026-07-25T203837.png
 security:

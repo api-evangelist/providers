@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Provides programmatic access to Bloomberg's financial market data including real-time and historical pricing, reference data, and analytics.
@@ -85,30 +87,31 @@ plans:
 - name: Bloomberg Applications Plans Pricing
   plan_count: 3
   slug: bloomberg-applications-plans-pricing
-random_paper: 41
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Bloomberg Applications Rate Limits
   slug: bloomberg-applications-rate-limits
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 28.6
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 30.1
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 43.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-applications/refs/heads/main/screenshots/bloomberg-applications-2026-06-20T173410.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -154,8 +156,125 @@ apis:
 - description: Webhooks are a great way to let external applications know about the status of a user, an API or an event that has occurred in the Tyk gateway <br/> You can create webhooks that you can then re-use in
   name: Tyk Webhooks API
   slug: tyk-webhooks-api
-artifact_total: 722
+artifact_total: 761
 collections:
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions API
+  slug: postman-tyk-additional-permissions-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Analytics API
+  slug: postman-tyk-analytics-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions APIs API
+  slug: postman-tyk-apis-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Assets API
+  slug: postman-tyk-assets-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions AuditLogs API
+  slug: postman-tyk-auditlogs-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Basic Authentication API
+  slug: postman-tyk-basic-authentication-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Batch Requests API
+  slug: postman-tyk-batch-requests-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Cache Invalidation API
+  slug: postman-tyk-cache-invalidation-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Certificates API
+  slug: postman-tyk-certificates-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Certs API
+  slug: postman-tyk-certs-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions CertsTag API
+  slug: postman-tyk-certstag-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Config API
+  slug: postman-tyk-config-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Dashboard URL Reload API
+  slug: postman-tyk-dashboard-url-reload-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Dataplanes API
+  slug: postman-tyk-dataplanes-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Debug API
+  slug: postman-tyk-debug-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Env API
+  slug: postman-tyk-env-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Export API
+  slug: postman-tyk-export-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Health API
+  slug: postman-tyk-health-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Health Checking API
+  slug: postman-tyk-health-checking-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Hot Reload API
+  slug: postman-tyk-hot-reload-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Import API
+  slug: postman-tyk-import-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Keys API
+  slug: postman-tyk-keys-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Liveness API
+  slug: postman-tyk-liveness-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions OAS APIs API
+  slug: postman-tyk-oas-apis-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Oauth API
+  slug: postman-tyk-oauth-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Open Policy Agent API
+  slug: postman-tyk-open-policy-agent-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Organisation Quotas API
+  slug: postman-tyk-organisation-quotas-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Organisations API
+  slug: postman-tyk-organisations-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Policies API
+  slug: postman-tyk-policies-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Readiness API
+  slug: postman-tyk-readiness-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Schema API
+  slug: postman-tyk-schema-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Single Sign On API
+  slug: postman-tyk-single-sign-on-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Streams APIs API
+  slug: postman-tyk-streams-apis-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions System API
+  slug: postman-tyk-system-api
+- collection_type: postman
+  name: Dashboard Admin Additional Permissions Tyk API
+  slug: postman-tyk-tyk-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Tyk OAS APIs API
+  slug: postman-tyk-tyk-oas-apis-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions UserGroup API
+  slug: postman-tyk-usergroup-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Users API
+  slug: postman-tyk-users-api
+- collection_type: postman
+  name: Tyk Dashboard Admin Additional Permissions Webhooks API
+  slug: postman-tyk-webhooks-api
 - collection_type: open
   name: Tyk Dashboard Admin API
   slug: open-tyk-dashboard-admin-api
@@ -169,6 +288,10 @@ collections:
   name: Tyk MDCB Data Planes and Diagnostics API
   slug: open-tyk-mdcb-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tyk/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2252,12 +2375,12 @@ overview: 'Tyk publishes 39 APIs on the [APIs.io](https://apis.io/) network, inc
   The Tyk catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Tyk''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 14 more developer resources.'
+  Tyk''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 15 more developer resources.'
 plans:
 - name: Tyk Plans Pricing
   plan_count: 5
   slug: tyk-plans-pricing
-random_paper: 4
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Tyk Rate Limits
@@ -2281,18 +2404,25 @@ rules:
   slug: tyk-spectral-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 4.7
+  composite: 61.3
+  delta: -4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.1
-    developer_ergonomics: 67.4
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 63.9
+    developer_ergonomics: 71.7
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 60.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 39
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png
 security:

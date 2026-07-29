@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 66.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -123,12 +125,104 @@ apis:
 - description: The verificationRequests API from Chariot — 2 operation(s) for verificationrequests.
   name: Chariot verificationRequests API
   slug: chariot-verificationrequests-api
-artifact_total: 35
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Chariot Webhooks
   slug: chariot-webhooks
+collections:
+- collection_type: postman
+  name: Chariot FDX Accounts API
+  slug: postman-chariot-accounts-api
+- collection_type: postman
+  name: Chariot FDX Accounts Authorization Tokens API
+  slug: postman-chariot-authorization-tokens-api
+- collection_type: postman
+  name: Chariot FDX Accounts Connects API
+  slug: postman-chariot-connects-api
+- collection_type: postman
+  name: Chariot FDX Accounts Contact API
+  slug: postman-chariot-contact-api
+- collection_type: postman
+  name: Chariot FDX Accounts Customers API
+  slug: postman-chariot-customers-api
+- collection_type: postman
+  name: Chariot FDX Accounts deposits API
+  slug: postman-chariot-deposits-api
+- collection_type: postman
+  name: Chariot FDX Accounts disbursements API
+  slug: postman-chariot-disbursements-api
+- collection_type: postman
+  name: Chariot FDX Accounts donations API
+  slug: postman-chariot-donations-api
+- collection_type: postman
+  name: Chariot FDX Accounts Donor Accounts API
+  slug: postman-chariot-donor-accounts-api
+- collection_type: postman
+  name: Chariot FDX Accounts Donor Advised Funds API
+  slug: postman-chariot-donor-advised-funds-api
+- collection_type: postman
+  name: Chariot FDX Accounts Event Subscriptions API
+  slug: postman-chariot-event-subscriptions-api
+- collection_type: postman
+  name: Chariot FDX Accounts Events API
+  slug: postman-chariot-events-api
+- collection_type: postman
+  name: Chariot FDX Accounts financial_accounts API
+  slug: postman-chariot-financial-accounts-api
+- collection_type: postman
+  name: Chariot FDX Accounts Giving Pools API
+  slug: postman-chariot-giving-pools-api
+- collection_type: postman
+  name: Chariot FDX Accounts Grant Requests API
+  slug: postman-chariot-grant-requests-api
+- collection_type: postman
+  name: Chariot FDX Accounts Grants API
+  slug: postman-chariot-grants-api
+- collection_type: postman
+  name: Chariot FDX Accounts inboundTransfers API
+  slug: postman-chariot-inboundtransfers-api
+- collection_type: postman
+  name: Chariot FDX Accounts mailbox API
+  slug: postman-chariot-mailbox-api
+- collection_type: postman
+  name: Chariot FDX Accounts nonprofitAddresses API
+  slug: postman-chariot-nonprofitaddresses-api
+- collection_type: postman
+  name: Chariot FDX Accounts nonprofitContacts API
+  slug: postman-chariot-nonprofitcontacts-api
+- collection_type: postman
+  name: Chariot FDX Accounts Organizations API
+  slug: postman-chariot-organizations-api
+- collection_type: postman
+  name: Chariot FDX Accounts paymentSources API
+  slug: postman-chariot-paymentsources-api
+- collection_type: postman
+  name: Chariot FDX Accounts Programs API
+  slug: postman-chariot-programs-api
+- collection_type: postman
+  name: Chariot FDX Accounts properties API
+  slug: postman-chariot-properties-api
+- collection_type: postman
+  name: Chariot FDX Accounts recurring_grants API
+  slug: postman-chariot-recurring-grants-api
+- collection_type: postman
+  name: Chariot FDX Accounts Statements API
+  slug: postman-chariot-statements-api
+- collection_type: postman
+  name: Chariot FDX Accounts Transactions API
+  slug: postman-chariot-transactions-api
+- collection_type: postman
+  name: Chariot FDX Accounts unintegrated_grants API
+  slug: postman-chariot-unintegrated-grants-api
+- collection_type: postman
+  name: Chariot FDX Accounts verificationRequests API
+  slug: postman-chariot-verificationrequests-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/chariot/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -287,8 +381,8 @@ overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network,
   The Chariot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 66
+  Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+random_paper: 53
 scopes:
 - name: Chariot Scopes
   scope_count: 4
@@ -296,23 +390,34 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 60.0
+  delta: -2.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 72.4
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 72.1
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 44.7
   previous_composite: 62.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 63.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/screenshots/chariot-2026-07-25T205102.png
 security:

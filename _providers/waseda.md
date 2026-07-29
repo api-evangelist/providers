@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 16.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for the Waseda University institutional repository, hosted on the NII WEKO/JAIRO Cloud platform. Exposes journal articles, dissertations, bulletin papers, work
@@ -104,25 +106,25 @@ plans:
 - name: Waseda Plans Pricing
   plan_count: 2
   slug: waseda-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Waseda Rate Limits
   slug: waseda-rate-limits
 score:
   band: emerging
-  composite: 23.9
-  delta: 0.0
+  composite: 21.1
+  delta: -2.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 10.9
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waseda/refs/heads/main/screenshots/waseda-2026-06-20T201241.png
 security:

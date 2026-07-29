@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 26.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Versioned REST API for managing third-party cyber risk — search and create third parties, answer inherent-risk scoping questions, apply tags, read inherent and residual risk profiles, and bulk-export '
@@ -114,21 +116,24 @@ overview: 'CyberGRX publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   CyberGRX''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, sandbox, and 9 more developer resources.'
-random_paper: 54
+random_paper: 23
 score:
   band: emerging
-  composite: 23.0
-  delta: 0.0
+  composite: 19.0
+  delta: -4.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 65.2
-    discoverability: 92.5
+    developer_ergonomics: 53.8
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 23.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/screenshots/cybergrx-2026-07-25T211027.png
 security:

@@ -31,6 +31,7 @@ ROOT = os.path.dirname(os.path.dirname(SITE))
 ALL = os.path.join(ROOT, "all")
 PROVIDERS = os.path.join(ROOT, "api-search", "providers", "_providers")
 SCORING_YML = os.path.join(ROOT, "api-search", "signals", "_data", "scoring.yml")
+DELISTED_YML = os.path.join(ROOT, "api-search", "network", "_data", "delisted.yml")
 
 NAME_RE = re.compile(r"^name:\s*(.+?)\s*$")
 DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
@@ -95,16 +96,53 @@ BAND_META = {
 # Source readers
 # ---------------------------------------------------------------------------
 
+def delisted_slugs():
+    """Slugs a company has asked us to remove — never list these, ever.
+
+    The registry at network/_data/delisted.yml is the network-wide source of
+    truth for takedown requests. A delisted provider keeps a bare repo under
+    all/<slug>/ (README only, so the GitHub URL does not dangle), which means
+    the repo scan below would happily list it again. This guard is what stops
+    that; it must not depend on which files a takedown happened to delete.
+    """
+    if not os.path.isfile(DELISTED_YML):
+        print("WARNING: %s not found — delisting guard is INACTIVE" % DELISTED_YML)
+        return set()
+    with open(DELISTED_YML, "r", encoding="utf-8") as fh:
+        doc = yaml.safe_load(fh) or []
+    rows = doc if isinstance(doc, list) else doc.get("delisted", doc.get("providers", []))
+    return {r["slug"] for r in rows if isinstance(r, dict) and r.get("slug")}
+
+
 def company_slugs():
-    """Every directory in all/* that is a real git repo."""
-    out = []
+    """Every directory in all/* that is a real, listable company repo.
+
+    Two things disqualify a repo. It is delisted (see delisted_slugs), or it
+    carries no apis.yml — the canonical provider descriptor. The latter drops
+    the workbench repo (0-working) and the scrape artifacts that got captured
+    as companies off partner pages (logo-1..7, footer, spinner, log-in, ...).
+    Keying on apis.yml is what build-providers.py and build-sections.py
+    already do; this makes the listing agree with them.
+    """
+    skip = delisted_slugs()
+    out, dropped_delisted, dropped_nodesc = [], [], []
     for entry in os.listdir(ALL):
         path = os.path.join(ALL, entry)
         if not os.path.isdir(path):
             continue
         if not os.path.isdir(os.path.join(path, ".git")):
             continue
+        if entry in skip:
+            dropped_delisted.append(entry)
+            continue
+        if not os.path.isfile(os.path.join(path, "apis.yml")):
+            dropped_nodesc.append(entry)
+            continue
         out.append(entry)
+    if dropped_delisted:
+        print("delisted, excluded: %d (%s)" % (len(dropped_delisted), ", ".join(sorted(dropped_delisted))))
+    if dropped_nodesc:
+        print("no apis.yml, excluded: %d" % len(dropped_nodesc))
     return sorted(out, key=str.lower)
 
 

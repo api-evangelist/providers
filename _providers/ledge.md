@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: Data sources connected to Ledge (banks, payment service providers, ERPs, databases) and the datasets fetched from them.
@@ -177,26 +179,35 @@ overview: 'Ledge publishes 2 APIs on the [APIs.io](https://apis.io/) network: So
 
 
   Ledge''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 24 more developer resources.'
-random_paper: 37
+random_paper: 51
 scopes:
 - name: Ledge Scopes
   scope_count: 0
   slug: ledge-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 56.9
-  delta: 0.0
+  band: strong
+  composite: 56.6
+  delta: -0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.7
-    developer_ergonomics: 67.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 63.6
+    developer_ergonomics: 56.0
+    discoverability: 87.0
+    governance: 20.8
     operational_transparency: 47.4
   previous_composite: 56.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/screenshots/ledge-2026-07-25T224813.png
 security:

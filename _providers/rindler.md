@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: 'Hosted MCP server (https://mcp.rindler.ai) that exposes mapped websites as deterministic, typed agent tools over HTTP with OAuth 2.0 PKCE. Core tools: start_session, dispatch_action, extract_content, '
@@ -114,26 +116,29 @@ overview: 'Rindler publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Rindler''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 4
+random_paper: 59
 scopes:
 - name: Rindler Scopes
   scope_count: 3
   slug: rindler-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 29.9
-  delta: 0.0
+  band: thin
+  composite: 28.4
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 58.7
-    discoverability: 92.5
+    developer_ergonomics: 53.8
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 29.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

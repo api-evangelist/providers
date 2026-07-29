@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -121,25 +123,32 @@ plans:
 - name: Notch Financial Plans Pricing
   plan_count: 1
   slug: notch-financial-plans-pricing
-random_paper: 22
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Notch Financial Rate Limits
   slug: notch-financial-rate-limits
 score:
   band: thin
-  composite: 34.4
-  delta: 2.0
+  composite: 32.3
+  delta: -2.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 51.3
+    contract_quality: 51.7
     developer_ergonomics: 21.7
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 34.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

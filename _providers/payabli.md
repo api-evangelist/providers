@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 79.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 66.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -135,8 +137,112 @@ apis:
 - description: The Wallet API from Payabli — 4 operation(s) for wallet.
   name: Payabli Wallet API
   slug: payabli-wallet-api
-artifact_total: 38
+artifact_total: 71
+collections:
+- collection_type: postman
+  name: API reference Bill API
+  slug: postman-payabli-bill-api
+- collection_type: postman
+  name: API reference Bill Boarding API
+  slug: postman-payabli-boarding-api
+- collection_type: postman
+  name: API reference Bill chargeBacks API
+  slug: postman-payabli-chargebacks-api
+- collection_type: postman
+  name: API reference Bill checkCapture API
+  slug: postman-payabli-checkcapture-api
+- collection_type: postman
+  name: API reference Bill Cloud API
+  slug: postman-payabli-cloud-api
+- collection_type: postman
+  name: API reference Bill Customer API
+  slug: postman-payabli-customer-api
+- collection_type: postman
+  name: API reference Bill Export API
+  slug: postman-payabli-export-api
+- collection_type: postman
+  name: API reference Bill Funding API
+  slug: postman-payabli-funding-api
+- collection_type: postman
+  name: API reference Bill ghostCard API
+  slug: postman-payabli-ghostcard-api
+- collection_type: postman
+  name: API reference Bill hostedPaymentPages API
+  slug: postman-payabli-hostedpaymentpages-api
+- collection_type: postman
+  name: API reference Bill Import API
+  slug: postman-payabli-import-api
+- collection_type: postman
+  name: API reference Bill Invoice API
+  slug: postman-payabli-invoice-api
+- collection_type: postman
+  name: API reference Bill lineItem API
+  slug: postman-payabli-lineitem-api
+- collection_type: postman
+  name: API reference Bill Management API
+  slug: postman-payabli-management-api
+- collection_type: postman
+  name: API reference Bill moneyIn API
+  slug: postman-payabli-moneyin-api
+- collection_type: postman
+  name: API reference Bill moneyOut API
+  slug: postman-payabli-moneyout-api
+- collection_type: postman
+  name: API reference Bill Notification API
+  slug: postman-payabli-notification-api
+- collection_type: postman
+  name: API reference Bill Notificationlogs API
+  slug: postman-payabli-notificationlogs-api
+- collection_type: postman
+  name: API reference Bill Ocr API
+  slug: postman-payabli-ocr-api
+- collection_type: postman
+  name: API reference Bill Organization API
+  slug: postman-payabli-organization-api
+- collection_type: postman
+  name: API reference Bill paymentLink API
+  slug: postman-payabli-paymentlink-api
+- collection_type: postman
+  name: API reference Bill paymentMethodDomain API
+  slug: postman-payabli-paymentmethoddomain-api
+- collection_type: postman
+  name: API reference Bill payoutSubscription API
+  slug: postman-payabli-payoutsubscription-api
+- collection_type: postman
+  name: API reference Bill Paypoint API
+  slug: postman-payabli-paypoint-api
+- collection_type: postman
+  name: API reference Bill Query API
+  slug: postman-payabli-query-api
+- collection_type: postman
+  name: API reference Bill Statistic API
+  slug: postman-payabli-statistic-api
+- collection_type: postman
+  name: API reference Bill Subscription API
+  slug: postman-payabli-subscription-api
+- collection_type: postman
+  name: API reference Bill Templates API
+  slug: postman-payabli-templates-api
+- collection_type: postman
+  name: API reference Bill Token API
+  slug: postman-payabli-token-api
+- collection_type: postman
+  name: API reference Bill tokenStorage API
+  slug: postman-payabli-tokenstorage-api
+- collection_type: postman
+  name: API reference Bill User API
+  slug: postman-payabli-user-api
+- collection_type: postman
+  name: API reference Bill Vendor API
+  slug: postman-payabli-vendor-api
+- collection_type: postman
+  name: API reference Bill Wallet API
+  slug: postman-payabli-wallet-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/payabli/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -312,27 +418,38 @@ network: true
 overview: 'Payabli publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Bill API, Boarding API, chargeBacks API, and 30 more. Tagged areas include Company, Payments, Embedded Payments, Fintech, and Payment Processing.
 
 
-  Payabli''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 33 more developer resources.'
-random_paper: 58
+  Payabli''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
+random_paper: 45
 score:
   band: strong
-  composite: 60.6
-  delta: 0.0
+  composite: 61.2
+  delta: 0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 53.6
-    developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 54.5
+    developer_ergonomics: 91.3
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 52.6
   previous_composite: 60.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 59.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

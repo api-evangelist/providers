@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 46.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.4
+  scored_at: '2026-07-28'
 api_count: 80
 apis:
 - description: Enables suppliers and buyers to exchange business documents and collaborate on the Ariba Network.
@@ -425,25 +427,25 @@ plans:
 - name: Ariba Plans Pricing
   plan_count: 3
   slug: ariba-plans-pricing
-random_paper: 35
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Ariba Rate Limits
   slug: ariba-rate-limits
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 44.3
+  delta: -2.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 41.3
-    discoverability: 80.0
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 71.1
   previous_composite: 47.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/screenshots/ariba-2026-06-20T172425.png
 security:

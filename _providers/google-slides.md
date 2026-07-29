@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,12 +45,22 @@ apis:
 - description: Operations on Google Slides presentations
   name: Google Slides Presentations API
   slug: google-slides-presentations-api
-artifact_total: 440
+artifact_total: 442
 collections:
+- collection_type: postman
+  name: Google Slides Pages API
+  slug: postman-google-slides-pages-api
+- collection_type: postman
+  name: Google Slides Pages Presentations API
+  slug: postman-google-slides-presentations-api
 - collection_type: open
   name: Google Slides API
   slug: open-google-slides-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-slides/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1412,12 +1424,12 @@ overview: 'Google Slides publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Google Slides catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Slides'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, release notes, engineering blog, and 13 more developer resources.'
+  Google Slides'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, release notes, engineering blog, and 14 more developer resources.'
 plans:
 - name: Google Slides Plans Pricing
   plan_count: 3
   slug: google-slides-plans-pricing
-random_paper: 34
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Google Slides Rate Limits
@@ -1446,18 +1458,25 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.8
-  delta: 4.6
+  composite: 61.8
+  delta: -2.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.9
-    developer_ergonomics: 45.7
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 71.2
+    developer_ergonomics: 50.0
+    discoverability: 66.7
+    governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 59.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/screenshots/google-slides-2026-06-20T182234.png
 security:

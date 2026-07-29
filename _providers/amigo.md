@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: true
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 83.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 8
@@ -252,12 +254,233 @@ apis:
 - description: The World API from Amigo — 21 operation(s) for world.
   name: Amigo World API
   slug: amigo-world-api
-artifact_total: 79
+artifact_total: 151
 asyncapis:
 - description: ''
   name: Amigo Classic Webhooks
   slug: amigo-classic-webhooks
+collections:
+- collection_type: postman
+  name: Amigo Account API
+  slug: postman-amigo-account-api
+- collection_type: postman
+  name: Amigo Account Admin API
+  slug: postman-amigo-admin-api
+- collection_type: postman
+  name: Amigo Account Agent Definitions API
+  slug: postman-amigo-agent-definitions-api
+- collection_type: postman
+  name: Amigo Account Agent Runs API
+  slug: postman-amigo-agent-runs-api
+- collection_type: postman
+  name: Amigo Account Agents API
+  slug: postman-amigo-agents-api
+- collection_type: postman
+  name: Amigo Account Analytics API
+  slug: postman-amigo-analytics-api
+- collection_type: postman
+  name: Amigo Account API Keys API
+  slug: postman-amigo-api-keys-api
+- collection_type: postman
+  name: Amigo Account Audit API
+  slug: postman-amigo-audit-api
+- collection_type: postman
+  name: Amigo Account Auth API
+  slug: postman-amigo-auth-api
+- collection_type: postman
+  name: Amigo Account Billing API
+  slug: postman-amigo-billing-api
+- collection_type: postman
+  name: Amigo Account Calls API
+  slug: postman-amigo-calls-api
+- collection_type: postman
+  name: Amigo Account Command Center API
+  slug: postman-amigo-command-center-api
+- collection_type: postman
+  name: Amigo Account Compliance API
+  slug: postman-amigo-compliance-api
+- collection_type: postman
+  name: Amigo Account Config API
+  slug: postman-amigo-config-api
+- collection_type: postman
+  name: Amigo Account Context Graphs API
+  slug: postman-amigo-context-graphs-api
+- collection_type: postman
+  name: Amigo Account Conversation API
+  slug: postman-amigo-conversation-api
+- collection_type: postman
+  name: Amigo Account conversations API
+  slug: postman-amigo-conversations-api
+- collection_type: postman
+  name: Amigo Account Dashboards API
+  slug: postman-amigo-dashboards-api
+- collection_type: postman
+  name: Amigo Account Data Query API
+  slug: postman-amigo-data-query-api
+- collection_type: postman
+  name: Amigo Account Data Sources API
+  slug: postman-amigo-data-sources-api
+- collection_type: postman
+  name: Amigo Account Dynamic Behavior Set API
+  slug: postman-amigo-dynamic-behavior-set-api
+- collection_type: postman
+  name: Amigo Account Entity Intelligence API
+  slug: postman-amigo-entity-intelligence-api
+- collection_type: postman
+  name: Amigo Account Evaluations API
+  slug: postman-amigo-evaluations-api
+- collection_type: postman
+  name: Amigo Account Events API
+  slug: postman-amigo-events-api
+- collection_type: postman
+  name: Amigo Account External Integrations API
+  slug: postman-amigo-external-integrations-api
+- collection_type: postman
+  name: Amigo Account External Role Assignments API
+  slug: postman-amigo-external-role-assignments-api
+- collection_type: postman
+  name: Amigo Account External Roles API
+  slug: postman-amigo-external-roles-api
+- collection_type: postman
+  name: Amigo Account FHIR API
+  slug: postman-amigo-fhir-api
+- collection_type: postman
+  name: Amigo Account Form Templates API
+  slug: postman-amigo-form-templates-api
+- collection_type: postman
+  name: Amigo Account Functions API
+  slug: postman-amigo-functions-api
+- collection_type: postman
+  name: Amigo Account Insights API
+  slug: postman-amigo-insights-api
+- collection_type: postman
+  name: Amigo Account Intake API
+  slug: postman-amigo-intake-api
+- collection_type: postman
+  name: Amigo Account Intake Upload API
+  slug: postman-amigo-intake-upload-api
+- collection_type: postman
+  name: Amigo Account Integrations API
+  slug: postman-amigo-integrations-api
+- collection_type: postman
+  name: Amigo Account M42 API
+  slug: postman-amigo-m42-api
+- collection_type: postman
+  name: Amigo Account Metering API
+  slug: postman-amigo-metering-api
+- collection_type: postman
+  name: Amigo Account Metric API
+  slug: postman-amigo-metric-api
+- collection_type: postman
+  name: Amigo Account Metrics API
+  slug: postman-amigo-metrics-api
+- collection_type: postman
+  name: Amigo Account Network API
+  slug: postman-amigo-network-api
+- collection_type: postman
+  name: Amigo Account Operators API
+  slug: postman-amigo-operators-api
+- collection_type: postman
+  name: Amigo Account Organization API
+  slug: postman-amigo-organization-api
+- collection_type: postman
+  name: Amigo Account Pipeline API
+  slug: postman-amigo-pipeline-api
+- collection_type: postman
+  name: Amigo Account Prompt Logs API
+  slug: postman-amigo-prompt-logs-api
+- collection_type: postman
+  name: Amigo Account Recordings API
+  slug: postman-amigo-recordings-api
+- collection_type: postman
+  name: Amigo Account Review Queue API
+  slug: postman-amigo-review-queue-api
+- collection_type: postman
+  name: Amigo Account Role API
+  slug: postman-amigo-role-api
+- collection_type: postman
+  name: Amigo Account Role Grants API
+  slug: postman-amigo-role-grants-api
+- collection_type: postman
+  name: Amigo Account Runs API
+  slug: postman-amigo-runs-api
+- collection_type: postman
+  name: Amigo Account Scheduling Rules API
+  slug: postman-amigo-scheduling-rules-api
+- collection_type: postman
+  name: Amigo Account Self-Image API
+  slug: postman-amigo-self-image-api
+- collection_type: postman
+  name: Amigo Account Sensorium API
+  slug: postman-amigo-sensorium-api
+- collection_type: postman
+  name: Amigo Account Service API
+  slug: postman-amigo-service-api
+- collection_type: postman
+  name: Amigo Account Services API
+  slug: postman-amigo-services-api
+- collection_type: postman
+  name: Amigo Account Sessions API
+  slug: postman-amigo-sessions-api
+- collection_type: postman
+  name: Amigo Account Settings API
+  slug: postman-amigo-settings-api
+- collection_type: postman
+  name: Amigo Account Simulation API
+  slug: postman-amigo-simulation-api
+- collection_type: postman
+  name: Amigo Account Simulations API
+  slug: postman-amigo-simulations-api
+- collection_type: postman
+  name: Amigo Account Skills API
+  slug: postman-amigo-skills-api
+- collection_type: postman
+  name: Amigo Account Surface Patient API
+  slug: postman-amigo-surface-patient-api
+- collection_type: postman
+  name: Amigo Account Surfaces API
+  slug: postman-amigo-surfaces-api
+- collection_type: postman
+  name: Amigo Account Tool API
+  slug: postman-amigo-tool-api
+- collection_type: postman
+  name: Amigo Account Tool Testing API
+  slug: postman-amigo-tool-testing-api
+- collection_type: postman
+  name: Amigo Account Traces API
+  slug: postman-amigo-traces-api
+- collection_type: postman
+  name: Amigo Account Triggers API
+  slug: postman-amigo-triggers-api
+- collection_type: postman
+  name: Amigo Account Use Cases API
+  slug: postman-amigo-use-cases-api
+- collection_type: postman
+  name: Amigo Account User API
+  slug: postman-amigo-user-api
+- collection_type: postman
+  name: Amigo Account Voice Judge API
+  slug: postman-amigo-voice-judge-api
+- collection_type: postman
+  name: Amigo Account Webhook Destination API
+  slug: postman-amigo-webhook-destination-api
+- collection_type: postman
+  name: Amigo Account Workspace Data Queries API
+  slug: postman-amigo-workspace-data-queries-api
+- collection_type: postman
+  name: Amigo Account Workspace Tables API
+  slug: postman-amigo-workspace-tables-api
+- collection_type: postman
+  name: Amigo Account Workspaces API
+  slug: postman-amigo-workspaces-api
+- collection_type: postman
+  name: Amigo Account World API
+  slug: postman-amigo-world-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amigo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -412,8 +635,8 @@ overview: 'Amigo publishes 72 APIs on the [APIs.io](https://apis.io/) network, i
   The Amigo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 27 more developer resources.'
-random_paper: 49
+  Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 28 more developer resources.'
+random_paper: 63
 scopes:
 - name: Amigo Scopes
   scope_count: 53
@@ -421,23 +644,34 @@ scopes:
   summary_line: 53 scopes
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 60.9
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.7
-    developer_ergonomics: 87.0
-    discoverability: 75.0
-    governance: 0.0
+    contract_quality: 66.0
+    developer_ergonomics: 86.4
+    discoverability: 74.1
+    governance: 20.8
     operational_transparency: 28.9
   previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 72
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/screenshots/amigo-2026-07-25T200104.png
 security:

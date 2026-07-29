@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -124,12 +126,70 @@ apis:
 - description: These endpoints configure, retrieve and remove webhooks. See <a href="https://developer.token.io/token_rest_api_doc/content/e-rest/api-basics.htm#Webhook" target="_blank">Webhooks</a> for more details
   name: token-io Webhooks API
   slug: token-io-webhooks-api
-artifact_total: 76
+artifact_total: 94
 collections:
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File API
+  slug: postman-token-io-account-on-file-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Accounts API
+  slug: postman-token-io-accounts-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Authentication keys API
+  slug: postman-token-io-authentication-keys-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Banks v1 API
+  slug: postman-token-io-banks-v1-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Banks v2 API
+  slug: postman-token-io-banks-v2-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Pay by Link API
+  slug: postman-token-io-pay-by-link-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Payments v2 API
+  slug: postman-token-io-payments-v2-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Payouts API
+  slug: postman-token-io-payouts-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Refunds API
+  slug: postman-token-io-refunds-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Reports API
+  slug: postman-token-io-reports-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Requests - for Payments v1 or AIS API
+  slug: postman-token-io-requests-for-payments-v1-or-ais-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Settlement Accounts API
+  slug: postman-token-io-settlement-accounts-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Sub-TPPs API
+  slug: postman-token-io-sub-tpps-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Tokens API
+  slug: postman-token-io-tokens-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Transfers - for Payments v1 API
+  slug: postman-token-io-transfers-for-payments-v1-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Variable Recurring Payments API
+  slug: postman-token-io-variable-recurring-payments-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Verification API
+  slug: postman-token-io-verification-api
+- collection_type: postman
+  name: Token.io's Open Banking API for TPPs Account on File Webhooks API
+  slug: postman-token-io-webhooks-api
 - collection_type: open
   name: Token.io's Open Banking API for TPPs
   slug: open-token-io
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/token-io/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -260,12 +320,12 @@ overview: 'token-io publishes 18 APIs on the [APIs.io](https://apis.io/) network
   The token-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  token-io''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, sandbox, pricing, and 11 more developer resources.'
+  token-io''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, sandbox, pricing, and 12 more developer resources.'
 plans:
 - name: Token Io Plans Pricing
   plan_count: 4
   slug: token-io-plans-pricing
-random_paper: 58
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Token Io Rate Limits
@@ -281,18 +341,25 @@ rules:
   slug: token-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.3
-  delta: 4.2
+  composite: 57.2
+  delta: -3.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.7
-    developer_ergonomics: 58.7
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 69.1
+    developer_ergonomics: 63.0
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 56.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/screenshots/token-io-2026-06-20T195438.png
 security:

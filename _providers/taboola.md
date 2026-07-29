@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -85,8 +87,56 @@ apis:
 - description: Performance video items (motion ads).
   name: Taboola Video Items API
   slug: taboola-video-items-api
-artifact_total: 56
+artifact_total: 72
 collections:
+- collection_type: postman
+  name: Taboola Backstage Accounts API
+  slug: postman-taboola-accounts-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Audience Targeting API
+  slug: postman-taboola-audience-targeting-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Bulk Items API
+  slug: postman-taboola-bulk-items-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Bulk Operations API
+  slug: postman-taboola-bulk-operations-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Campaign Items API
+  slug: postman-taboola-campaign-items-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Campaigns API
+  slug: postman-taboola-campaigns-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Combined Audiences API
+  slug: postman-taboola-combined-audiences-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Conversion Rules API
+  slug: postman-taboola-conversion-rules-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Custom Audiences API
+  slug: postman-taboola-custom-audiences-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Dictionary API
+  slug: postman-taboola-dictionary-api
+- collection_type: postman
+  name: Taboola Backstage Accounts First Party Audiences API
+  slug: postman-taboola-first-party-audiences-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Lookalike Audiences API
+  slug: postman-taboola-lookalike-audiences-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Marketplace Audiences API
+  slug: postman-taboola-marketplace-audiences-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Reach Estimator API
+  slug: postman-taboola-reach-estimator-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Reports API
+  slug: postman-taboola-reports-api
+- collection_type: postman
+  name: Taboola Backstage Accounts Video Items API
+  slug: postman-taboola-video-items-api
 - collection_type: open
   name: Taboola Backstage Accounts API
   slug: open-taboola-backstage-accounts-api
@@ -109,6 +159,10 @@ collections:
   name: Taboola Backstage Reports API
   slug: open-taboola-backstage-reports-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/taboola/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -352,12 +406,12 @@ overview: 'Taboola publishes 16 APIs on the [APIs.io](https://apis.io/) network,
   The Taboola catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Taboola''s developer surface includes authentication, developer portal, documentation, tooling, code examples, support, engineering blog, and 40 more developer resources.'
+  Taboola''s developer surface includes authentication, developer portal, documentation, tooling, code examples, support, engineering blog, and 41 more developer resources.'
 plans:
 - name: Taboola Plans Pricing
   plan_count: 2
   slug: taboola-plans-pricing
-random_paper: 58
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Taboola Rate Limits
@@ -373,18 +427,25 @@ rules:
   slug: taboola-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 3.5
+  composite: 59.6
+  delta: -2.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 71.2
-    developer_ergonomics: 50.0
-    discoverability: 80.0
-    governance: 73.7
+    contract_quality: 72.5
+    developer_ergonomics: 54.3
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 58.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/screenshots/taboola-2026-06-20T194849.png
 security:

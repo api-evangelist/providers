@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -124,25 +126,32 @@ plans:
 - name: Weglot Plans Pricing
   plan_count: 7
   slug: weglot-plans-pricing
-random_paper: 46
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Weglot Rate Limits
   slug: weglot-rate-limits
 score:
   band: thin
-  composite: 43.2
-  delta: 3.2
+  composite: 40.5
+  delta: -2.7
   facets:
     commercial_clarity: 47.4
-    contract_quality: 58.4
+    contract_quality: 57.9
     developer_ergonomics: 21.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 40.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 43.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

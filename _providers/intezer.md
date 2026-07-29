@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Intezer Platform API 2.0 — submit files, URLs, hashes and endpoint scans for autonomous malware analysis and code-reuse detection, poll analysis status, and retrieve verdicts, sub-analyses and IOCs. A
@@ -134,21 +136,24 @@ overview: 'Intezer publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Intezer''s developer surface includes documentation, API reference, engineering blog, pricing, CLI, authentication, and 15 more developer resources.'
-random_paper: 21
+random_paper: 76
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 32.9
+  delta: -0.9
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 33.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/screenshots/intezer-2026-07-25T222717.png
 security:

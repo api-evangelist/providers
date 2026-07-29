@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 9
 apis:
 - description: Cantor Fitzgerald, L.P. is a privately held global financial services firm founded in 1945. It is a U.S. Federal Reserve primary dealer in U.S. government securities and operates investment banking, f
@@ -100,30 +102,31 @@ plans:
 - name: Cantor Fitzgerald Plans Pricing
   plan_count: 3
   slug: cantor-fitzgerald-plans-pricing
-random_paper: 60
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Cantor Fitzgerald Rate Limits
   slug: cantor-fitzgerald-rate-limits
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 24.2
+  delta: -2.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 26.4
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 38.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

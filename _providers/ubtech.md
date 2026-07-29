@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 49.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.5
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Receive data from remote device.
@@ -149,21 +151,30 @@ overview: 'UBTech publishes 1 API on the [APIs.io](https://apis.io/) network: su
 
 
   UBTech''s developer surface includes documentation, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 23
+random_paper: 19
 score:
-  band: developing
-  composite: 45.0
-  delta: 0.0
+  band: thin
+  composite: 41.4
+  delta: -3.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.4
-    developer_ergonomics: 56.5
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 45.1
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 39.5
   previous_composite: 45.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -97,8 +99,68 @@ apis:
 - description: The user API from Prime Intellect — 3 operation(s) for user.
   name: Prime Intellect user API
   slug: prime-intellect-user-api
-artifact_total: 39
+artifact_total: 59
 collections:
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters API
+  slug: postman-prime-intellect-admin-clusters-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters admin-users API
+  slug: postman-prime-intellect-admin-users-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Availability API
+  slug: postman-prime-intellect-availability-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Billing API
+  slug: postman-prime-intellect-billing-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Disks API
+  slug: postman-prime-intellect-disks-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters evals API
+  slug: postman-prime-intellect-evals-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Feedback API
+  slug: postman-prime-intellect-feedback-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters FRP Plugin API
+  slug: postman-prime-intellect-frp-plugin-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters hosted-evaluations API
+  slug: postman-prime-intellect-hosted-evaluations-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Images API
+  slug: postman-prime-intellect-images-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Inference API
+  slug: postman-prime-intellect-inference-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Pods API
+  slug: postman-prime-intellect-pods-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Sandbox API
+  slug: postman-prime-intellect-sandbox-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Secrets API
+  slug: postman-prime-intellect-secrets-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters SSH Keys API
+  slug: postman-prime-intellect-ssh-keys-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters teams API
+  slug: postman-prime-intellect-teams-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Template API
+  slug: postman-prime-intellect-template-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters training API
+  slug: postman-prime-intellect-training-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters Tunnel API
+  slug: postman-prime-intellect-tunnel-api
+- collection_type: postman
+  name: Prime Intellect Compute admin-clusters user API
+  slug: postman-prime-intellect-user-api
 - collection_type: open
   name: Prime Intellect Compute API
   slug: open-prime-intellect-compute-api
@@ -118,6 +180,10 @@ collections:
   name: Prime Intellect Training API
   slug: open-prime-intellect-training-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/prime-intellect/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -283,12 +349,12 @@ overview: 'Prime Intellect publishes 20 APIs on the [APIs.io](https://apis.io/) 
   The Prime Intellect catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Prime Intellect''s developer surface includes authentication, documentation, developer portal, API reference, CLI, GitHub presence, engineering blog, and 25 more developer resources.'
+  Prime Intellect''s developer surface includes authentication, documentation, developer portal, API reference, CLI, GitHub presence, engineering blog, and 26 more developer resources.'
 plans:
 - name: Prime Intellect Plans Pricing
   plan_count: 6
   slug: prime-intellect-plans-pricing
-random_paper: 54
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Prime Intellect Rate Limits
@@ -304,18 +370,25 @@ rules:
   slug: prime-intellect-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 4.7
+  composite: 59.3
+  delta: -3.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.7
-    developer_ergonomics: 58.7
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 72.2
+    developer_ergonomics: 63.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 57.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/screenshots/prime-intellect-2026-06-20T192203.png
 security:

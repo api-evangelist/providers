@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.9
+  scored_at: '2026-07-28'
 api_count: 7
 apis:
 - description: The Admin API from ZeroEntropy — 7 operation(s) for admin.
@@ -140,21 +142,30 @@ overview: 'ZeroEntropy publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ZeroEntropy''s developer surface includes authentication, documentation, API reference, quickstart, signup flow, pricing, engineering blog, and 12 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 48.1
+  delta: -1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
-    developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 61.7
+    developer_ergonomics: 51.6
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 49.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

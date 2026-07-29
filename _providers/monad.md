@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -177,25 +179,32 @@ plans:
 - name: Monad Plans Pricing
   plan_count: 1
   slug: monad-plans-pricing
-random_paper: 51
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Monad Rate Limits
   slug: monad-rate-limits
 score:
-  band: thin
-  composite: 44.8
-  delta: 3.3
+  band: developing
+  composite: 42.6
+  delta: -2.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.5
+    contract_quality: 59.3
     developer_ergonomics: 34.8
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 41.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 44.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/screenshots/monad-2026-06-20T185714.png
 security:

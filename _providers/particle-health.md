@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -104,12 +106,67 @@ arazzos:
 - description: Authenticate, register a patient demographic, run a national query across the health information networks, poll until the query completes, then collect the aggregated clinical record.
   name: Particle Health National Patient Record Retrieval
   slug: particle-health-patient-record-retrieval-workflow
-artifact_total: 35
+artifact_total: 52
 collections:
+- collection_type: postman
+  name: Particle Health Authentication API
+  slug: postman-particle-health-authentication-api
+- collection_type: postman
+  name: Particle Health Authentication Batches API
+  slug: postman-particle-health-batches-api
+- collection_type: postman
+  name: Particle Health Authentication CCDA API
+  slug: postman-particle-health-ccda-api
+- collection_type: postman
+  name: Particle Health Authentication Deltas API
+  slug: postman-particle-health-deltas-api
+- collection_type: postman
+  name: Particle Health Authentication Documents API
+  slug: postman-particle-health-documents-api
+- collection_type: postman
+  name: Particle Health Authentication FHIR API
+  slug: postman-particle-health-fhir-api
+- collection_type: postman
+  name: Particle Health Authentication Files API
+  slug: postman-particle-health-files-api
+- collection_type: postman
+  name: Particle Health Authentication Flat API
+  slug: postman-particle-health-flat-api
+- collection_type: postman
+  name: Particle Health Authentication HL7v2 API
+  slug: postman-particle-health-hl7v2-api
+- collection_type: postman
+  name: Particle Health Authentication NetworkParticipants API
+  slug: postman-particle-health-networkparticipants-api
+- collection_type: postman
+  name: Particle Health Authentication Notifications API
+  slug: postman-particle-health-notifications-api
+- collection_type: postman
+  name: Particle Health Authentication Patients API
+  slug: postman-particle-health-patients-api
+- collection_type: postman
+  name: Particle Health Authentication Projects API
+  slug: postman-particle-health-projects-api
+- collection_type: postman
+  name: Particle Health Authentication ProviderMap API
+  slug: postman-particle-health-providermap-api
+- collection_type: postman
+  name: Particle Health Authentication Queries API
+  slug: postman-particle-health-queries-api
+- collection_type: postman
+  name: Particle Health Authentication Signal API
+  slug: postman-particle-health-signal-api
+- collection_type: postman
+  name: Particle Health Authentication Subscriptions API
+  slug: postman-particle-health-subscriptions-api
 - collection_type: open
   name: Particle Health API
   slug: open-particle-health
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/particle-health/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -276,12 +333,12 @@ overview: 'Particle Health publishes 17 APIs on the [APIs.io](https://apis.io/) 
   The Particle Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Particle Health''s developer surface includes authentication, YouTube channel, documentation, API reference, sandbox, changelog, engineering blog, and 23 more developer resources.'
+  Particle Health''s developer surface includes authentication, YouTube channel, documentation, API reference, sandbox, changelog, engineering blog, and 24 more developer resources.'
 plans:
 - name: Particle Health Plans Pricing
   plan_count: 3
   slug: particle-health-plans-pricing
-random_paper: 31
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Particle Health Rate Limits
@@ -296,25 +353,33 @@ rules:
     warn: 4
   slug: particle-health-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 61.2
-  delta: 2.2
+  band: developing
+  composite: 53.8
+  delta: -7.4
   facets:
     commercial_clarity: 47.4
-    contract_quality: 57.9
+    contract_quality: 59.7
     developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 59.0
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 60.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 35.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/screenshots/particle-health-2026-06-20T191425.png
 security:
 - kind: authentication

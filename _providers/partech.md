@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Partech
 nav: Providers
 network: true
-random_paper: 63
+random_paper: 50
 slug: partech
 tags:
 - Venture Capital

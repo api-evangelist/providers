@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 4.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 4.5
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,21 +115,23 @@ overview: 'Eventual is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Eventual''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, changelog, and 11 more developer resources.'
-random_paper: 52
+random_paper: 21
 score:
   band: emerging
-  composite: 24.6
-  delta: 0.0
+  composite: 23.6
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 24.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventual/refs/heads/main/screenshots/eventual-2026-07-25T213718.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: The HipChat REST API v2 was the primary developer surface for the team chat platform, exposing rooms, users, messages, notifications, emoticons, OAuth sessions, add-on capabilities, and webhook manage
@@ -144,7 +146,7 @@ plans:
 - name: Hipchat Plans Pricing
   plan_count: 4
   slug: hipchat-plans-pricing
-random_paper: 57
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Hipchat Rate Limits
@@ -176,19 +178,31 @@ rules:
   slug: hipchat-rest-api-rules
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 43.9
+  delta: -6.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 86.1
+    contract_quality: 82.7
     developer_ergonomics: 19.6
-    discoverability: 80.0
-    governance: 52.6
+    discoverability: 59.3
+    governance: 41.7
     operational_transparency: 5.3
   previous_composite: 50.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 30.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/screenshots/hipchat-2026-06-20T182747.png
 security:
 - kind: domain-security

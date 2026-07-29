@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -136,25 +138,35 @@ overview: 'Maison Safqa Holdings Limited publishes 2 APIs on the [APIs.io](https
 
 
   Maison Safqa Holdings Limited''s developer surface includes documentation, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 50
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Maison Safqa Holdings Limited Rate Limits
   slug: maison-safqa-holdings-limited-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 37.3
+  delta: -0.9
   facets:
     commercial_clarity: 10.5
-    contract_quality: 53.1
-    developer_ergonomics: 54.3
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 55.1
+    developer_ergonomics: 42.9
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 38.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png
 security:

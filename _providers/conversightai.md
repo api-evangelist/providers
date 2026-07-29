@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,21 +115,23 @@ overview: 'ConverSight.ai is profiled on the [APIs.io](https://apis.io/) network
 
 
   ConverSight.ai''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 11 more developer resources.'
-random_paper: 38
+random_paper: 12
 score:
   band: emerging
-  composite: 26.3
-  delta: 0.0
+  composite: 26.8
+  delta: 0.5
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 57.4
+    governance: 12.5
     operational_transparency: 15.8
   previous_composite: 26.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conversightai/refs/heads/main/screenshots/conversightai-2026-07-25T210348.png
 security:

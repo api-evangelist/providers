@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 5.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -100,27 +102,30 @@ overview: 'PayNearMe is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   PayNearMe''s developer surface includes documentation, support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 10
+random_paper: 38
 score:
-  band: emerging
-  composite: 29.6
-  delta: 0.0
+  band: thin
+  composite: 35.2
+  delta: 5.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 15.2
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 50.0
+    governance: 12.5
     operational_transparency: 13.2
   previous_composite: 29.6
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 52.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 security:
 - kind: domain-security
   name: Paynearme Domain Security

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 1
@@ -163,8 +165,134 @@ apis:
 - description: Access and manage vulnerability findings
   name: Fortify Vulnerabilities API
   slug: fortify-vulnerabilities-api
-artifact_total: 65
+artifact_total: 107
 collections:
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions API
+  slug: postman-fortify-alert-definitions-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions API Keys API
+  slug: postman-fortify-api-keys-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Applications API
+  slug: postman-fortify-applications-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Artifacts API
+  slug: postman-fortify-artifacts-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Attributes API
+  slug: postman-fortify-attributes-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Audit Templates API
+  slug: postman-fortify-audit-templates-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Auth Entities API
+  slug: postman-fortify-auth-entities-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Authentication API
+  slug: postman-fortify-authentication-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions CI/CD API
+  slug: postman-fortify-ci-cd-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Cloud Pools API
+  slug: postman-fortify-cloud-pools-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Custom Tags API
+  slug: postman-fortify-custom-tags-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions DAST Automated Scans API
+  slug: postman-fortify-dast-automated-scans-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Dynamic Scans API
+  slug: postman-fortify-dynamic-scans-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Event Logs API
+  slug: postman-fortify-event-logs-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Features API
+  slug: postman-fortify-features-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions File Tokens API
+  slug: postman-fortify-file-tokens-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Issue Selectors API
+  slug: postman-fortify-issue-selectors-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Issues API
+  slug: postman-fortify-issues-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Jobs API
+  slug: postman-fortify-jobs-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Lookup Items API
+  slug: postman-fortify-lookup-items-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Microservices API
+  slug: postman-fortify-microservices-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Mobile Scans API
+  slug: postman-fortify-mobile-scans-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Notifications API
+  slug: postman-fortify-notifications-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Open Source Components API
+  slug: postman-fortify-open-source-components-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Open Source Scans API
+  slug: postman-fortify-open-source-scans-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Performance Indicators API
+  slug: postman-fortify-performance-indicators-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Personal Access Tokens API
+  slug: postman-fortify-personal-access-tokens-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Project Versions API
+  slug: postman-fortify-project-versions-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Projects API
+  slug: postman-fortify-projects-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Releases API
+  slug: postman-fortify-releases-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Reports API
+  slug: postman-fortify-reports-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Saved Reports API
+  slug: postman-fortify-saved-reports-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Scan Policies API
+  slug: postman-fortify-scan-policies-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Scan Schedules API
+  slug: postman-fortify-scan-schedules-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Scan Settings API
+  slug: postman-fortify-scan-settings-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Scans API
+  slug: postman-fortify-scans-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Sensor Pools API
+  slug: postman-fortify-sensor-pools-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Sensors API
+  slug: postman-fortify-sensors-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Static Scans API
+  slug: postman-fortify-static-scans-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions System API
+  slug: postman-fortify-system-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Users API
+  slug: postman-fortify-users-api
+- collection_type: postman
+  name: Fortify on Demand Alert Definitions Vulnerabilities API
+  slug: postman-fortify-vulnerabilities-api
 - collection_type: open
   name: Fortify on Demand API
   slug: open-fortify-on-demand
@@ -175,6 +303,10 @@ collections:
   name: Fortify Software Security Center API
   slug: open-fortify-software-security-center
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fortify/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -318,12 +450,12 @@ overview: 'Fortify publishes 42 APIs on the [APIs.io](https://apis.io/) network,
   The Fortify catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Fortify''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 19 more developer resources.'
+  Fortify''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 20 more developer resources.'
 plans:
 - name: Fortify Plans Pricing
   plan_count: 4
   slug: fortify-plans-pricing
-random_paper: 23
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Fortify Rate Limits
@@ -339,18 +471,25 @@ rules:
   slug: fortify-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 63.5
+  delta: -1.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.2
-    developer_ergonomics: 52.2
-    discoverability: 67.5
-    governance: 73.7
+    contract_quality: 68.6
+    developer_ergonomics: 56.5
+    discoverability: 57.4
+    governance: 58.3
     operational_transparency: 57.9
   previous_composite: 65.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/screenshots/fortify-2026-06-20T181440.png
 security:

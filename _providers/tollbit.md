@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.2
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: The Auth Tokens API from Tollbit — 3 operation(s) for auth tokens.
@@ -188,21 +190,30 @@ overview: 'Tollbit publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tollbit''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
-random_paper: 14
+random_paper: 69
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 49.4
+  delta: 1.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.1
+    contract_quality: 60.8
     developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 5.3
   previous_composite: 48.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: unknown
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

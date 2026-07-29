@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -58,12 +60,31 @@ apis:
 - description: User profile and account management
   name: Restream User API
   slug: restream-user-api
-artifact_total: 27
+artifact_total: 32
 collections:
+- collection_type: postman
+  name: Restream Channels API
+  slug: postman-restream-channels-api
+- collection_type: postman
+  name: Restream Channels Events API
+  slug: postman-restream-events-api
+- collection_type: postman
+  name: Restream Channels Platforms API
+  slug: postman-restream-platforms-api
+- collection_type: postman
+  name: Restream Channels Stream Keys API
+  slug: postman-restream-stream-keys-api
+- collection_type: postman
+  name: Restream Channels User API
+  slug: postman-restream-user-api
 - collection_type: open
   name: Restream API
   slug: open-restream
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/restream/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,12 +202,12 @@ overview: 'Restream publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Restream catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Restream''s developer surface includes authentication, signup flow, engineering blog, pricing, and 12 more developer resources.'
+  Restream''s developer surface includes authentication, signup flow, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Restream Plans Pricing
   plan_count: 5
   slug: restream-plans-pricing
-random_paper: 51
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Restream Rate Limits
@@ -215,18 +236,25 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
-  delta: 3.2
+  composite: 56.3
+  delta: -3.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 66.4
-    developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 65.8
+    developer_ergonomics: 26.1
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 56.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/screenshots/restream-2026-06-20T193034.png
 security:

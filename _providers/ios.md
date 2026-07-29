@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 0
@@ -671,16 +673,596 @@ arazzos:
 - description: Open a review submission, add the App Store version as an item, and submit it to App Review.
   name: iOS Submit an App Store Version for Review
   slug: ios-submit-version-for-review-workflow
-artifact_total: 234
+artifact_total: 426
 asyncapis:
 - description: App Store Server Notifications V2 is Apple's webhook surface for in-app purchase and subscription lifecycle events. Apple POSTs a JWS-signed payload to the production and sandbox URLs registered in Ap
   name: App Store Server Notifications V2
   slug: app-store-server-notifications-asyncapi
 collections:
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations API
+  slug: postman-ios-accessibilitydeclarations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Actors API
+  slug: postman-ios-actors-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AgeRatingDeclarations API
+  slug: postman-ios-ageratingdeclarations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionDomains API
+  slug: postman-ios-alternativedistributiondomains-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionKeys API
+  slug: postman-ios-alternativedistributionkeys-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionPackageDeltas API
+  slug: postman-ios-alternativedistributionpackagedeltas-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionPackages API
+  slug: postman-ios-alternativedistributionpackages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionPackageVariants API
+  slug: postman-ios-alternativedistributionpackagevariants-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AlternativeDistributionPackageVersions API
+  slug: postman-ios-alternativedistributionpackageversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AnalyticsReportInstances API
+  slug: postman-ios-analyticsreportinstances-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AnalyticsReportRequests API
+  slug: postman-ios-analyticsreportrequests-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AnalyticsReports API
+  slug: postman-ios-analyticsreports-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AnalyticsReportSegments API
+  slug: postman-ios-analyticsreportsegments-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AndroidToIosAppMappingDetails API
+  slug: postman-ios-androidtoiosappmappingdetails-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppAvailabilities API
+  slug: postman-ios-appavailabilities-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppCategories API
+  slug: postman-ios-appcategories-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppClipAdvancedExperienceImages API
+  slug: postman-ios-appclipadvancedexperienceimages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppClipAdvancedExperiences API
+  slug: postman-ios-appclipadvancedexperiences-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppClipAppStoreReviewDetails API
+  slug: postman-ios-appclipappstorereviewdetails-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppClipDefaultExperienceLocalizations API
+  slug: postman-ios-appclipdefaultexperiencelocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppClipDefaultExperiences API
+  slug: postman-ios-appclipdefaultexperiences-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppClipHeaderImages API
+  slug: postman-ios-appclipheaderimages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppClips API
+  slug: postman-ios-appclips-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppCustomProductPageLocalizations API
+  slug: postman-ios-appcustomproductpagelocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppCustomProductPages API
+  slug: postman-ios-appcustomproductpages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppCustomProductPageVersions API
+  slug: postman-ios-appcustomproductpageversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppEncryptionDeclarationDocuments API
+  slug: postman-ios-appencryptiondeclarationdocuments-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppEncryptionDeclarations API
+  slug: postman-ios-appencryptiondeclarations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppEventLocalizations API
+  slug: postman-ios-appeventlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppEvents API
+  slug: postman-ios-appevents-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppEventScreenshots API
+  slug: postman-ios-appeventscreenshots-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppEventVideoClips API
+  slug: postman-ios-appeventvideoclips-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppInfoLocalizations API
+  slug: postman-ios-appinfolocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppInfos API
+  slug: postman-ios-appinfos-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppPreviews API
+  slug: postman-ios-apppreviews-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppPreviewSets API
+  slug: postman-ios-apppreviewsets-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppPricePoints API
+  slug: postman-ios-apppricepoints-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppPriceSchedules API
+  slug: postman-ios-apppriceschedules-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Apps API
+  slug: postman-ios-apps-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppScreenshots API
+  slug: postman-ios-appscreenshots-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppScreenshotSets API
+  slug: postman-ios-appscreenshotsets-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreReviewAttachments API
+  slug: postman-ios-appstorereviewattachments-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreReviewDetails API
+  slug: postman-ios-appstorereviewdetails-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionExperiments API
+  slug: postman-ios-appstoreversionexperiments-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionExperimentTreatmentLocalizations API
+  slug: postman-ios-appstoreversionexperimenttreatmentlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionExperimentTreatments API
+  slug: postman-ios-appstoreversionexperimenttreatments-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionLocalizations API
+  slug: postman-ios-appstoreversionlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionPhasedReleases API
+  slug: postman-ios-appstoreversionphasedreleases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionPromotions API
+  slug: postman-ios-appstoreversionpromotions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionReleaseRequests API
+  slug: postman-ios-appstoreversionreleaserequests-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreVersions API
+  slug: postman-ios-appstoreversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppStoreVersionSubmissions API
+  slug: postman-ios-appstoreversionsubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations AppTags API
+  slug: postman-ios-apptags-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BackgroundAssets API
+  slug: postman-ios-backgroundassets-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetUploadFiles API
+  slug: postman-ios-backgroundassetuploadfiles-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetVersionAppStoreReleases API
+  slug: postman-ios-backgroundassetversionappstorereleases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetVersionExternalBetaReleases API
+  slug: postman-ios-backgroundassetversionexternalbetareleases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetVersionInternalBetaReleases API
+  slug: postman-ios-backgroundassetversioninternalbetareleases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BackgroundAssetVersions API
+  slug: postman-ios-backgroundassetversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaAppClipInvocationLocalizations API
+  slug: postman-ios-betaappclipinvocationlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaAppClipInvocations API
+  slug: postman-ios-betaappclipinvocations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaAppLocalizations API
+  slug: postman-ios-betaapplocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaAppReviewDetails API
+  slug: postman-ios-betaappreviewdetails-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaAppReviewSubmissions API
+  slug: postman-ios-betaappreviewsubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaBuildLocalizations API
+  slug: postman-ios-betabuildlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaCrashLogs API
+  slug: postman-ios-betacrashlogs-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaFeedbackCrashSubmissions API
+  slug: postman-ios-betafeedbackcrashsubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaFeedbackScreenshotSubmissions API
+  slug: postman-ios-betafeedbackscreenshotsubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaGroups API
+  slug: postman-ios-betagroups-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaLicenseAgreements API
+  slug: postman-ios-betalicenseagreements-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaRecruitmentCriteria API
+  slug: postman-ios-betarecruitmentcriteria-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaRecruitmentCriterionOptions API
+  slug: postman-ios-betarecruitmentcriterionoptions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaTesterInvitations API
+  slug: postman-ios-betatesterinvitations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BetaTesters API
+  slug: postman-ios-betatesters-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BuildBetaDetails API
+  slug: postman-ios-buildbetadetails-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BuildBetaNotifications API
+  slug: postman-ios-buildbetanotifications-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BuildBundles API
+  slug: postman-ios-buildbundles-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Builds API
+  slug: postman-ios-builds-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BuildUploadFiles API
+  slug: postman-ios-builduploadfiles-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BuildUploads API
+  slug: postman-ios-builduploads-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BundleIdCapabilities API
+  slug: postman-ios-bundleidcapabilities-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations BundleIds API
+  slug: postman-ios-bundleids-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Certificates API
+  slug: postman-ios-certificates-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CiArtifacts API
+  slug: postman-ios-ciartifacts-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CiBuildActions API
+  slug: postman-ios-cibuildactions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CiBuildRuns API
+  slug: postman-ios-cibuildruns-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CiIssues API
+  slug: postman-ios-ciissues-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CiMacOsVersions API
+  slug: postman-ios-cimacosversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CiProducts API
+  slug: postman-ios-ciproducts-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CiTestResults API
+  slug: postman-ios-citestresults-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CiWorkflows API
+  slug: postman-ios-ciworkflows-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CiXcodeVersions API
+  slug: postman-ios-cixcodeversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CustomerReviewResponses API
+  slug: postman-ios-customerreviewresponses-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations CustomerReviews API
+  slug: postman-ios-customerreviews-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Devices API
+  slug: postman-ios-devices-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations DiagnosticSignatures API
+  slug: postman-ios-diagnosticsignatures-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations EndAppAvailabilityPreOrders API
+  slug: postman-ios-endappavailabilitypreorders-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations EndUserLicenseAgreements API
+  slug: postman-ios-enduserlicenseagreements-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations FinanceReports API
+  slug: postman-ios-financereports-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievementImages API
+  slug: postman-ios-gamecenterachievementimages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievementLocalizations API
+  slug: postman-ios-gamecenterachievementlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievementReleases API
+  slug: postman-ios-gamecenterachievementreleases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievements API
+  slug: postman-ios-gamecenterachievements-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterAchievementVersions API
+  slug: postman-ios-gamecenterachievementversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterActivities API
+  slug: postman-ios-gamecenteractivities-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterActivityImages API
+  slug: postman-ios-gamecenteractivityimages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterActivityLocalizations API
+  slug: postman-ios-gamecenteractivitylocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterActivityVersionReleases API
+  slug: postman-ios-gamecenteractivityversionreleases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterActivityVersions API
+  slug: postman-ios-gamecenteractivityversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterAppVersions API
+  slug: postman-ios-gamecenterappversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterChallengeImages API
+  slug: postman-ios-gamecenterchallengeimages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterChallengeLocalizations API
+  slug: postman-ios-gamecenterchallengelocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterChallenges API
+  slug: postman-ios-gamecenterchallenges-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterChallengeVersionReleases API
+  slug: postman-ios-gamecenterchallengeversionreleases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterChallengeVersions API
+  slug: postman-ios-gamecenterchallengeversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterDetails API
+  slug: postman-ios-gamecenterdetails-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterEnabledVersions API
+  slug: postman-ios-gamecenterenabledversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterGroups API
+  slug: postman-ios-gamecentergroups-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardEntrySubmissions API
+  slug: postman-ios-gamecenterleaderboardentrysubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardImages API
+  slug: postman-ios-gamecenterleaderboardimages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardLocalizations API
+  slug: postman-ios-gamecenterleaderboardlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardReleases API
+  slug: postman-ios-gamecenterleaderboardreleases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboards API
+  slug: postman-ios-gamecenterleaderboards-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetImages API
+  slug: postman-ios-gamecenterleaderboardsetimages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetLocalizations API
+  slug: postman-ios-gamecenterleaderboardsetlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetMemberLocalizations API
+  slug: postman-ios-gamecenterleaderboardsetmemberlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetReleases API
+  slug: postman-ios-gamecenterleaderboardsetreleases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSets API
+  slug: postman-ios-gamecenterleaderboardsets-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardSetVersions API
+  slug: postman-ios-gamecenterleaderboardsetversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterLeaderboardVersions API
+  slug: postman-ios-gamecenterleaderboardversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingQueues API
+  slug: postman-ios-gamecentermatchmakingqueues-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingRules API
+  slug: postman-ios-gamecentermatchmakingrules-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingRuleSets API
+  slug: postman-ios-gamecentermatchmakingrulesets-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingRuleSetTests API
+  slug: postman-ios-gamecentermatchmakingrulesettests-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterMatchmakingTeams API
+  slug: postman-ios-gamecentermatchmakingteams-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations GameCenterPlayerAchievementSubmissions API
+  slug: postman-ios-gamecenterplayerachievementsubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseAppStoreReviewScreenshots API
+  slug: postman-ios-inapppurchaseappstorereviewscreenshots-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseAvailabilities API
+  slug: postman-ios-inapppurchaseavailabilities-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseContents API
+  slug: postman-ios-inapppurchasecontents-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseImages API
+  slug: postman-ios-inapppurchaseimages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseLocalizations API
+  slug: postman-ios-inapppurchaselocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseOfferCodeCustomCodes API
+  slug: postman-ios-inapppurchaseoffercodecustomcodes-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseOfferCodeOneTimeUseCodes API
+  slug: postman-ios-inapppurchaseoffercodeonetimeusecodes-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseOfferCodes API
+  slug: postman-ios-inapppurchaseoffercodes-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchasePricePoints API
+  slug: postman-ios-inapppurchasepricepoints-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchasePriceSchedules API
+  slug: postman-ios-inapppurchasepriceschedules-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchases API
+  slug: postman-ios-inapppurchases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations InAppPurchaseSubmissions API
+  slug: postman-ios-inapppurchasesubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations MarketplaceSearchDetails API
+  slug: postman-ios-marketplacesearchdetails-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations MarketplaceWebhooks API
+  slug: postman-ios-marketplacewebhooks-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations MerchantIds API
+  slug: postman-ios-merchantids-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Metrics API
+  slug: postman-ios-metrics-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Nominations API
+  slug: postman-ios-nominations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations PassTypeIds API
+  slug: postman-ios-passtypeids-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations PreReleaseVersions API
+  slug: postman-ios-prereleaseversions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Profiles API
+  slug: postman-ios-profiles-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations PromotedPurchases API
+  slug: postman-ios-promotedpurchases-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations ReviewSubmissionItems API
+  slug: postman-ios-reviewsubmissionitems-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations ReviewSubmissions API
+  slug: postman-ios-reviewsubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations RoutingAppCoverages API
+  slug: postman-ios-routingappcoverages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SalesReports API
+  slug: postman-ios-salesreports-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SandboxTesters API
+  slug: postman-ios-sandboxtesters-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SandboxTestersClearPurchaseHistoryRequest API
+  slug: postman-ios-sandboxtestersclearpurchasehistoryrequest-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations ScmGitReferences API
+  slug: postman-ios-scmgitreferences-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations ScmProviders API
+  slug: postman-ios-scmproviders-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations ScmPullRequests API
+  slug: postman-ios-scmpullrequests-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations ScmRepositories API
+  slug: postman-ios-scmrepositories-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionAppStoreReviewScreenshots API
+  slug: postman-ios-subscriptionappstorereviewscreenshots-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionAvailabilities API
+  slug: postman-ios-subscriptionavailabilities-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionGracePeriods API
+  slug: postman-ios-subscriptiongraceperiods-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionGroupLocalizations API
+  slug: postman-ios-subscriptiongrouplocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionGroups API
+  slug: postman-ios-subscriptiongroups-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionGroupSubmissions API
+  slug: postman-ios-subscriptiongroupsubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionImages API
+  slug: postman-ios-subscriptionimages-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionIntroductoryOffers API
+  slug: postman-ios-subscriptionintroductoryoffers-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionLocalizations API
+  slug: postman-ios-subscriptionlocalizations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionOfferCodeCustomCodes API
+  slug: postman-ios-subscriptionoffercodecustomcodes-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionOfferCodeOneTimeUseCodes API
+  slug: postman-ios-subscriptionoffercodeonetimeusecodes-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionOfferCodes API
+  slug: postman-ios-subscriptionoffercodes-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionPricePoints API
+  slug: postman-ios-subscriptionpricepoints-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionPrices API
+  slug: postman-ios-subscriptionprices-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionPromotionalOffers API
+  slug: postman-ios-subscriptionpromotionaloffers-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Subscriptions API
+  slug: postman-ios-subscriptions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations SubscriptionSubmissions API
+  slug: postman-ios-subscriptionsubmissions-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Territories API
+  slug: postman-ios-territories-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations TerritoryAvailabilities API
+  slug: postman-ios-territoryavailabilities-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations UserInvitations API
+  slug: postman-ios-userinvitations-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Users API
+  slug: postman-ios-users-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations WebhookDeliveries API
+  slug: postman-ios-webhookdeliveries-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations WebhookPings API
+  slug: postman-ios-webhookpings-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations Webhooks API
+  slug: postman-ios-webhooks-api
+- collection_type: postman
+  name: App Store Connect AccessibilityDeclarations WinBackOffers API
+  slug: postman-ios-winbackoffers-api
 - collection_type: open
   name: App Store Connect API
   slug: open-app-store-connect
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ios/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -909,12 +1491,12 @@ overview: 'iOS publishes 193 APIs on the [APIs.io](https://apis.io/) network, in
   The iOS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  iOS''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, engineering blog, and 36 more developer resources.'
+  iOS''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, engineering blog, and 37 more developer resources.'
 plans:
 - name: Ios Plans Pricing
   plan_count: 5
   slug: ios-plans-pricing
-random_paper: 59
+random_paper: 23
 rate_limits:
 - limit_count: 7
   name: Ios Rate Limits
@@ -946,23 +1528,31 @@ rules:
   slug: ios-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.4
-  delta: 1.1
+  composite: 57.8
+  delta: -4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 65.7
-    developer_ergonomics: 41.3
-    discoverability: 80.0
-    governance: 47.4
+    contract_quality: 67.2
+    developer_ergonomics: 45.7
+    discoverability: 59.3
+    governance: 37.5
     operational_transparency: 68.4
-  previous_composite: 61.3
+  previous_composite: 62.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 192
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 48.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/screenshots/ios-2026-06-20T183533.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -214,7 +216,7 @@ overview: 'Reelables publishes 24 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Reelables'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 15 more developer resources.'
-random_paper: 31
+random_paper: 18
 scopes:
 - name: Got Its Scopes
   scope_count: 1
@@ -222,18 +224,28 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 39.2
+  delta: -1.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 50.0
-    developer_ergonomics: 65.2
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.7
+    developer_ergonomics: 60.3
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 40.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/screenshots/got-its-2026-07-25T220118.png
 security:

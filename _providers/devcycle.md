@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 77.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 64.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 60
@@ -121,12 +123,92 @@ arazzos:
 - description: Fetch all variables and features for a user context and report an event.
   name: DevCycle - evaluate feature flags for a user (Bucketing API)
   slug: devcycle-evaluate-flags
-artifact_total: 35
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Devcycle Webhooks
   slug: devcycle-webhooks
+collections:
+- collection_type: postman
+  name: DevCycle Bucketing Audiences API
+  slug: postman-devcycle-audiences-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Audit Log API
+  slug: postman-devcycle-audit-log-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences [Beta] Semantic Patch API
+  slug: postman-devcycle-beta-semantic-patch-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Bucketing API API
+  slug: postman-devcycle-bucketing-api-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Custom Properties API
+  slug: postman-devcycle-custom-properties-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences [Deprecated] Features v1 API
+  slug: postman-devcycle-deprecated-features-v1-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences EdgeDB API
+  slug: postman-devcycle-edgedb-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Environments API
+  slug: postman-devcycle-environments-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Feature Change Requests API
+  slug: postman-devcycle-feature-change-requests-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Feature Configurations API
+  slug: postman-devcycle-feature-configurations-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Feature Opt-in API
+  slug: postman-devcycle-feature-opt-in-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Features v2 API
+  slug: postman-devcycle-features-v2-api
+- collection_type: postman
+  name: 'DevCycle Bucketing Audiences Integrations: Dynatrace API'
+  slug: postman-devcycle-integrations-dynatrace-api
+- collection_type: postman
+  name: 'DevCycle Bucketing Audiences Integrations: Jira API'
+  slug: postman-devcycle-integrations-jira-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Metric Associations API
+  slug: postman-devcycle-metric-associations-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Metrics API
+  slug: postman-devcycle-metrics-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences OpenFeature Remote Evaluation API (OFREP) API
+  slug: postman-devcycle-openfeature-remote-evaluation-api-ofrep-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Overrides API
+  slug: postman-devcycle-overrides-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Project Change Requests API
+  slug: postman-devcycle-project-change-requests-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Projects API
+  slug: postman-devcycle-projects-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Results API
+  slug: postman-devcycle-results-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences User Profiles API
+  slug: postman-devcycle-user-profiles-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Variables API
+  slug: postman-devcycle-variables-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Variations API
+  slug: postman-devcycle-variations-api
+- collection_type: postman
+  name: DevCycle Bucketing Audiences Webhooks API
+  slug: postman-devcycle-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/devcycle/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -297,22 +379,32 @@ overview: 'DevCycle publishes 25 APIs on the [APIs.io](https://apis.io/) network
   The DevCycle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 31 more developer resources.'
-random_paper: 31
+  DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 32 more developer resources.'
+random_paper: 0
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 64.0
+  delta: 1.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.2
-    developer_ergonomics: 80.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.2
+    developer_ergonomics: 84.8
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 63.2
   previous_composite: 62.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/screenshots/devcycle-2026-07-25T211810.png
 security:

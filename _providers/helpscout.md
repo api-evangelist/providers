@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -112,16 +114,47 @@ apis:
 - description: The Workflows API from Help Scout — 1 operation(s) for workflows.
   name: Help Scout Workflows API
   slug: helpscout-workflows-api
-artifact_total: 47
+artifact_total: 56
 asyncapis:
 - description: 'Help Scout publishes webhook events from the Mailbox, Beacon, Docs, and organization surfaces to subscriber-configured URLs. Each delivery is an HTTP POST containing a JSON body, an X-HelpScout-Event '
   name: Help Scout Webhooks
   slug: helpscout-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Help Scout Mailbox Conversations API
+  slug: postman-helpscout-conversations-api
+- collection_type: postman
+  name: Help Scout Mailbox Conversations Customers API
+  slug: postman-helpscout-customers-api
+- collection_type: postman
+  name: Help Scout Mailbox Conversations Mailboxes API
+  slug: postman-helpscout-mailboxes-api
+- collection_type: postman
+  name: Help Scout Mailbox Conversations Tags API
+  slug: postman-helpscout-tags-api
+- collection_type: postman
+  name: Help Scout Mailbox Conversations Teams API
+  slug: postman-helpscout-teams-api
+- collection_type: postman
+  name: Help Scout Mailbox Conversations Threads API
+  slug: postman-helpscout-threads-api
+- collection_type: postman
+  name: Help Scout Mailbox Conversations Users API
+  slug: postman-helpscout-users-api
+- collection_type: postman
+  name: Help Scout Mailbox Conversations Webhooks API
+  slug: postman-helpscout-webhooks-api
+- collection_type: postman
+  name: Help Scout Mailbox Conversations Workflows API
+  slug: postman-helpscout-workflows-api
 - collection_type: open
   name: Help Scout Mailbox API
   slug: open-helpscout
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/help-scout/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -251,12 +284,12 @@ overview: 'Help Scout publishes 17 APIs on the [APIs.io](https://apis.io/) netwo
   The Help Scout catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Help Scout''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 18 more developer resources.'
+  Help Scout''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Helpscout Plans Pricing
   plan_count: 7
   slug: helpscout-plans-pricing
-random_paper: 31
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Helpscout Rate Limits
@@ -277,18 +310,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.0
-  delta: 0.7
+  composite: 62.1
+  delta: -0.9
   facets:
     commercial_clarity: 92.1
-    contract_quality: 61.9
-    developer_ergonomics: 32.6
-    discoverability: 75.0
-    governance: 60.5
+    contract_quality: 68.6
+    developer_ergonomics: 37.0
+    discoverability: 55.6
+    governance: 47.9
     operational_transparency: 60.5
-  previous_composite: 62.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/screenshots/helpscout-2026-06-20T182635.png
 security:

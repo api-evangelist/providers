@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -70,8 +72,41 @@ apis:
 - description: 'APIs for deploying websites. We handle node modules caching, scaling, certificates and the whole end to end process. Send the code using the [deploy](#tag/web/POST/web/v1/deploy) endpoint, and you''ll '
   name: Freestyle Web API
   slug: freestyle-sh-web-api
-artifact_total: 76
+artifact_total: 87
 collections:
+- collection_type: postman
+  name: Freestyle Cron Auth API
+  slug: postman-freestyle-sh-auth-api
+- collection_type: postman
+  name: Freestyle Cron Auth Certs API
+  slug: postman-freestyle-sh-certs-api
+- collection_type: postman
+  name: Freestyle Auth Cron API
+  slug: postman-freestyle-sh-cron-api
+- collection_type: postman
+  name: Freestyle Cron Auth DNS API
+  slug: postman-freestyle-sh-dns-api
+- collection_type: postman
+  name: Freestyle Cron Auth Domains API
+  slug: postman-freestyle-sh-domains-api
+- collection_type: postman
+  name: Freestyle Cron Auth Execute API
+  slug: postman-freestyle-sh-execute-api
+- collection_type: postman
+  name: Freestyle Cron Auth Git API
+  slug: postman-freestyle-sh-git-api
+- collection_type: postman
+  name: Freestyle Cron Auth Identity API
+  slug: postman-freestyle-sh-identity-api
+- collection_type: postman
+  name: Freestyle Cron Auth Observability API
+  slug: postman-freestyle-sh-observability-api
+- collection_type: postman
+  name: Freestyle Cron Auth VM API
+  slug: postman-freestyle-sh-vm-api
+- collection_type: postman
+  name: Freestyle Cron Auth Web API
+  slug: postman-freestyle-sh-web-api
 - collection_type: open
   name: Freestyle Cron API
   slug: open-freestyle-cron-api
@@ -97,6 +132,10 @@ collections:
   name: Freestyle Web Deployments API
   slug: open-freestyle-web-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/freestyle/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -358,12 +397,12 @@ overview: 'Freestyle publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The Freestyle catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Freestyle''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 42 more developer resources.'
+  Freestyle''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 43 more developer resources.'
 plans:
 - name: Freestyle Sh Plans Pricing
   plan_count: 5
   slug: freestyle-sh-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Freestyle Sh Rate Limits
@@ -379,18 +418,25 @@ rules:
   slug: freestyle-sh-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 3.5
+  composite: 62.4
+  delta: -3.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 73.5
-    developer_ergonomics: 56.5
-    discoverability: 80.0
-    governance: 73.7
+    developer_ergonomics: 60.9
+    discoverability: 59.3
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 62.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/screenshots/freestyle-sh-2026-06-20T181533.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -103,12 +105,78 @@ apis:
 - description: Discover trending liquidity pools across networks based on web visits and onchain activity.
   name: CoinGecko Trending Pools API
   slug: coingecko-trending-pools-api
-artifact_total: 38
+artifact_total: 60
 asyncapis:
 - description: 'Real-time cryptocurrency price streaming via WebSocket. ## Authentication Required To use this WebSocket, you need a CoinGecko Pro API key.'
   name: CoinGecko WebSocket API
   slug: coingecko-asyncapi
 collections:
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms API
+  slug: postman-coingecko-asset-platforms-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Categories API
+  slug: postman-coingecko-categories-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Coins API
+  slug: postman-coingecko-coins-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Companies API
+  slug: postman-coingecko-companies-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Contract API
+  slug: postman-coingecko-contract-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Derivatives API
+  slug: postman-coingecko-derivatives-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms DEXes API
+  slug: postman-coingecko-dexes-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Exchange Rates API
+  slug: postman-coingecko-exchange-rates-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Exchanges API
+  slug: postman-coingecko-exchanges-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Global API
+  slug: postman-coingecko-global-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Networks API
+  slug: postman-coingecko-networks-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms NFTs API
+  slug: postman-coingecko-nfts-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms OHLCV API
+  slug: postman-coingecko-ohlcv-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Ping API
+  slug: postman-coingecko-ping-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Pools API
+  slug: postman-coingecko-pools-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Search API
+  slug: postman-coingecko-search-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Simple API
+  slug: postman-coingecko-simple-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Token Lists API
+  slug: postman-coingecko-token-lists-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Tokens API
+  slug: postman-coingecko-tokens-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Trades API
+  slug: postman-coingecko-trades-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Trending API
+  slug: postman-coingecko-trending-api
+- collection_type: postman
+  name: CoinGecko Crypto Market Data Asset Platforms Trending Pools API
+  slug: postman-coingecko-trending-pools-api
 - collection_type: open
   name: CoinGecko Crypto Market Data API
   slug: open-coingecko-crypto-market-data-api
@@ -119,6 +187,10 @@ collections:
   name: CoinGecko Pro API
   slug: open-coingecko-pro-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/coingecko/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -229,12 +301,12 @@ overview: 'CoinGecko publishes 22 APIs on the [APIs.io](https://apis.io/) networ
   The CoinGecko catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  CoinGecko''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 14 more developer resources.'
+  CoinGecko''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Coingecko Plans Pricing
   plan_count: 5
   slug: coingecko-plans-pricing
-random_paper: 62
+random_paper: 22
 rate_limits:
 - limit_count: 9
   name: Coingecko Rate Limits
@@ -266,23 +338,31 @@ rules:
   slug: coingecko-rules
 score:
   band: strong
-  composite: 63.7
-  delta: 2.8
+  composite: 61.0
+  delta: -2.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 73.6
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 52.6
+    contract_quality: 74.7
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 60.9
+  previous_composite: 63.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 51.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/screenshots/coingecko-2026-06-20T174737.png
 security:

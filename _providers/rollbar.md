@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -82,12 +84,54 @@ apis:
 - description: Retrieve user information within a Rollbar account.
   name: Rollbar Users API
   slug: rollbar-users-api
-artifact_total: 54
+artifact_total: 68
 asyncapis:
 - description: Rollbar's webhook notification system delivers real-time event notifications to configured endpoints when errors, deployments, and other significant events occur. Webhooks are triggered based on confi
   name: Rollbar Webhook Events
   slug: rollbar-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens API
+  slug: postman-rollbar-access-tokens-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Deploys API
+  slug: postman-rollbar-deploys-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Invites API
+  slug: postman-rollbar-invites-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Items API
+  slug: postman-rollbar-items-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Items Metrics API
+  slug: postman-rollbar-items-metrics-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Notifications API
+  slug: postman-rollbar-notifications-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Occurrences API
+  slug: postman-rollbar-occurrences-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Occurrences Metrics API
+  slug: postman-rollbar-occurrences-metrics-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Projects API
+  slug: postman-rollbar-projects-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Resolution Time Metrics API
+  slug: postman-rollbar-resolution-time-metrics-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens RQL Jobs API
+  slug: postman-rollbar-rql-jobs-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Source Maps API
+  slug: postman-rollbar-source-maps-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Teams API
+  slug: postman-rollbar-teams-api
+- collection_type: postman
+  name: Rollbar Deployment Access Tokens Users API
+  slug: postman-rollbar-users-api
 - collection_type: open
   name: Rollbar Deployment API
   slug: open-rollbar-deployment-api
@@ -101,6 +145,10 @@ collections:
   name: Rollbar RQL API
   slug: open-rollbar-rql-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/rollbar/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -273,12 +321,12 @@ overview: 'Rollbar publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Rollbar catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Rollbar''s developer surface includes authentication, engineering blog, documentation, developer portal, pricing, support, and 20 more developer resources.'
+  Rollbar''s developer surface includes authentication, engineering blog, documentation, developer portal, pricing, support, and 21 more developer resources.'
 plans:
 - name: Rollbar Plans Pricing
   plan_count: 4
   slug: rollbar-plans-pricing
-random_paper: 2
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Rollbar Rate Limits
@@ -310,18 +358,25 @@ rules:
   slug: rollbar-rules
 score:
   band: strong
-  composite: 61.7
-  delta: 3.2
+  composite: 59.0
+  delta: -2.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 70.9
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 52.6
+    contract_quality: 72.0
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 58.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/screenshots/rollbar-2026-06-20T193208.png
 security:

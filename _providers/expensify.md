@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 31.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -103,21 +105,28 @@ overview: 'Expensify publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Expensify''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 35
+random_paper: 63
 score:
   band: emerging
-  composite: 28.6
-  delta: 3.3
+  composite: 26.7
+  delta: -1.9
   facets:
     commercial_clarity: 10.5
-    contract_quality: 54.0
+    contract_quality: 55.9
     developer_ergonomics: 15.2
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 28.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expensify/refs/heads/main/screenshots/expensify-2026-06-20T180939.png
 security:

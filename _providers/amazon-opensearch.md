@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -52,12 +54,31 @@ apis:
 - description: The Tags Removal API from Amazon OpenSearch Service API — 1 operation(s) for tags removal.
   name: Amazon OpenSearch Service API Tags Removal API
   slug: amazon-opensearch-tags-removal-api
-artifact_total: 975
+artifact_total: 980
 collections:
+- collection_type: postman
+  name: Amazon Elasticsearch Service Domain API
+  slug: postman-amazon-opensearch-domain-api
+- collection_type: postman
+  name: Amazon Elasticsearch Service Domain Es API
+  slug: postman-amazon-opensearch-es-api
+- collection_type: postman
+  name: Amazon Elasticsearch Service Domain Packages API
+  slug: postman-amazon-opensearch-packages-api
+- collection_type: postman
+  name: Amazon Elasticsearch Service Domain Tags API
+  slug: postman-amazon-opensearch-tags-api
+- collection_type: postman
+  name: Amazon Elasticsearch Service Domain Tags Removal API
+  slug: postman-amazon-opensearch-tags-removal-api
 - collection_type: open
   name: Amazon Elasticsearch Service
   slug: open-amazon-opensearch
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-opensearch-service-api/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3058,12 +3079,12 @@ overview: 'Amazon OpenSearch Service API publishes 5 APIs on the [APIs.io](https
   The Amazon OpenSearch Service API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon OpenSearch Service API''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 19 more developer resources.'
+  Amazon OpenSearch Service API''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 20 more developer resources.'
 plans:
 - name: Amazon Opensearch Plans Pricing
   plan_count: 3
   slug: amazon-opensearch-plans-pricing
-random_paper: 55
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Amazon Opensearch Rate Limits
@@ -3087,18 +3108,25 @@ rules:
   slug: amazon-opensearch-spectral-rules
 score:
   band: strong
-  composite: 67.6
-  delta: 3.2
+  composite: 65.0
+  delta: -2.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.9
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 70.8
+    developer_ergonomics: 43.5
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 64.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/screenshots/amazon-opensearch-2026-06-20T171751.png
 security:

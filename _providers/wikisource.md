@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 42.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -242,7 +244,7 @@ plans:
 - name: Wikisource Plans Pricing
   plan_count: 1
   slug: wikisource-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Wikisource Rate Limits
@@ -258,23 +260,31 @@ rules:
   slug: wikisource-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 43.6
+  delta: -3.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.4
+    contract_quality: 55.1
     developer_ergonomics: 8.7
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 92.6
+    governance: 58.3
     operational_transparency: 36.8
   previous_composite: 47.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 38.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/screenshots/wikisource-2026-06-20T201455.png
 security:

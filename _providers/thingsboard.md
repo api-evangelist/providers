@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 226
@@ -211,8 +213,182 @@ apis:
 - description: Widgets Bundle
   name: ThingsBoard widgets-bundle-controller API
   slug: thingsboard-widgets-bundle-controller-api
-artifact_total: 115
+artifact_total: 173
 collections:
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller API
+  slug: postman-thingsboard-admin-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller ai-model-controller API
+  slug: postman-thingsboard-ai-model-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller alarm-comment-controller API
+  slug: postman-thingsboard-alarm-comment-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller alarm-controller API
+  slug: postman-thingsboard-alarm-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller api-key-controller API
+  slug: postman-thingsboard-api-key-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller asset-controller API
+  slug: postman-thingsboard-asset-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller asset-profile-controller API
+  slug: postman-thingsboard-asset-profile-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller audit-log-controller API
+  slug: postman-thingsboard-audit-log-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller auth-controller API
+  slug: postman-thingsboard-auth-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller calculated-field-controller API
+  slug: postman-thingsboard-calculated-field-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller component-descriptor-controller API
+  slug: postman-thingsboard-component-descriptor-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller customer-controller API
+  slug: postman-thingsboard-customer-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller dashboard-controller API
+  slug: postman-thingsboard-dashboard-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller device-connectivity-controller API
+  slug: postman-thingsboard-device-connectivity-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller device-controller API
+  slug: postman-thingsboard-device-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller device-profile-controller API
+  slug: postman-thingsboard-device-profile-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller domain-controller API
+  slug: postman-thingsboard-domain-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller edge-controller API
+  slug: postman-thingsboard-edge-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller edge-event-controller API
+  slug: postman-thingsboard-edge-event-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller entities-version-control-controller API
+  slug: postman-thingsboard-entities-version-control-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller entity-query-controller API
+  slug: postman-thingsboard-entity-query-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller entity-relation-controller API
+  slug: postman-thingsboard-entity-relation-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller entity-view-controller API
+  slug: postman-thingsboard-entity-view-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller event-controller API
+  slug: postman-thingsboard-event-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller image-controller API
+  slug: postman-thingsboard-image-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller job-controller API
+  slug: postman-thingsboard-job-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller login-endpoint API
+  slug: postman-thingsboard-login-endpoint-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller lwm-2m-controller API
+  slug: postman-thingsboard-lwm-2m-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller mail-config-template-controller API
+  slug: postman-thingsboard-mail-config-template-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller mobile-app-bundle-controller API
+  slug: postman-thingsboard-mobile-app-bundle-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller mobile-app-controller API
+  slug: postman-thingsboard-mobile-app-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller notification-controller API
+  slug: postman-thingsboard-notification-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller notification-rule-controller API
+  slug: postman-thingsboard-notification-rule-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller notification-target-controller API
+  slug: postman-thingsboard-notification-target-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller notification-template-controller API
+  slug: postman-thingsboard-notification-template-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller o-auth-2-config-template-controller API
+  slug: postman-thingsboard-o-auth-2-config-template-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller o-auth-2-controller API
+  slug: postman-thingsboard-o-auth-2-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller ota-package-controller API
+  slug: postman-thingsboard-ota-package-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller qr-code-settings-controller API
+  slug: postman-thingsboard-qr-code-settings-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller queue-controller API
+  slug: postman-thingsboard-queue-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller queue-stats-controller API
+  slug: postman-thingsboard-queue-stats-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller rpc-v-1-controller API
+  slug: postman-thingsboard-rpc-v-1-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller rpc-v-2-controller API
+  slug: postman-thingsboard-rpc-v-2-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller rule-chain-controller API
+  slug: postman-thingsboard-rule-chain-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller rule-engine-controller API
+  slug: postman-thingsboard-rule-engine-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller sign-up-controller API
+  slug: postman-thingsboard-sign-up-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller tb-resource-controller API
+  slug: postman-thingsboard-tb-resource-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller telemetry-controller API
+  slug: postman-thingsboard-telemetry-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller tenant-controller API
+  slug: postman-thingsboard-tenant-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller tenant-profile-controller API
+  slug: postman-thingsboard-tenant-profile-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller trendz-controller API
+  slug: postman-thingsboard-trendz-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller two-factor-auth-config-controller API
+  slug: postman-thingsboard-two-factor-auth-config-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller two-factor-auth-controller API
+  slug: postman-thingsboard-two-factor-auth-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller ui-settings-controller API
+  slug: postman-thingsboard-ui-settings-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller usage-info-controller API
+  slug: postman-thingsboard-usage-info-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller user-controller API
+  slug: postman-thingsboard-user-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller widget-type-controller API
+  slug: postman-thingsboard-widget-type-controller-api
+- collection_type: postman
+  name: ThingsBoard Admin admin-controller widgets-bundle-controller API
+  slug: postman-thingsboard-widgets-bundle-controller-api
 - collection_type: open
   name: ThingsBoard Admin API
   slug: open-thingsboard-admin
@@ -259,6 +435,10 @@ collections:
   name: ThingsBoard Tenants and Customers API
   slug: open-thingsboard-tenants
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/thingsboard/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -516,12 +696,12 @@ overview: 'ThingsBoard publishes 58 APIs on the [APIs.io](https://apis.io/) netw
   The ThingsBoard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ThingsBoard''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 36 more developer resources.'
+  ThingsBoard''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 37 more developer resources.'
 plans:
 - name: Thingsboard Plans Pricing
   plan_count: 15
   slug: thingsboard-plans-pricing
-random_paper: 17
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Thingsboard Rate Limits
@@ -545,18 +725,25 @@ rules:
   slug: thingsboard-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 3.5
+  composite: 58.7
+  delta: -3.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.3
-    developer_ergonomics: 67.4
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 69.7
+    developer_ergonomics: 71.7
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 59.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 58
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/screenshots/thingsboard-2026-06-20T195300.png
 security:

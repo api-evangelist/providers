@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -106,12 +108,69 @@ apis:
 - description: Trigger workflow enrollments and manage journey-based automation workflows.
   name: Iterable Workflows API
   slug: iterable-workflows-api
-artifact_total: 71
+artifact_total: 90
 asyncapis:
 - description: Iterable system webhooks send real-time event data from an Iterable project to external systems via HTTP POST requests whenever specified events occur. System webhooks can be configured to fire on ema
   name: Iterable System Webhooks
   slug: iterable-system-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Iterable Export Campaigns API
+  slug: postman-iterable-campaigns-api
+- collection_type: postman
+  name: Iterable Export Campaigns Catalogs API
+  slug: postman-iterable-catalogs-api
+- collection_type: postman
+  name: Iterable Export Campaigns Channels API
+  slug: postman-iterable-channels-api
+- collection_type: postman
+  name: Iterable Export Campaigns Commerce API
+  slug: postman-iterable-commerce-api
+- collection_type: postman
+  name: Iterable Export Campaigns Email API
+  slug: postman-iterable-email-api
+- collection_type: postman
+  name: Iterable Export Campaigns Events API
+  slug: postman-iterable-events-api
+- collection_type: postman
+  name: Iterable Export Campaigns ExperimentMetrics API
+  slug: postman-iterable-experimentmetrics-api
+- collection_type: postman
+  name: Iterable Export Campaigns Experiments API
+  slug: postman-iterable-experiments-api
+- collection_type: postman
+  name: Iterable Campaigns Export API
+  slug: postman-iterable-export-api
+- collection_type: postman
+  name: Iterable Export Campaigns InApp API
+  slug: postman-iterable-inapp-api
+- collection_type: postman
+  name: Iterable Export Campaigns Lists API
+  slug: postman-iterable-lists-api
+- collection_type: postman
+  name: Iterable Export Campaigns MessageTypes API
+  slug: postman-iterable-messagetypes-api
+- collection_type: postman
+  name: Iterable Export Campaigns Metadata API
+  slug: postman-iterable-metadata-api
+- collection_type: postman
+  name: Iterable Export Campaigns Push API
+  slug: postman-iterable-push-api
+- collection_type: postman
+  name: Iterable Export Campaigns SMS API
+  slug: postman-iterable-sms-api
+- collection_type: postman
+  name: Iterable Export Campaigns Templates API
+  slug: postman-iterable-templates-api
+- collection_type: postman
+  name: Iterable Export Campaigns Users API
+  slug: postman-iterable-users-api
+- collection_type: postman
+  name: Iterable Export Campaigns WebPush API
+  slug: postman-iterable-webpush-api
+- collection_type: postman
+  name: Iterable Export Campaigns Workflows API
+  slug: postman-iterable-workflows-api
 - collection_type: open
   name: Iterable Export API
   slug: open-iterable-export-api
@@ -119,6 +178,10 @@ collections:
   name: Iterable REST API
   slug: open-iterable-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/iterable/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -291,12 +354,12 @@ overview: 'Iterable publishes 19 APIs on the [APIs.io](https://apis.io/) network
   The Iterable catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Iterable''s developer surface includes authentication, documentation, support, engineering blog, and 14 more developer resources.'
+  Iterable''s developer surface includes authentication, documentation, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Iterable Plans Pricing
   plan_count: 3
   slug: iterable-plans-pricing
-random_paper: 24
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Iterable Rate Limits
@@ -320,18 +383,31 @@ rules:
   slug: iterable-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.7
-  delta: 3.2
+  composite: 56.9
+  delta: -4.8
   facets:
     commercial_clarity: 81.6
-    contract_quality: 75.2
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 60.5
+    contract_quality: 79.6
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 31.6
-  previous_composite: 58.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/screenshots/iterable-2026-06-20T183630.png
 security:

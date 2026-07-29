@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -82,8 +84,58 @@ apis:
 - description: The Users API from Spotify — 8 operation(s) for users.
   name: Spotify Users API
   slug: spotify-users-api
-artifact_total: 32
+artifact_total: 47
+collections:
+- collection_type: postman
+  name: Spotify Web Albums API
+  slug: postman-spotify-albums-api
+- collection_type: postman
+  name: Spotify Web Albums Artists API
+  slug: postman-spotify-artists-api
+- collection_type: postman
+  name: Spotify Web Albums Audiobooks API
+  slug: postman-spotify-audiobooks-api
+- collection_type: postman
+  name: Spotify Web Albums Categories API
+  slug: postman-spotify-categories-api
+- collection_type: postman
+  name: Spotify Web Albums Chapters API
+  slug: postman-spotify-chapters-api
+- collection_type: postman
+  name: Spotify Web Albums Episodes API
+  slug: postman-spotify-episodes-api
+- collection_type: postman
+  name: Spotify Web Albums Genres API
+  slug: postman-spotify-genres-api
+- collection_type: postman
+  name: Spotify Web Albums Library API
+  slug: postman-spotify-library-api
+- collection_type: postman
+  name: Spotify Web Albums Markets API
+  slug: postman-spotify-markets-api
+- collection_type: postman
+  name: Spotify Web Albums Player API
+  slug: postman-spotify-player-api
+- collection_type: postman
+  name: Spotify Web Albums Playlists API
+  slug: postman-spotify-playlists-api
+- collection_type: postman
+  name: Spotify Web Albums Search API
+  slug: postman-spotify-search-api
+- collection_type: postman
+  name: Spotify Web Albums Shows API
+  slug: postman-spotify-shows-api
+- collection_type: postman
+  name: Spotify Web Albums Tracks API
+  slug: postman-spotify-tracks-api
+- collection_type: postman
+  name: Spotify Web Albums Users API
+  slug: postman-spotify-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/spotify/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -209,12 +261,12 @@ overview: 'Spotify publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Spotify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spotify''s developer surface includes authentication, getting-started guide, changelog, engineering blog, and 16 more developer resources.'
+  Spotify''s developer surface includes authentication, getting-started guide, changelog, engineering blog, and 17 more developer resources.'
 plans:
 - name: Spotify Plans Pricing
   plan_count: 3
   slug: spotify-plans-pricing
-random_paper: 34
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Spotify Rate Limits
@@ -243,18 +295,25 @@ scopes:
   summary_line: 19 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.2
-  delta: 0.0
+  composite: 60.0
+  delta: -3.2
   facets:
     commercial_clarity: 63.2
-    contract_quality: 76.8
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 78.5
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 63.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/screenshots/spotify-2026-06-20T194353.png
 security:

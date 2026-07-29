@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -130,8 +132,106 @@ apis:
 - description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.upda'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
-artifact_total: 946
+artifact_total: 977
+collections:
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOpt'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationcloudwatchloggingoption-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationInput API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationinput-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationInputProcessingConfi'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationinputprocessingconfiguration-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationOutput API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationoutput-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationReferenceDataSource'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationreferencedatasource-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationVpcConfiguration API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationvpcconfiguration-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.CreateApplication API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-createapplication-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.CreateApplicationPresignedUrl API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-createapplicationpresignedurl-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.CreateApplicationSnapshot API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-createapplicationsnapshot-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplication API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplication-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationCloudWatchLogging'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationcloudwatchloggingoption-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationInputProcessingCo'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationinputprocessingconfiguration-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationOutput API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationoutput-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationReferenceDataSour'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationreferencedatasource-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationSnapshot API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationsnapshot-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationVpcConfiguration'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationvpcconfiguration-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DescribeApplication API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-describeapplication-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationSnapshot API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-describeapplicationsnapshot-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationVersion API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-describeapplicationversion-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.DiscoverInputSchema API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-discoverinputschema-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.ListApplications API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listapplications-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.ListApplicationSnapshots API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listapplicationsnapshots-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.ListApplicationVersions API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listapplicationversions-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.ListTagsForResource API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listtagsforresource-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.RollbackApplication API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-rollbackapplication-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.StartApplication API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-startapplication-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.StopApplication API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-stopapplication-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.TagResource API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-tagresource-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.UntagResource API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-untagresource-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.UpdateApplication API'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplication-api
+- collection_type: postman
+  name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfig'
+  slug: postman-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-managed-service-for-apache-flink/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2927,12 +3027,12 @@ overview: 'Amazon Managed Service for Apache Flink publishes 31 APIs on the [API
   The Amazon Managed Service for Apache Flink catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Managed Service for Apache Flink''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Managed Service for Apache Flink''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Managed Apache Flink Plans Pricing
   plan_count: 3
   slug: amazon-managed-apache-flink-plans-pricing
-random_paper: 56
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Apache Flink Rate Limits
@@ -2956,18 +3056,25 @@ rules:
   slug: amazon-managed-apache-flink-spectral-rules
 score:
   band: strong
-  composite: 68.1
-  delta: 0.0
+  composite: 65.0
+  delta: -3.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.0
-    developer_ergonomics: 41.3
-    discoverability: 80.0
-    governance: 86.8
+    contract_quality: 74.2
+    developer_ergonomics: 45.7
+    discoverability: 59.3
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 68.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/screenshots/amazon-managed-apache-flink-2026-06-20T171732.png
 security:

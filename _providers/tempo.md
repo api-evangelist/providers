@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,7 +189,7 @@ plans:
 - name: Tempo Plans Pricing
   plan_count: 3
   slug: tempo-plans-pricing
-random_paper: 5
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Tempo Rate Limits
@@ -211,19 +213,26 @@ rules:
   slug: tempo-rules
 score:
   band: developing
-  composite: 56.3
-  delta: 2.0
+  composite: 51.1
+  delta: -5.2
   facets:
     commercial_clarity: 47.4
-    contract_quality: 62.5
+    contract_quality: 59.2
     developer_ergonomics: 26.1
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 56.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/screenshots/tempo-2026-06-20T195059.png
 security:
 - kind: domain-security

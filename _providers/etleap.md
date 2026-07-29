@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 11.7
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Etleap's external REST API for creating and managing connections, pipelines, models, dbt schedules, teams, and users. Uses HTTP Basic authentication.
@@ -134,21 +136,24 @@ overview: 'Etleap publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Etleap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 23
+random_paper: 19
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 32.7
+  delta: -0.3
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 63.0
-    discoverability: 92.5
-    governance: 0.0
+    developer_ergonomics: 56.5
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 33.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etleap/refs/heads/main/screenshots/etleap-2026-07-25T213654.png
 security:

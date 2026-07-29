@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Listed in the public API catalog of the Empower developer portal, operated by Great-West Lifeco's U.S. retirement subsidiary Empower. Marked "production" and categorized "financial", it returns partic
@@ -156,31 +158,34 @@ overview: 'Great-West Lifeco publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Great-West Lifeco''s developer surface includes product news, developer portal, documentation, API reference, getting-started guide, support, signup flow, and 21 more developer resources.'
-random_paper: 66
+random_paper: 4
 scopes:
 - name: Great West Lifeco Scopes
   scope_count: 0
   slug: great-west-lifeco-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 43.7
-  delta: 0.0
+  band: developing
+  composite: 42.0
+  delta: -1.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 56.5
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 43.7
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 71.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/screenshots/great-west-lifeco-2026-07-25T220257.png
 security:

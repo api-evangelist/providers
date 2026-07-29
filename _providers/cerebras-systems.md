@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 72.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,8 +54,28 @@ apis:
 - description: The Tcp Warming API from Cerebras Systems — 1 operation(s) for tcp warming.
   name: Cerebras Systems Tcp Warming API
   slug: cerebras-systems-tcp-warming-api
-artifact_total: 12
+artifact_total: 17
+collections:
+- collection_type: postman
+  name: Cerebras Inference Chat API
+  slug: postman-cerebras-systems-chat-api
+- collection_type: postman
+  name: Cerebras Inference Chat Completions API
+  slug: postman-cerebras-systems-completions-api
+- collection_type: postman
+  name: Cerebras Inference Chat Models API
+  slug: postman-cerebras-systems-models-api
+- collection_type: postman
+  name: Cerebras Inference Chat Public Models API
+  slug: postman-cerebras-systems-public-models-api
+- collection_type: postman
+  name: Cerebras Inference Chat Tcp Warming API
+  slug: postman-cerebras-systems-tcp-warming-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cerebras-systems/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -225,30 +247,40 @@ network: true
 overview: 'Cerebras Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Models API, and 2 more. Tagged areas include Company, Ai Infrastructure, Artificial Intelligence, Machine Learning, and Inference.
 
 
-  Cerebras Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+  Cerebras Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 plans:
 - name: Cerebras Systems Plans
   plan_count: 3
   slug: cerebras-systems-plans
-random_paper: 44
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Cerebras Systems Rate Limits
   slug: cerebras-systems-rate-limits
 score:
   band: strong
-  composite: 65.7
-  delta: 0.0
+  composite: 64.9
+  delta: -0.8
   facets:
     commercial_clarity: 92.1
-    contract_quality: 54.2
-    developer_ergonomics: 82.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 54.1
+    developer_ergonomics: 75.5
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 55.3
   previous_composite: 65.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:

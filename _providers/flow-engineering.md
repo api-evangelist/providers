@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Flow Engineering exposes a GraphQL API for programmatic access to the Systems Graph (requirements, design artifacts, test cases, and integrations). The single GraphQL endpoint is served from api.flowe
@@ -106,7 +108,7 @@ overview: 'Flow Engineering publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Flow Engineering''s developer surface includes signup flow, pricing, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 16
+random_paper: 31
 scopes:
 - name: Flow Engineering Scopes
   scope_count: 4
@@ -114,18 +116,20 @@ scopes:
   summary_line: 4 scopes · authorizationCode/implicit
 score:
   band: emerging
-  composite: 21.9
-  delta: 0.0
+  composite: 22.8
+  delta: 0.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 21.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/screenshots/flow-engineering-2026-07-25T214832.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 217
   human_in_the_loop: 1
@@ -274,8 +276,236 @@ apis:
 - description: The Vouchers API from Mews — 5 operation(s) for vouchers.
   name: Mews Vouchers API
   slug: mews-systems-vouchers-api
-artifact_total: 319
+artifact_total: 395
 collections:
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes API
+  slug: postman-mews-systems-account-notes-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Accounting categories API
+  slug: postman-mews-systems-accounting-categories-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Accounting items API
+  slug: postman-mews-systems-accounting-items-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Accounts API
+  slug: postman-mews-systems-accounts-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Addresses API
+  slug: postman-mews-systems-addresses-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Age categories API
+  slug: postman-mews-systems-age-categories-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Availability adjustments API
+  slug: postman-mews-systems-availability-adjustments-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Availability Blocks API
+  slug: postman-mews-systems-availability-blocks-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Billing automations API
+  slug: postman-mews-systems-billing-automations-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Bills API
+  slug: postman-mews-systems-bills-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Business segments API
+  slug: postman-mews-systems-business-segments-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Cancellation policies API
+  slug: postman-mews-systems-cancellation-policies-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Cashier transactions API
+  slug: postman-mews-systems-cashier-transactions-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Cashiers API
+  slug: postman-mews-systems-cashiers-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Commands API
+  slug: postman-mews-systems-commands-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Companies API
+  slug: postman-mews-systems-companies-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Companionships API
+  slug: postman-mews-systems-companionships-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Company contracts API
+  slug: postman-mews-systems-company-contracts-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Configuration API
+  slug: postman-mews-systems-configuration-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Counters API
+  slug: postman-mews-systems-counters-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Countries API
+  slug: postman-mews-systems-countries-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Credit cards API
+  slug: postman-mews-systems-credit-cards-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Currencies API
+  slug: postman-mews-systems-currencies-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Customers API
+  slug: postman-mews-systems-customers-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Departments API
+  slug: postman-mews-systems-departments-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Devices API
+  slug: postman-mews-systems-devices-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes DistributorApi API
+  slug: postman-mews-systems-distributorapi-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Enterprises API
+  slug: postman-mews-systems-enterprises-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Exchange Rates API
+  slug: postman-mews-systems-exchange-rates-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Exports API
+  slug: postman-mews-systems-exports-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Hotels API
+  slug: postman-mews-systems-hotels-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Identity documents API
+  slug: postman-mews-systems-identity-documents-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Images API
+  slug: postman-mews-systems-images-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Languages API
+  slug: postman-mews-systems-languages-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Ledger balances API
+  slug: postman-mews-systems-ledger-balances-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Loyalty memberships API
+  slug: postman-mews-systems-loyalty-memberships-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Loyalty programs API
+  slug: postman-mews-systems-loyalty-programs-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Loyalty tiers API
+  slug: postman-mews-systems-loyalty-tiers-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Message threads API
+  slug: postman-mews-systems-message-threads-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Messages API
+  slug: postman-mews-systems-messages-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Order items API
+  slug: postman-mews-systems-order-items-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Orders API
+  slug: postman-mews-systems-orders-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Outlet bills API
+  slug: postman-mews-systems-outlet-bills-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Outlet items API
+  slug: postman-mews-systems-outlet-items-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Outlets API
+  slug: postman-mews-systems-outlets-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Payment Cards API
+  slug: postman-mews-systems-payment-cards-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Payment method requests API
+  slug: postman-mews-systems-payment-method-requests-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Payment plans API
+  slug: postman-mews-systems-payment-plans-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Payment requests API
+  slug: postman-mews-systems-payment-requests-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Payments API
+  slug: postman-mews-systems-payments-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Preauthorizations API
+  slug: postman-mews-systems-preauthorizations-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Product categories API
+  slug: postman-mews-systems-product-categories-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Product service orders API
+  slug: postman-mews-systems-product-service-orders-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Products API
+  slug: postman-mews-systems-products-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Rate groups API
+  slug: postman-mews-systems-rate-groups-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Rates API
+  slug: postman-mews-systems-rates-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Reservation Groups API
+  slug: postman-mews-systems-reservation-groups-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Reservations API
+  slug: postman-mews-systems-reservations-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Resource access tokens API
+  slug: postman-mews-systems-resource-access-tokens-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Resource blocks API
+  slug: postman-mews-systems-resource-blocks-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Resource categories API
+  slug: postman-mews-systems-resource-categories-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Resource features API
+  slug: postman-mews-systems-resource-features-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Resources API
+  slug: postman-mews-systems-resources-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Restrictions API
+  slug: postman-mews-systems-restrictions-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Routing rules API
+  slug: postman-mews-systems-routing-rules-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Rules API
+  slug: postman-mews-systems-rules-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Service order notes API
+  slug: postman-mews-systems-service-order-notes-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Service overbooking limits API
+  slug: postman-mews-systems-service-overbooking-limits-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Services API
+  slug: postman-mews-systems-services-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Source assignments API
+  slug: postman-mews-systems-source-assignments-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Sources API
+  slug: postman-mews-systems-sources-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Tasks API
+  slug: postman-mews-systems-tasks-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Tax environments API
+  slug: postman-mews-systems-tax-environments-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Taxations API
+  slug: postman-mews-systems-taxations-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Voucher codes API
+  slug: postman-mews-systems-voucher-codes-api
+- collection_type: postman
+  name: Mews Booking Engine API (Distributor) Account notes Vouchers API
+  slug: postman-mews-systems-vouchers-api
 - collection_type: open
   name: Mews Booking Engine API (Distributor)
   slug: open-mews-booking-engine-api
@@ -307,6 +537,10 @@ collections:
   name: Mews Connector API — Services and Products
   slug: open-mews-connector-api-services
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mews/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1089,12 +1323,12 @@ overview: 'Mews publishes 76 APIs on the [APIs.io](https://apis.io/) network, in
   The Mews catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Mews'' developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, engineering blog, signup flow, and 31 more developer resources.'
+  Mews'' developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, engineering blog, signup flow, and 32 more developer resources.'
 plans:
 - name: Mews Systems Plans Pricing
   plan_count: 5
   slug: mews-systems-plans-pricing
-random_paper: 57
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Mews Systems Rate Limits
@@ -1118,24 +1352,32 @@ rules:
   slug: mews-systems-spectral-rules
 score:
   band: strong
-  composite: 68.5
-  delta: 0.0
+  composite: 60.8
+  delta: -7.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 63.3
-    developer_ergonomics: 67.4
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 52.0
+    developer_ergonomics: 71.7
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 68.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 76
+      marker_coverage: 100.0
+      total: 76
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/screenshots/mews-systems-2026-06-20T185318.png
 security:
 - kind: authentication

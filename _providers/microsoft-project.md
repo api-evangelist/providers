@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -85,8 +87,52 @@ apis:
 - description: Manage workflow activities
   name: Microsoft Project Workflow Activities API
   slug: microsoft-project-workflow-activities-api
-artifact_total: 78
+artifact_total: 91
+collections:
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments API
+  slug: postman-microsoft-project-assignments-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Calendars API
+  slug: postman-microsoft-project-calendars-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Custom Fields API
+  slug: postman-microsoft-project-custom-fields-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Enterprise Project Types API
+  slug: postman-microsoft-project-enterprise-project-types-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Event Handlers API
+  slug: postman-microsoft-project-event-handlers-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Lookup Tables API
+  slug: postman-microsoft-project-lookup-tables-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Phases API
+  slug: postman-microsoft-project-phases-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Projects API
+  slug: postman-microsoft-project-projects-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Resources API
+  slug: postman-microsoft-project-resources-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Stages API
+  slug: postman-microsoft-project-stages-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Tasks API
+  slug: postman-microsoft-project-tasks-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Timesheets API
+  slug: postman-microsoft-project-timesheets-api
+- collection_type: postman
+  name: Microsoft Project Online REST Assignments Workflow Activities API
+  slug: postman-microsoft-project-workflow-activities-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/microsoft-project/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -306,12 +352,12 @@ overview: 'Microsoft Project publishes 13 APIs on the [APIs.io](https://apis.io/
   The Microsoft Project catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Project''s developer surface includes authentication, developer portal, engineering blog, pricing, support, Stack Overflow tag, training material, and 14 more developer resources.'
+  Microsoft Project''s developer surface includes authentication, developer portal, engineering blog, pricing, support, Stack Overflow tag, training material, and 15 more developer resources.'
 plans:
 - name: Microsoft Project Plans Pricing
   plan_count: 6
   slug: microsoft-project-plans-pricing
-random_paper: 18
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Microsoft Project Rate Limits
@@ -340,19 +386,26 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 57.9
+  delta: -7.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 77.0
-    developer_ergonomics: 37.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 62.1
+    developer_ergonomics: 41.3
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
   previous_composite: 65.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 13
+      marker_coverage: 100.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/screenshots/microsoft-project-2026-06-20T185526.png
 security:
 - kind: authentication

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 29.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Public GraphQL API for programmatically querying Font Awesome releases, searching icons and their metadata (family-styles, unicode, aliases, SVG path data), and — with an access token — reading accoun
@@ -158,27 +160,31 @@ overview: 'Font Awesome publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Font Awesome''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 20 more developer resources.'
-random_paper: 13
+random_paper: 5
 scopes:
 - name: Font Awesome Scopes
   scope_count: 8
   slug: font-awesome-scopes
   summary_line: 8 scopes
 score:
-  band: thin
-  composite: 37.0
-  delta: 0.0
+  band: developing
+  composite: 47.6
+  delta: 10.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 0.0
-    developer_ergonomics: 80.4
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 48.1
+    developer_ergonomics: 73.9
+    discoverability: 87.0
+    governance: 3.1
     operational_transparency: 21.1
   previous_composite: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/screenshots/font-awesome-2026-07-25T214913.png
 security:
 - kind: authentication

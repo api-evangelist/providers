@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 39.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -95,16 +97,47 @@ arazzos:
 - description: Discover a form, read its field structure, then submit a new entry.
   name: Wufoo Submit a Form Entry
   slug: wufoo-submit-form-entry-workflow
-artifact_total: 45
+artifact_total: 54
 asyncapis:
 - description: Wufoo webhooks POST a form-submission payload to a subscriber URL the moment an entry is created. Each form supports up to 10 active webhooks. When the subscription is created with `metadata=true`, th
   name: Wufoo Webhooks
   slug: wufoo-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Wufoo REST Comments API
+  slug: postman-wufoo-comments-api
+- collection_type: postman
+  name: Wufoo REST Comments Entries API
+  slug: postman-wufoo-entries-api
+- collection_type: postman
+  name: Wufoo REST Comments Fields API
+  slug: postman-wufoo-fields-api
+- collection_type: postman
+  name: Wufoo REST Comments Forms API
+  slug: postman-wufoo-forms-api
+- collection_type: postman
+  name: Wufoo REST Comments Login API
+  slug: postman-wufoo-login-api
+- collection_type: postman
+  name: Wufoo REST Comments Reports API
+  slug: postman-wufoo-reports-api
+- collection_type: postman
+  name: Wufoo REST Comments Users API
+  slug: postman-wufoo-users-api
+- collection_type: postman
+  name: Wufoo REST Comments Webhooks API
+  slug: postman-wufoo-webhooks-api
+- collection_type: postman
+  name: Wufoo REST Comments Widgets API
+  slug: postman-wufoo-widgets-api
 - collection_type: open
   name: Wufoo REST API
   slug: open-wufoo-rest-v3
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wufoo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -329,12 +362,12 @@ overview: 'Wufoo publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
   The Wufoo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Wufoo''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 32 more developer resources.'
+  Wufoo''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 33 more developer resources.'
 plans:
 - name: Wufoo Plans Pricing
   plan_count: 5
   slug: wufoo-plans-pricing
-random_paper: 16
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Wufoo Rate Limits
@@ -366,23 +399,31 @@ rules:
   slug: wufoo-rest-v3-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 4.4
+  composite: 61.3
+  delta: -4.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 76.9
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 47.4
+    contract_quality: 77.4
+    developer_ergonomics: 71.7
+    discoverability: 74.1
+    governance: 37.5
     operational_transparency: 21.1
-  previous_composite: 61.5
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 39.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/screenshots/wufoo-2026-06-20T201637.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,8 +57,31 @@ apis:
 - description: Plan and usage statistics
   name: Open Exchange Rates Usage API
   slug: open-exchange-rates-usage-api
-artifact_total: 22
+artifact_total: 28
+collections:
+- collection_type: postman
+  name: Open Exchange Rates Convert API
+  slug: postman-open-exchange-rates-convert-api
+- collection_type: postman
+  name: Open Exchange Rates Convert Currencies API
+  slug: postman-open-exchange-rates-currencies-api
+- collection_type: postman
+  name: Open Exchange Rates Convert OHLC API
+  slug: postman-open-exchange-rates-ohlc-api
+- collection_type: postman
+  name: Open Exchange Convert Rates API
+  slug: postman-open-exchange-rates-rates-api
+- collection_type: postman
+  name: Open Exchange Rates Convert Time Series API
+  slug: postman-open-exchange-rates-time-series-api
+- collection_type: postman
+  name: Open Exchange Rates Convert Usage API
+  slug: postman-open-exchange-rates-usage-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/open-exchange-rates/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,12 +191,12 @@ overview: 'Open Exchange Rates publishes 6 APIs on the [APIs.io](https://apis.io
   The Open Exchange Rates catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Open Exchange Rates'' developer surface includes authentication, documentation, pricing, support, and 11 more developer resources.'
+  Open Exchange Rates'' developer surface includes authentication, documentation, pricing, support, and 12 more developer resources.'
 plans:
 - name: Open Exchange Rates Plans Pricing
   plan_count: 5
   slug: open-exchange-rates-plans-pricing
-random_paper: 66
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Open Exchange Rates Rate Limits
@@ -187,18 +212,25 @@ rules:
   slug: open-exchange-rates-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 59.5
+  delta: -3.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.7
-    developer_ergonomics: 23.9
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 73.4
+    developer_ergonomics: 28.3
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 63.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-exchange-rates/refs/heads/main/screenshots/open-exchange-rates-2026-06-20T190738.png
 security:

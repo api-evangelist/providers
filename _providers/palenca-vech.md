@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 67.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.4
+  scored_at: '2026-07-28'
 api_count: 45
 apis:
 - description: The accounts API from Palenca (Vech) — 34 operation(s) for accounts.
@@ -313,25 +315,34 @@ overview: 'Palenca (Vech) publishes 45 APIs on the [APIs.io](https://apis.io/) n
 
 
   Palenca (Vech)''s developer surface includes sandbox, documentation, API reference, getting-started guide, authentication, engineering blog, support, and 24 more developer resources.'
-random_paper: 35
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Palenca Vech Rate Limits
   slug: palenca-vech-rate-limits
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 51.4
+  delta: -1.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.0
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 50.8
+    developer_ergonomics: 62.5
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 34.2
   previous_composite: 53.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 45
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

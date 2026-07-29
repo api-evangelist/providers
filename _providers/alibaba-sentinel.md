@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 35.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 22.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -127,7 +129,7 @@ overview: 'Alibaba Sentinel publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Alibaba Sentinel''s developer surface includes documentation, getting-started guide, GitHub presence, and 11 more developer resources.'
-random_paper: 47
+random_paper: 71
 rules:
 - name: Alibaba Sentinel API Rules
   rule_count: 5
@@ -139,18 +141,27 @@ rules:
   slug: alibaba-sentinel-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 35.2
+  delta: -1.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 49.6
+    contract_quality: 47.5
     developer_ergonomics: 19.6
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 83.3
+    governance: 69.8
     operational_transparency: 21.1
   previous_composite: 36.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/screenshots/alibaba-sentinel-2026-07-25T195610.png
 security:

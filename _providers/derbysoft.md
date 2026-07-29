@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.8
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: JSON/REST API for hotels and PMS/channel-manager systems to push availability, rates and inventory (ARI), manage property, room, rate-plan and channel configuration, and exchange reservations across 5
@@ -132,25 +134,27 @@ overview: 'DerbySoft publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   DerbySoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 13 more developer resources.'
-random_paper: 26
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Derbysoft Rate Limits
   slug: derbysoft-rate-limits
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 32.1
+  delta: 1.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 31.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/screenshots/derbysoft-2026-07-25T211736.png
 security:

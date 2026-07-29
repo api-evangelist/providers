@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -71,8 +73,22 @@ arazzos:
 - description: List the watches registered on a form and delete one to stop its notification delivery.
   name: Google Forms Unsubscribe Form Watches
   slug: google-forms-unsubscribe-form-watches-workflow
-artifact_total: 52
+artifact_total: 55
+collections:
+- collection_type: postman
+  name: Google Forms API
+  slug: postman-google-forms-forms-api
+- collection_type: postman
+  name: Google Forms Responses API
+  slug: postman-google-forms-responses-api
+- collection_type: postman
+  name: Google Forms Watches API
+  slug: postman-google-forms-watches-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-forms/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -305,12 +321,12 @@ overview: 'Google Forms publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   The Google Forms catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Forms'' developer surface includes changelog, authentication, developer console, getting-started guide, support, and 30 more developer resources.'
+  Google Forms'' developer surface includes changelog, authentication, developer console, getting-started guide, support, and 31 more developer resources.'
 plans:
 - name: Google Forms Plans Pricing
   plan_count: 3
   slug: google-forms-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Google Forms Rate Limits
@@ -339,19 +355,28 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 69.8
-  delta: 0.0
+  composite: 64.8
+  delta: -5.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 80.5
-    developer_ergonomics: 41.3
+    contract_quality: 65.3
+    developer_ergonomics: 39.1
     discoverability: 100.0
-    governance: 86.8
+    governance: 80.2
     operational_transparency: 68.4
   previous_composite: 69.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/screenshots/google-forms-2026-06-20T182203.png
 security:
 - kind: authentication

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -234,7 +236,7 @@ press:
 - date: '2026-05-25'
   title: United Technologies - Oak Ridge Leadership Computing Facility
   url: https://www.olcf.ornl.gov/tag/united-technologies/
-random_paper: 6
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: United Technologies Rate Limits
@@ -258,19 +260,26 @@ rules:
   slug: united-technologies-spectral-rules
 score:
   band: developing
-  composite: 59.1
-  delta: 5.5
+  composite: 51.3
+  delta: -7.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 82.3
+    contract_quality: 70.3
     developer_ergonomics: 30.4
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 53.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 59.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/screenshots/united-technologies-2026-06-20T200101.png
 security:
 - kind: authentication

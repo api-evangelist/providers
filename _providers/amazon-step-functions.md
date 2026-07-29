@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -148,12 +150,127 @@ apis:
 - description: 'The #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API from Amazon Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.updatestatemachinealias.'
   name: 'Amazon Step Functions #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API'
   slug: amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api
-artifact_total: 428
+artifact_total: 465
 collections:
+- collection_type: postman
+  name: Amazon Step Functions Executions API
+  slug: postman-amazon-step-functions-executions-api
+- collection_type: postman
+  name: Amazon Step Functions Executions History API
+  slug: postman-amazon-step-functions-history-api
+- collection_type: postman
+  name: Amazon Step Functions Executions State Machines API
+  slug: postman-amazon-step-functions-state-machines-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.CreateActivity API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-createactivity-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.CreateStateMachine API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-createstatemachine-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.CreateStateMachineAlias API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-createstatemachinealias-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DeleteActivity API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-deleteactivity-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DeleteStateMachine API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachine-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DeleteStateMachineAlias API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachinealias-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DeleteStateMachineVersion API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-deletestatemachineversion-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeActivity API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-describeactivity-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeExecution API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-describeexecution-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeMapRun API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-describemaprun-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeStateMachine API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-describestatemachine-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeStateMachineAlias API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-describestatemachinealias-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.DescribeStateMachineForExecution API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-describestatemachineforexecution-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.GetActivityTask API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-getactivitytask-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.GetExecutionHistory API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-getexecutionhistory-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListActivities API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-listactivities-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListExecutions API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-listexecutions-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListMapRuns API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-listmapruns-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListStateMachineAliases API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachinealiases-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListStateMachines API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachines-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListStateMachineVersions API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-liststatemachineversions-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.ListTagsForResource API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-listtagsforresource-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.PublishStateMachineVersion API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-publishstatemachineversion-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.SendTaskFailure API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-sendtaskfailure-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.SendTaskHeartbeat API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-sendtaskheartbeat-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.SendTaskSuccess API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-sendtasksuccess-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.StartExecution API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-startexecution-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.StartSyncExecution API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-startsyncexecution-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.StopExecution API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-stopexecution-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.TagResource API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-tagresource-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.UntagResource API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-untagresource-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.UpdateMapRun API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-updatemaprun-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.UpdateStateMachine API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachine-api
+- collection_type: postman
+  name: 'Amazon Step Functions Executions #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API'
+  slug: postman-amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api
 - collection_type: open
   name: Amazon Step Functions API
   slug: open-amazon-step-functions
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-step-functions/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1377,12 +1494,12 @@ overview: 'Amazon Step Functions publishes 37 APIs on the [APIs.io](https://apis
   The Amazon Step Functions catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Step Functions'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Step Functions'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Step Functions Plans Pricing
   plan_count: 3
   slug: amazon-step-functions-plans-pricing
-random_paper: 57
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Step Functions Rate Limits
@@ -1406,18 +1523,25 @@ rules:
   slug: amazon-step-functions-spectral-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 63.9
+  delta: -1.7
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.1
-    developer_ergonomics: 41.3
-    discoverability: 55.0
-    governance: 86.8
+    contract_quality: 74.2
+    developer_ergonomics: 45.7
+    discoverability: 48.1
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 65.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/screenshots/amazon-step-functions-2026-06-20T171830.png
 security:

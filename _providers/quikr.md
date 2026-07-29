@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.8
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The App API from Quikr — 1 operation(s) for app.
@@ -84,21 +86,27 @@ overview: 'Quikr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ap
 
 
   Quikr''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 12
+random_paper: 17
 score:
   band: emerging
-  composite: 28.0
-  delta: 0.0
+  composite: 27.8
+  delta: -0.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 51.3
+    contract_quality: 53.4
     developer_ergonomics: 26.1
-    discoverability: 100.0
+    discoverability: 92.6
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 28.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

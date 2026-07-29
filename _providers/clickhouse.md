@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,16 +66,32 @@ apis:
 - description: The Replicas Status API from ClickHouse — 1 operation(s) for replicas status.
   name: ClickHouse Replicas Status API
   slug: clickhouse-replicas-status-api
-artifact_total: 21
+artifact_total: 25
 asyncapis:
 - description: AsyncAPI description of the documented streaming surface that ClickHouse offers through the Kafka table engine. ClickHouse itself does NOT publish a public WebSocket, Server-Sent Events, or push-style
   name: ClickHouse Kafka Table Engine (Consumer-Side Streaming)
   slug: clickhouse-kafka-engine-asyncapi
 collections:
+- collection_type: postman
+  name: ClickHouse HTTP Interface API
+  slug: postman-clickhouse-clickhouse-http-interface-api
+- collection_type: postman
+  name: ClickHouse HTTP Interface Ping API
+  slug: postman-clickhouse-ping-api
+- collection_type: postman
+  name: ClickHouse HTTP Interface Play API
+  slug: postman-clickhouse-play-api
+- collection_type: postman
+  name: ClickHouse HTTP Interface Replicas Status API
+  slug: postman-clickhouse-replicas-status-api
 - collection_type: open
   name: ClickHouse HTTP Interface
   slug: open-clickhouse
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/clickhouse/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -173,12 +191,12 @@ overview: 'ClickHouse publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The ClickHouse catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  ClickHouse''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, pricing, support, and 12 more developer resources.'
+  ClickHouse''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, pricing, support, and 13 more developer resources.'
 plans:
 - name: Clickhouse Plans Pricing
   plan_count: 3
   slug: clickhouse-plans-pricing
-random_paper: 46
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Clickhouse Rate Limits
@@ -202,18 +220,25 @@ rules:
   slug: clickhouse-rules
 score:
   band: strong
-  composite: 62.1
-  delta: 2.0
+  composite: 58.4
+  delta: -3.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 61.9
-    developer_ergonomics: 37.0
-    discoverability: 87.5
-    governance: 65.8
+    contract_quality: 59.3
+    developer_ergonomics: 41.3
+    discoverability: 64.8
+    governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 60.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/screenshots/clickhouse-2026-06-20T174515.png
 security:

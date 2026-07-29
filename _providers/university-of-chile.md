@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: true
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 25.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 5
@@ -212,7 +214,7 @@ plans:
 - name: University Of Chile Plans Pricing
   plan_count: 2
   slug: university-of-chile-plans-pricing
-random_paper: 38
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: University Of Chile Rate Limits
@@ -236,23 +238,31 @@ rules:
   slug: university-of-chile-rules
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 31.0
+  delta: -3.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 36.8
+    contract_quality: 39.5
     developer_ergonomics: 0.0
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 26.3
   previous_composite: 34.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 20.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/screenshots/university-of-chile-2026-06-20T200146.png
 security:

@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.3
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The routes API from Walrus Protocol — 9 operation(s) for routes.
@@ -178,21 +180,30 @@ overview: 'Walrus Protocol publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Walrus Protocol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 25 more developer resources.'
-random_paper: 33
+random_paper: 57
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 44.4
+  delta: -2.8
   facets:
     commercial_clarity: 31.6
-    contract_quality: 37.7
-    developer_ergonomics: 87.0
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 75.5
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 36.8
   previous_composite: 47.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

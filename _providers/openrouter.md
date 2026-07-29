@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 55.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: List supported providers.
   name: OpenRouter Providers API
   slug: openrouter-providers-api
-artifact_total: 40
+artifact_total: 47
 collections:
+- collection_type: postman
+  name: OpenRouter Chat API
+  slug: postman-openrouter-chat-api
+- collection_type: postman
+  name: OpenRouter Chat Completions API
+  slug: postman-openrouter-completions-api
+- collection_type: postman
+  name: OpenRouter Chat Credits API
+  slug: postman-openrouter-credits-api
+- collection_type: postman
+  name: OpenRouter Chat Generation API
+  slug: postman-openrouter-generation-api
+- collection_type: postman
+  name: OpenRouter Chat Keys API
+  slug: postman-openrouter-keys-api
+- collection_type: postman
+  name: OpenRouter Chat Models API
+  slug: postman-openrouter-models-api
+- collection_type: postman
+  name: OpenRouter Chat Providers API
+  slug: postman-openrouter-providers-api
 - collection_type: open
   name: OpenRouter API
   slug: open-openrouter
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/openrouter/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -299,12 +326,12 @@ overview: 'OpenRouter publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The OpenRouter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenRouter''s developer surface includes authentication, getting-started guide, FAQ, pricing, developer portal, documentation, support, and 36 more developer resources.'
+  OpenRouter''s developer surface includes authentication, getting-started guide, FAQ, pricing, developer portal, documentation, support, and 37 more developer resources.'
 plans:
 - name: Openrouter Plans Pricing
   plan_count: 3
   slug: openrouter-plans-pricing
-random_paper: 19
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Openrouter Rate Limits
@@ -320,18 +347,25 @@ rules:
   slug: openrouter-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 67.7
-  delta: 4.5
+  composite: 64.8
+  delta: -2.9
   facets:
     commercial_clarity: 78.9
-    contract_quality: 68.3
-    developer_ergonomics: 52.2
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 69.6
+    developer_ergonomics: 56.5
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/screenshots/openrouter-2026-06-20T191028.png
 security:

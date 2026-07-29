@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -70,12 +72,37 @@ apis:
 - description: Operations for managing tables within datasets
   name: Google BigQuery Tables API
   slug: google-bigquery-tables-api
-artifact_total: 49
+artifact_total: 56
 collections:
+- collection_type: postman
+  name: Google BigQuery Datasets API
+  slug: postman-google-bigquery-datasets-api
+- collection_type: postman
+  name: Google BigQuery Datasets Jobs API
+  slug: postman-google-bigquery-jobs-api
+- collection_type: postman
+  name: Google BigQuery Datasets Models API
+  slug: postman-google-bigquery-models-api
+- collection_type: postman
+  name: Google BigQuery Datasets Projects API
+  slug: postman-google-bigquery-projects-api
+- collection_type: postman
+  name: Google BigQuery Datasets Routines API
+  slug: postman-google-bigquery-routines-api
+- collection_type: postman
+  name: Google BigQuery Datasets Tabledata API
+  slug: postman-google-bigquery-tabledata-api
+- collection_type: postman
+  name: Google BigQuery Datasets Tables API
+  slug: postman-google-bigquery-tables-api
 - collection_type: open
   name: Google BigQuery API
   slug: open-bigquery-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-bigquery/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -242,12 +269,12 @@ overview: 'Google BigQuery publishes 7 APIs on the [APIs.io](https://apis.io/) n
   The Google BigQuery catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google BigQuery''s developer surface includes authentication, getting-started guide, pricing, developer console, CLI, support, and 9 more developer resources.'
+  Google BigQuery''s developer surface includes authentication, getting-started guide, pricing, developer console, CLI, support, and 10 more developer resources.'
 plans:
 - name: Google Bigquery Plans Pricing
   plan_count: 6
   slug: google-bigquery-plans-pricing
-random_paper: 58
+random_paper: 14
 rate_limits:
 - limit_count: 15
   name: Google Bigquery Rate Limits
@@ -268,19 +295,26 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.9
-  delta: 5.4
+  composite: 59.0
+  delta: -2.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.5
-    developer_ergonomics: 45.7
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 74.6
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/screenshots/google-bigquery-2026-06-20T182029.png
 security:
 - kind: authentication

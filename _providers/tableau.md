@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -112,12 +114,55 @@ apis:
 - description: Publish, query, update, delete, and download workbooks. Workbooks contain one or more views (sheets, dashboards, or stories) and can connect to one or more data sources.
   name: Tableau Workbooks API
   slug: tableau-workbooks-api
-artifact_total: 350
+artifact_total: 363
 collections:
+- collection_type: postman
+  name: Tableau REST Authentication API
+  slug: postman-tableau-authentication-api
+- collection_type: postman
+  name: Tableau REST Authentication Data Sources API
+  slug: postman-tableau-data-sources-api
+- collection_type: postman
+  name: Tableau REST Authentication Favorites API
+  slug: postman-tableau-favorites-api
+- collection_type: postman
+  name: Tableau REST Authentication Groups API
+  slug: postman-tableau-groups-api
+- collection_type: postman
+  name: Tableau REST Authentication Jobs API
+  slug: postman-tableau-jobs-api
+- collection_type: postman
+  name: Tableau REST Authentication Permissions API
+  slug: postman-tableau-permissions-api
+- collection_type: postman
+  name: Tableau REST Authentication Projects API
+  slug: postman-tableau-projects-api
+- collection_type: postman
+  name: Tableau REST Authentication Schedules API
+  slug: postman-tableau-schedules-api
+- collection_type: postman
+  name: Tableau REST Authentication Sites API
+  slug: postman-tableau-sites-api
+- collection_type: postman
+  name: Tableau REST Authentication Subscriptions API
+  slug: postman-tableau-subscriptions-api
+- collection_type: postman
+  name: Tableau REST Authentication Users API
+  slug: postman-tableau-users-api
+- collection_type: postman
+  name: Tableau REST Authentication Views API
+  slug: postman-tableau-views-api
+- collection_type: postman
+  name: Tableau REST Authentication Workbooks API
+  slug: postman-tableau-workbooks-api
 - collection_type: open
   name: Tableau REST API
   slug: open-tableau-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tableau/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1144,12 +1189,12 @@ overview: 'Tableau publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Tableau catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Tableau''s developer surface includes authentication, engineering blog, support, release notes, signup flow, documentation, Stack Overflow tag, and 13 more developer resources.'
+  Tableau''s developer surface includes authentication, engineering blog, support, release notes, signup flow, documentation, Stack Overflow tag, and 14 more developer resources.'
 plans:
 - name: Tableau Plans Pricing
   plan_count: 4
   slug: tableau-plans-pricing
-random_paper: 54
+random_paper: 41
 rate_limits:
 - limit_count: 6
   name: Tableau Rate Limits
@@ -1173,18 +1218,25 @@ rules:
   slug: tableau-spectral-rules
 score:
   band: strong
-  composite: 67.2
-  delta: 4.6
+  composite: 65.1
+  delta: -2.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 73.9
-    developer_ergonomics: 43.5
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 74.5
+    developer_ergonomics: 47.8
+    discoverability: 63.0
+    governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 62.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 67.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/screenshots/tableau-2026-06-20T194845.png
 security:

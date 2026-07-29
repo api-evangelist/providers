@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -1923,7 +1925,7 @@ overview: 'Amazon App Runner publishes 36 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 23
+random_paper: 29
 rules:
 - name: Amazon App Runner API Rules
   rule_count: 6
@@ -1943,18 +1945,27 @@ rules:
   slug: amazon-app-runner-spectral-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 53.9
+  delta: -1.1
   facets:
     commercial_clarity: 42.1
-    contract_quality: 66.5
+    contract_quality: 67.5
     developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 87.0
+    governance: 80.2
     operational_transparency: 15.8
   previous_composite: 55.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/screenshots/amazon-app-runner-2026-07-25T195915.png
 security:

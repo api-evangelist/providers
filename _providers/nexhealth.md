@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -135,12 +137,116 @@ apis:
 - description: Configure working hours for providers
   name: NexHealth Working Hours API
   slug: nexhealth-working-hours-api
-artifact_total: 39
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Nexhealth Webhooks
   slug: nexhealth-webhooks
+collections:
+- collection_type: postman
+  name: NexHealth Adjustment Types API
+  slug: postman-nexhealth-adjustment-types-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Adjustments API
+  slug: postman-nexhealth-adjustments-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Appointment Types API
+  slug: postman-nexhealth-appointment-types-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Appointments API
+  slug: postman-nexhealth-appointments-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Authenticates API
+  slug: postman-nexhealth-authenticates-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Available Slots API
+  slug: postman-nexhealth-available-slots-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Balances API
+  slug: postman-nexhealth-balances-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Charges API
+  slug: postman-nexhealth-charges-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Claims API
+  slug: postman-nexhealth-claims-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Clinical Notes API
+  slug: postman-nexhealth-clinical-notes-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Document Types API
+  slug: postman-nexhealth-document-types-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Fee Schedules API
+  slug: postman-nexhealth-fee-schedules-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Institutions API
+  slug: postman-nexhealth-institutions-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Insurance API
+  slug: postman-nexhealth-insurance-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Locations API
+  slug: postman-nexhealth-locations-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Nex Staff API
+  slug: postman-nexhealth-nex-staff-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Onboardings API
+  slug: postman-nexhealth-onboardings-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Operatories API
+  slug: postman-nexhealth-operatories-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Patient Alerts API
+  slug: postman-nexhealth-patient-alerts-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Patient Documents API
+  slug: postman-nexhealth-patient-documents-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Patient Recalls API
+  slug: postman-nexhealth-patient-recalls-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Patients API
+  slug: postman-nexhealth-patients-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Payment Plans API
+  slug: postman-nexhealth-payment-plans-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Payment Types API
+  slug: postman-nexhealth-payment-types-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Payments API
+  slug: postman-nexhealth-payments-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Procedures API
+  slug: postman-nexhealth-procedures-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Providers API
+  slug: postman-nexhealth-providers-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Recall Types API
+  slug: postman-nexhealth-recall-types-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Sync Status API
+  slug: postman-nexhealth-sync-status-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Treatment Plans API
+  slug: postman-nexhealth-treatment-plans-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Webhook Endpoints API
+  slug: postman-nexhealth-webhook-endpoints-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Webhook Subscriptions API
+  slug: postman-nexhealth-webhook-subscriptions-api
+- collection_type: postman
+  name: NexHealth Adjustment Types Working Hours API
+  slug: postman-nexhealth-working-hours-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/nexhealth/overview
 - group: docs
   title: ''
   type: OpenAPI
@@ -295,28 +401,39 @@ overview: 'NexHealth publishes 33 APIs on the [APIs.io](https://apis.io/) networ
   The NexHealth catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  NexHealth''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
-random_paper: 9
+  NexHealth''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
+random_paper: 37
 score:
-  band: strong
-  composite: 62.4
-  delta: 0.0
+  band: developing
+  composite: 55.7
+  delta: -6.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.3
-    developer_ergonomics: 78.3
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 68.3
+    developer_ergonomics: 66.8
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 52.6
   previous_composite: 62.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 37.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Nexhealth Authentication

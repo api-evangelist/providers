@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Provides access to personal and small business account data including account balances, account details, and account lists for authenticated customers. Supports open banking use cases for fintech appl
@@ -160,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: Truist CIO Focuses on Positioning Bank for Digital Innovation
   url: https://www.wsj.com/articles/truist-cio-focuses-on-positioning-bank-for-digital-innovation-11625563800?eafs_enabled=false
-random_paper: 12
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Bbandt Corp Rate Limits
@@ -176,24 +178,25 @@ rules:
   slug: bbandt-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 31.7
+  delta: -6.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 30.4
-    discoverability: 87.5
-    governance: 47.4
+    discoverability: 64.8
+    governance: 37.5
     operational_transparency: 21.1
   previous_composite: 37.7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 24.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/screenshots/bbandt-corp-2026-06-20T173059.png
 security:
 - kind: domain-security

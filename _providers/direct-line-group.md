@@ -2,11 +2,13 @@
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -14,9 +16,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,26 +103,29 @@ overview: 'Direct Line Group is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Direct Line Group''s developer surface includes support, engineering blog, and 15 more developer resources.'
-random_paper: 6
+random_paper: 12
 score:
   band: emerging
-  composite: 17.2
-  delta: 0.0
+  composite: 15.7
+  delta: -1.5
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 67.5
-    governance: 0.0
+    discoverability: 68.5
+    governance: 3.1
     operational_transparency: 5.3
   previous_composite: 17.2
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 28.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/direct-line-group/refs/heads/main/screenshots/direct-line-group-2026-07-25T212052.png
 security:

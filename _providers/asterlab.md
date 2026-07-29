@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API from Aster serving open-weight models (gpt-oss-120b, gpt-oss-120b-fast, GLM 5.2). Authenticate with an Aster API key created in the inference console and set the base U
@@ -102,21 +104,21 @@ overview: 'Asterlab publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Asterlab''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, authentication, and 7 more developer resources.'
-random_paper: 30
+random_paper: 76
 score:
   band: emerging
-  composite: 27.3
-  delta: 0.0
+  composite: 26.8
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 45.7
-    discoverability: 92.5
+    discoverability: 87.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 27.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/screenshots/asterlab-2026-07-25T201459.png
 security:

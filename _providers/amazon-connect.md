@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -1157,7 +1159,7 @@ plans:
 - name: Amazon Connect Plans Pricing
   plan_count: 1
   slug: amazon-connect-plans-pricing
-random_paper: 9
+random_paper: 51
 rate_limits:
 - limit_count: 22
   name: Amazon Connect Rate Limits
@@ -1180,20 +1182,33 @@ rules:
     warn: 23
   slug: amazon-connect-spectral-rules
 score:
-  band: exemplar
-  composite: 75.3
-  delta: 4.7
+  band: strong
+  composite: 65.4
+  delta: -9.9
   facets:
     commercial_clarity: 89.5
-    contract_quality: 81.4
+    contract_quality: 70.8
     developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 70.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 75.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 12
+      marker_coverage: 100.0
+      total: 12
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:
 - kind: authentication

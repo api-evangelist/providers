@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 52.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -61,12 +63,37 @@ apis:
 - description: The Webhooks API from DatoCMS — 1 operation(s) for webhooks.
   name: DatoCMS Webhooks API
   slug: datocms-webhooks-api
-artifact_total: 33
+artifact_total: 40
 collections:
+- collection_type: postman
+  name: DatoCMS Content Management Environments API
+  slug: postman-datocms-environments-api
+- collection_type: postman
+  name: DatoCMS Content Management Environments Fields API
+  slug: postman-datocms-fields-api
+- collection_type: postman
+  name: DatoCMS Content Management Environments Item Types API
+  slug: postman-datocms-item-types-api
+- collection_type: postman
+  name: DatoCMS Content Management Environments Items API
+  slug: postman-datocms-items-api
+- collection_type: postman
+  name: DatoCMS Content Management Environments Site API
+  slug: postman-datocms-site-api
+- collection_type: postman
+  name: DatoCMS Content Management Environments Uploads API
+  slug: postman-datocms-uploads-api
+- collection_type: postman
+  name: DatoCMS Content Management Environments Webhooks API
+  slug: postman-datocms-webhooks-api
 - collection_type: open
   name: DatoCMS Content Management API
   slug: open-datocms-content-management-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/datocms/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,12 +201,12 @@ overview: 'DatoCMS publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The DatoCMS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  DatoCMS''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, support, and 12 more developer resources.'
+  DatoCMS''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, support, and 13 more developer resources.'
 plans:
 - name: Datocms Plans Pricing
   plan_count: 3
   slug: datocms-plans-pricing
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Datocms Rate Limits
@@ -203,18 +230,25 @@ rules:
   slug: datocms-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 4.6
+  composite: 56.9
+  delta: -3.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 61.1
-    developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 62.7
+    developer_ergonomics: 30.4
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 55.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/screenshots/datocms-2026-06-20T175706.png
 security:

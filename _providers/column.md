@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -169,30 +171,38 @@ plans:
 - name: Column Plans Pricing
   plan_count: 1
   slug: column-plans-pricing
-random_paper: 42
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Column Rate Limits
   slug: column-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: 2.7
+  composite: 30.2
+  delta: -3.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.8
+    contract_quality: 61.0
     developer_ergonomics: 13.0
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 30.8
+  previous_composite: 33.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 92.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 26.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 15.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

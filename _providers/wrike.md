@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -88,12 +90,55 @@ apis:
 - description: Workflow and status management
   name: Wrike Workflows API
   slug: wrike-workflows-api
-artifact_total: 110
+artifact_total: 123
 collections:
+- collection_type: postman
+  name: Wrike Access Roles API
+  slug: postman-wrike-access-roles-api
+- collection_type: postman
+  name: Wrike Access Roles Accounts API
+  slug: postman-wrike-accounts-api
+- collection_type: postman
+  name: Wrike Access Roles Colors API
+  slug: postman-wrike-colors-api
+- collection_type: postman
+  name: Wrike Access Roles Comments API
+  slug: postman-wrike-comments-api
+- collection_type: postman
+  name: Wrike Access Roles Contacts API
+  slug: postman-wrike-contacts-api
+- collection_type: postman
+  name: Wrike Access Roles Custom Fields API
+  slug: postman-wrike-custom-fields-api
+- collection_type: postman
+  name: Wrike Access Roles Folders And Projects API
+  slug: postman-wrike-folders-and-projects-api
+- collection_type: postman
+  name: Wrike Access Roles Groups API
+  slug: postman-wrike-groups-api
+- collection_type: postman
+  name: Wrike Access Roles Tasks API
+  slug: postman-wrike-tasks-api
+- collection_type: postman
+  name: Wrike Access Roles Time Logs API
+  slug: postman-wrike-time-logs-api
+- collection_type: postman
+  name: Wrike Access Roles Users API
+  slug: postman-wrike-users-api
+- collection_type: postman
+  name: Wrike Access Roles Webhooks API
+  slug: postman-wrike-webhooks-api
+- collection_type: postman
+  name: Wrike Access Roles Workflows API
+  slug: postman-wrike-workflows-api
 - collection_type: open
   name: Wrike API
   slug: open-wrike
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wrike/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -378,12 +423,12 @@ overview: 'Wrike publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Wrike catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Wrike''s developer surface includes authentication, signup flow, pricing, support, FAQ, engineering blog, training material, and 16 more developer resources.'
+  Wrike''s developer surface includes authentication, signup flow, pricing, support, FAQ, engineering blog, training material, and 17 more developer resources.'
 plans:
 - name: Wrike Plans Pricing
   plan_count: 11
   slug: wrike-plans-pricing
-random_paper: 2
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Wrike Rate Limits
@@ -404,18 +449,25 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.3
-  delta: 2.0
+  composite: 61.0
+  delta: -2.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 61.9
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 65.7
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 61.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/screenshots/wrike-2026-06-20T201636.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -100,12 +102,25 @@ apis:
 - description: Manage builds uploaded to App Store Connect, including build metadata, processing state, and build relationships.
   name: Apple Builds API
   slug: apple-builds-api
-artifact_total: 159
+artifact_total: 162
 collections:
+- collection_type: postman
+  name: Apple App Store Connect Apps API
+  slug: postman-apple-apps-api
+- collection_type: postman
+  name: Apple App Store Connect Apps Beta Testers API
+  slug: postman-apple-beta-testers-api
+- collection_type: postman
+  name: Apple App Store Connect Apps Builds API
+  slug: postman-apple-builds-api
 - collection_type: open
   name: Apple App Store Connect API
   slug: open-app-store-connect-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apple/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -571,7 +586,7 @@ overview: 'Apple publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ap
   The Apple catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Apple''s developer surface includes authentication, support, engineering blog, signup flow, pricing, YouTube channel, changelog, and 17 more developer resources.'
+  Apple''s developer surface includes authentication, support, engineering blog, signup flow, pricing, YouTube channel, changelog, and 18 more developer resources.'
 plans:
 - name: Apple Plans Pricing
   plan_count: 3
@@ -592,7 +607,7 @@ press:
 - date: '2026-05-25'
   title: Joint statement from Google and Apple
   url: https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/
-random_paper: 54
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Apple Rate Limits
@@ -616,18 +631,25 @@ rules:
   slug: apple-spectral-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 4.2
+  composite: 63.7
+  delta: -1.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 77.0
-    developer_ergonomics: 41.3
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 78.1
+    developer_ergonomics: 45.7
+    discoverability: 63.0
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 61.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png
 security:

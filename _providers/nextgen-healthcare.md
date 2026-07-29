@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -198,7 +200,7 @@ overview: 'NextGen Healthcare publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   NextGen Healthcare''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
-random_paper: 11
+random_paper: 76
 scopes:
 - name: Nextgen Healthcare Scopes
   scope_count: 12
@@ -206,23 +208,34 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 51.3
+  delta: -0.6
   facets:
     commercial_clarity: 36.8
-    contract_quality: 56.6
-    developer_ergonomics: 67.4
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 59.2
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 5.3
   previous_composite: 51.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 50.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 82.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

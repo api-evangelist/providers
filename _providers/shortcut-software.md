@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 81.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 2
@@ -111,12 +113,92 @@ apis:
 - description: The Workflows API from Shortcut Software — 2 operation(s) for workflows.
   name: Shortcut Software Workflows API
   slug: shortcut-software-workflows-api
-artifact_total: 34
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Shortcut Software Webhooks
   slug: shortcut-software-webhooks
+collections:
+- collection_type: postman
+  name: Shortcut Categories API
+  slug: postman-shortcut-software-categories-api
+- collection_type: postman
+  name: Shortcut Categories Custom Fields API
+  slug: postman-shortcut-software-custom-fields-api
+- collection_type: postman
+  name: Shortcut Categories Documents API
+  slug: postman-shortcut-software-documents-api
+- collection_type: postman
+  name: Shortcut Categories Entity Templates API
+  slug: postman-shortcut-software-entity-templates-api
+- collection_type: postman
+  name: Shortcut Categories Epic Workflow API
+  slug: postman-shortcut-software-epic-workflow-api
+- collection_type: postman
+  name: Shortcut Categories Epics API
+  slug: postman-shortcut-software-epics-api
+- collection_type: postman
+  name: Shortcut Categories External Link API
+  slug: postman-shortcut-software-external-link-api
+- collection_type: postman
+  name: Shortcut Categories Files API
+  slug: postman-shortcut-software-files-api
+- collection_type: postman
+  name: Shortcut Categories Groups API
+  slug: postman-shortcut-software-groups-api
+- collection_type: postman
+  name: Shortcut Categories Health API
+  slug: postman-shortcut-software-health-api
+- collection_type: postman
+  name: Shortcut Categories Integrations API
+  slug: postman-shortcut-software-integrations-api
+- collection_type: postman
+  name: Shortcut Categories Iterations API
+  slug: postman-shortcut-software-iterations-api
+- collection_type: postman
+  name: Shortcut Categories Key Results API
+  slug: postman-shortcut-software-key-results-api
+- collection_type: postman
+  name: Shortcut Categories Labels API
+  slug: postman-shortcut-software-labels-api
+- collection_type: postman
+  name: Shortcut Categories Linked Files API
+  slug: postman-shortcut-software-linked-files-api
+- collection_type: postman
+  name: Shortcut Categories Member API
+  slug: postman-shortcut-software-member-api
+- collection_type: postman
+  name: Shortcut Categories Members API
+  slug: postman-shortcut-software-members-api
+- collection_type: postman
+  name: Shortcut Categories Milestones API
+  slug: postman-shortcut-software-milestones-api
+- collection_type: postman
+  name: Shortcut Categories Objectives API
+  slug: postman-shortcut-software-objectives-api
+- collection_type: postman
+  name: Shortcut Categories Projects API
+  slug: postman-shortcut-software-projects-api
+- collection_type: postman
+  name: Shortcut Categories Repositories API
+  slug: postman-shortcut-software-repositories-api
+- collection_type: postman
+  name: Shortcut Categories Search API
+  slug: postman-shortcut-software-search-api
+- collection_type: postman
+  name: Shortcut Categories Stories API
+  slug: postman-shortcut-software-stories-api
+- collection_type: postman
+  name: Shortcut Categories Story Links API
+  slug: postman-shortcut-software-story-links-api
+- collection_type: postman
+  name: Shortcut Categories Workflows API
+  slug: postman-shortcut-software-workflows-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/shortcut-software/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -279,8 +361,8 @@ overview: 'Shortcut Software publishes 25 APIs on the [APIs.io](https://apis.io/
   The Shortcut Software catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Shortcut Software''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 44
+  Shortcut Software''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Shortcut Software Rate Limits
@@ -292,18 +374,28 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 65.9
+  delta: 2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.9
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 65.5
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 84.2
   previous_composite: 63.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: first-party
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

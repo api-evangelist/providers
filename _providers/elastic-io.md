@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -103,16 +105,86 @@ apis:
 - description: Manage workspaces within contracts
   name: Elastic.io Workspaces API
   slug: elastic-io-workspaces-api
-artifact_total: 387
+artifact_total: 409
 asyncapis:
 - description: The elastic.io Platform Events API describes the asynchronous event-driven interactions of the elastic.io iPaaS platform. This includes webhook triggers that initiate integration flows when external s
   name: elastic.io Platform Events API
   slug: elastic-io-platform-events-asyncapi
 collections:
+- collection_type: postman
+  name: elastic.io Platform REST Agents API
+  slug: postman-elastic-io-agents-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Auth Clients API
+  slug: postman-elastic-io-auth-clients-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Auth Secrets API
+  slug: postman-elastic-io-auth-secrets-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Components API
+  slug: postman-elastic-io-components-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Contracts API
+  slug: postman-elastic-io-contracts-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Credentials API
+  slug: postman-elastic-io-credentials-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Data Samples API
+  slug: postman-elastic-io-data-samples-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Executions API
+  slug: postman-elastic-io-executions-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Flow Drafts API
+  slug: postman-elastic-io-flow-drafts-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Flow Versions API
+  slug: postman-elastic-io-flow-versions-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Flows API
+  slug: postman-elastic-io-flows-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Logs API
+  slug: postman-elastic-io-logs-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Quota Usages API
+  slug: postman-elastic-io-quota-usages-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Recipes API
+  slug: postman-elastic-io-recipes-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Roles API
+  slug: postman-elastic-io-roles-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Snapshots API
+  slug: postman-elastic-io-snapshots-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents SSH Keys API
+  slug: postman-elastic-io-ssh-keys-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Subscriptions API
+  slug: postman-elastic-io-subscriptions-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Teams API
+  slug: postman-elastic-io-teams-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Topics API
+  slug: postman-elastic-io-topics-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Users API
+  slug: postman-elastic-io-users-api
+- collection_type: postman
+  name: elastic.io Platform REST Agents Workspaces API
+  slug: postman-elastic-io-workspaces-api
 - collection_type: open
   name: elastic.io Platform REST API
   slug: open-elastic-io-platform-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/elasticio/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -578,12 +650,12 @@ overview: 'Elastic.io publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
   The Elastic.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Elastic.io''s developer surface includes authentication, pricing, getting-started guide, documentation, support, engineering blog, signup flow, and 14 more developer resources.'
+  Elastic.io''s developer surface includes authentication, pricing, getting-started guide, documentation, support, engineering blog, signup flow, and 15 more developer resources.'
 plans:
 - name: Elastic Io Plans Pricing
   plan_count: 3
   slug: elastic-io-plans-pricing
-random_paper: 50
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Elastic Io Rate Limits
@@ -607,18 +679,25 @@ rules:
   slug: elastic-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 4.2
+  composite: 60.7
+  delta: -2.8
   facets:
     commercial_clarity: 63.2
-    contract_quality: 84.1
-    developer_ergonomics: 43.5
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 84.7
+    developer_ergonomics: 47.8
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 59.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-io/refs/heads/main/screenshots/elastic-io-2026-06-20T180540.png
 security:

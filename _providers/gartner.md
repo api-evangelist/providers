@@ -9,23 +9,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 0.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 16.2
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -78,22 +80,22 @@ press:
 - date: '2026-05-25'
   title: Gartner is the world authority on AI
   url: https://www.gartner.com/en/ai
-random_paper: 7
+random_paper: 62
 score:
-  band: minimal
-  composite: 6.8
-  delta: 0.0
+  band: emerging
+  composite: 15.8
+  delta: 9.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 0.0
+    contract_quality: 43.2
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gartner/refs/heads/main/screenshots/gartner-2026-07-25T215450.png
 security:
 - kind: domain-security

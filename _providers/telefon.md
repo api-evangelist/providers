@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -58,8 +60,29 @@ apis:
 - description: Recording transcription management
   name: Telefon Transcriptions API
   slug: telefon-transcriptions-api
-artifact_total: 24
+artifact_total: 31
 collections:
+- collection_type: postman
+  name: Telefon Number Management Available Numbers API
+  slug: postman-telefon-available-numbers-api
+- collection_type: postman
+  name: Telefon Number Management Available Numbers Calls API
+  slug: postman-telefon-calls-api
+- collection_type: postman
+  name: Telefon Number Management Available Numbers Conferences API
+  slug: postman-telefon-conferences-api
+- collection_type: postman
+  name: Telefon Number Management Available Numbers Messages API
+  slug: postman-telefon-messages-api
+- collection_type: postman
+  name: Telefon Number Management Available Numbers Owned Numbers API
+  slug: postman-telefon-owned-numbers-api
+- collection_type: postman
+  name: Telefon Number Management Available Numbers Recordings API
+  slug: postman-telefon-recordings-api
+- collection_type: postman
+  name: Telefon Number Management Available Numbers Transcriptions API
+  slug: postman-telefon-transcriptions-api
 - collection_type: open
   name: Telefon Number Management API
   slug: open-telefon-numbers
@@ -73,6 +96,10 @@ collections:
   name: Telefon Voice API
   slug: open-telefon-voice
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/telefon/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -171,12 +198,12 @@ overview: 'Telefon publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Telefon catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Telefon''s developer surface includes authentication, getting-started guide, support, engineering blog, changelog, pricing, GitHub presence, and 8 more developer resources.'
+  Telefon''s developer surface includes authentication, getting-started guide, support, engineering blog, changelog, pricing, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Telefon Plans Pricing
   plan_count: 1
   slug: telefon-plans-pricing
-random_paper: 1
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Telefon Rate Limits
@@ -199,20 +226,33 @@ rules:
     warn: 4
   slug: telefon-rules
 score:
-  band: strong
-  composite: 61.6
-  delta: 3.3
+  band: developing
+  composite: 55.5
+  delta: -6.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.6
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 66.1
+    developer_ergonomics: 39.1
+    discoverability: 81.5
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 58.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 61.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/screenshots/telefon-2026-06-20T195028.png
 security:
 - kind: authentication

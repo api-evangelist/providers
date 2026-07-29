@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 27.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.0
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Versioned REST API for the CodeNOW platform covering applications, components, containers, libraries, builds, releases, triggers, deployments, environments, clusters, managed services, labels, teams a
@@ -142,25 +144,28 @@ overview: 'CodeNOW publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   CodeNOW''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 3
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Codenow Rate Limits
   slug: codenow-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 32.9
+  delta: -0.2
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 33.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codenow/refs/heads/main/screenshots/codenow-2026-07-25T205923.png
 security:

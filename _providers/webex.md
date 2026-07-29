@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 52.7
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 989
   human_in_the_loop: 84
@@ -571,12 +573,546 @@ apis:
 - description: The xAPI API from Webex — 3 operation(s) for xapi.
   name: Webex xAPI API
   slug: webex-xapi-api
-artifact_total: 4268
+artifact_total: 4446
 asyncapis:
 - description: ''
   name: Review
   slug: review
 collections:
+- collection_type: postman
+  name: Webex Admin Address Book API
+  slug: postman-webex-address-book-api
+- collection_type: postman
+  name: Webex Admin Address Book Admin Audit Events API
+  slug: postman-webex-admin-audit-events-api
+- collection_type: postman
+  name: Webex Admin Address Book Agent Personal Greeting Files API
+  slug: postman-webex-agent-personal-greeting-files-api
+- collection_type: postman
+  name: Webex Admin Address Book Agent Summaries API
+  slug: postman-webex-agent-summaries-api
+- collection_type: postman
+  name: Webex Admin Address Book Agent Wellbeing API
+  slug: postman-webex-agent-wellbeing-api
+- collection_type: postman
+  name: Webex Admin Address Book Agents API
+  slug: postman-webex-agents-api
+- collection_type: postman
+  name: Webex Admin Address Book AI Feature API
+  slug: postman-webex-ai-feature-api
+- collection_type: postman
+  name: Webex Admin Address Book API - Domain Management API
+  slug: postman-webex-api-domain-management-api
+- collection_type: postman
+  name: Webex Admin Address Book Archive Users API
+  slug: postman-webex-archive-users-api
+- collection_type: postman
+  name: Webex Admin Address Book Attachment Actions API
+  slug: postman-webex-attachment-actions-api
+- collection_type: postman
+  name: Webex Admin Address Book Audio Files API
+  slug: postman-webex-audio-files-api
+- collection_type: postman
+  name: Webex Admin Address Book Authorizations API
+  slug: postman-webex-authorizations-api
+- collection_type: postman
+  name: Webex Admin Address Book Auto CSAT API
+  slug: postman-webex-auto-csat-api
+- collection_type: postman
+  name: Webex Admin Address Book Auxiliary Code API
+  slug: postman-webex-auxiliary-code-api
+- collection_type: postman
+  name: Webex Admin Address Book Beta Call Settings For Me With Userhub Phase1 API
+  slug: postman-webex-beta-call-settings-for-me-with-userhub-phase1-api
+- collection_type: postman
+  name: Webex Admin Address Book Beta Device Call Settings With Dynamic Device Settings API
+  slug: postman-webex-beta-device-call-settings-with-dynamic-device-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Beta Settings Features For Barge-In API
+  slug: postman-webex-beta-settings-features-for-barge-in-api
+- collection_type: postman
+  name: Webex Admin Address Book BroadWorks Billing Reports API
+  slug: postman-webex-broadworks-billing-reports-api
+- collection_type: postman
+  name: Webex Admin Address Book BroadWorks Enterprises API
+  slug: postman-webex-broadworks-enterprises-api
+- collection_type: postman
+  name: Webex Admin Address Book BroadWorks Subscribers API
+  slug: postman-webex-broadworks-subscribers-api
+- collection_type: postman
+  name: Webex Admin Address Book BroadWorks Workspaces API
+  slug: postman-webex-broadworks-workspaces-api
+- collection_type: postman
+  name: Webex Admin Address Book Bulk Manage SCIM 2 Users and Groups API
+  slug: postman-webex-bulk-manage-scim-2-users-and-groups-api
+- collection_type: postman
+  name: Webex Admin Address Book Business Hour API
+  slug: postman-webex-business-hour-api
+- collection_type: postman
+  name: Webex Admin Address Book Call Controls API
+  slug: postman-webex-call-controls-api
+- collection_type: postman
+  name: Webex Admin Address Book Call Monitoring API
+  slug: postman-webex-call-monitoring-api
+- collection_type: postman
+  name: Webex Admin Address Book Call Queue Settings with Playlist Settings API
+  slug: postman-webex-call-queue-settings-with-playlist-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Call Routing API
+  slug: postman-webex-call-routing-api
+- collection_type: postman
+  name: Webex Admin Address Book Call Settings For Me API
+  slug: postman-webex-call-settings-for-me-api
+- collection_type: postman
+  name: Webex Admin Address Book Call Settings For Me Phase 4 API
+  slug: postman-webex-call-settings-for-me-phase-4-api
+- collection_type: postman
+  name: Webex Admin Address Book Call Settings For Me Phase 5 API
+  slug: postman-webex-call-settings-for-me-phase-5-api
+- collection_type: postman
+  name: Webex Admin Address Book Call Settings For Me With UserHub Phase2 API
+  slug: postman-webex-call-settings-for-me-with-userhub-phase2-api
+- collection_type: postman
+  name: Webex Admin Address Book Call Settings For Me With UserHub Phase3 API
+  slug: postman-webex-call-settings-for-me-with-userhub-phase3-api
+- collection_type: postman
+  name: Webex Admin Address Book Callbacks API
+  slug: postman-webex-callbacks-api
+- collection_type: postman
+  name: Webex Admin Address Book Caller Reputation Provider API
+  slug: postman-webex-caller-reputation-provider-api
+- collection_type: postman
+  name: Webex Admin Address Book Calling Service Settings API
+  slug: postman-webex-calling-service-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Campaign Manager API
+  slug: postman-webex-campaign-manager-api
+- collection_type: postman
+  name: Webex Admin Address Book Captures API
+  slug: postman-webex-captures-api
+- collection_type: postman
+  name: Webex Admin Address Book Chats API
+  slug: postman-webex-chats-api
+- collection_type: postman
+  name: Webex Admin Address Book Classifications API
+  slug: postman-webex-classifications-api
+- collection_type: postman
+  name: Webex Admin Address Book Client Call Settings API
+  slug: postman-webex-client-call-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Closed Captions API
+  slug: postman-webex-closed-captions-api
+- collection_type: postman
+  name: Webex Admin Address Book Conference Controls API
+  slug: postman-webex-conference-controls-api
+- collection_type: postman
+  name: Webex Admin Address Book Contact List Management API
+  slug: postman-webex-contact-list-management-api
+- collection_type: postman
+  name: Webex Admin Address Book Contact Number API
+  slug: postman-webex-contact-number-api
+- collection_type: postman
+  name: Webex Admin Address Book Contact Service Queue API
+  slug: postman-webex-contact-service-queue-api
+- collection_type: postman
+  name: Webex Admin Address Book Converged Recordings API
+  slug: postman-webex-converged-recordings-api
+- collection_type: postman
+  name: Webex Admin Address Book Data Sources API
+  slug: postman-webex-data-sources-api
+- collection_type: postman
+  name: Webex Admin Address Book DECT Devices Settings API
+  slug: postman-webex-dect-devices-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Desktop Layout API
+  slug: postman-webex-desktop-layout-api
+- collection_type: postman
+  name: Webex Admin Address Book Desktop Profile API
+  slug: postman-webex-desktop-profile-api
+- collection_type: postman
+  name: Webex Admin Address Book Device Call Settings API
+  slug: postman-webex-device-call-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Device Call Settings With Device Dynamic Settings API
+  slug: postman-webex-device-call-settings-with-device-dynamic-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Device Configurations API
+  slug: postman-webex-device-configurations-api
+- collection_type: postman
+  name: Webex Admin Address Book Devices API
+  slug: postman-webex-devices-api
+- collection_type: postman
+  name: Webex Admin Address Book Dial Number API
+  slug: postman-webex-dial-number-api
+- collection_type: postman
+  name: Webex Admin Address Book Dial Plan API
+  slug: postman-webex-dial-plan-api
+- collection_type: postman
+  name: Webex Admin Address Book DNC Management API
+  slug: postman-webex-dnc-management-api
+- collection_type: postman
+  name: Webex Admin Address Book ECM folder linking API
+  slug: postman-webex-ecm-folder-linking-api
+- collection_type: postman
+  name: Webex Admin Address Book Emergency Services Settings API
+  slug: postman-webex-emergency-services-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Entry Point API
+  slug: postman-webex-entry-point-api
+- collection_type: postman
+  name: Webex Admin Address Book Estimated Wait Time API
+  slug: postman-webex-estimated-wait-time-api
+- collection_type: postman
+  name: Webex Admin Address Book Events API
+  slug: postman-webex-events-api
+- collection_type: postman
+  name: Webex Admin Address Book External Voicemail API
+  slug: postman-webex-external-voicemail-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features: Announcement Playlist API'
+  slug: postman-webex-features-announcement-playlist-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features: Announcement Repository API'
+  slug: postman-webex-features-announcement-repository-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features:  Auto Attendant API'
+  slug: postman-webex-features-auto-attendant-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features:  Call Park API'
+  slug: postman-webex-features-call-park-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features:  Call Pickup API'
+  slug: postman-webex-features-call-pickup-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features:  Call Queue API'
+  slug: postman-webex-features-call-queue-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features: Call Recording API'
+  slug: postman-webex-features-call-recording-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features: Customer Assist API'
+  slug: postman-webex-features-customer-assist-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features: Hot Desking Sign-in via Voice Portal API'
+  slug: postman-webex-features-hot-desking-sign-in-via-voice-portal-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features:  Hunt Group API'
+  slug: postman-webex-features-hunt-group-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features: Operating Modes API'
+  slug: postman-webex-features-operating-modes-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features:  Paging Group API'
+  slug: postman-webex-features-paging-group-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features: Single Number Reach API'
+  slug: postman-webex-features-single-number-reach-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Features: Virtual Extensions API'
+  slug: postman-webex-features-virtual-extensions-api
+- collection_type: postman
+  name: Webex Admin Address Book Flow API
+  slug: postman-webex-flow-api
+- collection_type: postman
+  name: Webex Admin Address Book Generated Summaries API
+  slug: postman-webex-generated-summaries-api
+- collection_type: postman
+  name: Webex Admin Address Book Global Variables API
+  slug: postman-webex-global-variables-api
+- collection_type: postman
+  name: Webex Admin Address Book Groups API
+  slug: postman-webex-groups-api
+- collection_type: postman
+  name: Webex Admin Address Book Guest Management API
+  slug: postman-webex-guest-management-api
+- collection_type: postman
+  name: Webex Admin Address Book HDS API
+  slug: postman-webex-hds-api
+- collection_type: postman
+  name: Webex Admin Address Book Historical Analytics APIs API
+  slug: postman-webex-historical-analytics-apis-api
+- collection_type: postman
+  name: Webex Admin Address Book Holiday List API
+  slug: postman-webex-holiday-list-api
+- collection_type: postman
+  name: Webex Admin Address Book Hot Desk API
+  slug: postman-webex-hot-desk-api
+- collection_type: postman
+  name: Webex Admin Address Book Hybrid Clusters API
+  slug: postman-webex-hybrid-clusters-api
+- collection_type: postman
+  name: Webex Admin Address Book Hybrid Connectors API
+  slug: postman-webex-hybrid-connectors-api
+- collection_type: postman
+  name: Webex Admin Address Book Identity Organization API
+  slug: postman-webex-identity-organization-api
+- collection_type: postman
+  name: Webex Admin Address Book Invitees API
+  slug: postman-webex-invitees-api
+- collection_type: postman
+  name: Webex Admin Address Book Journey - Customer Identification API API
+  slug: postman-webex-journey-customer-identification-api-api
+- collection_type: postman
+  name: Webex Admin Address Book Journey - Data Ingestion API API
+  slug: postman-webex-journey-data-ingestion-api-api
+- collection_type: postman
+  name: Webex Admin Address Book Journey - Profile Creation & Insights API API
+  slug: postman-webex-journey-profile-creation-insights-api-api
+- collection_type: postman
+  name: Webex Admin Address Book Journey - Subscription API API
+  slug: postman-webex-journey-subscription-api-api
+- collection_type: postman
+  name: Webex Admin Address Book Journey - Trigger Actions API API
+  slug: postman-webex-journey-trigger-actions-api-api
+- collection_type: postman
+  name: Webex Admin Address Book Journey - Workspace management API API
+  slug: postman-webex-journey-workspace-management-api-api
+- collection_type: postman
+  name: Webex Admin Address Book Licenses API
+  slug: postman-webex-licenses-api
+- collection_type: postman
+  name: Webex Admin Address Book Live Monitoring API
+  slug: postman-webex-live-monitoring-api
+- collection_type: postman
+  name: Webex Admin Address Book Location Call Settings API
+  slug: postman-webex-location-call-settings-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Location Call Settings: Call Handling API'
+  slug: postman-webex-location-call-settings-call-handling-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Location Call Settings:  Schedules API'
+  slug: postman-webex-location-call-settings-schedules-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Location Call Settings:  Voicemail API'
+  slug: postman-webex-location-call-settings-voicemail-api
+- collection_type: postman
+  name: Webex Admin Address Book Locations API
+  slug: postman-webex-locations-api
+- collection_type: postman
+  name: Webex Admin Address Book Meeting Polls API
+  slug: postman-webex-meeting-polls-api
+- collection_type: postman
+  name: Webex Admin Address Book Meeting Q and A API
+  slug: postman-webex-meeting-q-and-a-api
+- collection_type: postman
+  name: Webex Admin Address Book Meeting Qualities API
+  slug: postman-webex-meeting-qualities-api
+- collection_type: postman
+  name: Webex Admin Address Book Meetings API
+  slug: postman-webex-meetings-api
+- collection_type: postman
+  name: Webex Admin Address Book Meetings Summary Report API
+  slug: postman-webex-meetings-summary-report-api
+- collection_type: postman
+  name: Webex Admin Address Book Memberships API
+  slug: postman-webex-memberships-api
+- collection_type: postman
+  name: Webex Admin Address Book Messages API
+  slug: postman-webex-messages-api
+- collection_type: postman
+  name: Webex Admin Address Book Mode Management API
+  slug: postman-webex-mode-management-api
+- collection_type: postman
+  name: Webex Admin Address Book Multimedia Profile API
+  slug: postman-webex-multimedia-profile-api
+- collection_type: postman
+  name: Webex Admin Address Book Notification API
+  slug: postman-webex-notification-api
+- collection_type: postman
+  name: Webex Admin Address Book Numbers API
+  slug: postman-webex-numbers-api
+- collection_type: postman
+  name: Webex Admin Address Book Organization Contacts API
+  slug: postman-webex-organization-contacts-api
+- collection_type: postman
+  name: Webex Admin Address Book Organizations API
+  slug: postman-webex-organizations-api
+- collection_type: postman
+  name: Webex Admin Address Book Outdial ANI API
+  slug: postman-webex-outdial-ani-api
+- collection_type: postman
+  name: Webex Admin Address Book Overrides API
+  slug: postman-webex-overrides-api
+- collection_type: postman
+  name: Webex Admin Address Book Participants API
+  slug: postman-webex-participants-api
+- collection_type: postman
+  name: Webex Admin Address Book Partner Administrators API
+  slug: postman-webex-partner-administrators-api
+- collection_type: postman
+  name: Webex Admin Address Book Partner Reports/Templates API
+  slug: postman-webex-partner-reports-templates-api
+- collection_type: postman
+  name: Webex Admin Address Book Partner Tags API
+  slug: postman-webex-partner-tags-api
+- collection_type: postman
+  name: Webex Admin Address Book People API
+  slug: postman-webex-people-api
+- collection_type: postman
+  name: Webex Admin Address Book Preferences API
+  slug: postman-webex-preferences-api
+- collection_type: postman
+  name: Webex Admin Address Book PSTN API
+  slug: postman-webex-pstn-api
+- collection_type: postman
+  name: Webex Admin Address Book Queues API
+  slug: postman-webex-queues-api
+- collection_type: postman
+  name: Webex Admin Address Book Realtime API
+  slug: postman-webex-realtime-api
+- collection_type: postman
+  name: Webex Admin Address Book Recording Report API
+  slug: postman-webex-recording-report-api
+- collection_type: postman
+  name: Webex Admin Address Book Recordings API
+  slug: postman-webex-recordings-api
+- collection_type: postman
+  name: Webex Admin Address Book Report Templates API
+  slug: postman-webex-report-templates-api
+- collection_type: postman
+  name: Webex Admin Address Book Reports API
+  slug: postman-webex-reports-api
+- collection_type: postman
+  name: 'Webex Admin Address Book Reports: Detailed Call History API'
+  slug: postman-webex-reports-detailed-call-history-api
+- collection_type: postman
+  name: Webex Admin Address Book Resource Collection API
+  slug: postman-webex-resource-collection-api
+- collection_type: postman
+  name: Webex Admin Address Book Resource Group Memberships API
+  slug: postman-webex-resource-group-memberships-api
+- collection_type: postman
+  name: Webex Admin Address Book Resource Groups API
+  slug: postman-webex-resource-groups-api
+- collection_type: postman
+  name: Webex Admin Address Book Roles API
+  slug: postman-webex-roles-api
+- collection_type: postman
+  name: Webex Admin Address Book Room Tabs API
+  slug: postman-webex-room-tabs-api
+- collection_type: postman
+  name: Webex Admin Address Book Rooms API
+  slug: postman-webex-rooms-api
+- collection_type: postman
+  name: Webex Admin Address Book SCIM 2 Groups API
+  slug: postman-webex-scim-2-groups-api
+- collection_type: postman
+  name: Webex Admin Address Book SCIM 2 Schemas API
+  slug: postman-webex-scim-2-schemas-api
+- collection_type: postman
+  name: Webex Admin Address Book SCIM 2 Users API
+  slug: postman-webex-scim-2-users-api
+- collection_type: postman
+  name: Webex Admin Address Book Search API
+  slug: postman-webex-search-api
+- collection_type: postman
+  name: Webex Admin Address Book Security Audit Events API
+  slug: postman-webex-security-audit-events-api
+- collection_type: postman
+  name: Webex Admin Address Book Send Activation Email API
+  slug: postman-webex-send-activation-email-api
+- collection_type: postman
+  name: Webex Admin Address Book Service Apps API
+  slug: postman-webex-service-apps-api
+- collection_type: postman
+  name: Webex Admin Address Book Session Types API
+  slug: postman-webex-session-types-api
+- collection_type: postman
+  name: Webex Admin Address Book Settings API
+  slug: postman-webex-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Site API
+  slug: postman-webex-site-api
+- collection_type: postman
+  name: Webex Admin Address Book Skill API
+  slug: postman-webex-skill-api
+- collection_type: postman
+  name: Webex Admin Address Book Skill Profile API
+  slug: postman-webex-skill-profile-api
+- collection_type: postman
+  name: Webex Admin Address Book slidoSecurePremium API
+  slug: postman-webex-slidosecurepremium-api
+- collection_type: postman
+  name: Webex Admin Address Book Subscriptions API
+  slug: postman-webex-subscriptions-api
+- collection_type: postman
+  name: Webex Admin Address Book Summaries API
+  slug: postman-webex-summaries-api
+- collection_type: postman
+  name: Webex Admin Address Book Tasks API
+  slug: postman-webex-tasks-api
+- collection_type: postman
+  name: Webex Admin Address Book Team API
+  slug: postman-webex-team-api
+- collection_type: postman
+  name: Webex Admin Address Book Team Memberships API
+  slug: postman-webex-team-memberships-api
+- collection_type: postman
+  name: Webex Admin Address Book Teams API
+  slug: postman-webex-teams-api
+- collection_type: postman
+  name: Webex Admin Address Book Telephony API
+  slug: postman-webex-telephony-api
+- collection_type: postman
+  name: Webex Admin Address Book Tracking Codes API
+  slug: postman-webex-tracking-codes-api
+- collection_type: postman
+  name: Webex Admin Address Book Transcripts API
+  slug: postman-webex-transcripts-api
+- collection_type: postman
+  name: Webex Admin Address Book UCM Profile API
+  slug: postman-webex-ucm-profile-api
+- collection_type: postman
+  name: Webex Admin Address Book User Call Settings (1/2) API
+  slug: postman-webex-user-call-settings-1-2-api
+- collection_type: postman
+  name: Webex Admin Address Book User Call Settings (2/2) API
+  slug: postman-webex-user-call-settings-2-2-api
+- collection_type: postman
+  name: Webex Admin Address Book User Profiles API
+  slug: postman-webex-user-profiles-api
+- collection_type: postman
+  name: Webex Admin Address Book Users API
+  slug: postman-webex-users-api
+- collection_type: postman
+  name: Webex Admin Address Book Video Mesh API
+  slug: postman-webex-video-mesh-api
+- collection_type: postman
+  name: Webex Admin Address Book Virtual Line Call Settings API
+  slug: postman-webex-virtual-line-call-settings-api
+- collection_type: postman
+  name: Webex Admin Address Book Webhooks API
+  slug: postman-webex-webhooks-api
+- collection_type: postman
+  name: Webex Admin Address Book Wholesale Billing Reports API
+  slug: postman-webex-wholesale-billing-reports-api
+- collection_type: postman
+  name: Webex Admin Address Book Wholesale Provisioning API
+  slug: postman-webex-wholesale-provisioning-api
+- collection_type: postman
+  name: Webex Admin Address Book Work Types API
+  slug: postman-webex-work-types-api
+- collection_type: postman
+  name: Webex Admin Address Book Workspace Call Settings (1/2) API
+  slug: postman-webex-workspace-call-settings-1-2-api
+- collection_type: postman
+  name: Webex Admin Address Book Workspace Call Settings (2/2) API
+  slug: postman-webex-workspace-call-settings-2-2-api
+- collection_type: postman
+  name: Webex Admin Address Book Workspace Locations API
+  slug: postman-webex-workspace-locations-api
+- collection_type: postman
+  name: Webex Admin Address Book Workspace Metrics API
+  slug: postman-webex-workspace-metrics-api
+- collection_type: postman
+  name: Webex Admin Address Book Workspace Personalization API
+  slug: postman-webex-workspace-personalization-api
+- collection_type: postman
+  name: Webex Admin Address Book Workspaces API
+  slug: postman-webex-workspaces-api
+- collection_type: postman
+  name: Webex Admin Address Book xAPI API
+  slug: postman-webex-xapi-api
 - collection_type: open
   name: Webex Admin
   slug: open-webex-admin
@@ -605,6 +1141,10 @@ collections:
   name: Webex Wholesale
   slug: open-webex-wholesale
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/webex/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -12911,12 +13451,12 @@ overview: 'Webex publishes 178 APIs on the [APIs.io](https://apis.io/) network, 
   The Webex catalog on APIs.io includes 1 event-driven AsyncAPI specification, 9 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Webex''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 21 more developer resources.'
+  Webex''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 22 more developer resources.'
 plans:
 - name: Webex Plans Pricing
   plan_count: 3
   slug: webex-plans-pricing
-random_paper: 63
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Webex Rate Limits
@@ -12945,18 +13485,31 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 58.4
+  delta: -3.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.3
-    developer_ergonomics: 52.2
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 65.2
+    developer_ergonomics: 56.5
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 42.1
   previous_composite: 62.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 178
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/screenshots/webex-2026-06-20T201328.png
 security:

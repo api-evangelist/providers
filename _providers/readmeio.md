@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 37.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 20.0
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: The current ReadMe API for managing your project programmatically — API keys, API definitions, reference/guides/custom pages, categories, branches, changelog entries, recipes, images, fonts, Owlbot AI
@@ -172,21 +174,25 @@ overview: 'ReadMe.io publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   ReadMe.io''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 22
+random_paper: 68
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 40.0
+  delta: -1.6
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 44.7
   previous_composite: 41.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

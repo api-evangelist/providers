@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 46.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -91,12 +93,63 @@ apis:
 - description: Manage SQL transforms applied to decoded events before delivery.
   name: Covalent Transforms API
   slug: covalent-transforms-api
-artifact_total: 39
+artifact_total: 56
 asyncapis:
 - description: Real-time blockchain data from GoldRush (Covalent) delivered over a single WebSocket endpoint that speaks the GraphQL over WebSocket protocol (`graphql-transport-ws`, the protocol implemented by the `
   name: GoldRush Streaming API
   slug: covalent-asyncapi
 collections:
+- collection_type: postman
+  name: GoldRush Foundational ABI API
+  slug: postman-covalent-abi-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Balances API
+  slug: postman-covalent-balances-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Base API
+  slug: postman-covalent-base-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Bitcoin API
+  slug: postman-covalent-bitcoin-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Cross-Chain API
+  slug: postman-covalent-cross-chain-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Data API
+  slug: postman-covalent-data-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Destinations API
+  slug: postman-covalent-destinations-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Discovery API
+  slug: postman-covalent-discovery-api
+- collection_type: postman
+  name: GoldRush Foundational ABI GraphQL API
+  slug: postman-covalent-graphql-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Info API
+  slug: postman-covalent-info-api
+- collection_type: postman
+  name: GoldRush Foundational ABI NFT API
+  slug: postman-covalent-nft-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Pipelines API
+  slug: postman-covalent-pipelines-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Pricing API
+  slug: postman-covalent-pricing-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Queries API
+  slug: postman-covalent-queries-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Security API
+  slug: postman-covalent-security-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Transactions API
+  slug: postman-covalent-transactions-api
+- collection_type: postman
+  name: GoldRush Foundational ABI Transforms API
+  slug: postman-covalent-transforms-api
 - collection_type: open
   name: GoldRush Foundational API
   slug: open-covalent-foundational-api
@@ -113,6 +166,10 @@ collections:
   name: GoldRush x402 API
   slug: open-covalent-x402-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/covalent/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -331,12 +388,12 @@ overview: 'Covalent publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The Covalent catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Covalent''s developer surface includes authentication, GitHub presence, developer portal, documentation, changelog, engineering blog, pricing, and 34 more developer resources.'
+  Covalent''s developer surface includes authentication, GitHub presence, developer portal, documentation, changelog, engineering blog, pricing, and 35 more developer resources.'
 plans:
 - name: Covalent Plans Pricing
   plan_count: 4
   slug: covalent-plans-pricing
-random_paper: 44
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Covalent Rate Limits
@@ -359,19 +416,26 @@ rules:
     warn: 5
   slug: covalent-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 69.8
-  delta: 4.7
+  band: exemplar
+  composite: 67.2
+  delta: -2.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 78.1
-    developer_ergonomics: 56.5
-    discoverability: 80.0
-    governance: 65.8
+    contract_quality: 78.9
+    developer_ergonomics: 60.9
+    discoverability: 59.3
+    governance: 52.1
     operational_transparency: 68.4
-  previous_composite: 65.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/screenshots/covalent-2026-06-20T175115.png
 security:

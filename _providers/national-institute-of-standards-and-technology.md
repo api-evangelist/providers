@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,25 +109,32 @@ plans:
 - name: National Institute Of Standards And Technology Plans Pricing
   plan_count: 3
   slug: national-institute-of-standards-and-technology-plans-pricing
-random_paper: 24
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: National Institute Of Standards And Technology Rate Limits
   slug: national-institute-of-standards-and-technology-rate-limits
 score:
   band: thin
-  composite: 38.8
-  delta: 3.3
+  composite: 36.7
+  delta: -2.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 48.7
+    contract_quality: 50.8
     developer_ergonomics: 19.6
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 35.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 38.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institute-of-standards-and-technology/refs/heads/main/screenshots/national-institute-of-standards-and-technology-2026-06-20T190029.png
 security:

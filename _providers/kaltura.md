@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1250
   human_in_the_loop: 41
@@ -906,7 +908,7 @@ plans:
 - name: Kaltura Plans Pricing
   plan_count: 6
   slug: kaltura-plans-pricing
-random_paper: 8
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Kaltura Rate Limits
@@ -922,18 +924,25 @@ rules:
   slug: kaltura-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 48.6
+  delta: -2.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.5
+    contract_quality: 61.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
-    governance: 73.7
+    discoverability: 50.0
+    governance: 58.3
     operational_transparency: 52.6
   previous_composite: 51.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 222
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/screenshots/kaltura-2026-06-20T183911.png
 security:

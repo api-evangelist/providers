@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Unlimited shareable scheduling links, meeting polls, and customizable booking pages let invitees self-serve a time. This is a product surface managed through the Zcal web application; there is no docu
@@ -100,25 +102,25 @@ plans:
 - name: Zcal Plans Pricing
   plan_count: 3
   slug: zcal-plans-pricing
-random_paper: 18
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Zcal Rate Limits
   slug: zcal-rate-limits
 score:
   band: thin
-  composite: 32.6
-  delta: 2.0
+  composite: 29.0
+  delta: -3.6
   facets:
     commercial_clarity: 47.4
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 10.9
-    discoverability: 87.5
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 30.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 32.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

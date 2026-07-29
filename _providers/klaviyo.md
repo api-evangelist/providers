@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -106,16 +108,89 @@ apis:
 - description: webhooks
   name: Klaviyo Webhooks API
   slug: klaviyo-webhooks-api
-artifact_total: 1246
+artifact_total: 1269
 asyncapis:
 - description: AsyncAPI 2.6 description of Klaviyo's system webhook surface. Klaviyo delivers webhook events to subscriber URLs configured via the Webhooks API (POST /api/webhooks). Each delivery is an HTTP POST wit
   name: Klaviyo Webhooks
   slug: klaviyo-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Klaviyo Accounts API
+  slug: postman-klaviyo-accounts-api
+- collection_type: postman
+  name: Klaviyo Accounts Campaigns API
+  slug: postman-klaviyo-campaigns-api
+- collection_type: postman
+  name: Klaviyo Accounts Catalogs API
+  slug: postman-klaviyo-catalogs-api
+- collection_type: postman
+  name: Klaviyo Accounts Client API
+  slug: postman-klaviyo-client-api
+- collection_type: postman
+  name: Klaviyo Accounts Conversations API
+  slug: postman-klaviyo-conversations-api
+- collection_type: postman
+  name: Klaviyo Accounts Coupons API
+  slug: postman-klaviyo-coupons-api
+- collection_type: postman
+  name: Klaviyo Accounts Custom Objects API
+  slug: postman-klaviyo-custom-objects-api
+- collection_type: postman
+  name: Klaviyo Accounts Data Privacy API
+  slug: postman-klaviyo-data-privacy-api
+- collection_type: postman
+  name: Klaviyo Accounts Events API
+  slug: postman-klaviyo-events-api
+- collection_type: postman
+  name: Klaviyo Accounts Flows API
+  slug: postman-klaviyo-flows-api
+- collection_type: postman
+  name: Klaviyo Accounts Forms API
+  slug: postman-klaviyo-forms-api
+- collection_type: postman
+  name: Klaviyo Accounts Images API
+  slug: postman-klaviyo-images-api
+- collection_type: postman
+  name: Klaviyo Accounts Lists API
+  slug: postman-klaviyo-lists-api
+- collection_type: postman
+  name: Klaviyo Accounts Metrics API
+  slug: postman-klaviyo-metrics-api
+- collection_type: postman
+  name: Klaviyo Accounts Profiles API
+  slug: postman-klaviyo-profiles-api
+- collection_type: postman
+  name: Klaviyo Accounts Reporting API
+  slug: postman-klaviyo-reporting-api
+- collection_type: postman
+  name: Klaviyo Accounts Reviews API
+  slug: postman-klaviyo-reviews-api
+- collection_type: postman
+  name: Klaviyo Accounts Segments API
+  slug: postman-klaviyo-segments-api
+- collection_type: postman
+  name: Klaviyo Accounts Tags API
+  slug: postman-klaviyo-tags-api
+- collection_type: postman
+  name: Klaviyo Accounts Templates API
+  slug: postman-klaviyo-templates-api
+- collection_type: postman
+  name: Klaviyo Accounts Tracking Settings API
+  slug: postman-klaviyo-tracking-settings-api
+- collection_type: postman
+  name: Klaviyo Accounts Web Feeds API
+  slug: postman-klaviyo-web-feeds-api
+- collection_type: postman
+  name: Klaviyo Accounts Webhooks API
+  slug: postman-klaviyo-webhooks-api
 - collection_type: open
   name: Klaviyo API
   slug: open-klaviyo
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/klaviyo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3826,12 +3901,12 @@ overview: 'Klaviyo publishes 23 APIs on the [APIs.io](https://apis.io/) network,
   The Klaviyo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Klaviyo''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, signup flow, pricing, and 14 more developer resources.'
+  Klaviyo''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, signup flow, pricing, and 15 more developer resources.'
 plans:
 - name: Klaviyo Plans Pricing
   plan_count: 3
   slug: klaviyo-plans-pricing
-random_paper: 19
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Klaviyo Rate Limits
@@ -3855,19 +3930,32 @@ rules:
   slug: klaviyo-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 67.9
-  delta: 3.2
+  composite: 60.9
+  delta: -7.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.6
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 52.6
+    contract_quality: 72.1
+    developer_ergonomics: 52.2
+    discoverability: 74.1
+    governance: 41.7
     operational_transparency: 68.4
-  previous_composite: 64.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 67.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/screenshots/klaviyo-2026-06-20T184103.png
 security:
 - kind: authentication

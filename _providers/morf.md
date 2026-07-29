@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 19.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 34.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Morf's REST API and webhook surface for building healthcare automation workflows. Webhooks from source applications are ingested at api.morf.healthcare/webhooks/ and processed into events that trigger
@@ -153,7 +155,7 @@ overview: 'Morf publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Morf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 18 more developer resources.'
-random_paper: 28
+random_paper: 51
 scopes:
 - name: Morf Scopes
   scope_count: 6
@@ -161,23 +163,26 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 49.1
+  delta: 2.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 22.6
+    contract_quality: 51.6
     developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 13.2
   previous_composite: 46.3
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 58.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

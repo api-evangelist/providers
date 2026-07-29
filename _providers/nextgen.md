@@ -23,7 +23,7 @@ modified: '2026-06-13'
 name: NextGen Healthcare
 nav: Providers
 network: true
-random_paper: 13
+random_paper: 68
 slug: nextgen
 tags:
 - EHR

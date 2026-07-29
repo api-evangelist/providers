@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 4
 apis:
 - description: 'REST API for the Diligent One Platform (formerly HighBond) covering the governance, risk, and compliance surface - organizations, projects, control tests, risks, controls, issues, frameworks, results '
@@ -90,21 +92,21 @@ overview: 'Diligent publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Diligent''s developer surface includes documentation and 8 more developer resources.'
-random_paper: 32
+random_paper: 65
 score:
-  band: emerging
-  composite: 15.4
-  delta: 0.0
+  band: minimal
+  composite: 12.8
+  delta: -2.6
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diligent-boards/refs/heads/main/screenshots/diligent-boards-2026-07-25T212042.png
 security:

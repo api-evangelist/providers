@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -270,7 +272,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 55
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -286,24 +288,32 @@ rules:
   slug: data-world-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 58.9
-  delta: 0.0
+  composite: 53.3
+  delta: -5.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 60.9
+    contract_quality: 57.3
     developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 47.4
   previous_composite: 58.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
   regulatory:
     applies: true
+    matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 56.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 48.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/screenshots/data-world-2026-06-20T175628.png
 security:
 - kind: authentication

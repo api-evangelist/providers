@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -49,12 +51,28 @@ apis:
 - description: Schedule future satellite captures
   name: Arlula Tasking API
   slug: arlula-tasking-api
-artifact_total: 81
+artifact_total: 85
 collections:
+- collection_type: postman
+  name: Arlula Archive API
+  slug: postman-arlula-archive-api
+- collection_type: postman
+  name: Arlula Archive Connection API
+  slug: postman-arlula-connection-api
+- collection_type: postman
+  name: Arlula Archive Orders API
+  slug: postman-arlula-orders-api
+- collection_type: postman
+  name: Arlula Archive Tasking API
+  slug: postman-arlula-tasking-api
 - collection_type: open
   name: API Collection
   slug: open-arlula
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/arlula/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -313,12 +331,12 @@ overview: 'Arlula publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Arlula catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Arlula''s developer surface includes authentication, documentation, getting-started guide, developer portal, engineering blog, and 7 more developer resources.'
+  Arlula''s developer surface includes authentication, documentation, getting-started guide, developer portal, engineering blog, and 8 more developer resources.'
 plans:
 - name: Arlula Plans Pricing
   plan_count: 3
   slug: arlula-plans-pricing
-random_paper: 29
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Arlula Rate Limits
@@ -341,20 +359,27 @@ rules:
     warn: 21
   slug: arlula-spectral-rules
 score:
-  band: strong
-  composite: 61.5
-  delta: 5.5
+  band: developing
+  composite: 54.6
+  delta: -6.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 80.5
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 45.7
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 56.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/screenshots/arlula-2026-06-20T172434.png
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -64,8 +66,37 @@ apis:
 - description: The VectorSearch API from ScyllaDB — 1 operation(s) for vectorsearch.
   name: ScyllaDB VectorSearch API
   slug: scylladb-vectorsearch-api
-artifact_total: 25
+artifact_total: 33
+collections:
+- collection_type: postman
+  name: ScyllaDB Cloud Account API
+  slug: postman-scylladb-account-api
+- collection_type: postman
+  name: ScyllaDB Cloud Account Account Cluster Network API
+  slug: postman-scylladb-account-cluster-network-api
+- collection_type: postman
+  name: ScyllaDB Cloud Account Account network cluster connection API
+  slug: postman-scylladb-account-network-cluster-connection-api
+- collection_type: postman
+  name: ScyllaDB Cloud Account Cluster API
+  slug: postman-scylladb-cluster-api
+- collection_type: postman
+  name: ScyllaDB Cloud Account Cluster Request API
+  slug: postman-scylladb-cluster-request-api
+- collection_type: postman
+  name: ScyllaDB Cloud Account Deployment API
+  slug: postman-scylladb-deployment-api
+- collection_type: postman
+  name: ScyllaDB Cloud Account Pricing API
+  slug: postman-scylladb-pricing-api
+- collection_type: postman
+  name: ScyllaDB Cloud Account VectorSearch API
+  slug: postman-scylladb-vectorsearch-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/scylladb/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -200,12 +231,12 @@ overview: 'ScyllaDB publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The ScyllaDB catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ScyllaDB''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, release notes, and 16 more developer resources.'
+  ScyllaDB''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, release notes, and 17 more developer resources.'
 plans:
 - name: Scylladb Plans Pricing
   plan_count: 4
   slug: scylladb-plans-pricing
-random_paper: 30
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Scylladb Rate Limits
@@ -221,18 +252,25 @@ rules:
   slug: scylladb-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 58.2
+  delta: -4.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 72.1
-    developer_ergonomics: 32.6
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 67.9
+    developer_ergonomics: 37.0
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 57.9
   previous_composite: 62.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/screenshots/scylladb-2026-06-20T193611.png
 security:

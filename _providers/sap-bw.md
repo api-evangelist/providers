@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: OData-based REST API for querying SAP BW data, executing BEx queries, and accessing InfoProviders. Supports analytical queries with filtering, aggregation, and hierarchical navigation.
@@ -128,25 +130,25 @@ plans:
 - name: Sap Bw Plans Pricing
   plan_count: 3
   slug: sap-bw-plans-pricing
-random_paper: 42
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Sap Bw Rate Limits
   slug: sap-bw-rate-limits
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 31.3
+  delta: -2.5
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/screenshots/sap-bw-2026-06-20T193419.png
 security:

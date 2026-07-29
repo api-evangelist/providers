@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Local JSON-RPC servers exposed by the Chia reference client for the full node, wallet, farmer, harvester, DataLayer, DID, NFT, offers, DAO, VC and simulator services. All calls are POST JSON over HTTP
@@ -126,21 +128,21 @@ overview: 'Chia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Chia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, sandbox, authentication, and 13 more developer resources.'
-random_paper: 65
+random_paper: 20
 score:
-  band: emerging
-  composite: 28.4
-  delta: 0.0
+  band: thin
+  composite: 28.2
+  delta: -0.2
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 67.4
-    discoverability: 80.0
+    discoverability: 77.8
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 28.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chia/refs/heads/main/screenshots/chia-2026-07-25T205207.png
 security:

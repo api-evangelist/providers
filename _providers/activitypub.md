@@ -22,7 +22,7 @@ modified: '2026-06-13'
 name: ActivityPub
 nav: Providers
 network: true
-random_paper: 48
+random_paper: 49
 slug: activitypub
 tags:
 - Open Standard

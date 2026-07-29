@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -998,7 +1000,7 @@ plans:
 - name: Greynoise Plans Pricing
   plan_count: 4
   slug: greynoise-plans-pricing
-random_paper: 29
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Greynoise Rate Limits
@@ -1022,18 +1024,25 @@ rules:
   slug: greynoise-spectral-rules
 score:
   band: exemplar
-  composite: 73.1
-  delta: 3.3
+  composite: 69.4
+  delta: -3.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 70.9
+    contract_quality: 72.1
     developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 69.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 73.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/screenshots/greynoise-2026-06-20T182405.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 66.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -55,12 +57,35 @@ apis:
 - description: Settlement and transaction reconciliation reporting.
   name: Peach Payments Reconciliation API
   slug: peachpayments-reconciliation-api
-artifact_total: 15
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Peachpayments Webhooks
   slug: peachpayments-webhooks
+collections:
+- collection_type: postman
+  name: Peach Payments Authentication API
+  slug: postman-peachpayments-authentication-api
+- collection_type: postman
+  name: Peach Payments Authentication Checkout API
+  slug: postman-peachpayments-checkout-api
+- collection_type: postman
+  name: Peach Payments Authentication Payment Links API
+  slug: postman-peachpayments-payment-links-api
+- collection_type: postman
+  name: Peach Authentication Payments API
+  slug: postman-peachpayments-payments-api
+- collection_type: postman
+  name: Peach Payments Authentication Payouts API
+  slug: postman-peachpayments-payouts-api
+- collection_type: postman
+  name: Peach Payments Authentication Reconciliation API
+  slug: postman-peachpayments-reconciliation-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/peach-payments/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,35 +264,46 @@ overview: 'Peach Payments publishes 6 APIs on the [APIs.io](https://apis.io/) ne
   The Peach Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Peach Payments'' developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 33 more developer resources.'
+  Peach Payments'' developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 34 more developer resources.'
 plans:
 - name: Peachpayments Plans Pricing
   plan_count: 2
   slug: peachpayments-plans-pricing
-random_paper: 34
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Peachpayments Rate Limits
   slug: peachpayments-rate-limits
 score:
   band: exemplar
-  composite: 71.1
-  delta: 0.0
+  composite: 71.4
+  delta: 0.3
   facets:
     commercial_clarity: 89.5
-    contract_quality: 69.9
-    developer_ergonomics: 76.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 68.4
+    developer_ergonomics: 71.2
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 71.1
   previous_composite: 71.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 78.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

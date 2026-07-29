@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -80,11 +82,26 @@ arazzos:
 - description: Start an async speech synthesis task, then poll it until it completes.
   name: Amazon Polly Start Synthesis Task and Poll to Completion
   slug: amazon-polly-start-synthesis-task-poll-workflow
-artifact_total: 110
+artifact_total: 115
 collections:
+- collection_type: postman
+  name: Amazon Polly Lexicons API
+  slug: postman-amazon-polly-lexicons-api
 - collection_type: postman
   name: Amazon Polly
   slug: postman-amazon-polly-openapi-original
+- collection_type: postman
+  name: Amazon Polly Lexicons Speech API
+  slug: postman-amazon-polly-speech-api
+- collection_type: postman
+  name: Amazon Polly Lexicons Speech Synthesis API
+  slug: postman-amazon-polly-speech-synthesis-api
+- collection_type: postman
+  name: Amazon Polly Lexicons SynthesisTasks API
+  slug: postman-amazon-polly-synthesistasks-api
+- collection_type: postman
+  name: Amazon Polly Lexicons Voices API
+  slug: postman-amazon-polly-voices-api
 - collection_type: postman
   name: Amazon Polly API
   slug: postman-amazon-polly
@@ -735,7 +752,7 @@ plans:
 - name: Amazon Polly Plans Pricing
   plan_count: 3
   slug: amazon-polly-plans-pricing
-random_paper: 27
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Polly Rate Limits
@@ -758,20 +775,33 @@ rules:
     warn: 11
   slug: amazon-polly-spectral-rules
 score:
-  band: exemplar
-  composite: 73.0
-  delta: 3.2
+  band: strong
+  composite: 65.6
+  delta: -7.4
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.6
+    contract_quality: 69.7
     developer_ergonomics: 63.0
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 69.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 73.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/screenshots/amazon-polly-2026-06-20T171758.png
 security:
 - kind: authentication

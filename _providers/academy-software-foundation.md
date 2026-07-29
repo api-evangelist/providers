@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -305,7 +307,7 @@ plans:
 - name: Academy Software Foundation Plans Pricing
   plan_count: 0
   slug: academy-software-foundation-plans-pricing
-random_paper: 48
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Academy Software Foundation Rate Limits
@@ -328,20 +330,27 @@ rules:
     warn: 8
   slug: academy-software-foundation-spectral-rules
 score:
-  band: developing
-  composite: 46.6
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  delta: -8.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.4
+    contract_quality: 50.8
     developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 5.3
   previous_composite: 46.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/screenshots/academy-software-foundation-2026-06-20T163501.png
 security:
 - kind: domain-security

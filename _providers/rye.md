@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 56.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -75,12 +77,56 @@ apis:
 - description: The Test Helpers API from Rye — 6 operation(s) for test helpers.
   name: Rye Test Helpers API
   slug: rye-test-helpers-api
-artifact_total: 21
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Rye Webhooks
   slug: rye-webhooks
+collections:
+- collection_type: postman
+  name: Universal Checkout Betas API
+  slug: postman-rye-betas-api
+- collection_type: postman
+  name: Universal Checkout Betas Billing API
+  slug: postman-rye-billing-api
+- collection_type: postman
+  name: Universal Checkout Betas Brands API
+  slug: postman-rye-brands-api
+- collection_type: postman
+  name: Universal Checkout Betas Checkout Intents API
+  slug: postman-rye-checkout-intents-api
+- collection_type: postman
+  name: Universal Checkout Betas Commissions API
+  slug: postman-rye-commissions-api
+- collection_type: postman
+  name: Universal Checkout Betas Events API
+  slug: postman-rye-events-api
+- collection_type: postman
+  name: Universal Checkout Betas Merchant Connectors API
+  slug: postman-rye-merchant-connectors-api
+- collection_type: postman
+  name: Universal Checkout Betas Orders API
+  slug: postman-rye-orders-api
+- collection_type: postman
+  name: Universal Checkout Betas Payment Gateways API
+  slug: postman-rye-payment-gateways-api
+- collection_type: postman
+  name: Universal Checkout Betas Products API
+  slug: postman-rye-products-api
+- collection_type: postman
+  name: Universal Checkout Betas Returns API
+  slug: postman-rye-returns-api
+- collection_type: postman
+  name: Universal Checkout Betas Shipments API
+  slug: postman-rye-shipments-api
+- collection_type: postman
+  name: Universal Checkout Betas Test Helpers API
+  slug: postman-rye-test-helpers-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/rye/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -255,31 +301,42 @@ overview: 'Rye publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
   The Rye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 64
+  Rye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Rye Rate Limits
   slug: rye-rate-limits
 score:
   band: exemplar
-  composite: 70.6
-  delta: 0.0
+  composite: 67.5
+  delta: -3.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.4
-    developer_ergonomics: 84.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 70.1
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 94.7
   previous_composite: 70.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 68.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

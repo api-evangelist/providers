@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 2
 apis:
 - description: i-3PL is Americold's customer-facing digital supply chain platform offering real-time inventory tracking, order management, dock appointment scheduling, customizable alerts, and 40+ reporting tools ac
@@ -170,7 +172,7 @@ overview: 'Americold Realty Trust publishes 2 APIs on the [APIs.io](https://apis
 
 
   Americold Realty Trust''s developer surface includes developer portal, engineering blog, and 13 more developer resources.'
-random_paper: 25
+random_paper: 36
 rules:
 - name: Americold Realty Trust API Rules
   rule_count: 5
@@ -182,19 +184,19 @@ rules:
   slug: americold-realty-trust-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 29.4
+  delta: -5.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 39.6
+    contract_quality: 33.9
     developer_ergonomics: 10.9
-    discoverability: 85.0
-    governance: 86.8
+    discoverability: 63.0
+    governance: 68.8
     operational_transparency: 0.0
   previous_composite: 35.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/americold-realty-trust/refs/heads/main/screenshots/americold-realty-trust-2026-06-20T171923.png
 security:
 - kind: domain-security

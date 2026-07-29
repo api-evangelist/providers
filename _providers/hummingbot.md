@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: true
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.6
+  scored_at: '2026-07-28'
 api_count: 17
 apis:
 - description: 'The Hummingbot API is a FastAPI backend service (default port 8000) that orchestrates multiple trading bots and exposes REST routers for accounts and exchange credentials, trading (orders, positions, '
@@ -194,30 +196,40 @@ overview: 'Hummingbot publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Hummingbot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 62
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Hummingbot Rate Limits
   slug: hummingbot-rate-limits
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 36.0
+  delta: -0.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 36.9
+    contract_quality: 35.1
     developer_ergonomics: 80.4
-    discoverability: 87.5
-    governance: 0.0
+    discoverability: 83.3
+    governance: 11.5
     operational_transparency: 21.1
   previous_composite: 36.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
+    matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 37.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 28.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/screenshots/hummingbot-2026-07-25T221727.png
 security:

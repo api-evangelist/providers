@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -246,26 +248,37 @@ overview: 'MV sistemas publishes 35 APIs on the [APIs.io](https://apis.io/) netw
 
 
   MV sistemas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 57
+random_paper: 67
 score:
   band: thin
-  composite: 43.6
-  delta: 0.0
+  composite: 40.5
+  delta: -3.1
   facets:
     commercial_clarity: 10.5
-    contract_quality: 64.7
-    developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 64.3
+    developer_ergonomics: 58.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 7.9
   previous_composite: 43.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 35.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

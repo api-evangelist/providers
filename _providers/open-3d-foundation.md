@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Programmatic access to O3DE engine APIs, 3D rendering tools, and game development resources.
@@ -78,25 +80,25 @@ plans:
 - name: Open 3D Foundation Plans Pricing
   plan_count: 3
   slug: open-3d-foundation-plans-pricing
-random_paper: 54
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Open 3D Foundation Rate Limits
   slug: open-3d-foundation-rate-limits
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 19.9
+  delta: -1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-3d-foundation/refs/heads/main/screenshots/open-3d-foundation-2026-06-20T190730.png
 security:

@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -263,7 +265,7 @@ plans:
 - name: Tibco Plans Pricing
   plan_count: 1
   slug: tibco-plans-pricing
-random_paper: 53
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Tibco Rate Limits
@@ -299,19 +301,32 @@ scopes:
   slug: tibco-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 59.0
-  delta: 3.3
+  band: strong
+  composite: 56.2
+  delta: -2.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 75.8
+    contract_quality: 76.6
     developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 73.7
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 55.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 59.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/screenshots/tibco-2026-06-20T195332.png
 security:

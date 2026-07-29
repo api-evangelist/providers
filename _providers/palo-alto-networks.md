@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 60.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 5
@@ -5068,7 +5070,7 @@ plans:
 - name: Palo Alto Networks Plans Pricing
   plan_count: 1
   slug: palo-alto-networks-plans-pricing
-random_paper: 7
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Palo Alto Networks Rate Limits
@@ -5105,19 +5107,26 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 75.3
-  delta: 5.4
+  composite: 70.8
+  delta: -4.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 92.1
+    contract_quality: 92.5
     developer_ergonomics: 69.6
-    discoverability: 100.0
-    governance: 78.9
+    discoverability: 74.1
+    governance: 62.5
     operational_transparency: 68.4
-  previous_composite: 69.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 75.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 159
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png
 security:
 - kind: authentication

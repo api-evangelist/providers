@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -136,7 +138,7 @@ overview: 'Smartsheet publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Smartsheet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 10 more developer resources.'
-random_paper: 0
+random_paper: 10
 scopes:
 - name: Smartsheet Scopes
   scope_count: 10
@@ -144,18 +146,25 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.6
-  delta: 3.3
+  composite: 33.9
+  delta: -0.7
   facets:
     commercial_clarity: 18.4
-    contract_quality: 56.6
+    contract_quality: 64.2
     developer_ergonomics: 30.4
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 34.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/screenshots/smartsheet-2026-06-20T194052.png
 security:

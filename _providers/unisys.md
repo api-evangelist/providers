@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -148,7 +150,7 @@ press:
 - date: '2026-05-25'
   title: Earnings Releases
   url: https://www.unisys.com/investor-relations/earnings-releases/
-random_paper: 3
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Unisys Rate Limits
@@ -179,20 +181,27 @@ rules:
     warn: 14
   slug: unisys-stealth-spectral-rules
 score:
-  band: developing
-  composite: 48.5
-  delta: 0.0
+  band: thin
+  composite: 40.2
+  delta: -8.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 74.3
+    contract_quality: 58.5
     developer_ergonomics: 13.0
-    discoverability: 100.0
-    governance: 73.7
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 21.1
   previous_composite: 48.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Unisys Authentication

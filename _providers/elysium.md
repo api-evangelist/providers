@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 37.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.2
+  scored_at: '2026-07-28'
 api_count: 3
 apis:
 - description: Elysium Health's storefront implements the Universal Commerce Protocol (UCP) for agent-driven commerce, discoverable at https://www.elysiumhealth.com/.well-known/ucp. The merchant profile advertises t
@@ -157,7 +159,7 @@ overview: 'Elysium Health publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Elysium Health''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, pricing, authentication, and 18 more developer resources.'
-random_paper: 28
+random_paper: 6
 scopes:
 - name: Elysium Scopes
   scope_count: 4
@@ -165,23 +167,28 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 34.7
+  delta: -3.8
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 60.9
-    discoverability: 100.0
-    governance: 0.0
+    developer_ergonomics: 56.0
+    discoverability: 92.6
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 38.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 52.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/screenshots/elysium-2026-07-25T213214.png
 security:

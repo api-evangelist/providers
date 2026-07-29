@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 51.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -147,26 +149,37 @@ overview: 'Develop Health publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Develop Health''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 14 more developer resources.'
-random_paper: 66
+random_paper: 40
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 46.3
+  delta: -2.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.9
-    developer_ergonomics: 56.5
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 63.2
+    developer_ergonomics: 51.6
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 36.8
   previous_composite: 48.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/screenshots/develop-health-2026-07-25T211816.png
 security:

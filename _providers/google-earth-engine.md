@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -40,12 +42,19 @@ apis:
 - description: The Projects API from Google Earth Engine REST — 10 operation(s) for projects.
   name: Google Earth Engine REST Projects API
   slug: google-earth-engine-projects-api
-artifact_total: 14
+artifact_total: 15
 collections:
+- collection_type: postman
+  name: Google Earth Engine REST Projects API
+  slug: postman-google-earth-engine-projects-api
 - collection_type: open
   name: Google Earth Engine REST API
   slug: open-earth-engine
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-earth-engine-rest/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -137,12 +146,12 @@ overview: 'Google Earth Engine REST publishes 1 API on the [APIs.io](https://api
   The Google Earth Engine REST catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Earth Engine REST''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Earth Engine REST''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Earth Engine Plans Pricing
   plan_count: 3
   slug: google-earth-engine-plans-pricing
-random_paper: 53
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Google Earth Engine Rate Limits
@@ -171,18 +180,25 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.1
-  delta: 4.6
+  composite: 62.0
+  delta: -3.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.0
-    developer_ergonomics: 43.5
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 70.3
+    developer_ergonomics: 47.8
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 60.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/screenshots/google-earth-engine-2026-06-20T182158.png
 security:

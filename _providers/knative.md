@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -76,12 +78,45 @@ apis:
 - description: 'Knative Trigger resources define filtered delivery options for events arriving at a Broker. A Trigger selects events by attribute filters and routes matching events to a destination such as a Knative '
   name: Knative Triggers API
   slug: knative-triggers-api
-artifact_total: 27
+artifact_total: 38
 asyncapis:
 - description: Knative Eventing uses HTTP POST requests conforming to the CloudEvents specification to deliver events between event sources, Brokers, Triggers, Channels, and Subscriptions. Events can carry structure
   name: Knative Eventing CloudEvents
   slug: knative-cloudevents-asyncapi
 collections:
+- collection_type: postman
+  name: Knative Eventing Apis API
+  slug: postman-knative-apis-api
+- collection_type: postman
+  name: Knative Eventing Apis Brokers API
+  slug: postman-knative-brokers-api
+- collection_type: postman
+  name: Knative Eventing Apis Channels API
+  slug: postman-knative-channels-api
+- collection_type: postman
+  name: Knative Eventing Apis Configurations API
+  slug: postman-knative-configurations-api
+- collection_type: postman
+  name: Knative Eventing Apis DomainMappings API
+  slug: postman-knative-domainmappings-api
+- collection_type: postman
+  name: Knative Eventing Apis EventSources API
+  slug: postman-knative-eventsources-api
+- collection_type: postman
+  name: Knative Eventing Apis EventTypes API
+  slug: postman-knative-eventtypes-api
+- collection_type: postman
+  name: Knative Eventing Apis Revisions API
+  slug: postman-knative-revisions-api
+- collection_type: postman
+  name: Knative Eventing Apis Routes API
+  slug: postman-knative-routes-api
+- collection_type: postman
+  name: Knative Eventing Apis Subscriptions API
+  slug: postman-knative-subscriptions-api
+- collection_type: postman
+  name: Knative Eventing Apis Triggers API
+  slug: postman-knative-triggers-api
 - collection_type: open
   name: Knative Eventing API
   slug: open-knative-eventing-api
@@ -89,6 +124,10 @@ collections:
   name: Knative Serving API
   slug: open-knative-serving-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/knative/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -171,12 +210,12 @@ overview: 'Knative publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The Knative catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Knative''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 8 more developer resources.'
+  Knative''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 9 more developer resources.'
 plans:
 - name: Knative Plans Pricing
   plan_count: 3
   slug: knative-plans-pricing
-random_paper: 6
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Knative Rate Limits
@@ -200,18 +239,25 @@ rules:
   slug: knative-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 4.2
+  composite: 59.0
+  delta: -2.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 86.7
-    developer_ergonomics: 37.0
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 87.3
+    developer_ergonomics: 41.3
+    discoverability: 72.2
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 57.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/screenshots/knative-2026-06-20T184106.png
 security:

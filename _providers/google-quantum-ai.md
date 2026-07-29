@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -82,12 +84,34 @@ apis:
 - description: Measurement results returned by completed jobs.
   name: Google Quantum AI Results API
   slug: google-quantum-ai-results-api
-artifact_total: 48
+artifact_total: 54
 collections:
+- collection_type: postman
+  name: Google Quantum Engine Calibrations API
+  slug: postman-google-quantum-ai-calibrations-api
+- collection_type: postman
+  name: Google Quantum Engine Calibrations Jobs API
+  slug: postman-google-quantum-ai-jobs-api
+- collection_type: postman
+  name: Google Quantum Engine Calibrations Processors API
+  slug: postman-google-quantum-ai-processors-api
+- collection_type: postman
+  name: Google Quantum Engine Calibrations Programs API
+  slug: postman-google-quantum-ai-programs-api
+- collection_type: postman
+  name: Google Quantum Engine Calibrations Reservations API
+  slug: postman-google-quantum-ai-reservations-api
+- collection_type: postman
+  name: Google Quantum Engine Calibrations Results API
+  slug: postman-google-quantum-ai-results-api
 - collection_type: open
   name: Google Quantum Engine API
   slug: open-quantum-engine-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-quantum-ai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -362,12 +386,12 @@ overview: 'Google Quantum AI publishes 6 APIs on the [APIs.io](https://apis.io/)
   The Google Quantum AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Quantum AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, training material, engineering blog, and 47 more developer resources.'
+  Google Quantum AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, training material, engineering blog, and 48 more developer resources.'
 plans:
 - name: Google Quantum Ai Plans Pricing
   plan_count: 3
   slug: google-quantum-ai-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Google Quantum Ai Rate Limits
@@ -396,18 +420,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 63.5
-  delta: 4.2
+  composite: 60.5
+  delta: -3.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.8
-    developer_ergonomics: 56.5
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 72.0
+    developer_ergonomics: 60.9
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 59.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/screenshots/google-quantum-ai-2026-06-20T182227.png
 security:

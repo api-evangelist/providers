@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: Public and authenticated REST endpoints for spot and margin trading, including order placement, cancellation, order-book queries, trade history, and account balance management.
@@ -122,30 +124,31 @@ plans:
 - name: Gate Io Plans Pricing
   plan_count: 5
   slug: gate-io-plans-pricing
-random_paper: 66
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Gate Io Rate Limits
   slug: gate-io-rate-limits
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 31.2
+  delta: -4.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.8
+    contract_quality: 45.2
     developer_ergonomics: 10.9
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 36.0
   regulatory:
     applies: true
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 23.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 17.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gate-io/refs/heads/main/screenshots/gate-io-2026-06-20T181655.png
 security:

@@ -1,33 +1,24 @@
 ---
-access_model:
-  confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: near-conformant
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 40.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -35,7 +26,7 @@ agentic_access:
   operation_count: 31
   slug: helius-agentic-access
   summary_line: 31 operations · 16 acting
-api_count: 20
+api_count: 7
 apis:
 - description: Solana JSON-RPC and WebSocket endpoints with enhanced WebSockets, archival data, and staked connections.
   name: Helius Solana RPC
@@ -58,46 +49,7 @@ apis:
 - description: Indexed RPC for Solana ZK compression (compressed accounts).
   name: Helius Photon RPC (ZK Compression)
   slug: photon
-- description: Enhanced on-chain identity data with complete wallet activity and ownership information.
-  name: Helius Addresses API
-  slug: helius-addresses-api
-- description: The Admin API from Helius — 1 operation(s) for admin.
-  name: Helius Admin API
-  slug: helius-admin-api
-- description: Query token and NFT balances
-  name: Helius Balances API
-  slug: helius-balances-api
-- description: Wallet funding information
-  name: Helius Funding API
-  slug: helius-funding-api
-- description: The Helius API Catalog API from Helius — 1 operation(s) for helius api catalog.
-  name: Helius Helius API Catalog API
-  slug: helius-helius-api-catalog-api
-- description: Transaction history and balance changes
-  name: Helius History API
-  slug: helius-history-api
-- description: Lookup wallet identities and known addresses
-  name: Helius Identity API
-  slug: helius-identity-api
-- description: Access comprehensive NFT data including events, collection aggregations, real-time stats, and complete historical activity on Solana.
-  name: Helius NFTs API
-  slug: helius-nfts-api
-- description: The Sender API from Helius — 2 operation(s) for sender.
-  name: Helius Sender API
-  slug: helius-sender-api
-- description: Complete token account data, on-chain and off-chain metadata, and detailed information for both fungible and non-fungible Solana tokens.
-  name: Helius Tokens API
-  slug: helius-tokens-api
-- description: Enhanced and human-readable transaction histories with decoded instruction data and detailed context.
-  name: Helius Transactions API
-  slug: helius-transactions-api
-- description: Token transfer activity
-  name: Helius Transfers API
-  slug: helius-transfers-api
-- description: Configure real-time blockchain notifications for any Solana address, transaction type, or on-chain event with customizable delivery options.
-  name: Helius Webhooks API
-  slug: helius-webhooks-api
-artifact_total: 30
+artifact_total: 17
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Helius''s real-time WebSocket interfaces for Solana. Coverage: * Standard Solana JSON-RPC PubSub subscriptions exposed by Helius RPC. * Helius enhanced subscriptions (transa'
   name: Helius WebSocket APIs
@@ -107,6 +59,10 @@ collections:
   name: Helius API Catalog
   slug: open-helius
 common:
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/helius-a2a.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -153,24 +109,24 @@ finops:
 - name: Helius Finops
   service_category: Web3
   slug: helius-finops
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helius.png
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-05-29'
 name: Helius
 nav: Providers
 network: true
-overview: 'Helius publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Solana RPC, Addresses API, Admin API, and 11 more. Tagged areas include Web3, Blockchain, Solana, RPC, and DAS.
+overview: 'Helius publishes 1 API on the [APIs.io](https://apis.io/) network: Solana RPC. Tagged areas include Web3, Blockchain, Solana, RPC, and DAS.
 
 
   The Helius catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Helius'' developer surface includes authentication and 9 more developer resources.'
+  Helius'' developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Helius Plans Pricing
   plan_count: 5
   slug: helius-plans-pricing
-random_paper: 38
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Helius Rate Limits
@@ -186,19 +142,26 @@ rules:
   slug: helius-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: 3.3
+  composite: 43.1
+  delta: -6.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.6
+    contract_quality: 60.5
     developer_ergonomics: 10.9
-    discoverability: 100.0
-    governance: 60.5
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 46.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 49.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/screenshots/helius-2026-06-20T182630.png
 security:
 - kind: authentication

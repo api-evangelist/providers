@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -52,8 +54,28 @@ apis:
 - description: Site management
   name: Fathom Analytics Sites API
   slug: fathom-sites-api
-artifact_total: 23
+artifact_total: 28
+collections:
+- collection_type: postman
+  name: Fathom Analytics REST Account API
+  slug: postman-fathom-account-api
+- collection_type: postman
+  name: Fathom Analytics REST Account Events API
+  slug: postman-fathom-events-api
+- collection_type: postman
+  name: Fathom Analytics REST Account Milestones API
+  slug: postman-fathom-milestones-api
+- collection_type: postman
+  name: Fathom Analytics REST Account Reports API
+  slug: postman-fathom-reports-api
+- collection_type: postman
+  name: Fathom Analytics REST Account Sites API
+  slug: postman-fathom-sites-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fathom-analytics/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,12 +216,12 @@ overview: 'Fathom Analytics publishes 5 APIs on the [APIs.io](https://apis.io/) 
   The Fathom Analytics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Fathom Analytics'' developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 17 more developer resources.'
+  Fathom Analytics'' developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 18 more developer resources.'
 plans:
 - name: Fathom Plans Pricing
   plan_count: 5
   slug: fathom-plans-pricing
-random_paper: 27
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Fathom Rate Limits
@@ -215,18 +237,25 @@ rules:
   slug: fathom-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.3
-  delta: 0.0
+  composite: 60.0
+  delta: -4.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 71.0
-    developer_ergonomics: 28.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 69.5
+    developer_ergonomics: 32.6
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 64.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/screenshots/fathom-2026-06-20T181055.png
 security:

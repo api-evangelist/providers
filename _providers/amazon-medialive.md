@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 4
@@ -40,8 +42,16 @@ apis:
 - description: The Prod API from Amazon MediaLive — 38 operation(s) for prod.
   name: Amazon MediaLive Prod API
   slug: amazon-medialive-prod-api
-artifact_total: 1882
+artifact_total: 1883
+collections:
+- collection_type: postman
+  name: AWS Elemental MediaLive Prod API
+  slug: postman-amazon-medialive-prod-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-medialive/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -5733,12 +5743,12 @@ overview: 'Amazon MediaLive publishes 1 API on the [APIs.io](https://apis.io/) n
   The Amazon MediaLive catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaLive''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon MediaLive''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Medialive Plans Pricing
   plan_count: 3
   slug: amazon-medialive-plans-pricing
-random_paper: 3
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Amazon Medialive Rate Limits
@@ -5762,18 +5772,25 @@ rules:
   slug: amazon-medialive-spectral-rules
 score:
   band: strong
-  composite: 60.6
-  delta: 0.0
+  composite: 59.4
+  delta: -1.2
   facets:
     commercial_clarity: 68.4
-    contract_quality: 58.5
-    developer_ergonomics: 41.3
-    discoverability: 67.5
-    governance: 86.8
+    contract_quality: 66.1
+    developer_ergonomics: 45.7
+    discoverability: 50.0
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 60.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/screenshots/amazon-medialive-2026-06-20T171741.png
 security:

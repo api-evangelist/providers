@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -97,12 +99,76 @@ apis:
 - description: 'The #X Amz Target=PaymentCryptographyControlPlane.UpdateAlias API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.updatealias.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.UpdateAlias API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api
-artifact_total: 316
+artifact_total: 336
 collections:
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createalias-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateKey API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createkey-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.DeleteAlias API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletealias-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.DeleteKey API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletekey-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.ExportKey API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-exportkey-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.GetAlias API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getalias-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.GetKey API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getkey-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.GetParametersForExport API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforexport-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.GetParametersForImport API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforimport-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.GetPublicKeyCertificate API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getpublickeycertificate-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.ImportKey API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-importkey-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.ListAliases API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listaliases-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.ListKeys API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listkeys-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.ListTagsForResource API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listtagsforresource-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.RestoreKey API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-restorekey-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.StartKeyUsage API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-startkeyusage-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.StopKeyUsage API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-stopkeyusage-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.TagResource API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-tagresource-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.UntagResource API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-untagresource-api
+- collection_type: postman
+  name: 'Payment Cryptography Control Plane #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.CreateAlias #X Amz Target=PaymentCryptographyControlPlane.UpdateAlias API'
+  slug: postman-amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api
 - collection_type: open
   name: Payment Cryptography Control Plane
   slug: open-amazon-payment-cryptography
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-payment-cryptography/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1085,12 +1151,12 @@ overview: 'Amazon Payment Cryptography publishes 20 APIs on the [APIs.io](https:
   The Amazon Payment Cryptography catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Payment Cryptography''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
+  Amazon Payment Cryptography''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
 plans:
 - name: Amazon Payment Cryptography Plans Pricing
   plan_count: 3
   slug: amazon-payment-cryptography-plans-pricing
-random_paper: 38
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Amazon Payment Cryptography Rate Limits
@@ -1114,24 +1180,32 @@ rules:
   slug: amazon-payment-cryptography-spectral-rules
 score:
   band: strong
-  composite: 69.9
-  delta: 2.8
+  composite: 63.8
+  delta: -6.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 71.1
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 72.2
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 67.1
+  previous_composite: 69.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 56.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/screenshots/amazon-payment-cryptography-2026-06-20T171758.png
 security:
 - kind: authentication

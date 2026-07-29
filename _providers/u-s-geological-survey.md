@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -335,7 +337,7 @@ plans:
 - name: U S Geological Survey Plans Pricing
   plan_count: 1
   slug: u-s-geological-survey-plans-pricing
-random_paper: 59
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: U S Geological Survey Rate Limits
@@ -367,19 +369,26 @@ rules:
   slug: usgs-spectral-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 43.7
+  delta: -7.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 73.2
+    contract_quality: 61.6
     developer_ergonomics: 21.7
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 26.3
   previous_composite: 51.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/screenshots/u-s-geological-survey-2026-06-20T195914.png
 security:
 - kind: authentication

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: Operations for managing DNS resource record sets.
   name: Amazon Route 53 Resource Record Sets API
   slug: amazon-route-53-resource-record-sets-api
-artifact_total: 70
+artifact_total: 73
 collections:
+- collection_type: postman
+  name: Amazon Route 53 Health Checks API
+  slug: postman-amazon-route-53-health-checks-api
+- collection_type: postman
+  name: Amazon Route 53 Health Checks Hosted Zones API
+  slug: postman-amazon-route-53-hosted-zones-api
+- collection_type: postman
+  name: Amazon Route 53 Health Checks Resource Record Sets API
+  slug: postman-amazon-route-53-resource-record-sets-api
 - collection_type: open
   name: Amazon Route 53 API
   slug: open-amazon-route-53
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-route-53/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -571,12 +586,12 @@ overview: 'Amazon Route 53 publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Amazon Route 53 catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Route 53''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, signup flow, and 75 more developer resources.'
+  Amazon Route 53''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, signup flow, and 76 more developer resources.'
 plans:
 - name: Amazon Route 53 Plans Pricing
   plan_count: 1
   slug: amazon-route-53-plans-pricing
-random_paper: 39
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Amazon Route 53 Rate Limits
@@ -600,18 +615,25 @@ rules:
   slug: amazon-route-53-spectral-rules
 score:
   band: strong
-  composite: 63.0
-  delta: 0.0
+  composite: 60.6
+  delta: -2.4
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.9
-    developer_ergonomics: 34.8
-    discoverability: 55.0
-    governance: 86.8
+    contract_quality: 71.2
+    developer_ergonomics: 39.1
+    discoverability: 40.7
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 63.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/screenshots/amazon-route-53-2026-06-20T171815.png
 security:

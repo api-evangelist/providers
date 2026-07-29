@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
-    idempotency: false
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 49.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -85,8 +87,61 @@ apis:
 - description: The Timeseries API from Amazon IoT SiteWise — 5 operation(s) for timeseries.
   name: Amazon IoT SiteWise Timeseries API
   slug: amazon-iot-sitewise-timeseries-api
-artifact_total: 617
+artifact_total: 633
+collections:
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies API
+  slug: postman-amazon-iot-sitewise-access-policies-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Asset Models API
+  slug: postman-amazon-iot-sitewise-asset-models-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Assets API
+  slug: postman-amazon-iot-sitewise-assets-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Configuration API
+  slug: postman-amazon-iot-sitewise-configuration-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Dashboards API
+  slug: postman-amazon-iot-sitewise-dashboards-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Dashboards#projectId API
+  slug: postman-amazon-iot-sitewise-dashboards-projectid-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Gateways API
+  slug: postman-amazon-iot-sitewise-gateways-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Jobs API
+  slug: postman-amazon-iot-sitewise-jobs-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Logging API
+  slug: postman-amazon-iot-sitewise-logging-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Portals API
+  slug: postman-amazon-iot-sitewise-portals-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Projects API
+  slug: postman-amazon-iot-sitewise-projects-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Projects#portalId API
+  slug: postman-amazon-iot-sitewise-projects-portalid-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Properties API
+  slug: postman-amazon-iot-sitewise-properties-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Tags#resourceArn API
+  slug: postman-amazon-iot-sitewise-tags-resourcearn-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Tags#resourceArn&tagKeys API
+  slug: postman-amazon-iot-sitewise-tags-resourcearn-tagkeys-api
+- collection_type: postman
+  name: AWS IoT SiteWise Access Policies Timeseries API
+  slug: postman-amazon-iot-sitewise-timeseries-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-iot-sitewise/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1952,12 +2007,12 @@ overview: 'Amazon IoT SiteWise publishes 16 APIs on the [APIs.io](https://apis.i
   The Amazon IoT SiteWise catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IoT SiteWise''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon IoT SiteWise''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Iot Sitewise Plans Pricing
   plan_count: 3
   slug: amazon-iot-sitewise-plans-pricing
-random_paper: 41
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Sitewise Rate Limits
@@ -1981,18 +2036,25 @@ rules:
   slug: amazon-iot-sitewise-spectral-rules
 score:
   band: strong
-  composite: 67.4
-  delta: 0.0
+  composite: 64.2
+  delta: -3.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.4
-    developer_ergonomics: 41.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 68.8
+    developer_ergonomics: 45.7
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 52.6
   previous_composite: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/screenshots/amazon-iot-sitewise-2026-06-20T171713.png
 security:

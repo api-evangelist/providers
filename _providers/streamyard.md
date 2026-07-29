@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,12 +48,25 @@ apis:
 - description: Access recorded broadcasts. Once a broadcast ends, recordings become available for download.
   name: StreamYard Recordings API
   slug: streamyard-recordings-api
-artifact_total: 18
+artifact_total: 21
 collections:
+- collection_type: postman
+  name: StreamYard Broadcasts API
+  slug: postman-streamyard-broadcasts-api
+- collection_type: postman
+  name: StreamYard Broadcasts Destinations API
+  slug: postman-streamyard-destinations-api
+- collection_type: postman
+  name: StreamYard Broadcasts Recordings API
+  slug: postman-streamyard-recordings-api
 - collection_type: open
   name: StreamYard API
   slug: open-streamyard
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/streamyard/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,12 +189,12 @@ overview: 'StreamYard publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The StreamYard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  StreamYard''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 15 more developer resources.'
+  StreamYard''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Streamyard Plans Pricing
   plan_count: 3
   slug: streamyard-plans-pricing
-random_paper: 64
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Streamyard Rate Limits
@@ -208,18 +223,25 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.6
-  delta: 3.2
+  composite: 62.4
+  delta: -3.2
   facets:
     commercial_clarity: 84.2
-    contract_quality: 64.6
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 66.1
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 62.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/screenshots/streamyard-2026-06-20T194622.png
 security:

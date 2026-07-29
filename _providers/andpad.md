@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 18.9
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: ANDPAD's external REST API for integrating partner services with the ANDPAD construction management platform via the ANDPAD App Market. Served from api.andpad.jp with a versioned /v1 base path, JSON r
@@ -114,21 +116,21 @@ overview: 'ANDPAD publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   ANDPAD''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: emerging
-  composite: 20.9
-  delta: 0.0
+  composite: 19.6
+  delta: -1.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 92.5
+    discoverability: 79.6
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/screenshots/andpad-2026-07-25T200226.png
 security:

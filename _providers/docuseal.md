@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.3
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -46,8 +48,22 @@ apis:
 - description: Templates represent reusable document signing forms with fields and signatures to be collected. It's possible to create unique template forms with fields and signatures using HTML or with tagged PDFs.
   name: DocuSeal Templates API
   slug: docuseal-templates-api
-artifact_total: 17
+artifact_total: 20
+collections:
+- collection_type: postman
+  name: DocuSeal Submissions API
+  slug: postman-docuseal-submissions-api
+- collection_type: postman
+  name: DocuSeal Submissions Submitters API
+  slug: postman-docuseal-submitters-api
+- collection_type: postman
+  name: DocuSeal Submissions Templates API
+  slug: postman-docuseal-templates-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/docuseal/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -205,12 +221,12 @@ overview: 'DocuSeal publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The DocuSeal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  DocuSeal''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, changelog, pricing, and 23 more developer resources.'
+  DocuSeal''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, changelog, pricing, and 24 more developer resources.'
 plans:
 - name: Docuseal Plans Pricing
   plan_count: 5
   slug: docuseal-plans-pricing
-random_paper: 32
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Docuseal Rate Limits
@@ -226,18 +242,25 @@ rules:
   slug: docuseal-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 56.8
+  delta: -4.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 58.4
+    contract_quality: 60.2
     developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 44.7
   previous_composite: 61.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/screenshots/docuseal-2026-06-20T180122.png
 security:

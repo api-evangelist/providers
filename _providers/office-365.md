@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 33.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 28.4
+  scored_at: '2026-07-28'
 api_count: 5
 apis:
 - description: The primary API for Office 365, providing access to data and intelligence in Microsoft 365, Windows 10, and Enterprise Mobility + Security.
@@ -118,25 +120,25 @@ plans:
 - name: Office 365 Plans Pricing
   plan_count: 3
   slug: office-365-plans-pricing
-random_paper: 7
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Office 365 Rate Limits
   slug: office-365-rate-limits
 score:
-  band: developing
-  composite: 45.2
-  delta: 0.0
+  band: thin
+  composite: 41.2
+  delta: -4.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 37.7
+    contract_quality: 32.3
     developer_ergonomics: 26.1
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 45.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-365/refs/heads/main/screenshots/office-365-2026-06-20T190635.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 63.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -490,7 +492,7 @@ plans:
 - name: Microsoft Outlook Plans Pricing
   plan_count: 5
   slug: microsoft-outlook-plans-pricing
-random_paper: 40
+random_paper: 37
 rate_limits:
 - limit_count: 7
   name: Microsoft Outlook Rate Limits
@@ -527,18 +529,27 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 80.2
-  delta: 4.6
+  composite: 80.1
+  delta: -0.1
   facets:
     commercial_clarity: 81.6
-    contract_quality: 82.9
+    contract_quality: 83.1
     developer_ergonomics: 84.8
     discoverability: 100.0
-    governance: 60.5
+    governance: 59.4
     operational_transparency: 68.4
-  previous_composite: 75.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 80.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/screenshots/microsoft-outlook-2026-06-20T185517.png
 security:

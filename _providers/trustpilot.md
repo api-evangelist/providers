@@ -11,23 +11,25 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -64,8 +66,32 @@ apis:
 - description: Business unit review retrieval
   name: Trustpilot Reviews API
   slug: trustpilot-reviews-api
-artifact_total: 39
+artifact_total: 47
 collections:
+- collection_type: postman
+  name: Trustpilot Business Units API
+  slug: postman-trustpilot-business-units-api
+- collection_type: postman
+  name: Trustpilot Business Units Conversations API
+  slug: postman-trustpilot-conversations-api
+- collection_type: postman
+  name: Trustpilot Business Units Images API
+  slug: postman-trustpilot-images-api
+- collection_type: postman
+  name: Trustpilot Business Units Invitations API
+  slug: postman-trustpilot-invitations-api
+- collection_type: postman
+  name: Trustpilot Business Units Product Review Management API
+  slug: postman-trustpilot-product-review-management-api
+- collection_type: postman
+  name: Trustpilot Business Units Product Reviews API
+  slug: postman-trustpilot-product-reviews-api
+- collection_type: postman
+  name: Trustpilot Business Units Review Management API
+  slug: postman-trustpilot-review-management-api
+- collection_type: postman
+  name: Trustpilot Business Units Reviews API
+  slug: postman-trustpilot-reviews-api
 - collection_type: open
   name: Trustpilot Business Units API
   slug: open-trustpilot-business-units
@@ -73,6 +99,10 @@ collections:
   name: Trustpilot Invitation API
   slug: open-trustpilot-invitation
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/trustpilot/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -246,12 +276,12 @@ overview: 'Trustpilot publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The Trustpilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trustpilot''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, changelog, support, and 17 more developer resources.'
+  Trustpilot''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, changelog, support, and 18 more developer resources.'
 plans:
 - name: Trustpilot Plans Pricing
   plan_count: 5
   slug: trustpilot-plans-pricing
-random_paper: 42
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Trustpilot Rate Limits
@@ -280,18 +310,25 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 65.9
-  delta: 3.3
+  composite: 62.7
+  delta: -3.2
   facets:
     commercial_clarity: 84.2
-    contract_quality: 62.8
-    developer_ergonomics: 34.8
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 64.4
+    developer_ergonomics: 39.1
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 62.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/screenshots/trustpilot-2026-06-20T195803.png
 security:

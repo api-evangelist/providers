@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 21.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.0
+  scored_at: '2026-07-28'
 api_count: 8
 apis:
 - description: Job openings custom post type.
@@ -120,26 +122,36 @@ overview: 'Ascend Advanced Therapies publishes 8 APIs on the [APIs.io](https://a
 
 
   Ascend Advanced Therapies'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 51
+random_paper: 35
 score:
-  band: emerging
-  composite: 28.9
-  delta: 0.0
+  band: thin
+  composite: 28.2
+  delta: -0.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.0
+    contract_quality: 54.5
     developer_ergonomics: 2.2
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 0.0
   previous_composite: 28.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 23.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/screenshots/ascend-advanced-therapies-2026-07-25T201402.png
 security:

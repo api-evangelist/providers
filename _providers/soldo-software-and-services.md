@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 71.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -174,12 +176,155 @@ apis:
 - description: The Workflows API from Soldo Software and Services — 3 operation(s) for workflows.
   name: Soldo Software and Services Workflows API
   slug: soldo-software-and-services-workflows-api
-artifact_total: 53
+artifact_total: 99
 asyncapis:
 - description: ''
   name: Soldo Software And Services Webhooks
   slug: soldo-software-and-services-webhooks
+collections:
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification API
+  slug: postman-soldo-software-and-services-accounting-classification-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Addresses API
+  slug: postman-soldo-software-and-services-addresses-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Authentication API
+  slug: postman-soldo-software-and-services-authentication-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Auto-Transfer Presets API
+  slug: postman-soldo-software-and-services-auto-transfer-presets-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Autotags API
+  slug: postman-soldo-software-and-services-autotags-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Business Trips API
+  slug: postman-soldo-software-and-services-business-trips-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Card Rules API
+  slug: postman-soldo-software-and-services-card-rules-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Card Rules Presets API
+  slug: postman-soldo-software-and-services-card-rules-presets-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Cards API
+  slug: postman-soldo-software-and-services-cards-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Company API
+  slug: postman-soldo-software-and-services-company-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Contacts API
+  slug: postman-soldo-software-and-services-contacts-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Documents API
+  slug: postman-soldo-software-and-services-documents-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Expense Categories API
+  slug: postman-soldo-software-and-services-expense-categories-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Expense Policies API
+  slug: postman-soldo-software-and-services-expense-policies-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Expense Reports API
+  slug: postman-soldo-software-and-services-expense-reports-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Expense Review Configuration API
+  slug: postman-soldo-software-and-services-expense-review-configuration-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Expense Review Processes API
+  slug: postman-soldo-software-and-services-expense-review-processes-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Expense Reviews API
+  slug: postman-soldo-software-and-services-expense-reviews-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Groups API
+  slug: postman-soldo-software-and-services-groups-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Lists API
+  slug: postman-soldo-software-and-services-lists-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Online Ads API
+  slug: postman-soldo-software-and-services-online-ads-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Orders API
+  slug: postman-soldo-software-and-services-orders-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Out of Office API
+  slug: postman-soldo-software-and-services-out-of-office-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Permissions API
+  slug: postman-soldo-software-and-services-permissions-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Pre-approved Spend API
+  slug: postman-soldo-software-and-services-pre-approved-spend-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Refueling Transactions API
+  slug: postman-soldo-software-and-services-refueling-transactions-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Requests API
+  slug: postman-soldo-software-and-services-requests-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Resource Sets API
+  slug: postman-soldo-software-and-services-resource-sets-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Statements API
+  slug: postman-soldo-software-and-services-statements-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Subscriptions API
+  slug: postman-soldo-software-and-services-subscriptions-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Tags API
+  slug: postman-soldo-software-and-services-tags-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Attachments API
+  slug: postman-soldo-software-and-services-transaction-attachments-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Custom Export API
+  slug: postman-soldo-software-and-services-transaction-custom-export-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Expense Category API
+  slug: postman-soldo-software-and-services-transaction-expense-category-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Metadata API
+  slug: postman-soldo-software-and-services-transaction-metadata-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Split API
+  slug: postman-soldo-software-and-services-transaction-split-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction Tags API
+  slug: postman-soldo-software-and-services-transaction-tags-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transaction VAT Rate API
+  slug: postman-soldo-software-and-services-transaction-vat-rate-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Transactions API
+  slug: postman-soldo-software-and-services-transactions-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification User Roles API
+  slug: postman-soldo-software-and-services-user-roles-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Users API
+  slug: postman-soldo-software-and-services-users-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification VAT Rates API
+  slug: postman-soldo-software-and-services-vat-rates-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Vehicles API
+  slug: postman-soldo-software-and-services-vehicles-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Wallets API
+  slug: postman-soldo-software-and-services-wallets-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Webhook Subscriptions API
+  slug: postman-soldo-software-and-services-webhook-subscriptions-api
+- collection_type: postman
+  name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Workflows API
+  slug: postman-soldo-software-and-services-workflows-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/soldo-software-and-services/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -306,8 +451,8 @@ overview: 'Soldo Software and Services publishes 46 APIs on the [APIs.io](https:
   The Soldo Software and Services catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 10
+  Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 21 more developer resources.'
+random_paper: 35
 scopes:
 - name: Soldo Software And Services Scopes
   scope_count: 59
@@ -315,23 +460,34 @@ scopes:
   summary_line: 59 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 60.7
+  delta: -0.3
   facets:
     commercial_clarity: 47.4
-    contract_quality: 68.3
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 67.0
+    developer_ergonomics: 66.8
+    discoverability: 81.5
+    governance: 20.8
     operational_transparency: 39.5
   previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 46
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 90.6
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

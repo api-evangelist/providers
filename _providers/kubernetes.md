@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 76.9
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -107,16 +109,41 @@ arazzos:
 - description: Find pods that are not Running, read the failing pod's detail, tail its logs, and pull namespace events.
   name: Kubernetes Troubleshoot a Failing Pod
   slug: kubernetes-troubleshoot-pod-workflow
-artifact_total: 37
+artifact_total: 44
 asyncapis:
 - description: The Kubernetes Watch API provides a streaming event interface for receiving real-time notifications about changes to cluster resources. Clients subscribe to resource types and receive a stream of ADDE
   name: Kubernetes Watch Events
   slug: kubernetes-watch-asyncapi
 collections:
+- collection_type: postman
+  name: Kubernetes Autoscaling API
+  slug: postman-kubernetes-autoscaling-api
+- collection_type: postman
+  name: Kubernetes Autoscaling Cluster API
+  slug: postman-kubernetes-cluster-api
+- collection_type: postman
+  name: Kubernetes Autoscaling Config API
+  slug: postman-kubernetes-config-api
+- collection_type: postman
+  name: Kubernetes Autoscaling Events API
+  slug: postman-kubernetes-events-api
+- collection_type: postman
+  name: Kubernetes Autoscaling Namespaces API
+  slug: postman-kubernetes-namespaces-api
+- collection_type: postman
+  name: Kubernetes Autoscaling RBAC API
+  slug: postman-kubernetes-rbac-api
+- collection_type: postman
+  name: Kubernetes Autoscaling Workloads API
+  slug: postman-kubernetes-workloads-api
 - collection_type: open
   name: Kubernetes API
   slug: open-kubernetes-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kubernetes/overview
 - group: build
   title: ''
   type: Packages
@@ -404,12 +431,12 @@ overview: 'Kubernetes publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Kubernetes catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Kubernetes'' developer surface includes changelog, CLI, authentication, documentation, API reference, engineering blog, training material, and 57 more developer resources.'
+  Kubernetes'' developer surface includes changelog, CLI, authentication, documentation, API reference, engineering blog, training material, and 58 more developer resources.'
 plans:
 - name: Kubernetes Plans Pricing
   plan_count: 3
   slug: kubernetes-plans-pricing
-random_paper: 60
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Kubernetes Rate Limits
@@ -433,18 +460,27 @@ rules:
   slug: kubernetes-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 4.6
+  composite: 64.9
+  delta: -1.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 82.7
-    developer_ergonomics: 58.7
-    discoverability: 100.0
-    governance: 52.6
+    contract_quality: 83.4
+    developer_ergonomics: 56.5
+    discoverability: 92.6
+    governance: 53.1
     operational_transparency: 71.1
-  previous_composite: 61.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:

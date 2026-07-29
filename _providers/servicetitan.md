@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -202,8 +204,128 @@ apis:
 - description: The Zones API from ServiceTitan — 1 operation(s) for zones.
   name: ServiceTitan Zones API
   slug: servicetitan-zones-api
-artifact_total: 95
+artifact_total: 135
 collections:
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments API
+  slug: postman-servicetitan-adjustments-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Appointment Assignments API
+  slug: postman-servicetitan-appointment-assignments-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Appointments API
+  slug: postman-servicetitan-appointments-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Attachments API
+  slug: postman-servicetitan-attachments-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Bookings API
+  slug: postman-servicetitan-bookings-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Business Hours API
+  slug: postman-servicetitan-business-hours-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Business Units API
+  slug: postman-servicetitan-business-units-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Capacity API
+  slug: postman-servicetitan-capacity-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Categories API
+  slug: postman-servicetitan-categories-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Contacts API
+  slug: postman-servicetitan-contacts-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Customers API
+  slug: postman-servicetitan-customers-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Discounts And Fees API
+  slug: postman-servicetitan-discounts-and-fees-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Employees API
+  slug: postman-servicetitan-employees-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Equipment API
+  slug: postman-servicetitan-equipment-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments GL Accounts API
+  slug: postman-servicetitan-gl-accounts-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments GPS API
+  slug: postman-servicetitan-gps-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Installed Equipment API
+  slug: postman-servicetitan-installed-equipment-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Invoices API
+  slug: postman-servicetitan-invoices-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Job Types API
+  slug: postman-servicetitan-job-types-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Jobs API
+  slug: postman-servicetitan-jobs-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Journal Entries API
+  slug: postman-servicetitan-journal-entries-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Leads API
+  slug: postman-servicetitan-leads-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Locations API
+  slug: postman-servicetitan-locations-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Materials API
+  slug: postman-servicetitan-materials-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Payments API
+  slug: postman-servicetitan-payments-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Projects API
+  slug: postman-servicetitan-projects-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Purchase Orders API
+  slug: postman-servicetitan-purchase-orders-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Receipts API
+  slug: postman-servicetitan-receipts-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Services API
+  slug: postman-servicetitan-services-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Tag Types API
+  slug: postman-servicetitan-tag-types-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Tags API
+  slug: postman-servicetitan-tags-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Tax Zones API
+  slug: postman-servicetitan-tax-zones-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Technician Shifts API
+  slug: postman-servicetitan-technician-shifts-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Technicians API
+  slug: postman-servicetitan-technicians-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Transfers API
+  slug: postman-servicetitan-transfers-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Trucks API
+  slug: postman-servicetitan-trucks-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments User Roles API
+  slug: postman-servicetitan-user-roles-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Vendors API
+  slug: postman-servicetitan-vendors-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Warehouses API
+  slug: postman-servicetitan-warehouses-api
+- collection_type: postman
+  name: ServiceTitan Accounting Adjustments Zones API
+  slug: postman-servicetitan-zones-api
 - collection_type: open
   name: ServiceTitan Accounting API
   slug: open-servicetitan-accounting-api
@@ -229,6 +351,10 @@ collections:
   name: ServiceTitan Settings API
   slug: open-servicetitan-settings-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/servicetitan/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -491,8 +617,8 @@ overview: 'ServiceTitan publishes 40 APIs on the [APIs.io](https://apis.io/) net
   The ServiceTitan catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 38 more developer resources.'
-random_paper: 5
+  ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 39 more developer resources.'
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Servicetitan Rate Limits
@@ -513,18 +639,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.3
-  delta: 4.7
+  composite: 59.0
+  delta: -3.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.3
-    developer_ergonomics: 41.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 68.6
+    developer_ergonomics: 45.7
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 57.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 40
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/screenshots/servicetitan-2026-06-20T193732.png
 security:

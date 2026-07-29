@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -150,7 +152,7 @@ plans:
 - name: Playht Plans Pricing
   plan_count: 1
   slug: playht-plans-pricing
-random_paper: 46
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Playht Rate Limits
@@ -166,19 +168,32 @@ rules:
   slug: playht-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 3.2
+  composite: 45.0
+  delta: -6.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.4
+    contract_quality: 60.2
     developer_ergonomics: 21.7
-    discoverability: 100.0
-    governance: 60.5
+    discoverability: 74.1
+    governance: 47.9
     operational_transparency: 26.3
-  previous_composite: 48.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 27.8
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 security:
 - kind: authentication
   name: Playht Authentication

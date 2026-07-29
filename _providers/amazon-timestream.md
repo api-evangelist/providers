@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 21.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,12 +50,28 @@ apis:
 - description: Operations for writing time series data.
   name: Amazon Timestream Write API
   slug: amazon-timestream-write-api
-artifact_total: 21
+artifact_total: 25
 collections:
+- collection_type: postman
+  name: Amazon Timestream Databases API
+  slug: postman-amazon-timestream-databases-api
+- collection_type: postman
+  name: Amazon Timestream Databases Query API
+  slug: postman-amazon-timestream-query-api
+- collection_type: postman
+  name: Amazon Timestream Databases Tables API
+  slug: postman-amazon-timestream-tables-api
+- collection_type: postman
+  name: Amazon Timestream Databases Write API
+  slug: postman-amazon-timestream-write-api
 - collection_type: open
   name: Amazon Timestream
   slug: open-amazon-timestream
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-timestream/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,12 +184,12 @@ overview: 'Amazon Timestream publishes 4 APIs on the [APIs.io](https://apis.io/)
   The Amazon Timestream catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Timestream''s developer surface includes developer portal, documentation, support, developer console, signup flow, and 13 more developer resources.'
+  Amazon Timestream''s developer surface includes developer portal, documentation, support, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Timestream Plans Pricing
   plan_count: 3
   slug: amazon-timestream-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Timestream Rate Limits
@@ -195,18 +213,25 @@ rules:
   slug: amazon-timestream-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 3.3
+  composite: 58.9
+  delta: -2.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 53.1
-    developer_ergonomics: 28.3
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 55.1
+    developer_ergonomics: 32.6
+    discoverability: 72.2
+    governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 58.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 61.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/screenshots/amazon-timestream-2026-06-20T171834.png
 security:

@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,12 +54,25 @@ apis:
 - description: Operations for triggering invocable flows as actions
   name: Salesforce Flow Invocable Actions API
   slug: salesforce-flow-invocable-actions-api
-artifact_total: 21
+artifact_total: 24
 collections:
+- collection_type: postman
+  name: Salesforce Flow REST Flow Definitions API
+  slug: postman-salesforce-flow-flow-definitions-api
+- collection_type: postman
+  name: Salesforce Flow REST Flow Definitions Flow Interviews API
+  slug: postman-salesforce-flow-flow-interviews-api
+- collection_type: postman
+  name: Salesforce Flow REST Flow Definitions Invocable Actions API
+  slug: postman-salesforce-flow-invocable-actions-api
 - collection_type: open
   name: Salesforce Flow REST API
   slug: open-salesforce-flow-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/salesforce-flow/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -183,12 +198,12 @@ overview: 'Salesforce Flow publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Salesforce Flow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Flow''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, and 16 more developer resources.'
+  Salesforce Flow''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Salesforce Flow Plans Pricing
   plan_count: 1
   slug: salesforce-flow-plans-pricing
-random_paper: 52
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Salesforce Flow Rate Limits
@@ -217,18 +232,25 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.7
-  delta: 3.3
+  composite: 57.9
+  delta: -2.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.1
-    developer_ergonomics: 41.3
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 67.5
+    developer_ergonomics: 45.7
+    discoverability: 81.5
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 57.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/screenshots/salesforce-flow-2026-06-20T193348.png
 security:

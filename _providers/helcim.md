@@ -2,21 +2,23 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
-    mcp_server: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 86.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 47.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,12 +46,20 @@ apis:
 - description: In-person payments through Helcim Smart Terminal hardware — list card terminals and devices, ping a device, and start purchase or refund transactions on a device — under the Helcim API v2.
   name: Helcim Card Terminal & Device API
   slug: helcim-terminal-device-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Helcim Webhooks
   slug: helcim-webhooks
+collections:
+- collection_type: postman
+  name: The Helcim API
+  slug: postman-helcim-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/helcim/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -224,31 +234,37 @@ overview: 'Helcim publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Helcim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Helcim''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, pricing, and 32 more developer resources.'
-random_paper: 14
+  Helcim''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, pricing, and 33 more developer resources.'
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Helcim Rate Limits
   slug: helcim-rate-limits
 score:
   band: strong
-  composite: 61.6
-  delta: 0.0
+  composite: 59.1
+  delta: -2.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 60.4
-    developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 64.7
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 84.2
   previous_composite: 61.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 59.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
 security:

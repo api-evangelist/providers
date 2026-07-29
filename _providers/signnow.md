@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,12 +60,37 @@ apis:
 - description: Event subscription and notification management
   name: SignNow Webhooks API
   slug: signnow-webhooks-api
-artifact_total: 22
+artifact_total: 29
 collections:
+- collection_type: postman
+  name: SignNow REST Authentication API
+  slug: postman-signnow-authentication-api
+- collection_type: postman
+  name: SignNow REST Authentication Documents API
+  slug: postman-signnow-documents-api
+- collection_type: postman
+  name: SignNow REST Authentication Envelopes API
+  slug: postman-signnow-envelopes-api
+- collection_type: postman
+  name: SignNow REST Authentication Signing API
+  slug: postman-signnow-signing-api
+- collection_type: postman
+  name: SignNow REST Authentication Templates API
+  slug: postman-signnow-templates-api
+- collection_type: postman
+  name: SignNow REST Authentication Users API
+  slug: postman-signnow-users-api
+- collection_type: postman
+  name: SignNow REST Authentication Webhooks API
+  slug: postman-signnow-webhooks-api
 - collection_type: open
   name: SignNow REST API
   slug: open-signnow
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/signnow/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,12 +189,12 @@ overview: 'SignNow publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The SignNow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SignNow''s developer surface includes authentication, documentation, release notes, pricing, engineering blog, and 9 more developer resources.'
+  SignNow''s developer surface includes authentication, documentation, release notes, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Signnow Plans Pricing
   plan_count: 3
   slug: signnow-plans-pricing
-random_paper: 25
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Signnow Rate Limits
@@ -191,18 +218,25 @@ rules:
   slug: signnow-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 3.3
+  composite: 61.0
+  delta: -3.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.5
-    developer_ergonomics: 39.1
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 65.5
+    developer_ergonomics: 43.5
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 60.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/screenshots/signnow-2026-06-20T193914.png
 security:

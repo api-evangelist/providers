@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -152,32 +154,43 @@ overview: 'Calm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 16 more developer resources.'
-random_paper: 5
+random_paper: 28
 scopes:
 - name: Calm Scopes
   scope_count: 2
   slug: calm-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 48.0
-  delta: 0.0
+  band: thin
+  composite: 41.5
+  delta: -6.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 58.8
-    developer_ergonomics: 71.7
-    discoverability: 92.5
-    governance: 0.0
+    contract_quality: 47.9
+    developer_ergonomics: 60.3
+    discoverability: 87.0
+    governance: 11.5
     operational_transparency: 15.8
   previous_composite: 48.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 47.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/screenshots/calm-2026-07-25T204251.png
 security:
 - kind: authentication

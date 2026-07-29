@@ -10,13 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 13.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 12.6
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 3
 common:
@@ -82,7 +84,7 @@ overview: 'Stance is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Stance''s developer surface includes support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 26
+random_paper: 22
 scopes:
 - name: Stance Scopes
   scope_count: 4
@@ -90,18 +92,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.1
-  delta: 0.0
+  composite: 16.4
+  delta: -0.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 17.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

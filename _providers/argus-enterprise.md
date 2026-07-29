@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -73,8 +75,44 @@ apis:
 - description: Property valuations and appraisal data
   name: ARGUS Enterprise Valuations API
   slug: argus-enterprise-valuations-api
-artifact_total: 153
+artifact_total: 165
 collections:
+- collection_type: postman
+  name: Argus Enterprise Core Authentication API
+  slug: postman-argus-enterprise-authentication-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Cash Flows API
+  slug: postman-argus-enterprise-cash-flows-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Events API
+  slug: postman-argus-enterprise-events-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Health API
+  slug: postman-argus-enterprise-health-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Leases API
+  slug: postman-argus-enterprise-leases-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Portfolios API
+  slug: postman-argus-enterprise-portfolios-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Properties API
+  slug: postman-argus-enterprise-properties-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Reports API
+  slug: postman-argus-enterprise-reports-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Subscriptions API
+  slug: postman-argus-enterprise-subscriptions-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Tenants API
+  slug: postman-argus-enterprise-tenants-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Users API
+  slug: postman-argus-enterprise-users-api
+- collection_type: postman
+  name: Argus Enterprise Core Authentication Valuations API
+  slug: postman-argus-enterprise-valuations-api
 - collection_type: open
   name: Argus Enterprise Core API
   slug: open-argus-enterprise-core
@@ -82,6 +120,10 @@ collections:
   name: Argus Enterprise Webhook API
   slug: open-argus-enterprise-webhooks
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/argus-enterprise/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -530,12 +572,12 @@ overview: 'ARGUS Enterprise publishes 12 APIs on the [APIs.io](https://apis.io/)
   The ARGUS Enterprise catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ARGUS Enterprise''s developer surface includes authentication, documentation, getting-started guide, developer portal, support, training material, engineering blog, and 9 more developer resources.'
+  ARGUS Enterprise''s developer surface includes authentication, documentation, getting-started guide, developer portal, support, training material, engineering blog, and 10 more developer resources.'
 plans:
 - name: Argus Enterprise Plans Pricing
   plan_count: 3
   slug: argus-enterprise-plans-pricing
-random_paper: 48
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Argus Enterprise Rate Limits
@@ -559,18 +601,25 @@ rules:
   slug: argus-enterprise-spectral-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 3.2
+  composite: 59.7
+  delta: -3.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.3
-    developer_ergonomics: 45.7
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 65.8
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 60.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/screenshots/argus-enterprise-2026-06-20T172428.png
 security:

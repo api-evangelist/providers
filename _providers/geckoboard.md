@@ -12,11 +12,13 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -24,9 +26,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 41.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -119,21 +121,28 @@ overview: 'Geckoboard publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Geckoboard''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 21
+random_paper: 40
 score:
   band: thin
-  composite: 36.0
-  delta: 3.2
+  composite: 33.9
+  delta: -2.1
   facets:
     commercial_clarity: 18.4
-    contract_quality: 57.5
+    contract_quality: 59.3
     developer_ergonomics: 26.1
-    discoverability: 100.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 36.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/screenshots/geckoboard-2026-06-20T181707.png
 security:

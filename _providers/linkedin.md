@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
-    mcp_server: true
-    openapi_examples: true
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 80.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 53.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -2754,7 +2756,7 @@ press:
 - date: '2026-05-25'
   title: AI's Impact on Local News Production
   url: https://www.linkedin.com/top-content/artificial-intelligence/ai-in-journalism/ai-s-impact-on-local-news-production/
-random_paper: 30
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Linkedin Rate Limits
@@ -2782,19 +2784,28 @@ scopes:
   slug: linkedin-scopes
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 69.9
-  delta: 2.5
+  band: exemplar
+  composite: 68.9
+  delta: -1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.2
-    developer_ergonomics: 65.2
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 76.2
+    developer_ergonomics: 58.7
+    discoverability: 87.0
+    governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 67.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 64
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:

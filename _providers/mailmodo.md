@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: List interactive AMP email templates available on the workspace
   name: Mailmodo Templates API
   slug: mailmodo-templates-api
-artifact_total: 56
+artifact_total: 61
 collections:
+- collection_type: postman
+  name: Mailmodo Campaigns API
+  slug: postman-mailmodo-campaigns-api
+- collection_type: postman
+  name: Mailmodo Campaigns Contact Lists API
+  slug: postman-mailmodo-contact-lists-api
+- collection_type: postman
+  name: Mailmodo Campaigns Contacts API
+  slug: postman-mailmodo-contacts-api
+- collection_type: postman
+  name: Mailmodo Campaigns Events API
+  slug: postman-mailmodo-events-api
+- collection_type: postman
+  name: Mailmodo Campaigns Templates API
+  slug: postman-mailmodo-templates-api
 - collection_type: open
   name: Mailmodo API
   slug: open-mailmodo
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mailmodo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -245,12 +266,12 @@ overview: 'Mailmodo publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Mailmodo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mailmodo''s developer surface includes authentication, documentation, API reference, support, signup flow, developer portal, developer console, and 15 more developer resources.'
+  Mailmodo''s developer surface includes authentication, documentation, API reference, support, signup flow, developer portal, developer console, and 16 more developer resources.'
 plans:
 - name: Mailmodo Plans Pricing
   plan_count: 4
   slug: mailmodo-plans-pricing
-random_paper: 34
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Mailmodo Rate Limits
@@ -274,19 +295,26 @@ rules:
   slug: mailmodo-rules
 score:
   band: strong
-  composite: 64.6
-  delta: 5.5
+  composite: 61.0
+  delta: -3.6
   facets:
     commercial_clarity: 78.9
-    contract_quality: 72.6
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 86.8
+    contract_quality: 73.7
+    developer_ergonomics: 52.2
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: rising
+  previous_composite: 64.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/screenshots/mailmodo-2026-06-20T184904.png
 security:
 - kind: authentication

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 24.0
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 15.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The App.net Stream API — a RESTful, OAuth 2.0-secured social API covering posts, users, follows, channels/messages, files, filters, and a real-time streaming surface. Responses use a uniform {data, me
@@ -98,7 +100,7 @@ overview: 'App.net publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   App.net''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 36
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Appnet Rate Limits
@@ -110,18 +112,26 @@ scopes:
   summary_line: 9 scopes · authorizationCode/implicit/password
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 24.7
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 26.1
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 36.8
   previous_composite: 21.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 44.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/screenshots/appnet-2026-07-25T200825.png
 security:

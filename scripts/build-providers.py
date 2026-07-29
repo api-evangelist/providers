@@ -52,6 +52,7 @@ APISIO = os.path.join(ROOT, "api-search", "providers", "_providers")
 PAPERS = os.path.join(ROOT, "api-evangelist", "papers", "_papers")
 OUT = os.path.join(SITE, "_providers")
 DATA = os.path.join(SITE, "_data")
+DELISTED_YML = os.path.join(ROOT, "api-search", "network", "_data", "delisted.yml")
 
 # Fields carried from the apis.io provider file onto the API Evangelist page.
 # Everything the narrative + artifact cards + sidebar need, and nothing heavy:
@@ -85,6 +86,23 @@ ARTIFACT_KEYS = [
     ("agentic_access", "agentic-access contracts"), ("use_cases", "use cases"),
     ("integrations", "integrations"), ("solutions", "solutions"),
 ]
+
+
+def delisted_slugs():
+    """Slugs a company has asked us to remove — never list these, ever.
+
+    See network/_data/delisted.yml, the network-wide takedown registry. A
+    delisted provider keeps a bare repo under all/<slug>/, so any scan of
+    all/* must exclude it explicitly rather than rely on which artifacts the
+    takedown happened to delete.
+    """
+    if not os.path.isfile(DELISTED_YML):
+        print("WARNING: %s not found — delisting guard is INACTIVE" % DELISTED_YML)
+        return set()
+    with open(DELISTED_YML, "r", encoding="utf-8") as fh:
+        doc = yaml.safe_load(fh) or []
+    rows = doc if isinstance(doc, list) else doc.get("delisted", doc.get("providers", []))
+    return {r["slug"] for r in rows if isinstance(r, dict) and r.get("slug")}
 
 
 def read_frontmatter(path):
@@ -231,6 +249,12 @@ def main():
     print("papers.json: %d white papers" % len(papers))
 
     slugs = sorted(os.path.basename(os.path.dirname(p)) for p in glob.glob(os.path.join(ALL, "*", "apis.yml")))
+    delisted = delisted_slugs()
+    if delisted:
+        blocked = [s for s in slugs if s in delisted]
+        if blocked:
+            print("delisted, excluded: %d (%s)" % (len(blocked), ", ".join(blocked)))
+        slugs = [s for s in slugs if s not in delisted]
     if args.only:
         want = set(args.only.split(","))
         slugs = [s for s in slugs if s in want]

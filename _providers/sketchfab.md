@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 54.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,8 +54,17 @@ apis:
 - description: OAuth 2.0 authorization server for the Sketchfab platform. Supports Authorization Code, Implicit, and Resource Owner Password Credentials grant types plus refresh-token rotation. Authorize endpoint at
   name: Sketchfab OAuth 2.0 API
   slug: sketchfab-oauth-api
-artifact_total: 32
+artifact_total: 35
 collections:
+- collection_type: postman
+  name: Sketchfab Download API
+  slug: postman-sketchfab-download-api
+- collection_type: postman
+  name: Sketchfab Download OAuth API
+  slug: postman-sketchfab-oauth-api
+- collection_type: postman
+  name: Sketchfab Download oEmbed API
+  slug: postman-sketchfab-oembed-api
 - collection_type: open
   name: Sketchfab Download API
   slug: open-sketchfab-download-api
@@ -64,6 +75,10 @@ collections:
   name: Sketchfab oEmbed API
   slug: open-sketchfab-oembed-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sketchfab/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -322,12 +337,12 @@ overview: 'Sketchfab publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Sketchfab catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sketchfab''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 47 more developer resources.'
+  Sketchfab''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 48 more developer resources.'
 plans:
 - name: Sketchfab Plans Pricing
   plan_count: 5
   slug: sketchfab-plans-pricing
-random_paper: 55
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Sketchfab Rate Limits
@@ -348,18 +363,25 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 69.1
-  delta: 3.3
+  composite: 65.6
+  delta: -3.5
   facets:
     commercial_clarity: 84.2
-    contract_quality: 70.8
-    developer_ergonomics: 60.9
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 69.8
+    developer_ergonomics: 65.2
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 65.8
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 69.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/screenshots/sketchfab-2026-06-20T194108.png
 security:

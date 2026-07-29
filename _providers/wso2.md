@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 6
@@ -307,8 +309,283 @@ apis:
 - description: The Workflows (Individual) API from WSO2 — 2 operation(s) for workflows (individual).
   name: WSO2 Workflows (Individual) API
   slug: wso2-workflows-individual-api
-artifact_total: 1013
+artifact_total: 1103
+collections:
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Advanced Policy (Collection) API
+  slug: postman-wso2-advanced-policy-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Advanced Policy (Individual) API
+  slug: postman-wso2-advanced-policy-individual-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) AIServiceProvider API
+  slug: postman-wso2-aiserviceprovider-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) AIServiceProviders API
+  slug: postman-wso2-aiserviceproviders-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Alert Subscriptions API
+  slug: postman-wso2-alert-subscriptions-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Alerts API
+  slug: postman-wso2-alerts-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Api Artifact API
+  slug: postman-wso2-api-artifact-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Categories API
+  slug: postman-wso2-api-categories-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Category (Collection) API
+  slug: postman-wso2-api-category-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Category (Individual) API
+  slug: postman-wso2-api-category-individual-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Chat API
+  slug: postman-wso2-api-chat-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Documents API
+  slug: postman-wso2-api-documents-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) API Monetization API
+  slug: postman-wso2-api-monetization-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Api Provider Change API
+  slug: postman-wso2-api-provider-change-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) APIKeys API
+  slug: postman-wso2-apikeys-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) APIs API
+  slug: postman-wso2-apis-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application API
+  slug: postman-wso2-application-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application (Collection) API
+  slug: postman-wso2-application-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Keys API
+  slug: postman-wso2-application-keys-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Policy (Collection) API
+  slug: postman-wso2-application-policy-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Policy (Individual) API
+  slug: postman-wso2-application-policy-individual-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Secrets API
+  slug: postman-wso2-application-secrets-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Application Tokens API
+  slug: postman-wso2-application-tokens-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Applications API
+  slug: postman-wso2-applications-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Artifact Compliance API
+  slug: postman-wso2-artifact-compliance-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Bot Detection Alert Subscriptions API
+  slug: postman-wso2-bot-detection-alert-subscriptions-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Bot Detection Data API
+  slug: postman-wso2-bot-detection-data-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Comments API
+  slug: postman-wso2-comments-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Config API
+  slug: postman-wso2-config-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Consumption API
+  slug: postman-wso2-consumption-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Custom Rules (Collection) API
+  slug: postman-wso2-custom-rules-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Custom Rules (Individual) API
+  slug: postman-wso2-custom-rules-individual-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Deny Policies (Collection) API
+  slug: postman-wso2-deny-policies-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Deny Policy (Individual) API
+  slug: postman-wso2-deny-policy-individual-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) End Points API
+  slug: postman-wso2-end-points-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Environments API
+  slug: postman-wso2-environments-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Get API Info API
+  slug: postman-wso2-get-api-info-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Get Application Info API
+  slug: postman-wso2-get-application-info-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Get Subscription Info API
+  slug: postman-wso2-get-subscription-info-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Global Key Manager (Collection) API
+  slug: postman-wso2-global-key-manager-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Global Key Manager (Individual) API
+  slug: postman-wso2-global-key-manager-individual-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Governance Policies API
+  slug: postman-wso2-governance-policies-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) GraphQL Policies API
+  slug: postman-wso2-graphql-policies-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Import Export API
+  slug: postman-wso2-import-export-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Key Manager (Collection) API
+  slug: postman-wso2-key-manager-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Key Manager (Individual) API
+  slug: postman-wso2-key-manager-individual-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Key Managers API
+  slug: postman-wso2-key-managers-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Label (Individual) API
+  slug: postman-wso2-label-individual-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Labels (Collection) API
+  slug: postman-wso2-labels-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) LLMProvider API
+  slug: postman-wso2-llmprovider-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) LLMProviders API
+  slug: postman-wso2-llmproviders-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Local Entry API
+  slug: postman-wso2-local-entry-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Marketplace Assistant API
+  slug: postman-wso2-marketplace-assistant-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) MCP Server Documents API
+  slug: postman-wso2-mcp-server-documents-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) MCP Servers API
+  slug: postman-wso2-mcp-servers-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Monetization (Collection) API
+  slug: postman-wso2-monetization-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Org Themes API
+  slug: postman-wso2-org-themes-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Organizations API
+  slug: postman-wso2-organizations-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Platform Gateways API
+  slug: postman-wso2-platform-gateways-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Policy Adherence API
+  slug: postman-wso2-policy-adherence-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Ratings API
+  slug: postman-wso2-ratings-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Recommendations API
+  slug: postman-wso2-recommendations-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Redeploy Api API
+  slug: postman-wso2-redeploy-api-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Register API
+  slug: postman-wso2-register-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Roles API
+  slug: postman-wso2-roles-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Rulesets API
+  slug: postman-wso2-rulesets-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) SDKs API
+  slug: postman-wso2-sdks-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Sequence API
+  slug: postman-wso2-sequence-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Server Startup Healthcheck API
+  slug: postman-wso2-server-startup-healthcheck-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Services API
+  slug: postman-wso2-services-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Settings API
+  slug: postman-wso2-settings-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Subscription Policy (Collection) API
+  slug: postman-wso2-subscription-policy-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Subscription Policy (Individual) API
+  slug: postman-wso2-subscription-policy-individual-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Subscriptions API
+  slug: postman-wso2-subscriptions-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) System Scopes API
+  slug: postman-wso2-system-scopes-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tags API
+  slug: postman-wso2-tags-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenant Config API
+  slug: postman-wso2-tenant-config-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenant Config Schema API
+  slug: postman-wso2-tenant-config-schema-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenant Logs API
+  slug: postman-wso2-tenant-logs-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenant Theme API
+  slug: postman-wso2-tenant-theme-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Tenants API
+  slug: postman-wso2-tenants-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Throttling Policies API
+  slug: postman-wso2-throttling-policies-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Topics API
+  slug: postman-wso2-topics-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Transaction Records API
+  slug: postman-wso2-transaction-records-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Undeploy Api API
+  slug: postman-wso2-undeploy-api-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Unified Search API
+  slug: postman-wso2-unified-search-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Users API
+  slug: postman-wso2-users-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Webhooks API
+  slug: postman-wso2-webhooks-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Workflow (Collection) API
+  slug: postman-wso2-workflow-collection-api
+- collection_type: postman
+  name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Workflows (Individual) API
+  slug: postman-wso2-workflows-individual-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/wso2/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3137,12 +3414,12 @@ overview: 'WSO2 publishes 90 APIs on the [APIs.io](https://apis.io/) network, in
   The WSO2 catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  WSO2''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, support, changelog, and 19 more developer resources.'
+  WSO2''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, support, changelog, and 20 more developer resources.'
 plans:
 - name: Wso2 Plans Pricing
   plan_count: 14
   slug: wso2-plans-pricing
-random_paper: 55
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Wso2 Rate Limits
@@ -3163,18 +3440,25 @@ scopes:
   summary_line: 51 scopes · password
 score:
   band: strong
-  composite: 66.4
-  delta: 0.0
+  composite: 62.4
+  delta: -4.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 58.7
-    developer_ergonomics: 37.0
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 57.4
+    developer_ergonomics: 41.3
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 68.4
   previous_composite: 66.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 91
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png
 security:

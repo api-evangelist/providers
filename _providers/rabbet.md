@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,26 +99,27 @@ overview: 'Rabbet is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rabbet''s developer surface includes documentation, support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: emerging
-  composite: 28.0
-  delta: 0.0
+  composite: 24.8
+  delta: -3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 28.0
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 41.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 29.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: domain-security

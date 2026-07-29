@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
+    mcp_server: derived
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 65.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,8 +58,22 @@ arazzos:
 - description: Send an SMS from a Guava number, then poll the inbox for the recipient's reply.
   name: Send an SMS and poll for the reply
   slug: gridspace-send-and-poll-sms
-artifact_total: 11
+artifact_total: 14
+collections:
+- collection_type: postman
+  name: Guava Voice Agent REST Conversations API
+  slug: postman-gridspace-conversations-api
+- collection_type: postman
+  name: Guava Voice Agent REST Conversations Messages API
+  slug: postman-gridspace-messages-api
+- collection_type: postman
+  name: Guava Voice Agent REST Conversations SDK API
+  slug: postman-gridspace-sdk-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/gridspace/overview
 - group: company
   title: ''
   type: Website
@@ -221,31 +237,42 @@ network: true
 overview: 'Gridspace publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversations API, Messages API, and SDK API. Tagged areas include Company, Voice AI, Conversational AI, Voice Agents, and Speech Recognition.
 
 
-  Gridspace''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 30 more developer resources.'
+  Gridspace''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 31 more developer resources.'
 plans:
 - name: Gridspace Plans
   plan_count: 4
   slug: gridspace-plans
-random_paper: 62
+random_paper: 22
 score:
   band: strong
-  composite: 65.4
-  delta: 0.0
+  composite: 62.3
+  delta: -3.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 61.4
-    developer_ergonomics: 87.0
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 62.4
+    developer_ergonomics: 79.9
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 44.7
   previous_composite: 65.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
-    regime: Health
-    regime_id: health
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/screenshots/gridspace-2026-07-25T220327.png
 security:

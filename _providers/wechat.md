@@ -11,21 +11,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 44.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 27.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -282,7 +284,7 @@ overview: 'WeChat publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   WeChat''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, developer console, code examples, and 31 more developer resources.'
-random_paper: 24
+random_paper: 20
 rules:
 - name: WeChat API Rules
   rule_count: 9
@@ -294,23 +296,31 @@ rules:
   slug: wechat-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: 1.7
+  composite: 44.7
+  delta: -4.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.4
+    contract_quality: 63.7
     developer_ergonomics: 67.4
-    discoverability: 87.5
-    governance: 60.5
+    discoverability: 64.8
+    governance: 47.9
     operational_transparency: 5.3
-  previous_composite: 47.6
+  previous_composite: 49.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
-    regime: Payments
-    regime_id: payments
-    score: 30.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 19.4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/screenshots/wechat-2026-06-20T201343.png
 security:

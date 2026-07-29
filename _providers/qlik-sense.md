@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 48.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -61,12 +63,25 @@ apis:
 - description: Manage spaces, which are logical containers within a tenant that control access for users and groups through role-based assignments.
   name: Qlik Sense Spaces API
   slug: qlik-sense-spaces-api
-artifact_total: 41
+artifact_total: 44
 collections:
+- collection_type: postman
+  name: Qlik Cloud REST Apps API
+  slug: postman-qlik-sense-apps-api
+- collection_type: postman
+  name: Qlik Cloud REST Apps Reloads API
+  slug: postman-qlik-sense-reloads-api
+- collection_type: postman
+  name: Qlik Cloud REST Apps Spaces API
+  slug: postman-qlik-sense-spaces-api
 - collection_type: open
   name: Qlik Cloud REST API
   slug: open-qlik-sense-cloud-rest-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/qlik-sense/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -249,12 +264,12 @@ overview: 'Qlik Sense publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The Qlik Sense catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Qlik Sense''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, signup flow, and 14 more developer resources.'
+  Qlik Sense''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, signup flow, and 15 more developer resources.'
 plans:
 - name: Qlik Sense Plans Pricing
   plan_count: 1
   slug: qlik-sense-plans-pricing
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Qlik Sense Rate Limits
@@ -270,18 +285,25 @@ rules:
   slug: qlik-sense-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 66.9
-  delta: 2.0
+  composite: 64.4
+  delta: -2.5
   facets:
     commercial_clarity: 73.7
-    contract_quality: 64.6
-    developer_ergonomics: 60.9
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 66.1
+    developer_ergonomics: 65.2
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 64.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 66.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-sense/refs/heads/main/screenshots/qlik-sense-2026-06-20T192340.png
 security:

@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 28.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 23.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for the Tecton feature platform - the Feature Service (low-latency online feature retrieval, e.g. POST /api/v1/feature-service/get-features), the Ingest API, the Metadata API, and SCIM 2.0 pr
@@ -150,21 +152,24 @@ overview: 'Tecton (Databricks) publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Tecton (Databricks)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 18 more developer resources.'
-random_paper: 46
+random_paper: 52
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 35.1
+  delta: 1.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 73.9
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 21.1
   previous_composite: 34.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

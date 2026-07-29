@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 36.9
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -3022,7 +3024,7 @@ plans:
 - name: Otter Plans Pricing
   plan_count: 4
   slug: otter-plans-pricing
-random_paper: 14
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Otter Rate Limits
@@ -3051,19 +3053,26 @@ scopes:
   summary_line: 31 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 58.2
-  delta: 4.6
+  composite: 49.4
+  delta: -8.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.9
+    contract_quality: 57.8
     developer_ergonomics: 26.1
-    discoverability: 100.0
-    governance: 86.8
+    discoverability: 74.1
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 53.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 58.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 19
+      marker_coverage: 100.0
+      total: 19
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/screenshots/otter-2026-06-20T191236.png
 security:
 - kind: authentication

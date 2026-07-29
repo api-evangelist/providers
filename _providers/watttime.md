@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,12 +57,31 @@ apis:
 - description: Discover and query grid balancing authorities and regions.
   name: WattTime Grid Regions API
   slug: watttime-grid-regions-api
-artifact_total: 70
+artifact_total: 75
 collections:
+- collection_type: postman
+  name: WattTime Account API
+  slug: postman-watttime-account-api
+- collection_type: postman
+  name: WattTime Account Authentication API
+  slug: postman-watttime-authentication-api
+- collection_type: postman
+  name: WattTime Account Emissions Data API
+  slug: postman-watttime-emissions-data-api
+- collection_type: postman
+  name: WattTime Account Forecasts API
+  slug: postman-watttime-forecasts-api
+- collection_type: postman
+  name: WattTime Account Grid Regions API
+  slug: postman-watttime-grid-regions-api
 - collection_type: open
   name: WattTime API
   slug: open-watttime
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/watttime/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -282,12 +303,12 @@ overview: 'WattTime publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The WattTime catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WattTime''s developer surface includes authentication, developer portal, documentation, release notes, support, engineering blog, and 8 more developer resources.'
+  WattTime''s developer surface includes authentication, developer portal, documentation, release notes, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Watttime Plans Pricing
   plan_count: 3
   slug: watttime-plans-pricing
-random_paper: 63
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Watttime Rate Limits
@@ -310,20 +331,33 @@ rules:
     warn: 25
   slug: watttime-spectral-rules
 score:
-  band: strong
-  composite: 63.5
-  delta: 4.2
+  band: developing
+  composite: 51.8
+  delta: -11.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 82.3
-    developer_ergonomics: 34.8
-    discoverability: 87.5
-    governance: 86.8
+    contract_quality: 70.3
+    developer_ergonomics: 39.1
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 59.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 63.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 23.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/screenshots/watttime-2026-06-20T201256.png
 security:
 - kind: authentication

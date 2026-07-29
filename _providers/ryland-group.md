@@ -11,11 +11,13 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
@@ -23,9 +25,9 @@ agent_readiness:
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
+  schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-27'
+  scored_at: '2026-07-28'
 api_count: 0
 artifact_total: 7
 common:
@@ -108,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Ryland/Standard Pacific merger complete as trading ...
   url: https://www.constructiondive.com/news/rylandstandard-pacific-merger-complete-as-trading-begins-for-new-calatlant/406642/
-random_paper: 28
+random_paper: 20
 rules:
 - name: Ryland Group API Rules
   rule_count: 5
@@ -120,18 +122,18 @@ rules:
   slug: ryland-group-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 15.6
+  delta: -4.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 55.0
-    governance: 86.8
+    discoverability: 40.7
+    governance: 68.8
     operational_transparency: 0.0
   previous_composite: 19.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 slug: ryland-group
 tags:

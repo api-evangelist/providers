@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
+    agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 90.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 66.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -220,25 +222,41 @@ overview: 'AgentPhone publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AgentPhone''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 45
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Agentphone Rate Limits
   slug: agentphone-rate-limits
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.3
+  delta: -1.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.5
+    contract_quality: 65.1
     developer_ergonomics: 71.7
-    discoverability: 100.0
-    governance: 0.0
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 13.2
   previous_composite: 50.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/screenshots/agentphone-2026-07-25T195242.png
 security:

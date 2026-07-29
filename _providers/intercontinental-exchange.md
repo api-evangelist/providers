@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 56.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 35.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -192,30 +194,41 @@ press:
 - date: '2026-05-25'
   title: National Housing Conference and ICE host industry ...
   url: https://nhc.org/press-release/national-housing-conference-and-ice-host-industry-leaders-and-experts-to-explore-technologys-transformative-impact-on-housing-finance/
-random_paper: 25
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Intercontinental Exchange Rate Limits
   slug: intercontinental-exchange-rate-limits
 score:
   band: developing
-  composite: 51.5
-  delta: 2.8
+  composite: 50.9
+  delta: -0.6
   facets:
     commercial_clarity: 65.8
-    contract_quality: 50.4
-    developer_ergonomics: 39.1
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 52.5
+    developer_ergonomics: 34.2
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 48.7
+  previous_composite: 51.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 60.0
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
 security:

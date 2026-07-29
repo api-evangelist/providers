@@ -1,22 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 69.2
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 38.5
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -252,32 +254,38 @@ overview: 'PropertyMe publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   PropertyMe''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 23
+random_paper: 33
 scopes:
 - name: Propertyme Scopes
   scope_count: 20
   slug: propertyme-scopes
   summary_line: 20 scopes · authorizationCode/clientCredentials/deviceCode/ciba
 score:
-  band: developing
-  composite: 47.1
-  delta: 0.0
+  band: thin
+  composite: 41.4
+  delta: -5.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 37.7
-    developer_ergonomics: 47.8
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 32.3
+    developer_ergonomics: 36.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 31.6
   previous_composite: 47.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 54.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/screenshots/propertyme-2026-07-27T125353.png
 security:
 - kind: authentication

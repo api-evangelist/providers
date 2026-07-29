@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 19.4
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: Byte by Yum! is Yum! Brands' proprietary AI-driven restaurant technology platform delivering digital ordering, point-of-sale, kitchen operations, menu management, inventory, and labor management acros
@@ -162,26 +164,26 @@ press:
 - date: '2026-05-25'
   title: Introducing Byte by Yum!™, an AI-Driven Restaurant ...
   url: https://investors.yum.com/news-events/financial-releases/news-details/2025/Introducing-Byte-by-Yum-an-AI-Driven-Restaurant-Technology-Platform-Powering-Customer-and-Team-Member-Experiences-Worldwide/default.aspx
-random_paper: 6
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Yum Brands Rate Limits
   slug: yum-brands-rate-limits
 score:
-  band: emerging
-  composite: 26.0
-  delta: 0.0
+  band: thin
+  composite: 34.2
+  delta: 8.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 20.8
+    contract_quality: 61.7
     developer_ergonomics: 10.9
-    discoverability: 80.0
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 26.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/yum-brands/refs/heads/main/screenshots/yum-brands-2026-06-20T201756.png
 security:
 - kind: domain-security

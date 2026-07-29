@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 38.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 24.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +193,7 @@ plans:
 - name: Zdnet Plans Pricing
   plan_count: 3
   slug: zdnet-plans-pricing
-random_paper: 5
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Zdnet Rate Limits
@@ -215,18 +217,25 @@ rules:
   slug: zdnet-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 4.5
+  composite: 46.1
+  delta: -4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.9
+    contract_quality: 60.5
     developer_ergonomics: 0.0
-    discoverability: 87.5
-    governance: 86.8
+    discoverability: 64.8
+    governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 46.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 50.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/screenshots/zdnet-2026-06-20T201804.png
 security:

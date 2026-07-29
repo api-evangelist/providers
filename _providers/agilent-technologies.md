@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -362,7 +364,7 @@ press:
 - date: '2026-05-25'
   title: Lunit and Agilent Technologies Announce Collaboration to ...
   url: https://www.prnewswire.com/news-releases/lunit-and-agilent-technologies-announce-collaboration-to-enhance-development-of-companion-diagnostic-solutions-powered-with-ai-for-precision-medicine-302562617.html
-random_paper: 29
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Agilent Technologies Rate Limits
@@ -386,24 +388,32 @@ rules:
   slug: agilent-technologies-spectral-rules
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 45.6
+  delta: -9.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 78.0
+    contract_quality: 66.2
     developer_ergonomics: 15.2
-    discoverability: 92.5
-    governance: 86.8
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 26.3
   previous_composite: 55.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 54.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 31.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png
 security:
 - kind: authentication

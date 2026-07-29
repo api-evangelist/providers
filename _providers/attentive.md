@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    mcp_server: derived
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 63.5
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 44.4
+  scored_at: '2026-07-28'
 api_count: 18
 apis:
 - description: Public applications must authenticate using the OAuth 2.0 specification to use Attentive’s API resources. Attentive uses OAuth 2.0’s authorization code grant flow to issue access tokens on behalf of u
@@ -83,12 +85,71 @@ apis:
 - description: Create and manage webhooks
   name: Attentive Webhooks API
   slug: attentive-webhooks-api
-artifact_total: 26
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Attentive Webhooks
   slug: attentive-webhooks
+collections:
+- collection_type: postman
+  name: Attentive Access Token API
+  slug: postman-attentive-access-token-api
+- collection_type: postman
+  name: Attentive Access Token Bulk Segment Operations API
+  slug: postman-attentive-bulk-segment-operations-api
+- collection_type: postman
+  name: Attentive Access Token Bulk Status API
+  slug: postman-attentive-bulk-status-api
+- collection_type: postman
+  name: Attentive Access Token Bulk User Operations API
+  slug: postman-attentive-bulk-user-operations-api
+- collection_type: postman
+  name: Attentive Access Token Custom Attributes API
+  slug: postman-attentive-custom-attributes-api
+- collection_type: postman
+  name: Attentive Access Token Custom Events API
+  slug: postman-attentive-custom-events-api
+- collection_type: postman
+  name: Attentive Access Token eCommerce API
+  slug: postman-attentive-ecommerce-api
+- collection_type: postman
+  name: Attentive Access Token Identity API
+  slug: postman-attentive-identity-api
+- collection_type: postman
+  name: Attentive Access Token Offers API
+  slug: postman-attentive-offers-api
+- collection_type: postman
+  name: Attentive Access Token Privacy Request API
+  slug: postman-attentive-privacy-request-api
+- collection_type: postman
+  name: Attentive Access Token Product Catalog API
+  slug: postman-attentive-product-catalog-api
+- collection_type: postman
+  name: Attentive Access Token Segments API
+  slug: postman-attentive-segments-api
+- collection_type: postman
+  name: Attentive Access Token Subscribers API
+  slug: postman-attentive-subscribers-api
+- collection_type: postman
+  name: Attentive Access Token Test Authentication API
+  slug: postman-attentive-test-authentication-api
+- collection_type: postman
+  name: Attentive Access Token Test Authentication V2 API
+  slug: postman-attentive-test-authentication-v2-api
+- collection_type: postman
+  name: Attentive Access Token User Attributes API
+  slug: postman-attentive-user-attributes-api
+- collection_type: postman
+  name: Attentive Access Token User Properties API
+  slug: postman-attentive-user-properties-api
+- collection_type: postman
+  name: Attentive Access Token Webhooks API
+  slug: postman-attentive-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/attentive/overview
 - group: company
   title: ''
   type: Website
@@ -251,8 +312,8 @@ overview: 'Attentive publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   The Attentive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Attentive''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 29 more developer resources.'
-random_paper: 28
+  Attentive''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 30 more developer resources.'
+random_paper: 56
 rate_limits:
 - limit_count: 7
   name: Attentive Rate Limits
@@ -264,18 +325,27 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 62.9
+  delta: -0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.6
-    developer_ergonomics: 80.4
-    discoverability: 67.5
-    governance: 0.0
+    contract_quality: 66.6
+    developer_ergonomics: 73.4
+    discoverability: 68.5
+    governance: 11.5
     operational_transparency: 86.8
   previous_composite: 63.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png
 security:

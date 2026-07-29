@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 59.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 58.1
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 291
   human_in_the_loop: 14
@@ -280,8 +282,256 @@ apis:
 - description: Zip downloads represent a successful request to create a ZIP archive with files and folders.
   name: Box Zip Downloads API
   slug: box-zip-downloads-api
-artifact_total: 319
+artifact_total: 400
+collections:
+- collection_type: postman
+  name: Box Authorize Authorization API
+  slug: postman-box-authorization-api
+- collection_type: postman
+  name: Box Authorization Authorize API
+  slug: postman-box-authorize-api
+- collection_type: postman
+  name: Box Authorize Authorization Classifications API
+  slug: postman-box-classifications-api
+- collection_type: postman
+  name: Box Authorize Authorization Classifications on Files API
+  slug: postman-box-classifications-on-files-api
+- collection_type: postman
+  name: Box Authorize Authorization Classifications on Folders API
+  slug: postman-box-classifications-on-folders-api
+- collection_type: postman
+  name: Box Authorize Authorization Collaboration Whitelist Entries API
+  slug: postman-box-collaboration-whitelist-entries-api
+- collection_type: postman
+  name: Box Authorize Authorization Collaboration Whitelist Exempt Targets API
+  slug: postman-box-collaboration-whitelist-exempt-targets-api
+- collection_type: postman
+  name: Box Authorize Authorization Collaborations API
+  slug: postman-box-collaborations-api
+- collection_type: postman
+  name: Box Authorize Authorization Collaborations (List) API
+  slug: postman-box-collaborations-list-api
+- collection_type: postman
+  name: Box Authorize Authorization Collections API
+  slug: postman-box-collections-api
+- collection_type: postman
+  name: Box Authorize Authorization Comments API
+  slug: postman-box-comments-api
+- collection_type: postman
+  name: Box Authorize Authorization Device Pinners API
+  slug: postman-box-device-pinners-api
+- collection_type: postman
+  name: Box Authorize Authorization Domain Restrictions for Collaborations API
+  slug: postman-box-domain-restrictions-for-collaborations-api
+- collection_type: postman
+  name: Box Authorize Authorization Domain Restrictions (User Exemptions) API
+  slug: postman-box-domain-restrictions-user-exemptions-api
+- collection_type: postman
+  name: Box Authorize Authorization Downloads API
+  slug: postman-box-downloads-api
+- collection_type: postman
+  name: Box Authorize Authorization Email Aliases API
+  slug: postman-box-email-aliases-api
+- collection_type: postman
+  name: Box Authorize Authorization Enterprises API
+  slug: postman-box-enterprises-api
+- collection_type: postman
+  name: Box Authorize Authorization Events API
+  slug: postman-box-events-api
+- collection_type: postman
+  name: Box Authorize Authorization File Requests API
+  slug: postman-box-file-requests-api
+- collection_type: postman
+  name: Box Authorize Authorization File Version Legal Holds API
+  slug: postman-box-file-version-legal-holds-api
+- collection_type: postman
+  name: Box Authorize Authorization File Version Retentions API
+  slug: postman-box-file-version-retentions-api
+- collection_type: postman
+  name: Box Authorize Authorization File Versions API
+  slug: postman-box-file-versions-api
+- collection_type: postman
+  name: Box Authorize Authorization Files API
+  slug: postman-box-files-api
+- collection_type: postman
+  name: Box Authorize Authorization Folder Locks API
+  slug: postman-box-folder-locks-api
+- collection_type: postman
+  name: Box Authorize Authorization Folders API
+  slug: postman-box-folders-api
+- collection_type: postman
+  name: Box Authorize Authorization Group Memberships API
+  slug: postman-box-group-memberships-api
+- collection_type: postman
+  name: Box Authorize Authorization Groups API
+  slug: postman-box-groups-api
+- collection_type: postman
+  name: Box Authorize Authorization Integration Mappings API
+  slug: postman-box-integration-mappings-api
+- collection_type: postman
+  name: Box Authorize Authorization Invites API
+  slug: postman-box-invites-api
+- collection_type: postman
+  name: Box Authorize Authorization Legal Hold Policies API
+  slug: postman-box-legal-hold-policies-api
+- collection_type: postman
+  name: Box Authorize Authorization Legal Hold Policy Assignments API
+  slug: postman-box-legal-hold-policy-assignments-api
+- collection_type: postman
+  name: Box Authorize Authorization Metadata Cascade Policies API
+  slug: postman-box-metadata-cascade-policies-api
+- collection_type: postman
+  name: Box Authorize Authorization Metadata Instances (Files) API
+  slug: postman-box-metadata-instances-files-api
+- collection_type: postman
+  name: Box Authorize Authorization Metadata Instances (Folders) API
+  slug: postman-box-metadata-instances-folders-api
+- collection_type: postman
+  name: Box Authorize Authorization Metadata Queries API
+  slug: postman-box-metadata-queries-api
+- collection_type: postman
+  name: Box Authorize Authorization Metadata Templates API
+  slug: postman-box-metadata-templates-api
+- collection_type: postman
+  name: Box Authorize Authorization Oauth2 API
+  slug: postman-box-oauth2-api
+- collection_type: postman
+  name: Box Authorize Authorization Recent Items API
+  slug: postman-box-recent-items-api
+- collection_type: postman
+  name: Box Authorize Authorization Retention Policies API
+  slug: postman-box-retention-policies-api
+- collection_type: postman
+  name: Box Authorize Authorization Retention Policy Assignments API
+  slug: postman-box-retention-policy-assignments-api
+- collection_type: postman
+  name: Box Authorize Authorization Search API
+  slug: postman-box-search-api
+- collection_type: postman
+  name: Box Authorize Authorization Session Termination API
+  slug: postman-box-session-termination-api
+- collection_type: postman
+  name: Box Authorize Authorization Shared Items API
+  slug: postman-box-shared-items-api
+- collection_type: postman
+  name: Box Authorize Authorization Shared Items#folders API
+  slug: postman-box-shared-items-folders-api
+- collection_type: postman
+  name: Box Authorize Authorization Shared Items#web Links API
+  slug: postman-box-shared-items-web-links-api
+- collection_type: postman
+  name: Box Authorize Authorization Shared Links (Files) API
+  slug: postman-box-shared-links-files-api
+- collection_type: postman
+  name: Box Authorize Authorization Shared Links (Folders) API
+  slug: postman-box-shared-links-folders-api
+- collection_type: postman
+  name: Box Authorize Authorization Shared Links (Web Links) API
+  slug: postman-box-shared-links-web-links-api
+- collection_type: postman
+  name: Box Authorize Authorization Shield Information Barrier Reports API
+  slug: postman-box-shield-information-barrier-reports-api
+- collection_type: postman
+  name: Box Authorize Authorization Shield Information Barrier Segment Members API
+  slug: postman-box-shield-information-barrier-segment-members-api
+- collection_type: postman
+  name: Box Authorize Authorization Shield Information Barrier Segment Restrictions API
+  slug: postman-box-shield-information-barrier-segment-restrictions-api
+- collection_type: postman
+  name: Box Authorize Authorization Shield Information Barrier Segments API
+  slug: postman-box-shield-information-barrier-segments-api
+- collection_type: postman
+  name: Box Authorize Authorization Shield Information Barriers API
+  slug: postman-box-shield-information-barriers-api
+- collection_type: postman
+  name: Box Authorize Authorization Sign Requests API
+  slug: postman-box-sign-requests-api
+- collection_type: postman
+  name: Box Authorize Authorization Sign Templates API
+  slug: postman-box-sign-templates-api
+- collection_type: postman
+  name: Box Authorize Authorization Skill Invocations API
+  slug: postman-box-skill-invocations-api
+- collection_type: postman
+  name: Box Authorize Authorization Skills API
+  slug: postman-box-skills-api
+- collection_type: postman
+  name: Box Authorize Authorization Standard and Zones Storage Policies API
+  slug: postman-box-standard-and-zones-storage-policies-api
+- collection_type: postman
+  name: Box Authorize Authorization Standard and Zones Storage Policy Assignments API
+  slug: postman-box-standard-and-zones-storage-policy-assignments-api
+- collection_type: postman
+  name: Box Authorize Authorization Storage Policies API
+  slug: postman-box-storage-policies-api
+- collection_type: postman
+  name: Box Authorize Authorization Storage Policy Assignments API
+  slug: postman-box-storage-policy-assignments-api
+- collection_type: postman
+  name: Box Authorize Authorization Task Assignments API
+  slug: postman-box-task-assignments-api
+- collection_type: postman
+  name: Box Authorize Authorization Tasks API
+  slug: postman-box-tasks-api
+- collection_type: postman
+  name: Box Authorize Authorization Terms of Service API
+  slug: postman-box-terms-of-service-api
+- collection_type: postman
+  name: Box Authorize Authorization Terms of Service User Statuses API
+  slug: postman-box-terms-of-service-user-statuses-api
+- collection_type: postman
+  name: Box Authorize Authorization Terms of Services API
+  slug: postman-box-terms-of-services-api
+- collection_type: postman
+  name: Box Authorize Authorization Transfer Folders API
+  slug: postman-box-transfer-folders-api
+- collection_type: postman
+  name: Box Authorize Authorization Trashed Files API
+  slug: postman-box-trashed-files-api
+- collection_type: postman
+  name: Box Authorize Authorization Trashed Folders API
+  slug: postman-box-trashed-folders-api
+- collection_type: postman
+  name: Box Authorize Authorization Trashed Items API
+  slug: postman-box-trashed-items-api
+- collection_type: postman
+  name: Box Authorize Authorization Trashed Web Links API
+  slug: postman-box-trashed-web-links-api
+- collection_type: postman
+  name: Box Authorize Authorization Uploads API
+  slug: postman-box-uploads-api
+- collection_type: postman
+  name: Box Authorize Authorization Uploads (Chunked) API
+  slug: postman-box-uploads-chunked-api
+- collection_type: postman
+  name: Box Authorize Authorization User Avatars API
+  slug: postman-box-user-avatars-api
+- collection_type: postman
+  name: Box Authorize Authorization Users API
+  slug: postman-box-users-api
+- collection_type: postman
+  name: Box Authorize Authorization Watermarks (Files) API
+  slug: postman-box-watermarks-files-api
+- collection_type: postman
+  name: Box Authorize Authorization Watermarks (Folders) API
+  slug: postman-box-watermarks-folders-api
+- collection_type: postman
+  name: Box Authorize Authorization Web Links API
+  slug: postman-box-web-links-api
+- collection_type: postman
+  name: Box Authorize Authorization Webhooks API
+  slug: postman-box-webhooks-api
+- collection_type: postman
+  name: Box Authorize Authorization Workflows API
+  slug: postman-box-workflows-api
+- collection_type: postman
+  name: Box Authorize Authorization Zip Downloads API
+  slug: postman-box-zip-downloads-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/box/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1085,12 +1335,12 @@ overview: 'Box publishes 81 APIs on the [APIs.io](https://apis.io/) network, inc
   The Box catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Box''s developer surface includes authentication, engineering blog, changelog, pricing, CLI, support, signup flow, and 24 more developer resources.'
+  Box''s developer surface includes authentication, engineering blog, changelog, pricing, CLI, support, signup flow, and 25 more developer resources.'
 plans:
 - name: Box Plans Pricing
   plan_count: 8
   slug: box-plans-pricing
-random_paper: 57
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Box Rate Limits
@@ -1119,18 +1369,25 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.7
-  delta: 0.0
+  composite: 63.0
+  delta: -3.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 49.8
+    contract_quality: 51.9
     developer_ergonomics: 52.2
-    discoverability: 92.5
-    governance: 73.7
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 68.4
   previous_composite: 66.7
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 81
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/screenshots/box-2026-06-20T173623.png
 security:

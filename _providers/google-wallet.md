@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,12 +53,31 @@ apis:
 - description: Manage loyalty card classes and objects
   name: Google Wallet Loyalty Cards API
   slug: google-wallet-loyalty-cards-api
-artifact_total: 15
+artifact_total: 20
 collections:
+- collection_type: postman
+  name: Google Wallet Event Tickets API
+  slug: postman-google-wallet-event-tickets-api
+- collection_type: postman
+  name: Google Wallet Event Tickets Generic Passes API
+  slug: postman-google-wallet-generic-passes-api
+- collection_type: postman
+  name: Google Wallet Event Tickets Issuers API
+  slug: postman-google-wallet-issuers-api
+- collection_type: postman
+  name: Google Wallet Event Tickets JWT API
+  slug: postman-google-wallet-jwt-api
+- collection_type: postman
+  name: Google Wallet Event Tickets Loyalty Cards API
+  slug: postman-google-wallet-loyalty-cards-api
 - collection_type: open
   name: Google Wallet API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-wallet/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,12 +157,12 @@ overview: 'Google Wallet publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Google Wallet catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Wallet''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, and 8 more developer resources.'
+  Google Wallet''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, and 9 more developer resources.'
 plans:
 - name: Google Wallet Plans Pricing
   plan_count: 3
   slug: google-wallet-plans-pricing
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Google Wallet Rate Limits
@@ -157,18 +178,25 @@ rules:
   slug: google-wallet-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.2
-  delta: 4.6
+  composite: 59.0
+  delta: -3.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.8
-    developer_ergonomics: 43.5
-    discoverability: 100.0
-    governance: 73.7
+    contract_quality: 64.4
+    developer_ergonomics: 47.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 57.6
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/screenshots/google-wallet-2026-06-20T182248.png
 security:

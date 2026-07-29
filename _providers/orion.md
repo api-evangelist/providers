@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 53.8
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 43.2
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -133,12 +135,108 @@ apis:
 - description: Integration route management
   name: Orion Health Routes API
   slug: orion-routes-api
-artifact_total: 50
+artifact_total: 82
 asyncapis:
 - description: 'The Orion Health Rhapsody Integration Engine processes healthcare messages in real-time across connected healthcare systems. This specification describes the event-driven messaging patterns supported '
   name: Orion Health Rhapsody Messaging Events
   slug: orion-rhapsody-messaging-asyncapi
 collections:
+- collection_type: postman
+  name: Orion Health FHIR Alerts API
+  slug: postman-orion-alerts-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts AllergyIntolerance API
+  slug: postman-orion-allergyintolerance-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Analytics API
+  slug: postman-orion-analytics-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Audit API
+  slug: postman-orion-audit-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Care Programs API
+  slug: postman-orion-care-programs-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts CarePlan API
+  slug: postman-orion-careplan-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Cohorts API
+  slug: postman-orion-cohorts-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Communication Points API
+  slug: postman-orion-communication-points-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Condition API
+  slug: postman-orion-condition-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Configuration API
+  slug: postman-orion-configuration-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Consent API
+  slug: postman-orion-consent-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts DiagnosticReport API
+  slug: postman-orion-diagnosticreport-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts DocumentReference API
+  slug: postman-orion-documentreference-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Documents API
+  slug: postman-orion-documents-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Encounter API
+  slug: postman-orion-encounter-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Immunization API
+  slug: postman-orion-immunization-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Lookup Tables API
+  slug: postman-orion-lookup-tables-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts MedicationRequest API
+  slug: postman-orion-medicationrequest-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Message Queues API
+  slug: postman-orion-message-queues-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Messages API
+  slug: postman-orion-messages-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Metadata API
+  slug: postman-orion-metadata-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Monitoring API
+  slug: postman-orion-monitoring-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Notifications API
+  slug: postman-orion-notifications-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Observation API
+  slug: postman-orion-observation-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Patient API
+  slug: postman-orion-patient-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Patient Identity API
+  slug: postman-orion-patient-identity-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Procedure API
+  slug: postman-orion-procedure-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Provider Directory API
+  slug: postman-orion-provider-directory-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Quality Measures API
+  slug: postman-orion-quality-measures-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Registries API
+  slug: postman-orion-registries-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Risk Stratification API
+  slug: postman-orion-risk-stratification-api
+- collection_type: postman
+  name: Orion Health FHIR Alerts Routes API
+  slug: postman-orion-routes-api
 - collection_type: open
   name: Orion Health FHIR API
   slug: open-orion-fhir
@@ -152,6 +250,10 @@ collections:
   name: Orion Health Rhapsody Integration API
   slug: open-orion-rhapsody
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/orion-health/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -253,12 +355,12 @@ overview: 'Orion Health publishes 32 APIs on the [APIs.io](https://apis.io/) net
   The Orion Health catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Orion Health''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, and 12 more developer resources.'
+  Orion Health''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Orion Plans Pricing
   plan_count: 1
   slug: orion-plans-pricing
-random_paper: 7
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Orion Rate Limits
@@ -287,24 +389,32 @@ scopes:
   summary_line: 24 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 66.4
-  delta: 4.0
+  composite: 60.7
+  delta: -5.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 89.3
-    developer_ergonomics: 37.0
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 89.7
+    developer_ergonomics: 41.3
+    discoverability: 75.9
+    governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 62.4
+  previous_composite: 66.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
   regulatory:
     applies: true
+    matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 52.5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/orion/refs/heads/main/screenshots/orion-2026-06-20T191207.png
 security:
 - kind: authentication

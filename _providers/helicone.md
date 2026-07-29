@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 33.8
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 1
@@ -136,12 +138,115 @@ apis:
 - description: The Wrapped API from Helicone — 2 operation(s) for wrapped.
   name: Helicone Wrapped API
   slug: helicone-wrapped-api
-artifact_total: 590
+artifact_total: 623
 collections:
+- collection_type: postman
+  name: helicone-api Agent API
+  slug: postman-helicone-agent-api
+- collection_type: postman
+  name: helicone-api Agent API Key API
+  slug: postman-helicone-api-key-api
+- collection_type: postman
+  name: helicone-api Agent Comparison API
+  slug: postman-helicone-comparison-api
+- collection_type: postman
+  name: helicone-api Agent Credits API
+  slug: postman-helicone-credits-api
+- collection_type: postman
+  name: helicone-api Agent Customer API
+  slug: postman-helicone-customer-api
+- collection_type: postman
+  name: helicone-api Agent Dashboard API
+  slug: postman-helicone-dashboard-api
+- collection_type: postman
+  name: helicone-api Agent Dataset API
+  slug: postman-helicone-dataset-api
+- collection_type: postman
+  name: helicone-api Agent Evals API
+  slug: postman-helicone-evals-api
+- collection_type: postman
+  name: helicone-api Agent Evaluator API
+  slug: postman-helicone-evaluator-api
+- collection_type: postman
+  name: helicone-api Agent Experiment API
+  slug: postman-helicone-experiment-api
+- collection_type: postman
+  name: helicone-api Agent HeliconeSql API
+  slug: postman-helicone-heliconesql-api
+- collection_type: postman
+  name: helicone-api Agent Integration API
+  slug: postman-helicone-integration-api
+- collection_type: postman
+  name: helicone-api Agent Metrics API
+  slug: postman-helicone-metrics-api
+- collection_type: postman
+  name: helicone-api Agent Model Registry API
+  slug: postman-helicone-model-registry-api
+- collection_type: postman
+  name: helicone-api Agent Models API
+  slug: postman-helicone-models-api
+- collection_type: postman
+  name: helicone-api Agent PI API
+  slug: postman-helicone-pi-api
+- collection_type: postman
+  name: helicone-api Agent Playground API
+  slug: postman-helicone-playground-api
+- collection_type: postman
+  name: helicone-api Agent Prompt API
+  slug: postman-helicone-prompt-api
+- collection_type: postman
+  name: helicone-api Agent Prompt2025 API
+  slug: postman-helicone-prompt2025-api
+- collection_type: postman
+  name: helicone-api Agent Prompt2025V2 API
+  slug: postman-helicone-prompt2025v2-api
+- collection_type: postman
+  name: helicone-api Agent Property API
+  slug: postman-helicone-property-api
+- collection_type: postman
+  name: helicone-api Agent Providers API
+  slug: postman-helicone-providers-api
+- collection_type: postman
+  name: helicone-api Agent Request API
+  slug: postman-helicone-request-api
+- collection_type: postman
+  name: helicone-api Agent Security API
+  slug: postman-helicone-security-api
+- collection_type: postman
+  name: helicone-api Agent Session API
+  slug: postman-helicone-session-api
+- collection_type: postman
+  name: helicone-api Agent Status API
+  slug: postman-helicone-status-api
+- collection_type: postman
+  name: helicone-api Agent Stripe API
+  slug: postman-helicone-stripe-api
+- collection_type: postman
+  name: helicone-api Agent Test API
+  slug: postman-helicone-test-api
+- collection_type: postman
+  name: helicone-api Agent Trace API
+  slug: postman-helicone-trace-api
+- collection_type: postman
+  name: helicone-api Agent User API
+  slug: postman-helicone-user-api
+- collection_type: postman
+  name: helicone-api Agent Vault API
+  slug: postman-helicone-vault-api
+- collection_type: postman
+  name: helicone-api Agent Webhooks API
+  slug: postman-helicone-webhooks-api
+- collection_type: postman
+  name: helicone-api Agent Wrapped API
+  slug: postman-helicone-wrapped-api
 - collection_type: open
   name: helicone-api
   slug: open-helicone
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/helicone/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1906,12 +2011,12 @@ overview: 'Helicone publishes 33 APIs on the [APIs.io](https://apis.io/) network
   The Helicone catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Helicone''s developer surface includes authentication, documentation, getting-started guide, signup flow, developer portal, pricing, engineering blog, and 17 more developer resources.'
+  Helicone''s developer surface includes authentication, documentation, getting-started guide, signup flow, developer portal, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Helicone Plans Pricing
   plan_count: 6
   slug: helicone-plans-pricing
-random_paper: 23
+random_paper: 69
 rate_limits:
 - limit_count: 11
   name: Helicone Rate Limits
@@ -1927,18 +2032,25 @@ rules:
   slug: helicone-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 2.5
+  composite: 61.2
+  delta: -2.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 38.7
-    developer_ergonomics: 45.7
-    discoverability: 92.5
-    governance: 73.7
+    contract_quality: 41.1
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    governance: 58.3
     operational_transparency: 78.9
-  previous_composite: 61.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/screenshots/helicone-2026-06-20T182620.png
 security:

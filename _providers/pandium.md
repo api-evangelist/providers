@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 30.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,12 +54,31 @@ apis:
 - description: Manage tenants (customer instances of integrations).
   name: Pandium Tenants API
   slug: pandium-tenants-api
-artifact_total: 223
+artifact_total: 228
 collections:
+- collection_type: postman
+  name: Pandium Connector Calls API
+  slug: postman-pandium-connector-calls-api
+- collection_type: postman
+  name: Pandium Connector Calls Integrations API
+  slug: postman-pandium-integrations-api
+- collection_type: postman
+  name: Pandium Connector Calls Runs API
+  slug: postman-pandium-runs-api
+- collection_type: postman
+  name: Pandium Connector Calls Tenant Metadata API
+  slug: postman-pandium-tenant-metadata-api
+- collection_type: postman
+  name: Pandium Connector Calls Tenants API
+  slug: postman-pandium-tenants-api
 - collection_type: open
   name: Pandium API
   slug: open-pandium-pandium
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pandium/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -388,12 +409,12 @@ overview: 'Pandium publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Pandium catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Pandium''s developer surface includes authentication, engineering blog, FAQ, documentation, CLI, pricing, and 18 more developer resources.'
+  Pandium''s developer surface includes authentication, engineering blog, FAQ, documentation, CLI, pricing, and 19 more developer resources.'
 plans:
 - name: Pandium Plans Pricing
   plan_count: 3
   slug: pandium-plans-pricing
-random_paper: 2
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Pandium Rate Limits
@@ -409,18 +430,25 @@ rules:
   slug: pandium-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 4.2
+  composite: 61.7
+  delta: -2.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 73.5
-    developer_ergonomics: 28.3
-    discoverability: 75.0
-    governance: 73.7
+    contract_quality: 74.6
+    developer_ergonomics: 32.6
+    discoverability: 55.6
+    governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 60.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  previous_composite: 64.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png
 security:

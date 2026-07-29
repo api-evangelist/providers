@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: true
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 57.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.0
+  scored_at: '2026-07-28'
 api_count: 11
 apis:
 - description: The Approvals API from N3XT — 2 operation(s) for approvals.
@@ -62,8 +64,46 @@ apis:
 - description: The Wallets API from N3XT — 6 operation(s) for wallets.
   name: N3XT Wallets API
   slug: n3xt-wallets-api
-artifact_total: 17
+artifact_total: 28
+collections:
+- collection_type: postman
+  name: N3XT API Documentation Approvals API
+  slug: postman-n3xt-approvals-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals AuditTrail API
+  slug: postman-n3xt-audittrail-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals Businesses API
+  slug: postman-n3xt-businesses-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals Contacts API
+  slug: postman-n3xt-contacts-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals Ndd Routes API
+  slug: postman-n3xt-ndd-routes-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals Payments API
+  slug: postman-n3xt-payments-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals Programmable API
+  slug: postman-n3xt-programmable-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals System API
+  slug: postman-n3xt-system-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals Transfers API
+  slug: postman-n3xt-transfers-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals Users API
+  slug: postman-n3xt-users-api
+- collection_type: postman
+  name: N3XT API Documentation Approvals Wallets API
+  slug: postman-n3xt-wallets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/n3xt/overview
 - group: company
   title: ''
   type: Website
@@ -203,8 +243,8 @@ network: true
 overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approvals API, AuditTrail API, Businesses API, and 8 more. Tagged areas include Company, Crypto, Banking, Payments, and Stablecoin.
 
 
-  N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 57
+  N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+random_paper: 12
 scopes:
 - name: N3Xt Scopes
   scope_count: 8
@@ -212,23 +252,33 @@ scopes:
   summary_line: 8 scopes
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 56.7
+  delta: -3.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.9
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 60.2
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 20.8
     operational_transparency: 26.3
   previous_composite: 60.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 100.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 67.1
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 security:
 - kind: authentication

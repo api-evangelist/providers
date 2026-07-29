@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_skills: true
-    agentic_access: true
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: verified
+    idempotency: documented
     mcp_server: true
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.1
-  score: 84.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 57.4
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -85,8 +87,61 @@ apis:
 - description: The Term Sheets API from Lev — 2 operation(s) for term sheets.
   name: Lev Term Sheets API
   slug: lev-term-sheets-api
-artifact_total: 24
+artifact_total: 40
+collections:
+- collection_type: postman
+  name: Lev Account & Team API
+  slug: postman-lev-account-team-api
+- collection_type: postman
+  name: Lev Account & Team API Keys API
+  slug: postman-lev-api-keys-api
+- collection_type: postman
+  name: Lev Account & Team Billing API
+  slug: postman-lev-billing-api
+- collection_type: postman
+  name: Lev Account & Team Companies API
+  slug: postman-lev-companies-api
+- collection_type: postman
+  name: Lev Account & Team Contacts API
+  slug: postman-lev-contacts-api
+- collection_type: postman
+  name: Lev Account & Team Deal Financials API
+  slug: postman-lev-deal-financials-api
+- collection_type: postman
+  name: Lev Account & Team Deal Properties API
+  slug: postman-lev-deal-properties-api
+- collection_type: postman
+  name: Lev Account & Team Deal Team API
+  slug: postman-lev-deal-team-api
+- collection_type: postman
+  name: Lev Account & Team Deals API
+  slug: postman-lev-deals-api
+- collection_type: postman
+  name: Lev Account & Team Lender Directory API
+  slug: postman-lev-lender-directory-api
+- collection_type: postman
+  name: Lev Account & Team Lev API Documentation API
+  slug: postman-lev-lev-api-documentation-api
+- collection_type: postman
+  name: Lev Account & Team Market Data API
+  slug: postman-lev-market-data-api
+- collection_type: postman
+  name: Lev Account & Team Pipelines API
+  slug: postman-lev-pipelines-api
+- collection_type: postman
+  name: Lev Account & Team Placements API
+  slug: postman-lev-placements-api
+- collection_type: postman
+  name: Lev Account & Team Quickstart API
+  slug: postman-lev-quickstart-api
+- collection_type: postman
+  name: Lev Account & Team Term Sheets API
+  slug: postman-lev-term-sheets-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lev/overview
 - group: auth
   title: ''
   type: TrustCenter
@@ -247,12 +302,12 @@ network: true
 overview: 'Lev publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account & Team API, API Keys API, Billing API, and 13 more. Tagged areas include Company, Commercial Real Estate, Real Estate, Proptech, and CRE Financing.
 
 
-  Lev''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Lev''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Lev Plans
   plan_count: 4
   slug: lev-plans
-random_paper: 55
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Lev Rate Limits
@@ -263,24 +318,35 @@ scopes:
   slug: lev-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: strong
-  composite: 69.8
-  delta: 0.0
+  band: exemplar
+  composite: 69.1
+  delta: -0.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 56.1
-    developer_ergonomics: 73.9
-    discoverability: 100.0
-    governance: 0.0
+    contract_quality: 57.9
+    developer_ergonomics: 73.4
+    discoverability: 92.6
+    governance: 11.5
     operational_transparency: 73.7
   previous_composite: 69.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 87.0
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 76.7
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png
 security:

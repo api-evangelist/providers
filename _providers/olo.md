@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
-    openapi_examples: true
-    rate_limit_signal: true
+    openapi_examples: documented
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 60.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 37.6
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -82,12 +84,30 @@ apis:
 - description: Guest account lookups
   name: Olo Users API
   slug: olo-users-api
-artifact_total: 85
+artifact_total: 91
 asyncapis:
 - description: Olo emits outbound HTTP webhooks to partner-registered endpoints for order lifecycle, loyalty, gift-card, tender, and marketplace status events. Each delivery includes an X-Olo-Message-Id header (a un
   name: Olo Webhooks
   slug: olo-webhooks-asyncapi
 collections:
+- collection_type: postman
+  name: Olo Ordering Accounts API
+  slug: postman-olo-accounts-api
+- collection_type: postman
+  name: Olo Ordering Accounts Accruals API
+  slug: postman-olo-accruals-api
+- collection_type: postman
+  name: Olo Ordering Accounts Brand API
+  slug: postman-olo-brand-api
+- collection_type: postman
+  name: Olo Ordering Accounts Promotions API
+  slug: postman-olo-promotions-api
+- collection_type: postman
+  name: Olo Ordering Accounts Rails API
+  slug: postman-olo-rails-api
+- collection_type: postman
+  name: Olo Ordering Accounts Users API
+  slug: postman-olo-users-api
 - collection_type: open
   name: Olo Ordering API
   slug: open-olo-ordering
@@ -95,6 +115,10 @@ collections:
   name: Olo Promotions API
   slug: open-olo-promotions
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/olo/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -371,12 +395,12 @@ overview: 'Olo publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The Olo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Olo''s developer surface includes authentication, developer portal, signup flow, documentation, support, engineering blog, YouTube channel, and 31 more developer resources.'
+  Olo''s developer surface includes authentication, developer portal, signup flow, documentation, support, engineering blog, YouTube channel, and 32 more developer resources.'
 plans:
 - name: Olo Plans Pricing
   plan_count: 4
   slug: olo-plans-pricing
-random_paper: 58
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Olo Rate Limits
@@ -407,25 +431,33 @@ rules:
     warn: 18
   slug: olo-spectral-rules
 score:
-  band: exemplar
-  composite: 71.2
-  delta: 3.4
+  band: strong
+  composite: 65.7
+  delta: -5.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 80.3
-    developer_ergonomics: 50.0
-    discoverability: 87.5
-    governance: 73.7
+    contract_quality: 80.8
+    developer_ergonomics: 54.3
+    discoverability: 64.8
+    governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 67.8
+  previous_composite: 71.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.2
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+    score: 46.9
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/screenshots/olo-2026-06-20T190700.png
 security:
 - kind: authentication

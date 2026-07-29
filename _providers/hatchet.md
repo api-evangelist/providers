@@ -13,21 +13,23 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
+    agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: false
+    dry_run_mode: false
+    error_semantics: verified
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: true
+    openapi_examples: partial
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 48.1
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 41.0
+  scored_at: '2026-07-28'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -118,12 +120,97 @@ apis:
 - description: The Workflow Runs API from Hatchet — 9 operation(s) for workflow runs.
   name: Hatchet Workflow Runs API
   slug: hatchet-workflow-runs-api
-artifact_total: 110
+artifact_total: 137
 collections:
+- collection_type: postman
+  name: Hatchet API Token API
+  slug: postman-hatchet-api-token-api
+- collection_type: postman
+  name: Hatchet API Token CEL API
+  slug: postman-hatchet-cel-api
+- collection_type: postman
+  name: Hatchet API Token Durable Tasks API
+  slug: postman-hatchet-durable-tasks-api
+- collection_type: postman
+  name: Hatchet API Token Event API
+  slug: postman-hatchet-event-api
+- collection_type: postman
+  name: Hatchet API Token Feature Flags API
+  slug: postman-hatchet-feature-flags-api
+- collection_type: postman
+  name: Hatchet API Token Filter API
+  slug: postman-hatchet-filter-api
+- collection_type: postman
+  name: Hatchet API Token Github API
+  slug: postman-hatchet-github-api
+- collection_type: postman
+  name: Hatchet API Token Healthcheck API
+  slug: postman-hatchet-healthcheck-api
+- collection_type: postman
+  name: Hatchet API Token Log API
+  slug: postman-hatchet-log-api
+- collection_type: postman
+  name: Hatchet API Token Metadata API
+  slug: postman-hatchet-metadata-api
+- collection_type: postman
+  name: Hatchet API Token Monitoring API
+  slug: postman-hatchet-monitoring-api
+- collection_type: postman
+  name: Hatchet API Token Observability API
+  slug: postman-hatchet-observability-api
+- collection_type: postman
+  name: Hatchet API Token Rate Limits API
+  slug: postman-hatchet-rate-limits-api
+- collection_type: postman
+  name: Hatchet API Token Slack API
+  slug: postman-hatchet-slack-api
+- collection_type: postman
+  name: Hatchet API Token SNS API
+  slug: postman-hatchet-sns-api
+- collection_type: postman
+  name: Hatchet API Token Step Run API
+  slug: postman-hatchet-step-run-api
+- collection_type: postman
+  name: Hatchet API Token Task API
+  slug: postman-hatchet-task-api
+- collection_type: postman
+  name: Hatchet API Token Tenant API
+  slug: postman-hatchet-tenant-api
+- collection_type: postman
+  name: Hatchet API Token Tenants API
+  slug: postman-hatchet-tenants-api
+- collection_type: postman
+  name: Hatchet API Token User API
+  slug: postman-hatchet-user-api
+- collection_type: postman
+  name: Hatchet API Token Version API
+  slug: postman-hatchet-version-api
+- collection_type: postman
+  name: Hatchet API Token Webhook API
+  slug: postman-hatchet-webhook-api
+- collection_type: postman
+  name: Hatchet API Token Webhook Workers API
+  slug: postman-hatchet-webhook-workers-api
+- collection_type: postman
+  name: Hatchet API Token Worker API
+  slug: postman-hatchet-worker-api
+- collection_type: postman
+  name: Hatchet API Token Workflow API
+  slug: postman-hatchet-workflow-api
+- collection_type: postman
+  name: Hatchet API Token Workflow Run API
+  slug: postman-hatchet-workflow-run-api
+- collection_type: postman
+  name: Hatchet API Token Workflow Runs API
+  slug: postman-hatchet-workflow-runs-api
 - collection_type: open
   name: Hatchet API
   slug: open-hatchet
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/hatchet/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -414,12 +501,12 @@ overview: 'Hatchet publishes 27 APIs on the [APIs.io](https://apis.io/) network,
   The Hatchet catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Hatchet''s developer surface includes authentication, documentation, pricing, engineering blog, CLI, tooling, and 20 more developer resources.'
+  Hatchet''s developer surface includes authentication, documentation, pricing, engineering blog, CLI, tooling, and 21 more developer resources.'
 plans:
 - name: Hatchet Plans Pricing
   plan_count: 5
   slug: hatchet-plans-pricing
-random_paper: 57
+random_paper: 44
 rate_limits:
 - limit_count: 6
   name: Hatchet Rate Limits
@@ -442,20 +529,27 @@ rules:
     warn: 8
   slug: hatchet-rules
 score:
-  band: strong
-  composite: 61.1
-  delta: 4.7
+  band: developing
+  composite: 55.8
+  delta: -5.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 77.7
-    developer_ergonomics: 28.3
-    discoverability: 92.5
-    governance: 86.8
+    contract_quality: 71.2
+    developer_ergonomics: 32.6
+    discoverability: 68.5
+    governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 56.4
-  schema_version: 0.5
-  scored_at: '2026-07-27'
-  trend: flat
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+  schema_version: 0.6
+  scored_at: '2026-07-28'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/screenshots/hatchet-2026-06-20T182616.png
 security:
 - kind: authentication

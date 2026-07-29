@@ -11,23 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_skills: true
+    agent_card: false
+    agent_skills: derived
     agentic_access: false
     asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
-    idempotency: true
+    dry_run_mode: false
+    error_semantics: documented
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.1
-  score: 43.3
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 42.6
+  scored_at: '2026-07-28'
 api_count: 17
 apis:
 - description: The Enrollments API is typically the first API used in a partner integration and establishes the initial banking relationship for a new end user. It covers account creation, identity capture, KYC (Kno
@@ -218,7 +220,7 @@ plans:
 - name: Green Dot Plans Pricing
   plan_count: 1
   slug: green-dot-plans-pricing
-random_paper: 17
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Green Dot Rate Limits
@@ -230,23 +232,27 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 48.9
+  delta: 1.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 22.6
-    developer_ergonomics: 50.0
-    discoverability: 87.5
-    governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 45.1
+    discoverability: 72.2
+    governance: 12.5
     operational_transparency: 57.9
   previous_composite: 47.1
+  provenance:
+    conformance: first-party
+    skills: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 76.1
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 53.2
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/screenshots/green-dot-2026-06-20T182350.png
 security:

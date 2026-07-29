@@ -10,23 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 10.6
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 6.8
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: JSON:API-based REST API for portfolio management, transactions, positions, the ownership graph (entities/groups), attributes, benchmarks, files, jobs, billing, reporting, and administration on the Add
@@ -110,7 +112,7 @@ overview: 'Addepar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Addepar''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, and 10 more developer resources.'
-random_paper: 41
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Addepar Rate Limits
@@ -121,19 +123,22 @@ scopes:
   slug: addepar-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 27.3
-  delta: 0.0
+  band: thin
+  composite: 28.3
+  delta: 1.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 37.0
-    discoverability: 92.5
-    governance: 0.0
+    discoverability: 87.0
+    governance: 12.5
     operational_transparency: 5.3
   previous_composite: 27.3
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/addepar/refs/heads/main/screenshots/addepar-2026-07-25T181615.png
 security:

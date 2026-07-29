@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: human-only
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: false
     consent_identity: false
+    dry_run_mode: false
     error_semantics: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.1
-  score: 6.7
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 3.2
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: The Navattic REST API allows developers to programmatically create and manage interactive product demos, retrieve analytics and engagement data, and integrate demo activity into downstream systems. Th
@@ -122,25 +124,25 @@ plans:
 - name: Navattic Plans Pricing
   plan_count: 5
   slug: navattic-plans-pricing
-random_paper: 42
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Navattic Rate Limits
   slug: navattic-rate-limits
 score:
   band: emerging
-  composite: 27.9
-  delta: 0.0
+  composite: 25.0
+  delta: -2.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 15.1
+    contract_quality: 12.9
     developer_ergonomics: 10.9
-    discoverability: 92.5
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 27.9
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png
 security:

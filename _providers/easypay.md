@@ -12,21 +12,23 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
+    agent_card: false
     agent_skills: false
     agentic_access: false
     asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    error_semantics: true
+    dry_run_mode: false
+    error_semantics: documented
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: true
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.1
-  score: 39.4
-  scored_at: '2026-07-27'
+  schema_version: 0.2
+  score: 22.1
+  scored_at: '2026-07-28'
 api_count: 1
 apis:
 - description: REST API for the EasyPay/Fawaterak payment gateway. Authenticated with a vendor Bearer token, it lists available payment methods, creates invoice and payment links, initiates payment on an invoice, an
@@ -126,30 +128,33 @@ overview: 'EasyPay publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   EasyPay''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 16
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Easypay Rate Limits
   slug: easypay-rate-limits
 score:
-  band: thin
-  composite: 30.5
-  delta: 0.0
+  band: emerging
+  composite: 26.5
+  delta: -4.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 92.5
+    developer_ergonomics: 43.5
+    discoverability: 79.6
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 30.5
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
+    matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 43.5
-  schema_version: 0.5
-  scored_at: '2026-07-27'
+    score: 31.3
+  schema_version: 0.6
+  scored_at: '2026-07-28'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/screenshots/easypay-2026-07-25T212717.png
 security:
