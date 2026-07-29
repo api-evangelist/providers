@@ -1229,7 +1229,7 @@ plans:
 - name: Mediamath Plans
   plan_count: 2
   slug: mediamath-plans
-random_paper: 69
+random_paper: 58
 rate_limits:
 - limit_count: 7
   name: Mediamath Rate Limits

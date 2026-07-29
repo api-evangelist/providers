@@ -89,7 +89,7 @@ overview: 'Azure Notebooks is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Azure Notebooks'' developer surface includes developer portal, documentation, getting-started guide, and 5 more developer resources.'
-random_paper: 75
+random_paper: 56
 score:
   band: emerging
   composite: 16.9

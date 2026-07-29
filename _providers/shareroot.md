@@ -48,7 +48,7 @@ name: ShareRoot
 nav: Providers
 network: true
 overview: ShareRoot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, User Generated Content, and Digital Experience.
-random_paper: 35
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Michaels arts and crafts chain going private in $5 billion deal
   url: https://www.chicagotribune.com/2021/03/03/michaels-arts-and-crafts-chain-going-private-in-5-billion-deal/
-random_paper: 23
+random_paper: 8
 score:
   band: minimal
   composite: 4.1

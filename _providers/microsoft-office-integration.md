@@ -149,7 +149,7 @@ plans:
 - name: Microsoft Office Integration Plans Pricing
   plan_count: 3
   slug: microsoft-office-integration-plans-pricing
-random_paper: 36
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Integration Rate Limits

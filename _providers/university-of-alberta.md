@@ -143,7 +143,7 @@ plans:
 - name: University Of Alberta Plans Pricing
   plan_count: 2
   slug: university-of-alberta-plans-pricing
-random_paper: 23
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: University Of Alberta Rate Limits

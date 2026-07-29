@@ -48,7 +48,7 @@ name: FlexEngage
 nav: Providers
 network: true
 overview: FlexEngage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Customer Engagement, Transactional Communications, and Messaging.
-random_paper: 19
+random_paper: 6
 score:
   band: minimal
   composite: 5.5

@@ -48,7 +48,7 @@ name: Retail Solutions
 nav: Providers
 network: true
 overview: Retail Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, and Retail.
-random_paper: 35
+random_paper: 14
 score:
   band: minimal
   composite: 4.1

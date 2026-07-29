@@ -84,7 +84,7 @@ plans:
 - name: Dados Pe Gov Br Plans Pricing
   plan_count: 1
   slug: dados-pe-gov-br-plans-pricing
-random_paper: 72
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Dados Pe Gov Br Rate Limits

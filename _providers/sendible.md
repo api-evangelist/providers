@@ -100,7 +100,7 @@ plans:
 - name: Sendible Plans Pricing
   plan_count: 10
   slug: sendible-plans-pricing
-random_paper: 48
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Sendible Rate Limits

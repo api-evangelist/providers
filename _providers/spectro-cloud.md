@@ -318,7 +318,7 @@ overview: 'Spectro Cloud publishes 42 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Spectro Cloud''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 27 more developer resources.'
-random_paper: 5
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Spectro Cloud Rate Limits

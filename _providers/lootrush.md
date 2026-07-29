@@ -140,7 +140,7 @@ overview: 'LootRush publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LootRush''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
-random_paper: 27
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Lootrush Rate Limits

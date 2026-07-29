@@ -63,7 +63,7 @@ overview: 'Varada is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Varada''s developer surface includes CLI and 4 more developer resources.'
-random_paper: 70
+random_paper: 63
 score:
   band: minimal
   composite: 7.7

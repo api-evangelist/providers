@@ -148,7 +148,7 @@ overview: 'Arga Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Arga Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 17 more developer resources.'
-random_paper: 5
+random_paper: 74
 score:
   band: thin
   composite: 29.1

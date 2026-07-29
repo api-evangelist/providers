@@ -87,7 +87,7 @@ overview: 'Figure Markets publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Figure Markets'' developer surface includes signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 24
+random_paper: 6
 score:
   band: emerging
   composite: 20.2

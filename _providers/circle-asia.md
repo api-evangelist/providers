@@ -67,7 +67,7 @@ overview: 'Circle Asia is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Circle Asia''s developer surface includes support and 5 more developer resources.'
-random_paper: 58
+random_paper: 45
 score:
   band: minimal
   composite: 11.3

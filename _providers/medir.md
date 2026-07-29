@@ -52,7 +52,7 @@ name: Medir
 nav: Providers
 network: true
 overview: Medir is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Telemedicine, Telehealth, and Digital Health.
-random_paper: 55
+random_paper: 49
 score:
   band: minimal
   composite: 4.3

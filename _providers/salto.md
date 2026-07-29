@@ -115,7 +115,7 @@ overview: 'Salto is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Salto''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 73
+random_paper: 67
 score:
   band: emerging
   composite: 25.1

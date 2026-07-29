@@ -84,7 +84,7 @@ plans:
 - name: Fortinet Plans Pricing
   plan_count: 3
   slug: fortinet-plans-pricing
-random_paper: 6
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Fortinet Rate Limits

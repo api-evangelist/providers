@@ -87,7 +87,7 @@ overview: 'gqlgen publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   gqlgen''s developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 6
+random_paper: 78
 score:
   band: emerging
   composite: 21.7

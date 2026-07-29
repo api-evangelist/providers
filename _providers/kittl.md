@@ -180,7 +180,7 @@ overview: 'Kittl publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kittl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 78
+random_paper: 72
 scopes:
 - name: Kittl Scopes
   scope_count: 12

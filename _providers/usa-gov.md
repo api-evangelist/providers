@@ -56,7 +56,7 @@ name: USA.gov
 nav: Providers
 network: true
 overview: USA.gov publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 74
+random_paper: 66
 score:
   band: minimal
   composite: 6.5

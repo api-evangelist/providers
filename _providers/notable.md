@@ -83,7 +83,7 @@ overview: 'Notable is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Notable''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: emerging
   composite: 17.3

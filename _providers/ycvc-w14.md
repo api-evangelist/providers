@@ -39,7 +39,7 @@ name: YCVC W14
 nav: Providers
 network: true
 overview: YCVC W14 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 70
+random_paper: 62
 score:
   band: minimal
   composite: 3.2

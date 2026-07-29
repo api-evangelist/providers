@@ -75,7 +75,7 @@ overview: 'C the Signs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   C the Signs'' developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 20
+random_paper: 8
 score:
   band: emerging
   composite: 13.8

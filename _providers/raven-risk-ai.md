@@ -56,7 +56,7 @@ name: Raven Risk AI
 nav: Providers
 network: true
 overview: Raven Risk AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Credit Risk, Financial Services, and Fintech.
-random_paper: 9
+random_paper: 73
 score:
   band: minimal
   composite: 5.6

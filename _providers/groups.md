@@ -63,7 +63,7 @@ overview: 'Groups is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Groups'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 40
+random_paper: 32
 score:
   band: minimal
   composite: 10.8

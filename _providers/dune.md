@@ -52,7 +52,7 @@ name: Dune
 nav: Providers
 network: true
 overview: Dune publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 33
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

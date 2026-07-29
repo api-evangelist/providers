@@ -197,7 +197,7 @@ overview: 'Instabase publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Instabase''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 22 more developer resources.'
-random_paper: 6
+random_paper: 74
 score:
   band: developing
   composite: 55.5

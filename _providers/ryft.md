@@ -132,7 +132,7 @@ overview: 'Ryft publishes 1 API on the [APIs.io](https://apis.io/) network: Inge
 
 
   Ryft''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 58
+random_paper: 53
 score:
   band: developing
   composite: 47.6

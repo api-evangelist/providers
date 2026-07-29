@@ -56,7 +56,7 @@ name: Beyond Reach Labs
 nav: Providers
 network: true
 overview: Beyond Reach Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space Technology, Spacecraft, and Solar Arrays.
-random_paper: 5
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

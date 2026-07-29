@@ -63,7 +63,7 @@ overview: 'Gather AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gather AI''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 9.7

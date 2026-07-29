@@ -130,7 +130,7 @@ plans:
 - name: Twelvelabs Plans Pricing
   plan_count: 3
   slug: twelvelabs-plans-pricing
-random_paper: 54
+random_paper: 41
 rate_limits:
 - limit_count: 6
   name: Twelvelabs Rate Limits

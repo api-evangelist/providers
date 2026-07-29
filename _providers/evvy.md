@@ -83,7 +83,7 @@ overview: 'Evvy is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Evvy''s developer surface includes engineering blog, support, pricing, and 7 more developer resources.'
-random_paper: 63
+random_paper: 58
 score:
   band: emerging
   composite: 16.2

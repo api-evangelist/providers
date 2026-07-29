@@ -649,7 +649,7 @@ plans:
 - name: The Things Network Plans Pricing
   plan_count: 6
   slug: the-things-network-plans-pricing
-random_paper: 25
+random_paper: 2
 rate_limits:
 - limit_count: 7
   name: The Things Network Rate Limits

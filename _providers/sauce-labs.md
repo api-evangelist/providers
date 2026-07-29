@@ -212,7 +212,7 @@ plans:
 - name: Sauce Labs Plans Pricing
   plan_count: 5
   slug: sauce-labs-plans-pricing
-random_paper: 44
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Sauce Labs Rate Limits

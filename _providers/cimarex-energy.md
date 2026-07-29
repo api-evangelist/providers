@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: OAG Analytics Announces Strategic Partnership with Cimarex ...
   url: https://www.prnewswire.com/news-releases/oag-analytics-announces-strategic-partnership-with-cimarex-energy-300890540.html
-random_paper: 18
+random_paper: 0
 score:
   band: minimal
   composite: 10.7

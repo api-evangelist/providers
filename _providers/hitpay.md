@@ -369,7 +369,7 @@ plans:
 - name: Hitpay Plans Pricing
   plan_count: 3
   slug: hitpay-plans-pricing
-random_paper: 23
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Hitpay Rate Limits

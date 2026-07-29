@@ -49,7 +49,7 @@ name: Shopzilla
 nav: Providers
 network: true
 overview: Shopzilla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Comparison Shopping, Retail, E-Commerce, and Affiliate Marketing.
-random_paper: 34
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

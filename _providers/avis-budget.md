@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Avis Budget Group's Strategy For AI, Innovation, And ...
   url: https://www.forbes.com/sites/peterhigh/2024/11/07/avis-budget-groups-strategy-for-ai-innovation-and-customer-focus/
-random_paper: 9
+random_paper: 75
 score:
   band: minimal
   composite: 6.5

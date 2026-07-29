@@ -79,7 +79,7 @@ overview: 'Jaspersoft is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jaspersoft''s developer surface includes documentation, support, changelog, and 6 more developer resources.'
-random_paper: 62
+random_paper: 49
 score:
   band: minimal
   composite: 11.7

@@ -250,7 +250,7 @@ plans:
 - name: University Of North Carolina At Chapel Hill Plans Pricing
   plan_count: 2
   slug: university-of-north-carolina-at-chapel-hill-plans-pricing
-random_paper: 73
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: University Of North Carolina At Chapel Hill Rate Limits

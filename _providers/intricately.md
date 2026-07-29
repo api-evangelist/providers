@@ -84,7 +84,7 @@ overview: 'Intricately publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Intricately''s developer surface includes documentation, support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 7
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Intricately Rate Limits

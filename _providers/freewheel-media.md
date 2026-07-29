@@ -83,7 +83,7 @@ overview: 'FreeWheel Media is profiled on the [APIs.io](https://apis.io/) networ
 
 
   FreeWheel Media''s developer surface includes developer portal, support, engineering blog, and 7 more developer resources.'
-random_paper: 7
+random_paper: 68
 score:
   band: emerging
   composite: 16.3

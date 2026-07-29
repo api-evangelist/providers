@@ -176,7 +176,7 @@ overview: 'Totalis publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Totalis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, FAQ, authentication, and 17 more developer resources.'
-random_paper: 57
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Totalis Rate Limits

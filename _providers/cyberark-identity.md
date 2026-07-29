@@ -120,7 +120,7 @@ overview: 'CyberArk Identity publishes 7 APIs on the [APIs.io](https://apis.io/)
 
 
   CyberArk Identity''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 32
+random_paper: 10
 score:
   band: thin
   composite: 28.0

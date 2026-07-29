@@ -205,7 +205,7 @@ overview: 'Beyond Pricing publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Beyond Pricing''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 23 more developer resources.'
-random_paper: 12
+random_paper: 74
 scopes:
 - name: Beyond Pricing Scopes
   scope_count: 9

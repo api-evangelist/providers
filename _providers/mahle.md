@@ -73,7 +73,7 @@ plans:
 - name: Mahle Plans Pricing
   plan_count: 1
   slug: mahle-plans-pricing
-random_paper: 45
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Mahle Rate Limits

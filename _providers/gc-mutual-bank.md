@@ -153,7 +153,7 @@ overview: 'G&C Mutual Bank publishes 7 APIs on the [APIs.io](https://apis.io/) n
 
 
   G&C Mutual Bank''s developer surface includes authentication, documentation, support, engineering blog, and 15 more developer resources.'
-random_paper: 25
+random_paper: 8
 scopes:
 - name: Gc Mutual Bank Scopes
   scope_count: 9

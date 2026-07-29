@@ -164,7 +164,7 @@ overview: 'Thinking Machines publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Thinking Machines'' developer surface includes documentation, API reference, quickstart, signup flow, support, engineering blog, CLI, and 22 more developer resources.'
-random_paper: 7
+random_paper: 65
 score:
   band: thin
   composite: 34.1

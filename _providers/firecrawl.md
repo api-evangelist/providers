@@ -175,7 +175,7 @@ plans:
 - name: Firecrawl Plans Pricing
   plan_count: 3
   slug: firecrawl-plans-pricing
-random_paper: 11
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Firecrawl Rate Limits

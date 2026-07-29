@@ -170,7 +170,7 @@ plans:
 - name: Spin Ai Plans Pricing
   plan_count: 3
   slug: spin-ai-plans-pricing
-random_paper: 57
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Spin Ai Rate Limits

@@ -75,7 +75,7 @@ overview: 'Jobbatical is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jobbatical''s developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 8
+random_paper: 75
 score:
   band: emerging
   composite: 15.2

@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Conagra Brands Enhances its Artificial Intelligence Capabilities ...
   url: https://www.stlamerican.com/online-features/press-releases/conagra-brands-enhances-its-artificial-intelligence-capabilities-with-human-centered-approach/
-random_paper: 51
+random_paper: 35
 score:
   band: minimal
   composite: 5.7

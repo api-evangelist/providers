@@ -160,7 +160,7 @@ overview: 'AdMob publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   AdMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 21 more developer resources.'
-random_paper: 41
+random_paper: 35
 scopes:
 - name: Admob Scopes
   scope_count: 2

@@ -180,7 +180,7 @@ overview: 'Keyframe Labs publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Keyframe Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 21 more developer resources.'
-random_paper: 51
+random_paper: 35
 score:
   band: thin
   composite: 38.5

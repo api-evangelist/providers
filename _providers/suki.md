@@ -259,7 +259,7 @@ plans:
 - name: Suki Plans Pricing
   plan_count: 4
   slug: suki-plans-pricing
-random_paper: 49
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Suki Rate Limits

@@ -122,7 +122,7 @@ plans:
 - name: Setlistfm Plans Pricing
   plan_count: 3
   slug: setlistfm-plans-pricing
-random_paper: 39
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Setlistfm Rate Limits

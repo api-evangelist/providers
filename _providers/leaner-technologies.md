@@ -104,7 +104,7 @@ overview: 'Leaner Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Leaner Technologies'' developer surface includes engineering blog, product news, pricing, and 12 more developer resources.'
-random_paper: 64
+random_paper: 40
 score:
   band: emerging
   composite: 16.6

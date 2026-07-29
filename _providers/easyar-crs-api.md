@@ -33,7 +33,7 @@ name: EasyAR CRS API
 nav: Providers
 network: true
 overview: EasyAR CRS API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include augmented-reality, ar-sdk, cloud-recognition, image-recognition, and spatial-computing.
-random_paper: 34
+random_paper: 17
 score:
   band: minimal
   composite: 5.9

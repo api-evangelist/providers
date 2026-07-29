@@ -48,7 +48,7 @@ name: Phoenix Tailings
 nav: Providers
 network: true
 overview: Phoenix Tailings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Rare Earth Metals, Critical Minerals, Refining, and Materials.
-random_paper: 8
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

@@ -133,7 +133,7 @@ plans:
 - name: Xendit Plans Pricing
   plan_count: 2
   slug: xendit-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Xendit Rate Limits

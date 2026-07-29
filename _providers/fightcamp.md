@@ -75,7 +75,7 @@ overview: 'Fightcamp is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Fightcamp''s developer surface includes engineering blog, support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 78
+random_paper: 67
 score:
   band: emerging
   composite: 15.6

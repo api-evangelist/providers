@@ -83,7 +83,7 @@ overview: 'TravelJoy is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TravelJoy''s developer surface includes pricing, engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 44
+random_paper: 32
 score:
   band: emerging
   composite: 18.0

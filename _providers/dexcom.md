@@ -430,7 +430,7 @@ plans:
 - name: Dexcom Plans Pricing
   plan_count: 1
   slug: dexcom-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Dexcom Rate Limits

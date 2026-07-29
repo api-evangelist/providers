@@ -99,7 +99,7 @@ plans:
 - name: Qatar Plans Pricing
   plan_count: 2
   slug: qatar-plans-pricing
-random_paper: 63
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Qatar Rate Limits

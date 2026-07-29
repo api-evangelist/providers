@@ -87,7 +87,7 @@ overview: 'Genesis AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Genesis AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 49
+random_paper: 37
 score:
   band: emerging
   composite: 17.4

@@ -204,7 +204,7 @@ plans:
 - name: Coalition Inc Plans Pricing
   plan_count: 3
   slug: coalition-inc-plans-pricing
-random_paper: 57
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Coalition Inc Rate Limits

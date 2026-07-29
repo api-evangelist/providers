@@ -44,7 +44,7 @@ name: gaugene
 nav: Providers
 network: true
 overview: gaugene is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Diagnostics, Flow Cytometry, and Medical Devices.
-random_paper: 21
+random_paper: 12
 score:
   band: minimal
   composite: 4.3

@@ -127,7 +127,7 @@ overview: 'Corelight (fka Broala) is profiled on the [APIs.io](https://apis.io/)
 
 
   Corelight (fka Broala)''s developer surface includes documentation, API reference, support, engineering blog, CLI, and 16 more developer resources.'
-random_paper: 7
+random_paper: 62
 score:
   band: emerging
   composite: 25.7

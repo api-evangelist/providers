@@ -87,7 +87,7 @@ overview: 'CommitChange is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   CommitChange''s developer surface includes pricing, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 78
+random_paper: 63
 score:
   band: emerging
   composite: 18.2

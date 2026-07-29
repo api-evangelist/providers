@@ -75,7 +75,7 @@ overview: 'Exotic Markets is profiled on the [APIs.io](https://apis.io/) network
 
 
   Exotic Markets'' developer surface includes documentation, getting-started guide, support, and 5 more developer resources.'
-random_paper: 34
+random_paper: 16
 score:
   band: minimal
   composite: 11.0

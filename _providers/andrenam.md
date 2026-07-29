@@ -75,7 +75,7 @@ overview: 'Andrenam is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Andrenam''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: minimal
   composite: 6.3

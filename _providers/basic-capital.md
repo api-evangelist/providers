@@ -104,7 +104,7 @@ overview: 'Basic Capital is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Basic Capital''s developer surface includes engineering blog, signup flow, pricing, support, and 11 more developer resources.'
-random_paper: 29
+random_paper: 13
 score:
   band: emerging
   composite: 21.6

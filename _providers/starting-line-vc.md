@@ -21,7 +21,7 @@ modified: '2026-07-21'
 name: Starting Line VC
 nav: Providers
 network: true
-random_paper: 27
+random_paper: 7
 slug: starting-line-vc
 tags:
 - Venture Capital

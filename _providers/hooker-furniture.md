@@ -65,7 +65,7 @@ plans:
 - name: Hooker Furniture Plans Pricing
   plan_count: 1
   slug: hooker-furniture-plans-pricing
-random_paper: 30
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Hooker Furniture Rate Limits

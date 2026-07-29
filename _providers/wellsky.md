@@ -97,7 +97,7 @@ plans:
 - name: Wellsky Plans Pricing
   plan_count: 4
   slug: wellsky-plans-pricing
-random_paper: 68
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Wellsky Rate Limits

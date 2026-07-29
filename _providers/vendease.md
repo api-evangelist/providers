@@ -67,7 +67,7 @@ overview: 'Vendease is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Vendease''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 53
+random_paper: 43
 score:
   band: minimal
   composite: 9.3

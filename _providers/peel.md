@@ -48,7 +48,7 @@ name: Peel
 nav: Providers
 network: true
 overview: Peel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, Smart Remote, Mobile App, and Media and Entertainment.
-random_paper: 27
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

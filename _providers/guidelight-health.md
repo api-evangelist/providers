@@ -75,7 +75,7 @@ overview: 'Guidelight Health is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Guidelight Health''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 78
+random_paper: 57
 score:
   band: emerging
   composite: 13.8

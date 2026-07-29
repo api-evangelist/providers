@@ -216,7 +216,7 @@ overview: 'VigLink (Sovrn Commerce) publishes 8 APIs on the [APIs.io](https://ap
 
 
   VigLink (Sovrn Commerce)''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
-random_paper: 45
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Viglink Rate Limits

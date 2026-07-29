@@ -48,7 +48,7 @@ name: Jadu
 nav: Providers
 network: true
 overview: Jadu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Trading, Artificial Intelligence, and Automation.
-random_paper: 25
+random_paper: 20
 score:
   band: minimal
   composite: 5.8

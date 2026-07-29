@@ -123,7 +123,7 @@ plans:
 - name: Africastalking Plans Pricing
   plan_count: 2
   slug: africastalking-plans-pricing
-random_paper: 53
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Africastalking Rate Limits

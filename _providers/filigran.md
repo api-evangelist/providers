@@ -166,7 +166,7 @@ overview: 'Filigran publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Filigran''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 19 more developer resources.'
-random_paper: 54
+random_paper: 44
 score:
   band: developing
   composite: 50.5

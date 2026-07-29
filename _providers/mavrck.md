@@ -48,7 +48,7 @@ name: Mavrck
 nav: Providers
 network: true
 overview: Mavrck is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Marketing, Social Media, and Creators.
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

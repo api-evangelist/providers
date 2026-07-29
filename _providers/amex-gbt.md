@@ -277,7 +277,7 @@ overview: 'American Express Global Business Travel publishes 13 APIs on the [API
 
 
   American Express Global Business Travel''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 37 more developer resources.'
-random_paper: 78
+random_paper: 69
 scopes:
 - name: Amex Gbt Scopes
   scope_count: 0

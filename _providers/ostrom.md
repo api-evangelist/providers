@@ -188,7 +188,7 @@ overview: 'Ostrom publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ostrom''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 44
+random_paper: 36
 score:
   band: developing
   composite: 50.5

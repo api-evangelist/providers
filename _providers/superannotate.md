@@ -124,7 +124,7 @@ plans:
 - name: Superannotate Plans Pricing
   plan_count: 3
   slug: superannotate-plans-pricing
-random_paper: 74
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Superannotate Rate Limits

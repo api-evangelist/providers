@@ -159,7 +159,7 @@ plans:
 - name: Hyperscience Plans Pricing
   plan_count: 4
   slug: hyperscience-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Hyperscience Rate Limits

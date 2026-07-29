@@ -52,7 +52,7 @@ name: Stan
 nav: Providers
 network: true
 overview: Stan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Creator Economy, Link in Bio, and Digital Products.
-random_paper: 43
+random_paper: 38
 score:
   band: minimal
   composite: 6.4

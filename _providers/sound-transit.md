@@ -172,7 +172,7 @@ plans:
 - name: Sound Transit Plans Pricing
   plan_count: 3
   slug: sound-transit-plans-pricing
-random_paper: 28
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Sound Transit Rate Limits

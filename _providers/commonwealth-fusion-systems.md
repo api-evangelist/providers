@@ -120,7 +120,7 @@ overview: 'Commonwealth Fusion Systems is profiled on the [APIs.io](https://apis
 
 
   Commonwealth Fusion Systems'' developer surface includes product news, engineering blog, YouTube channel, and 16 more developer resources.'
-random_paper: 71
+random_paper: 36
 score:
   band: minimal
   composite: 7.5

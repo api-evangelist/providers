@@ -139,7 +139,7 @@ plans:
 - name: Encompass Plans Pricing
   plan_count: 2
   slug: encompass-plans-pricing
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Encompass Rate Limits

@@ -39,7 +39,7 @@ name: GenPharm
 nav: Providers
 network: true
 overview: GenPharm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthcare.
-random_paper: 60
+random_paper: 50
 score:
   band: minimal
   composite: 3.5

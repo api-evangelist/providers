@@ -221,7 +221,7 @@ overview: 'Border0 publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Border0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 23 more developer resources.'
-random_paper: 54
+random_paper: 46
 score:
   band: developing
   composite: 50.9

@@ -56,7 +56,7 @@ name: justmeme.wtf
 nav: Providers
 network: true
 overview: justmeme.wtf publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment and Public APIs.
-random_paper: 71
+random_paper: 56
 score:
   band: minimal
   composite: 5.7

@@ -69,7 +69,7 @@ plans:
 - name: Rayonier Plans Pricing
   plan_count: 1
   slug: rayonier-plans-pricing
-random_paper: 4
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Rayonier Rate Limits

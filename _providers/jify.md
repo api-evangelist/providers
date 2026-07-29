@@ -75,7 +75,7 @@ overview: 'Jify is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jify''s developer surface includes support and 7 more developer resources.'
-random_paper: 39
+random_paper: 34
 score:
   band: emerging
   composite: 16.8

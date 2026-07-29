@@ -153,7 +153,7 @@ overview: 'Glio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Job
 
 
   Glio''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 14 more developer resources.'
-random_paper: 32
+random_paper: 27
 score:
   band: developing
   composite: 44.5

@@ -171,7 +171,7 @@ plans:
 - name: United States Army Corps Of Engineers Plans Pricing
   plan_count: 3
   slug: united-states-army-corps-of-engineers-plans-pricing
-random_paper: 65
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: United States Army Corps Of Engineers Rate Limits

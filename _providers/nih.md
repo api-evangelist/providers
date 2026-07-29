@@ -236,7 +236,7 @@ plans:
 - name: Nih Plans Pricing
   plan_count: 5
   slug: nih-plans-pricing
-random_paper: 3
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Nih Rate Limits

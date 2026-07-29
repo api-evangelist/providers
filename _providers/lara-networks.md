@@ -53,7 +53,7 @@ name: Lara Networks
 nav: Providers
 network: true
 overview: Lara Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Networking, Packet Processing, and Content Addressable Memory.
-random_paper: 11
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

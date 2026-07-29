@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Will Costly Oil Ruin Chances of QEP Resources ...
   url: https://finance.yahoo.com/news/costly-oil-ruin-chances-qep-183406919.html
-random_paper: 15
+random_paper: 78
 score:
   band: minimal
   composite: 4.3

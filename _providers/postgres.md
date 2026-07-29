@@ -100,7 +100,7 @@ overview: 'PostgreSQL publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   PostgreSQL''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 10.5

@@ -79,7 +79,7 @@ overview: 'Robeaute is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Robeaute''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 65
+random_paper: 55
 score:
   band: minimal
   composite: 11.8

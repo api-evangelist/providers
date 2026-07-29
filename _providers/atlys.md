@@ -96,7 +96,7 @@ overview: 'Atlys is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Atlys'' developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 4
+random_paper: 77
 score:
   band: emerging
   composite: 16.2

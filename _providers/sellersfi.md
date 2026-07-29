@@ -75,7 +75,7 @@ overview: 'Sellersfi is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sellersfi''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: emerging
   composite: 13.1

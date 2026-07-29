@@ -40,7 +40,7 @@ name: AdKnowledge
 nav: Providers
 network: true
 overview: AdKnowledge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Advertising, Marketing, and AdTech.
-random_paper: 51
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

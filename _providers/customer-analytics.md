@@ -95,7 +95,7 @@ overview: 'Customer Analytics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Customer Analytics'' developer surface includes support and 12 more developer resources.'
-random_paper: 78
+random_paper: 55
 score:
   band: minimal
   composite: 11.9

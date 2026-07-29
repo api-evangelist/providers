@@ -134,7 +134,7 @@ plans:
 - name: Guardant Health Plans Pricing
   plan_count: 3
   slug: guardant-health-plans-pricing
-random_paper: 28
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Guardant Health Rate Limits

@@ -400,7 +400,7 @@ plans:
 - name: Olo Plans Pricing
   plan_count: 4
   slug: olo-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Olo Rate Limits

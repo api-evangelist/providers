@@ -48,7 +48,7 @@ name: Privalia
 nav: Providers
 network: true
 overview: Privalia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Fashion, and Flash Sales.
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

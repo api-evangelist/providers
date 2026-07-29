@@ -39,7 +39,7 @@ name: Infinistream
 nav: Providers
 network: true
 overview: Infinistream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Streaming, and Video.
-random_paper: 25
+random_paper: 9
 score:
   band: minimal
   composite: 4.1

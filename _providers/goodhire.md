@@ -113,7 +113,7 @@ plans:
 - name: Goodhire Plans Pricing
   plan_count: 4
   slug: goodhire-plans-pricing
-random_paper: 59
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Goodhire Rate Limits

@@ -103,7 +103,7 @@ overview: 'LAP Coffee is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   LAP Coffee''s developer surface includes support and 14 more developer resources.'
-random_paper: 30
+random_paper: 18
 score:
   band: minimal
   composite: 11.9

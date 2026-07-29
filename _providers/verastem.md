@@ -52,7 +52,7 @@ name: Verastem
 nav: Providers
 network: true
 overview: Verastem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Oncology.
-random_paper: 2
+random_paper: 71
 score:
   band: minimal
   composite: 4.3

@@ -177,7 +177,7 @@ plans:
 - name: Smartproxy Plans Pricing
   plan_count: 3
   slug: smartproxy-plans-pricing
-random_paper: 23
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Smartproxy Rate Limits

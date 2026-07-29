@@ -153,7 +153,7 @@ overview: 'Expanso publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Expanso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 55
+random_paper: 46
 score:
   band: developing
   composite: 42.4

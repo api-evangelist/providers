@@ -354,7 +354,7 @@ plans:
 - name: Aladdin Studio Plans Pricing
   plan_count: 1
   slug: aladdin-studio-plans-pricing
-random_paper: 4
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Aladdin Studio Rate Limits

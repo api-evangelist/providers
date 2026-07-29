@@ -100,7 +100,7 @@ overview: 'Kodiak Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Kodiak Robotics'' developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 40
+random_paper: 21
 score:
   band: minimal
   composite: 12.4

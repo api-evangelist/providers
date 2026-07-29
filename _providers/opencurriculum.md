@@ -55,7 +55,7 @@ overview: 'Opencurriculum is profiled on the [APIs.io](https://apis.io/) network
 
 
   Opencurriculum''s developer surface includes support and 2 more developer resources.'
-random_paper: 32
+random_paper: 13
 score:
   band: minimal
   composite: 6.5

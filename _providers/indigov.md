@@ -71,7 +71,7 @@ overview: 'Indigov is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Indigov''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 41
+random_paper: 32
 score:
   band: minimal
   composite: 12.7

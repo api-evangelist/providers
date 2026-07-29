@@ -56,7 +56,7 @@ name: Transport for Washington, US
 nav: Providers
 network: true
 overview: Transport for Washington, US publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 24
+random_paper: 69
 score:
   band: minimal
   composite: 5.7

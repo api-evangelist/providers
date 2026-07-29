@@ -52,7 +52,7 @@ name: Syft
 nav: Providers
 network: true
 overview: Syft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Other, Staffing, Recruitment, and Hospitality.
-random_paper: 59
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

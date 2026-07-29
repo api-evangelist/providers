@@ -149,7 +149,7 @@ plans:
 - name: Us Cyber Command Plans Pricing
   plan_count: 3
   slug: us-cyber-command-plans-pricing
-random_paper: 10
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Us Cyber Command Rate Limits

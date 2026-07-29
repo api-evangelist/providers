@@ -176,7 +176,7 @@ plans:
 - name: Datafold Plans Pricing
   plan_count: 3
   slug: datafold-plans-pricing
-random_paper: 41
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Datafold Rate Limits

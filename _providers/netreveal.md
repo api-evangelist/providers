@@ -64,7 +64,7 @@ name: Netreveal
 nav: Providers
 network: true
 overview: Netreveal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AML, Compliance, Financial Crime, Fraud Detection, and Risk Management.
-random_paper: 18
+random_paper: 6
 score:
   band: minimal
   composite: 9.9

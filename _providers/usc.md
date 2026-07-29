@@ -112,7 +112,7 @@ plans:
 - name: Usc Plans Pricing
   plan_count: 2
   slug: usc-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Usc Rate Limits

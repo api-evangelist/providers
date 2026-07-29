@@ -121,7 +121,7 @@ plans:
 - name: Softr Plans Pricing
   plan_count: 5
   slug: softr-plans-pricing
-random_paper: 5
+random_paper: 78
 rate_limits:
 - limit_count: 6
   name: Softr Rate Limits

@@ -85,7 +85,7 @@ press:
 - date: '2023-07-17'
   title: Buckeye Partners Acquires Carbon Capture Company Elysian
   url: https://www.buckeye.com/press-releases/buckeye-partners-acquires-carbon-capture-company-elysian
-random_paper: 9
+random_paper: 68
 score:
   band: minimal
   composite: 8.1

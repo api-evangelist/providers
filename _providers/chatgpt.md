@@ -687,7 +687,7 @@ plans:
 - name: Chatgpt Plans Pricing
   plan_count: 7
   slug: chatgpt-plans-pricing
-random_paper: 36
+random_paper: 27
 rate_limits:
 - limit_count: 6
   name: Chatgpt Rate Limits

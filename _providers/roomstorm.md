@@ -65,7 +65,7 @@ name: Roomstorm
 nav: Providers
 network: true
 overview: Roomstorm publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Hotels, and Airlines.
-random_paper: 62
+random_paper: 50
 score:
   band: minimal
   composite: 8.3

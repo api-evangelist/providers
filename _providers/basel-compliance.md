@@ -20,7 +20,7 @@ modified: '2026-04-21'
 name: Basel Compliance
 nav: Providers
 network: true
-random_paper: 35
+random_paper: 15
 slug: basel-compliance
 tags:
 - Banking Regulation

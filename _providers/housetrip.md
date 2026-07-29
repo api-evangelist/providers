@@ -48,7 +48,7 @@ name: HouseTrip
 nav: Providers
 network: true
 overview: HouseTrip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Travel, Vacation Rentals, and Hospitality.
-random_paper: 47
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

@@ -44,7 +44,7 @@ name: Amixr.io
 nav: Providers
 network: true
 overview: Amixr.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Incident Management, On-Call, Alerting, and Monitoring.
-random_paper: 50
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

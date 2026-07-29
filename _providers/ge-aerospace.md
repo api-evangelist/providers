@@ -103,7 +103,7 @@ overview: 'GE Aerospace is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   GE Aerospace''s developer surface includes product news and 14 more developer resources.'
-random_paper: 11
+random_paper: 76
 score:
   band: minimal
   composite: 9.3

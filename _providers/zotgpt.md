@@ -22,7 +22,7 @@ modified: '2026-07-28'
 name: ZotGPT (UC Irvine)
 nav: Providers
 network: true
-random_paper: 48
+random_paper: 40
 slug: zotgpt
 tags:
 - Artificial Intelligence

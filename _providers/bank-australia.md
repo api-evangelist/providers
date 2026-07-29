@@ -165,7 +165,7 @@ overview: 'Bank Australia publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bank Australia''s developer surface includes documentation, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 1
+random_paper: 63
 score:
   band: thin
   composite: 39.3

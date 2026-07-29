@@ -56,7 +56,7 @@ name: News
 nav: Providers
 network: true
 overview: News publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include News, Public APIs, and Fortune 500.
-random_paper: 50
+random_paper: 45
 score:
   band: minimal
   composite: 5.7

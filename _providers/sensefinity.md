@@ -71,7 +71,7 @@ overview: 'Sensefinity is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Sensefinity''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 16
+random_paper: 1
 score:
   band: minimal
   composite: 11.7

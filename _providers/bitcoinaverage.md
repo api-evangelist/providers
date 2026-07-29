@@ -56,7 +56,7 @@ name: BitcoinAverage
 nav: Providers
 network: true
 overview: BitcoinAverage publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 53
+random_paper: 35
 score:
   band: minimal
   composite: 5.7

@@ -597,7 +597,7 @@ plans:
 - name: Tock Plans Pricing
   plan_count: 2
   slug: tock-plans-pricing
-random_paper: 38
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Tock Rate Limits

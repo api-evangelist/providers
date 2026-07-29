@@ -139,7 +139,7 @@ overview: 'Spindl publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Spindl''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, support, and 15 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: thin
   composite: 41.7

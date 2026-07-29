@@ -97,7 +97,7 @@ overview: 'Imprivata is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Imprivata''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: emerging
   composite: 23.8

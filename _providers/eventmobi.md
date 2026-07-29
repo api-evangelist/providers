@@ -104,7 +104,7 @@ plans:
 - name: Eventmobi Plans Pricing
   plan_count: 3
   slug: eventmobi-plans-pricing
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Eventmobi Rate Limits

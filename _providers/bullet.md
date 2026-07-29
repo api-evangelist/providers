@@ -222,7 +222,7 @@ overview: 'Bullet publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bullet''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, pricing, and 26 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: developing
   composite: 47.3

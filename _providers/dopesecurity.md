@@ -204,7 +204,7 @@ overview: 'dope.security publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   dope.security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 27 more developer resources.'
-random_paper: 48
+random_paper: 32
 score:
   band: strong
   composite: 58.9

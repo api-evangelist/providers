@@ -118,7 +118,7 @@ plans:
 - name: Bytewax Plans Pricing
   plan_count: 1
   slug: bytewax-plans-pricing
-random_paper: 61
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Bytewax Rate Limits

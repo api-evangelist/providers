@@ -210,7 +210,7 @@ plans:
 - name: Amazon Translate Plans Pricing
   plan_count: 3
   slug: amazon-translate-plans-pricing
-random_paper: 6
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Amazon Translate Rate Limits

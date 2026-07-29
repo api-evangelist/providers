@@ -119,7 +119,7 @@ plans:
 - name: Clearstream Plans Pricing
   plan_count: 3
   slug: clearstream-plans-pricing
-random_paper: 65
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Clearstream Rate Limits

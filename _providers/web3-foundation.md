@@ -83,7 +83,7 @@ overview: 'Web3 Foundation is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Web3 Foundation''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: minimal
   composite: 12.4

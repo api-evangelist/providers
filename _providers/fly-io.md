@@ -251,7 +251,7 @@ plans:
 - name: Fly Io Plans Pricing
   plan_count: 8
   slug: fly-io-plans-pricing
-random_paper: 39
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Fly Io Rate Limits

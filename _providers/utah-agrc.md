@@ -63,7 +63,7 @@ overview: 'Utah AGRC publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Utah AGRC''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 23
+random_paper: 12
 score:
   band: minimal
   composite: 6.2

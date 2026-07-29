@@ -44,7 +44,7 @@ name: ZipDial
 nav: Providers
 network: true
 overview: ZipDial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Missed Call, Mobile Marketing, Mobile Engagement, and Analytics.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Sketches
 nav: Providers
 network: true
-random_paper: 68
+random_paper: 58
 slug: sketches
 tags:
 - Data Structures

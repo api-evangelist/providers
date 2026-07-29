@@ -87,7 +87,7 @@ overview: '9am Health is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   9am Health''s developer surface includes signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 69
+random_paper: 58
 score:
   band: emerging
   composite: 18.0

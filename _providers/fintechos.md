@@ -75,7 +75,7 @@ overview: 'FintechOS is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   FintechOS''s developer surface includes documentation, getting-started guide, engineering blog, and 5 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: emerging
   composite: 16.2

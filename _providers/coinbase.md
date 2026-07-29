@@ -482,7 +482,7 @@ plans:
 - name: Coinbase Plans Pricing
   plan_count: 11
   slug: coinbase-plans-pricing
-random_paper: 46
+random_paper: 36
 rate_limits:
 - limit_count: 4
   name: Coinbase Rate Limits

@@ -82,7 +82,7 @@ overview: 'Live Oak Bank is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Live Oak Bank''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 64
+random_paper: 49
 score:
   band: emerging
   composite: 13.4

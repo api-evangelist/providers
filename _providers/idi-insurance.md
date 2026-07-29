@@ -39,7 +39,7 @@ name: IDI Insurance
 nav: Providers
 network: true
 overview: IDI Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Financial Services, InsurTech, and Venture Backed.
-random_paper: 59
+random_paper: 43
 score:
   band: minimal
   composite: 4.3

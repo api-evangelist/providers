@@ -181,7 +181,7 @@ overview: 'BALAD CORP publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   BALAD CORP''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 33
+random_paper: 21
 scopes:
 - name: Balad Corp Scopes
   scope_count: 0

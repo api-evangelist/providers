@@ -97,7 +97,7 @@ overview: 'LeapYear Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   LeapYear Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 47
+random_paper: 20
 score:
   band: emerging
   composite: 14.4

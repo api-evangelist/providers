@@ -180,7 +180,7 @@ overview: 'Rotessa publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Rotessa''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 58
+random_paper: 49
 score:
   band: thin
   composite: 34.3

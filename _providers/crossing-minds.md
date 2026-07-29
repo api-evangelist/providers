@@ -132,7 +132,7 @@ overview: 'Crossing Minds publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Crossing Minds'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 15 more developer resources.'
-random_paper: 34
+random_paper: 16
 score:
   band: emerging
   composite: 26.1

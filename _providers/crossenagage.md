@@ -123,7 +123,7 @@ overview: 'CrossEngage publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   CrossEngage''s developer surface includes documentation, API reference, pricing, engineering blog, support, and 14 more developer resources.'
-random_paper: 2
+random_paper: 66
 score:
   band: thin
   composite: 29.7

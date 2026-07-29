@@ -39,7 +39,7 @@ name: Xplenty (Xenon)
 nav: Providers
 network: true
 overview: Xplenty (Xenon) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai Infrastructure.
-random_paper: 42
+random_paper: 25
 score:
   band: minimal
   composite: 4.8

@@ -91,7 +91,7 @@ overview: 'OWKIN is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   OWKIN''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 6 more developer resources.'
-random_paper: 78
+random_paper: 72
 score:
   band: emerging
   composite: 21.1

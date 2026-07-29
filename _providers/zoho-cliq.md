@@ -327,7 +327,7 @@ plans:
 - name: Zoho Cliq Plans Pricing
   plan_count: 4
   slug: zoho-cliq-plans-pricing
-random_paper: 49
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Zoho Cliq Rate Limits

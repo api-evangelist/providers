@@ -71,7 +71,7 @@ overview: 'Stitch Fix is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Stitch Fix''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 0
+random_paper: 67
 score:
   band: minimal
   composite: 12.3

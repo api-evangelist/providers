@@ -75,7 +75,7 @@ overview: 'Res is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Res'' developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 14
+random_paper: 10
 score:
   band: minimal
   composite: 12.6

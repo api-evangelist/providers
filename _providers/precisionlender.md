@@ -83,7 +83,7 @@ overview: 'PrecisionLender is profiled on the [APIs.io](https://apis.io/) networ
 
 
   PrecisionLender''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 26
+random_paper: 6
 score:
   band: emerging
   composite: 14.6

@@ -48,7 +48,7 @@ name: Innovent
 nav: Providers
 network: true
 overview: Innovent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Biologics.
-random_paper: 12
+random_paper: 1
 score:
   band: minimal
   composite: 5.4

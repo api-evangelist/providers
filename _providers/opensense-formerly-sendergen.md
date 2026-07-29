@@ -103,7 +103,7 @@ overview: 'Opensense (formerly SenderGen) is profiled on the [APIs.io](https://a
 
 
   Opensense (formerly SenderGen)''s developer surface includes support, pricing, engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 57
+random_paper: 21
 score:
   band: emerging
   composite: 21.8

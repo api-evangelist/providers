@@ -96,7 +96,7 @@ plans:
 - name: Bloomberg Query Language Bql Plans Pricing
   plan_count: 3
   slug: bloomberg-query-language-bql-plans-pricing
-random_paper: 44
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Bloomberg Query Language Bql Rate Limits

@@ -122,7 +122,7 @@ plans:
 - name: Efi Bank Plans Pricing
   plan_count: 4
   slug: efi-bank-plans-pricing
-random_paper: 54
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Efi Bank Rate Limits

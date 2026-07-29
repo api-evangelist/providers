@@ -83,7 +83,7 @@ plans:
 - name: Dati Lamma Toscana It Plans Pricing
   plan_count: 0
   slug: dati-lamma-toscana-it-plans-pricing
-random_paper: 64
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Dati Lamma Toscana It Rate Limits

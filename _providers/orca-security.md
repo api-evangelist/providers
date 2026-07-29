@@ -131,7 +131,7 @@ plans:
 - name: Orca Security Plans Pricing
   plan_count: 1
   slug: orca-security-plans-pricing
-random_paper: 11
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Orca Security Rate Limits

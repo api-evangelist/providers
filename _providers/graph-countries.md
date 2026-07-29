@@ -52,7 +52,7 @@ name: Graph Countries
 nav: Providers
 network: true
 overview: Graph Countries publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 62
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

@@ -56,7 +56,7 @@ name: H2O Hospitality
 nav: Providers
 network: true
 overview: H2O Hospitality is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Hotels, Property Management, and Travel.
-random_paper: 19
+random_paper: 0
 score:
   band: minimal
   composite: 8.1

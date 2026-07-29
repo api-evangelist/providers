@@ -70,7 +70,7 @@ press:
 - date: '2026-05-25'
   title: Securian Financial Group
   url: https://www.cuinsight.com/companies/securian-financial-group/
-random_paper: 68
+random_paper: 38
 score:
   band: minimal
   composite: 4.0

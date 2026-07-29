@@ -168,7 +168,7 @@ press:
 - date: '2026-05-25'
   title: Air Products & Chemicals Inc. APD
   url: https://decarbonfuse.com/companies/air-products-chemicals-inc
-random_paper: 51
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Air Products And Chemicals Rate Limits

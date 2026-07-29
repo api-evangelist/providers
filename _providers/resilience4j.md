@@ -143,7 +143,7 @@ plans:
 - name: Resilience4J Plans Pricing
   plan_count: 3
   slug: resilience4j-plans-pricing
-random_paper: 32
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Resilience4J Rate Limits

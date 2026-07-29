@@ -33,7 +33,7 @@ name: Apstal
 nav: Providers
 network: true
 overview: Apstal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include analytics, web-analytics, privacy, session-replay, and heatmaps.
-random_paper: 13
+random_paper: 5
 score:
   band: minimal
   composite: 5.9

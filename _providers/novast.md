@@ -44,7 +44,7 @@ name: Novast Laboratories
 nav: Providers
 network: true
 overview: Novast Laboratories is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Drug Delivery, CDMO, and Generics.
-random_paper: 35
+random_paper: 27
 score:
   band: minimal
   composite: 4.3

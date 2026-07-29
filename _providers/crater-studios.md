@@ -72,7 +72,7 @@ overview: 'Crater Studios is profiled on the [APIs.io](https://apis.io/) network
 
 
   Crater Studios'' developer surface includes YouTube channel and 6 more developer resources.'
-random_paper: 43
+random_paper: 25
 score:
   band: minimal
   composite: 6.6

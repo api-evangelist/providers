@@ -48,7 +48,7 @@ name: PredictionStrike
 nav: Providers
 network: true
 overview: PredictionStrike is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 72
+random_paper: 51
 score:
   band: minimal
   composite: 4.1

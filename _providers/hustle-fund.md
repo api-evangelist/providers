@@ -87,7 +87,7 @@ overview: 'Hustle Fund is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Hustle Fund''s developer surface includes engineering blog, YouTube channel, and 9 more developer resources.'
-random_paper: 29
+random_paper: 15
 score:
   band: minimal
   composite: 9.7

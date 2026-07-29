@@ -92,7 +92,7 @@ overview: 'Nexon Inc publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Nexon Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 5 more developer resources.'
-random_paper: 42
+random_paper: 31
 score:
   band: emerging
   composite: 21.6

@@ -126,7 +126,7 @@ plans:
 - name: University Of Michigan Ann Arbor Plans Pricing
   plan_count: 2
   slug: university-of-michigan-ann-arbor-plans-pricing
-random_paper: 38
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: University Of Michigan Ann Arbor Rate Limits

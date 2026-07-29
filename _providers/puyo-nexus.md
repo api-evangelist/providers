@@ -52,7 +52,7 @@ name: Puyo Nexus
 nav: Providers
 network: true
 overview: Puyo Nexus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 42
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

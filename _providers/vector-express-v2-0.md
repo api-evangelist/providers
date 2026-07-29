@@ -52,7 +52,7 @@ name: Vector Express v2.0
 nav: Providers
 network: true
 overview: Vector Express v2.0 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Documents And Productivity and Public APIs.
-random_paper: 50
+random_paper: 28
 score:
   band: minimal
   composite: 3.9

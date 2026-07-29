@@ -71,7 +71,7 @@ overview: 'Airspace Intelligence is profiled on the [APIs.io](https://apis.io/) 
 
 
   Airspace Intelligence''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 19
+random_paper: 72
 score:
   band: minimal
   composite: 12.4

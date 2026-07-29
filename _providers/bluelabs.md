@@ -48,7 +48,7 @@ name: BlueLabs
 nav: Providers
 network: true
 overview: BlueLabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Artificial Intelligence, Emotional Intelligence, and Machine Learning.
-random_paper: 52
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

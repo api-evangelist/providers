@@ -144,7 +144,7 @@ plans:
 - name: Relay App Plans Pricing
   plan_count: 3
   slug: relay-app-plans-pricing
-random_paper: 38
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Relay App Rate Limits

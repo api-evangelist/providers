@@ -60,7 +60,7 @@ name: Autonomic
 nav: Providers
 network: true
 overview: Autonomic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Automotive, Connected Vehicles, and Mobility.
-random_paper: 27
+random_paper: 15
 score:
   band: minimal
   composite: 9.8

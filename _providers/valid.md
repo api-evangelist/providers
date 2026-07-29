@@ -80,7 +80,7 @@ name: Valid
 nav: Providers
 network: true
 overview: Valid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Marketing, Artificial Intelligence, and Creative.
-random_paper: 54
+random_paper: 48
 score:
   band: emerging
   composite: 13.7

@@ -137,7 +137,7 @@ overview: 'Hiscox publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Hiscox''s developer surface includes documentation, API reference, FAQ, support, signup flow, getting-started guide, engineering blog, and 15 more developer resources.'
-random_paper: 22
+random_paper: 14
 score:
   band: thin
   composite: 32.9

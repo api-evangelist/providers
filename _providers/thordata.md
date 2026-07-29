@@ -33,7 +33,7 @@ name: Thordata
 nav: Providers
 network: true
 overview: Thordata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Proxy network, Web scraping, Data extraction, SERP, and Search data.
-random_paper: 65
+random_paper: 55
 score:
   band: minimal
   composite: 5.9

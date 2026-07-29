@@ -84,7 +84,7 @@ overview: 'Monnai publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Monnai''s developer surface includes developer portal, signup flow, authentication, and 6 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: emerging
   composite: 16.8

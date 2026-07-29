@@ -1441,7 +1441,7 @@ plans:
 - name: Amazon Iot Greengrass Plans Pricing
   plan_count: 3
   slug: amazon-iot-greengrass-plans-pricing
-random_paper: 8
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Greengrass Rate Limits

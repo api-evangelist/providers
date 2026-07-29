@@ -75,7 +75,7 @@ overview: 'Altair Semiconductor is profiled on the [APIs.io](https://apis.io/) n
 
 
   Altair Semiconductor''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 35
+random_paper: 9
 score:
   band: minimal
   composite: 5.4

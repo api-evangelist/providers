@@ -92,7 +92,7 @@ overview: 'Signal Sciences publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Signal Sciences'' developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
-random_paper: 27
+random_paper: 8
 score:
   band: emerging
   composite: 16.3

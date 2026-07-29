@@ -101,7 +101,7 @@ plans:
 - name: Better Auth Plans Pricing
   plan_count: 1
   slug: better-auth-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Better Auth Rate Limits

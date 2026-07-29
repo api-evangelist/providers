@@ -155,7 +155,7 @@ plans:
 - name: Google Business Profile Plans Pricing
   plan_count: 3
   slug: google-business-profile-plans-pricing
-random_paper: 65
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Google Business Profile Rate Limits

@@ -165,7 +165,7 @@ plans:
 - name: Osmapi Plans Pricing
   plan_count: 3
   slug: osmapi-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Osmapi Rate Limits

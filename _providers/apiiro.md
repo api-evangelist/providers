@@ -127,7 +127,7 @@ overview: 'Apiiro is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Apiiro''s developer surface includes documentation, engineering blog, CLI, signup flow, and 17 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: emerging
   composite: 26.2

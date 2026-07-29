@@ -83,7 +83,7 @@ plans:
 - name: Dati Retecivica Bz It Plans Pricing
   plan_count: 0
   slug: dati-retecivica-bz-it-plans-pricing
-random_paper: 74
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Dati Retecivica Bz It Rate Limits

@@ -465,7 +465,7 @@ plans:
 - name: Rapidapi Plans Pricing
   plan_count: 1
   slug: rapidapi-plans-pricing
-random_paper: 52
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Rapidapi Rate Limits

@@ -71,7 +71,7 @@ overview: 'Condorsoftware is profiled on the [APIs.io](https://apis.io/) network
 
 
   Condorsoftware''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 19
+random_paper: 0
 score:
   band: minimal
   composite: 11.6

@@ -219,7 +219,7 @@ overview: 'TrustLayer publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   TrustLayer''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 13
+random_paper: 79
 score:
   band: developing
   composite: 46.8

@@ -181,7 +181,7 @@ overview: 'AltScore publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   AltScore''s developer surface includes documentation, API reference, engineering blog, support, CLI, authentication, sandbox, and 22 more developer resources.'
-random_paper: 71
+random_paper: 61
 scopes:
 - name: Altscore Scopes
   scope_count: 3

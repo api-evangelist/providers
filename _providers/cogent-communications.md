@@ -65,7 +65,7 @@ plans:
 - name: Cogent Communications Plans Pricing
   plan_count: 1
   slug: cogent-communications-plans-pricing
-random_paper: 65
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Cogent Communications Rate Limits

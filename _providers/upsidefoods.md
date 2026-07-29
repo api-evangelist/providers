@@ -67,7 +67,7 @@ overview: 'UPSIDE Foods is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   UPSIDE Foods'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 4
+random_paper: 69
 score:
   band: minimal
   composite: 10.5

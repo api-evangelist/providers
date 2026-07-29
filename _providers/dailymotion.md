@@ -68,7 +68,7 @@ name: Dailymotion
 nav: Providers
 network: true
 overview: Dailymotion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 8
+random_paper: 73
 score:
   band: emerging
   composite: 17.6

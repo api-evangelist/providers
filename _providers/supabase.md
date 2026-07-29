@@ -259,7 +259,7 @@ plans:
 - name: Supabase Plans Pricing
   plan_count: 4
   slug: supabase-plans-pricing
-random_paper: 62
+random_paper: 52
 rate_limits:
 - limit_count: 8
   name: Supabase Rate Limits

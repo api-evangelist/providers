@@ -83,7 +83,7 @@ overview: 'Grade is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Grade''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 41
+random_paper: 35
 score:
   band: emerging
   composite: 13.7

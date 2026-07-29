@@ -44,7 +44,7 @@ name: Stratim
 nav: Providers
 network: true
 overview: Stratim is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Management, Logistics, Transportation, and Mobility.
-random_paper: 61
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

@@ -141,7 +141,7 @@ overview: 'Wealthbox publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wealthbox''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 26
+random_paper: 14
 scopes:
 - name: Wealthbox Scopes
   scope_count: 2

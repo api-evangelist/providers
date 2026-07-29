@@ -155,7 +155,7 @@ overview: 'Vox Media publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Vox Media''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 18 more developer resources.'
-random_paper: 37
+random_paper: 26
 score:
   band: developing
   composite: 47.6

@@ -329,7 +329,7 @@ plans:
 - name: Boltic Plans Pricing
   plan_count: 5
   slug: boltic-plans-pricing
-random_paper: 5
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Boltic Rate Limits

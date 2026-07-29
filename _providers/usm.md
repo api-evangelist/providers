@@ -96,7 +96,7 @@ plans:
 - name: Usm Plans Pricing
   plan_count: 2
   slug: usm-plans-pricing
-random_paper: 25
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Usm Rate Limits

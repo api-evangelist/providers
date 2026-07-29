@@ -99,7 +99,7 @@ plans:
 - name: Matternet Plans Pricing
   plan_count: 1
   slug: matternet-plans-pricing
-random_paper: 32
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Matternet Rate Limits

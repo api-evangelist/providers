@@ -65,7 +65,7 @@ plans:
 - name: Quaker Houghton Plans Pricing
   plan_count: 1
   slug: quaker-houghton-plans-pricing
-random_paper: 69
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Quaker Houghton Rate Limits

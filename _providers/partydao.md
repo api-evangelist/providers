@@ -79,7 +79,7 @@ overview: 'PartyDAO is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PartyDAO''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 78
+random_paper: 68
 score:
   band: minimal
   composite: 9.5

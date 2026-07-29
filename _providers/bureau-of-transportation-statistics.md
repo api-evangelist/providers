@@ -120,7 +120,7 @@ plans:
 - name: Bureau Of Transportation Statistics Plans Pricing
   plan_count: 3
   slug: bureau-of-transportation-statistics-plans-pricing
-random_paper: 1
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Bureau Of Transportation Statistics Rate Limits

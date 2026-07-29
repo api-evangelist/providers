@@ -67,7 +67,7 @@ overview: 'Innovatrix Tech, Corp. is profiled on the [APIs.io](https://apis.io/)
 
 
   Innovatrix Tech, Corp.''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 77
+random_paper: 52
 score:
   band: minimal
   composite: 8.9

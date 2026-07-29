@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: '#eei2025 | Pedro Pizarro | 33 comments'
   url: https://www.linkedin.com/posts/pedro-pizarro-087a5287_eei2025-activity-7335781073370460160-1oAC
-random_paper: 33
+random_paper: 7
 score:
   band: minimal
   composite: 3.3

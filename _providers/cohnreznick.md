@@ -108,7 +108,7 @@ overview: 'CohnReznick is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CohnReznick''s developer surface includes GitHub presence and 13 more developer resources.'
-random_paper: 76
+random_paper: 62
 score:
   band: minimal
   composite: 10.7

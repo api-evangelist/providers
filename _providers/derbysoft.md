@@ -134,7 +134,7 @@ overview: 'DerbySoft publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   DerbySoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 13 more developer resources.'
-random_paper: 30
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Derbysoft Rate Limits

@@ -51,7 +51,7 @@ overview: 'Summit Materials is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Summit Materials'' developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 19
+random_paper: 78
 score:
   band: minimal
   composite: 3.0

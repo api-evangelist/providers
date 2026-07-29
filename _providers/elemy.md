@@ -52,7 +52,7 @@ name: Elemy
 nav: Providers
 network: true
 overview: Elemy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Autism Care, ABA Therapy, and Behavioral Health.
-random_paper: 66
+random_paper: 60
 score:
   band: minimal
   composite: 5.4

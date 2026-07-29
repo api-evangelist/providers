@@ -44,7 +44,7 @@ name: Vima Therapeutics
 nav: Providers
 network: true
 overview: Vima Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Movement Disorders, and Dystonia.
-random_paper: 33
+random_paper: 11
 score:
   band: minimal
   composite: 4.3

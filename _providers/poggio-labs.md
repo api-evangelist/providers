@@ -148,7 +148,7 @@ overview: 'Poggio Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Poggio Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 17 more developer resources.'
-random_paper: 2
+random_paper: 68
 score:
   band: thin
   composite: 37.5

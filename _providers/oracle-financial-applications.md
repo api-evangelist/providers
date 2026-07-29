@@ -158,7 +158,7 @@ plans:
 - name: Oracle Financial Applications Plans Pricing
   plan_count: 3
   slug: oracle-financial-applications-plans-pricing
-random_paper: 17
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Oracle Financial Applications Rate Limits

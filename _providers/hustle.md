@@ -150,7 +150,7 @@ overview: 'Hustle publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Hustle''s developer surface includes documentation, API reference, signup flow, pricing, and 12 more developer resources.'
-random_paper: 29
+random_paper: 21
 scopes:
 - name: Hustle Scopes
   scope_count: 0

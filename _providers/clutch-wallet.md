@@ -52,7 +52,7 @@ name: Clutch Wallet
 nav: Providers
 network: true
 overview: Clutch Wallet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Cryptocurrency, Wallet, and DeFi.
-random_paper: 73
+random_paper: 57
 score:
   band: minimal
   composite: 5.9

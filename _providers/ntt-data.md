@@ -68,7 +68,7 @@ name: NTT DATA
 nav: Providers
 network: true
 overview: NTT DATA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include IT Services, Consulting, Digital Transformation, Cloud Services, and Cybersecurity.
-random_paper: 7
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

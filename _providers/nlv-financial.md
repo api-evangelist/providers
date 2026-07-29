@@ -51,7 +51,7 @@ overview: 'NLV Financial is profiled on the [APIs.io](https://apis.io/) network.
 
 
   NLV Financial''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 50
+random_paper: 34
 score:
   band: minimal
   composite: 3.0

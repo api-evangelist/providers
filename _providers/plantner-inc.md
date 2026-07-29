@@ -48,7 +48,7 @@ name: Plantner Inc.
 nav: Providers
 network: true
 overview: Plantner Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biomaterials, Alginic Acid, and Pharmaceuticals.
-random_paper: 42
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

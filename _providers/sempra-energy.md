@@ -76,7 +76,7 @@ press:
 - date: '2026-05-08'
   title: '<a href="https://www.sempra.com/newsroom/spotlight-articles/energy-and-national-security-conversation-with-jeffrey-w-martin" hreflang="en">Energy and National Security: Conversation with Jeffrey W. Martin and LTG H.R. McMaster </a>'
   url: https://www.sempra.com/newsroom/spotlight-articles/energy-and-national-security-conversation-with-jeffrey-w-martin
-random_paper: 0
+random_paper: 63
 score:
   band: minimal
   composite: 2.6

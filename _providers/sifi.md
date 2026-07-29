@@ -75,7 +75,7 @@ overview: 'SiFi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   SiFi''s developer surface includes pricing, engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 32
+random_paper: 27
 score:
   band: emerging
   composite: 16.2

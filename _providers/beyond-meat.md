@@ -71,7 +71,7 @@ overview: 'Beyond Meat is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Beyond Meat''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 3
+random_paper: 69
 score:
   band: minimal
   composite: 9.7

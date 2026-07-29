@@ -164,7 +164,7 @@ plans:
 - name: Touchbistro Plans Pricing
   plan_count: 1
   slug: touchbistro-plans-pricing
-random_paper: 21
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Touchbistro Rate Limits

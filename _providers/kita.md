@@ -314,7 +314,7 @@ plans:
 - name: Kita Plans
   plan_count: 3
   slug: kita-plans
-random_paper: 30
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Kita Rate Limits

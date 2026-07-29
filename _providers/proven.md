@@ -44,7 +44,7 @@ name: Proven
 nav: Providers
 network: true
 overview: Proven is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 34
+random_paper: 26
 score:
   band: minimal
   composite: 3.2

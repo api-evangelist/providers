@@ -71,7 +71,7 @@ plans:
 - name: Github Cli Plans Pricing
   plan_count: 3
   slug: github-cli-plans-pricing
-random_paper: 52
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Github Cli Rate Limits

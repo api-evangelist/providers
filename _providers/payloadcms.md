@@ -110,7 +110,7 @@ plans:
 - name: Payloadcms Plans Pricing
   plan_count: 4
   slug: payloadcms-plans-pricing
-random_paper: 42
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Payloadcms Rate Limits

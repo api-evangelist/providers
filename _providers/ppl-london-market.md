@@ -214,7 +214,7 @@ overview: 'PPL publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   PPL''s developer surface includes authentication, sandbox, getting-started guide, documentation, API reference, signup flow, support, and 31 more developer resources.'
-random_paper: 57
+random_paper: 36
 scopes:
 - name: Ppl London Market Scopes
   scope_count: 1

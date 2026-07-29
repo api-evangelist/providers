@@ -52,7 +52,7 @@ name: Coherent
 nav: Providers
 network: true
 overview: Coherent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Photonics, Lasers, Optical Networking, and Materials.
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 4.4

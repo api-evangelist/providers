@@ -39,7 +39,7 @@ name: Spover
 nav: Providers
 network: true
 overview: Spover is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 39
+random_paper: 31
 score:
   band: minimal
   composite: 3.2

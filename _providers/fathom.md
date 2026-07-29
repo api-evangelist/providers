@@ -221,7 +221,7 @@ plans:
 - name: Fathom Plans Pricing
   plan_count: 5
   slug: fathom-plans-pricing
-random_paper: 7
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Fathom Rate Limits

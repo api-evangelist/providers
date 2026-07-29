@@ -71,7 +71,7 @@ overview: 'Irreducible is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Irreducible''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 56
+random_paper: 42
 score:
   band: minimal
   composite: 9.0

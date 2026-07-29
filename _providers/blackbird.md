@@ -190,7 +190,7 @@ overview: 'Blackbird publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 57
+random_paper: 46
 scopes:
 - name: Blackbird Scopes
   scope_count: 9

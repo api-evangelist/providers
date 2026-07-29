@@ -67,7 +67,7 @@ overview: 'Tactile Games is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Tactile Games'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 48
+random_paper: 32
 score:
   band: minimal
   composite: 10.5

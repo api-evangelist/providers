@@ -100,7 +100,7 @@ overview: 'Covalent publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Covalent''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 15
+random_paper: 73
 score:
   band: emerging
   composite: 19.4

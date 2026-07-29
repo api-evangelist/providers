@@ -112,7 +112,7 @@ overview: 'DJI is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   DJI''s developer surface includes documentation, API reference, support, authentication, changelog, and 12 more developer resources.'
-random_paper: 74
+random_paper: 71
 score:
   band: emerging
   composite: 25.6

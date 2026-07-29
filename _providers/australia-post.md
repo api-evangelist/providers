@@ -230,7 +230,7 @@ plans:
 - name: Australia Post Plans Pricing
   plan_count: 4
   slug: australia-post-plans-pricing
-random_paper: 43
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Australia Post Rate Limits

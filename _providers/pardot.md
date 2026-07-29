@@ -105,7 +105,7 @@ overview: 'Salesforce Marketing Cloud Account Engagement (Pardot) publishes 1 AP
 
 
   Salesforce Marketing Cloud Account Engagement (Pardot)''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 18
+random_paper: 10
 scopes:
 - name: Pardot Scopes
   scope_count: 1

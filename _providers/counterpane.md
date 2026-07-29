@@ -45,7 +45,7 @@ name: Counterpane
 nav: Providers
 network: true
 overview: Counterpane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Managed Security Services, Security Monitoring, and Defunct.
-random_paper: 3
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

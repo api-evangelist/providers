@@ -79,7 +79,7 @@ plans:
 - name: Horoscope Api Plans Pricing
   plan_count: 3
   slug: horoscope-api-plans-pricing
-random_paper: 73
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Horoscope Api Rate Limits

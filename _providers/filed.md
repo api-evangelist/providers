@@ -140,7 +140,7 @@ overview: 'Filed publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Filed''s developer surface includes engineering blog, pricing, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 42
+random_paper: 36
 score:
   band: thin
   composite: 28.7

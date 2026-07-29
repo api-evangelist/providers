@@ -174,7 +174,7 @@ plans:
 - name: Google Vertex Ai Plans Pricing
   plan_count: 3
   slug: google-vertex-ai-plans-pricing
-random_paper: 19
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Google Vertex Ai Rate Limits

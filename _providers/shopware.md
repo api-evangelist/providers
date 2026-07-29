@@ -207,7 +207,7 @@ plans:
 - name: Shopware Plans Pricing
   plan_count: 5
   slug: shopware-plans-pricing
-random_paper: 4
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Shopware Rate Limits

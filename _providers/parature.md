@@ -48,7 +48,7 @@ name: Parature
 nav: Providers
 network: true
 overview: Parature is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Customer Service, Customer Support, and Knowledge Base.
-random_paper: 78
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

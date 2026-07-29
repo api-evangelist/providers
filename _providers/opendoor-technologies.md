@@ -48,7 +48,7 @@ name: Opendoor Technologies
 nav: Providers
 network: true
 overview: Opendoor Technologies is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 66
+random_paper: 39
 score:
   band: minimal
   composite: 3.3

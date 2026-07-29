@@ -198,7 +198,7 @@ plans:
 - name: 1Forge Plans Pricing
   plan_count: 4
   slug: 1forge-plans-pricing
-random_paper: 27
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: 1Forge Rate Limits

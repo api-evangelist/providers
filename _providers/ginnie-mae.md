@@ -65,7 +65,7 @@ plans:
 - name: Ginnie Mae Plans Pricing
   plan_count: 3
   slug: ginnie-mae-plans-pricing
-random_paper: 38
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Ginnie Mae Rate Limits

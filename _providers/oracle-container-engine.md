@@ -127,7 +127,7 @@ plans:
 - name: Oracle Container Engine Plans Pricing
   plan_count: 3
   slug: oracle-container-engine-plans-pricing
-random_paper: 22
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Oracle Container Engine Rate Limits

@@ -148,7 +148,7 @@ overview: 'Synthetic Sciences publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Synthetic Sciences'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, CLI, and 17 more developer resources.'
-random_paper: 60
+random_paper: 37
 score:
   band: thin
   composite: 29.2

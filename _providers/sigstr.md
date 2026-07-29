@@ -39,7 +39,7 @@ name: Sigstr
 nav: Providers
 network: true
 overview: Sigstr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Email Signature, Marketing, and Account-Based Marketing.
-random_paper: 36
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

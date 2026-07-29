@@ -141,7 +141,7 @@ plans:
 - name: University Of Lausanne Plans Pricing
   plan_count: 2
   slug: university-of-lausanne-plans-pricing
-random_paper: 68
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: University Of Lausanne Rate Limits

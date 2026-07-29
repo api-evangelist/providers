@@ -48,7 +48,7 @@ overview: 'Primitive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 37
+random_paper: 25
 score:
   band: emerging
   composite: 24.4

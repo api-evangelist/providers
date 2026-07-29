@@ -151,7 +151,7 @@ overview: 'Windfall Data publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Windfall Data''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 18 more developer resources.'
-random_paper: 40
+random_paper: 24
 score:
   band: developing
   composite: 48.6

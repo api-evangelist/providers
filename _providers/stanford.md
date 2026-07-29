@@ -136,7 +136,7 @@ plans:
 - name: Stanford Plans Pricing
   plan_count: 2
   slug: stanford-plans-pricing
-random_paper: 75
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Stanford Rate Limits

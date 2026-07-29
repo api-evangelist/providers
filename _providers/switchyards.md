@@ -71,7 +71,7 @@ overview: 'Switchyards is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Switchyards'' developer surface includes pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 20
+random_paper: 5
 score:
   band: emerging
   composite: 14.8

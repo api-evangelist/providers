@@ -136,7 +136,7 @@ plans:
 - name: Pylon Plans Pricing
   plan_count: 4
   slug: pylon-plans-pricing
-random_paper: 9
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Pylon Rate Limits

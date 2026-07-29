@@ -79,7 +79,7 @@ overview: 'Raven is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Raven''s developer surface includes documentation, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 66
+random_paper: 60
 score:
   band: emerging
   composite: 14.2

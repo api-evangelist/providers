@@ -96,7 +96,7 @@ plans:
 - name: Root Insurance Plans Pricing
   plan_count: 1
   slug: root-insurance-plans-pricing
-random_paper: 43
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Root Insurance Rate Limits

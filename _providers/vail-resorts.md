@@ -48,7 +48,7 @@ name: Vail Resorts
 nav: Providers
 network: true
 overview: Vail Resorts is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 74
+random_paper: 59
 score:
   band: minimal
   composite: 3.3

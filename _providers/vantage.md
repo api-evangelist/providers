@@ -823,7 +823,7 @@ plans:
 - name: Vantage Plans Pricing
   plan_count: 3
   slug: vantage-plans-pricing
-random_paper: 31
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Vantage Rate Limits

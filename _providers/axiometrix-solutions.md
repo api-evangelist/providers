@@ -44,7 +44,7 @@ name: Axiometrix Solutions
 nav: Providers
 network: true
 overview: Axiometrix Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test and Measurement, Acoustics, Sensors, and Data Acquisition.
-random_paper: 18
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

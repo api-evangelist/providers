@@ -48,7 +48,7 @@ name: VendorHawk
 nav: Providers
 network: true
 overview: VendorHawk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS Management, Vendor Management, Subscription Management, and Software Spend.
-random_paper: 54
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

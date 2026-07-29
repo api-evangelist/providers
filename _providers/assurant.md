@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: 'Building Trust in Enterprise AI: a Human-Centric Approach'
   url: https://www.assurant.com/news-insights/articles/human-approach-to-enterprise-ai
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Assurant Rate Limits

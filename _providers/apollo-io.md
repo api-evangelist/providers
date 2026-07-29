@@ -280,7 +280,7 @@ plans:
 - name: Apollo Io Plans Pricing
   plan_count: 7
   slug: apollo-io-plans-pricing
-random_paper: 39
+random_paper: 28
 rate_limits:
 - limit_count: 7
   name: Apollo Io Rate Limits

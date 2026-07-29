@@ -63,7 +63,7 @@ overview: 'BitDAO is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   BitDAO''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 74
+random_paper: 67
 score:
   band: minimal
   composite: 8.2

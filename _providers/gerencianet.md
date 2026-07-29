@@ -546,7 +546,7 @@ plans:
 - name: Gerencianet Plans Pricing
   plan_count: 5
   slug: gerencianet-plans-pricing
-random_paper: 51
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Gerencianet Rate Limits

@@ -131,7 +131,7 @@ overview: 'RedStone publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   RedStone''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, authentication, and 13 more developer resources.'
-random_paper: 78
+random_paper: 68
 score:
   band: emerging
   composite: 25.0

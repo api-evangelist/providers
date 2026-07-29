@@ -201,7 +201,7 @@ plans:
 - name: Enphase Energy Plans Pricing
   plan_count: 5
   slug: enphase-energy-plans-pricing
-random_paper: 13
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Enphase Energy Rate Limits

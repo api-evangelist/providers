@@ -57,7 +57,7 @@ overview: 'Medusa publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Medusa''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: emerging
   composite: 16.6

@@ -71,7 +71,7 @@ overview: 'Karnott is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Karnott''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 60
+random_paper: 51
 score:
   band: minimal
   composite: 11.7

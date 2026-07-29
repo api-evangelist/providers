@@ -79,7 +79,7 @@ overview: 'Immersive Gamebox is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Immersive Gamebox''s developer surface includes support and 8 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: minimal
   composite: 10.1

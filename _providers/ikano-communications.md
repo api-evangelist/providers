@@ -67,7 +67,7 @@ overview: 'IKANO Communications is profiled on the [APIs.io](https://apis.io/) n
 
 
   IKANO Communications'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 34
+random_paper: 8
 score:
   band: minimal
   composite: 9.2

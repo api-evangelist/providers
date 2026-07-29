@@ -67,7 +67,7 @@ overview: 'Avid Ventures is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Avid Ventures'' developer surface includes engineering blog, YouTube channel, and 4 more developer resources.'
-random_paper: 14
+random_paper: 77
 score:
   band: minimal
   composite: 5.4

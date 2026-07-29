@@ -39,7 +39,7 @@ name: Lean Operations
 nav: Providers
 network: true
 overview: Lean Operations is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Lean Operations, Operations Management, and Process Improvement.
-random_paper: 52
+random_paper: 33
 score:
   band: minimal
   composite: 4.1

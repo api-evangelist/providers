@@ -602,7 +602,7 @@ plans:
 - name: Adobe Creative Cloud Plans Pricing
   plan_count: 5
   slug: adobe-creative-cloud-plans-pricing
-random_paper: 8
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Adobe Creative Cloud Rate Limits

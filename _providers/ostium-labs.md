@@ -195,7 +195,7 @@ overview: 'Ostium Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Ostium Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 27 more developer resources.'
-random_paper: 30
+random_paper: 16
 score:
   band: developing
   composite: 51.4

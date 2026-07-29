@@ -158,7 +158,7 @@ overview: 'PerimeterX (HUMAN Security) publishes 3 APIs on the [APIs.io](https:/
 
 
   PerimeterX (HUMAN Security)''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 19 more developer resources.'
-random_paper: 66
+random_paper: 53
 score:
   band: thin
   composite: 32.8

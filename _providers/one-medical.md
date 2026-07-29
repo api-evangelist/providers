@@ -71,7 +71,7 @@ overview: 'One Medical * is profiled on the [APIs.io](https://apis.io/) network.
 
 
   One Medical *''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 59
+random_paper: 46
 score:
   band: minimal
   composite: 12.5

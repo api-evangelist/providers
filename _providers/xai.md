@@ -123,7 +123,7 @@ plans:
 - name: Xai Plans Pricing
   plan_count: 3
   slug: xai-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Xai Rate Limits

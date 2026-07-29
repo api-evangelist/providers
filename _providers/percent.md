@@ -83,7 +83,7 @@ overview: 'Percent is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Percent''s developer surface includes developer portal, engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 42
+random_paper: 33
 score:
   band: emerging
   composite: 15.6

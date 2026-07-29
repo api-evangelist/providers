@@ -241,7 +241,7 @@ overview: 'PiggyVest publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   PiggyVest''s developer surface includes documentation, authentication, signup flow, FAQ, engineering blog, GitHub presence, YouTube channel, and 41 more developer resources.'
-random_paper: 46
+random_paper: 34
 score:
   band: emerging
   composite: 17.5

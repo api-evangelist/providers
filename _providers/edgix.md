@@ -39,7 +39,7 @@ name: Edgix
 nav: Providers
 network: true
 overview: Edgix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Battery Ventures, Portfolio, Exited, and Defunct.
-random_paper: 55
+random_paper: 49
 score:
   band: minimal
   composite: 5.0

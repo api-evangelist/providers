@@ -152,7 +152,7 @@ overview: 'Liquid M publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Liquid M''s developer surface includes developer portal, signup flow, authentication, code examples, and 16 more developer resources.'
-random_paper: 12
+random_paper: 2
 score:
   band: thin
   composite: 35.6

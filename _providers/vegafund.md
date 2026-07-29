@@ -52,7 +52,7 @@ name: Vegafund
 nav: Providers
 network: true
 overview: Vegafund is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Personal Finance, and Artificial Intelligence.
-random_paper: 58
+random_paper: 48
 score:
   band: minimal
   composite: 5.7

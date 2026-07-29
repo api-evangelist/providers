@@ -148,7 +148,7 @@ overview: 'RelationalAI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   RelationalAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 19 more developer resources.'
-random_paper: 5
+random_paper: 69
 score:
   band: thin
   composite: 36.7

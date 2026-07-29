@@ -190,7 +190,7 @@ plans:
 - name: Vessel Plans Pricing
   plan_count: 3
   slug: vessel-plans-pricing
-random_paper: 26
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Vessel Rate Limits

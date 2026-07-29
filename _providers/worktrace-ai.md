@@ -80,7 +80,7 @@ name: Worktrace AI
 nav: Providers
 network: true
 overview: Worktrace AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workflow Automation, Artificial Intelligence, Process Intelligence, and Enterprise.
-random_paper: 40
+random_paper: 25
 score:
   band: emerging
   composite: 16.2

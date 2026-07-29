@@ -5784,7 +5784,7 @@ press:
 - date: '2026-05-25'
   title: Mastercard unveils new tools and collaborations to power ...
   url: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-new-tools-and-collaborations-to-power-smarter,-safer-agentic-commerce.html
-random_paper: 35
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Mastercard Rate Limits

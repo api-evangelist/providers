@@ -48,7 +48,7 @@ name: SpeedHome
 nav: Providers
 network: true
 overview: SpeedHome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Property Rental, Marketplace, and Proptech.
-random_paper: 6
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

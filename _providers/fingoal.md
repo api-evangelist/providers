@@ -169,7 +169,7 @@ overview: 'FinGoal publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   FinGoal''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 25
+random_paper: 16
 scopes:
 - name: Fingoal Scopes
   scope_count: 3

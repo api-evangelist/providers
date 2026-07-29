@@ -79,7 +79,7 @@ overview: 'OrderCircle is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   OrderCircle''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 60
+random_paper: 46
 score:
   band: emerging
   composite: 16.9

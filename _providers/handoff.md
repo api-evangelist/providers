@@ -87,7 +87,7 @@ overview: 'Handoff is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Handoff''s developer surface includes pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 15
+random_paper: 6
 score:
   band: emerging
   composite: 16.7

@@ -56,7 +56,7 @@ name: Jikan
 nav: Providers
 network: true
 overview: Jikan publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anime and Public APIs.
-random_paper: 51
+random_paper: 45
 score:
   band: minimal
   composite: 5.7

@@ -52,7 +52,7 @@ name: Hanqi Group
 nav: Providers
 network: true
 overview: Hanqi Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Environmental Technology, Wastewater Treatment, Petrochemical, and Water Treatment.
-random_paper: 59
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

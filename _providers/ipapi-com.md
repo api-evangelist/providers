@@ -56,7 +56,7 @@ name: ipapi.com
 nav: Providers
 network: true
 overview: ipapi.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 26
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

@@ -48,7 +48,7 @@ name: Mantis
 nav: Providers
 network: true
 overview: Mantis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Twins, Healthcare, Predictive Analytics, and Wearables.
-random_paper: 20
+random_paper: 12
 score:
   band: minimal
   composite: 5.4

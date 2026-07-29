@@ -159,7 +159,7 @@ overview: 'RSS publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   RSS''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
-random_paper: 28
+random_paper: 24
 rules:
 - name: RSS API Rules
   rule_count: 5

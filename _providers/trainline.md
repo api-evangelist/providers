@@ -163,7 +163,7 @@ overview: 'Trainline publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Trainline''s developer surface includes developer portal, documentation, support, engineering blog, and 26 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: emerging
   composite: 23.8

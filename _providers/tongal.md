@@ -87,7 +87,7 @@ overview: 'Tongal is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Tongal''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: emerging
   composite: 15.7

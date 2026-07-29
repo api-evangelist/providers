@@ -55,7 +55,7 @@ overview: 'SupplyHog is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SupplyHog''s developer surface includes pricing and 2 more developer resources.'
-random_paper: 55
+random_paper: 43
 score:
   band: minimal
   composite: 7.1

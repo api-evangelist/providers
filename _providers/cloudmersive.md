@@ -131,7 +131,7 @@ plans:
 - name: Cloudmersive Plans Pricing
   plan_count: 8
   slug: cloudmersive-plans-pricing
-random_paper: 34
+random_paper: 18
 rate_limits:
 - limit_count: 10
   name: Cloudmersive Rate Limits

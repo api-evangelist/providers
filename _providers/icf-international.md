@@ -72,7 +72,7 @@ name: ICF (ICF International)
 nav: Providers
 network: true
 overview: ICF (ICF International) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Consulting, Digital Modernization, Energy, Environment, and Disaster Management.
-random_paper: 13
+random_paper: 71
 score:
   band: minimal
   composite: 6.1

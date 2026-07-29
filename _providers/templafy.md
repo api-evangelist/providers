@@ -204,7 +204,7 @@ overview: 'Templafy publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Templafy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
-random_paper: 76
+random_paper: 66
 score:
   band: developing
   composite: 49.4

@@ -39,7 +39,7 @@ name: Sonia Labs
 nav: Providers
 network: true
 overview: Sonia Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 53
+random_paper: 41
 score:
   band: minimal
   composite: 3.2

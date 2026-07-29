@@ -149,7 +149,7 @@ overview: '酷学院 (Cool College) publishes 3 APIs on the [APIs.io](https://ap
 
 
   酷学院 (Cool College)''s developer surface includes API reference, documentation, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 54
+random_paper: 40
 score:
   band: thin
   composite: 39.7

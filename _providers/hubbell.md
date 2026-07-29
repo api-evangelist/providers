@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: 'Artificial Intelligence Part 1: The Basics for Utilities'
   url: https://blog.hubbell.com/en/aclara/artificial-intelligence-part-1-the-basics-for-utilities
-random_paper: 23
+random_paper: 14
 rules:
 - name: Hubbell API Rules
   rule_count: 0

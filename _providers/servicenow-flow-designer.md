@@ -72,7 +72,7 @@ plans:
 - name: Servicenow Flow Designer Plans Pricing
   plan_count: 3
   slug: servicenow-flow-designer-plans-pricing
-random_paper: 23
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Servicenow Flow Designer Rate Limits

@@ -95,7 +95,7 @@ overview: 'Keatext is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Keatext''s developer surface includes developer portal, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 47
+random_paper: 38
 score:
   band: emerging
   composite: 21.6

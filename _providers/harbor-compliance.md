@@ -181,7 +181,7 @@ plans:
 - name: Harbor Compliance Plans Pricing
   plan_count: 3
   slug: harbor-compliance-plans-pricing
-random_paper: 75
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Harbor Compliance Rate Limits

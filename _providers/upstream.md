@@ -83,7 +83,7 @@ overview: 'Upstream is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Upstream''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: emerging
   composite: 17.0

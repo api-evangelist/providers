@@ -56,7 +56,7 @@ name: Lettuce
 nav: Providers
 network: true
 overview: Lettuce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, Venture Backed, 500 Global, and Portfolio.
-random_paper: 47
+random_paper: 38
 score:
   band: minimal
   composite: 7.5

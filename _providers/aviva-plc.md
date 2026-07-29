@@ -139,7 +139,7 @@ overview: 'Aviva plc publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aviva plc''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, developer portal, engineering blog, and 17 more developer resources.'
-random_paper: 30
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Aviva Plc Rate Limits

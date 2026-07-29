@@ -67,7 +67,7 @@ overview: 'Google NotebookLM is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Google NotebookLM''s developer surface includes documentation, signup flow, engineering blog, and 3 more developer resources.'
-random_paper: 55
+random_paper: 42
 score:
   band: minimal
   composite: 7.2

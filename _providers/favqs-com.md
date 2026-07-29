@@ -56,7 +56,7 @@ name: FavQs.com
 nav: Providers
 network: true
 overview: FavQs.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Personality and Public APIs.
-random_paper: 40
+random_paper: 29
 score:
   band: minimal
   composite: 5.7

@@ -63,7 +63,7 @@ overview: 'Zag Bio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zag Bio''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 49
+random_paper: 41
 score:
   band: minimal
   composite: 10.4

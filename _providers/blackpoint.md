@@ -124,7 +124,7 @@ overview: 'Blackpoint is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Blackpoint''s developer surface includes support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 36
+random_paper: 23
 scopes:
 - name: Blackpoint Scopes
   scope_count: 6

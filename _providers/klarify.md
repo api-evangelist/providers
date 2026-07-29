@@ -104,7 +104,7 @@ overview: 'Klarify is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Klarify''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: emerging
   composite: 24.1

@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: How Onity Group is making use of AI | Ocwen Financial ...
   url: https://www.linkedin.com/posts/ocwen-financial-solutions_how-onity-group-is-making-use-of-ai-activity-7348750741127204864-Hk_x
-random_paper: 17
+random_paper: 78
 score:
   band: minimal
   composite: 3.2

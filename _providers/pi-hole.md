@@ -116,7 +116,7 @@ overview: 'Pi-hole publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Pi-hole''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
-random_paper: 54
+random_paper: 46
 score:
   band: emerging
   composite: 24.9

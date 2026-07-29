@@ -39,7 +39,7 @@ name: Oration *
 nav: Providers
 network: true
 overview: Oration * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Healthcare, Pharmacy, and Prescriptions.
-random_paper: 53
+random_paper: 44
 score:
   band: minimal
   composite: 4.3

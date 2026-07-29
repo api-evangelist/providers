@@ -71,7 +71,7 @@ overview: 'Auditocity is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Auditocity''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 60
+random_paper: 47
 score:
   band: minimal
   composite: 12.3

@@ -190,7 +190,7 @@ plans:
 - name: Vnc Plans Pricing
   plan_count: 4
   slug: vnc-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Vnc Rate Limits

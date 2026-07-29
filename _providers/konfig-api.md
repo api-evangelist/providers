@@ -104,7 +104,7 @@ plans:
 - name: Konfig Api Plans Pricing
   plan_count: 3
   slug: konfig-api-plans-pricing
-random_paper: 49
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Konfig Api Rate Limits

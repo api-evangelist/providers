@@ -76,7 +76,7 @@ overview: 'Lightberry is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Lightberry''s developer surface includes documentation, getting-started guide, support, YouTube channel, and 4 more developer resources.'
-random_paper: 57
+random_paper: 44
 score:
   band: minimal
   composite: 11.1

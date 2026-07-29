@@ -194,7 +194,7 @@ plans:
 - name: Signnow Plans Pricing
   plan_count: 3
   slug: signnow-plans-pricing
-random_paper: 62
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Signnow Rate Limits

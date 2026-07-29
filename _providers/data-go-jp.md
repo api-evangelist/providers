@@ -84,7 +84,7 @@ plans:
 - name: Data Go Jp Plans Pricing
   plan_count: 1
   slug: data-go-jp-plans-pricing
-random_paper: 63
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Data Go Jp Rate Limits

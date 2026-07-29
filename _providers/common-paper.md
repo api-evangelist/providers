@@ -163,7 +163,7 @@ overview: 'Common Paper publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Common Paper''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 45
+random_paper: 30
 score:
   band: developing
   composite: 49.7

@@ -1037,7 +1037,7 @@ plans:
 - name: Root Plans Pricing
   plan_count: 4
   slug: root-plans-pricing
-random_paper: 57
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Root Rate Limits

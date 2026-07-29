@@ -67,7 +67,7 @@ overview: 'Kango is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kango''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 10.5

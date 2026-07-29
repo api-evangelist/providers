@@ -208,7 +208,7 @@ overview: 'Vim publishes 1 API on the [APIs.io](https://apis.io/) network: Data 
 
 
   Vim''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, and 28 more developer resources.'
-random_paper: 16
+random_paper: 12
 scopes:
 - name: Vim Scopes
   scope_count: 4

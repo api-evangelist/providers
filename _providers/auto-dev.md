@@ -124,7 +124,7 @@ plans:
 - name: Auto Dev Plans Pricing
   plan_count: 3
   slug: auto-dev-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Auto Dev Rate Limits

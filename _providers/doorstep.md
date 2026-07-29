@@ -105,7 +105,7 @@ overview: 'Doorstep is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Doorstep''s developer surface includes documentation, getting-started guide, support, authentication, and 11 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: emerging
   composite: 21.8

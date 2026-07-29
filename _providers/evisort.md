@@ -113,7 +113,7 @@ plans:
 - name: Evisort Plans Pricing
   plan_count: 1
   slug: evisort-plans-pricing
-random_paper: 69
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Evisort Rate Limits

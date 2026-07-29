@@ -48,7 +48,7 @@ name: Fact Base Inc.
 nav: Providers
 network: true
 overview: Fact Base Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Japan, Digitization, and Smart Factory.
-random_paper: 44
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

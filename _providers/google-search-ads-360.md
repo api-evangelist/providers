@@ -148,7 +148,7 @@ plans:
 - name: Google Search Ads 360 Plans Pricing
   plan_count: 3
   slug: google-search-ads-360-plans-pricing
-random_paper: 50
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Google Search Ads 360 Rate Limits

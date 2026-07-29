@@ -51,7 +51,7 @@ overview: 'Oyo Rooms is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Oyo Rooms'' developer surface includes signup flow and 1 more developer resources.'
-random_paper: 0
+random_paper: 68
 score:
   band: minimal
   composite: 7.6

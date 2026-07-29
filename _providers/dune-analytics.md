@@ -136,7 +136,7 @@ plans:
 - name: Dune Analytics Plans Pricing
   plan_count: 4
   slug: dune-analytics-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Dune Analytics Rate Limits

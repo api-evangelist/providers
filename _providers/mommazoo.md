@@ -51,7 +51,7 @@ overview: 'MommaZoo is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MommaZoo''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 10
+random_paper: 79
 score:
   band: minimal
   composite: 4.6

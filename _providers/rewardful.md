@@ -124,7 +124,7 @@ plans:
 - name: Rewardful Plans Pricing
   plan_count: 3
   slug: rewardful-plans-pricing
-random_paper: 24
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Rewardful Rate Limits

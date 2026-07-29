@@ -106,7 +106,7 @@ plans:
 - name: Autoleap Plans Pricing
   plan_count: 5
   slug: autoleap-plans-pricing
-random_paper: 69
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Autoleap Rate Limits

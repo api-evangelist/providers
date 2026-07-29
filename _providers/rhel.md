@@ -226,7 +226,7 @@ plans:
 - name: Rhel Plans Pricing
   plan_count: 7
   slug: rhel-plans-pricing
-random_paper: 32
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Rhel Rate Limits

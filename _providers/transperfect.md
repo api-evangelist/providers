@@ -146,7 +146,7 @@ overview: 'TransPerfect publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   TransPerfect''s developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 33
+random_paper: 17
 rules:
 - name: TransPerfect API Rules
   rule_count: 5

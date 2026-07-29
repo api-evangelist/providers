@@ -161,7 +161,7 @@ plans:
 - name: Increase Com Plans Pricing
   plan_count: 2
   slug: increase-com-plans-pricing
-random_paper: 21
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Increase Com Rate Limits

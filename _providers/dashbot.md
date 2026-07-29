@@ -116,7 +116,7 @@ overview: 'Dashbot publishes 1 API on the [APIs.io](https://apis.io/) network: E
 
 
   Dashbot''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: thin
   composite: 36.5

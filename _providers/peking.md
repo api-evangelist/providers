@@ -107,7 +107,7 @@ plans:
 - name: Peking Plans Pricing
   plan_count: 2
   slug: peking-plans-pricing
-random_paper: 6
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Peking Rate Limits

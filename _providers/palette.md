@@ -99,7 +99,7 @@ overview: 'Palette is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Palette''s developer surface includes documentation, pricing, engineering blog, support, and 10 more developer resources.'
-random_paper: 40
+random_paper: 31
 score:
   band: emerging
   composite: 22.1

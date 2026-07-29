@@ -132,7 +132,7 @@ plans:
 - name: Chemius Plans Pricing
   plan_count: 3
   slug: chemius-plans-pricing
-random_paper: 39
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Chemius Rate Limits

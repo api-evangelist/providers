@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Mutual of Omaha eyes 2026 completion for reorganization ...
   url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2025/10/mutual-of-omaha-eyes-2026-completion-for-reorganization-plan
-random_paper: 49
+random_paper: 18
 score:
   band: minimal
   composite: 3.3

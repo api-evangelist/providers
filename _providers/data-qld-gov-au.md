@@ -88,7 +88,7 @@ plans:
 - name: Data Qld Gov Au Plans Pricing
   plan_count: 1
   slug: data-qld-gov-au-plans-pricing
-random_paper: 69
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Data Qld Gov Au Rate Limits

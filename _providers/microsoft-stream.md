@@ -92,7 +92,7 @@ plans:
 - name: Microsoft Stream Plans Pricing
   plan_count: 3
   slug: microsoft-stream-plans-pricing
-random_paper: 20
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Microsoft Stream Rate Limits

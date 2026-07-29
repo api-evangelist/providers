@@ -79,7 +79,7 @@ overview: 'Slidebean is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Slidebean''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 66
+random_paper: 55
 score:
   band: emerging
   composite: 15.9

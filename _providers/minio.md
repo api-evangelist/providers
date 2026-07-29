@@ -186,7 +186,7 @@ overview: 'MinIO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   MinIO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 24 more developer resources.'
-random_paper: 66
+random_paper: 60
 score:
   band: strong
   composite: 56.4

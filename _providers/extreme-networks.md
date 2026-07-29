@@ -309,7 +309,7 @@ overview: 'Extreme Networks publishes 45 APIs on the [APIs.io](https://apis.io/)
 
 
   Extreme Networks'' developer surface includes authentication, API reference, GitHub presence, documentation, support, engineering blog, status page, and 17 more developer resources.'
-random_paper: 41
+random_paper: 20
 score:
   band: thin
   composite: 33.7

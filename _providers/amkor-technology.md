@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Amkor Technology to Present at the Morgan Stanley ...
   url: https://ir.amkor.com/news-releases/news-release-details/amkor-technology-present-morgan-stanley-technology-media-0
-random_paper: 8
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Amkor Technology Rate Limits

@@ -143,7 +143,7 @@ press:
 - date: '2026-05-25'
   title: Goodyear
   url: https://www.ces.tech/success-stories/goodyear/
-random_paper: 8
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Goodyear Tire And Rubber Rate Limits

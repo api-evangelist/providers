@@ -67,7 +67,7 @@ overview: 'Numerion Labs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Numerion Labs'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 76
+random_paper: 60
 score:
   band: minimal
   composite: 7.9

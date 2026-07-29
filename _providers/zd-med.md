@@ -48,7 +48,7 @@ name: zd-med
 nav: Providers
 network: true
 overview: zd-med is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 24
+random_paper: 17
 score:
   band: minimal
   composite: 3.2

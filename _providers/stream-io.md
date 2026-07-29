@@ -159,7 +159,7 @@ plans:
 - name: Stream Io Plans Pricing
   plan_count: 8
   slug: stream-io-plans-pricing
-random_paper: 44
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Stream Io Rate Limits

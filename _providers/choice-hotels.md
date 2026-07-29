@@ -113,7 +113,7 @@ overview: 'Choice Hotels is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Choice Hotels'' developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 55
+random_paper: 39
 score:
   band: emerging
   composite: 16.4

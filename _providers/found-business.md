@@ -108,7 +108,7 @@ plans:
 - name: Found Business Plans Pricing
   plan_count: 3
   slug: found-business-plans-pricing
-random_paper: 39
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Found Business Rate Limits

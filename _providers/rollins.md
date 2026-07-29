@@ -68,7 +68,7 @@ plans:
 - name: Rollins Plans Pricing
   plan_count: 1
   slug: rollins-plans-pricing
-random_paper: 60
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Rollins Rate Limits

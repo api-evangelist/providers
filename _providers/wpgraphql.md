@@ -99,7 +99,7 @@ overview: 'WPGraphQL publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   WPGraphQL''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 34
+random_paper: 22
 score:
   band: emerging
   composite: 23.8

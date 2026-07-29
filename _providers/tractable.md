@@ -120,7 +120,7 @@ overview: 'Tractable is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tractable''s developer surface includes product news, YouTube channel, engineering blog, and 16 more developer resources.'
-random_paper: 77
+random_paper: 66
 score:
   band: minimal
   composite: 6.0

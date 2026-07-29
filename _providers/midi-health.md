@@ -63,7 +63,7 @@ overview: 'Midi Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Midi Health''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 67
+random_paper: 54
 score:
   band: minimal
   composite: 10.8

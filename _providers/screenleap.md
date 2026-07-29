@@ -144,7 +144,7 @@ overview: 'Screenleap publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Screenleap''s developer surface includes documentation, API reference, getting-started guide, FAQ, engineering blog, support, pricing, and 16 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: developing
   composite: 44.7

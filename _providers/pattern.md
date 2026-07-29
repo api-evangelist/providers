@@ -39,7 +39,7 @@ name: Pattern
 nav: Providers
 network: true
 overview: Pattern is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Collaboration, Workday, and Uncork Capital.
-random_paper: 55
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

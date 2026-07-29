@@ -95,7 +95,7 @@ overview: 'Fueloyal is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fueloyal''s developer surface includes engineering blog, support, pricing, signup flow, YouTube channel, and 8 more developer resources.'
-random_paper: 75
+random_paper: 65
 score:
   band: emerging
   composite: 15.2

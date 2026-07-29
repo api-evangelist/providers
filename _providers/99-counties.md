@@ -120,7 +120,7 @@ overview: '99 Counties publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   99 Counties'' developer surface includes documentation, authentication, engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 6
+random_paper: 73
 scopes:
 - name: 99 Counties Scopes
   scope_count: 4

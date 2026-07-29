@@ -75,7 +75,7 @@ overview: 'Sciket is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sciket''s developer surface includes support, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: emerging
   composite: 13.1

@@ -87,7 +87,7 @@ overview: 'Carbide is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Carbide''s developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 3
+random_paper: 74
 score:
   band: emerging
   composite: 19.0

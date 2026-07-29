@@ -59,7 +59,7 @@ overview: 'Eagle is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Eagle''s developer surface includes support and 3 more developer resources.'
-random_paper: 36
+random_paper: 30
 score:
   band: minimal
   composite: 8.5

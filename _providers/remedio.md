@@ -67,7 +67,7 @@ overview: 'Remedio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Remedio''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: minimal
   composite: 11.0

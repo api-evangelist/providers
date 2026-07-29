@@ -48,7 +48,7 @@ name: DMall
 nav: Providers
 network: true
 overview: DMall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-Commerce, and SaaS.
-random_paper: 48
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

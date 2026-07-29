@@ -83,7 +83,7 @@ overview: 'FTP is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   FTP''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 14
+random_paper: 10
 score:
   band: minimal
   composite: 6.7

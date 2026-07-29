@@ -83,7 +83,7 @@ overview: 'AptDeco is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   AptDeco''s developer surface includes support and 9 more developer resources.'
-random_paper: 25
+random_paper: 16
 score:
   band: minimal
   composite: 11.5

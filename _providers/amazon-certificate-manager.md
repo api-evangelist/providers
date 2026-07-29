@@ -242,7 +242,7 @@ overview: 'Amazon Certificate Manager publishes 1 API on the [APIs.io](https://a
 
 
   Amazon Certificate Manager''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 15
+random_paper: 62
 rules:
 - name: Amazon Certificate Manager API Rules
   rule_count: 5

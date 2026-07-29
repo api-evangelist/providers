@@ -63,7 +63,7 @@ overview: 'Joblocal is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Joblocal''s developer surface includes support and 4 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: minimal
   composite: 11.2

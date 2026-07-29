@@ -56,7 +56,7 @@ name: Vivere
 nav: Providers
 network: true
 overview: Vivere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, MGA, and Managing General Agent.
-random_paper: 25
+random_paper: 17
 score:
   band: minimal
   composite: 11.0

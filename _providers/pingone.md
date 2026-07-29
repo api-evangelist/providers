@@ -129,7 +129,7 @@ overview: 'PingOne publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PingOne''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 41
+random_paper: 32
 score:
   band: thin
   composite: 30.6

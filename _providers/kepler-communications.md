@@ -67,7 +67,7 @@ overview: 'Kepler Communications is profiled on the [APIs.io](https://apis.io/) 
 
 
   Kepler Communications'' developer surface includes developer portal, support, and 4 more developer resources.'
-random_paper: 68
+random_paper: 41
 score:
   band: minimal
   composite: 10.4

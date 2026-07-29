@@ -67,7 +67,7 @@ overview: 'Idecsi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Idecsi''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 72
+random_paper: 65
 score:
   band: minimal
   composite: 11.0

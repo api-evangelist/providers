@@ -79,7 +79,7 @@ overview: 'Mentimeter is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mentimeter''s developer surface includes pricing and 8 more developer resources.'
-random_paper: 55
+random_paper: 42
 score:
   band: minimal
   composite: 11.8

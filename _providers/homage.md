@@ -83,7 +83,7 @@ overview: 'Homage is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Homage''s developer surface includes pricing, support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 72
+random_paper: 65
 score:
   band: emerging
   composite: 15.6

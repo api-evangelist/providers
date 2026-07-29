@@ -79,7 +79,7 @@ overview: 'Xsight Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Xsight Labs'' developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
-random_paper: 20
+random_paper: 6
 score:
   band: emerging
   composite: 14.8

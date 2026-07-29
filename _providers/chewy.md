@@ -131,7 +131,7 @@ plans:
 - name: Chewy Plans Pricing
   plan_count: 1
   slug: chewy-plans-pricing
-random_paper: 70
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Chewy Rate Limits

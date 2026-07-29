@@ -103,7 +103,7 @@ overview: 'Accrual is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Accrual''s developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 20
+random_paper: 11
 score:
   band: emerging
   composite: 18.4

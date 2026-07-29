@@ -79,7 +79,7 @@ overview: 'Prax Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Prax Health''s developer surface includes signup flow, getting-started guide, support, and 6 more developer resources.'
-random_paper: 12
+random_paper: 78
 score:
   band: emerging
   composite: 15.3

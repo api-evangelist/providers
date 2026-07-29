@@ -659,7 +659,7 @@ plans:
 - name: Ipinfo Plans Pricing
   plan_count: 6
   slug: ipinfo-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 9
   name: Ipinfo Rate Limits

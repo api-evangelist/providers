@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Equifax Releases 2025 Security Annual Report
   url: https://www.prnewswire.com/news-releases/equifax-releases-2025-security-annual-report-302716637.html
-random_paper: 44
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Equifax Rate Limits

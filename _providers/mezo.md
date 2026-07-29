@@ -154,7 +154,7 @@ overview: 'Mezo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mezo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 19 more developer resources.'
-random_paper: 48
+random_paper: 43
 score:
   band: thin
   composite: 32.9

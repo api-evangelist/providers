@@ -87,7 +87,7 @@ overview: 'MyBuilder is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   MyBuilder''s developer surface includes support, pricing, and 9 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: emerging
   composite: 15.3

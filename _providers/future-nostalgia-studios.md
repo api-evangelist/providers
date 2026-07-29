@@ -39,7 +39,7 @@ name: Future Nostalgia Studios
 nav: Providers
 network: true
 overview: Future Nostalgia Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Mobile, Artificial Intelligence, and Companion Apps.
-random_paper: 49
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

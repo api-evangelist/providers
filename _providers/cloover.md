@@ -99,7 +99,7 @@ overview: 'Cloover is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cloover''s developer surface includes engineering blog, signup flow, support, and 10 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: emerging
   composite: 17.1

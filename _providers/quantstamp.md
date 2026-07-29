@@ -63,7 +63,7 @@ overview: 'Quantstamp is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Quantstamp''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 75
+random_paper: 62
 score:
   band: minimal
   composite: 7.9

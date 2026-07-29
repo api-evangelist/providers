@@ -1009,7 +1009,7 @@ plans:
 - name: Microsoft Purview Plans Pricing
   plan_count: 4
   slug: microsoft-purview-plans-pricing
-random_paper: 75
+random_paper: 53
 rate_limits:
 - limit_count: 4
   name: Microsoft Purview Rate Limits

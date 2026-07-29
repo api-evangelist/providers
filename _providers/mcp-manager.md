@@ -163,7 +163,7 @@ overview: 'MCP Manager publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   MCP Manager''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 69
+random_paper: 56
 score:
   band: developing
   composite: 50.4

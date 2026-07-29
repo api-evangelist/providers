@@ -53,7 +53,7 @@ name: Kitchit
 nav: Providers
 network: true
 overview: Kitchit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Marketplace, On-Demand, and Private Chef.
-random_paper: 41
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

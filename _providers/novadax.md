@@ -56,7 +56,7 @@ name: NovaDax
 nav: Providers
 network: true
 overview: NovaDax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 42
+random_paper: 33
 score:
   band: minimal
   composite: 5.7

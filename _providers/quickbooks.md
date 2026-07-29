@@ -104,7 +104,7 @@ overview: 'QuickBooks publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   QuickBooks'' developer surface includes documentation, API reference, signup flow, pricing, and 6 more developer resources.'
-random_paper: 56
+random_paper: 43
 rules:
 - name: QuickBooks API Rules
   rule_count: 3

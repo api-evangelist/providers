@@ -44,7 +44,7 @@ name: Justinian
 nav: Providers
 network: true
 overview: Justinian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GovTech, Government Affairs, Artificial Intelligence, and Regulatory Compliance.
-random_paper: 33
+random_paper: 21
 score:
   band: minimal
   composite: 4.3

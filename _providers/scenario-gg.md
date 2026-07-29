@@ -176,7 +176,7 @@ overview: 'Scenario publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Scenario''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, tooling, code examples, and 18 more developer resources.'
-random_paper: 76
+random_paper: 63
 score:
   band: emerging
   composite: 20.5

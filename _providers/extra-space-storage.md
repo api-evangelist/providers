@@ -87,7 +87,7 @@ overview: 'Extra Space Storage is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Extra Space Storage''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 23
+random_paper: 79
 score:
   band: minimal
   composite: 9.0

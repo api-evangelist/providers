@@ -62,7 +62,7 @@ overview: 'Bank OZK is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Bank OZK''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 7
+random_paper: 77
 score:
   band: minimal
   composite: 11.6

@@ -258,7 +258,7 @@ plans:
 - name: Acadia Plans Pricing
   plan_count: 1
   slug: acadia-plans-pricing
-random_paper: 42
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Acadia Rate Limits

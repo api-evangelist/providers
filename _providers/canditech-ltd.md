@@ -95,7 +95,7 @@ overview: 'Canditech Ltd. is profiled on the [APIs.io](https://apis.io/) network
 
 
   Canditech Ltd.''s developer surface includes documentation, support, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: emerging
   composite: 22.4

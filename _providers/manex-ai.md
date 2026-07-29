@@ -88,7 +88,7 @@ overview: 'Manex AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Manex AI''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 73
+random_paper: 64
 score:
   band: emerging
   composite: 13.8

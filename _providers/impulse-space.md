@@ -71,7 +71,7 @@ overview: 'Impulse Space is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Impulse Space''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 72
+random_paper: 56
 score:
   band: minimal
   composite: 8.4

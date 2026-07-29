@@ -119,7 +119,7 @@ overview: 'Containous (Traefik Labs) is profiled on the [APIs.io](https://apis.i
 
 
   Containous (Traefik Labs)''s developer surface includes documentation, getting-started guide, API reference, engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: emerging
   composite: 20.6

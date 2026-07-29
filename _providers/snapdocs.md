@@ -79,7 +79,7 @@ overview: 'Snapdocs is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Snapdocs'' developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: emerging
   composite: 16.3

@@ -44,7 +44,7 @@ name: Clinkle
 nav: Providers
 network: true
 overview: Clinkle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile Payments, FinTech, and Peer To Peer Payments.
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 4.3

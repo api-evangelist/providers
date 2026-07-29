@@ -55,7 +55,7 @@ overview: 'SK Ventures is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SK Ventures'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 53
+random_paper: 39
 score:
   band: minimal
   composite: 5.4

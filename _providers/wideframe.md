@@ -67,7 +67,7 @@ overview: 'Wideframe is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wideframe''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 0
+random_paper: 68
 score:
   band: minimal
   composite: 12.3

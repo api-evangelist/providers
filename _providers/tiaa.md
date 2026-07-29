@@ -193,7 +193,7 @@ plans:
 - name: Tiaa Plans Pricing
   plan_count: 1
   slug: tiaa-plans-pricing
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Tiaa Rate Limits

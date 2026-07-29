@@ -87,7 +87,7 @@ overview: 'Rattle is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rattle''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: emerging
   composite: 18.4

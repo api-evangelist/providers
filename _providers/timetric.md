@@ -64,7 +64,7 @@ name: Timetric
 nav: Providers
 network: true
 overview: Timetric is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Time Series, Analytics, and Market Research.
-random_paper: 75
+random_paper: 65
 score:
   band: minimal
   composite: 7.5

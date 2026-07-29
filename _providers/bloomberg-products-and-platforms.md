@@ -105,7 +105,7 @@ plans:
 - name: Bloomberg Products And Platforms Plans Pricing
   plan_count: 3
   slug: bloomberg-products-and-platforms-plans-pricing
-random_paper: 24
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Bloomberg Products And Platforms Rate Limits

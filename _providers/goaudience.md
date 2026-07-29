@@ -67,7 +67,7 @@ overview: 'GoAudience is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   GoAudience''s developer surface includes pricing, signup flow, support, and 3 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 12.7

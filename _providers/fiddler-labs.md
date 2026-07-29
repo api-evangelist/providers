@@ -175,7 +175,7 @@ overview: 'Fiddler Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Fiddler Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 8
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Fiddler Labs Rate Limits

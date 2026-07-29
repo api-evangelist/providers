@@ -48,7 +48,7 @@ name: Illumina
 nav: Providers
 network: true
 overview: Illumina is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 3.3

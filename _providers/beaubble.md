@@ -56,7 +56,7 @@ name: Beaubble
 nav: Providers
 network: true
 overview: Beaubble is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Cosmetics, Ecommerce, and Creator Economy.
-random_paper: 28
+random_paper: 18
 score:
   band: minimal
   composite: 9.2

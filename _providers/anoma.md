@@ -108,7 +108,7 @@ overview: 'Anoma is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Anoma''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 50
+random_paper: 44
 score:
   band: emerging
   composite: 18.8

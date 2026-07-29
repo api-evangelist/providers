@@ -71,7 +71,7 @@ overview: 'Henkel is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Henkel''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: minimal
   composite: 5.2

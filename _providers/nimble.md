@@ -100,7 +100,7 @@ overview: 'Nimble publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nimble''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
-random_paper: 78
+random_paper: 71
 scopes:
 - name: Nimble Scopes
   scope_count: 3

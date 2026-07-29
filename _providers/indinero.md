@@ -79,7 +79,7 @@ overview: 'Indinero is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Indinero''s developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: emerging
   composite: 15.9

@@ -187,7 +187,7 @@ overview: 'Rigetti Computing publishes 9 APIs on the [APIs.io](https://apis.io/)
 
 
   Rigetti Computing''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 49
+random_paper: 27
 score:
   band: developing
   composite: 46.3

@@ -111,7 +111,7 @@ overview: 'Trope is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Trope''s developer surface includes CLI, changelog, support, engineering blog, and 12 more developer resources.'
-random_paper: 1
+random_paper: 74
 score:
   band: emerging
   composite: 22.4

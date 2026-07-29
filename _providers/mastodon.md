@@ -103,7 +103,7 @@ plans:
 - name: Mastodon Plans Pricing
   plan_count: 3
   slug: mastodon-plans-pricing
-random_paper: 0
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Mastodon Rate Limits

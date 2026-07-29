@@ -141,7 +141,7 @@ overview: 'Sei publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Sei''s developer surface includes documentation, GitHub presence, engineering blog, and 10 more developer resources.'
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Sei Cosmos Rest Api Rate Limits

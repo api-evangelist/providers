@@ -211,7 +211,7 @@ overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Forithmus'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, CLI, and 13 more developer resources.'
-random_paper: 45
+random_paper: 33
 score:
   band: thin
   composite: 36.3

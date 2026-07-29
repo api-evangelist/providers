@@ -204,7 +204,7 @@ overview: 'Yardi Canada publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Yardi Canada''s developer surface includes documentation, authentication, changelog, support, legal docs, engineering blog, product news, and 29 more developer resources.'
-random_paper: 76
+random_paper: 62
 scopes:
 - name: Yardi Canada Scopes
   scope_count: 4

@@ -129,7 +129,7 @@ plans:
 - name: Google Photos Plans Pricing
   plan_count: 3
   slug: google-photos-plans-pricing
-random_paper: 8
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Google Photos Rate Limits

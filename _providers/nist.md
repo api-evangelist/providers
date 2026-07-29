@@ -96,7 +96,7 @@ plans:
 - name: Nist Plans Pricing
   plan_count: 2
   slug: nist-plans-pricing
-random_paper: 51
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Nist Rate Limits

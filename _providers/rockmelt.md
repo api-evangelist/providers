@@ -39,7 +39,7 @@ name: Rockmelt
 nav: Providers
 network: true
 overview: Rockmelt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Browser, Social, Defunct, and Acquired.
-random_paper: 75
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

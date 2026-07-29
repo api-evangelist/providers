@@ -186,7 +186,7 @@ overview: 'Signadot publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Signadot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 67
+random_paper: 57
 score:
   band: developing
   composite: 50.2

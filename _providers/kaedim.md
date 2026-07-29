@@ -176,7 +176,7 @@ overview: 'Kaedim publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Kaedim''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 20 more developer resources.'
-random_paper: 66
+random_paper: 59
 score:
   band: developing
   composite: 54.2

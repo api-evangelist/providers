@@ -443,7 +443,7 @@ plans:
 - name: Ibm Quantum Plans Pricing
   plan_count: 5
   slug: ibm-quantum-plans-pricing
-random_paper: 30
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Ibm Quantum Rate Limits

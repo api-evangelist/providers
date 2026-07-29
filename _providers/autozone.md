@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: 'AutoZone''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/autozone-ai-strategy-analysis-of-dominance-in-automotive-parts-ai/
-random_paper: 16
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Autozone Rate Limits

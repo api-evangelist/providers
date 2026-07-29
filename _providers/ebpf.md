@@ -83,7 +83,7 @@ overview: 'eBPF is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   eBPF''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 18
+random_paper: 13
 score:
   band: minimal
   composite: 8.7

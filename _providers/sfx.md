@@ -52,7 +52,7 @@ name: SFX
 nav: Providers
 network: true
 overview: SFX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Events, Music, Entertainment, and Electronic Dance Music.
-random_paper: 21
+random_paper: 17
 score:
   band: minimal
   composite: 7.1

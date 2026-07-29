@@ -239,7 +239,7 @@ overview: 'Sourcepoint publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Sourcepoint''s developer surface includes developer portal, documentation, pricing, signup flow, engineering blog, product news, tooling, and 33 more developer resources.'
-random_paper: 26
+random_paper: 11
 score:
   band: emerging
   composite: 16.2

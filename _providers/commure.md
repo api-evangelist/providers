@@ -110,7 +110,7 @@ overview: 'Commure is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Commure''s developer surface includes engineering blog, product news, support, and 13 more developer resources.'
-random_paper: 49
+random_paper: 40
 score:
   band: emerging
   composite: 18.1

@@ -150,7 +150,7 @@ overview: 'Singtel publishes 7 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Singtel''s developer surface includes engineering blog, support, documentation, and 20 more developer resources.'
-random_paper: 47
+random_paper: 38
 score:
   band: emerging
   composite: 22.2

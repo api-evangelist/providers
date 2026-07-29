@@ -83,7 +83,7 @@ overview: 'Zervant is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zervant''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 5 more developer resources.'
-random_paper: 67
+random_paper: 58
 score:
   band: emerging
   composite: 17.0

@@ -48,7 +48,7 @@ name: Wetpaint
 nav: Providers
 network: true
 overview: Wetpaint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Celebrity, and Television.
-random_paper: 7
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

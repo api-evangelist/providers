@@ -91,7 +91,7 @@ overview: 'xTool is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   xTool''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 13
+random_paper: 6
 score:
   band: emerging
   composite: 15.0

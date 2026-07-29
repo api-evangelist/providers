@@ -89,7 +89,7 @@ plans:
 - name: X Plans Pricing
   plan_count: 3
   slug: x-plans-pricing
-random_paper: 41
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: X Rate Limits

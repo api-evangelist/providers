@@ -67,7 +67,7 @@ overview: 'Market Vibe is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Market Vibe''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 5
+random_paper: 71
 score:
   band: minimal
   composite: 6.3

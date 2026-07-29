@@ -104,7 +104,7 @@ overview: 'Asterlab publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Asterlab''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, authentication, and 7 more developer resources.'
-random_paper: 56
+random_paper: 46
 score:
   band: emerging
   composite: 26.8

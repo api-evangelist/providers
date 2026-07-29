@@ -245,7 +245,7 @@ plans:
 - name: Cityu Plans Pricing
   plan_count: 2
   slug: cityu-plans-pricing
-random_paper: 5
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Cityu Rate Limits

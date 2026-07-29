@@ -39,7 +39,7 @@ name: Cyneta Networks
 nav: Providers
 network: true
 overview: Cyneta Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Wireless, Telecommunications, and Network Infrastructure.
-random_paper: 2
+random_paper: 62
 score:
   band: minimal
   composite: 4.3

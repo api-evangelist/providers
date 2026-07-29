@@ -67,7 +67,7 @@ overview: 'Setpoint.io is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Setpoint.io''s developer surface includes engineering blog, changelog, support, and 3 more developer resources.'
-random_paper: 75
+random_paper: 62
 score:
   band: minimal
   composite: 10.5

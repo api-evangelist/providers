@@ -75,7 +75,7 @@ overview: 'Golden Child is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Golden Child''s developer surface includes support and 7 more developer resources.'
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 10.1

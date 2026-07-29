@@ -129,7 +129,7 @@ plans:
 - name: Vivalink Plans Pricing
   plan_count: 3
   slug: vivalink-plans-pricing
-random_paper: 78
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Vivalink Rate Limits

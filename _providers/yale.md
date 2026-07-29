@@ -167,7 +167,7 @@ plans:
 - name: Yale Plans Pricing
   plan_count: 2
   slug: yale-plans-pricing
-random_paper: 32
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Yale Rate Limits

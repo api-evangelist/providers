@@ -199,7 +199,7 @@ overview: 'AlixPartners is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   AlixPartners'' developer surface includes signup flow and 24 more developer resources.'
-random_paper: 45
+random_paper: 29
 score:
   band: minimal
   composite: 7.3

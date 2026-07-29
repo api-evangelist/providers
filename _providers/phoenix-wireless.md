@@ -39,7 +39,7 @@ name: Phoenix Wireless
 nav: Providers
 network: true
 overview: Phoenix Wireless is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wireless, Telecommunications, Hardware, and Accessories.
-random_paper: 27
+random_paper: 6
 score:
   band: minimal
   composite: 4.3

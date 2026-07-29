@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: B+E Brokers $324 million Cabela's Sale-leaseback ...
   url: https://www.24-7pressrelease.com/press-release/463191/be-brokers-324-million-cabelas-sale-leaseback-through-proprietary-digital-platform
-random_paper: 4
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Cabelas Rate Limits

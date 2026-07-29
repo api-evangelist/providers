@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Reynolds American CEO David Waterfield on Growing ...
   url: https://www.linkedin.com/posts/reynoldsamericaninc_yesterday-reynolds-american-inc-president-activity-7430296497134399488-6ZU7
-random_paper: 19
+random_paper: 77
 rules:
 - name: Reynolds American API Rules
   rule_count: 4

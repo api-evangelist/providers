@@ -76,7 +76,7 @@ overview: 'Cometa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cometa''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 1
+random_paper: 73
 score:
   band: emerging
   composite: 15.1

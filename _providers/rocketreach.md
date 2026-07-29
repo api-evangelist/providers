@@ -210,7 +210,7 @@ overview: 'RocketReach publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   RocketReach''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, pricing, signup flow, and 23 more developer resources.'
-random_paper: 57
+random_paper: 43
 score:
   band: developing
   composite: 42.1

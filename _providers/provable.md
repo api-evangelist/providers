@@ -139,7 +139,7 @@ overview: 'Provable publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Provable''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, and 14 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: developing
   composite: 44.3

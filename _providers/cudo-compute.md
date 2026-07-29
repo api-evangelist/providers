@@ -133,7 +133,7 @@ plans:
 - name: Cudo Compute Plans Pricing
   plan_count: 3
   slug: cudo-compute-plans-pricing
-random_paper: 52
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Cudo Compute Rate Limits

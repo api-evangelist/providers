@@ -111,7 +111,7 @@ overview: 'Helloworld Travel is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Helloworld Travel''s developer surface includes engineering blog and 18 more developer resources.'
-random_paper: 45
+random_paper: 23
 score:
   band: emerging
   composite: 13.0

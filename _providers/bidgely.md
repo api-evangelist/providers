@@ -164,7 +164,7 @@ overview: 'Bidgely is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bidgely''s developer surface includes product news, GitHub presence, YouTube channel, and 27 more developer resources.'
-random_paper: 25
+random_paper: 16
 score:
   band: minimal
   composite: 6.1

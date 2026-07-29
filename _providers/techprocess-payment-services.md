@@ -75,7 +75,7 @@ overview: 'TechProcess Payment Services publishes 1 API on the [APIs.io](https:/
 
 
   TechProcess Payment Services'' developer surface includes documentation and 6 more developer resources.'
-random_paper: 67
+random_paper: 31
 score:
   band: minimal
   composite: 12.8

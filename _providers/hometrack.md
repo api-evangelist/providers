@@ -238,7 +238,7 @@ overview: 'Hometrack publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hometrack''s developer surface includes API reference, changelog, developer console, sandbox, authentication, documentation, signup flow, and 33 more developer resources.'
-random_paper: 10
+random_paper: 78
 scopes:
 - name: Hometrack Scopes
   scope_count: 2

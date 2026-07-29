@@ -56,7 +56,7 @@ name: Alliance DAO
 nav: Providers
 network: true
 overview: Alliance DAO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Accelerator, Fintech, and Venture Capital.
-random_paper: 72
+random_paper: 58
 score:
   band: minimal
   composite: 9.2

@@ -33,7 +33,7 @@ name: Tinstop Website Intelligence API
 nav: Providers
 network: true
 overview: 'Tinstop Website Intelligence API publishes 1 API on the [APIs.io](https://apis.io/) network: Website Intelligence API. Tagged areas include Website Intelligence, Domain Security, DNS, SSL/TLS, and Email Authentication.'
-random_paper: 17
+random_paper: 56
 score:
   band: emerging
   composite: 14.0

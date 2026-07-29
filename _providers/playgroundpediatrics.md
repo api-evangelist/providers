@@ -48,7 +48,7 @@ name: Playgroundpediatrics
 nav: Providers
 network: true
 overview: Playgroundpediatrics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pediatrics, Practice Management, and Medical Services.
-random_paper: 24
+random_paper: 77
 score:
   band: minimal
   composite: 5.4

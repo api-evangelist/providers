@@ -103,7 +103,7 @@ overview: 'Binti is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Binti''s developer surface includes engineering blog, product news, support, changelog, signup flow, and 10 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: emerging
   composite: 21.5

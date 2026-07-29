@@ -126,7 +126,7 @@ plans:
 - name: Abn Amro Plans Pricing
   plan_count: 3
   slug: abn-amro-plans-pricing
-random_paper: 70
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Abn Amro Rate Limits

@@ -126,7 +126,7 @@ plans:
 - name: Microsoft Bookings Plans Pricing
   plan_count: 3
   slug: microsoft-bookings-plans-pricing
-random_paper: 70
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Microsoft Bookings Rate Limits

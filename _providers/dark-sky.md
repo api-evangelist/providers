@@ -142,7 +142,7 @@ plans:
 - name: Dark Sky Plans Pricing
   plan_count: 2
   slug: dark-sky-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Dark Sky Rate Limits

@@ -39,7 +39,7 @@ name: Terra Bella (fka Skybox Imaging)
 nav: Providers
 network: true
 overview: Terra Bella (fka Skybox Imaging) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Satellite Imaging, Earth Observation, and Geospatial.
-random_paper: 21
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

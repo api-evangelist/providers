@@ -67,7 +67,7 @@ overview: 'Pops is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pops'' developer surface includes support and 5 more developer resources.'
-random_paper: 55
+random_paper: 50
 score:
   band: minimal
   composite: 10.1

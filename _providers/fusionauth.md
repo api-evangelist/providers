@@ -248,7 +248,7 @@ plans:
 - name: Fusionauth Plans Pricing
   plan_count: 3
   slug: fusionauth-plans-pricing
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Fusionauth Rate Limits

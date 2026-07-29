@@ -102,7 +102,7 @@ plans:
 - name: Peopleforce Plans Pricing
   plan_count: 3
   slug: peopleforce-plans-pricing
-random_paper: 66
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Peopleforce Rate Limits

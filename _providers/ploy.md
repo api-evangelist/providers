@@ -91,7 +91,7 @@ overview: 'Ploy is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ploy''s developer surface includes engineering blog, pricing, signup flow, documentation, support, and 7 more developer resources.'
-random_paper: 57
+random_paper: 52
 score:
   band: emerging
   composite: 15.3

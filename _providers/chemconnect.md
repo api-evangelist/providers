@@ -39,7 +39,7 @@ name: ChemConnect
 nav: Providers
 network: true
 overview: ChemConnect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chemicals, Commodity Trading, Marketplace, and E-Commerce.
-random_paper: 53
+random_paper: 39
 score:
   band: minimal
   composite: 4.3

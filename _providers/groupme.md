@@ -143,7 +143,7 @@ overview: 'GroupMe publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   GroupMe''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 16 more developer resources.'
-random_paper: 56
+random_paper: 47
 score:
   band: thin
   composite: 38.7

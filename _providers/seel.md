@@ -131,7 +131,7 @@ overview: 'Seel publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Seel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 30
+random_paper: 25
 score:
   band: thin
   composite: 37.3

@@ -130,7 +130,7 @@ plans:
 - name: Cardtonic Plans Pricing
   plan_count: 1
   slug: cardtonic-plans-pricing
-random_paper: 3
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Cardtonic Rate Limits

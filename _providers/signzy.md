@@ -238,7 +238,7 @@ plans:
 - name: Signzy Plans Pricing
   plan_count: 2
   slug: signzy-plans-pricing
-random_paper: 44
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Signzy Rate Limits

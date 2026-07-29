@@ -104,7 +104,7 @@ overview: 'Mio is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Mio''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 9
+random_paper: 5
 score:
   band: emerging
   composite: 24.3

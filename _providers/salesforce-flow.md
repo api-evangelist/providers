@@ -203,7 +203,7 @@ plans:
 - name: Salesforce Flow Plans Pricing
   plan_count: 1
   slug: salesforce-flow-plans-pricing
-random_paper: 47
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Salesforce Flow Rate Limits

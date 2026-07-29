@@ -141,7 +141,7 @@ plans:
 - name: Temporal Io Plans Pricing
   plan_count: 5
   slug: temporal-io-plans-pricing
-random_paper: 23
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Temporal Io Rate Limits

@@ -39,7 +39,7 @@ name: Accelerator Sciences
 nav: Providers
 network: true
 overview: Accelerator Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Battery Ventures, Portfolio, Life Science Tools, and Industrial Tech.
-random_paper: 72
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

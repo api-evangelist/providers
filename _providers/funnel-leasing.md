@@ -126,7 +126,7 @@ overview: 'Funnel Leasing publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Funnel Leasing''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, support, and 11 more developer resources.'
-random_paper: 10
+random_paper: 72
 score:
   band: thin
   composite: 39.8

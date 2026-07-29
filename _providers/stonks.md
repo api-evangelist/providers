@@ -55,7 +55,7 @@ overview: 'Stonks is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Stonks'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 42
+random_paper: 34
 score:
   band: minimal
   composite: 5.4

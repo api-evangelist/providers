@@ -56,7 +56,7 @@ name: CodeCogs
 nav: Providers
 network: true
 overview: CodeCogs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 49
+random_paper: 39
 score:
   band: minimal
   composite: 5.7

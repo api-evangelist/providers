@@ -79,7 +79,7 @@ overview: 'Gatsby publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Gatsby''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
   composite: 10.1

@@ -252,7 +252,7 @@ overview: 'MVMNT publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   MVMNT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 9
+random_paper: 2
 scopes:
 - name: Mvmnt Scopes
   scope_count: 1

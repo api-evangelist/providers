@@ -59,7 +59,7 @@ overview: 'Irregular is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Irregular''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: minimal
   composite: 7.5

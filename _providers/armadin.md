@@ -83,7 +83,7 @@ overview: 'Armadin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Armadin''s developer surface includes developer portal, engineering blog, support, and 7 more developer resources.'
-random_paper: 21
+random_paper: 12
 score:
   band: minimal
   composite: 11.5

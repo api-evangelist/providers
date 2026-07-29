@@ -124,7 +124,7 @@ plans:
 - name: Spendesk Plans Pricing
   plan_count: 3
   slug: spendesk-plans-pricing
-random_paper: 71
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Spendesk Rate Limits

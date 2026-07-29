@@ -71,7 +71,7 @@ overview: 'CODEOWNERS is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CODEOWNERS''s developer surface includes documentation, tooling, and 5 more developer resources.'
-random_paper: 54
+random_paper: 41
 score:
   band: minimal
   composite: 8.0

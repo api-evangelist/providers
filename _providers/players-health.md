@@ -71,7 +71,7 @@ overview: 'Player''s Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Player''s Health''s developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: emerging
   composite: 15.3

@@ -83,7 +83,7 @@ overview: 'Artera is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Artera''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: emerging
   composite: 17.5

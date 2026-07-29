@@ -202,7 +202,7 @@ plans:
 - name: Telesign Plans Pricing
   plan_count: 3
   slug: telesign-plans-pricing
-random_paper: 69
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Telesign Rate Limits

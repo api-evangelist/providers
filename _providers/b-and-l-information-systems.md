@@ -63,7 +63,7 @@ overview: 'B&L Information Systems is profiled on the [APIs.io](https://apis.io/
 
 
   B&L Information Systems'' developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 68
+random_paper: 35
 score:
   band: minimal
   composite: 8.4

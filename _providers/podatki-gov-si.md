@@ -84,7 +84,7 @@ plans:
 - name: Podatki Gov Si Plans Pricing
   plan_count: 1
   slug: podatki-gov-si-plans-pricing
-random_paper: 47
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Podatki Gov Si Rate Limits

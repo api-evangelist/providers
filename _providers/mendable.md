@@ -125,7 +125,7 @@ plans:
 - name: Mendable Plans Pricing
   plan_count: 2
   slug: mendable-plans-pricing
-random_paper: 34
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Mendable Rate Limits

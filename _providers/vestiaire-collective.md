@@ -44,7 +44,7 @@ name: Vestiaire Collective
 nav: Providers
 network: true
 overview: Vestiaire Collective is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Marketplace, and Fashion.
-random_paper: 29
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

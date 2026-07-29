@@ -104,7 +104,7 @@ plans:
 - name: Aerisweather Plans Pricing
   plan_count: 6
   slug: aerisweather-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Aerisweather Rate Limits

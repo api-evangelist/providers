@@ -132,7 +132,7 @@ overview: 'Ant Group publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Ant Group''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 56
+random_paper: 45
 score:
   band: thin
   composite: 34.4

@@ -58,7 +58,7 @@ overview: 'SouthState Bank is profiled on the [APIs.io](https://apis.io/) networ
 
 
   SouthState Bank''s developer surface includes support and 5 more developer resources.'
-random_paper: 64
+random_paper: 45
 score:
   band: minimal
   composite: 11.2

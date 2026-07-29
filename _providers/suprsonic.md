@@ -49,7 +49,7 @@ overview: 'Suprsonic publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Suprsonic''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 50
+random_paper: 38
 score:
   band: minimal
   composite: 5.8

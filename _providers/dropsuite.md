@@ -84,7 +84,7 @@ overview: 'Dropsuite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dropsuite''s developer surface includes documentation, support, API reference, engineering blog, authentication, and 5 more developer resources.'
-random_paper: 43
+random_paper: 31
 score:
   band: emerging
   composite: 16.5

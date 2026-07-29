@@ -44,7 +44,7 @@ name: Gamefam
 nav: Providers
 network: true
 overview: Gamefam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Roblox, and Metaverse.
-random_paper: 7
+random_paper: 78
 score:
   band: minimal
   composite: 5.0

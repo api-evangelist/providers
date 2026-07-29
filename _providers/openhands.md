@@ -223,7 +223,7 @@ plans:
 - name: Openhands Plans Pricing
   plan_count: 1
   slug: openhands-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Openhands Rate Limits

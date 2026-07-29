@@ -39,7 +39,7 @@ name: Telecom Transport Management
 nav: Providers
 network: true
 overview: Telecom Transport Management is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 49
+random_paper: 13
 score:
   band: minimal
   composite: 4.1

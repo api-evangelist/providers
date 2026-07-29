@@ -107,7 +107,7 @@ overview: 'Catnip publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Catnip''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 9 more developer resources.'
-random_paper: 7
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Catnip Rate Limits

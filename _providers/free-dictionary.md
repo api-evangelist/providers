@@ -56,7 +56,7 @@ name: Free Dictionary
 nav: Providers
 network: true
 overview: Free Dictionary publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dictionaries and Public APIs.
-random_paper: 40
+random_paper: 21
 score:
   band: minimal
   composite: 5.7

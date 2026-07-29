@@ -415,7 +415,7 @@ overview: 'Inductive Automation publishes 87 APIs on the [APIs.io](https://apis.
 
 
   Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 9 more developer resources.'
-random_paper: 51
+random_paper: 25
 rules:
 - name: Inductive Automation API Rules
   rule_count: 5

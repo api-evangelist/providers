@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Protective Life to acquire Abry Partners' portfolio company
   url: https://www.reinsurancene.ws/protective-life-to-acquire-abry-partners-portfolio-company/
-random_paper: 53
+random_paper: 34
 score:
   band: minimal
   composite: 5.6

@@ -95,7 +95,7 @@ overview: 'Unisub LLC is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Unisub LLC''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: emerging
   composite: 22.3

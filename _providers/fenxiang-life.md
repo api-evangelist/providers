@@ -48,7 +48,7 @@ name: Fenxiang Life
 nav: Providers
 network: true
 overview: Fenxiang Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Social Commerce, and Cashback.
-random_paper: 45
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

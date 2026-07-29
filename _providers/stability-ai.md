@@ -382,7 +382,7 @@ plans:
 - name: Stability Ai Plans Pricing
   plan_count: 4
   slug: stability-ai-plans-pricing
-random_paper: 43
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Stability Ai Rate Limits

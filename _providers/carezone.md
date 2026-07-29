@@ -56,7 +56,7 @@ name: Carezone
 nav: Providers
 network: true
 overview: Carezone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Health, Medication Management, Digital Health, and Pharmacy.
-random_paper: 65
+random_paper: 55
 score:
   band: minimal
   composite: 9.2

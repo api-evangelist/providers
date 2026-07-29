@@ -402,7 +402,7 @@ overview: 'NexHealth publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   NexHealth''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: developing
   composite: 55.7

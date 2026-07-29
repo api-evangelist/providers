@@ -48,7 +48,7 @@ name: Spacejoy
 nav: Providers
 network: true
 overview: Spacejoy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Interior Design, Home Decor, and Furniture.
-random_paper: 72
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

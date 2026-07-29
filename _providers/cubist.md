@@ -262,7 +262,7 @@ overview: 'Cubist publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cubist''s developer surface includes documentation, engineering blog, support, authentication, sandbox, CLI, and 23 more developer resources.'
-random_paper: 18
+random_paper: 10
 scopes:
 - name: Cubist Scopes
   scope_count: 135

@@ -164,7 +164,7 @@ overview: 'Koah Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Koah Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 22 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: thin
   composite: 35.1

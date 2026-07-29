@@ -67,7 +67,7 @@ overview: 'Optivolt Labs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Optivolt Labs'' developer surface includes signup flow and 5 more developer resources.'
-random_paper: 17
+random_paper: 0
 score:
   band: emerging
   composite: 13.5

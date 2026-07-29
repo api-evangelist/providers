@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: McDonald's is experimenting with AI in ways that could ...
   url: https://www.facebook.com/masslive/posts/mcdonalds-is-experimenting-with-ai-in-ways-that-could-change-your-drive-thru-exp/1330329255807686/
-random_paper: 1
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Mcdonalds Rate Limits

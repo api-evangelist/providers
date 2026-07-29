@@ -48,7 +48,7 @@ name: Speedlancer
 nav: Providers
 network: true
 overview: Speedlancer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Freelance, Marketplace, Gig Economy, and 500 Global.
-random_paper: 52
+random_paper: 38
 score:
   band: minimal
   composite: 4.1

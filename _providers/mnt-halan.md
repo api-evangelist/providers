@@ -104,7 +104,7 @@ overview: 'MNT-Halan is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   MNT-Halan''s developer surface includes product news, engineering blog, and 13 more developer resources.'
-random_paper: 27
+random_paper: 16
 score:
   band: minimal
   composite: 5.4

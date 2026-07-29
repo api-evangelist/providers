@@ -95,7 +95,7 @@ overview: 'Halcyon publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Halcyon''s developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: emerging
   composite: 22.4

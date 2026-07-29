@@ -59,7 +59,7 @@ overview: 'Flycrates is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Flycrates'' developer surface includes support and 3 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: minimal
   composite: 8.0

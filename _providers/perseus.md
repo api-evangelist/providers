@@ -100,7 +100,7 @@ overview: 'Perseus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Perseus'' developer surface includes documentation, getting-started guide, pricing, engineering blog, signup flow, support, CLI, and 7 more developer resources.'
-random_paper: 64
+random_paper: 55
 score:
   band: emerging
   composite: 23.3

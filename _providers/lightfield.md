@@ -303,7 +303,7 @@ overview: 'Lightfield publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Lightfield''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 25
+random_paper: 12
 scopes:
 - name: Lightfield Scopes
   scope_count: 26

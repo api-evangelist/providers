@@ -87,7 +87,7 @@ overview: 'Ordana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ordana''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 76
+random_paper: 69
 score:
   band: emerging
   composite: 16.0

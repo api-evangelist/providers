@@ -48,7 +48,7 @@ name: Federated Mutual Insurance
 nav: Providers
 network: true
 overview: Federated Mutual Insurance is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 47
+random_paper: 14
 score:
   band: minimal
   composite: 3.3

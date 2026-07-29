@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Tractor Supply Named One of Computerworld's Best ...
   url: https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2024/Tractor-Supply-Named-One-of-Computerworlds-Best-Places-to-Work-in-IT/default.aspx
-random_paper: 75
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

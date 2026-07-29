@@ -75,7 +75,7 @@ overview: 'MYR is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   MYR''s developer surface includes pricing, engineering blog, and 6 more developer resources.'
-random_paper: 28
+random_paper: 24
 score:
   band: emerging
   composite: 16.2

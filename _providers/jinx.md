@@ -80,7 +80,7 @@ overview: 'Jinx is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jinx''s developer surface includes engineering blog, support, authentication, and 6 more developer resources.'
-random_paper: 46
+random_paper: 41
 scopes:
 - name: Jinx Scopes
   scope_count: 4

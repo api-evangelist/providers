@@ -178,7 +178,7 @@ overview: 'Uncodie (now Makinari) publishes 2 APIs on the [APIs.io](https://apis
 
 
   Uncodie (now Makinari)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 32
+random_paper: 23
 score:
   band: developing
   composite: 51.3

@@ -95,7 +95,7 @@ overview: 'Aleph is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aleph''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 48
+random_paper: 42
 score:
   band: emerging
   composite: 20.5

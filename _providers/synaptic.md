@@ -63,7 +63,7 @@ overview: 'Synaptic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Synaptic''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 6
+random_paper: 75
 score:
   band: minimal
   composite: 9.0

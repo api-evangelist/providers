@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: The Water Council and A. O. Smith Kick Off 2018 Competition ...
   url: https://investor.aosmith.com/news-releases/news-release-details/water-council-and-o-smith-kick-2018-competition-supporting
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Ao Smith Rate Limits

@@ -63,7 +63,7 @@ overview: 'Moonwalk Biosciences is profiled on the [APIs.io](https://apis.io/) n
 
 
   Moonwalk Biosciences'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 22
+random_paper: 76
 score:
   band: minimal
   composite: 7.4

@@ -63,7 +63,7 @@ overview: 'Taxscouts is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Taxscouts'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 58
+random_paper: 46
 score:
   band: minimal
   composite: 9.7

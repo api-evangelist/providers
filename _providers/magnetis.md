@@ -48,7 +48,7 @@ name: Magnetis
 nav: Providers
 network: true
 overview: Magnetis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Wealth Management, and Robo-Advisor.
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

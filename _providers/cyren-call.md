@@ -39,7 +39,7 @@ name: Cyren Call
 nav: Providers
 network: true
 overview: Cyren Call is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Wireless, Public Safety, and Spectrum.
-random_paper: 54
+random_paper: 42
 score:
   band: minimal
   composite: 4.3

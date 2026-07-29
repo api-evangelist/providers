@@ -114,7 +114,7 @@ overview: 'ZenAdmin publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZenAdmin''s developer surface includes documentation, API reference, engineering blog, and 8 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: thin
   composite: 36.6

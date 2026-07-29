@@ -71,7 +71,7 @@ overview: 'Letel is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Letel''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: minimal
   composite: 8.2

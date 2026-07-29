@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: New Intelligence Hub Marks Expansion of Franklin ...
   url: https://investors.franklinresources.com/news-center/press-releases/press-release-details/2026/New-Intelligence-Hub-Marks-Expansion-of-Franklin-Templetons-Strategic-Collaboration-with-Microsoft/default.aspx
-random_paper: 68
+random_paper: 45
 score:
   band: minimal
   composite: 4.1

@@ -103,7 +103,7 @@ name: National Hockey League
 nav: Providers
 network: true
 overview: National Hockey League publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Game Center API, Players API, Schedule API, and 4 more. Tagged areas include Sports, Hockey, Entertainment, and Professional League.
-random_paper: 2
+random_paper: 54
 score:
   band: emerging
   composite: 18.7

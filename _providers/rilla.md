@@ -67,7 +67,7 @@ overview: 'Rilla is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Rilla''s developer surface includes changelog and 5 more developer resources.'
-random_paper: 58
+random_paper: 52
 score:
   band: emerging
   composite: 13.9

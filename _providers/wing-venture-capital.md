@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Wing Venture Capital
 nav: Providers
 network: true
-random_paper: 63
+random_paper: 38
 slug: wing-venture-capital
 tags:
 - Venture Capital

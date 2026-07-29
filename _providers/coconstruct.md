@@ -100,7 +100,7 @@ overview: 'CoConstruct is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CoConstruct''s developer surface includes support and 13 more developer resources.'
-random_paper: 22
+random_paper: 7
 score:
   band: minimal
   composite: 12.3

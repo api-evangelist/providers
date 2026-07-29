@@ -155,7 +155,7 @@ plans:
 - name: Test Suites Plans Pricing
   plan_count: 3
   slug: test-suites-plans-pricing
-random_paper: 56
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Test Suites Rate Limits

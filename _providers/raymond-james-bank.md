@@ -70,7 +70,7 @@ overview: 'Raymond James Bank publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Raymond James Bank''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 54
+random_paper: 32
 score:
   band: emerging
   composite: 14.6

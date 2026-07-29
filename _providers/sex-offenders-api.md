@@ -83,7 +83,7 @@ plans:
 - name: Sex Offenders Api Plans Pricing
   plan_count: 3
   slug: sex-offenders-api-plans-pricing
-random_paper: 37
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Sex Offenders Api Rate Limits

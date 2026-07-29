@@ -132,7 +132,7 @@ overview: 'SideQuest publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   SideQuest''s developer surface includes authentication, documentation, and 15 more developer resources.'
-random_paper: 35
+random_paper: 23
 scopes:
 - name: Sidequest Scopes
   scope_count: 0

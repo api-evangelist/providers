@@ -77,7 +77,7 @@ name: Lane
 nav: Providers
 network: true
 overview: Lane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Commercial Real Estate, Property Technology, and Workplace.
-random_paper: 21
+random_paper: 16
 score:
   band: minimal
   composite: 11.0

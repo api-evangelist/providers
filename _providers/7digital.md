@@ -932,7 +932,7 @@ plans:
 - name: 7Digital Plans Pricing
   plan_count: 1
   slug: 7digital-plans-pricing
-random_paper: 78
+random_paper: 69
 rate_limits:
 - limit_count: 7
   name: 7Digital Rate Limits

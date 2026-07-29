@@ -583,7 +583,7 @@ plans:
 - name: Remote Com Plans Pricing
   plan_count: 11
   slug: remote-com-plans-pricing
-random_paper: 68
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Remote Com Rate Limits

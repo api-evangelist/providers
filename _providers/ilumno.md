@@ -52,7 +52,7 @@ name: Ilumno
 nav: Providers
 network: true
 overview: Ilumno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Higher Education, EdTech, and Online Learning.
-random_paper: 28
+random_paper: 20
 score:
   band: minimal
   composite: 7.1

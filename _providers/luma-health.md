@@ -195,7 +195,7 @@ overview: 'Luma Health publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Luma Health''s developer surface includes authentication, documentation, API reference, engineering blog, and 24 more developer resources.'
-random_paper: 0
+random_paper: 66
 score:
   band: thin
   composite: 40.9

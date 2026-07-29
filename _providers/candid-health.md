@@ -334,7 +334,7 @@ plans:
 - name: Candid Health Plans Pricing
   plan_count: 1
   slug: candid-health-plans-pricing
-random_paper: 22
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Candid Health Rate Limits

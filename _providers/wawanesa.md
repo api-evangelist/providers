@@ -132,7 +132,7 @@ overview: 'Wawanesa Insurance publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Wawanesa Insurance''s developer surface includes authentication, engineering blog, product news, support, YouTube channel, and 18 more developer resources.'
-random_paper: 65
+random_paper: 55
 scopes:
 - name: Wawanesa Scopes
   scope_count: 0

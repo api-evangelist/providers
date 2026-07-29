@@ -68,7 +68,7 @@ name: Norwegian Cruise Line Holdings
 nav: Providers
 network: true
 overview: Norwegian Cruise Line Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cruise Lines, Travel, Hospitality, Leisure, and Publicly Traded.
-random_paper: 2
+random_paper: 55
 score:
   band: minimal
   composite: 5.7

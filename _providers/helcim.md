@@ -235,7 +235,7 @@ overview: 'Helcim publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Helcim''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, pricing, and 33 more developer resources.'
-random_paper: 73
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Helcim Rate Limits

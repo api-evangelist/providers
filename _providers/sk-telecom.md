@@ -253,7 +253,7 @@ overview: 'SK Telecom publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SK Telecom''s developer surface includes authentication, signup flow, support, FAQ, engineering blog, documentation, changelog, and 33 more developer resources.'
-random_paper: 64
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Sk Telecom Rate Limits

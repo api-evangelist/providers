@@ -34,7 +34,7 @@ name: Superset
 nav: Providers
 network: true
 overview: Superset is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 22
+random_paper: 11
 scopes:
 - name: Superset Scopes
   scope_count: 4

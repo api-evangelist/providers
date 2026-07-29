@@ -48,7 +48,7 @@ name: innostic
 nav: Providers
 network: true
 overview: innostic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Supply Chain, and Distribution.
-random_paper: 2
+random_paper: 71
 score:
   band: minimal
   composite: 5.4

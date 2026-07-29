@@ -144,7 +144,7 @@ overview: 'EcoFlow publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   EcoFlow''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, and 13 more developer resources.'
-random_paper: 40
+random_paper: 31
 score:
   band: thin
   composite: 35.6

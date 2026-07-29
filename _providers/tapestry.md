@@ -72,7 +72,7 @@ plans:
 - name: Tapestry Plans Pricing
   plan_count: 1
   slug: tapestry-plans-pricing
-random_paper: 23
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Tapestry Rate Limits

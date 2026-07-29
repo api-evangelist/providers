@@ -176,7 +176,7 @@ overview: 'DFlow publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   DFlow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 16 more developer resources.'
-random_paper: 66
+random_paper: 60
 score:
   band: developing
   composite: 44.8

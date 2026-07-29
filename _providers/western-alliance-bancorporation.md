@@ -65,7 +65,7 @@ plans:
 - name: Western Alliance Bancorporation Plans Pricing
   plan_count: 1
   slug: western-alliance-bancorporation-plans-pricing
-random_paper: 36
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Western Alliance Bancorporation Rate Limits

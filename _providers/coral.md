@@ -91,7 +91,7 @@ overview: 'Coral is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Coral''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 7 more developer resources.'
-random_paper: 55
+random_paper: 49
 score:
   band: emerging
   composite: 17.3

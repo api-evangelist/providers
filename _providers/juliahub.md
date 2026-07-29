@@ -156,7 +156,7 @@ overview: 'Juliahub publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Juliahub''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 62
+random_paper: 52
 scopes:
 - name: Juliahub Scopes
   scope_count: 5

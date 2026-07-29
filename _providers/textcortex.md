@@ -160,7 +160,7 @@ overview: 'Textcortex publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Textcortex''s developer surface includes authentication, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 8
+random_paper: 74
 score:
   band: developing
   composite: 42.6

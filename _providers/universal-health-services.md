@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: UHS News Releases | UHS, King of Prussia, PA
   url: https://uhs.com/news-releases/
-random_paper: 45
+random_paper: 13
 score:
   band: minimal
   composite: 9.3

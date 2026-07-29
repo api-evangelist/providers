@@ -44,7 +44,7 @@ name: Rens Energy
 nav: Providers
 network: true
 overview: Rens Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Energy Storage, Energy Management, and Distributed Energy.
-random_paper: 63
+random_paper: 50
 score:
   band: minimal
   composite: 4.3

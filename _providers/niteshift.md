@@ -120,7 +120,7 @@ overview: 'Niteshift is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Niteshift''s developer surface includes documentation, quickstart, pricing, engineering blog, support, changelog, authentication, and 11 more developer resources.'
-random_paper: 26
+random_paper: 14
 scopes:
 - name: Niteshift Scopes
   scope_count: 4

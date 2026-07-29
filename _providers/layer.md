@@ -75,7 +75,7 @@ overview: 'Layer is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Layer''s developer surface includes documentation, getting-started guide, API reference, and 5 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: minimal
   composite: 12.3

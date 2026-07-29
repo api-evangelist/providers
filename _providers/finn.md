@@ -91,7 +91,7 @@ overview: 'Finn is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Finn''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 32
+random_paper: 27
 score:
   band: emerging
   composite: 13.0

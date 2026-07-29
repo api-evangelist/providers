@@ -285,7 +285,7 @@ overview: 'Riskified publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Riskified''s developer surface includes developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, pricing, and 41 more developer resources.'
-random_paper: 6
+random_paper: 74
 score:
   band: thin
   composite: 31.7

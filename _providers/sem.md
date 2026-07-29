@@ -115,7 +115,7 @@ overview: 'Xiaoe (小鹅通) publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Xiaoe (小鹅通)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 10 more developer resources.'
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Sem Rate Limits

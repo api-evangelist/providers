@@ -128,7 +128,7 @@ plans:
 - name: Factory I O Plans Pricing
   plan_count: 3
   slug: factory-i-o-plans-pricing
-random_paper: 39
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Factory I O Rate Limits

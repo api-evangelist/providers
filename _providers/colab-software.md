@@ -87,7 +87,7 @@ overview: 'CoLab Software is profiled on the [APIs.io](https://apis.io/) network
 
 
   CoLab Software''s developer surface includes API reference, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 11
+random_paper: 73
 score:
   band: emerging
   composite: 17.5

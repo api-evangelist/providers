@@ -52,7 +52,7 @@ name: Cloudflare Trace
 nav: Providers
 network: true
 overview: Cloudflare Trace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 49
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

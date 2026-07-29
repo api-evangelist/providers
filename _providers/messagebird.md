@@ -452,7 +452,7 @@ plans:
 - name: Messagebird Plans Pricing
   plan_count: 6
   slug: messagebird-plans-pricing
-random_paper: 52
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Messagebird Rate Limits

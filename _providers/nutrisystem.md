@@ -147,7 +147,7 @@ overview: 'Nutrisystem (Wellina by Nutrisystem) is profiled on the [APIs.io](htt
 
 
   Nutrisystem (Wellina by Nutrisystem)''s developer surface includes FAQ and 16 more developer resources.'
-random_paper: 54
+random_paper: 39
 score:
   band: minimal
   composite: 11.6

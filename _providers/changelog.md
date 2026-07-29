@@ -156,7 +156,7 @@ plans:
 - name: Changelog Plans Pricing
   plan_count: 3
   slug: changelog-plans-pricing
-random_paper: 67
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Changelog Rate Limits

@@ -191,7 +191,7 @@ press:
 - date: '2026-05-25'
   title: Wells Fargo, BNP Paribas bolster AI leadership
   url: https://www.bankingdive.com/news/wells-fargo-ai-faraz-shafiq-saul-van-beurden-bnp-paribas/810717/
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Wells Fargo Rate Limits

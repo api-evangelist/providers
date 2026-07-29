@@ -187,7 +187,7 @@ plans:
 - name: Deakin Plans Pricing
   plan_count: 2
   slug: deakin-plans-pricing
-random_paper: 67
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Deakin Rate Limits

@@ -100,7 +100,7 @@ overview: 'Foundation Building Materials is profiled on the [APIs.io](https://ap
 
 
   Foundation Building Materials'' developer surface includes developer portal, documentation, engineering blog, FAQ, support, signup flow, getting-started guide, and 7 more developer resources.'
-random_paper: 54
+random_paper: 17
 score:
   band: emerging
   composite: 16.2

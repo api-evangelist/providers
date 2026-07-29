@@ -44,7 +44,7 @@ name: E8 Storage Systems
 nav: Providers
 network: true
 overview: E8 Storage Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Storage, NVMe, and Flash Storage.
-random_paper: 58
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

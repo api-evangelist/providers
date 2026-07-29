@@ -95,7 +95,7 @@ overview: 'Apprentice is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Apprentice''s developer surface includes documentation, support, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 40
+random_paper: 27
 score:
   band: emerging
   composite: 23.5

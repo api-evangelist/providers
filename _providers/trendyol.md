@@ -123,7 +123,7 @@ overview: 'Trendyol publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Trendyol''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Trendyol Rate Limits

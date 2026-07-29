@@ -39,7 +39,7 @@ name: Product Specifications
 nav: Providers
 network: true
 overview: Product Specifications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, Product Management, and Technical Specifications.
-random_paper: 15
+random_paper: 66
 score:
   band: minimal
   composite: 3.2

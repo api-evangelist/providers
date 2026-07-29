@@ -1375,7 +1375,7 @@ plans:
 - name: Envestnet Plans Pricing
   plan_count: 2
   slug: envestnet-plans-pricing
-random_paper: 40
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Envestnet Rate Limits

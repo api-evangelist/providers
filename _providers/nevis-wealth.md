@@ -71,7 +71,7 @@ overview: 'Nevis Wealth is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Nevis Wealth''s developer surface includes support and 6 more developer resources.'
-random_paper: 54
+random_paper: 39
 score:
   band: emerging
   composite: 13.1

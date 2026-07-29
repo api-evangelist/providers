@@ -59,7 +59,7 @@ overview: 'AMPLY Discovery is profiled on the [APIs.io](https://apis.io/) networ
 
 
   AMPLY Discovery''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 75
+random_paper: 56
 score:
   band: minimal
   composite: 5.4

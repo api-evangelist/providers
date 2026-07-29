@@ -108,7 +108,7 @@ overview: 'Glossier publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Glossier''s developer surface includes authentication, documentation, and 12 more developer resources.'
-random_paper: 3
+random_paper: 72
 scopes:
 - name: Glossier Scopes
   scope_count: 4

@@ -848,7 +848,7 @@ plans:
 - name: Pendle Plans Pricing
   plan_count: 4
   slug: pendle-plans-pricing
-random_paper: 0
+random_paper: 72
 rate_limits:
 - limit_count: 8
   name: Pendle Rate Limits

@@ -67,7 +67,7 @@ overview: 'Qeepsake is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Qeepsake''s developer surface includes support, pricing, and 4 more developer resources.'
-random_paper: 57
+random_paper: 47
 score:
   band: minimal
   composite: 12.2

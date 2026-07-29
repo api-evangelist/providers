@@ -71,7 +71,7 @@ overview: 'Loctax is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Loctax''s developer surface includes signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 11.2

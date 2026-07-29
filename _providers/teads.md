@@ -135,7 +135,7 @@ overview: 'Teads publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Teads'' developer surface includes authentication, changelog, documentation, support, engineering blog, and 15 more developer resources.'
-random_paper: 55
+random_paper: 49
 score:
   band: emerging
   composite: 22.9

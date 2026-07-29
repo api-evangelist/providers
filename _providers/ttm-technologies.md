@@ -114,7 +114,7 @@ overview: 'TTM Technologies is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   TTM Technologies'' developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 11
+random_paper: 70
 score:
   band: minimal
   composite: 6.1

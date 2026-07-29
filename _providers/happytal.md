@@ -64,7 +64,7 @@ name: Happytal
 nav: Providers
 network: true
 overview: Happytal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Healthcare, Health, and France.
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 11.0

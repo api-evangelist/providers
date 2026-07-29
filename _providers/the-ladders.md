@@ -71,7 +71,7 @@ overview: 'The Ladders is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   The Ladders'' developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 74
+random_paper: 61
 score:
   band: emerging
   composite: 13.7

@@ -176,7 +176,7 @@ plans:
 - name: Intrinio Plans
   plan_count: 3
   slug: intrinio-plans
-random_paper: 7
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Intrinio Rate Limits

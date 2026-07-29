@@ -67,7 +67,7 @@ overview: 'Yonder is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Yonder''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 25
+random_paper: 17
 score:
   band: minimal
   composite: 12.2

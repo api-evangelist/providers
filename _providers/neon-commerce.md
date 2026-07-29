@@ -234,7 +234,7 @@ overview: 'Neon Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Neon Commerce''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 56
+random_paper: 40
 score:
   band: developing
   composite: 54.5

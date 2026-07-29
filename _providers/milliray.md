@@ -44,7 +44,7 @@ name: Milliray
 nav: Providers
 network: true
 overview: Milliray is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Airspace Security, Drone Detection, Counter-UAS, and Radar.
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

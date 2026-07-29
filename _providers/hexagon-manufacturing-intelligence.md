@@ -91,7 +91,7 @@ overview: 'Hexagon Manufacturing Intelligence publishes 1 API on the [APIs.io](h
 
 
   Hexagon Manufacturing Intelligence''s developer surface includes documentation, support, engineering blog, YouTube channel, and 5 more developer resources.'
-random_paper: 23
+random_paper: 59
 score:
   band: minimal
   composite: 11.9

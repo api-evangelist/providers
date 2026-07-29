@@ -65,7 +65,7 @@ plans:
 - name: Trex Plans Pricing
   plan_count: 1
   slug: trex-plans-pricing
-random_paper: 56
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Trex Rate Limits

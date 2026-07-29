@@ -75,7 +75,7 @@ overview: 'Calastone is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Calastone''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 6
+random_paper: 74
 score:
   band: minimal
   composite: 11.3

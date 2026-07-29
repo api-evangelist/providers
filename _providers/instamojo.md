@@ -153,7 +153,7 @@ plans:
 - name: Instamojo Plans Pricing
   plan_count: 8
   slug: instamojo-plans-pricing
-random_paper: 32
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Instamojo Rate Limits

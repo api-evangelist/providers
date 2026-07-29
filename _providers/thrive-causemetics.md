@@ -71,7 +71,7 @@ overview: 'Thrive Causemetics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Thrive Causemetics'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 60
+random_paper: 37
 score:
   band: minimal
   composite: 10.5

@@ -72,7 +72,7 @@ plans:
 - name: Sertica Plans Pricing
   plan_count: 3
   slug: sertica-plans-pricing
-random_paper: 36
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Sertica Rate Limits

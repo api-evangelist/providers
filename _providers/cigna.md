@@ -289,7 +289,7 @@ press:
 - date: '2020-11-17'
   title: Veterans Recovery Resources of Mobile Receives $100,000 Cigna Foundation Grant to Provide Mental Health Services to Area Veterans
   url: https://www.cigna.com/newsroom/news-releases/2020/veterans-recovery-resources-of-mobile-receives-100000-cigna-foundation-grant-to-provide-mental-health-services-to-area-veterans.html
-random_paper: 40
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Cigna Rate Limits

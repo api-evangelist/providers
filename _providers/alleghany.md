@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Alleghany Capital Corporation Announces Investment In ...
   url: https://www.prnewswire.com/news-releases/alleghany-capital-corporation-announces-investment-in-ips-integrated-project-services-300170111.html
-random_paper: 1
+random_paper: 69
 score:
   band: minimal
   composite: 6.2

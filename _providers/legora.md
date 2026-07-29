@@ -95,7 +95,7 @@ overview: 'Legora publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Legora''s developer surface includes YouTube channel, engineering blog, and 10 more developer resources.'
-random_paper: 2
+random_paper: 74
 score:
   band: minimal
   composite: 8.9

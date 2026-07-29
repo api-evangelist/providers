@@ -87,7 +87,7 @@ overview: 'Swytchcode publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Swytchcode''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 58
+random_paper: 45
 score:
   band: minimal
   composite: 11.8

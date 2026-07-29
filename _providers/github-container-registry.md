@@ -121,7 +121,7 @@ plans:
 - name: Github Container Registry Plans Pricing
   plan_count: 3
   slug: github-container-registry-plans-pricing
-random_paper: 57
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Github Container Registry Rate Limits

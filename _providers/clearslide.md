@@ -167,7 +167,7 @@ overview: 'ClearSlide publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ClearSlide''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, and 19 more developer resources.'
-random_paper: 21
+random_paper: 8
 scopes:
 - name: Clearslide Scopes
   scope_count: 2

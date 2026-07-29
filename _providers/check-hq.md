@@ -141,7 +141,7 @@ overview: 'Check publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Check''s developer surface includes documentation, developer portal, developer console, sandbox, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 61
+random_paper: 52
 score:
   band: emerging
   composite: 19.1

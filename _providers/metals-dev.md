@@ -112,7 +112,7 @@ plans:
 - name: Metals Dev Plans Pricing
   plan_count: 3
   slug: metals-dev-plans-pricing
-random_paper: 62
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Metals Dev Rate Limits

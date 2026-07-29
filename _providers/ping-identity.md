@@ -173,7 +173,7 @@ plans:
 - name: Ping Identity Plans Pricing
   plan_count: 3
   slug: ping-identity-plans-pricing
-random_paper: 6
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Ping Identity Rate Limits

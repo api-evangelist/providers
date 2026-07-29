@@ -65,7 +65,7 @@ plans:
 - name: Amedisys Plans Pricing
   plan_count: 1
   slug: amedisys-plans-pricing
-random_paper: 73
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Amedisys Rate Limits

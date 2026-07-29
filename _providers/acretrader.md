@@ -71,7 +71,7 @@ overview: 'Acretrader is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Acretrader''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 26
+random_paper: 13
 score:
   band: emerging
   composite: 14.3

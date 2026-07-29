@@ -55,7 +55,7 @@ overview: 'Viki is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Viki''s developer surface includes support and 2 more developer resources.'
-random_paper: 40
+random_paper: 35
 score:
   band: minimal
   composite: 5.9

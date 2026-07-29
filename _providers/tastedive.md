@@ -56,7 +56,7 @@ name: TasteDive
 nav: Providers
 network: true
 overview: TasteDive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment and Public APIs.
-random_paper: 21
+random_paper: 9
 score:
   band: minimal
   composite: 5.7

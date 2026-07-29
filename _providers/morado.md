@@ -87,7 +87,7 @@ overview: 'Morado is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Morado''s developer surface includes signup flow, pricing, support, and 7 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: emerging
   composite: 17.3

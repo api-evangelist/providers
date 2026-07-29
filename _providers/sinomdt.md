@@ -52,7 +52,7 @@ name: SinoMDT
 nav: Providers
 network: true
 overview: SinoMDT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Medical Imaging, and Infusion Pumps.
-random_paper: 55
+random_paper: 46
 score:
   band: minimal
   composite: 5.4

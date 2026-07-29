@@ -67,7 +67,7 @@ overview: 'Go X is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Go X''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 63
+random_paper: 59
 score:
   band: minimal
   composite: 11.0

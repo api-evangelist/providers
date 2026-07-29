@@ -138,7 +138,7 @@ plans:
 - name: Sana Labs Plans Pricing
   plan_count: 3
   slug: sana-labs-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Sana Labs Rate Limits

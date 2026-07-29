@@ -394,7 +394,7 @@ plans:
 - name: Amazon Data Pipeline Plans Pricing
   plan_count: 3
   slug: amazon-data-pipeline-plans-pricing
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Amazon Data Pipeline Rate Limits

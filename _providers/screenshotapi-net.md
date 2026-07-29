@@ -56,7 +56,7 @@ name: ScreenshotAPI.net
 nav: Providers
 network: true
 overview: ScreenshotAPI.net publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 34
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

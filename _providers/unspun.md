@@ -79,7 +79,7 @@ overview: 'Unspun is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Unspun''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 49
+random_paper: 41
 score:
   band: minimal
   composite: 12.2

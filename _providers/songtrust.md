@@ -132,7 +132,7 @@ overview: 'Songtrust is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Songtrust''s developer surface includes signup flow, pricing, engineering blog, support, GitHub presence, YouTube channel, and 16 more developer resources.'
-random_paper: 69
+random_paper: 57
 score:
   band: emerging
   composite: 15.9

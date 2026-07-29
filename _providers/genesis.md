@@ -56,7 +56,7 @@ name: GENESIS
 nav: Providers
 network: true
 overview: GENESIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 39
+random_paper: 30
 score:
   band: minimal
   composite: 6.5

@@ -131,7 +131,7 @@ plans:
 - name: Flinks Plans Pricing
   plan_count: 2
   slug: flinks-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Flinks Rate Limits

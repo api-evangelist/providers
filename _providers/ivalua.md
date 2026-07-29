@@ -113,7 +113,7 @@ plans:
 - name: Ivalua Plans Pricing
   plan_count: 1
   slug: ivalua-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Ivalua Rate Limits

@@ -44,7 +44,7 @@ name: OneSpot
 nav: Providers
 network: true
 overview: OneSpot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Content Marketing, Marketing Technology, and Personalization.
-random_paper: 65
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

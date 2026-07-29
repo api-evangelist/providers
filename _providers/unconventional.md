@@ -79,7 +79,7 @@ overview: 'Unconventional is profiled on the [APIs.io](https://apis.io/) network
 
 
   Unconventional''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 22
+random_paper: 3
 score:
   band: minimal
   composite: 8.0

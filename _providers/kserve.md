@@ -109,7 +109,7 @@ plans:
 - name: Kserve Plans Pricing
   plan_count: 3
   slug: kserve-plans-pricing
-random_paper: 24
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Kserve Rate Limits

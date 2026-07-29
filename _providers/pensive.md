@@ -75,7 +75,7 @@ overview: 'Pensive is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pensive''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: emerging
   composite: 15.4

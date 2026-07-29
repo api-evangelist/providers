@@ -39,7 +39,7 @@ name: Development Methodology
 nav: Providers
 network: true
 overview: Development Methodology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agile, Development Methodologies, Development Methodology, and Scrum.
-random_paper: 57
+random_paper: 27
 score:
   band: minimal
   composite: 4.1

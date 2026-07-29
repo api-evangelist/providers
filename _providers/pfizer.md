@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: 'Accelerating Innovation: Pfizer''s 2025 AI Festival'
   url: https://www.pfizer.com/news/articles/accelerating_innovation_pfizers_2025_ai_festival
-random_paper: 24
+random_paper: 16
 score:
   band: minimal
   composite: 3.3

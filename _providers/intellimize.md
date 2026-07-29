@@ -48,7 +48,7 @@ name: Intellimize
 nav: Providers
 network: true
 overview: Intellimize is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Website Optimization, Personalization, and Conversion Rate Optimization.
-random_paper: 5
+random_paper: 70
 score:
   band: minimal
   composite: 5.0

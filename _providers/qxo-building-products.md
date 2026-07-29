@@ -91,7 +91,7 @@ plans:
 - name: Qxo Building Products Plans Pricing
   plan_count: 3
   slug: qxo-building-products-plans-pricing
-random_paper: 31
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Qxo Building Products Rate Limits

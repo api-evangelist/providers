@@ -114,7 +114,7 @@ plans:
 - name: M1 Finance Plans Pricing
   plan_count: 1
   slug: m1-finance-plans-pricing
-random_paper: 58
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: M1 Finance Rate Limits

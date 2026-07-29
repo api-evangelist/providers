@@ -152,7 +152,7 @@ plans:
 - name: Victoriametrics Plans Pricing
   plan_count: 4
   slug: victoriametrics-plans-pricing
-random_paper: 44
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Victoriametrics Rate Limits

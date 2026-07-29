@@ -59,7 +59,7 @@ overview: 'Planby Technologies, Inc. is profiled on the [APIs.io](https://apis.i
 
 
   Planby Technologies, Inc.''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 43
+random_paper: 14
 score:
   band: minimal
   composite: 5.4

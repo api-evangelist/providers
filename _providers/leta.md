@@ -115,7 +115,7 @@ overview: 'Leta is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Leta''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 27
+random_paper: 22
 score:
   band: emerging
   composite: 15.0

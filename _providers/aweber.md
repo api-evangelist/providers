@@ -191,7 +191,7 @@ overview: 'AWeber publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   AWeber''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, YouTube channel, and 19 more developer resources.'
-random_paper: 77
+random_paper: 70
 scopes:
 - name: Aweber Scopes
   scope_count: 9

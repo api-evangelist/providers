@@ -73,7 +73,7 @@ name: Chefs' Warehouse
 nav: Providers
 network: true
 overview: Chefs' Warehouse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food Distribution, Specialty Food, Foodservice, Wholesale, and Restaurants.
-random_paper: 44
+random_paper: 25
 score:
   band: minimal
   composite: 5.7

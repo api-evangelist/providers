@@ -60,7 +60,7 @@ name: Brazil Central Bank Open Data
 nav: Providers
 network: true
 overview: Brazil Central Bank Open Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 60
+random_paper: 25
 score:
   band: minimal
   composite: 8.2

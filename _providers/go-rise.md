@@ -67,7 +67,7 @@ overview: 'Go Rise is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Go Rise''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 62
+random_paper: 54
 score:
   band: minimal
   composite: 12.1

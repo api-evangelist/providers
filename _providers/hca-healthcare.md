@@ -80,7 +80,7 @@ name: HCA Healthcare
 nav: Providers
 network: true
 overview: HCA Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Hospitals, Medical, Patient Care, and Health Systems.
-random_paper: 43
+random_paper: 26
 score:
   band: minimal
   composite: 7.1

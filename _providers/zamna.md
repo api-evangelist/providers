@@ -133,7 +133,7 @@ overview: 'Zamna publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zamna''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, and 13 more developer resources.'
-random_paper: 61
+random_paper: 55
 score:
   band: thin
   composite: 32.1

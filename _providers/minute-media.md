@@ -63,7 +63,7 @@ overview: 'Minute Media is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Minute Media''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 30
+random_paper: 15
 score:
   band: minimal
   composite: 5.4

@@ -60,7 +60,7 @@ name: e-CROSS
 nav: Providers
 network: true
 overview: e-CROSS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cross-Border Commerce, E-commerce, Merchant of Record, and Payments.
-random_paper: 68
+random_paper: 60
 score:
   band: minimal
   composite: 7.8

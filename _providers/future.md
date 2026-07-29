@@ -67,7 +67,7 @@ overview: 'Future is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Future''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 35
+random_paper: 27
 score:
   band: minimal
   composite: 12.5

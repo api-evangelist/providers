@@ -65,7 +65,7 @@ plans:
 - name: Crossamerica Partners Plans Pricing
   plan_count: 0
   slug: crossamerica-partners-plans-pricing
-random_paper: 67
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Crossamerica Partners Rate Limits

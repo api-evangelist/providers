@@ -75,7 +75,7 @@ overview: 'ZOE is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   ZOE''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 55
+random_paper: 46
 score:
   band: emerging
   composite: 14.7

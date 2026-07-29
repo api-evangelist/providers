@@ -72,7 +72,7 @@ name: Warby Parker
 nav: Providers
 network: true
 overview: Warby Parker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Eyewear, Retail, and E-commerce.
-random_paper: 54
+random_paper: 39
 score:
   band: minimal
   composite: 8.9

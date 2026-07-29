@@ -48,7 +48,7 @@ name: Pawdly
 nav: Providers
 network: true
 overview: Pawdly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pets, E-commerce, Marketplace, and Retail.
-random_paper: 25
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

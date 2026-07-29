@@ -113,7 +113,7 @@ overview: 'Kipu Quantum publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Kipu Quantum''s developer surface includes documentation, pricing, signup flow, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 1
+random_paper: 65
 scopes:
 - name: Kipu Quantum Scopes
   scope_count: 12

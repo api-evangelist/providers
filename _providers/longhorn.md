@@ -156,7 +156,7 @@ plans:
 - name: Longhorn Plans Pricing
   plan_count: 3
   slug: longhorn-plans-pricing
-random_paper: 2
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Longhorn Rate Limits

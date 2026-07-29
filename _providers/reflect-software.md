@@ -39,7 +39,7 @@ name: Reflect Software
 nav: Providers
 network: true
 overview: Reflect Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 2
+random_paper: 61
 score:
   band: minimal
   composite: 4.1

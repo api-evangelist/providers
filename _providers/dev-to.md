@@ -157,7 +157,7 @@ plans:
 - name: Dev To Plans Pricing
   plan_count: 3
   slug: dev-to-plans-pricing
-random_paper: 38
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Dev To Rate Limits

@@ -123,7 +123,7 @@ plans:
 - name: Google Admob Plans Pricing
   plan_count: 3
   slug: google-admob-plans-pricing
-random_paper: 12
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Google Admob Rate Limits

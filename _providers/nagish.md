@@ -71,7 +71,7 @@ overview: 'Nagish is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Nagish''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 2
+random_paper: 74
 score:
   band: minimal
   composite: 11.9

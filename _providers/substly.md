@@ -96,7 +96,7 @@ plans:
 - name: Substly Plans Pricing
   plan_count: 3
   slug: substly-plans-pricing
-random_paper: 0
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Substly Rate Limits

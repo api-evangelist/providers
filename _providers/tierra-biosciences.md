@@ -56,7 +56,7 @@ name: Tierra Biosciences
 nav: Providers
 network: true
 overview: Tierra Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Synthetic Biology, Protein Synthesis, and Biotechnology.
-random_paper: 34
+random_paper: 11
 score:
   band: minimal
   composite: 10.2

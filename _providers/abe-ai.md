@@ -52,7 +52,7 @@ name: Abe AI
 nav: Providers
 network: true
 overview: Abe AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Financial Services, Banking, and Chatbot.
-random_paper: 69
+random_paper: 63
 score:
   band: minimal
   composite: 6.3

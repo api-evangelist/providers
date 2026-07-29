@@ -132,7 +132,7 @@ plans:
 - name: Fcc Plans Pricing
   plan_count: 1
   slug: fcc-plans-pricing
-random_paper: 63
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Fcc Rate Limits

@@ -39,7 +39,7 @@ name: Informatics
 nav: Providers
 network: true
 overview: Informatics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Bioinformatics, Computational Biology, Healthcare, Health Informatics, and Informatics.
-random_paper: 77
+random_paper: 63
 score:
   band: minimal
   composite: 4.3

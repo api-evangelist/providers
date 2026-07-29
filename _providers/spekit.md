@@ -111,7 +111,7 @@ overview: 'Spekit is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Spekit''s developer surface includes engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 24
+random_paper: 16
 score:
   band: emerging
   composite: 24.4

@@ -182,7 +182,7 @@ overview: 'PackageX publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   PackageX''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, authentication, changelog, and 22 more developer resources.'
-random_paper: 46
+random_paper: 36
 score:
   band: developing
   composite: 50.0

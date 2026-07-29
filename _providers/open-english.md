@@ -48,7 +48,7 @@ name: Open English
 nav: Providers
 network: true
 overview: Open English is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, E-Learning, and Language Learning.
-random_paper: 40
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

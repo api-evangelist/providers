@@ -79,7 +79,7 @@ overview: 'Custom Ink is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Custom Ink''s developer surface includes documentation, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 5
+random_paper: 68
 score:
   band: minimal
   composite: 10.0

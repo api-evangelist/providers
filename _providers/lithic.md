@@ -1558,7 +1558,7 @@ plans:
 - name: Lithic Plans Pricing
   plan_count: 3
   slug: lithic-plans-pricing
-random_paper: 5
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Lithic Rate Limits

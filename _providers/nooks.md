@@ -87,7 +87,7 @@ overview: 'Nooks is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nooks'' developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 1
+random_paper: 74
 score:
   band: emerging
   composite: 18.9

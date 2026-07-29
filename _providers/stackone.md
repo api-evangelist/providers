@@ -854,7 +854,7 @@ plans:
 - name: Stackone Plans Pricing
   plan_count: 3
   slug: stackone-plans-pricing
-random_paper: 66
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Stackone Rate Limits

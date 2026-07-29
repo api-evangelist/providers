@@ -147,7 +147,7 @@ overview: 'Sliplane publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Sliplane''s developer surface includes pricing, documentation, API reference, tooling, engineering blog, changelog, status page, and 17 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: emerging
   composite: 21.8

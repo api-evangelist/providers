@@ -71,7 +71,7 @@ overview: 'Forus (fka Tandem Health) is profiled on the [APIs.io](https://apis.i
 
 
   Forus (fka Tandem Health)''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 51
+random_paper: 23
 score:
   band: minimal
   composite: 12.7

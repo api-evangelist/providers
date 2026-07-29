@@ -72,7 +72,7 @@ overview: 'MaxLinear is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   MaxLinear''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: minimal
   composite: 12.3

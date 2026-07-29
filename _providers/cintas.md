@@ -99,7 +99,7 @@ press:
 - date: '2026-05-25'
   title: 2025-form-10-k.pdf
   url: https://www.cintas.com/docs/default-source/investor-relations/annual-reports/2025-form-10-k.pdf
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 10.1

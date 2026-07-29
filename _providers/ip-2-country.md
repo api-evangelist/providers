@@ -56,7 +56,7 @@ name: IP 2 Country
 nav: Providers
 network: true
 overview: IP 2 Country publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 39
+random_paper: 25
 score:
   band: minimal
   composite: 5.7

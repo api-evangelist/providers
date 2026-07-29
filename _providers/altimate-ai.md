@@ -549,7 +549,7 @@ overview: 'Altimate AI publishes 123 APIs on the [APIs.io](https://apis.io/) net
 
 
   Altimate AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 69
+random_paper: 56
 score:
   band: developing
   composite: 48.9

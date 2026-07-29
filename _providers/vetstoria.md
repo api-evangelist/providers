@@ -72,7 +72,7 @@ overview: 'Vetstoria is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Vetstoria''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 45
+random_paper: 33
 score:
   band: minimal
   composite: 7.2

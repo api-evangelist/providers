@@ -162,7 +162,7 @@ overview: 'Regional Australia Bank publishes 7 APIs on the [APIs.io](https://api
 
 
   Regional Australia Bank''s developer surface includes documentation, support, API reference, getting-started guide, developer portal, authentication, engineering blog, and 16 more developer resources.'
-random_paper: 26
+random_paper: 77
 scopes:
 - name: Regional Australia Bank Scopes
   scope_count: 5

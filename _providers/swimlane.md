@@ -178,7 +178,7 @@ plans:
 - name: Swimlane Plans Pricing
   plan_count: 2
   slug: swimlane-plans-pricing
-random_paper: 74
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Swimlane Rate Limits

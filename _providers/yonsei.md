@@ -250,7 +250,7 @@ plans:
 - name: Yonsei Plans Pricing
   plan_count: 2
   slug: yonsei-plans-pricing
-random_paper: 31
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Yonsei Rate Limits

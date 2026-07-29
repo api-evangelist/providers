@@ -56,7 +56,7 @@ name: Sport Places
 nav: Providers
 network: true
 overview: Sport Places publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 60
+random_paper: 45
 score:
   band: minimal
   composite: 5.7

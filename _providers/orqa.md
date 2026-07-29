@@ -63,7 +63,7 @@ overview: 'Orqa is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Orqa''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 40
+random_paper: 35
 score:
   band: minimal
   composite: 8.4

@@ -232,7 +232,7 @@ overview: 'Pendo.io publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Pendo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: developing
   composite: 55.5

@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Explore how Graybar stays connected to customers
   url: https://www.sap.com/asset/dynamic/2025/03/febfef39-f87e-0010-bca6-c68f7e60039b.html
-random_paper: 52
+random_paper: 32
 score:
   band: minimal
   composite: 3.3

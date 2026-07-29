@@ -269,7 +269,7 @@ overview: 'crates.io publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   crates.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, tooling, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 34
+random_paper: 23
 rules:
 - name: crates.io API Rules
   rule_count: 6

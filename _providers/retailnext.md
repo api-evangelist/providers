@@ -91,7 +91,7 @@ overview: 'RetailNext is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   RetailNext''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 61
+random_paper: 48
 score:
   band: emerging
   composite: 15.8

@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: 8VC
 nav: Providers
 network: true
-random_paper: 36
+random_paper: 33
 slug: 8vc
 tags:
 - Venture Capital

@@ -149,7 +149,7 @@ overview: 'Fasten Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Fasten Health''s developer surface includes documentation, GitHub presence, engineering blog, changelog, signup flow, pricing, support, and 11 more developer resources.'
-random_paper: 52
+random_paper: 36
 score:
   band: emerging
   composite: 21.3

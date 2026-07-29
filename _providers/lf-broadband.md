@@ -87,7 +87,7 @@ plans:
 - name: Lf Broadband Plans Pricing
   plan_count: 3
   slug: lf-broadband-plans-pricing
-random_paper: 74
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Lf Broadband Rate Limits

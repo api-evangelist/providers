@@ -44,7 +44,7 @@ name: Tasty Labs
 nav: Providers
 network: true
 overview: Tasty Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Software, Marketplace, Consumer, and Acquired.
-random_paper: 1
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

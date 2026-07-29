@@ -126,7 +126,7 @@ plans:
 - name: Sunrise Sunset Plans Pricing
   plan_count: 1
   slug: sunrise-sunset-plans-pricing
-random_paper: 74
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Sunrise Sunset Rate Limits

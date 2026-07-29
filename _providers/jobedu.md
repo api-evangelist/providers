@@ -48,7 +48,7 @@ name: Jobedu
 nav: Providers
 network: true
 overview: Jobedu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Shopify, and Consumer.
-random_paper: 1
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

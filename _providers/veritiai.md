@@ -49,7 +49,7 @@ name: Veriti.ai
 nav: Providers
 network: true
 overview: Veriti.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Exposure Management, Vulnerability Management, and Threat Intelligence.
-random_paper: 71
+random_paper: 61
 score:
   band: minimal
   composite: 5.0

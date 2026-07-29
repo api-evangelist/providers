@@ -48,7 +48,7 @@ name: Steelbrick
 nav: Providers
 network: true
 overview: Steelbrick is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, CPQ, Configure Price Quote, and Quote To Cash.
-random_paper: 37
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

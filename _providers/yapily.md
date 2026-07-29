@@ -269,7 +269,7 @@ plans:
 - name: Yapily Plans Pricing
   plan_count: 6
   slug: yapily-plans-pricing
-random_paper: 32
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Yapily Rate Limits

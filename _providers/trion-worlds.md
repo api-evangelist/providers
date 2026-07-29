@@ -48,7 +48,7 @@ name: Trion Worlds
 nav: Providers
 network: true
 overview: Trion Worlds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Games, Video Games, and MMO.
-random_paper: 4
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

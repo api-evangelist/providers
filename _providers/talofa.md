@@ -59,7 +59,7 @@ overview: 'Talofa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Talofa''s developer surface includes support and 3 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: minimal
   composite: 8.6

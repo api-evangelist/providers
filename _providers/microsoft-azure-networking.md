@@ -342,7 +342,7 @@ plans:
 - name: Microsoft Azure Networking Plans Pricing
   plan_count: 11
   slug: microsoft-azure-networking-plans-pricing
-random_paper: 33
+random_paper: 79
 rate_limits:
 - limit_count: 7
   name: Microsoft Azure Networking Rate Limits

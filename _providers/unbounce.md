@@ -152,7 +152,7 @@ overview: 'Unbounce publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Unbounce''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
-random_paper: 73
+random_paper: 63
 scopes:
 - name: Unbounce Scopes
   scope_count: 2

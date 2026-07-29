@@ -129,7 +129,7 @@ plans:
 - name: Scalablepress Plans Pricing
   plan_count: 2
   slug: scalablepress-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Scalablepress Rate Limits

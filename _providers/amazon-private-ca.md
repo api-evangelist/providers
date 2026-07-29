@@ -1781,7 +1781,7 @@ plans:
 - name: Amazon Private Ca Plans Pricing
   plan_count: 3
   slug: amazon-private-ca-plans-pricing
-random_paper: 36
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Private Ca Rate Limits

@@ -97,7 +97,7 @@ plans:
 - name: Skio Plans Pricing
   plan_count: 2
   slug: skio-plans-pricing
-random_paper: 43
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Skio Rate Limits

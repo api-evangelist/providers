@@ -83,7 +83,7 @@ overview: 'Enervee is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Enervee''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 35
+random_paper: 26
 score:
   band: emerging
   composite: 17.8

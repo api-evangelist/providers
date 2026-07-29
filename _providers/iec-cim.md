@@ -113,7 +113,7 @@ plans:
 - name: Iec Cim Plans Pricing
   plan_count: 3
   slug: iec-cim-plans-pricing
-random_paper: 31
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Iec Cim Rate Limits

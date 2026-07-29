@@ -79,7 +79,7 @@ overview: 'Hula Earth is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hula Earth''s developer surface includes support, engineering blog, YouTube channel, and 6 more developer resources.'
-random_paper: 55
+random_paper: 43
 score:
   band: minimal
   composite: 11.2

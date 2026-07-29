@@ -67,7 +67,7 @@ overview: 'BlocPower is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BlocPower''s developer surface includes support and 5 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: minimal
   composite: 8.0

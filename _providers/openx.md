@@ -180,7 +180,7 @@ overview: 'OpenX is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   OpenX''s developer surface includes documentation, engineering blog, YouTube channel, and 30 more developer resources.'
-random_paper: 1
+random_paper: 74
 score:
   band: minimal
   composite: 12.1

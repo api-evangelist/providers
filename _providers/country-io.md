@@ -114,7 +114,7 @@ plans:
 - name: Country Io Plans Pricing
   plan_count: 3
   slug: country-io-plans-pricing
-random_paper: 22
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Country Io Rate Limits

@@ -81,7 +81,7 @@ name: Kuaidian Reading
 nav: Providers
 network: true
 overview: Kuaidian Reading is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Reading, Publishing, and Content.
-random_paper: 33
+random_paper: 13
 score:
   band: minimal
   composite: 9.0

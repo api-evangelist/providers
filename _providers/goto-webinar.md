@@ -124,7 +124,7 @@ overview: 'GoTo Webinar publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   GoTo Webinar''s developer surface includes authentication, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 45
+random_paper: 30
 scopes:
 - name: Goto Webinar Scopes
   scope_count: 1

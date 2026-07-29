@@ -263,7 +263,7 @@ overview: 'GoNitro publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GoNitro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 59
+random_paper: 50
 score:
   band: strong
   composite: 60.5

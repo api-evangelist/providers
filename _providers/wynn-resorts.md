@@ -150,7 +150,7 @@ press:
 - date: ''
   title: Wynn Partners with LinkedIn to Promote Talent Development ...
   url: https://www.newsroom.wynnresorts.com/en/wynnmacau/
-random_paper: 27
+random_paper: 11
 score:
   band: minimal
   composite: 9.7

@@ -83,7 +83,7 @@ overview: 'Medwing is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Medwing''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: minimal
   composite: 11.4

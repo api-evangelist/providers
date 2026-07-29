@@ -87,7 +87,7 @@ plans:
 - name: Dia Browser Plans Pricing
   plan_count: 1
   slug: dia-browser-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Dia Browser Rate Limits

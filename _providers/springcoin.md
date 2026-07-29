@@ -63,7 +63,7 @@ overview: 'Springcoin is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Springcoin''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 57
+random_paper: 44
 score:
   band: minimal
   composite: 9.7

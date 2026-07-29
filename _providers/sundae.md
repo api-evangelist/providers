@@ -63,7 +63,7 @@ overview: 'Sundae is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sundae''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 9.7

@@ -48,7 +48,7 @@ name: bbi-lifesciences
 nav: Providers
 network: true
 overview: bbi-lifesciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Life Sciences.
-random_paper: 27
+random_paper: 7
 score:
   band: minimal
   composite: 3.8

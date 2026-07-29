@@ -100,7 +100,7 @@ overview: 'Alteon is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Alteon''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: emerging
   composite: 18.2

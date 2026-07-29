@@ -309,7 +309,7 @@ plans:
 - name: Sentry Plans Pricing
   plan_count: 4
   slug: sentry-plans-pricing
-random_paper: 45
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Sentry Rate Limits

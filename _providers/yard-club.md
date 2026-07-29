@@ -39,7 +39,7 @@ name: Yard Club
 nav: Providers
 network: true
 overview: Yard Club is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 30
+random_paper: 19
 score:
   band: minimal
   composite: 3.2

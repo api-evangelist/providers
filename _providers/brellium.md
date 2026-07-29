@@ -186,7 +186,7 @@ overview: 'Brellium publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Brellium''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 17 more developer resources.'
-random_paper: 70
+random_paper: 60
 score:
   band: developing
   composite: 44.8

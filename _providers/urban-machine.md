@@ -75,7 +75,7 @@ overview: 'Urban Machine is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Urban Machine''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 42
+random_paper: 26
 score:
   band: minimal
   composite: 8.8

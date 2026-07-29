@@ -71,7 +71,7 @@ overview: 'Kaiser Permanente publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Kaiser Permanente''s developer surface includes developer portal, engineering blog, and 4 more developer resources.'
-random_paper: 17
+random_paper: 75
 score:
   band: minimal
   composite: 8.8

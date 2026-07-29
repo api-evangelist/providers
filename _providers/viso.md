@@ -104,7 +104,7 @@ overview: 'VISO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   VISO''s developer surface includes documentation, pricing, signup flow, authentication, and 10 more developer resources.'
-random_paper: 54
+random_paper: 49
 score:
   band: emerging
   composite: 26.9

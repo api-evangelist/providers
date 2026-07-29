@@ -79,7 +79,7 @@ overview: 'Juvo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Juvo''s developer surface includes documentation, API reference, engineering blog, and 6 more developer resources.'
-random_paper: 57
+random_paper: 52
 score:
   band: minimal
   composite: 11.3

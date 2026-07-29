@@ -101,7 +101,7 @@ plans:
 - name: Pixieset Plans Pricing
   plan_count: 8
   slug: pixieset-plans-pricing
-random_paper: 6
+random_paper: 75
 score:
   band: thin
   composite: 30.6

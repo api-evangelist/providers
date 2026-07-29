@@ -99,7 +99,7 @@ overview: 'GoodLeap is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GoodLeap''s developer surface includes documentation, API reference, support, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 53
+random_paper: 43
 score:
   band: emerging
   composite: 20.2

@@ -168,7 +168,7 @@ overview: 'Starkware publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Starkware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, changelog, and 18 more developer resources.'
-random_paper: 32
+random_paper: 20
 score:
   band: developing
   composite: 42.9

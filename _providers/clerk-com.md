@@ -987,7 +987,7 @@ plans:
 - name: Clerk Com Plans Pricing
   plan_count: 4
   slug: clerk-com-plans-pricing
-random_paper: 24
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Clerk Com Rate Limits

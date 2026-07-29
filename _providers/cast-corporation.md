@@ -91,7 +91,7 @@ overview: 'Cast Corporation is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cast Corporation''s developer surface includes documentation, support, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 13
+random_paper: 72
 score:
   band: emerging
   composite: 20.5

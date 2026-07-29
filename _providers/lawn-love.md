@@ -123,7 +123,7 @@ overview: 'Lawn Love is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lawn Love''s developer surface includes engineering blog, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 48
+random_paper: 37
 score:
   band: emerging
   composite: 17.0

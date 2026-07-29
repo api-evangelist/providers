@@ -52,7 +52,7 @@ name: Non-Working Days
 nav: Providers
 network: true
 overview: Non-Working Days publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Calendar and Public APIs.
-random_paper: 43
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

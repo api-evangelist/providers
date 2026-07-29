@@ -39,7 +39,7 @@ name: Mandatory Reserves Requirement
 nav: Providers
 network: true
 overview: Mandatory Reserves Requirement is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking Regulation, Central Banking, Financial Stability, Monetary Policy, and Reserve Requirements.
-random_paper: 64
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

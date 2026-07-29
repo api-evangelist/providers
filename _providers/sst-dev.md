@@ -141,7 +141,7 @@ overview: 'SST publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SST''s developer surface includes documentation, engineering blog, YouTube channel, tutorials, code examples, and 13 more developer resources.'
-random_paper: 78
+random_paper: 70
 score:
   band: minimal
   composite: 8.8

@@ -105,7 +105,7 @@ overview: 'Lastline publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Lastline''s developer surface includes developer portal, changelog, CLI, documentation, API reference, getting-started guide, support, and 7 more developer resources.'
-random_paper: 70
+random_paper: 60
 score:
   band: emerging
   composite: 20.5

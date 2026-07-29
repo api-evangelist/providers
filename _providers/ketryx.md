@@ -154,7 +154,7 @@ overview: 'Ketryx publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Ketryx''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 47
+random_paper: 39
 score:
   band: developing
   composite: 47.9

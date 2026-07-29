@@ -71,7 +71,7 @@ overview: 'Mate Security is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Mate Security''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 13
+random_paper: 76
 score:
   band: minimal
   composite: 10.5

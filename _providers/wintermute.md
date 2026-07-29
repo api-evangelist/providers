@@ -63,7 +63,7 @@ overview: 'Wintermute is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wintermute''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 2
+random_paper: 68
 score:
   band: minimal
   composite: 9.3

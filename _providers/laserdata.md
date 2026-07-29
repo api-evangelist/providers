@@ -238,7 +238,7 @@ overview: 'LaserData publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LaserData''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 25 more developer resources.'
-random_paper: 76
+random_paper: 65
 score:
   band: strong
   composite: 58.8

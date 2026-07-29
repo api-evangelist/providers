@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: ANNUAL REPORT 2024
   url: https://www.clevelandcliffs.com/investors/sec-filings/annual-reports/content/0000764065-25-000074/0000764065-25-000074.pdf
-random_paper: 18
+random_paper: 67
 score:
   band: minimal
   composite: 7.5

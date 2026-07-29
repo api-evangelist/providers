@@ -1115,7 +1115,7 @@ overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 18 more developer resources.'
-random_paper: 22
+random_paper: 71
 rules:
 - name: Amazon CodeGuru Reviewer API Rules
   rule_count: 5

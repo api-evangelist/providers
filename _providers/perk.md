@@ -178,7 +178,7 @@ overview: 'Perk publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Perk''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 39
+random_paper: 34
 scopes:
 - name: Perk Scopes
   scope_count: 0

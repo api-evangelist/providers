@@ -150,7 +150,7 @@ overview: 'Lendis publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Lendis'' developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: thin
   composite: 31.0

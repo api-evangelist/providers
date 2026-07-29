@@ -63,7 +63,7 @@ overview: 'Buildcheck is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Buildcheck''s developer surface includes pricing, signup flow, and 3 more developer resources.'
-random_paper: 11
+random_paper: 78
 score:
   band: minimal
   composite: 9.7

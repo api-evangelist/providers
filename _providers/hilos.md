@@ -166,7 +166,7 @@ overview: 'Hilos publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hilos'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 69
+random_paper: 63
 score:
   band: developing
   composite: 43.0

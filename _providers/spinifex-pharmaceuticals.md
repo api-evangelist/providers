@@ -39,7 +39,7 @@ name: Spinifex Pharmaceuticals
 nav: Providers
 network: true
 overview: Spinifex Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 56
+random_paper: 25
 score:
   band: minimal
   composite: 4.1

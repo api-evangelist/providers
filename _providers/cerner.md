@@ -191,7 +191,7 @@ press:
 - date: '2026-05-25'
   title: Oracle must stop kicking the Cerner can down the road— ...
   url: https://www.hfsresearch.com/research/oracle-kicking-cerner-decisive/
-random_paper: 7
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Cerner Rate Limits

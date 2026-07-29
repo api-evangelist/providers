@@ -79,7 +79,7 @@ overview: 'Curative is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Curative''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: emerging
   composite: 15.9

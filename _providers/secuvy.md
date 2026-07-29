@@ -76,7 +76,7 @@ plans:
 - name: Secuvy Plans Pricing
   plan_count: 1
   slug: secuvy-plans-pricing
-random_paper: 39
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Secuvy Rate Limits

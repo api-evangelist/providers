@@ -91,7 +91,7 @@ overview: 'Unleashed Games is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Unleashed Games'' developer surface includes support, YouTube channel, and 10 more developer resources.'
-random_paper: 22
+random_paper: 3
 score:
   band: minimal
   composite: 7.7

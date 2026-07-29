@@ -131,7 +131,7 @@ plans:
 - name: Hcaptcha Plans Pricing
   plan_count: 1
   slug: hcaptcha-plans-pricing
-random_paper: 38
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Hcaptcha Rate Limits

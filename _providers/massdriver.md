@@ -80,7 +80,7 @@ plans:
 - name: Massdriver Plans Pricing
   plan_count: 3
   slug: massdriver-plans-pricing
-random_paper: 61
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Massdriver Rate Limits

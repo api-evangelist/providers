@@ -422,7 +422,7 @@ plans:
 - name: Gravitee Plans Pricing
   plan_count: 9
   slug: gravitee-plans-pricing
-random_paper: 65
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Gravitee Rate Limits

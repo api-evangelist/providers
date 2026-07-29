@@ -79,7 +79,7 @@ overview: 'ANNA Money is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ANNA Money''s developer surface includes engineering blog, pricing, support, signup flow, and 7 more developer resources.'
-random_paper: 63
+random_paper: 51
 score:
   band: emerging
   composite: 16.8

@@ -55,7 +55,7 @@ overview: 'PaceMaker is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   PaceMaker''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 68
+random_paper: 57
 score:
   band: minimal
   composite: 5.4

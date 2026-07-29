@@ -90,7 +90,7 @@ overview: 'Kissmetrics publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Kissmetrics'' developer surface includes documentation, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 16
+random_paper: 1
 score:
   band: minimal
   composite: 10.6

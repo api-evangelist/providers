@@ -235,7 +235,7 @@ plans:
 - name: Supaglue Plans Pricing
   plan_count: 1
   slug: supaglue-plans-pricing
-random_paper: 1
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Supaglue Rate Limits

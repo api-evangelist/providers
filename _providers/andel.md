@@ -173,7 +173,7 @@ overview: 'Andel publishes 2 APIs on the [APIs.io](https://apis.io/) network: pu
 
 
   Andel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 42
+random_paper: 36
 scopes:
 - name: Andel Scopes
   scope_count: 1

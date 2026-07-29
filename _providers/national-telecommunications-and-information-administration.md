@@ -63,7 +63,7 @@ overview: 'National Telecommunications and Information Administration is profile
 
 
   National Telecommunications and Information Administration''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 55
+random_paper: 60
 score:
   band: minimal
   composite: 6.3

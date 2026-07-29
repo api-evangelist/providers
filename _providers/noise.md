@@ -59,7 +59,7 @@ overview: 'Noise is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Noise''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 7.9

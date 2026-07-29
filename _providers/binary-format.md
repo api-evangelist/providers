@@ -89,7 +89,7 @@ name: Binary Format
 nav: Providers
 network: true
 overview: Binary Format is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Binary Format, Data Encoding, Protocol Buffers, Serialization, and MessagePack.
-random_paper: 75
+random_paper: 59
 score:
   band: minimal
   composite: 7.5

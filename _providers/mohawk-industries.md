@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: 2024 Annual Report
   url: https://mohawkind.com/_pdf/Mohawk_2024_Annual_Report.pdf
-random_paper: 52
+random_paper: 30
 score:
   band: minimal
   composite: 2.6

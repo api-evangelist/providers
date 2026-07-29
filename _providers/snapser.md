@@ -128,7 +128,7 @@ overview: 'Snapser is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Snapser''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
-random_paper: 53
+random_paper: 44
 score:
   band: emerging
   composite: 27.0

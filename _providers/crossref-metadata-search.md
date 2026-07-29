@@ -52,7 +52,7 @@ name: Crossref Metadata Search
 nav: Providers
 network: true
 overview: Crossref Metadata Search publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 54
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

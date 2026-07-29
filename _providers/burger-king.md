@@ -102,7 +102,7 @@ overview: 'Burger King publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Burger King''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 11
+random_paper: 77
 score:
   band: minimal
   composite: 9.1

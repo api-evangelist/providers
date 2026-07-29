@@ -145,7 +145,7 @@ plans:
 - name: Bitmart Plans Pricing
   plan_count: 5
   slug: bitmart-plans-pricing
-random_paper: 44
+random_paper: 35
 rate_limits:
 - limit_count: 15
   name: Bitmart Rate Limits

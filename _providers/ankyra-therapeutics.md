@@ -71,7 +71,7 @@ overview: 'Ankyra Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Ankyra Therapeutics'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 13
+random_paper: 68
 score:
   band: minimal
   composite: 6.4

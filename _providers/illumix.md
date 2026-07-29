@@ -71,7 +71,7 @@ overview: 'Illumix is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Illumix''s developer surface includes support and 6 more developer resources.'
-random_paper: 61
+random_paper: 52
 score:
   band: emerging
   composite: 13.1

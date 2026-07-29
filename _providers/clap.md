@@ -75,7 +75,7 @@ overview: 'CLAP is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   CLAP''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 21
+random_paper: 16
 score:
   band: emerging
   composite: 15.2

@@ -149,7 +149,7 @@ plans:
 - name: Fourthwall Plans Pricing
   plan_count: 2
   slug: fourthwall-plans-pricing
-random_paper: 69
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Fourthwall Rate Limits

@@ -123,7 +123,7 @@ overview: 'Kovi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kovi''s developer surface includes engineering blog, support, signup flow, pricing, YouTube channel, and 15 more developer resources.'
-random_paper: 46
+random_paper: 41
 score:
   band: emerging
   composite: 20.2

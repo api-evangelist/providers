@@ -223,7 +223,7 @@ overview: 'Anam publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Anam''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 28 more developer resources.'
-random_paper: 18
+random_paper: 13
 score:
   band: strong
   composite: 57.2

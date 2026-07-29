@@ -142,7 +142,7 @@ plans:
 - name: Mabl Plans Pricing
   plan_count: 3
   slug: mabl-plans-pricing
-random_paper: 17
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Mabl Rate Limits

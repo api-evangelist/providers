@@ -52,7 +52,7 @@ name: General Galactic Corporation
 nav: Providers
 network: true
 overview: General Galactic Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Ethereum, Blockchain, and Developer Tools.
-random_paper: 4
+random_paper: 48
 score:
   band: minimal
   composite: 5.7

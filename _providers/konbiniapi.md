@@ -380,7 +380,7 @@ plans:
 - name: Konbiniapi Plans Pricing
   plan_count: 5
   slug: konbiniapi-plans-pricing
-random_paper: 33
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Konbiniapi Rate Limits

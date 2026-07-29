@@ -134,7 +134,7 @@ plans:
 - name: Vllm Plans Pricing
   plan_count: 1
   slug: vllm-plans-pricing
-random_paper: 48
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Vllm Rate Limits

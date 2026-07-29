@@ -56,7 +56,7 @@ name: BIT ODD
 nav: Providers
 network: true
 overview: BIT ODD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Gaming, Mobile Games, and Game Studio.
-random_paper: 43
+random_paper: 35
 score:
   band: minimal
   composite: 9.2

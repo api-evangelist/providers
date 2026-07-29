@@ -67,7 +67,7 @@ overview: 'Aivar is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aivar''s developer surface includes support and 5 more developer resources.'
-random_paper: 57
+random_paper: 51
 score:
   band: minimal
   composite: 10.1

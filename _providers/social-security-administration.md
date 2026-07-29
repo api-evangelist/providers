@@ -158,7 +158,7 @@ plans:
 - name: Social Security Administration Plans Pricing
   plan_count: 3
   slug: social-security-administration-plans-pricing
-random_paper: 42
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Social Security Administration Rate Limits

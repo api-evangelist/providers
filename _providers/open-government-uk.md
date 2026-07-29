@@ -60,7 +60,7 @@ name: Open Government, UK
 nav: Providers
 network: true
 overview: Open Government, UK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 24
+random_paper: 1
 score:
   band: minimal
   composite: 8.2

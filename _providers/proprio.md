@@ -83,7 +83,7 @@ overview: 'Proprio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Proprio''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 68
+random_paper: 59
 score:
   band: minimal
   composite: 8.9

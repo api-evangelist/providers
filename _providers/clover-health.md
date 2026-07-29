@@ -151,7 +151,7 @@ overview: 'Clover Health publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Clover Health''s developer surface includes documentation, API reference, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 62
+random_paper: 46
 score:
   band: thin
   composite: 41.6

@@ -48,7 +48,7 @@ name: Tidal Metals
 nav: Providers
 network: true
 overview: Tidal Metals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Magnesium, Critical Minerals, Materials, and Cleantech.
-random_paper: 32
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

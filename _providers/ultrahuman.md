@@ -121,7 +121,7 @@ plans:
 - name: Ultrahuman Plans Pricing
   plan_count: 4
   slug: ultrahuman-plans-pricing
-random_paper: 62
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Ultrahuman Rate Limits

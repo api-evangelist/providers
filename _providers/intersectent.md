@@ -48,7 +48,7 @@ name: Intersect ENT
 nav: Providers
 network: true
 overview: Intersect ENT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, MedTech, Healthcare, and Ear Nose and Throat.
-random_paper: 40
+random_paper: 24
 score:
   band: minimal
   composite: 4.3

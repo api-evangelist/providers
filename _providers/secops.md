@@ -39,7 +39,7 @@ name: SecOps
 nav: Providers
 network: true
 overview: SecOps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include DevSecOps, Incident Response, Operations, Security, and Threat Management.
-random_paper: 21
+random_paper: 13
 score:
   band: minimal
   composite: 5.2

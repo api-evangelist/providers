@@ -48,7 +48,7 @@ name: Plato
 nav: Providers
 network: true
 overview: Plato is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Mentorship, Engineering Leadership, and Community.
-random_paper: 70
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

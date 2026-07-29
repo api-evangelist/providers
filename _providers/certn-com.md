@@ -171,7 +171,7 @@ overview: 'Certn publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Certn''s developer surface includes developer portal, documentation, getting-started guide, pricing, signup flow, engineering blog, support, and 17 more developer resources.'
-random_paper: 35
+random_paper: 24
 score:
   band: emerging
   composite: 24.6

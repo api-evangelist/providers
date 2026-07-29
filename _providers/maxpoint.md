@@ -39,7 +39,7 @@ name: MaxPoint
 nav: Providers
 network: true
 overview: MaxPoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Marketing.
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

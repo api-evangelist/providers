@@ -171,7 +171,7 @@ overview: 'Fountain publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Fountain''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 78
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Fountain Rate Limits

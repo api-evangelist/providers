@@ -71,7 +71,7 @@ overview: 'Weaveworks is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Weaveworks'' developer surface includes documentation, CLI, and 5 more developer resources.'
-random_paper: 75
+random_paper: 62
 score:
   band: minimal
   composite: 9.8

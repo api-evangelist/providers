@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: The Catholic Church's response to AI — so far
   url: https://www.catholicworldreport.com/2026/05/15/the-catholic-churchs-response-to-ai-so-far/
-random_paper: 41
+random_paper: 17
 score:
   band: minimal
   composite: 2.6

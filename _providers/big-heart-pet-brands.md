@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: Roper v. Big Heart Pet Brands, Inc. - 1:19-cv-00406-DAD- ...
   url: https://www.classaction.org/media/roper-v-big-heart-pet-brands-inc.pdf
-random_paper: 40
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

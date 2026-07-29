@@ -59,7 +59,7 @@ overview: 'Captain Fresh is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Captain Fresh''s developer surface includes support and 3 more developer resources.'
-random_paper: 53
+random_paper: 37
 score:
   band: minimal
   composite: 5.9

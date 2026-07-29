@@ -187,7 +187,7 @@ overview: 'The Travelers Companies is profiled on the [APIs.io](https://apis.io/
 
 
   The The Travelers Companies catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 13
+random_paper: 68
 score:
   band: emerging
   composite: 18.0

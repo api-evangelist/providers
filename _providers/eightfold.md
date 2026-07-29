@@ -160,7 +160,7 @@ overview: 'Eightfold publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Eightfold''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 21 more developer resources.'
-random_paper: 2
+random_paper: 70
 scopes:
 - name: Eightfold Scopes
   scope_count: 0

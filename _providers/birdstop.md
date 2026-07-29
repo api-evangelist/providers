@@ -63,7 +63,7 @@ overview: 'Birdstop is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Birdstop''s developer surface includes pricing, engineering blog, and 3 more developer resources.'
-random_paper: 2
+random_paper: 71
 score:
   band: minimal
   composite: 7.5

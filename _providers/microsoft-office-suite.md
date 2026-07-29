@@ -139,7 +139,7 @@ plans:
 - name: Microsoft Office Suite Plans Pricing
   plan_count: 3
   slug: microsoft-office-suite-plans-pricing
-random_paper: 34
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Suite Rate Limits

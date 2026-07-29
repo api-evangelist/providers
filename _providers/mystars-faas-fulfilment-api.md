@@ -43,7 +43,7 @@ name: MyStars FaaS — Fulfilment API
 nav: Providers
 network: true
 overview: 'MyStars FaaS — Fulfilment API publishes 1 API on the [APIs.io](https://apis.io/) network: MyStars FaaS Fulfilment API. Tagged areas include telegram, telegram-stars, telegram-premium, payments, and crypto.'
-random_paper: 39
+random_paper: 5
 score:
   band: minimal
   composite: 12.2

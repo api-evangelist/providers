@@ -44,7 +44,7 @@ name: Gnip
 nav: Providers
 network: true
 overview: Gnip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Social Media, Data, and Streaming.
-random_paper: 35
+random_paper: 30
 score:
   band: minimal
   composite: 5.0

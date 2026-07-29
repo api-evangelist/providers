@@ -95,7 +95,7 @@ overview: 'Orolabs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Orolabs'' developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: emerging
   composite: 17.9

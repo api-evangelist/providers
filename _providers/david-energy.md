@@ -71,7 +71,7 @@ overview: 'David Energy is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   David Energy''s developer surface includes getting-started guide, support, engineering blog, and 4 more developer resources.'
-random_paper: 30
+random_paper: 15
 score:
   band: minimal
   composite: 11.0

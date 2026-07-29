@@ -55,7 +55,7 @@ overview: 'Resideo Technologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   Resideo Technologies'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 22
+random_paper: 76
 score:
   band: minimal
   composite: 3.7

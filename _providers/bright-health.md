@@ -48,7 +48,7 @@ name: Bright Health
 nav: Providers
 network: true
 overview: Bright Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Health Insurance, Insurance, and Medicare Advantage.
-random_paper: 51
+random_paper: 35
 score:
   band: minimal
   composite: 5.6

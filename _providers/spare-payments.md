@@ -106,7 +106,7 @@ overview: 'Spare Payments is profiled on the [APIs.io](https://apis.io/) network
 
 
   Spare Payments'' developer surface includes documentation, API reference, support, changelog, and 10 more developer resources.'
-random_paper: 43
+random_paper: 25
 score:
   band: thin
   composite: 31.5

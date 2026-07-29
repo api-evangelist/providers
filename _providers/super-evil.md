@@ -67,7 +67,7 @@ overview: 'Super Evil is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Super Evil''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 9
+random_paper: 76
 score:
   band: minimal
   composite: 10.5

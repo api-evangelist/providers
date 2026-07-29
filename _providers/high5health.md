@@ -48,7 +48,7 @@ name: High5health
 nav: Providers
 network: true
 overview: High5health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Dental Support Organization, and Oral Surgery.
-random_paper: 72
+random_paper: 59
 score:
   band: minimal
   composite: 5.4

@@ -102,7 +102,7 @@ overview: 'Red Hat publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Red Hat''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 0
+random_paper: 72
 score:
   band: emerging
   composite: 14.0

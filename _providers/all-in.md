@@ -88,7 +88,7 @@ overview: 'All In publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   All In''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 20
+random_paper: 13
 scopes:
 - name: All In Scopes
   scope_count: 0

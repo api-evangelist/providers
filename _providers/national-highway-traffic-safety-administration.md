@@ -102,7 +102,7 @@ plans:
 - name: National Highway Traffic Safety Administration Plans Pricing
   plan_count: 3
   slug: national-highway-traffic-safety-administration-plans-pricing
-random_paper: 23
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: National Highway Traffic Safety Administration Rate Limits

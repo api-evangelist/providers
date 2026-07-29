@@ -132,7 +132,7 @@ plans:
 - name: Kintsugi Plans Pricing
   plan_count: 4
   slug: kintsugi-plans-pricing
-random_paper: 9
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Kintsugi Rate Limits

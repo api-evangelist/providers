@@ -48,7 +48,7 @@ name: Sole Society
 nav: Providers
 network: true
 overview: Sole Society is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Footwear, Fashion, Ecommerce, and Retail.
-random_paper: 63
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

@@ -326,7 +326,7 @@ plans:
 - name: Algorand Plans
   plan_count: 4
   slug: algorand-plans
-random_paper: 50
+random_paper: 40
 rate_limits:
 - limit_count: 7
   name: Algorand Rate Limits

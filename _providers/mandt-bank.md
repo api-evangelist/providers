@@ -91,7 +91,7 @@ overview: 'M&T Bank is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   M&T Bank''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 41
+random_paper: 29
 score:
   band: emerging
   composite: 13.1

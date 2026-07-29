@@ -60,7 +60,7 @@ name: Riiico
 nav: Providers
 network: true
 overview: Riiico is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Digital Twin, 3D, and Factory Automation.
-random_paper: 7
+random_paper: 79
 score:
   band: minimal
   composite: 9.7

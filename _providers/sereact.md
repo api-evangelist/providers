@@ -71,7 +71,7 @@ overview: 'Sereact is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sereact''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 32
+random_paper: 23
 score:
   band: minimal
   composite: 9.1

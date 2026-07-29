@@ -131,7 +131,7 @@ plans:
 - name: Cj Affiliate Plans Pricing
   plan_count: 2
   slug: cj-affiliate-plans-pricing
-random_paper: 77
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Cj Affiliate Rate Limits

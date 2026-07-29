@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: AI Hurtles Ahead
   url: https://www.oaktreecapital.com/insights/memo/ai-hurtles-ahead
-random_paper: 74
+random_paper: 48
 score:
   band: minimal
   composite: 4.1

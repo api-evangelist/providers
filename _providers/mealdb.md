@@ -161,7 +161,7 @@ plans:
 - name: Mealdb Plans Pricing
   plan_count: 2
   slug: mealdb-plans-pricing
-random_paper: 60
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Mealdb Rate Limits

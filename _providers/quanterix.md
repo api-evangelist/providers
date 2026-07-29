@@ -48,7 +48,7 @@ name: Quanterix
 nav: Providers
 network: true
 overview: Quanterix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Diagnostics, and Biomarkers.
-random_paper: 45
+random_paper: 33
 score:
   band: minimal
   composite: 5.4

@@ -132,7 +132,7 @@ overview: 'Pachama is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pachama''s developer surface includes engineering blog, FAQ, GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 4
+random_paper: 75
 score:
   band: minimal
   composite: 6.1

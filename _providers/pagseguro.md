@@ -228,7 +228,7 @@ plans:
 - name: Pagseguro Plans Pricing
   plan_count: 2
   slug: pagseguro-plans-pricing
-random_paper: 25
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Pagseguro Rate Limits

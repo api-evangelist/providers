@@ -103,7 +103,7 @@ overview: 'taktile is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   taktile''s developer surface includes documentation, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: emerging
   composite: 23.8

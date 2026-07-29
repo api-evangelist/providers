@@ -215,7 +215,7 @@ overview: 'GetAccept publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   GetAccept''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 75
+random_paper: 64
 scopes:
 - name: Getaccept Scopes
   scope_count: 1

@@ -120,7 +120,7 @@ overview: 'Nixpacks publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Nixpacks'' developer surface includes documentation, getting-started guide, changelog, and 12 more developer resources.'
-random_paper: 75
+random_paper: 65
 score:
   band: emerging
   composite: 13.1

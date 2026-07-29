@@ -618,7 +618,7 @@ overview: 'ServiceTitan publishes 40 APIs on the [APIs.io](https://apis.io/) net
 
 
   ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 39 more developer resources.'
-random_paper: 33
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Servicetitan Rate Limits

@@ -79,7 +79,7 @@ overview: 'World Golf Tour is profiled on the [APIs.io](https://apis.io/) networ
 
 
   World Golf Tour''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 23
+random_paper: 4
 score:
   band: minimal
   composite: 12.4

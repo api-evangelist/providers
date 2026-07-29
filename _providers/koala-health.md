@@ -120,7 +120,7 @@ overview: 'Koala Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Koala Health''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 10
+random_paper: 75
 score:
   band: emerging
   composite: 22.3

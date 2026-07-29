@@ -144,7 +144,7 @@ plans:
 - name: Lucidchart Plans Pricing
   plan_count: 4
   slug: lucidchart-plans-pricing
-random_paper: 32
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Lucidchart Rate Limits

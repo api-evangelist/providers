@@ -614,7 +614,7 @@ plans:
 - name: Cockroachdb Plans Pricing
   plan_count: 3
   slug: cockroachdb-plans-pricing
-random_paper: 33
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Cockroachdb Rate Limits

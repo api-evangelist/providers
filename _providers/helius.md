@@ -126,7 +126,7 @@ plans:
 - name: Helius Plans Pricing
   plan_count: 5
   slug: helius-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Helius Rate Limits

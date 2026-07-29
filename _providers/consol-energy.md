@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: 'Earnings call: CONSOL Energy reported a net income of $58 ...'
   url: https://www.investing.com/news/stock-market-news/earnings-call-consol-energy-reported-a-net-income-of-58-million-93CH-3562829
-random_paper: 6
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Consol Energy Rate Limits

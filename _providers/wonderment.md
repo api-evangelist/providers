@@ -159,7 +159,7 @@ overview: 'Wonderment publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wonderment''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
-random_paper: 64
+random_paper: 51
 score:
   band: thin
   composite: 39.9

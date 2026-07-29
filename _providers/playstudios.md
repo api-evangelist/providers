@@ -60,7 +60,7 @@ name: PLAYSTUDIOS
 nav: Providers
 network: true
 overview: PLAYSTUDIOS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Casual Games.
-random_paper: 32
+random_paper: 17
 score:
   band: minimal
   composite: 9.2

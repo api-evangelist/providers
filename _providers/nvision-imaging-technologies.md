@@ -48,7 +48,7 @@ name: NVision Imaging Technologies
 nav: Providers
 network: true
 overview: NVision Imaging Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engineered Biology, Quantum Technology, Molecular Imaging, and MRI.
-random_paper: 36
+random_paper: 0
 score:
   band: minimal
   composite: 5.4

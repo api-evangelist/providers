@@ -63,7 +63,7 @@ overview: 'Alkemics is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Alkemics'' developer surface includes documentation and 4 more developer resources.'
-random_paper: 51
+random_paper: 41
 score:
   band: minimal
   composite: 7.9

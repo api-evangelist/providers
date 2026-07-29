@@ -75,7 +75,7 @@ overview: 'Winn.ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Winn.ai''s developer surface includes pricing and 7 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: emerging
   composite: 17.1

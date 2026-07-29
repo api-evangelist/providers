@@ -52,7 +52,7 @@ name: Performance Food Group
 nav: Providers
 network: true
 overview: Performance Food Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food, Distribution, Foodservice, and Fortune 500.
-random_paper: 59
+random_paper: 39
 score:
   band: minimal
   composite: 4.1

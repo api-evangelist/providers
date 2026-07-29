@@ -73,7 +73,7 @@ plans:
 - name: Domo Plans Pricing
   plan_count: 3
   slug: domo-plans-pricing
-random_paper: 36
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Domo Rate Limits

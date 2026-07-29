@@ -71,7 +71,7 @@ overview: 'Zageno is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Zageno''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 12.7

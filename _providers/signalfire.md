@@ -108,7 +108,7 @@ overview: 'SignalFire is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   SignalFire''s developer surface includes engineering blog and 15 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: minimal
   composite: 7.3

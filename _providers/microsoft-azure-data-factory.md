@@ -114,7 +114,7 @@ plans:
 - name: Microsoft Azure Data Factory Plans Pricing
   plan_count: 3
   slug: microsoft-azure-data-factory-plans-pricing
-random_paper: 73
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Data Factory Rate Limits

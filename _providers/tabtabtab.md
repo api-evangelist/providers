@@ -139,7 +139,7 @@ overview: 'TabTabTab publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   TabTabTab''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 14 more developer resources.'
-random_paper: 64
+random_paper: 53
 score:
   band: developing
   composite: 46.9

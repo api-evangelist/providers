@@ -48,7 +48,7 @@ name: ClippPR
 nav: Providers
 network: true
 overview: ClippPR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Relations, Media Monitoring, Press Clipping, and Marketing.
-random_paper: 51
+random_paper: 42
 score:
   band: minimal
   composite: 5.7

@@ -175,7 +175,7 @@ plans:
 - name: Virto Commerce Plans Pricing
   plan_count: 3
   slug: virto-commerce-plans-pricing
-random_paper: 30
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Virto Commerce Rate Limits

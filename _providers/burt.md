@@ -52,7 +52,7 @@ name: Burt
 nav: Providers
 network: true
 overview: Burt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Freight, Supply Chain, and Artificial Intelligence.
-random_paper: 50
+random_paper: 45
 score:
   band: minimal
   composite: 9.2

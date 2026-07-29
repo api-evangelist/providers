@@ -104,7 +104,7 @@ plans:
 - name: Strikingly Plans Pricing
   plan_count: 4
   slug: strikingly-plans-pricing
-random_paper: 77
+random_paper: 64
 rate_limits:
 - limit_count: 15
   name: Strikingly Rate Limits

@@ -52,7 +52,7 @@ name: GurbaniNow
 nav: Providers
 network: true
 overview: GurbaniNow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 57
+random_paper: 44
 score:
   band: minimal
   composite: 5.0

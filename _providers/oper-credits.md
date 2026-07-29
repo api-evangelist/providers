@@ -312,7 +312,7 @@ overview: 'Oper Credits publishes 52 APIs on the [APIs.io](https://apis.io/) net
 
 
   Oper Credits'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 48
+random_paper: 33
 score:
   band: developing
   composite: 42.6

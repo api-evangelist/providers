@@ -44,7 +44,7 @@ name: zuoshouyisheng
 nav: Providers
 network: true
 overview: zuoshouyisheng is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 55
+random_paper: 36
 score:
   band: minimal
   composite: 3.2

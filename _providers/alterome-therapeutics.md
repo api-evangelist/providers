@@ -67,7 +67,7 @@ overview: 'Alterome Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Alterome Therapeutics'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 66
+random_paper: 39
 score:
   band: minimal
   composite: 9.7

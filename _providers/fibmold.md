@@ -83,7 +83,7 @@ overview: 'Fibmold is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Fibmold''s developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
-random_paper: 22
+random_paper: 13
 score:
   band: minimal
   composite: 10.5

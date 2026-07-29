@@ -99,7 +99,7 @@ overview: 'HAMAMA is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   HAMAMA''s developer surface includes engineering blog, support, FAQ, getting-started guide, pricing, signup flow, and 8 more developer resources.'
-random_paper: 60
+random_paper: 53
 score:
   band: emerging
   composite: 18.5

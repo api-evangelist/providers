@@ -87,7 +87,7 @@ overview: 'Mercurius publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Mercurius'' developer surface includes documentation and 8 more developer resources.'
-random_paper: 43
+random_paper: 31
 score:
   band: emerging
   composite: 20.5

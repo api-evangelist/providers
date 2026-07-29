@@ -56,7 +56,7 @@ name: NOV
 nav: Providers
 network: true
 overview: NOV is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Oil and Gas, Energy, and Industrial.
-random_paper: 23
+random_paper: 19
 score:
   band: minimal
   composite: 5.3

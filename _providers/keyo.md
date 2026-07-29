@@ -176,7 +176,7 @@ overview: 'Keyo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Keyo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 45
+random_paper: 40
 score:
   band: developing
   composite: 48.3

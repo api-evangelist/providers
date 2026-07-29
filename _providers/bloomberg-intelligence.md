@@ -136,7 +136,7 @@ plans:
 - name: Bloomberg Intelligence Plans Pricing
   plan_count: 3
   slug: bloomberg-intelligence-plans-pricing
-random_paper: 53
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Bloomberg Intelligence Rate Limits

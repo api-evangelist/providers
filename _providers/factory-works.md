@@ -51,7 +51,7 @@ overview: 'Factory Works is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Factory Works'' developer surface includes signup flow and 1 more developer resources.'
-random_paper: 28
+random_paper: 11
 score:
   band: minimal
   composite: 7.6

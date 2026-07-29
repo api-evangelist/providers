@@ -222,7 +222,7 @@ plans:
 - name: Trello Plans Pricing
   plan_count: 4
   slug: trello-plans-pricing
-random_paper: 26
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Trello Rate Limits

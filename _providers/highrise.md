@@ -189,7 +189,7 @@ overview: 'Highrise publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Highrise''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 21 more developer resources.'
-random_paper: 61
+random_paper: 51
 score:
   band: developing
   composite: 45.7

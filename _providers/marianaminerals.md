@@ -48,7 +48,7 @@ name: Marianaminerals
 nav: Providers
 network: true
 overview: Marianaminerals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Critical Minerals, Mining, Copper, and Lithium.
-random_paper: 8
+random_paper: 68
 score:
   band: minimal
   composite: 5.5

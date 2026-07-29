@@ -45,7 +45,7 @@ name: Symbiotic
 nav: Providers
 network: true
 overview: Symbiotic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Crypto Defi.
-random_paper: 31
+random_paper: 19
 score:
   band: minimal
   composite: 5.8

@@ -56,7 +56,7 @@ name: BLAST
 nav: Providers
 network: true
 overview: BLAST is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Esports, Gaming, Entertainment, and Media.
-random_paper: 60
+random_paper: 54
 score:
   band: minimal
   composite: 7.1

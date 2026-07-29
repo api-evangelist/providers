@@ -95,7 +95,7 @@ overview: 'Vega Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Vega Health''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 67
+random_paper: 54
 score:
   band: emerging
   composite: 16.0

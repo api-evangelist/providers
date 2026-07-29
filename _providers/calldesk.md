@@ -79,7 +79,7 @@ overview: 'CallDesk is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CallDesk''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 45
+random_paper: 35
 score:
   band: emerging
   composite: 16.2

@@ -287,7 +287,7 @@ overview: 'Cadana publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 47
+random_paper: 40
 score:
   band: developing
   composite: 50.8

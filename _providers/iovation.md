@@ -75,7 +75,7 @@ overview: 'iovation is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   iovation''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 4
+random_paper: 73
 score:
   band: minimal
   composite: 12.3

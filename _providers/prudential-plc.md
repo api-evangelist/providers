@@ -169,7 +169,7 @@ overview: 'Prudential plc is profiled on the [APIs.io](https://apis.io/) network
 
 
   Prudential plc''s developer surface includes engineering blog and 32 more developer resources.'
-random_paper: 22
+random_paper: 4
 score:
   band: emerging
   composite: 17.6

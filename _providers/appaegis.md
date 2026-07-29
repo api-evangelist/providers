@@ -132,7 +132,7 @@ overview: 'Appaegis publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Appaegis'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: emerging
   composite: 26.1

@@ -183,7 +183,7 @@ press:
 - date: '2026-05-25'
   title: In-House Tech and AI Agents Expand Impact
   url: https://www.chrobinson.com/en-us/about-us/newsroom/news/2026/lean-ai-growing-shipper-impact/
-random_paper: 11
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Ch Robinson Worldwide Rate Limits

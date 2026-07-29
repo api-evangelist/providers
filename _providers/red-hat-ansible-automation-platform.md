@@ -147,7 +147,7 @@ plans:
 - name: Red Hat Ansible Automation Platform Plans Pricing
   plan_count: 3
   slug: red-hat-ansible-automation-platform-plans-pricing
-random_paper: 28
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Red Hat Ansible Automation Platform Rate Limits

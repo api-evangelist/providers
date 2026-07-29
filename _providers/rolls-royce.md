@@ -88,7 +88,7 @@ overview: 'Rolls-Royce is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Rolls-Royce''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 41
+random_paper: 27
 score:
   band: minimal
   composite: 6.4

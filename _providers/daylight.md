@@ -125,7 +125,7 @@ overview: 'Daylight publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Daylight''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 64
+random_paper: 54
 scopes:
 - name: Daylight Scopes
   scope_count: 2

@@ -330,7 +330,7 @@ plans:
 - name: Mercado Pago Plans Pricing
   plan_count: 2
   slug: mercado-pago-plans-pricing
-random_paper: 14
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Mercado Pago Rate Limits

@@ -220,7 +220,7 @@ overview: 'Credilinq.ai publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Credilinq.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
-random_paper: 51
+random_paper: 37
 score:
   band: developing
   composite: 47.8

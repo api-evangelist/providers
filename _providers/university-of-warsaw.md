@@ -169,7 +169,7 @@ plans:
 - name: University Of Warsaw Plans Pricing
   plan_count: 2
   slug: university-of-warsaw-plans-pricing
-random_paper: 32
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: University Of Warsaw Rate Limits

@@ -121,7 +121,7 @@ plans:
 - name: Notdiamond Plans Pricing
   plan_count: 2
   slug: notdiamond-plans-pricing
-random_paper: 42
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Notdiamond Rate Limits

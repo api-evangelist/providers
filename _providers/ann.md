@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: How Artificial Intelligence is Powering Education with Dr. Ann ...
   url: https://www.youtube.com/watch?v=2h3LcP7IAiQ
-random_paper: 1
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Ann Rate Limits

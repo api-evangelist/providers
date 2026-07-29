@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: Amerco Inc. reports earnings for Qtr to Sept 30
   url: https://www.nytimes.com/1994/11/12/business/amerco-inc-reports-earnings-for-qtr-to-sept-30.html
-random_paper: 78
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Amerco Rate Limits

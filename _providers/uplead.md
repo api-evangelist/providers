@@ -171,7 +171,7 @@ plans:
 - name: Uplead Plans Pricing
   plan_count: 6
   slug: uplead-plans-pricing
-random_paper: 3
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Uplead Rate Limits

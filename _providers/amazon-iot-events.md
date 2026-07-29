@@ -1478,7 +1478,7 @@ plans:
 - name: Amazon Iot Events Plans Pricing
   plan_count: 3
   slug: amazon-iot-events-plans-pricing
-random_paper: 70
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Events Rate Limits

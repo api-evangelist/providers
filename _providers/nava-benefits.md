@@ -67,7 +67,7 @@ overview: 'Nava Benefits is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Nava Benefits'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 51
+random_paper: 35
 score:
   band: minimal
   composite: 12.0

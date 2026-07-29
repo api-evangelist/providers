@@ -39,7 +39,7 @@ name: Dolly
 nav: Providers
 network: true
 overview: Dolly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Delivery, Last Mile Delivery, Logistics, and Moving.
-random_paper: 74
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

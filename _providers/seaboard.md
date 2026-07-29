@@ -89,7 +89,7 @@ press:
 - date: '2023-08-01'
   title: 'By: EARNINGS REPORT 2ND QUARTER 2023 | Seaboard'
   url: https://www.seaboardcorp.com/investors/#comment-104
-random_paper: 43
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Seaboard Rate Limits

@@ -187,7 +187,7 @@ overview: 'Jam publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Jam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, CLI, and 25 more developer resources.'
-random_paper: 75
+random_paper: 72
 scopes:
 - name: Jam Scopes
   scope_count: 2

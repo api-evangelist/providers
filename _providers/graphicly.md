@@ -44,7 +44,7 @@ name: Graphicly
 nav: Providers
 network: true
 overview: Graphicly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Comics, E-Books, Self-Publishing, and Content Distribution.
-random_paper: 15
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

@@ -55,7 +55,7 @@ overview: 'Tripp is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tripp''s developer surface includes support and 2 more developer resources.'
-random_paper: 6
+random_paper: 79
 score:
   band: minimal
   composite: 5.9

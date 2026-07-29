@@ -75,7 +75,7 @@ overview: 'Newton Research is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Newton Research''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 56
+random_paper: 37
 score:
   band: minimal
   composite: 12.2

@@ -88,7 +88,7 @@ overview: 'Cape Analytics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Cape Analytics'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 0
+random_paper: 62
 score:
   band: emerging
   composite: 18.0

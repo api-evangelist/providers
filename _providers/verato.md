@@ -224,7 +224,7 @@ overview: 'Verato publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Verato''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 25
+random_paper: 17
 score:
   band: developing
   composite: 47.2

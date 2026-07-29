@@ -71,7 +71,7 @@ overview: 'Blendid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Blendid''s developer surface includes support and 6 more developer resources.'
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 8.0

@@ -103,7 +103,7 @@ overview: 'Vitality publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Vitality''s developer surface includes support, authentication, and 14 more developer resources.'
-random_paper: 49
+random_paper: 35
 scopes:
 - name: Vitality Uk Scopes
   scope_count: 5

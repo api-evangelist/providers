@@ -120,7 +120,7 @@ overview: 'backstitch publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   backstitch''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 29
+random_paper: 16
 score:
   band: emerging
   composite: 20.0

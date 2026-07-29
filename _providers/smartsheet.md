@@ -138,7 +138,7 @@ overview: 'Smartsheet publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Smartsheet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 10 more developer resources.'
-random_paper: 61
+random_paper: 48
 scopes:
 - name: Smartsheet Scopes
   scope_count: 10

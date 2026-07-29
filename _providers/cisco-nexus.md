@@ -560,7 +560,7 @@ plans:
 - name: Cisco Nexus Plans Pricing
   plan_count: 1
   slug: cisco-nexus-plans-pricing
-random_paper: 31
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Cisco Nexus Rate Limits

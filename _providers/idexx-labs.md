@@ -88,7 +88,7 @@ overview: 'IDEXX publishes 5 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   IDEXX''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: minimal
   composite: 11.2

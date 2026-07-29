@@ -144,7 +144,7 @@ overview: 'Zerto publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Zerto''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 16 more developer resources.'
-random_paper: 11
+random_paper: 4
 score:
   band: thin
   composite: 28.8

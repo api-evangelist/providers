@@ -502,7 +502,7 @@ plans:
 - name: Openweathermap Plans Pricing
   plan_count: 7
   slug: openweathermap-plans-pricing
-random_paper: 3
+random_paper: 64
 rate_limits:
 - limit_count: 12
   name: Openweathermap Rate Limits

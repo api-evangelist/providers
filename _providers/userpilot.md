@@ -203,7 +203,7 @@ plans:
 - name: Userpilot Plans Pricing
   plan_count: 1
   slug: userpilot-plans-pricing
-random_paper: 51
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Userpilot Rate Limits

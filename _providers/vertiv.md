@@ -208,7 +208,7 @@ plans:
 - name: Vertiv Plans Pricing
   plan_count: 1
   slug: vertiv-plans-pricing
-random_paper: 40
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Vertiv Rate Limits

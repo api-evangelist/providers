@@ -112,7 +112,7 @@ overview: 'Turo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Turo''s developer surface includes engineering blog, GitHub presence, and 15 more developer resources.'
-random_paper: 63
+random_paper: 58
 score:
   band: minimal
   composite: 9.1

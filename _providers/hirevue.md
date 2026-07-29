@@ -102,7 +102,7 @@ plans:
 - name: Hirevue Plans Pricing
   plan_count: 1
   slug: hirevue-plans-pricing
-random_paper: 49
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Hirevue Rate Limits

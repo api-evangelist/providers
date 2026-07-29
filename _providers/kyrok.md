@@ -91,7 +91,7 @@ overview: 'Kyrok is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kyrok''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 7
+random_paper: 0
 score:
   band: emerging
   composite: 14.1

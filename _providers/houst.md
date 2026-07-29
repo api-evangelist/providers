@@ -71,7 +71,7 @@ overview: 'Houst is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Houst''s developer surface includes engineering blog, pricing, and 5 more developer resources.'
-random_paper: 10
+random_paper: 3
 score:
   band: emerging
   composite: 13.1

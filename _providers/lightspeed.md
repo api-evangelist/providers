@@ -116,7 +116,7 @@ plans:
 - name: Lightspeed Plans Pricing
   plan_count: 0
   slug: lightspeed-plans-pricing
-random_paper: 38
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Lightspeed Rate Limits

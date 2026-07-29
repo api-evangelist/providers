@@ -63,7 +63,7 @@ overview: 'Orion Health publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Orion Health''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 41
+random_paper: 26
 score:
   band: minimal
   composite: 6.4

@@ -87,7 +87,7 @@ overview: 'GoodShip is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GoodShip''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: emerging
   composite: 13.7

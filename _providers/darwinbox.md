@@ -104,7 +104,7 @@ plans:
 - name: Darwinbox Plans Pricing
   plan_count: 1
   slug: darwinbox-plans-pricing
-random_paper: 26
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Darwinbox Rate Limits

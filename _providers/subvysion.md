@@ -52,7 +52,7 @@ name: SubVysion
 nav: Providers
 network: true
 overview: SubVysion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Underground Mapping, Ground Penetrating Radar, 3D Mapping, and Construction Technology.
-random_paper: 62
+random_paper: 50
 score:
   band: minimal
   composite: 5.7

@@ -99,7 +99,7 @@ overview: 'Neo.Tax is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Neo.Tax''s developer surface includes engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 23
+random_paper: 15
 score:
   band: emerging
   composite: 20.5

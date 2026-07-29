@@ -44,7 +44,7 @@ name: ASGN
 nav: Providers
 network: true
 overview: ASGN is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 30
+random_paper: 25
 score:
   band: minimal
   composite: 2.6

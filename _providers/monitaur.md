@@ -71,7 +71,7 @@ overview: 'Monitaur is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Monitaur''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 10
+random_paper: 79
 score:
   band: emerging
   composite: 13.2

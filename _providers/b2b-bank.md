@@ -63,7 +63,7 @@ overview: 'B2B Bank is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   B2B Bank''s developer surface includes support and 6 more developer resources.'
-random_paper: 71
+random_paper: 63
 score:
   band: minimal
   composite: 11.2

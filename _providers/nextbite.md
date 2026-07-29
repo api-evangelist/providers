@@ -44,7 +44,7 @@ name: Nextbite
 nav: Providers
 network: true
 overview: Nextbite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food Delivery, Virtual Restaurants, and Ghost Kitchens.
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

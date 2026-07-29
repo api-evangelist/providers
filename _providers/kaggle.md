@@ -56,7 +56,7 @@ name: Kaggle
 nav: Providers
 network: true
 overview: Kaggle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 66
+random_paper: 59
 score:
   band: minimal
   composite: 6.5

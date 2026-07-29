@@ -56,7 +56,7 @@ name: CoinCap
 nav: Providers
 network: true
 overview: CoinCap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 22
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

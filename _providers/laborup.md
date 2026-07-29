@@ -104,7 +104,7 @@ overview: 'LaborUp is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LaborUp''s developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 46
+random_paper: 37
 score:
   band: emerging
   composite: 15.7

@@ -71,7 +71,7 @@ overview: 'Keep Financial is profiled on the [APIs.io](https://apis.io/) network
 
 
   Keep Financial''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 56
+random_paper: 39
 score:
   band: emerging
   composite: 14.7

@@ -79,7 +79,7 @@ overview: 'Shelby Williams Industries is profiled on the [APIs.io](https://apis.
 
 
   Shelby Williams Industries'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 15
+random_paper: 61
 score:
   band: minimal
   composite: 7.7

@@ -48,7 +48,7 @@ name: DogVacay
 nav: Providers
 network: true
 overview: DogVacay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Care, Marketplace, Dog Boarding, and Pet Sitting.
-random_paper: 56
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

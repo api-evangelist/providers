@@ -98,7 +98,7 @@ plans:
 - name: Lendingpad Plans Pricing
   plan_count: 4
   slug: lendingpad-plans-pricing
-random_paper: 19
+random_paper: 6
 score:
   band: emerging
   composite: 16.6

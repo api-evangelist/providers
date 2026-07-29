@@ -199,7 +199,7 @@ overview: 'Jane publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jane''s developer surface includes authentication, sandbox, support, documentation, API reference, getting-started guide, pricing, and 25 more developer resources.'
-random_paper: 69
+random_paper: 60
 scopes:
 - name: Jane App Scopes
   scope_count: 30

@@ -65,7 +65,7 @@ plans:
 - name: Exlservice Holdings Plans Pricing
   plan_count: 1
   slug: exlservice-holdings-plans-pricing
-random_paper: 8
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Exlservice Holdings Rate Limits

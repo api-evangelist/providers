@@ -95,7 +95,7 @@ overview: 'Coin98 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Coin98''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 64
+random_paper: 58
 score:
   band: emerging
   composite: 16.2

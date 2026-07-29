@@ -170,7 +170,7 @@ plans:
 - name: Open Meteo Plans Pricing
   plan_count: 4
   slug: open-meteo-plans-pricing
-random_paper: 69
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Open Meteo Rate Limits

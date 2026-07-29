@@ -273,7 +273,7 @@ overview: 'Dash0 publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 69
+random_paper: 64
 scopes:
 - name: Dash0 Scopes
   scope_count: 1

@@ -44,7 +44,7 @@ name: Verifi Media
 nav: Providers
 network: true
 overview: Verifi Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 17
+random_paper: 2
 score:
   band: minimal
   composite: 3.2

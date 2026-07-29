@@ -83,7 +83,7 @@ overview: 'Pigeonly is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pigeonly''s developer surface includes pricing, engineering blog, support, getting-started guide, signup flow, and 5 more developer resources.'
-random_paper: 2
+random_paper: 71
 score:
   band: emerging
   composite: 17.4

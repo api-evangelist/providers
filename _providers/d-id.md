@@ -224,7 +224,7 @@ plans:
 - name: D Id Plans Pricing
   plan_count: 5
   slug: d-id-plans-pricing
-random_paper: 34
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: D Id Rate Limits

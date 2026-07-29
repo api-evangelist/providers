@@ -60,7 +60,7 @@ name: Novo Nordisk
 nav: Providers
 network: true
 overview: Novo Nordisk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Healthcare, Biotechnology, Diabetes, and Obesity.
-random_paper: 72
+random_paper: 57
 score:
   band: minimal
   composite: 6.0

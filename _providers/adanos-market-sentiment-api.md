@@ -33,7 +33,7 @@ name: Adanos Market Sentiment API
 nav: Providers
 network: true
 overview: 'Adanos Market Sentiment API publishes 1 API on the [APIs.io](https://apis.io/) network: Adanos Market Sentiment API. Tagged areas include market, sentiment, stocks, crypto, and finance.'
-random_paper: 20
+random_paper: 66
 score:
   band: minimal
   composite: 11.9

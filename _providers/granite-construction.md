@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: SEC Charges Infrastructure Company Granite Construction ...
   url: https://www.sec.gov/newsroom/press-releases/2022-150
-random_paper: 60
+random_paper: 34
 score:
   band: minimal
   composite: 5.4

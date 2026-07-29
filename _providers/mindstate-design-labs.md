@@ -48,7 +48,7 @@ name: Mindstate Design Labs
 nav: Providers
 network: true
 overview: Mindstate Design Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Mental Health, Drug Discovery, and Neuroscience.
-random_paper: 57
+random_paper: 31
 score:
   band: minimal
   composite: 5.4

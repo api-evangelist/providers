@@ -99,7 +99,7 @@ overview: 'Citrine Informatics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Citrine Informatics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 3
+random_paper: 58
 score:
   band: emerging
   composite: 21.8

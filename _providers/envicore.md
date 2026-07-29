@@ -68,7 +68,7 @@ name: EnviCore
 nav: Providers
 network: true
 overview: EnviCore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sustainability, CleanTech, Construction Materials, and Cement.
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 10.7

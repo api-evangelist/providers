@@ -107,7 +107,7 @@ overview: 'Infutor publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Infutor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 7 more developer resources.'
-random_paper: 64
+random_paper: 55
 score:
   band: emerging
   composite: 23.6

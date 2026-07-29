@@ -63,7 +63,7 @@ overview: 'Amex Bank of Canada is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Amex Bank of Canada''s developer surface includes support and 6 more developer resources.'
-random_paper: 49
+random_paper: 27
 score:
   band: minimal
   composite: 11.2

@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: NextEra Energy and Google Cloud Announce Landmark ...
   url: https://newsroom.nexteraenergy.com/2025-12-08-NextEra-Energy-and-Google-Cloud-Announce-Landmark-Strategic-Energy-and-Technology-Partnership-to-Accelerate-AI-Growth-and-Transform-the-Energy-Industry?l=12
-random_paper: 32
+random_paper: 14
 score:
   band: minimal
   composite: 5.5

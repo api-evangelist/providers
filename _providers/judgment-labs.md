@@ -148,7 +148,7 @@ overview: 'Judgment Labs publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Judgment Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 17 more developer resources.'
-random_paper: 61
+random_paper: 45
 score:
   band: thin
   composite: 37.9

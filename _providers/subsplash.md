@@ -100,7 +100,7 @@ plans:
 - name: Subsplash Plans Pricing
   plan_count: 3
   slug: subsplash-plans-pricing
-random_paper: 33
+random_paper: 21
 score:
   band: emerging
   composite: 19.2

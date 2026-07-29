@@ -232,7 +232,7 @@ overview: 'Essity is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Essity''s developer surface includes product news and 46 more developer resources.'
-random_paper: 41
+random_paper: 33
 score:
   band: minimal
   composite: 11.0

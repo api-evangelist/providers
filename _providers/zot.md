@@ -93,7 +93,7 @@ plans:
 - name: Zot Plans Pricing
   plan_count: 1
   slug: zot-plans-pricing
-random_paper: 33
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Zot Rate Limits

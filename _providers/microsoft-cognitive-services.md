@@ -128,7 +128,7 @@ plans:
 - name: Microsoft Cognitive Services Plans Pricing
   plan_count: 3
   slug: microsoft-cognitive-services-plans-pricing
-random_paper: 64
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Microsoft Cognitive Services Rate Limits

@@ -319,7 +319,7 @@ plans:
 - name: Gleap Plans Pricing
   plan_count: 4
   slug: gleap-plans-pricing
-random_paper: 47
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Gleap Rate Limits

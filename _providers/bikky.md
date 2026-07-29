@@ -75,7 +75,7 @@ overview: 'Bikky publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bikky''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 64
+random_paper: 58
 score:
   band: minimal
   composite: 11.6

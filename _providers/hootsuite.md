@@ -139,7 +139,7 @@ overview: 'Hootsuite publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hootsuite''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 10 more developer resources.'
-random_paper: 48
+random_paper: 36
 scopes:
 - name: Hootsuite Scopes
   scope_count: 1

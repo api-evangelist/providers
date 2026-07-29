@@ -48,7 +48,7 @@ name: Insent.ai
 nav: Providers
 network: true
 overview: Insent.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational Marketing, Chat, Sales Engagement, and MarTech.
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

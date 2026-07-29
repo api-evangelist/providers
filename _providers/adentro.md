@@ -80,7 +80,7 @@ overview: 'Adentro is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Adentro''s developer surface includes support, documentation, pricing, authentication, and 5 more developer resources.'
-random_paper: 38
+random_paper: 29
 score:
   band: emerging
   composite: 18.7

@@ -148,7 +148,7 @@ plans:
 - name: Cometchat Plans Pricing
   plan_count: 4
   slug: cometchat-plans-pricing
-random_paper: 4
+random_paper: 72
 rate_limits:
 - limit_count: 4
   name: Cometchat Rate Limits

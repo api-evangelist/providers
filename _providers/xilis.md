@@ -48,7 +48,7 @@ name: Xilis
 nav: Providers
 network: true
 overview: Xilis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Precision Oncology, Biotechnology, and Drug Discovery.
-random_paper: 0
+random_paper: 73
 score:
   band: minimal
   composite: 5.4

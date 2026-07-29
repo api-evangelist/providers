@@ -55,7 +55,7 @@ overview: 'Arctus Aerospace is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Arctus Aerospace''s developer surface includes support and 2 more developer resources.'
-random_paper: 70
+random_paper: 50
 score:
   band: minimal
   composite: 5.9

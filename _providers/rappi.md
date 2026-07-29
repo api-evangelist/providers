@@ -142,7 +142,7 @@ overview: 'Rappi publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rappi''s developer surface includes API reference, authentication, FAQ, engineering blog, and 14 more developer resources.'
-random_paper: 66
+random_paper: 60
 score:
   band: emerging
   composite: 15.0

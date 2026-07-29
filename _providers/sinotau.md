@@ -52,7 +52,7 @@ name: Sinotau
 nav: Providers
 network: true
 overview: Sinotau is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Radiopharmaceuticals, Nuclear Medicine, and Healthcare.
-random_paper: 60
+random_paper: 51
 score:
   band: minimal
   composite: 5.4

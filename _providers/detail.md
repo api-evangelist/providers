@@ -83,7 +83,7 @@ overview: 'Detail is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Detail''s developer surface includes engineering blog, support, getting-started guide, pricing, signup flow, and 5 more developer resources.'
-random_paper: 74
+random_paper: 67
 score:
   band: emerging
   composite: 17.4

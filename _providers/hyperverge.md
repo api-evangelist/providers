@@ -127,7 +127,7 @@ plans:
 - name: Hyperverge Plans Pricing
   plan_count: 3
   slug: hyperverge-plans-pricing
-random_paper: 62
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Hyperverge Rate Limits

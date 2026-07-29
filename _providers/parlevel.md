@@ -63,7 +63,7 @@ overview: 'Parlevel is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Parlevel''s developer surface includes support, signup flow, and 3 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 11.4

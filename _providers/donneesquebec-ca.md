@@ -88,7 +88,7 @@ plans:
 - name: Donneesquebec Ca Plans Pricing
   plan_count: 1
   slug: donneesquebec-ca-plans-pricing
-random_paper: 38
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Donneesquebec Ca Rate Limits

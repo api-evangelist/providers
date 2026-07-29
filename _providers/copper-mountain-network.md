@@ -39,7 +39,7 @@ name: Copper Mountain Network
 nav: Providers
 network: true
 overview: Copper Mountain Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Networking, Broadband, and DSL.
-random_paper: 22
+random_paper: 72
 score:
   band: minimal
   composite: 4.3

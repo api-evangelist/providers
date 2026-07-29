@@ -43,7 +43,7 @@ name: Golden 1 Credit Union
 nav: Providers
 network: true
 overview: Golden 1 Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Credit Union, United States, and Consumer Finance.
-random_paper: 16
+random_paper: 7
 score:
   band: minimal
   composite: 5.4

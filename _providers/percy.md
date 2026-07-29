@@ -117,7 +117,7 @@ plans:
 - name: Percy Plans Pricing
   plan_count: 3
   slug: percy-plans-pricing
-random_paper: 73
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Percy Rate Limits

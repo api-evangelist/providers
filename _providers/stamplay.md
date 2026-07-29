@@ -63,7 +63,7 @@ overview: 'Stamplay is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Stamplay''s developer surface includes CLI and 4 more developer resources.'
-random_paper: 6
+random_paper: 75
 score:
   band: minimal
   composite: 8.3

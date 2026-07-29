@@ -63,7 +63,7 @@ overview: 'Vioo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Vioo''s developer surface includes support and 4 more developer resources.'
-random_paper: 50
+random_paper: 45
 score:
   band: minimal
   composite: 10.1

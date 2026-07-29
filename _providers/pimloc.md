@@ -199,7 +199,7 @@ overview: 'Pimloc publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Pimloc''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: developing
   composite: 53.8

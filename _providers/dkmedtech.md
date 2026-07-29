@@ -52,7 +52,7 @@ name: dkmedtech
 nav: Providers
 network: true
 overview: dkmedtech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, MedTech, Healthcare, and Cardiovascular.
-random_paper: 68
+random_paper: 57
 score:
   band: minimal
   composite: 5.4

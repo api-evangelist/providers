@@ -52,7 +52,7 @@ name: ModivCare
 nav: Providers
 network: true
 overview: ModivCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Healthcare Services, Non-Emergency Medical Transportation, Personal Care, and Remote Patient Monitoring.
-random_paper: 6
+random_paper: 74
 score:
   band: minimal
   composite: 4.9

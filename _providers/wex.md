@@ -55,7 +55,7 @@ overview: 'WEX is profiled on the [APIs.io](https://apis.io/) network.
 
 
   WEX''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 24
+random_paper: 20
 score:
   band: minimal
   composite: 3.7

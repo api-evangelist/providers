@@ -144,7 +144,7 @@ overview: 'SGNL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SGNL''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 41
+random_paper: 36
 score:
   band: thin
   composite: 29.1

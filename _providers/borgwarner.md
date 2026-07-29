@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: BorgWarner Strategically Enters Data Center Market with ...
   url: https://www.borgwarner.com/newsroom/press-releases/2026/02/11/borgwarner-strategically-enters-data-center-market-with-power-generation-solution-award
-random_paper: 54
+random_paper: 41
 score:
   band: minimal
   composite: 5.4

@@ -92,7 +92,7 @@ overview: 'Vouch is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Vouch''s developer surface includes GitHub presence, engineering blog, and 10 more developer resources.'
-random_paper: 75
+random_paper: 69
 score:
   band: minimal
   composite: 6.6

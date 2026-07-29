@@ -83,7 +83,7 @@ overview: 'Nines is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nines'' developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: emerging
   composite: 15.1

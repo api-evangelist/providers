@@ -131,7 +131,7 @@ overview: 'EMIS Health publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   EMIS Health''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, and 15 more developer resources.'
-random_paper: 78
+random_paper: 65
 scopes:
 - name: Emis Health Scopes
   scope_count: 7

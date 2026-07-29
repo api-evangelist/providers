@@ -48,7 +48,7 @@ name: Fantiger
 nav: Providers
 network: true
 overview: Fantiger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Crypto Web3.
-random_paper: 58
+random_paper: 48
 score:
   band: minimal
   composite: 4.1

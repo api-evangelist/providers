@@ -48,7 +48,7 @@ name: Olema
 nav: Providers
 network: true
 overview: Olema is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Oncology, Healthcare, and Pharmaceuticals.
-random_paper: 52
+random_paper: 46
 score:
   band: minimal
   composite: 5.4

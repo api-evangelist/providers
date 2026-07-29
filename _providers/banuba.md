@@ -157,7 +157,7 @@ plans:
 - name: Banuba Plans Pricing
   plan_count: 3
   slug: banuba-plans-pricing
-random_paper: 64
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Banuba Rate Limits

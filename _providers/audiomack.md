@@ -213,7 +213,7 @@ overview: 'Audiomack publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Audiomack''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, support, signup flow, and 22 more developer resources.'
-random_paper: 73
+random_paper: 62
 score:
   band: thin
   composite: 34.4

@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Danone Will Use AI to Improve Its Vegan Dairy Alternatives
   url: https://www.livekindly.com/danone-ai-develop-vegan-dairy/
-random_paper: 63
+random_paper: 44
 score:
   band: minimal
   composite: 8.2

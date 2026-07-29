@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Convention Over Configuration
 nav: Providers
 network: true
-random_paper: 23
+random_paper: 65
 slug: convention-over-configuration
 tags:
 - Conventions

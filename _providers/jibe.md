@@ -44,7 +44,7 @@ name: Jibe
 nav: Providers
 network: true
 overview: Jibe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Talent Acquisition, Recruiting, and Recruitment Marketing.
-random_paper: 15
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

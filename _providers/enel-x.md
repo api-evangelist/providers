@@ -96,7 +96,7 @@ overview: 'Enel X is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Enel X''s developer surface includes GitHub presence, YouTube channel, and 11 more developer resources.'
-random_paper: 32
+random_paper: 25
 score:
   band: minimal
   composite: 6.1

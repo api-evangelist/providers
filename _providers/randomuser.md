@@ -176,7 +176,7 @@ plans:
 - name: Randomuser Plans Pricing
   plan_count: 1
   slug: randomuser-plans-pricing
-random_paper: 61
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Randomuser Rate Limits

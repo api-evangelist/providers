@@ -100,7 +100,7 @@ overview: 'Latana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Latana''s developer surface includes pricing, engineering blog, and 12 more developer resources.'
-random_paper: 72
+random_paper: 65
 score:
   band: emerging
   composite: 16.2

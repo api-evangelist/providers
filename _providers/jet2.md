@@ -122,7 +122,7 @@ overview: 'Jet2 is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jet2''s developer surface includes engineering blog and 20 more developer resources.'
-random_paper: 57
+random_paper: 53
 score:
   band: minimal
   composite: 9.4

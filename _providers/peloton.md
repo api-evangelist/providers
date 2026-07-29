@@ -64,7 +64,7 @@ name: Peloton
 nav: Providers
 network: true
 overview: Peloton publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Wellness, Connected Fitness, Subscription, and Hardware.
-random_paper: 58
+random_paper: 49
 score:
   band: emerging
   composite: 18.9

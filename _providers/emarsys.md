@@ -163,7 +163,7 @@ overview: 'SAP Emarsys publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   SAP Emarsys'' developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 16 more developer resources.'
-random_paper: 61
+random_paper: 52
 scopes:
 - name: Emarsys Scopes
   scope_count: 156

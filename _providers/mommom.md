@@ -48,7 +48,7 @@ name: MomMom
 nav: Providers
 network: true
 overview: MomMom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Parenting, Childcare, Family, and Kids Activities.
-random_paper: 26
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

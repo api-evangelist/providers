@@ -150,7 +150,7 @@ plans:
 - name: Akeyless Plans Pricing
   plan_count: 2
   slug: akeyless-plans-pricing
-random_paper: 75
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Akeyless Rate Limits

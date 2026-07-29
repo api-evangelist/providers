@@ -112,7 +112,7 @@ plans:
 - name: Arconic Plans Pricing
   plan_count: 2
   slug: arconic-plans-pricing
-random_paper: 24
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Arconic Rate Limits

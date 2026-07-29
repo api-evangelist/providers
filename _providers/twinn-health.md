@@ -52,7 +52,7 @@ name: Twinn Health
 nav: Providers
 network: true
 overview: Twinn Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Imaging, MRI, and Preventive Health.
-random_paper: 50
+random_paper: 35
 score:
   band: minimal
   composite: 6.9

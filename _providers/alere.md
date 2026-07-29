@@ -71,7 +71,7 @@ name: alere
 nav: Providers
 network: true
 overview: alere publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Diagnostics, Point Of Care, Healthcare, Laboratory, and Medical Devices.
-random_paper: 47
+random_paper: 41
 score:
   band: minimal
   composite: 9.3

@@ -48,7 +48,7 @@ name: True Link
 nav: Providers
 network: true
 overview: True Link is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Fintech, Financial Services, and Prepaid Cards.
-random_paper: 54
+random_paper: 43
 score:
   band: minimal
   composite: 5.6

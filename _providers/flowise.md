@@ -250,7 +250,7 @@ plans:
 - name: Flowise Plans Pricing
   plan_count: 4
   slug: flowise-plans-pricing
-random_paper: 50
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Flowise Rate Limits

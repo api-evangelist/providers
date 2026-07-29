@@ -48,7 +48,7 @@ name: Angelic
 nav: Providers
 network: true
 overview: Angelic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Gaming, Video Games, and Strategy RPG.
-random_paper: 12
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

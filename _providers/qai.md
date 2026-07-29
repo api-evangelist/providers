@@ -44,7 +44,7 @@ name: Q.ai *
 nav: Providers
 network: true
 overview: Q.ai * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
-random_paper: 78
+random_paper: 75
 score:
   band: minimal
   composite: 3.2

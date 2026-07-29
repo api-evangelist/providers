@@ -60,7 +60,7 @@ name: Flickplay
 nav: Providers
 network: true
 overview: Flickplay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Gaming, Social, and Augmented Reality.
-random_paper: 11
+random_paper: 79
 score:
   band: minimal
   composite: 9.2

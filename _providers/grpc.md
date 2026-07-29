@@ -133,7 +133,7 @@ plans:
 - name: Grpc Plans Pricing
   plan_count: 3
   slug: grpc-plans-pricing
-random_paper: 33
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Grpc Rate Limits

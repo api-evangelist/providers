@@ -79,7 +79,7 @@ overview: 'Autonomous Cyber is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Autonomous Cyber''s developer surface includes signup flow, support, and 7 more developer resources.'
-random_paper: 33
+random_paper: 12
 score:
   band: emerging
   composite: 16.3

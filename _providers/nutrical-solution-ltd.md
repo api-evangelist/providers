@@ -182,7 +182,7 @@ overview: 'Nutrical Solution Ltd publishes 6 APIs on the [APIs.io](https://apis.
 
 
   Nutrical Solution Ltd''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 40
+random_paper: 13
 score:
   band: thin
   composite: 40.8

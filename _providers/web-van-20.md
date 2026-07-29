@@ -39,7 +39,7 @@ name: Web Van 2.0
 nav: Providers
 network: true
 overview: Web Van 2.0 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 41
+random_paper: 31
 score:
   band: minimal
   composite: 4.1

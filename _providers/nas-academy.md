@@ -41,7 +41,7 @@ name: Nas Academy
 nav: Providers
 network: true
 overview: Nas Academy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 64
+random_paper: 51
 scopes:
 - name: Nas Academy Scopes
   scope_count: 6

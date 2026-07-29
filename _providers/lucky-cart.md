@@ -67,7 +67,7 @@ overview: 'Lucky Cart is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Lucky Cart''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 75
+random_paper: 63
 score:
   band: minimal
   composite: 10.5

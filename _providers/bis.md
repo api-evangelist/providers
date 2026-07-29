@@ -146,7 +146,7 @@ plans:
 - name: Bis Plans Pricing
   plan_count: 1
   slug: bis-plans-pricing
-random_paper: 2
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Bis Rate Limits

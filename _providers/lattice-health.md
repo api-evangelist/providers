@@ -69,7 +69,7 @@ name: Lattice Health
 nav: Providers
 network: true
 overview: Lattice Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Artificial Intelligence, and AI Governance.
-random_paper: 74
+random_paper: 57
 score:
   band: minimal
   composite: 9.2

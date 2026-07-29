@@ -200,7 +200,7 @@ overview: 'Service Mesh Interface (SMI) publishes 4 APIs on the [APIs.io](https:
 
 
   Service Mesh Interface (SMI)''s developer surface includes code examples and 26 more developer resources.'
-random_paper: 5
+random_paper: 57
 rules:
 - name: Service Mesh Interface (SMI) API Rules
   rule_count: 5

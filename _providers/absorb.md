@@ -110,7 +110,7 @@ plans:
 - name: Absorb Plans Pricing
   plan_count: 3
   slug: absorb-plans-pricing
-random_paper: 1
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Absorb Rate Limits

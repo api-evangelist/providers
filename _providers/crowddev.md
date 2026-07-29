@@ -196,7 +196,7 @@ overview: 'Crowd.dev publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Crowd.dev''s developer surface includes authentication, documentation, API reference, changelog, and 19 more developer resources.'
-random_paper: 72
+random_paper: 62
 scopes:
 - name: Crowddev Scopes
   scope_count: 13

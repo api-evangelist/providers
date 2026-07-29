@@ -68,7 +68,7 @@ name: Xairos
 nav: Providers
 network: true
 overview: Xairos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum, Timing, Synchronization, and PNT.
-random_paper: 30
+random_paper: 22
 score:
   band: minimal
   composite: 8.6

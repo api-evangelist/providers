@@ -48,7 +48,7 @@ name: roadster
 nav: Providers
 network: true
 overview: roadster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Digital Retail, Commerce, and E-Commerce.
-random_paper: 78
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

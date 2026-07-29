@@ -39,7 +39,7 @@ name: Artillery Games
 nav: Providers
 network: true
 overview: Artillery Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Games, Game Engine, and Startup.
-random_paper: 53
+random_paper: 34
 score:
   band: minimal
   composite: 5.0

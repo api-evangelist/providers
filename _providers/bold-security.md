@@ -83,7 +83,7 @@ overview: 'Bold Security is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Bold Security''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 7
+random_paper: 70
 score:
   band: emerging
   composite: 14.9

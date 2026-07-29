@@ -67,7 +67,7 @@ overview: 'Nebex is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nebex''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 56
+random_paper: 50
 score:
   band: emerging
   composite: 14.3

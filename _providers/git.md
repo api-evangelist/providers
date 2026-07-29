@@ -105,7 +105,7 @@ plans:
 - name: Git Plans Pricing
   plan_count: 3
   slug: git-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Git Rate Limits

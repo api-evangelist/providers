@@ -83,7 +83,7 @@ plans:
 - name: Dati Comune Genova It Plans Pricing
   plan_count: 0
   slug: dati-comune-genova-it-plans-pricing
-random_paper: 7
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Dati Comune Genova It Rate Limits

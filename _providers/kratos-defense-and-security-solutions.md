@@ -65,7 +65,7 @@ plans:
 - name: Kratos Defense And Security Solutions Plans Pricing
   plan_count: 1
   slug: kratos-defense-and-security-solutions-plans-pricing
-random_paper: 60
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Kratos Defense And Security Solutions Rate Limits

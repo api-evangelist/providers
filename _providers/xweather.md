@@ -322,7 +322,7 @@ plans:
 - name: Xweather Plans Pricing
   plan_count: 3
   slug: xweather-plans-pricing
-random_paper: 3
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Xweather Rate Limits

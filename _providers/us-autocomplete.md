@@ -63,7 +63,7 @@ overview: 'US Autocomplete publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   US Autocomplete''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 74
+random_paper: 55
 score:
   band: minimal
   composite: 6.2

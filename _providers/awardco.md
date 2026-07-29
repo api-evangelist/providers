@@ -102,7 +102,7 @@ plans:
 - name: Awardco Plans Pricing
   plan_count: 6
   slug: awardco-plans-pricing
-random_paper: 26
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Awardco Rate Limits

@@ -63,7 +63,7 @@ overview: 'Styleseat is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Styleseat''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 42
+random_paper: 30
 score:
   band: minimal
   composite: 9.5

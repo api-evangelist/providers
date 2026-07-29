@@ -9006,7 +9006,7 @@ plans:
 - name: Microsoft Azure Plans Pricing
   plan_count: 3
   slug: microsoft-azure-plans-pricing
-random_paper: 77
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Microsoft Azure Rate Limits

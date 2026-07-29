@@ -161,7 +161,7 @@ overview: 'Kairos AR publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kairos AR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 36
+random_paper: 25
 score:
   band: developing
   composite: 51.1

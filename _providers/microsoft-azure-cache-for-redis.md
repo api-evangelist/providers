@@ -119,7 +119,7 @@ plans:
 - name: Microsoft Azure Cache For Redis Plans Pricing
   plan_count: 3
   slug: microsoft-azure-cache-for-redis-plans-pricing
-random_paper: 73
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Cache For Redis Rate Limits

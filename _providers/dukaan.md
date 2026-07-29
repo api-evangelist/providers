@@ -103,7 +103,7 @@ overview: 'Dukaan is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Dukaan''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 75
+random_paper: 68
 score:
   band: emerging
   composite: 20.8

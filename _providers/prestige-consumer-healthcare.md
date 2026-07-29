@@ -65,7 +65,7 @@ plans:
 - name: Prestige Consumer Healthcare Plans Pricing
   plan_count: 1
   slug: prestige-consumer-healthcare-plans-pricing
-random_paper: 30
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Prestige Consumer Healthcare Rate Limits

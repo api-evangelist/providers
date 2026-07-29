@@ -2934,7 +2934,7 @@ plans:
 - name: Small Improvements Plans Pricing
   plan_count: 3
   slug: small-improvements-plans-pricing
-random_paper: 7
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Small Improvements Rate Limits

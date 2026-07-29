@@ -105,7 +105,7 @@ overview: 'Adonis publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Adonis'' developer surface includes signup flow, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 6
+random_paper: 78
 scopes:
 - name: Adonis Scopes
   scope_count: 14

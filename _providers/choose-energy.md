@@ -75,7 +75,7 @@ overview: 'Choose Energy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Choose Energy''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 72
+random_paper: 56
 score:
   band: minimal
   composite: 12.4

@@ -71,7 +71,7 @@ overview: 'Crossoverhealth is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Crossoverhealth''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 48
+random_paper: 28
 score:
   band: emerging
   composite: 13.8

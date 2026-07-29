@@ -63,7 +63,7 @@ overview: 'Breezebio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Breezebio''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 3
+random_paper: 71
 score:
   band: minimal
   composite: 10.4

@@ -67,7 +67,7 @@ overview: 'Avarra is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Avarra''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 5
+random_paper: 77
 score:
   band: minimal
   composite: 12.2

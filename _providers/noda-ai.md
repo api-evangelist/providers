@@ -52,7 +52,7 @@ name: NODA AI
 nav: Providers
 network: true
 overview: NODA AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Defense, Defense Technology, and Autonomy.
-random_paper: 33
+random_paper: 25
 score:
   band: minimal
   composite: 5.7

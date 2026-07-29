@@ -67,7 +67,7 @@ overview: 'Pellego is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pellego''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 33
+random_paper: 24
 score:
   band: emerging
   composite: 13.6

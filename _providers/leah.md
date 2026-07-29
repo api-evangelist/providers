@@ -111,7 +111,7 @@ overview: 'Leah is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Leah''s developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
-random_paper: 15
+random_paper: 10
 score:
   band: emerging
   composite: 17.0

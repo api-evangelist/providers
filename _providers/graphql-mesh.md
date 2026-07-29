@@ -115,7 +115,7 @@ plans:
 - name: Graphql Mesh Plans Pricing
   plan_count: 3
   slug: graphql-mesh-plans-pricing
-random_paper: 40
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Graphql Mesh Rate Limits

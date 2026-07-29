@@ -92,7 +92,7 @@ overview: 'Transcelestial publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Transcelestial''s developer surface includes documentation, support, engineering blog, changelog, authentication, CLI, and 5 more developer resources.'
-random_paper: 1
+random_paper: 62
 score:
   band: emerging
   composite: 20.1

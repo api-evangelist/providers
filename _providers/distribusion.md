@@ -95,7 +95,7 @@ overview: 'Distribusion publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Distribusion''s developer surface includes documentation, support, and 9 more developer resources.'
-random_paper: 47
+random_paper: 31
 score:
   band: emerging
   composite: 20.1

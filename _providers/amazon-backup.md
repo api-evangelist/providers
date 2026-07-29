@@ -182,7 +182,7 @@ overview: 'Amazon Backup publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amazon Backup''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, status page, and 17 more developer resources.'
-random_paper: 57
+random_paper: 41
 rules:
 - name: Amazon Backup API Rules
   rule_count: 5

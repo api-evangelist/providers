@@ -79,7 +79,7 @@ overview: 'Endowus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Endowus'' developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 62
+random_paper: 53
 score:
   band: minimal
   composite: 12.4

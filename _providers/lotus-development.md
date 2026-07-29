@@ -39,7 +39,7 @@ name: Lotus Development
 nav: Providers
 network: true
 overview: Lotus Development is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 61
+random_paper: 39
 score:
   band: minimal
   composite: 4.1

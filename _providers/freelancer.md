@@ -63,7 +63,7 @@ overview: 'Freelancer publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Freelancer''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 20
+random_paper: 7
 score:
   band: minimal
   composite: 6.2

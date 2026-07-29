@@ -68,7 +68,7 @@ name: NBC
 nav: Providers
 network: true
 overview: NBC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Broadcasting, Television, Entertainment, and Fortune 500.
-random_paper: 70
+random_paper: 67
 score:
   band: minimal
   composite: 5.7

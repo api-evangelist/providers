@@ -56,7 +56,7 @@ name: couple
 nav: Providers
 network: true
 overview: couple is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Companion, Chatbot, and Conversational AI.
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
   composite: 9.2

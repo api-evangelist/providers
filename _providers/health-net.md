@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Health promotion and prevention in the digital era
   url: https://eurohealthnet.eu/publication/eurohealthnet-annual-seminar-2026-health-promotion-and-prevention-in-the-digital-era/
-random_paper: 54
+random_paper: 42
 score:
   band: minimal
   composite: 5.6

@@ -71,7 +71,7 @@ overview: 'Tass Vision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Tass Vision''s developer surface includes engineering blog, pricing, support, getting-started guide, and 3 more developer resources.'
-random_paper: 46
+random_paper: 32
 score:
   band: minimal
   composite: 12.7

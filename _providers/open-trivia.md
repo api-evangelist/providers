@@ -239,7 +239,7 @@ overview: 'Open Trivia Database publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Open Trivia Database''s developer surface includes documentation, support, tooling, code examples, and 16 more developer resources.'
-random_paper: 28
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Open Trivia Rate Limits

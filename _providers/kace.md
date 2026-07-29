@@ -92,7 +92,7 @@ overview: 'Kace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kace''s developer surface includes documentation, API reference, support, authentication, and 7 more developer resources.'
-random_paper: 9
+random_paper: 4
 score:
   band: emerging
   composite: 15.9

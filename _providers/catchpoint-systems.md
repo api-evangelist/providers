@@ -268,7 +268,7 @@ overview: 'Catchpoint Systems publishes 31 APIs on the [APIs.io](https://apis.io
 
 
   Catchpoint Systems'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 10
+random_paper: 66
 score:
   band: developing
   composite: 51.3

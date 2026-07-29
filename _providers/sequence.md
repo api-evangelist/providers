@@ -187,7 +187,7 @@ overview: 'Sequence publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Sequence''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, changelog, and 22 more developer resources.'
-random_paper: 67
+random_paper: 57
 score:
   band: developing
   composite: 44.9

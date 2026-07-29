@@ -91,7 +91,7 @@ overview: 'Panorama Education is profiled on the [APIs.io](https://apis.io/) net
 
 
   Panorama Education''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 31
+random_paper: 8
 score:
   band: emerging
   composite: 19.7

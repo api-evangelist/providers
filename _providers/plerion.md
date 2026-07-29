@@ -204,7 +204,7 @@ overview: 'Plerion publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Plerion''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 50
+random_paper: 41
 score:
   band: developing
   composite: 53.9

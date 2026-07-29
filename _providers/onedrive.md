@@ -60,7 +60,7 @@ name: OneDrive
 nav: Providers
 network: true
 overview: OneDrive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage And File Sharing and Public APIs.
-random_paper: 70
+random_paper: 60
 score:
   band: minimal
   composite: 5.7

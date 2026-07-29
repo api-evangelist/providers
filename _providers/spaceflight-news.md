@@ -272,7 +272,7 @@ overview: 'Spaceflight News publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Spaceflight News'' developer surface includes documentation, changelog, FAQ, tooling, and 18 more developer resources.'
-random_paper: 72
+random_paper: 52
 rules:
 - name: Spaceflight News API Rules
   rule_count: 5

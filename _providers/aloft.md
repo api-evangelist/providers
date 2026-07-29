@@ -264,7 +264,7 @@ overview: 'Aloft publishes 36 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aloft''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 20 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: developing
   composite: 47.3

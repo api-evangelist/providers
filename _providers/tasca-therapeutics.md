@@ -39,7 +39,7 @@ name: Tasca Therapeutics
 nav: Providers
 network: true
 overview: Tasca Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Biotech.
-random_paper: 49
+random_paper: 26
 score:
   band: minimal
   composite: 4.1

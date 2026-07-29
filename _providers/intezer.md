@@ -136,7 +136,7 @@ overview: 'Intezer publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Intezer''s developer surface includes documentation, API reference, engineering blog, pricing, CLI, authentication, and 15 more developer resources.'
-random_paper: 58
+random_paper: 49
 score:
   band: thin
   composite: 32.9

@@ -75,7 +75,7 @@ overview: 'PlotBox is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   PlotBox''s developer surface includes engineering blog, support, pricing, and 5 more developer resources.'
-random_paper: 65
+random_paper: 56
 score:
   band: emerging
   composite: 13.7

@@ -146,7 +146,7 @@ plans:
 - name: Plane So Plans Pricing
   plan_count: 6
   slug: plane-so-plans-pricing
-random_paper: 9
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Plane So Rate Limits

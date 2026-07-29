@@ -48,7 +48,7 @@ name: Kura
 nav: Providers
 network: true
 overview: Kura is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Portfolio Lead, 500 Global, Dormant, and Parked Domain.
-random_paper: 40
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

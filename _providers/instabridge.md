@@ -79,7 +79,7 @@ overview: 'instabridge is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   instabridge''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 58
+random_paper: 44
 score:
   band: emerging
   composite: 14.3

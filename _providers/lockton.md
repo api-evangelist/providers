@@ -96,7 +96,7 @@ overview: 'Lockton is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lockton''s developer surface includes engineering blog, support, YouTube channel, and 12 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: emerging
   composite: 16.5

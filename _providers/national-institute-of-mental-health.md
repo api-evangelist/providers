@@ -63,7 +63,7 @@ overview: 'National Institute of Mental Health is profiled on the [APIs.io](http
 
 
   National Institute of Mental Health''s developer surface includes developer portal and 4 more developer resources.'
-random_paper: 43
+random_paper: 79
 score:
   band: minimal
   composite: 6.6

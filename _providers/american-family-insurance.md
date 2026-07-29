@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: American Family Insurance and AWS Team Up to Drive ...
   url: https://www.businesswire.com/news/home/20221201005413/en/American-Family-Insurance-and-AWS-Team-Up-to-Drive-Innovation-in-the-Insurance-Industry
-random_paper: 4
+random_paper: 52
 score:
   band: minimal
   composite: 7.1

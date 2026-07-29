@@ -87,7 +87,7 @@ overview: 'Alif Semiconductor is profiled on the [APIs.io](https://apis.io/) net
 
 
   Alif Semiconductor''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 47
+random_paper: 24
 score:
   band: emerging
   composite: 17.4

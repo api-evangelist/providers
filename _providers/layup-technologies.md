@@ -270,7 +270,7 @@ overview: 'LayUp Technologies publishes 29 APIs on the [APIs.io](https://apis.io
 
 
   LayUp Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 67
+random_paper: 44
 score:
   band: developing
   composite: 43.9

@@ -108,7 +108,7 @@ overview: 'Seeq is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Seeq''s developer surface includes documentation, support, engineering blog, authentication, changelog, and 11 more developer resources.'
-random_paper: 35
+random_paper: 30
 score:
   band: emerging
   composite: 24.3

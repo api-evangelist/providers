@@ -108,7 +108,7 @@ overview: 'Lilium is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lilium''s developer surface includes engineering blog, YouTube channel, and 14 more developer resources.'
-random_paper: 65
+random_paper: 53
 score:
   band: minimal
   composite: 11.7

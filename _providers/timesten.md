@@ -67,7 +67,7 @@ overview: 'TimesTen is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TimesTen''s developer surface includes documentation, changelog, GitHub presence, and 3 more developer resources.'
-random_paper: 4
+random_paper: 73
 score:
   band: minimal
   composite: 11.3

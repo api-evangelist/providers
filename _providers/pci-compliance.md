@@ -59,7 +59,7 @@ overview: 'PCI Compliance is profiled on the [APIs.io](https://apis.io/) network
 
 
   PCI Compliance''s developer surface includes documentation, developer portal, and 2 more developer resources.'
-random_paper: 69
+random_paper: 52
 score:
   band: minimal
   composite: 7.6

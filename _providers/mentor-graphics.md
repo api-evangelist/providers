@@ -44,7 +44,7 @@ name: Mentor Graphics
 nav: Providers
 network: true
 overview: Mentor Graphics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electronic Design Automation, EDA, Semiconductors, and PCB Design.
-random_paper: 54
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

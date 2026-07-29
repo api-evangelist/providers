@@ -127,7 +127,7 @@ plans:
 - name: Transistor Plans Pricing
   plan_count: 4
   slug: transistor-plans-pricing
-random_paper: 7
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Transistor Rate Limits

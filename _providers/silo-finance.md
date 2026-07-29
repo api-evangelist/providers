@@ -75,7 +75,7 @@ overview: 'Silo Finance is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Silo Finance''s developer surface includes documentation, getting-started guide, support, and 5 more developer resources.'
-random_paper: 23
+random_paper: 8
 score:
   band: emerging
   composite: 14.3

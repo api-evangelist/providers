@@ -48,7 +48,7 @@ name: Saks OFF 5TH
 nav: Providers
 network: true
 overview: Saks OFF 5TH is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, Fashion, and E-commerce.
-random_paper: 6
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

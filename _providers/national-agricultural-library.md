@@ -92,7 +92,7 @@ plans:
 - name: National Agricultural Library Plans Pricing
   plan_count: 3
   slug: national-agricultural-library-plans-pricing
-random_paper: 73
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: National Agricultural Library Rate Limits

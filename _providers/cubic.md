@@ -69,7 +69,7 @@ plans:
 - name: Cubic Plans Pricing
   plan_count: 1
   slug: cubic-plans-pricing
-random_paper: 44
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Cubic Rate Limits

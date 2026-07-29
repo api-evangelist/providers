@@ -151,7 +151,7 @@ overview: 'Gloat publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gloat''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, sandbox, and 17 more developer resources.'
-random_paper: 61
+random_paper: 55
 score:
   band: developing
   composite: 45.2

@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: How is AI being used in journalism?
   url: https://www.ibm.com/think/insights/ai-in-journalism
-random_paper: 60
+random_paper: 51
 score:
   band: minimal
   composite: 5.8

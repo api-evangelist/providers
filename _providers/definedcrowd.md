@@ -164,7 +164,7 @@ overview: 'Defined.ai (DefinedCrowd) publishes 8 APIs on the [APIs.io](https://a
 
 
   Defined.ai (DefinedCrowd)''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 77
+random_paper: 62
 score:
   band: thin
   composite: 39.0

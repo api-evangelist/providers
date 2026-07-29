@@ -52,7 +52,7 @@ name: Full Truck Alliance
 nav: Providers
 network: true
 overview: Full Truck Alliance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Logistics, Freight, and Trucking.
-random_paper: 7
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

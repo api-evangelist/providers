@@ -131,7 +131,7 @@ plans:
 - name: Brightdata Plans Pricing
   plan_count: 4
   slug: brightdata-plans-pricing
-random_paper: 23
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Brightdata Rate Limits

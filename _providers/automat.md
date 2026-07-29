@@ -123,7 +123,7 @@ overview: 'Automat publishes 1 API on the [APIs.io](https://apis.io/) network: e
 
 
   Automat''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 52
+random_paper: 43
 score:
   band: developing
   composite: 42.9

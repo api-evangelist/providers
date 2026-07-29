@@ -144,7 +144,7 @@ overview: 'Coiled publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Coiled''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 17 more developer resources.'
-random_paper: 71
+random_paper: 64
 score:
   band: thin
   composite: 35.5

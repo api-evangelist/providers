@@ -242,7 +242,7 @@ plans:
 - name: Statsig Plans Pricing
   plan_count: 3
   slug: statsig-plans-pricing
-random_paper: 56
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Statsig Rate Limits

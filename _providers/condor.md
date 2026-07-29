@@ -91,7 +91,7 @@ overview: 'Condor is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Condor''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: emerging
   composite: 22.0

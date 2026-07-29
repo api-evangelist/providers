@@ -105,7 +105,7 @@ overview: 'Expensify publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Expensify''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 39
+random_paper: 27
 score:
   band: emerging
   composite: 26.7

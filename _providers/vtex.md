@@ -3933,7 +3933,7 @@ plans:
 - name: Vtex Plans Pricing
   plan_count: 2
   slug: vtex-plans-pricing
-random_paper: 60
+random_paper: 55
 rate_limits:
 - limit_count: 4
   name: Vtex Rate Limits

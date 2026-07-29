@@ -44,7 +44,7 @@ name: 13th Lab
 nav: Providers
 network: true
 overview: 13th Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer Vision, SLAM, Augmented Reality, and Mobile.
-random_paper: 36
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

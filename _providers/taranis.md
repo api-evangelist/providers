@@ -101,7 +101,7 @@ plans:
 - name: Taranis Plans Pricing
   plan_count: 2
   slug: taranis-plans-pricing
-random_paper: 43
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Taranis Rate Limits

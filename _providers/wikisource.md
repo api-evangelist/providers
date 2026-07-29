@@ -244,7 +244,7 @@ plans:
 - name: Wikisource Plans Pricing
   plan_count: 1
   slug: wikisource-plans-pricing
-random_paper: 66
+random_paper: 53
 rate_limits:
 - limit_count: 4
   name: Wikisource Rate Limits

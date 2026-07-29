@@ -71,7 +71,7 @@ overview: 'Sound.xyz is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sound.xyz''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 47
+random_paper: 36
 score:
   band: minimal
   composite: 8.7

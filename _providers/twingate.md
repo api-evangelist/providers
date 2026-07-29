@@ -87,7 +87,7 @@ overview: 'Twingate publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Twingate''s developer surface includes documentation, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 12.2

@@ -55,7 +55,7 @@ overview: 'Cellanome is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cellanome''s developer surface includes support and 2 more developer resources.'
-random_paper: 75
+random_paper: 64
 score:
   band: minimal
   composite: 6.1

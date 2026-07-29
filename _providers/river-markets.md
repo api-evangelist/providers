@@ -190,7 +190,7 @@ overview: 'River Markets publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   River Markets'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 17 more developer resources.'
-random_paper: 13
+random_paper: 76
 score:
   band: thin
   composite: 39.8

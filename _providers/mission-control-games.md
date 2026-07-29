@@ -56,7 +56,7 @@ name: Mission Control Games
 nav: Providers
 network: true
 overview: Mission Control Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Mobile Gaming, Casual Games, and Puzzle Games.
-random_paper: 21
+random_paper: 74
 score:
   band: minimal
   composite: 9.2

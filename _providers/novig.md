@@ -63,7 +63,7 @@ overview: 'Novig is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Novig''s developer surface includes support and 4 more developer resources.'
-random_paper: 73
+random_paper: 67
 score:
   band: minimal
   composite: 12.1

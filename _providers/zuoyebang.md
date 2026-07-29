@@ -48,7 +48,7 @@ name: Zuoyebang
 nav: Providers
 network: true
 overview: Zuoyebang is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Online Learning, and Tutoring.
-random_paper: 32
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

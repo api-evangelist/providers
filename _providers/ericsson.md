@@ -128,7 +128,7 @@ overview: 'Ericsson is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ericsson''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 1
+random_paper: 70
 score:
   band: minimal
   composite: 6.5

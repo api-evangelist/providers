@@ -172,7 +172,7 @@ overview: 'Garner Health publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Garner Health''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 50
+random_paper: 34
 score:
   band: developing
   composite: 46.3

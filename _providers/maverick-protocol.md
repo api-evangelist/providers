@@ -91,7 +91,7 @@ overview: 'Maverick Protocol publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Maverick Protocol''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 7 more developer resources.'
-random_paper: 39
+random_paper: 17
 score:
   band: thin
   composite: 30.0

@@ -60,7 +60,7 @@ name: Zhangmen
 nav: Providers
 network: true
 overview: Zhangmen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Online Tutoring, and K-12.
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 11.1

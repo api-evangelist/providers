@@ -207,7 +207,7 @@ overview: 'Clip publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Clip''s developer surface includes developer portal, getting-started guide, documentation, FAQ, support, engineering blog, YouTube channel, and 29 more developer resources.'
-random_paper: 29
+random_paper: 24
 score:
   band: emerging
   composite: 22.3

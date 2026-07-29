@@ -124,7 +124,7 @@ overview: 'Hokodo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hokodo''s developer surface includes documentation, API reference, signup flow, sandbox, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: emerging
   composite: 26.0

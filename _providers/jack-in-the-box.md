@@ -123,7 +123,7 @@ overview: 'Jack in the Box is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Jack in the Box''s developer surface includes YouTube channel, code examples, and 15 more developer resources.'
-random_paper: 66
+random_paper: 49
 score:
   band: minimal
   composite: 11.4

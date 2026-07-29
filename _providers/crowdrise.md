@@ -48,7 +48,7 @@ name: CrowdRise
 nav: Providers
 network: true
 overview: CrowdRise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crowdfunding, Fundraising, Nonprofit, and Charity.
-random_paper: 30
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

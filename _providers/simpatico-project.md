@@ -84,7 +84,7 @@ overview: 'Simpatico Project is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Simpatico Project''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 35
+random_paper: 13
 score:
   band: emerging
   composite: 16.2

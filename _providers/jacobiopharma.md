@@ -48,7 +48,7 @@ name: Jacobio Pharma
 nav: Providers
 network: true
 overview: Jacobio Pharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Oncology, and Drug Discovery.
-random_paper: 17
+random_paper: 0
 score:
   band: minimal
   composite: 5.4

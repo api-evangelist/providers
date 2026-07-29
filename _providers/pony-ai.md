@@ -115,7 +115,7 @@ overview: 'Pony.ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pony.ai''s developer surface includes engineering blog, YouTube channel, and 16 more developer resources.'
-random_paper: 69
+random_paper: 61
 score:
   band: minimal
   composite: 6.1

@@ -39,7 +39,7 @@ name: Xurity
 nav: Providers
 network: true
 overview: Xurity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Exited Investment, Portfolio Company, and Battery Ventures.
-random_paper: 61
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

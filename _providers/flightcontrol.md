@@ -126,7 +126,7 @@ plans:
 - name: Flightcontrol Plans Pricing
   plan_count: 4
   slug: flightcontrol-plans-pricing
-random_paper: 64
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Flightcontrol Rate Limits

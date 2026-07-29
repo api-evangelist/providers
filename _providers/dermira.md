@@ -39,7 +39,7 @@ name: Dermira
 nav: Providers
 network: true
 overview: Dermira is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Dermatology, and Healthcare.
-random_paper: 29
+random_paper: 20
 score:
   band: minimal
   composite: 4.3

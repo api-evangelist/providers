@@ -151,7 +151,7 @@ overview: 'Rescale publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Rescale''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, CLI, and 17 more developer resources.'
-random_paper: 24
+random_paper: 15
 score:
   band: thin
   composite: 34.0

@@ -91,7 +91,7 @@ overview: 'Kompyte is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kompyte''s developer surface includes engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 66
+random_paper: 57
 score:
   band: emerging
   composite: 16.2

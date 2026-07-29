@@ -69,7 +69,7 @@ plans:
 - name: Lendingclub Plans Pricing
   plan_count: 1
   slug: lendingclub-plans-pricing
-random_paper: 53
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Lendingclub Rate Limits

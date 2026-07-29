@@ -48,7 +48,7 @@ name: Friend.tech
 nav: Providers
 network: true
 overview: Friend.tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Social, Web3, Blockchain, and Base.
-random_paper: 25
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

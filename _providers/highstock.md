@@ -75,7 +75,7 @@ overview: 'Highstock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Highstock''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: emerging
   composite: 13.1

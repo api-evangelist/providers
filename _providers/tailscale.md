@@ -125,7 +125,7 @@ overview: 'Tailscale publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tailscale''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 77
+random_paper: 66
 score:
   band: thin
   composite: 29.5

@@ -171,7 +171,7 @@ overview: 'One Trading publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   One Trading''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 72
 score:
   band: developing
   composite: 43.4

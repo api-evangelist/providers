@@ -128,7 +128,7 @@ overview: 'Memory publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Memory''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 33
+random_paper: 25
 score:
   band: thin
   composite: 32.4

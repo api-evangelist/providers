@@ -171,7 +171,7 @@ plans:
 - name: Scalable Software And Systems Plans Pricing
   plan_count: 3
   slug: scalable-software-and-systems-plans-pricing
-random_paper: 9
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Scalable Software And Systems Rate Limits

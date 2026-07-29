@@ -174,7 +174,7 @@ overview: 'Permutive publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Permutive''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 19 more developer resources.'
-random_paper: 45
+random_paper: 33
 score:
   band: developing
   composite: 47.3

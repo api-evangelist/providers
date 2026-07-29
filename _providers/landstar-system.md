@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Form 8-K for Landstar System INC filed 04/02/2025
   url: https://investor.landstar.com/static-files/90415776-5791-417d-838e-88001fe28562
-random_paper: 78
+random_paper: 59
 score:
   band: minimal
   composite: 4.5

@@ -170,7 +170,7 @@ overview: 'Parallel Web Systems publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Parallel Web Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 18 more developer resources.'
-random_paper: 70
+random_paper: 45
 score:
   band: strong
   composite: 57.4

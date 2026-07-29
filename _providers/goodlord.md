@@ -207,7 +207,7 @@ overview: 'Goodlord publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 29 more developer resources.'
-random_paper: 68
+random_paper: 58
 scopes:
 - name: Goodlord Scopes
   scope_count: 2

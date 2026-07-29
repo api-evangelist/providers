@@ -59,7 +59,7 @@ overview: 'NEO TECH MOBILITY HOLDINGS LIMITED is profiled on the [APIs.io](https
 
 
   NEO TECH MOBILITY HOLDINGS LIMITED''s developer surface includes support and 3 more developer resources.'
-random_paper: 77
+random_paper: 35
 score:
   band: minimal
   composite: 8.8

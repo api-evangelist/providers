@@ -44,7 +44,7 @@ name: Parative
 nav: Providers
 network: true
 overview: Parative is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Customer Intelligence, Customer Success, and Net Revenue Retention.
-random_paper: 70
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

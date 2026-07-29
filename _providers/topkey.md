@@ -79,7 +79,7 @@ overview: 'TopKey is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   TopKey''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 36
+random_paper: 28
 score:
   band: emerging
   composite: 15.9

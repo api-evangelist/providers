@@ -420,7 +420,7 @@ plans:
 - name: Crewai Cloud Plans Pricing
   plan_count: 2
   slug: crewai-cloud-plans-pricing
-random_paper: 30
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Crewai Cloud Rate Limits

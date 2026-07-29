@@ -84,7 +84,7 @@ plans:
 - name: Datos Magyp Gob Ar Plans Pricing
   plan_count: 1
   slug: datos-magyp-gob-ar-plans-pricing
-random_paper: 1
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Datos Magyp Gob Ar Rate Limits

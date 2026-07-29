@@ -127,7 +127,7 @@ overview: 'Paper is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Paper''s developer surface includes documentation, API reference, changelog, engineering blog, support, pricing, signup flow, and 13 more developer resources.'
-random_paper: 62
+random_paper: 56
 score:
   band: emerging
   composite: 26.2

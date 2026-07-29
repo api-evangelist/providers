@@ -60,7 +60,7 @@ name: Deepcode
 nav: Providers
 network: true
 overview: Deepcode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
-random_paper: 35
+random_paper: 25
 score:
   band: minimal
   composite: 5.7

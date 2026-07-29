@@ -170,7 +170,7 @@ overview: 'C. Hoare & Co. publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   C. Hoare & Co.''s developer surface includes authentication, documentation, support, legal docs, and 22 more developer resources.'
-random_paper: 14
+random_paper: 78
 scopes:
 - name: C Hoare And Co Scopes
   scope_count: 2

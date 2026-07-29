@@ -75,7 +75,7 @@ overview: 'Ibotta is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ibotta''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 11.2

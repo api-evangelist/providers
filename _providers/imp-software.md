@@ -75,7 +75,7 @@ overview: 'IMP Software is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   IMP Software''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 61
+random_paper: 46
 score:
   band: minimal
   composite: 11.3

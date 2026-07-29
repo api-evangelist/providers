@@ -224,7 +224,7 @@ plans:
 - name: Schematic Plans Pricing
   plan_count: 3
   slug: schematic-plans-pricing
-random_paper: 76
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Schematic Rate Limits

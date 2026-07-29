@@ -52,7 +52,7 @@ name: Sun Communities
 nav: Providers
 network: true
 overview: Sun Communities is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Manufactured Housing, RV Resorts, Marinas, and REIT.
-random_paper: 4
+random_paper: 64
 score:
   band: minimal
   composite: 4.4

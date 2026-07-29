@@ -131,7 +131,7 @@ overview: 'Lume publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lume''s developer surface includes documentation, getting-started guide, authentication, signup flow, support, and 13 more developer resources.'
-random_paper: 40
+random_paper: 35
 score:
   band: thin
   composite: 39.5

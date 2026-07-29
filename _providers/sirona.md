@@ -99,7 +99,7 @@ overview: 'Sirona Medical is profiled on the [APIs.io](https://apis.io/) network
 
 
   Sirona Medical''s developer surface includes engineering blog, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: emerging
   composite: 25.6

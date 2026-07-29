@@ -180,7 +180,7 @@ overview: 'Klook publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Klook''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: developing
   composite: 47.8

@@ -56,7 +56,7 @@ name: Noodle Partners
 nav: Providers
 network: true
 overview: Noodle Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Higher Education, and Online Program Management.
-random_paper: 64
+random_paper: 45
 score:
   band: minimal
   composite: 8.2

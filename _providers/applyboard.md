@@ -87,7 +87,7 @@ overview: 'ApplyBoard is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ApplyBoard''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 43
+random_paper: 30
 score:
   band: emerging
   composite: 15.7

@@ -71,7 +71,7 @@ overview: 'Qventus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Qventus'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 0
+random_paper: 70
 score:
   band: emerging
   composite: 13.8

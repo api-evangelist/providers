@@ -201,7 +201,7 @@ plans:
 - name: Cloudflare Queues Plans Pricing
   plan_count: 2
   slug: cloudflare-queues-plans-pricing
-random_paper: 28
+random_paper: 6
 rate_limits:
 - limit_count: 20
   name: Cloudflare Queues Rate Limits

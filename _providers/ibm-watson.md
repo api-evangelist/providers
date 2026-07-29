@@ -105,7 +105,7 @@ plans:
 - name: Ibm Watson Plans Pricing
   plan_count: 3
   slug: ibm-watson-plans-pricing
-random_paper: 77
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Ibm Watson Rate Limits

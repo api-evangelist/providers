@@ -60,7 +60,7 @@ press:
 - date: '2026-05-25'
   title: SpartanNash to Test AI-Powered Inventory Technology
   url: https://www.specialtyfood.com/news-media/news-features/specialty-food-news/spartannash-to-test-ai-powered-inventory-technology/
-random_paper: 2
+random_paper: 67
 score:
   band: minimal
   composite: 3.0

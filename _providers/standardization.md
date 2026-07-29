@@ -103,7 +103,7 @@ overview: 'Standardization is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Standardization''s developer surface includes documentation, developer portal, and 7 more developer resources.'
-random_paper: 35
+random_paper: 15
 rules:
 - name: Standardization API Rules
   rule_count: 5

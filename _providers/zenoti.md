@@ -159,7 +159,7 @@ overview: 'Zenoti publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Zenoti''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 33
+random_paper: 25
 score:
   band: developing
   composite: 45.0

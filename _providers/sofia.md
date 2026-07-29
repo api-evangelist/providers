@@ -79,7 +79,7 @@ overview: 'Sofia is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Sofia''s developer surface includes pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 56
+random_paper: 50
 score:
   band: emerging
   composite: 16.1

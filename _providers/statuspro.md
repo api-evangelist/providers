@@ -71,7 +71,7 @@ overview: 'StatusPRO is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   StatusPRO''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 65
+random_paper: 53
 score:
   band: minimal
   composite: 12.6

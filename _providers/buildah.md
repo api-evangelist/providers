@@ -134,7 +134,7 @@ overview: 'Buildah is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Buildah''s developer surface includes documentation, getting-started guide, engineering blog, release notes, and 7 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: minimal
   composite: 12.1

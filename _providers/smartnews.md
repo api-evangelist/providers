@@ -213,7 +213,7 @@ overview: 'SmartNews publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SmartNews'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 21 more developer resources.'
-random_paper: 48
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Smartnews Rate Limits

@@ -56,7 +56,7 @@ name: Storj
 nav: Providers
 network: true
 overview: Storj publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage And File Sharing and Public APIs.
-random_paper: 9
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

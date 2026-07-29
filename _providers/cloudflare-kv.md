@@ -245,7 +245,7 @@ plans:
 - name: Cloudflare Kv Plans Pricing
   plan_count: 2
   slug: cloudflare-kv-plans-pricing
-random_paper: 63
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Cloudflare Kv Rate Limits

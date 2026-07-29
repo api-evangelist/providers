@@ -48,7 +48,7 @@ name: Visterra
 nav: Providers
 network: true
 overview: Visterra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Biologics, Therapeutics, and Antibodies.
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 5.4

@@ -71,7 +71,7 @@ overview: 'EyeLights is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   EyeLights'' developer surface includes support and 6 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: emerging
   composite: 13.8

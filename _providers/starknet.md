@@ -166,7 +166,7 @@ plans:
 - name: Starknet Plans Pricing
   plan_count: 1
   slug: starknet-plans-pricing
-random_paper: 7
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Starknet Rate Limits

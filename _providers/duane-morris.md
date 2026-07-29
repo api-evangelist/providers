@@ -100,7 +100,7 @@ overview: 'Duane Morris is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Duane Morris'' developer surface includes product news, engineering blog, GitHub presence, and 10 more developer resources.'
-random_paper: 53
+random_paper: 38
 score:
   band: minimal
   composite: 6.3

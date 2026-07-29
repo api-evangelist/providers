@@ -118,7 +118,7 @@ plans:
 - name: Pdfgeneratorapi Plans Pricing
   plan_count: 7
   slug: pdfgeneratorapi-plans-pricing
-random_paper: 15
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Pdfgeneratorapi Rate Limits

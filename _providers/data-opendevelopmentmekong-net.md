@@ -88,7 +88,7 @@ plans:
 - name: Data Opendevelopmentmekong Net Plans Pricing
   plan_count: 1
   slug: data-opendevelopmentmekong-net-plans-pricing
-random_paper: 8
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Data Opendevelopmentmekong Net Rate Limits

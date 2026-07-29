@@ -59,7 +59,7 @@ overview: 'jsDelivr publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   jsDelivr''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 5.4

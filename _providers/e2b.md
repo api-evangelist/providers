@@ -130,7 +130,7 @@ plans:
 - name: E2B Plans Pricing
   plan_count: 1
   slug: e2b-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: E2B Rate Limits

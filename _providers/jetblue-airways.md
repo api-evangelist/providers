@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: JetBlue Selects ASAPP Artificial Intelligence Platform for ...
   url: https://www.prnewswire.com/news-releases/jetblue-selects-asapp-artificial-intelligence-platform-for-customer-experience-transformation-301215898.html
-random_paper: 59
+random_paper: 40
 score:
   band: minimal
   composite: 3.8

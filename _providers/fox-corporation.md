@@ -357,7 +357,7 @@ name: Fox Corporation
 nav: Providers
 network: true
 overview: Fox Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Broadcasting, News, Sports, and Entertainment.
-random_paper: 77
+random_paper: 58
 score:
   band: minimal
   composite: 9.9

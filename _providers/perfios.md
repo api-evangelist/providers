@@ -83,7 +83,7 @@ overview: 'Perfios is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Perfios'' developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 49
+random_paper: 40
 score:
   band: emerging
   composite: 15.5

@@ -259,7 +259,7 @@ overview: 'Socket publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Socket''s developer surface includes documentation, getting-started guide, API reference, support, authentication, changelog, CLI, and 27 more developer resources.'
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Socket Rate Limits

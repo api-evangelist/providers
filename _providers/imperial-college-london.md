@@ -141,7 +141,7 @@ plans:
 - name: Imperial College London Plans Pricing
   plan_count: 2
   slug: imperial-college-london-plans-pricing
-random_paper: 31
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Imperial College London Rate Limits

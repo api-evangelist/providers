@@ -265,7 +265,7 @@ overview: 'Anam.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Anam.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 30 more developer resources.'
-random_paper: 62
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Anamai Rate Limits

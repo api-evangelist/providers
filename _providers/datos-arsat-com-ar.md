@@ -84,7 +84,7 @@ plans:
 - name: Datos Arsat Com Ar Plans Pricing
   plan_count: 1
   slug: datos-arsat-com-ar-plans-pricing
-random_paper: 5
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Datos Arsat Com Ar Rate Limits

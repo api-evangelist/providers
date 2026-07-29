@@ -88,7 +88,7 @@ plans:
 - name: Data Cnra Ca Gov Plans Pricing
   plan_count: 1
   slug: data-cnra-ca-gov-plans-pricing
-random_paper: 71
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Data Cnra Ca Gov Rate Limits

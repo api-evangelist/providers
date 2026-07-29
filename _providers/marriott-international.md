@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: How Marriott's AI Initiatives Will Empower Event Planners
   url: https://marriottbonvoyevents.com/news-and-highlights/article/674/how-marriott-s-ai-initiatives-will-empower-event-planners
-random_paper: 36
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Marriott International Rate Limits

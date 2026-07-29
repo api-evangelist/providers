@@ -39,7 +39,7 @@ name: Security Standards
 nav: Providers
 network: true
 overview: Security Standards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Security Standards.
-random_paper: 1
+random_paper: 57
 score:
   band: minimal
   composite: 3.5

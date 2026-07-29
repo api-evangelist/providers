@@ -143,7 +143,7 @@ overview: 'Sonos publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sonos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 9
+random_paper: 2
 scopes:
 - name: Sonos Scopes
   scope_count: 1

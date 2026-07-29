@@ -232,7 +232,7 @@ overview: 'Solera publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Solera''s developer surface includes authentication, engineering blog, API reference, documentation, sandbox, changelog, support, and 32 more developer resources.'
-random_paper: 14
+random_paper: 6
 scopes:
 - name: Solera Scopes
   scope_count: 4

@@ -39,7 +39,7 @@ name: Symbio Robotics
 nav: Providers
 network: true
 overview: Symbio Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Industrial Automation, Manufacturing, and Artificial Intelligence.
-random_paper: 72
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

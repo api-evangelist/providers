@@ -48,7 +48,7 @@ name: Truvian
 nav: Providers
 network: true
 overview: Truvian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Diagnostics, Health, Blood Testing, and Medical Devices.
-random_paper: 66
+random_paper: 57
 score:
   band: minimal
   composite: 5.4

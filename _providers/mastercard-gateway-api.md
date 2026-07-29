@@ -115,7 +115,7 @@ plans:
 - name: Mastercard Gateway Api Plans Pricing
   plan_count: 3
   slug: mastercard-gateway-api-plans-pricing
-random_paper: 8
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Mastercard Gateway Api Rate Limits

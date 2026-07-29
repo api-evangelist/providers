@@ -229,7 +229,7 @@ plans:
 - name: Swaggerhub Plans Pricing
   plan_count: 3
   slug: swaggerhub-plans-pricing
-random_paper: 44
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Swaggerhub Rate Limits

@@ -44,7 +44,7 @@ name: Accountable
 nav: Providers
 network: true
 overview: Accountable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Crypto.
-random_paper: 47
+random_paper: 33
 score:
   band: minimal
   composite: 4.8

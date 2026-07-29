@@ -107,7 +107,7 @@ overview: 'Urban Sports Club is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Urban Sports Club''s developer surface includes support, engineering blog, pricing, and 13 more developer resources.'
-random_paper: 72
+random_paper: 51
 score:
   band: emerging
   composite: 19.4

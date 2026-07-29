@@ -87,7 +87,7 @@ overview: 'Electric.ai is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Electric.ai''s developer surface includes documentation, support, engineering blog, pricing, changelog, and 6 more developer resources.'
-random_paper: 18
+random_paper: 5
 score:
   band: emerging
   composite: 22.2

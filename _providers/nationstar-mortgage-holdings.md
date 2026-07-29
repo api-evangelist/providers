@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: 'Hail to the Chief: Nationstar COO Tony Ebers ...'
   url: https://www.facebook.com/TitleQuestInvestments/posts/hail-to-the-chief-nationstar-coo-tony-ebersnationstar-mortgage-holdings-has-notc/1801684699890902/
-random_paper: 47
+random_paper: 11
 score:
   band: minimal
   composite: 4.3

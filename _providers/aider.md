@@ -483,7 +483,7 @@ overview: 'Aider publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aider''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, tooling, and 28 more developer resources.'
-random_paper: 43
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Aider Rate Limits

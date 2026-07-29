@@ -44,7 +44,7 @@ name: HilleVax
 nav: Providers
 network: true
 overview: HilleVax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Vaccines, Life Sciences, and Healthcare.
-random_paper: 71
+random_paper: 61
 score:
   band: minimal
   composite: 4.3

@@ -71,7 +71,7 @@ overview: 'Rossignol is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rossignol''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 44
+random_paper: 32
 score:
   band: minimal
   composite: 10.5

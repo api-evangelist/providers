@@ -56,7 +56,7 @@ name: Open Government, Argentina
 nav: Providers
 network: true
 overview: Open Government, Argentina publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 42
+random_paper: 10
 score:
   band: minimal
   composite: 6.5

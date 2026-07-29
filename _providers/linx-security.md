@@ -107,7 +107,7 @@ overview: 'Linx Security is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Linx Security''s developer surface includes engineering blog, signup flow, support, and 12 more developer resources.'
-random_paper: 33
+random_paper: 16
 score:
   band: emerging
   composite: 23.4

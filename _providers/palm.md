@@ -88,7 +88,7 @@ overview: 'Palm is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Palm''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 31
+random_paper: 26
 score:
   band: emerging
   composite: 15.8

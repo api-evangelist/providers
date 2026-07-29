@@ -39,7 +39,7 @@ name: Jumprope
 nav: Providers
 network: true
 overview: Jumprope is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Creator Tools, Instructional Video, and Acquired.
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

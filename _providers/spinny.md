@@ -71,7 +71,7 @@ overview: 'Spinny is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Spinny''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 41
+random_paper: 33
 score:
   band: minimal
   composite: 11.3

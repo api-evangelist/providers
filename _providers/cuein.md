@@ -146,7 +146,7 @@ overview: 'Cuein publishes 2 APIs on the [APIs.io](https://apis.io/) network: an
 
 
   Cuein''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 14 more developer resources.'
-random_paper: 58
+random_paper: 52
 score:
   band: developing
   composite: 42.6

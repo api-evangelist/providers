@@ -100,7 +100,7 @@ overview: 'Keybase publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Keybase''s developer surface includes documentation, API reference, engineering blog, support, CLI, and 7 more developer resources.'
-random_paper: 29
+random_paper: 20
 score:
   band: emerging
   composite: 18.1

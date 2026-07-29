@@ -72,7 +72,7 @@ plans:
 - name: Zillow Group Plans Pricing
   plan_count: 3
   slug: zillow-group-plans-pricing
-random_paper: 11
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Zillow Group Rate Limits

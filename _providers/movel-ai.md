@@ -55,7 +55,7 @@ overview: 'Movel AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Movel AI''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 4
+random_paper: 74
 score:
   band: minimal
   composite: 5.4

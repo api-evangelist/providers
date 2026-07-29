@@ -103,7 +103,7 @@ plans:
 - name: Hanyang Plans Pricing
   plan_count: 2
   slug: hanyang-plans-pricing
-random_paper: 31
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Hanyang Rate Limits

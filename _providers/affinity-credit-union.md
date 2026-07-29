@@ -67,7 +67,7 @@ overview: 'Affinity Credit Union is profiled on the [APIs.io](https://apis.io/) 
 
 
   Affinity Credit Union''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 3
+random_paper: 56
 score:
   band: minimal
   composite: 12.8

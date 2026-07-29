@@ -67,7 +67,7 @@ overview: 'Astro Mechanica is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Astro Mechanica''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 18
+random_paper: 79
 score:
   band: minimal
   composite: 6.3

@@ -128,7 +128,7 @@ overview: 'Lovable is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lovable''s developer surface includes documentation, pricing, YouTube channel, engineering blog, and 16 more developer resources.'
-random_paper: 78
+random_paper: 65
 score:
   band: minimal
   composite: 12.6

@@ -536,7 +536,7 @@ plans:
 - name: Pinterest Plans Pricing
   plan_count: 3
   slug: pinterest-plans-pricing
-random_paper: 42
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Pinterest Rate Limits

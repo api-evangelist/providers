@@ -59,7 +59,7 @@ overview: 'Service Max is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Service Max''s developer surface includes documentation, support, and 2 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: minimal
   composite: 7.6

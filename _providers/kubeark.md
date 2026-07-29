@@ -136,7 +136,7 @@ overview: 'Kubeark is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kubeark''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, authentication, and 15 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: thin
   composite: 37.7

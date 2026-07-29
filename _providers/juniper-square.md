@@ -111,7 +111,7 @@ overview: 'Juniper Square is profiled on the [APIs.io](https://apis.io/) network
 
 
   Juniper Square''s developer surface includes documentation, engineering blog, support, and 13 more developer resources.'
-random_paper: 45
+random_paper: 27
 score:
   band: emerging
   composite: 24.8

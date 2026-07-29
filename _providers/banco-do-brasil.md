@@ -56,7 +56,7 @@ name: Banco do Brasil
 nav: Providers
 network: true
 overview: Banco do Brasil publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
-random_paper: 31
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

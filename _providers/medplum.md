@@ -375,7 +375,7 @@ plans:
 - name: Medplum Plans Pricing
   plan_count: 6
   slug: medplum-plans-pricing
-random_paper: 45
+random_paper: 36
 rate_limits:
 - limit_count: 4
   name: Medplum Rate Limits

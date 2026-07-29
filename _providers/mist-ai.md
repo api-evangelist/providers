@@ -867,7 +867,7 @@ overview: 'Juniper Mist AI publishes 209 APIs on the [APIs.io](https://apis.io/)
 
 
   Juniper Mist AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, training material, tooling, and 31 more developer resources.'
-random_paper: 60
+random_paper: 52
 score:
   band: developing
   composite: 42.6

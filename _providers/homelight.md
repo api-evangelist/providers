@@ -132,7 +132,7 @@ overview: 'HomeLight publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   HomeLight''s developer surface includes engineering blog, GitHub presence, YouTube channel, support, and 17 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: minimal
   composite: 8.8

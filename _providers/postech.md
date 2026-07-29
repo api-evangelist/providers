@@ -97,7 +97,7 @@ plans:
 - name: Postech Plans Pricing
   plan_count: 2
   slug: postech-plans-pricing
-random_paper: 47
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Postech Rate Limits

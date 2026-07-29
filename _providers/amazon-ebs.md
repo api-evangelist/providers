@@ -284,7 +284,7 @@ plans:
 - name: Amazon Ebs Plans Pricing
   plan_count: 3
   slug: amazon-ebs-plans-pricing
-random_paper: 57
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Amazon Ebs Rate Limits

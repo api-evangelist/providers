@@ -327,7 +327,7 @@ overview: 'OpenTravel Alliance publishes 4 APIs on the [APIs.io](https://apis.io
 
 
   OpenTravel Alliance''s developer surface includes getting-started guide, support, authentication, changelog, CLI, code examples, API reference, and 45 more developer resources.'
-random_paper: 62
+random_paper: 38
 scopes:
 - name: Opentravel Alliance Scopes
   scope_count: 1

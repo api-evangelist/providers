@@ -87,7 +87,7 @@ overview: 'GoTenna is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   GoTenna''s developer surface includes documentation, API reference, support, and 8 more developer resources.'
-random_paper: 37
+random_paper: 28
 score:
   band: emerging
   composite: 15.5

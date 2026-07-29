@@ -202,7 +202,7 @@ overview: 'Paragraph publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paragraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 2
+random_paper: 70
 score:
   band: developing
   composite: 51.4

@@ -125,7 +125,7 @@ plans:
 - name: Hospitable Plans Pricing
   plan_count: 5
   slug: hospitable-plans-pricing
-random_paper: 40
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Hospitable Rate Limits

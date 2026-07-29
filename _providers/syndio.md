@@ -84,7 +84,7 @@ overview: 'Syndio is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Syndio''s developer surface includes engineering blog, support, CLI, and 7 more developer resources.'
-random_paper: 30
+random_paper: 22
 score:
   band: emerging
   composite: 13.5

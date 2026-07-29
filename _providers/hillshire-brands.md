@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Tyson wins bidding war to buy Hillshire Brands
   url: https://www.latimes.com/business/la-fi-tyson-wins-bid-for-hillshire-brands-20140609-story.html
-random_paper: 63
+random_paper: 43
 score:
   band: minimal
   composite: 4.1

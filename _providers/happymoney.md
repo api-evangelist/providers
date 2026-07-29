@@ -71,7 +71,7 @@ overview: 'Happy Money is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Happy Money''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 71
+random_paper: 58
 score:
   band: minimal
   composite: 11.6

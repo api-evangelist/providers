@@ -87,7 +87,7 @@ overview: 'Vallor is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vallor''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 24
+random_paper: 16
 score:
   band: emerging
   composite: 16.6

@@ -87,7 +87,7 @@ overview: 'Conagra Brands is profiled on the [APIs.io](https://apis.io/) network
 
 
   Conagra Brands'' developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 67
+random_paper: 50
 score:
   band: minimal
   composite: 6.1

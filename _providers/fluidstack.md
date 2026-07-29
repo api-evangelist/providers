@@ -168,7 +168,7 @@ overview: 'Fluidstack publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Fluidstack''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 14 more developer resources.'
-random_paper: 39
+random_paper: 26
 score:
   band: thin
   composite: 31.0

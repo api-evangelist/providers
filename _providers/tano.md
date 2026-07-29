@@ -45,7 +45,7 @@ name: Tano
 nav: Providers
 network: true
 overview: Tano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 39
+random_paper: 34
 score:
   band: minimal
   composite: 8.0

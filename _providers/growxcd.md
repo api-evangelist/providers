@@ -63,7 +63,7 @@ overview: 'GrowXCD is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   GrowXCD''s developer surface includes support and 4 more developer resources.'
-random_paper: 55
+random_paper: 46
 score:
   band: minimal
   composite: 11.2

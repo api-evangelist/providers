@@ -236,7 +236,7 @@ overview: 'TrackMan is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TrackMan''s developer surface includes developer portal, signup flow, documentation, support, training material, engineering blog, YouTube channel, and 40 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: emerging
   composite: 17.3

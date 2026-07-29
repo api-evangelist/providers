@@ -147,7 +147,7 @@ overview: 'Urban Sky publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Urban Sky''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, sandbox, and 17 more developer resources.'
-random_paper: 55
+random_paper: 44
 score:
   band: thin
   composite: 40.0

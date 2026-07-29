@@ -121,7 +121,7 @@ plans:
 - name: Feign Plans Pricing
   plan_count: 3
   slug: feign-plans-pricing
-random_paper: 47
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Feign Rate Limits

@@ -142,7 +142,7 @@ plans:
 - name: Polar Sh Plans Pricing
   plan_count: 6
   slug: polar-sh-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Polar Sh Rate Limits

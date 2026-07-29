@@ -198,7 +198,7 @@ overview: 'Bitski publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bitski''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 23 more developer resources.'
-random_paper: 14
+random_paper: 6
 scopes:
 - name: Bitski Scopes
   scope_count: 2

@@ -39,7 +39,7 @@ name: Eliance Corporation
 nav: Providers
 network: true
 overview: Eliance Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Processing, eCommerce, and Fintech.
-random_paper: 70
+random_paper: 46
 score:
   band: minimal
   composite: 4.3

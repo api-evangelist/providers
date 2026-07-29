@@ -106,7 +106,7 @@ plans:
 - name: Evidence Dev Plans Pricing
   plan_count: 5
   slug: evidence-dev-plans-pricing
-random_paper: 14
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Evidence Dev Rate Limits

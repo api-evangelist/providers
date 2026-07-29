@@ -95,7 +95,7 @@ plans:
 - name: Ko Fi Plans Pricing
   plan_count: 2
   slug: ko-fi-plans-pricing
-random_paper: 75
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Ko Fi Rate Limits

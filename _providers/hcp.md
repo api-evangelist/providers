@@ -148,7 +148,7 @@ press:
 - date: '2026-05-25'
   title: Charter HCP Announces Direct Investment Focus on ...
   url: https://www.jacksonville.com/press-release/story/990353/charter-hcp-announces-direct-investment-focus-on-financial-services-and-ai-guardrail-startups/
-random_paper: 78
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Hcp Rate Limits

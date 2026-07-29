@@ -68,7 +68,7 @@ overview: 'Stampli is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Stampli''s developer surface includes documentation, pricing, engineering blog, and 3 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: minimal
   composite: 9.3

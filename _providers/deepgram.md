@@ -448,7 +448,7 @@ plans:
 - name: Deepgram Plans Pricing
   plan_count: 6
   slug: deepgram-plans-pricing
-random_paper: 47
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Deepgram Rate Limits

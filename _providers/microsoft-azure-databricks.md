@@ -4,6 +4,6 @@ layout: provider
 name: Microsoft Azure Databricks
 nav: Providers
 network: true
-random_paper: 64
+random_paper: 31
 slug: microsoft-azure-databricks
 ---

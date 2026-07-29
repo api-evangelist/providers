@@ -87,7 +87,7 @@ overview: 'TransUnion publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   TransUnion''s developer surface includes product news, engineering blog, and 8 more developer resources.'
-random_paper: 78
+random_paper: 65
 score:
   band: minimal
   composite: 7.3

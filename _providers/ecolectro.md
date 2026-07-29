@@ -71,7 +71,7 @@ overview: 'Ecolectro is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ecolectro''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: minimal
   composite: 8.4

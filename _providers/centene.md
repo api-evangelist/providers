@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Apixio Acquisition by Centene Corporation
   url: https://www.triple-tree.com/experience/apixio-centene-corporation/
-random_paper: 27
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Centene Rate Limits

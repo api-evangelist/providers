@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: HealthSouth is now Encompass Health
   url: https://www.beckershospitalreview.com/hospital-management-administration/healthsouth-is-now-encompass-health/
-random_paper: 8
+random_paper: 73
 score:
   band: minimal
   composite: 7.9

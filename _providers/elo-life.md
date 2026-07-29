@@ -83,7 +83,7 @@ overview: 'Elo Life is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Elo Life''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 70
+random_paper: 61
 score:
   band: minimal
   composite: 10.5

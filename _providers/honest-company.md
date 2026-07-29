@@ -111,7 +111,7 @@ overview: 'Honest Company publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Honest Company''s developer surface includes signup flow, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 39
+random_paper: 21
 scopes:
 - name: Honest Company Scopes
   scope_count: 4

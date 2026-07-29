@@ -102,7 +102,7 @@ press:
 - date: '2026-05-25'
   title: 'General Motors: Iconic Vehicles for Every Drive'
   url: https://www.gm.com/
-random_paper: 55
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: General Dynamics Rate Limits

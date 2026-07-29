@@ -48,7 +48,7 @@ name: PerTrac
 nav: Providers
 network: true
 overview: PerTrac is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hedge Funds, Investment Analytics, Financial Data, and Portfolio Management.
-random_paper: 42
+random_paper: 33
 score:
   band: minimal
   composite: 5.0

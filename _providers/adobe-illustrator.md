@@ -396,7 +396,7 @@ plans:
 - name: Adobe Illustrator Plans Pricing
   plan_count: 3
   slug: adobe-illustrator-plans-pricing
-random_paper: 35
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Adobe Illustrator Rate Limits

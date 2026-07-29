@@ -48,7 +48,7 @@ name: Equitable Holdings
 nav: Providers
 network: true
 overview: Equitable Holdings is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 40
+random_paper: 17
 score:
   band: minimal
   composite: 3.3

@@ -95,7 +95,7 @@ overview: 'Aerodrome is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Aerodrome''s developer surface includes documentation and 11 more developer resources.'
-random_paper: 10
+random_paper: 78
 score:
   band: emerging
   composite: 18.9

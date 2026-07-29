@@ -52,7 +52,7 @@ name: Tivoli
 nav: Providers
 network: true
 overview: Tivoli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Systems Management, IT Operations, Enterprise Software, and Network Management.
-random_paper: 31
+random_paper: 23
 score:
   band: minimal
   composite: 5.7

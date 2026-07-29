@@ -55,7 +55,7 @@ overview: 'Eversight is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Eversight''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 29
+random_paper: 17
 score:
   band: minimal
   composite: 7.6

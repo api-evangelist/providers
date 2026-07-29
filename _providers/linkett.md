@@ -56,7 +56,7 @@ name: Linkett
 nav: Providers
 network: true
 overview: Linkett is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Digital Signage, Digital Out Of Home, and DOOH.
-random_paper: 52
+random_paper: 43
 score:
   band: minimal
   composite: 5.7

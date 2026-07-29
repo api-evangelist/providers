@@ -84,7 +84,7 @@ name: Sonantic
 nav: Providers
 network: true
 overview: Sonantic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Voice, Text to Speech, Emotive AI, Acquired, and Spotify.
-random_paper: 73
+random_paper: 63
 score:
   band: minimal
   composite: 5.5

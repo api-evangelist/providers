@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Buyout firm Apollo to buy Smart & Final Stores for $1.1 billion
   url: https://www.reuters.com/article/world/buyout-firm-apollo-to-buy-smart-final-stores-for-11-billion-idUSKCN1RS2C7/
-random_paper: 54
+random_paper: 27
 score:
   band: minimal
   composite: 7.1

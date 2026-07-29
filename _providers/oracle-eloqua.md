@@ -112,7 +112,7 @@ overview: 'Oracle Eloqua publishes 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Oracle Eloqua''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 58
+random_paper: 42
 score:
   band: emerging
   composite: 27.6

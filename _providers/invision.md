@@ -112,7 +112,7 @@ plans:
 - name: Invision Plans Pricing
   plan_count: 3
   slug: invision-plans-pricing
-random_paper: 10
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Invision Rate Limits

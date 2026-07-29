@@ -52,7 +52,7 @@ name: 6river
 nav: Providers
 network: true
 overview: 6river is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Warehouse Automation, Robotics, Autonomous Mobile Robots, and Fulfillment.
-random_paper: 53
+random_paper: 46
 score:
   band: minimal
   composite: 5.7

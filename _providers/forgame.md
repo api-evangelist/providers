@@ -55,7 +55,7 @@ overview: 'forgame is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   forgame''s developer surface includes support and 2 more developer resources.'
-random_paper: 26
+random_paper: 17
 score:
   band: minimal
   composite: 5.9

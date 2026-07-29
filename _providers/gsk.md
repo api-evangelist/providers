@@ -179,7 +179,7 @@ overview: 'GSK is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   GSK''s developer surface includes YouTube channel, engineering blog, changelog, support, and 19 more developer resources.'
-random_paper: 9
+random_paper: 5
 score:
   band: emerging
   composite: 18.6

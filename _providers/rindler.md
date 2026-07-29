@@ -116,7 +116,7 @@ overview: 'Rindler publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Rindler''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 41
+random_paper: 32
 scopes:
 - name: Rindler Scopes
   scope_count: 3

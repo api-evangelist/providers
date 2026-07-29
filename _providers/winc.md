@@ -96,7 +96,7 @@ overview: 'Winc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Winc''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 38
+random_paper: 33
 scopes:
 - name: Winc Scopes
   scope_count: 0

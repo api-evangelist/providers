@@ -124,7 +124,7 @@ overview: 'Iron Fish publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Iron Fish''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 12 more developer resources.'
-random_paper: 42
+random_paper: 31
 score:
   band: thin
   composite: 28.1

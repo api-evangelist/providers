@@ -75,7 +75,7 @@ overview: 'Capella University is profiled on the [APIs.io](https://apis.io/) net
 
 
   Capella University''s developer surface includes support, engineering blog, signup flow, pricing, and 4 more developer resources.'
-random_paper: 72
+random_paper: 49
 score:
   band: emerging
   composite: 15.2

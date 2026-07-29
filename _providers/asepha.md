@@ -88,7 +88,7 @@ overview: 'Asepha is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Asepha''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 73
+random_paper: 66
 score:
   band: emerging
   composite: 13.8

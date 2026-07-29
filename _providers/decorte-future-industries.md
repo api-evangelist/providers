@@ -91,7 +91,7 @@ overview: 'Decorte Future Industries is profiled on the [APIs.io](https://apis.i
 
 
   Decorte Future Industries'' developer surface includes engineering blog, support, signup flow, pricing, and 8 more developer resources.'
-random_paper: 69
+random_paper: 37
 score:
   band: emerging
   composite: 16.0

@@ -122,7 +122,7 @@ plans:
 - name: Urjanet Plans Pricing
   plan_count: 1
   slug: urjanet-plans-pricing
-random_paper: 50
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Urjanet Rate Limits

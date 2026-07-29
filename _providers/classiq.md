@@ -129,7 +129,7 @@ overview: 'Classiq is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Classiq''s developer surface includes documentation, getting-started guide, release notes, GitHub presence, YouTube channel, and 16 more developer resources.'
-random_paper: 41
+random_paper: 32
 score:
   band: minimal
   composite: 11.7

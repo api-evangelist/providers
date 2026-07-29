@@ -56,7 +56,7 @@ name: Rick and Morty
 nav: Providers
 network: true
 overview: Rick and Morty publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 50
+random_paper: 33
 score:
   band: minimal
   composite: 5.7

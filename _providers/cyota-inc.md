@@ -39,7 +39,7 @@ name: Cyota, Inc
 nav: Providers
 network: true
 overview: Cyota, Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Fraud Detection, Authentication, and Anti-Phishing.
-random_paper: 34
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

@@ -170,7 +170,7 @@ press:
 - date: '2026-05-25'
   title: 'AI Inside: Artificial Intelligence for Network and Customer ...'
   url: https://techexpo.scte.org/session/ai-inside-artificial-intelligence-for-network-and-customer-experience-innovation/
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Charter Communications Rate Limits

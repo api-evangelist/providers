@@ -577,7 +577,7 @@ plans:
 - name: Argus Enterprise Plans Pricing
   plan_count: 3
   slug: argus-enterprise-plans-pricing
-random_paper: 21
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Argus Enterprise Rate Limits

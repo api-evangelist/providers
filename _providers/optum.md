@@ -134,7 +134,7 @@ overview: 'Optum publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Optum''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 13 more developer resources.'
-random_paper: 12
+random_paper: 5
 score:
   band: thin
   composite: 31.8

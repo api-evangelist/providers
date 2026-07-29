@@ -79,7 +79,7 @@ overview: 'Aiwyn is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aiwyn''s developer surface includes support, engineering blog, release notes, and 6 more developer resources.'
-random_paper: 78
+random_paper: 72
 score:
   band: emerging
   composite: 16.8

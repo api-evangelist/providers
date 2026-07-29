@@ -189,7 +189,7 @@ overview: 'Trail publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Trail''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 66
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Trail Rate Limits

@@ -87,7 +87,7 @@ overview: 'Flock Freight is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Flock Freight''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 53
+random_paper: 37
 score:
   band: emerging
   composite: 16.3

@@ -44,7 +44,7 @@ name: thetab
 nav: Providers
 network: true
 overview: thetab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Publishing, Entertainment, and News.
-random_paper: 0
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

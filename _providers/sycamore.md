@@ -91,7 +91,7 @@ overview: 'Sycamore is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sycamore''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: emerging
   composite: 16.5

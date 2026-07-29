@@ -256,7 +256,7 @@ plans:
 - name: Duck Creek Plans Pricing
   plan_count: 1
   slug: duck-creek-plans-pricing
-random_paper: 42
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Duck Creek Rate Limits

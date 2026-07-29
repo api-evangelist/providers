@@ -229,7 +229,7 @@ overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 24 more developer resources.'
-random_paper: 60
+random_paper: 51
 scopes:
 - name: Gumloop Scopes
   scope_count: 5

@@ -145,7 +145,7 @@ plans:
 - name: Dol Plans Pricing
   plan_count: 2
   slug: dol-plans-pricing
-random_paper: 3
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Dol Rate Limits

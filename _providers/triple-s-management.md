@@ -144,7 +144,7 @@ press:
 - date: '2026-05-25'
   title: Health Insurance Company Seeks Supreme Court Review ...
   url: https://www.taxnotes.com/research/federal/court-documents/court-petitions-and-briefs/health-insurance-company-seeks-supreme-court-review-of-decision-to/wkvm
-random_paper: 18
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Triple S Management Rate Limits

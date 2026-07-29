@@ -48,7 +48,7 @@ name: ArsenalBio
 nav: Providers
 network: true
 overview: ArsenalBio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Cell Therapy, and Immuno-Oncology.
-random_paper: 29
+random_paper: 16
 score:
   band: minimal
   composite: 5.4

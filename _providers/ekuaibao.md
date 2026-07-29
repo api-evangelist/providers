@@ -155,7 +155,7 @@ overview: 'Ekuaibao publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Ekuaibao''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 17 more developer resources.'
-random_paper: 43
+random_paper: 33
 score:
   band: developing
   composite: 43.0

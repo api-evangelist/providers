@@ -91,7 +91,7 @@ overview: 'Buildvision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Buildvision''s developer surface includes documentation, support, engineering blog, and 9 more developer resources.'
-random_paper: 7
+random_paper: 72
 score:
   band: emerging
   composite: 19.9

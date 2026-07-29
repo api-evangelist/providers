@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: PVH Corp Partners with OpenAI for AI Integration
   url: https://www.linkedin.com/posts/adam-wallerstein_todays-announcement-from-pvh-corp-the-activity-7421964911343226881-XAab
-random_paper: 18
+random_paper: 14
 score:
   band: minimal
   composite: 4.1

@@ -75,7 +75,7 @@ overview: 'Percolata is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Percolata''s developer surface includes support and 6 more developer resources.'
-random_paper: 7
+random_paper: 75
 score:
   band: minimal
   composite: 11.1

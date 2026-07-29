@@ -185,7 +185,7 @@ plans:
 - name: Apache Solr Plans Pricing
   plan_count: 3
   slug: apache-solr-plans-pricing
-random_paper: 76
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Apache Solr Rate Limits

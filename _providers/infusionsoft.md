@@ -82,7 +82,7 @@ overview: 'Infusionsoft (Keap) publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   Infusionsoft (Keap)''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 55
+random_paper: 39
 score:
   band: minimal
   composite: 11.4

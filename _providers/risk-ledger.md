@@ -107,7 +107,7 @@ overview: 'Risk Ledger is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Risk Ledger''s developer surface includes documentation, support, engineering blog, changelog, signup flow, and 11 more developer resources.'
-random_paper: 7
+random_paper: 73
 score:
   band: emerging
   composite: 20.0

@@ -115,7 +115,7 @@ plans:
 - name: Comet Ml Plans Pricing
   plan_count: 1
   slug: comet-ml-plans-pricing
-random_paper: 8
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Comet Ml Rate Limits

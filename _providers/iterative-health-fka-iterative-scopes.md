@@ -75,7 +75,7 @@ overview: 'Iterative Health (fka Iterative Scopes) is profiled on the [APIs.io](
 
 
   Iterative Health (fka Iterative Scopes)''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 2
+random_paper: 35
 score:
   band: minimal
   composite: 11.6

@@ -72,7 +72,7 @@ overview: 'Clinc is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Clinc''s developer surface includes documentation, getting-started guide, and 5 more developer resources.'
-random_paper: 47
+random_paper: 41
 score:
   band: minimal
   composite: 8.8

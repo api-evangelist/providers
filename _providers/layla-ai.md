@@ -104,7 +104,7 @@ plans:
 - name: Layla Ai Plans Pricing
   plan_count: 1
   slug: layla-ai-plans-pricing
-random_paper: 67
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Layla Ai Rate Limits

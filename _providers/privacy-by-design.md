@@ -44,7 +44,7 @@ name: Privacy by Design
 nav: Providers
 network: true
 overview: Privacy by Design is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Data Protection, Framework, Privacy, and Security.
-random_paper: 50
+random_paper: 29
 score:
   band: minimal
   composite: 5.7

@@ -63,7 +63,7 @@ overview: 'Webster Financial is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Webster Financial''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 4
+random_paper: 62
 score:
   band: minimal
   composite: 5.3

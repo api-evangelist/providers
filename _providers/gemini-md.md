@@ -67,7 +67,7 @@ overview: 'GEMINI.md is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   GEMINI.md''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 7.4

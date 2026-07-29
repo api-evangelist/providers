@@ -91,7 +91,7 @@ overview: 'Zidisha is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zidisha''s developer surface includes getting-started guide, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 37
+random_paper: 28
 score:
   band: emerging
   composite: 16.4

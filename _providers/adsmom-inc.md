@@ -104,7 +104,7 @@ plans:
 - name: Adsmom Inc Plans
   plan_count: 3
   slug: adsmom-inc-plans
-random_paper: 52
+random_paper: 40
 score:
   band: emerging
   composite: 25.6

@@ -211,7 +211,7 @@ overview: 'Moxe Health publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Moxe Health''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, engineering blog, support, and 30 more developer resources.'
-random_paper: 10
+random_paper: 76
 scopes:
 - name: Moxe Health Scopes
   scope_count: 4

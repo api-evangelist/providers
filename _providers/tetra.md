@@ -39,7 +39,7 @@ name: Tetra
 nav: Providers
 network: true
 overview: Tetra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, On-Device AI, and Computer Vision.
-random_paper: 70
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

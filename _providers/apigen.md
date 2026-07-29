@@ -184,7 +184,7 @@ plans:
 - name: Apigen Plans Pricing
   plan_count: 3
   slug: apigen-plans-pricing
-random_paper: 75
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Apigen Rate Limits

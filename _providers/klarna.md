@@ -379,7 +379,7 @@ plans:
 - name: Klarna Plans Pricing
   plan_count: 1
   slug: klarna-plans-pricing
-random_paper: 1
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Klarna Rate Limits

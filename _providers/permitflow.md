@@ -95,7 +95,7 @@ overview: 'PermitFlow is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   PermitFlow''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 70
+random_paper: 57
 score:
   band: emerging
   composite: 20.0

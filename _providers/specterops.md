@@ -304,7 +304,7 @@ overview: 'SpecterOps publishes 45 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   SpecterOps'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 69
+random_paper: 56
 score:
   band: developing
   composite: 52.1

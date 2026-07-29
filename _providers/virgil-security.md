@@ -136,7 +136,7 @@ overview: 'Virgil Security publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Virgil Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 15 more developer resources.'
-random_paper: 6
+random_paper: 66
 score:
   band: thin
   composite: 31.7

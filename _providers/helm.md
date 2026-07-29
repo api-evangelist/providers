@@ -175,7 +175,7 @@ plans:
 - name: Helm Plans Pricing
   plan_count: 1
   slug: helm-plans-pricing
-random_paper: 27
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Helm Rate Limits

@@ -87,7 +87,7 @@ overview: 'Interplay Learning is profiled on the [APIs.io](https://apis.io/) net
 
 
   Interplay Learning''s developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 60
+random_paper: 37
 score:
   band: emerging
   composite: 18.4

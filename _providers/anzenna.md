@@ -119,7 +119,7 @@ overview: 'Anzenna is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Anzenna''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: emerging
   composite: 27.5

@@ -79,7 +79,7 @@ overview: 'Caya is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Caya''s developer surface includes pricing and 8 more developer resources.'
-random_paper: 19
+random_paper: 14
 score:
   band: emerging
   composite: 18.0

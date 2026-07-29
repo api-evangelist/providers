@@ -79,7 +79,7 @@ overview: 'Open Port Technology is profiled on the [APIs.io](https://apis.io/) n
 
 
   Open Port Technology''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 7
+random_paper: 61
 score:
   band: minimal
   composite: 11.0

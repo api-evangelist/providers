@@ -164,7 +164,7 @@ overview: 'Clockwork Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Clockwork Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 16
+random_paper: 78
 score:
   band: thin
   composite: 37.7

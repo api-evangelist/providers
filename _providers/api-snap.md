@@ -279,7 +279,7 @@ plans:
 - name: Api Snap Plans Pricing
   plan_count: 4
   slug: api-snap-plans-pricing
-random_paper: 3
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Api Snap Rate Limits

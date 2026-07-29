@@ -197,7 +197,7 @@ overview: 'Qualio publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qualio''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: developing
   composite: 48.2

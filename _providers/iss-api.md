@@ -123,7 +123,7 @@ plans:
 - name: Iss Api Plans
   plan_count: 1
   slug: iss-api-plans
-random_paper: 62
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Iss Api Rate Limits

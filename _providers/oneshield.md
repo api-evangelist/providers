@@ -75,7 +75,7 @@ overview: 'OneShield is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   OneShield''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 7
+random_paper: 75
 score:
   band: minimal
   composite: 12.3

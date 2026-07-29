@@ -79,7 +79,7 @@ overview: 'Solace is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Solace''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: emerging
   composite: 16.1

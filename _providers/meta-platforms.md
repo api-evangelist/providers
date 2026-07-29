@@ -56,7 +56,7 @@ name: Meta Platforms
 nav: Providers
 network: true
 overview: Meta Platforms is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Meta, Social Media, Messaging, Reality Labs, and Technology.
-random_paper: 30
+random_paper: 12
 score:
   band: minimal
   composite: 5.5

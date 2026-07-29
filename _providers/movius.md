@@ -116,7 +116,7 @@ overview: 'Movius publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Movius'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 10 more developer resources.'
-random_paper: 43
+random_paper: 35
 score:
   band: thin
   composite: 32.9

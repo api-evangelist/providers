@@ -116,7 +116,7 @@ overview: 'RiskRecon publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   RiskRecon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 28
+random_paper: 16
 score:
   band: emerging
   composite: 26.0

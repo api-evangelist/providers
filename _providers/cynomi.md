@@ -120,7 +120,7 @@ overview: 'Cynomi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cynomi''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 13 more developer resources.'
-random_paper: 23
+random_paper: 15
 scopes:
 - name: Cynomi Scopes
   scope_count: 11

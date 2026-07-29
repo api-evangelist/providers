@@ -75,7 +75,7 @@ overview: 'Ciao is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ciao''s developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 17
+random_paper: 12
 score:
   band: emerging
   composite: 15.2

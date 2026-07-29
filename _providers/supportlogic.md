@@ -112,7 +112,7 @@ overview: 'Supportlogic is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Supportlogic''s developer surface includes documentation, support, engineering blog, pricing, authentication, and 11 more developer resources.'
-random_paper: 59
+random_paper: 43
 score:
   band: emerging
   composite: 25.0

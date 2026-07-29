@@ -337,7 +337,7 @@ overview: 'ConductorOne publishes 46 APIs on the [APIs.io](https://apis.io/) net
 
 
   ConductorOne''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, CLI, and 27 more developer resources.'
-random_paper: 35
+random_paper: 19
 scopes:
 - name: Conductorone Scopes
   scope_count: 0

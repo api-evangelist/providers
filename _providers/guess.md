@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: US Fashion Brand Guess to Relaunch Operations in China ...
   url: https://www.facebook.com/yicaiglobal/posts/us-fashion-brand-guess-to-relaunch-operations-in-china-with-local-partner-ruisi-/1417026953801967/
-random_paper: 77
+random_paper: 71
 score:
   band: minimal
   composite: 4.1

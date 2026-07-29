@@ -242,7 +242,7 @@ plans:
 - name: Gridspace Plans
   plan_count: 4
   slug: gridspace-plans
-random_paper: 77
+random_paper: 66
 score:
   band: strong
   composite: 62.3

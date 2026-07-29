@@ -112,7 +112,7 @@ overview: 'PostgresML is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   PostgresML''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 11 more developer resources.'
-random_paper: 77
+random_paper: 64
 score:
   band: emerging
   composite: 24.7

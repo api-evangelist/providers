@@ -211,7 +211,7 @@ overview: 'Redox publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Redox''s developer surface includes documentation, API reference, getting-started guide, authentication, developer console, sandbox, pricing, and 17 more developer resources.'
-random_paper: 36
+random_paper: 21
 score:
   band: emerging
   composite: 27.0

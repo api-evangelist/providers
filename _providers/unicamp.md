@@ -92,7 +92,7 @@ plans:
 - name: Unicamp Plans Pricing
   plan_count: 2
   slug: unicamp-plans-pricing
-random_paper: 38
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Unicamp Rate Limits

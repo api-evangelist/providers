@@ -48,7 +48,7 @@ name: Taysha Gene Therapies *
 nav: Providers
 network: true
 overview: Taysha Gene Therapies * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Gene Therapy, and Rare Disease.
-random_paper: 66
+random_paper: 40
 score:
   band: minimal
   composite: 5.4

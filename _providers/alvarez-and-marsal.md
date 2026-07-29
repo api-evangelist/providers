@@ -133,7 +133,7 @@ name: Alvarez & Marsal
 nav: Providers
 network: true
 overview: Alvarez & Marsal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Professional Services, Turnaround, Restructuring, and Performance Improvement.
-random_paper: 56
+random_paper: 34
 score:
   band: minimal
   composite: 11.5

@@ -56,7 +56,7 @@ name: Transport for UK
 nav: Providers
 network: true
 overview: Transport for UK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 66
+random_paper: 46
 score:
   band: minimal
   composite: 5.7

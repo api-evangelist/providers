@@ -105,7 +105,7 @@ overview: 'Mitchell & Ness is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Mitchell & Ness'' developer surface includes authentication and 5 more developer resources.'
-random_paper: 29
+random_paper: 8
 score:
   band: minimal
   composite: 8.8

@@ -48,7 +48,7 @@ name: Target Arm
 nav: Providers
 network: true
 overview: Target Arm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Drones, UAV, and Autonomous Systems.
-random_paper: 64
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

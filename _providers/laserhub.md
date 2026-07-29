@@ -128,7 +128,7 @@ overview: 'Laserhub is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Laserhub''s developer surface includes engineering blog, pricing, signup flow, support, changelog, and 16 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: emerging
   composite: 19.1

@@ -81,7 +81,7 @@ press:
 - date: '2026-03-16'
   title: Saks Global Secures Access to Additional $300 Million of $1.75 Billion in Committed Capital
   url: https://www.saksglobal.com/2026-03-16-Saks-Global-Secures-Access-to-Additional-300-Million-of-1-75-Billion-in-Committed-Capital
-random_paper: 34
+random_paper: 10
 score:
   band: minimal
   composite: 4.8

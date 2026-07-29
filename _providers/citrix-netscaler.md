@@ -307,7 +307,7 @@ plans:
 - name: Citrix Netscaler Plans Pricing
   plan_count: 4
   slug: citrix-netscaler-plans-pricing
-random_paper: 6
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Citrix Netscaler Rate Limits

@@ -60,7 +60,7 @@ name: Streamroot
 nav: Providers
 network: true
 overview: Streamroot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Video, Streaming, and CDN.
-random_paper: 77
+random_paper: 64
 score:
   band: minimal
   composite: 7.0

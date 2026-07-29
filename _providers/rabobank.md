@@ -84,7 +84,7 @@ name: Rabobank
 nav: Providers
 network: true
 overview: Rabobank publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Banks, Banking, Open Banking, and PSD2.
-random_paper: 42
+random_paper: 32
 score:
   band: minimal
   composite: 9.5

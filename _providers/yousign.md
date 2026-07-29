@@ -251,7 +251,7 @@ plans:
 - name: Yousign Plans Pricing
   plan_count: 4
   slug: yousign-plans-pricing
-random_paper: 71
+random_paper: 62
 rate_limits:
 - limit_count: 7
   name: Yousign Rate Limits

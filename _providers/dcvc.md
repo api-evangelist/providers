@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: DCVC (Data Collective)
 nav: Providers
 network: true
-random_paper: 21
+random_paper: 16
 slug: dcvc
 tags:
 - Venture Capital

@@ -44,7 +44,7 @@ name: Passports
 nav: Providers
 network: true
 overview: Passports is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Passports, Travel Documents, Identity, and Government.
-random_paper: 59
+random_paper: 47
 score:
   band: minimal
   composite: 4.6

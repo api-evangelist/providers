@@ -77,7 +77,7 @@ plans:
 - name: Limra Plans Pricing
   plan_count: 2
   slug: limra-plans-pricing
-random_paper: 59
+random_paper: 53
 score:
   band: minimal
   composite: 10.7

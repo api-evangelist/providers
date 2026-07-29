@@ -48,7 +48,7 @@ name: Pulse Charter Connect
 nav: Providers
 network: true
 overview: Pulse Charter Connect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 1
+random_paper: 54
 score:
   band: minimal
   composite: 5.2

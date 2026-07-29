@@ -100,7 +100,7 @@ overview: 'Supercritical is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Supercritical''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 59
+random_paper: 42
 score:
   band: minimal
   composite: 5.4

@@ -48,7 +48,7 @@ name: Milano Vice
 nav: Providers
 network: true
 overview: Milano Vice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Virtual Restaurant, Cloud Kitchen, and Pizza.
-random_paper: 2
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

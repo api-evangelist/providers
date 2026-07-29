@@ -152,7 +152,7 @@ overview: 'Public publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Public''s developer surface includes documentation, getting-started guide, changelog, signup flow, pricing, support, engineering blog, and 18 more developer resources.'
-random_paper: 7
+random_paper: 79
 scopes:
 - name: Public Scopes
   scope_count: 4

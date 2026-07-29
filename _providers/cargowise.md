@@ -92,7 +92,7 @@ overview: 'CargoWise publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   CargoWise''s developer surface includes documentation, pricing, and 6 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: minimal
   composite: 10.3

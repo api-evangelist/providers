@@ -265,7 +265,7 @@ overview: 'ACI.dev publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   ACI.dev''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 29 more developer resources.'
-random_paper: 33
+random_paper: 25
 rules:
 - name: ACI.dev API Rules
   rule_count: 5

@@ -47,7 +47,7 @@ overview: 'Services Patterns is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Services Patterns'' developer surface includes engineering blog.'
-random_paper: 56
+random_paper: 34
 score:
   band: minimal
   composite: 4.7

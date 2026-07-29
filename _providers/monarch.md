@@ -99,7 +99,7 @@ overview: 'Monarch is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Monarch''s developer surface includes engineering blog, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 33
+random_paper: 24
 score:
   band: emerging
   composite: 21.8

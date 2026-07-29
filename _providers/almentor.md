@@ -52,7 +52,7 @@ name: Almentor
 nav: Providers
 network: true
 overview: Almentor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, E-Learning, Online Education, and Video Learning.
-random_paper: 76
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

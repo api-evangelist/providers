@@ -39,7 +39,7 @@ name: CarbonData
 nav: Providers
 network: true
 overview: CarbonData is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Portfolio, Seed Stage, and Stub.
-random_paper: 12
+random_paper: 79
 score:
   band: minimal
   composite: 5.0

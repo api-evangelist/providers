@@ -71,7 +71,7 @@ overview: 'Anker Innovations is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Anker Innovations'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 44
+random_paper: 22
 score:
   band: minimal
   composite: 12.3

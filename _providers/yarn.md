@@ -154,7 +154,7 @@ plans:
 - name: Yarn Plans Pricing
   plan_count: 3
   slug: yarn-plans-pricing
-random_paper: 47
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Yarn Rate Limits

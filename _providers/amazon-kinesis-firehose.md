@@ -193,7 +193,7 @@ plans:
 - name: Amazon Kinesis Firehose Plans Pricing
   plan_count: 3
   slug: amazon-kinesis-firehose-plans-pricing
-random_paper: 56
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Amazon Kinesis Firehose Rate Limits

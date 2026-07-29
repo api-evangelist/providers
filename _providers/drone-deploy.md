@@ -228,7 +228,7 @@ plans:
 - name: Drone Deploy Plans Pricing
   plan_count: 4
   slug: drone-deploy-plans-pricing
-random_paper: 49
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Drone Deploy Rate Limits

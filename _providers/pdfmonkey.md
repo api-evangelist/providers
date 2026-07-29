@@ -118,7 +118,7 @@ plans:
 - name: Pdfmonkey Plans Pricing
   plan_count: 7
   slug: pdfmonkey-plans-pricing
-random_paper: 25
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Pdfmonkey Rate Limits

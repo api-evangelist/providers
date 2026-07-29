@@ -100,7 +100,7 @@ overview: 'Trilobio publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Trilobio''s developer surface includes documentation, getting-started guide, API reference, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 78
+random_paper: 68
 score:
   band: emerging
   composite: 22.9

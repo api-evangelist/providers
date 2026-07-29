@@ -72,7 +72,7 @@ plans:
 - name: Tronox Holdings Plans Pricing
   plan_count: 1
   slug: tronox-holdings-plans-pricing
-random_paper: 3
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Tronox Holdings Rate Limits

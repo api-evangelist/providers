@@ -84,7 +84,7 @@ plans:
 - name: Datosabiertos Bogota Gov Co Plans Pricing
   plan_count: 1
   slug: datosabiertos-bogota-gov-co-plans-pricing
-random_paper: 23
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Datosabiertos Bogota Gov Co Rate Limits

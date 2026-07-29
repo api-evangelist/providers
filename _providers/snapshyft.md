@@ -48,7 +48,7 @@ name: SnapShyft
 nav: Providers
 network: true
 overview: SnapShyft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Workforce, Marketplace, and Gig Economy.
-random_paper: 44
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

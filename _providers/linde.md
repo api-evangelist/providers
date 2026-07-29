@@ -76,7 +76,7 @@ plans:
 - name: Linde Plans Pricing
   plan_count: 1
   slug: linde-plans-pricing
-random_paper: 50
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Linde Rate Limits

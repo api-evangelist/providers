@@ -194,7 +194,7 @@ overview: 'Matter publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Matter''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, support, signup flow, and 23 more developer resources.'
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Matter Rate Limits

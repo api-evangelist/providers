@@ -60,7 +60,7 @@ name: Closure
 nav: Providers
 network: true
 overview: Closure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Law Enforcement, Public Safety, and Evidence Analysis.
-random_paper: 54
+random_paper: 45
 score:
   band: minimal
   composite: 10.0

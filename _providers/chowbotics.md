@@ -48,7 +48,7 @@ name: chowbotics
 nav: Providers
 network: true
 overview: chowbotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Food Technology, Foodservice, and Automation.
-random_paper: 50
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

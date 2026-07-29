@@ -80,7 +80,7 @@ overview: 'Lifemote is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lifemote''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: minimal
   composite: 11.4

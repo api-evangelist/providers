@@ -63,7 +63,7 @@ overview: 'Dishpatch is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dishpatch''s developer surface includes support and 4 more developer resources.'
-random_paper: 4
+random_paper: 72
 score:
   band: minimal
   composite: 11.2

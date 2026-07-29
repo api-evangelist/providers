@@ -428,7 +428,7 @@ plans:
 - name: Bubble Plans Pricing
   plan_count: 7
   slug: bubble-plans-pricing
-random_paper: 67
+random_paper: 60
 rate_limits:
 - limit_count: 12
   name: Bubble Rate Limits

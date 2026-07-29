@@ -241,7 +241,7 @@ plans:
 - name: Argocd Plans Pricing
   plan_count: 2
   slug: argocd-plans-pricing
-random_paper: 71
+random_paper: 64
 rate_limits:
 - limit_count: 4
   name: Argocd Rate Limits

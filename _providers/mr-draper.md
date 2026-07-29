@@ -44,7 +44,7 @@ name: Mr. Draper
 nav: Providers
 network: true
 overview: Mr. Draper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 37
+random_paper: 26
 score:
   band: minimal
   composite: 3.2

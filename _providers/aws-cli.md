@@ -129,7 +129,7 @@ plans:
 - name: Aws Cli Plans Pricing
   plan_count: 3
   slug: aws-cli-plans-pricing
-random_paper: 56
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Aws Cli Rate Limits

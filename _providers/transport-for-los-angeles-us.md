@@ -63,7 +63,7 @@ overview: 'Transport for Los Angeles, US publishes 1 API on the [APIs.io](https:
 
 
   Transport for Los Angeles, US''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 48
+random_paper: 13
 score:
   band: minimal
   composite: 6.2

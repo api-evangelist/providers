@@ -123,7 +123,7 @@ plans:
 - name: Microsoft Azure Advisor Plans Pricing
   plan_count: 3
   slug: microsoft-azure-advisor-plans-pricing
-random_paper: 13
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Advisor Rate Limits

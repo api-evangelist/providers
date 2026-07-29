@@ -161,7 +161,7 @@ plans:
 - name: Marketaux Plans
   plan_count: 6
   slug: marketaux-plans
-random_paper: 30
+random_paper: 18
 rate_limits:
 - limit_count: 6
   name: Marketaux Rate Limits

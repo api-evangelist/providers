@@ -52,7 +52,7 @@ name: Cryptonator
 nav: Providers
 network: true
 overview: Cryptonator publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 36
+random_paper: 21
 score:
   band: minimal
   composite: 5.7

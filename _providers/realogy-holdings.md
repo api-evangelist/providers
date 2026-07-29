@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Realogy Holdings Corp. News and Press Releases
   url: https://www.prnewswire.com/news/realogy-holdings-corp./?page=9
-random_paper: 76
+random_paper: 56
 score:
   band: minimal
   composite: 6.7

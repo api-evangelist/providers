@@ -39,7 +39,7 @@ name: BrightRoll
 nav: Providers
 network: true
 overview: BrightRoll is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Video Advertising, and Programmatic Advertising.
-random_paper: 54
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

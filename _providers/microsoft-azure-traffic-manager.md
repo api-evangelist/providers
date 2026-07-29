@@ -243,7 +243,7 @@ plans:
 - name: Microsoft Azure Traffic Manager Plans Pricing
   plan_count: 3
   slug: microsoft-azure-traffic-manager-plans-pricing
-random_paper: 53
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Traffic Manager Rate Limits

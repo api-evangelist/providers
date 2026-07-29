@@ -95,7 +95,7 @@ overview: 'moodytiger publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   moodytiger''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 64
+random_paper: 51
 score:
   band: emerging
   composite: 19.0

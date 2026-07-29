@@ -87,7 +87,7 @@ overview: 'Passport publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Passport''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 26
+random_paper: 5
 score:
   band: minimal
   composite: 11.3

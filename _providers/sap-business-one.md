@@ -141,7 +141,7 @@ overview: 'SAP Business One publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   SAP Business One''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 32
+random_paper: 12
 score:
   band: emerging
   composite: 27.4

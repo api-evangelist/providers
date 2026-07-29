@@ -207,7 +207,7 @@ overview: 'Korbit publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Korbit''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 23 more developer resources.'
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Korbit Rate Limits

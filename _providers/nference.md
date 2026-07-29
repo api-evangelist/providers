@@ -84,7 +84,7 @@ overview: 'nference is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   nference''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: emerging
   composite: 17.7

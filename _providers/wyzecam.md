@@ -79,7 +79,7 @@ overview: 'Wyze Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Wyze Labs'' developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 57
+random_paper: 48
 score:
   band: emerging
   composite: 18.5

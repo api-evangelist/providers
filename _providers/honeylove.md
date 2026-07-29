@@ -67,7 +67,7 @@ overview: 'Honeylove is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Honeylove''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 37
+random_paper: 25
 score:
   band: minimal
   composite: 10.5

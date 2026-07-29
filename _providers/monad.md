@@ -179,7 +179,7 @@ plans:
 - name: Monad Plans Pricing
   plan_count: 1
   slug: monad-plans-pricing
-random_paper: 53
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Monad Rate Limits

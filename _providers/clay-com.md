@@ -135,7 +135,7 @@ plans:
 - name: Clay Com Plans Pricing
   plan_count: 1
   slug: clay-com-plans-pricing
-random_paper: 78
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Clay Com Rate Limits

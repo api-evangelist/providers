@@ -71,7 +71,7 @@ overview: 'Auxilius is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Auxilius'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 15
+random_paper: 4
 score:
   band: emerging
   composite: 13.5

@@ -52,7 +52,7 @@ name: Federal Laboratory Consortium for Technology Transfer
 nav: Providers
 network: true
 overview: Federal Laboratory Consortium for Technology Transfer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government and Technology Transfer.
-random_paper: 50
+random_paper: 62
 score:
   band: minimal
   composite: 4.1

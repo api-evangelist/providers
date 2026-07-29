@@ -48,7 +48,7 @@ name: Rocketable
 nav: Providers
 network: true
 overview: Rocketable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Artificial Intelligence, AI Agents, and Software Acquisition.
-random_paper: 25
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

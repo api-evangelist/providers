@@ -107,7 +107,7 @@ overview: 'Bevy is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bevy''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 43
+random_paper: 38
 score:
   band: emerging
   composite: 24.7

@@ -43,7 +43,7 @@ name: Alliant Credit Union
 nav: Providers
 network: true
 overview: Alliant Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Credit Union, and Open Finance.
-random_paper: 44
+random_paper: 19
 score:
   band: minimal
   composite: 5.4

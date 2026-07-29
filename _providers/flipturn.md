@@ -195,7 +195,7 @@ overview: 'Flipturn publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Flipturn''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 15
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Flipturn Rate Limits

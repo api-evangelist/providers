@@ -232,7 +232,7 @@ overview: 'Forward Networks publishes 20 APIs on the [APIs.io](https://apis.io/)
 
 
   Forward Networks'' developer surface includes documentation, authentication, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 36
+random_paper: 15
 score:
   band: developing
   composite: 44.9

@@ -68,7 +68,7 @@ name: YesGraph
 nav: Providers
 network: true
 overview: YesGraph is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Referrals, Recommendations, Contacts, and Social Graph.
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 8.0

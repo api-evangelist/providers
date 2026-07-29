@@ -71,7 +71,7 @@ overview: 'Salido is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Salido''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 4
+random_paper: 76
 score:
   band: emerging
   composite: 14.5

@@ -201,7 +201,7 @@ overview: 'Sun Life publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Sun Life''s developer surface includes product news, documentation, API reference, getting-started guide, signup flow, support, authentication, and 31 more developer resources.'
-random_paper: 13
+random_paper: 3
 scopes:
 - name: Sun Life Scopes
   scope_count: 5

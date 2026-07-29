@@ -130,7 +130,7 @@ overview: 'mParticle publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   mParticle''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: thin
   composite: 33.3

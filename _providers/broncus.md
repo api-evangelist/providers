@@ -48,7 +48,7 @@ name: broncus
 nav: Providers
 network: true
 overview: broncus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 53
+random_paper: 44
 score:
   band: minimal
   composite: 3.2

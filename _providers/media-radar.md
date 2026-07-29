@@ -84,7 +84,7 @@ overview: 'Media Radar is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Media Radar''s developer surface includes signup flow, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 52
+random_paper: 39
 score:
   band: emerging
   composite: 19.3

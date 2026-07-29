@@ -193,7 +193,7 @@ overview: 'Takealot publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Takealot''s developer surface includes GitHub presence, YouTube channel, and 23 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: emerging
   composite: 18.3

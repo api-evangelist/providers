@@ -44,7 +44,7 @@ name: xLight
 nav: Providers
 network: true
 overview: xLight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Compute.
-random_paper: 24
+random_paper: 16
 score:
   band: minimal
   composite: 4.1

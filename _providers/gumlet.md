@@ -131,7 +131,7 @@ plans:
 - name: Gumlet Plans Pricing
   plan_count: 6
   slug: gumlet-plans-pricing
-random_paper: 22
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Gumlet Rate Limits

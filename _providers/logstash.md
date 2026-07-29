@@ -80,7 +80,7 @@ plans:
 - name: Logstash Plans Pricing
   plan_count: 3
   slug: logstash-plans-pricing
-random_paper: 0
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Logstash Rate Limits

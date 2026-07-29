@@ -100,7 +100,7 @@ overview: 'Face Reality Skincare publishes 1 API on the [APIs.io](https://apis.i
 
 
   Face Reality Skincare''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 34
+random_paper: 9
 scopes:
 - name: Facerealityskincare Scopes
   scope_count: 4

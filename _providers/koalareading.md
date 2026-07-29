@@ -52,7 +52,7 @@ name: 51Talk Koala (koalareading.com)
 nav: Providers
 network: true
 overview: 51Talk Koala (koalareading.com) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Online Education, EdTech, and Language Learning.
-random_paper: 65
+random_paper: 50
 score:
   band: minimal
   composite: 6.9

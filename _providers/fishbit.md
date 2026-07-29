@@ -63,7 +63,7 @@ overview: 'Fishbit is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Fishbit''s developer surface includes pricing and 4 more developer resources.'
-random_paper: 34
+random_paper: 25
 score:
   band: minimal
   composite: 9.2

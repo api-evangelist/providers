@@ -48,7 +48,7 @@ name: Applica
 nav: Providers
 network: true
 overview: Applica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Natural Language Processing, Document Understanding, and Text Automation.
-random_paper: 19
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

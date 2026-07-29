@@ -180,7 +180,7 @@ overview: '99designs publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   99designs'' developer surface includes authentication, documentation, API reference, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 73
+random_paper: 63
 score:
   band: developing
   composite: 42.5

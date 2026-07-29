@@ -113,7 +113,7 @@ plans:
 - name: Ens Lyon Plans Pricing
   plan_count: 2
   slug: ens-lyon-plans-pricing
-random_paper: 31
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Ens Lyon Rate Limits

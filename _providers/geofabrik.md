@@ -139,7 +139,7 @@ plans:
 - name: Geofabrik Plans Pricing
   plan_count: 5
   slug: geofabrik-plans-pricing
-random_paper: 69
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Geofabrik Rate Limits

@@ -59,7 +59,7 @@ overview: 'Lynq is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lynq''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 57
+random_paper: 52
 score:
   band: minimal
   composite: 7.5

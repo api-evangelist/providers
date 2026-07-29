@@ -158,7 +158,7 @@ overview: 'Sky Mavis publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sky Mavis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 18 more developer resources.'
-random_paper: 63
+random_paper: 52
 scopes:
 - name: Sky Mavis Scopes
   scope_count: 3

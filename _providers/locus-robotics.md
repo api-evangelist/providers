@@ -91,7 +91,7 @@ overview: 'Locus Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Locus Robotics'' developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 42
+random_paper: 24
 score:
   band: emerging
   composite: 19.5

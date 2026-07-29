@@ -56,7 +56,7 @@ name: Jewelbots
 nav: Providers
 network: true
 overview: Jewelbots is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wearables, Hardware, IoT, and Bluetooth.
-random_paper: 27
+random_paper: 15
 score:
   band: minimal
   composite: 6.8

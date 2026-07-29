@@ -63,7 +63,7 @@ overview: 'Patent Watch is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Patent Watch''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 47
+random_paper: 32
 score:
   band: minimal
   composite: 8.1

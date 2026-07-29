@@ -136,7 +136,7 @@ overview: 'Rox is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Rox''s developer surface includes documentation, engineering blog, pricing, signup flow, support, changelog, and 17 more developer resources.'
-random_paper: 29
+random_paper: 25
 score:
   band: thin
   composite: 29.9

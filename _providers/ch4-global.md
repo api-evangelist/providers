@@ -63,7 +63,7 @@ overview: 'Ch4 Global is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ch4 Global''s developer surface includes engineering blog, YouTube channel, and 3 more developer resources.'
-random_paper: 56
+random_paper: 45
 score:
   band: minimal
   composite: 5.4

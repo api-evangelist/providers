@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: ITW Our Entrepreneurial Culture is Our Competitive ...
   url: https://www.itw.com/
-random_paper: 73
+random_paper: 49
 score:
   band: minimal
   composite: 5.0

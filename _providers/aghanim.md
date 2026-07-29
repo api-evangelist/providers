@@ -244,7 +244,7 @@ overview: 'Aghanim publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Aghanim''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 18 more developer resources.'
-random_paper: 14
+random_paper: 5
 score:
   band: developing
   composite: 49.7

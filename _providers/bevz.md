@@ -75,7 +75,7 @@ overview: 'Bevz is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bevz''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 44
+random_paper: 39
 score:
   band: minimal
   composite: 12.6

@@ -84,7 +84,7 @@ plans:
 - name: Data City Yokohama Lg Jp Plans Pricing
   plan_count: 1
   slug: data-city-yokohama-lg-jp-plans-pricing
-random_paper: 26
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Data City Yokohama Lg Jp Rate Limits

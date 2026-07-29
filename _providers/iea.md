@@ -107,7 +107,7 @@ plans:
 - name: Iea Plans Pricing
   plan_count: 5
   slug: iea-plans-pricing
-random_paper: 66
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Iea Rate Limits

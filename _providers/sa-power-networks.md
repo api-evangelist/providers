@@ -127,7 +127,7 @@ overview: 'SA Power Networks is profiled on the [APIs.io](https://apis.io/) netw
 
 
   SA Power Networks'' developer surface includes engineering blog, developer portal, documentation, support, authentication, and 18 more developer resources.'
-random_paper: 14
+random_paper: 72
 scopes:
 - name: Sa Power Networks Scopes
   scope_count: 36

@@ -63,7 +63,7 @@ overview: 'Spider Capital is profiled on the [APIs.io](https://apis.io/) network
 
 
   Spider Capital''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 4
+random_paper: 66
 score:
   band: minimal
   composite: 8.4

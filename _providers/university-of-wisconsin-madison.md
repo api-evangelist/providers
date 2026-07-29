@@ -125,7 +125,7 @@ plans:
 - name: University Of Wisconsin Madison Plans Pricing
   plan_count: 2
   slug: university-of-wisconsin-madison-plans-pricing
-random_paper: 46
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: University Of Wisconsin Madison Rate Limits

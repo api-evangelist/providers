@@ -156,7 +156,7 @@ plans:
 - name: Sonarqube Plans Pricing
   plan_count: 3
   slug: sonarqube-plans-pricing
-random_paper: 28
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Sonarqube Rate Limits

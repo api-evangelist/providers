@@ -113,7 +113,7 @@ plans:
 - name: Us Bureau Of Labor Statistics Plans Pricing
   plan_count: 3
   slug: us-bureau-of-labor-statistics-plans-pricing
-random_paper: 52
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Us Bureau Of Labor Statistics Rate Limits

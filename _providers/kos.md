@@ -75,7 +75,7 @@ overview: 'Kos is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Kos'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: minimal
   composite: 9.4

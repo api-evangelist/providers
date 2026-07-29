@@ -398,7 +398,7 @@ press:
 - date: '2026-05-25'
   title: Alaska Airlines and Tailsight launch AI-powered ...
   url: https://www.prnewswire.com/news-releases/alaska-airlines-and-tailsight-launch-ai-powered-maintenance-planning-solution-302744315.html
-random_paper: 34
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Alaska Air Rate Limits

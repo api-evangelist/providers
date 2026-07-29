@@ -107,7 +107,7 @@ plans:
 - name: Lastpass Plans Pricing
   plan_count: 7
   slug: lastpass-plans-pricing
-random_paper: 6
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Lastpass Rate Limits

@@ -172,7 +172,7 @@ press:
 - date: '2026-05-19'
   title: Blackstone Announces Joint Venture with Google to Create New TPU Cloud
   url: https://www.blackstone.com/news/press/blackstone-announces-joint-venture-with-google-to-create-new-tpu-cloud/
-random_paper: 35
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Blackstone Rate Limits

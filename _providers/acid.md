@@ -21,7 +21,7 @@ modified: '2026-04-19'
 name: ACID
 nav: Providers
 network: true
-random_paper: 6
+random_paper: 1
 slug: acid
 tags:
 - ACID

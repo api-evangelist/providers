@@ -59,7 +59,7 @@ overview: 'Swiss Education Group is profiled on the [APIs.io](https://apis.io/) 
 
 
   Swiss Education Group''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 39
+random_paper: 12
 score:
   band: minimal
   composite: 7.5

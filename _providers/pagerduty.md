@@ -402,7 +402,7 @@ plans:
 - name: Pagerduty Plans Pricing
   plan_count: 4
   slug: pagerduty-plans-pricing
-random_paper: 33
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Pagerduty Rate Limits

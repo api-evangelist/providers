@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Dell AI Factory with NVIDIA Delivers Proven Path to ...
   url: https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~03~dell-ai-factory-with-nvidia-delivers-proven-path-to-enterprise-ai-roi.htm
-random_paper: 3
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Nvidia Rate Limits

@@ -55,7 +55,7 @@ overview: 'firsthand is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   firsthand''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: minimal
   composite: 7.2

@@ -177,7 +177,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 65
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Rate Limits

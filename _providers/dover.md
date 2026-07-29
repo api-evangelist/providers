@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Introduction to Artificial Intelligence
   url: https://store.doverpublications.com/products/9780486832869?srsltid=AfmBOoqxPryqW98Aq1CCcgKGzboJD2ENxUwFNk8j3-UURBM0Fq1qHQj7
-random_paper: 70
+random_paper: 64
 score:
   band: minimal
   composite: 4.1

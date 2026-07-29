@@ -68,7 +68,7 @@ name: Authorea
 nav: Providers
 network: true
 overview: Authorea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Scholarly Publishing, Academic Writing, Collaboration, and Research.
-random_paper: 67
+random_paper: 57
 score:
   band: minimal
   composite: 8.2

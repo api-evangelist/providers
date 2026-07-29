@@ -79,7 +79,7 @@ overview: 'TimeTrace Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   TimeTrace Labs'' developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 78
+random_paper: 61
 score:
   band: minimal
   composite: 10.4

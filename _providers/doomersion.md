@@ -71,7 +71,7 @@ overview: 'Doomersion is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Doomersion''s developer surface includes support and 6 more developer resources.'
-random_paper: 60
+random_paper: 47
 score:
   band: minimal
   composite: 10.1

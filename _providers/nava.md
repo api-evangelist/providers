@@ -67,7 +67,7 @@ overview: 'Nava is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Nava''s developer surface includes engineering blog, getting-started guide, and 4 more developer resources.'
-random_paper: 27
+random_paper: 22
 score:
   band: emerging
   composite: 13.2

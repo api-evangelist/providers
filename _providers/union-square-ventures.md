@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Union Square Ventures
 nav: Providers
 network: true
-random_paper: 59
+random_paper: 32
 slug: union-square-ventures
 tags:
 - Venture Capital

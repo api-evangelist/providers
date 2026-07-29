@@ -39,7 +39,7 @@ name: SiTera
 nav: Providers
 network: true
 overview: SiTera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Semiconductors.
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
   composite: 4.1

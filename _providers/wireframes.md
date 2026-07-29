@@ -22,7 +22,7 @@ modified: '2026-05-03'
 name: Wireframes
 nav: Providers
 network: true
-random_paper: 50
+random_paper: 37
 slug: wireframes
 tags:
 - Design

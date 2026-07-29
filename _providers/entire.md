@@ -132,7 +132,7 @@ overview: 'Entire is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Entire''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, authentication, CLI, changelog, and 15 more developer resources.'
-random_paper: 15
+random_paper: 7
 score:
   band: thin
   composite: 31.7

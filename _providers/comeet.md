@@ -142,7 +142,7 @@ plans:
 - name: Comeet Plans Pricing
   plan_count: 3
   slug: comeet-plans-pricing
-random_paper: 5
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Comeet Rate Limits

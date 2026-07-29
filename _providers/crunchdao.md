@@ -350,7 +350,7 @@ overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 14 more developer resources.'
-random_paper: 3
+random_paper: 71
 score:
   band: developing
   composite: 43.5

@@ -79,7 +79,7 @@ overview: 'Zum is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Zum''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 32
+random_paper: 28
 score:
   band: minimal
   composite: 11.3

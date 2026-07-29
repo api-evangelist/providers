@@ -152,7 +152,7 @@ plans:
 - name: Galileo Fs Plans Pricing
   plan_count: 1
   slug: galileo-fs-plans-pricing
-random_paper: 47
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Galileo Fs Rate Limits

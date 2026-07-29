@@ -39,7 +39,7 @@ name: Mybuys
 nav: Providers
 network: true
 overview: Mybuys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Personalization, Ecommerce, Retail, and Recommendations.
-random_paper: 49
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

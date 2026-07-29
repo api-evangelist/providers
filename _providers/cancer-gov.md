@@ -143,7 +143,7 @@ plans:
 - name: Cancer Gov Plans Pricing
   plan_count: 3
   slug: cancer-gov-plans-pricing
-random_paper: 49
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Cancer Gov Rate Limits

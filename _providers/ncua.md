@@ -142,7 +142,7 @@ plans:
 - name: Ncua Plans Pricing
   plan_count: 2
   slug: ncua-plans-pricing
-random_paper: 28
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Ncua Rate Limits

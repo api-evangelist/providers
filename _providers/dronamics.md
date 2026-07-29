@@ -75,7 +75,7 @@ overview: 'Dronamics is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dronamics'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: minimal
   composite: 10.9

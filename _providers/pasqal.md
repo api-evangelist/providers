@@ -259,7 +259,7 @@ overview: 'Pasqal publishes 8 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Pasqal''s developer surface includes developer portal, documentation, getting-started guide, signup flow, developer console, sandbox, API reference, and 28 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: emerging
   composite: 27.4

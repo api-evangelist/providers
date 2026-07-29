@@ -48,7 +48,7 @@ name: Nizthewiz
 nav: Providers
 network: true
 overview: Nizthewiz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Courier, Delivery, and Last Mile.
-random_paper: 56
+random_paper: 44
 score:
   band: minimal
   composite: 5.0

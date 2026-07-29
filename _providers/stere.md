@@ -90,7 +90,7 @@ plans:
 - name: Stere Plans Pricing
   plan_count: 1
   slug: stere-plans-pricing
-random_paper: 73
+random_paper: 67
 score:
   band: minimal
   composite: 12.2

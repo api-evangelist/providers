@@ -48,7 +48,7 @@ name: Collectivemedical
 nav: Providers
 network: true
 overview: Collectivemedical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Care Coordination, Health Information Exchange, and Population Health.
-random_paper: 47
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

@@ -83,7 +83,7 @@ overview: 'Evox Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Evox Therapeutics'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 54
+random_paper: 32
 score:
   band: minimal
   composite: 9.9

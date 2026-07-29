@@ -87,7 +87,7 @@ overview: 'Pietra is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pietra''s developer surface includes support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: emerging
   composite: 16.0

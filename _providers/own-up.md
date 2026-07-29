@@ -67,7 +67,7 @@ overview: 'Own Up is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Own Up''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 61
+random_paper: 54
 score:
   band: minimal
   composite: 10.5

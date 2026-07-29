@@ -101,7 +101,7 @@ plans:
 - name: Riiid Plans Pricing
   plan_count: 2
   slug: riiid-plans-pricing
-random_paper: 55
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Riiid Rate Limits

@@ -824,7 +824,7 @@ plans:
 - name: Voxco Plans Pricing
   plan_count: 5
   slug: voxco-plans-pricing
-random_paper: 6
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Voxco Rate Limits

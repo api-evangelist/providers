@@ -124,7 +124,7 @@ plans:
 - name: Betterworks Plans Pricing
   plan_count: 3
   slug: betterworks-plans-pricing
-random_paper: 27
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Betterworks Rate Limits

@@ -56,7 +56,7 @@ name: QWeather
 nav: Providers
 network: true
 overview: QWeather publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather and Public APIs.
-random_paper: 75
+random_paper: 65
 score:
   band: minimal
   composite: 5.7

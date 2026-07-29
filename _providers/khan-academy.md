@@ -96,7 +96,7 @@ plans:
 - name: Khan Academy Plans Pricing
   plan_count: 1
   slug: khan-academy-plans-pricing
-random_paper: 2
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Khan Academy Rate Limits

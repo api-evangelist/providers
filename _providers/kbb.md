@@ -107,7 +107,7 @@ plans:
 - name: Kbb Plans Pricing
   plan_count: 3
   slug: kbb-plans-pricing
-random_paper: 66
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Kbb Rate Limits

@@ -92,7 +92,7 @@ name: UGI Corporation
 nav: Providers
 network: true
 overview: UGI Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utility, Natural Gas, Electric, and Propane.
-random_paper: 69
+random_paper: 50
 score:
   band: minimal
   composite: 5.5

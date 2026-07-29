@@ -463,7 +463,7 @@ plans:
 - name: Zuplo Plans Pricing
   plan_count: 3
   slug: zuplo-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Zuplo Rate Limits

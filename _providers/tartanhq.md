@@ -103,7 +103,7 @@ overview: 'TartanHQ is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TartanHQ''s developer surface includes signup flow, engineering blog, changelog, support, and 11 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: emerging
   composite: 25.4

@@ -172,7 +172,7 @@ plans:
 - name: Spring Security Plans Pricing
   plan_count: 1
   slug: spring-security-plans-pricing
-random_paper: 12
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Spring Security Rate Limits

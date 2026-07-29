@@ -115,7 +115,7 @@ overview: 'Emmi Ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Emmi Ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 11 more developer resources.'
-random_paper: 39
+random_paper: 31
 score:
   band: emerging
   composite: 27.8

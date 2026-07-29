@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Our leaders
   url: https://www.edwards.com/about-us/our-leaders
-random_paper: 77
+random_paper: 52
 score:
   band: minimal
   composite: 3.5

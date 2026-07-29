@@ -159,7 +159,7 @@ overview: 'Uplimit publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Uplimit''s developer surface includes engineering blog, authentication, and 21 more developer resources.'
-random_paper: 61
+random_paper: 52
 score:
   band: thin
   composite: 35.6

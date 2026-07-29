@@ -123,7 +123,7 @@ plans:
 - name: Microsoft Azure App Service Plans Pricing
   plan_count: 3
   slug: microsoft-azure-app-service-plans-pricing
-random_paper: 56
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure App Service Rate Limits

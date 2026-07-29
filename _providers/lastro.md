@@ -103,7 +103,7 @@ overview: 'Lastro is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lastro''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 29
+random_paper: 21
 score:
   band: emerging
   composite: 18.8

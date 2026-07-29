@@ -220,7 +220,7 @@ overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 22 more developer resources.'
-random_paper: 57
+random_paper: 48
 score:
   band: developing
   composite: 50.1

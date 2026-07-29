@@ -48,7 +48,7 @@ name: Small Giant Games
 nav: Providers
 network: true
 overview: Small Giant Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Games, Mobile Gaming, and Video Games.
-random_paper: 24
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

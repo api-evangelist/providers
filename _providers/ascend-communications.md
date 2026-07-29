@@ -44,7 +44,7 @@ name: Ascend Communications
 nav: Providers
 network: true
 overview: Ascend Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Networking, Telecommunications, and Remote Access.
-random_paper: 47
+random_paper: 20
 score:
   band: minimal
   composite: 4.3

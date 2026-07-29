@@ -170,7 +170,7 @@ overview: 'Canada Health Infoway publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Canada Health Infoway''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 20 more developer resources.'
-random_paper: 31
+random_paper: 5
 score:
   band: thin
   composite: 40.6

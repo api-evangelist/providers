@@ -64,7 +64,7 @@ name: Transform
 nav: Providers
 network: true
 overview: Transform is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Metrics, Semantic Layer, Analytics, and Data.
-random_paper: 40
+random_paper: 28
 score:
   band: minimal
   composite: 8.8

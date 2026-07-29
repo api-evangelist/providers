@@ -44,7 +44,7 @@ name: CardSpring
 nav: Providers
 network: true
 overview: CardSpring is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Card Linking, Offers, and Loyalty.
-random_paper: 42
+random_paper: 29
 score:
   band: minimal
   composite: 4.3

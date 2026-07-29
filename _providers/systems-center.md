@@ -39,7 +39,7 @@ name: Systems Center
 nav: Providers
 network: true
 overview: Systems Center is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mainframe, Systems Management, Network Management, and Enterprise Software.
-random_paper: 56
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

@@ -135,7 +135,7 @@ overview: 'Amperity publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Amperity''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, and 14 more developer resources.'
-random_paper: 6
+random_paper: 75
 score:
   band: emerging
   composite: 26.1

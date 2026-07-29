@@ -156,7 +156,7 @@ plans:
 - name: Sam.Gov Plans Pricing
   plan_count: 1
   slug: sam.gov-plans-pricing
-random_paper: 67
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Sam.Gov Rate Limits

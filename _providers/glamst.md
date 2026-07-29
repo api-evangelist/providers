@@ -52,7 +52,7 @@ name: GlamSt
 nav: Providers
 network: true
 overview: GlamSt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Augmented Reality, Artificial Intelligence, and Machine Learning.
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
   composite: 7.1

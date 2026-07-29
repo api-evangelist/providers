@@ -127,7 +127,7 @@ plans:
 - name: Hailuo Ai Plans Pricing
   plan_count: 4
   slug: hailuo-ai-plans-pricing
-random_paper: 20
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Hailuo Ai Rate Limits

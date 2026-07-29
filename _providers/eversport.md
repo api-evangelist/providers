@@ -131,7 +131,7 @@ overview: 'Eversports publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Eversports'' developer surface includes documentation, API reference, support, pricing, authentication, and 14 more developer resources.'
-random_paper: 54
+random_paper: 42
 score:
   band: thin
   composite: 32.5

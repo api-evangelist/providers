@@ -161,7 +161,7 @@ plans:
 - name: Cognition Plans Pricing
   plan_count: 1
   slug: cognition-plans-pricing
-random_paper: 22
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Cognition Rate Limits

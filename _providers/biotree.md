@@ -59,7 +59,7 @@ overview: 'Biotree is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Biotree''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 35
+random_paper: 26
 score:
   band: minimal
   composite: 6.5

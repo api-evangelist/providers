@@ -67,7 +67,7 @@ overview: 'OnCorps AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   OnCorps AI''s developer surface includes pricing, engineering blog, support, and 3 more developer resources.'
-random_paper: 61
+random_paper: 52
 score:
   band: minimal
   composite: 10.5

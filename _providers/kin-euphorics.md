@@ -108,7 +108,7 @@ overview: 'Kin Euphorics publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Kin Euphorics'' developer surface includes developer portal, signup flow, authentication, and 11 more developer resources.'
-random_paper: 2
+random_paper: 65
 scopes:
 - name: Kin Euphorics Scopes
   scope_count: 4

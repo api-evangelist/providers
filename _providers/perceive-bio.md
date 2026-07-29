@@ -48,7 +48,7 @@ name: Perceive Bio
 nav: Providers
 network: true
 overview: Perceive Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Ophthalmology, and Therapeutics.
-random_paper: 25
+random_paper: 10
 score:
   band: minimal
   composite: 5.4

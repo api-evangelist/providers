@@ -55,7 +55,7 @@ overview: 'Wave Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Wave Therapeutics'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 39
+random_paper: 17
 score:
   band: minimal
   composite: 5.4

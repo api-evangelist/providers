@@ -186,7 +186,7 @@ plans:
 - name: Courier Plans Pricing
   plan_count: 1
   slug: courier-plans-pricing
-random_paper: 50
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Courier Rate Limits

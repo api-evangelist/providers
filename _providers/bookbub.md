@@ -79,7 +79,7 @@ overview: 'Bookbub is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bookbub''s developer surface includes developer portal, engineering blog, support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 29
+random_paper: 20
 score:
   band: emerging
   composite: 17.0

@@ -143,7 +143,7 @@ overview: 'UpSlide publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   UpSlide''s developer surface includes developer portal, documentation, support, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
-random_paper: 47
+random_paper: 38
 score:
   band: thin
   composite: 32.2

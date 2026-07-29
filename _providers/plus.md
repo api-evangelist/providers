@@ -56,7 +56,7 @@ name: Plus
 nav: Providers
 network: true
 overview: Plus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Vehicles, Self-Driving Trucks, Autonomous Driving, and Physical AI.
-random_paper: 57
+random_paper: 52
 score:
   band: minimal
   composite: 9.2

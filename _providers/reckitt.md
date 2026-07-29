@@ -60,7 +60,7 @@ name: Reckitt Benckiser
 nav: Providers
 network: true
 overview: Reckitt Benckiser is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Products, Personal Care, Household Products, Health & Hygiene, and Nutrition.
-random_paper: 47
+random_paper: 38
 score:
   band: minimal
   composite: 5.7

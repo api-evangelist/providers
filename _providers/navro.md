@@ -91,7 +91,7 @@ overview: 'Navro is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Navro''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 76
+random_paper: 70
 score:
   band: emerging
   composite: 17.6

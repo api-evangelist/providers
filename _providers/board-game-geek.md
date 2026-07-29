@@ -60,7 +60,7 @@ name: Board Game Geek
 nav: Providers
 network: true
 overview: Board Game Geek publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 10
+random_paper: 72
 score:
   band: minimal
   composite: 5.7

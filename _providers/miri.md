@@ -115,7 +115,7 @@ overview: 'Miri publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Miri''s developer surface includes documentation, developer portal, support, authentication, and 11 more developer resources.'
-random_paper: 38
+random_paper: 33
 score:
   band: thin
   composite: 33.2

@@ -121,7 +121,7 @@ overview: 'SpruceID publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SpruceID''s developer surface includes engineering blog, GitHub presence, and 8 more developer resources.'
-random_paper: 73
+random_paper: 63
 score:
   band: emerging
   composite: 20.9

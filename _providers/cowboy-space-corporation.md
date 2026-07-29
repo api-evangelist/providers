@@ -60,7 +60,7 @@ name: Cowboy Space Corporation
 nav: Providers
 network: true
 overview: Cowboy Space Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Satellites, Data Centers, and Artificial Intelligence.
-random_paper: 24
+random_paper: 73
 score:
   band: minimal
   composite: 9.2

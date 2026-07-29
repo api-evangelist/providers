@@ -333,7 +333,7 @@ plans:
 - name: Ashby Plans Pricing
   plan_count: 6
   slug: ashby-plans-pricing
-random_paper: 61
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Ashby Rate Limits

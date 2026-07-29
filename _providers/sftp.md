@@ -39,7 +39,7 @@ name: SFTP
 nav: Providers
 network: true
 overview: SFTP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include SFTP.
-random_paper: 50
+random_paper: 45
 score:
   band: minimal
   composite: 3.5

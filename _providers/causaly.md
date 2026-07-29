@@ -96,7 +96,7 @@ overview: 'Causaly publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Causaly''s developer surface includes engineering blog, support, signup flow, authentication, and 8 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: emerging
   composite: 21.1

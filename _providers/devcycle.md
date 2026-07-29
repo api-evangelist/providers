@@ -380,7 +380,7 @@ overview: 'DevCycle publishes 25 APIs on the [APIs.io](https://apis.io/) network
 
 
   DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 32 more developer resources.'
-random_paper: 57
+random_paper: 47
 score:
   band: strong
   composite: 64.0

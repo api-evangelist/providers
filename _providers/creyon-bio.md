@@ -71,7 +71,7 @@ overview: 'Creyon Bio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Creyon Bio''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 67
+random_paper: 55
 score:
   band: minimal
   composite: 10.8

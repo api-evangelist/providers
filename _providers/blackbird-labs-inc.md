@@ -75,7 +75,7 @@ overview: 'Blackbird Labs Inc is profiled on the [APIs.io](https://apis.io/) net
 
 
   Blackbird Labs Inc''s developer surface includes support and 7 more developer resources.'
-random_paper: 10
+random_paper: 68
 score:
   band: minimal
   composite: 12.5

@@ -133,7 +133,7 @@ plans:
 - name: Estuary Flow Plans Pricing
   plan_count: 1
   slug: estuary-flow-plans-pricing
-random_paper: 2
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Estuary Flow Rate Limits

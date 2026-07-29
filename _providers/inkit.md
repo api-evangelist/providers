@@ -196,7 +196,7 @@ plans:
 - name: Inkit Plans Pricing
   plan_count: 4
   slug: inkit-plans-pricing
-random_paper: 69
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Inkit Rate Limits

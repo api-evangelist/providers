@@ -104,7 +104,7 @@ plans:
 - name: Zep Plans Pricing
   plan_count: 1
   slug: zep-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Zep Rate Limits

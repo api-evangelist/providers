@@ -140,7 +140,7 @@ plans:
 - name: Phraseanet Plans Pricing
   plan_count: 3
   slug: phraseanet-plans-pricing
-random_paper: 40
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Phraseanet Rate Limits

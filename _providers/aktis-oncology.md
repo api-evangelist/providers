@@ -71,7 +71,7 @@ overview: 'Aktis Oncology is profiled on the [APIs.io](https://apis.io/) network
 
 
   Aktis Oncology''s developer surface includes support and 6 more developer resources.'
-random_paper: 37
+random_paper: 19
 score:
   band: minimal
   composite: 11.2

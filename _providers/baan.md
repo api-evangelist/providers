@@ -61,7 +61,7 @@ name: Baan
 nav: Providers
 network: true
 overview: Baan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Resource Planning, ERP, Enterprise Software, and Manufacturing.
-random_paper: 7
+random_paper: 2
 score:
   band: minimal
   composite: 6.9

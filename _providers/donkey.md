@@ -56,7 +56,7 @@ name: Donkey
 nav: Providers
 network: true
 overview: Donkey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trading, Logistics, Supply Chain, and Manufacturing.
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
   composite: 11.3

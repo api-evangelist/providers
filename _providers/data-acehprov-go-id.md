@@ -84,7 +84,7 @@ plans:
 - name: Data Acehprov Go Id Plans Pricing
   plan_count: 1
   slug: data-acehprov-go-id-plans-pricing
-random_paper: 3
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Data Acehprov Go Id Rate Limits

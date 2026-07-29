@@ -92,7 +92,7 @@ overview: 'Sectra publishes 5 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Sectra''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 76
+random_paper: 59
 score:
   band: minimal
   composite: 9.2

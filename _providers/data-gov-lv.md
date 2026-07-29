@@ -84,7 +84,7 @@ plans:
 - name: Data Gov Lv Plans Pricing
   plan_count: 1
   slug: data-gov-lv-plans-pricing
-random_paper: 31
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Data Gov Lv Rate Limits

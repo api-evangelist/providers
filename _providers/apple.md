@@ -607,7 +607,7 @@ press:
 - date: '2026-05-25'
   title: Joint statement from Google and Apple
   url: https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/
-random_paper: 56
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Apple Rate Limits

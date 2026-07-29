@@ -170,7 +170,7 @@ overview: 'Goodays publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Goodays'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 19 more developer resources.'
-random_paper: 47
+random_paper: 38
 score:
   band: thin
   composite: 40.8

@@ -48,7 +48,7 @@ name: Kezaihui
 nav: Providers
 network: true
 overview: Kezaihui is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, SaaS, Local Commerce, and China.
-random_paper: 68
+random_paper: 58
 score:
   band: minimal
   composite: 5.0

@@ -77,7 +77,7 @@ plans:
 - name: National Endowment For The Humanities Plans Pricing
   plan_count: 3
   slug: national-endowment-for-the-humanities-plans-pricing
-random_paper: 25
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: National Endowment For The Humanities Rate Limits

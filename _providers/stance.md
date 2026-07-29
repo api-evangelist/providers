@@ -84,7 +84,7 @@ overview: 'Stance is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Stance''s developer surface includes support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 6
+random_paper: 78
 scopes:
 - name: Stance Scopes
   scope_count: 4

@@ -222,7 +222,7 @@ plans:
 - name: Jambase Plans Pricing
   plan_count: 5
   slug: jambase-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 9
   name: Jambase Rate Limits

@@ -56,7 +56,7 @@ name: Hireguide
 nav: Providers
 network: true
 overview: Hireguide is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hiring, Recruiting, Interviewing, and Talent Acquisition.
-random_paper: 2
+random_paper: 70
 score:
   band: minimal
   composite: 8.2

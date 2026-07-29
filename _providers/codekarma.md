@@ -84,7 +84,7 @@ overview: 'CodeKarma is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CodeKarma''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 66
+random_paper: 55
 score:
   band: emerging
   composite: 15.2

@@ -63,7 +63,7 @@ overview: 'TakeCareOS is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TakeCareOS''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: minimal
   composite: 8.7

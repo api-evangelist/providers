@@ -129,7 +129,7 @@ plans:
 - name: Betfair Plans Pricing
   plan_count: 4
   slug: betfair-plans-pricing
-random_paper: 22
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Betfair Rate Limits

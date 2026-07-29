@@ -110,7 +110,7 @@ overview: 'Manta Network publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Manta Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, sandbox, and 10 more developer resources.'
-random_paper: 9
+random_paper: 72
 score:
   band: emerging
   composite: 21.6

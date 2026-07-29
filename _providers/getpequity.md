@@ -91,7 +91,7 @@ overview: 'Pequity is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pequity''s developer surface includes pricing, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 78
+random_paper: 65
 score:
   band: emerging
   composite: 19.8

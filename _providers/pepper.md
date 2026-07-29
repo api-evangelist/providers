@@ -95,7 +95,7 @@ overview: 'Pepper is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pepper''s developer surface includes pricing, engineering blog, support, and 10 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: emerging
   composite: 22.0

@@ -75,7 +75,7 @@ overview: 'Gut Wellness Club is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Gut Wellness Club''s developer surface includes support and 6 more developer resources.'
-random_paper: 66
+random_paper: 45
 score:
   band: minimal
   composite: 11.7

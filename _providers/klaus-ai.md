@@ -148,7 +148,7 @@ overview: 'Klaus AI publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Klaus AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 16 more developer resources.'
-random_paper: 1
+random_paper: 71
 score:
   band: developing
   composite: 42.3

@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Chief Executive Vicki Hollub said last week that Occidental ...
   url: https://www.facebook.com/forbes/posts/chief-executive-vicki-hollub-said-last-week-that-occidental-petroleum-engineers-/1062382229085100/
-random_paper: 26
+random_paper: 0
 score:
   band: minimal
   composite: 2.6

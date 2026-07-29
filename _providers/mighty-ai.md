@@ -39,7 +39,7 @@ name: Mighty AI *
 nav: Providers
 network: true
 overview: Mighty AI * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Training Data, Data Labeling, and Machine Learning.
-random_paper: 36
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

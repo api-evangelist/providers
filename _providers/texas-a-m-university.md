@@ -111,7 +111,7 @@ plans:
 - name: Texas A M University Plans Pricing
   plan_count: 2
   slug: texas-a-m-university-plans-pricing
-random_paper: 37
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Texas A M University Rate Limits

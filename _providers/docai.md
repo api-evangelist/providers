@@ -68,7 +68,7 @@ name: doc.ai
 nav: Providers
 network: true
 overview: doc.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Artificial Intelligence, Health, and Digital Health.
-random_paper: 38
+random_paper: 32
 score:
   band: minimal
   composite: 6.0

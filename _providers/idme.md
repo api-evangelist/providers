@@ -178,7 +178,7 @@ overview: 'ID.me publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   ID.me''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 22 more developer resources.'
-random_paper: 20
+random_paper: 15
 scopes:
 - name: Idme Scopes
   scope_count: 11

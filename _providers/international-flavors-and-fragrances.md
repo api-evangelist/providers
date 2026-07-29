@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: IFF
   url: https://www.facebook.com/InternationalFlavorsandFragrances/posts/-a-135-year-legacy-a-future-powered-by-bioscience-and-regenerative-aiiff-ceo-eri/1153883630118934/
-random_paper: 25
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

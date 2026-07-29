@@ -107,7 +107,7 @@ plans:
 - name: Tokyo Institute Of Technology Plans Pricing
   plan_count: 2
   slug: tokyo-institute-of-technology-plans-pricing
-random_paper: 76
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Tokyo Institute Of Technology Rate Limits

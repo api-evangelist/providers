@@ -99,7 +99,7 @@ overview: 'Uizard Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Uizard Technologies'' developer surface includes engineering blog, pricing, signup flow, support, changelog, and 9 more developer resources.'
-random_paper: 9
+random_paper: 64
 score:
   band: emerging
   composite: 19.8

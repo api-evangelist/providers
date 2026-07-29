@@ -71,7 +71,7 @@ overview: 'HelloTech is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   HelloTech''s developer surface includes engineering blog, pricing, signup flow, support, and 3 more developer resources.'
-random_paper: 4
+random_paper: 72
 score:
   band: emerging
   composite: 13.1

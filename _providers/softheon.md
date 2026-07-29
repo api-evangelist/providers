@@ -79,7 +79,7 @@ overview: 'Softheon is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Softheon''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 1
+random_paper: 70
 score:
   band: emerging
   composite: 17.0

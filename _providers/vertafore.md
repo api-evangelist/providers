@@ -103,7 +103,7 @@ plans:
 - name: Vertafore Plans Pricing
   plan_count: 4
   slug: vertafore-plans-pricing
-random_paper: 26
+random_paper: 14
 score:
   band: emerging
   composite: 16.2

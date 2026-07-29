@@ -63,7 +63,7 @@ overview: 'Kintep (Jiangsu Kintep Environmental Protection Co., Ltd.) is profile
 
 
   Kintep (Jiangsu Kintep Environmental Protection Co., Ltd.)''s developer surface includes support and 4 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 5.9

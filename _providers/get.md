@@ -71,7 +71,7 @@ overview: 'Get is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Get''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: emerging
   composite: 13.8

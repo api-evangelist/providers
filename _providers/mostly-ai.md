@@ -149,7 +149,7 @@ plans:
 - name: Mostly Ai Plans Pricing
   plan_count: 1
   slug: mostly-ai-plans-pricing
-random_paper: 58
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Mostly Ai Rate Limits

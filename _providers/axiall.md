@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Westlake Acquires Epoxy Business | News
   url: https://www.clearygottlieb.com/news-and-insights/news-listing/westlakes-acquisition-of-hexions-global-epoxy-business
-random_paper: 3
+random_paper: 75
 score:
   band: minimal
   composite: 3.2

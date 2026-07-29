@@ -80,7 +80,7 @@ name: Wawa
 nav: Providers
 network: true
 overview: Wawa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Convenience Store, Fuel Retail, Food Service, Loyalty, and Mobile Ordering.
-random_paper: 37
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

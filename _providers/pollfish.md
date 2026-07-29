@@ -131,7 +131,7 @@ plans:
 - name: Pollfish Plans Pricing
   plan_count: 4
   slug: pollfish-plans-pricing
-random_paper: 75
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Pollfish Rate Limits

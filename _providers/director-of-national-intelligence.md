@@ -52,7 +52,7 @@ name: Director of National Intelligence
 nav: Providers
 network: true
 overview: Director of National Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government and Intelligence.
-random_paper: 11
+random_paper: 49
 score:
   band: minimal
   composite: 4.1

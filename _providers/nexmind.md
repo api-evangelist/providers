@@ -75,7 +75,7 @@ overview: 'NexMind is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NexMind''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 44
+random_paper: 35
 score:
   band: emerging
   composite: 15.2

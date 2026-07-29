@@ -132,7 +132,7 @@ overview: 'AWS Marketplace publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   AWS Marketplace''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 36
+random_paper: 17
 score:
   band: emerging
   composite: 27.2

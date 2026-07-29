@@ -165,7 +165,7 @@ overview: 'Voiceitt publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Voiceitt''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 2
+random_paper: 71
 score:
   band: developing
   composite: 46.3

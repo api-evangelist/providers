@@ -164,7 +164,7 @@ plans:
 - name: United States Census Bureau Plans Pricing
   plan_count: 3
   slug: united-states-census-bureau-plans-pricing
-random_paper: 59
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: United States Census Bureau Rate Limits

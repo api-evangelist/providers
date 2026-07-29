@@ -63,7 +63,7 @@ overview: 'Numetric publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Numetric''s developer surface includes support and 3 more developer resources.'
-random_paper: 2
+random_paper: 71
 score:
   band: minimal
   composite: 9.5

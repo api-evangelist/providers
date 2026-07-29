@@ -48,7 +48,7 @@ name: Plexistor
 nav: Providers
 network: true
 overview: Plexistor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Persistent Memory, Software-Defined Memory, and Data Infrastructure.
-random_paper: 54
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

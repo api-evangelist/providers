@@ -61,7 +61,7 @@ name: Jarmin
 nav: Providers
 network: true
 overview: Jarmin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic Systems, and Machine Learning.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 10.8

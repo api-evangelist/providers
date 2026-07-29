@@ -292,7 +292,7 @@ overview: 'GSMA Open Gateway publishes 22 APIs on the [APIs.io](https://apis.io/
 
 
   GSMA Open Gateway''s developer surface includes authentication, documentation, developer portal, privacy policy, sandbox, changelog, API reference, and 36 more developer resources.'
-random_paper: 48
+random_paper: 33
 scopes:
 - name: Open Gateway Scopes
   scope_count: 38

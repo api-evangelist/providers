@@ -97,7 +97,7 @@ plans:
 - name: Epex Spot Plans Pricing
   plan_count: 10
   slug: epex-spot-plans-pricing
-random_paper: 64
+random_paper: 53
 score:
   band: emerging
   composite: 15.7

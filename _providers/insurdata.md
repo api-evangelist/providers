@@ -59,7 +59,7 @@ overview: 'Insurdata is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Insurdata''s developer surface includes support and 3 more developer resources.'
-random_paper: 23
+random_paper: 11
 score:
   band: minimal
   composite: 9.0

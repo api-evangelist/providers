@@ -56,7 +56,7 @@ name: /dev/fast
 nav: Providers
 network: true
 overview: /dev/fast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Code Review, Code Hosting, and Deployment.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 6.1

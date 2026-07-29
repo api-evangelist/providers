@@ -108,7 +108,7 @@ plans:
 - name: National Geospatial Intelligence Agency Plans Pricing
   plan_count: 3
   slug: national-geospatial-intelligence-agency-plans-pricing
-random_paper: 2
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: National Geospatial Intelligence Agency Rate Limits

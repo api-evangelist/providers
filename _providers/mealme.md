@@ -244,7 +244,7 @@ plans:
 - name: Mealme Plans Pricing
   plan_count: 3
   slug: mealme-plans-pricing
-random_paper: 72
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Mealme Rate Limits

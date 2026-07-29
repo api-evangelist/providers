@@ -48,7 +48,7 @@ name: Blissmo
 nav: Providers
 network: true
 overview: Blissmo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 50
+random_paper: 41
 score:
   band: minimal
   composite: 3.2

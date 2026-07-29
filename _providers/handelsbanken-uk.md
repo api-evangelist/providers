@@ -155,7 +155,7 @@ overview: 'Handelsbanken UK publishes 7 APIs on the [APIs.io](https://apis.io/) 
 
 
   Handelsbanken UK''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, changelog, sandbox, and 15 more developer resources.'
-random_paper: 47
+random_paper: 27
 score:
   band: thin
   composite: 35.8

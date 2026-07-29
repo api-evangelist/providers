@@ -116,7 +116,7 @@ overview: 'Mosyle publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mosyle''s developer surface includes developer portal, pricing, engineering blog, signup flow, support, authentication, and 11 more developer resources.'
-random_paper: 33
+random_paper: 25
 score:
   band: emerging
   composite: 23.5

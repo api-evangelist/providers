@@ -48,7 +48,7 @@ name: 61draw
 nav: Providers
 network: true
 overview: 61draw is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Online Learning, and Art.
-random_paper: 59
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

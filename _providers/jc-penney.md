@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: '* J.C. Penney on Tuesday launched a private label men''s ...'
   url: https://www.instagram.com/p/CZxR9PatXTn/
-random_paper: 36
+random_paper: 25
 score:
   band: minimal
   composite: 6.1

@@ -151,7 +151,7 @@ overview: 'Hopper publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Hopper''s developer surface includes authentication, GitHub presence, engineering blog, and 17 more developer resources.'
-random_paper: 70
+random_paper: 58
 score:
   band: emerging
   composite: 25.0

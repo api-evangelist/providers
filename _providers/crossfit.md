@@ -63,7 +63,7 @@ overview: 'Crossfit is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Crossfit''s developer surface includes support and 4 more developer resources.'
-random_paper: 8
+random_paper: 77
 score:
   band: minimal
   composite: 10.1

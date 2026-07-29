@@ -63,7 +63,7 @@ overview: 'Flowcarbon is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Flowcarbon''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 42
+random_paper: 29
 score:
   band: minimal
   composite: 9.1

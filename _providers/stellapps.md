@@ -99,7 +99,7 @@ overview: 'Stellapps is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Stellapps'' developer surface includes engineering blog, support, YouTube channel, and 11 more developer resources.'
-random_paper: 36
+random_paper: 24
 score:
   band: minimal
   composite: 12.9

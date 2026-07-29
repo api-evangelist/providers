@@ -476,7 +476,7 @@ plans:
 - name: Elastic Path Plans Pricing
   plan_count: 0
   slug: elastic-path-plans-pricing
-random_paper: 30
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Elastic Path Rate Limits

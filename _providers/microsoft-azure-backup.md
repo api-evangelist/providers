@@ -119,7 +119,7 @@ plans:
 - name: Microsoft Azure Backup Plans Pricing
   plan_count: 3
   slug: microsoft-azure-backup-plans-pricing
-random_paper: 41
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Backup Rate Limits

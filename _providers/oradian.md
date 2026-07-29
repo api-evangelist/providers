@@ -83,7 +83,7 @@ overview: 'Oradian is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Oradian''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 23
+random_paper: 14
 score:
   band: emerging
   composite: 16.1

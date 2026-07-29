@@ -87,7 +87,7 @@ overview: 'Observe.AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Observe.AI''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 57
+random_paper: 45
 score:
   band: emerging
   composite: 18.8

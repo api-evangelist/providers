@@ -251,7 +251,7 @@ plans:
 - name: Amazon Verified Permissions Plans Pricing
   plan_count: 3
   slug: amazon-verified-permissions-plans-pricing
-random_paper: 29
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Amazon Verified Permissions Rate Limits

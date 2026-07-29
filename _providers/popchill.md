@@ -55,7 +55,7 @@ overview: 'PopChill is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PopChill''s developer surface includes support and 2 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 5.9

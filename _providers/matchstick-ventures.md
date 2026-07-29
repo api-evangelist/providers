@@ -71,7 +71,7 @@ overview: 'Matchstick Ventures is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Matchstick Ventures'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 29
+random_paper: 4
 score:
   band: minimal
   composite: 5.4

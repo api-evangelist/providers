@@ -44,7 +44,7 @@ name: Wittlebee
 nav: Providers
 network: true
 overview: Wittlebee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 17
+random_paper: 5
 score:
   band: minimal
   composite: 3.2

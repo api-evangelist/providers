@@ -88,7 +88,7 @@ plans:
 - name: Envoy Gateway Plans Pricing
   plan_count: 3
   slug: envoy-gateway-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Envoy Gateway Rate Limits

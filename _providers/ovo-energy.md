@@ -128,7 +128,7 @@ overview: 'OVO Energy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   OVO Energy''s developer surface includes engineering blog, support, signup flow, pricing, and 19 more developer resources.'
-random_paper: 8
+random_paper: 75
 score:
   band: emerging
   composite: 21.7

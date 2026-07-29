@@ -76,7 +76,7 @@ name: Westmag
 nav: Providers
 network: true
 overview: Westmag is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Robotics, Drones, and Motors.
-random_paper: 49
+random_paper: 40
 score:
   band: minimal
   composite: 10.0

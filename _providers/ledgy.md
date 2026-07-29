@@ -120,7 +120,7 @@ plans:
 - name: Ledgy Plans Pricing
   plan_count: 3
   slug: ledgy-plans-pricing
-random_paper: 59
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Ledgy Rate Limits

@@ -120,7 +120,7 @@ overview: 'Cohere Health publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cohere Health''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 41
+random_paper: 25
 scopes:
 - name: Cohere Health Scopes
   scope_count: 7

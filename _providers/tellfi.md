@@ -39,7 +39,7 @@ name: TellFi
 nav: Providers
 network: true
 overview: TellFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 3.2

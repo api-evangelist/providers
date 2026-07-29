@@ -44,7 +44,7 @@ name: Tacoda
 nav: Providers
 network: true
 overview: Tacoda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 67
+random_paper: 60
 score:
   band: minimal
   composite: 3.2

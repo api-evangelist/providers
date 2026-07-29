@@ -190,7 +190,7 @@ plans:
 - name: Ansible Roles Plans Pricing
   plan_count: 3
   slug: ansible-roles-plans-pricing
-random_paper: 64
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Ansible Roles Rate Limits

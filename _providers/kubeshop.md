@@ -293,7 +293,7 @@ overview: 'Kubeshop publishes 30 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kubeshop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 75
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Kubeshop Rate Limits

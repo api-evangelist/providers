@@ -39,7 +39,7 @@ name: Write Ahead Log
 nav: Providers
 network: true
 overview: Write Ahead Log is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Engineering, Databases, and Write Ahead Log.
-random_paper: 44
+random_paper: 26
 score:
   band: minimal
   composite: 4.8

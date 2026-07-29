@@ -48,7 +48,7 @@ name: Clutch Learning
 nav: Providers
 network: true
 overview: Clutch Learning is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Test Prep, and Video Learning.
-random_paper: 35
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

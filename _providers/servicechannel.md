@@ -357,7 +357,7 @@ overview: 'ServiceChannel publishes 66 APIs on the [APIs.io](https://apis.io/) n
 
 
   ServiceChannel''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 60
+random_paper: 42
 scopes:
 - name: Servicechannel Scopes
   scope_count: 0

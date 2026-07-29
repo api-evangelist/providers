@@ -103,7 +103,7 @@ overview: 'Prenetics publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Prenetics'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: emerging
   composite: 16.6

@@ -56,7 +56,7 @@ name: ddownload
 nav: Providers
 network: true
 overview: ddownload publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage And File Sharing and Public APIs.
-random_paper: 8
+random_paper: 76
 score:
   band: minimal
   composite: 5.7

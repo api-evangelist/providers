@@ -229,7 +229,7 @@ plans:
 - name: International Business Machines Plans Pricing
   plan_count: 3
   slug: international-business-machines-plans-pricing
-random_paper: 46
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: International Business Machines Rate Limits

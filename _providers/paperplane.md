@@ -63,7 +63,7 @@ overview: 'Paperplane is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Paperplane''s developer surface includes documentation, getting-started guide, and 3 more developer resources.'
-random_paper: 37
+random_paper: 24
 score:
   band: minimal
   composite: 10.8

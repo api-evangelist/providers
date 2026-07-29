@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: Pitney Bowes to Deploy Ambi Robotics AI-Powered ...
   url: https://www.ambirobotics.com/media/pitney-bowes-deploys-ambisort/
-random_paper: 69
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Pitney Bowes Rate Limits

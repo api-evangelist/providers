@@ -63,7 +63,7 @@ overview: 'Denki is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Denki''s developer surface includes engineering blog, pricing, support, and 2 more developer resources.'
-random_paper: 49
+random_paper: 43
 score:
   band: minimal
   composite: 8.4

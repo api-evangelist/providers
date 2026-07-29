@@ -87,7 +87,7 @@ overview: 'Avenews is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Avenews'' developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 50
+random_paper: 41
 score:
   band: emerging
   composite: 15.6

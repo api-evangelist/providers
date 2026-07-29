@@ -67,7 +67,7 @@ overview: 'Swiftlane is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Swiftlane''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: minimal
   composite: 8.2

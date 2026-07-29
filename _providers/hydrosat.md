@@ -128,7 +128,7 @@ overview: 'Hydrosat publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Hydrosat''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 10 more developer resources.'
-random_paper: 9
+random_paper: 78
 score:
   band: developing
   composite: 42.4

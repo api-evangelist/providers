@@ -157,7 +157,7 @@ plans:
 - name: Easypost Plans Pricing
   plan_count: 5
   slug: easypost-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Easypost Rate Limits

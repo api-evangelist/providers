@@ -251,7 +251,7 @@ overview: 'Anchorage Digital publishes 20 APIs on the [APIs.io](https://apis.io/
 
 
   Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
-random_paper: 56
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Anchorage Digital Rate Limits

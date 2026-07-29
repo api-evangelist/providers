@@ -39,7 +39,7 @@ name: Rapt
 nav: Providers
 network: true
 overview: Rapt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 44
+random_paper: 39
 score:
   band: minimal
   composite: 3.2

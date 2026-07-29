@@ -185,7 +185,7 @@ plans:
 - name: Cybereason Plans Pricing
   plan_count: 1
   slug: cybereason-plans-pricing
-random_paper: 40
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Cybereason Rate Limits

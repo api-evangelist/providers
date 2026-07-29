@@ -132,7 +132,7 @@ plans:
 - name: Ezyvet Plans Pricing
   plan_count: 3
   slug: ezyvet-plans-pricing
-random_paper: 47
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Ezyvet Rate Limits

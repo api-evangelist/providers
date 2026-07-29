@@ -65,7 +65,7 @@ plans:
 - name: Cavco Industries Plans Pricing
   plan_count: 1
   slug: cavco-industries-plans-pricing
-random_paper: 8
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Cavco Industries Rate Limits

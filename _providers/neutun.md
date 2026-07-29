@@ -44,7 +44,7 @@ name: Neutun
 nav: Providers
 network: true
 overview: Neutun is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Digital Health, Epilepsy, and Seizure Tracking.
-random_paper: 39
+random_paper: 31
 score:
   band: minimal
   composite: 4.3

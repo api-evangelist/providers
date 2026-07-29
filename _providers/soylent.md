@@ -112,7 +112,7 @@ overview: 'Soylent publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Soylent''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 71
+random_paper: 62
 scopes:
 - name: Soylent Scopes
   scope_count: 4

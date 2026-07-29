@@ -71,7 +71,7 @@ overview: 'Rebel Girls is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Rebel Girls'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 6
+random_paper: 72
 score:
   band: minimal
   composite: 9.5

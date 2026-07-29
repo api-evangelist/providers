@@ -188,7 +188,7 @@ overview: 'Customers Bank publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Customers Bank''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, and 20 more developer resources.'
-random_paper: 32
+random_paper: 14
 score:
   band: developing
   composite: 43.3

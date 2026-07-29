@@ -94,7 +94,7 @@ plans:
 - name: Food Safety And Inspection Service Plans Pricing
   plan_count: 3
   slug: food-safety-and-inspection-service-plans-pricing
-random_paper: 3
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Food Safety And Inspection Service Rate Limits

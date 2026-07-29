@@ -75,7 +75,7 @@ overview: 'Frec is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Frec''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 21
+random_paper: 16
 score:
   band: emerging
   composite: 15.2

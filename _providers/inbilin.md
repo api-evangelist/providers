@@ -44,7 +44,7 @@ name: inbilin
 nav: Providers
 network: true
 overview: inbilin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Voice, Mobile, and Communications.
-random_paper: 30
+random_paper: 21
 score:
   band: minimal
   composite: 4.3

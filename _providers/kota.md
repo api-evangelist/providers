@@ -419,7 +419,7 @@ overview: 'Kota publishes 33 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kota''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 36
+random_paper: 31
 score:
   band: strong
   composite: 58.8

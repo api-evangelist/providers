@@ -91,7 +91,7 @@ overview: 'ProfitWell publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   ProfitWell''s developer surface includes documentation, signup flow, pricing, and 8 more developer resources.'
-random_paper: 69
+random_paper: 56
 score:
   band: emerging
   composite: 16.1

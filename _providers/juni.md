@@ -95,7 +95,7 @@ overview: 'Juni is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Juni''s developer surface includes support, pricing, signup flow, and 10 more developer resources.'
-random_paper: 43
+random_paper: 38
 score:
   band: emerging
   composite: 23.5

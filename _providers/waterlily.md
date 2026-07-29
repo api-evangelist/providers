@@ -83,7 +83,7 @@ overview: 'Waterlily is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Waterlily''s developer surface includes engineering blog, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 41
+random_paper: 29
 score:
   band: emerging
   composite: 18.6

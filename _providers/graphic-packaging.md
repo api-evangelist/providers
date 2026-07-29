@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: '10-K: Annual report [Section 13 and 15(d), not S-K Item 405]'
   url: https://investors.graphicpkg.com/sec-filings/all-sec-filings/content/0001408075-26-000009/gpk-20251231.htm
-random_paper: 53
+random_paper: 32
 score:
   band: minimal
   composite: 5.4

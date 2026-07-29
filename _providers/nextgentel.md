@@ -55,7 +55,7 @@ overview: 'Nextgentel is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nextgentel''s developer surface includes support and 2 more developer resources.'
-random_paper: 59
+random_paper: 46
 score:
   band: minimal
   composite: 6.2

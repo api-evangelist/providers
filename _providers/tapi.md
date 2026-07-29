@@ -127,7 +127,7 @@ overview: 'Tapi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tapi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, YouTube channel, and 11 more developer resources.'
-random_paper: 35
+random_paper: 30
 score:
   band: thin
   composite: 32.7

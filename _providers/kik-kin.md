@@ -60,7 +60,7 @@ name: Kik (Kin)
 nav: Providers
 network: true
 overview: Kik (Kin) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency, Blockchain, and SDKs.
-random_paper: 54
+random_paper: 46
 score:
   band: minimal
   composite: 7.2

@@ -876,7 +876,7 @@ plans:
 - name: Labguru Plans Pricing
   plan_count: 3
   slug: labguru-plans-pricing
-random_paper: 43
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Labguru Rate Limits

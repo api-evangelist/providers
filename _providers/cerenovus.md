@@ -71,7 +71,7 @@ overview: 'Cerenovus is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cerenovus'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 38
+random_paper: 26
 score:
   band: minimal
   composite: 6.2

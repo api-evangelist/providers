@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Delek US Holdings Inc
   url: https://www.reuters.com/company/delek-us-holdings-inc/
-random_paper: 36
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Delek Us Holdings Rate Limits

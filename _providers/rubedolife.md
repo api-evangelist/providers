@@ -59,7 +59,7 @@ overview: 'Rubedo Life Sciences is profiled on the [APIs.io](https://apis.io/) n
 
 
   Rubedo Life Sciences'' developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: minimal
   composite: 6.3

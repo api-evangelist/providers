@@ -115,7 +115,7 @@ plans:
 - name: Templated Plans Pricing
   plan_count: 4
   slug: templated-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Templated Rate Limits

@@ -149,7 +149,7 @@ overview: 'Develop Health publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Develop Health''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 14 more developer resources.'
-random_paper: 4
+random_paper: 66
 score:
   band: developing
   composite: 46.3

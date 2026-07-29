@@ -140,7 +140,7 @@ press:
 - date: '2026-05-25'
   title: Yellow is shutting down and headed for bankruptcy, the ...
   url: https://fox5sandiego.com/news/business/ap-business/ap-yellow-is-shutting-down-and-headed-for-bankruptcy-the-teamsters-union-says-heres-what-to-know/
-random_paper: 13
+random_paper: 76
 score:
   band: minimal
   composite: 10.8

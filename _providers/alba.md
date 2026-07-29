@@ -48,7 +48,7 @@ name: Alba
 nav: Providers
 network: true
 overview: Alba is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 5
+random_paper: 0
 score:
   band: minimal
   composite: 3.2

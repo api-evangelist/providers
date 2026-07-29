@@ -169,7 +169,7 @@ plans:
 - name: Cursor Plans Pricing
   plan_count: 1
   slug: cursor-plans-pricing
-random_paper: 38
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Cursor Rate Limits

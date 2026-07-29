@@ -132,7 +132,7 @@ plans:
 - name: Hyperliquid Plans Pricing
   plan_count: 1
   slug: hyperliquid-plans-pricing
-random_paper: 15
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Hyperliquid Rate Limits

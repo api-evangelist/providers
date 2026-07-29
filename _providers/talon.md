@@ -39,7 +39,7 @@ name: Talon
 nav: Providers
 network: true
 overview: Talon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Enterprise Browser, Zero Trust, and SASE.
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

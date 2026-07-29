@@ -221,7 +221,7 @@ overview: 'Lido Finance publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lido Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 28 more developer resources.'
-random_paper: 8
+random_paper: 73
 score:
   band: developing
   composite: 45.6

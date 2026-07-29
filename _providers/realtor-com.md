@@ -116,7 +116,7 @@ overview: 'Realtor.com is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Realtor.com''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 19
+random_paper: 5
 score:
   band: minimal
   composite: 6.1

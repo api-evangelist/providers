@@ -44,7 +44,7 @@ name: TopBuild
 nav: Providers
 network: true
 overview: TopBuild is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 2.6

@@ -148,7 +148,7 @@ overview: 'NERC is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   NERC''s developer surface includes developer portal, documentation, support, engineering blog, YouTube channel, authentication, and 22 more developer resources.'
-random_paper: 29
+random_paper: 24
 scopes:
 - name: Nerc Scopes
   scope_count: 36

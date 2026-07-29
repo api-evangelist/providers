@@ -56,7 +56,7 @@ name: Medivis
 nav: Providers
 network: true
 overview: Medivis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Healthcare, Augmented Reality, and Surgical Navigation.
-random_paper: 42
+random_paper: 33
 score:
   band: minimal
   composite: 10.5

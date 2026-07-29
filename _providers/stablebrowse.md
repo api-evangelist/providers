@@ -49,7 +49,7 @@ name: StableBrowse
 nav: Providers
 network: true
 overview: StableBrowse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Browser Infrastructure, Web Automation, and Data Labeling.
-random_paper: 29
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

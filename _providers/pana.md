@@ -48,7 +48,7 @@ name: Pana
 nav: Providers
 network: true
 overview: Pana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 21
+random_paper: 16
 score:
   band: minimal
   composite: 4.1

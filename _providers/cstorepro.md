@@ -83,7 +83,7 @@ overview: 'CStorePro is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CStorePro''s developer surface includes pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 45
+random_paper: 33
 score:
   band: emerging
   composite: 15.5

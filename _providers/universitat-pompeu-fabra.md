@@ -113,7 +113,7 @@ plans:
 - name: Universitat Pompeu Fabra Plans Pricing
   plan_count: 2
   slug: universitat-pompeu-fabra-plans-pricing
-random_paper: 25
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Universitat Pompeu Fabra Rate Limits

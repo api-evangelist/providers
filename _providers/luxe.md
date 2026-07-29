@@ -48,7 +48,7 @@ name: Luxe
 nav: Providers
 network: true
 overview: Luxe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Parking, Mobility, and On-Demand.
-random_paper: 51
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

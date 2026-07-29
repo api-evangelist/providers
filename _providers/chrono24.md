@@ -48,7 +48,7 @@ name: Chrono24
 nav: Providers
 network: true
 overview: Chrono24 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Marketplace, E-Commerce, and Luxury Goods.
-random_paper: 40
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

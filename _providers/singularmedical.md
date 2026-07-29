@@ -55,7 +55,7 @@ overview: 'Singular Medical is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Singular Medical''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 8
+random_paper: 68
 score:
   band: minimal
   composite: 5.7

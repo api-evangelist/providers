@@ -63,7 +63,7 @@ overview: 'Xona Space Systems is profiled on the [APIs.io](https://apis.io/) net
 
 
   Xona Space Systems'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 27
+random_paper: 4
 score:
   band: minimal
   composite: 7.3

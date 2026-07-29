@@ -127,7 +127,7 @@ plans:
 - name: Seon Plans Pricing
   plan_count: 3
   slug: seon-plans-pricing
-random_paper: 42
+random_paper: 37
 rate_limits:
 - limit_count: 7
   name: Seon Rate Limits

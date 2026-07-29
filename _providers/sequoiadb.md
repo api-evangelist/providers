@@ -75,7 +75,7 @@ overview: 'SequoiaDB is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SequoiaDB''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 9
+random_paper: 77
 score:
   band: emerging
   composite: 14.0

@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Excellence in Education Award
   url: https://www.loma.org/en/about/membership/awards--recognition/excellence-in-education-award/
-random_paper: 36
+random_paper: 79
 score:
   band: minimal
   composite: 3.5

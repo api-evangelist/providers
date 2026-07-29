@@ -39,7 +39,7 @@ name: HuiHe Healthcare
 nav: Providers
 network: true
 overview: HuiHe Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthcare.
-random_paper: 37
+random_paper: 17
 score:
   band: minimal
   composite: 3.5

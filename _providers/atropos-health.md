@@ -121,7 +121,7 @@ overview: 'Atropos Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Atropos Health''s developer surface includes engineering blog, product news, GitHub presence, and 16 more developer resources.'
-random_paper: 29
+random_paper: 11
 score:
   band: minimal
   composite: 6.3

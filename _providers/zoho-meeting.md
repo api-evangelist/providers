@@ -83,7 +83,7 @@ overview: 'Zoho Meeting publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Zoho Meeting''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 53
+random_paper: 38
 score:
   band: minimal
   composite: 11.8

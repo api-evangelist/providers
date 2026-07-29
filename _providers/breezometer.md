@@ -116,7 +116,7 @@ plans:
 - name: Breezometer Plans Pricing
   plan_count: 3
   slug: breezometer-plans-pricing
-random_paper: 3
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Breezometer Rate Limits

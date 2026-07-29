@@ -155,7 +155,7 @@ overview: 'Hyperbeat publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Hyperbeat''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: developing
   composite: 44.3

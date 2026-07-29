@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: The Dr. CaBot AI system was created to generate ...
   url: https://www.facebook.com/TheNewEnglandJournalofMedicine/posts/the-dr-cabot-ai-system-was-created-to-generate-differential-diagnoses-in-the-sty/1197451285748712/
-random_paper: 47
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Cabot Rate Limits

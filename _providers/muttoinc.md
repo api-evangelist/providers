@@ -44,7 +44,7 @@ name: Mutto Optronics
 nav: Providers
 network: true
 overview: Mutto Optronics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Touch Panels, Optronics, and Consumer Electronics.
-random_paper: 14
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

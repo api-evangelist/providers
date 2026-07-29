@@ -44,7 +44,7 @@ name: Sila
 nav: Providers
 network: true
 overview: Sila is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier, Battery, Materials, and Energy.
-random_paper: 30
+random_paper: 25
 score:
   band: minimal
   composite: 4.3

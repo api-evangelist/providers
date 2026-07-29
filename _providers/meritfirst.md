@@ -96,7 +96,7 @@ overview: 'Meritfirst publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Meritfirst''s developer surface includes signup flow, authentication, and 9 more developer resources.'
-random_paper: 70
+random_paper: 57
 score:
   band: emerging
   composite: 16.6

@@ -48,7 +48,7 @@ name: Zelta
 nav: Providers
 network: true
 overview: Zelta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Techstars.
-random_paper: 70
+random_paper: 64
 score:
   band: minimal
   composite: 3.2

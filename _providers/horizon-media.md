@@ -200,7 +200,7 @@ overview: 'Horizon Media is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Horizon Media''s developer surface includes GitHub presence and 38 more developer resources.'
-random_paper: 70
+random_paper: 54
 score:
   band: minimal
   composite: 7.3

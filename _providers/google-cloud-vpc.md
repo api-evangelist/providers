@@ -120,7 +120,7 @@ plans:
 - name: Google Cloud Vpc Plans Pricing
   plan_count: 3
   slug: google-cloud-vpc-plans-pricing
-random_paper: 11
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Google Cloud Vpc Rate Limits

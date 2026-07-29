@@ -48,7 +48,7 @@ name: Olea
 nav: Providers
 network: true
 overview: Olea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Government.
-random_paper: 22
+random_paper: 17
 score:
   band: minimal
   composite: 5.1

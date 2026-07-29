@@ -124,7 +124,7 @@ overview: 'Hippo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Hippo''s developer surface includes engineering blog, FAQ, legal docs, GitHub presence, and 16 more developer resources.'
-random_paper: 39
+random_paper: 28
 score:
   band: minimal
   composite: 10.2

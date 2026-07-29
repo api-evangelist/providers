@@ -136,7 +136,7 @@ overview: 'Etleap publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Etleap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 3
+random_paper: 75
 score:
   band: thin
   composite: 32.7

@@ -112,7 +112,7 @@ plans:
 - name: Ketch Com Plans Pricing
   plan_count: 5
   slug: ketch-com-plans-pricing
-random_paper: 22
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Ketch Com Rate Limits

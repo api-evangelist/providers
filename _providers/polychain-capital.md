@@ -56,7 +56,7 @@ name: Polychain Capital
 nav: Providers
 network: true
 overview: Polychain Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Cryptocurrency, Blockchain, and Digital Assets.
-random_paper: 8
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

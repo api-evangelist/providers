@@ -87,7 +87,7 @@ overview: 'Geocomply is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Geocomply''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 27
+random_paper: 15
 score:
   band: emerging
   composite: 14.4

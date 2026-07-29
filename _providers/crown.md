@@ -95,7 +95,7 @@ overview: 'Crown Holdings is profiled on the [APIs.io](https://apis.io/) network
 
 
   Crown Holdings'' developer surface includes product news and 12 more developer resources.'
-random_paper: 0
+random_paper: 73
 score:
   band: minimal
   composite: 9.2

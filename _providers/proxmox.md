@@ -119,7 +119,7 @@ overview: 'Proxmox VE publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Proxmox VE''s developer surface includes authentication, documentation, pricing, GitHub presence, and 8 more developer resources.'
-random_paper: 7
+random_paper: 77
 score:
   band: emerging
   composite: 26.2

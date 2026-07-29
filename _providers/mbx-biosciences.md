@@ -44,7 +44,7 @@ name: MBX Biosciences
 nav: Providers
 network: true
 overview: MBX Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Peptide Therapeutics.
-random_paper: 30
+random_paper: 11
 score:
   band: minimal
   composite: 4.3

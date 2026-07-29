@@ -154,7 +154,7 @@ overview: 'Leap Motion publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Leap Motion''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, and 20 more developer resources.'
-random_paper: 19
+random_paper: 5
 score:
   band: emerging
   composite: 26.2

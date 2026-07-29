@@ -52,7 +52,7 @@ name: Z-Trip
 nav: Providers
 network: true
 overview: Z-Trip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Travel, Business Travel, and Expense Management.
-random_paper: 61
+random_paper: 54
 score:
   band: minimal
   composite: 7.6

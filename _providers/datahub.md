@@ -310,7 +310,7 @@ plans:
 - name: Datahub Plans Pricing
   plan_count: 2
   slug: datahub-plans-pricing
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Datahub Rate Limits

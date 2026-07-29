@@ -359,7 +359,7 @@ plans:
 - name: Aws Healthlake Plans
   plan_count: 2
   slug: aws-healthlake-plans
-random_paper: 76
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Aws Healthlake Rate Limits

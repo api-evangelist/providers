@@ -334,7 +334,7 @@ plans:
 - name: Tripleseat Plans Pricing
   plan_count: 5
   slug: tripleseat-plans-pricing
-random_paper: 58
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Tripleseat Rate Limits

@@ -87,7 +87,7 @@ plans:
 - name: Dati Comune Lecce It Plans Pricing
   plan_count: 0
   slug: dati-comune-lecce-it-plans-pricing
-random_paper: 33
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Dati Comune Lecce It Rate Limits

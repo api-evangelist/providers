@@ -64,7 +64,7 @@ name: Manicule
 nav: Providers
 network: true
 overview: Manicule is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Relations, Technical Documentation, AI-Native Content, and DevTools.
-random_paper: 56
+random_paper: 46
 score:
   band: minimal
   composite: 9.2

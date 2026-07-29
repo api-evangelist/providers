@@ -144,7 +144,7 @@ plans:
 - name: Hexa Plans Pricing
   plan_count: 3
   slug: hexa-plans-pricing
-random_paper: 27
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Hexa Rate Limits

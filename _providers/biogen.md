@@ -208,7 +208,7 @@ press:
 - date: '2026-05-25'
   title: FINANCIAL RESULTS AND BUSINESS UPDATE
   url: https://investors.biogen.com/static-files/0612f509-be22-438f-b817-3acba3917b0b
-random_paper: 75
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Biogen Rate Limits

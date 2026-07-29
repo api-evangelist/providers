@@ -320,7 +320,7 @@ overview: 'Paxos publishes 43 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Paxos'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
-random_paper: 2
+random_paper: 75
 scopes:
 - name: Paxos Scopes
   scope_count: 66

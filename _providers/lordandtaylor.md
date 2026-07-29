@@ -92,7 +92,7 @@ overview: 'Lord & Taylor is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Lord & Taylor''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 64
+random_paper: 47
 scopes:
 - name: Lordandtaylor Scopes
   scope_count: 4

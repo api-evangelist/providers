@@ -59,7 +59,7 @@ overview: 'Atmosplay is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Atmosplay''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 38
+random_paper: 26
 score:
   band: minimal
   composite: 8.7

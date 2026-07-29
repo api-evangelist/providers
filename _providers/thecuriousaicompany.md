@@ -44,7 +44,7 @@ name: thecuriousaicompany
 nav: Providers
 network: true
 overview: thecuriousaicompany is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 6
+random_paper: 60
 score:
   band: minimal
   composite: 4.1

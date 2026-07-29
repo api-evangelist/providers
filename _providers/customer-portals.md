@@ -75,7 +75,7 @@ overview: 'Customer Portals is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Customer Portals'' developer surface includes authentication and 7 more developer resources.'
-random_paper: 41
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

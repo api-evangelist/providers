@@ -271,7 +271,7 @@ overview: 'Posit publishes 33 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Posit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 22 more developer resources.'
-random_paper: 6
+random_paper: 79
 score:
   band: developing
   composite: 48.3

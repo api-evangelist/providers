@@ -110,7 +110,7 @@ overview: 'Tanaza publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tanaza''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: thin
   composite: 33.8

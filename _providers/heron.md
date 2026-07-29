@@ -179,7 +179,7 @@ overview: 'Heron publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Heron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 66
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Heron Rate Limits

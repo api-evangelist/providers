@@ -60,7 +60,7 @@ name: McKinsey & Company
 nav: Providers
 network: true
 overview: McKinsey & Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Strategy, Professional Services, Fortune 500, and Analytics.
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 5.7

@@ -117,7 +117,7 @@ overview: 'Bitget publishes 1 API on the [APIs.io](https://apis.io/) network: Sp
 
 
   Bitget''s developer surface includes authentication, changelog, support, getting-started guide, and 9 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: thin
   composite: 30.8

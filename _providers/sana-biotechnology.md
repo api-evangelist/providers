@@ -63,7 +63,7 @@ overview: 'Sana Biotechnology * is profiled on the [APIs.io](https://apis.io/) n
 
 
   Sana Biotechnology *''s developer surface includes support and 4 more developer resources.'
-random_paper: 45
+random_paper: 22
 score:
   band: minimal
   composite: 11.2

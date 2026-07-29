@@ -83,7 +83,7 @@ overview: 'Conektto is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Conektto''s developer surface includes developer portal, FAQ, signup flow, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 2
+random_paper: 71
 score:
   band: minimal
   composite: 11.9

@@ -63,7 +63,7 @@ overview: 'Workplaced Technologies Ltd is profiled on the [APIs.io](https://apis
 
 
   Workplaced Technologies Ltd''s developer surface includes pricing, engineering blog, and 3 more developer resources.'
-random_paper: 1
+random_paper: 46
 score:
   band: minimal
   composite: 9.4

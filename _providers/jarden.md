@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: HEALWELL Unveils Strategic Changes to Executive ...
   url: https://www.newsfilecorp.com/release/249467/HEALWELL-Unveils-Strategic-Changes-to-Executive-Leadership-Team-to-Drive-the-Next-Phase-of-Integration-Growth-and-Shareholder-Value-Creation
-random_paper: 75
+random_paper: 68
 score:
   band: minimal
   composite: 5.7

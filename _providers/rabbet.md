@@ -99,7 +99,7 @@ overview: 'Rabbet is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rabbet''s developer surface includes documentation, support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 71
+random_paper: 64
 score:
   band: emerging
   composite: 24.8

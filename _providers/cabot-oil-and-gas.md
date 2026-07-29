@@ -93,7 +93,7 @@ press:
 - date: '2026-05-25'
   title: Cabot Oil & Gas Corp
   url: https://www.reuters.com/company/cabot-oil-gas-corp/
-random_paper: 22
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Cabot Oil And Gas Rate Limits

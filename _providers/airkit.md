@@ -48,7 +48,7 @@ name: AirKit
 nav: Providers
 network: true
 overview: AirKit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, Low-Code, Customer Experience, and Conversational AI.
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

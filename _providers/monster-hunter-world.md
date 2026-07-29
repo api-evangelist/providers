@@ -56,7 +56,7 @@ name: Monster Hunter World
 nav: Providers
 network: true
 overview: Monster Hunter World publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 26
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

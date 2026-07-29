@@ -75,7 +75,7 @@ overview: 'Doctor on Demand is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Doctor on Demand''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 78
+random_paper: 59
 score:
   band: emerging
   composite: 13.8

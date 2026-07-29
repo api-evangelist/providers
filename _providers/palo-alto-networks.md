@@ -5070,7 +5070,7 @@ plans:
 - name: Palo Alto Networks Plans Pricing
   plan_count: 1
   slug: palo-alto-networks-plans-pricing
-random_paper: 26
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Palo Alto Networks Rate Limits

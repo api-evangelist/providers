@@ -67,7 +67,7 @@ overview: 'IKF Finance is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   IKF Finance''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 11
+random_paper: 78
 score:
   band: minimal
   composite: 10.5

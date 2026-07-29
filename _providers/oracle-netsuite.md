@@ -106,7 +106,7 @@ overview: 'Oracle NetSuite publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Oracle NetSuite''s developer surface includes documentation, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 55
+random_paper: 36
 score:
   band: emerging
   composite: 26.9

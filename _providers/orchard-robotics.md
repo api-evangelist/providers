@@ -71,7 +71,7 @@ overview: 'Orchard Robotics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Orchard Robotics'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: minimal
   composite: 6.3

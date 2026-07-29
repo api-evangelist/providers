@@ -67,7 +67,7 @@ overview: 'IndieFlow is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   IndieFlow''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: minimal
   composite: 10.6

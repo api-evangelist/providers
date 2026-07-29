@@ -39,7 +39,7 @@ name: Edge Medical
 nav: Providers
 network: true
 overview: Edge Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Medical Device Distribution, and Distribution.
-random_paper: 63
+random_paper: 49
 score:
   band: minimal
   composite: 4.3

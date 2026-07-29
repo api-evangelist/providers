@@ -143,7 +143,7 @@ plans:
 - name: Labelbox Plans Pricing
   plan_count: 2
   slug: labelbox-plans-pricing
-random_paper: 51
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Labelbox Rate Limits

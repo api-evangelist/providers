@@ -151,7 +151,7 @@ plans:
 - name: Nasa Mars Plans Pricing
   plan_count: 2
   slug: nasa-mars-plans-pricing
-random_paper: 30
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Nasa Mars Rate Limits

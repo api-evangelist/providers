@@ -107,7 +107,7 @@ plans:
 - name: Descartes Plans Pricing
   plan_count: 4
   slug: descartes-plans-pricing
-random_paper: 10
+random_paper: 78
 rate_limits:
 - limit_count: 4
   name: Descartes Rate Limits

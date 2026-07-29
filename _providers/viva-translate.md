@@ -52,7 +52,7 @@ name: Viva Translate
 nav: Providers
 network: true
 overview: Viva Translate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Translation, Real-Time Translation, Transcription, and Meetings.
-random_paper: 35
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

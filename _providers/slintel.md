@@ -67,7 +67,7 @@ overview: 'Slintel is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Slintel''s developer surface includes documentation, API reference, support, and 3 more developer resources.'
-random_paper: 52
+random_paper: 43
 score:
   band: minimal
   composite: 10.7

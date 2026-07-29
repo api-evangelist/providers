@@ -148,7 +148,7 @@ plans:
 - name: Fortnox Plans Pricing
   plan_count: 6
   slug: fortnox-plans-pricing
-random_paper: 73
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Fortnox Rate Limits

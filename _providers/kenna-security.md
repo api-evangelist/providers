@@ -124,7 +124,7 @@ overview: 'Kenna Security publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Kenna Security''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 36
+random_paper: 18
 score:
   band: emerging
   composite: 26.3

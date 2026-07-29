@@ -140,7 +140,7 @@ overview: 'Yuhu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Yuhu''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 64
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Yuhu Rate Limits

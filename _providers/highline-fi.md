@@ -151,7 +151,7 @@ plans:
 - name: Highline Fi Plans Pricing
   plan_count: 1
   slug: highline-fi-plans-pricing
-random_paper: 65
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Highline Fi Rate Limits

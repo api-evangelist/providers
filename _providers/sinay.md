@@ -123,7 +123,7 @@ plans:
 - name: Sinay Plans Pricing
   plan_count: 4
   slug: sinay-plans-pricing
-random_paper: 74
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Sinay Rate Limits

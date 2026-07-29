@@ -39,7 +39,7 @@ name: Fusion I/O
 nav: Providers
 network: true
 overview: Fusion I/O is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Flash Memory, Enterprise Storage, and Data Center.
-random_paper: 18
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

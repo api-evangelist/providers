@@ -110,7 +110,7 @@ plans:
 - name: Bureau Of Industry Security Plans Pricing
   plan_count: 3
   slug: bureau-of-industry-security-plans-pricing
-random_paper: 13
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Bureau Of Industry Security Rate Limits

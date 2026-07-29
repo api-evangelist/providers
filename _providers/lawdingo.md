@@ -52,7 +52,7 @@ name: Lawdingo
 nav: Providers
 network: true
 overview: Lawdingo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Legal Services, and Paralegal.
-random_paper: 63
+random_paper: 53
 score:
   band: minimal
   composite: 6.8

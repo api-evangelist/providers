@@ -260,7 +260,7 @@ plans:
 - name: Cloudbeds Plans Pricing
   plan_count: 2
   slug: cloudbeds-plans-pricing
-random_paper: 1
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Cloudbeds Rate Limits

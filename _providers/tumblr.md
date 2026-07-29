@@ -67,7 +67,7 @@ overview: 'Tumblr publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tumblr''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 30
+random_paper: 22
 score:
   band: minimal
   composite: 6.2

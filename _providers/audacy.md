@@ -145,7 +145,7 @@ overview: 'Audacy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Audacy''s developer surface includes developer portal, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: emerging
   composite: 13.6

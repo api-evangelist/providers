@@ -162,7 +162,7 @@ overview: 'CertiK publishes 2 APIs on the [APIs.io](https://apis.io/) network: S
 
 
   CertiK''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: developing
   composite: 44.6

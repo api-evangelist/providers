@@ -154,7 +154,7 @@ plans:
 - name: Nordpool Plans Pricing
   plan_count: 5
   slug: nordpool-plans-pricing
-random_paper: 8
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Nordpool Rate Limits

@@ -99,7 +99,7 @@ overview: 'Better Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Better Health''s developer surface includes engineering blog, support, getting-started guide, signup flow, and 10 more developer resources.'
-random_paper: 57
+random_paper: 41
 score:
   band: emerging
   composite: 17.2

@@ -71,7 +71,7 @@ overview: 'Fastwork is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fastwork''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: emerging
   composite: 13.1

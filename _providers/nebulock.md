@@ -174,7 +174,7 @@ overview: 'Nebulock publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nebulock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 61
+random_paper: 51
 score:
   band: thin
   composite: 35.5

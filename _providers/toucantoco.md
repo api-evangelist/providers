@@ -168,7 +168,7 @@ overview: 'Toucan Toco publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Toucan Toco''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 60
+random_paper: 47
 score:
   band: thin
   composite: 40.3

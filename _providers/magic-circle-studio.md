@@ -48,7 +48,7 @@ name: Magic Circle Studio
 nav: Providers
 network: true
 overview: Magic Circle Studio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Mobile Games, and Consumer.
-random_paper: 76
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

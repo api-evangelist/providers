@@ -262,7 +262,7 @@ overview: 'Ondo Finance publishes 26 APIs on the [APIs.io](https://apis.io/) net
 
 
   Ondo Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 25 more developer resources.'
-random_paper: 16
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Ondo Finance Rate Limits

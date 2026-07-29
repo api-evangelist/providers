@@ -165,7 +165,7 @@ overview: 'Causa Prima publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Causa Prima''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 20 more developer resources.'
-random_paper: 1
+random_paper: 67
 score:
   band: developing
   composite: 43.8

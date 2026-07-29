@@ -122,7 +122,7 @@ overview: 'Recognise Bank publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Recognise Bank''s developer surface includes authentication, engineering blog, and 14 more developer resources.'
-random_paper: 73
+random_paper: 56
 scopes:
 - name: Recognise Bank Scopes
   scope_count: 3

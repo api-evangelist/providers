@@ -87,7 +87,7 @@ overview: 'Pair Team is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pair Team''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 27
+random_paper: 16
 score:
   band: emerging
   composite: 13.8

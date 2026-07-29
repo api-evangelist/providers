@@ -75,7 +75,7 @@ overview: 'BillionToOne is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   BillionToOne''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 30
+random_paper: 14
 score:
   band: emerging
   composite: 15.2

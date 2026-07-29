@@ -176,7 +176,7 @@ overview: 'Coram Ai publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Coram Ai''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 17 more developer resources.'
-random_paper: 66
+random_paper: 57
 score:
   band: developing
   composite: 45.7

@@ -52,7 +52,7 @@ name: Syntertainment
 nav: Providers
 network: true
 overview: Syntertainment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Entertainment, Interactive Media, and Game Design.
-random_paper: 40
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

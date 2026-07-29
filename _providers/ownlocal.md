@@ -59,7 +59,7 @@ overview: 'OwnLocal is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   OwnLocal''s developer surface includes support and 3 more developer resources.'
-random_paper: 73
+random_paper: 63
 score:
   band: minimal
   composite: 6.5

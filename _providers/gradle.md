@@ -218,7 +218,7 @@ overview: 'Gradle publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Gradle''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 70
+random_paper: 63
 score:
   band: strong
   composite: 57.2

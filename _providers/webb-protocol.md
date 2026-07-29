@@ -48,7 +48,7 @@ name: Webb Protocol
 nav: Providers
 network: true
 overview: Webb Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Privacy.
-random_paper: 0
+random_paper: 63
 score:
   band: minimal
   composite: 4.1

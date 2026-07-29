@@ -96,7 +96,7 @@ overview: 'cargo.one is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   cargo.one''s developer surface includes engineering blog, support, GitHub presence, and 10 more developer resources.'
-random_paper: 22
+random_paper: 11
 score:
   band: minimal
   composite: 7.0

@@ -128,7 +128,7 @@ overview: 'Cradle publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cradle''s developer surface includes documentation, API reference, engineering blog, and 17 more developer resources.'
-random_paper: 30
+random_paper: 18
 score:
   band: minimal
   composite: 12.8

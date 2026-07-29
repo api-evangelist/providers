@@ -22,7 +22,7 @@ modified: '2026-05-02'
 name: Schema Free
 nav: Providers
 network: true
-random_paper: 61
+random_paper: 48
 slug: schema-free
 tags:
 - Schema Free

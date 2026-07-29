@@ -175,7 +175,7 @@ overview: 'Cashflows publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cashflows'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 22
+random_paper: 10
 score:
   band: developing
   composite: 50.7

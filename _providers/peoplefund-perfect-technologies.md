@@ -55,7 +55,7 @@ overview: 'PeopleFund, Perfect Technologies is profiled on the [APIs.io](https:/
 
 
   PeopleFund, Perfect Technologies'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 33
+random_paper: 73
 score:
   band: minimal
   composite: 6.0

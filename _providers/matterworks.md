@@ -83,7 +83,7 @@ overview: 'Matterworks is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Matterworks'' developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 34
+random_paper: 19
 score:
   band: emerging
   composite: 15.3

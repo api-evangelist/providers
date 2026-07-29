@@ -277,7 +277,7 @@ overview: 'Aha.io publishes 59 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Aha.io''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 61
+random_paper: 58
 scopes:
 - name: Aha Scopes
   scope_count: 0

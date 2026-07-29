@@ -163,7 +163,7 @@ plans:
 - name: Google Cloud Composer Plans Pricing
   plan_count: 3
   slug: google-cloud-composer-plans-pricing
-random_paper: 1
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Google Cloud Composer Rate Limits

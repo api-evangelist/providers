@@ -129,7 +129,7 @@ overview: 'MixerBox publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   MixerBox''s developer surface includes support, authentication, and 14 more developer resources.'
-random_paper: 9
+random_paper: 78
 score:
   band: thin
   composite: 30.3

@@ -306,7 +306,7 @@ overview: 'Loops publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Loops'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 38
+random_paper: 28
 score:
   band: developing
   composite: 45.7

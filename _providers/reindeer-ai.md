@@ -84,7 +84,7 @@ overview: 'Reindeer AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Reindeer AI''s developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
-random_paper: 66
+random_paper: 53
 score:
   band: minimal
   composite: 11.6

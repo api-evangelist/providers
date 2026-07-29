@@ -56,7 +56,7 @@ name: BehavioSec
 nav: Providers
 network: true
 overview: BehavioSec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Behavioral Biometrics, Fraud Detection, and Authentication.
-random_paper: 22
+random_paper: 9
 score:
   band: minimal
   composite: 5.7

@@ -181,7 +181,7 @@ plans:
 - name: United Airlines Plans Pricing
   plan_count: 1
   slug: united-airlines-plans-pricing
-random_paper: 48
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: United Airlines Rate Limits

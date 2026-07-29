@@ -87,7 +87,7 @@ overview: 'Gyft is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Gyft''s developer surface includes documentation, support, signup flow, and 8 more developer resources.'
-random_paper: 47
+random_paper: 42
 score:
   band: emerging
   composite: 18.8

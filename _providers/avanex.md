@@ -39,7 +39,7 @@ name: Avanex
 nav: Providers
 network: true
 overview: Avanex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Optical Networking, Fiber Optics, Photonics, and Hardware.
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 4.3

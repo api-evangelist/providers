@@ -39,7 +39,7 @@ name: CrowdGather
 nav: Providers
 network: true
 overview: CrowdGather is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 72
+random_paper: 58
 score:
   band: minimal
   composite: 4.1

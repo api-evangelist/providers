@@ -44,7 +44,7 @@ name: tbh
 nav: Providers
 network: true
 overview: tbh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 2
+random_paper: 78
 score:
   band: minimal
   composite: 4.1

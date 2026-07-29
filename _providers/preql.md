@@ -83,7 +83,7 @@ overview: 'Preql is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Preql''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 74
+random_paper: 68
 score:
   band: emerging
   composite: 14.5

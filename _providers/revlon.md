@@ -180,7 +180,7 @@ overview: 'Revlon is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Revlon''s developer surface includes product news, support, FAQ, engineering blog, YouTube channel, and 29 more developer resources.'
-random_paper: 30
+random_paper: 22
 score:
   band: minimal
   composite: 10.5

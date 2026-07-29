@@ -590,7 +590,7 @@ plans:
 - name: Misskey Plans Pricing
   plan_count: 3
   slug: misskey-plans-pricing
-random_paper: 62
+random_paper: 53
 rate_limits:
 - limit_count: 6
   name: Misskey Rate Limits

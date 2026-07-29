@@ -313,7 +313,7 @@ plans:
 - name: Culqi Plans Pricing
   plan_count: 5
   slug: culqi-plans-pricing
-random_paper: 68
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Culqi Rate Limits

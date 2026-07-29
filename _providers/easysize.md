@@ -111,7 +111,7 @@ overview: 'EasySize publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   EasySize''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 8
+random_paper: 77
 score:
   band: emerging
   composite: 26.7

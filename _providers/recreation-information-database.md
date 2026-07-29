@@ -60,7 +60,7 @@ name: Recreation Information Database
 nav: Providers
 network: true
 overview: Recreation Information Database publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 9
+random_paper: 49
 score:
   band: minimal
   composite: 8.2

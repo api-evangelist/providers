@@ -179,7 +179,7 @@ plans:
 - name: Tableau Desktop Plans Pricing
   plan_count: 3
   slug: tableau-desktop-plans-pricing
-random_paper: 40
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Tableau Desktop Rate Limits

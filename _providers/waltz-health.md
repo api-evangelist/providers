@@ -64,7 +64,7 @@ overview: 'Waltz Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Waltz Health''s developer surface includes product news and 4 more developer resources.'
-random_paper: 52
+random_paper: 37
 score:
   band: minimal
   composite: 5.4

@@ -190,7 +190,7 @@ overview: 'Events publishes 18 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Events'' developer surface includes developer portal and 4 more developer resources.'
-random_paper: 29
+random_paper: 21
 rules:
 - name: Events API Rules
   rule_count: 5

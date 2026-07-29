@@ -79,7 +79,7 @@ overview: 'Curie.Bio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Curie.Bio''s developer surface includes support and 8 more developer resources.'
-random_paper: 60
+random_paper: 50
 score:
   band: minimal
   composite: 11.2

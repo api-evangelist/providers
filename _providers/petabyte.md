@@ -48,7 +48,7 @@ name: Petabyte
 nav: Providers
 network: true
 overview: Petabyte is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Unknown.
-random_paper: 72
+random_paper: 62
 score:
   band: minimal
   composite: 4.1

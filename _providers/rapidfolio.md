@@ -155,7 +155,7 @@ overview: 'Rapidfolio publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Rapidfolio''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 38
+random_paper: 25
 score:
   band: developing
   composite: 46.3

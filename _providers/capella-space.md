@@ -214,7 +214,7 @@ plans:
 - name: Capella Space Plans Pricing
   plan_count: 1
   slug: capella-space-plans-pricing
-random_paper: 27
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Capella Space Rate Limits

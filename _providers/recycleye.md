@@ -67,7 +67,7 @@ overview: 'Recycleye is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Recycleye''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 17
+random_paper: 5
 score:
   band: minimal
   composite: 10.5

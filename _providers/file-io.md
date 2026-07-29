@@ -56,7 +56,7 @@ name: File.io
 nav: Providers
 network: true
 overview: File.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Storage And File Sharing and Public APIs.
-random_paper: 45
+random_paper: 37
 score:
   band: minimal
   composite: 5.7

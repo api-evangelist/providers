@@ -59,7 +59,7 @@ overview: 'Community Transit publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Community Transit''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 77
+random_paper: 55
 score:
   band: minimal
   composite: 5.4

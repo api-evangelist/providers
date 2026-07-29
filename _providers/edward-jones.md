@@ -51,7 +51,7 @@ name: edward-jones
 nav: Providers
 network: true
 overview: edward-jones is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 34
+random_paper: 19
 score:
   band: minimal
   composite: 2.6

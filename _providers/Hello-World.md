@@ -39,7 +39,7 @@ name: Hello World
 nav: Providers
 network: true
 overview: Hello World is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Example.
-random_paper: 38
+random_paper: 25
 score:
   band: minimal
   composite: 3.2

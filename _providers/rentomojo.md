@@ -71,7 +71,7 @@ overview: 'Rentomojo is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rentomojo''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 41
+random_paper: 29
 score:
   band: minimal
   composite: 11.2

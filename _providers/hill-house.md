@@ -92,7 +92,7 @@ overview: 'Hill House is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hill House''s developer surface includes authentication, support, engineering blog, and 8 more developer resources.'
-random_paper: 70
+random_paper: 58
 scopes:
 - name: Hill House Scopes
   scope_count: 4

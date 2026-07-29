@@ -52,7 +52,7 @@ name: NYDIG
 nav: Providers
 network: true
 overview: NYDIG is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Bitcoin, Cryptocurrency, and Custody.
-random_paper: 65
+random_paper: 59
 score:
   band: minimal
   composite: 8.0

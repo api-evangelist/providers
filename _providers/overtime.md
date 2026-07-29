@@ -63,7 +63,7 @@ overview: 'Overtime is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Overtime''s developer surface includes support and 4 more developer resources.'
-random_paper: 6
+random_paper: 75
 score:
   band: minimal
   composite: 10.1

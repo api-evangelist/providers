@@ -56,7 +56,7 @@ name: Open Government, Queensland Government
 nav: Providers
 network: true
 overview: Open Government, Queensland Government publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 35
+random_paper: 67
 score:
   band: minimal
   composite: 6.5

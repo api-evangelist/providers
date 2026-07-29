@@ -48,7 +48,7 @@ name: Meridianfleetservices
 nav: Providers
 network: true
 overview: Meridianfleetservices is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Services, Fleet Management, Transportation, and Holding Company.
-random_paper: 25
+random_paper: 77
 score:
   band: minimal
   composite: 6.1

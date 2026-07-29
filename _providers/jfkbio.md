@@ -48,7 +48,7 @@ name: jfkbio
 nav: Providers
 network: true
 overview: jfkbio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Healthcare, and Pharmaceuticals.
-random_paper: 76
+random_paper: 69
 score:
   band: minimal
   composite: 5.4

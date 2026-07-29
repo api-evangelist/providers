@@ -75,7 +75,7 @@ overview: 'Overview is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Overview''s developer surface includes documentation, engineering blog, support, and 5 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 12.3

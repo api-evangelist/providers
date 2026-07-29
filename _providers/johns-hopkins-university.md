@@ -140,7 +140,7 @@ plans:
 - name: Johns Hopkins University Plans Pricing
   plan_count: 2
   slug: johns-hopkins-university-plans-pricing
-random_paper: 73
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Johns Hopkins University Rate Limits

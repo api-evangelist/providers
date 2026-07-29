@@ -106,7 +106,7 @@ plans:
 - name: Chulalongkorn Plans Pricing
   plan_count: 2
   slug: chulalongkorn-plans-pricing
-random_paper: 56
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Chulalongkorn Rate Limits

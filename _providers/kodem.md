@@ -116,7 +116,7 @@ overview: 'Kodem publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kodem''s developer surface includes documentation, signup flow, pricing, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 54
+random_paper: 48
 score:
   band: emerging
   composite: 27.6

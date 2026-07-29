@@ -2554,7 +2554,7 @@ plans:
 - name: Airbyte Plans Pricing
   plan_count: 5
   slug: airbyte-plans-pricing
-random_paper: 41
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Airbyte Rate Limits

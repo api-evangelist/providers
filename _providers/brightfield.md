@@ -80,7 +80,7 @@ name: Brightfield
 nav: Providers
 network: true
 overview: Brightfield is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Workforce Intelligence, Contingent Workforce, and Procurement.
-random_paper: 50
+random_paper: 36
 score:
   band: emerging
   composite: 16.5

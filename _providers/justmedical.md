@@ -44,7 +44,7 @@ name: justmedical
 nav: Providers
 network: true
 overview: justmedical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Orthopedics, and Medical.
-random_paper: 67
+random_paper: 53
 score:
   band: minimal
   composite: 4.3

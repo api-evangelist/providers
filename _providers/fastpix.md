@@ -141,7 +141,7 @@ plans:
 - name: Fastpix Plans Pricing
   plan_count: 4
   slug: fastpix-plans-pricing
-random_paper: 56
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Fastpix Rate Limits

@@ -92,7 +92,7 @@ overview: 'Vulcan Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Vulcan Technologies'' developer surface includes support, engineering blog, changelog, and 9 more developer resources.'
-random_paper: 3
+random_paper: 58
 score:
   band: emerging
   composite: 20.5

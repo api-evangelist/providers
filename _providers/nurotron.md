@@ -59,7 +59,7 @@ overview: 'Nurotron is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nurotron''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 34
+random_paper: 23
 score:
   band: minimal
   composite: 6.5

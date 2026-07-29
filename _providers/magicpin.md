@@ -67,7 +67,7 @@ overview: 'Magicpin is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Magicpin''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 50
+random_paper: 40
 score:
   band: minimal
   composite: 10.2

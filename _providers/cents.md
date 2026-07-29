@@ -87,7 +87,7 @@ overview: 'Cents is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Cents'' developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: emerging
   composite: 18.0

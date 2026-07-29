@@ -55,7 +55,7 @@ overview: 'GigaCrop is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GigaCrop''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 54
+random_paper: 44
 score:
   band: minimal
   composite: 5.4

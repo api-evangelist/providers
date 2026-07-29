@@ -88,7 +88,7 @@ overview: 'Circulo de Belleza is profiled on the [APIs.io](https://apis.io/) net
 
 
   Circulo de Belleza''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 41
+random_paper: 19
 scopes:
 - name: Circulo De Belleza Scopes
   scope_count: 4

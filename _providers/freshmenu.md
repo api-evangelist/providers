@@ -48,7 +48,7 @@ name: Freshmenu
 nav: Providers
 network: true
 overview: Freshmenu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Food Technology, Cloud Kitchen, and Restaurant.
-random_paper: 25
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

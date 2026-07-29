@@ -138,7 +138,7 @@ plans:
 - name: Vpn Plans Pricing
   plan_count: 3
   slug: vpn-plans-pricing
-random_paper: 24
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Vpn Rate Limits

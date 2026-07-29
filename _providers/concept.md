@@ -39,7 +39,7 @@ name: Concept
 nav: Providers
 network: true
 overview: Concept is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, a16z, Portfolio Company, and Unresolved.
-random_paper: 37
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

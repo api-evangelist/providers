@@ -80,7 +80,7 @@ name: insitro
 nav: Providers
 network: true
 overview: insitro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drug Discovery, Machine Learning, Biotechnology, and Life Sciences.
-random_paper: 65
+random_paper: 56
 score:
   band: minimal
   composite: 11.7

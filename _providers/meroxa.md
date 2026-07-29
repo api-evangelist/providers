@@ -131,7 +131,7 @@ overview: 'Meroxa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Meroxa''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, CLI, changelog, and 15 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: thin
   composite: 28.6

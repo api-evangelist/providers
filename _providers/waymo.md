@@ -113,7 +113,7 @@ plans:
 - name: Waymo Plans Pricing
   plan_count: 1
   slug: waymo-plans-pricing
-random_paper: 4
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Waymo Rate Limits

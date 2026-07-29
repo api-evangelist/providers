@@ -104,7 +104,7 @@ overview: 'Hawk-Eye Innovations is profiled on the [APIs.io](https://apis.io/) n
 
 
   Hawk-Eye Innovations'' developer surface includes product news, GitHub presence, YouTube channel, engineering blog, and 11 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: minimal
   composite: 6.1

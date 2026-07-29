@@ -214,7 +214,7 @@ overview: 'MX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Platf
 
 
   MX''s developer surface includes authentication, documentation, engineering blog, support, changelog, sandbox, signup flow, and 28 more developer resources.'
-random_paper: 71
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Mx Rate Limits

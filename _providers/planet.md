@@ -199,7 +199,7 @@ overview: 'Planet publishes 6 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Planet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 26 more developer resources.'
-random_paper: 12
+random_paper: 4
 scopes:
 - name: Planet Scopes
   scope_count: 5

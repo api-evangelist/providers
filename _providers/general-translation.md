@@ -250,7 +250,7 @@ overview: 'General Translation publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   General Translation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
-random_paper: 3
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: General Translation Rate Limits

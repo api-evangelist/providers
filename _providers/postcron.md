@@ -83,7 +83,7 @@ overview: 'Postcron is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Postcron''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 19
+random_paper: 8
 score:
   band: emerging
   composite: 15.9

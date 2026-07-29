@@ -119,7 +119,7 @@ overview: 'Callab AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Callab AI''s developer surface includes documentation, API reference, engineering blog, signup flow, support, and 12 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: emerging
   composite: 24.3

@@ -320,7 +320,7 @@ overview: 'KISI publishes 48 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   KISI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 37
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Kisi Rate Limits

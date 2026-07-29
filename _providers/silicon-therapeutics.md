@@ -39,7 +39,7 @@ name: Silicon Therapeutics
 nav: Providers
 network: true
 overview: Silicon Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Drug Discovery.
-random_paper: 41
+random_paper: 15
 score:
   band: minimal
   composite: 4.3

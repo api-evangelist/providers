@@ -142,7 +142,7 @@ plans:
 - name: Fyle Plans Pricing
   plan_count: 3
   slug: fyle-plans-pricing
-random_paper: 37
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Fyle Rate Limits

@@ -715,7 +715,7 @@ plans:
 - name: Microsoft Azure Monitor Plans Pricing
   plan_count: 7
   slug: microsoft-azure-monitor-plans-pricing
-random_paper: 29
+random_paper: 79
 rate_limits:
 - limit_count: 8
   name: Microsoft Azure Monitor Rate Limits

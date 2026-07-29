@@ -67,7 +67,7 @@ overview: 'Chingona Ventures is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Chingona Ventures'' developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 38
+random_paper: 16
 score:
   band: minimal
   composite: 8.5

@@ -83,7 +83,7 @@ plans:
 - name: Datos Sonora Gob Mx Plans Pricing
   plan_count: 0
   slug: datos-sonora-gob-mx-plans-pricing
-random_paper: 56
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Datos Sonora Gob Mx Rate Limits

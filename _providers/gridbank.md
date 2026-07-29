@@ -39,7 +39,7 @@ name: GridBank
 nav: Providers
 network: true
 overview: GridBank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Energy Storage, Grid Infrastructure, and Renewable Energy.
-random_paper: 44
+random_paper: 34
 score:
   band: minimal
   composite: 4.3

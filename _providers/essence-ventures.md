@@ -59,7 +59,7 @@ overview: 'Essence Ventures is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Essence Ventures'' developer surface includes support and 3 more developer resources.'
-random_paper: 20
+random_paper: 79
 score:
   band: minimal
   composite: 10.1

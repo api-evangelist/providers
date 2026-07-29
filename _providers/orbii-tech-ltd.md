@@ -225,7 +225,7 @@ overview: 'Orbii Tech Ltd publishes 31 APIs on the [APIs.io](https://apis.io/) n
 
 
   Orbii Tech Ltd''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: thin
   composite: 31.6

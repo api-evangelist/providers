@@ -263,7 +263,7 @@ plans:
 - name: Epidemic Sound Plans Pricing
   plan_count: 5
   slug: epidemic-sound-plans-pricing
-random_paper: 8
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Epidemic Sound Rate Limits

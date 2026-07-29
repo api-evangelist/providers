@@ -95,7 +95,7 @@ overview: 'Huma Technologies Inc. is profiled on the [APIs.io](https://apis.io/)
 
 
   Huma Technologies Inc.''s developer surface includes documentation, signup flow, support, and 10 more developer resources.'
-random_paper: 61
+random_paper: 35
 score:
   band: emerging
   composite: 20.5

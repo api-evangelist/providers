@@ -49,7 +49,7 @@ name: AlphaAI
 nav: Providers
 network: true
 overview: 'AlphaAI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Financial News, Stock Market, SEC Filings, Insider Trading, and Fintech.'
-random_paper: 9
+random_paper: 0
 score:
   band: minimal
   composite: 12.7

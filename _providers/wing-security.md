@@ -122,7 +122,7 @@ plans:
 - name: Wing Security Plans Pricing
   plan_count: 3
   slug: wing-security-plans-pricing
-random_paper: 27
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Wing Security Rate Limits

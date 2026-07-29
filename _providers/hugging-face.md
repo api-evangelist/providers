@@ -1483,7 +1483,7 @@ plans:
 - name: Hugging Face Plans Pricing
   plan_count: 8
   slug: hugging-face-plans-pricing
-random_paper: 4
+random_paper: 69
 rate_limits:
 - limit_count: 6
   name: Hugging Face Rate Limits

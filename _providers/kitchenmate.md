@@ -80,7 +80,7 @@ overview: 'KitchenMate is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   KitchenMate''s developer surface includes support and 8 more developer resources.'
-random_paper: 59
+random_paper: 45
 score:
   band: emerging
   composite: 14.1

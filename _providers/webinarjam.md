@@ -82,7 +82,7 @@ overview: 'WebinarJam publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   WebinarJam''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 3 more developer resources.'
-random_paper: 29
+random_paper: 16
 score:
   band: minimal
   composite: 12.0

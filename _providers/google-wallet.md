@@ -162,7 +162,7 @@ plans:
 - name: Google Wallet Plans Pricing
   plan_count: 3
   slug: google-wallet-plans-pricing
-random_paper: 67
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Google Wallet Rate Limits

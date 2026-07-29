@@ -91,7 +91,7 @@ overview: 'Hutch Games is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Hutch Games'' developer surface includes engineering blog, support, YouTube channel, and 9 more developer resources.'
-random_paper: 4
+random_paper: 70
 score:
   band: minimal
   composite: 10.5

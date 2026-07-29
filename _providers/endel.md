@@ -67,7 +67,7 @@ overview: 'Endel is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Endel''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 46
+random_paper: 40
 score:
   band: minimal
   composite: 11.0

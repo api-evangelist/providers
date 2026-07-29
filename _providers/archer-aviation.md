@@ -123,7 +123,7 @@ overview: 'Archer Aviation is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Archer Aviation''s developer surface includes engineering blog, developer portal, YouTube channel, and 17 more developer resources.'
-random_paper: 32
+random_paper: 13
 score:
   band: emerging
   composite: 13.7

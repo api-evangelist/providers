@@ -195,7 +195,7 @@ overview: 'Sarvam publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sarvam''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 20 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: developing
   composite: 52.1

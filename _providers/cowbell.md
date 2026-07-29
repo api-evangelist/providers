@@ -164,7 +164,7 @@ overview: 'Cowbell is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cowbell''s developer surface includes engineering blog, FAQ, developer console, academy / training, privacy policy, GitHub presence, YouTube channel, and 23 more developer resources.'
-random_paper: 33
+random_paper: 24
 score:
   band: emerging
   composite: 13.1

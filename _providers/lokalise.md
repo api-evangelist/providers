@@ -129,7 +129,7 @@ plans:
 - name: Lokalise Plans Pricing
   plan_count: 1
   slug: lokalise-plans-pricing
-random_paper: 62
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Lokalise Rate Limits

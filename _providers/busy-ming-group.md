@@ -71,7 +71,7 @@ overview: 'Busy Ming Group is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Busy Ming Group''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 24
+random_paper: 5
 score:
   band: minimal
   composite: 6.3

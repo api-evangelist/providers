@@ -48,7 +48,7 @@ name: Hatcheri
 nav: Providers
 network: true
 overview: Hatcheri is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Food and Beverage, Consumer Packaged Goods, and Incubator.
-random_paper: 50
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

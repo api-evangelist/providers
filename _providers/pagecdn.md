@@ -56,7 +56,7 @@ name: PageCDN
 nav: Providers
 network: true
 overview: PageCDN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

@@ -56,7 +56,7 @@ name: Napkin Math
 nav: Providers
 network: true
 overview: Napkin Math is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nutrition, Food Journal, Health, and Diet.
-random_paper: 6
+random_paper: 72
 score:
   band: minimal
   composite: 10.5

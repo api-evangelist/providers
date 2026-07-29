@@ -121,7 +121,7 @@ plans:
 - name: Fis Plans Pricing
   plan_count: 3
   slug: fis-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Fis Rate Limits

@@ -170,7 +170,7 @@ overview: 'Kroo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Acc
 
 
   Kroo''s developer surface includes authentication, documentation, engineering blog, support, and 22 more developer resources.'
-random_paper: 48
+random_paper: 43
 scopes:
 - name: Kroo Scopes
   scope_count: 3

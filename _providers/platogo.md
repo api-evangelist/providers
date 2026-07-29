@@ -48,7 +48,7 @@ name: Platogo
 nav: Providers
 network: true
 overview: Platogo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Social Casino, Mobile Games, and Casino Games.
-random_paper: 47
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

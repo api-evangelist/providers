@@ -5534,7 +5534,7 @@ plans:
 - name: Amazon Web Services Plans Pricing
   plan_count: 3
   slug: amazon-web-services-plans-pricing
-random_paper: 26
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Amazon Web Services Rate Limits

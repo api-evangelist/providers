@@ -91,7 +91,7 @@ overview: 'Dework publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Dework''s developer surface includes documentation, getting-started guide, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: emerging
   composite: 16.1

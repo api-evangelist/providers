@@ -228,7 +228,7 @@ overview: 'Zalando publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zalando''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, engineering blog, and 21 more developer resources.'
-random_paper: 34
+random_paper: 25
 scopes:
 - name: Zalando Scopes
   scope_count: 16

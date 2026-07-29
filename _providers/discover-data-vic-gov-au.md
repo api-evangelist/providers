@@ -84,7 +84,7 @@ plans:
 - name: Discover Data Vic Gov Au Plans Pricing
   plan_count: 1
   slug: discover-data-vic-gov-au-plans-pricing
-random_paper: 30
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Discover Data Vic Gov Au Rate Limits

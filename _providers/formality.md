@@ -68,7 +68,7 @@ name: Formality
 nav: Providers
 network: true
 overview: Formality is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai/Ml, Legal, Contract Management, and Document Management.
-random_paper: 35
+random_paper: 23
 score:
   band: minimal
   composite: 12.3

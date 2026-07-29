@@ -70,7 +70,7 @@ overview: 'KuCoin publishes 1 API on the [APIs.io](https://apis.io/) network: Ku
 
 
   KuCoin''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 17
+random_paper: 9
 rules:
 - name: KuCoin API Rules
   rule_count: 5

@@ -63,7 +63,7 @@ overview: 'LocationIQ publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   LocationIQ''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 48
+random_paper: 35
 score:
   band: minimal
   composite: 6.2

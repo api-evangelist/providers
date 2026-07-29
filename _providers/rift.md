@@ -134,7 +134,7 @@ overview: 'Rift publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ord
 
 
   Rift''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 42
+random_paper: 37
 score:
   band: thin
   composite: 32.4

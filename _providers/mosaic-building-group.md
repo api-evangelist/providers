@@ -56,7 +56,7 @@ name: Mosaic Building Group
 nav: Providers
 network: true
 overview: Mosaic Building Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Technology, Build-to-Rent, PropTech, and Real Estate.
-random_paper: 75
+random_paper: 49
 score:
   band: minimal
   composite: 5.0

@@ -94,7 +94,7 @@ overview: 'Leaft Foods publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Leaft Foods'' developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 36
+random_paper: 23
 scopes:
 - name: Leaftfoods Scopes
   scope_count: 0

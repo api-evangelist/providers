@@ -96,7 +96,7 @@ plans:
 - name: Cloudchipr Plans Pricing
   plan_count: 3
   slug: cloudchipr-plans-pricing
-random_paper: 42
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Cloudchipr Rate Limits

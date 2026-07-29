@@ -210,7 +210,7 @@ plans:
 - name: Who Plans Pricing
   plan_count: 2
   slug: who-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Who Rate Limits

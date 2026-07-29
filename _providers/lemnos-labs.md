@@ -61,7 +61,7 @@ name: Lemnos Labs
 nav: Providers
 network: true
 overview: Lemnos Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Deeptech, Hardware, and Robotics.
-random_paper: 11
+random_paper: 77
 score:
   band: minimal
   composite: 6.9

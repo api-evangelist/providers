@@ -71,7 +71,7 @@ overview: 'Shweproperty is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Shweproperty''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 76
+random_paper: 60
 score:
   band: minimal
   composite: 12.7

@@ -153,7 +153,7 @@ plans:
 - name: Apicontext Plans Pricing
   plan_count: 3
   slug: apicontext-plans-pricing
-random_paper: 60
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Apicontext Rate Limits

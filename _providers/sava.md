@@ -79,7 +79,7 @@ overview: 'SAVA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   SAVA''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 32
+random_paper: 27
 score:
   band: emerging
   composite: 15.2

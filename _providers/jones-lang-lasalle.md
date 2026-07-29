@@ -121,7 +121,7 @@ press:
 - date: '2026-05-25'
   title: JLL News and Press Releases
   url: https://www.prnewswire.com/news/jll/
-random_paper: 47
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Jones Lang Lasalle Rate Limits

@@ -150,7 +150,7 @@ plans:
 - name: Spring Boot Admin Console Plans Pricing
   plan_count: 1
   slug: spring-boot-admin-console-plans-pricing
-random_paper: 57
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Spring Boot Admin Console Rate Limits

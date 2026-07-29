@@ -83,7 +83,7 @@ overview: 'Kaizntree Inc. is profiled on the [APIs.io](https://apis.io/) network
 
 
   Kaizntree Inc.''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 68
+random_paper: 52
 score:
   band: minimal
   composite: 10.6

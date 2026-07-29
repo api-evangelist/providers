@@ -63,7 +63,7 @@ overview: 'Disconetwork is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Disconetwork''s developer surface includes changelog and 4 more developer resources.'
-random_paper: 44
+random_paper: 28
 score:
   band: minimal
   composite: 11.3

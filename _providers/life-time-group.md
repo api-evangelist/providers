@@ -87,7 +87,7 @@ overview: 'Life Time Group Holdings is profiled on the [APIs.io](https://apis.io
 
 
   Life Time Group Holdings'' developer surface includes product news, engineering blog, and 9 more developer resources.'
-random_paper: 72
+random_paper: 54
 score:
   band: minimal
   composite: 5.4

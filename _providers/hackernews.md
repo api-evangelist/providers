@@ -52,7 +52,7 @@ name: HackerNews
 nav: Providers
 network: true
 overview: HackerNews publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social and Public APIs.
-random_paper: 40
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

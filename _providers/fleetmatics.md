@@ -76,7 +76,7 @@ overview: 'Fleetmatics publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Fleetmatics'' developer surface includes documentation, API reference, support, and 4 more developer resources.'
-random_paper: 63
+random_paper: 49
 score:
   band: emerging
   composite: 13.3

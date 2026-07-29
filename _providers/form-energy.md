@@ -128,7 +128,7 @@ overview: 'Form Energy is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Form Energy''s developer surface includes YouTube channel, engineering blog, and 19 more developer resources.'
-random_paper: 25
+random_paper: 11
 score:
   band: minimal
   composite: 5.4

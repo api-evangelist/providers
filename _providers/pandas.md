@@ -71,7 +71,7 @@ overview: 'pandas is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   pandas'' developer surface includes documentation, getting-started guide, and 5 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: minimal
   composite: 10.5

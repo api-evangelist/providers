@@ -116,7 +116,7 @@ overview: 'Century 21 Canada is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Century 21 Canada''s developer surface includes engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 66
+random_paper: 47
 score:
   band: minimal
   composite: 12.3

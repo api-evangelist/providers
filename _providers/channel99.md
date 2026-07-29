@@ -87,7 +87,7 @@ overview: 'Channel99 is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Channel99''s developer surface includes documentation, support, getting-started guide, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 53
+random_paper: 43
 score:
   band: emerging
   composite: 17.8

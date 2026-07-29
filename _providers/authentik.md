@@ -177,7 +177,7 @@ plans:
 - name: Authentik Plans Pricing
   plan_count: 3
   slug: authentik-plans-pricing
-random_paper: 25
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Authentik Rate Limits

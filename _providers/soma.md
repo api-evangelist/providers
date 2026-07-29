@@ -52,7 +52,7 @@ name: Soma
 nav: Providers
 network: true
 overview: Soma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance Tech, Insurance, Commercial Insurance, and Insurance Brokerage.
-random_paper: 37
+random_paper: 32
 score:
   band: minimal
   composite: 8.3

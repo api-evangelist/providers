@@ -91,7 +91,7 @@ overview: 'Rapchat is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Rapchat''s developer surface includes signup flow, pricing, support, engineering blog, and 8 more developer resources.'
-random_paper: 28
+random_paper: 19
 score:
   band: emerging
   composite: 17.1

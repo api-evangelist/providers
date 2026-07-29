@@ -87,7 +87,7 @@ overview: 'Altara is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Altara''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 76
+random_paper: 69
 score:
   band: emerging
   composite: 13.7

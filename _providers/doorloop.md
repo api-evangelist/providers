@@ -108,7 +108,7 @@ plans:
 - name: Doorloop Plans Pricing
   plan_count: 4
   slug: doorloop-plans-pricing
-random_paper: 9
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Doorloop Rate Limits

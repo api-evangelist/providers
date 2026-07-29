@@ -76,7 +76,7 @@ overview: 'Brightwheel is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Brightwheel''s developer surface includes signup flow, documentation, pricing, and 5 more developer resources.'
-random_paper: 67
+random_paper: 53
 score:
   band: minimal
   composite: 11.8

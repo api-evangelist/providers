@@ -83,7 +83,7 @@ overview: 'Structure is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Structure''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: emerging
   composite: 18.0

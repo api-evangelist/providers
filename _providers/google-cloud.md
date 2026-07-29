@@ -207,7 +207,7 @@ plans:
 - name: Google Cloud Plans Pricing
   plan_count: 3
   slug: google-cloud-plans-pricing
-random_paper: 32
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Google Cloud Rate Limits

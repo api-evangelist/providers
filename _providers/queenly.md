@@ -39,7 +39,7 @@ name: Queenly
 nav: Providers
 network: true
 overview: Queenly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Fashion, E-Commerce, and Resale.
-random_paper: 60
+random_paper: 51
 score:
   band: minimal
   composite: 4.1

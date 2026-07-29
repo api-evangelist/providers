@@ -144,7 +144,7 @@ overview: 'Kanastra publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kanastra''s developer surface includes documentation, API reference, authentication, and 4 more developer resources.'
-random_paper: 63
+random_paper: 53
 scopes:
 - name: Kanastra Scopes
   scope_count: 5

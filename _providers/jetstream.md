@@ -75,7 +75,7 @@ overview: 'Jetstream is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jetstream''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 27
+random_paper: 15
 score:
   band: emerging
   composite: 14.7

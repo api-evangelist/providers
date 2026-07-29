@@ -131,7 +131,7 @@ plans:
 - name: Google Cloud Platform Gcp Plans Pricing
   plan_count: 3
   slug: google-cloud-platform-gcp-plans-pricing
-random_paper: 41
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Google Cloud Platform Gcp Rate Limits

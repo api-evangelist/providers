@@ -121,7 +121,7 @@ plans:
 - name: Spire Global Plans Pricing
   plan_count: 1
   slug: spire-global-plans-pricing
-random_paper: 32
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Spire Global Rate Limits

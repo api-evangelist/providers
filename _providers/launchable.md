@@ -169,7 +169,7 @@ overview: 'Launchable publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Launchable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 12
+random_paper: 79
 score:
   band: thin
   composite: 39.4

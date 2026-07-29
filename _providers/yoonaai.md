@@ -79,7 +79,7 @@ overview: 'Yoona.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Yoona.ai''s developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 41
+random_paper: 32
 score:
   band: emerging
   composite: 13.8

@@ -124,7 +124,7 @@ overview: 'Caspio publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Caspio''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: thin
   composite: 29.8

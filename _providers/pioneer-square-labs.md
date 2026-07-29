@@ -59,7 +59,7 @@ overview: 'Pioneer Square Labs is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Pioneer Square Labs'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 23
+random_paper: 79
 score:
   band: minimal
   composite: 7.5

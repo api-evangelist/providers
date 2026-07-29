@@ -193,7 +193,7 @@ press:
 - date: '2026-05-25'
   title: AIG Investor Day 2025
   url: https://www.aig.com/home/investor-relations/aig-investor-day-2025
-random_paper: 68
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Aig Rate Limits

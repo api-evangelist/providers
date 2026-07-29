@@ -96,7 +96,7 @@ overview: 'Innovist is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Innovist''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 21
+random_paper: 10
 scopes:
 - name: Innovist Scopes
   scope_count: 4

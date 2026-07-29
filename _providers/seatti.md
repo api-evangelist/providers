@@ -75,7 +75,7 @@ overview: 'Seatti is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Seatti''s developer surface includes pricing, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: emerging
   composite: 16.0

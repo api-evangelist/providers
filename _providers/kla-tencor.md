@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: 'KLA is proud to be ranked #5 on Fortune''s America''s Most ...'
   url: https://www.facebook.com/KLAcorp/posts/kla-is-proud-to-be-ranked-5-on-fortunes-americas-most-innovative-companies-2026-/1734169444376378/
-random_paper: 60
+random_paper: 48
 score:
   band: emerging
   composite: 15.2

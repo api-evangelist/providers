@@ -682,7 +682,7 @@ plans:
 - name: Ordoro Plans Pricing
   plan_count: 7
   slug: ordoro-plans-pricing
-random_paper: 29
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Ordoro Rate Limits

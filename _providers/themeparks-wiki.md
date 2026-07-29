@@ -236,7 +236,7 @@ plans:
 - name: Themeparks Wiki Plans Pricing
   plan_count: 3
   slug: themeparks-wiki-plans-pricing
-random_paper: 56
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Themeparks Wiki Rate Limits

@@ -79,7 +79,7 @@ overview: 'Kickstarter is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Kickstarter''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 6
+random_paper: 71
 score:
   band: emerging
   composite: 16.0

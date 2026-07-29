@@ -190,7 +190,7 @@ overview: 'Tollbit publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tollbit''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: developing
   composite: 49.4

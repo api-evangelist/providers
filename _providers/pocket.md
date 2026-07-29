@@ -56,7 +56,7 @@ name: Pocket
 nav: Providers
 network: true
 overview: Pocket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents And Productivity and Public APIs.
-random_paper: 14
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

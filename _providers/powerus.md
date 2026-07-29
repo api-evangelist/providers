@@ -52,7 +52,7 @@ name: Powerus
 nav: Providers
 network: true
 overview: Powerus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Jobs, Recruitment, Marketplace, and Skilled Trades.
-random_paper: 78
+random_paper: 69
 score:
   band: minimal
   composite: 7.6

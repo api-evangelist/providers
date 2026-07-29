@@ -270,7 +270,7 @@ overview: 'One Codex publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Codex''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 29
+random_paper: 18
 score:
   band: developing
   composite: 53.9

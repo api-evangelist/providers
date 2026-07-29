@@ -204,7 +204,7 @@ overview: 'Conductor OSS publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Conductor OSS''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, YouTube channel, pricing, developer portal, and 18 more developer resources.'
-random_paper: 20
+random_paper: 3
 score:
   band: thin
   composite: 31.8

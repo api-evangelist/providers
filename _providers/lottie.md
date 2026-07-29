@@ -63,7 +63,7 @@ overview: 'Lottie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lottie''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 25
+random_paper: 17
 score:
   band: minimal
   composite: 10.8

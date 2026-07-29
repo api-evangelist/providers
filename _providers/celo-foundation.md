@@ -131,7 +131,7 @@ overview: 'Celo Foundation is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Celo Foundation''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, sandbox, and 15 more developer resources.'
-random_paper: 42
+random_paper: 23
 score:
   band: emerging
   composite: 26.6

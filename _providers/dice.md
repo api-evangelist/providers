@@ -87,7 +87,7 @@ overview: 'DICE is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   DICE''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 10
+random_paper: 5
 score:
   band: emerging
   composite: 13.7

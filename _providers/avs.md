@@ -44,7 +44,7 @@ name: AVS
 nav: Providers
 network: true
 overview: AVS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Battery Ventures, Portfolio Company, and Exited Investment.
-random_paper: 14
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

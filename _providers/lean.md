@@ -72,7 +72,7 @@ plans:
 - name: Lean Plans Pricing
   plan_count: 3
   slug: lean-plans-pricing
-random_paper: 21
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Lean Rate Limits

@@ -75,7 +75,7 @@ overview: 'mojiworks is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   mojiworks'' developer surface includes support and 7 more developer resources.'
-random_paper: 49
+random_paper: 37
 score:
   band: minimal
   composite: 11.2

@@ -192,7 +192,7 @@ plans:
 - name: Logrocket Plans Pricing
   plan_count: 1
   slug: logrocket-plans-pricing
-random_paper: 22
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Logrocket Rate Limits

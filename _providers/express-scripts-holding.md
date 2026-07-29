@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Cigna acquires Express Scripts for $67 billion
   url: https://www.benefitscanada.com/news/bencan/cigna-acquires-express-scripts-for-67-billion/
-random_paper: 15
+random_paper: 65
 score:
   band: minimal
   composite: 10.9

@@ -91,7 +91,7 @@ overview: 'Picnicai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Picnicai''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 7 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: emerging
   composite: 16.9

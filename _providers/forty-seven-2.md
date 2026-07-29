@@ -48,7 +48,7 @@ name: Forty Seven 2
 nav: Providers
 network: true
 overview: Forty Seven 2 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Immuno-Oncology, Healthcare, and Clinical-Stage.
-random_paper: 64
+random_paper: 49
 score:
   band: minimal
   composite: 4.3

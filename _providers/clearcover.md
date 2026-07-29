@@ -83,7 +83,7 @@ overview: 'Clearcover is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Clearcover''s developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 35
+random_paper: 22
 score:
   band: emerging
   composite: 16.3

@@ -889,7 +889,7 @@ plans:
 - name: Amazon Managed Prometheus Plans Pricing
   plan_count: 3
   slug: amazon-managed-prometheus-plans-pricing
-random_paper: 25
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Prometheus Rate Limits

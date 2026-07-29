@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: JavaScript
 nav: Providers
 network: true
-random_paper: 52
+random_paper: 39
 slug: javascript
 tags:
 - Browser

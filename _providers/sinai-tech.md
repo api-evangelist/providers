@@ -156,7 +156,7 @@ overview: 'SINAI Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   SINAI Technologies'' developer surface includes engineering blog and 27 more developer resources.'
-random_paper: 49
+random_paper: 37
 score:
   band: minimal
   composite: 5.4

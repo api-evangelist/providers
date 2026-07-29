@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Weis Markets Partners With Cognira to Enhance Promotion ...
   url: https://www.businesswire.com/news/home/20251001115503/en/Weis-Markets-Partners-With-Cognira-to-Enhance-Promotion-Efficiency-and-Results
-random_paper: 59
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Weis Markets Rate Limits

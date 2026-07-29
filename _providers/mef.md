@@ -543,7 +543,7 @@ overview: 'MEF publishes 95 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   MEF''s developer surface includes documentation, SDKs, tooling, getting-started guide, support, authentication, changelog, and 45 more developer resources.'
-random_paper: 75
+random_paper: 72
 scopes:
 - name: Mef Scopes
   scope_count: 218

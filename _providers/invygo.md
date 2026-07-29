@@ -71,7 +71,7 @@ overview: 'Invygo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Invygo''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 36
+random_paper: 28
 score:
   band: minimal
   composite: 12.6

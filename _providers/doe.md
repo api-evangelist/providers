@@ -256,7 +256,7 @@ plans:
 - name: Doe Plans Pricing
   plan_count: 5
   slug: doe-plans-pricing
-random_paper: 75
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Doe Rate Limits

@@ -803,7 +803,7 @@ plans:
 - name: Amazon Directory Service Plans Pricing
   plan_count: 3
   slug: amazon-directory-service-plans-pricing
-random_paper: 21
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Amazon Directory Service Rate Limits

@@ -39,7 +39,7 @@ name: Automatic Labs
 nav: Providers
 network: true
 overview: Automatic Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Connected Car, Telematics, and OBD-II.
-random_paper: 8
+random_paper: 70
 score:
   band: minimal
   composite: 5.0

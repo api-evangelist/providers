@@ -103,7 +103,7 @@ overview: 'Trusted Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Trusted Health''s developer surface includes engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 32
+random_paper: 14
 score:
   band: emerging
   composite: 19.9

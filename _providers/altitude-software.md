@@ -59,7 +59,7 @@ overview: 'Altitude Software is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Altitude Software''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 42
+random_paper: 20
 score:
   band: minimal
   composite: 6.3

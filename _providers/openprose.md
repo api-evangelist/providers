@@ -112,7 +112,7 @@ overview: 'Openprose is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Openprose''s developer surface includes documentation, API reference, getting-started guide, support, changelog, CLI, and 11 more developer resources.'
-random_paper: 39
+random_paper: 27
 score:
   band: emerging
   composite: 21.3

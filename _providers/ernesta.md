@@ -79,7 +79,7 @@ overview: 'Ernesta is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ernesta''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: emerging
   composite: 15.0

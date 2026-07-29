@@ -162,7 +162,7 @@ overview: 'Finmid publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Finmid''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: developing
   composite: 43.9

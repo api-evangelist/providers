@@ -51,7 +51,7 @@ overview: 'SwiftStack is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   SwiftStack''s developer surface includes support and 1 more developer resources.'
-random_paper: 64
+random_paper: 51
 score:
   band: minimal
   composite: 5.9

@@ -75,7 +75,7 @@ overview: 'Gain Credit is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Gain Credit''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 68
+random_paper: 55
 score:
   band: minimal
   composite: 6.2

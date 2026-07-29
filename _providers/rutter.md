@@ -206,7 +206,7 @@ plans:
 - name: Rutter Plans Pricing
   plan_count: 1
   slug: rutter-plans-pricing
-random_paper: 46
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Rutter Rate Limits

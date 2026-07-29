@@ -124,7 +124,7 @@ plans:
 - name: Holistics Plans Pricing
   plan_count: 5
   slug: holistics-plans-pricing
-random_paper: 30
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Holistics Rate Limits

@@ -106,7 +106,7 @@ overview: 'The Promenade publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   The Promenade''s developer surface includes documentation, support, authentication, and 9 more developer resources.'
-random_paper: 57
+random_paper: 41
 score:
   band: thin
   composite: 30.5

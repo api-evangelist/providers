@@ -123,7 +123,7 @@ overview: 'Corteva is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Corteva''s developer surface includes product news, YouTube channel, and 18 more developer resources.'
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 9.9

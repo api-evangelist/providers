@@ -87,7 +87,7 @@ overview: 'Scytale is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Scytale''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 46
+random_paper: 37
 score:
   band: emerging
   composite: 17.5

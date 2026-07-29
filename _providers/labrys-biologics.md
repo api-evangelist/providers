@@ -44,7 +44,7 @@ name: Labrys Biologics
 nav: Providers
 network: true
 overview: Labrys Biologics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Therapeutics.
-random_paper: 73
+random_paper: 53
 score:
   band: minimal
   composite: 5.4

@@ -68,7 +68,7 @@ name: Squadle
 nav: Providers
 network: true
 overview: Squadle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Safety, Restaurant Operations, Compliance, and IoT.
-random_paper: 40
+random_paper: 31
 score:
   band: emerging
   composite: 14.9

@@ -60,7 +60,7 @@ name: Voxel Energy
 nav: Providers
 network: true
 overview: Voxel Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Centers, Energy, Solar Power, and Renewable Energy.
-random_paper: 68
+random_paper: 53
 score:
   band: minimal
   composite: 7.0

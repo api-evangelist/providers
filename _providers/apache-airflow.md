@@ -1032,7 +1032,7 @@ plans:
 - name: Apache Airflow Plans Pricing
   plan_count: 3
   slug: apache-airflow-plans-pricing
-random_paper: 68
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Apache Airflow Rate Limits

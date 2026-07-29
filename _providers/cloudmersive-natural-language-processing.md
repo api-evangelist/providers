@@ -56,7 +56,7 @@ name: Cloudmersive Natural Language Processing
 nav: Providers
 network: true
 overview: Cloudmersive Natural Language Processing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
-random_paper: 5
+random_paper: 33
 score:
   band: minimal
   composite: 5.7

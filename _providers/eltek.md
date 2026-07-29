@@ -48,7 +48,7 @@ name: Eltek
 nav: Providers
 network: true
 overview: Eltek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Power Electronics, Telecom, and Energy.
-random_paper: 59
+random_paper: 53
 score:
   band: minimal
   composite: 6.4

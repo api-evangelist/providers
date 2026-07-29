@@ -83,7 +83,7 @@ overview: 'Supio is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Supio''s developer surface includes engineering blog, support, pricing, and 7 more developer resources.'
-random_paper: 7
+random_paper: 0
 score:
   band: emerging
   composite: 18.4

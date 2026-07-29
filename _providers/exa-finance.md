@@ -88,7 +88,7 @@ overview: 'Exa Finance is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Exa Finance''s developer surface includes developer portal, documentation, getting-started guide, and 8 more developer resources.'
-random_paper: 60
+random_paper: 47
 score:
   band: emerging
   composite: 14.7

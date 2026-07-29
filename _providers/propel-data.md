@@ -115,7 +115,7 @@ plans:
 - name: Propel Data Plans Pricing
   plan_count: 3
   slug: propel-data-plans-pricing
-random_paper: 7
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Propel Data Rate Limits

@@ -1590,7 +1590,7 @@ plans:
 - name: Cloudflare Plans Pricing
   plan_count: 6
   slug: cloudflare-plans-pricing
-random_paper: 30
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Cloudflare Rate Limits

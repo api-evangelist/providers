@@ -122,7 +122,7 @@ overview: 'Voyc is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Voyc''s developer surface includes documentation, support, engineering blog, and 15 more developer resources.'
-random_paper: 54
+random_paper: 49
 score:
   band: thin
   composite: 39.4

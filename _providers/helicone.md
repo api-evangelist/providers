@@ -2016,7 +2016,7 @@ plans:
 - name: Helicone Plans Pricing
   plan_count: 6
   slug: helicone-plans-pricing
-random_paper: 49
+random_paper: 39
 rate_limits:
 - limit_count: 11
   name: Helicone Rate Limits

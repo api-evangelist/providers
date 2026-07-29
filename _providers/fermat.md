@@ -99,7 +99,7 @@ overview: 'Fermat is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fermat''s developer surface includes engineering blog, support, changelog, and 11 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: emerging
   composite: 18.3

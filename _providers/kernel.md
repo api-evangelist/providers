@@ -257,7 +257,7 @@ overview: 'Kernel publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kernel''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 25 more developer resources.'
-random_paper: 9
+random_paper: 1
 scopes:
 - name: Kernel Scopes
   scope_count: 2

@@ -136,7 +136,7 @@ overview: 'Newegg publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Newegg''s developer surface includes documentation, getting-started guide, changelog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 5
+random_paper: 77
 score:
   band: thin
   composite: 29.6

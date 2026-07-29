@@ -79,7 +79,7 @@ overview: 'Max Retail is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Max Retail''s developer surface includes getting-started guide, signup flow, pricing, support, engineering blog, and 4 more developer resources.'
-random_paper: 64
+random_paper: 52
 score:
   band: emerging
   composite: 15.4

@@ -134,7 +134,7 @@ overview: 'Gravity Forms publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Gravity Forms'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 27
+random_paper: 10
 score:
   band: thin
   composite: 33.2

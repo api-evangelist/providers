@@ -128,7 +128,7 @@ overview: 'Triblio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Triblio''s developer surface includes engineering blog, GitHub presence, and 19 more developer resources.'
-random_paper: 46
+random_paper: 37
 score:
   band: minimal
   composite: 6.1

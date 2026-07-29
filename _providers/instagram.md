@@ -318,7 +318,7 @@ plans:
 - name: Instagram Plans Pricing
   plan_count: 2
   slug: instagram-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Instagram Rate Limits

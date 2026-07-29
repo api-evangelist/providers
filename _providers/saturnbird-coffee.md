@@ -48,7 +48,7 @@ name: Saturnbird Coffee
 nav: Providers
 network: true
 overview: Saturnbird Coffee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Coffee, Beverage, and E-Commerce.
-random_paper: 9
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

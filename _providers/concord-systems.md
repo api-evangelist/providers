@@ -68,7 +68,7 @@ overview: 'Concord Systems is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Concord Systems'' developer surface includes CLI and 5 more developer resources.'
-random_paper: 1
+random_paper: 61
 score:
   band: minimal
   composite: 9.0

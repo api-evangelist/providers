@@ -239,7 +239,7 @@ plans:
 - name: University Of Bath Plans Pricing
   plan_count: 2
   slug: university-of-bath-plans-pricing
-random_paper: 23
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: University Of Bath Rate Limits

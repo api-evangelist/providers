@@ -117,7 +117,7 @@ plans:
 - name: Us Citizenship And Immigration Services Plans Pricing
   plan_count: 3
   slug: us-citizenship-and-immigration-services-plans-pricing
-random_paper: 15
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Us Citizenship And Immigration Services Rate Limits

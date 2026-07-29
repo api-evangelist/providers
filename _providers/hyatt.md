@@ -60,7 +60,7 @@ name: Hyatt
 nav: Providers
 network: true
 overview: Hyatt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Hotels, and Travel.
-random_paper: 1
+random_paper: 74
 score:
   band: minimal
   composite: 4.8

@@ -55,7 +55,7 @@ overview: 'Georgiamune is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Georgiamune''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 65
+random_paper: 51
 score:
   band: minimal
   composite: 6.6

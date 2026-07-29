@@ -216,7 +216,7 @@ plans:
 - name: Singlestore Plans Pricing
   plan_count: 3
   slug: singlestore-plans-pricing
-random_paper: 14
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Singlestore Rate Limits

@@ -83,7 +83,7 @@ overview: 'True Anomaly is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   True Anomaly''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 61
+random_paper: 46
 score:
   band: minimal
   composite: 12.9

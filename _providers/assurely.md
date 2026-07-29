@@ -56,7 +56,7 @@ name: Assurely
 nav: Providers
 network: true
 overview: Assurely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United States, Insurtech, Embedded Insurance, and Managing General Agent.
-random_paper: 19
+random_paper: 8
 score:
   band: minimal
   composite: 8.6

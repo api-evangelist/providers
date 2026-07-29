@@ -48,7 +48,7 @@ name: Good Manufacturing Practices
 nav: Providers
 network: true
 overview: Good Manufacturing Practices is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Manufacturing, Pharmaceuticals, Quality Assurance, and Regulatory.
-random_paper: 25
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

@@ -222,7 +222,7 @@ overview: 'Coactive publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coactive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 18 more developer resources.'
-random_paper: 56
+random_paper: 46
 score:
   band: developing
   composite: 50.0

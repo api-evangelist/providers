@@ -222,7 +222,7 @@ plans:
 - name: Siemens Mindsphere Plans Pricing
   plan_count: 1
   slug: siemens-mindsphere-plans-pricing
-random_paper: 55
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Siemens Mindsphere Rate Limits

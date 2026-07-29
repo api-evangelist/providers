@@ -119,7 +119,7 @@ overview: 'MirrorTab publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   MirrorTab''s developer surface includes documentation, API reference, authentication, and 12 more developer resources.'
-random_paper: 30
+random_paper: 18
 score:
   band: thin
   composite: 38.6

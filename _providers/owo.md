@@ -56,7 +56,7 @@ name: owo
 nav: Providers
 network: true
 overview: owo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include URL Shorteners and Public APIs.
-random_paper: 25
+random_paper: 21
 score:
   band: minimal
   composite: 5.7

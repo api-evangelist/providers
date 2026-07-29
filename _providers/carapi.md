@@ -107,7 +107,7 @@ plans:
 - name: Carapi Plans Pricing
   plan_count: 3
   slug: carapi-plans-pricing
-random_paper: 71
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Carapi Rate Limits

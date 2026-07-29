@@ -87,7 +87,7 @@ overview: 'Halter is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Halter''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: emerging
   composite: 15.9

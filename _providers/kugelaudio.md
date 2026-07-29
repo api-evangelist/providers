@@ -199,7 +199,7 @@ overview: 'KugelAudio publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   KugelAudio''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 39
+random_paper: 26
 score:
   band: developing
   composite: 47.2

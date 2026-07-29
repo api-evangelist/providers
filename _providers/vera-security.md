@@ -52,7 +52,7 @@ name: Vera Security
 nav: Providers
 network: true
 overview: Vera Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Security, Information Rights Management, Data-Centric Security, and Encryption.
-random_paper: 20
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

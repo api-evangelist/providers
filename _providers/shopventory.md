@@ -95,7 +95,7 @@ overview: 'Shopventory is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Shopventory''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 48
+random_paper: 33
 score:
   band: emerging
   composite: 16.0

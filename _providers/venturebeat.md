@@ -124,7 +124,7 @@ overview: 'VentureBeat is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   The VentureBeat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 4
+random_paper: 69
 rules:
 - name: VentureBeat API Rules
   rule_count: 5

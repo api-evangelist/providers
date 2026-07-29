@@ -87,7 +87,7 @@ overview: 'AiVF is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   AiVF''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 27
+random_paper: 22
 score:
   band: emerging
   composite: 20.2

@@ -72,7 +72,7 @@ overview: 'Tyra Biosciences is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Tyra Biosciences'' developer surface includes support and 6 more developer resources.'
-random_paper: 53
+random_paper: 48
 score:
   band: minimal
   composite: 11.2

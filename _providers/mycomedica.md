@@ -44,7 +44,7 @@ name: MycoMedica
 nav: Providers
 network: true
 overview: MycoMedica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Life Sciences, Drug Development, and Psychedelics.
-random_paper: 24
+random_paper: 11
 score:
   band: minimal
   composite: 4.3

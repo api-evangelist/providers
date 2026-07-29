@@ -56,7 +56,7 @@ name: COVID-19 Tracker Sri Lanka
 nav: Providers
 network: true
 overview: COVID-19 Tracker Sri Lanka publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 50
+random_paper: 20
 score:
   band: minimal
   composite: 6.0

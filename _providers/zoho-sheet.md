@@ -154,7 +154,7 @@ plans:
 - name: Zoho Sheet Plans Pricing
   plan_count: 4
   slug: zoho-sheet-plans-pricing
-random_paper: 3
+random_paper: 70
 rate_limits:
 - limit_count: 6
   name: Zoho Sheet Rate Limits

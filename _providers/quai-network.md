@@ -140,7 +140,7 @@ overview: 'Quai Network publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Quai Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 15 more developer resources.'
-random_paper: 70
+random_paper: 55
 score:
   band: emerging
   composite: 26.2

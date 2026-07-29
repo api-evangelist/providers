@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/849869/000084986924000067/slgn-20240507.htm
-random_paper: 38
+random_paper: 19
 score:
   band: minimal
   composite: 8.2

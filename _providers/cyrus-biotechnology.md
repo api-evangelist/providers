@@ -63,7 +63,7 @@ overview: 'Cyrus Biotechnology is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Cyrus Biotechnology''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 34
+random_paper: 9
 score:
   band: minimal
   composite: 7.4

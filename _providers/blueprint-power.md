@@ -48,7 +48,7 @@ name: Blueprint Power
 nav: Providers
 network: true
 overview: Blueprint Power is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clean Energy, Energy, Virtual Power Plant, and Distributed Energy Resources.
-random_paper: 3
+random_paper: 63
 score:
   band: minimal
   composite: 5.5

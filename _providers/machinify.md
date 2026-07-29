@@ -79,7 +79,7 @@ overview: 'Machinify is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Machinify''s developer surface includes support, signup flow, and 7 more developer resources.'
-random_paper: 4
+random_paper: 72
 score:
   band: emerging
   composite: 17.8

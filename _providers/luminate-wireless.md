@@ -39,7 +39,7 @@ name: Luminate Wireless
 nav: Providers
 network: true
 overview: Luminate Wireless is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 48
+random_paper: 26
 score:
   band: minimal
   composite: 4.1

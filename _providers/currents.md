@@ -56,7 +56,7 @@ name: Currents
 nav: Providers
 network: true
 overview: Currents publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include News and Public APIs.
-random_paper: 17
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

@@ -48,7 +48,7 @@ name: Super
 nav: Providers
 network: true
 overview: Super is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Consumer, Mobile, and Gaming.
-random_paper: 6
+random_paper: 79
 score:
   band: minimal
   composite: 5.0

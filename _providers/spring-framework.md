@@ -162,7 +162,7 @@ plans:
 - name: Spring Framework Plans Pricing
   plan_count: 3
   slug: spring-framework-plans-pricing
-random_paper: 19
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Spring Framework Rate Limits

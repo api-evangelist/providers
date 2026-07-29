@@ -302,7 +302,7 @@ plans:
 - name: Conductor Plans Pricing
   plan_count: 3
   slug: conductor-plans-pricing
-random_paper: 29
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Conductor Rate Limits

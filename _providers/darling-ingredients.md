@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: EBS Upgrade Sets Foundation for Continuous Support and ...
   url: https://www.centroid.com/customer_stories/darling-ingredients-success-story/
-random_paper: 66
+random_paper: 42
 score:
   band: minimal
   composite: 5.4

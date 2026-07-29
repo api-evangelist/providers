@@ -128,7 +128,7 @@ overview: 'TuneCore is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TuneCore''s developer surface includes signup flow, pricing, engineering blog, support, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 0
+random_paper: 69
 score:
   band: minimal
   composite: 9.1

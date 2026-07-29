@@ -39,7 +39,7 @@ name: ITSM
 nav: Providers
 network: true
 overview: ITSM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include IT Service Management, ITIL, ITSM, and Service Desk.
-random_paper: 50
+random_paper: 45
 score:
   band: minimal
   composite: 4.1

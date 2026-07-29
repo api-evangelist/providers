@@ -250,7 +250,7 @@ plans:
 - name: Apache Ofbiz Plans Pricing
   plan_count: 3
   slug: apache-ofbiz-plans-pricing
-random_paper: 8
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Apache Ofbiz Rate Limits

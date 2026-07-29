@@ -63,7 +63,7 @@ overview: 'Tepali is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Tepali''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: minimal
   composite: 10.2

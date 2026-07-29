@@ -87,7 +87,7 @@ overview: 'Craftview is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Craftview''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 23
+random_paper: 11
 score:
   band: minimal
   composite: 9.4

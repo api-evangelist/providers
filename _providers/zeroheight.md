@@ -88,7 +88,7 @@ plans:
 - name: Zeroheight Plans Pricing
   plan_count: 3
   slug: zeroheight-plans-pricing
-random_paper: 54
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Zeroheight Rate Limits

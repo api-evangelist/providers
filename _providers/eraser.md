@@ -163,7 +163,7 @@ plans:
 - name: Eraser Plans Pricing
   plan_count: 4
   slug: eraser-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Eraser Rate Limits

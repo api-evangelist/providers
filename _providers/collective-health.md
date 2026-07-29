@@ -91,7 +91,7 @@ overview: 'Collective Health is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Collective Health''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 3
+random_paper: 61
 score:
   band: emerging
   composite: 21.9

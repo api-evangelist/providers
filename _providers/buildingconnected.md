@@ -124,7 +124,7 @@ overview: 'Buildingconnected publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Buildingconnected''s developer surface includes getting-started guide, support, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 55
+random_paper: 33
 scopes:
 - name: Buildingconnected Scopes
   scope_count: 16

@@ -240,7 +240,7 @@ plans:
 - name: Paga Plans Pricing
   plan_count: 2
   slug: paga-plans-pricing
-random_paper: 14
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Paga Rate Limits

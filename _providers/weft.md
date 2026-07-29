@@ -39,7 +39,7 @@ name: Weft
 nav: Providers
 network: true
 overview: Weft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Shipping, and Freight Tracking.
-random_paper: 43
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

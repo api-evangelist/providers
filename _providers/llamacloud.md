@@ -124,7 +124,7 @@ plans:
 - name: Llamacloud Plans Pricing
   plan_count: 5
   slug: llamacloud-plans-pricing
-random_paper: 27
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Llamacloud Rate Limits

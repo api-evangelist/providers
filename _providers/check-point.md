@@ -128,7 +128,7 @@ overview: 'Check Point Software publishes 5 APIs on the [APIs.io](https://apis.i
 
 
   Check Point Software''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
-random_paper: 3
+random_paper: 69
 score:
   band: emerging
   composite: 24.7

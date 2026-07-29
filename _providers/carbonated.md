@@ -48,7 +48,7 @@ name: Carbonated
 nav: Providers
 network: true
 overview: Carbonated is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Game Development, and Live Operations.
-random_paper: 16
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

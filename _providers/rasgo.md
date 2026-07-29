@@ -124,7 +124,7 @@ overview: 'Rasgo publishes 1 API on the [APIs.io](https://apis.io/) network: Met
 
 
   Rasgo''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 12 more developer resources.'
-random_paper: 66
+random_paper: 60
 score:
   band: thin
   composite: 39.3

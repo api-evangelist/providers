@@ -63,7 +63,7 @@ overview: 'Oxford Ionics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Oxford Ionics'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 5
+random_paper: 68
 score:
   band: minimal
   composite: 8.4

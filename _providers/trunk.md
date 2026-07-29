@@ -162,7 +162,7 @@ overview: 'Trunk publishes 2 APIs on the [APIs.io](https://apis.io/) network: Fl
 
 
   Trunk''s developer surface includes documentation, engineering blog, authentication, CLI, and 17 more developer resources.'
-random_paper: 11
+random_paper: 4
 score:
   band: thin
   composite: 37.5

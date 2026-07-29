@@ -52,7 +52,7 @@ name: What's on the menu?
 nav: Providers
 network: true
 overview: What's on the menu? publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
-random_paper: 6
+random_paper: 65
 score:
   band: minimal
   composite: 5.7

@@ -75,7 +75,7 @@ overview: 'Ixlayer is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ixlayer''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 55
+random_paper: 46
 score:
   band: emerging
   composite: 14.5

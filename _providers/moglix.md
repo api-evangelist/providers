@@ -48,7 +48,7 @@ name: Moglix
 nav: Providers
 network: true
 overview: Moglix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, B2B, Ecommerce, and Procurement.
-random_paper: 24
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

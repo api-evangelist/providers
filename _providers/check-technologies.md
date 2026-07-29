@@ -175,7 +175,7 @@ overview: 'Check Technologies publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Check Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 22
+random_paper: 79
 score:
   band: developing
   composite: 53.8

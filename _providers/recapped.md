@@ -91,7 +91,7 @@ overview: 'RecappED is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   RecappED''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 46
+random_paper: 36
 score:
   band: emerging
   composite: 19.1

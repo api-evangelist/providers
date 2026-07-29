@@ -84,7 +84,7 @@ plans:
 - name: Schaeffler Plans Pricing
   plan_count: 1
   slug: schaeffler-plans-pricing
-random_paper: 16
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Schaeffler Rate Limits

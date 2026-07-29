@@ -103,7 +103,7 @@ plans:
 - name: Curtin Plans Pricing
   plan_count: 2
   slug: curtin-plans-pricing
-random_paper: 29
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Curtin Rate Limits

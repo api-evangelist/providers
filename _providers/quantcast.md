@@ -134,7 +134,7 @@ overview: 'Quantcast publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Quantcast''s developer surface includes documentation, authentication, engineering blog, privacy policy, GitHub presence, YouTube channel, and 13 more developer resources.'
-random_paper: 32
+random_paper: 20
 score:
   band: emerging
   composite: 14.5

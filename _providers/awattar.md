@@ -123,7 +123,7 @@ plans:
 - name: Awattar Plans Pricing
   plan_count: 1
   slug: awattar-plans-pricing
-random_paper: 45
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Awattar Rate Limits

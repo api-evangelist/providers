@@ -71,7 +71,7 @@ overview: 'Axoni is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Axoni''s developer surface includes support and 6 more developer resources.'
-random_paper: 69
+random_paper: 63
 score:
   band: minimal
   composite: 9.6

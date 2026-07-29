@@ -79,7 +79,7 @@ overview: 'Conifer is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Conifer''s developer surface includes changelog and 8 more developer resources.'
-random_paper: 31
+random_paper: 22
 score:
   band: minimal
   composite: 8.5

@@ -59,7 +59,7 @@ overview: 'Givecampus is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Givecampus'' developer surface includes support and 3 more developer resources.'
-random_paper: 49
+random_paper: 36
 score:
   band: minimal
   composite: 8.1

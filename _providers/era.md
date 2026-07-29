@@ -157,7 +157,7 @@ plans:
 - name: Era Plans
   plan_count: 4
   slug: era-plans
-random_paper: 75
+random_paper: 72
 rate_limits:
 - limit_count: 4
   name: Era Rate Limits

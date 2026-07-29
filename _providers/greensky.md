@@ -91,7 +91,7 @@ overview: 'GreenSky is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GreenSky''s developer surface includes support, signup flow, and 10 more developer resources.'
-random_paper: 3
+random_paper: 72
 score:
   band: emerging
   composite: 14.8

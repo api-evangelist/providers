@@ -48,7 +48,7 @@ name: Wayco
 nav: Providers
 network: true
 overview: Wayco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Artificial Intelligence, Healthcare, and Voice AI.
-random_paper: 73
+random_paper: 67
 score:
   band: minimal
   composite: 5.6

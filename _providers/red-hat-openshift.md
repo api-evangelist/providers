@@ -345,7 +345,7 @@ plans:
 - name: Red Hat Openshift Plans Pricing
   plan_count: 8
   slug: red-hat-openshift-plans-pricing
-random_paper: 39
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Red Hat Openshift Rate Limits

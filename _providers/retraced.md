@@ -203,7 +203,7 @@ overview: 'Retraced publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Retraced''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: thin
   composite: 36.8

@@ -3435,7 +3435,7 @@ plans:
 - name: Mindbody Plans Pricing
   plan_count: 4
   slug: mindbody-plans-pricing
-random_paper: 64
+random_paper: 54
 rate_limits:
 - limit_count: 6
   name: Mindbody Rate Limits

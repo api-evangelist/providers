@@ -69,7 +69,7 @@ plans:
 - name: Distroless Plans Pricing
   plan_count: 3
   slug: distroless-plans-pricing
-random_paper: 73
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Distroless Rate Limits

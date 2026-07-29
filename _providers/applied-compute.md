@@ -87,7 +87,7 @@ overview: 'Applied Compute is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Applied Compute''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
-random_paper: 44
+random_paper: 25
 score:
   band: emerging
   composite: 13.8

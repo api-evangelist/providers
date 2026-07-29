@@ -175,7 +175,7 @@ overview: 'Dynamic publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Dynamic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 22 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: strong
   composite: 56.3

@@ -396,7 +396,7 @@ overview: 'Lean Technologies publishes 67 APIs on the [APIs.io](https://apis.io/
 
 
   Lean Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 26 more developer resources.'
-random_paper: 7
+random_paper: 65
 scopes:
 - name: Lean Technologies Scopes
   scope_count: 2

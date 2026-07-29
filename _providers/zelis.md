@@ -112,7 +112,7 @@ overview: 'Zelis publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Zelis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 77
+random_paper: 71
 score:
   band: thin
   composite: 28.9

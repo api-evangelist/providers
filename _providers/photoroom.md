@@ -125,7 +125,7 @@ plans:
 - name: Photoroom Plans Pricing
   plan_count: 5
   slug: photoroom-plans-pricing
-random_paper: 51
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Photoroom Rate Limits

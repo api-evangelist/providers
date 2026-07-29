@@ -116,7 +116,7 @@ plans:
 - name: Hotelbeds Plans Pricing
   plan_count: 2
   slug: hotelbeds-plans-pricing
-random_paper: 6
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Hotelbeds Rate Limits

@@ -96,7 +96,7 @@ overview: 'Keyboardio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Keyboardio''s developer surface includes support, engineering blog, signup flow, pricing, authentication, and 8 more developer resources.'
-random_paper: 38
+random_paper: 25
 scopes:
 - name: Keyboardio Scopes
   scope_count: 4

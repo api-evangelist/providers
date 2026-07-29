@@ -63,7 +63,7 @@ overview: 'Quantum Circuits is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Quantum Circuits'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 35
+random_paper: 14
 score:
   band: minimal
   composite: 10.5

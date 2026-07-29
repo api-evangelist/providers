@@ -175,7 +175,7 @@ plans:
 - name: Marketcheck Plans Pricing
   plan_count: 4
   slug: marketcheck-plans-pricing
-random_paper: 48
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Marketcheck Rate Limits

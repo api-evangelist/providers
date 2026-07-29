@@ -189,7 +189,7 @@ overview: 'Scorecard publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Scorecard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 21 more developer resources.'
-random_paper: 2
+random_paper: 70
 score:
   band: developing
   composite: 54.2

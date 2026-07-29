@@ -233,7 +233,7 @@ overview: 'Orderful publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Orderful''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: strong
   composite: 57.5

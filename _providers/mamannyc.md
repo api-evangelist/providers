@@ -95,7 +95,7 @@ overview: 'Maman is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Maman''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 62
+random_paper: 52
 score:
   band: minimal
   composite: 8.4

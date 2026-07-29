@@ -52,7 +52,7 @@ name: Healthcaresource.com
 nav: Providers
 network: true
 overview: Healthcaresource.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Talent Management, Recruiting, and Applicant Tracking.
-random_paper: 42
+random_paper: 17
 score:
   band: minimal
   composite: 6.0

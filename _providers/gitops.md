@@ -75,7 +75,7 @@ overview: 'GitOps is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   The GitOps catalog on APIs.io includes 1 Spectral governance ruleset.'
-random_paper: 30
+random_paper: 22
 rules:
 - name: GitOps API Rules
   rule_count: 0

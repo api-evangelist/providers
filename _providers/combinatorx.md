@@ -45,7 +45,7 @@ name: Combinatorx
 nav: Providers
 network: true
 overview: Combinatorx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Life Sciences.
-random_paper: 5
+random_paper: 70
 score:
   band: minimal
   composite: 4.3

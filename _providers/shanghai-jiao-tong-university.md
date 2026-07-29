@@ -123,7 +123,7 @@ plans:
 - name: Shanghai Jiao Tong University Plans Pricing
   plan_count: 2
   slug: shanghai-jiao-tong-university-plans-pricing
-random_paper: 28
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Shanghai Jiao Tong University Rate Limits

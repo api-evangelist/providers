@@ -94,7 +94,7 @@ plans:
 - name: Desktop Metal Plans Pricing
   plan_count: 1
   slug: desktop-metal-plans-pricing
-random_paper: 74
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Desktop Metal Rate Limits

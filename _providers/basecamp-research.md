@@ -64,7 +64,7 @@ overview: 'Basecamp Research is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Basecamp Research''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 59
+random_paper: 38
 score:
   band: minimal
   composite: 6.3

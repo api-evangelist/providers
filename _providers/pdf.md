@@ -56,7 +56,7 @@ name: PDF
 nav: Providers
 network: true
 overview: PDF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include PDF, Document, and File Format.
-random_paper: 77
+random_paper: 74
 score:
   band: minimal
   composite: 4.1

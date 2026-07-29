@@ -44,7 +44,7 @@ name: TastyUrban
 nav: Providers
 network: true
 overview: TastyUrban is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Food, Franchise, and Food Delivery.
-random_paper: 74
+random_paper: 61
 score:
   band: minimal
   composite: 5.0

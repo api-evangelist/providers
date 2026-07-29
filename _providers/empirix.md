@@ -55,7 +55,7 @@ overview: 'Empirix is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Empirix''s developer surface includes support and 2 more developer resources.'
-random_paper: 55
+random_paper: 46
 score:
   band: minimal
   composite: 6.2

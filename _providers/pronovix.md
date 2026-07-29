@@ -65,7 +65,7 @@ plans:
 - name: Pronovix Plans Pricing
   plan_count: 3
   slug: pronovix-plans-pricing
-random_paper: 32
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Pronovix Rate Limits

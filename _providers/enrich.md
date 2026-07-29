@@ -63,7 +63,7 @@ overview: 'enrich is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   enrich''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 1
+random_paper: 73
 score:
   band: minimal
   composite: 11.8

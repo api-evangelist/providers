@@ -182,7 +182,7 @@ overview: 'NAIC publishes 1 API on the [APIs.io](https://apis.io/) network: Cont
 
 
   NAIC''s developer surface includes authentication, code examples, engineering blog, documentation, developer portal, support, and 22 more developer resources.'
-random_paper: 16
+random_paper: 11
 score:
   band: thin
   composite: 31.8

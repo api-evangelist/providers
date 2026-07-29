@@ -67,7 +67,7 @@ overview: 'Guild Wars 2 publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Guild Wars 2''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 12
+random_paper: 78
 score:
   band: minimal
   composite: 6.2

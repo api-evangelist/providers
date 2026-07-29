@@ -151,7 +151,7 @@ overview: 'Azure OpenAI Service publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Azure OpenAI Service''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 47
+random_paper: 32
 rules:
 - name: Azure OpenAI Service API Rules
   rule_count: 9

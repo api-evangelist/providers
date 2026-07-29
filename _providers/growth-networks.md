@@ -39,7 +39,7 @@ name: Growth Networks
 nav: Providers
 network: true
 overview: Growth Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Semiconductors, Switching Silicon, and Networking Hardware.
-random_paper: 25
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

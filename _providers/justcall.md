@@ -120,7 +120,7 @@ overview: 'JustCall publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   JustCall''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 76
+random_paper: 66
 score:
   band: thin
   composite: 31.3

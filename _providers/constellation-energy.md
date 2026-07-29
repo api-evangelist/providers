@@ -104,7 +104,7 @@ plans:
 - name: Constellation Energy Plans Pricing
   plan_count: 1
   slug: constellation-energy-plans-pricing
-random_paper: 48
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Constellation Energy Rate Limits

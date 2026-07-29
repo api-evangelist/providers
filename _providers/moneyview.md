@@ -52,7 +52,7 @@ name: Moneyview
 nav: Providers
 network: true
 overview: Moneyview is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Personal Loans, and Credit Cards.
-random_paper: 47
+random_paper: 35
 score:
   band: minimal
   composite: 6.2

@@ -131,7 +131,7 @@ plans:
 - name: Recvue Plans Pricing
   plan_count: 1
   slug: recvue-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Recvue Rate Limits

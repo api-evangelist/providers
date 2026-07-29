@@ -63,7 +63,7 @@ overview: 'TopXGun is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   TopXGun''s developer surface includes YouTube channel and 4 more developer resources.'
-random_paper: 78
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

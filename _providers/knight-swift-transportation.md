@@ -65,7 +65,7 @@ plans:
 - name: Knight Swift Transportation Plans Pricing
   plan_count: 1
   slug: knight-swift-transportation-plans-pricing
-random_paper: 71
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Knight Swift Transportation Rate Limits

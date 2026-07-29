@@ -39,7 +39,7 @@ name: Viewlogic Systems
 nav: Providers
 network: true
 overview: Viewlogic Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 68
+random_paper: 46
 score:
   band: minimal
   composite: 4.1

@@ -43,7 +43,7 @@ name: Bolsai
 nav: Providers
 network: true
 overview: 'Bolsai publishes 1 API on the [APIs.io](https://apis.io/) network: Financial Data API. Tagged areas include finance, financial-data, market-data, stocks-equities, and real-estate-funds.'
-random_paper: 2
+random_paper: 74
 score:
   band: minimal
   composite: 12.2

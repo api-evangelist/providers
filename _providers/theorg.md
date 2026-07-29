@@ -140,7 +140,7 @@ overview: 'The Org publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   The Org''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 17 more developer resources.'
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Theorg Rate Limits

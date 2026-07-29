@@ -44,7 +44,7 @@ name: Command E
 nav: Providers
 network: true
 overview: Command E is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Search, Universal Search, and Enterprise Search.
-random_paper: 12
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

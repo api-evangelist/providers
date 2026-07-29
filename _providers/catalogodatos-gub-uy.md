@@ -84,7 +84,7 @@ plans:
 - name: Catalogodatos Gub Uy Plans Pricing
   plan_count: 1
   slug: catalogodatos-gub-uy-plans-pricing
-random_paper: 52
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Catalogodatos Gub Uy Rate Limits

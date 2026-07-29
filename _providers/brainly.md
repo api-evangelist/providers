@@ -87,7 +87,7 @@ overview: 'Brainly is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Brainly''s developer surface includes pricing and 10 more developer resources.'
-random_paper: 42
+random_paper: 33
 score:
   band: emerging
   composite: 15.3

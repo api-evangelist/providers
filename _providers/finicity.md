@@ -184,7 +184,7 @@ overview: 'Finicity publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Finicity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
-random_paper: 73
+random_paper: 63
 score:
   band: developing
   composite: 47.2

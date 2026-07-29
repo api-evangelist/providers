@@ -193,7 +193,7 @@ plans:
 - name: Browserbase Plans Pricing
   plan_count: 1
   slug: browserbase-plans-pricing
-random_paper: 77
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Browserbase Rate Limits

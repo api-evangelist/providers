@@ -48,7 +48,7 @@ name: Babylon Bio
 nav: Providers
 network: true
 overview: Babylon Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Drug Discovery, Pharmaceuticals, and Therapeutics.
-random_paper: 75
+random_paper: 62
 score:
   band: minimal
   composite: 4.3

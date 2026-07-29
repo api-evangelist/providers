@@ -123,7 +123,7 @@ plans:
 - name: Istock Plans Pricing
   plan_count: 3
   slug: istock-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Istock Rate Limits

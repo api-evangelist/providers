@@ -198,7 +198,7 @@ plans:
 - name: Apache Hive Plans Pricing
   plan_count: 3
   slug: apache-hive-plans-pricing
-random_paper: 56
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Apache Hive Rate Limits

@@ -129,7 +129,7 @@ plans:
 - name: Inkeep Plans Pricing
   plan_count: 4
   slug: inkeep-plans-pricing
-random_paper: 4
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Inkeep Rate Limits

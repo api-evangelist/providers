@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: 'AI in action: the companies using the tech to power ahead'
   url: https://tekenable.com/ai-in-action-the-companies-using-the-tech-to-power-ahead/
-random_paper: 51
+random_paper: 39
 score:
   band: minimal
   composite: 5.0

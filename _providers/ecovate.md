@@ -52,7 +52,7 @@ name: Ecovate
 nav: Providers
 network: true
 overview: Ecovate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electricity, Wholesale Electricity Market, and Market Data.
-random_paper: 32
+random_paper: 23
 score:
   band: minimal
   composite: 5.5

@@ -60,7 +60,7 @@ name: Solactron
 nav: Providers
 network: true
 overview: Solactron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Renewable Energy, Thin Film, and Photovoltaics.
-random_paper: 33
+random_paper: 21
 score:
   band: minimal
   composite: 5.5

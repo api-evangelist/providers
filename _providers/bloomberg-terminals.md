@@ -111,7 +111,7 @@ plans:
 - name: Bloomberg Terminals Plans Pricing
   plan_count: 3
   slug: bloomberg-terminals-plans-pricing
-random_paper: 77
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Bloomberg Terminals Rate Limits

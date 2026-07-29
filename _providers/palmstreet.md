@@ -63,7 +63,7 @@ overview: 'Palmstreet is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Palmstreet''s developer surface includes signup flow, support, and 3 more developer resources.'
-random_paper: 62
+random_paper: 49
 score:
   band: minimal
   composite: 10.6

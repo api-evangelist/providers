@@ -181,7 +181,7 @@ plans:
 - name: Sec Plans Pricing
   plan_count: 1
   slug: sec-plans-pricing
-random_paper: 78
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Sec Rate Limits

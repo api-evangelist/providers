@@ -78,7 +78,7 @@ overview: 'Current publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Current''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 60
+random_paper: 51
 score:
   band: minimal
   composite: 12.4

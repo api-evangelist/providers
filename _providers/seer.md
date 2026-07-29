@@ -75,7 +75,7 @@ overview: 'Seer is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Seer''s developer surface includes getting-started guide, support, engineering blog, and 5 more developer resources.'
-random_paper: 36
+random_paper: 31
 score:
   band: emerging
   composite: 15.6

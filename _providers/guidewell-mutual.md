@@ -47,7 +47,7 @@ name: guidewell-mutual
 nav: Providers
 network: true
 overview: guidewell-mutual is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 12
+random_paper: 71
 score:
   band: minimal
   composite: 2.6

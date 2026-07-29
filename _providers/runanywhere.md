@@ -99,7 +99,7 @@ overview: 'RunAnywhere publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   RunAnywhere''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 8 more developer resources.'
-random_paper: 23
+random_paper: 8
 score:
   band: emerging
   composite: 21.6

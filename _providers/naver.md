@@ -183,7 +183,7 @@ plans:
 - name: Naver Plans Pricing
   plan_count: 1
   slug: naver-plans-pricing
-random_paper: 66
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Naver Rate Limits

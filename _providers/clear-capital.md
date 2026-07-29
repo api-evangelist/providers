@@ -110,7 +110,7 @@ plans:
 - name: Clear Capital Plans Pricing
   plan_count: 1
   slug: clear-capital-plans-pricing
-random_paper: 34
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Clear Capital Rate Limits

@@ -71,7 +71,7 @@ overview: 'SVAcademy is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SVAcademy''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 9
+random_paper: 77
 score:
   band: minimal
   composite: 9.7

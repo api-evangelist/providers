@@ -205,7 +205,7 @@ plans:
 - name: Finout Plans Pricing
   plan_count: 3
   slug: finout-plans-pricing
-random_paper: 29
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Finout Rate Limits

@@ -63,7 +63,7 @@ overview: 'Bookend AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bookend AI''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 6.5

@@ -242,7 +242,7 @@ overview: 'Kayhan Space publishes 20 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kayhan Space''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 20
+random_paper: 5
 scopes:
 - name: Kayhan Space Scopes
   scope_count: 1

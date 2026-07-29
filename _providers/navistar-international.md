@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: International and PlusAI Accelerate Level 4 Autonomous ...
   url: https://news.international.com/2025-10-28-International-and-PlusAI-Accelerate-Level-4-Autonomous-Truck-Development-Powered-by-NVIDIA-DRIVE-AGX-Hyperion-Platform
-random_paper: 26
+random_paper: 77
 score:
   band: minimal
   composite: 4.1

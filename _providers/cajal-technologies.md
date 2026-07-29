@@ -79,7 +79,7 @@ overview: 'Cajal Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   Cajal Technologies'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 19
+random_paper: 76
 score:
   band: minimal
   composite: 12.6

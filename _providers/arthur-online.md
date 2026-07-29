@@ -327,7 +327,7 @@ plans:
 - name: Arthur Online Plans
   plan_count: 3
   slug: arthur-online-plans
-random_paper: 9
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Arthur Online Rate Limits

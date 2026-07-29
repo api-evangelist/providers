@@ -63,7 +63,7 @@ overview: 'SilverStream is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   SilverStream''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 49
+random_paper: 33
 score:
   band: minimal
   composite: 9.5

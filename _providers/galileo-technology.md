@@ -44,7 +44,7 @@ name: Galileo Technology
 nav: Providers
 network: true
 overview: Galileo Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Embedded Systems, and Data Communications.
-random_paper: 45
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

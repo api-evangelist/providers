@@ -60,7 +60,7 @@ name: Swordhealth
 nav: Providers
 network: true
 overview: Swordhealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Digital Health, Musculoskeletal, and Physical Therapy.
-random_paper: 4
+random_paper: 69
 score:
   band: minimal
   composite: 9.6

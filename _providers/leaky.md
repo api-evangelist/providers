@@ -52,7 +52,7 @@ name: Leaky
 nav: Providers
 network: true
 overview: Leaky is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Auto Insurance, and Insurance Comparison.
-random_paper: 60
+random_paper: 54
 score:
   band: minimal
   composite: 7.2

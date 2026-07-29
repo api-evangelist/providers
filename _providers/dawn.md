@@ -71,7 +71,7 @@ overview: 'Dawn is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Dawn''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 31
+random_paper: 26
 score:
   band: emerging
   composite: 13.4

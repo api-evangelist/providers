@@ -125,7 +125,7 @@ plans:
 - name: Tavily Plans Pricing
   plan_count: 1
   slug: tavily-plans-pricing
-random_paper: 33
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Tavily Rate Limits

@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Orion Press Releases
   url: https://www.orionlabs.io/category/press-releases/
-random_paper: 69
+random_paper: 39
 score:
   band: minimal
   composite: 5.4

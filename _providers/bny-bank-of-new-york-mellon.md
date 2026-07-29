@@ -149,7 +149,7 @@ plans:
 - name: Bny Bank Of New York Mellon Plans Pricing
   plan_count: 1
   slug: bny-bank-of-new-york-mellon-plans-pricing
-random_paper: 2
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Bny Bank Of New York Mellon Rate Limits

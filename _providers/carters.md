@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: A Tech Perspective on Jimmy Carter's Legacy
   url: https://govciomedia.com/a-tech-perspective-on-jimmy-carters-legacy/
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 10.1

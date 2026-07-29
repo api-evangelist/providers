@@ -69,7 +69,7 @@ plans:
 - name: Epam Systems Plans Pricing
   plan_count: 1
   slug: epam-systems-plans-pricing
-random_paper: 71
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Epam Systems Rate Limits

@@ -83,7 +83,7 @@ overview: 'DeHaat is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   DeHaat''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 62
+random_paper: 55
 score:
   band: minimal
   composite: 12.6

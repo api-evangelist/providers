@@ -52,7 +52,7 @@ name: Story Health
 nav: Providers
 network: true
 overview: Story Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Virtual Care, and Specialty Care.
-random_paper: 67
+random_paper: 52
 score:
   band: minimal
   composite: 7.9

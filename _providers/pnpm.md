@@ -219,7 +219,7 @@ overview: 'pnpm publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   pnpm''s developer surface includes developer portal, getting-started guide, documentation, release notes, legal docs, changelog, support, and 20 more developer resources.'
-random_paper: 48
+random_paper: 43
 score:
   band: emerging
   composite: 19.6

@@ -79,7 +79,7 @@ overview: 'Humanitru is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Humanitru''s developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
-random_paper: 41
+random_paper: 29
 score:
   band: emerging
   composite: 14.0

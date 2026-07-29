@@ -56,7 +56,7 @@ name: ITIS
 nav: Providers
 network: true
 overview: ITIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 46
+random_paper: 41
 score:
   band: minimal
   composite: 5.7

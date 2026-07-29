@@ -173,7 +173,7 @@ overview: 'TicTacTrip publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TicTacTrip''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 19 more developer resources.'
-random_paper: 52
+random_paper: 39
 score:
   band: thin
   composite: 37.6

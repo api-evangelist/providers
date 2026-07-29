@@ -71,7 +71,7 @@ overview: 'Gomultiply is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Gomultiply''s developer surface includes pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 4
+random_paper: 70
 score:
   band: minimal
   composite: 12.3

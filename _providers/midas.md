@@ -59,7 +59,7 @@ overview: 'Midas is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Midas'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 52
+random_paper: 46
 score:
   band: minimal
   composite: 6.7

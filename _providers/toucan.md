@@ -136,7 +136,7 @@ overview: 'Toucan publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Toucan''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, sandbox, authentication, and 15 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: thin
   composite: 32.7

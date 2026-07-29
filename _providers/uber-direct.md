@@ -111,7 +111,7 @@ plans:
 - name: Uber Direct Plans Pricing
   plan_count: 1
   slug: uber-direct-plans-pricing
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Uber Direct Rate Limits

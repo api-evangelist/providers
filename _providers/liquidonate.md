@@ -235,7 +235,7 @@ overview: 'LiquiDonate publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   LiquiDonate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 77
+random_paper: 63
 score:
   band: developing
   composite: 55.7

@@ -511,7 +511,7 @@ plans:
 - name: Emnify Plans Pricing
   plan_count: 11
   slug: emnify-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Emnify Rate Limits

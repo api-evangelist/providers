@@ -75,7 +75,7 @@ overview: 'Parallel Learning is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Parallel Learning''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 0
+random_paper: 58
 score:
   band: emerging
   composite: 13.8

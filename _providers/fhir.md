@@ -180,7 +180,7 @@ plans:
 - name: Fhir Plans Pricing
   plan_count: 3
   slug: fhir-plans-pricing
-random_paper: 30
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Fhir Rate Limits

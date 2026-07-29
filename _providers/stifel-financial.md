@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Stifel CEO 'not comfortable' with AI replacing advisor ...
   url: https://www.investmentnews.com/independent-broker-dealers/stifel-ceo-not-comfortable-with-ai-replacing-advisor-judgement/266281
-random_paper: 45
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Stifel Financial Rate Limits

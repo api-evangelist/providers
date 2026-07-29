@@ -183,7 +183,7 @@ plans:
 - name: Redfin Plans Pricing
   plan_count: 1
   slug: redfin-plans-pricing
-random_paper: 0
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Redfin Rate Limits

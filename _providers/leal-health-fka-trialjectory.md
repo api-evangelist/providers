@@ -100,7 +100,7 @@ overview: 'Leal Health (fka TrialJectory) publishes 1 API on the [APIs.io](https
 
 
   Leal Health (fka TrialJectory)''s developer surface includes signup flow, support, FAQ, and 10 more developer resources.'
-random_paper: 28
+random_paper: 73
 score:
   band: emerging
   composite: 19.4

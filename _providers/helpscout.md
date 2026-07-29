@@ -289,7 +289,7 @@ plans:
 - name: Helpscout Plans Pricing
   plan_count: 7
   slug: helpscout-plans-pricing
-random_paper: 35
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Helpscout Rate Limits

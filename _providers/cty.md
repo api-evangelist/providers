@@ -88,7 +88,7 @@ overview: 'Numina publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Numina''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 3 more developer resources.'
-random_paper: 20
+random_paper: 16
 score:
   band: emerging
   composite: 19.1

@@ -63,7 +63,7 @@ overview: 'Infinimmune is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Infinimmune''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 77
+random_paper: 63
 score:
   band: minimal
   composite: 7.5

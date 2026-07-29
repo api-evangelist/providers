@@ -60,7 +60,7 @@ name: OpenGraphr
 nav: Providers
 network: true
 overview: OpenGraphr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 51
+random_paper: 38
 score:
   band: minimal
   composite: 5.7

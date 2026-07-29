@@ -266,7 +266,7 @@ plans:
 - name: Altruistiq Plans Pricing
   plan_count: 4
   slug: altruistiq-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Altruistiq Rate Limits

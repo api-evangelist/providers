@@ -56,7 +56,7 @@ name: Open Charge Map
 nav: Providers
 network: true
 overview: Open Charge Map publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 38
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

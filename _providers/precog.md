@@ -216,7 +216,7 @@ overview: 'Precog publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Precog''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 8
+random_paper: 0
 scopes:
 - name: Precog Scopes
   scope_count: 3

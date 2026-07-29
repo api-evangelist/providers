@@ -108,7 +108,7 @@ overview: 'Jubilee TV is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jubilee TV''s developer surface includes engineering blog, support, pricing, authentication, and 11 more developer resources.'
-random_paper: 67
+random_paper: 55
 scopes:
 - name: Jubilee Tv Scopes
   scope_count: 4

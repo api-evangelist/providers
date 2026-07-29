@@ -104,7 +104,7 @@ plans:
 - name: Natural Resources Conservation Service Plans Pricing
   plan_count: 3
   slug: natural-resources-conservation-service-plans-pricing
-random_paper: 70
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Natural Resources Conservation Service Rate Limits

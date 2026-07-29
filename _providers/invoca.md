@@ -156,7 +156,7 @@ overview: 'Invoca publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Invoca''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: thin
   composite: 35.8

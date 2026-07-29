@@ -296,7 +296,7 @@ plans:
 - name: Amazon Lambda Plans Pricing
   plan_count: 3
   slug: amazon-lambda-plans-pricing
-random_paper: 36
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Lambda Rate Limits

@@ -1637,7 +1637,7 @@ plans:
 - name: Amazon Workspaces Web Plans Pricing
   plan_count: 3
   slug: amazon-workspaces-web-plans-pricing
-random_paper: 11
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Amazon Workspaces Web Rate Limits

@@ -79,7 +79,7 @@ overview: 'LevelTen Energy publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   LevelTen Energy''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 57
+random_paper: 38
 score:
   band: emerging
   composite: 17.1

@@ -134,7 +134,7 @@ overview: 'Salesgraph publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Salesgraph''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 12 more developer resources.'
-random_paper: 39
+random_paper: 26
 score:
   band: thin
   composite: 41.8

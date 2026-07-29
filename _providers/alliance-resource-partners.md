@@ -65,7 +65,7 @@ plans:
 - name: Alliance Resource Partners Plans Pricing
   plan_count: 1
   slug: alliance-resource-partners-plans-pricing
-random_paper: 59
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Alliance Resource Partners Rate Limits

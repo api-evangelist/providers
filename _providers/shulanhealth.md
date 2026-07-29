@@ -44,7 +44,7 @@ name: Shulan Health
 nav: Providers
 network: true
 overview: Shulan Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Hospitals, Medical, and Hospital Management.
-random_paper: 17
+random_paper: 1
 score:
   band: minimal
   composite: 4.3

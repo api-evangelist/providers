@@ -83,7 +83,7 @@ plans:
 - name: Huginn Plans Pricing
   plan_count: 3
   slug: huginn-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Huginn Rate Limits

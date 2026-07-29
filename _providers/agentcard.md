@@ -243,7 +243,7 @@ overview: 'Agentcard publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Agentcard''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 68
+random_paper: 57
 score:
   band: strong
   composite: 56.5

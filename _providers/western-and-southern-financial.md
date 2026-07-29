@@ -115,7 +115,7 @@ plans:
 - name: Western And Southern Financial Plans Pricing
   plan_count: 1
   slug: western-and-southern-financial-plans-pricing
-random_paper: 37
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Western And Southern Financial Rate Limits

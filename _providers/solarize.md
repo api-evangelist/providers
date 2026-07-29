@@ -147,7 +147,7 @@ overview: 'Solarize publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Solarize''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 15 more developer resources.'
-random_paper: 4
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Solarize Rate Limits

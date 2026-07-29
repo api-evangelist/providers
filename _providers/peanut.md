@@ -75,7 +75,7 @@ overview: 'Peanut is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Peanut''s developer surface includes engineering blog, support, getting-started guide, and 5 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: emerging
   composite: 13.4

@@ -71,7 +71,7 @@ overview: 'Juxta is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Juxta''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 3
+random_paper: 76
 score:
   band: emerging
   composite: 13.7

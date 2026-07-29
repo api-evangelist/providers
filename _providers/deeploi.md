@@ -91,7 +91,7 @@ overview: 'Deeploi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Deeploi''s developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 27
+random_paper: 18
 score:
   band: emerging
   composite: 22.0

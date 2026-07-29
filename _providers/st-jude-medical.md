@@ -120,7 +120,7 @@ press:
 - date: '2026-05-25'
   title: Cybersecurity
   url: https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity
-random_paper: 42
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: St Jude Medical Rate Limits

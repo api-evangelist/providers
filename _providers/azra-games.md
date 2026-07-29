@@ -59,7 +59,7 @@ overview: 'Azra Games is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Azra Games'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 52
+random_paper: 40
 score:
   band: minimal
   composite: 9.7

@@ -39,7 +39,7 @@ name: Sibeam
 nav: Providers
 network: true
 overview: Sibeam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, WirelessHD, 60GHz, and Millimeter Wave.
-random_paper: 72
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

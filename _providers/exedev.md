@@ -164,7 +164,7 @@ overview: 'exe.dev publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   exe.dev''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: thin
   composite: 33.0

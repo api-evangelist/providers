@@ -125,7 +125,7 @@ plans:
 - name: Yum China Plans Pricing
   plan_count: 3
   slug: yum-china-plans-pricing
-random_paper: 38
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Yum China Rate Limits

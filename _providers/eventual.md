@@ -115,7 +115,7 @@ overview: 'Eventual is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Eventual''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, changelog, and 11 more developer resources.'
-random_paper: 78
+random_paper: 68
 score:
   band: emerging
   composite: 23.6

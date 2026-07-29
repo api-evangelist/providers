@@ -108,7 +108,7 @@ plans:
 - name: Flipside Plans Pricing
   plan_count: 4
   slug: flipside-plans-pricing
-random_paper: 58
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: Flipside Rate Limits

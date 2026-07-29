@@ -213,7 +213,7 @@ overview: 'HR & People publishes 27 APIs on the [APIs.io](https://apis.io/) netw
 
 
   HR & People''s developer surface includes code examples and 9 more developer resources.'
-random_paper: 75
+random_paper: 60
 rules:
 - name: HR & People API Rules
   rule_count: 5

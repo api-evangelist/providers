@@ -39,7 +39,7 @@ name: Ketera
 nav: Providers
 network: true
 overview: Ketera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 4
+random_paper: 76
 score:
   band: minimal
   composite: 4.1

@@ -888,7 +888,7 @@ overview: 'Amazon CodeGuru Security publishes 8 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Security''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 37
+random_paper: 6
 rules:
 - name: Amazon CodeGuru Security API Rules
   rule_count: 5

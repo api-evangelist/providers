@@ -71,7 +71,7 @@ overview: 'Bioniq is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bioniq''s developer surface includes pricing, signup flow, and 5 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: emerging
   composite: 14.8

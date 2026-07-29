@@ -340,7 +340,7 @@ plans:
 - name: Kushki Plans Pricing
   plan_count: 6
   slug: kushki-plans-pricing
-random_paper: 23
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Kushki Rate Limits

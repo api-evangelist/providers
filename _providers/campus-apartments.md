@@ -91,7 +91,7 @@ overview: 'Campus Apartments is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Campus Apartments'' developer surface includes product news and 11 more developer resources.'
-random_paper: 43
+random_paper: 21
 score:
   band: minimal
   composite: 8.7

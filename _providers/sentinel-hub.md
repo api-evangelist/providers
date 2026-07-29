@@ -1060,7 +1060,7 @@ plans:
 - name: Sentinel Hub Plans Pricing
   plan_count: 2
   slug: sentinel-hub-plans-pricing
-random_paper: 45
+random_paper: 30
 rate_limits:
 - limit_count: 4
   name: Sentinel Hub Rate Limits

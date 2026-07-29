@@ -152,7 +152,7 @@ overview: 'Starburst publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Starburst''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 54
+random_paper: 42
 score:
   band: thin
   composite: 36.6

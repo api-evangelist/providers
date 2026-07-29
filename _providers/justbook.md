@@ -39,7 +39,7 @@ name: JustBook
 nav: Providers
 network: true
 overview: JustBook is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Travel, Hospitality, and Hotels.
-random_paper: 12
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

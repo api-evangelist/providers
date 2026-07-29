@@ -165,7 +165,7 @@ overview: 'Interhyp publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Interhyp''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 14
+random_paper: 3
 score:
   band: developing
   composite: 44.7

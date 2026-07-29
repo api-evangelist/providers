@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: 'Partners in Innovation: Whirlpool Corporation Secures 4- ...'
   url: https://www.prnewswire.com/news-releases/partners-in-innovation-whirlpool-corporation-secures-4-year-renewal-with-pultegroup-300465695.html
-random_paper: 5
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

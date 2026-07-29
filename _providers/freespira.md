@@ -63,7 +63,7 @@ overview: 'Freespira is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Freespira''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: minimal
   composite: 9.0

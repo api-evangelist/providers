@@ -87,7 +87,7 @@ overview: 'xChange is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   xChange''s developer surface includes engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 23
+random_paper: 14
 score:
   band: emerging
   composite: 17.8

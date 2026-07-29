@@ -163,7 +163,7 @@ overview: 'Enigma publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Enigma''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 72
+random_paper: 65
 score:
   band: thin
   composite: 36.3

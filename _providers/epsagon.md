@@ -56,7 +56,7 @@ name: Epsagon
 nav: Providers
 network: true
 overview: Epsagon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Observability, Monitoring, Application Performance Monitoring, and Distributed Tracing.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 7.7

@@ -108,7 +108,7 @@ overview: 'DataGrail is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   DataGrail''s developer surface includes documentation, API reference, status page, changelog, engineering blog, GitHub presence, support, and 9 more developer resources.'
-random_paper: 68
+random_paper: 57
 score:
   band: emerging
   composite: 15.0

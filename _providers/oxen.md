@@ -229,7 +229,7 @@ overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 47
+random_paper: 42
 score:
   band: developing
   composite: 52.4

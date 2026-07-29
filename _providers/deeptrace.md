@@ -155,7 +155,7 @@ overview: 'Deeptrace publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Deeptrace''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 18 more developer resources.'
-random_paper: 72
+random_paper: 61
 score:
   band: developing
   composite: 47.8

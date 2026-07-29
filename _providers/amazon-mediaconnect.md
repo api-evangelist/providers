@@ -2300,7 +2300,7 @@ plans:
 - name: Amazon Mediaconnect Plans Pricing
   plan_count: 3
   slug: amazon-mediaconnect-plans-pricing
-random_paper: 53
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Amazon Mediaconnect Rate Limits

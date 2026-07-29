@@ -2399,7 +2399,7 @@ plans:
 - name: Workday Plans Pricing
   plan_count: 1
   slug: workday-plans-pricing
-random_paper: 58
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Workday Rate Limits

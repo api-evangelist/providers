@@ -104,7 +104,7 @@ overview: 'Quantum Systems is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Quantum Systems'' developer surface includes engineering blog, product news, YouTube channel, and 12 more developer resources.'
-random_paper: 36
+random_paper: 16
 score:
   band: minimal
   composite: 5.4

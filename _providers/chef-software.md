@@ -388,7 +388,7 @@ overview: 'Chef Software publishes 30 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Chef Software''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 62
+random_paper: 46
 score:
   band: strong
   composite: 57.4

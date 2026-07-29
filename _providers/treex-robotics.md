@@ -68,7 +68,7 @@ name: TreeX Robotics
 nav: Providers
 network: true
 overview: TreeX Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Physical AI, Autonomous Systems, and Field Operations.
-random_paper: 44
+random_paper: 26
 score:
   band: minimal
   composite: 11.1

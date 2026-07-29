@@ -92,7 +92,7 @@ overview: 'wacai publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   wacai''s developer surface includes documentation, authentication, and 9 more developer resources.'
-random_paper: 43
+random_paper: 37
 score:
   band: emerging
   composite: 14.6

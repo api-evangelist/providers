@@ -63,7 +63,7 @@ overview: 'keycdn IP Location Finder publishes 1 API on the [APIs.io](https://ap
 
 
   keycdn IP Location Finder''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 30
+random_paper: 79
 score:
   band: minimal
   composite: 6.2

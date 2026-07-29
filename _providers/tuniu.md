@@ -75,7 +75,7 @@ overview: 'Tuniu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tuniu''s developer surface includes documentation, signup flow, and 5 more developer resources.'
-random_paper: 12
+random_paper: 5
 score:
   band: emerging
   composite: 13.7

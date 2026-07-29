@@ -39,7 +39,7 @@ name: Gantt Charts
 nav: Providers
 network: true
 overview: Gantt Charts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Gantt Charts, Project Management, Scheduling, and Visualization.
-random_paper: 47
+random_paper: 32
 score:
   band: minimal
   composite: 4.1

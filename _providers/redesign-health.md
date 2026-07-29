@@ -60,7 +60,7 @@ name: Redesign Health
 nav: Providers
 network: true
 overview: Redesign Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Care, Venture Capital, Health Technology, and Digital Health.
-random_paper: 23
+random_paper: 4
 score:
   band: minimal
   composite: 7.1

@@ -52,7 +52,7 @@ name: Shriram City
 nav: Providers
 network: true
 overview: Shriram City is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, NBFC, Lending, and Consumer Finance.
-random_paper: 59
+random_paper: 44
 score:
   band: minimal
   composite: 5.0

@@ -48,7 +48,7 @@ name: Maze Therapeutics
 nav: Providers
 network: true
 overview: Maze Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Precision Medicine, Biotechnology, Genetics, and Kidney Disease.
-random_paper: 33
+random_paper: 11
 score:
   band: minimal
   composite: 5.4

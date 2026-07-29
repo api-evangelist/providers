@@ -129,7 +129,7 @@ plans:
 - name: Systran Plans Pricing
   plan_count: 4
   slug: systran-plans-pricing
-random_paper: 77
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Systran Rate Limits

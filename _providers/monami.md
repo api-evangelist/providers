@@ -72,7 +72,7 @@ name: Mon Ami
 nav: Providers
 network: true
 overview: Mon Ami is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aging Services, Disability Services, Case Management, and Healthcare.
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
   composite: 16.3

@@ -38,7 +38,7 @@ name: Maker.me
 nav: Providers
 network: true
 overview: Maker.me is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 27
+random_paper: 18
 scopes:
 - name: Makerme Scopes
   scope_count: 0

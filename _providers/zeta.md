@@ -71,7 +71,7 @@ overview: 'Zeta is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zeta''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 41
+random_paper: 36
 score:
   band: emerging
   composite: 13.3

@@ -87,7 +87,7 @@ plans:
 - name: Bloomberg Applications Plans Pricing
   plan_count: 3
   slug: bloomberg-applications-plans-pricing
-random_paper: 73
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Bloomberg Applications Rate Limits

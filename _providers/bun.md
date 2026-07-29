@@ -103,7 +103,7 @@ overview: 'Bun is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Bun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 8 more developer resources.'
-random_paper: 9
+random_paper: 5
 score:
   band: emerging
   composite: 20.5

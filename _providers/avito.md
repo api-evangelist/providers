@@ -433,7 +433,7 @@ overview: 'Avito publishes 51 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Avito''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, signup flow, and 49 more developer resources.'
-random_paper: 73
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Avito Rate Limits

@@ -113,7 +113,7 @@ plans:
 - name: Gridx Plans Pricing
   plan_count: 1
   slug: gridx-plans-pricing
-random_paper: 68
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Gridx Rate Limits

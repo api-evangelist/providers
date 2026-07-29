@@ -80,7 +80,7 @@ overview: 'Praxis AI (Vortexify) is profiled on the [APIs.io](https://apis.io/) 
 
 
   Praxis AI (Vortexify)''s developer surface includes documentation, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 57
+random_paper: 45
 score:
   band: emerging
   composite: 14.7

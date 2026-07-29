@@ -111,7 +111,7 @@ plans:
 - name: Unit4 Plans Pricing
   plan_count: 2
   slug: unit4-plans-pricing
-random_paper: 26
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Unit4 Rate Limits

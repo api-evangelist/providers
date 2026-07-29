@@ -80,7 +80,7 @@ name: De-Ice
 nav: Providers
 network: true
 overview: De-Ice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aviation, Aerospace, De-Icing, and Aircraft.
-random_paper: 77
+random_paper: 71
 score:
   band: minimal
   composite: 9.2

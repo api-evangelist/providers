@@ -44,7 +44,7 @@ name: Observo Ai
 nav: Providers
 network: true
 overview: Observo Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Pipelines, Observability, Security, and Telemetry.
-random_paper: 67
+random_paper: 55
 score:
   band: minimal
   composite: 5.0

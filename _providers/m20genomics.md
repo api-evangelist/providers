@@ -55,7 +55,7 @@ overview: 'M20 Genomics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   M20 Genomics'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

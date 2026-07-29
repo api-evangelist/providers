@@ -52,7 +52,7 @@ name: Parkway Corp
 nav: Providers
 network: true
 overview: Parkway Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Parking, Infrastructure, Philadelphia, and Mid-Atlantic.
-random_paper: 63
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

@@ -131,7 +131,7 @@ overview: 'Lotame Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) 
 
 
   Lotame Solutions'' developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 36
+random_paper: 15
 score:
   band: emerging
   composite: 25.7

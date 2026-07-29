@@ -39,7 +39,7 @@ name: Downstream Energy
 nav: Providers
 network: true
 overview: Downstream Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Oil and Gas, Petrochemical, and E-commerce.
-random_paper: 49
+random_paper: 27
 score:
   band: minimal
   composite: 4.3

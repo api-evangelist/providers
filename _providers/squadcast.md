@@ -108,7 +108,7 @@ overview: 'Squadcast publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Squadcast''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: thin
   composite: 29.4

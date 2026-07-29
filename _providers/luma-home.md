@@ -39,7 +39,7 @@ name: Luma Home
 nav: Providers
 network: true
 overview: Luma Home is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Networking, WiFi, and Consumer Hardware.
-random_paper: 32
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

@@ -52,7 +52,7 @@ name: MillerKnoll
 nav: Providers
 network: true
 overview: MillerKnoll is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Furniture, Design, Office Furnishings, Workplace, and Home Goods.
-random_paper: 4
+random_paper: 69
 score:
   band: minimal
   composite: 4.4

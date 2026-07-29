@@ -111,7 +111,7 @@ overview: 'alt.bank publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   alt.bank''s developer surface includes documentation, API reference, authentication, sandbox, and 9 more developer resources.'
-random_paper: 22
+random_paper: 13
 score:
   band: thin
   composite: 32.7

@@ -44,7 +44,7 @@ name: Papaya
 nav: Providers
 network: true
 overview: Papaya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 4
+random_paper: 76
 score:
   band: minimal
   composite: 3.2

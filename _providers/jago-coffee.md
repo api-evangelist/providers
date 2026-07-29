@@ -67,7 +67,7 @@ overview: 'Jago Coffee is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Jago Coffee''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 51
+random_paper: 38
 score:
   band: minimal
   composite: 10.5

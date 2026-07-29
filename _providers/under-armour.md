@@ -187,7 +187,7 @@ press:
 - date: '2026-05-25'
   title: Under Armour's digital push continues through slumped ...
   url: https://www.ciodive.com/news/under-armours-digital-push-continues-through-slumped-financials/586002/
-random_paper: 64
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Under Armour Rate Limits

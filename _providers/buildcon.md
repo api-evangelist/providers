@@ -59,7 +59,7 @@ overview: 'Buildcon is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Buildcon''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: minimal
   composite: 6.2

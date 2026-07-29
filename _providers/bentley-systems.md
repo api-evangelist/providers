@@ -855,7 +855,7 @@ plans:
 - name: Bentley Systems Plans Pricing
   plan_count: 4
   slug: bentley-systems-plans-pricing
-random_paper: 12
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Bentley Systems Rate Limits

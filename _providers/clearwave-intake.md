@@ -75,7 +75,7 @@ overview: 'Clearwave publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Clearwave''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 55
+random_paper: 35
 score:
   band: minimal
   composite: 8.1

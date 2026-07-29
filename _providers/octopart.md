@@ -56,7 +56,7 @@ name: Octopart
 nav: Providers
 network: true
 overview: Octopart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping and Public APIs.
-random_paper: 7
+random_paper: 76
 score:
   band: minimal
   composite: 5.7

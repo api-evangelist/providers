@@ -128,7 +128,7 @@ overview: 'Insightly publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Insightly''s developer surface includes authentication, documentation, support, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 39
+random_paper: 27
 score:
   band: thin
   composite: 28.8

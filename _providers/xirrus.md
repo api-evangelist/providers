@@ -56,7 +56,7 @@ name: Xirrus
 nav: Providers
 network: true
 overview: Xirrus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wi-Fi, Wireless, Networking, and Access Points.
-random_paper: 53
+random_paper: 45
 score:
   band: minimal
   composite: 6.9

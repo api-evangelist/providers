@@ -75,7 +75,7 @@ overview: 'Sensors Data is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Sensors Data''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 51
+random_paper: 36
 score:
   band: minimal
   composite: 12.3

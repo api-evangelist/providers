@@ -278,7 +278,7 @@ plans:
 - name: Compresr Plans
   plan_count: 2
   slug: compresr-plans
-random_paper: 6
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Compresr Rate Limits

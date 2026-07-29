@@ -298,7 +298,7 @@ overview: 'HPE Aruba Networking publishes 10 APIs on the [APIs.io](https://apis.
 
 
   HPE Aruba Networking''s developer surface includes developer portal, documentation, support, engineering blog, YouTube channel, tooling, code examples, and 43 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: emerging
   composite: 21.3

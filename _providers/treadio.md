@@ -345,7 +345,7 @@ overview: 'tread.io publishes 58 APIs on the [APIs.io](https://apis.io/) network
 
 
   tread.io''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 20 more developer resources.'
-random_paper: 33
+random_paper: 24
 score:
   band: developing
   composite: 52.3

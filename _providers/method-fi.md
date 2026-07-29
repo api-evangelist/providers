@@ -130,7 +130,7 @@ plans:
 - name: Method Fi Plans Pricing
   plan_count: 2
   slug: method-fi-plans-pricing
-random_paper: 24
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Method Fi Rate Limits

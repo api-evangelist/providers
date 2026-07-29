@@ -103,7 +103,7 @@ overview: 'UnitedMasters is profiled on the [APIs.io](https://apis.io/) network.
 
 
   UnitedMasters'' developer surface includes support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 73
+random_paper: 56
 score:
   band: emerging
   composite: 19.1

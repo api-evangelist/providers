@@ -76,7 +76,7 @@ overview: 'Innoviti is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Innoviti''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: emerging
   composite: 19.5

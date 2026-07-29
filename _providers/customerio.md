@@ -155,7 +155,7 @@ plans:
 - name: Customerio Plans Pricing
   plan_count: 3
   slug: customerio-plans-pricing
-random_paper: 71
+random_paper: 58
 rate_limits:
 - limit_count: 6
   name: Customerio Rate Limits

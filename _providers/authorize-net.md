@@ -237,7 +237,7 @@ plans:
 - name: Authorize Net Plans Pricing
   plan_count: 3
   slug: authorize-net-plans-pricing
-random_paper: 16
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Authorize Net Rate Limits

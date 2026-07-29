@@ -56,7 +56,7 @@ name: Srp Energy
 nav: Providers
 network: true
 overview: Srp Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 9
+random_paper: 76
 score:
   band: minimal
   composite: 5.7

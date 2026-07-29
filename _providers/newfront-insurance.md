@@ -71,7 +71,7 @@ overview: 'Newfront Insurance is profiled on the [APIs.io](https://apis.io/) net
 
 
   Newfront Insurance''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 0
+random_paper: 56
 score:
   band: emerging
   composite: 14.3

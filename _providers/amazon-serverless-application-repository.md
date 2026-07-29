@@ -345,7 +345,7 @@ plans:
 - name: Amazon Serverless Application Repository Plans Pricing
   plan_count: 3
   slug: amazon-serverless-application-repository-plans-pricing
-random_paper: 67
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Serverless Application Repository Rate Limits

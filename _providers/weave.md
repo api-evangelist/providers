@@ -144,7 +144,7 @@ overview: 'Weave publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 62
+random_paper: 56
 scopes:
 - name: Weave Scopes
   scope_count: 3

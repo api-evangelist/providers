@@ -56,7 +56,7 @@ name: Pyka
 nav: Providers
 network: true
 overview: Pyka is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Aircraft, Drones, Aerospace, and Agriculture.
-random_paper: 42
+random_paper: 37
 score:
   band: minimal
   composite: 7.1

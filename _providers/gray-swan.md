@@ -158,7 +158,7 @@ overview: 'Gray Swan publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Gray Swan''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 52
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Gray Swan Rate Limits

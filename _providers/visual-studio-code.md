@@ -83,7 +83,7 @@ overview: 'Visual Studio Code publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Visual Studio Code''s developer surface includes documentation, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 8
+random_paper: 65
 score:
   band: minimal
   composite: 8.8

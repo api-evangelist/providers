@@ -147,7 +147,7 @@ overview: 'Celo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Celo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, and 18 more developer resources.'
-random_paper: 24
+random_paper: 19
 score:
   band: thin
   composite: 33.2

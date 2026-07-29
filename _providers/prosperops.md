@@ -84,7 +84,7 @@ plans:
 - name: Prosperops Plans Pricing
   plan_count: 3
   slug: prosperops-plans-pricing
-random_paper: 11
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Prosperops Rate Limits

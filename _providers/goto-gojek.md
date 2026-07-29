@@ -174,7 +174,7 @@ plans:
 - name: Goto Gojek Plans Pricing
   plan_count: 1
   slug: goto-gojek-plans-pricing
-random_paper: 66
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Goto Gojek Rate Limits

@@ -56,7 +56,7 @@ name: SAWO Labs
 nav: Providers
 network: true
 overview: SAWO Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication And Authorization and Public APIs.
-random_paper: 36
+random_paper: 25
 score:
   band: minimal
   composite: 5.7

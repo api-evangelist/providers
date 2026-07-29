@@ -114,7 +114,7 @@ plans:
 - name: Cloudimage Plans Pricing
   plan_count: 4
   slug: cloudimage-plans-pricing
-random_paper: 23
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Cloudimage Rate Limits

@@ -59,7 +59,7 @@ overview: 'Advanced Drainage Systems is profiled on the [APIs.io](https://apis.i
 
 
   Advanced Drainage Systems'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 3
+random_paper: 51
 score:
   band: minimal
   composite: 4.9

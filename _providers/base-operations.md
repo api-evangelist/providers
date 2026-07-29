@@ -181,7 +181,7 @@ overview: 'Base Operations publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Base Operations'' developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 47
+random_paper: 28
 score:
   band: developing
   composite: 42.8

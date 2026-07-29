@@ -53,7 +53,7 @@ name: Miru Labs
 nav: Providers
 network: true
 overview: Miru Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Insider Threat, and Investigations.
-random_paper: 39
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

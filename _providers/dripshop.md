@@ -104,7 +104,7 @@ overview: 'Dripshop publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Dripshop''s developer surface includes authentication, support, getting-started guide, and 9 more developer resources.'
-random_paper: 4
+random_paper: 73
 score:
   band: thin
   composite: 28.4

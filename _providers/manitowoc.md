@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Manitowoc County Board enacts an 18-month moratorium ...
   url: https://www.instagram.com/p/DXw5PNKFJ7T/
-random_paper: 29
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

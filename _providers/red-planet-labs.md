@@ -104,7 +104,7 @@ overview: 'Red Planet Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Red Planet Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 45
+random_paper: 27
 score:
   band: emerging
   composite: 19.0

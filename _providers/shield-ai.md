@@ -100,7 +100,7 @@ plans:
 - name: Shield Ai Plans Pricing
   plan_count: 1
   slug: shield-ai-plans-pricing
-random_paper: 11
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Shield Ai Rate Limits

@@ -104,7 +104,7 @@ plans:
 - name: Firefly Aerospace Plans Pricing
   plan_count: 0
   slug: firefly-aerospace-plans-pricing
-random_paper: 7
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Firefly Aerospace Rate Limits

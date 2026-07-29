@@ -172,7 +172,7 @@ plans:
 - name: Mercury Plans Pricing
   plan_count: 3
   slug: mercury-plans-pricing
-random_paper: 64
+random_paper: 55
 rate_limits:
 - limit_count: 4
   name: Mercury Rate Limits

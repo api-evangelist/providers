@@ -103,7 +103,7 @@ overview: 'PathAI is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   PathAI''s developer surface includes engineering blog, support, YouTube channel, and 12 more developer resources.'
-random_paper: 44
+random_paper: 36
 score:
   band: emerging
   composite: 17.0

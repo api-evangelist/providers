@@ -130,7 +130,7 @@ plans:
 - name: Uptime Com Plans Pricing
   plan_count: 4
   slug: uptime-com-plans-pricing
-random_paper: 76
+random_paper: 64
 rate_limits:
 - limit_count: 4
   name: Uptime Com Rate Limits

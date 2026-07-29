@@ -137,7 +137,7 @@ plans:
 - name: Scrive Plans Pricing
   plan_count: 4
   slug: scrive-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Scrive Rate Limits

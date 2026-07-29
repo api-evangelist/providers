@@ -67,7 +67,7 @@ overview: 'Boom is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Boom''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 34
+random_paper: 29
 score:
   band: minimal
   composite: 10.5

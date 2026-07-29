@@ -112,7 +112,7 @@ overview: 'Nodes and Links publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Nodes and Links'' developer surface includes documentation, signup flow, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 57
+random_paper: 39
 score:
   band: emerging
   composite: 27.9

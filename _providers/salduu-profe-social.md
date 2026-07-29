@@ -48,7 +48,7 @@ name: Salduu (Profe Social)
 nav: Providers
 network: true
 overview: Salduu (Profe Social) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Networking, Fediverse, and Mastodon.
-random_paper: 23
+random_paper: 79
 score:
   band: minimal
   composite: 6.1

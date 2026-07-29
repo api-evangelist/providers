@@ -67,7 +67,7 @@ overview: 'Fig 1 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Fig 1''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 9
+random_paper: 4
 score:
   band: emerging
   composite: 13.0

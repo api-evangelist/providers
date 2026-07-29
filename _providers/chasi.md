@@ -72,7 +72,7 @@ name: Chasi
 nav: Providers
 network: true
 overview: Chasi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Equipment, and Equipment Rental.
-random_paper: 46
+random_paper: 40
 score:
   band: minimal
   composite: 11.5

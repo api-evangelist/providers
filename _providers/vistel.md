@@ -52,7 +52,7 @@ name: Vistel
 nav: Providers
 network: true
 overview: Vistel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Ophthalmology, Artificial Intelligence, and Medical Imaging.
-random_paper: 31
+random_paper: 23
 score:
   band: minimal
   composite: 6.9

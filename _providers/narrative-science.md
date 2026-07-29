@@ -44,7 +44,7 @@ name: Narrative Science
 nav: Providers
 network: true
 overview: Narrative Science is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Natural Language Generation, Data Storytelling, and Analytics.
-random_paper: 9
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

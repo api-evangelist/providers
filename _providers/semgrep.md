@@ -115,7 +115,7 @@ plans:
 - name: Semgrep Plans Pricing
   plan_count: 1
   slug: semgrep-plans-pricing
-random_paper: 44
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Semgrep Rate Limits

@@ -67,7 +67,7 @@ overview: 'Sensi (fka Clanz) is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Sensi (fka Clanz)''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 56
+random_paper: 38
 score:
   band: emerging
   composite: 13.1

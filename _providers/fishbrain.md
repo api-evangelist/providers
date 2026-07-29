@@ -91,7 +91,7 @@ overview: 'Fishbrain is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Fishbrain''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 2
+random_paper: 70
 score:
   band: emerging
   composite: 15.8

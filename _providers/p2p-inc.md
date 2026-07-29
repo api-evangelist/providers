@@ -44,7 +44,7 @@ name: P2P, Inc.
 nav: Providers
 network: true
 overview: P2P, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Micro-insurance, and Japan.
-random_paper: 1
+random_paper: 73
 score:
   band: minimal
   composite: 4.3

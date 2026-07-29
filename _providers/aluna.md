@@ -95,7 +95,7 @@ overview: 'Aluna is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aluna''s developer surface includes support, getting-started guide, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 55
+random_paper: 49
 score:
   band: emerging
   composite: 15.9

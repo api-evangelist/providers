@@ -44,7 +44,7 @@ name: Plexxi *
 nav: Providers
 network: true
 overview: Plexxi * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Networking, SDN, and Data Center.
-random_paper: 34
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

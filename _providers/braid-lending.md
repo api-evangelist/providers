@@ -87,7 +87,7 @@ overview: 'Pylon (formerly Braid Lending) is profiled on the [APIs.io](https://a
 
 
   Pylon (formerly Braid Lending)''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 32
+random_paper: 16
 score:
   band: emerging
   composite: 13.4

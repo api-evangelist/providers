@@ -91,7 +91,7 @@ overview: 'Maven Clinic is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Maven Clinic''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 21
+random_paper: 6
 score:
   band: minimal
   composite: 8.7

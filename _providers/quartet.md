@@ -87,7 +87,7 @@ overview: 'Quartet Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Quartet Health''s developer surface includes support and 10 more developer resources.'
-random_paper: 63
+random_paper: 54
 score:
   band: emerging
   composite: 20.2

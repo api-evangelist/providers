@@ -56,7 +56,7 @@ name: Examedi
 nav: Providers
 network: true
 overview: Examedi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, HealthTech, and Diagnostics.
-random_paper: 22
+random_paper: 13
 score:
   band: minimal
   composite: 7.6

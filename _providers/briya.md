@@ -67,7 +67,7 @@ overview: 'Briya is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Briya''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 61
+random_paper: 55
 score:
   band: minimal
   composite: 12.7

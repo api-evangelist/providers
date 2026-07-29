@@ -560,7 +560,7 @@ plans:
 - name: Sportsdataio Plans Pricing
   plan_count: 4
   slug: sportsdataio-plans-pricing
-random_paper: 45
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Sportsdataio Rate Limits

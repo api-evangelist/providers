@@ -133,7 +133,7 @@ plans:
 - name: Bannerbear Plans Pricing
   plan_count: 4
   slug: bannerbear-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Bannerbear Rate Limits

@@ -87,7 +87,7 @@ overview: 'Cofertility is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Cofertility''s developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 13
+random_paper: 78
 score:
   band: emerging
   composite: 16.2

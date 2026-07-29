@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: Normalization
 nav: Providers
 network: true
-random_paper: 72
+random_paper: 55
 slug: normalization
 tags:
 - Data Management

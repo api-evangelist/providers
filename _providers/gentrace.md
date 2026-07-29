@@ -140,7 +140,7 @@ overview: 'Gentrace publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gentrace''s developer surface includes authentication, documentation, API reference, and 15 more developer resources.'
-random_paper: 51
+random_paper: 41
 score:
   band: thin
   composite: 32.1

@@ -60,7 +60,7 @@ name: Knotch
 nav: Providers
 network: true
 overview: Knotch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Content Intelligence, Content Marketing, Analytics, and Artificial Intelligence.
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 9.0

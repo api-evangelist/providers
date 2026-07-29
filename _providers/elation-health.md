@@ -306,7 +306,7 @@ overview: 'Elation Health publishes 16 APIs on the [APIs.io](https://apis.io/) n
 
 
   Elation Health''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 1
+random_paper: 63
 scopes:
 - name: Elation Health Scopes
   scope_count: 5

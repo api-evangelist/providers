@@ -44,7 +44,7 @@ name: Ekpa
 nav: Providers
 network: true
 overview: Ekpa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Portfolio Management, and Trading.
-random_paper: 22
+random_paper: 17
 score:
   band: minimal
   composite: 4.3

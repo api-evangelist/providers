@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: What Can Other Grocery Retailers Learn From Publix's ...
   url: https://retailwire.com/discussion/publix-success/
-random_paper: 14
+random_paper: 68
 score:
   band: minimal
   composite: 5.7

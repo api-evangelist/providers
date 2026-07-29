@@ -67,7 +67,7 @@ overview: 'Chegg.com is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chegg.com''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 39
+random_paper: 29
 score:
   band: minimal
   composite: 10.5

@@ -208,7 +208,7 @@ overview: 'Sequel publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sequel''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 23
+random_paper: 15
 score:
   band: developing
   composite: 52.5

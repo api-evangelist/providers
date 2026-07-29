@@ -39,7 +39,7 @@ name: 6 Wunderkinder
 nav: Providers
 network: true
 overview: 6 Wunderkinder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, Task Management, To-Do, and Berlin.
-random_paper: 54
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

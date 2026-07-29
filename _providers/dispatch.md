@@ -193,7 +193,7 @@ overview: 'Dispatch publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Dispatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: developing
   composite: 50.2

@@ -63,7 +63,7 @@ overview: 'Bioyond Robotics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Bioyond Robotics'' developer surface includes YouTube channel and 4 more developer resources.'
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 7.9

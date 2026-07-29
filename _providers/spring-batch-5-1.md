@@ -152,7 +152,7 @@ plans:
 - name: Spring Batch 5 1 Plans Pricing
   plan_count: 3
   slug: spring-batch-5-1-plans-pricing
-random_paper: 67
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Spring Batch 5 1 Rate Limits

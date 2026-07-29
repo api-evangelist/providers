@@ -39,7 +39,7 @@ name: Skybox Imaging
 nav: Providers
 network: true
 overview: Skybox Imaging is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Satellite Imagery, Earth Observation, Geospatial, and Remote Sensing.
-random_paper: 27
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

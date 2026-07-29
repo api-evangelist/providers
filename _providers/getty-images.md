@@ -233,7 +233,7 @@ plans:
 - name: Getty Images Plans Pricing
   plan_count: 3
   slug: getty-images-plans-pricing
-random_paper: 47
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Getty Images Rate Limits

@@ -79,7 +79,7 @@ overview: 'Amber Bio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Amber Bio''s developer surface includes product news and 8 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 6.9

@@ -239,7 +239,7 @@ plans:
 - name: Wolfram Alpha Plans Pricing
   plan_count: 3
   slug: wolfram-alpha-plans-pricing
-random_paper: 59
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Wolfram Alpha Rate Limits

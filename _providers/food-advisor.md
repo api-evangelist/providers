@@ -56,7 +56,7 @@ name: Food Advisor
 nav: Providers
 network: true
 overview: Food Advisor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Food Discovery, Restaurants, and Mobile App.
-random_paper: 44
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

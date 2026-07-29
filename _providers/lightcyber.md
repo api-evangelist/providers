@@ -53,7 +53,7 @@ name: LightCyber
 nav: Providers
 network: true
 overview: LightCyber is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Behavioral Analytics, and Network Traffic Analysis.
-random_paper: 42
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

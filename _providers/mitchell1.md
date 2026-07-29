@@ -83,7 +83,7 @@ plans:
 - name: Mitchell1 Plans Pricing
   plan_count: 4
   slug: mitchell1-plans-pricing
-random_paper: 30
+random_paper: 19
 score:
   band: emerging
   composite: 15.9

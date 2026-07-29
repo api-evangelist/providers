@@ -72,7 +72,7 @@ plans:
 - name: Evercore Plans Pricing
   plan_count: 1
   slug: evercore-plans-pricing
-random_paper: 69
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Evercore Rate Limits

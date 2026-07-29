@@ -497,7 +497,7 @@ plans:
 - name: Gladly Plans Pricing
   plan_count: 7
   slug: gladly-plans-pricing
-random_paper: 5
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Gladly Rate Limits

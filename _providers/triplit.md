@@ -177,7 +177,7 @@ plans:
 - name: Triplit Plans Pricing
   plan_count: 1
   slug: triplit-plans-pricing
-random_paper: 65
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Triplit Rate Limits

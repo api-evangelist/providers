@@ -122,7 +122,7 @@ plans:
 - name: Showpad Plans Pricing
   plan_count: 3
   slug: showpad-plans-pricing
-random_paper: 47
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Showpad Rate Limits

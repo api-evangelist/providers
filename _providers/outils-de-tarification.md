@@ -39,7 +39,7 @@ name: Outils De Tarification
 nav: Providers
 network: true
 overview: Outils De Tarification is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include France, Pricing, and Tarification.
-random_paper: 28
+random_paper: 0
 score:
   band: minimal
   composite: 3.2

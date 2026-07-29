@@ -266,7 +266,7 @@ plans:
 - name: Doi Plans Pricing
   plan_count: 3
   slug: doi-plans-pricing
-random_paper: 0
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Doi Rate Limits

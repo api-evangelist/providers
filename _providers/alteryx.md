@@ -536,7 +536,7 @@ plans:
 - name: Alteryx Plans Pricing
   plan_count: 3
   slug: alteryx-plans-pricing
-random_paper: 66
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Alteryx Rate Limits

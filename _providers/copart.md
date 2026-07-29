@@ -48,7 +48,7 @@ name: Copart
 nav: Providers
 network: true
 overview: Copart is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 17
+random_paper: 9
 score:
   band: minimal
   composite: 3.3

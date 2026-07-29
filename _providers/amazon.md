@@ -798,7 +798,7 @@ press:
 - date: '2026-05-25'
   title: Press Center - US Press Center - Amazon's Press Releases
   url: https://press.aboutamazon.com/press-release-archive
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Amazon Rate Limits

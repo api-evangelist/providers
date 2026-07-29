@@ -137,7 +137,7 @@ plans:
 - name: Agno Agi Plans Pricing
   plan_count: 3
   slug: agno-agi-plans-pricing
-random_paper: 60
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Agno Agi Rate Limits

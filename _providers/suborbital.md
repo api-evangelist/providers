@@ -71,7 +71,7 @@ overview: 'Suborbital is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Suborbital''s developer surface includes CLI and 6 more developer resources.'
-random_paper: 52
+random_paper: 39
 score:
   band: minimal
   composite: 8.3

@@ -114,7 +114,7 @@ plans:
 - name: Pubnub Plans Pricing
   plan_count: 6
   slug: pubnub-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Pubnub Rate Limits

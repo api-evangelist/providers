@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Ingram Micro Announces Agentic AI Capabilities, Adds ...
   url: https://www.businesswire.com/news/home/20251028908276/en/Ingram-Micro-Announces-Agentic-AI-Capabilities-Adds-Googles-Gemini-Models-to-Xvantage-AI-Factory
-random_paper: 36
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Ingram Micro Rate Limits

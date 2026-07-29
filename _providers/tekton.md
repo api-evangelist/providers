@@ -220,7 +220,7 @@ plans:
 - name: Tekton Plans Pricing
   plan_count: 2
   slug: tekton-plans-pricing
-random_paper: 29
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Tekton Rate Limits

@@ -735,7 +735,7 @@ plans:
 - name: Birdeye Plans Pricing
   plan_count: 4
   slug: birdeye-plans-pricing
-random_paper: 29
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Birdeye Rate Limits

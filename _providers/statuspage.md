@@ -139,7 +139,7 @@ overview: 'Statuspage publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Statuspage''s developer surface includes authentication, documentation, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 62
+random_paper: 49
 rules:
 - name: Statuspage API Rules
   rule_count: 6

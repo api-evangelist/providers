@@ -126,7 +126,7 @@ plans:
 - name: Channex Plans Pricing
   plan_count: 2
   slug: channex-plans-pricing
-random_paper: 30
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Channex Rate Limits

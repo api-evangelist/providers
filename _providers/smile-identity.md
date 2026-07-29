@@ -219,7 +219,7 @@ overview: 'Smile Identity publishes 12 APIs on the [APIs.io](https://apis.io/) n
 
 
   Smile Identity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 23 more developer resources.'
-random_paper: 35
+random_paper: 17
 score:
   band: developing
   composite: 54.7

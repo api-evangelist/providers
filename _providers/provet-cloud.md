@@ -130,7 +130,7 @@ plans:
 - name: Provet Cloud Plans Pricing
   plan_count: 3
   slug: provet-cloud-plans-pricing
-random_paper: 67
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Provet Cloud Rate Limits

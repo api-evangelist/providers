@@ -84,7 +84,7 @@ plans:
 - name: Datos Gob Do Plans Pricing
   plan_count: 1
   slug: datos-gob-do-plans-pricing
-random_paper: 46
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Datos Gob Do Rate Limits

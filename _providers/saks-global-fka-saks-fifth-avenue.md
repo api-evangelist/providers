@@ -48,7 +48,7 @@ name: Saks Global (fka Saks Fifth Avenue)
 nav: Providers
 network: true
 overview: Saks Global (fka Saks Fifth Avenue) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-commerce, Luxury, and Fashion.
-random_paper: 37
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

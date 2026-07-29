@@ -103,7 +103,7 @@ overview: 'L''Oréal publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   L''Oréal''s developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 7
+random_paper: 79
 score:
   band: minimal
   composite: 8.1

@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Gartner is the world authority on AI
   url: https://www.gartner.com/en/ai
-random_paper: 44
+random_paper: 35
 score:
   band: emerging
   composite: 15.8

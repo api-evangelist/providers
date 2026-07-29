@@ -48,7 +48,7 @@ name: Pocket Menu
 nav: Providers
 network: true
 overview: Pocket Menu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Reservations, Payments, and Dining.
-random_paper: 22
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

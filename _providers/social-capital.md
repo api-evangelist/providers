@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Social Capital
 nav: Providers
 network: true
-random_paper: 71
+random_paper: 54
 slug: social-capital
 tags:
 - Venture Capital

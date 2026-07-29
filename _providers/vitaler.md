@@ -91,7 +91,7 @@ overview: 'Vital is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Vital''s developer surface includes documentation, support, engineering blog, and 9 more developer resources.'
-random_paper: 48
+random_paper: 39
 score:
   band: emerging
   composite: 21.6

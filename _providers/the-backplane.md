@@ -39,7 +39,7 @@ name: The Backplane
 nav: Providers
 network: true
 overview: The Backplane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Network, Fan Community, Defunct, and Battery Ventures Portfolio.
-random_paper: 31
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

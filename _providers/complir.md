@@ -99,7 +99,7 @@ overview: 'Complir is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Complir''s developer surface includes support, engineering blog, and 12 more developer resources.'
-random_paper: 47
+random_paper: 38
 score:
   band: emerging
   composite: 19.1

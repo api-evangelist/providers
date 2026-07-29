@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: IAC launches tender offer to acquire Care.com
   url: https://www.staffingindustry.com/Editorial/Healthcare-Staffing-Report/Archive-Healthcare-Staffing-Report/Feb.-13-2020/IAC-launches-tender-offer-to-acquire-Care.com
-random_paper: 68
+random_paper: 44
 score:
   band: minimal
   composite: 4.1

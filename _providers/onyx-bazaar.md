@@ -56,7 +56,7 @@ name: Onyx Bazaar
 nav: Providers
 network: true
 overview: Onyx Bazaar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 26
+random_paper: 12
 score:
   band: minimal
   composite: 6.5

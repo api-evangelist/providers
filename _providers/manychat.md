@@ -115,7 +115,7 @@ overview: 'ManyChat publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ManyChat''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: thin
   composite: 28.3

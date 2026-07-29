@@ -48,7 +48,7 @@ name: Cruise
 nav: Providers
 network: true
 overview: Cruise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Autonomous Vehicles, Robotaxi, and Self-Driving.
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

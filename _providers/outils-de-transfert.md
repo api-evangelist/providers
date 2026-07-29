@@ -39,7 +39,7 @@ name: Outils De Transfert
 nav: Providers
 network: true
 overview: Outils De Transfert is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Transfer, File Transfer, and France.
-random_paper: 52
+random_paper: 28
 score:
   band: minimal
   composite: 3.2

@@ -39,7 +39,7 @@ name: Nistevo
 nav: Providers
 network: true
 overview: Nistevo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Transportation Management, and SaaS.
-random_paper: 65
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

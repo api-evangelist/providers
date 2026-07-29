@@ -115,7 +115,7 @@ plans:
 - name: Uq Plans Pricing
   plan_count: 2
   slug: uq-plans-pricing
-random_paper: 72
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Uq Rate Limits

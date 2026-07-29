@@ -63,7 +63,7 @@ overview: 'Iterum Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Iterum Therapeutics'' developer surface includes support and 4 more developer resources.'
-random_paper: 29
+random_paper: 4
 score:
   band: minimal
   composite: 10.1

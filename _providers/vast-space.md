@@ -97,7 +97,7 @@ plans:
 - name: Vast Space Plans Pricing
   plan_count: 1
   slug: vast-space-plans-pricing
-random_paper: 67
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Vast Space Rate Limits

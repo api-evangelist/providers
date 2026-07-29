@@ -259,7 +259,7 @@ plans:
 - name: Truora Plans Pricing
   plan_count: 3
   slug: truora-plans-pricing
-random_paper: 37
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Truora Rate Limits

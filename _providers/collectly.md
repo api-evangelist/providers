@@ -111,7 +111,7 @@ overview: 'Collectly publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Collectly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 23
+random_paper: 11
 score:
   band: thin
   composite: 38.0

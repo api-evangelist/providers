@@ -79,7 +79,7 @@ overview: 'Island is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Island''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 3
+random_paper: 75
 score:
   band: emerging
   composite: 15.8

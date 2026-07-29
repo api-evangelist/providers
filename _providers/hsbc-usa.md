@@ -102,7 +102,7 @@ overview: 'HSBC USA publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   HSBC USA''s developer surface includes documentation, support, and 13 more developer resources.'
-random_paper: 0
+random_paper: 70
 score:
   band: emerging
   composite: 16.9

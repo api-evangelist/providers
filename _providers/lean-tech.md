@@ -344,7 +344,7 @@ plans:
 - name: Lean Tech Plans Pricing
   plan_count: 5
   slug: lean-tech-plans-pricing
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Lean Tech Rate Limits

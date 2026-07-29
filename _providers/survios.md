@@ -48,7 +48,7 @@ name: Survios
 nav: Providers
 network: true
 overview: Survios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Virtual Reality, Games, and Entertainment.
-random_paper: 5
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

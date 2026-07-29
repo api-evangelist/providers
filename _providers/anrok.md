@@ -269,7 +269,7 @@ plans:
 - name: Anrok Plans Pricing
   plan_count: 2
   slug: anrok-plans-pricing
-random_paper: 65
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Anrok Rate Limits

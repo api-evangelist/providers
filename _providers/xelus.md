@@ -39,7 +39,7 @@ name: XELUS
 nav: Providers
 network: true
 overview: XELUS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Service Parts Planning, Inventory Management, and Logistics.
-random_paper: 8
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

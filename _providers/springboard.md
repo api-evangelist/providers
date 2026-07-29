@@ -56,7 +56,7 @@ name: Springboard
 nav: Providers
 network: true
 overview: Springboard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Online Learning, and Bootcamp.
-random_paper: 73
+random_paper: 59
 score:
   band: minimal
   composite: 6.4

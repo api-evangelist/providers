@@ -72,7 +72,7 @@ plans:
 - name: Phind Plans Pricing
   plan_count: 5
   slug: phind-plans-pricing
-random_paper: 57
+random_paper: 51
 score:
   band: minimal
   composite: 12.3

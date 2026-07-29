@@ -68,7 +68,7 @@ overview: 'Sware (fka BTR) is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Sware (fka BTR)''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 6
+random_paper: 70
 score:
   band: minimal
   composite: 11.0

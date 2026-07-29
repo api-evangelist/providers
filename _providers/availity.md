@@ -559,7 +559,7 @@ plans:
 - name: Availity Plans Pricing
   plan_count: 5
   slug: availity-plans-pricing
-random_paper: 77
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Availity Rate Limits

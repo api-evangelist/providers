@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Ralph Lauren elevates AI to the C-suite
   url: https://www.ciodive.com/news/ralph-lauren-AI-tech-leader-strategy-agentic/802773/
-random_paper: 42
+random_paper: 27
 score:
   band: minimal
   composite: 9.5

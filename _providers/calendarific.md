@@ -253,7 +253,7 @@ plans:
 - name: Calendarific Plans Pricing
   plan_count: 4
   slug: calendarific-plans-pricing
-random_paper: 52
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Calendarific Rate Limits

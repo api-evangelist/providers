@@ -91,7 +91,7 @@ overview: 'Veratrak is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Veratrak''s developer surface includes support and 11 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: emerging
   composite: 18.9

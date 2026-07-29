@@ -81,7 +81,7 @@ plans:
 - name: Zenmaid Plans Pricing
   plan_count: 3
   slug: zenmaid-plans-pricing
-random_paper: 33
+random_paper: 24
 score:
   band: emerging
   composite: 15.0

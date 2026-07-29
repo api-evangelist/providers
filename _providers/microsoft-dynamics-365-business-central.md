@@ -131,7 +131,7 @@ overview: 'Microsoft Dynamics 365 Business Central publishes 7 APIs on the [APIs
 
 
   Microsoft Dynamics 365 Business Central''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 5
+random_paper: 37
 scopes:
 - name: Microsoft Dynamics 365 Business Central Scopes
   scope_count: 1

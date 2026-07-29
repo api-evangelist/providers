@@ -118,7 +118,7 @@ plans:
 - name: Test Specifications Plans Pricing
   plan_count: 3
   slug: test-specifications-plans-pricing
-random_paper: 10
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Test Specifications Rate Limits

@@ -60,7 +60,7 @@ name: Persistent
 nav: Providers
 network: true
 overview: Persistent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Engineering, Enterprise Modernization, IT Services, and Consulting.
-random_paper: 78
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

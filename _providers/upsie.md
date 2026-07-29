@@ -179,7 +179,7 @@ overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Upsie''s developer surface includes documentation, API reference, support, signup flow, authentication, sandbox, and 16 more developer resources.'
-random_paper: 76
+random_paper: 70
 score:
   band: developing
   composite: 43.8

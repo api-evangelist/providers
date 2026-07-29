@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: Comparative Study of AI Methods for EMC Prediction in ...
   url: https://www.mdpi.com/2079-9292/15/1/165
-random_paper: 72
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Emc Rate Limits

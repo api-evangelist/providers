@@ -71,7 +71,7 @@ overview: 'GoOpti is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   GoOpti''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 26
+random_paper: 18
 score:
   band: minimal
   composite: 10.5

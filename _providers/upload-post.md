@@ -117,7 +117,7 @@ plans:
 - name: Upload Post Plans Pricing
   plan_count: 2
   slug: upload-post-plans-pricing
-random_paper: 38
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Upload Post Rate Limits

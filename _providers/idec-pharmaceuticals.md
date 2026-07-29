@@ -39,7 +39,7 @@ name: IDEC Pharmaceuticals
 nav: Providers
 network: true
 overview: IDEC Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Biotechnology, and Life Sciences.
-random_paper: 65
+random_paper: 40
 score:
   band: minimal
   composite: 4.3

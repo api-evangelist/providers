@@ -44,7 +44,7 @@ name: black-unique
 nav: Providers
 network: true
 overview: black-unique is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Consumer, Membership, and Discounts.
-random_paper: 32
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

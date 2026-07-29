@@ -48,7 +48,7 @@ name: Spenmo
 nav: Providers
 network: true
 overview: Spenmo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spend Management, Expense Management, Corporate Cards, and Fintech.
-random_paper: 26
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

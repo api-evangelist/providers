@@ -107,7 +107,7 @@ overview: 'Zight is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Zight''s developer surface includes signup flow, pricing, engineering blog, support, and 12 more developer resources.'
-random_paper: 76
+random_paper: 70
 score:
   band: emerging
   composite: 21.8

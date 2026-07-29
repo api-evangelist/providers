@@ -75,7 +75,7 @@ overview: 'Oportun is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Oportun''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 1
+random_paper: 71
 score:
   band: minimal
   composite: 11.3

@@ -75,7 +75,7 @@ overview: 'Nozomi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Nozomi''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 36
+random_paper: 28
 score:
   band: minimal
   composite: 10.0

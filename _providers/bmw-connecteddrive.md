@@ -188,7 +188,7 @@ overview: 'BMW ConnectedDrive publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   BMW ConnectedDrive''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 39
+random_paper: 16
 score:
   band: thin
   composite: 30.4

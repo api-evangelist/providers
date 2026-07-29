@@ -84,7 +84,7 @@ plans:
 - name: Docusaurus Plans Pricing
   plan_count: 3
   slug: docusaurus-plans-pricing
-random_paper: 75
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Docusaurus Rate Limits

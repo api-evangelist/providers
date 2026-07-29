@@ -83,7 +83,7 @@ overview: 'Billtrust is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Billtrust''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 49
+random_paper: 37
 score:
   band: emerging
   composite: 14.3

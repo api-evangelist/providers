@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Schema Stitching
 nav: Providers
 network: true
-random_paper: 63
+random_paper: 43
 slug: schema-stitching
 tags:
 - API Composition

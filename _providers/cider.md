@@ -67,7 +67,7 @@ overview: 'Cider is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Cider''s developer surface includes support and 5 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 10.1

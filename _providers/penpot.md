@@ -549,7 +549,7 @@ plans:
 - name: Penpot Plans Pricing
   plan_count: 6
   slug: penpot-plans-pricing
-random_paper: 30
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Penpot Rate Limits

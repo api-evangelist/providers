@@ -161,7 +161,7 @@ overview: 'Kount publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kount''s developer surface includes developer portal, documentation, getting-started guide, support, and 15 more developer resources.'
-random_paper: 8
+random_paper: 1
 score:
   band: emerging
   composite: 15.6

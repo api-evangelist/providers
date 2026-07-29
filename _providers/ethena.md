@@ -197,7 +197,7 @@ overview: 'Ethena publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ethena''s developer surface includes documentation, API reference, authentication, changelog, pricing, engineering blog, support, and 22 more developer resources.'
-random_paper: 76
+random_paper: 69
 score:
   band: developing
   composite: 54.2

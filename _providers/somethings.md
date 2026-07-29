@@ -71,7 +71,7 @@ overview: 'Somethings is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Somethings'' developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 62
+random_paper: 49
 score:
   band: emerging
   composite: 15.4

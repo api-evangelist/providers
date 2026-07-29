@@ -83,7 +83,7 @@ overview: 'BabyCenter is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   BabyCenter''s developer surface includes support and 9 more developer resources.'
-random_paper: 28
+random_paper: 15
 score:
   band: emerging
   composite: 15.0

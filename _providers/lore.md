@@ -75,7 +75,7 @@ overview: 'Lore is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lore''s developer surface includes documentation, getting-started guide, support, signup flow, and 4 more developer resources.'
-random_paper: 39
+random_paper: 34
 score:
   band: emerging
   composite: 15.3

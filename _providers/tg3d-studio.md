@@ -113,7 +113,7 @@ plans:
 - name: Tg3D Studio Plans
   plan_count: 4
   slug: tg3d-studio-plans
-random_paper: 52
+random_paper: 39
 score:
   band: thin
   composite: 30.1

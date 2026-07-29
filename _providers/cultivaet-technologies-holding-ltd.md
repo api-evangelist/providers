@@ -44,7 +44,7 @@ name: Cultivaet Technologies Holding Ltd.
 nav: Providers
 network: true
 overview: Cultivaet Technologies Holding Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgriTech, Agriculture, Artificial Intelligence, and Machine Learning.
-random_paper: 64
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

@@ -116,7 +116,7 @@ plans:
 - name: Open Payments Plans Pricing
   plan_count: 1
   slug: open-payments-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Open Payments Rate Limits

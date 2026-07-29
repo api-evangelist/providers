@@ -104,7 +104,7 @@ overview: 'Telekinesis.ai is profiled on the [APIs.io](https://apis.io/) network
 
 
   Telekinesis.ai''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 9 more developer resources.'
-random_paper: 43
+random_paper: 26
 score:
   band: emerging
   composite: 25.7

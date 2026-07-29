@@ -39,7 +39,7 @@ name: SpoonRocket
 nav: Providers
 network: true
 overview: SpoonRocket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Meal Delivery, On-Demand, and Startup.
-random_paper: 22
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

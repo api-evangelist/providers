@@ -67,7 +67,7 @@ overview: 'ClaimSorted is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   ClaimSorted''s developer surface includes support and 5 more developer resources.'
-random_paper: 69
+random_paper: 55
 score:
   band: minimal
   composite: 11.7

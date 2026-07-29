@@ -95,7 +95,7 @@ overview: 'Imbue is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Imbue''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 56
+random_paper: 50
 score:
   band: minimal
   composite: 6.1

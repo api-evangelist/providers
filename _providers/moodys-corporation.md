@@ -217,7 +217,7 @@ plans:
 - name: Moodys Corporation Plans Pricing
   plan_count: 2
   slug: moodys-corporation-plans-pricing
-random_paper: 16
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Moodys Corporation Rate Limits

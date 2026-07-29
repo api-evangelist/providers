@@ -190,7 +190,7 @@ press:
 - date: '2026-05-25'
   title: ScanSource Q3 Earnings Call Highlights
   url: https://www.theglobeandmail.com/investing/markets/stocks/SCSC/pressreleases/1832981/scansource-q3-earnings-call-highlights/
-random_paper: 51
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Scansource Rate Limits

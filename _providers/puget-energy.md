@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: SUSTAINABILITY REPORT
   url: https://www.pse.com/-/media/PDFs/Sustainability/2025_PSERY24SustainabilityReport.pdf
-random_paper: 59
+random_paper: 44
 score:
   band: minimal
   composite: 4.7

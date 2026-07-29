@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: FourKites Recognizes Ardent Mills, Kimberly-Clark, The ...
   url: https://www.businesswire.com/news/home/20250828027223/en/FourKites-Recognizes-Ardent-Mills-Kimberly-Clark-The-Coca-Cola-Company-and-Others-for-Outstanding-Achievements-in-Supply-Chain-Transformation
-random_paper: 11
+random_paper: 73
 score:
   band: minimal
   composite: 9.9

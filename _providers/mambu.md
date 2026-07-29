@@ -143,7 +143,7 @@ overview: 'Mambu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mambu''s developer surface includes documentation, API reference, support, changelog, authentication, and 16 more developer resources.'
-random_paper: 56
+random_paper: 50
 score:
   band: thin
   composite: 40.5

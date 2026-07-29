@@ -81,7 +81,7 @@ name: Lanch
 nav: Providers
 network: true
 overview: Lanch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food, Food Tech, and Food Delivery.
-random_paper: 44
+random_paper: 38
 score:
   band: minimal
   composite: 11.1

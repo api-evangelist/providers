@@ -59,7 +59,7 @@ overview: 'Lima is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lima''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 24
+random_paper: 19
 score:
   band: minimal
   composite: 5.6

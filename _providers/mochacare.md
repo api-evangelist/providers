@@ -60,7 +60,7 @@ name: Mochacare
 nav: Providers
 network: true
 overview: Mochacare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Care, Healthcare, Care Agencies, and Staffing.
-random_paper: 62
+random_paper: 51
 score:
   band: minimal
   composite: 10.5

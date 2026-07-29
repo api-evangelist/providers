@@ -87,7 +87,7 @@ overview: 'Civitas Learning is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Civitas Learning''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 68
+random_paper: 48
 score:
   band: emerging
   composite: 16.0

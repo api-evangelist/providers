@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: 3 Top Investment Ideas for New Money
   url: https://www.insidermonkey.com/blog/linn-energy-llc-line-sandridge-energy-inc-sd-3-top-investment-ideas-for-new-money-166130/2/
-random_paper: 22
+random_paper: 8
 score:
   band: minimal
   composite: 2.6

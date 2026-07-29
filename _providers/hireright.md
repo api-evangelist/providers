@@ -108,7 +108,7 @@ overview: 'HireRight is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   HireRight''s developer surface includes support, engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: emerging
   composite: 19.5

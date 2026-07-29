@@ -210,7 +210,7 @@ overview: 'Pendle Finance publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Pendle Finance''s developer surface includes documentation, API reference, engineering blog, code examples, and 16 more developer resources.'
-random_paper: 58
+random_paper: 41
 score:
   band: emerging
   composite: 23.7

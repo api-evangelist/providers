@@ -452,7 +452,7 @@ plans:
 - name: Red Hat Satellite Plans Pricing
   plan_count: 1
   slug: red-hat-satellite-plans-pricing
-random_paper: 30
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Red Hat Satellite Rate Limits

@@ -43,7 +43,7 @@ name: Tadeus API
 nav: Providers
 network: true
 overview: 'Tadeus API publishes 1 API on the [APIs.io](https://apis.io/) network: Tadeus Integration API. Tagged areas include Voice AI, Research, Interviews, Workforce, and HR Tech.'
-random_paper: 57
+random_paper: 45
 score:
   band: emerging
   composite: 14.4

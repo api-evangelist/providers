@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: Netflix aims to be an innovator in using AI in the creative ...
   url: https://www.instagram.com/reel/DXNX3-8DBcV/?hl=en
-random_paper: 51
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Netflix Rate Limits

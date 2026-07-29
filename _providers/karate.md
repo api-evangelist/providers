@@ -68,7 +68,7 @@ plans:
 - name: Karate Plans Pricing
   plan_count: 3
   slug: karate-plans-pricing
-random_paper: 0
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Karate Rate Limits

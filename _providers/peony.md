@@ -87,7 +87,7 @@ overview: 'Peony is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Peony''s developer surface includes pricing, signup flow, documentation, engineering blog, and 7 more developer resources.'
-random_paper: 2
+random_paper: 75
 score:
   band: emerging
   composite: 20.0

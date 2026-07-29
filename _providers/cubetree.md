@@ -39,7 +39,7 @@ name: CubeTree
 nav: Providers
 network: true
 overview: CubeTree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Enterprise Social Software, Collaboration, and Social Networking.
-random_paper: 57
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

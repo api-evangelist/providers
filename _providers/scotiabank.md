@@ -196,7 +196,7 @@ plans:
 - name: Scotiabank Plans Pricing
   plan_count: 1
   slug: scotiabank-plans-pricing
-random_paper: 28
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Scotiabank Rate Limits

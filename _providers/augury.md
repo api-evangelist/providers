@@ -113,7 +113,7 @@ overview: 'Augury is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Augury''s developer surface includes support, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 37
+random_paper: 29
 score:
   band: minimal
   composite: 10.7

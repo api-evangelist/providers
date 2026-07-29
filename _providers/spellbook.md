@@ -96,7 +96,7 @@ plans:
 - name: Spellbook Plans Pricing
   plan_count: 1
   slug: spellbook-plans-pricing
-random_paper: 23
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Spellbook Rate Limits

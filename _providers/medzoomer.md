@@ -71,7 +71,7 @@ overview: 'Medzoomer is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Medzoomer''s developer surface includes developer portal, support, and 5 more developer resources.'
-random_paper: 30
+random_paper: 18
 score:
   band: emerging
   composite: 14.9

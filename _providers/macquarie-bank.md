@@ -199,7 +199,7 @@ overview: 'Macquarie Bank publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Macquarie Bank''s developer surface includes authentication, sandbox, documentation, support, API reference, signup flow, and 23 more developer resources.'
-random_paper: 66
+random_paper: 49
 scopes:
 - name: Macquarie Bank Scopes
   scope_count: 10

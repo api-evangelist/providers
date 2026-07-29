@@ -63,7 +63,7 @@ overview: 'Resulticks is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Resulticks'' developer surface includes support and 4 more developer resources.'
-random_paper: 70
+random_paper: 57
 score:
   band: minimal
   composite: 10.1

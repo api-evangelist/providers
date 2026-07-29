@@ -83,7 +83,7 @@ overview: 'Zoho Recruit publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Zoho Recruit''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 74
+random_paper: 59
 score:
   band: emerging
   composite: 21.9

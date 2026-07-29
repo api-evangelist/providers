@@ -48,7 +48,7 @@ name: DiDi Autonomous
 nav: Providers
 network: true
 overview: DiDi Autonomous is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Autonomous Driving, Robotaxi, and Mobility.
-random_paper: 68
+random_paper: 49
 score:
   band: minimal
   composite: 5.0

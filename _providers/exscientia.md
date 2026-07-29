@@ -105,7 +105,7 @@ name: Exscientia
 nav: Providers
 network: true
 overview: Exscientia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Drug Discovery, Drug Design, AI Drug Design, Precision Medicine, and Biotech.
-random_paper: 42
+random_paper: 29
 score:
   band: minimal
   composite: 5.7

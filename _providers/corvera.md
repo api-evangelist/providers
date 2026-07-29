@@ -129,7 +129,7 @@ overview: 'Corvera publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Corvera''s developer surface includes documentation, getting-started guide, authentication, changelog, engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 43
+random_paper: 34
 scopes:
 - name: Corvera Scopes
   scope_count: 4

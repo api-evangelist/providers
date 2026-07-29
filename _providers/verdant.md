@@ -75,7 +75,7 @@ overview: 'Verdant is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Verdant''s developer surface includes support, changelog, and 6 more developer resources.'
-random_paper: 45
+random_paper: 36
 score:
   band: emerging
   composite: 15.9

@@ -86,7 +86,7 @@ plans:
 - name: Genmo Ai Plans Pricing
   plan_count: 5
   slug: genmo-ai-plans-pricing
-random_paper: 70
+random_paper: 61
 score:
   band: emerging
   composite: 17.0

@@ -174,7 +174,7 @@ overview: 'The Co-operative Bank publishes 1 API on the [APIs.io](https://apis.i
 
 
   The Co-operative Bank''s developer surface includes documentation, getting-started guide, authentication, sandbox, support, signup flow, and 21 more developer resources.'
-random_paper: 28
+random_paper: 7
 scopes:
 - name: Co Operative Bank Scopes
   scope_count: 6

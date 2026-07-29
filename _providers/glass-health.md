@@ -184,7 +184,7 @@ overview: 'Glass Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Glass Health''s developer surface includes documentation, pricing, signup flow, GitHub presence, and 18 more developer resources.'
-random_paper: 28
+random_paper: 13
 score:
   band: emerging
   composite: 18.8

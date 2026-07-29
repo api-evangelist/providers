@@ -52,7 +52,7 @@ name: Loris
 nav: Providers
 network: true
 overview: Loris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Conversation Intelligence, Customer Experience, and Artificial Intelligence.
-random_paper: 0
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

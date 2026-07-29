@@ -39,7 +39,7 @@ name: Uroam
 nav: Providers
 network: true
 overview: Uroam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, VPN, Remote Access, and Networking.
-random_paper: 74
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

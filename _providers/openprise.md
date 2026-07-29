@@ -80,7 +80,7 @@ plans:
 - name: Openprise Plans Pricing
   plan_count: 3
   slug: openprise-plans-pricing
-random_paper: 33
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Openprise Rate Limits

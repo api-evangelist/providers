@@ -71,7 +71,7 @@ overview: 'Bugcrowd publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Bugcrowd''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: minimal
   composite: 7.8

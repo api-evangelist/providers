@@ -64,7 +64,7 @@ name: TransFS
 nav: Providers
 network: true
 overview: TransFS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Merchant Services, and Credit Card Processing.
-random_paper: 58
+random_paper: 49
 score:
   band: minimal
   composite: 11.1

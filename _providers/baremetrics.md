@@ -138,7 +138,7 @@ plans:
 - name: Baremetrics Plans Pricing
   plan_count: 3
   slug: baremetrics-plans-pricing
-random_paper: 63
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Baremetrics Rate Limits

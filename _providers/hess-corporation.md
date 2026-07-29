@@ -73,7 +73,7 @@ name: Hess Corporation
 nav: Providers
 network: true
 overview: Hess Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Bakken, Crude Oil, Deepwater, Energy, and Exploration And Production.
-random_paper: 21
+random_paper: 0
 score:
   band: minimal
   composite: 5.5

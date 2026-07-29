@@ -95,7 +95,7 @@ overview: 'iSpot.tv publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   iSpot.tv''s developer surface includes documentation, API reference, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 3
+random_paper: 73
 score:
   band: emerging
   composite: 23.3

@@ -67,7 +67,7 @@ overview: 'Stagwell is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Stagwell''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 4.6

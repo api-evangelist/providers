@@ -150,7 +150,7 @@ plans:
 - name: Servicem8 Plans Pricing
   plan_count: 5
   slug: servicem8-plans-pricing
-random_paper: 49
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Servicem8 Rate Limits

@@ -148,7 +148,7 @@ overview: 'TawkitAI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TawkitAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
-random_paper: 72
+random_paper: 62
 score:
   band: thin
   composite: 34.3

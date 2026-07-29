@@ -79,7 +79,7 @@ overview: 'Safely is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Safely''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: emerging
   composite: 14.3

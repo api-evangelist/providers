@@ -178,7 +178,7 @@ overview: 'Rockbot publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rockbot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 45
+random_paper: 36
 scopes:
 - name: Rockbot Scopes
   scope_count: 0

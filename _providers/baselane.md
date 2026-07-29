@@ -79,7 +79,7 @@ overview: 'Baselane is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Baselane''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 37
+random_paper: 27
 score:
   band: emerging
   composite: 15.6

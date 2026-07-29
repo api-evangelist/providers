@@ -167,7 +167,7 @@ overview: 'Loggly publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Loggly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 22
+random_paper: 14
 score:
   band: thin
   composite: 40.6

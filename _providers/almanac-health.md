@@ -83,7 +83,7 @@ overview: 'Almanac Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Almanac Health''s developer surface includes signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 49
+random_paper: 32
 score:
   band: emerging
   composite: 15.4

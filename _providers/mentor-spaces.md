@@ -71,7 +71,7 @@ overview: 'Mentor Spaces is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Mentor Spaces'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 2
+random_paper: 65
 score:
   band: emerging
   composite: 13.0

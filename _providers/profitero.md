@@ -63,7 +63,7 @@ overview: 'Profitero is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Profitero''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 38
+random_paper: 26
 score:
   band: minimal
   composite: 8.4

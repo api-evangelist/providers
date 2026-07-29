@@ -155,7 +155,7 @@ press:
 - date: '2026-05-25'
   title: Toys 'R' Us calls AI-made video successful despite criticism
   url: https://www.nbcnews.com/tech/internet/toys-r-us-ai-video-ad-controversy-explained-commercial-rcna159030
-random_paper: 30
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Toys R Us Rate Limits

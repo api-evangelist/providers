@@ -66,7 +66,7 @@ overview: 'island.is (Digital Iceland) publishes 2 APIs on the [APIs.io](https:/
 
 
   island.is (Digital Iceland)''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 31
+random_paper: 20
 score:
   band: minimal
   composite: 8.6

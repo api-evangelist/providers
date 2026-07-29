@@ -98,7 +98,7 @@ plans:
 - name: Novo Bank Plans Pricing
   plan_count: 4
   slug: novo-bank-plans-pricing
-random_paper: 38
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Novo Bank Rate Limits

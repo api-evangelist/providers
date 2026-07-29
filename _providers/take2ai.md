@@ -63,7 +63,7 @@ overview: 'Take2.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Take2.ai''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 41
+random_paper: 33
 score:
   band: minimal
   composite: 10.8

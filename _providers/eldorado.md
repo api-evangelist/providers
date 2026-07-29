@@ -147,7 +147,7 @@ overview: 'Eldorado publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Eldorado''s developer surface includes documentation, API reference, getting-started guide, sandbox, engineering blog, signup flow, support, and 15 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: thin
   composite: 35.5

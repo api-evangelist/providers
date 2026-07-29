@@ -367,7 +367,7 @@ plans:
 - name: Vercel Plans Pricing
   plan_count: 3
   slug: vercel-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Vercel Rate Limits

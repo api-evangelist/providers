@@ -381,7 +381,7 @@ overview: 'Amazon Clean Rooms publishes 4 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon Clean Rooms'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 21 more developer resources.'
-random_paper: 73
+random_paper: 51
 rules:
 - name: Amazon Clean Rooms API Rules
   rule_count: 5

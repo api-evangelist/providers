@@ -112,7 +112,7 @@ plans:
 - name: Sentera Plans Pricing
   plan_count: 3
   slug: sentera-plans-pricing
-random_paper: 43
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Sentera Rate Limits

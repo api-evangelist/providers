@@ -64,7 +64,7 @@ overview: 'The Fit Body Co is profiled on the [APIs.io](https://apis.io/) networ
 
 
   The Fit Body Co''s developer surface includes authentication and 4 more developer resources.'
-random_paper: 76
+random_paper: 59
 scopes:
 - name: The Fit Body Co Scopes
   scope_count: 4

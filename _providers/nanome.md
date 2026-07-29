@@ -147,7 +147,7 @@ overview: 'Nanome publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Nanome''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 78
 score:
   band: thin
   composite: 31.2

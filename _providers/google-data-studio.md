@@ -246,7 +246,7 @@ plans:
 - name: Google Data Studio Plans Pricing
   plan_count: 6
   slug: google-data-studio-plans-pricing
-random_paper: 63
+random_paper: 41
 rate_limits:
 - limit_count: 13
   name: Google Data Studio Rate Limits

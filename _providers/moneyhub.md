@@ -216,7 +216,7 @@ overview: 'Moneyhub publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Moneyhub''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 31 more developer resources.'
-random_paper: 2
+random_paper: 71
 scopes:
 - name: Moneyhub Scopes
   scope_count: 108

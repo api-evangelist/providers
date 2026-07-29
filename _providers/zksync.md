@@ -142,7 +142,7 @@ plans:
 - name: Zksync Plans Pricing
   plan_count: 1
   slug: zksync-plans-pricing
-random_paper: 42
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Zksync Rate Limits

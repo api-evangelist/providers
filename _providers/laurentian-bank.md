@@ -71,7 +71,7 @@ overview: 'Laurentian Bank of Canada is profiled on the [APIs.io](https://apis.i
 
 
   Laurentian Bank of Canada''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 31
+random_paper: 12
 score:
   band: emerging
   composite: 13.7

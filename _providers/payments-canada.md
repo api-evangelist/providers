@@ -185,7 +185,7 @@ overview: 'Payments Canada publishes 8 APIs on the [APIs.io](https://apis.io/) n
 
 
   Payments Canada''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 22 more developer resources.'
-random_paper: 25
+random_paper: 6
 scopes:
 - name: Payments Canada Scopes
   scope_count: 1

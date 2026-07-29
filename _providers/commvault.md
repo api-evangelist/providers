@@ -302,7 +302,7 @@ plans:
 - name: Commvault Plans Pricing
   plan_count: 12
   slug: commvault-plans-pricing
-random_paper: 36
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Commvault Rate Limits

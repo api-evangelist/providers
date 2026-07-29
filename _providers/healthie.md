@@ -163,7 +163,7 @@ overview: 'Healthie publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Healthie''s developer surface includes developer portal, documentation, getting-started guide, authentication, tooling, code examples, engineering blog, and 15 more developer resources.'
-random_paper: 46
+random_paper: 36
 rules:
 - name: Healthie API Rules
   rule_count: 5

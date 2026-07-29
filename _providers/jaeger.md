@@ -140,7 +140,7 @@ plans:
 - name: Jaeger Plans Pricing
   plan_count: 3
   slug: jaeger-plans-pricing
-random_paper: 69
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Jaeger Rate Limits

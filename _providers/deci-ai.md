@@ -56,7 +56,7 @@ name: Deci AI
 nav: Providers
 network: true
 overview: Deci AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Deep Learning, and Computer Vision.
-random_paper: 20
+random_paper: 12
 score:
   band: minimal
   composite: 7.0

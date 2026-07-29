@@ -56,7 +56,7 @@ name: GitHub Contribution Chart Generator
 nav: Providers
 network: true
 overview: GitHub Contribution Chart Generator publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Source Projects and Public APIs.
-random_paper: 32
+random_paper: 67
 score:
   band: minimal
   composite: 5.7

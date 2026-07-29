@@ -98,7 +98,7 @@ overview: 'Mobillis publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Mobillis'' developer surface includes signup flow and 9 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: emerging
   composite: 27.9

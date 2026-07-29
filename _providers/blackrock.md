@@ -163,7 +163,7 @@ press:
 - date: '2026-05-25'
   title: Digital disruption and artificial intelligence (AI) - BlackRock
   url: https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/mega-forces/artificial-intelligence
-random_paper: 71
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Blackrock Rate Limits

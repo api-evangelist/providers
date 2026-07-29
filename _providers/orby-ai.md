@@ -48,7 +48,7 @@ name: Orby AI
 nav: Providers
 network: true
 overview: Orby AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Automation, Agents, and Process Automation.
-random_paper: 59
+random_paper: 51
 score:
   band: minimal
   composite: 5.7

@@ -103,7 +103,7 @@ overview: 'Localyze is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Localyze''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: emerging
   composite: 23.2

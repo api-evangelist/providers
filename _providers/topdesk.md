@@ -91,7 +91,7 @@ overview: 'TOPdesk publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   TOPdesk''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: minimal
   composite: 12.7

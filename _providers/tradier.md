@@ -240,7 +240,7 @@ plans:
 - name: Tradier Plans Pricing
   plan_count: 3
   slug: tradier-plans-pricing
-random_paper: 36
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Tradier Rate Limits

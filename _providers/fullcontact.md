@@ -133,7 +133,7 @@ overview: 'FullContact publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FullContact''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 8 more developer resources.'
-random_paper: 77
+random_paper: 63
 score:
   band: thin
   composite: 29.2

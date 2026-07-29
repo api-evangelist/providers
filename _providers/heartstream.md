@@ -44,7 +44,7 @@ name: Heartstream
 nav: Providers
 network: true
 overview: Heartstream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Defibrillators, and Emergency Care.
-random_paper: 78
+random_paper: 64
 score:
   band: minimal
   composite: 4.3

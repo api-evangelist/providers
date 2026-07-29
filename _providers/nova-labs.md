@@ -91,7 +91,7 @@ overview: 'Nova Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nova Labs'' developer surface includes documentation, engineering blog, CLI, and 9 more developer resources.'
-random_paper: 30
+random_paper: 19
 score:
   band: emerging
   composite: 13.2

@@ -91,7 +91,7 @@ overview: 'Lemonaide is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lemonaide''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 73
+random_paper: 62
 score:
   band: emerging
   composite: 18.3

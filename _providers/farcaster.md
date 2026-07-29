@@ -145,7 +145,7 @@ plans:
 - name: Farcaster Plans Pricing
   plan_count: 1
   slug: farcaster-plans-pricing
-random_paper: 7
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Farcaster Rate Limits

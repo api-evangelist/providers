@@ -95,7 +95,7 @@ overview: 'Feroot is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Feroot''s developer surface includes pricing, engineering blog, and 11 more developer resources.'
-random_paper: 23
+random_paper: 15
 score:
   band: emerging
   composite: 21.8

@@ -88,7 +88,7 @@ overview: 'IgniteTech is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   IgniteTech''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 33
+random_paper: 20
 score:
   band: emerging
   composite: 14.0

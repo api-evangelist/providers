@@ -140,7 +140,7 @@ overview: '=nil; Foundation publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   =nil; Foundation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, changelog, and 15 more developer resources.'
-random_paper: 25
+random_paper: 7
 score:
   band: emerging
   composite: 26.4

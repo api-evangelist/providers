@@ -100,7 +100,7 @@ overview: 'Local Logic publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Local Logic''s developer surface includes documentation, support, engineering blog, pricing, signup flow, GitHub presence, authentication, and 6 more developer resources.'
-random_paper: 67
+random_paper: 54
 score:
   band: emerging
   composite: 23.5

@@ -48,7 +48,7 @@ name: Snapette
 nav: Providers
 network: true
 overview: Snapette is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Mobile, and Shopping.
-random_paper: 78
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

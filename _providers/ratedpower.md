@@ -79,7 +79,7 @@ overview: 'RatedPower is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   RatedPower''s developer surface includes pricing, engineering blog, support, and 6 more developer resources.'
-random_paper: 58
+random_paper: 45
 score:
   band: emerging
   composite: 15.2

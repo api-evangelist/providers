@@ -128,7 +128,7 @@ overview: 'Provenance publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Provenance''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 13 more developer resources.'
-random_paper: 46
+random_paper: 33
 score:
   band: emerging
   composite: 23.6

@@ -151,7 +151,7 @@ plans:
 - name: Microsoft Sharepoint Plans Pricing
   plan_count: 3
   slug: microsoft-sharepoint-plans-pricing
-random_paper: 58
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Microsoft Sharepoint Rate Limits

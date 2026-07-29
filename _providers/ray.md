@@ -118,7 +118,7 @@ overview: 'Ray publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs
 
 
   Ray''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: emerging
   composite: 21.1

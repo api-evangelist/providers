@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Tupperware Brands Corporation Reaches Agreement to ...
   url: https://www.prnewswire.com/news-releases/tupperware-brands-corporation-reaches-agreement-to-form-the-new-tupperware-company-302283842.html
-random_paper: 44
+random_paper: 22
 score:
   band: minimal
   composite: 5.7

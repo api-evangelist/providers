@@ -88,7 +88,7 @@ plans:
 - name: Data Gov Uk Plans Pricing
   plan_count: 1
   slug: data-gov-uk-plans-pricing
-random_paper: 29
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Data Gov Uk Rate Limits

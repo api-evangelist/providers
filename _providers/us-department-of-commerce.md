@@ -124,7 +124,7 @@ plans:
 - name: Us Department Of Commerce Plans Pricing
   plan_count: 1
   slug: us-department-of-commerce-plans-pricing
-random_paper: 50
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Us Department Of Commerce Rate Limits

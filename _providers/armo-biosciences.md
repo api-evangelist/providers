@@ -39,7 +39,7 @@ name: ARMO BioSciences *
 nav: Providers
 network: true
 overview: ARMO BioSciences * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Immuno-Oncology, and Pharmaceuticals.
-random_paper: 55
+random_paper: 35
 score:
   band: minimal
   composite: 4.3

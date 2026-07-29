@@ -73,7 +73,7 @@ name: Lendtable
 nav: Providers
 network: true
 overview: Lendtable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Consumer Lending, and Retirement.
-random_paper: 70
+random_paper: 59
 score:
   band: minimal
   composite: 7.5

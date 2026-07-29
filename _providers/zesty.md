@@ -243,7 +243,7 @@ plans:
 - name: Zesty Plans Pricing
   plan_count: 4
   slug: zesty-plans-pricing
-random_paper: 22
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Zesty Rate Limits

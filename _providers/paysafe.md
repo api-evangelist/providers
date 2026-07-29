@@ -167,7 +167,7 @@ plans:
 - name: Paysafe Plans Pricing
   plan_count: 5
   slug: paysafe-plans-pricing
-random_paper: 34
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Paysafe Rate Limits

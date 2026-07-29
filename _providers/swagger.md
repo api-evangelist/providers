@@ -135,7 +135,7 @@ plans:
 - name: Swagger Plans Pricing
   plan_count: 3
   slug: swagger-plans-pricing
-random_paper: 41
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Swagger Rate Limits

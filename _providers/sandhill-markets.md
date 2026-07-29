@@ -39,7 +39,7 @@ name: Sandhill Markets
 nav: Providers
 network: true
 overview: Sandhill Markets is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Private Markets, Secondary Market, and Pre-IPO.
-random_paper: 71
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

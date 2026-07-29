@@ -162,7 +162,7 @@ plans:
 - name: Axiom Controller Plans Pricing
   plan_count: 3
   slug: axiom-controller-plans-pricing
-random_paper: 20
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Axiom Controller Rate Limits

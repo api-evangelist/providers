@@ -171,7 +171,7 @@ overview: 'ReasonBlocks publishes 9 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ReasonBlocks'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 17 more developer resources.'
-random_paper: 22
+random_paper: 6
 score:
   band: thin
   composite: 35.6

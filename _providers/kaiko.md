@@ -245,7 +245,7 @@ plans:
 - name: Kaiko Plans Pricing
   plan_count: 2
   slug: kaiko-plans-pricing
-random_paper: 53
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Kaiko Rate Limits

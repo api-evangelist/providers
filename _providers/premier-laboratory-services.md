@@ -55,7 +55,7 @@ overview: 'Premier Laboratory Services is profiled on the [APIs.io](https://apis
 
 
   Premier Laboratory Services'' developer surface includes developer portal and 2 more developer resources.'
-random_paper: 36
+random_paper: 1
 score:
   band: minimal
   composite: 6.9

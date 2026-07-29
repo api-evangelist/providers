@@ -295,7 +295,7 @@ plans:
 - name: Coresignal Plans Pricing
   plan_count: 5
   slug: coresignal-plans-pricing
-random_paper: 36
+random_paper: 23
 rate_limits:
 - limit_count: 7
   name: Coresignal Rate Limits

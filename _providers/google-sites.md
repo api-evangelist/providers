@@ -96,7 +96,7 @@ plans:
 - name: Google Sites Plans Pricing
   plan_count: 3
   slug: google-sites-plans-pricing
-random_paper: 49
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Google Sites Rate Limits

@@ -120,7 +120,7 @@ plans:
 - name: Soundstat Plans Pricing
   plan_count: 5
   slug: soundstat-plans-pricing
-random_paper: 49
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Soundstat Rate Limits

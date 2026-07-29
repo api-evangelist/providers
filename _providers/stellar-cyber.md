@@ -209,7 +209,7 @@ plans:
 - name: Stellar Cyber Plans Pricing
   plan_count: 3
   slug: stellar-cyber-plans-pricing
-random_paper: 73
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Stellar Cyber Rate Limits

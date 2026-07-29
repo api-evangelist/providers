@@ -178,7 +178,7 @@ overview: 'Jetstar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Jetstar''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, support, FAQ, and 25 more developer resources.'
-random_paper: 54
+random_paper: 45
 score:
   band: thin
   composite: 33.8

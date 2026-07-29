@@ -125,7 +125,7 @@ plans:
 - name: Everledger Plans
   plan_count: 3
   slug: everledger-plans
-random_paper: 34
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Everledger Rate Limits

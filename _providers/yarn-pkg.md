@@ -252,7 +252,7 @@ overview: 'Yarn publishes 10 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Yarn''s developer surface includes developer portal, getting-started guide, documentation, changelog, and 32 more developer resources.'
-random_paper: 19
+random_paper: 9
 rules:
 - name: Yarn API Rules
   rule_count: 5

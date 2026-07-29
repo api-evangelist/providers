@@ -178,7 +178,7 @@ overview: 'Kriya publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kriya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: developing
   composite: 48.0

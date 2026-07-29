@@ -87,7 +87,7 @@ plans:
 - name: Appalachian Regional Commission Plans Pricing
   plan_count: 3
   slug: appalachian-regional-commission-plans-pricing
-random_paper: 6
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Appalachian Regional Commission Rate Limits

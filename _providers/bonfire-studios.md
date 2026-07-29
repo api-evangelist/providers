@@ -44,7 +44,7 @@ name: Bonfire Studios
 nav: Providers
 network: true
 overview: Bonfire Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Game Studio, and Interactive Entertainment.
-random_paper: 64
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

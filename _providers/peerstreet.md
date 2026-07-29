@@ -48,7 +48,7 @@ name: PeerStreet
 nav: Providers
 network: true
 overview: PeerStreet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Fintech, Lending, and Investing.
-random_paper: 64
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

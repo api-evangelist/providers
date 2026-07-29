@@ -204,7 +204,7 @@ plans:
 - name: Power Apps Plans Pricing
   plan_count: 3
   slug: power-apps-plans-pricing
-random_paper: 11
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Power Apps Rate Limits

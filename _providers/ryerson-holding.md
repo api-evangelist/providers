@@ -123,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: Ryerson targets $120M in annual synergies post-Olympic ...
   url: https://seekingalpha.com/news/4554819-ryerson-targets-120m-in-annual-synergies-post-olympic-steel-merger-as-demand-rebounds
-random_paper: 71
+random_paper: 52
 rules:
 - name: Ryerson Holding API Rules
   rule_count: 5

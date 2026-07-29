@@ -208,7 +208,7 @@ plans:
 - name: Vast Ai Plans Pricing
   plan_count: 1
   slug: vast-ai-plans-pricing
-random_paper: 61
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Vast Ai Rate Limits

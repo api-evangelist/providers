@@ -67,7 +67,7 @@ overview: 'Capstone Turbine is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Capstone Turbine''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 8
+random_paper: 67
 score:
   band: minimal
   composite: 11.8

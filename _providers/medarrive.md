@@ -67,7 +67,7 @@ overview: 'MedArrive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   MedArrive''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 11
+random_paper: 79
 score:
   band: minimal
   composite: 10.8

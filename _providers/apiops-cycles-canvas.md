@@ -152,7 +152,7 @@ plans:
 - name: Apiops Cycles Canvas Plans Pricing
   plan_count: 1
   slug: apiops-cycles-canvas-plans-pricing
-random_paper: 46
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Apiops Cycles Canvas Rate Limits

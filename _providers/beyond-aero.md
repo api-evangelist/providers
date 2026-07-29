@@ -56,7 +56,7 @@ name: Beyond Aero
 nav: Providers
 network: true
 overview: Beyond Aero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Aviation, Aerospace, and Hydrogen.
-random_paper: 3
+random_paper: 69
 score:
   band: minimal
   composite: 9.2

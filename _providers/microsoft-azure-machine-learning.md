@@ -151,7 +151,7 @@ plans:
 - name: Microsoft Azure Machine Learning Plans Pricing
   plan_count: 3
   slug: microsoft-azure-machine-learning-plans-pricing
-random_paper: 2
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Machine Learning Rate Limits

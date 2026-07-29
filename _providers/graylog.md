@@ -92,7 +92,7 @@ plans:
 - name: Graylog Plans Pricing
   plan_count: 3
   slug: graylog-plans-pricing
-random_paper: 46
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Graylog Rate Limits

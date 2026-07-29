@@ -79,7 +79,7 @@ overview: 'California Forever is profiled on the [APIs.io](https://apis.io/) net
 
 
   California Forever''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 37
+random_paper: 14
 score:
   band: minimal
   composite: 10.5

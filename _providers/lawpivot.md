@@ -44,7 +44,7 @@ name: LawPivot *
 nav: Providers
 network: true
 overview: LawPivot * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 17
+random_paper: 6
 score:
   band: minimal
   composite: 4.1

@@ -83,7 +83,7 @@ overview: 'Ava is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Ava''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 75
+random_paper: 72
 score:
   band: emerging
   composite: 15.8

@@ -388,7 +388,7 @@ plans:
 - name: Zitadel Plans Pricing
   plan_count: 3
   slug: zitadel-plans-pricing
-random_paper: 38
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Zitadel Rate Limits

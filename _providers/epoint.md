@@ -155,7 +155,7 @@ overview: 'Epoint publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Epoint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 23
+random_paper: 15
 score:
   band: developing
   composite: 43.0

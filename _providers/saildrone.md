@@ -194,7 +194,7 @@ plans:
 - name: Saildrone Plans Pricing
   plan_count: 4
   slug: saildrone-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Saildrone Rate Limits

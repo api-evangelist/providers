@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: GV
 nav: Providers
 network: true
-random_paper: 63
+random_paper: 61
 slug: gv
 tags:
 - Venture Capital

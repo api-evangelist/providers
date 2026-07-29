@@ -79,7 +79,7 @@ overview: 'Camfer is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Camfer''s developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 69
+random_paper: 62
 score:
   band: minimal
   composite: 11.7

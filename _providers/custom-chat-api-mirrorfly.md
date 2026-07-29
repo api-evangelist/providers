@@ -33,7 +33,7 @@ name: Custom Chat API | MirrorFly
 nav: Providers
 network: true
 overview: Custom Chat API | MirrorFly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Chat API, Messaging, CPaaS, VoIP, and Voice.
-random_paper: 2
+random_paper: 50
 score:
   band: minimal
   composite: 5.0

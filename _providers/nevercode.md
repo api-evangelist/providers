@@ -211,7 +211,7 @@ overview: 'Nevercode publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nevercode''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 22 more developer resources.'
-random_paper: 7
+random_paper: 75
 score:
   band: developing
   composite: 52.7

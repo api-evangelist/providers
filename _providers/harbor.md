@@ -134,7 +134,7 @@ plans:
 - name: Harbor Plans Pricing
   plan_count: 3
   slug: harbor-plans-pricing
-random_paper: 6
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Harbor Rate Limits

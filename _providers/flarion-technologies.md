@@ -80,7 +80,7 @@ overview: 'Flarion Technologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   Flarion Technologies'' developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
-random_paper: 22
+random_paper: 76
 score:
   band: emerging
   composite: 15.2

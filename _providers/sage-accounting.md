@@ -107,7 +107,7 @@ overview: 'Sage Accounting publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Sage Accounting''s developer surface includes engineering blog, documentation, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 27
+random_paper: 8
 score:
   band: thin
   composite: 28.5

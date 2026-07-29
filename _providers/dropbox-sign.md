@@ -141,7 +141,7 @@ overview: 'Dropbox Sign publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Dropbox Sign''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 59
+random_paper: 44
 rules:
 - name: Dropbox Sign API Rules
   rule_count: 4

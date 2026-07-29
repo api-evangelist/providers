@@ -183,7 +183,7 @@ overview: 'Streaming publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Streaming''s developer surface includes code examples and 9 more developer resources.'
-random_paper: 22
+random_paper: 10
 rules:
 - name: Streaming API Rules
   rule_count: 5

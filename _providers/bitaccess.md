@@ -83,7 +83,7 @@ overview: 'BitAccess is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BitAccess'' developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 76
+random_paper: 65
 score:
   band: emerging
   composite: 13.5

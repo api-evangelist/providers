@@ -52,7 +52,7 @@ name: Peerby
 nav: Providers
 network: true
 overview: Peerby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sharing Economy, Peer to Peer, Marketplace, and Rental.
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

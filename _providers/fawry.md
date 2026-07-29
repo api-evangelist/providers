@@ -235,7 +235,7 @@ overview: 'Fawry publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fawry''s developer surface includes developer portal, getting-started guide, documentation, signup flow, support, code examples, YouTube channel, and 32 more developer resources.'
-random_paper: 0
+random_paper: 73
 score:
   band: emerging
   composite: 27.0

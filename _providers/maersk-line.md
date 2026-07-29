@@ -334,7 +334,7 @@ plans:
 - name: Maersk Line Plans Pricing
   plan_count: 5
   slug: maersk-line-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Maersk Line Rate Limits

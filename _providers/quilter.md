@@ -95,7 +95,7 @@ overview: 'Quilter is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Quilter''s developer surface includes documentation, support, engineering blog, changelog, pricing, and 8 more developer resources.'
-random_paper: 63
+random_paper: 54
 score:
   band: emerging
   composite: 19.0

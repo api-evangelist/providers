@@ -71,7 +71,7 @@ overview: 'Djust is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Djust''s developer surface includes pricing, engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 1
+random_paper: 74
 score:
   band: emerging
   composite: 13.5

@@ -133,7 +133,7 @@ plans:
 - name: Google Cloud Endpoints Plans Pricing
   plan_count: 3
   slug: google-cloud-endpoints-plans-pricing
-random_paper: 30
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Google Cloud Endpoints Rate Limits

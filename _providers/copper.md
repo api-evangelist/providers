@@ -264,7 +264,7 @@ plans:
 - name: Copper Plans Pricing
   plan_count: 4
   slug: copper-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Copper Rate Limits

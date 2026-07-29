@@ -450,7 +450,7 @@ plans:
 - name: Onebusaway Plans Pricing
   plan_count: 2
   slug: onebusaway-plans-pricing
-random_paper: 59
+random_paper: 46
 rules:
 - name: OneBusAway API Rules
   rule_count: 5

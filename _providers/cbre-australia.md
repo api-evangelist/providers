@@ -127,7 +127,7 @@ overview: 'CBRE Australia is profiled on the [APIs.io](https://apis.io/) network
 
 
   CBRE Australia''s developer surface includes privacy policy, engineering blog, support, and 20 more developer resources.'
-random_paper: 1
+random_paper: 63
 score:
   band: emerging
   composite: 14.4

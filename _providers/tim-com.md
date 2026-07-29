@@ -143,7 +143,7 @@ overview: 'TIM publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TIM''s developer surface includes developer portal, documentation, YouTube channel, and 17 more developer resources.'
-random_paper: 62
+random_paper: 54
 score:
   band: minimal
   composite: 11.0

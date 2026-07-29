@@ -200,7 +200,7 @@ overview: 'Beeper publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Beeper''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 22 more developer resources.'
-random_paper: 74
+random_paper: 67
 scopes:
 - name: Beeper Scopes
   scope_count: 2

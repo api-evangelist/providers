@@ -51,7 +51,7 @@ overview: 'M/I Homes is profiled on the [APIs.io](https://apis.io/) network.
 
 
   M/I Homes'' developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 9
+random_paper: 79
 score:
   band: minimal
   composite: 3.0

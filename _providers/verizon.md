@@ -380,7 +380,7 @@ press:
 - date: '2026-05-25'
   title: Verizon unveils AI strategy to power next-gen AI demands
   url: https://www.verizon.com/about/news/verizon-unveils-ai-strategy-power-next-gen-ai-demands
-random_paper: 70
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Verizon Rate Limits

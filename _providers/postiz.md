@@ -127,7 +127,7 @@ plans:
 - name: Postiz Plans Pricing
   plan_count: 5
   slug: postiz-plans-pricing
-random_paper: 49
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Postiz Rate Limits

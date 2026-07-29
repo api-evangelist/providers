@@ -67,7 +67,7 @@ overview: 'Healx is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Healx''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 56
+random_paper: 50
 score:
   band: minimal
   composite: 9.6

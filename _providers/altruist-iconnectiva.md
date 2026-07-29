@@ -52,7 +52,7 @@ name: Altruist (iConnectiva)
 nav: Providers
 network: true
 overview: Altruist (iConnectiva) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecommunications, Revenue Assurance, and Fraud Management.
-random_paper: 50
+random_paper: 24
 score:
   band: minimal
   composite: 5.5

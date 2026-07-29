@@ -79,7 +79,7 @@ overview: 'Nookly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Nookly''s developer surface includes engineering blog, support, pricing, signup flow, and 5 more developer resources.'
-random_paper: 36
+random_paper: 28
 score:
   band: emerging
   composite: 16.0

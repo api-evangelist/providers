@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Stericycle Opens State-of-the-Art Regulated Medical Waste ...
   url: https://www.prnewswire.com/news-releases/stericycle-opens-state-of-the-art-regulated-medical-waste-incineration-facility-in-nevada-302286800.html
-random_paper: 52
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Stericycle Rate Limits

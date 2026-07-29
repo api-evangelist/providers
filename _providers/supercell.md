@@ -102,7 +102,7 @@ overview: 'Supercell publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Supercell''s developer surface includes authentication, support, and 10 more developer resources.'
-random_paper: 27
+random_paper: 15
 score:
   band: emerging
   composite: 19.6

@@ -48,7 +48,7 @@ name: Stailer
 nav: Providers
 network: true
 overview: Stailer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Retail, E-commerce, and Grocery.
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

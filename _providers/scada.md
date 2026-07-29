@@ -123,7 +123,7 @@ plans:
 - name: Scada Plans Pricing
   plan_count: 3
   slug: scada-plans-pricing
-random_paper: 34
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Scada Rate Limits

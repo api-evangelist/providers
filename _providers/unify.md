@@ -211,7 +211,7 @@ overview: 'Unify publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Unify''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 2
+random_paper: 75
 score:
   band: developing
   composite: 54.7

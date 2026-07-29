@@ -321,7 +321,7 @@ press:
 - date: '2026-05-25'
   title: Bank of America's Moynihan Says AI's Economic Benefit Is ' ...
   url: https://www.bloomberg.com/news/articles/2025-12-22/bofa-s-moynihan-says-ai-s-economic-benefit-is-kicking-in-more
-random_paper: 15
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Bank Of America Rate Limits

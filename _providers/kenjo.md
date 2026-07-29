@@ -124,7 +124,7 @@ plans:
 - name: Kenjo Plans Pricing
   plan_count: 3
   slug: kenjo-plans-pricing
-random_paper: 61
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Kenjo Rate Limits

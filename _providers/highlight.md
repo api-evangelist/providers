@@ -39,7 +39,7 @@ name: Highlight
 nav: Providers
 network: true
 overview: Highlight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, General Catalyst, Portfolio, Venture Backed, and Stub.
-random_paper: 4
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

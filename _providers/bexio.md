@@ -284,7 +284,7 @@ plans:
 - name: Bexio Plans Pricing
   plan_count: 5
   slug: bexio-plans-pricing
-random_paper: 61
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Bexio Rate Limits

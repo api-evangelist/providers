@@ -44,7 +44,7 @@ name: Wabash National
 nav: Providers
 network: true
 overview: Wabash National is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 28
+random_paper: 9
 score:
   band: minimal
   composite: 2.6

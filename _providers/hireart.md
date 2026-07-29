@@ -83,7 +83,7 @@ overview: 'HireArt is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   HireArt''s developer surface includes engineering blog, changelog, support, and 7 more developer resources.'
-random_paper: 40
+random_paper: 31
 score:
   band: emerging
   composite: 16.5

@@ -271,7 +271,7 @@ plans:
 - name: Amazon Personalize Plans Pricing
   plan_count: 3
   slug: amazon-personalize-plans-pricing
-random_paper: 70
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Amazon Personalize Rate Limits

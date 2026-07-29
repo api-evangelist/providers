@@ -120,7 +120,7 @@ plans:
 - name: Spectral Plans Pricing
   plan_count: 3
   slug: spectral-plans-pricing
-random_paper: 72
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Spectral Rate Limits

@@ -167,7 +167,7 @@ overview: 'Citcon publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Citcon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: developing
   composite: 49.7

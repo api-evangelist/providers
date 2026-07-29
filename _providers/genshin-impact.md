@@ -56,7 +56,7 @@ name: Genshin Impact
 nav: Providers
 network: true
 overview: Genshin Impact publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 9
+random_paper: 71
 score:
   band: minimal
   composite: 5.7

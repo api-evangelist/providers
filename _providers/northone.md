@@ -48,7 +48,7 @@ name: NorthOne
 nav: Providers
 network: true
 overview: NorthOne is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Business Banking, Fintech, and Financial Services.
-random_paper: 8
+random_paper: 77
 score:
   band: minimal
   composite: 5.4

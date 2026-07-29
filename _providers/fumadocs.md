@@ -165,7 +165,7 @@ plans:
 - name: Fumadocs Plans Pricing
   plan_count: 1
   slug: fumadocs-plans-pricing
-random_paper: 60
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Fumadocs Rate Limits

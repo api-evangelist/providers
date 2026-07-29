@@ -39,7 +39,7 @@ name: Fleetsmith
 nav: Providers
 network: true
 overview: Fleetsmith is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Apple, Device Management, MDM, and IT.
-random_paper: 50
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

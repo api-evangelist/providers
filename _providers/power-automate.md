@@ -141,7 +141,7 @@ plans:
 - name: Power Automate Plans Pricing
   plan_count: 3
   slug: power-automate-plans-pricing
-random_paper: 44
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Power Automate Rate Limits

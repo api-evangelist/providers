@@ -127,7 +127,7 @@ overview: 'CubeSmart is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CubeSmart''s developer surface includes engineering blog, GitHub presence, support, and 18 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: minimal
   composite: 11.6

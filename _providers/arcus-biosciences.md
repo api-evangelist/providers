@@ -56,7 +56,7 @@ name: Arcus Biosciences
 nav: Providers
 network: true
 overview: Arcus Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Oncology.
-random_paper: 8
+random_paper: 66
 score:
   band: minimal
   composite: 9.5

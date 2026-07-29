@@ -48,7 +48,7 @@ name: Happy Elements
 nav: Providers
 network: true
 overview: Happy Elements is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Entertainment.
-random_paper: 30
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

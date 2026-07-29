@@ -79,7 +79,7 @@ overview: 'Nectar Social is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Nectar Social''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 53
+random_paper: 37
 score:
   band: minimal
   composite: 10.8

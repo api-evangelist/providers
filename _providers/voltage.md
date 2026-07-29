@@ -210,7 +210,7 @@ overview: 'Voltage publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Voltage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: strong
   composite: 56.0

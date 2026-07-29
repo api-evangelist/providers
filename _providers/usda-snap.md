@@ -86,7 +86,7 @@ overview: 'USDA SNAP Retailer Locator publishes 2 APIs on the [APIs.io](https://
 
 
   USDA SNAP Retailer Locator''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 39
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Usda Snap Rate Limits

@@ -175,7 +175,7 @@ plans:
 - name: Farmos Plans Pricing
   plan_count: 4
   slug: farmos-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Farmos Rate Limits

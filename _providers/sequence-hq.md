@@ -127,7 +127,7 @@ plans:
 - name: Sequence Hq Plans Pricing
   plan_count: 3
   slug: sequence-hq-plans-pricing
-random_paper: 13
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Sequence Hq Rate Limits

@@ -285,7 +285,7 @@ overview: 'Shyft publishes 56 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Shyft''s developer surface includes authentication, documentation, API reference, pricing, signup flow, sandbox, and 11 more developer resources.'
-random_paper: 5
+random_paper: 78
 score:
   band: thin
   composite: 32.7

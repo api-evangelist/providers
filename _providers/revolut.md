@@ -321,7 +321,7 @@ overview: 'Revolut publishes 46 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Revolut''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 24 more developer resources.'
-random_paper: 74
+random_paper: 65
 score:
   band: developing
   composite: 50.0

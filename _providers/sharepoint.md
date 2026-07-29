@@ -424,7 +424,7 @@ plans:
 - name: Sharepoint Plans Pricing
   plan_count: 5
   slug: sharepoint-plans-pricing
-random_paper: 58
+random_paper: 45
 rate_limits:
 - limit_count: 27
   name: Sharepoint Rate Limits

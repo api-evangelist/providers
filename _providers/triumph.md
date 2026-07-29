@@ -100,7 +100,7 @@ overview: 'Triumph is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Triumph''s developer surface includes documentation, getting-started guide, signup flow, authentication, sandbox, and 9 more developer resources.'
-random_paper: 66
+random_paper: 57
 score:
   band: emerging
   composite: 25.8

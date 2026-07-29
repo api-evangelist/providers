@@ -103,7 +103,7 @@ overview: 'JoySpace Technologies, Inc. publishes 1 API on the [APIs.io](https://
 
 
   JoySpace Technologies, Inc.''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 5 more developer resources.'
-random_paper: 22
+random_paper: 70
 score:
   band: thin
   composite: 37.3

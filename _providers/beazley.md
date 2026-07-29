@@ -214,7 +214,7 @@ plans:
 - name: Beazley Plans
   plan_count: 9
   slug: beazley-plans
-random_paper: 37
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Beazley Rate Limits

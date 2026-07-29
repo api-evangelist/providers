@@ -51,7 +51,7 @@ overview: 'AGNC Investment is profiled on the [APIs.io](https://apis.io/) networ
 
 
   AGNC Investment''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 54
+random_paper: 35
 score:
   band: minimal
   composite: 3.0

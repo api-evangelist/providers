@@ -631,7 +631,7 @@ plans:
 - name: Vapi Ai Plans Pricing
   plan_count: 4
   slug: vapi-ai-plans-pricing
-random_paper: 47
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Vapi Ai Rate Limits

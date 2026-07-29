@@ -44,7 +44,7 @@ name: dejavu
 nav: Providers
 network: true
 overview: dejavu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Graphics, Spatial Computing, Rendering, and Extended Reality.
-random_paper: 7
+random_paper: 79
 score:
   band: minimal
   composite: 5.7

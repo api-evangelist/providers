@@ -1355,7 +1355,7 @@ plans:
 - name: Amazon Lookout For Vision Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-vision-plans-pricing
-random_paper: 25
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Vision Rate Limits

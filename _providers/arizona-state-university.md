@@ -121,7 +121,7 @@ plans:
 - name: Arizona State University Plans Pricing
   plan_count: 2
   slug: arizona-state-university-plans-pricing
-random_paper: 64
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Arizona State University Rate Limits

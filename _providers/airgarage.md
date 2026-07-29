@@ -79,7 +79,7 @@ overview: 'AirGarage is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AirGarage''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 62
+random_paper: 51
 score:
   band: emerging
   composite: 14.5

@@ -148,7 +148,7 @@ plans:
 - name: People Data Labs Plans Pricing
   plan_count: 3
   slug: people-data-labs-plans-pricing
-random_paper: 62
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: People Data Labs Rate Limits

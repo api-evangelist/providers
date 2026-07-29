@@ -246,7 +246,7 @@ overview: 'Leap publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Leap''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, support, and 35 more developer resources.'
-random_paper: 28
+random_paper: 10
 score:
   band: developing
   composite: 51.3

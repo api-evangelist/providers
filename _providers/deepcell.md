@@ -55,7 +55,7 @@ overview: 'DeepCell is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DeepCell''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 40
+random_paper: 30
 score:
   band: minimal
   composite: 5.7

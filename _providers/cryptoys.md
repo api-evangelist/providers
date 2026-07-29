@@ -55,7 +55,7 @@ overview: 'Cryptoys is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cryptoys'' developer surface includes support and 2 more developer resources.'
-random_paper: 40
+random_paper: 29
 score:
   band: minimal
   composite: 7.0

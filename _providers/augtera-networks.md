@@ -52,7 +52,7 @@ name: Augtera Networks
 nav: Providers
 network: true
 overview: Augtera Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Networking, AIOps, and Network Monitoring.
-random_paper: 24
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

@@ -1155,7 +1155,7 @@ plans:
 - name: Aerodatabox Plans Pricing
   plan_count: 1
   slug: aerodatabox-plans-pricing
-random_paper: 56
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Aerodatabox Rate Limits

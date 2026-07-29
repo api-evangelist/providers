@@ -21,7 +21,7 @@ modified: '2026-04-21'
 name: Barcode Scanners
 nav: Providers
 network: true
-random_paper: 46
+random_paper: 26
 slug: barcode-scanners
 tags:
 - Barcodes

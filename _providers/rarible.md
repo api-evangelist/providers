@@ -1071,7 +1071,7 @@ plans:
 - name: Rarible Plans Pricing
   plan_count: 2
   slug: rarible-plans-pricing
-random_paper: 26
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Rarible Rate Limits

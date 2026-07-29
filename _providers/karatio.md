@@ -71,7 +71,7 @@ overview: 'Karat.io is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Karat.io''s developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: emerging
   composite: 14.1

@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: AIT Applied Industrial Technologies, Inc. Stock Price & ...
   url: https://seekingalpha.com/symbol/AIT
-random_paper: 36
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Applied Industrial Technologies Rate Limits

@@ -127,7 +127,7 @@ plans:
 - name: Searoutes Plans Pricing
   plan_count: 5
   slug: searoutes-plans-pricing
-random_paper: 39
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Searoutes Rate Limits

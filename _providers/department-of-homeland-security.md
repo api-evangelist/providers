@@ -221,7 +221,7 @@ plans:
 - name: Department Of Homeland Security Plans Pricing
   plan_count: 3
   slug: department-of-homeland-security-plans-pricing
-random_paper: 71
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Department Of Homeland Security Rate Limits

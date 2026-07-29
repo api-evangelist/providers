@@ -71,7 +71,7 @@ overview: 'Mybots.pro is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mybots.pro''s developer surface includes support and 6 more developer resources.'
-random_paper: 59
+random_paper: 47
 score:
   band: minimal
   composite: 6.2

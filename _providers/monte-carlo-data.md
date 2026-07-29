@@ -88,7 +88,7 @@ plans:
 - name: Monte Carlo Data Plans Pricing
   plan_count: 3
   slug: monte-carlo-data-plans-pricing
-random_paper: 75
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Monte Carlo Data Rate Limits

@@ -107,7 +107,7 @@ overview: 'LifeSite is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LifeSite''s developer surface includes engineering blog, support, signup flow, changelog, and 12 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: emerging
   composite: 18.4

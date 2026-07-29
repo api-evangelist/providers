@@ -166,7 +166,7 @@ plans:
 - name: Sap Bydesign Plans Pricing
   plan_count: 4
   slug: sap-bydesign-plans-pricing
-random_paper: 37
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Sap Bydesign Rate Limits

@@ -183,7 +183,7 @@ overview: 'Parabol publishes 1 API on the [APIs.io](https://apis.io/) network: G
 
 
   Parabol''s developer surface includes API reference, documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 26
+random_paper: 17
 scopes:
 - name: Parabol Scopes
   scope_count: 16

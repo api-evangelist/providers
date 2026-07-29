@@ -219,7 +219,7 @@ plans:
 - name: Lancedb Plans Pricing
   plan_count: 4
   slug: lancedb-plans-pricing
-random_paper: 2
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Lancedb Rate Limits

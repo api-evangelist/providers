@@ -124,7 +124,7 @@ overview: 'Oasis Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Oasis Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, and 13 more developer resources.'
-random_paper: 58
+random_paper: 46
 scopes:
 - name: Oasis Labs Scopes
   scope_count: 7

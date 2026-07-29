@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: Diplomat Pharmacy agrees to $300 million buyout by ...
   url: https://www.reuters.com/article/business/diplomat-pharmacy-agrees-to-300-million-buyout-by-unitedhealth-idUSKBN1YD12Q/
-random_paper: 18
+random_paper: 76
 score:
   band: minimal
   composite: 4.3

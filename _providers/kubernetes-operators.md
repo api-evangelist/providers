@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Kubernetes Operators
 nav: Providers
 network: true
-random_paper: 62
+random_paper: 36
 slug: kubernetes-operators
 tags:
 - Automation

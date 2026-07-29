@@ -131,7 +131,7 @@ plans:
 - name: Veriff Com Plans Pricing
   plan_count: 3
   slug: veriff-com-plans-pricing
-random_paper: 58
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Veriff Com Rate Limits

@@ -126,7 +126,7 @@ plans:
 - name: Worldnewsapi Plans Pricing
   plan_count: 4
   slug: worldnewsapi-plans-pricing
-random_paper: 47
+random_paper: 31
 rate_limits:
 - limit_count: 6
   name: Worldnewsapi Rate Limits

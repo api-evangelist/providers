@@ -118,7 +118,7 @@ plans:
 - name: Uservoice Plans Pricing
   plan_count: 4
   slug: uservoice-plans-pricing
-random_paper: 33
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Uservoice Rate Limits

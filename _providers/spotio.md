@@ -95,7 +95,7 @@ plans:
 - name: Spotio Plans Pricing
   plan_count: 4
   slug: spotio-plans-pricing
-random_paper: 38
+random_paper: 30
 score:
   band: emerging
   composite: 17.1

@@ -200,7 +200,7 @@ overview: 'LeaseAccelerator publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   LeaseAccelerator''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 20
+random_paper: 79
 score:
   band: developing
   composite: 55.7

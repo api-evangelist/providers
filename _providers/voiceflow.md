@@ -132,7 +132,7 @@ plans:
 - name: Voiceflow Plans Pricing
   plan_count: 3
   slug: voiceflow-plans-pricing
-random_paper: 26
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Voiceflow Rate Limits

@@ -79,7 +79,7 @@ overview: 'Rezilient Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Rezilient Health''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 77
+random_paper: 57
 score:
   band: emerging
   composite: 13.8

@@ -130,7 +130,7 @@ plans:
 - name: Tolgee Plans Pricing
   plan_count: 6
   slug: tolgee-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Tolgee Rate Limits

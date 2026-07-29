@@ -55,7 +55,7 @@ overview: 'Oculus VR is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Oculus VR''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 75
+random_paper: 64
 score:
   band: minimal
   composite: 6.7

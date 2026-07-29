@@ -131,7 +131,7 @@ plans:
 - name: Salad Transcription Api Plans Pricing
   plan_count: 3
   slug: salad-transcription-api-plans-pricing
-random_paper: 54
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Salad Transcription Api Rate Limits

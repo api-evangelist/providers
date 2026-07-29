@@ -122,7 +122,7 @@ plans:
 - name: Chameleon Co Plans Pricing
   plan_count: 4
   slug: chameleon-co-plans-pricing
-random_paper: 10
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Chameleon Co Rate Limits

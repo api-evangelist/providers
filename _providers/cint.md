@@ -257,7 +257,7 @@ overview: 'Cint publishes 25 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cint''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 35
+random_paper: 30
 score:
   band: developing
   composite: 53.7

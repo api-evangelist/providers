@@ -79,7 +79,7 @@ overview: 'Trucks Venture Fund I is profiled on the [APIs.io](https://apis.io/) 
 
 
   Trucks Venture Fund I''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 60
+random_paper: 34
 score:
   band: minimal
   composite: 8.1

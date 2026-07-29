@@ -68,7 +68,7 @@ overview: 'FanCraze is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FanCraze''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: minimal
   composite: 12.4

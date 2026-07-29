@@ -39,7 +39,7 @@ name: Mod_tcl
 nav: Providers
 network: true
 overview: Mod_tcl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Mod_tcl, Tcl, and Web Server.
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 3.9

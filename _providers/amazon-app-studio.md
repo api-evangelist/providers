@@ -217,7 +217,7 @@ overview: 'Amazon App Studio publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Amazon App Studio''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
-random_paper: 62
+random_paper: 41
 rules:
 - name: Amazon App Studio API Rules
   rule_count: 5

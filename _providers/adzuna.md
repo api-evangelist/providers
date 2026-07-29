@@ -56,7 +56,7 @@ name: Adzuna
 nav: Providers
 network: true
 overview: Adzuna publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

@@ -1295,7 +1295,7 @@ plans:
 - name: Servicenow Plans Pricing
   plan_count: 1
   slug: servicenow-plans-pricing
-random_paper: 66
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Servicenow Rate Limits

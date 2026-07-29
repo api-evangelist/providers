@@ -79,7 +79,7 @@ overview: 'TaTiO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   TaTiO''s developer surface includes signup flow and 7 more developer resources.'
-random_paper: 71
+random_paper: 65
 score:
   band: emerging
   composite: 14.3

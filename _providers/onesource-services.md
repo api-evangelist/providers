@@ -39,7 +39,7 @@ name: Onesource Services
 nav: Providers
 network: true
 overview: Onesource Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 75
+random_paper: 52
 score:
   band: minimal
   composite: 4.1

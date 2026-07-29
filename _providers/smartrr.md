@@ -123,7 +123,7 @@ plans:
 - name: Smartrr Plans Pricing
   plan_count: 4
   slug: smartrr-plans-pricing
-random_paper: 68
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Smartrr Rate Limits

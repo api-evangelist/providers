@@ -79,7 +79,7 @@ overview: 'creativeLIVE is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   creativeLIVE''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: emerging
   composite: 16.0

@@ -83,7 +83,7 @@ plans:
 - name: Opendata Ncse Ie Plans Pricing
   plan_count: 0
   slug: opendata-ncse-ie-plans-pricing
-random_paper: 64
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Opendata Ncse Ie Rate Limits

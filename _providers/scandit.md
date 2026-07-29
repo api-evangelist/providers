@@ -139,7 +139,7 @@ overview: 'Scandit publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Scandit''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
-random_paper: 31
+random_paper: 22
 score:
   band: thin
   composite: 31.3

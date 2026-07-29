@@ -56,7 +56,7 @@ name: Mercadolibre
 nav: Providers
 network: true
 overview: Mercadolibre publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping and Public APIs.
-random_paper: 72
+random_paper: 57
 score:
   band: minimal
   composite: 5.7

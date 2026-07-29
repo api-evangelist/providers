@@ -142,7 +142,7 @@ overview: 'Havenly publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Havenly''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 48
+random_paper: 39
 scopes:
 - name: Havenly Scopes
   scope_count: 0

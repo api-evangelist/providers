@@ -107,7 +107,7 @@ overview: 'KWI is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   KWI''s developer surface includes engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 15
+random_paper: 11
 score:
   band: minimal
   composite: 12.0

@@ -59,7 +59,7 @@ overview: 'Wishbird Experiences is profiled on the [APIs.io](https://apis.io/) n
 
 
   Wishbird Experiences'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 30
+random_paper: 4
 score:
   band: minimal
   composite: 7.5

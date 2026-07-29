@@ -91,7 +91,7 @@ overview: 'ProFrac Holding is profiled on the [APIs.io](https://apis.io/) networ
 
 
   ProFrac Holding''s developer surface includes product news, engineering blog, and 10 more developer resources.'
-random_paper: 34
+random_paper: 15
 score:
   band: minimal
   composite: 8.2

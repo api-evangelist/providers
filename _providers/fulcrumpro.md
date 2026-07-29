@@ -483,7 +483,7 @@ overview: 'Fulcrumpro publishes 109 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Fulcrumpro''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 18 more developer resources.'
-random_paper: 76
+random_paper: 63
 score:
   band: developing
   composite: 46.7

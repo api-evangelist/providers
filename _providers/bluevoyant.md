@@ -56,7 +56,7 @@ name: Bluevoyant
 nav: Providers
 network: true
 overview: Bluevoyant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Managed Detection and Response, Threat Intelligence, and Supply Chain Security.
-random_paper: 70
+random_paper: 57
 score:
   band: minimal
   composite: 7.3

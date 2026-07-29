@@ -44,7 +44,7 @@ name: Tizona Therapeutics
 nav: Providers
 network: true
 overview: Tizona Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Immuno-Oncology, and Cancer Immunotherapy.
-random_paper: 28
+random_paper: 3
 score:
   band: minimal
   composite: 4.3

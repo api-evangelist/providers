@@ -95,7 +95,7 @@ overview: 'Taito.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Taito.ai''s developer surface includes pricing, engineering blog, and 10 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: emerging
   composite: 18.9

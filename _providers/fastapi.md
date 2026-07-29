@@ -99,7 +99,7 @@ plans:
 - name: Fastapi Plans Pricing
   plan_count: 3
   slug: fastapi-plans-pricing
-random_paper: 33
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Fastapi Rate Limits

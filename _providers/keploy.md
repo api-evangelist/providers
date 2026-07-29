@@ -86,7 +86,7 @@ overview: 'Keploy publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Keploy''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 28
+random_paper: 20
 score:
   band: minimal
   composite: 9.0

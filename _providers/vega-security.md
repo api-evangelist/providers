@@ -111,7 +111,7 @@ overview: 'Vega Security is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Vega Security''s developer surface includes engineering blog, documentation, and 15 more developer resources.'
-random_paper: 9
+random_paper: 72
 score:
   band: emerging
   composite: 21.8

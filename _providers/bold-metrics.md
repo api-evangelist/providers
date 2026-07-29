@@ -67,7 +67,7 @@ overview: 'Bold Metrics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bold Metrics'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 36
+random_paper: 21
 score:
   band: minimal
   composite: 9.1

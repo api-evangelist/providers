@@ -39,7 +39,7 @@ name: Outils Digitaux
 nav: Providers
 network: true
 overview: Outils Digitaux is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Digital Tools, France, and Productivity.
-random_paper: 0
+random_paper: 60
 score:
   band: minimal
   composite: 3.2

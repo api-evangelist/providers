@@ -150,7 +150,7 @@ plans:
 - name: Wageningen University Research Plans Pricing
   plan_count: 2
   slug: wageningen-university-research-plans-pricing
-random_paper: 35
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Wageningen University Research Rate Limits

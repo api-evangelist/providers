@@ -2652,7 +2652,7 @@ overview: 'Amazon CodePipeline publishes 41 APIs on the [APIs.io](https://apis.i
 
 
   Amazon CodePipeline''s developer surface includes authentication, engineering blog, getting-started guide, pricing, developer console, developer portal, documentation, and 21 more developer resources.'
-random_paper: 60
+random_paper: 36
 rules:
 - name: Amazon CodePipeline API Rules
   rule_count: 5

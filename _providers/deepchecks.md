@@ -126,7 +126,7 @@ plans:
 - name: Deepchecks Plans Pricing
   plan_count: 4
   slug: deepchecks-plans-pricing
-random_paper: 12
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Deepchecks Rate Limits

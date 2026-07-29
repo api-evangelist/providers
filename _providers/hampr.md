@@ -95,7 +95,7 @@ overview: 'hampr is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   hampr''s developer surface includes pricing, signup flow, engineering blog, support, YouTube channel, and 8 more developer resources.'
-random_paper: 62
+random_paper: 56
 score:
   band: emerging
   composite: 15.2

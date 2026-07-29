@@ -98,7 +98,7 @@ overview: 'Sinclair, Inc. is profiled on the [APIs.io](https://apis.io/) network
 
 
   Sinclair, Inc.''s developer surface includes engineering blog, developer portal, and 4 more developer resources.'
-random_paper: 77
+random_paper: 47
 score:
   band: minimal
   composite: 7.9

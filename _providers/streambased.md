@@ -120,7 +120,7 @@ overview: 'Streambased is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Streambased''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, YouTube channel, and 12 more developer resources.'
-random_paper: 57
+random_paper: 43
 score:
   band: emerging
   composite: 27.8

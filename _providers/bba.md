@@ -44,7 +44,7 @@ name: BBA
 nav: Providers
 network: true
 overview: BBA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, a16z Portfolio, Portfolio Lead, and Unresolved.
-random_paper: 56
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

@@ -48,7 +48,7 @@ name: Kirusa
 nav: Providers
 network: true
 overview: Kirusa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 23
+random_paper: 15
 score:
   band: minimal
   composite: 4.1

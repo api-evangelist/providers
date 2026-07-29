@@ -83,7 +83,7 @@ overview: 'Jaipur Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Jaipur Robotics'' developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 64
+random_paper: 45
 score:
   band: emerging
   composite: 14.7

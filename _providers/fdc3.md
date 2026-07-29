@@ -159,7 +159,7 @@ plans:
 - name: Fdc3 Plans Pricing
   plan_count: 5
   slug: fdc3-plans-pricing
-random_paper: 36
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Fdc3 Rate Limits

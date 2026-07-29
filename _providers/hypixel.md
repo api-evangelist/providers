@@ -256,7 +256,7 @@ plans:
 - name: Hypixel Plans Pricing
   plan_count: 2
   slug: hypixel-plans-pricing
-random_paper: 60
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Hypixel Rate Limits

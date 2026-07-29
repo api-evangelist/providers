@@ -75,7 +75,7 @@ overview: 'Repeat is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Repeat''s developer surface includes documentation, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
   composite: 14.4

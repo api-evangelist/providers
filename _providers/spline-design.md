@@ -148,7 +148,7 @@ overview: 'Spline is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Spline''s developer surface includes documentation, pricing, engineering blog, academy / training, GitHub presence, YouTube channel, and 20 more developer resources.'
-random_paper: 66
+random_paper: 50
 score:
   band: emerging
   composite: 13.4

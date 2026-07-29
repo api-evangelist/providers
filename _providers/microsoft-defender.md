@@ -196,7 +196,7 @@ plans:
 - name: Microsoft Defender Plans Pricing
   plan_count: 17
   slug: microsoft-defender-plans-pricing
-random_paper: 39
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Microsoft Defender Rate Limits

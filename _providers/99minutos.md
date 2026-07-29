@@ -155,7 +155,7 @@ overview: '99minutos publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   99minutos'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 17 more developer resources.'
-random_paper: 28
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: 99Minutos Rate Limits

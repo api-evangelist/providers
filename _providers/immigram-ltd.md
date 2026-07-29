@@ -71,7 +71,7 @@ overview: 'Immigram LTD is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Immigram LTD''s developer surface includes engineering blog, pricing, signup flow, support, and 3 more developer resources.'
-random_paper: 35
+random_paper: 20
 score:
   band: emerging
   composite: 15.2

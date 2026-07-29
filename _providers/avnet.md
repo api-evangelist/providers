@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Avnet's 5th Annual AI Adoption Research Series ...
   url: https://www.linkedin.com/posts/heather-vana-apr-93704a5_mediarelations-aiadoption-electroniccomponents-activity-7418000006252556288-yHY-
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 6.5

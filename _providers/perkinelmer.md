@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Prahlad Singh – Research & Diagnostics At Revvity ( ...
   url: https://www.instagram.com/p/DXCpPhGFAY5/
-random_paper: 76
+random_paper: 62
 score:
   band: minimal
   composite: 6.7

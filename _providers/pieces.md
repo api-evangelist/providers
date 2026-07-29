@@ -135,7 +135,7 @@ plans:
 - name: Pieces Plans Pricing
   plan_count: 3
   slug: pieces-plans-pricing
-random_paper: 1
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Pieces Rate Limits

@@ -231,7 +231,7 @@ overview: 'Brickwork publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brickwork''s developer surface includes documentation, API reference, pricing, support, authentication, and 14 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: thin
   composite: 38.3

@@ -116,7 +116,7 @@ plans:
 - name: Mars Plans Pricing
   plan_count: 1
   slug: mars-plans-pricing
-random_paper: 40
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Mars Rate Limits

@@ -40,7 +40,7 @@ name: Atexto
 nav: Providers
 network: true
 overview: Atexto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Speech Recognition, Transcription, Data Labeling, and Data Annotation.
-random_paper: 29
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

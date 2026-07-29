@@ -71,7 +71,7 @@ overview: 'WiredScore is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   WiredScore''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 52
+random_paper: 39
 score:
   band: emerging
   composite: 13.1

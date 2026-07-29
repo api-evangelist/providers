@@ -56,7 +56,7 @@ name: US ZipCode
 nav: Providers
 network: true
 overview: US ZipCode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 0
+random_paper: 67
 score:
   band: minimal
   composite: 5.7

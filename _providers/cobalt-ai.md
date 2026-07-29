@@ -99,7 +99,7 @@ overview: 'Cobalt AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cobalt AI''s developer surface includes engineering blog, support, YouTube channel, and 11 more developer resources.'
-random_paper: 7
+random_paper: 76
 score:
   band: minimal
   composite: 12.4

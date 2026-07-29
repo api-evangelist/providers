@@ -128,7 +128,7 @@ overview: 'ChatGPT Atlas is profiled on the [APIs.io](https://apis.io/) network.
 
 
   ChatGPT Atlas'' developer surface includes engineering blog, product news, support, pricing, and 13 more developer resources.'
-random_paper: 29
+random_paper: 14
 score:
   band: emerging
   composite: 16.9

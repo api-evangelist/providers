@@ -75,7 +75,7 @@ overview: 'Planet FWD is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Planet FWD''s developer surface includes signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 62
+random_paper: 50
 score:
   band: emerging
   composite: 13.1

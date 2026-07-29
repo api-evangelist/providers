@@ -83,7 +83,7 @@ overview: 'NuORDER is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NuORDER''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 56
+random_paper: 47
 score:
   band: emerging
   composite: 15.0

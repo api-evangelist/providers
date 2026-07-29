@@ -136,7 +136,7 @@ overview: 'Orion by Gravity publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Orion by Gravity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 54
+random_paper: 34
 score:
   band: thin
   composite: 34.9

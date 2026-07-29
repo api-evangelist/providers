@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: BXP CEO Owen Thomas discusses how AI companies are ...
   url: https://www.facebook.com/cnbc/posts/bxp-ceo-owen-thomas-discusses-how-ai-companies-are-increasing-the-demand-for-off/1234538748547516/
-random_paper: 69
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

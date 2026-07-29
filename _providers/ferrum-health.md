@@ -83,7 +83,7 @@ overview: 'Ferrum Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Ferrum Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 68
+random_paper: 52
 score:
   band: emerging
   composite: 16.4

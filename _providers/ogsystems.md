@@ -44,7 +44,7 @@ name: OGSystems
 nav: Providers
 network: true
 overview: OGSystems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Geospatial, Defense, Intelligence, and Analytics.
-random_paper: 58
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

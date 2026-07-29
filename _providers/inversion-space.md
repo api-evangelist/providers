@@ -55,7 +55,7 @@ overview: 'Inversion Space is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Inversion Space''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 57
+random_paper: 38
 score:
   band: minimal
   composite: 5.4

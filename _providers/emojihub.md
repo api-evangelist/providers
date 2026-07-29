@@ -52,7 +52,7 @@ name: EmojiHub
 nav: Providers
 network: true
 overview: EmojiHub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art And Design and Public APIs.
-random_paper: 61
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

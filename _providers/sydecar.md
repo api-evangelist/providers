@@ -96,7 +96,7 @@ overview: 'Sydecar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Sydecar''s developer surface includes authentication, sandbox, engineering blog, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: emerging
   composite: 21.3

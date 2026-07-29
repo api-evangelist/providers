@@ -64,7 +64,7 @@ name: Skience (The Athene Group)
 nav: Providers
 network: true
 overview: Skience (The Athene Group) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wealth Management, Financial Services, WealthTech, and Salesforce.
-random_paper: 10
+random_paper: 60
 score:
   band: minimal
   composite: 9.5

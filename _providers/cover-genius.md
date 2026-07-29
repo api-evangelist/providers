@@ -114,7 +114,7 @@ plans:
 - name: Cover Genius Plans Pricing
   plan_count: 1
   slug: cover-genius-plans-pricing
-random_paper: 54
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Cover Genius Rate Limits

@@ -48,7 +48,7 @@ name: Fitocracy
 nav: Providers
 network: true
 overview: Fitocracy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Gamification, Social Network, and Health.
-random_paper: 16
+random_paper: 4
 score:
   band: minimal
   composite: 5.4

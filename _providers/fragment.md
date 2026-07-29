@@ -176,7 +176,7 @@ overview: 'Fragment publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Fragment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, signup flow, support, and 24 more developer resources.'
-random_paper: 62
+random_paper: 52
 score:
   band: developing
   composite: 50.9

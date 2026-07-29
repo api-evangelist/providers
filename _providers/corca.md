@@ -75,7 +75,7 @@ overview: 'Corca is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Corca''s developer surface includes documentation, getting-started guide, and 6 more developer resources.'
-random_paper: 46
+random_paper: 40
 score:
   band: emerging
   composite: 13.1

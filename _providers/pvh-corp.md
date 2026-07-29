@@ -95,7 +95,7 @@ overview: 'PVH Corp is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PVH Corp''s developer surface includes product news and 12 more developer resources.'
-random_paper: 25
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

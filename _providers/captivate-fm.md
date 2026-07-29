@@ -127,7 +127,7 @@ plans:
 - name: Captivate Fm Plans Pricing
   plan_count: 3
   slug: captivate-fm-plans-pricing
-random_paper: 32
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Captivate Fm Rate Limits

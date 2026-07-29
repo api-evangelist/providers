@@ -92,7 +92,7 @@ overview: 'Imper is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Imper''s developer surface includes documentation, getting-started guide, engineering blog, support, and 8 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: emerging
   composite: 21.1

@@ -71,7 +71,7 @@ overview: 'Zai Lab is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zai Lab''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 40
+random_paper: 32
 score:
   band: minimal
   composite: 11.6

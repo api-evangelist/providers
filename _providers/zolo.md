@@ -148,7 +148,7 @@ overview: 'Zolo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zolo''s developer surface includes engineering blog, support, legal docs, YouTube channel, and 21 more developer resources.'
-random_paper: 57
+random_paper: 52
 score:
   band: emerging
   composite: 14.8

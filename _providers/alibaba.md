@@ -122,7 +122,7 @@ overview: 'Alibaba publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   Alibaba''s developer surface includes documentation, developer portal, GitHub presence, SDKs, signup flow, pricing, engineering blog, and 11 more developer resources.'
-random_paper: 68
+random_paper: 60
 score:
   band: thin
   composite: 30.7

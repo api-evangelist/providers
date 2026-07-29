@@ -155,7 +155,7 @@ plans:
 - name: Smartthings Plans Pricing
   plan_count: 2
   slug: smartthings-plans-pricing
-random_paper: 19
+random_paper: 4
 rate_limits:
 - limit_count: 17
   name: Smartthings Rate Limits

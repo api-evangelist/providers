@@ -99,7 +99,7 @@ overview: 'Workhuman is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Workhuman''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 40
+random_paper: 28
 score:
   band: emerging
   composite: 21.7

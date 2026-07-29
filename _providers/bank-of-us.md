@@ -181,7 +181,7 @@ overview: 'Bank of us publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Bank of us'' developer surface includes authentication, documentation, API reference, engineering blog, support, and 21 more developer resources.'
-random_paper: 78
+random_paper: 67
 scopes:
 - name: Bank Of Us Scopes
   scope_count: 5

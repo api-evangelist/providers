@@ -132,7 +132,7 @@ plans:
 - name: Vocode Plans Pricing
   plan_count: 4
   slug: vocode-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Vocode Rate Limits

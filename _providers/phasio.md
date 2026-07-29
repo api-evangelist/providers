@@ -444,7 +444,7 @@ overview: 'Phasio publishes 92 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Phasio''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 21 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: developing
   composite: 52.9

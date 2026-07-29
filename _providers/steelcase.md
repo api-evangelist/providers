@@ -186,7 +186,7 @@ press:
 - date: '2025-09-30'
   title: Steelcase 2025 Impact Report Highlights the Strength of Community and Progress Toward a Net-Zero Future
   url: https://www.steelcase.com/press-releases/steelcase-2025-impact-report-highlights-the-strength-of-community-and-progress-toward-a-net-zero-future/
-random_paper: 5
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Steelcase Rate Limits

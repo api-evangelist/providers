@@ -59,7 +59,7 @@ overview: 'Radical Numerics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Radical Numerics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 55
+random_paper: 35
 score:
   band: minimal
   composite: 5.4

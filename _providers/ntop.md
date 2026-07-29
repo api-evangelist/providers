@@ -115,7 +115,7 @@ overview: 'nTop is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   nTop''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 54
+random_paper: 49
 score:
   band: emerging
   composite: 26.6

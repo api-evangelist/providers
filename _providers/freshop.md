@@ -72,7 +72,7 @@ overview: 'Freshop publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Freshop''s developer surface includes support and 5 more developer resources.'
-random_paper: 48
+random_paper: 39
 score:
   band: minimal
   composite: 11.7

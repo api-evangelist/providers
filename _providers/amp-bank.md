@@ -170,7 +170,7 @@ overview: 'AMP Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   AMP Bank''s developer surface includes documentation, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 64
+random_paper: 55
 scopes:
 - name: Amp Bank Scopes
   scope_count: 5

@@ -51,7 +51,7 @@ overview: 'MYR Group is profiled on the [APIs.io](https://apis.io/) network.
 
 
   MYR Group''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 77
+random_paper: 66
 score:
   band: minimal
   composite: 3.0

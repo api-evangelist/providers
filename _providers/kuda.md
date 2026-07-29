@@ -128,7 +128,7 @@ overview: 'Kuda is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kuda''s developer surface includes documentation, GitHub presence, engineering blog, FAQ, YouTube channel, and 16 more developer resources.'
-random_paper: 26
+random_paper: 21
 score:
   band: minimal
   composite: 10.5

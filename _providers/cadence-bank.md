@@ -66,7 +66,7 @@ overview: 'Cadence Bank is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Cadence Bank''s developer surface includes support and 7 more developer resources.'
-random_paper: 58
+random_paper: 44
 score:
   band: emerging
   composite: 13.5

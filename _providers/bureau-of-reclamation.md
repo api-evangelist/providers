@@ -114,7 +114,7 @@ plans:
 - name: Bureau Of Reclamation Plans Pricing
   plan_count: 3
   slug: bureau-of-reclamation-plans-pricing
-random_paper: 60
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Bureau Of Reclamation Rate Limits

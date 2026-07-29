@@ -99,7 +99,7 @@ overview: 'Summation is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Summation''s developer surface includes documentation, signup flow, and 12 more developer resources.'
-random_paper: 41
+random_paper: 29
 score:
   band: emerging
   composite: 18.1

@@ -174,7 +174,7 @@ overview: 'Orthogonal publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Orthogonal''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 22 more developer resources.'
-random_paper: 58
+random_paper: 45
 scopes:
 - name: Orthogonal Scopes
   scope_count: 0

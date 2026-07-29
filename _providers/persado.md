@@ -56,7 +56,7 @@ name: Persado
 nav: Providers
 network: true
 overview: Persado is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Artificial Intelligence, Generative AI, and Marketing.
-random_paper: 39
+random_paper: 30
 score:
   band: minimal
   composite: 8.1

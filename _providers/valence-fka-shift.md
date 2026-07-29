@@ -107,7 +107,7 @@ overview: 'Valence (FKA Shift) is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Valence (FKA Shift)''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 13
+random_paper: 72
 score:
   band: emerging
   composite: 21.7

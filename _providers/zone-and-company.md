@@ -79,7 +79,7 @@ overview: 'Zone & Company is profiled on the [APIs.io](https://apis.io/) network
 
 
   Zone & Company''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 20
+random_paper: 0
 score:
   band: emerging
   composite: 16.3

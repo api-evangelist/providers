@@ -79,7 +79,7 @@ overview: 'Eleanor Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Eleanor Health''s developer surface includes engineering blog, support, product news, and 6 more developer resources.'
-random_paper: 74
+random_paper: 57
 score:
   band: minimal
   composite: 12.2

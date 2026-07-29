@@ -57,7 +57,7 @@ name: Espressive
 nav: Providers
 network: true
 overview: Espressive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Virtual Agent, IT Service Management, and ITSM.
-random_paper: 70
+random_paper: 57
 score:
   band: minimal
   composite: 7.1

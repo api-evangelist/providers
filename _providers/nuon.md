@@ -261,7 +261,7 @@ overview: 'Nuon publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nuon''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 29 more developer resources.'
-random_paper: 53
+random_paper: 48
 score:
   band: developing
   composite: 55.3

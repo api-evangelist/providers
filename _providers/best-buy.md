@@ -290,7 +290,7 @@ press:
 - date: '2026-05-25'
   title: How Best Buy Uses AI To Transform Customer Experience
   url: https://www.forbes.com/sites/maribellopez/2025/06/17/how-best-buy-uses-ai-to-transform-customer-experience/
-random_paper: 21
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Best Buy Rate Limits

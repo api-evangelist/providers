@@ -151,7 +151,7 @@ plans:
 - name: Containerd Plans Pricing
   plan_count: 1
   slug: containerd-plans-pricing
-random_paper: 36
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Containerd Rate Limits

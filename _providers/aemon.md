@@ -52,7 +52,7 @@ name: Aemon
 nav: Providers
 network: true
 overview: Aemon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Research, and Optimization.
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

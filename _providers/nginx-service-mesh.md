@@ -92,7 +92,7 @@ plans:
 - name: Nginx Service Mesh Plans Pricing
   plan_count: 3
   slug: nginx-service-mesh-plans-pricing
-random_paper: 3
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Nginx Service Mesh Rate Limits

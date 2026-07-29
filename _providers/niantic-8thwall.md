@@ -116,7 +116,7 @@ overview: '8th Wall is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   8th Wall''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, and 14 more developer resources.'
-random_paper: 73
+random_paper: 55
 score:
   band: minimal
   composite: 10.0

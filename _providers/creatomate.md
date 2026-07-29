@@ -111,7 +111,7 @@ plans:
 - name: Creatomate Plans Pricing
   plan_count: 5
   slug: creatomate-plans-pricing
-random_paper: 34
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Creatomate Rate Limits

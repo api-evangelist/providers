@@ -56,7 +56,7 @@ name: Alpha (Mossland)
 nav: Providers
 network: true
 overview: Alpha (Mossland) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 6
+random_paper: 68
 score:
   band: minimal
   composite: 5.7

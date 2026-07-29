@@ -44,7 +44,7 @@ name: ReserveOut
 nav: Providers
 network: true
 overview: ReserveOut is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 2
+random_paper: 68
 score:
   band: minimal
   composite: 3.2

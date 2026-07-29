@@ -83,7 +83,7 @@ overview: 'Moviepass is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Moviepass'' developer surface includes signup flow, pricing, support, and 6 more developer resources.'
-random_paper: 35
+random_paper: 23
 score:
   band: emerging
   composite: 17.3

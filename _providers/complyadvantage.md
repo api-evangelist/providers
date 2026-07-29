@@ -128,7 +128,7 @@ plans:
 - name: Complyadvantage Plans Pricing
   plan_count: 3
   slug: complyadvantage-plans-pricing
-random_paper: 19
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Complyadvantage Rate Limits

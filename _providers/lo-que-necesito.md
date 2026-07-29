@@ -48,7 +48,7 @@ name: Lo Que Necesito
 nav: Providers
 network: true
 overview: Lo Que Necesito is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Housing, and Colombia.
-random_paper: 76
+random_paper: 58
 score:
   band: minimal
   composite: 5.0

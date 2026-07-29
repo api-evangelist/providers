@@ -56,7 +56,7 @@ name: Newme
 nav: Providers
 network: true
 overview: Newme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, E-Commerce, and Retail.
-random_paper: 66
+random_paper: 60
 score:
   band: minimal
   composite: 9.2

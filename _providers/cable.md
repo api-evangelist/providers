@@ -236,7 +236,7 @@ overview: 'Cable publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 24 more developer resources.'
-random_paper: 29
+random_paper: 23
 score:
   band: developing
   composite: 48.6

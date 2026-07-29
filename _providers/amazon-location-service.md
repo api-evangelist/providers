@@ -287,7 +287,7 @@ plans:
 - name: Amazon Location Service Plans Pricing
   plan_count: 3
   slug: amazon-location-service-plans-pricing
-random_paper: 55
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Amazon Location Service Rate Limits

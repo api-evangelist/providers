@@ -72,7 +72,7 @@ name: Atomic Finance
 nav: Providers
 network: true
 overview: Atomic Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Bitcoin, Discreet Log Contracts, and DLC.
-random_paper: 63
+random_paper: 46
 score:
   band: minimal
   composite: 8.1

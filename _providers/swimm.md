@@ -87,7 +87,7 @@ overview: 'Swimm is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Swimm''s developer surface includes documentation, getting-started guide, support, engineering blog, and 7 more developer resources.'
-random_paper: 4
+random_paper: 77
 score:
   band: emerging
   composite: 18.4

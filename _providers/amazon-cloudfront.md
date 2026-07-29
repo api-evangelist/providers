@@ -278,7 +278,7 @@ plans:
 - name: Amazon Cloudfront Plans Pricing
   plan_count: 1
   slug: amazon-cloudfront-plans-pricing
-random_paper: 41
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Amazon Cloudfront Rate Limits

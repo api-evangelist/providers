@@ -86,7 +86,7 @@ plans:
 - name: Cropx Plans Pricing
   plan_count: 1
   slug: cropx-plans-pricing
-random_paper: 3
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Cropx Rate Limits

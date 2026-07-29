@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Tiger Global Management
 nav: Providers
 network: true
-random_paper: 24
+random_paper: 9
 slug: tiger-global
 tags:
 - Venture Capital

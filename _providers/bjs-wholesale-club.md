@@ -174,7 +174,7 @@ plans:
 - name: Bjs Wholesale Club Plans Pricing
   plan_count: 3
   slug: bjs-wholesale-club-plans-pricing
-random_paper: 57
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Bjs Wholesale Club Rate Limits

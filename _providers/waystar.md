@@ -118,7 +118,7 @@ plans:
 - name: Waystar Plans Pricing
   plan_count: 2
   slug: waystar-plans-pricing
-random_paper: 68
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Waystar Rate Limits

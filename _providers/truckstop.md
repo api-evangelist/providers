@@ -125,7 +125,7 @@ plans:
 - name: Truckstop Plans Pricing
   plan_count: 13
   slug: truckstop-plans-pricing
-random_paper: 59
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Truckstop Rate Limits

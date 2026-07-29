@@ -75,7 +75,7 @@ overview: 'Context.ai * is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Context.ai *''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 27
+random_paper: 15
 score:
   band: emerging
   composite: 13.9

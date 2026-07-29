@@ -242,7 +242,7 @@ plans:
 - name: Mubert Plans Pricing
   plan_count: 4
   slug: mubert-plans-pricing
-random_paper: 23
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Mubert Rate Limits

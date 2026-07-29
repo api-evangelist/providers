@@ -48,7 +48,7 @@ name: Gentle Monster
 nav: Providers
 network: true
 overview: Gentle Monster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Eyewear, Fashion, and Retail.
-random_paper: 38
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

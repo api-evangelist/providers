@@ -52,7 +52,7 @@ name: Ask
 nav: Providers
 network: true
 overview: Ask is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Search, Search Engine, Consumer, and Defunct.
-random_paper: 3
+random_paper: 79
 score:
   band: minimal
   composite: 7.1

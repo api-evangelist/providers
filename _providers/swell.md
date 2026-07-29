@@ -145,7 +145,7 @@ plans:
 - name: Swell Plans Pricing
   plan_count: 1
   slug: swell-plans-pricing
-random_paper: 77
+random_paper: 71
 rate_limits:
 - limit_count: 2
   name: Swell Rate Limits

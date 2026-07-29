@@ -79,7 +79,7 @@ overview: 'Rex Inc is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Rex Inc''s developer surface includes developer portal, engineering blog, support, and 6 more developer resources.'
-random_paper: 62
+random_paper: 54
 score:
   band: emerging
   composite: 13.0

@@ -56,7 +56,7 @@ name: uberVU
 nav: Providers
 network: true
 overview: uberVU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Analytics, Monitoring, and Acquired.
-random_paper: 33
+random_paper: 25
 score:
   band: minimal
   composite: 7.5

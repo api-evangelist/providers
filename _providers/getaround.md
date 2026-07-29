@@ -79,7 +79,7 @@ overview: 'Getaround publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Getaround''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: minimal
   composite: 8.8

@@ -159,7 +159,7 @@ plans:
 - name: Kyverno Plans Pricing
   plan_count: 3
   slug: kyverno-plans-pricing
-random_paper: 71
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Kyverno Rate Limits

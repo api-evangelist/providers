@@ -163,7 +163,7 @@ plans:
 - name: Freshdesk Plans Pricing
   plan_count: 5
   slug: freshdesk-plans-pricing
-random_paper: 11
+random_paper: 79
 rate_limits:
 - limit_count: 7
   name: Freshdesk Rate Limits

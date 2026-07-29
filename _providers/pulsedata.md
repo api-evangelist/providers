@@ -63,7 +63,7 @@ overview: 'pulseData is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   pulseData''s developer surface includes support and 4 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: minimal
   composite: 8.6

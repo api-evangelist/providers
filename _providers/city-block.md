@@ -71,7 +71,7 @@ overview: 'City Block is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   City Block''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: emerging
   composite: 13.7

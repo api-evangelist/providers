@@ -75,7 +75,7 @@ overview: 'Sophont is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sophont''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 33
+random_paper: 21
 score:
   band: minimal
   composite: 6.3

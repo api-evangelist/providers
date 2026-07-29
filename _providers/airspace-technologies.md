@@ -181,7 +181,7 @@ overview: 'Airspace Technologies publishes 6 APIs on the [APIs.io](https://apis.
 
 
   Airspace Technologies'' developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 36
+random_paper: 9
 score:
   band: developing
   composite: 50.9

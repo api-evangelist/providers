@@ -141,7 +141,7 @@ overview: 'Encharge publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Encharge''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 39
+random_paper: 29
 score:
   band: thin
   composite: 28.8

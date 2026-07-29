@@ -261,7 +261,7 @@ overview: 'Resolve publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 57
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Resolve Rate Limits

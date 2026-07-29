@@ -48,7 +48,7 @@ name: MyGlamm
 nav: Providers
 network: true
 overview: MyGlamm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Beauty, Cosmetics, and Direct to Consumer.
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

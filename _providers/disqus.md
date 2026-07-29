@@ -147,7 +147,7 @@ overview: 'Disqus publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Disqus'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 33
+random_paper: 25
 scopes:
 - name: Disqus Scopes
   scope_count: 3

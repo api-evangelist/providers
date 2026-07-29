@@ -83,7 +83,7 @@ overview: 'Second Front Systems is profiled on the [APIs.io](https://apis.io/) n
 
 
   Second Front Systems'' developer surface includes documentation, support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 17
+random_paper: 71
 score:
   band: emerging
   composite: 18.3

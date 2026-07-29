@@ -44,7 +44,7 @@ name: Pallando Therapeutics
 nav: Providers
 network: true
 overview: Pallando Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Therapeutics, Biotechnology, Protein Degradation, and Drug Discovery.
-random_paper: 52
+random_paper: 25
 score:
   band: minimal
   composite: 4.3

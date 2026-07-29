@@ -44,7 +44,7 @@ name: Acatus
 nav: Providers
 network: true
 overview: Acatus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Financial Services.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 4.1

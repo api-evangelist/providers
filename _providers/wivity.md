@@ -60,7 +60,7 @@ name: Wivity
 nav: Providers
 network: true
 overview: Wivity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Governance, Blockchain, and DAO.
-random_paper: 52
+random_paper: 44
 score:
   band: minimal
   composite: 7.5

@@ -208,7 +208,7 @@ overview: 'Amazon Billing And Cost Management publishes 9 APIs on the [APIs.io](
 
 
   Amazon Billing And Cost Management''s developer surface includes authentication, developer portal, developer console, documentation, pricing, FAQ, engineering blog, and 17 more developer resources.'
-random_paper: 46
+random_paper: 4
 rules:
 - name: Amazon Billing And Cost Management API Rules
   rule_count: 5

@@ -130,7 +130,7 @@ plans:
 - name: Hyperping Plans Pricing
   plan_count: 5
   slug: hyperping-plans-pricing
-random_paper: 34
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Hyperping Rate Limits
