@@ -39,7 +39,7 @@ name: Apcera
 nav: Providers
 network: true
 overview: Apcera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Containers, Cloud, Policy, and Governance.
-random_paper: 4
+random_paper: 67
 score:
   band: minimal
   composite: 4.3

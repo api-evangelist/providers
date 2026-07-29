@@ -52,7 +52,7 @@ name: Stoicism Quote
 nav: Providers
 network: true
 overview: Stoicism Quote publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Personality and Public APIs.
-random_paper: 15
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

@@ -65,7 +65,7 @@ plans:
 - name: South State Corporation Plans Pricing
   plan_count: 1
   slug: south-state-corporation-plans-pricing
-random_paper: 11
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: South State Corporation Rate Limits

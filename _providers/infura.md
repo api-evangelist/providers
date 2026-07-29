@@ -126,7 +126,7 @@ plans:
 - name: Infura Plans Pricing
   plan_count: 4
   slug: infura-plans-pricing
-random_paper: 29
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Infura Rate Limits

@@ -71,7 +71,7 @@ overview: 'Frost Bank is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Frost Bank''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 14
+random_paper: 67
 score:
   band: minimal
   composite: 12.8

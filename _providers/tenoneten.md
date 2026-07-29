@@ -83,7 +83,7 @@ overview: 'TenOneTen is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TenOneTen''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 52
+random_paper: 28
 score:
   band: minimal
   composite: 6.6

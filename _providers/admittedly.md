@@ -71,7 +71,7 @@ overview: 'Admittedly is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Admittedly''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 72
+random_paper: 46
 score:
   band: emerging
   composite: 13.1

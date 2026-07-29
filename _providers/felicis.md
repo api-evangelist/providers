@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Felicis Ventures
 nav: Providers
 network: true
-random_paper: 42
+random_paper: 24
 slug: felicis
 tags:
 - Venture Capital

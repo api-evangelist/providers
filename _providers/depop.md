@@ -241,7 +241,7 @@ overview: 'depop publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   depop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
-random_paper: 74
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Depop Rate Limits

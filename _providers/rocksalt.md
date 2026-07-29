@@ -91,7 +91,7 @@ overview: 'Rocksalt is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rocksalt''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 20
+random_paper: 77
 score:
   band: emerging
   composite: 17.0

@@ -166,7 +166,7 @@ plans:
 - name: Fireworks Ai Plans Pricing
   plan_count: 5
   slug: fireworks-ai-plans-pricing
-random_paper: 3
+random_paper: 50
 rate_limits:
 - limit_count: 6
   name: Fireworks Ai Rate Limits

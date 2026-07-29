@@ -104,7 +104,7 @@ plans:
 - name: North Cloud Plans Pricing
   plan_count: 3
   slug: north-cloud-plans-pricing
-random_paper: 57
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: North Cloud Rate Limits

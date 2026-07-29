@@ -91,7 +91,7 @@ plans:
 - name: Microsoft Xbox Plans Pricing
   plan_count: 3
   slug: microsoft-xbox-plans-pricing
-random_paper: 13
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Microsoft Xbox Rate Limits

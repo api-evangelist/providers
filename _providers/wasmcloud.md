@@ -218,7 +218,7 @@ plans:
 - name: Wasmcloud Plans Pricing
   plan_count: 3
   slug: wasmcloud-plans-pricing
-random_paper: 51
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Wasmcloud Rate Limits

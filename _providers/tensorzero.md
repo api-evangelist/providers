@@ -124,7 +124,7 @@ overview: 'TensorZero is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TensorZero''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 13 more developer resources.'
-random_paper: 37
+random_paper: 9
 score:
   band: emerging
   composite: 26.3

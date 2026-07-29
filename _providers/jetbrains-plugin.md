@@ -109,7 +109,7 @@ overview: 'JetBrains Marketplace publishes 2 APIs on the [APIs.io](https://apis.
 
 
   JetBrains Marketplace''s developer surface includes authentication, documentation, signup flow, pricing, and 7 more developer resources.'
-random_paper: 45
+random_paper: 3
 score:
   band: thin
   composite: 29.9

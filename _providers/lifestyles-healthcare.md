@@ -123,7 +123,7 @@ overview: 'LifeStyles Healthcare publishes 2 APIs on the [APIs.io](https://apis.
 
 
   LifeStyles Healthcare''s developer surface includes documentation, authentication, engineering blog, support, and 13 more developer resources.'
-random_paper: 22
+random_paper: 45
 scopes:
 - name: Lifestyles Healthcare Scopes
   scope_count: 0

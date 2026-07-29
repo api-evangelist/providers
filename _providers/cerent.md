@@ -39,7 +39,7 @@ name: Cerent
 nav: Providers
 network: true
 overview: Cerent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Optical Networking, SONET, and Telecommunications.
-random_paper: 25
+random_paper: 9
 score:
   band: minimal
   composite: 4.3

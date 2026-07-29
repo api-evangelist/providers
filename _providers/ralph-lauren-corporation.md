@@ -68,7 +68,7 @@ name: Ralph Lauren Corporation
 nav: Providers
 network: true
 overview: Ralph Lauren Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Fashion, Retail, Luxury, and Lifestyle.
-random_paper: 8
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

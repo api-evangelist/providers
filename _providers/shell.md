@@ -333,7 +333,7 @@ plans:
 - name: Shell Plans Pricing
   plan_count: 1
   slug: shell-plans-pricing
-random_paper: 74
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Shell Rate Limits

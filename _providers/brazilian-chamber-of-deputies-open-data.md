@@ -56,7 +56,7 @@ name: Brazilian Chamber of Deputies Open Data
 nav: Providers
 network: true
 overview: Brazilian Chamber of Deputies Open Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 54
+random_paper: 35
 score:
   band: minimal
   composite: 6.5

@@ -63,7 +63,7 @@ overview: 'getriff is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   getriff''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 50
+random_paper: 32
 score:
   band: minimal
   composite: 12.1

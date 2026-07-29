@@ -56,7 +56,7 @@ name: Hong Kong GeoData Store
 nav: Providers
 network: true
 overview: Hong Kong GeoData Store publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 43
+random_paper: 64
 score:
   band: minimal
   composite: 5.7

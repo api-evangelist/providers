@@ -88,7 +88,7 @@ plans:
 - name: Deposco Plans Pricing
   plan_count: 1
   slug: deposco-plans-pricing
-random_paper: 56
+random_paper: 38
 score:
   band: emerging
   composite: 13.8

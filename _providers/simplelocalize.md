@@ -217,7 +217,7 @@ plans:
 - name: Simplelocalize Plans Pricing
   plan_count: 5
   slug: simplelocalize-plans-pricing
-random_paper: 38
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Simplelocalize Rate Limits

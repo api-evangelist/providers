@@ -71,7 +71,7 @@ overview: 'Ooak Data is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ooak Data''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: minimal
   composite: 11.3

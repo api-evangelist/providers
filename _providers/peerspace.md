@@ -95,7 +95,7 @@ overview: 'Peerspace is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Peerspace''s developer surface includes support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 28
+random_paper: 4
 score:
   band: emerging
   composite: 16.3

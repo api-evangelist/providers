@@ -44,7 +44,7 @@ name: Kindred Ai
 nav: Providers
 network: true
 overview: Kindred Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Machine Learning, and Reinforcement Learning.
-random_paper: 60
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

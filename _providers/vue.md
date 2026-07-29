@@ -39,7 +39,7 @@ name: Vue
 nav: Providers
 network: true
 overview: Vue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, RFID, Retail, Inventory Management, and Supply Chain.
-random_paper: 28
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

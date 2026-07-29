@@ -56,7 +56,7 @@ name: Micro
 nav: Providers
 network: true
 overview: Micro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Go, Microservices, and Framework.
-random_paper: 76
+random_paper: 64
 score:
   band: minimal
   composite: 5.7

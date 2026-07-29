@@ -127,7 +127,7 @@ overview: 'PulseMCP publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   PulseMCP''s developer surface includes engineering blog, documentation, GitHub presence, and 17 more developer resources.'
-random_paper: 26
+random_paper: 4
 score:
   band: emerging
   composite: 13.9

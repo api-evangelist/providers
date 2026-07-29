@@ -128,7 +128,7 @@ overview: 'Chainflip is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chainflip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, sandbox, and 14 more developer resources.'
-random_paper: 18
+random_paper: 73
 score:
   band: emerging
   composite: 24.0

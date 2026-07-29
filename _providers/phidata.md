@@ -118,7 +118,7 @@ plans:
 - name: Phidata Plans Pricing
   plan_count: 1
   slug: phidata-plans-pricing
-random_paper: 38
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Phidata Rate Limits

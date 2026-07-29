@@ -107,7 +107,7 @@ overview: 'Netezza is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Netezza''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, and 11 more developer resources.'
-random_paper: 76
+random_paper: 58
 score:
   band: emerging
   composite: 19.3

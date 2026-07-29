@@ -83,7 +83,7 @@ overview: 'Bigfinite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bigfinite''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 21
+random_paper: 76
 score:
   band: emerging
   composite: 16.8

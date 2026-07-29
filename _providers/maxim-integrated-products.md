@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Maxim Integrated Products, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/maxim-integrated-products%2C-inc./
-random_paper: 36
+random_paper: 49
 score:
   band: minimal
   composite: 3.3

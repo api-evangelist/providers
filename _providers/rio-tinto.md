@@ -75,7 +75,7 @@ name: Rio Tinto
 nav: Providers
 network: true
 overview: Rio Tinto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Metals, Resources, and Critical Minerals.
-random_paper: 9
+random_paper: 64
 score:
   band: minimal
   composite: 6.0

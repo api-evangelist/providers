@@ -75,7 +75,7 @@ overview: 'Magic is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Magic''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 30
+random_paper: 8
 score:
   band: minimal
   composite: 6.1

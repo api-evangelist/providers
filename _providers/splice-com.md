@@ -128,7 +128,7 @@ overview: 'Splice is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Splice''s developer surface includes pricing, support, engineering blog, YouTube channel, and 17 more developer resources.'
-random_paper: 3
+random_paper: 56
 score:
   band: emerging
   composite: 13.3

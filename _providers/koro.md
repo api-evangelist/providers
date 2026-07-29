@@ -87,7 +87,7 @@ overview: 'KoRo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   KoRo''s developer surface includes support, signup flow, and 9 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: emerging
   composite: 15.2

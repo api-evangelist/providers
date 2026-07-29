@@ -123,7 +123,7 @@ plans:
 - name: Smarthr Plans Pricing
   plan_count: 4
   slug: smarthr-plans-pricing
-random_paper: 76
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Smarthr Rate Limits

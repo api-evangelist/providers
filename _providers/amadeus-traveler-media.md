@@ -569,7 +569,7 @@ overview: 'Amadeus Traveler Media publishes 5 APIs on the [APIs.io](https://apis
 
 
   Amadeus Traveler Media''s developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 22 more developer resources.'
-random_paper: 51
+random_paper: 74
 rules:
 - name: Amadeus Traveler Media API Rules
   rule_count: 5

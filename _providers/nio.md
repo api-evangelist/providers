@@ -47,7 +47,7 @@ overview: 'NIO is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   NIO''s developer surface includes engineering blog.'
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
   composite: 4.5

@@ -156,7 +156,7 @@ overview: 'Mina publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mina''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, sandbox, changelog, and 19 more developer resources.'
-random_paper: 36
+random_paper: 26
 score:
   band: thin
   composite: 30.3

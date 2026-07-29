@@ -91,7 +91,7 @@ overview: 'Community Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Community Labs'' developer surface includes CLI, changelog, and 9 more developer resources.'
-random_paper: 74
+random_paper: 38
 score:
   band: emerging
   composite: 15.5

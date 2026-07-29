@@ -88,7 +88,7 @@ plans:
 - name: Datenregister Berlin De Plans Pricing
   plan_count: 1
   slug: datenregister-berlin-de-plans-pricing
-random_paper: 10
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Datenregister Berlin De Rate Limits

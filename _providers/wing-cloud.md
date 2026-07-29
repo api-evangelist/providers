@@ -95,7 +95,7 @@ overview: 'Wing Cloud is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wing Cloud''s developer surface includes documentation, getting-started guide, sandbox, support, CLI, and 8 more developer resources.'
-random_paper: 16
+random_paper: 69
 score:
   band: emerging
   composite: 16.8

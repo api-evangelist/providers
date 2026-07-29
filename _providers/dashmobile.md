@@ -44,7 +44,7 @@ name: dashmobile
 nav: Providers
 network: true
 overview: dashmobile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Portfolio Company, Venture Backed, Slow Ventures, and Defunct.
-random_paper: 47
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

@@ -44,7 +44,7 @@ name: Eon Laboratories
 nav: Providers
 network: true
 overview: Eon Laboratories is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Generic Drugs, Drug Manufacturing, and Healthcare.
-random_paper: 37
+random_paper: 74
 score:
   band: minimal
   composite: 4.3

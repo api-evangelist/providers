@@ -87,7 +87,7 @@ overview: 'Albert is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Albert''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 18
+random_paper: 2
 score:
   band: emerging
   composite: 13.8

@@ -67,7 +67,7 @@ overview: 'Harbor Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Harbor Health''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 4
+random_paper: 49
 score:
   band: emerging
   composite: 13.6

@@ -60,7 +60,7 @@ name: Food Standards Agency
 nav: Providers
 network: true
 overview: Food Standards Agency publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 30
+random_paper: 55
 score:
   band: minimal
   composite: 8.2

@@ -49,7 +49,7 @@ name: DeepWay 深向
 nav: Providers
 network: true
 overview: DeepWay 深向 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Autonomous Vehicles, Electric Vehicles, and Trucking.
-random_paper: 58
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

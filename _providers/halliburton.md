@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Accelerating Digital Supply Chain Transformation
   url: https://www.halliburton.com/en/about-us/press-release/halliburton-accenture-digital-supply-chain-transformation
-random_paper: 33
+random_paper: 3
 score:
   band: minimal
   composite: 5.3

@@ -144,7 +144,7 @@ overview: 'Comma.ai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Comma.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 16 more developer resources.'
-random_paper: 34
+random_paper: 16
 score:
   band: thin
   composite: 32.9

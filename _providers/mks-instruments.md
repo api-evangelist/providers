@@ -83,7 +83,7 @@ overview: 'MKS Instruments is profiled on the [APIs.io](https://apis.io/) networ
 
 
   MKS Instruments'' developer surface includes support and 7 more developer resources.'
-random_paper: 64
+random_paper: 24
 score:
   band: minimal
   composite: 9.7

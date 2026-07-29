@@ -177,7 +177,7 @@ overview: 'Euronet Worldwide publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Euronet Worldwide''s developer surface includes authentication, API reference, pricing, engineering blog, documentation, signup flow, and 22 more developer resources.'
-random_paper: 0
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Euronet Rate Limits

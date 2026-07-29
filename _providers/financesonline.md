@@ -87,7 +87,7 @@ overview: 'FinancesOnline is profiled on the [APIs.io](https://apis.io/) network
 
 
   FinancesOnline''s developer surface includes developer portal, engineering blog, and 9 more developer resources.'
-random_paper: 21
+random_paper: 62
 score:
   band: minimal
   composite: 9.9

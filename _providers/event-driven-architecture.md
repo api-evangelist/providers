@@ -68,7 +68,7 @@ name: Event-Driven Architecture
 nav: Providers
 network: true
 overview: Event-Driven Architecture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, AsyncAPI, Asynchronous, CloudEvents, and Distributed Systems.
-random_paper: 26
+random_paper: 39
 score:
   band: minimal
   composite: 5.4

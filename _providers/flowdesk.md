@@ -108,7 +108,7 @@ overview: 'Flowdesk publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Flowdesk''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 9 more developer resources.'
-random_paper: 16
+random_paper: 73
 score:
   band: thin
   composite: 28.8

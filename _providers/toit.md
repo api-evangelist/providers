@@ -124,7 +124,7 @@ overview: 'Toit is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Toit''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, CLI, and 13 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: emerging
   composite: 24.9

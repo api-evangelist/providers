@@ -351,7 +351,7 @@ overview: 'Galileo Technologies publishes 60 APIs on the [APIs.io](https://apis.
 
 
   Galileo Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 60
+random_paper: 8
 scopes:
 - name: Galileo Technologies Scopes
   scope_count: 0

@@ -136,7 +136,7 @@ overview: 'Ellipsis publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Ellipsis'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 22
+random_paper: 0
 score:
   band: thin
   composite: 35.2

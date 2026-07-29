@@ -149,7 +149,7 @@ plans:
 - name: Toloka Plans Pricing
   plan_count: 2
   slug: toloka-plans-pricing
-random_paper: 34
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Toloka Rate Limits

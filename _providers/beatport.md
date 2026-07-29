@@ -173,7 +173,7 @@ overview: 'Beatport is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Beatport''s developer surface includes authentication, pricing, GitHub presence, YouTube channel, and 28 more developer resources.'
-random_paper: 18
+random_paper: 75
 score:
   band: emerging
   composite: 15.9

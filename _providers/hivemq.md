@@ -135,7 +135,7 @@ overview: 'HiveMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   HiveMQ''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, and 9 more developer resources.'
-random_paper: 34
+random_paper: 18
 rules:
 - name: HiveMQ API Rules
   rule_count: 2

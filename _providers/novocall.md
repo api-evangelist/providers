@@ -48,7 +48,7 @@ name: Novocall
 nav: Providers
 network: true
 overview: Novocall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Callback, Lead Conversion, Click To Call, and Sales.
-random_paper: 15
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

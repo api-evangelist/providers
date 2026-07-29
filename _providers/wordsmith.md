@@ -176,7 +176,7 @@ overview: 'Wordsmith publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wordsmith''s developer surface includes engineering blog, documentation, API reference, authentication, getting-started guide, pricing, academy / training, and 24 more developer resources.'
-random_paper: 69
+random_paper: 45
 score:
   band: emerging
   composite: 24.7

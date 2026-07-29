@@ -201,7 +201,7 @@ plans:
 - name: Tpg Telecom Plans
   plan_count: 5
   slug: tpg-telecom-plans
-random_paper: 43
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Tpg Telecom Rate Limits

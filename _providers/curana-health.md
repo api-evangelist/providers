@@ -140,7 +140,7 @@ overview: 'Curana Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Curana Health''s developer surface includes documentation, API reference, signup flow, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 0
+random_paper: 45
 scopes:
 - name: Curana Health Scopes
   scope_count: 0

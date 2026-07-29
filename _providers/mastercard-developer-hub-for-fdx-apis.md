@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: Mastercard Developer Hub for FDX APIs
 nav: Providers
 network: true
-random_paper: 31
+random_paper: 16
 slug: mastercard-developer-hub-for-fdx-apis
 tags:
 - Banking

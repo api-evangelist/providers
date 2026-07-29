@@ -197,7 +197,7 @@ overview: 'Breeze publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Breeze''s developer surface includes signup flow, documentation, API reference, getting-started guide, support, authentication, and 18 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: thin
   composite: 37.6

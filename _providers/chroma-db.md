@@ -127,7 +127,7 @@ plans:
 - name: Chroma Db Plans Pricing
   plan_count: 4
   slug: chroma-db-plans-pricing
-random_paper: 30
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Chroma Db Rate Limits

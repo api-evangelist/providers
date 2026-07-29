@@ -296,7 +296,7 @@ plans:
 - name: Amazon Elasticache Plans Pricing
   plan_count: 3
   slug: amazon-elasticache-plans-pricing
-random_paper: 62
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Amazon Elasticache Rate Limits

@@ -173,7 +173,7 @@ overview: 'Moody''s RMS publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Moody''s RMS''s developer surface includes changelog, getting-started guide, support, authentication, documentation, API reference, and 21 more developer resources.'
-random_paper: 49
+random_paper: 23
 score:
   band: thin
   composite: 41.6

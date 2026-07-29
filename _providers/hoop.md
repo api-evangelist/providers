@@ -71,7 +71,7 @@ overview: 'Hoop is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Hoop''s developer surface includes engineering blog, pricing, and 5 more developer resources.'
-random_paper: 53
+random_paper: 43
 score:
   band: emerging
   composite: 13.6

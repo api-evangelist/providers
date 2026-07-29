@@ -63,7 +63,7 @@ overview: 'E-Pal is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   E-Pal''s developer surface includes signup flow, support, and 3 more developer resources.'
-random_paper: 1
+random_paper: 68
 score:
   band: minimal
   composite: 8.5

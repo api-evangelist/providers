@@ -67,7 +67,7 @@ overview: 'Pimento is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pimento''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: minimal
   composite: 11.8

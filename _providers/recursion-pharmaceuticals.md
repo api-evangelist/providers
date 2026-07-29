@@ -173,7 +173,7 @@ overview: 'Recursion Pharmaceuticals is profiled on the [APIs.io](https://apis.i
 
 
   Recursion Pharmaceuticals'' developer surface includes engineering blog, YouTube channel, and 30 more developer resources.'
-random_paper: 3
+random_paper: 14
 score:
   band: minimal
   composite: 6.1

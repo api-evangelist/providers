@@ -56,7 +56,7 @@ name: xColors
 nav: Providers
 network: true
 overview: xColors publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art And Design and Public APIs.
-random_paper: 8
+random_paper: 67
 score:
   band: minimal
   composite: 5.7

@@ -102,7 +102,7 @@ overview: 'PayNearMe is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   PayNearMe''s developer surface includes documentation, support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 38
+random_paper: 14
 score:
   band: thin
   composite: 35.2

@@ -48,7 +48,7 @@ name: Carsome
 nav: Providers
 network: true
 overview: Carsome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, E-Commerce, Marketplace, and Used Cars.
-random_paper: 53
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

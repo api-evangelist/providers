@@ -59,7 +59,7 @@ overview: 'Standard Kernel is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Standard Kernel''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 72
+random_paper: 34
 score:
   band: minimal
   composite: 5.4

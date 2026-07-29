@@ -169,7 +169,7 @@ plans:
 - name: Trustradius Plans Pricing
   plan_count: 1
   slug: trustradius-plans-pricing
-random_paper: 71
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Trustradius Rate Limits

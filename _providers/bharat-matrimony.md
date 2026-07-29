@@ -48,7 +48,7 @@ name: Bharat Matrimony
 nav: Providers
 network: true
 overview: Bharat Matrimony is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Matrimony, Matchmaking, and Dating.
-random_paper: 46
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

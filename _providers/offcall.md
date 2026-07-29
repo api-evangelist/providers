@@ -71,7 +71,7 @@ overview: 'Offcall is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Offcall''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 34
+random_paper: 16
 score:
   band: emerging
   composite: 14.0

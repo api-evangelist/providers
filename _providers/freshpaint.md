@@ -119,7 +119,7 @@ plans:
 - name: Freshpaint Plans Pricing
   plan_count: 3
   slug: freshpaint-plans-pricing
-random_paper: 75
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Freshpaint Rate Limits

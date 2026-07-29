@@ -64,7 +64,7 @@ name: Linen App
 nav: Providers
 network: true
 overview: Linen App is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wallet, Cryptocurrency, Ethereum, and DeFi.
-random_paper: 53
+random_paper: 31
 score:
   band: minimal
   composite: 7.2

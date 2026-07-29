@@ -48,7 +48,7 @@ name: Hundeland
 nav: Providers
 network: true
 overview: Hundeland is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pets, Dogs, Pet Supplies, and Ecommerce.
-random_paper: 23
+random_paper: 78
 score:
   band: minimal
   composite: 5.0

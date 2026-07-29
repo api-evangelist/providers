@@ -95,7 +95,7 @@ overview: 'Hubble Protocol is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Hubble Protocol''s developer surface includes documentation, getting-started guide, API reference, support, and 9 more developer resources.'
-random_paper: 13
+random_paper: 52
 score:
   band: emerging
   composite: 16.9

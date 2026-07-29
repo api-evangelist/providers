@@ -63,7 +63,7 @@ overview: 'Joopiter is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Joopiter''s developer surface includes support and 4 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: minimal
   composite: 10.1

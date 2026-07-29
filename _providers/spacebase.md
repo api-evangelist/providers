@@ -67,7 +67,7 @@ overview: 'Spacebase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Spacebase''s developer surface includes pricing, support, and 4 more developer resources.'
-random_paper: 11
+random_paper: 66
 score:
   band: minimal
   composite: 12.2

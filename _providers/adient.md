@@ -77,7 +77,7 @@ plans:
 - name: Adient Plans Pricing
   plan_count: 1
   slug: adient-plans-pricing
-random_paper: 13
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Adient Rate Limits

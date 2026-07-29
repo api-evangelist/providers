@@ -114,7 +114,7 @@ plans:
 - name: Microsoft Azure Private Link Plans Pricing
   plan_count: 3
   slug: microsoft-azure-private-link-plans-pricing
-random_paper: 12
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Private Link Rate Limits

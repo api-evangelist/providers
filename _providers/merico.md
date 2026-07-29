@@ -122,7 +122,7 @@ overview: 'Merico is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Merico''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 23
+random_paper: 7
 score:
   band: thin
   composite: 41.5

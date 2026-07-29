@@ -235,7 +235,7 @@ plans:
 - name: Cloudzero Plans Pricing
   plan_count: 1
   slug: cloudzero-plans-pricing
-random_paper: 59
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Cloudzero Rate Limits

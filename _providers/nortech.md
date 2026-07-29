@@ -211,7 +211,7 @@ overview: 'Nortech publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nortech''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 23 more developer resources.'
-random_paper: 62
+random_paper: 44
 score:
   band: developing
   composite: 49.5

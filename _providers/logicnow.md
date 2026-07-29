@@ -39,7 +39,7 @@ name: LogicNow
 nav: Providers
 network: true
 overview: LogicNow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Management, Managed Service Providers, Remote Monitoring and Management, and Backup and Recovery.
-random_paper: 19
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

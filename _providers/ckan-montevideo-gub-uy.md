@@ -83,7 +83,7 @@ plans:
 - name: Ckan Montevideo Gub Uy Plans Pricing
   plan_count: 0
   slug: ckan-montevideo-gub-uy-plans-pricing
-random_paper: 30
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Ckan Montevideo Gub Uy Rate Limits

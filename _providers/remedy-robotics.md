@@ -48,7 +48,7 @@ name: Remedy Robotics
 nav: Providers
 network: true
 overview: Remedy Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Robotics, Healthcare, and Surgery.
-random_paper: 20
+random_paper: 59
 score:
   band: minimal
   composite: 5.4

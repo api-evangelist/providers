@@ -123,7 +123,7 @@ overview: 'Fountain publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Fountain''s developer surface includes documentation, API reference, authentication, support, pricing, engineering blog, and 12 more developer resources.'
-random_paper: 24
+random_paper: 69
 score:
   band: emerging
   composite: 21.7

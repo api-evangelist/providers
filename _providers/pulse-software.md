@@ -111,7 +111,7 @@ plans:
 - name: Pulse Software Plans Pricing
   plan_count: 3
   slug: pulse-software-plans-pricing
-random_paper: 10
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Pulse Software Rate Limits

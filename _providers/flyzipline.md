@@ -72,7 +72,7 @@ overview: 'Flyzipline is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Flyzipline''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 16
+random_paper: 67
 score:
   band: minimal
   composite: 11.4

@@ -286,7 +286,7 @@ overview: 'Phantom publishes 10 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Phantom''s developer surface includes developer portal, documentation, signup flow, GitHub presence, tooling, changelog, engineering blog, and 46 more developer resources.'
-random_paper: 66
+random_paper: 48
 score:
   band: emerging
   composite: 25.7

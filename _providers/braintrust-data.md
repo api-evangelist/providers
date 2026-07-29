@@ -152,7 +152,7 @@ plans:
 - name: Braintrust Data Plans Pricing
   plan_count: 3
   slug: braintrust-data-plans-pricing
-random_paper: 17
+random_paper: 56
 rate_limits:
 - limit_count: 7
   name: Braintrust Data Rate Limits

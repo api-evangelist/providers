@@ -121,7 +121,7 @@ plans:
 - name: Gooten Plans Pricing
   plan_count: 2
   slug: gooten-plans-pricing
-random_paper: 36
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Gooten Rate Limits

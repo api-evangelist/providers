@@ -71,7 +71,7 @@ overview: 'Ai Fabrik is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ai Fabrik''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: minimal
   composite: 10.5

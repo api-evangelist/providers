@@ -56,7 +56,7 @@ name: Bluenote
 nav: Providers
 network: true
 overview: Bluenote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Artificial Intelligence, and Regulatory.
-random_paper: 15
+random_paper: 72
 score:
   band: minimal
   composite: 10.2

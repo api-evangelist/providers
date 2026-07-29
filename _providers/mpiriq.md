@@ -71,7 +71,7 @@ overview: 'MPIRIQ is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   MPIRIQ''s developer surface includes pricing, support, and 5 more developer resources.'
-random_paper: 42
+random_paper: 26
 score:
   band: minimal
   composite: 11.4

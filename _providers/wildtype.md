@@ -64,7 +64,7 @@ name: Wildtype
 nav: Providers
 network: true
 overview: Wildtype is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Seafood, Cultivated Meat, and Food Technology.
-random_paper: 35
+random_paper: 13
 score:
   band: minimal
   composite: 7.5

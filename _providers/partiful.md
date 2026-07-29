@@ -67,7 +67,7 @@ overview: 'Partiful is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Partiful''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 24
+random_paper: 2
 score:
   band: minimal
   composite: 10.5

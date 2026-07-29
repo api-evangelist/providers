@@ -75,7 +75,7 @@ overview: 'Atlantic Union Bank is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Atlantic Union Bank''s developer surface includes support and 9 more developer resources.'
-random_paper: 55
+random_paper: 7
 score:
   band: emerging
   composite: 14.0

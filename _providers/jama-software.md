@@ -156,7 +156,7 @@ overview: 'Jama Software publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Jama Software''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 20
+random_paper: 65
 score:
   band: thin
   composite: 37.8

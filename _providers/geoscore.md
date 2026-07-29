@@ -56,7 +56,7 @@ name: GeoScore
 nav: Providers
 network: true
 overview: GeoScore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
-random_paper: 8
+random_paper: 65
 score:
   band: minimal
   composite: 5.7

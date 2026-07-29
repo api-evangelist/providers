@@ -73,7 +73,7 @@ overview: 'Mango Markets publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mango Markets'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 25
+random_paper: 70
 rules:
 - name: Mango Markets API Rules
   rule_count: 6

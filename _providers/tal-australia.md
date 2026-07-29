@@ -153,7 +153,7 @@ overview: 'TAL publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TAL''s developer surface includes authentication, support, FAQ, engineering blog, and 23 more developer resources.'
-random_paper: 23
+random_paper: 68
 scopes:
 - name: Tal Australia Scopes
   scope_count: 7

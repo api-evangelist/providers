@@ -67,7 +67,7 @@ overview: 'Mahmee is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Mahmee''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 5
+random_paper: 68
 score:
   band: minimal
   composite: 11.5

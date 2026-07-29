@@ -63,7 +63,7 @@ overview: 'Applied Cognition is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Applied Cognition''s developer surface includes product news, support, and 3 more developer resources.'
-random_paper: 56
+random_paper: 12
 score:
   band: minimal
   composite: 6.1

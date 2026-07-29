@@ -108,7 +108,7 @@ plans:
 - name: Announcekit Plans Pricing
   plan_count: 3
   slug: announcekit-plans-pricing
-random_paper: 28
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Announcekit Rate Limits

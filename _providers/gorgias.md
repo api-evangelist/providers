@@ -169,7 +169,7 @@ overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gorgias'' developer surface includes authentication, engineering blog, documentation, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 55
+random_paper: 37
 rules:
 - name: Gorgias API Rules
   rule_count: 5

@@ -48,7 +48,7 @@ name: GoatChat AI - Adaptive Plus Inc.
 nav: Providers
 network: true
 overview: GoatChat AI - Adaptive Plus Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, Chatbot, and LLM.
-random_paper: 65
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

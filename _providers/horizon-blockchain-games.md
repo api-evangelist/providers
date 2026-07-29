@@ -202,7 +202,7 @@ overview: 'Horizon Blockchain Games publishes 5 APIs on the [APIs.io](https://ap
 
 
   Horizon Blockchain Games'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 43
+random_paper: 60
 score:
   band: developing
   composite: 51.0

@@ -63,7 +63,7 @@ overview: 'American Operator is profiled on the [APIs.io](https://apis.io/) netw
 
 
   American Operator''s developer surface includes support and 4 more developer resources.'
-random_paper: 59
+random_paper: 15
 score:
   band: minimal
   composite: 10.1

@@ -67,7 +67,7 @@ overview: 'Sandbox VR is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sandbox VR''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 27
+random_paper: 1
 score:
   band: minimal
   composite: 10.5

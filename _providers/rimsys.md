@@ -132,7 +132,7 @@ overview: 'Rimsys publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rimsys'' developer surface includes documentation, API reference, pricing, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 63
+random_paper: 47
 score:
   band: thin
   composite: 33.9

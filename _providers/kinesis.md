@@ -2635,7 +2635,7 @@ plans:
 - name: Kinesis Plans Pricing
   plan_count: 4
   slug: kinesis-plans-pricing
-random_paper: 65
+random_paper: 47
 rate_limits:
 - limit_count: 16
   name: Kinesis Rate Limits

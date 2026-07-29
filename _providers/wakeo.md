@@ -114,7 +114,7 @@ plans:
 - name: Wakeo Plans Pricing
   plan_count: 1
   slug: wakeo-plans-pricing
-random_paper: 73
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Wakeo Rate Limits

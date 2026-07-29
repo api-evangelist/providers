@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Gallagher Calls on USG to Investigate AI Firm, G42, Ties to ...
   url: http://chinaselectcommittee.house.gov/media/press-releases/gallagher-calls-usg-investigate-ai-firm-g42-ties-prc-military-intelligence
-random_paper: 27
+random_paper: 19
 score:
   band: minimal
   composite: 5.7

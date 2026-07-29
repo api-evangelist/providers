@@ -63,7 +63,7 @@ overview: 'DisplayLink is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   DisplayLink''s developer surface includes support and 4 more developer resources.'
-random_paper: 33
+random_paper: 3
 score:
   band: minimal
   composite: 9.0

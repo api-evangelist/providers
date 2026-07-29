@@ -67,7 +67,7 @@ overview: 'Atypical AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Atypical AI''s developer surface includes getting-started guide, support, and 4 more developer resources.'
-random_paper: 24
+random_paper: 75
 score:
   band: minimal
   composite: 12.3

@@ -82,7 +82,7 @@ plans:
 - name: Free
   plan_count: 0
   slug: free
-random_paper: 15
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Default

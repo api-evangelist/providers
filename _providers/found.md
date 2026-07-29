@@ -87,7 +87,7 @@ overview: 'Found is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Found''s developer surface includes pricing, support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 1
+random_paper: 66
 score:
   band: emerging
   composite: 20.1

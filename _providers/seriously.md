@@ -48,7 +48,7 @@ name: Seriously
 nav: Providers
 network: true
 overview: Seriously is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Entertainment.
-random_paper: 6
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

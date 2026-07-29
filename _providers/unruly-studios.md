@@ -116,7 +116,7 @@ overview: 'Unruly Studios publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Unruly Studios'' developer surface includes signup flow, pricing, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 48
+random_paper: 10
 scopes:
 - name: Unruly Studios Scopes
   scope_count: 0

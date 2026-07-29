@@ -91,7 +91,7 @@ overview: 'Symbotic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Symbotic''s developer surface includes product news, engineering blog, and 8 more developer resources.'
-random_paper: 27
+random_paper: 5
 score:
   band: minimal
   composite: 9.9

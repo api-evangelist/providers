@@ -87,7 +87,7 @@ overview: 'Photoneo is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Photoneo''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: minimal
   composite: 11.2

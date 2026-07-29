@@ -84,7 +84,7 @@ plans:
 - name: Data Zagreb Hr Plans Pricing
   plan_count: 1
   slug: data-zagreb-hr-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Data Zagreb Hr Rate Limits

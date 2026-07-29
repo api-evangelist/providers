@@ -59,7 +59,7 @@ overview: 'BlueYard is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BlueYard''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 9
+random_paper: 66
 score:
   band: minimal
   composite: 5.4

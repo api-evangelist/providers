@@ -147,7 +147,7 @@ plans:
 - name: Quaderno Plans Pricing
   plan_count: 5
   slug: quaderno-plans-pricing
-random_paper: 16
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Quaderno Rate Limits

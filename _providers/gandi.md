@@ -156,7 +156,7 @@ plans:
 - name: Gandi Plans Pricing
   plan_count: 2
   slug: gandi-plans-pricing
-random_paper: 53
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Gandi Rate Limits

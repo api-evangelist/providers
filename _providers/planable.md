@@ -602,7 +602,7 @@ plans:
 - name: Planable Plans Pricing
   plan_count: 4
   slug: planable-plans-pricing
-random_paper: 61
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Planable Rate Limits

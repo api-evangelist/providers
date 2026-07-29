@@ -107,7 +107,7 @@ overview: 'BMC Software publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   BMC Software''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 8 more developer resources.'
-random_paper: 71
+random_paper: 41
 score:
   band: emerging
   composite: 25.1

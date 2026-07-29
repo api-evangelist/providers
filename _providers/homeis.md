@@ -39,7 +39,7 @@ name: Homeis
 nav: Providers
 network: true
 overview: Homeis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Network, Immigration, Community, and Mobile Application.
-random_paper: 29
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

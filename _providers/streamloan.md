@@ -48,7 +48,7 @@ name: StreamLoan
 nav: Providers
 network: true
 overview: StreamLoan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Lending, Loan Origination, and Point of Sale.
-random_paper: 0
+random_paper: 51
 score:
   band: minimal
   composite: 5.4

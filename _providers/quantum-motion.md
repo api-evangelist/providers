@@ -48,7 +48,7 @@ name: Quantum Motion
 nav: Providers
 network: true
 overview: Quantum Motion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Computing, Deep Tech, Hardware, and Semiconductors.
-random_paper: 23
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

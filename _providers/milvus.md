@@ -149,7 +149,7 @@ plans:
 - name: Milvus Plans Pricing
   plan_count: 1
   slug: milvus-plans-pricing
-random_paper: 56
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Milvus Rate Limits

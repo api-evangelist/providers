@@ -107,7 +107,7 @@ overview: 'TradeLanes is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TradeLanes'' developer surface includes engineering blog, pricing, support, changelog, release notes, and 11 more developer resources.'
-random_paper: 58
+random_paper: 32
 score:
   band: emerging
   composite: 21.2

@@ -76,7 +76,7 @@ overview: 'Onebrief is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Onebrief''s developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 72
+random_paper: 52
 score:
   band: emerging
   composite: 14.1

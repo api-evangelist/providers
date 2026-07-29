@@ -71,7 +71,7 @@ overview: 'Whill is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Whill''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 5
+random_paper: 70
 score:
   band: minimal
   composite: 12.2

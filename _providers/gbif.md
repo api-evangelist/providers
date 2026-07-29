@@ -56,7 +56,7 @@ name: GBIF
 nav: Providers
 network: true
 overview: GBIF publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 23
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

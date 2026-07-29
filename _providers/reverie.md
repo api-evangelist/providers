@@ -55,7 +55,7 @@ overview: 'Reverie is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Reverie''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 61
+random_paper: 43
 score:
   band: minimal
   composite: 5.4

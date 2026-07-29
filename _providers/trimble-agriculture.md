@@ -171,7 +171,7 @@ plans:
 - name: Trimble Agriculture Plans Pricing
   plan_count: 3
   slug: trimble-agriculture-plans-pricing
-random_paper: 62
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Trimble Agriculture Rate Limits

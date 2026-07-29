@@ -33,7 +33,7 @@ name: SpectrumOutage API
 nav: Providers
 network: true
 overview: 'SpectrumOutage API publishes 1 API on the [APIs.io](https://apis.io/) network: v1. Tagged areas include spectrum, outage, internet, tv, and phone.'
-random_paper: 39
+random_paper: 70
 score:
   band: minimal
   composite: 11.9

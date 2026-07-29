@@ -40,7 +40,7 @@ name: Legent
 nav: Providers
 network: true
 overview: Legent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Battery Ventures, and Exited.
-random_paper: 23
+random_paper: 7
 score:
   band: minimal
   composite: 4.1

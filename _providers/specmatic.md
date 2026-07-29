@@ -144,7 +144,7 @@ plans:
 - name: Specmatic Plans Pricing
   plan_count: 3
   slug: specmatic-plans-pricing
-random_paper: 29
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Specmatic Rate Limits

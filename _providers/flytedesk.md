@@ -71,7 +71,7 @@ overview: 'FlyteDesk is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   FlyteDesk''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 47
+random_paper: 23
 score:
   band: minimal
   composite: 11.7

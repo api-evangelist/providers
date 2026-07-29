@@ -268,7 +268,7 @@ press:
 - date: '2026-05-25'
   title: ArcBest Helps Bridge the Gap Between Robotics and ...
   url: https://investors.arcb.com/news-events/news/News-Details/2024/ArcBest-Helps-Bridge-the-Gap-Between-Robotics-and-Logistics-Using-NVIDIA-Technology/
-random_paper: 47
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Arcbest Rate Limits

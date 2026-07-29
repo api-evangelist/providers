@@ -48,7 +48,7 @@ name: Optimyze
 nav: Providers
 network: true
 overview: Optimyze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Observability, Continuous Profiling, Performance, and Cloud Optimization.
-random_paper: 50
+random_paper: 28
 score:
   band: minimal
   composite: 5.7

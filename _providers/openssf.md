@@ -160,7 +160,7 @@ plans:
 - name: Openssf Plans Pricing
   plan_count: 3
   slug: openssf-plans-pricing
-random_paper: 73
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Openssf Rate Limits

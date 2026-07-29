@@ -135,7 +135,7 @@ overview: 'IXL Learning is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   IXL Learning''s developer surface includes pricing, engineering blog, YouTube channel, support, and 19 more developer resources.'
-random_paper: 25
+random_paper: 17
 score:
   band: minimal
   composite: 12.6

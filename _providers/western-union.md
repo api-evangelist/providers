@@ -181,7 +181,7 @@ press:
 - date: '2026-05-25'
   title: Western Union Builds on Accelerator Momentum with New ...
   url: https://ir.westernunion.com/news/archived-press-releases/press-release-details/2019/Western-Union-Builds-on-Accelerator-Momentum-with-New-Artificial-Intelligence-Projects/default.aspx
-random_paper: 65
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Western Union Rate Limits

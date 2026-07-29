@@ -39,7 +39,7 @@ name: D2iQ
 nav: Providers
 network: true
 overview: D2iQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Kubernetes, Containers, Cloud Native, and DevOps.
-random_paper: 60
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

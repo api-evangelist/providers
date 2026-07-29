@@ -259,7 +259,7 @@ plans:
 - name: Kaleyra Plans Pricing
   plan_count: 2
   slug: kaleyra-plans-pricing
-random_paper: 52
+random_paper: 34
 rate_limits:
 - limit_count: 4
   name: Kaleyra Rate Limits

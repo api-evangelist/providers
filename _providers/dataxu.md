@@ -48,7 +48,7 @@ name: Dataxu
 nav: Providers
 network: true
 overview: Dataxu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Programmatic Advertising, and Demand-Side Platform.
-random_paper: 31
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

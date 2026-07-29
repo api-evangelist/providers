@@ -48,7 +48,7 @@ name: Hangry
 nav: Providers
 network: true
 overview: Hangry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Restaurants, Cloud Kitchen, and Virtual Restaurant.
-random_paper: 33
+random_paper: 17
 score:
   band: minimal
   composite: 7.1

@@ -67,7 +67,7 @@ overview: 'Hapag-Lloyd publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Hapag-Lloyd''s developer surface includes developer portal and 4 more developer resources.'
-random_paper: 28
+random_paper: 0
 score:
   band: minimal
   composite: 7.4

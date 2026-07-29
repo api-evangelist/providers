@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: The Home Depot Completes Acquisition of HD Supply
   url: https://www.prnewswire.com/news-releases/the-home-depot-completes-acquisition-of-hd-supply-301198405.html
-random_paper: 64
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

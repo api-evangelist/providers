@@ -52,7 +52,7 @@ name: Raised
 nav: Providers
 network: true
 overview: Raised is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Acquisition, HR Tech, and Hiring.
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

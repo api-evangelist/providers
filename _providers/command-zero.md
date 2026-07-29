@@ -83,7 +83,7 @@ overview: 'Command Zero is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Command Zero''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 73
+random_paper: 43
 score:
   band: minimal
   composite: 12.2

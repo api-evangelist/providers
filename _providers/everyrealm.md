@@ -64,7 +64,7 @@ name: Everyrealm
 nav: Providers
 network: true
 overview: Everyrealm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Metaverse, Web3, Gaming, and Virtual Worlds.
-random_paper: 6
+random_paper: 57
 score:
   band: minimal
   composite: 9.2

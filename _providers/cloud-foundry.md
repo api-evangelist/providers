@@ -164,7 +164,7 @@ overview: 'Cloud Foundry publishes 9 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cloud Foundry''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 12 more developer resources.'
-random_paper: 46
+random_paper: 12
 rules:
 - name: Cloud Foundry API Rules
   rule_count: 10

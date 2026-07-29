@@ -103,7 +103,7 @@ overview: 'Insight Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Insight Health''s developer surface includes engineering blog, pricing, support, and 12 more developer resources.'
-random_paper: 2
+random_paper: 45
 score:
   band: emerging
   composite: 23.0

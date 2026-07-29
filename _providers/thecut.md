@@ -59,7 +59,7 @@ overview: 'theCut is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   theCut''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 37
+random_paper: 21
 score:
   band: minimal
   composite: 6.3

@@ -71,7 +71,7 @@ overview: 'Citibank Canada publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Citibank Canada''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 19
+random_paper: 60
 score:
   band: minimal
   composite: 12.9

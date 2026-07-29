@@ -52,7 +52,7 @@ name: Palerra
 nav: Providers
 network: true
 overview: Palerra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cloud Security, CASB, and SaaS Security.
-random_paper: 50
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

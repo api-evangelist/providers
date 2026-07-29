@@ -152,7 +152,7 @@ overview: 'Liberate publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Liberate''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, product news, changelog, and 19 more developer resources.'
-random_paper: 70
+random_paper: 50
 score:
   band: thin
   composite: 33.7

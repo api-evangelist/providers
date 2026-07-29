@@ -61,7 +61,7 @@ plans:
 - name: Drug Enforcement Administration Plans Pricing
   plan_count: 3
   slug: drug-enforcement-administration-plans-pricing
-random_paper: 51
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Drug Enforcement Administration Rate Limits

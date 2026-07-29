@@ -130,7 +130,7 @@ plans:
 - name: Grapes Knowledge Base Plans Pricing
   plan_count: 3
   slug: grapes-knowledge-base-plans-pricing
-random_paper: 24
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Grapes Knowledge Base Rate Limits

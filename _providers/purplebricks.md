@@ -285,7 +285,7 @@ overview: 'Purplebricks publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Purplebricks'' developer surface includes pricing, engineering blog, YouTube channel, authentication, API reference, signup flow, support, and 42 more developer resources.'
-random_paper: 70
+random_paper: 38
 score:
   band: thin
   composite: 38.2

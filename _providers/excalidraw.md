@@ -100,7 +100,7 @@ plans:
 - name: Excalidraw Plans Pricing
   plan_count: 1
   slug: excalidraw-plans-pricing
-random_paper: 59
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Excalidraw Rate Limits

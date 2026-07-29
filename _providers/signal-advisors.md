@@ -60,7 +60,7 @@ name: Signal Advisors
 nav: Providers
 network: true
 overview: Signal Advisors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Insurance, and Wealth Management.
-random_paper: 18
+random_paper: 57
 score:
   band: emerging
   composite: 13.2

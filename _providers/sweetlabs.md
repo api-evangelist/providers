@@ -56,7 +56,7 @@ name: SweetLabs
 nav: Providers
 network: true
 overview: SweetLabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Software, App Distribution, and Device Manufacturers.
-random_paper: 46
+random_paper: 22
 score:
   band: minimal
   composite: 9.2

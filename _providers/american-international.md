@@ -76,7 +76,7 @@ name: American International Group (AIG)
 nav: Providers
 network: true
 overview: American International Group (AIG) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Property Casualty, Cyber Insurance, Commercial Insurance, and Global Insurance.
-random_paper: 44
+random_paper: 65
 score:
   band: minimal
   composite: 5.6

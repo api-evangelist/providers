@@ -152,7 +152,7 @@ plans:
 - name: Brightspace Plans Pricing
   plan_count: 3
   slug: brightspace-plans-pricing
-random_paper: 9
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Brightspace Rate Limits

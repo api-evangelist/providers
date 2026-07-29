@@ -148,7 +148,7 @@ plans:
 - name: Planning Center Plans Pricing
   plan_count: 5
   slug: planning-center-plans-pricing
-random_paper: 1
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Planning Center Rate Limits

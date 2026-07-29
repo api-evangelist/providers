@@ -120,7 +120,7 @@ plans:
 - name: Slab Plans Pricing
   plan_count: 4
   slug: slab-plans-pricing
-random_paper: 33
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Slab Rate Limits

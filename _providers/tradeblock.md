@@ -95,7 +95,7 @@ overview: 'Tradeblock is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tradeblock''s developer surface includes signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 50
+random_paper: 24
 score:
   band: emerging
   composite: 16.2

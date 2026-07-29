@@ -91,7 +91,7 @@ plans:
 - name: Netflix Hystrix Plans Pricing
   plan_count: 3
   slug: netflix-hystrix-plans-pricing
-random_paper: 62
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Netflix Hystrix Rate Limits

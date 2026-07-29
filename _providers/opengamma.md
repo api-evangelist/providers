@@ -99,7 +99,7 @@ overview: 'OpenGamma is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   OpenGamma''s developer surface includes documentation, getting-started guide, API reference, support, CLI, changelog, and 8 more developer resources.'
-random_paper: 25
+random_paper: 1
 score:
   band: emerging
   composite: 16.1

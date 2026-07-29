@@ -96,7 +96,7 @@ plans:
 - name: Siliconflow Plans Pricing
   plan_count: 1
   slug: siliconflow-plans-pricing
-random_paper: 38
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Siliconflow Rate Limits

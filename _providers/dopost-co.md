@@ -157,7 +157,7 @@ plans:
 - name: Dopost Co Plans Pricing
   plan_count: 3
   slug: dopost-co-plans-pricing
-random_paper: 73
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Dopost Co Rate Limits

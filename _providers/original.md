@@ -112,7 +112,7 @@ overview: 'Bodygram publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Bodygram''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, and 9 more developer resources.'
-random_paper: 6
+random_paper: 63
 scopes:
 - name: Original Scopes
   scope_count: 0

@@ -459,7 +459,7 @@ plans:
 - name: Paperspace Plans Pricing
   plan_count: 6
   slug: paperspace-plans-pricing
-random_paper: 59
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Paperspace Rate Limits

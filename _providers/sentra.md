@@ -67,7 +67,7 @@ overview: 'Sentra is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sentra''s developer surface includes pricing, engineering blog, and 4 more developer resources.'
-random_paper: 37
+random_paper: 21
 score:
   band: minimal
   composite: 10.7

@@ -96,7 +96,7 @@ overview: 'Gimlet Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Gimlet Labs'' developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 27
+random_paper: 78
 score:
   band: emerging
   composite: 18.2

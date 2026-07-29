@@ -48,7 +48,7 @@ name: Bionic Panda Games
 nav: Providers
 network: true
 overview: Bionic Panda Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Social Games, and Android.
-random_paper: 65
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

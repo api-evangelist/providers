@@ -168,7 +168,7 @@ overview: 'ThunderCore publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ThunderCore''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 32
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Thundercore Rate Limits

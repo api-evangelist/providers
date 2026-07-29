@@ -120,7 +120,7 @@ overview: 'AppNexus publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   AppNexus'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 12 more developer resources.'
-random_paper: 37
+random_paper: 15
 score:
   band: emerging
   composite: 23.1

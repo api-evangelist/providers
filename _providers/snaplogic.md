@@ -286,7 +286,7 @@ plans:
 - name: Snaplogic Plans Pricing
   plan_count: 1
   slug: snaplogic-plans-pricing
-random_paper: 36
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Snaplogic Rate Limits

@@ -67,7 +67,7 @@ overview: 'Ripple Foods is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Ripple Foods'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 4
+random_paper: 51
 score:
   band: minimal
   composite: 10.5

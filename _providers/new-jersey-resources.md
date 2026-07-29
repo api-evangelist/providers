@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: New Jersey unveils resources for educators using AI in ...
   url: https://www.chalkbeat.org/newark/2024/06/20/department-of-education-artificial-intelligence-resources-to-help-educators-schools/
-random_paper: 63
+random_paper: 11
 score:
   band: minimal
   composite: 5.5

@@ -243,7 +243,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 52
+random_paper: 28
 rules:
 - name: GOV.UK Pay API Rules
   rule_count: 5

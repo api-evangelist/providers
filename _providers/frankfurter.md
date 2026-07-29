@@ -318,7 +318,7 @@ plans:
 - name: Frankfurter Plans Pricing
   plan_count: 2
   slug: frankfurter-plans-pricing
-random_paper: 39
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Frankfurter Rate Limits

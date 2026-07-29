@@ -97,7 +97,7 @@ plans:
 - name: Tongji Plans Pricing
   plan_count: 2
   slug: tongji-plans-pricing
-random_paper: 35
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Tongji Rate Limits

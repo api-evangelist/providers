@@ -48,7 +48,7 @@ name: BlockVigil
 nav: Providers
 network: true
 overview: BlockVigil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Web3, Discontinued, and Portfolio.
-random_paper: 61
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

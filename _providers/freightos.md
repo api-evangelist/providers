@@ -107,7 +107,7 @@ plans:
 - name: Freightos Plans Pricing
   plan_count: 3
   slug: freightos-plans-pricing
-random_paper: 47
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Freightos Rate Limits

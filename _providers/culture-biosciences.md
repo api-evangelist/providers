@@ -80,7 +80,7 @@ overview: 'Culture Biosciences is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Culture Biosciences'' developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 51
+random_paper: 1
 score:
   band: emerging
   composite: 14.3

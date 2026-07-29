@@ -140,7 +140,7 @@ overview: 'Driver publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Driver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 15 more developer resources.'
-random_paper: 36
+random_paper: 20
 scopes:
 - name: Driver Scopes
   scope_count: 3

@@ -119,7 +119,7 @@ plans:
 - name: Roadie Io Plans Pricing
   plan_count: 3
   slug: roadie-io-plans-pricing
-random_paper: 42
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Roadie Io Rate Limits

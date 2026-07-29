@@ -354,7 +354,7 @@ plans:
 - name: Close Plans Pricing
   plan_count: 7
   slug: close-plans-pricing
-random_paper: 72
+random_paper: 60
 rate_limits:
 - limit_count: 4
   name: Close Rate Limits

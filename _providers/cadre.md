@@ -60,7 +60,7 @@ name: Cadre
 nav: Providers
 network: true
 overview: Cadre is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Investment, Real Estate, and Private Markets.
-random_paper: 49
+random_paper: 37
 score:
   band: minimal
   composite: 11.8

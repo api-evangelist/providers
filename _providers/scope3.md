@@ -224,7 +224,7 @@ overview: 'Scope3 publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Scope3''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 22 more developer resources.'
-random_paper: 50
+random_paper: 36
 score:
   band: developing
   composite: 53.1

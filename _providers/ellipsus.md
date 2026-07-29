@@ -87,7 +87,7 @@ overview: 'Ellipsus is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ellipsus'' developer surface includes signup flow, pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: emerging
   composite: 17.3

@@ -48,7 +48,7 @@ name: Olev
 nav: Providers
 network: true
 overview: Olev is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 53
+random_paper: 43
 score:
   band: minimal
   composite: 4.1

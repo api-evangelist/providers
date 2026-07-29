@@ -117,7 +117,7 @@ plans:
 - name: Glofox Plans Pricing
   plan_count: 3
   slug: glofox-plans-pricing
-random_paper: 39
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Glofox Rate Limits

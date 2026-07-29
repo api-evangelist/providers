@@ -156,7 +156,7 @@ overview: 'WealthKernel publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   WealthKernel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 54
+random_paper: 22
 score:
   band: developing
   composite: 47.5

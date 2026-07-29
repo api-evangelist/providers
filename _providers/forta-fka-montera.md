@@ -67,7 +67,7 @@ overview: 'Forta (fka Montera) is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Forta (fka Montera)''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 0
+random_paper: 35
 score:
   band: minimal
   composite: 11.6

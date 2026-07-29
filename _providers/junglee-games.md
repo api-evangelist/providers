@@ -75,7 +75,7 @@ overview: 'Junglee Games is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Junglee Games'' developer surface includes support and 7 more developer resources.'
-random_paper: 7
+random_paper: 52
 score:
   band: minimal
   composite: 11.2

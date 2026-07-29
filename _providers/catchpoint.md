@@ -272,7 +272,7 @@ overview: 'Catchpoint publishes 31 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Catchpoint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 23 more developer resources.'
-random_paper: 68
+random_paper: 42
 score:
   band: developing
   composite: 52.6

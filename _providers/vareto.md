@@ -99,7 +99,7 @@ overview: 'Vareto is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vareto''s developer surface includes pricing, engineering blog, and 12 more developer resources.'
-random_paper: 41
+random_paper: 25
 score:
   band: emerging
   composite: 22.8

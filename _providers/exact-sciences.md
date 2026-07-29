@@ -67,7 +67,7 @@ overview: 'Exact Sciences is profiled on the [APIs.io](https://apis.io/) network
 
 
   Exact Sciences'' developer surface includes academy / training, engineering blog, and 4 more developer resources.'
-random_paper: 37
+random_paper: 1
 score:
   band: minimal
   composite: 4.5

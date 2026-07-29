@@ -129,7 +129,7 @@ plans:
 - name: Hostbill Plans Pricing
   plan_count: 3
   slug: hostbill-plans-pricing
-random_paper: 18
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Hostbill Rate Limits

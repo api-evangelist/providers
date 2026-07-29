@@ -130,7 +130,7 @@ plans:
 - name: Json Placeholder Plans Pricing
   plan_count: 1
   slug: json-placeholder-plans-pricing
-random_paper: 25
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Json Placeholder Rate Limits

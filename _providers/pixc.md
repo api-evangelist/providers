@@ -83,7 +83,7 @@ overview: 'Pixc is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pixc''s developer surface includes engineering blog, support, signup flow, pricing, and 6 more developer resources.'
-random_paper: 51
+random_paper: 41
 score:
   band: emerging
   composite: 15.2

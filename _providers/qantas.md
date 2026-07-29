@@ -166,7 +166,7 @@ plans:
 - name: Qantas Plans
   plan_count: 4
   slug: qantas-plans
-random_paper: 32
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Qantas Rate Limits

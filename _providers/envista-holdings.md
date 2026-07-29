@@ -60,7 +60,7 @@ name: Envista Holdings
 nav: Providers
 network: true
 overview: Envista Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Dental, and Medical Devices.
-random_paper: 46
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

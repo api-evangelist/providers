@@ -88,7 +88,7 @@ overview: 'Anvyl publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Anvyl''s developer surface includes documentation, API reference, authentication, and 7 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: emerging
   composite: 16.1

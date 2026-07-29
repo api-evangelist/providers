@@ -44,7 +44,7 @@ name: Luckin Coffee
 nav: Providers
 network: true
 overview: Luckin Coffee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Coffee, Retail, and Food and Beverage.
-random_paper: 75
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

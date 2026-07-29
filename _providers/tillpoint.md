@@ -76,7 +76,7 @@ plans:
 - name: Tillpoint Plans Pricing
   plan_count: 3
   slug: tillpoint-plans-pricing
-random_paper: 67
+random_paper: 43
 score:
   band: emerging
   composite: 14.6

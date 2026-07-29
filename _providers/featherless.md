@@ -128,7 +128,7 @@ plans:
 - name: Featherless Plans Pricing
   plan_count: 4
   slug: featherless-plans-pricing
-random_paper: 19
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Featherless Rate Limits

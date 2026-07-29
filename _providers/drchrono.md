@@ -619,7 +619,7 @@ plans:
 - name: Drchrono Plans Pricing
   plan_count: 5
   slug: drchrono-plans-pricing
-random_paper: 16
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Drchrono Rate Limits

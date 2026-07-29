@@ -63,7 +63,7 @@ overview: 'APX is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   APX''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: minimal
   composite: 8.9

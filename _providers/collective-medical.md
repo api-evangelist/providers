@@ -75,7 +75,7 @@ overview: 'Collective Medical is profiled on the [APIs.io](https://apis.io/) net
 
 
   Collective Medical''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 59
+random_paper: 13
 score:
   band: emerging
   composite: 15.3

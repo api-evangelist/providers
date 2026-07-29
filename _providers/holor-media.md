@@ -44,7 +44,7 @@ name: Holor Media
 nav: Providers
 network: true
 overview: Holor Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immersive Media, Augmented Reality, Virtual Reality, and 360 Video.
-random_paper: 27
+random_paper: 78
 score:
   band: minimal
   composite: 5.0

@@ -115,7 +115,7 @@ overview: 'KRY is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   KRY''s developer surface includes support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 34
+random_paper: 26
 score:
   band: emerging
   composite: 19.4

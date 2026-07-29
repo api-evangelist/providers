@@ -49,7 +49,7 @@ name: yuanxinjituan
 nav: Providers
 network: true
 overview: yuanxinjituan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Technology, Digital Health, and Pharmacy.
-random_paper: 45
+random_paper: 9
 score:
   band: minimal
   composite: 5.6

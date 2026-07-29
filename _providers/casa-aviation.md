@@ -178,7 +178,7 @@ overview: 'Civil Aviation Safety Authority (CASA) publishes 3 APIs on the [APIs.
 
 
   Civil Aviation Safety Authority (CASA)''s developer surface includes code examples, getting-started guide, authentication, documentation, developer portal, support, engineering blog, and 22 more developer resources.'
-random_paper: 3
+random_paper: 48
 score:
   band: thin
   composite: 35.8

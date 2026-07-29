@@ -305,7 +305,7 @@ plans:
 - name: Amazon Fraud Detector Plans Pricing
   plan_count: 3
   slug: amazon-fraud-detector-plans-pricing
-random_paper: 45
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Amazon Fraud Detector Rate Limits

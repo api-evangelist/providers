@@ -184,7 +184,7 @@ overview: 'BBDO Worldwide is profiled on the [APIs.io](https://apis.io/) network
 
 
   BBDO Worldwide''s developer surface includes product news, GitHub presence, and 11 more developer resources.'
-random_paper: 22
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

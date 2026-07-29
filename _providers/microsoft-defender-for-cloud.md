@@ -123,7 +123,7 @@ overview: 'Microsoft Defender for Cloud publishes 4 APIs on the [APIs.io](https:
 
 
   Microsoft Defender for Cloud''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 36
+random_paper: 43
 scopes:
 - name: Microsoft Defender For Cloud Scopes
   scope_count: 1

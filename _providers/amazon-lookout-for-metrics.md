@@ -2397,7 +2397,7 @@ plans:
 - name: Amazon Lookout For Metrics Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-metrics-plans-pricing
-random_paper: 30
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Metrics Rate Limits

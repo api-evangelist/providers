@@ -91,7 +91,7 @@ overview: 'Gumroad publishes 1 API on the [APIs.io](https://apis.io/) network: v
 
 
   Gumroad''s developer surface includes documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 58
+random_paper: 40
 score:
   band: thin
   composite: 28.0

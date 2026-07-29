@@ -59,7 +59,7 @@ overview: 'Salus is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Salus'' developer surface includes pricing and 3 more developer resources.'
-random_paper: 13
+random_paper: 78
 score:
   band: minimal
   composite: 8.7

@@ -189,7 +189,7 @@ plans:
 - name: Buywhere Plans Pricing
   plan_count: 3
   slug: buywhere-plans-pricing
-random_paper: 28
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Buywhere Rate Limits

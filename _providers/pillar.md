@@ -75,7 +75,7 @@ overview: 'Pillar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pillar''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 28
+random_paper: 12
 score:
   band: emerging
   composite: 13.1

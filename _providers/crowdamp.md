@@ -39,7 +39,7 @@ name: Crowdamp
 nav: Providers
 network: true
 overview: Crowdamp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Messaging, Social Media, and Natural Language Processing.
-random_paper: 14
+random_paper: 71
 score:
   band: minimal
   composite: 4.3

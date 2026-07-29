@@ -83,7 +83,7 @@ overview: 'Autobahn Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Autobahn Therapeutics'' developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 36
+random_paper: 59
 score:
   band: minimal
   composite: 9.0

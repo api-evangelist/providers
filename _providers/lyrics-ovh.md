@@ -56,7 +56,7 @@ name: Lyrics.ovh
 nav: Providers
 network: true
 overview: Lyrics.ovh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Music and Public APIs.
-random_paper: 39
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

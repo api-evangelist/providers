@@ -76,7 +76,7 @@ plans:
 - name: Defer Plans Pricing
   plan_count: 3
   slug: defer-plans-pricing
-random_paper: 56
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Defer Rate Limits

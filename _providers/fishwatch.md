@@ -56,7 +56,7 @@ name: FishWatch
 nav: Providers
 network: true
 overview: FishWatch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 37
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

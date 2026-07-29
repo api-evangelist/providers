@@ -176,7 +176,7 @@ overview: 'Credgenics publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Credgenics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 46
+random_paper: 20
 score:
   band: developing
   composite: 48.6

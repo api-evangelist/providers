@@ -96,7 +96,7 @@ overview: 'Koobz is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Koobz''s developer surface includes support and 12 more developer resources.'
-random_paper: 10
+random_paper: 75
 score:
   band: minimal
   composite: 11.9

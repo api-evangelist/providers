@@ -183,7 +183,7 @@ plans:
 - name: Bfe Plans Pricing
   plan_count: 3
   slug: bfe-plans-pricing
-random_paper: 70
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Bfe Rate Limits

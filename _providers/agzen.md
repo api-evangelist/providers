@@ -64,7 +64,7 @@ name: AgZen
 nav: Providers
 network: true
 overview: AgZen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Agriculture, and Computer Vision.
-random_paper: 71
+random_paper: 59
 score:
   band: minimal
   composite: 6.9

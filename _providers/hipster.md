@@ -44,7 +44,7 @@ name: Hipster
 nav: Providers
 network: true
 overview: Hipster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 74
+random_paper: 56
 score:
   band: minimal
   composite: 3.2

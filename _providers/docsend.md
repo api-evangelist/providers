@@ -88,7 +88,7 @@ overview: 'DocSend is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   DocSend''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 43
+random_paper: 25
 scopes:
 - name: Docsend Scopes
   scope_count: 2

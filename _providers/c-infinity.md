@@ -88,7 +88,7 @@ overview: 'C-Infinity is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   C-Infinity''s developer surface includes signup flow, engineering blog, YouTube channel, and 8 more developer resources.'
-random_paper: 17
+random_paper: 70
 score:
   band: emerging
   composite: 14.1

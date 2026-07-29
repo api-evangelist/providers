@@ -417,7 +417,7 @@ plans:
 - name: Apis Io Plans Pricing
   plan_count: 3
   slug: apis-io-plans-pricing
-random_paper: 74
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Apis Io Rate Limits

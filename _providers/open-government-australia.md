@@ -56,7 +56,7 @@ name: Open Government, Australia
 nav: Providers
 network: true
 overview: Open Government, Australia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 42
+random_paper: 55
 score:
   band: minimal
   composite: 6.5

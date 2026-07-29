@@ -48,7 +48,7 @@ name: Alpha Technologies
 nav: Providers
 network: true
 overview: Alpha Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Power Systems, Energy, Telecommunications, and Hardware.
-random_paper: 76
+random_paper: 30
 score:
   band: minimal
   composite: 5.5

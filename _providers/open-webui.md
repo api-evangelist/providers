@@ -121,7 +121,7 @@ plans:
 - name: Open Webui Plans Pricing
   plan_count: 1
   slug: open-webui-plans-pricing
-random_paper: 18
+random_paper: 71
 rate_limits:
 - limit_count: 2
   name: Open Webui Rate Limits

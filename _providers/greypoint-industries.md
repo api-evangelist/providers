@@ -56,7 +56,7 @@ name: Greypoint Industries
 nav: Providers
 network: true
 overview: Greypoint Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Electromagnetic Spectrum, RF Mapping, and Counter-Drone.
-random_paper: 57
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: Ahmed Buhari, an NRI and former promoter and director of ...
   url: https://www.facebook.com/thewire.in/posts/ahmed-buhari-an-nri-and-former-promoter-and-director-of-coastal-energen-power-lt/1024070013624360/
-random_paper: 47
+random_paper: 29
 score:
   band: minimal
   composite: 4.3

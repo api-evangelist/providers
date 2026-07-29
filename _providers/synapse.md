@@ -180,7 +180,7 @@ plans:
 - name: Synapse Plans Pricing
   plan_count: 2
   slug: synapse-plans-pricing
-random_paper: 1
+random_paper: 60
 rate_limits:
 - limit_count: 11
   name: Synapse Rate Limits

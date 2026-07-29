@@ -99,7 +99,7 @@ overview: 'Graphcore is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Graphcore''s developer surface includes documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 31
+random_paper: 7
 score:
   band: emerging
   composite: 17.8

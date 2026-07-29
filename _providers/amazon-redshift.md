@@ -457,7 +457,7 @@ plans:
 - name: Amazon Redshift Plans Pricing
   plan_count: 3
   slug: amazon-redshift-plans-pricing
-random_paper: 8
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Amazon Redshift Rate Limits

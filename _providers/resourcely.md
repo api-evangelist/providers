@@ -48,7 +48,7 @@ name: Resourcely
 nav: Providers
 network: true
 overview: Resourcely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, Venture Backed, a16z, and Portfolio.
-random_paper: 23
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

@@ -243,7 +243,7 @@ plans:
 - name: Builtwith Plans Pricing
   plan_count: 6
   slug: builtwith-plans-pricing
-random_paper: 64
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Builtwith Rate Limits

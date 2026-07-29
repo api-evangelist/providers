@@ -48,7 +48,7 @@ name: tisenc
 nav: Providers
 network: true
 overview: tisenc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, In-Vitro Diagnostics, Diagnostics, and Chemiluminescence Immunoassay.
-random_paper: 30
+random_paper: 14
 score:
   band: minimal
   composite: 5.4

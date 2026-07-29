@@ -39,7 +39,7 @@ name: Bionic Stork
 nav: Providers
 network: true
 overview: Bionic Stork is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application Security, ASPM, Cloud Security, and DevSecOps.
-random_paper: 4
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

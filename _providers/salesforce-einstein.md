@@ -439,7 +439,7 @@ plans:
 - name: Salesforce Einstein Plans Pricing
   plan_count: 1
   slug: salesforce-einstein-plans-pricing
-random_paper: 46
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Salesforce Einstein Rate Limits

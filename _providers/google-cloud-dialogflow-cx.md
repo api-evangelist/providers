@@ -169,7 +169,7 @@ plans:
 - name: Google Cloud Dialogflow Cx Plans Pricing
   plan_count: 3
   slug: google-cloud-dialogflow-cx-plans-pricing
-random_paper: 49
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Google Cloud Dialogflow Cx Rate Limits

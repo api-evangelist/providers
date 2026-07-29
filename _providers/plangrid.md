@@ -136,7 +136,7 @@ overview: 'PlanGrid publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   PlanGrid''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 2
+random_paper: 59
 scopes:
 - name: Plangrid Scopes
   scope_count: 2

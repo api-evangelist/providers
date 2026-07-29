@@ -231,7 +231,7 @@ plans:
 - name: Spot By Netapp Plans Pricing
   plan_count: 3
   slug: spot-by-netapp-plans-pricing
-random_paper: 25
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Spot By Netapp Rate Limits

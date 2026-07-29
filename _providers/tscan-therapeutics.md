@@ -48,7 +48,7 @@ name: TScan Therapeutics
 nav: Providers
 network: true
 overview: TScan Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Biopharmaceutical, Immunotherapy, and Cell Therapy.
-random_paper: 31
+random_paper: 62
 score:
   band: minimal
   composite: 5.4

@@ -142,7 +142,7 @@ overview: 'Paymentus publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Paymentus'' developer surface includes API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 74
+random_paper: 50
 scopes:
 - name: Paymentus Scopes
   scope_count: 16

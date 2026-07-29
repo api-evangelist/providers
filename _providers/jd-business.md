@@ -52,7 +52,7 @@ name: JD Business
 nav: Providers
 network: true
 overview: JD Business is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, E-Commerce, Retail, and Logistics.
-random_paper: 49
+random_paper: 21
 score:
   band: minimal
   composite: 6.7

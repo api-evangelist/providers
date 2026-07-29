@@ -67,7 +67,7 @@ overview: 'Raider publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Raider''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 15
+random_paper: 78
 score:
   band: minimal
   composite: 6.2

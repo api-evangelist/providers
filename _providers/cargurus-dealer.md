@@ -108,7 +108,7 @@ plans:
 - name: Cargurus Dealer Plans Pricing
   plan_count: 3
   slug: cargurus-dealer-plans-pricing
-random_paper: 2
+random_paper: 41
 score:
   band: thin
   composite: 33.7

@@ -218,7 +218,7 @@ overview: 'Adapter publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Adapter''s developer surface includes authentication, engineering blog, signup flow, support, and 17 more developer resources.'
-random_paper: 44
+random_paper: 26
 scopes:
 - name: Adapter Scopes
   scope_count: 2

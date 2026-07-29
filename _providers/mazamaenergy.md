@@ -71,7 +71,7 @@ overview: 'Mazama Energy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Mazama Energy''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 49
+random_paper: 17
 score:
   band: minimal
   composite: 11.8

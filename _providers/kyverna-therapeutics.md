@@ -116,7 +116,7 @@ overview: 'Kyverna Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Kyverna Therapeutics'' developer surface includes engineering blog and 17 more developer resources.'
-random_paper: 31
+random_paper: 56
 score:
   band: minimal
   composite: 9.9

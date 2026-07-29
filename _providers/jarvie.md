@@ -56,7 +56,7 @@ name: Jarvie
 nav: Providers
 network: true
 overview: Jarvie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Assistant, Messaging, iMessage, and SMS.
-random_paper: 25
+random_paper: 9
 score:
   band: minimal
   composite: 10.7

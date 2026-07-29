@@ -21,7 +21,7 @@ modified: '2026-05-19'
 name: Certificate Enrolment Protocols
 nav: Providers
 network: true
-random_paper: 65
+random_paper: 62
 slug: certificate-enrolment-protocols
 tags:
 - ACME

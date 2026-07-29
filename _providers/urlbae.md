@@ -56,7 +56,7 @@ name: UrlBae
 nav: Providers
 network: true
 overview: UrlBae publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include URL Shorteners and Public APIs.
-random_paper: 19
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

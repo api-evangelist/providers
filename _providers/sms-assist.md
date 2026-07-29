@@ -170,7 +170,7 @@ overview: 'SMS Assist publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SMS Assist''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, changelog, and 20 more developer resources.'
-random_paper: 46
+random_paper: 20
 score:
   band: developing
   composite: 47.7

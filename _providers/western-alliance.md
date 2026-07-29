@@ -99,7 +99,7 @@ overview: 'Western Alliance Bank publishes 1 API on the [APIs.io](https://apis.i
 
 
   Western Alliance Bank''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, and 10 more developer resources.'
-random_paper: 29
+random_paper: 66
 score:
   band: emerging
   composite: 27.9

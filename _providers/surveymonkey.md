@@ -120,7 +120,7 @@ plans:
 - name: Surveymonkey Plans Pricing
   plan_count: 5
   slug: surveymonkey-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Surveymonkey Rate Limits

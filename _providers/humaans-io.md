@@ -263,7 +263,7 @@ overview: 'Humaans publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Humaans'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 28 more developer resources.'
-random_paper: 9
+random_paper: 62
 score:
   band: developing
   composite: 45.5

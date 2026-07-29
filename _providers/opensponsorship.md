@@ -79,7 +79,7 @@ overview: 'OpenSponsorship is profiled on the [APIs.io](https://apis.io/) networ
 
 
   OpenSponsorship''s developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 41
+random_paper: 78
 score:
   band: emerging
   composite: 15.2

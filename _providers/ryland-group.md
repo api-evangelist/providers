@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Ryland/Standard Pacific merger complete as trading ...
   url: https://www.constructiondive.com/news/rylandstandard-pacific-merger-complete-as-trading-begins-for-new-calatlant/406642/
-random_paper: 20
+random_paper: 67
 rules:
 - name: Ryland Group API Rules
   rule_count: 5

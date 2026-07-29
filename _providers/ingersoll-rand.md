@@ -44,7 +44,7 @@ name: Ingersoll Rand
 nav: Providers
 network: true
 overview: Ingersoll Rand is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 55
+random_paper: 19
 score:
   band: minimal
   composite: 2.6

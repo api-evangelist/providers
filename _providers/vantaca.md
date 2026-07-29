@@ -105,7 +105,7 @@ plans:
 - name: Vantaca Plans Pricing
   plan_count: 2
   slug: vantaca-plans-pricing
-random_paper: 41
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Vantaca Rate Limits

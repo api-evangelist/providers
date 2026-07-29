@@ -75,7 +75,7 @@ overview: 'Fortem Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Fortem Technologies'' developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 57
+random_paper: 7
 score:
   band: emerging
   composite: 13.0

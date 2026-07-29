@@ -67,7 +67,7 @@ overview: 'Crowdplat is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Crowdplat''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 52
+random_paper: 28
 score:
   band: minimal
   composite: 12.7

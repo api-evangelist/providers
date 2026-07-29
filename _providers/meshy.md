@@ -100,7 +100,7 @@ plans:
 - name: Meshy Plans Pricing
   plan_count: 4
   slug: meshy-plans-pricing
-random_paper: 11
+random_paper: 76
 rate_limits:
 - limit_count: 7
   name: Meshy Rate Limits

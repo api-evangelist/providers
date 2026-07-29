@@ -63,7 +63,7 @@ overview: 'AppliedVR is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AppliedVR''s developer surface includes support and 4 more developer resources.'
-random_paper: 43
+random_paper: 19
 score:
   band: minimal
   composite: 10.9

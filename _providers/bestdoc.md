@@ -83,7 +83,7 @@ overview: 'BestDoc is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BestDoc''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 47
+random_paper: 29
 score:
   band: emerging
   composite: 16.7

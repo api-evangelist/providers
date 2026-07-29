@@ -108,7 +108,7 @@ plans:
 - name: Velocity Global Plans Pricing
   plan_count: 1
   slug: velocity-global-plans-pricing
-random_paper: 9
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Velocity Global Rate Limits

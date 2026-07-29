@@ -52,7 +52,7 @@ name: Amount
 nav: Providers
 network: true
 overview: Amount is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Banking, and Financial Services.
-random_paper: 44
+random_paper: 28
 score:
   band: minimal
   composite: 6.0

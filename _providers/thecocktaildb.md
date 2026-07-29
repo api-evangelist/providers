@@ -178,7 +178,7 @@ plans:
 - name: Thecocktaildb Plans Pricing
   plan_count: 2
   slug: thecocktaildb-plans-pricing
-random_paper: 52
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Thecocktaildb Rate Limits

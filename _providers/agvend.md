@@ -83,7 +83,7 @@ overview: 'Agvend is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Agvend''s developer surface includes engineering blog, support, API reference, and 7 more developer resources.'
-random_paper: 13
+random_paper: 76
 score:
   band: minimal
   composite: 12.3

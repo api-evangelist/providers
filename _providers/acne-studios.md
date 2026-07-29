@@ -48,7 +48,7 @@ name: Acne Studios
 nav: Providers
 network: true
 overview: Acne Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, Retail, and Apparel.
-random_paper: 76
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

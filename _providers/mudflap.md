@@ -104,7 +104,7 @@ overview: 'Mudflap publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Mudflap''s developer surface includes developer portal, getting-started guide, support, authentication, and 10 more developer resources.'
-random_paper: 52
+random_paper: 34
 scopes:
 - name: Mudflap Scopes
   scope_count: 3

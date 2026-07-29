@@ -112,7 +112,7 @@ overview: 'Lessen is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lessen''s developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 34
+random_paper: 18
 score:
   band: emerging
   composite: 18.4

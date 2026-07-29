@@ -164,7 +164,7 @@ overview: 'Ebix is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ebix''s developer surface includes documentation, support, engineering blog, and 29 more developer resources.'
-random_paper: 39
+random_paper: 29
 score:
   band: emerging
   composite: 17.6

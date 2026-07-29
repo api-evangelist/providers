@@ -132,7 +132,7 @@ overview: 'AI Arena is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AI Arena''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, changelog, authentication, and 15 more developer resources.'
-random_paper: 73
+random_paper: 55
 score:
   band: emerging
   composite: 26.3

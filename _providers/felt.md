@@ -210,7 +210,7 @@ plans:
 - name: Felt Plans Pricing
   plan_count: 3
   slug: felt-plans-pricing
-random_paper: 42
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Felt Rate Limits

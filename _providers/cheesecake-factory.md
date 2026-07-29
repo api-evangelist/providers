@@ -44,7 +44,7 @@ name: Cheesecake Factory
 nav: Providers
 network: true
 overview: Cheesecake Factory is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 59
+random_paper: 13
 score:
   band: minimal
   composite: 2.6

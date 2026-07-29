@@ -289,7 +289,7 @@ plans:
 - name: Sybase Plans Pricing
   plan_count: 1
   slug: sybase-plans-pricing
-random_paper: 31
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Sybase Rate Limits

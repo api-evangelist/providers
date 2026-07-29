@@ -111,7 +111,7 @@ plans:
 - name: Ucsf Plans Pricing
   plan_count: 2
   slug: ucsf-plans-pricing
-random_paper: 48
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Ucsf Rate Limits

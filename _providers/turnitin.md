@@ -147,7 +147,7 @@ overview: 'Turnitin publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Turnitin''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 46
+random_paper: 24
 score:
   band: thin
   composite: 32.3

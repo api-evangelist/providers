@@ -366,7 +366,7 @@ plans:
 - name: Heidi Health Plans Pricing
   plan_count: 4
   slug: heidi-health-plans-pricing
-random_paper: 35
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Heidi Health Rate Limits

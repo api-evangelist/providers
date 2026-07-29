@@ -126,7 +126,7 @@ plans:
 - name: Hadoop Plans Pricing
   plan_count: 3
   slug: hadoop-plans-pricing
-random_paper: 19
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Hadoop Rate Limits

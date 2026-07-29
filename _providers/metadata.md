@@ -83,7 +83,7 @@ overview: 'Metadata is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Metadata''s developer surface includes support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 63
+random_paper: 43
 score:
   band: emerging
   composite: 18.4

@@ -66,7 +66,7 @@ overview: 'CoinDCX publishes 1 API on the [APIs.io](https://apis.io/) network: S
 
 
   The CoinDCX catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 51
+random_paper: 33
 rules:
 - name: CoinDCX API Rules
   rule_count: 9

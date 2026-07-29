@@ -52,7 +52,7 @@ name: Atrium
 nav: Providers
 network: true
 overview: Atrium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Analytics, Business Intelligence, and Sales Performance.
-random_paper: 42
+random_paper: 26
 score:
   band: minimal
   composite: 7.6

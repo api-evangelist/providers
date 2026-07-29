@@ -241,7 +241,7 @@ overview: 'Kamino publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kamino''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 22 more developer resources.'
-random_paper: 23
+random_paper: 7
 score:
   band: developing
   composite: 46.0

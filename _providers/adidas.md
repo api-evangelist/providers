@@ -106,7 +106,7 @@ plans:
 - name: Adidas Plans Pricing
   plan_count: 1
   slug: adidas-plans-pricing
-random_paper: 75
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Adidas Rate Limits

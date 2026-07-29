@@ -115,7 +115,7 @@ plans:
 - name: Topaz Plans Pricing
   plan_count: 2
   slug: topaz-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Topaz Rate Limits

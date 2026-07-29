@@ -91,7 +91,7 @@ overview: 'Table22 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Table22''s developer surface includes pricing, support, documentation, signup flow, and 8 more developer resources.'
-random_paper: 4
+random_paper: 67
 score:
   band: emerging
   composite: 19.1

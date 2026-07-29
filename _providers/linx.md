@@ -104,7 +104,7 @@ overview: 'Linx is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Linx''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: emerging
   composite: 21.2

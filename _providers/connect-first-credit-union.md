@@ -75,7 +75,7 @@ overview: 'connectFirst Credit Union is profiled on the [APIs.io](https://apis.i
 
 
   connectFirst Credit Union''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
-random_paper: 3
+random_paper: 14
 scopes:
 - name: Connect First Credit Union Scopes
   scope_count: 0

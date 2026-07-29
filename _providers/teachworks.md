@@ -178,7 +178,7 @@ plans:
 - name: Teachworks Plans Pricing
   plan_count: 4
   slug: teachworks-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Teachworks Rate Limits

@@ -39,7 +39,7 @@ name: isocket
 nav: Providers
 network: true
 overview: isocket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 61
+random_paper: 43
 score:
   band: minimal
   composite: 3.2

@@ -1597,7 +1597,7 @@ plans:
 - name: Amazon Mediatailor Plans Pricing
   plan_count: 3
   slug: amazon-mediatailor-plans-pricing
-random_paper: 6
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Amazon Mediatailor Rate Limits

@@ -39,7 +39,7 @@ name: Ramble
 nav: Providers
 network: true
 overview: Ramble is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 11
+random_paper: 74
 score:
   band: minimal
   composite: 3.2

@@ -142,7 +142,7 @@ overview: 'Financial Conduct Authority publishes 2 APIs on the [APIs.io](https:/
 
 
   Financial Conduct Authority''s developer surface includes documentation, engineering blog, API reference, signup flow, support, pricing, authentication, and 18 more developer resources.'
-random_paper: 28
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Fca Uk Rate Limits

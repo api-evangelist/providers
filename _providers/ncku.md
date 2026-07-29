@@ -106,7 +106,7 @@ plans:
 - name: Ncku Plans Pricing
   plan_count: 2
   slug: ncku-plans-pricing
-random_paper: 48
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Ncku Rate Limits

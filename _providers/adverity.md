@@ -156,7 +156,7 @@ overview: 'Adverity publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Adverity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 19 more developer resources.'
-random_paper: 25
+random_paper: 3
 score:
   band: thin
   composite: 37.6

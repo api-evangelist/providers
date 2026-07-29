@@ -84,7 +84,7 @@ plans:
 - name: Pebblely Plans Pricing
   plan_count: 3
   slug: pebblely-plans-pricing
-random_paper: 0
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Pebblely Rate Limits

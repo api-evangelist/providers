@@ -236,7 +236,7 @@ plans:
 - name: Rakuten Plans Pricing
   plan_count: 1
   slug: rakuten-plans-pricing
-random_paper: 69
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Rakuten Rate Limits

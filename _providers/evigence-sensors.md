@@ -67,7 +67,7 @@ overview: 'Evigence Sensors is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Evigence Sensors'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 47
+random_paper: 5
 score:
   band: minimal
   composite: 10.5

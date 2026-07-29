@@ -114,7 +114,7 @@ plans:
 - name: Authologic Plans Pricing
   plan_count: 3
   slug: authologic-plans-pricing
-random_paper: 70
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Authologic Rate Limits

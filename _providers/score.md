@@ -109,7 +109,7 @@ plans:
 - name: Score Plans Pricing
   plan_count: 3
   slug: score-plans-pricing
-random_paper: 1
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Score Rate Limits

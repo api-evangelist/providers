@@ -89,7 +89,7 @@ overview: 'The Naked Market is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   The Naked Market''s developer surface includes support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 30
+random_paper: 69
 scopes:
 - name: The Naked Market Scopes
   scope_count: 4

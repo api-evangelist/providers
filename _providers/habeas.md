@@ -39,7 +39,7 @@ name: Habeas
 nav: Providers
 network: true
 overview: Habeas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Email Deliverability, Email Reputation, and Sender Reputation.
-random_paper: 73
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

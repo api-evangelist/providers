@@ -351,7 +351,7 @@ plans:
 - name: Spacex Plans Pricing
   plan_count: 2
   slug: spacex-plans-pricing
-random_paper: 28
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Spacex Rate Limits

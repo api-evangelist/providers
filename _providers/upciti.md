@@ -92,7 +92,7 @@ name: Upciti
 nav: Providers
 network: true
 overview: Upciti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Cities, IoT, Sensors, and Urban Data.
-random_paper: 38
+random_paper: 22
 score:
   band: emerging
   composite: 17.4

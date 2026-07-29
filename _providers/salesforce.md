@@ -17133,6 +17133,7 @@ overview: 'Salesforce publishes 265 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 87 more developer resources.'
+paper_is_own: true
 plans:
 - name: Salesforce Plans Pricing
   plan_count: 5
@@ -17162,7 +17163,7 @@ press:
 - date: '2026-05-21'
   title: 'More than 50,000 Hours Back: What a Year of Manager Agent Taught Us'
   url: https://www.salesforce.com/news/stories/lessons-from-one-year-of-manager-agent/
-random_paper: 62
+random_paper: 24
 rate_limits:
 - limit_count: 6
   name: Salesforce Rate Limits

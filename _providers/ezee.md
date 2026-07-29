@@ -111,7 +111,7 @@ plans:
 - name: Ezee Plans Pricing
   plan_count: 2
   slug: ezee-plans-pricing
-random_paper: 40
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Ezee Rate Limits

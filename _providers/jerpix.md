@@ -44,7 +44,7 @@ name: Jerpix
 nav: Providers
 network: true
 overview: Jerpix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, a16z Portfolio, Venture Backed, and API Evangelist Network.
-random_paper: 42
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: Adam Cady's Post
   url: https://www.linkedin.com/posts/adam-cady-ba34bb202_lazards-aerospace-defense-advisory-team-activity-7292204364289433601-Mfwj
-random_paper: 70
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Triumph Group Rate Limits

@@ -150,7 +150,7 @@ press:
 - date: '2026-05-25'
   title: How AECOM, Nine and Urbis are reshaping creativity with AI
   url: https://blog.adobe.com/en/publish/2025/07/17/how-aecom-nine-and-urbis-are-reshaping-creativity-with-ai
-random_paper: 55
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Aecom Rate Limits

@@ -48,7 +48,7 @@ name: Scaleio
 nav: Providers
 network: true
 overview: Scaleio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Software-Defined Storage, Block Storage, and Dell EMC.
-random_paper: 43
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

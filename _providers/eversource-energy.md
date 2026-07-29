@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: How an agile SAP approach gave Eversource a power surge
   url: https://www.ey.com/en_us/insights/consulting/how-an-agile-sap-approach-gave-eversource-a-power-surge
-random_paper: 15
+random_paper: 48
 score:
   band: minimal
   composite: 8.0

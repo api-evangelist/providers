@@ -39,7 +39,7 @@ name: EnvoyWorldWide
 nav: Providers
 network: true
 overview: EnvoyWorldWide is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Notifications, Alerting, Messaging, and Interactive Voice Response.
-random_paper: 75
+random_paper: 37
 score:
   band: minimal
   composite: 4.3

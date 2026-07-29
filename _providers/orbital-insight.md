@@ -80,7 +80,7 @@ overview: 'Orbital Insight is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Orbital Insight''s developer surface includes GitHub presence and 8 more developer resources.'
-random_paper: 12
+random_paper: 51
 score:
   band: minimal
   composite: 5.7

@@ -574,7 +574,7 @@ plans:
 - name: Daytona Io Plans Pricing
   plan_count: 4
   slug: daytona-io-plans-pricing
-random_paper: 12
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Daytona Io Rate Limits

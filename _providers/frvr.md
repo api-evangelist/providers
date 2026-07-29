@@ -124,7 +124,7 @@ overview: 'FRVR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FRVR''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, signup flow, sandbox, and 12 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: thin
   composite: 28.5

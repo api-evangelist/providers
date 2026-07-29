@@ -125,7 +125,7 @@ overview: 'Socialbakers publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Socialbakers'' developer surface includes documentation, API reference, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 35
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Socialbakers Rate Limits

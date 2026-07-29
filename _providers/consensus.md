@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Consensus
 nav: Providers
 network: true
-random_paper: 69
+random_paper: 45
 slug: consensus
 tags:
 - Algorithms

@@ -140,7 +140,7 @@ overview: 'Tintri publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tintri''s developer surface includes documentation, API reference, engineering blog, support, getting-started guide, authentication, and 16 more developer resources.'
-random_paper: 50
+random_paper: 34
 score:
   band: emerging
   composite: 26.5

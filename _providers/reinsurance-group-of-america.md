@@ -165,7 +165,7 @@ press:
 - date: '2026-05-25'
   title: Reinsurance Group of America Reports Fourth Quarter Results
   url: https://investor.rgare.com/news-releases/news-release-details/reinsurance-group-america-reports-fourth-quarter-results-16?mobile=1
-random_paper: 38
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Reinsurance Group Of America Rate Limits

@@ -107,7 +107,7 @@ plans:
 - name: University Of Tokyo Plans Pricing
   plan_count: 2
   slug: university-of-tokyo-plans-pricing
-random_paper: 66
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: University Of Tokyo Rate Limits

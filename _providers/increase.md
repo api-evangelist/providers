@@ -281,7 +281,7 @@ plans:
 - name: Increase Plans Pricing
   plan_count: 1
   slug: increase-plans-pricing
-random_paper: 72
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Increase Rate Limits

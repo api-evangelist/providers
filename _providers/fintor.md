@@ -83,7 +83,7 @@ overview: 'Fintor is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fintor''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 42
+random_paper: 26
 score:
   band: emerging
   composite: 13.7

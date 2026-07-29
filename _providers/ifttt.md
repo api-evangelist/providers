@@ -97,7 +97,7 @@ overview: 'IFTTT publishes 1 API on the [APIs.io](https://apis.io/) network: Tri
 
 
   IFTTT''s developer surface includes documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: emerging
   composite: 23.3

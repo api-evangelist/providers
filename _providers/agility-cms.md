@@ -99,7 +99,7 @@ overview: 'Agility CMS publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Agility CMS''s developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 45
+random_paper: 17
 score:
   band: emerging
   composite: 25.2

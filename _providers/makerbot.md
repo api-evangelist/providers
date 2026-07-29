@@ -132,7 +132,7 @@ overview: 'Makerbot publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Makerbot''s developer surface includes documentation, API reference, authentication, signup flow, support, and 15 more developer resources.'
-random_paper: 6
+random_paper: 63
 score:
   band: thin
   composite: 29.3

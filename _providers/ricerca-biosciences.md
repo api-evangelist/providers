@@ -39,7 +39,7 @@ name: Ricerca Biosciences
 nav: Providers
 network: true
 overview: Ricerca Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceutical, and Contract Research.
-random_paper: 8
+random_paper: 37
 score:
   band: minimal
   composite: 4.3

@@ -107,7 +107,7 @@ overview: 'Holtec International is profiled on the [APIs.io](https://apis.io/) n
 
 
   Holtec International''s developer surface includes product news, engineering blog, and 14 more developer resources.'
-random_paper: 5
+random_paper: 30
 score:
   band: minimal
   composite: 5.8

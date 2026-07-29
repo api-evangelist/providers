@@ -79,7 +79,7 @@ overview: 'Wonderschool is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Wonderschool''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 71
+random_paper: 39
 score:
   band: emerging
   composite: 17.5

@@ -52,7 +52,7 @@ name: Micro-Service Architecture Patterns
 nav: Providers
 network: true
 overview: Micro-Service Architecture Patterns is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Design Patterns, Distributed Systems, Microservices, and Software Engineering.
-random_paper: 3
+random_paper: 69
 score:
   band: minimal
   composite: 6.3

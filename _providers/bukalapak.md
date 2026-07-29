@@ -76,7 +76,7 @@ overview: 'Bukalapak publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Bukalapak''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 16
+random_paper: 71
 score:
   band: minimal
   composite: 12.8

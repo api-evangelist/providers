@@ -83,7 +83,7 @@ overview: 'Lumafield is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lumafield''s developer surface includes documentation, support, engineering blog, signup flow, changelog, and 5 more developer resources.'
-random_paper: 23
+random_paper: 78
 score:
   band: emerging
   composite: 17.7

@@ -67,7 +67,7 @@ overview: 'Alloy Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Alloy Therapeutics'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 39
+random_paper: 70
 score:
   band: minimal
   composite: 11.6

@@ -48,7 +48,7 @@ name: StalkBuyLove
 nav: Providers
 network: true
 overview: StalkBuyLove is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Retail, and Apparel.
-random_paper: 8
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

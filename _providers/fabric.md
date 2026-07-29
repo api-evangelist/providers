@@ -71,7 +71,7 @@ overview: 'Fabric is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fabric''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 76
+random_paper: 62
 score:
   band: minimal
   composite: 11.6

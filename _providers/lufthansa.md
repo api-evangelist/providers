@@ -163,7 +163,7 @@ plans:
 - name: Lufthansa Plans Pricing
   plan_count: 2
   slug: lufthansa-plans-pricing
-random_paper: 42
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Lufthansa Rate Limits

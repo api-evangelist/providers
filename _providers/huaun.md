@@ -48,7 +48,7 @@ name: Huaun
 nav: Providers
 network: true
 overview: Huaun is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Cybersecurity, Attack Surface Management, and Vulnerability Management.
-random_paper: 6
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

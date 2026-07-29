@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: Amphenol Corporation Completes Acquisition of OWN and ...
   url: https://investors.amphenol.com/news-and-events/news-details/2025/Amphenol-Corporation-Completes-Acquisition-of-OWN-and-DAS-Businesses-From-CommScope/default.aspx
-random_paper: 5
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Amphenol Rate Limits

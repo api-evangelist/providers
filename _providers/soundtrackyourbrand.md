@@ -163,7 +163,7 @@ overview: 'Soundtrack Your Brand publishes 1 API on the [APIs.io](https://apis.i
 
 
   Soundtrack Your Brand''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, engineering blog, and 19 more developer resources.'
-random_paper: 66
+random_paper: 14
 score:
   band: developing
   composite: 44.5

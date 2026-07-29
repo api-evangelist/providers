@@ -64,7 +64,7 @@ overview: 'Cron Systems is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Cron Systems'' developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 39
+random_paper: 7
 score:
   band: minimal
   composite: 8.4

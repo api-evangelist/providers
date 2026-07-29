@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Phillips 66 – Digital Transformation Strategies
   url: https://www.globaldata.com/store/report/phillips-66-enterprise-tech-analysis/
-random_paper: 21
+random_paper: 74
 score:
   band: minimal
   composite: 5.8

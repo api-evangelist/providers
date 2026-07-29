@@ -48,7 +48,7 @@ name: SE3 Labs
 nav: Providers
 network: true
 overview: SE3 Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Spatial AI, Autonomous Systems, and Robotics.
-random_paper: 36
+random_paper: 30
 score:
   band: minimal
   composite: 5.0

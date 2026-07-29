@@ -79,7 +79,7 @@ overview: 'A Place for Mom is profiled on the [APIs.io](https://apis.io/) networ
 
 
   A Place for Mom''s developer surface includes support and 8 more developer resources.'
-random_paper: 19
+random_paper: 62
 score:
   band: minimal
   composite: 12.4

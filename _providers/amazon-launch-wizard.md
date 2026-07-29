@@ -195,7 +195,7 @@ plans:
 - name: Amazon Launch Wizard Plans Pricing
   plan_count: 3
   slug: amazon-launch-wizard-plans-pricing
-random_paper: 26
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Amazon Launch Wizard Rate Limits

@@ -104,7 +104,7 @@ plans:
 - name: Credibly Plans Pricing
   plan_count: 7
   slug: credibly-plans-pricing
-random_paper: 76
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Credibly Rate Limits

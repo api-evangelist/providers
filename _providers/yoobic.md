@@ -239,7 +239,7 @@ overview: 'Yoobic publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 29
+random_paper: 13
 score:
   band: developing
   composite: 42.7

@@ -246,7 +246,7 @@ overview: 'Rocketlane publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Rocketlane''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 63
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Rocketlane Rate Limits

@@ -701,7 +701,7 @@ plans:
 - name: Thingsboard Plans Pricing
   plan_count: 15
   slug: thingsboard-plans-pricing
-random_paper: 18
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Thingsboard Rate Limits

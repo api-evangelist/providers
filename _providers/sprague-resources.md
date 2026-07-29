@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Sprague Resources LP Announces Cash Distribution for the First ...
   url: https://www.marketscreener.com/quote/stock/SPRAGUE-RESOURCES-LP-14670204/news/Sprague-Resources-LP-Announces-Cash-Distribution-for-the-First-Quarter-of-2022-and-Earnings-Conferen-40140081/
-random_paper: 20
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Sprague Resources Rate Limits

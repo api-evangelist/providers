@@ -95,7 +95,7 @@ overview: 'Brand.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Brand.ai''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 28
+random_paper: 10
 score:
   band: emerging
   composite: 17.0

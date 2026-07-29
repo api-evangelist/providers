@@ -358,7 +358,7 @@ plans:
 - name: Mezmo Plans Pricing
   plan_count: 2
   slug: mezmo-plans-pricing
-random_paper: 13
+random_paper: 78
 rate_limits:
 - limit_count: 4
   name: Mezmo Rate Limits

@@ -101,7 +101,7 @@ overview: 'Teamwork.com publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Teamwork.com''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 27
+random_paper: 5
 score:
   band: emerging
   composite: 27.0

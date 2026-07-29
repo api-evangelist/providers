@@ -95,7 +95,7 @@ overview: 'DraftWise is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   DraftWise''s developer surface includes documentation, engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 45
+random_paper: 21
 score:
   band: emerging
   composite: 23.4

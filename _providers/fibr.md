@@ -100,7 +100,7 @@ overview: 'Fibr is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Fibr''s developer surface includes documentation, pricing, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 34
+random_paper: 24
 score:
   band: emerging
   composite: 23.1

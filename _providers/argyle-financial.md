@@ -468,7 +468,7 @@ plans:
 - name: Argyle Financial Plans Pricing
   plan_count: 3
   slug: argyle-financial-plans-pricing
-random_paper: 5
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Argyle Financial Rate Limits

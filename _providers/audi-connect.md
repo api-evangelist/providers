@@ -132,7 +132,7 @@ overview: 'Audi Connect / myAudi is profiled on the [APIs.io](https://apis.io/) 
 
 
   Audi Connect / myAudi''s developer surface includes privacy policy, terms of service, GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 55
+random_paper: 25
 score:
   band: minimal
   composite: 8.6

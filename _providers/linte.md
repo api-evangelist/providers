@@ -119,7 +119,7 @@ overview: 'Linte is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Linte''s developer surface includes developer portal, engineering blog, support, FAQ, and 15 more developer resources.'
-random_paper: 1
+random_paper: 66
 score:
   band: emerging
   composite: 20.4

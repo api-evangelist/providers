@@ -163,7 +163,7 @@ overview: 'bloXroute publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   bloXroute''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 72
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Bloxroute Rate Limits

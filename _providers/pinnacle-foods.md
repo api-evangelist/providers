@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Conagra Brands 'agrees to buy Pinnacle Foods'
   url: https://www.just-food.com/news/conagra-brands-agrees-to-buy-pinnacle-foods/
-random_paper: 40
+random_paper: 4
 score:
   band: minimal
   composite: 2.6

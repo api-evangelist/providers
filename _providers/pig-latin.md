@@ -44,7 +44,7 @@ name: Pig Latin
 nav: Providers
 network: true
 overview: Pig Latin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Language, Wordplay, and Reference.
-random_paper: 54
+random_paper: 32
 score:
   band: minimal
   composite: 5.4

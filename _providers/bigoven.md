@@ -510,7 +510,7 @@ plans:
 - name: Bigoven Plans Pricing
   plan_count: 5
   slug: bigoven-plans-pricing
-random_paper: 53
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Bigoven Rate Limits

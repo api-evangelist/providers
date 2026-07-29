@@ -108,7 +108,7 @@ overview: 'Amtrak publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Amtrak''s developer surface includes authentication and 15 more developer resources.'
-random_paper: 24
+random_paper: 8
 score:
   band: emerging
   composite: 23.0

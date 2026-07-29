@@ -91,7 +91,7 @@ overview: 'Colibri is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Colibri''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 7 more developer resources.'
-random_paper: 47
+random_paper: 29
 score:
   band: emerging
   composite: 15.0

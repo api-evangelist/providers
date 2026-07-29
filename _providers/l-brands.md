@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: L Brands Will Spin Off Victoria's Secret
   url: https://www.nytimes.com/2021/05/11/business/dealbook/l-brands-victorias-secret.html
-random_paper: 17
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

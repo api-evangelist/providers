@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: 'Shareholder Alert: Robbins LLP Announces It Is Investigating ...'
   url: https://www.businesswire.com/news/home/20200611005774/en/Shareholder-Alert-Robbins-LLP-Announces-It-Is-Investigating-ServiceMaster-Global-Holdings-Inc.-SERV-for-Misleading-Shareholders
-random_paper: 50
+random_paper: 53
 score:
   band: minimal
   composite: 2.6

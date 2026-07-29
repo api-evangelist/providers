@@ -48,7 +48,7 @@ name: Hong Kong Asia Medical Group
 nav: Providers
 network: true
 overview: Hong Kong Asia Medical Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Hospital, Cardiovascular, and Medical.
-random_paper: 34
+random_paper: 43
 score:
   band: minimal
   composite: 5.4

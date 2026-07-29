@@ -120,7 +120,7 @@ plans:
 - name: Nacelle Plans Pricing
   plan_count: 1
   slug: nacelle-plans-pricing
-random_paper: 31
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Nacelle Rate Limits

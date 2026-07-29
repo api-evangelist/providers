@@ -103,7 +103,7 @@ overview: 'Pipe is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pipe''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
-random_paper: 45
+random_paper: 35
 score:
   band: emerging
   composite: 23.7

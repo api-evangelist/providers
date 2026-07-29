@@ -56,7 +56,7 @@ name: PatentsView
 nav: Providers
 network: true
 overview: PatentsView publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Patent and Public APIs.
-random_paper: 55
+random_paper: 25
 score:
   band: minimal
   composite: 5.7

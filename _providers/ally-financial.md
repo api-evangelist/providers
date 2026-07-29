@@ -99,7 +99,7 @@ press:
 - date: '2026-05-25'
   title: MediaRoom - Multimedia Library
   url: https://media.ally.com/multimedia
-random_paper: 26
+random_paper: 69
 score:
   band: emerging
   composite: 17.0

@@ -71,7 +71,7 @@ overview: 'On Deck is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   On Deck''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 57
+random_paper: 41
 score:
   band: minimal
   composite: 12.7

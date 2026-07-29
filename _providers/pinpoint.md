@@ -113,7 +113,7 @@ plans:
 - name: Pinpoint Plans Pricing
   plan_count: 1
   slug: pinpoint-plans-pricing
-random_paper: 34
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Pinpoint Rate Limits

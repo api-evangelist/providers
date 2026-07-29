@@ -129,7 +129,7 @@ overview: 'Waze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Waze''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 54
+random_paper: 44
 score:
   band: emerging
   composite: 24.0

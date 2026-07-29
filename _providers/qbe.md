@@ -190,7 +190,7 @@ overview: 'QBE Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   QBE Insurance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 25 more developer resources.'
-random_paper: 4
+random_paper: 75
 score:
   band: developing
   composite: 43.2

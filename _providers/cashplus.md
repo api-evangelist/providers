@@ -201,7 +201,7 @@ overview: 'Cashplus Bank publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 26 more developer resources.'
-random_paper: 20
+random_paper: 77
 scopes:
 - name: Cashplus Scopes
   scope_count: 3

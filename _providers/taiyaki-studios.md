@@ -55,7 +55,7 @@ overview: 'Taiyaki Studios is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Taiyaki Studios'' developer surface includes support and 2 more developer resources.'
-random_paper: 32
+random_paper: 71
 score:
   band: minimal
   composite: 5.9

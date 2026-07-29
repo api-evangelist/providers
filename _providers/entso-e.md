@@ -112,7 +112,7 @@ plans:
 - name: Entso E Plans Pricing
   plan_count: 1
   slug: entso-e-plans-pricing
-random_paper: 6
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Entso E Rate Limits

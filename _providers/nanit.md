@@ -63,7 +63,7 @@ overview: 'Nanit is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nanit''s developer surface includes support and 4 more developer resources.'
-random_paper: 76
+random_paper: 64
 score:
   band: minimal
   composite: 10.1

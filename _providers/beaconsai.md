@@ -99,7 +99,7 @@ overview: 'Beacons.ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Beacons.ai''s developer surface includes pricing, support, engineering blog, and 11 more developer resources.'
-random_paper: 9
+random_paper: 64
 score:
   band: emerging
   composite: 14.0

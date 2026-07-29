@@ -95,7 +95,7 @@ overview: 'Ben is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Ben''s developer surface includes support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 1
+random_paper: 72
 score:
   band: emerging
   composite: 17.4

@@ -472,7 +472,7 @@ plans:
 - name: Circana Plans Pricing
   plan_count: 1
   slug: circana-plans-pricing
-random_paper: 28
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Circana Rate Limits

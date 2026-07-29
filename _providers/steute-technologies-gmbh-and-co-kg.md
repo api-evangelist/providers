@@ -168,7 +168,7 @@ overview: 'steute Technologies GmbH & Co. KG publishes 7 APIs on the [APIs.io](h
 
 
   steute Technologies GmbH & Co. KG''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 14 more developer resources.'
-random_paper: 5
+random_paper: 77
 score:
   band: thin
   composite: 40.3

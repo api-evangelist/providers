@@ -48,7 +48,7 @@ name: Highfive
 nav: Providers
 network: true
 overview: Highfive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Video Conferencing, Collaboration, and Acquired.
-random_paper: 72
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

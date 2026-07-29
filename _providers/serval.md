@@ -143,7 +143,7 @@ overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Au
 
 
   Serval''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 14 more developer resources.'
-random_paper: 37
+random_paper: 21
 scopes:
 - name: Serval Scopes
   scope_count: 1

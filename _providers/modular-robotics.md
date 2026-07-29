@@ -87,7 +87,7 @@ overview: 'Modular Robotics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Modular Robotics'' developer surface includes engineering blog, documentation, support, and 8 more developer resources.'
-random_paper: 53
+random_paper: 11
 score:
   band: minimal
   composite: 12.9

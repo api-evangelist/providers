@@ -48,7 +48,7 @@ name: Epizyme
 nav: Providers
 network: true
 overview: Epizyme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Oncology.
-random_paper: 1
+random_paper: 60
 score:
   band: minimal
   composite: 5.4

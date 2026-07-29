@@ -91,7 +91,7 @@ overview: 'Thread AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Thread AI''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 32
+random_paper: 10
 score:
   band: emerging
   composite: 18.5

@@ -75,7 +75,7 @@ overview: 'Distyl is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Distyl''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 49
+random_paper: 33
 score:
   band: emerging
   composite: 16.4

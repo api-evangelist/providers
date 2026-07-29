@@ -126,7 +126,7 @@ plans:
 - name: Rtx Plans Pricing
   plan_count: 1
   slug: rtx-plans-pricing
-random_paper: 42
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Rtx Rate Limits

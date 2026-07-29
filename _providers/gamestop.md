@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: 'Gamestop and AI... : r/Superstonk'
   url: https://www.reddit.com/r/Superstonk/comments/1ibjuol/gamestop_and_ai/
-random_paper: 17
+random_paper: 74
 score:
   band: minimal
   composite: 3.2

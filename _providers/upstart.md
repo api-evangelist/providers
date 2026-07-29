@@ -115,7 +115,7 @@ overview: 'Upstart publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Upstart''s developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 17
+random_paper: 76
 score:
   band: emerging
   composite: 25.2

@@ -88,7 +88,7 @@ plans:
 - name: Edx Plans Pricing
   plan_count: 2
   slug: edx-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Edx Rate Limits

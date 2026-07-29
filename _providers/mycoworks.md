@@ -52,7 +52,7 @@ name: Mycoworks
 nav: Providers
 network: true
 overview: Mycoworks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Materials Science, Biomaterials, and Sustainability.
-random_paper: 5
+random_paper: 58
 score:
   band: minimal
   composite: 5.0

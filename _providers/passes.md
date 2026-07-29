@@ -91,7 +91,7 @@ overview: 'Passes is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Passes'' developer surface includes support, signup flow, and 10 more developer resources.'
-random_paper: 39
+random_paper: 23
 score:
   band: emerging
   composite: 18.2

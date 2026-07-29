@@ -268,7 +268,7 @@ overview: 'Vijil publishes 28 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Vijil''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, support, and 25 more developer resources.'
-random_paper: 3
+random_paper: 68
 score:
   band: developing
   composite: 47.0

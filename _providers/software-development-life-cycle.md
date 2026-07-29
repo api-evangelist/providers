@@ -137,7 +137,7 @@ plans:
 - name: Software Development Life Cycle Plans Pricing
   plan_count: 3
   slug: software-development-life-cycle-plans-pricing
-random_paper: 61
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Software Development Life Cycle Rate Limits

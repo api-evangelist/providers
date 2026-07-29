@@ -187,7 +187,7 @@ plans:
 - name: Quodd Plans Pricing
   plan_count: 2
   slug: quodd-plans-pricing
-random_paper: 2
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Quodd Rate Limits

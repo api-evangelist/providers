@@ -237,7 +237,7 @@ overview: 'AdvancedMD publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AdvancedMD''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, FAQ, signup flow, and 36 more developer resources.'
-random_paper: 30
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Advancedmd Rate Limits

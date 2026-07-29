@@ -75,7 +75,7 @@ overview: 'Trinkerr is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Trinkerr''s developer surface includes YouTube channel and 7 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: minimal
   composite: 7.0

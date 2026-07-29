@@ -48,7 +48,7 @@ name: Newfold
 nav: Providers
 network: true
 overview: Newfold is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Hosting, Domains, Web Presence, and Website Builder.
-random_paper: 58
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

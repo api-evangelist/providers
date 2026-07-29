@@ -69,7 +69,7 @@ plans:
 - name: National Pesticide Information Center Plans Pricing
   plan_count: 3
   slug: national-pesticide-information-center-plans-pricing
-random_paper: 1
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: National Pesticide Information Center Rate Limits

@@ -56,7 +56,7 @@ name: IA Ventures
 nav: Providers
 network: true
 overview: IA Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Early Stage, Seed, and Fintech.
-random_paper: 61
+random_paper: 33
 score:
   band: minimal
   composite: 6.1

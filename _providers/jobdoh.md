@@ -59,7 +59,7 @@ overview: 'JOBDOH is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   JOBDOH''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 14
+random_paper: 77
 score:
   band: minimal
   composite: 7.5

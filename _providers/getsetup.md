@@ -63,7 +63,7 @@ overview: 'GetSetup is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GetSetup''s developer surface includes support and 4 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: minimal
   composite: 8.5

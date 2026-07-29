@@ -122,7 +122,7 @@ plans:
 - name: Screenshotone Plans Pricing
   plan_count: 3
   slug: screenshotone-plans-pricing
-random_paper: 22
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Screenshotone Rate Limits

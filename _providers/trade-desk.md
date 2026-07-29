@@ -220,7 +220,7 @@ overview: 'The Trade Desk publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   The Trade Desk''s developer surface includes developer portal, documentation, getting-started guide, code examples, engineering blog, YouTube channel, and 28 more developer resources.'
-random_paper: 72
+random_paper: 48
 score:
   band: thin
   composite: 30.3

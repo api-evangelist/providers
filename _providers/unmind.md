@@ -87,7 +87,7 @@ overview: 'Unmind is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Unmind''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 35
+random_paper: 19
 score:
   band: emerging
   composite: 18.8

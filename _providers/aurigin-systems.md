@@ -39,7 +39,7 @@ name: Aurigin Systems
 nav: Providers
 network: true
 overview: Aurigin Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Intellectual Property, Patents, Trademarks, and Software.
-random_paper: 48
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

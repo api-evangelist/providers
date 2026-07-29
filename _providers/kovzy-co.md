@@ -76,7 +76,7 @@ overview: 'Kovzy Co. is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kovzy Co.''s developer surface includes signup flow, pricing, and 6 more developer resources.'
-random_paper: 64
+random_paper: 44
 score:
   band: minimal
   composite: 11.6

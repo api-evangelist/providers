@@ -185,7 +185,7 @@ overview: 'KUKA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   KUKA''s developer surface includes GitHub presence, YouTube channel, and 31 more developer resources.'
-random_paper: 33
+random_paper: 78
 score:
   band: minimal
   composite: 10.1

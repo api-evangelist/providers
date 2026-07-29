@@ -100,7 +100,7 @@ overview: 'Speak publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Speak''s developer surface includes engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 70
+random_paper: 58
 score:
   band: emerging
   composite: 20.4

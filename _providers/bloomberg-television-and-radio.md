@@ -96,7 +96,7 @@ plans:
 - name: Bloomberg Television And Radio Plans Pricing
   plan_count: 3
   slug: bloomberg-television-and-radio-plans-pricing
-random_paper: 9
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Bloomberg Television And Radio Rate Limits

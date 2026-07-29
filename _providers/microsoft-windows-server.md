@@ -578,7 +578,7 @@ plans:
 - name: Microsoft Windows Server Plans Pricing
   plan_count: 5
   slug: microsoft-windows-server-plans-pricing
-random_paper: 50
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Microsoft Windows Server Rate Limits

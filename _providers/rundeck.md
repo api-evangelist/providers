@@ -123,7 +123,7 @@ plans:
 - name: Rundeck Plans Pricing
   plan_count: 3
   slug: rundeck-plans-pricing
-random_paper: 55
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Rundeck Rate Limits

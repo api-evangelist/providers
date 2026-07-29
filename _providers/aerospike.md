@@ -117,7 +117,7 @@ overview: 'Aerospike publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aerospike''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 39
+random_paper: 15
 score:
   band: emerging
   composite: 25.3

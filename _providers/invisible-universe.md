@@ -64,7 +64,7 @@ name: Invisible Universe
 nav: Providers
 network: true
 overview: Invisible Universe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Entertainment, Media, and Animation.
-random_paper: 43
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

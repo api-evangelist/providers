@@ -159,7 +159,7 @@ plans:
 - name: Ory Plans Pricing
   plan_count: 4
   slug: ory-plans-pricing
-random_paper: 38
+random_paper: 30
 rate_limits:
 - limit_count: 8
   name: Ory Rate Limits

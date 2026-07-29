@@ -262,7 +262,7 @@ plans:
 - name: Microsoft Azure Blob Storage Plans Pricing
   plan_count: 6
   slug: microsoft-azure-blob-storage-plans-pricing
-random_paper: 68
+random_paper: 75
 rate_limits:
 - limit_count: 6
   name: Microsoft Azure Blob Storage Rate Limits

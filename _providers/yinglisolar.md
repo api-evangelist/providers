@@ -48,7 +48,7 @@ name: yinglisolar
 nav: Providers
 network: true
 overview: yinglisolar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Photovoltaic, Renewable Energy, and Manufacturing.
-random_paper: 42
+random_paper: 12
 score:
   band: minimal
   composite: 5.5

@@ -75,7 +75,7 @@ overview: 'ALLSALE Corp. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   ALLSALE Corp.''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 60
+random_paper: 30
 score:
   band: emerging
   composite: 14.8

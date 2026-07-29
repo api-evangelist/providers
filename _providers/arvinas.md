@@ -56,7 +56,7 @@ name: Arvinas
 nav: Providers
 network: true
 overview: Arvinas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceutical, Protein Degradation, and PROTAC.
-random_paper: 63
+random_paper: 45
 score:
   band: minimal
   composite: 10.5

@@ -80,7 +80,7 @@ plans:
 - name: Classpass Plans Pricing
   plan_count: 2
   slug: classpass-plans-pricing
-random_paper: 49
+random_paper: 25
 score:
   band: minimal
   composite: 12.8

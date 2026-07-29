@@ -48,7 +48,7 @@ name: Orthocon
 nav: Providers
 network: true
 overview: Orthocon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Surgical Therapeutics, Orthopedics, and Bone Hemostasis.
-random_paper: 29
+random_paper: 7
 score:
   band: minimal
   composite: 5.4

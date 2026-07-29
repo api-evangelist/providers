@@ -84,7 +84,7 @@ name: Pep Boys
 nav: Providers
 network: true
 overview: Pep Boys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Auto Service, Auto Repair, Tires, and Fleet.
-random_paper: 45
+random_paper: 25
 score:
   band: minimal
   composite: 5.7

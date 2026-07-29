@@ -93,7 +93,7 @@ plans:
 - name: Genome Plans Pricing
   plan_count: 3
   slug: genome-plans-pricing
-random_paper: 19
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Genome Rate Limits

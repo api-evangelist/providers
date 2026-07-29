@@ -121,7 +121,7 @@ plans:
 - name: Apache Mahout Plans Pricing
   plan_count: 3
   slug: apache-mahout-plans-pricing
-random_paper: 0
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Apache Mahout Rate Limits

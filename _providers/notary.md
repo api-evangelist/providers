@@ -142,7 +142,7 @@ plans:
 - name: Notary Plans Pricing
   plan_count: 3
   slug: notary-plans-pricing
-random_paper: 53
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Notary Rate Limits

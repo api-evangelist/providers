@@ -83,7 +83,7 @@ overview: 'Linas Matkasse is profiled on the [APIs.io](https://apis.io/) network
 
 
   Linas Matkasse''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 51
+random_paper: 15
 score:
   band: emerging
   composite: 15.7

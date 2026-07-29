@@ -48,7 +48,7 @@ name: Red Ventures
 nav: Providers
 network: true
 overview: Red Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Marketing, Digital Marketing, and Portfolio.
-random_paper: 20
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

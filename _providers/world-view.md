@@ -71,7 +71,7 @@ overview: 'World View is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   World View''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 39
+random_paper: 13
 score:
   band: minimal
   composite: 12.4

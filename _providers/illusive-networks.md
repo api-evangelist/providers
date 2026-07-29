@@ -44,7 +44,7 @@ name: Illusive Networks
 nav: Providers
 network: true
 overview: Illusive Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Deception Technology, Identity Threat Detection and Response, and Identity Security.
-random_paper: 44
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

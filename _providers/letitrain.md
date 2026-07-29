@@ -53,7 +53,7 @@ name: The Rainmaker Group Ventures (letitrain.com)
 nav: Providers
 network: true
 overview: The Rainmaker Group Ventures (letitrain.com) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Revenue Management, Hotels, and Casinos.
-random_paper: 48
+random_paper: 24
 score:
   band: minimal
   composite: 6.1

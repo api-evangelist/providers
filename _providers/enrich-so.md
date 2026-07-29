@@ -122,7 +122,7 @@ plans:
 - name: Enrich So Plans Pricing
   plan_count: 5
   slug: enrich-so-plans-pricing
-random_paper: 57
+random_paper: 35
 rate_limits:
 - limit_count: 12
   name: Enrich So Rate Limits

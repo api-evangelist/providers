@@ -106,7 +106,7 @@ plans:
 - name: Gigsky Plans Pricing
   plan_count: 3
   slug: gigsky-plans-pricing
-random_paper: 38
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Gigsky Rate Limits

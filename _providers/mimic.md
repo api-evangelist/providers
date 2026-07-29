@@ -84,7 +84,7 @@ overview: 'Mimic is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Mimic''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 65
+random_paper: 53
 score:
   band: emerging
   composite: 16.8

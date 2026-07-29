@@ -48,7 +48,7 @@ name: Primesense
 nav: Providers
 network: true
 overview: Primesense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Sensing, Depth Camera, Computer Vision, and Middleware.
-random_paper: 5
+random_paper: 56
 score:
   band: minimal
   composite: 5.7

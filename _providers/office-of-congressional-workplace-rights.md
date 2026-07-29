@@ -61,7 +61,7 @@ plans:
 - name: Office Of Congressional Workplace Rights Plans Pricing
   plan_count: 3
   slug: office-of-congressional-workplace-rights-plans-pricing
-random_paper: 33
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Office Of Congressional Workplace Rights Rate Limits

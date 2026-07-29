@@ -180,7 +180,7 @@ overview: 'Alex Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Alex Bank''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 36
+random_paper: 14
 scopes:
 - name: Alex Bank Scopes
   scope_count: 12

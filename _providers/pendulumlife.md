@@ -79,7 +79,7 @@ overview: 'Pendulumlife is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Pendulumlife''s developer surface includes engineering blog, support, pricing, signup flow, and 5 more developer resources.'
-random_paper: 58
+random_paper: 26
 score:
   band: emerging
   composite: 16.5

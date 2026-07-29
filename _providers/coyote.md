@@ -509,7 +509,7 @@ plans:
 - name: Coyote Plans Pricing
   plan_count: 3
   slug: coyote-plans-pricing
-random_paper: 43
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Coyote Rate Limits

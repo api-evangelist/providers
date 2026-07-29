@@ -83,7 +83,7 @@ plans:
 - name: Data Civis Bz It Plans Pricing
   plan_count: 0
   slug: data-civis-bz-it-plans-pricing
-random_paper: 65
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Data Civis Bz It Rate Limits

@@ -87,7 +87,7 @@ overview: 'ReqBin is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   ReqBin''s developer surface includes documentation, engineering blog, code examples, and 6 more developer resources.'
-random_paper: 25
+random_paper: 9
 score:
   band: minimal
   composite: 10.4

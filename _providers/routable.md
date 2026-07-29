@@ -126,7 +126,7 @@ plans:
 - name: Routable Plans Pricing
   plan_count: 2
   slug: routable-plans-pricing
-random_paper: 15
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Routable Rate Limits

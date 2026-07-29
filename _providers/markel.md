@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Halo ai and Markel Launch the Next Generation of Equine ...
   url: https://finance.yahoo.com/news/halo-ai-markel-launch-next-150300788.html
-random_paper: 20
+random_paper: 4
 score:
   band: minimal
   composite: 4.8

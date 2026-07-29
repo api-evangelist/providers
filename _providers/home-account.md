@@ -48,7 +48,7 @@ name: Home Account
 nav: Providers
 network: true
 overview: Home Account is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, FinTech, Mortgage, and Consumer Credit.
-random_paper: 64
+random_paper: 34
 score:
   band: minimal
   composite: 5.0

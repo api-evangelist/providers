@@ -174,7 +174,7 @@ overview: 'Cask publishes 12 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cask''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 16 more developer resources.'
-random_paper: 33
+random_paper: 23
 score:
   band: thin
   composite: 30.0

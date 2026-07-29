@@ -279,7 +279,7 @@ plans:
 - name: Eod Historical Plans Pricing
   plan_count: 6
   slug: eod-historical-plans-pricing
-random_paper: 45
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Eod Historical Rate Limits

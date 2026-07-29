@@ -121,7 +121,7 @@ plans:
 - name: Annex Cloud Plans Pricing
   plan_count: 1
   slug: annex-cloud-plans-pricing
-random_paper: 40
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Annex Cloud Rate Limits

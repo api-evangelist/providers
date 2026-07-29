@@ -44,7 +44,7 @@ name: StarStreet
 nav: Providers
 network: true
 overview: StarStreet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 27
+random_paper: 78
 score:
   band: minimal
   composite: 3.2

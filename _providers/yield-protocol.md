@@ -60,7 +60,7 @@ name: Yield Protocol
 nav: Providers
 network: true
 overview: Yield Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Defi, DeFi, Ethereum, and Lending.
-random_paper: 76
+random_paper: 40
 score:
   band: minimal
   composite: 7.0

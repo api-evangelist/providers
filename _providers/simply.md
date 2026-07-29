@@ -48,7 +48,7 @@ name: Simply
 nav: Providers
 network: true
 overview: Simply is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Music Education, Art Education, and Mobile Apps.
-random_paper: 54
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

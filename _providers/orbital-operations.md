@@ -55,7 +55,7 @@ overview: 'Orbital Operations is profiled on the [APIs.io](https://apis.io/) net
 
 
   Orbital Operations'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 38
+random_paper: 69
 score:
   band: minimal
   composite: 5.4

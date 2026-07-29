@@ -176,7 +176,7 @@ overview: 'Replay publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Replay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 37
+random_paper: 21
 score:
   band: developing
   composite: 44.5

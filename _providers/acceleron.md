@@ -48,7 +48,7 @@ name: Acceleron
 nav: Providers
 network: true
 overview: Acceleron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Biopharmaceutical, Pharmaceutical, and Life Sciences.
-random_paper: 16
+random_paper: 71
 score:
   band: minimal
   composite: 5.4

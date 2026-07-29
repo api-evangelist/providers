@@ -162,7 +162,7 @@ plans:
 - name: Agentops Plans Pricing
   plan_count: 1
   slug: agentops-plans-pricing
-random_paper: 18
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Agentops Rate Limits

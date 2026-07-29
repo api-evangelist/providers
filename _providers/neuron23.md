@@ -59,7 +59,7 @@ overview: 'Neuron23 is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Neuron23''s developer surface includes product news and 3 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

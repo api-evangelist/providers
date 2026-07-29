@@ -168,7 +168,7 @@ overview: 'Teambridge publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Teambridge''s developer surface includes documentation, API reference, authentication, pricing, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 43
+random_paper: 17
 scopes:
 - name: Teambridge Scopes
   scope_count: 1

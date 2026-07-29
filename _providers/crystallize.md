@@ -139,7 +139,7 @@ plans:
 - name: Crystallize Plans Pricing
   plan_count: 1
   slug: crystallize-plans-pricing
-random_paper: 51
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Crystallize Rate Limits

@@ -71,7 +71,7 @@ overview: 'Thorin is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Thorin''s developer surface includes documentation, getting-started guide, changelog, and 4 more developer resources.'
-random_paper: 44
+random_paper: 28
 score:
   band: emerging
   composite: 15.0

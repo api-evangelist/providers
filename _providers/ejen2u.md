@@ -67,7 +67,7 @@ overview: 'Ejen2u is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ejen2u''s developer surface includes support and 5 more developer resources.'
-random_paper: 46
+random_paper: 32
 score:
   band: minimal
   composite: 12.7

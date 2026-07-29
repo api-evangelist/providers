@@ -48,7 +48,7 @@ name: Nexus Lab Technologies, Inc.
 nav: Providers
 network: true
 overview: Nexus Lab Technologies, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aviation, Sustainability, Climate, and Machine Learning.
-random_paper: 58
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

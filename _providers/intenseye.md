@@ -79,7 +79,7 @@ overview: 'Intenseye is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Intenseye''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 56
+random_paper: 32
 score:
   band: emerging
   composite: 14.8

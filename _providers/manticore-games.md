@@ -83,7 +83,7 @@ overview: 'Manticore Games publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Manticore Games'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, and 4 more developer resources.'
-random_paper: 69
+random_paper: 31
 score:
   band: emerging
   composite: 14.9

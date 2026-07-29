@@ -271,7 +271,7 @@ plans:
 - name: Mailmodo Plans Pricing
   plan_count: 4
   slug: mailmodo-plans-pricing
-random_paper: 3
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Mailmodo Rate Limits

@@ -195,7 +195,7 @@ overview: 'Slide publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slide''s developer surface includes authentication, documentation, API reference, getting-started guide, support, changelog, and 20 more developer resources.'
-random_paper: 67
+random_paper: 55
 score:
   band: developing
   composite: 49.4

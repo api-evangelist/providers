@@ -140,7 +140,7 @@ overview: 'Centrify publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Centrify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 21
+random_paper: 78
 score:
   band: thin
   composite: 30.6

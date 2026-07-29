@@ -84,7 +84,7 @@ plans:
 - name: Data Gov Ie Plans Pricing
   plan_count: 1
   slug: data-gov-ie-plans-pricing
-random_paper: 37
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Data Gov Ie Rate Limits

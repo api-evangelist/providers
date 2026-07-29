@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: OneMain 2026 proxy outlines pay, buybacks, proposals
   url: https://www.stocktitan.net/sec-filings/OMF/def-14a-one-main-holdings-inc-definitive-proxy-statement-b56119e0ab68.html
-random_paper: 27
+random_paper: 64
 score:
   band: minimal
   composite: 4.1

@@ -742,7 +742,7 @@ plans:
 - name: Postman Plans Pricing
   plan_count: 4
   slug: postman-plans-pricing
-random_paper: 0
+random_paper: 59
 rate_limits:
 - limit_count: 6
   name: Postman Rate Limits

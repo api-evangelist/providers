@@ -272,7 +272,7 @@ plans:
 - name: Shippo Plans Pricing
   plan_count: 2
   slug: shippo-plans-pricing
-random_paper: 43
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Shippo Rate Limits

@@ -163,7 +163,7 @@ plans:
 - name: University Of Bristol Plans Pricing
   plan_count: 2
   slug: university-of-bristol-plans-pricing
-random_paper: 36
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: University Of Bristol Rate Limits

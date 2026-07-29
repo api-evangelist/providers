@@ -39,7 +39,7 @@ name: QoS
 nav: Providers
 network: true
 overview: QoS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include QoS, Quality of Service, Networking, Traffic Management, and Performance.
-random_paper: 31
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

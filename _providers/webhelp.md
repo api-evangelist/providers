@@ -39,7 +39,7 @@ name: Webhelp
 nav: Providers
 network: true
 overview: Webhelp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Experience, BPO, Outsourcing, and Contact Center.
-random_paper: 50
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

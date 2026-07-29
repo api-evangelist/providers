@@ -203,7 +203,7 @@ overview: 'Tradeverifyd publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Tradeverifyd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, code examples, authentication, and 20 more developer resources.'
-random_paper: 57
+random_paper: 25
 score:
   band: developing
   composite: 47.6

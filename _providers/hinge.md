@@ -95,7 +95,7 @@ overview: 'Hinge is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Hinge''s developer surface includes terms of service, support, and 11 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: minimal
   composite: 7.4

@@ -96,7 +96,7 @@ overview: 'Datavant is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Datavant''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 4
+random_paper: 61
 score:
   band: emerging
   composite: 13.5

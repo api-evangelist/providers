@@ -200,7 +200,7 @@ overview: 'Vendasta publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Vendasta''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 7
+random_paper: 64
 score:
   band: developing
   composite: 48.8

@@ -176,7 +176,7 @@ overview: 'Photon publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Photon''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, sandbox, and 24 more developer resources.'
-random_paper: 48
+random_paper: 32
 scopes:
 - name: Photon Scopes
   scope_count: 6

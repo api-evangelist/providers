@@ -60,7 +60,7 @@ name: Jamba Juice
 nav: Providers
 network: true
 overview: Jamba Juice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Restaurant, and Quick Service.
-random_paper: 2
+random_paper: 53
 score:
   band: minimal
   composite: 8.5

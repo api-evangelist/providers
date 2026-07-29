@@ -136,7 +136,7 @@ plans:
 - name: D2L Plans Pricing
   plan_count: 2
   slug: d2l-plans-pricing
-random_paper: 27
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: D2L Rate Limits

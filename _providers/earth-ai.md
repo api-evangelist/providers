@@ -79,7 +79,7 @@ overview: 'Earth AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Earth AI''s developer surface includes YouTube channel and 8 more developer resources.'
-random_paper: 9
+random_paper: 68
 score:
   band: minimal
   composite: 9.2

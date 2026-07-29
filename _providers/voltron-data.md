@@ -56,7 +56,7 @@ name: Voltron Data
 nav: Providers
 network: true
 overview: Voltron Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Analytics, GPU, and SQL.
-random_paper: 11
+random_paper: 58
 score:
   band: minimal
   composite: 6.4

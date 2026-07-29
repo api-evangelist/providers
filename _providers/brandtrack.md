@@ -183,7 +183,7 @@ overview: 'Brandtrack publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brandtrack''s developer surface includes documentation, API reference, authentication, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 51
+random_paper: 25
 scopes:
 - name: Brandtrack Scopes
   scope_count: 1

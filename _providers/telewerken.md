@@ -78,7 +78,7 @@ overview: 'Telewerken is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Telewerken''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 0
+random_paper: 51
 rules:
 - name: Telewerken API Rules
   rule_count: 5

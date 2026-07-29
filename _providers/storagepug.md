@@ -80,7 +80,7 @@ plans:
 - name: Storagepug Plans Pricing
   plan_count: 4
   slug: storagepug-plans-pricing
-random_paper: 11
+random_paper: 62
 score:
   band: emerging
   composite: 15.0

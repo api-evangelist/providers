@@ -323,7 +323,7 @@ plans:
 - name: Nutritionix Plans Pricing
   plan_count: 2
   slug: nutritionix-plans-pricing
-random_paper: 74
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Nutritionix Rate Limits

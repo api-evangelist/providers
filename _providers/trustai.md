@@ -64,7 +64,7 @@ name: TrustAI
 nav: Providers
 network: true
 overview: TrustAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Governance, and Compliance.
-random_paper: 10
+random_paper: 69
 score:
   band: minimal
   composite: 9.2

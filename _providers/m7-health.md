@@ -71,7 +71,7 @@ overview: 'M7 Health is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   M7 Health''s developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 69
+random_paper: 49
 score:
   band: emerging
   composite: 13.8

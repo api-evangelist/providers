@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: SUPPORT.md
 nav: Providers
 network: true
-random_paper: 50
+random_paper: 24
 slug: support-md
 tags:
 - Community

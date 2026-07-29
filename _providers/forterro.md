@@ -119,7 +119,7 @@ overview: 'Forterro is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Forterro''s developer surface includes support, engineering blog, product news, and 16 more developer resources.'
-random_paper: 36
+random_paper: 14
 score:
   band: emerging
   composite: 13.7

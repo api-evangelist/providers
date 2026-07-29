@@ -104,7 +104,7 @@ overview: 'Electronic payment Exchange Inc publishes 1 API on the [APIs.io](http
 
 
   Electronic payment Exchange Inc''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 34
+random_paper: 33
 score:
   band: emerging
   composite: 27.6

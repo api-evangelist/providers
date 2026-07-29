@@ -51,7 +51,7 @@ overview: 'Gaspack is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Gaspack''s developer surface includes support and 1 more developer resources.'
-random_paper: 37
+random_paper: 19
 score:
   band: minimal
   composite: 5.9

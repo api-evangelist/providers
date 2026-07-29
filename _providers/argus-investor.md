@@ -110,7 +110,7 @@ plans:
 - name: Argus Investor Plans Pricing
   plan_count: 3
   slug: argus-investor-plans-pricing
-random_paper: 18
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Argus Investor Rate Limits

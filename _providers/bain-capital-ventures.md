@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Bain Capital Ventures
 nav: Providers
 network: true
-random_paper: 47
+random_paper: 72
 slug: bain-capital-ventures
 tags:
 - Venture Capital

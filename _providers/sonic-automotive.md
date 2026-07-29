@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Company News | Sonic Automotive Group
   url: https://www.dealer.com/canada/company-news/sonic-automotive-group-partners-with-dealer-com/
-random_paper: 69
+random_paper: 27
 score:
   band: minimal
   composite: 7.2

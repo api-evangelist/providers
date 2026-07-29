@@ -137,7 +137,7 @@ plans:
 - name: Rocksdb Plans Pricing
   plan_count: 3
   slug: rocksdb-plans-pricing
-random_paper: 51
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Rocksdb Rate Limits

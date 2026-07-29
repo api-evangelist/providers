@@ -99,7 +99,7 @@ press:
 - date: '2026-05-25'
   title: Newsroom
   url: https://www.troweprice.com/en/us/press
-random_paper: 27
+random_paper: 76
 score:
   band: minimal
   composite: 5.4

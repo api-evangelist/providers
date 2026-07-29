@@ -84,7 +84,7 @@ plans:
 - name: Dados Sc Gov Br Plans Pricing
   plan_count: 1
   slug: dados-sc-gov-br-plans-pricing
-random_paper: 30
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Dados Sc Gov Br Rate Limits

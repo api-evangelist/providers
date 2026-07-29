@@ -122,7 +122,7 @@ plans:
 - name: Occ Plans Pricing
   plan_count: 1
   slug: occ-plans-pricing
-random_paper: 1
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Occ Rate Limits

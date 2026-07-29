@@ -235,7 +235,7 @@ press:
 - date: '2026-05-25'
   title: U. S. Steel Aims to Improve Operational Efficiencies and ...
   url: https://www.ussteel.com/prereleases/-/blogs/u-s-steel-aims-to-improve-operational-efficiencies-and-employee-experiences-with-google-cloud-s-generative-ai
-random_paper: 15
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: United States Steel Rate Limits

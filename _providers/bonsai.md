@@ -120,7 +120,7 @@ overview: 'Bonsai is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bonsai''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Bonsai Rate Limits

@@ -48,7 +48,7 @@ name: Moncler
 nav: Providers
 network: true
 overview: Moncler is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fashion, Luxury, and Apparel.
-random_paper: 59
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

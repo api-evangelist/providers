@@ -96,7 +96,7 @@ overview: 'Transfix is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Transfix''s developer surface includes FAQ, support, engineering blog, and 10 more developer resources.'
-random_paper: 32
+random_paper: 10
 score:
   band: minimal
   composite: 8.9

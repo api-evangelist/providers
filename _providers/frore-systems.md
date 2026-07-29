@@ -63,7 +63,7 @@ overview: 'Frore Systems is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Frore Systems'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 70
+random_paper: 36
 score:
   band: minimal
   composite: 8.4

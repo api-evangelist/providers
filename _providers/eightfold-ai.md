@@ -120,7 +120,7 @@ plans:
 - name: Eightfold Ai Plans Pricing
   plan_count: 1
   slug: eightfold-ai-plans-pricing
-random_paper: 42
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Eightfold Ai Rate Limits

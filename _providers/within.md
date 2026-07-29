@@ -39,7 +39,7 @@ name: Within
 nav: Providers
 network: true
 overview: Within is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Reality, VR, Fitness, and Consumer.
-random_paper: 43
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

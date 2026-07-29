@@ -75,7 +75,7 @@ overview: 'Alude is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Alude''s developer surface includes signup flow, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: emerging
   composite: 15.4

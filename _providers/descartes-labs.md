@@ -163,7 +163,7 @@ overview: 'Descartes Labs publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Descartes Labs'' developer surface includes documentation, support, code examples, and 18 more developer resources.'
-random_paper: 35
+random_paper: 78
 score:
   band: emerging
   composite: 14.4

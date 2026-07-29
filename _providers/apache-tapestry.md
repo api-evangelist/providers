@@ -112,7 +112,7 @@ plans:
 - name: Apache Tapestry Plans Pricing
   plan_count: 3
   slug: apache-tapestry-plans-pricing
-random_paper: 7
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Apache Tapestry Rate Limits

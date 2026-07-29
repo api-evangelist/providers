@@ -48,7 +48,7 @@ name: Periscope Data
 nav: Providers
 network: true
 overview: Periscope Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Business Intelligence, Analytics, and Data.
-random_paper: 39
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

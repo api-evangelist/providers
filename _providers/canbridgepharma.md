@@ -59,7 +59,7 @@ overview: 'CANbridge Pharmaceuticals is profiled on the [APIs.io](https://apis.i
 
 
   CANbridge Pharmaceuticals'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 20
+random_paper: 59
 score:
   band: minimal
   composite: 8.3

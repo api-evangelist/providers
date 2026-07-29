@@ -52,7 +52,7 @@ name: TrueFlip
 nav: Providers
 network: true
 overview: TrueFlip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Lottery, and Gaming.
-random_paper: 28
+random_paper: 6
 score:
   band: minimal
   composite: 6.4

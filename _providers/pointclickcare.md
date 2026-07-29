@@ -180,7 +180,7 @@ plans:
 - name: Pointclickcare Plans Pricing
   plan_count: 3
   slug: pointclickcare-plans-pricing
-random_paper: 20
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Pointclickcare Rate Limits

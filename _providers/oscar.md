@@ -91,7 +91,7 @@ overview: 'Oscar is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Oscar''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: emerging
   composite: 16.7

@@ -209,7 +209,7 @@ overview: 'SmallStep publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   SmallStep''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 26 more developer resources.'
-random_paper: 57
+random_paper: 33
 score:
   band: strong
   composite: 57.8

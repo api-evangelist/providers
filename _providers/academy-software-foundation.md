@@ -307,7 +307,7 @@ plans:
 - name: Academy Software Foundation Plans Pricing
   plan_count: 0
   slug: academy-software-foundation-plans-pricing
-random_paper: 73
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Academy Software Foundation Rate Limits

@@ -134,7 +134,7 @@ plans:
 - name: Formspree Plans Pricing
   plan_count: 4
   slug: formspree-plans-pricing
-random_paper: 55
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Formspree Rate Limits

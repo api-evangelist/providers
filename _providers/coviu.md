@@ -214,7 +214,7 @@ overview: 'Coviu publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Coviu''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 26 more developer resources.'
-random_paper: 11
+random_paper: 76
 scopes:
 - name: Coviu Scopes
   scope_count: 0

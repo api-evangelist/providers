@@ -75,7 +75,7 @@ overview: 'WOO Sports is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   WOO Sports'' developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 68
+random_paper: 42
 score:
   band: emerging
   composite: 13.0

@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: 5 takeaways from Becton Dickinson's $24B acquisition of ...
   url: https://medcitynews.com/2017/04/5-takeaways-becton-dickinsons-24b-acquisition-c-r-bard/
-random_paper: 70
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Carefusion Rate Limits

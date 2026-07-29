@@ -226,7 +226,7 @@ overview: 'CloudTalk publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CloudTalk''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 39
+random_paper: 15
 score:
   band: developing
   composite: 51.5

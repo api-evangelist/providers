@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: 'Q&A: The mind behind Casey''s digital transformation efforts'
   url: https://www.cstoredive.com/news/caseys-digital-transformation-art-sebastian-interview/636695/
-random_paper: 65
+random_paper: 11
 score:
   band: minimal
   composite: 9.2

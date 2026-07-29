@@ -63,7 +63,7 @@ overview: 'TT Labs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   TT Labs'' developer surface includes pricing, support, and 3 more developer resources.'
-random_paper: 2
+random_paper: 63
 score:
   band: minimal
   composite: 12.7

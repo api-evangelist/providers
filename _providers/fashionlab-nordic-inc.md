@@ -48,7 +48,7 @@ name: FashionLab Nordic Inc.
 nav: Providers
 network: true
 overview: FashionLab Nordic Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Apparel, Nordic, and Platform.
-random_paper: 11
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

@@ -95,7 +95,7 @@ overview: 'Actively is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Actively''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 18
+random_paper: 75
 score:
   band: emerging
   composite: 19.2

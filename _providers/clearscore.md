@@ -79,7 +79,7 @@ overview: 'Clearscore is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Clearscore''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 58
+random_paper: 32
 score:
   band: emerging
   composite: 16.0

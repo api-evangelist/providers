@@ -67,7 +67,7 @@ overview: 'Blixt is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Blixt''s developer surface includes support and 5 more developer resources.'
-random_paper: 8
+random_paper: 73
 score:
   band: minimal
   composite: 11.4

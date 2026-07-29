@@ -229,7 +229,7 @@ plans:
 - name: Anchorbrowser Plans Pricing
   plan_count: 1
   slug: anchorbrowser-plans-pricing
-random_paper: 21
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Anchorbrowser Rate Limits

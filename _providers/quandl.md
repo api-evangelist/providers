@@ -164,7 +164,7 @@ plans:
 - name: Quandl Plans Pricing
   plan_count: 1
   slug: quandl-plans-pricing
-random_paper: 29
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Quandl Rate Limits

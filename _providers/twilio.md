@@ -1134,7 +1134,7 @@ plans:
 - name: Twilio Plans Pricing
   plan_count: 2
   slug: twilio-plans-pricing
-random_paper: 48
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Twilio Rate Limits

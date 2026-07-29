@@ -56,7 +56,7 @@ name: Unbound
 nav: Providers
 network: true
 overview: Unbound is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, DeFi, Liquidity, and Ethereum.
-random_paper: 70
+random_paper: 52
 score:
   band: minimal
   composite: 6.4

@@ -250,7 +250,7 @@ plans:
 - name: Istio Plans Pricing
   plan_count: 1
   slug: istio-plans-pricing
-random_paper: 13
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Istio Rate Limits

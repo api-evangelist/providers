@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Q1 2026 CNO Financial Group Inc Earnings Call
   url: https://s28.q4cdn.com/966891126/files/doc_financials/2026/q1/CNO-USQ_Transcript_2026-05-01.pdf
-random_paper: 52
+random_paper: 4
 score:
   band: minimal
   composite: 9.0

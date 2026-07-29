@@ -67,7 +67,7 @@ overview: 'Winden is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Winden''s developer surface includes pricing and 5 more developer resources.'
-random_paper: 29
+random_paper: 13
 score:
   band: emerging
   composite: 15.1

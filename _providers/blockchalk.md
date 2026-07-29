@@ -73,7 +73,7 @@ overview: 'BlockChalk publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   BlockChalk''s developer surface includes documentation, API reference, and 4 more developer resources.'
-random_paper: 37
+random_paper: 11
 score:
   band: emerging
   composite: 20.7

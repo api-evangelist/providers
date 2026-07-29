@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Health IT-enabled infrastructure helps reduce American ...
   url: https://healthit.gov/blog/electronic-health-and-medical-records/health-itenabled-infrastructure-helps-reduce-american-indian-alaska-natives-health-disparities/
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
   composite: 5.5

@@ -117,7 +117,7 @@ overview: 'CloudFront publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CloudFront''s developer surface includes authentication, documentation, pricing, and 7 more developer resources.'
-random_paper: 10
+random_paper: 61
 score:
   band: thin
   composite: 30.4

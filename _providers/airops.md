@@ -171,7 +171,7 @@ overview: 'AirOps publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   AirOps'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 38
+random_paper: 22
 scopes:
 - name: Airops Scopes
   scope_count: 4

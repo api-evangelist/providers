@@ -44,7 +44,7 @@ name: Modular Monolith
 nav: Providers
 network: true
 overview: Modular Monolith is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Software Architecture, Design Patterns, Modularity, and Monolithic Architecture.
-random_paper: 58
+random_paper: 16
 score:
   band: minimal
   composite: 5.4

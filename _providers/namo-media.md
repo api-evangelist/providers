@@ -39,7 +39,7 @@ name: Namo Media
 nav: Providers
 network: true
 overview: Namo Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 60
+random_paper: 36
 score:
   band: minimal
   composite: 4.1

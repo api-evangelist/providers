@@ -185,7 +185,7 @@ overview: 'Orbii publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Orbii''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 71
+random_paper: 59
 score:
   band: thin
   composite: 29.4

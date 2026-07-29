@@ -195,7 +195,7 @@ plans:
 - name: Clari Plans Pricing
   plan_count: 3
   slug: clari-plans-pricing
-random_paper: 61
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Clari Rate Limits

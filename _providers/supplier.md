@@ -108,7 +108,7 @@ overview: 'Supplier is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Supplier''s developer surface includes engineering blog, pricing, support, authentication, and 11 more developer resources.'
-random_paper: 37
+random_paper: 15
 scopes:
 - name: Supplier Scopes
   scope_count: 1

@@ -135,7 +135,7 @@ plans:
 - name: Pagarme Plans Pricing
   plan_count: 3
   slug: pagarme-plans-pricing
-random_paper: 40
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Pagarme Rate Limits

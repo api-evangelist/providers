@@ -63,7 +63,7 @@ overview: 'Esperion Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Esperion Therapeutics'' developer surface includes support and 4 more developer resources.'
-random_paper: 55
+random_paper: 78
 score:
   band: minimal
   composite: 11.2

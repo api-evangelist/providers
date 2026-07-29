@@ -126,7 +126,7 @@ plans:
 - name: Overture Maps Plans Pricing
   plan_count: 1
   slug: overture-maps-plans-pricing
-random_paper: 61
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Overture Maps Rate Limits

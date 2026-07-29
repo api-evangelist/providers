@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: 'Spotting Winners: Meritage Homes (NYSE:MTH) And ...'
   url: https://www.theglobeandmail.com/investing/markets/stocks/MTH/pressreleases/1951102/spotting-winners-meritage-homes-nysemth-and-home-builders-stocks-in-q1/
-random_paper: 45
+random_paper: 9
 score:
   band: minimal
   composite: 2.6

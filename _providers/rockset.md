@@ -44,7 +44,7 @@ name: Rockset
 nav: Providers
 network: true
 overview: Rockset is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Infrastructure.
-random_paper: 70
+random_paper: 52
 score:
   band: minimal
   composite: 4.1

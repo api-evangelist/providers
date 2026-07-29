@@ -116,7 +116,7 @@ plans:
 - name: Pulley Plans Pricing
   plan_count: 6
   slug: pulley-plans-pricing
-random_paper: 51
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Pulley Rate Limits

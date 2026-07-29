@@ -293,7 +293,7 @@ overview: 'Babylon.js publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Babylon.js'' developer surface includes developer portal, documentation, getting-started guide, changelog, release notes, engineering blog, YouTube channel, and 36 more developer resources.'
-random_paper: 8
+random_paper: 61
 score:
   band: emerging
   composite: 19.7

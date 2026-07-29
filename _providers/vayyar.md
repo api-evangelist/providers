@@ -115,7 +115,7 @@ overview: 'Vayyar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vayyar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 52
+random_paper: 36
 score:
   band: emerging
   composite: 26.4

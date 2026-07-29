@@ -87,7 +87,7 @@ overview: 'Remitly is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Remitly''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 4
+random_paper: 63
 score:
   band: emerging
   composite: 21.7

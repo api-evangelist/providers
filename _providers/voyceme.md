@@ -124,7 +124,7 @@ overview: 'VoyceMe publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   VoyceMe''s developer surface includes authentication, documentation, developer portal, engineering blog, support, and 13 more developer resources.'
-random_paper: 67
+random_paper: 49
 score:
   band: thin
   composite: 31.8

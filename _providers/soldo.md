@@ -313,7 +313,7 @@ overview: 'Soldo publishes 46 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Soldo''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, engineering blog, and 21 more developer resources.'
-random_paper: 6
+random_paper: 71
 scopes:
 - name: Soldo Scopes
   scope_count: 59

@@ -134,7 +134,7 @@ overview: 'Contrast Security publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Contrast Security''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 40
+random_paper: 73
 score:
   band: thin
   composite: 30.0

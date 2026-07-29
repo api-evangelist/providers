@@ -83,7 +83,7 @@ overview: 'Rallyware is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rallyware''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 55
+random_paper: 31
 score:
   band: emerging
   composite: 15.8

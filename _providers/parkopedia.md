@@ -80,7 +80,7 @@ plans:
 - name: Parkopedia Plans Pricing
   plan_count: 3
   slug: parkopedia-plans-pricing
-random_paper: 55
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Parkopedia Rate Limits

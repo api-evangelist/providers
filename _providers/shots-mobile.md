@@ -48,7 +48,7 @@ name: Shots Mobile
 nav: Providers
 network: true
 overview: Shots Mobile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Podcast, Content, and Mobile.
-random_paper: 6
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

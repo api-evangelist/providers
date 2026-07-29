@@ -213,7 +213,7 @@ overview: 'Bluecore publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bluecore''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 26 more developer resources.'
-random_paper: 2
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Bluecore Rate Limits

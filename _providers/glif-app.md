@@ -142,7 +142,7 @@ overview: 'Glif publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Glif''s developer surface includes developer portal, documentation, changelog, pricing, support, GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 14
+random_paper: 73
 score:
   band: emerging
   composite: 21.0

@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Manufacturer - 🔥Fueling Growth is almost here! Join Paul ...
   url: https://m.facebook.com/ManufacturerandBusinessAssociation/photos/fueling-growth-is-almost-herejoin-paul-rankin-of-united-refining-company-and-ste/1148620823948063/
-random_paper: 4
+random_paper: 43
 score:
   band: minimal
   composite: 10.3

@@ -71,7 +71,7 @@ overview: 'Bloxtel, Inc. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Bloxtel, Inc.''s developer surface includes getting-started guide, support, pricing, and 4 more developer resources.'
-random_paper: 43
+random_paper: 15
 score:
   band: emerging
   composite: 13.1

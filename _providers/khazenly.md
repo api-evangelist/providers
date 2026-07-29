@@ -48,7 +48,7 @@ name: Khazenly
 nav: Providers
 network: true
 overview: Khazenly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Fulfillment, Logistics, and Order Management.
-random_paper: 23
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

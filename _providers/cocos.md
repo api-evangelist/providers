@@ -83,7 +83,7 @@ overview: 'Cocos Capital is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Cocos Capital''s developer surface includes signup flow, support, and 8 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: emerging
   composite: 14.9

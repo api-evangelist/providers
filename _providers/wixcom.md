@@ -210,7 +210,7 @@ overview: 'Wix.com publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Wix.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 47
+random_paper: 31
 scopes:
 - name: Wixcom Scopes
   scope_count: 2

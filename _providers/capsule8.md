@@ -48,7 +48,7 @@ name: Capsule8
 nav: Providers
 network: true
 overview: Capsule8 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Linux Security, Runtime Security, and Container Security.
-random_paper: 35
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

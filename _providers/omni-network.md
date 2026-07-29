@@ -104,7 +104,7 @@ overview: 'Omni Network is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Omni Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 26
+random_paper: 73
 score:
   band: emerging
   composite: 18.3

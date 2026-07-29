@@ -122,7 +122,7 @@ plans:
 - name: Highlightly Plans Pricing
   plan_count: 4
   slug: highlightly-plans-pricing
-random_paper: 26
+random_paper: 75
 rate_limits:
 - limit_count: 7
   name: Highlightly Rate Limits

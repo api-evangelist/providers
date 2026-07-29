@@ -120,7 +120,7 @@ overview: 'Crafting, Inc. is profiled on the [APIs.io](https://apis.io/) network
 
 
   Crafting, Inc.''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, authentication, and 12 more developer resources.'
-random_paper: 50
+random_paper: 20
 score:
   band: emerging
   composite: 27.1

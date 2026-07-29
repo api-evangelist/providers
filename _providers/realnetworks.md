@@ -67,7 +67,7 @@ overview: 'RealNetworks is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   RealNetworks'' developer surface includes support and 5 more developer resources.'
-random_paper: 4
+random_paper: 49
 score:
   band: minimal
   composite: 12.1

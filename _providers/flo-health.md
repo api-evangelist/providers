@@ -76,7 +76,7 @@ name: Flo Health
 nav: Providers
 network: true
 overview: Flo Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Femtech, Women's Health, Reproductive Health, Period Tracker, and Cycle Tracking.
-random_paper: 72
+random_paper: 48
 score:
   band: minimal
   composite: 7.4

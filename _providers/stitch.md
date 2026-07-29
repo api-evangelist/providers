@@ -205,7 +205,7 @@ plans:
 - name: Stitch Plans Pricing
   plan_count: 3
   slug: stitch-plans-pricing
-random_paper: 39
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Stitch Rate Limits

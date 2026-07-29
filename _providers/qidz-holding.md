@@ -83,7 +83,7 @@ overview: 'QiDZ Holding is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   QiDZ Holding''s developer surface includes support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 71
+random_paper: 41
 score:
   band: emerging
   composite: 13.1

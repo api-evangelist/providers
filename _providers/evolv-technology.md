@@ -48,7 +48,7 @@ name: Evolv Technology
 nav: Providers
 network: true
 overview: Evolv Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Physical Security, Weapons Detection, and Screening.
-random_paper: 68
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

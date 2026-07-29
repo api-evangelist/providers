@@ -168,7 +168,7 @@ overview: 'Matrixport publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Matrixport''s developer surface includes documentation, API reference, changelog, authentication, and 17 more developer resources.'
-random_paper: 36
+random_paper: 8
 score:
   band: thin
   composite: 35.5

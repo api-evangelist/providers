@@ -200,7 +200,7 @@ overview: 'Pie Insurance publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Pie Insurance''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 22 more developer resources.'
-random_paper: 22
+random_paper: 67
 score:
   band: thin
   composite: 31.5

@@ -111,7 +111,7 @@ plans:
 - name: Actioniq Plans Pricing
   plan_count: 1
   slug: actioniq-plans-pricing
-random_paper: 9
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Actioniq Rate Limits

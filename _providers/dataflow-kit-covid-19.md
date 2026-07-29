@@ -56,7 +56,7 @@ name: Dataflow Kit COVID-19
 nav: Providers
 network: true
 overview: Dataflow Kit COVID-19 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 27
+random_paper: 56
 score:
   band: minimal
   composite: 6.0

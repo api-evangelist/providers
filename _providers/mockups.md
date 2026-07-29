@@ -44,7 +44,7 @@ name: Mockups
 nav: Providers
 network: true
 overview: Mockups is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mockups, Design, Prototyping, UI, and UX.
-random_paper: 0
+random_paper: 59
 score:
   band: minimal
   composite: 6.3

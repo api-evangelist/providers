@@ -92,7 +92,7 @@ overview: 'Countable is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Countable''s developer surface includes support, FAQ, and 10 more developer resources.'
-random_paper: 33
+random_paper: 9
 score:
   band: emerging
   composite: 16.3

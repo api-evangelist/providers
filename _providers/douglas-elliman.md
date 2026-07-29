@@ -128,7 +128,7 @@ overview: 'Douglas Elliman is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Douglas Elliman''s developer surface includes engineering blog and 20 more developer resources.'
-random_paper: 71
+random_paper: 33
 score:
   band: emerging
   composite: 16.4

@@ -131,7 +131,7 @@ overview: 'TAXO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TAXO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: thin
   composite: 41.8

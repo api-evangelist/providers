@@ -199,7 +199,7 @@ overview: 'Horizon3.ai publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Horizon3.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 28 more developer resources.'
-random_paper: 29
+random_paper: 3
 scopes:
 - name: Horizon3Ai Scopes
   scope_count: 2

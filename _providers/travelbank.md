@@ -103,7 +103,7 @@ overview: 'TravelBank is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TravelBank''s developer surface includes support, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 65
+random_paper: 39
 score:
   band: emerging
   composite: 22.9

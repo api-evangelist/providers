@@ -547,7 +547,7 @@ plans:
 - name: Mulesoft Plans Pricing
   plan_count: 4
   slug: mulesoft-plans-pricing
-random_paper: 32
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Mulesoft Rate Limits

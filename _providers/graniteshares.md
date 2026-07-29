@@ -88,7 +88,7 @@ overview: 'GraniteShares is profiled on the [APIs.io](https://apis.io/) network.
 
 
   GraniteShares'' developer surface includes support, FAQ, authentication, and 8 more developer resources.'
-random_paper: 6
+random_paper: 49
 score:
   band: emerging
   composite: 13.4

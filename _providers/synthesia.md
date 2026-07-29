@@ -134,7 +134,7 @@ plans:
 - name: Synthesia Plans Pricing
   plan_count: 1
   slug: synthesia-plans-pricing
-random_paper: 60
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Synthesia Rate Limits

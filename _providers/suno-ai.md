@@ -124,7 +124,7 @@ overview: 'Suno is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Suno''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 16 more developer resources.'
-random_paper: 7
+random_paper: 68
 score:
   band: emerging
   composite: 13.5

@@ -280,7 +280,7 @@ plans:
 - name: Bird Rides Plans Pricing
   plan_count: 4
   slug: bird-rides-plans-pricing
-random_paper: 73
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Bird Rides Rate Limits

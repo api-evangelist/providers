@@ -71,7 +71,7 @@ overview: 'Haz is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Haz''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 15
+random_paper: 7
 score:
   band: emerging
   composite: 14.3

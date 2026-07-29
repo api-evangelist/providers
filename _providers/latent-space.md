@@ -72,7 +72,7 @@ name: Latent Space
 nav: Providers
 network: true
 overview: Latent Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Machine Learning, and Predictive Analytics.
-random_paper: 62
+random_paper: 32
 score:
   band: minimal
   composite: 7.5

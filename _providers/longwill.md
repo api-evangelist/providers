@@ -48,7 +48,7 @@ name: longwill
 nav: Providers
 network: true
 overview: longwill is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Elder Care, Community Health, and Digital Health.
-random_paper: 25
+random_paper: 3
 score:
   band: minimal
   composite: 5.4

@@ -75,7 +75,7 @@ overview: 'Apparta is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Apparta''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 52
+random_paper: 34
 score:
   band: minimal
   composite: 10.6

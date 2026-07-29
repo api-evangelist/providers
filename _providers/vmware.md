@@ -993,7 +993,7 @@ plans:
 - name: Vmware Plans Pricing
   plan_count: 1
   slug: vmware-plans-pricing
-random_paper: 42
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Vmware Rate Limits

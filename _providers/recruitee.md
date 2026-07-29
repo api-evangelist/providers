@@ -109,7 +109,7 @@ overview: 'Recruitee publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Recruitee''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 44
+random_paper: 20
 score:
   band: emerging
   composite: 18.2

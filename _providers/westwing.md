@@ -52,7 +52,7 @@ name: Westwing
 nav: Providers
 network: true
 overview: Westwing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Home & Living, and Furniture.
-random_paper: 41
+random_paper: 19
 score:
   band: minimal
   composite: 6.9

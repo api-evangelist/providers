@@ -56,7 +56,7 @@ name: Upverter
 nav: Providers
 network: true
 overview: Upverter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Electronics, PCB Design, and EDA.
-random_paper: 46
+random_paper: 24
 score:
   band: minimal
   composite: 7.5

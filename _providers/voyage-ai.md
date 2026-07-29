@@ -115,7 +115,7 @@ plans:
 - name: Voyage Ai Plans Pricing
   plan_count: 1
   slug: voyage-ai-plans-pricing
-random_paper: 51
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Voyage Ai Rate Limits

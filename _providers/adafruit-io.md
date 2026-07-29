@@ -398,7 +398,7 @@ plans:
 - name: Adafruit Io Plans Pricing
   plan_count: 3
   slug: adafruit-io-plans-pricing
-random_paper: 31
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Adafruit Io Rate Limits

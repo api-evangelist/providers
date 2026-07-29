@@ -48,7 +48,7 @@ name: Bigger Games
 nav: Providers
 network: true
 overview: Bigger Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Games, Gaming, and Studio.
-random_paper: 39
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

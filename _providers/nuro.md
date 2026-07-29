@@ -103,7 +103,7 @@ overview: 'Nuro is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Nuro''s developer surface includes engineering blog, YouTube channel, and 13 more developer resources.'
-random_paper: 67
+random_paper: 57
 score:
   band: minimal
   composite: 5.4

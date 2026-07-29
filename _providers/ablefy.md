@@ -84,7 +84,7 @@ overview: 'ablefy publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   ablefy''s developer surface includes pricing, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 11
+random_paper: 74
 score:
   band: emerging
   composite: 15.7

@@ -120,7 +120,7 @@ plans:
 - name: Zoho Campaigns Plans Pricing
   plan_count: 5
   slug: zoho-campaigns-plans-pricing
-random_paper: 54
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Zoho Campaigns Rate Limits

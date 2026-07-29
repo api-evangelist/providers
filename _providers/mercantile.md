@@ -67,7 +67,7 @@ overview: 'Mercantile is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mercantile''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 59
+random_paper: 33
 score:
   band: minimal
   composite: 12.2

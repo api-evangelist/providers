@@ -56,7 +56,7 @@ name: GrünstromIndex
 nav: Providers
 network: true
 overview: GrünstromIndex publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 10
+random_paper: 51
 score:
   band: minimal
   composite: 5.7

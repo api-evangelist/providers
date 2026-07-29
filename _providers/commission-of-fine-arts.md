@@ -80,7 +80,7 @@ name: Commission of Fine Arts
 nav: Providers
 network: true
 overview: Commission of Fine Arts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Arts, Design Review, Federal Government, and Washington DC.
-random_paper: 64
+random_paper: 6
 score:
   band: minimal
   composite: 7.1

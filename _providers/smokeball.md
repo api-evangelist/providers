@@ -334,7 +334,7 @@ plans:
 - name: Smokeball Plans Pricing
   plan_count: 4
   slug: smokeball-plans-pricing
-random_paper: 30
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Smokeball Rate Limits

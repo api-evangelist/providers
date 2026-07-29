@@ -99,7 +99,7 @@ overview: 'Hosta a.i. is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hosta a.i.''s developer surface includes documentation, API reference, pricing, support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 20
+random_paper: 0
 score:
   band: emerging
   composite: 20.8

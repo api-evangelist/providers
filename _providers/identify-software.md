@@ -39,7 +39,7 @@ name: Identify Software
 nav: Providers
 network: true
 overview: Identify Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Application Performance Management, Software Testing, and IT Operations.
-random_paper: 9
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

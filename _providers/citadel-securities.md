@@ -48,7 +48,7 @@ name: Citadel Securities
 nav: Providers
 network: true
 overview: Citadel Securities is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Market Maker, and Electronic Trading.
-random_paper: 11
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

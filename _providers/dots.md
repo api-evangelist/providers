@@ -51,7 +51,7 @@ overview: 'Dots is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Dots'' developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 57
+random_paper: 47
 score:
   band: minimal
   composite: 5.4

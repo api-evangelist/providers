@@ -68,7 +68,7 @@ press:
 - date: ''
   title: 'GIII Investor Alert: G-III Apparel Group Securities Fraud ...'
   url: https://www.prnewswire.com/news-releases/giii-investor-alert-g-iii-apparel-group-securities-fraud-investigation
-random_paper: 3
+random_paper: 34
 score:
   band: minimal
   composite: 4.1

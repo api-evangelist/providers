@@ -44,7 +44,7 @@ name: Rarify
 nav: Providers
 network: true
 overview: Rarify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Crypto.
-random_paper: 37
+random_paper: 21
 score:
   band: minimal
   composite: 4.1

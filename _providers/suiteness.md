@@ -52,7 +52,7 @@ name: Suiteness
 nav: Providers
 network: true
 overview: Suiteness is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Hotels, and Booking.
-random_paper: 71
+random_paper: 47
 score:
   band: minimal
   composite: 7.1

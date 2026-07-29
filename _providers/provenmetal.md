@@ -75,7 +75,7 @@ overview: 'Provenmetal is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Provenmetal''s developer surface includes developer portal, signup flow, support, and 5 more developer resources.'
-random_paper: 42
+random_paper: 12
 score:
   band: minimal
   composite: 11.6

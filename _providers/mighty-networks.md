@@ -179,7 +179,7 @@ plans:
 - name: Mighty Networks Plans Pricing
   plan_count: 4
   slug: mighty-networks-plans-pricing
-random_paper: 56
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Mighty Networks Rate Limits

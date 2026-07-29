@@ -97,7 +97,7 @@ overview: 'OUTFRONT Media is profiled on the [APIs.io](https://apis.io/) network
 
 
   OUTFRONT Media''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 68
+random_paper: 32
 score:
   band: minimal
   composite: 9.7

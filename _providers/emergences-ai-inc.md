@@ -75,7 +75,7 @@ overview: 'EMERGENCES AI, INC. is profiled on the [APIs.io](https://apis.io/) ne
 
 
   EMERGENCES AI, INC.''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 43
+random_paper: 1
 score:
   band: minimal
   composite: 9.7

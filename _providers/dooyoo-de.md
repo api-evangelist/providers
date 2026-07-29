@@ -39,7 +39,7 @@ name: Dooyoo De
 nav: Providers
 network: true
 overview: Dooyoo De is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Price Comparison, Product Reviews, E-Commerce, and Consumer.
-random_paper: 64
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

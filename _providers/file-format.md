@@ -56,7 +56,7 @@ name: File Format
 nav: Providers
 network: true
 overview: File Format is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include File Format, File Formats, Media Types, MIME Types, and Encoding.
-random_paper: 32
+random_paper: 4
 score:
   band: minimal
   composite: 7.0

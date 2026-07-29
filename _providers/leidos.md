@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: LDOS - Leidos Holdings Stock Price, News & Analysis
   url: https://www.stocktitan.net/overview/LDOS/
-random_paper: 24
+random_paper: 8
 score:
   band: minimal
   composite: 6.1

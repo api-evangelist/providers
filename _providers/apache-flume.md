@@ -165,7 +165,7 @@ plans:
 - name: Apache Flume Plans Pricing
   plan_count: 3
   slug: apache-flume-plans-pricing
-random_paper: 37
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Apache Flume Rate Limits

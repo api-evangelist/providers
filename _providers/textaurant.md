@@ -44,7 +44,7 @@ name: Textaurant
 nav: Providers
 network: true
 overview: Textaurant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Hospitality, Waitlist, and Reservations.
-random_paper: 26
+random_paper: 77
 score:
   band: minimal
   composite: 4.3

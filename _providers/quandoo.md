@@ -764,7 +764,7 @@ plans:
 - name: Quandoo Plans Pricing
   plan_count: 3
   slug: quandoo-plans-pricing
-random_paper: 66
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Quandoo Rate Limits

@@ -98,7 +98,7 @@ plans:
 - name: Netflix Zuul Plans Pricing
   plan_count: 3
   slug: netflix-zuul-plans-pricing
-random_paper: 39
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Netflix Zuul Rate Limits

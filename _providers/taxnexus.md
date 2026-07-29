@@ -100,7 +100,7 @@ plans:
 - name: Taxnexus Plans Pricing
   plan_count: 3
   slug: taxnexus-plans-pricing
-random_paper: 49
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Taxnexus Rate Limits

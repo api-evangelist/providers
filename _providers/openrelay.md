@@ -233,7 +233,7 @@ overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   OpenRelay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
-random_paper: 51
+random_paper: 27
 score:
   band: strong
   composite: 57.6

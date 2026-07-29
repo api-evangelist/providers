@@ -64,7 +64,7 @@ name: Color Health
 nav: Providers
 network: true
 overview: Color Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health, Genomics, Genetic Testing, Precision Health, and Population Health.
-random_paper: 55
+random_paper: 19
 score:
   band: minimal
   composite: 8.2

@@ -91,7 +91,7 @@ overview: 'KupiVIP is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   KupiVIP''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 6
+random_paper: 65
 score:
   band: emerging
   composite: 15.0

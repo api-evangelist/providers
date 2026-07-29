@@ -39,7 +39,7 @@ name: Tomfoolery
 nav: Providers
 network: true
 overview: Tomfoolery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Collaboration, Messaging, and Mobile.
-random_paper: 26
+random_paper: 77
 score:
   band: minimal
   composite: 4.3

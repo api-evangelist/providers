@@ -196,7 +196,7 @@ plans:
 - name: Hildebrand Plans
   plan_count: 3
   slug: hildebrand-plans
-random_paper: 36
+random_paper: 10
 score:
   band: developing
   composite: 48.3

@@ -75,7 +75,7 @@ overview: 'Convoke is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Convoke''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: minimal
   composite: 8.3

@@ -87,7 +87,7 @@ overview: 'Braavos is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Braavos'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 57
+random_paper: 39
 score:
   band: minimal
   composite: 11.7

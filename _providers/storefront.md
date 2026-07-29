@@ -83,7 +83,7 @@ overview: 'Storefront is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Storefront''s developer surface includes getting-started guide, engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 32
+random_paper: 4
 score:
   band: emerging
   composite: 15.3

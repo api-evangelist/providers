@@ -71,7 +71,7 @@ overview: 'Sano is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Sano''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: minimal
   composite: 12.5

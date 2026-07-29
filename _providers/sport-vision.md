@@ -56,7 +56,7 @@ name: Sport Vision
 nav: Providers
 network: true
 overview: Sport Vision publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 45
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

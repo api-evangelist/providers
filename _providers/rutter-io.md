@@ -120,7 +120,7 @@ plans:
 - name: Rutter Io Plans Pricing
   plan_count: 3
   slug: rutter-io-plans-pricing
-random_paper: 15
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Rutter Io Rate Limits

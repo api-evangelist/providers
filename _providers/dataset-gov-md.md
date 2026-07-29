@@ -63,7 +63,7 @@ overview: 'dataset.gov.md (Portalul Datelor Deschise) publishes 1 API on the [AP
 
 
   dataset.gov.md (Portalul Datelor Deschise)''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 64
+random_paper: 30
 score:
   band: minimal
   composite: 9.0

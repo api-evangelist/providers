@@ -112,7 +112,7 @@ plans:
 - name: Unsw Sydney Plans Pricing
   plan_count: 2
   slug: unsw-sydney-plans-pricing
-random_paper: 19
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Unsw Sydney Rate Limits

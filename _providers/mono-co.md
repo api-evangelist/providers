@@ -127,7 +127,7 @@ plans:
 - name: Mono Co Plans Pricing
   plan_count: 4
   slug: mono-co-plans-pricing
-random_paper: 3
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Mono Co Rate Limits

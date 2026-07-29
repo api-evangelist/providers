@@ -52,7 +52,7 @@ name: M&T Bank
 nav: Providers
 network: true
 overview: M&T Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Commercial Banking, Retail Banking, and Fortune 500.
-random_paper: 1
+random_paper: 52
 score:
   band: minimal
   composite: 5.4

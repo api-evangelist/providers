@@ -585,7 +585,7 @@ plans:
 - name: Workday Recruiting Plans Pricing
   plan_count: 3
   slug: workday-recruiting-plans-pricing
-random_paper: 50
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Workday Recruiting Rate Limits

@@ -48,7 +48,7 @@ name: Spitfire Athlete
 nav: Providers
 network: true
 overview: Spitfire Athlete is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 41
+random_paper: 78
 score:
   band: minimal
   composite: 3.2

@@ -315,7 +315,7 @@ plans:
 - name: Practicepanther Plans Pricing
   plan_count: 4
   slug: practicepanther-plans-pricing
-random_paper: 57
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Practicepanther Rate Limits

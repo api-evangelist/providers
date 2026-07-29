@@ -75,7 +75,7 @@ overview: 'TaleMonster Games is profiled on the [APIs.io](https://apis.io/) netw
 
 
   TaleMonster Games'' developer surface includes support and 7 more developer resources.'
-random_paper: 74
+random_paper: 30
 score:
   band: minimal
   composite: 10.1

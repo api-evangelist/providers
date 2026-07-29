@@ -79,7 +79,7 @@ overview: 'Ophelia Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Ophelia Health''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 27
+random_paper: 70
 score:
   band: emerging
   composite: 15.6

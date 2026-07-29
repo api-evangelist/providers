@@ -155,7 +155,7 @@ overview: 'Contently publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Contently''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 68
+random_paper: 44
 score:
   band: developing
   composite: 50.1

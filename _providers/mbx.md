@@ -44,7 +44,7 @@ name: MBX
 nav: Providers
 network: true
 overview: MBX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Personal Care, Cosmetics, and Consumer Packaged Goods.
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

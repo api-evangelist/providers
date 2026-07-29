@@ -95,7 +95,7 @@ overview: 'USPS publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   USPS''s developer surface includes documentation, getting-started guide, signup flow, GitHub presence, engineering blog, and 3 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: emerging
   composite: 23.2

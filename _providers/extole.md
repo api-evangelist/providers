@@ -319,7 +319,7 @@ overview: 'Extole publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Extole''s developer surface includes documentation, API reference, engineering blog, authentication, CLI, changelog, and 25 more developer resources.'
-random_paper: 41
+random_paper: 25
 rules:
 - name: Extole API Rules
   rule_count: 8

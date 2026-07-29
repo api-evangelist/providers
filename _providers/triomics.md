@@ -83,7 +83,7 @@ overview: 'Triomics is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Triomics'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 27
+random_paper: 5
 score:
   band: minimal
   composite: 12.4

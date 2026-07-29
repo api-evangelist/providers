@@ -67,7 +67,7 @@ overview: 'TVbeat is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   TVbeat''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 30
+random_paper: 14
 score:
   band: minimal
   composite: 11.6

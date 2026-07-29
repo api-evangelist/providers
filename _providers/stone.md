@@ -121,7 +121,7 @@ plans:
 - name: Stone Plans Pricing
   plan_count: 3
   slug: stone-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Stone Rate Limits

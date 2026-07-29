@@ -91,7 +91,7 @@ overview: 'Habu is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Habu''s developer surface includes documentation, engineering blog, pricing, support, and 8 more developer resources.'
-random_paper: 31
+random_paper: 21
 score:
   band: emerging
   composite: 16.8

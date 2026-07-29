@@ -69,7 +69,7 @@ plans:
 - name: National Institute Of Arthritis And Musculoskeletal And Skin Diseases Niams  Plans Pricing
   plan_count: 3
   slug: national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams--plans-pricing
-random_paper: 23
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: National Institute Of Arthritis And Musculoskeletal And Skin Diseases Niams  Rate Limits

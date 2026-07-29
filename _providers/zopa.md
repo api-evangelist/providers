@@ -204,7 +204,7 @@ overview: 'zopa publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   zopa''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 23 more developer resources.'
-random_paper: 57
+random_paper: 47
 scopes:
 - name: Zopa Scopes
   scope_count: 2

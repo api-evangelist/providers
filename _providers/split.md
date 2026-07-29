@@ -458,7 +458,7 @@ plans:
 - name: Split Plans Pricing
   plan_count: 3
   slug: split-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Split Rate Limits

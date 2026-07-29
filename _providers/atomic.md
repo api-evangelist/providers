@@ -91,7 +91,7 @@ overview: 'Atomic is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Atomic''s developer surface includes documentation, support, engineering blog, and 9 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: emerging
   composite: 20.0

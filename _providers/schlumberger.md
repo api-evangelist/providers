@@ -73,7 +73,7 @@ plans:
 - name: Schlumberger Plans Pricing
   plan_count: 1
   slug: schlumberger-plans-pricing
-random_paper: 51
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Schlumberger Rate Limits

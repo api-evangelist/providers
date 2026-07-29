@@ -87,7 +87,7 @@ overview: 'Electric is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Electric''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: emerging
   composite: 18.0

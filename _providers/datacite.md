@@ -189,7 +189,7 @@ plans:
 - name: Datacite Plans Pricing
   plan_count: 6
   slug: datacite-plans-pricing
-random_paper: 61
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Datacite Rate Limits

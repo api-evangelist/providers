@@ -52,7 +52,7 @@ name: Rfmd
 nav: Providers
 network: true
 overview: Rfmd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, RF, Radio Frequency, and Hardware.
-random_paper: 40
+random_paper: 30
 score:
   band: minimal
   composite: 6.7

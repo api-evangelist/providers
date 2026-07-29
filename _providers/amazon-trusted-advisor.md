@@ -197,7 +197,7 @@ plans:
 - name: Amazon Trusted Advisor Plans Pricing
   plan_count: 3
   slug: amazon-trusted-advisor-plans-pricing
-random_paper: 42
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Amazon Trusted Advisor Rate Limits

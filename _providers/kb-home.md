@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: KB HOME
   url: https://s21.q4cdn.com/462588783/files/doc_financials/2024/q4/2025-10K-KB-Home.pdf
-random_paper: 59
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

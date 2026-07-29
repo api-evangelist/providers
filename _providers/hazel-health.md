@@ -83,7 +83,7 @@ overview: 'Hazel Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Hazel Health''s developer surface includes signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 52
+random_paper: 22
 score:
   band: emerging
   composite: 13.8

@@ -236,7 +236,7 @@ plans:
 - name: Arkham Plans
   plan_count: 4
   slug: arkham-plans
-random_paper: 12
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Arkham Rate Limits

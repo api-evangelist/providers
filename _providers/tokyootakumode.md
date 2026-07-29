@@ -64,7 +64,7 @@ name: TokyoOtakuMode
 nav: Providers
 network: true
 overview: TokyoOtakuMode is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Anime, Manga, Merchandise, and E-Commerce.
-random_paper: 72
+random_paper: 34
 score:
   band: minimal
   composite: 8.6

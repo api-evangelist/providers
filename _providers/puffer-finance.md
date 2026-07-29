@@ -99,7 +99,7 @@ overview: 'Puffer Finance is profiled on the [APIs.io](https://apis.io/) network
 
 
   Puffer Finance''s developer surface includes documentation, engineering blog, signup flow, support, CLI, and 9 more developer resources.'
-random_paper: 31
+random_paper: 74
 score:
   band: emerging
   composite: 20.7

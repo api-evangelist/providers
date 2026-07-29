@@ -65,7 +65,7 @@ plans:
 - name: Wns Holdings Plans Pricing
   plan_count: 1
   slug: wns-holdings-plans-pricing
-random_paper: 13
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Wns Holdings Rate Limits

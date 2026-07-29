@@ -181,7 +181,7 @@ overview: 'Freight Waves publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Freight Waves'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 22 more developer resources.'
-random_paper: 31
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Freight Waves Rate Limits

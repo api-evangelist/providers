@@ -305,7 +305,7 @@ plans:
 - name: Vesselfinder Plans Pricing
   plan_count: 10
   slug: vesselfinder-plans-pricing
-random_paper: 58
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Vesselfinder Rate Limits

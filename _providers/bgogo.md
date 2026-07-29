@@ -48,7 +48,7 @@ name: Bgogo
 nav: Providers
 network: true
 overview: Bgogo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Crypto.
-random_paper: 64
+random_paper: 52
 score:
   band: minimal
   composite: 4.1

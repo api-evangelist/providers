@@ -114,7 +114,7 @@ plans:
 - name: Smtp Plans Pricing
   plan_count: 3
   slug: smtp-plans-pricing
-random_paper: 67
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Smtp Rate Limits

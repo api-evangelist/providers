@@ -184,7 +184,7 @@ overview: 'Lightbend is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lightbend''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
-random_paper: 21
+random_paper: 76
 score:
   band: thin
   composite: 41.6

@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Cinemark Announces Greater Movie Theater Accessibility
   url: https://afb.org/blog/entry/cinemark-announces-greater-movie-theater-accessibility
-random_paper: 49
+random_paper: 5
 score:
   band: minimal
   composite: 10.1

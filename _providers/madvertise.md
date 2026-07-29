@@ -127,7 +127,7 @@ overview: 'Madvertise publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Madvertise''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 14 more developer resources.'
-random_paper: 75
+random_paper: 49
 score:
   band: emerging
   composite: 23.6

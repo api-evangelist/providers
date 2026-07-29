@@ -182,7 +182,7 @@ overview: 'Shiftmove publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shiftmove''s developer surface includes documentation, API reference, support, signup flow, authentication, changelog, and 18 more developer resources.'
-random_paper: 57
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Shiftmove Rate Limits

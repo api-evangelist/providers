@@ -59,7 +59,7 @@ overview: 'Safe Superintelligence is profiled on the [APIs.io](https://apis.io/)
 
 
   Safe Superintelligence''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 53
+random_paper: 74
 score:
   band: minimal
   composite: 6.3

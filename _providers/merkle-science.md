@@ -152,7 +152,7 @@ overview: 'Merkle Science publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Merkle Science''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, sandbox, and 18 more developer resources.'
-random_paper: 29
+random_paper: 72
 score:
   band: developing
   composite: 49.6

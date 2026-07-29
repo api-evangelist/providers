@@ -339,7 +339,7 @@ overview: 'Weavr publishes 43 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 29 more developer resources.'
-random_paper: 10
+random_paper: 75
 score:
   band: strong
   composite: 61.0

@@ -99,7 +99,7 @@ overview: 'Comulate is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Comulate''s developer surface includes support and 13 more developer resources.'
-random_paper: 11
+random_paper: 68
 score:
   band: emerging
   composite: 25.1

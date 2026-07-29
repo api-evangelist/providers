@@ -201,7 +201,7 @@ plans:
 - name: Surge Ai Plans Pricing
   plan_count: 1
   slug: surge-ai-plans-pricing
-random_paper: 27
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Surge Ai Rate Limits

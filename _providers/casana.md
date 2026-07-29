@@ -71,7 +71,7 @@ overview: 'Casana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Casana''s developer surface includes support, pricing, and 5 more developer resources.'
-random_paper: 76
+random_paper: 62
 score:
   band: emerging
   composite: 14.1

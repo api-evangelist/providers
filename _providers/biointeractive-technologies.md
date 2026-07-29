@@ -67,7 +67,7 @@ overview: 'BioInteractive Technologies is profiled on the [APIs.io](https://apis
 
 
   BioInteractive Technologies'' developer surface includes support and 5 more developer resources.'
-random_paper: 53
+random_paper: 60
 score:
   band: minimal
   composite: 11.8

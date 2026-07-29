@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Six Sigma
 nav: Providers
 network: true
-random_paper: 67
+random_paper: 45
 slug: six-sigma
 tags:
 - Quality Management

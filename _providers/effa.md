@@ -48,7 +48,7 @@ name: Effa
 nav: Providers
 network: true
 overview: Effa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Goods, Sustainability, Personal Care, and Hospitality.
-random_paper: 17
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

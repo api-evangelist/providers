@@ -55,7 +55,7 @@ overview: 'Golden Ventures is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Golden Ventures'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 30
+random_paper: 69
 score:
   band: minimal
   composite: 5.4

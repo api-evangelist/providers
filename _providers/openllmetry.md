@@ -106,7 +106,7 @@ overview: 'OpenLLMetry publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OpenLLMetry''s developer surface includes documentation, engineering blog, getting-started guide, and 8 more developer resources.'
-random_paper: 56
+random_paper: 26
 score:
   band: minimal
   composite: 10.8

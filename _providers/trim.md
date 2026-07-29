@@ -79,7 +79,7 @@ overview: 'Trim is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Trim''s developer surface includes support, signup flow, and 7 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: emerging
   composite: 15.2

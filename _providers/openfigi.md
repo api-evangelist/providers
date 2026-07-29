@@ -118,7 +118,7 @@ plans:
 - name: Openfigi Plans Pricing
   plan_count: 3
   slug: openfigi-plans-pricing
-random_paper: 2
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Openfigi Rate Limits

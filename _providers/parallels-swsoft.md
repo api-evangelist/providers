@@ -144,7 +144,7 @@ overview: 'Parallels (SWSoft) publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Parallels (SWSoft)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 66
+random_paper: 24
 score:
   band: thin
   composite: 29.8

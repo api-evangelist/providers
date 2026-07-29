@@ -520,7 +520,7 @@ plans:
 - name: Speakeasy Plans Pricing
   plan_count: 5
   slug: speakeasy-plans-pricing
-random_paper: 42
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Speakeasy Rate Limits

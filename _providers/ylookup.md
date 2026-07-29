@@ -83,7 +83,7 @@ overview: 'Ylookup is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ylookup''s developer surface includes support and 9 more developer resources.'
-random_paper: 17
+random_paper: 76
 score:
   band: emerging
   composite: 16.1

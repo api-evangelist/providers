@@ -63,7 +63,7 @@ overview: 'Ritual is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ritual''s developer surface includes support and 4 more developer resources.'
-random_paper: 41
+random_paper: 25
 score:
   band: minimal
   composite: 11.2

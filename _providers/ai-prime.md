@@ -55,7 +55,7 @@ overview: 'AI-Prime (Paidao Intelligence) is profiled on the [APIs.io](https://a
 
 
   AI-Prime (Paidao Intelligence)''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 18
+random_paper: 77
 score:
   band: minimal
   composite: 5.4

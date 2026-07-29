@@ -48,7 +48,7 @@ name: Blue Bottle Coffee *
 nav: Providers
 network: true
 overview: Blue Bottle Coffee * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Coffee, Retail, and E-Commerce.
-random_paper: 9
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

@@ -77,7 +77,7 @@ plans:
 - name: Boardable Plans Pricing
   plan_count: 4
   slug: boardable-plans-pricing
-random_paper: 0
+random_paper: 55
 score:
   band: emerging
   composite: 14.6

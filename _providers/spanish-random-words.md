@@ -56,7 +56,7 @@ name: Spanish random words
 nav: Providers
 network: true
 overview: Spanish random words publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Test Data and Public APIs.
-random_paper: 46
+random_paper: 73
 score:
   band: minimal
   composite: 5.7

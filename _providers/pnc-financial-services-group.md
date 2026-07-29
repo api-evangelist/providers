@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: 'PNC Financial Services'' AI Strategy: Analysis of ...'
   url: https://www.klover.ai/pnc-financial-services-ai-strategy-analysis-of-dominance-in-bank-holding-financial-services-ai/
-random_paper: 42
+random_paper: 49
 score:
   band: minimal
   composite: 6.0

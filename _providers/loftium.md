@@ -44,7 +44,7 @@ name: Loftium
 nav: Providers
 network: true
 overview: Loftium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Down Payment, and Home Buying.
-random_paper: 75
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

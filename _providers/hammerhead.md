@@ -107,7 +107,7 @@ overview: 'Hammerhead is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hammerhead''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, changelog, and 11 more developer resources.'
-random_paper: 35
+random_paper: 9
 score:
   band: emerging
   composite: 24.7

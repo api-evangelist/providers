@@ -477,7 +477,7 @@ plans:
 - name: Blockfrost Plans Pricing
   plan_count: 3
   slug: blockfrost-plans-pricing
-random_paper: 3
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Blockfrost Rate Limits

@@ -125,7 +125,7 @@ plans:
 - name: Palantir Plans Pricing
   plan_count: 3
   slug: palantir-plans-pricing
-random_paper: 12
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Palantir Rate Limits

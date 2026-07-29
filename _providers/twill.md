@@ -87,7 +87,7 @@ overview: 'Twill is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Twill''s developer surface includes signup flow, pricing, and 9 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: emerging
   composite: 15.8

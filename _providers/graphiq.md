@@ -52,7 +52,7 @@ name: Graphiq
 nav: Providers
 network: true
 overview: Graphiq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Graphic Design, Creative Services, Design Subscription, and Marketing.
-random_paper: 55
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

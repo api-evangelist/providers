@@ -67,7 +67,7 @@ overview: 'Karma Science is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Karma Science''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 67
+random_paper: 35
 score:
   band: minimal
   composite: 10.5

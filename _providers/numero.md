@@ -71,7 +71,7 @@ overview: 'Numero is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Numero''s developer surface includes engineering blog, pricing, and 5 more developer resources.'
-random_paper: 46
+random_paper: 30
 score:
   band: emerging
   composite: 14.4

@@ -102,7 +102,7 @@ plans:
 - name: Princess Beef Heavy Industries Plans Pricing
   plan_count: 3
   slug: princess-beef-heavy-industries-plans-pricing
-random_paper: 44
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Princess Beef Heavy Industries Rate Limits

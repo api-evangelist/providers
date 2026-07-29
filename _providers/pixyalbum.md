@@ -67,7 +67,7 @@ overview: 'Pixyalbum is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pixyalbum''s developer surface includes support and 5 more developer resources.'
-random_paper: 63
+random_paper: 39
 score:
   band: minimal
   composite: 12.7

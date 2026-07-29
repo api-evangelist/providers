@@ -67,7 +67,7 @@ overview: 'Ballet is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ballet''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 12
+random_paper: 75
 score:
   band: minimal
   composite: 12.1

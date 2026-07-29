@@ -144,7 +144,7 @@ plans:
 - name: Speclynx Plans Pricing
   plan_count: 3
   slug: speclynx-plans-pricing
-random_paper: 39
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Speclynx Rate Limits

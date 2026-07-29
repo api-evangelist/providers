@@ -48,7 +48,7 @@ name: Identify3D
 nav: Providers
 network: true
 overview: Identify3D is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Additive Manufacturing, 3D Printing, Digital Manufacturing, and Supply Chain Security.
-random_paper: 10
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

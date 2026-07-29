@@ -48,7 +48,7 @@ name: Covestor
 nav: Providers
 network: true
 overview: Covestor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Wealth Management, and Brokerage.
-random_paper: 38
+random_paper: 16
 score:
   band: minimal
   composite: 5.8

@@ -39,7 +39,7 @@ name: Kosmix
 nav: Providers
 network: true
 overview: Kosmix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Search, Discovery, Topic Pages, and Content Aggregation.
-random_paper: 51
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

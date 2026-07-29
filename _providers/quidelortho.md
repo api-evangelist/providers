@@ -71,7 +71,7 @@ overview: 'QuidelOrtho is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   QuidelOrtho''s developer surface includes documentation, developer portal, engineering blog, and 4 more developer resources.'
-random_paper: 45
+random_paper: 15
 score:
   band: minimal
   composite: 8.8

@@ -72,7 +72,7 @@ name: Vetted (FKA Lustre)
 nav: Providers
 network: true
 overview: Vetted (FKA Lustre) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Shopping, E-commerce, and Consumer.
-random_paper: 25
+random_paper: 60
 score:
   band: minimal
   composite: 9.2

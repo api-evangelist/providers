@@ -77,7 +77,7 @@ plans:
 - name: Rover Plans Pricing
   plan_count: 5
   slug: rover-plans-pricing
-random_paper: 19
+random_paper: 5
 score:
   band: emerging
   composite: 13.3

@@ -52,7 +52,7 @@ name: Sticky
 nav: Providers
 network: true
 overview: Sticky is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Eye Tracking, Market Research, and Biometrics.
-random_paper: 47
+random_paper: 31
 score:
   band: minimal
   composite: 6.9

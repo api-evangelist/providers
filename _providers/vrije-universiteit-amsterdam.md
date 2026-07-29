@@ -228,7 +228,7 @@ plans:
 - name: Vrije Universiteit Amsterdam Plans Pricing
   plan_count: 2
   slug: vrije-universiteit-amsterdam-plans-pricing
-random_paper: 66
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Vrije Universiteit Amsterdam Rate Limits

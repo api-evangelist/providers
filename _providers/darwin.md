@@ -72,7 +72,7 @@ overview: 'Darwin is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Darwin''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 29
+random_paper: 13
 score:
   band: minimal
   composite: 12.8

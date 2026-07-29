@@ -171,7 +171,7 @@ overview: 'Column Tax publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Column Tax''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, support, engineering blog, and 21 more developer resources.'
-random_paper: 31
+random_paper: 5
 score:
   band: developing
   composite: 45.3

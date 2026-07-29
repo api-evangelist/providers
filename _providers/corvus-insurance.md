@@ -71,7 +71,7 @@ overview: 'Corvus Insurance is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Corvus Insurance''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 70
+random_paper: 28
 score:
   band: emerging
   composite: 14.3

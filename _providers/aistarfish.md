@@ -48,7 +48,7 @@ name: aistarfish
 nav: Providers
 network: true
 overview: aistarfish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Oncology, and Patient Management.
-random_paper: 69
+random_paper: 43
 score:
   band: minimal
   composite: 5.4

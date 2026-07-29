@@ -267,7 +267,7 @@ overview: 'Pinch Payments publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Pinch Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 31 more developer resources.'
-random_paper: 70
+random_paper: 34
 scopes:
 - name: Pinch Payments Scopes
   scope_count: 1

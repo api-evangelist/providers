@@ -201,7 +201,7 @@ overview: 'EdfaPay, Inc. publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   EdfaPay, Inc.''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 11
+random_paper: 62
 score:
   band: developing
   composite: 55.8

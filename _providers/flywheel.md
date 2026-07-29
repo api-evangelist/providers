@@ -148,7 +148,7 @@ overview: 'Flywheel publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Flywheel''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, support, and 18 more developer resources.'
-random_paper: 17
+random_paper: 74
 score:
   band: thin
   composite: 34.8

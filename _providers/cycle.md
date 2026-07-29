@@ -79,7 +79,7 @@ overview: 'Cycle is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Cycle''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 66
+random_paper: 54
 score:
   band: minimal
   composite: 10.5

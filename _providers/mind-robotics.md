@@ -52,7 +52,7 @@ name: Mind Robotics
 nav: Providers
 network: true
 overview: Mind Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Robotics, Industrial Automation, and Artificial Intelligence.
-random_paper: 29
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

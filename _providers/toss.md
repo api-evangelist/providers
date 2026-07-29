@@ -117,7 +117,7 @@ plans:
 - name: Toss Plans Pricing
   plan_count: 3
   slug: toss-plans-pricing
-random_paper: 72
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Toss Rate Limits

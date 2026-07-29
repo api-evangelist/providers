@@ -140,7 +140,7 @@ overview: 'Power2SME publishes 17 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Power2SME''s developer surface includes documentation, API reference, authentication, and 7 more developer resources.'
-random_paper: 8
+random_paper: 63
 score:
   band: thin
   composite: 28.9

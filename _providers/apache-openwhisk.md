@@ -316,7 +316,7 @@ plans:
 - name: Apache Openwhisk Plans Pricing
   plan_count: 3
   slug: apache-openwhisk-plans-pricing
-random_paper: 22
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Apache Openwhisk Rate Limits

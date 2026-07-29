@@ -63,7 +63,7 @@ overview: 'Pingo AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pingo AI''s developer surface includes support and 4 more developer resources.'
-random_paper: 2
+random_paper: 67
 score:
   band: minimal
   composite: 10.1

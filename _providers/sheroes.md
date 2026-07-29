@@ -48,7 +48,7 @@ name: Sheroes
 nav: Providers
 network: true
 overview: Sheroes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Community, Social Network, Women, and India.
-random_paper: 68
+random_paper: 50
 score:
   band: minimal
   composite: 5.0

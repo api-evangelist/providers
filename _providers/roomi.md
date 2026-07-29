@@ -67,7 +67,7 @@ overview: 'Roomi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Roomi''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 11
+random_paper: 76
 score:
   band: minimal
   composite: 10.5

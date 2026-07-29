@@ -114,7 +114,7 @@ plans:
 - name: Unrealspeech Plans Pricing
   plan_count: 6
   slug: unrealspeech-plans-pricing
-random_paper: 47
+random_paper: 15
 rate_limits:
 - limit_count: 7
   name: Unrealspeech Rate Limits

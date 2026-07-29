@@ -375,7 +375,7 @@ plans:
 - name: Tray Ai Plans Pricing
   plan_count: 3
   slug: tray-ai-plans-pricing
-random_paper: 2
+random_paper: 63
 rate_limits:
 - limit_count: 7
   name: Tray Ai Rate Limits

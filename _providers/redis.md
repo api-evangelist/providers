@@ -197,7 +197,7 @@ plans:
 - name: Redis Plans Pricing
   plan_count: 4
   slug: redis-plans-pricing
-random_paper: 73
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Redis Rate Limits

@@ -75,7 +75,7 @@ overview: 'Crux OCM is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Crux OCM''s developer surface includes support and 7 more developer resources.'
-random_paper: 44
+random_paper: 24
 score:
   band: emerging
   composite: 15.8

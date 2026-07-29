@@ -140,7 +140,7 @@ overview: 'Argmax publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Argmax''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, changelog, sandbox, and 16 more developer resources.'
-random_paper: 24
+random_paper: 8
 score:
   band: thin
   composite: 33.4

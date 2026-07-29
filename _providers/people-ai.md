@@ -79,7 +79,7 @@ overview: 'People Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   People Ai''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 45
+random_paper: 23
 score:
   band: emerging
   composite: 16.3

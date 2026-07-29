@@ -129,7 +129,7 @@ overview: 'Ecwid by Lightspeed publishes 6 APIs on the [APIs.io](https://apis.io
 
 
   Ecwid by Lightspeed''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 62
+random_paper: 50
 score:
   band: thin
   composite: 31.3

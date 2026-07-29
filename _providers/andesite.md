@@ -91,7 +91,7 @@ overview: 'Andesite is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Andesite''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 75
+random_paper: 55
 score:
   band: emerging
   composite: 17.0

@@ -72,7 +72,7 @@ plans:
 - name: Mayo Clinic Plans Pricing
   plan_count: 3
   slug: mayo-clinic-plans-pricing
-random_paper: 31
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Mayo Clinic Rate Limits

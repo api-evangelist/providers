@@ -56,7 +56,7 @@ name: Patina
 nav: Providers
 network: true
 overview: Patina is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Primary Care, Senior Care, and Telehealth.
-random_paper: 21
+random_paper: 5
 score:
   band: minimal
   composite: 5.4

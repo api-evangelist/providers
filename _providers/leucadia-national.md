@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Uncategorized Archives - Page 2 of 2
   url: https://leucadia-am.com/category/uncategorized/page/2/
-random_paper: 29
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

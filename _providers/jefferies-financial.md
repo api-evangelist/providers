@@ -95,7 +95,7 @@ overview: 'Jefferies Financial Group is profiled on the [APIs.io](https://apis.i
 
 
   Jefferies Financial Group''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 0
+random_paper: 29
 score:
   band: minimal
   composite: 11.7

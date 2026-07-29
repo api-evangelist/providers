@@ -274,7 +274,7 @@ overview: 'The Trade Desk publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   The Trade Desk''s developer surface includes developer portal, getting-started guide, authentication, engineering blog, and 13 more developer resources.'
-random_paper: 53
+random_paper: 19
 rules:
 - name: The Trade Desk API Rules
   rule_count: 5

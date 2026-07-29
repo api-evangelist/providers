@@ -71,7 +71,7 @@ overview: 'Granata Bio is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Granata Bio''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 15
+random_paper: 66
 score:
   band: minimal
   composite: 9.0

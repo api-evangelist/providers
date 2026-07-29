@@ -154,7 +154,7 @@ overview: 'Butlr Technologies publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Butlr Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 34
+random_paper: 65
 score:
   band: developing
   composite: 45.0

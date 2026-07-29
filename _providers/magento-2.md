@@ -124,7 +124,7 @@ overview: 'Magento 2 (Adobe Commerce) publishes 6 APIs on the [APIs.io](https://
 
 
   Magento 2 (Adobe Commerce)''s developer surface includes authentication, documentation, GitHub presence, pricing, signup flow, and 5 more developer resources.'
-random_paper: 72
+random_paper: 52
 score:
   band: emerging
   composite: 26.4

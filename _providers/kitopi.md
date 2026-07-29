@@ -160,7 +160,7 @@ overview: 'Kitopi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kitopi''s developer surface includes documentation, engineering blog, support, authentication, and 23 more developer resources.'
-random_paper: 40
+random_paper: 24
 score:
   band: emerging
   composite: 21.7

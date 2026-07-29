@@ -56,7 +56,7 @@ name: SoLo Funds
 nav: Providers
 network: true
 overview: SoLo Funds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Lending, and Peer-to-Peer.
-random_paper: 33
+random_paper: 7
 score:
   band: minimal
   composite: 8.2

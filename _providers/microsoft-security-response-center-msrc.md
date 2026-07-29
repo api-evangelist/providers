@@ -60,7 +60,7 @@ name: Microsoft Security Response Center (MSRC)
 nav: Providers
 network: true
 overview: Microsoft Security Response Center (MSRC) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 3
+random_paper: 57
 score:
   band: minimal
   composite: 5.7

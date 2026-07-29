@@ -44,7 +44,7 @@ name: YouStake
 nav: Providers
 network: true
 overview: YouStake is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Staking, Poker, and Esports.
-random_paper: 38
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

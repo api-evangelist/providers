@@ -126,7 +126,7 @@ plans:
 - name: Kobiton Plans Pricing
   plan_count: 4
   slug: kobiton-plans-pricing
-random_paper: 65
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Kobiton Rate Limits

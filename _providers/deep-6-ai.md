@@ -48,7 +48,7 @@ name: Deep 6 AI
 nav: Providers
 network: true
 overview: Deep 6 AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Healthcare, Artificial Intelligence, and Machine Learning.
-random_paper: 67
+random_paper: 49
 score:
   band: minimal
   composite: 5.4

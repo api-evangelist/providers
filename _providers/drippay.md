@@ -248,7 +248,7 @@ overview: 'Drippay publishes 23 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Drippay''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 68
+random_paper: 50
 score:
   band: developing
   composite: 55.2

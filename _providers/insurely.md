@@ -147,7 +147,7 @@ overview: 'Insurely publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Insurely''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 44
+random_paper: 22
 score:
   band: thin
   composite: 41.9

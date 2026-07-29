@@ -155,7 +155,7 @@ plans:
 - name: Pixie Plans Pricing
   plan_count: 1
   slug: pixie-plans-pricing
-random_paper: 4
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Pixie Rate Limits

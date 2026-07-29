@@ -120,7 +120,7 @@ overview: 'Cluely is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cluely''s developer surface includes documentation, quickstart, pricing, support, changelog, CLI, authentication, and 12 more developer resources.'
-random_paper: 38
+random_paper: 22
 score:
   band: thin
   composite: 30.2

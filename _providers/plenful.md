@@ -68,7 +68,7 @@ overview: 'Plenful is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Plenful''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: emerging
   composite: 13.1

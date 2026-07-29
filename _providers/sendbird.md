@@ -380,7 +380,7 @@ plans:
 - name: Sendbird Plans Pricing
   plan_count: 4
   slug: sendbird-plans-pricing
-random_paper: 73
+random_paper: 53
 rate_limits:
 - limit_count: 13
   name: Sendbird Rate Limits

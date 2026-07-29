@@ -52,7 +52,7 @@ name: Sunrise
 nav: Providers
 network: true
 overview: Sunrise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Manufacturing, Automation, and Artificial Intelligence.
-random_paper: 7
+random_paper: 66
 score:
   band: minimal
   composite: 7.1

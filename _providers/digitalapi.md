@@ -76,7 +76,7 @@ plans:
 - name: Digitalapi Plans Pricing
   plan_count: 3
   slug: digitalapi-plans-pricing
-random_paper: 47
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Digitalapi Rate Limits

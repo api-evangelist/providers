@@ -83,7 +83,7 @@ overview: 'Tile (thetileapp) is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Tile (thetileapp)''s developer surface includes support and 9 more developer resources.'
-random_paper: 71
+random_paper: 45
 score:
   band: emerging
   composite: 13.3

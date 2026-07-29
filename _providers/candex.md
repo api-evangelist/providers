@@ -95,7 +95,7 @@ overview: 'Candex is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Candex''s developer surface includes pricing, signup flow, engineering blog, and 10 more developer resources.'
-random_paper: 11
+random_paper: 74
 score:
   band: emerging
   composite: 21.8

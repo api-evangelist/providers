@@ -137,7 +137,7 @@ plans:
 - name: Gluu Plans Pricing
   plan_count: 3
   slug: gluu-plans-pricing
-random_paper: 60
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Gluu Rate Limits

@@ -174,7 +174,7 @@ overview: 'Spaceship publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Spaceship''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
-random_paper: 36
+random_paper: 12
 scopes:
 - name: Spaceship Scopes
   scope_count: 11

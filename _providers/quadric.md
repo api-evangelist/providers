@@ -83,7 +83,7 @@ overview: 'Quadric is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Quadric''s developer surface includes documentation, signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 52
+random_paper: 34
 score:
   band: emerging
   composite: 17.3

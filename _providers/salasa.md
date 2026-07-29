@@ -71,7 +71,7 @@ overview: 'Salasa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Salasa''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 13
+random_paper: 76
 score:
   band: minimal
   composite: 11.3

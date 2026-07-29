@@ -71,7 +71,7 @@ overview: 'Nimble Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Nimble Robotics'' developer surface includes engineering blog, YouTube channel, and 5 more developer resources.'
-random_paper: 5
+random_paper: 44
 score:
   band: minimal
   composite: 7.5

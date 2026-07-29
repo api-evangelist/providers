@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Primoris Services Corporation Reports Second Quarter ...
   url: https://ir.prim.com/news-and-events/news-releases/2025/08-04-2025-211559739
-random_paper: 27
+random_paper: 60
 score:
   band: minimal
   composite: 3.5

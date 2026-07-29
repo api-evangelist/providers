@@ -83,7 +83,7 @@ overview: 'Docket is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Docket''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
-random_paper: 66
+random_paper: 46
 score:
   band: emerging
   composite: 15.7

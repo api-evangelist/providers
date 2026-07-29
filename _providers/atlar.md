@@ -183,7 +183,7 @@ overview: 'Atlar publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Atlar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 24 more developer resources.'
-random_paper: 70
+random_paper: 58
 score:
   band: developing
   composite: 52.3

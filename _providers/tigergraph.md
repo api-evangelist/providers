@@ -128,7 +128,7 @@ plans:
 - name: Tigergraph Plans Pricing
   plan_count: 3
   slug: tigergraph-plans-pricing
-random_paper: 68
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Tigergraph Rate Limits

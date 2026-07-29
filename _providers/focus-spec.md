@@ -87,7 +87,7 @@ plans:
 - name: Focus Spec Plans Pricing
   plan_count: 3
   slug: focus-spec-plans-pricing
-random_paper: 15
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Focus Spec Rate Limits

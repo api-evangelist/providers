@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Kodak press-release
   url: https://www.silverfast.com/show/kodak-press-release/de.html
-random_paper: 3
+random_paper: 48
 score:
   band: minimal
   composite: 4.1

@@ -182,7 +182,7 @@ overview: 'HeadOut publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   HeadOut''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 53
+random_paper: 35
 score:
   band: developing
   composite: 42.0

@@ -184,7 +184,7 @@ plans:
 - name: Apache Httpd Plans Pricing
   plan_count: 3
   slug: apache-httpd-plans-pricing
-random_paper: 48
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Apache Httpd Rate Limits

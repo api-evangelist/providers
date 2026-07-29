@@ -143,7 +143,7 @@ overview: 'Aviatrix is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Aviatrix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 25
+random_paper: 3
 score:
   band: thin
   composite: 34.0

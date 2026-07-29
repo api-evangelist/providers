@@ -175,7 +175,7 @@ overview: 'PayJoy publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   PayJoy''s developer surface includes documentation, getting-started guide, support, signup flow, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 52
+random_paper: 36
 score:
   band: developing
   composite: 45.5

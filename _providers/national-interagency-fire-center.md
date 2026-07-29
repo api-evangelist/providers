@@ -97,7 +97,7 @@ plans:
 - name: National Interagency Fire Center Plans Pricing
   plan_count: 3
   slug: national-interagency-fire-center-plans-pricing
-random_paper: 72
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: National Interagency Fire Center Rate Limits

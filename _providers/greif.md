@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Greif Inc. Class A (GEF) reports earnings - Quartz
   url: https://qz.com/greif-inc-class-a-gef-reports-earnings-1851727534
-random_paper: 63
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

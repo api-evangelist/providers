@@ -75,7 +75,7 @@ overview: 'ChipAgents is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ChipAgents'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 61
+random_paper: 35
 score:
   band: emerging
   composite: 14.8

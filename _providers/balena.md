@@ -176,7 +176,7 @@ plans:
 - name: Balena Plans Pricing
   plan_count: 1
   slug: balena-plans-pricing
-random_paper: 72
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Balena Rate Limits

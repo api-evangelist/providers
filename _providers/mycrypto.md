@@ -67,7 +67,7 @@ overview: 'MyCrypto is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MyCrypto''s developer surface includes documentation, support, and 4 more developer resources.'
-random_paper: 56
+random_paper: 34
 score:
   band: minimal
   composite: 8.5

@@ -191,7 +191,7 @@ overview: 'LinqAlpha publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LinqAlpha''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 30
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Linqalpha Rate Limits

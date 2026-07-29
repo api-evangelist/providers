@@ -48,7 +48,7 @@ name: Amply Power
 nav: Providers
 network: true
 overview: Amply Power is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 71
+random_paper: 43
 score:
   band: minimal
   composite: 3.2

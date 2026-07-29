@@ -55,7 +55,7 @@ overview: 'Motif Analytics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Motif Analytics'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 16
+random_paper: 55
 score:
   band: minimal
   composite: 6.1

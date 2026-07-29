@@ -48,7 +48,7 @@ name: Reality Reflection
 nav: Providers
 network: true
 overview: Reality Reflection is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, Metaverse, Blockchain, and Artificial Intelligence.
-random_paper: 26
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

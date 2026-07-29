@@ -209,7 +209,7 @@ plans:
 - name: Runpod Plans Pricing
   plan_count: 1
   slug: runpod-plans-pricing
-random_paper: 48
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Runpod Rate Limits

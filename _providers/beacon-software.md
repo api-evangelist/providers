@@ -55,7 +55,7 @@ overview: 'Beacon (Software) is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Beacon (Software)''s developer surface includes support and 2 more developer resources.'
-random_paper: 73
+random_paper: 35
 score:
   band: minimal
   composite: 5.9

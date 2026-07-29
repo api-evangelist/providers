@@ -99,7 +99,7 @@ plans:
 - name: Boston Plans Pricing
   plan_count: 2
   slug: boston-plans-pricing
-random_paper: 45
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Boston Rate Limits

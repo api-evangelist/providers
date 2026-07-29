@@ -229,7 +229,7 @@ plans:
 - name: Flatfile Plans Pricing
   plan_count: 3
   slug: flatfile-plans-pricing
-random_paper: 69
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Flatfile Rate Limits

@@ -39,7 +39,7 @@ name: TakeLessons
 nav: Providers
 network: true
 overview: TakeLessons is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Tutoring, and Online Learning.
-random_paper: 41
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

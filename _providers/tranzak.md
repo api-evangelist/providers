@@ -113,7 +113,7 @@ plans:
 - name: Tranzak Plans Pricing
   plan_count: 3
   slug: tranzak-plans-pricing
-random_paper: 70
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Tranzak Rate Limits

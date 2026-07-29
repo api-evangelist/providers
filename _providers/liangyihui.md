@@ -53,7 +53,7 @@ name: liangyihui
 nav: Providers
 network: true
 overview: liangyihui is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, China, Venture Backed, Qiming Portfolio, and Private API.
-random_paper: 74
+random_paper: 48
 score:
   band: minimal
   composite: 6.9

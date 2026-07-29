@@ -88,7 +88,7 @@ plans:
 - name: Data Opendevelopmentcambodia Net Plans Pricing
   plan_count: 1
   slug: data-opendevelopmentcambodia-net-plans-pricing
-random_paper: 30
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Data Opendevelopmentcambodia Net Rate Limits

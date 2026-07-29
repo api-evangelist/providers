@@ -149,7 +149,7 @@ plans:
 - name: Google Indexing Plans Pricing
   plan_count: 3
   slug: google-indexing-plans-pricing
-random_paper: 73
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Google Indexing Rate Limits

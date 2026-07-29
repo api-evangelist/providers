@@ -122,7 +122,7 @@ press:
 - date: '2026-05-25'
   title: Huntington Launches Huntington Heads Up® with AI to ...
   url: https://www.prnewswire.com/news-releases/huntington-launches-huntington-heads-up-with-ai-to-improve-customers-digital-banking-experience-300794687.html
-random_paper: 41
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Huntington Bancshares Rate Limits

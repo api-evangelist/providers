@@ -119,7 +119,7 @@ overview: 'Profound is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Profound''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 30
+random_paper: 8
 score:
   band: emerging
   composite: 27.2

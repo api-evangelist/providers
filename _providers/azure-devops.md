@@ -439,7 +439,7 @@ plans:
 - name: Azure Devops Plans Pricing
   plan_count: 6
   slug: azure-devops-plans-pricing
-random_paper: 21
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Azure Devops Rate Limits

@@ -52,7 +52,7 @@ name: Formally
 nav: Providers
 network: true
 overview: Formally is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Legal, Legal Tech, and Immigration.
-random_paper: 23
+random_paper: 1
 score:
   band: minimal
   composite: 7.6

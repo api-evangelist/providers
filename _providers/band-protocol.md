@@ -114,7 +114,7 @@ plans:
 - name: Band Protocol Plans Pricing
   plan_count: 3
   slug: band-protocol-plans-pricing
-random_paper: 23
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Band Protocol Rate Limits

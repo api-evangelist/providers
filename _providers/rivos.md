@@ -92,7 +92,7 @@ name: Rivos
 nav: Providers
 network: true
 overview: Rivos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Hardware, RISC-V, GPU, Accelerator, and Silicon.
-random_paper: 24
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

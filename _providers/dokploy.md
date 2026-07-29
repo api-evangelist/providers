@@ -277,7 +277,7 @@ plans:
 - name: Dokploy Plans Pricing
   plan_count: 4
   slug: dokploy-plans-pricing
-random_paper: 0
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Dokploy Rate Limits

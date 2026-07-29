@@ -71,7 +71,7 @@ overview: 'Scalyr is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Scalyr''s developer surface includes documentation, API reference, pricing, engineering blog, and 3 more developer resources.'
-random_paper: 38
+random_paper: 22
 score:
   band: emerging
   composite: 13.2

@@ -80,7 +80,7 @@ overview: 'Manifest Law publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Manifest Law''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 69
+random_paper: 39
 scopes:
 - name: Manifest Law Scopes
   scope_count: 7

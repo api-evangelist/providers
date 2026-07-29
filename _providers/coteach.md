@@ -108,7 +108,7 @@ overview: 'CoTeach is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CoTeach''s developer surface includes pricing, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 34
+random_paper: 16
 scopes:
 - name: Coteach Scopes
   scope_count: 4

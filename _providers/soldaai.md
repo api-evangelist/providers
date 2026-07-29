@@ -63,7 +63,7 @@ overview: 'Solda.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Solda.ai''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 40
+random_paper: 22
 score:
   band: minimal
   composite: 9.7

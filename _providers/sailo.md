@@ -59,7 +59,7 @@ overview: 'Sailo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Sailo''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: minimal
   composite: 6.3

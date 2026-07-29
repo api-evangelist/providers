@@ -183,7 +183,7 @@ plans:
 - name: Qualtrics Plans Pricing
   plan_count: 5
   slug: qualtrics-plans-pricing
-random_paper: 60
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Qualtrics Rate Limits

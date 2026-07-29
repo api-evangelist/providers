@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Investors - Governance - Board of Directors
   url: https://www.albertsonscompanies.com/investors/governance/board-of-directors/default.aspx
-random_paper: 43
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

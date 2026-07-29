@@ -104,7 +104,7 @@ overview: 'Sense is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Sense''s developer surface includes support and 14 more developer resources.'
-random_paper: 5
+random_paper: 52
 score:
   band: minimal
   composite: 6.2

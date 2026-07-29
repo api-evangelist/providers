@@ -76,7 +76,7 @@ overview: 'Zalos is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Zalos'' developer surface includes support and 7 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: minimal
   composite: 9.0

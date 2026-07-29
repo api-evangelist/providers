@@ -99,7 +99,7 @@ overview: 'Guidde is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Guidde''s developer surface includes pricing, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 10
+random_paper: 73
 score:
   band: emerging
   composite: 19.2

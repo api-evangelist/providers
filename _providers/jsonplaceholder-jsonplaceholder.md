@@ -56,7 +56,7 @@ name: JSONPlaceholder
 nav: Providers
 network: true
 overview: JSONPlaceholder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Test Data and Public APIs.
-random_paper: 5
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

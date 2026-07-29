@@ -95,7 +95,7 @@ overview: 'Aidence is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Aidence''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 20
+random_paper: 2
 score:
   band: emerging
   composite: 17.1

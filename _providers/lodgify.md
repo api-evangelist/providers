@@ -127,7 +127,7 @@ plans:
 - name: Lodgify Plans Pricing
   plan_count: 4
   slug: lodgify-plans-pricing
-random_paper: 57
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Lodgify Rate Limits

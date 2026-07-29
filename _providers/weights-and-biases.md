@@ -146,7 +146,7 @@ plans:
 - name: Weights And Biases Plans Pricing
   plan_count: 1
   slug: weights-and-biases-plans-pricing
-random_paper: 20
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Weights And Biases Rate Limits

@@ -33,7 +33,7 @@ name: crob.at
 nav: Providers
 network: true
 overview: crob.at publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Gaming, Esports, Pokemon, Pokemon Showdown, and Team Building.
-random_paper: 64
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

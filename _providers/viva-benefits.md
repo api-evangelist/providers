@@ -48,7 +48,7 @@ name: Viva Benefits
 nav: Providers
 network: true
 overview: Viva Benefits is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Benefits, Equity, Human Resources, and Compensation.
-random_paper: 22
+random_paper: 67
 score:
   band: minimal
   composite: 4.1

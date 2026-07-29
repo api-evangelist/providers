@@ -151,7 +151,7 @@ overview: 'UBTech publishes 1 API on the [APIs.io](https://apis.io/) network: su
 
 
   UBTech''s developer surface includes documentation, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: thin
   composite: 41.4

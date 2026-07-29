@@ -108,7 +108,7 @@ overview: 'Aurora Networks is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Aurora Networks'' developer surface includes documentation, support, engineering blog, training material, and 12 more developer resources.'
-random_paper: 48
+random_paper: 8
 score:
   band: emerging
   composite: 14.9

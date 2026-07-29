@@ -164,7 +164,7 @@ overview: 'Sapiom publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sapiom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, CLI, and 21 more developer resources.'
-random_paper: 33
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Sapiom Rate Limits

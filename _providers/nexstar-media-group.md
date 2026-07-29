@@ -44,7 +44,7 @@ name: Nexstar Media Group
 nav: Providers
 network: true
 overview: Nexstar Media Group is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 7
+random_paper: 36
 score:
   band: minimal
   composite: 2.6

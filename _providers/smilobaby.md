@@ -63,7 +63,7 @@ overview: 'Smilobaby is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Smilobaby''s developer surface includes support and 4 more developer resources.'
-random_paper: 38
+random_paper: 14
 score:
   band: minimal
   composite: 10.1

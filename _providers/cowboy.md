@@ -87,7 +87,7 @@ overview: 'Cowboy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cowboy''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 43
+random_paper: 27
 score:
   band: emerging
   composite: 15.6

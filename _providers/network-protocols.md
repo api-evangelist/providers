@@ -52,7 +52,7 @@ name: Network Protocols
 nav: Providers
 network: true
 overview: Network Protocols is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Communication, Infrastructure, Networking, Protocols, and Standards.
-random_paper: 49
+random_paper: 3
 score:
   band: minimal
   composite: 6.3

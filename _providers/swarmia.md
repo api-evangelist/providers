@@ -131,7 +131,7 @@ plans:
 - name: Swarmia Plans Pricing
   plan_count: 4
   slug: swarmia-plans-pricing
-random_paper: 63
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Swarmia Rate Limits

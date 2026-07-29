@@ -52,7 +52,7 @@ name: Relievant Medsystems
 nav: Providers
 network: true
 overview: Relievant Medsystems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Medtech, and Pain Management.
-random_paper: 38
+random_paper: 63
 score:
   band: minimal
   composite: 5.4

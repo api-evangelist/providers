@@ -56,7 +56,7 @@ name: ArbiLex
 nav: Providers
 network: true
 overview: ArbiLex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, LegalTech, Litigation Finance, and Arbitration.
-random_paper: 50
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

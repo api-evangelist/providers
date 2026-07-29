@@ -40,7 +40,7 @@ name: Calibra Medical
 nav: Providers
 network: true
 overview: Calibra Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Diabetes, Insulin Delivery, and Health.
-random_paper: 19
+random_paper: 60
 score:
   band: minimal
   composite: 4.3

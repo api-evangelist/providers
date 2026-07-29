@@ -112,7 +112,7 @@ plans:
 - name: Google Fitness Plans Pricing
   plan_count: 3
   slug: google-fitness-plans-pricing
-random_paper: 60
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Google Fitness Rate Limits

@@ -48,7 +48,7 @@ name: OTTO
 nav: Providers
 network: true
 overview: OTTO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 4.1

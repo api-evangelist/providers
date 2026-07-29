@@ -156,7 +156,7 @@ overview: 'Spheron publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Spheron''s developer surface includes pricing, developer console, signup flow, documentation, API reference, engineering blog, GitHub presence, and 20 more developer resources.'
-random_paper: 74
+random_paper: 56
 score:
   band: emerging
   composite: 15.7

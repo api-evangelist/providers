@@ -48,7 +48,7 @@ name: Wagmo
 nav: Providers
 network: true
 overview: Wagmo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Insurance, Pet Wellness, Telehealth, and Veterinary.
-random_paper: 0
+random_paper: 65
 score:
   band: minimal
   composite: 5.6

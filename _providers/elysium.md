@@ -159,7 +159,7 @@ overview: 'Elysium Health publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Elysium Health''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, pricing, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 65
 scopes:
 - name: Elysium Scopes
   scope_count: 4

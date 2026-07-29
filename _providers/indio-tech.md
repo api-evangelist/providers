@@ -81,7 +81,7 @@ plans:
 - name: Indio Tech Plans Pricing
   plan_count: 2
   slug: indio-tech-plans-pricing
-random_paper: 72
+random_paper: 48
 score:
   band: minimal
   composite: 12.0

@@ -87,7 +87,7 @@ overview: 'Kitterly is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kitterly''s developer surface includes support, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 41
+random_paper: 19
 score:
   band: emerging
   composite: 17.1

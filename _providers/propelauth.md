@@ -555,7 +555,7 @@ plans:
 - name: Propelauth Plans Pricing
   plan_count: 4
   slug: propelauth-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Propelauth Rate Limits

@@ -99,7 +99,7 @@ overview: 'MindMeld * is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   MindMeld *''s developer surface includes documentation, getting-started guide, quickstart, engineering blog, changelog, and 9 more developer resources.'
-random_paper: 72
+random_paper: 52
 score:
   band: emerging
   composite: 16.3

@@ -514,7 +514,7 @@ plans:
 - name: Polygon Plans Pricing
   plan_count: 12
   slug: polygon-plans-pricing
-random_paper: 6
+random_paper: 65
 rate_limits:
 - limit_count: 6
   name: Polygon Rate Limits

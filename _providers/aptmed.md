@@ -71,7 +71,7 @@ overview: 'APT Medical is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   APT Medical''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: minimal
   composite: 7.2

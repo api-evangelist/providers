@@ -120,7 +120,7 @@ overview: 'Marco Polo publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Marco Polo''s developer surface includes documentation, getting-started guide, pricing, engineering blog, authentication, CLI, and 11 more developer resources.'
-random_paper: 16
+random_paper: 69
 scopes:
 - name: Marco Polo Scopes
   scope_count: 0

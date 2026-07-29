@@ -83,7 +83,7 @@ overview: 'Mercanto is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mercanto''s developer surface includes signup flow, support, and 8 more developer resources.'
-random_paper: 10
+random_paper: 67
 score:
   band: emerging
   composite: 15.2

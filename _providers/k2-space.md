@@ -77,7 +77,7 @@ name: K2 Space
 nav: Providers
 network: true
 overview: K2 Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Aerospace, Satellites, and Space.
-random_paper: 33
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

@@ -116,7 +116,7 @@ plans:
 - name: Brandfolder Plans Pricing
   plan_count: 2
   slug: brandfolder-plans-pricing
-random_paper: 0
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Brandfolder Rate Limits

@@ -131,7 +131,7 @@ plans:
 - name: Codeclimate Plans Pricing
   plan_count: 4
   slug: codeclimate-plans-pricing
-random_paper: 68
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Codeclimate Rate Limits

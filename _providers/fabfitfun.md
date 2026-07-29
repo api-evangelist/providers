@@ -71,7 +71,7 @@ overview: 'FabFitFun is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   FabFitFun''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 25
+random_paper: 1
 score:
   band: minimal
   composite: 10.5

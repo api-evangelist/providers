@@ -162,7 +162,7 @@ plans:
 - name: Coredns Plans Pricing
   plan_count: 1
   slug: coredns-plans-pricing
-random_paper: 57
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Coredns Rate Limits

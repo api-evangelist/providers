@@ -52,7 +52,7 @@ name: Looly's
 nav: Providers
 network: true
 overview: Looly's is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Health, Meal Delivery, and Plant-Based.
-random_paper: 58
+random_paper: 42
 score:
   band: minimal
   composite: 4.3

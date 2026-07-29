@@ -57,7 +57,7 @@ name: Cypress
 nav: Providers
 network: true
 overview: Cypress is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Microcontrollers, and Embedded.
-random_paper: 7
+random_paper: 66
 score:
   band: minimal
   composite: 5.7

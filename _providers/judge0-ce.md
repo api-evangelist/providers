@@ -56,7 +56,7 @@ name: Judge0 CE
 nav: Providers
 network: true
 overview: Judge0 CE publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Programming and Public APIs.
-random_paper: 50
+random_paper: 30
 score:
   band: minimal
   composite: 5.7

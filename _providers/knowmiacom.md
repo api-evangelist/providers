@@ -72,7 +72,7 @@ name: Knowmia.com
 nav: Providers
 network: true
 overview: Knowmia.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Video, and Screen Recording.
-random_paper: 76
+random_paper: 50
 score:
   band: minimal
   composite: 7.9

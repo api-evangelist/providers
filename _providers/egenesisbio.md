@@ -71,7 +71,7 @@ overview: 'eGenesis is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   eGenesis'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 10
+random_paper: 59
 score:
   band: minimal
   composite: 11.6

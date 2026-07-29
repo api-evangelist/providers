@@ -84,7 +84,7 @@ plans:
 - name: Geoscience Data Qld Gov Au Plans Pricing
   plan_count: 1
   slug: geoscience-data-qld-gov-au-plans-pricing
-random_paper: 38
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Geoscience Data Qld Gov Au Rate Limits

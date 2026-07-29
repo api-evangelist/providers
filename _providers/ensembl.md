@@ -108,7 +108,7 @@ plans:
 - name: Ensembl Plans Pricing
   plan_count: 1
   slug: ensembl-plans-pricing
-random_paper: 49
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Ensembl Rate Limits

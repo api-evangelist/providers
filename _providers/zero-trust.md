@@ -21,7 +21,7 @@ modified: '2026-05-03'
 name: Zero Trust
 nav: Providers
 network: true
-random_paper: 70
+random_paper: 44
 slug: zero-trust
 tags:
 - Access Control

@@ -87,7 +87,7 @@ overview: 'Astro Sea is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Astro Sea''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 64
+random_paper: 42
 score:
   band: emerging
   composite: 13.0

@@ -39,7 +39,7 @@ name: Zenprise
 nav: Providers
 network: true
 overview: Zenprise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Device Management, MDM, Enterprise Mobility, and Mobile Security.
-random_paper: 33
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

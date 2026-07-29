@@ -479,7 +479,7 @@ overview: 'Chick-fil-A publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Chick-fil-A''s developer surface includes signup flow, engineering blog, tooling, code examples, and 13 more developer resources.'
-random_paper: 2
+random_paper: 57
 rules:
 - name: Chick-fil-A API Rules
   rule_count: 5

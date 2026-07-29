@@ -39,7 +39,7 @@ name: Manicube (Elizabeth Arden Red Door)
 nav: Providers
 network: true
 overview: Manicube (Elizabeth Arden Red Door) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Beauty, Personal Care, and On-Demand.
-random_paper: 7
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

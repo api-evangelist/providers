@@ -39,7 +39,7 @@ name: ArrowPoint Communications
 nav: Providers
 network: true
 overview: ArrowPoint Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Load Balancing, Content Delivery, and Web Switching.
-random_paper: 49
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

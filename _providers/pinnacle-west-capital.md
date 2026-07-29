@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Pinnacle West Capital Corporation (PNW) Q1 2026 ...
   url: https://seekingalpha.com/article/4898073-pinnacle-west-capital-corporation-pnw-q1-2026-earnings-call-transcript
-random_paper: 38
+random_paper: 63
 score:
   band: minimal
   composite: 2.6

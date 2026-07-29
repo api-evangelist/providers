@@ -741,7 +741,7 @@ plans:
 - name: Amazon Detective Plans Pricing
   plan_count: 3
   slug: amazon-detective-plans-pricing
-random_paper: 31
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Amazon Detective Rate Limits

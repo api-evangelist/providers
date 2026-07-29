@@ -52,7 +52,7 @@ name: Shpock
 nav: Providers
 network: true
 overview: Shpock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Classifieds, Marketplace, Second-hand, and E-commerce.
-random_paper: 32
+random_paper: 16
 score:
   band: minimal
   composite: 5.9

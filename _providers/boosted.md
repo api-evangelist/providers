@@ -132,7 +132,7 @@ overview: 'Boosted.ai publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Boosted.ai''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 59
+random_paper: 41
 score:
   band: thin
   composite: 30.7

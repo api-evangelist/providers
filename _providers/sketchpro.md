@@ -63,7 +63,7 @@ overview: 'Sketchpro is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sketchpro''s developer surface includes signup flow, support, engineering blog, and 2 more developer resources.'
-random_paper: 55
+random_paper: 31
 score:
   band: minimal
   composite: 11.0

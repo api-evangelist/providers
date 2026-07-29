@@ -125,7 +125,7 @@ overview: 'Orange Health publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Orange Health''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 2
+random_paper: 47
 score:
   band: thin
   composite: 40.8

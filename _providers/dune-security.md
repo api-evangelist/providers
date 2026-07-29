@@ -83,7 +83,7 @@ overview: 'Dune Security is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Dune Security''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 52
+random_paper: 18
 score:
   band: emerging
   composite: 15.2

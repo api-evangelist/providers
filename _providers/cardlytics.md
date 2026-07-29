@@ -87,7 +87,7 @@ overview: 'Cardlytics is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cardlytics'' developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 73
+random_paper: 47
 score:
   band: emerging
   composite: 20.9

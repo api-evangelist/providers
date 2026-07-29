@@ -63,7 +63,7 @@ overview: 'Mirado is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Mirado''s developer surface includes engineering blog, signup flow, and 3 more developer resources.'
-random_paper: 20
+random_paper: 4
 score:
   band: minimal
   composite: 10.2

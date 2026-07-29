@@ -67,7 +67,7 @@ overview: 'PortalOne is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   PortalOne''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 56
+random_paper: 32
 score:
   band: minimal
   composite: 10.5

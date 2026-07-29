@@ -127,7 +127,7 @@ overview: 'Tractian publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Tractian''s developer surface includes engineering blog, changelog, support, pricing, and 16 more developer resources.'
-random_paper: 7
+random_paper: 64
 score:
   band: thin
   composite: 28.4

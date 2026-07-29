@@ -122,7 +122,7 @@ plans:
 - name: Weclapp Plans Pricing
   plan_count: 5
   slug: weclapp-plans-pricing
-random_paper: 55
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Weclapp Rate Limits

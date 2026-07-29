@@ -194,7 +194,7 @@ overview: 'Fave publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pay
 
 
   Fave''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, sandbox, and 21 more developer resources.'
-random_paper: 33
+random_paper: 23
 score:
   band: developing
   composite: 44.2

@@ -44,7 +44,7 @@ name: Nodejitsu
 nav: Providers
 network: true
 overview: Nodejitsu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hosting, Platform as a Service, Node.js, and Cloud.
-random_paper: 57
+random_paper: 33
 score:
   band: minimal
   composite: 5.7

@@ -79,7 +79,7 @@ overview: 'Prescience Inc is profiled on the [APIs.io](https://apis.io/) network
 
 
   Prescience Inc''s developer surface includes signup flow and 8 more developer resources.'
-random_paper: 30
+random_paper: 73
 score:
   band: emerging
   composite: 15.7

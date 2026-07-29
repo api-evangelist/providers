@@ -140,7 +140,7 @@ plans:
 - name: Updox Plans Pricing
   plan_count: 4
   slug: updox-plans-pricing
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Updox Rate Limits

@@ -59,7 +59,7 @@ overview: 'Shopkeep is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Shopkeep''s developer surface includes support and 3 more developer resources.'
-random_paper: 16
+random_paper: 73
 score:
   band: minimal
   composite: 7.0

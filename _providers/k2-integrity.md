@@ -67,7 +67,7 @@ overview: 'K2 Integrity is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   K2 Integrity''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 38
+random_paper: 8
 score:
   band: minimal
   composite: 7.5

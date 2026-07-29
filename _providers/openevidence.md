@@ -136,7 +136,7 @@ overview: 'OpenEvidence is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   OpenEvidence''s developer surface includes signup flow, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 37
+random_paper: 5
 score:
   band: emerging
   composite: 16.7

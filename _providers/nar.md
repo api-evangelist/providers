@@ -150,7 +150,7 @@ overview: 'National Association of REALTORS publishes 1 API on the [APIs.io](htt
 
 
   National Association of REALTORS''s developer surface includes authentication, engineering blog, documentation, support, and 21 more developer resources.'
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Nar Rate Limits

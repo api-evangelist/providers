@@ -139,7 +139,7 @@ plans:
 - name: Anaplan Plans Pricing
   plan_count: 3
   slug: anaplan-plans-pricing
-random_paper: 38
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Anaplan Rate Limits

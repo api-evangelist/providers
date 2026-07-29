@@ -186,7 +186,7 @@ plans:
 - name: Appwrite Plans Pricing
   plan_count: 3
   slug: appwrite-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Appwrite Rate Limits

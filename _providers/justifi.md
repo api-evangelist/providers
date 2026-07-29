@@ -252,7 +252,7 @@ overview: 'JustiFi publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 
 
   JustiFi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 20 more developer resources.'
-random_paper: 73
+random_paper: 55
 score:
   band: developing
   composite: 49.6

@@ -256,7 +256,7 @@ overview: 'Ogilvy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ogilvy''s developer surface includes engineering blog and 16 more developer resources.'
-random_paper: 50
+random_paper: 34
 score:
   band: minimal
   composite: 5.4

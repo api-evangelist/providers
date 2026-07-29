@@ -87,7 +87,7 @@ overview: 'Karak is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Karak''s developer surface includes documentation, getting-started guide, engineering blog, and 8 more developer resources.'
-random_paper: 60
+random_paper: 48
 score:
   band: emerging
   composite: 17.4

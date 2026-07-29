@@ -154,7 +154,7 @@ plans:
 - name: Department Of The Treasury Plans Pricing
   plan_count: 1
   slug: department-of-the-treasury-plans-pricing
-random_paper: 22
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Department Of The Treasury Rate Limits

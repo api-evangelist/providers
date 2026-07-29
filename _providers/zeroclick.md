@@ -120,7 +120,7 @@ overview: 'Zeroclick is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Zeroclick''s developer surface includes documentation, API reference, authentication, and 16 more developer resources.'
-random_paper: 42
+random_paper: 18
 score:
   band: emerging
   composite: 19.8

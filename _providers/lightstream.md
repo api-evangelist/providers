@@ -221,7 +221,7 @@ overview: 'Lightstream publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lightstream''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 33
+random_paper: 3
 score:
   band: developing
   composite: 51.1

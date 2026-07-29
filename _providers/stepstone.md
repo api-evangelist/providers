@@ -44,7 +44,7 @@ name: Stepstone
 nav: Providers
 network: true
 overview: Stepstone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 73
+random_paper: 49
 score:
   band: minimal
   composite: 4.1

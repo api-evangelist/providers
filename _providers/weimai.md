@@ -60,7 +60,7 @@ name: WeiMai
 nav: Providers
 network: true
 overview: 'WeiMai publishes 1 API on the [APIs.io](https://apis.io/) network: Open Platform API. Tagged areas include Company, Healthcare, Digital Health, Internet Hospital, and Telemedicine.'
-random_paper: 20
+random_paper: 4
 score:
   band: emerging
   composite: 16.2

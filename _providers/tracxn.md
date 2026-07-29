@@ -152,7 +152,7 @@ overview: 'Tracxn publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tracxn''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, FAQ, engineering blog, and 18 more developer resources.'
-random_paper: 40
+random_paper: 24
 score:
   band: thin
   composite: 30.6

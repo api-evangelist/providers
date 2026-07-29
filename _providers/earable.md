@@ -100,7 +100,7 @@ overview: 'Earable is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Earable''s developer surface includes engineering blog, getting-started guide, signup flow, authentication, and 9 more developer resources.'
-random_paper: 23
+random_paper: 5
 scopes:
 - name: Earable Scopes
   scope_count: 4

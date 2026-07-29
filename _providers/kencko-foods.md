@@ -52,7 +52,7 @@ name: Kencko Foods
 nav: Providers
 network: true
 overview: Kencko Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Products, E-Commerce, and Health and Wellness.
-random_paper: 64
+random_paper: 34
 score:
   band: minimal
   composite: 6.1

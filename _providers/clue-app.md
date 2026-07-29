@@ -75,7 +75,7 @@ overview: 'Clue (BioWink) is profiled on the [APIs.io](https://apis.io/) network
 
 
   Clue (BioWink)''s developer surface includes support and 7 more developer resources.'
-random_paper: 21
+random_paper: 1
 score:
   band: minimal
   composite: 7.4

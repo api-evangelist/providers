@@ -249,7 +249,7 @@ overview: 'Super Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Super Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 22
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Super Payments Rate Limits

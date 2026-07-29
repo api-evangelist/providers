@@ -48,7 +48,7 @@ name: Upteam
 nav: Providers
 network: true
 overview: Upteam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Luxury Resale, B2B, Pre-owned Goods, and Portfolio Company.
-random_paper: 36
+random_paper: 20
 score:
   band: minimal
   composite: 6.1

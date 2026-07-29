@@ -59,7 +59,7 @@ overview: '.Gitignore is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   .Gitignore''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 44
+random_paper: 20
 score:
   band: minimal
   composite: 6.1

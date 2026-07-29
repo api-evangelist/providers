@@ -99,7 +99,7 @@ overview: 'Supafax is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Supafax''s developer surface includes pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 67
+random_paper: 49
 score:
   band: emerging
   composite: 20.4

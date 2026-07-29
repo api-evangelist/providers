@@ -205,7 +205,7 @@ plans:
 - name: Oracle Primavera Plans Pricing
   plan_count: 3
   slug: oracle-primavera-plans-pricing
-random_paper: 25
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Oracle Primavera Rate Limits

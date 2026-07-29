@@ -229,7 +229,7 @@ overview: 'VBOUT publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   VBOUT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, YouTube channel, and 25 more developer resources.'
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Vbout Rate Limits

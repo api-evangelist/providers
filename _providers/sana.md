@@ -170,7 +170,7 @@ overview: 'Sana publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Sana''s developer surface includes documentation, API reference, support, pricing, authentication, and 16 more developer resources.'
-random_paper: 34
+random_paper: 24
 scopes:
 - name: Sana Scopes
   scope_count: 2

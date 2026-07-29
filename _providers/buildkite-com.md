@@ -504,7 +504,7 @@ plans:
 - name: Buildkite Com Plans Pricing
   plan_count: 4
   slug: buildkite-com-plans-pricing
-random_paper: 12
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Buildkite Com Rate Limits

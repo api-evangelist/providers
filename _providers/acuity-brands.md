@@ -237,7 +237,7 @@ press:
 - date: '2026-05-25'
   title: 6 Nuanced Takeaways from Acuity's Boldest Year Yet
   url: https://inside.lighting/news/25-10/6-nuanced-takeaways-acuitys-boldest-year-yet
-random_paper: 25
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Acuity Brands Rate Limits

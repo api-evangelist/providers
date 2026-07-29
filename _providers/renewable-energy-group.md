@@ -113,7 +113,7 @@ name: Renewable Energy Group
 nav: Providers
 network: true
 overview: Renewable Energy Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Ames Iowa, Biodiesel, Biofuels, and Biorefinery.
-random_paper: 13
+random_paper: 34
 score:
   band: minimal
   composite: 4.3

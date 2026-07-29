@@ -60,7 +60,7 @@ name: Pop-Up Magazine
 nav: Providers
 network: true
 overview: Pop-Up Magazine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Live Events, Storytelling, and Publishing.
-random_paper: 22
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

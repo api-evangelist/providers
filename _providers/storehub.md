@@ -92,7 +92,7 @@ overview: 'StoreHub is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   StoreHub''s developer surface includes documentation, support, pricing, engineering blog, signup flow, authentication, and 6 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: emerging
   composite: 22.6

@@ -91,7 +91,7 @@ overview: 'Origin Financial is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Origin Financial''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 57
+random_paper: 33
 score:
   band: emerging
   composite: 19.7

@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: Skyworks Launches Breakthrough Sky5™ Platform
   url: https://investors.skyworksinc.com/news-releases/news-release-details/skyworks-launches-breakthrough-sky5tm-platform
-random_paper: 37
+random_paper: 66
 score:
   band: minimal
   composite: 12.0

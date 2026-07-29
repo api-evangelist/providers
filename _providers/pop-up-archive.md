@@ -44,7 +44,7 @@ name: Pop Up Archive
 nav: Providers
 network: true
 overview: Pop Up Archive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Transcription, Speech To Text, and Podcasts.
-random_paper: 6
+random_paper: 49
 score:
   band: minimal
   composite: 5.0

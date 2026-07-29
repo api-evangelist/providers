@@ -92,7 +92,7 @@ overview: 'Leyden Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Leyden Labs'' developer surface includes engineering blog, YouTube channel, and 10 more developer resources.'
-random_paper: 26
+random_paper: 77
 score:
   band: minimal
   composite: 9.9

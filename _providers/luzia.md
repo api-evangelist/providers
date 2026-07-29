@@ -67,7 +67,7 @@ overview: 'Luzia is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Luzia''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 10
+random_paper: 75
 score:
   band: minimal
   composite: 12.3

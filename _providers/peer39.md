@@ -75,7 +75,7 @@ overview: 'Peer39 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Peer39''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: emerging
   composite: 13.9

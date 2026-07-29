@@ -155,7 +155,7 @@ overview: 'Paragon Bank publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Paragon Bank''s developer surface includes authentication, support, pricing, and 21 more developer resources.'
-random_paper: 46
+random_paper: 16
 scopes:
 - name: Paragon Bank Scopes
   scope_count: 3

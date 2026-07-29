@@ -63,7 +63,7 @@ overview: 'Nobel Prize publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Nobel Prize''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 49
+random_paper: 21
 score:
   band: minimal
   composite: 6.9

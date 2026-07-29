@@ -266,7 +266,7 @@ plans:
 - name: Art Institute Of Chicago Plans Pricing
   plan_count: 1
   slug: art-institute-of-chicago-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Art Institute Of Chicago Rate Limits

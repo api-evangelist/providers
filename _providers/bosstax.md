@@ -75,7 +75,7 @@ overview: 'BossTax is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BossTax''s developer surface includes pricing, support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 2
+random_paper: 61
 score:
   band: emerging
   composite: 15.2

@@ -186,7 +186,7 @@ overview: 'Thatch Health publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 2
+random_paper: 47
 score:
   band: developing
   composite: 50.7

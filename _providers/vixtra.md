@@ -76,7 +76,7 @@ overview: 'Vixtra is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vixtra''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 54
+random_paper: 38
 score:
   band: minimal
   composite: 11.6

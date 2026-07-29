@@ -108,7 +108,7 @@ overview: 'SecureW2 publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   SecureW2''s developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, and 9 more developer resources.'
-random_paper: 46
+random_paper: 26
 score:
   band: emerging
   composite: 26.1

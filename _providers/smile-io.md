@@ -128,7 +128,7 @@ plans:
 - name: Smile Io Plans Pricing
   plan_count: 6
   slug: smile-io-plans-pricing
-random_paper: 29
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Smile Io Rate Limits

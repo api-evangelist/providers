@@ -116,7 +116,7 @@ overview: 'Alkira publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Alkira''s developer surface includes authentication, changelog, and 14 more developer resources.'
-random_paper: 12
+random_paper: 75
 score:
   band: emerging
   composite: 20.4

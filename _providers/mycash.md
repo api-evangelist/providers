@@ -52,7 +52,7 @@ name: MyCash
 nav: Providers
 network: true
 overview: MyCash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Remittance, Payments, Money Transfer, and Fintech.
-random_paper: 29
+random_paper: 13
 score:
   band: minimal
   composite: 8.4

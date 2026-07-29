@@ -184,7 +184,7 @@ plans:
 - name: Civic Plans Pricing
   plan_count: 3
   slug: civic-plans-pricing
-random_paper: 64
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Civic Rate Limits

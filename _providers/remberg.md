@@ -232,7 +232,7 @@ overview: 'Remberg publishes 19 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Remberg''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 47
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Remberg Rate Limits

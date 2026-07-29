@@ -52,7 +52,7 @@ name: Pace Revenue
 nav: Providers
 network: true
 overview: Pace Revenue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Hotels, Revenue Management, and Dynamic Pricing.
-random_paper: 61
+random_paper: 31
 score:
   band: minimal
   composite: 6.7

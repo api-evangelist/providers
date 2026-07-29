@@ -39,7 +39,7 @@ name: ZipDrug
 nav: Providers
 network: true
 overview: ZipDrug is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthcare.
-random_paper: 3
+random_paper: 62
 score:
   band: minimal
   composite: 3.5

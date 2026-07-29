@@ -71,7 +71,7 @@ overview: 'Endeavor Catalyst I is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Endeavor Catalyst I''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 68
+random_paper: 20
 score:
   band: minimal
   composite: 10.5

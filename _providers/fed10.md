@@ -55,7 +55,7 @@ overview: 'Fed10 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Fed10''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 15
+random_paper: 5
 score:
   band: minimal
   composite: 9.4

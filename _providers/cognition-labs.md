@@ -144,7 +144,7 @@ plans:
 - name: Cognition Labs Plans Pricing
   plan_count: 6
   slug: cognition-labs-plans-pricing
-random_paper: 47
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Cognition Labs Rate Limits

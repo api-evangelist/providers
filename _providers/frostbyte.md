@@ -253,7 +253,7 @@ plans:
 - name: Frostbyte Plans Pricing
   plan_count: 2
   slug: frostbyte-plans-pricing
-random_paper: 70
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Frostbyte Rate Limits

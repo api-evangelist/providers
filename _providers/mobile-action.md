@@ -136,7 +136,7 @@ overview: 'Mobile Action publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Mobile Action''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 15 more developer resources.'
-random_paper: 6
+random_paper: 51
 score:
   band: thin
   composite: 35.5

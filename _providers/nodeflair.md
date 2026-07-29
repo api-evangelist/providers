@@ -52,7 +52,7 @@ name: NodeFlair
 nav: Providers
 network: true
 overview: NodeFlair is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Jobs, Recruiting, Salaries, and Career.
-random_paper: 24
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

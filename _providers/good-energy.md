@@ -123,7 +123,7 @@ overview: 'Good Energy publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Good Energy''s developer surface includes engineering blog, authentication, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 42
+random_paper: 14
 scopes:
 - name: Good Energy Scopes
   scope_count: 6

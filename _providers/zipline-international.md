@@ -44,7 +44,7 @@ name: Zipline International
 nav: Providers
 network: true
 overview: Zipline International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and American Dynamism.
-random_paper: 52
+random_paper: 75
 score:
   band: minimal
   composite: 4.1

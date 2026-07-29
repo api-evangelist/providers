@@ -131,7 +131,7 @@ overview: 'Instant Commerce is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Instant Commerce''s developer surface includes documentation, pricing, signup flow, engineering blog, support, changelog, and 15 more developer resources.'
-random_paper: 40
+random_paper: 77
 score:
   band: thin
   composite: 29.1

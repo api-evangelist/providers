@@ -139,7 +139,7 @@ overview: 'ClickFunnels publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ClickFunnels'' developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 49
+random_paper: 17
 score:
   band: thin
   composite: 32.2

@@ -84,7 +84,7 @@ plans:
 - name: Data Amerigeoss Org Plans Pricing
   plan_count: 1
   slug: data-amerigeoss-org-plans-pricing
-random_paper: 51
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Data Amerigeoss Org Rate Limits

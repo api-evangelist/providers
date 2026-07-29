@@ -111,7 +111,7 @@ plans:
 - name: University Of Nottingham Plans Pricing
   plan_count: 2
   slug: university-of-nottingham-plans-pricing
-random_paper: 42
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: University Of Nottingham Rate Limits

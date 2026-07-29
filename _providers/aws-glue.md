@@ -127,7 +127,7 @@ overview: 'AWS Glue publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   AWS Glue''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, engineering blog, and 10 more developer resources.'
-random_paper: 35
+random_paper: 15
 score:
   band: thin
   composite: 37.0

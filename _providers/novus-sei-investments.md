@@ -52,7 +52,7 @@ name: Novus (SEI Investments)
 nav: Providers
 network: true
 overview: Novus (SEI Investments) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Portfolio Analytics, Investment Management, and Wealth Management.
-random_paper: 42
+random_paper: 65
 score:
   band: minimal
   composite: 7.6

@@ -115,7 +115,7 @@ overview: 'APIsec is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   APIsec''s developer surface includes documentation, API reference, pricing, engineering blog, signup flow, support, and 12 more developer resources.'
-random_paper: 24
+random_paper: 8
 score:
   band: emerging
   composite: 20.7

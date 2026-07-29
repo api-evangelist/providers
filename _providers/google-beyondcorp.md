@@ -122,7 +122,7 @@ plans:
 - name: Google Beyondcorp Plans Pricing
   plan_count: 3
   slug: google-beyondcorp-plans-pricing
-random_paper: 65
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Google Beyondcorp Rate Limits

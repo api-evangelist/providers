@@ -59,7 +59,7 @@ overview: 'Humans Anonymous is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Humans Anonymous'' developer surface includes signup flow and 3 more developer resources.'
-random_paper: 4
+random_paper: 39
 score:
   band: minimal
   composite: 11.8

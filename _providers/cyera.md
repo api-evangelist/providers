@@ -152,7 +152,7 @@ overview: 'Cyera publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cyera''s developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, authentication, and 18 more developer resources.'
-random_paper: 70
+random_paper: 58
 scopes:
 - name: Cyera Scopes
   scope_count: 3

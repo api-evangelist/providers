@@ -79,7 +79,7 @@ overview: '42Maru is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   42Maru''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 0
+random_paper: 65
 score:
   band: minimal
   composite: 12.3

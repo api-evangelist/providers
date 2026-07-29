@@ -165,7 +165,7 @@ plans:
 - name: Ai21 Labs Plans Pricing
   plan_count: 1
   slug: ai21-labs-plans-pricing
-random_paper: 71
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Ai21 Labs Rate Limits

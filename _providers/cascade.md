@@ -44,7 +44,7 @@ name: Cascade
 nav: Providers
 network: true
 overview: Cascade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No-Code, Data Analytics, Data Preparation, and Business Intelligence.
-random_paper: 15
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

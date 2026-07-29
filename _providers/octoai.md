@@ -121,7 +121,7 @@ name: OctoAI
 nav: Providers
 network: true
 overview: OctoAI publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Defunct, AI Inference, Generative AI, and LLM.
-random_paper: 23
+random_paper: 7
 score:
   band: minimal
   composite: 8.5

@@ -116,7 +116,7 @@ overview: 'Klarity is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Klarity''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 75
+random_paper: 57
 score:
   band: emerging
   composite: 22.7

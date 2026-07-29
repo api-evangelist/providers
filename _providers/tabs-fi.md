@@ -163,7 +163,7 @@ plans:
 - name: Tabs Fi Plans Pricing
   plan_count: 1
   slug: tabs-fi-plans-pricing
-random_paper: 62
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Tabs Fi Rate Limits

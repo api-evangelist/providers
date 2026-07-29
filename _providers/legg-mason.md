@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Legg Mason Reports Assets Under Management and ...
   url: https://www.prnewswire.com/news-releases/legg-mason-reports-assets-under-management-and-flows-for-january-2020-301003411.html
-random_paper: 1
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

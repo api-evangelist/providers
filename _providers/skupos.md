@@ -79,7 +79,7 @@ overview: 'Skupos is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Skupos'' developer surface includes support, pricing, and 7 more developer resources.'
-random_paper: 61
+random_paper: 45
 score:
   band: emerging
   composite: 14.8

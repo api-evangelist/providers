@@ -347,7 +347,7 @@ overview: 'ETSI publishes 23 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ETSI''s developer surface includes documentation, developer portal, sandbox, API reference, getting-started guide, support, engineering blog, and 50 more developer resources.'
-random_paper: 52
+random_paper: 42
 scopes:
 - name: Etsi Scopes
   scope_count: 13

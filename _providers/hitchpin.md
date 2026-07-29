@@ -164,7 +164,7 @@ overview: 'HitchPin publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   HitchPin''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 8
+random_paper: 65
 score:
   band: thin
   composite: 41.5

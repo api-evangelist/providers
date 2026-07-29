@@ -48,7 +48,7 @@ name: Onaroll
 nav: Providers
 network: true
 overview: Onaroll is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Vertical Software.
-random_paper: 66
+random_paper: 48
 score:
   band: minimal
   composite: 4.1

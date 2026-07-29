@@ -184,6 +184,22 @@
     "cover": "https://papers.apievangelist.com/assets/covers/insight-partners-api-portfolio.png"
   },
   {
+    "slug": "insights-jp-morgan-chase",
+    "title": "JPMorgan Chase — Enterprise Insights Bundle",
+    "tagline": "What JPMorgan Chase is actually buying, read from 7,799 of its own job postings — and what its API surface says back.",
+    "area": "Enterprise Insights",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-jp-morgan-chase.png"
+  },
+  {
+    "slug": "insights-salesforce",
+    "title": "Salesforce — Enterprise Insights Bundle",
+    "tagline": "What Salesforce is actually buying, read from 1,434 of its own job postings — and the exemplar API surface it will judge yours against.",
+    "area": "Enterprise Insights",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-salesforce.png"
+  },
+  {
     "slug": "kleiner-perkins-api-portfolio",
     "title": "The Kleiner Perkins API Portfolio",
     "tagline": "A small book with the densest top end I have measured, where every exemplar is a frontier AI or design-infra bet and the mature franchises ship breadth but no agent surface.",

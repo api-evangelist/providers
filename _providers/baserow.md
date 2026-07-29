@@ -331,7 +331,7 @@ plans:
 - name: Baserow Plans Pricing
   plan_count: 4
   slug: baserow-plans-pricing
-random_paper: 62
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Baserow Rate Limits

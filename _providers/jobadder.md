@@ -83,7 +83,7 @@ overview: 'JobAdder publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   JobAdder''s developer surface includes documentation, support, signup flow, pricing, engineering blog, and 4 more developer resources.'
-random_paper: 57
+random_paper: 37
 score:
   band: minimal
   composite: 12.7

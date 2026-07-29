@@ -48,7 +48,7 @@ name: Trusted Insight
 nav: Providers
 network: true
 overview: Trusted Insight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 42
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

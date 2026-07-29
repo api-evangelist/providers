@@ -48,7 +48,7 @@ name: Blue Studios.io, BlueStudios
 nav: Providers
 network: true
 overview: Blue Studios.io, BlueStudios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Family Technology, Fintech, and Education.
-random_paper: 17
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

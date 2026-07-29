@@ -83,7 +83,7 @@ overview: 'Dayuse is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Dayuse''s developer surface includes developer portal, support, getting-started guide, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 35
+random_paper: 19
 score:
   band: emerging
   composite: 17.1

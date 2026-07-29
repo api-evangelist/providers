@@ -99,7 +99,7 @@ overview: 'Provi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Provi''s developer surface includes engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 21
+random_paper: 7
 score:
   band: emerging
   composite: 13.1

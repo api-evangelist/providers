@@ -61,7 +61,7 @@ name: Frazer Consultants
 nav: Providers
 network: true
 overview: Frazer Consultants is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Funeral Homes, Death Care, Funeral Home Software, Tribute Technology, and Memorial Websites.
-random_paper: 16
+random_paper: 47
 score:
   band: minimal
   composite: 5.7

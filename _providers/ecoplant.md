@@ -63,7 +63,7 @@ overview: 'EcoPlant is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   EcoPlant''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 7
+random_paper: 64
 score:
   band: minimal
   composite: 10.2

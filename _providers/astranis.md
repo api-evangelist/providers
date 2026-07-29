@@ -118,7 +118,7 @@ overview: 'Astranis is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Astranis'' developer surface includes engineering blog, YouTube channel, authentication, and 7 more developer resources.'
-random_paper: 22
+random_paper: 0
 score:
   band: minimal
   composite: 9.2

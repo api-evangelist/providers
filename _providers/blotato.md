@@ -121,7 +121,7 @@ plans:
 - name: Blotato Plans Pricing
   plan_count: 3
   slug: blotato-plans-pricing
-random_paper: 64
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Blotato Rate Limits

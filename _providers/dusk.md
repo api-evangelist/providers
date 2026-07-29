@@ -71,7 +71,7 @@ overview: 'Dusk is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Dusk''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 54
+random_paper: 44
 score:
   band: minimal
   composite: 9.2

@@ -59,7 +59,7 @@ overview: 'Fluor Corporation is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Fluor Corporation''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 26
+random_paper: 59
 score:
   band: minimal
   composite: 4.0

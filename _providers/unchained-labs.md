@@ -63,7 +63,7 @@ overview: 'Unchained Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Unchained Labs'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 20
+random_paper: 63
 score:
   band: minimal
   composite: 10.4

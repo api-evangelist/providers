@@ -153,7 +153,7 @@ plans:
 - name: Koalaboox Plans
   plan_count: 4
   slug: koalaboox-plans
-random_paper: 36
+random_paper: 12
 score:
   band: thin
   composite: 32.4

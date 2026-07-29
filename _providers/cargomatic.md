@@ -172,7 +172,7 @@ overview: 'Cargomatic publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cargomatic''s developer surface includes documentation, API reference, support, FAQ, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 49
+random_paper: 23
 score:
   band: thin
   composite: 40.8

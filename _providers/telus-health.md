@@ -110,7 +110,7 @@ overview: 'TELUS Health publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   TELUS Health''s developer surface includes documentation, API reference, getting-started guide, authentication, and 12 more developer resources.'
-random_paper: 0
+random_paper: 47
 score:
   band: thin
   composite: 29.0

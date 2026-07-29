@@ -63,7 +63,7 @@ overview: 'PharmaCCX is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   PharmaCCX''s developer surface includes support and 4 more developer resources.'
-random_paper: 27
+random_paper: 3
 score:
   band: minimal
   composite: 10.9

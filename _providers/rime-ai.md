@@ -111,7 +111,7 @@ plans:
 - name: Rime Ai Plans Pricing
   plan_count: 4
   slug: rime-ai-plans-pricing
-random_paper: 60
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Rime Ai Rate Limits

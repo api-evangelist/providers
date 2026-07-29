@@ -115,7 +115,7 @@ overview: 'Youi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Youi''s developer surface includes support, engineering blog, and 18 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: emerging
   composite: 23.3

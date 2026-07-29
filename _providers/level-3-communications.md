@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Level 3 Communications Leads Council to Define New ...
   url: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1998/m06/level-3-communications-leads-council-to-define-new-standards-for-network-interconnection.html
-random_paper: 34
+random_paper: 57
 score:
   band: minimal
   composite: 5.5

@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Arris Wins 4K STB Deal With Altice
   url: https://www.lightreading.com/network-technology/arris-wins-4k-stb-deal-with-altice
-random_paper: 69
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Arris Group Rate Limits

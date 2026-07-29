@@ -128,7 +128,7 @@ overview: 'Laurence publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Laurence''s developer surface includes authentication, documentation, engineering blog, signup flow, support, and 14 more developer resources.'
-random_paper: 0
+random_paper: 57
 scopes:
 - name: Laurence Scopes
   scope_count: 0

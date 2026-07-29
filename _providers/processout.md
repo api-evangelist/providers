@@ -253,7 +253,7 @@ overview: 'ProcessOut publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ProcessOut''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
-random_paper: 33
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Processout Rate Limits

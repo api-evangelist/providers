@@ -225,7 +225,7 @@ overview: 'TabaPay publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TabaPay''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 45
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Tabapay Rate Limits

@@ -130,7 +130,7 @@ overview: 'Invoice Ninja publishes 10 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Invoice Ninja''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 13
+random_paper: 58
 score:
   band: emerging
   composite: 26.6

@@ -159,7 +159,7 @@ overview: 'Fidel publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Fidel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 54
+random_paper: 42
 score:
   band: developing
   composite: 51.8

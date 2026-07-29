@@ -55,7 +55,7 @@ overview: 'Jumbo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jumbo''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 2
+random_paper: 67
 score:
   band: minimal
   composite: 5.4

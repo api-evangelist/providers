@@ -100,7 +100,7 @@ overview: 'Piper Inc. publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Piper Inc.''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 56
+random_paper: 34
 scopes:
 - name: Piper Inc Scopes
   scope_count: 4

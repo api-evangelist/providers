@@ -319,7 +319,7 @@ plans:
 - name: Bigpanda Plans Pricing
   plan_count: 3
   slug: bigpanda-plans-pricing
-random_paper: 52
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Bigpanda Rate Limits

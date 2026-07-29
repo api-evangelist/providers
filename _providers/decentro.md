@@ -174,7 +174,7 @@ plans:
 - name: Decentro Plans Pricing
   plan_count: 2
   slug: decentro-plans-pricing
-random_paper: 5
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Decentro Rate Limits

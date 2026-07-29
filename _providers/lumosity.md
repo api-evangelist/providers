@@ -71,7 +71,7 @@ overview: 'Lumosity is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lumosity''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 55
+random_paper: 33
 score:
   band: emerging
   composite: 13.1

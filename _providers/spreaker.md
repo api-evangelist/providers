@@ -127,7 +127,7 @@ plans:
 - name: Spreaker Plans Pricing
   plan_count: 4
   slug: spreaker-plans-pricing
-random_paper: 14
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Spreaker Rate Limits

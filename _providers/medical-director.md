@@ -91,7 +91,7 @@ overview: 'MedicalDirector publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   MedicalDirector''s developer surface includes documentation, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 7
+random_paper: 44
 score:
   band: emerging
   composite: 25.4

@@ -184,7 +184,7 @@ plans:
 - name: Sandp Global Plans Pricing
   plan_count: 1
   slug: sandp-global-plans-pricing
-random_paper: 49
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Sandp Global Rate Limits

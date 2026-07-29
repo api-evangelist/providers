@@ -96,7 +96,7 @@ plans:
 - name: Namesilo Plans Pricing
   plan_count: 3
   slug: namesilo-plans-pricing
-random_paper: 9
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Namesilo Rate Limits

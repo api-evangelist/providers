@@ -123,7 +123,7 @@ overview: 'Xapo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Xapo''s developer surface includes support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 55
+random_paper: 45
 score:
   band: emerging
   composite: 25.9

@@ -111,7 +111,7 @@ overview: 'Brilliant is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Brilliant''s developer surface includes pricing, engineering blog, YouTube channel, support, and 13 more developer resources.'
-random_paper: 37
+random_paper: 13
 score:
   band: minimal
   composite: 12.6

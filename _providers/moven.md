@@ -63,7 +63,7 @@ overview: 'Moven is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Moven''s developer surface includes support and 4 more developer resources.'
-random_paper: 10
+random_paper: 75
 score:
   band: minimal
   composite: 6.1

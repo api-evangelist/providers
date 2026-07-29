@@ -194,7 +194,7 @@ overview: 'Merit Systems publishes 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Merit Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 23 more developer resources.'
-random_paper: 73
+random_paper: 39
 score:
   band: developing
   composite: 52.2

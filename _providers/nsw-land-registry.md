@@ -225,7 +225,7 @@ overview: 'NSW Land Registry Services publishes 3 APIs on the [APIs.io](https://
 
 
   NSW Land Registry Services'' developer surface includes authentication, changelog, code examples, engineering blog, documentation, developer portal, pricing, and 29 more developer resources.'
-random_paper: 44
+random_paper: 0
 score:
   band: developing
   composite: 46.0

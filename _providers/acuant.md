@@ -188,7 +188,7 @@ plans:
 - name: Acuant Plans Pricing
   plan_count: 5
   slug: acuant-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Acuant Rate Limits

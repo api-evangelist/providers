@@ -48,7 +48,7 @@ name: Human DX
 nav: Providers
 network: true
 overview: Human DX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Medical, and Diagnosis.
-random_paper: 32
+random_paper: 12
 score:
   band: minimal
   composite: 5.4

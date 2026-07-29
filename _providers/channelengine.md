@@ -221,7 +221,7 @@ overview: 'ChannelEngine publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   ChannelEngine''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: developing
   composite: 55.7

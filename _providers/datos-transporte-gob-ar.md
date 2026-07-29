@@ -84,7 +84,7 @@ plans:
 - name: Datos Transporte Gob Ar Plans Pricing
   plan_count: 1
   slug: datos-transporte-gob-ar-plans-pricing
-random_paper: 70
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Datos Transporte Gob Ar Rate Limits

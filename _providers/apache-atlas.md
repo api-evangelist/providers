@@ -300,7 +300,7 @@ plans:
 - name: Apache Atlas Plans Pricing
   plan_count: 3
   slug: apache-atlas-plans-pricing
-random_paper: 33
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Apache Atlas Rate Limits

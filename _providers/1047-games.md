@@ -63,7 +63,7 @@ overview: '1047 Games is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   1047 Games'' developer surface includes support and 4 more developer resources.'
-random_paper: 4
+random_paper: 63
 score:
   band: minimal
   composite: 10.1

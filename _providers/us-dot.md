@@ -295,7 +295,7 @@ overview: 'U.S. Department of Transportation publishes 5 APIs on the [APIs.io](h
 
 
   U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 38 more developer resources.'
-random_paper: 65
+random_paper: 51
 score:
   band: developing
   composite: 48.4

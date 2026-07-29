@@ -39,7 +39,7 @@ name: Yammer
 nav: Providers
 network: true
 overview: Yammer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise Software.
-random_paper: 35
+random_paper: 19
 score:
   band: minimal
   composite: 4.1

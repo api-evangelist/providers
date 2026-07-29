@@ -104,7 +104,7 @@ overview: 'Pachyderm publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Pachyderm''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 9 more developer resources.'
-random_paper: 33
+random_paper: 9
 score:
   band: emerging
   composite: 18.5

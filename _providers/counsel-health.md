@@ -107,7 +107,7 @@ overview: 'Counsel Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Counsel Health''s developer surface includes documentation, engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 50
+random_paper: 14
 score:
   band: emerging
   composite: 22.3

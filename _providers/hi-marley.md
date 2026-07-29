@@ -67,7 +67,7 @@ overview: 'Hi Marley is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Hi Marley''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 57
+random_paper: 35
 score:
   band: minimal
   composite: 12.1

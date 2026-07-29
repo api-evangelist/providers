@@ -48,7 +48,7 @@ name: VINNO
 nav: Providers
 network: true
 overview: VINNO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Ultrasound, and Medical Imaging.
-random_paper: 15
+random_paper: 1
 score:
   band: minimal
   composite: 5.4

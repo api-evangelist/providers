@@ -135,7 +135,7 @@ overview: 'HEDNA is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   HEDNA''s developer surface includes engineering blog, pricing, signup flow, YouTube channel, and 21 more developer resources.'
-random_paper: 50
+random_paper: 38
 score:
   band: emerging
   composite: 14.1

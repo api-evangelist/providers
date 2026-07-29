@@ -69,7 +69,7 @@ plans:
 - name: Syneos Health Plans Pricing
   plan_count: 1
   slug: syneos-health-plans-pricing
-random_paper: 39
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Syneos Health Rate Limits

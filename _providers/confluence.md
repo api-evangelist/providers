@@ -1093,7 +1093,7 @@ plans:
 - name: Confluence Plans Pricing
   plan_count: 4
   slug: confluence-plans-pricing
-random_paper: 57
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Confluence Rate Limits

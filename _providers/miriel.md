@@ -173,7 +173,7 @@ overview: 'Miriel publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Miriel''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 26
+random_paper: 10
 score:
   band: thin
   composite: 39.2

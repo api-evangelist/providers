@@ -84,7 +84,7 @@ overview: 'Calificadas is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Calificadas'' developer surface includes YouTube channel and 9 more developer resources.'
-random_paper: 46
+random_paper: 18
 score:
   band: minimal
   composite: 9.2

@@ -100,7 +100,7 @@ overview: 'Seezo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Seezo''s developer surface includes engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 11
+random_paper: 76
 score:
   band: emerging
   composite: 21.2

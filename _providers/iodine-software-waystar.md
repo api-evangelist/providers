@@ -79,7 +79,7 @@ overview: 'Iodine Software (Waystar) is profiled on the [APIs.io](https://apis.i
 
 
   Iodine Software (Waystar)''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 66
+random_paper: 6
 score:
   band: minimal
   composite: 11.6

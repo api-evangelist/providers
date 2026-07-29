@@ -79,7 +79,7 @@ overview: 'Flarion is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Flarion''s developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
-random_paper: 54
+random_paper: 36
 score:
   band: emerging
   composite: 15.2

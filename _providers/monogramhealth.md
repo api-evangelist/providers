@@ -48,7 +48,7 @@ name: Monogramhealth
 nav: Providers
 network: true
 overview: Monogramhealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Value-Based Care, Kidney Care, and Chronic Disease.
-random_paper: 31
+random_paper: 72
 score:
   band: minimal
   composite: 5.4

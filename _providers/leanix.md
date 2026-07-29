@@ -120,7 +120,7 @@ plans:
 - name: Leanix Plans Pricing
   plan_count: 3
   slug: leanix-plans-pricing
-random_paper: 25
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Leanix Rate Limits

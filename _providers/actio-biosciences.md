@@ -63,7 +63,7 @@ overview: 'Actio Biosciences is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Actio Biosciences'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 38
+random_paper: 73
 score:
   band: minimal
   composite: 9.7

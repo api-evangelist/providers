@@ -84,7 +84,7 @@ plans:
 - name: Us Air Force Plans Pricing
   plan_count: 3
   slug: us-air-force-plans-pricing
-random_paper: 10
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Us Air Force Rate Limits

@@ -601,7 +601,7 @@ plans:
 - name: Azure Storage Account Plans Pricing
   plan_count: 5
   slug: azure-storage-account-plans-pricing
-random_paper: 68
+random_paper: 14
 rate_limits:
 - limit_count: 13
   name: Azure Storage Account Rate Limits

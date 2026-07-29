@@ -116,7 +116,7 @@ overview: 'Lightforce publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Lightforce''s developer surface includes support, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 62
+random_paper: 36
 scopes:
 - name: Lightforce Scopes
   scope_count: 14

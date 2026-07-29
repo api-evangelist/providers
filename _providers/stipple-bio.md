@@ -48,7 +48,7 @@ name: Stipple Bio
 nav: Providers
 network: true
 overview: Stipple Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Oncology, and Precision Medicine.
-random_paper: 50
+random_paper: 22
 score:
   band: minimal
   composite: 5.4

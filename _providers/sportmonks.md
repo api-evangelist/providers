@@ -313,7 +313,7 @@ plans:
 - name: Sportmonks Plans Pricing
   plan_count: 6
   slug: sportmonks-plans-pricing
-random_paper: 42
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Sportmonks Rate Limits

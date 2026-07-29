@@ -155,7 +155,7 @@ plans:
 - name: Amazon Resilience Hub Plans Pricing
   plan_count: 3
   slug: amazon-resilience-hub-plans-pricing
-random_paper: 35
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Amazon Resilience Hub Rate Limits

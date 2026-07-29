@@ -99,7 +99,7 @@ plans:
 - name: University Of Liverpool Plans Pricing
   plan_count: 2
   slug: university-of-liverpool-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: University Of Liverpool Rate Limits

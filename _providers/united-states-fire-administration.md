@@ -105,7 +105,7 @@ plans:
 - name: United States Fire Administration Plans Pricing
   plan_count: 3
   slug: united-states-fire-administration-plans-pricing
-random_paper: 65
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: United States Fire Administration Rate Limits

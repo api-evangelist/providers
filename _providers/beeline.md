@@ -96,7 +96,7 @@ overview: 'Beeline is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Beeline''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 31
+random_paper: 13
 scopes:
 - name: Beeline Scopes
   scope_count: 4

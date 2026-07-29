@@ -133,7 +133,7 @@ plans:
 - name: Interactive Brokers Plans Pricing
   plan_count: 3
   slug: interactive-brokers-plans-pricing
-random_paper: 62
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Interactive Brokers Rate Limits

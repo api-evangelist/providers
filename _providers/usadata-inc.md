@@ -99,7 +99,7 @@ overview: 'USADATA, Inc. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   USADATA, Inc.''s developer surface includes engineering blog, support, sandbox, and 11 more developer resources.'
-random_paper: 20
+random_paper: 71
 score:
   band: emerging
   composite: 18.5

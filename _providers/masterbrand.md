@@ -83,7 +83,7 @@ overview: 'MasterBrand is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   MasterBrand''s developer surface includes product news and 9 more developer resources.'
-random_paper: 16
+random_paper: 65
 score:
   band: minimal
   composite: 7.7

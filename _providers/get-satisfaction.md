@@ -48,7 +48,7 @@ name: Get Satisfaction
 nav: Providers
 network: true
 overview: Get Satisfaction is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Community, Customer Engagement, Customer Support, and Community Platform.
-random_paper: 36
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

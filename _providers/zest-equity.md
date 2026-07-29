@@ -217,7 +217,7 @@ overview: 'Zest Equity publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Zest Equity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 23 more developer resources.'
-random_paper: 17
+random_paper: 66
 score:
   band: developing
   composite: 50.9

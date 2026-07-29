@@ -83,7 +83,7 @@ overview: 'Beem is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Beem''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 24
+random_paper: 14
 score:
   band: emerging
   composite: 20.2

@@ -197,7 +197,7 @@ press:
 - date: '2026-05-25'
   title: News Releases - Broadcom News and Stories
   url: https://news.broadcom.com/releases
-random_paper: 69
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Broadcom Rate Limits

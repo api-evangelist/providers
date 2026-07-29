@@ -44,7 +44,7 @@ name: Nok Nok Labs
 nav: Providers
 network: true
 overview: Nok Nok Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Authentication, FIDO, and Passwordless.
-random_paper: 9
+random_paper: 58
 score:
   band: minimal
   composite: 5.0

@@ -56,7 +56,7 @@ name: TheNews
 nav: Providers
 network: true
 overview: TheNews publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include News and Public APIs.
-random_paper: 73
+random_paper: 55
 score:
   band: minimal
   composite: 5.7

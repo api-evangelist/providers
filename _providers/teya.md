@@ -224,7 +224,7 @@ overview: 'Teya publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Teya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 50
+random_paper: 40
 scopes:
 - name: Teya Scopes
   scope_count: 2

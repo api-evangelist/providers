@@ -67,7 +67,7 @@ overview: 'Keychain is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Keychain''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 46
+random_paper: 75
 score:
   band: minimal
   composite: 11.6

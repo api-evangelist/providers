@@ -48,7 +48,7 @@ name: Win-Win
 nav: Providers
 network: true
 overview: Win-Win is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fundraising, Nonprofit, Charity, and Donations.
-random_paper: 20
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

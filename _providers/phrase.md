@@ -292,7 +292,7 @@ plans:
 - name: Phrase Plans Pricing
   plan_count: 3
   slug: phrase-plans-pricing
-random_paper: 27
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Phrase Rate Limits

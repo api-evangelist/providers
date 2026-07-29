@@ -195,7 +195,7 @@ overview: 'BankVic publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   BankVic''s developer surface includes authentication, documentation, getting-started guide, API reference, support, signup flow, and 21 more developer resources.'
-random_paper: 41
+random_paper: 23
 scopes:
 - name: Bankvic Scopes
   scope_count: 9

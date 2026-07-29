@@ -359,7 +359,7 @@ overview: 'Bluejay publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bluejay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
-random_paper: 55
+random_paper: 37
 score:
   band: developing
   composite: 50.4

@@ -83,7 +83,7 @@ overview: 'Meisterwerk is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Meisterwerk''s developer surface includes pricing, engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 47
+random_paper: 17
 score:
   band: emerging
   composite: 16.0

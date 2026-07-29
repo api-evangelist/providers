@@ -1194,7 +1194,7 @@ plans:
 - name: Tableau Plans Pricing
   plan_count: 4
   slug: tableau-plans-pricing
-random_paper: 41
+random_paper: 23
 rate_limits:
 - limit_count: 6
   name: Tableau Rate Limits

@@ -128,7 +128,7 @@ plans:
 - name: Modal Labs Plans Pricing
   plan_count: 4
   slug: modal-labs-plans-pricing
-random_paper: 64
+random_paper: 40
 rate_limits:
 - limit_count: 6
   name: Modal Labs Rate Limits

@@ -59,7 +59,7 @@ overview: 'CODEX.md is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CODEX.md''s developer surface includes documentation, GitHub presence, and 2 more developer resources.'
-random_paper: 15
+random_paper: 74
 score:
   band: minimal
   composite: 7.4

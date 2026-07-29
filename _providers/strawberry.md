@@ -99,7 +99,7 @@ overview: 'Strawberry is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Strawberry''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, and 9 more developer resources.'
-random_paper: 31
+random_paper: 3
 score:
   band: emerging
   composite: 19.8

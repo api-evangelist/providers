@@ -75,7 +75,7 @@ overview: 'Ubiquity6 is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ubiquity6''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 22
+random_paper: 77
 score:
   band: minimal
   composite: 12.2

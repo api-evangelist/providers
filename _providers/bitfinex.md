@@ -70,7 +70,7 @@ overview: 'Bitfinex publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Bitfinex''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 10
+random_paper: 67
 rules:
 - name: Bitfinex API Rules
   rule_count: 6

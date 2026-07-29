@@ -48,7 +48,7 @@ name: Pinshape
 nav: Providers
 network: true
 overview: Pinshape is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Marketplace, Manufacturing, and Design.
-random_paper: 9
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

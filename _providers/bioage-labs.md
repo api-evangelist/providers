@@ -63,7 +63,7 @@ overview: 'BioAge Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   BioAge Labs'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 0
+random_paper: 51
 score:
   band: minimal
   composite: 8.3

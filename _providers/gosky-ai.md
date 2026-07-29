@@ -83,7 +83,7 @@ overview: 'GoSky AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GoSky AI''s developer surface includes developer portal, signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 34
+random_paper: 14
 score:
   band: emerging
   composite: 16.1

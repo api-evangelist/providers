@@ -76,7 +76,7 @@ plans:
 - name: Openidl Plans Pricing
   plan_count: 3
   slug: openidl-plans-pricing
-random_paper: 54
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Openidl Rate Limits

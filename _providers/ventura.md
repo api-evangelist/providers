@@ -56,7 +56,7 @@ name: Ventura
 nav: Providers
 network: true
 overview: Ventura is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Distributors, and Manufacturers.
-random_paper: 3
+random_paper: 62
 score:
   band: minimal
   composite: 7.1

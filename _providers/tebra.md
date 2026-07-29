@@ -125,7 +125,7 @@ plans:
 - name: Tebra Plans Pricing
   plan_count: 3
   slug: tebra-plans-pricing
-random_paper: 64
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Tebra Rate Limits

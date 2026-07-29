@@ -63,7 +63,7 @@ overview: 'Humans is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Humans'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: minimal
   composite: 6.1

@@ -39,7 +39,7 @@ name: Outils De Travail Digitaux
 nav: Providers
 network: true
 overview: Outils De Travail Digitaux is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Digital Workplace, France, and Productivity.
-random_paper: 8
+random_paper: 19
 score:
   band: minimal
   composite: 3.2

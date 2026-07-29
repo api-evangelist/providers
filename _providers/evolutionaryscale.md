@@ -132,7 +132,7 @@ plans:
 - name: Evolutionaryscale Plans Pricing
   plan_count: 4
   slug: evolutionaryscale-plans-pricing
-random_paper: 1
+random_paper: 32
 rate_limits:
 - limit_count: 7
   name: Evolutionaryscale Rate Limits

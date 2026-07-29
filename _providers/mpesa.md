@@ -287,7 +287,7 @@ plans:
 - name: Mpesa Plans Pricing
   plan_count: 3
   slug: mpesa-plans-pricing
-random_paper: 72
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Mpesa Rate Limits

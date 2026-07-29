@@ -190,7 +190,7 @@ plans:
 - name: Ernst And Young Plans Pricing
   plan_count: 3
   slug: ernst-and-young-plans-pricing
-random_paper: 52
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Ernst And Young Rate Limits

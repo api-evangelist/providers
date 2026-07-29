@@ -356,7 +356,7 @@ plans:
 - name: Seismic Plans Pricing
   plan_count: 1
   slug: seismic-plans-pricing
-random_paper: 56
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Seismic Rate Limits

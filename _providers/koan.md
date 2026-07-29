@@ -39,7 +39,7 @@ name: Koan
 nav: Providers
 network: true
 overview: Koan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, OKRs, Goal Management, Performance Management, and Productivity.
-random_paper: 40
+random_paper: 30
 score:
   band: minimal
   composite: 5.0

@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: 'AI stocks: Boom or bust? Ameriprise Chief Market Strategist ...'
   url: https://www.instagram.com/reel/DSkc7-Dkgq0/
-random_paper: 49
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Ameriprise Financial Rate Limits

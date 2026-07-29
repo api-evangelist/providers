@@ -44,7 +44,7 @@ name: bioscience-tj
 nav: Providers
 network: true
 overview: bioscience-tj is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Diagnostics, In-Vitro Diagnostics, and Medical Devices.
-random_paper: 2
+random_paper: 47
 score:
   band: minimal
   composite: 4.3

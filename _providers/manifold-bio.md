@@ -48,7 +48,7 @@ name: Manifold Bio
 nav: Providers
 network: true
 overview: Manifold Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engineered Biology, Biotechnology, Drug Discovery, and Protein Design.
-random_paper: 46
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

@@ -425,7 +425,7 @@ overview: 'AppDirect publishes 75 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AppDirect''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 32
+random_paper: 8
 scopes:
 - name: Appdirect Scopes
   scope_count: 15

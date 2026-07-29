@@ -186,7 +186,7 @@ overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Blockade Games'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 5
+random_paper: 48
 score:
   band: developing
   composite: 53.2

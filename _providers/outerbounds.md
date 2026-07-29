@@ -107,7 +107,7 @@ overview: 'Outerbounds is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Outerbounds'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, and 10 more developer resources.'
-random_paper: 55
+random_paper: 25
 score:
   band: emerging
   composite: 25.3

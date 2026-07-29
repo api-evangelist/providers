@@ -282,7 +282,7 @@ overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Verifiable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 48
+random_paper: 22
 score:
   band: developing
   composite: 51.4

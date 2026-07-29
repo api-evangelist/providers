@@ -95,7 +95,7 @@ overview: 'Black Crow AI is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Black Crow AI''s developer surface includes support, signup flow, and 11 more developer resources.'
-random_paper: 12
+random_paper: 59
 score:
   band: emerging
   composite: 16.6

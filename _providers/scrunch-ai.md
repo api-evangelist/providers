@@ -230,7 +230,7 @@ overview: 'Scrunch AI publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Scrunch AI''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
-random_paper: 4
+random_paper: 57
 scopes:
 - name: Scrunch Ai Scopes
   scope_count: 3

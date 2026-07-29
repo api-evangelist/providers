@@ -123,7 +123,7 @@ overview: 'Apptimize publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Apptimize''s developer surface includes documentation, API reference, support, authentication, and 13 more developer resources.'
-random_paper: 55
+random_paper: 31
 score:
   band: thin
   composite: 34.3

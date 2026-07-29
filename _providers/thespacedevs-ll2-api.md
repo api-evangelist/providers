@@ -224,7 +224,7 @@ plans:
 - name: Thespacedevs Ll2 Api Plans Pricing
   plan_count: 3
   slug: thespacedevs-ll2-api-plans-pricing
-random_paper: 24
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Thespacedevs Ll2 Api Rate Limits

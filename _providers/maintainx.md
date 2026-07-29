@@ -278,7 +278,7 @@ overview: 'MaintainX publishes 29 APIs on the [APIs.io](https://apis.io/) networ
 
 
   MaintainX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 45
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Maintainx Rate Limits

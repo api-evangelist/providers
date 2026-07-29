@@ -118,7 +118,7 @@ plans:
 - name: Bytescale Plans Pricing
   plan_count: 6
   slug: bytescale-plans-pricing
-random_paper: 32
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Bytescale Rate Limits

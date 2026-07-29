@@ -59,7 +59,7 @@ overview: 'Dotterel is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Dotterel''s developer surface includes support and 3 more developer resources.'
-random_paper: 20
+random_paper: 77
 score:
   band: minimal
   composite: 8.0

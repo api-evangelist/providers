@@ -95,7 +95,7 @@ overview: 'Empathy is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Empathy''s developer surface includes signup flow, engineering blog, and 11 more developer resources.'
-random_paper: 67
+random_paper: 49
 score:
   band: emerging
   composite: 18.4

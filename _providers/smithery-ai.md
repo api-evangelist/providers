@@ -410,7 +410,7 @@ plans:
 - name: Smithery Ai Plans Pricing
   plan_count: 4
   slug: smithery-ai-plans-pricing
-random_paper: 54
+random_paper: 26
 rate_limits:
 - limit_count: 6
   name: Smithery Ai Rate Limits

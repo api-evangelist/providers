@@ -64,7 +64,7 @@ name: Mytos
 nav: Providers
 network: true
 overview: Mytos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Cell Therapy, Regenerative Medicine, and Manufacturing Automation.
-random_paper: 33
+random_paper: 19
 score:
   band: minimal
   composite: 11.3

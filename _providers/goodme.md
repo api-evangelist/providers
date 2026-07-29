@@ -44,7 +44,7 @@ name: Goodme
 nav: Providers
 network: true
 overview: Goodme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Bubble Tea, and Franchise.
-random_paper: 19
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

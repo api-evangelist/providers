@@ -52,7 +52,7 @@ name: Snaproute
 nav: Providers
 network: true
 overview: Snaproute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Network Operating System, Cloud Native, and SDN.
-random_paper: 69
+random_paper: 45
 score:
   band: minimal
   composite: 5.7

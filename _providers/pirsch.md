@@ -195,7 +195,7 @@ plans:
 - name: Pirsch Plans Pricing
   plan_count: 3
   slug: pirsch-plans-pricing
-random_paper: 33
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Pirsch Rate Limits

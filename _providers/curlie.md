@@ -72,7 +72,7 @@ name: Curlie
 nav: Providers
 network: true
 overview: Curlie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Categorization, Directory, DMOZ, Editorial, and Human-Edited.
-random_paper: 28
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

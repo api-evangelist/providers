@@ -135,7 +135,7 @@ plans:
 - name: Craft Cms Plans Pricing
   plan_count: 4
   slug: craft-cms-plans-pricing
-random_paper: 49
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Craft Cms Rate Limits

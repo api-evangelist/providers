@@ -120,7 +120,7 @@ plans:
 - name: Claim Md Plans Pricing
   plan_count: 2
   slug: claim-md-plans-pricing
-random_paper: 2
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Claim Md Rate Limits

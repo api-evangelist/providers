@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: News
   url: https://defense-solutions.curtisswright.com/media-center/news
-random_paper: 24
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

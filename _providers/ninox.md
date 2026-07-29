@@ -201,7 +201,7 @@ overview: 'Ninox publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Ninox''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: developing
   composite: 47.7

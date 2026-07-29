@@ -107,7 +107,7 @@ plans:
 - name: Google Cloud Recommendations Ai Plans Pricing
   plan_count: 3
   slug: google-cloud-recommendations-ai-plans-pricing
-random_paper: 37
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Google Cloud Recommendations Ai Rate Limits

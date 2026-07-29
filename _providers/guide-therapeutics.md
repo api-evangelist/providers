@@ -39,7 +39,7 @@ name: Guide Therapeutics *
 nav: Providers
 network: true
 overview: Guide Therapeutics * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Life Sciences.
-random_paper: 20
+random_paper: 51
 score:
   band: minimal
   composite: 3.5

@@ -85,7 +85,7 @@ plans:
 - name: Tugboat Logic Plans Pricing
   plan_count: 1
   slug: tugboat-logic-plans-pricing
-random_paper: 20
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Tugboat Logic Rate Limits

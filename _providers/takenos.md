@@ -59,7 +59,7 @@ overview: 'Takenos is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Takenos'' developer surface includes support and 3 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: minimal
   composite: 6.4

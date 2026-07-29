@@ -160,7 +160,7 @@ overview: 'Profluent is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Profluent''s developer surface includes sandbox, YouTube channel, engineering blog, and 26 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 11.6

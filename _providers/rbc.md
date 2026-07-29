@@ -126,7 +126,7 @@ overview: 'Royal Bank of Canada publishes 9 APIs on the [APIs.io](https://apis.i
 
 
   Royal Bank of Canada''s developer surface includes documentation, engineering blog, getting-started guide, signup flow, API reference, and 8 more developer resources.'
-random_paper: 3
+random_paper: 74
 score:
   band: emerging
   composite: 22.4

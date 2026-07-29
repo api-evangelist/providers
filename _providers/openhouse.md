@@ -63,7 +63,7 @@ overview: 'Openhouse is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Openhouse''s developer surface includes support and 4 more developer resources.'
-random_paper: 58
+random_paper: 34
 score:
   band: minimal
   composite: 10.1

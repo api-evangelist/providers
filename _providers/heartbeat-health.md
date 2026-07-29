@@ -71,7 +71,7 @@ overview: 'Heartbeat Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Heartbeat Health''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 2
+random_paper: 39
 score:
   band: emerging
   composite: 13.8

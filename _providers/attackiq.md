@@ -148,7 +148,7 @@ overview: 'AttackIQ publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   AttackIQ''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 17 more developer resources.'
-random_paper: 3
+random_paper: 60
 score:
   band: thin
   composite: 33.7

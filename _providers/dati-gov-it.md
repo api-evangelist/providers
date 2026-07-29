@@ -84,7 +84,7 @@ plans:
 - name: Dati Gov It Plans Pricing
   plan_count: 1
   slug: dati-gov-it-plans-pricing
-random_paper: 60
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Dati Gov It Rate Limits

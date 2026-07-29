@@ -56,7 +56,7 @@ name: Bacon Ipsum
 nav: Providers
 network: true
 overview: Bacon Ipsum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Test Data and Public APIs.
-random_paper: 40
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

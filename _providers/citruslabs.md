@@ -75,7 +75,7 @@ overview: 'Citruslabs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Citruslabs'' developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: minimal
   composite: 12.6

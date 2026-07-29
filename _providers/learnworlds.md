@@ -130,7 +130,7 @@ plans:
 - name: Learnworlds Plans Pricing
   plan_count: 4
   slug: learnworlds-plans-pricing
-random_paper: 42
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Learnworlds Rate Limits

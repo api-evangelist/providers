@@ -39,7 +39,7 @@ name: Ironport
 nav: Providers
 network: true
 overview: Ironport is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email Security, Web Security, Anti-Spam, and Email Gateway.
-random_paper: 46
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

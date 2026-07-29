@@ -151,7 +151,7 @@ overview: 'Nervos publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nervos'' developer surface includes documentation, getting-started guide, API reference, changelog, CLI, authentication, sandbox, and 16 more developer resources.'
-random_paper: 53
+random_paper: 37
 score:
   band: developing
   composite: 42.2

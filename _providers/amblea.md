@@ -57,7 +57,7 @@ name: Amblea
 nav: Providers
 network: true
 overview: Amblea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Patient Transport, Medical Transport, and Healthcare Logistics.
-random_paper: 71
+random_paper: 57
 score:
   band: minimal
   composite: 8.2

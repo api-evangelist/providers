@@ -48,7 +48,7 @@ name: SimplifiMed
 nav: Providers
 network: true
 overview: SimplifiMed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health, Medical, and Artificial Intelligence.
-random_paper: 16
+random_paper: 65
 score:
   band: minimal
   composite: 5.4

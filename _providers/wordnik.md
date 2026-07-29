@@ -535,7 +535,7 @@ plans:
 - name: Wordnik Plans Pricing
   plan_count: 4
   slug: wordnik-plans-pricing
-random_paper: 73
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Wordnik Rate Limits

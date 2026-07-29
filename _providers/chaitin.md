@@ -1809,7 +1809,7 @@ overview: 'Chaitin Tech publishes 556 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Chaitin Tech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 16 more developer resources.'
-random_paper: 43
+random_paper: 25
 score:
   band: thin
   composite: 36.5

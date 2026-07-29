@@ -138,7 +138,7 @@ overview: 'Nextcloud publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Nextcloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 58
+random_paper: 34
 score:
   band: thin
   composite: 29.5

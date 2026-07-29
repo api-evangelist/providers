@@ -147,7 +147,7 @@ overview: 'GCash publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   GCash''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 56
+random_paper: 44
 score:
   band: thin
   composite: 40.9

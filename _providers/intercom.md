@@ -204,7 +204,7 @@ plans:
 - name: Intercom Plans Pricing
   plan_count: 4
   slug: intercom-plans-pricing
-random_paper: 18
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Intercom Rate Limits

@@ -67,7 +67,7 @@ overview: 'Kidas is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kidas'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 62
+random_paper: 50
 score:
   band: minimal
   composite: 12.3

@@ -44,7 +44,7 @@ name: Julu Mobile
 nav: Providers
 network: true
 overview: Julu Mobile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Advertising, AdTech, and China.
-random_paper: 47
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

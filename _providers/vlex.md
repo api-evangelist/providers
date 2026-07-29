@@ -158,7 +158,7 @@ plans:
 - name: Vlex Plans Pricing
   plan_count: 1
   slug: vlex-plans-pricing
-random_paper: 62
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Vlex Rate Limits

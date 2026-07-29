@@ -129,7 +129,7 @@ plans:
 - name: Charliehr Plans Pricing
   plan_count: 4
   slug: charliehr-plans-pricing
-random_paper: 22
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Charliehr Rate Limits

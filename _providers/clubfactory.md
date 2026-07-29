@@ -44,7 +44,7 @@ name: Club Factory
 nav: Providers
 network: true
 overview: Club Factory is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Retail, and Cross-Border Commerce.
-random_paper: 27
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

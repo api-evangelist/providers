@@ -67,7 +67,7 @@ overview: 'Plural Finance is profiled on the [APIs.io](https://apis.io/) network
 
 
   Plural Finance''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 39
+random_paper: 3
 score:
   band: emerging
   composite: 13.3

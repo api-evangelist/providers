@@ -447,7 +447,7 @@ plans:
 - name: Sinch Plans Pricing
   plan_count: 2
   slug: sinch-plans-pricing
-random_paper: 71
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Sinch Rate Limits

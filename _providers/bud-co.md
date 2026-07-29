@@ -227,7 +227,7 @@ plans:
 - name: Bud Co Plans Pricing
   plan_count: 5
   slug: bud-co-plans-pricing
-random_paper: 31
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Bud Co Rate Limits

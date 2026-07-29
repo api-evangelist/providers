@@ -48,7 +48,7 @@ name: Keysight Technologies
 nav: Providers
 network: true
 overview: Keysight Technologies is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 45
+random_paper: 68
 score:
   band: minimal
   composite: 3.3

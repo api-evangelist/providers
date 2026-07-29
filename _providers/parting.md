@@ -67,7 +67,7 @@ overview: 'Parting is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Parting''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: minimal
   composite: 8.4

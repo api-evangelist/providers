@@ -63,7 +63,7 @@ overview: 'Picasso is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Picasso''s developer surface includes GitHub presence, documentation, and 3 more developer resources.'
-random_paper: 61
+random_paper: 43
 score:
   band: minimal
   composite: 7.4

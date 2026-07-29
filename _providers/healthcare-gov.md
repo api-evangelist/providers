@@ -56,7 +56,7 @@ name: Healthcare.gov
 nav: Providers
 network: true
 overview: Healthcare.gov publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 32
+random_paper: 75
 score:
   band: minimal
   composite: 6.0

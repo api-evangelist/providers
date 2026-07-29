@@ -178,7 +178,7 @@ plans:
 - name: Stack Overflow Plans Pricing
   plan_count: 3
   slug: stack-overflow-plans-pricing
-random_paper: 0
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Stack Overflow Rate Limits

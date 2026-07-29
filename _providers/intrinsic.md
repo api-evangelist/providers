@@ -79,7 +79,7 @@ overview: 'Intrinsic publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Intrinsic''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 55
+random_paper: 31
 score:
   band: minimal
   composite: 12.8

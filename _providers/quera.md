@@ -148,7 +148,7 @@ overview: 'QuEra Computing is profiled on the [APIs.io](https://apis.io/) networ
 
 
   QuEra Computing''s developer surface includes documentation, pricing, code examples, engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 3
+random_paper: 68
 score:
   band: emerging
   composite: 13.0

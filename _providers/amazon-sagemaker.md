@@ -462,7 +462,7 @@ plans:
 - name: Amazon Sagemaker Plans Pricing
   plan_count: 3
   slug: amazon-sagemaker-plans-pricing
-random_paper: 18
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Amazon Sagemaker Rate Limits

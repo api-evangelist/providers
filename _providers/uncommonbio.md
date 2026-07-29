@@ -52,7 +52,7 @@ name: uncommonbio
 nav: Providers
 network: true
 overview: uncommonbio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Nucleic Acid Delivery, and RNA Therapeutics.
-random_paper: 35
+random_paper: 5
 score:
   band: minimal
   composite: 6.0

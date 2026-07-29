@@ -133,7 +133,7 @@ overview: 'Loot Rush Games publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Loot Rush Games'' developer surface includes documentation, API reference, getting-started guide, authentication, support, and 13 more developer resources.'
-random_paper: 48
+random_paper: 10
 score:
   band: thin
   composite: 37.6

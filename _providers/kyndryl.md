@@ -79,7 +79,7 @@ overview: 'Kyndryl is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kyndryl''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 11
+random_paper: 70
 score:
   band: minimal
   composite: 6.1

@@ -179,7 +179,7 @@ plans:
 - name: Spider Cloud Plans Pricing
   plan_count: 4
   slug: spider-cloud-plans-pricing
-random_paper: 72
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Spider Cloud Rate Limits

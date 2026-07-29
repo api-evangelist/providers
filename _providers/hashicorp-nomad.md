@@ -137,7 +137,7 @@ plans:
 - name: Hashicorp Nomad Plans Pricing
   plan_count: 3
   slug: hashicorp-nomad-plans-pricing
-random_paper: 70
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Hashicorp Nomad Rate Limits

@@ -115,7 +115,7 @@ overview: 'Mina Protocol publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mina Protocol''s developer surface includes documentation, API reference, getting-started guide, changelog, CLI, sandbox, authentication, and 9 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 25.1

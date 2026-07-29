@@ -135,7 +135,7 @@ plans:
 - name: Monday Com Plans Pricing
   plan_count: 5
   slug: monday-com-plans-pricing
-random_paper: 11
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Monday Com Rate Limits

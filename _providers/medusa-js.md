@@ -222,7 +222,7 @@ plans:
 - name: Medusa Js Plans Pricing
   plan_count: 1
   slug: medusa-js-plans-pricing
-random_paper: 58
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Medusa Js Rate Limits

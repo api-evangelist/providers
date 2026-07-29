@@ -219,7 +219,7 @@ overview: 'Ankorstore publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Ankorstore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 18 more developer resources.'
-random_paper: 18
+random_paper: 69
 score:
   band: developing
   composite: 42.6

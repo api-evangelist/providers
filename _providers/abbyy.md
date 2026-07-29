@@ -80,7 +80,7 @@ plans:
 - name: Abbyy Plans Pricing
   plan_count: 3
   slug: abbyy-plans-pricing
-random_paper: 73
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Abbyy Rate Limits

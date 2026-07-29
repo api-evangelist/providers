@@ -67,7 +67,7 @@ overview: 'Mercanis is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mercanis'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 3
+random_paper: 60
 score:
   band: minimal
   composite: 11.6

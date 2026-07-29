@@ -180,7 +180,7 @@ overview: 'VISO Trust (Protecht) publishes 12 APIs on the [APIs.io](https://apis
 
 
   VISO Trust (Protecht)''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, and 16 more developer resources.'
-random_paper: 65
+random_paper: 15
 score:
   band: developing
   composite: 45.1

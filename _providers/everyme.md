@@ -44,7 +44,7 @@ name: everyme
 nav: Providers
 network: true
 overview: everyme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 72
+random_paper: 54
 score:
   band: minimal
   composite: 4.1

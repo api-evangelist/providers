@@ -39,7 +39,7 @@ name: IControl Networks
 nav: Providers
 network: true
 overview: IControl Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Smart Home, Home Security, and IoT.
-random_paper: 41
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

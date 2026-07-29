@@ -55,7 +55,7 @@ overview: 'AMI Labs is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AMI Labs'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 4
+random_paper: 63
 score:
   band: minimal
   composite: 5.4

@@ -63,7 +63,7 @@ overview: 'GraphHopper publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   GraphHopper''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 29
+random_paper: 78
 score:
   band: minimal
   composite: 6.2

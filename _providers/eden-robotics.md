@@ -48,7 +48,7 @@ name: Eden Robotics
 nav: Providers
 network: true
 overview: Eden Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Autonomous Robots, Industrial Automation, and Robotics as a Service.
-random_paper: 17
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

@@ -304,7 +304,7 @@ overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Uniform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
-random_paper: 75
+random_paper: 57
 score:
   band: developing
   composite: 55.7

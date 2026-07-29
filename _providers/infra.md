@@ -171,7 +171,7 @@ overview: 'Infra publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Infra''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, and 17 more developer resources.'
-random_paper: 66
+random_paper: 54
 score:
   band: thin
   composite: 34.6

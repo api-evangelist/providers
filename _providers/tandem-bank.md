@@ -152,7 +152,7 @@ overview: 'Tandem Bank publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tandem Bank''s developer surface includes authentication, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 12
+random_paper: 63
 scopes:
 - name: Tandem Bank Scopes
   scope_count: 3

@@ -108,7 +108,7 @@ overview: 'Octane AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Octane AI''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 10 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: emerging
   composite: 22.3

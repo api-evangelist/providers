@@ -39,7 +39,7 @@ name: Myriad
 nav: Providers
 network: true
 overview: Myriad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Payments, and Mobile Money.
-random_paper: 30
+random_paper: 14
 score:
   band: minimal
   composite: 4.3

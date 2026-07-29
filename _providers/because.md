@@ -112,7 +112,7 @@ overview: 'Because is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Because''s developer surface includes engineering blog, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 35
+random_paper: 17
 scopes:
 - name: Because Scopes
   scope_count: 4

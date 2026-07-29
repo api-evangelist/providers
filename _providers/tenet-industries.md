@@ -56,7 +56,7 @@ name: Tenet Industries
 nav: Providers
 network: true
 overview: Tenet Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Drones, Hardware, and Manufacturing.
-random_paper: 70
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

@@ -195,7 +195,7 @@ plans:
 - name: Anomaly Detection Plans Pricing
   plan_count: 3
   slug: anomaly-detection-plans-pricing
-random_paper: 63
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Anomaly Detection Rate Limits

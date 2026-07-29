@@ -130,7 +130,7 @@ plans:
 - name: Agify Io Plans Pricing
   plan_count: 3
   slug: agify-io-plans-pricing
-random_paper: 19
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Agify Io Rate Limits

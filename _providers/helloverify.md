@@ -91,7 +91,7 @@ overview: 'HelloVerify is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   HelloVerify''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 38
+random_paper: 8
 score:
   band: emerging
   composite: 15.9

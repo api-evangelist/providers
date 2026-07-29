@@ -107,7 +107,7 @@ name: Rita's Italian Ice
 nav: Providers
 network: true
 overview: Rita's Italian Ice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurants, Food and Beverage, Frozen Desserts, Franchise, and Quick Service Restaurant.
-random_paper: 63
+random_paper: 21
 score:
   band: minimal
   composite: 9.7

@@ -84,7 +84,7 @@ overview: 'Moxion Power is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Moxion Power''s developer surface includes GitHub presence, engineering blog, and 8 more developer resources.'
-random_paper: 36
+random_paper: 4
 score:
   band: minimal
   composite: 6.1

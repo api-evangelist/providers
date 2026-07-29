@@ -228,7 +228,7 @@ overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https
 
 
   Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 7 more developer resources.'
-random_paper: 12
+random_paper: 4
 rules:
 - name: Model Context Protocol (MCP) API Rules
   rule_count: 6

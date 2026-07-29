@@ -77,7 +77,7 @@ plans:
 - name: Zf Friedrichshafen Plans Pricing
   plan_count: 1
   slug: zf-friedrichshafen-plans-pricing
-random_paper: 71
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Zf Friedrichshafen Rate Limits

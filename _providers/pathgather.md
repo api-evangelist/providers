@@ -52,7 +52,7 @@ name: Pathgather
 nav: Providers
 network: true
 overview: Pathgather is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Learning Experience Platform, Corporate Learning, EdTech, and Enterprise Software.
-random_paper: 63
+random_paper: 37
 score:
   band: minimal
   composite: 5.7

@@ -103,7 +103,7 @@ overview: 'Cargobase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cargobase''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 11
+random_paper: 66
 score:
   band: emerging
   composite: 21.6

@@ -55,7 +55,7 @@ overview: 'Yieldify * is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Yieldify *''s developer surface includes support and 2 more developer resources.'
-random_paper: 16
+random_paper: 73
 score:
   band: minimal
   composite: 5.9

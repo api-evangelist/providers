@@ -56,7 +56,7 @@ name: Bank of Russia
 nav: Providers
 network: true
 overview: Bank of Russia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency Exchange and Public APIs.
-random_paper: 69
+random_paper: 35
 score:
   band: minimal
   composite: 5.7

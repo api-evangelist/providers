@@ -52,7 +52,7 @@ name: Fla
 nav: Providers
 network: true
 overview: Fla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Orthopedics, and Sports Medicine.
-random_paper: 76
+random_paper: 70
 score:
   band: minimal
   composite: 5.4

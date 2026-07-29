@@ -113,7 +113,7 @@ plans:
 - name: Balancer Plans Pricing
   plan_count: 2
   slug: balancer-plans-pricing
-random_paper: 54
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Balancer Rate Limits

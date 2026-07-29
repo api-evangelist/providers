@@ -44,7 +44,7 @@ name: Babel Finance
 nav: Providers
 network: true
 overview: Babel Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Cryptocurrency, Lending, and Financial Services.
-random_paper: 39
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

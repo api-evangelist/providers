@@ -208,7 +208,7 @@ plans:
 - name: Axiom Plans Pricing
   plan_count: 3
   slug: axiom-plans-pricing
-random_paper: 3
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Axiom Rate Limits

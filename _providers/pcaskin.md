@@ -80,7 +80,7 @@ name: PCA SKIN
 nav: Providers
 network: true
 overview: PCA SKIN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Beauty, Cosmetics, and Ecommerce.
-random_paper: 52
+random_paper: 34
 score:
   band: emerging
   composite: 14.7

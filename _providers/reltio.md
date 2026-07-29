@@ -168,7 +168,7 @@ overview: 'Reltio publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Reltio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 39
+random_paper: 23
 score:
   band: thin
   composite: 38.8

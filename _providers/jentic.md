@@ -260,7 +260,7 @@ plans:
 - name: Jentic Plans Pricing
   plan_count: 2
   slug: jentic-plans-pricing
-random_paper: 21
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Jentic Rate Limits

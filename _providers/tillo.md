@@ -174,7 +174,7 @@ plans:
 - name: Tillo Plans Pricing
   plan_count: 3
   slug: tillo-plans-pricing
-random_paper: 9
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Tillo Rate Limits

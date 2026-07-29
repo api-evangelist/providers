@@ -100,7 +100,7 @@ overview: 'Insilico Medicine is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Insilico Medicine''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 39
+random_paper: 74
 score:
   band: minimal
   composite: 6.1

@@ -64,7 +64,7 @@ overview: 'Microhealth is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Microhealth''s developer surface includes support and 4 more developer resources.'
-random_paper: 13
+random_paper: 62
 score:
   band: minimal
   composite: 11.2

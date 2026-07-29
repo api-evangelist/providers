@@ -143,7 +143,7 @@ overview: 'Lightning.AI publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lightning.AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, sandbox, and 16 more developer resources.'
-random_paper: 11
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Lightningai Rate Limits

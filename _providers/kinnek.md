@@ -48,7 +48,7 @@ name: Kinnek
 nav: Providers
 network: true
 overview: Kinnek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Marketplace, Procurement, and Purchasing.
-random_paper: 24
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

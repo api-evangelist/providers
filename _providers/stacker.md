@@ -151,7 +151,7 @@ plans:
 - name: Stacker Plans Pricing
   plan_count: 3
   slug: stacker-plans-pricing
-random_paper: 56
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Stacker Rate Limits

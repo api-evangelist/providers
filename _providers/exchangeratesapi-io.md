@@ -56,7 +56,7 @@ name: Exchangeratesapi.io
 nav: Providers
 network: true
 overview: Exchangeratesapi.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency Exchange and Public APIs.
-random_paper: 28
+random_paper: 57
 score:
   band: minimal
   composite: 5.7

@@ -190,7 +190,7 @@ plans:
 - name: Statorium Plans Pricing
   plan_count: 1
   slug: statorium-plans-pricing
-random_paper: 76
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Statorium Rate Limits

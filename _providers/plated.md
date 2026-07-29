@@ -48,7 +48,7 @@ name: plated
 nav: Providers
 network: true
 overview: plated is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meal Kit, Food Delivery, E-Commerce, and Consumer.
-random_paper: 18
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

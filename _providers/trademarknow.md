@@ -60,7 +60,7 @@ name: TrademarkNow
 nav: Providers
 network: true
 overview: TrademarkNow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trademark, Intellectual Property, Legal Tech, and Brand Protection.
-random_paper: 63
+random_paper: 31
 score:
   band: minimal
   composite: 11.8

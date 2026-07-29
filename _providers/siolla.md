@@ -67,7 +67,7 @@ overview: 'Siolla is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Siolla''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 28
+random_paper: 12
 score:
   band: minimal
   composite: 12.3

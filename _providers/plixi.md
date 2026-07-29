@@ -79,7 +79,7 @@ overview: 'Plixi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Plixi''s developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 11
+random_paper: 76
 score:
   band: emerging
   composite: 15.2

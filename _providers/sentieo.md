@@ -44,7 +44,7 @@ name: Sentieo
 nav: Providers
 network: true
 overview: Sentieo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Research, Fintech, Analytics, and Investment Research.
-random_paper: 66
+random_paper: 48
 score:
   band: minimal
   composite: 4.1

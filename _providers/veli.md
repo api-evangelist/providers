@@ -203,7 +203,7 @@ plans:
 - name: Veli Plans Pricing
   plan_count: 3
   slug: veli-plans-pricing
-random_paper: 47
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Veli Rate Limits

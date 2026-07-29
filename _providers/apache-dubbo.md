@@ -509,7 +509,7 @@ plans:
 - name: Apache Dubbo Plans Pricing
   plan_count: 3
   slug: apache-dubbo-plans-pricing
-random_paper: 24
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Apache Dubbo Rate Limits

@@ -208,7 +208,7 @@ plans:
 - name: Uthana Plans
   plan_count: 7
   slug: uthana-plans
-random_paper: 25
+random_paper: 9
 score:
   band: developing
   composite: 52.7

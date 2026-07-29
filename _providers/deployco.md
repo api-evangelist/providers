@@ -39,7 +39,7 @@ name: Deployco
 nav: Providers
 network: true
 overview: Deployco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Artificial Intelligence, Consulting, and AI Deployment.
-random_paper: 16
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

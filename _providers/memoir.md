@@ -71,7 +71,7 @@ overview: 'Memoir is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Memoir''s developer surface includes pricing, support, and 5 more developer resources.'
-random_paper: 33
+random_paper: 17
 score:
   band: emerging
   composite: 14.8

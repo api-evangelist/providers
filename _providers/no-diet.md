@@ -44,7 +44,7 @@ name: No Diet
 nav: Providers
 network: true
 overview: No Diet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 72
+random_paper: 56
 score:
   band: minimal
   composite: 3.2

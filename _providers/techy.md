@@ -56,7 +56,7 @@ name: Techy
 nav: Providers
 network: true
 overview: Techy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment and Public APIs.
-random_paper: 2
+random_paper: 67
 score:
   band: minimal
   composite: 5.7

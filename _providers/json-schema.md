@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: JSON Schema
 nav: Providers
 network: true
-random_paper: 34
+random_paper: 6
 slug: json-schema
 tags:
 - API Design

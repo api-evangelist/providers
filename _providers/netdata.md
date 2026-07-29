@@ -293,7 +293,7 @@ plans:
 - name: Netdata Plans Pricing
   plan_count: 3
   slug: netdata-plans-pricing
-random_paper: 44
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Netdata Rate Limits

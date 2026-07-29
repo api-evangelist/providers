@@ -71,7 +71,7 @@ overview: 'Drag Bot is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Drag Bot''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 14
+random_paper: 73
 score:
   band: emerging
   composite: 13.1

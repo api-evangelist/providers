@@ -45,7 +45,7 @@ name: Braid Social
 nav: Providers
 network: true
 overview: Braid Social is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Social, Messaging, and SMS.
-random_paper: 39
+random_paper: 9
 score:
   band: minimal
   composite: 4.3

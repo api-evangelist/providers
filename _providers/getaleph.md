@@ -103,7 +103,7 @@ overview: 'Getaleph is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Getaleph''s developer surface includes documentation, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 72
+random_paper: 52
 score:
   band: emerging
   composite: 21.1

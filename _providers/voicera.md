@@ -39,7 +39,7 @@ name: Voicera
 nav: Providers
 network: true
 overview: Voicera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Voice, Transcription, and Meetings.
-random_paper: 52
+random_paper: 34
 score:
   band: minimal
   composite: 4.3

@@ -65,7 +65,7 @@ plans:
 - name: Interface Plans Pricing
   plan_count: 1
   slug: interface-plans-pricing
-random_paper: 21
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Interface Rate Limits

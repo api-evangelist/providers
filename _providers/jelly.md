@@ -140,7 +140,7 @@ overview: 'Jelly publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jelly''s developer surface includes documentation, pricing, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 5
+random_paper: 70
 score:
   band: thin
   composite: 35.7

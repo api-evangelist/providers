@@ -91,7 +91,7 @@ overview: 'FlexPoint is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   FlexPoint''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 61
+random_paper: 37
 score:
   band: emerging
   composite: 23.8

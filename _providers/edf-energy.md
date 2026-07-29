@@ -250,7 +250,7 @@ overview: 'EDF Energy publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   EDF Energy''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 40 more developer resources.'
-random_paper: 74
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Edf Energy Rate Limits

@@ -91,7 +91,7 @@ overview: 'Builders FirstSource is profiled on the [APIs.io](https://apis.io/) n
 
 
   Builders FirstSource''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 33
+random_paper: 58
 score:
   band: minimal
   composite: 4.5

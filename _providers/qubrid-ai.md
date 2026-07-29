@@ -178,7 +178,7 @@ plans:
 - name: Qubrid Ai Plans Pricing
   plan_count: 4
   slug: qubrid-ai-plans-pricing
-random_paper: 47
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Qubrid Ai Rate Limits

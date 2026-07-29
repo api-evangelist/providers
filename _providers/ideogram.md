@@ -125,7 +125,7 @@ plans:
 - name: Ideogram Plans Pricing
   plan_count: 2
   slug: ideogram-plans-pricing
-random_paper: 70
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Ideogram Rate Limits

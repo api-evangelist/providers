@@ -124,7 +124,7 @@ plans:
 - name: Inflection Plans Pricing
   plan_count: 3
   slug: inflection-plans-pricing
-random_paper: 66
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Inflection Rate Limits

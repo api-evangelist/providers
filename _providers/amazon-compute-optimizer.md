@@ -2169,7 +2169,7 @@ overview: 'Amazon Compute Optimizer publishes 21 APIs on the [APIs.io](https://a
 
 
   Amazon Compute Optimizer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
-random_paper: 32
+random_paper: 47
 rules:
 - name: Amazon Compute Optimizer API Rules
   rule_count: 5

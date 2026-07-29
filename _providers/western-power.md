@@ -173,7 +173,7 @@ overview: 'Western Power publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Western Power''s developer surface includes authentication, support, engineering blog, documentation, developer portal, and 21 more developer resources.'
-random_paper: 69
+random_paper: 35
 score:
   band: thin
   composite: 38.5

@@ -112,7 +112,7 @@ plans:
 - name: Meteosource Air Quality Data Api Plans Pricing
   plan_count: 3
   slug: meteosource-air-quality-data-api-plans-pricing
-random_paper: 35
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Meteosource Air Quality Data Api Rate Limits

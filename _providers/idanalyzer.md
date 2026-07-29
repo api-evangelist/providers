@@ -188,7 +188,7 @@ plans:
 - name: Idanalyzer Plans Pricing
   plan_count: 5
   slug: idanalyzer-plans-pricing
-random_paper: 74
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: Idanalyzer Rate Limits

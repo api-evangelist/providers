@@ -611,7 +611,7 @@ plans:
 - name: Canvas Lms Plans Pricing
   plan_count: 6
   slug: canvas-lms-plans-pricing
-random_paper: 12
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Canvas Lms Rate Limits

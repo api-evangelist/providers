@@ -800,7 +800,7 @@ press:
 - date: '2026-05-25'
   title: Adobe (@Adobe) / Posts / X
   url: https://x.com/Adobe
-random_paper: 45
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Adobe Rate Limits

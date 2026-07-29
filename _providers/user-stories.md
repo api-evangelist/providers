@@ -79,7 +79,7 @@ overview: 'User Stories is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   User Stories'' developer surface includes GitHub presence and 6 more developer resources.'
-random_paper: 37
+random_paper: 5
 score:
   band: minimal
   composite: 11.7

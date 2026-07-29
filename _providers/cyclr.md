@@ -211,7 +211,7 @@ plans:
 - name: Cyclr Plans Pricing
   plan_count: 3
   slug: cyclr-plans-pricing
-random_paper: 2
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Cyclr Rate Limits

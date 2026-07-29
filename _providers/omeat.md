@@ -52,7 +52,7 @@ name: Omeat
 nav: Providers
 network: true
 overview: Omeat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Cultivated Meat, Food Technology, and Biotechnology.
-random_paper: 72
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

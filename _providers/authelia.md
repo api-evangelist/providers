@@ -144,7 +144,7 @@ plans:
 - name: Authelia Plans Pricing
   plan_count: 3
   slug: authelia-plans-pricing
-random_paper: 75
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Authelia Rate Limits

@@ -243,7 +243,7 @@ overview: 'Webjet publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Webjet''s developer surface includes authentication, sandbox, API reference, getting-started guide, pricing, engineering blog, documentation, and 32 more developer resources.'
-random_paper: 25
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Webjet Rate Limits

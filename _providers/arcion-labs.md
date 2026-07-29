@@ -59,7 +59,7 @@ overview: 'Arcion Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Arcion Labs'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 21
+random_paper: 72
 score:
   band: minimal
   composite: 7.4

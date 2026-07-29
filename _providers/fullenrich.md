@@ -122,7 +122,7 @@ plans:
 - name: Fullenrich Plans Pricing
   plan_count: 5
   slug: fullenrich-plans-pricing
-random_paper: 67
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Fullenrich Rate Limits

@@ -93,7 +93,7 @@ plans:
 - name: Surfe Plans Pricing
   plan_count: 4
   slug: surfe-plans-pricing
-random_paper: 10
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Surfe Rate Limits

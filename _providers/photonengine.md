@@ -135,7 +135,7 @@ plans:
 - name: Photonengine Plans Pricing
   plan_count: 6
   slug: photonengine-plans-pricing
-random_paper: 62
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Photonengine Rate Limits

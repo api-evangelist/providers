@@ -71,7 +71,7 @@ overview: 'Crosslayer Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Crosslayer Labs'' developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 18
+random_paper: 57
 score:
   band: emerging
   composite: 13.4

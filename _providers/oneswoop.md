@@ -48,7 +48,7 @@ name: OneSwoop
 nav: Providers
 network: true
 overview: OneSwoop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Cars, Price Comparison, and E-Commerce.
-random_paper: 43
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Selective Insurance Group, Inc.
   url: https://www.fitchratings.com/research/insurance/selective-insurance-group-inc-20-05-2025
-random_paper: 38
+random_paper: 51
 score:
   band: minimal
   composite: 3.5

@@ -83,7 +83,7 @@ overview: 'Avant Arte is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Avant Arte''s developer surface includes support, signup flow, and 8 more developer resources.'
-random_paper: 10
+random_paper: 63
 score:
   band: emerging
   composite: 15.5

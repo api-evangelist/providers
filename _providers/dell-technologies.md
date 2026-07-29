@@ -128,7 +128,7 @@ plans:
 - name: Dell Technologies Plans Pricing
   plan_count: 1
   slug: dell-technologies-plans-pricing
-random_paper: 52
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Dell Technologies Rate Limits

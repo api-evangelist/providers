@@ -213,7 +213,7 @@ overview: 'UserTesting publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   UserTesting''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 28 more developer resources.'
-random_paper: 58
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Usertesting Rate Limits

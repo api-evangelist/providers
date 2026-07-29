@@ -52,7 +52,7 @@ name: Gestoos
 nav: Providers
 network: true
 overview: Gestoos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer Vision, Gesture Recognition, Touchless Interaction, and SDK.
-random_paper: 2
+random_paper: 61
 score:
   band: minimal
   composite: 5.7

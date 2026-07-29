@@ -80,7 +80,7 @@ overview: 'Primary is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Primary''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 2
+random_paper: 61
 scopes:
 - name: Primary Scopes
   scope_count: 4

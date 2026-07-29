@@ -451,7 +451,7 @@ plans:
 - name: Web Of Science Apis Plans Pricing
   plan_count: 3
   slug: web-of-science-apis-plans-pricing
-random_paper: 54
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Web Of Science Apis Rate Limits

@@ -132,7 +132,7 @@ plans:
 - name: Quissly Inc Plans
   plan_count: 10
   slug: quissly-inc-plans
-random_paper: 75
+random_paper: 47
 score:
   band: thin
   composite: 30.9

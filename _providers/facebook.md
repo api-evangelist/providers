@@ -588,7 +588,7 @@ press:
 - date: '2026-05-25'
   title: 'Introducing the Meta AI App: A New Way to Access Your AI ...'
   url: https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/
-random_paper: 56
+random_paper: 36
 rate_limits:
 - limit_count: 12
   name: Facebook Rate Limits

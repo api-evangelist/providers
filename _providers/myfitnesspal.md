@@ -127,7 +127,7 @@ overview: 'MyFitnessPal publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   MyFitnessPal''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 2
+random_paper: 47
 scopes:
 - name: Myfitnesspal Scopes
   scope_count: 4

@@ -186,7 +186,7 @@ overview: 'Dashlane publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Dashlane''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 62
+random_paper: 42
 score:
   band: developing
   composite: 49.9

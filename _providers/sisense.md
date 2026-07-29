@@ -201,7 +201,7 @@ plans:
 - name: Sisense Plans Pricing
   plan_count: 3
   slug: sisense-plans-pricing
-random_paper: 69
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Sisense Rate Limits

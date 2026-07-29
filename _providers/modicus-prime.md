@@ -75,7 +75,7 @@ overview: 'Modicus Prime is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Modicus Prime''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 33
+random_paper: 78
 score:
   band: minimal
   composite: 11.2

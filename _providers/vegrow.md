@@ -68,7 +68,7 @@ name: Vegrow
 nav: Providers
 network: true
 overview: Vegrow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agtech, Agriculture, Marketplace, and B2B.
-random_paper: 50
+random_paper: 34
 score:
   band: minimal
   composite: 9.0

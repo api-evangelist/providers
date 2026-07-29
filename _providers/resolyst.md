@@ -55,7 +55,7 @@ overview: 'Resolyst is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Resolyst''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 54
+random_paper: 32
 score:
   band: minimal
   composite: 7.6

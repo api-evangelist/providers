@@ -152,7 +152,7 @@ overview: 'Clumio publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Clumio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 18 more developer resources.'
-random_paper: 33
+random_paper: 17
 score:
   band: thin
   composite: 35.3

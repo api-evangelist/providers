@@ -39,7 +39,7 @@ name: Storigen Systems
 nav: Providers
 network: true
 overview: Storigen Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Distributed Storage, Content Delivery, Internet Infrastructure, and Storage Networking.
-random_paper: 18
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

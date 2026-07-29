@@ -84,7 +84,7 @@ plans:
 - name: Data Gov Bc Ca Plans Pricing
   plan_count: 1
   slug: data-gov-bc-ca-plans-pricing
-random_paper: 38
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Data Gov Bc Ca Rate Limits

@@ -79,7 +79,7 @@ overview: 'Moritz is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Moritz''s developer surface includes pricing and 8 more developer resources.'
-random_paper: 61
+random_paper: 45
 score:
   band: emerging
   composite: 17.1

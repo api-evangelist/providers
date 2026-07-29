@@ -87,7 +87,7 @@ overview: 'Envelop publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Envelop''s developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 68
+random_paper: 50
 score:
   band: emerging
   composite: 23.2

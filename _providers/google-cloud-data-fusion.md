@@ -163,7 +163,7 @@ plans:
 - name: Google Cloud Data Fusion Plans Pricing
   plan_count: 3
   slug: google-cloud-data-fusion-plans-pricing
-random_paper: 67
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Google Cloud Data Fusion Rate Limits

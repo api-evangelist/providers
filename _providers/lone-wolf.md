@@ -302,7 +302,7 @@ overview: 'Lone Wolf Technologies publishes 7 APIs on the [APIs.io](https://apis
 
 
   Lone Wolf Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, and 49 more developer resources.'
-random_paper: 68
+random_paper: 46
 scopes:
 - name: Lone Wolf Scopes
   scope_count: 14

@@ -122,7 +122,7 @@ name: Acme Markets
 nav: Providers
 network: true
 overview: Acme Markets publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Albertsons Banner, Delivery, E-Commerce, Grocery, and Loyalty.
-random_paper: 55
+random_paper: 25
 score:
   band: minimal
   composite: 12.3

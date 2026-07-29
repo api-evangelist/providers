@@ -67,7 +67,7 @@ overview: 'Warren is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Warren''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 39
+random_paper: 23
 score:
   band: minimal
   composite: 9.1

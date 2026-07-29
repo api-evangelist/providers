@@ -48,7 +48,7 @@ name: cashbus
 nav: Providers
 network: true
 overview: cashbus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, FinTech, Lending, and Microfinance.
-random_paper: 52
+random_paper: 34
 score:
   band: minimal
   composite: 5.0

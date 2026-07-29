@@ -71,7 +71,7 @@ overview: 'Raseedi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Raseedi''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 40
+random_paper: 22
 score:
   band: minimal
   composite: 10.6

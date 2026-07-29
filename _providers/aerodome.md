@@ -48,7 +48,7 @@ name: Aerodome
 nav: Providers
 network: true
 overview: Aerodome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, Drone as First Responder, Public Safety, and Law Enforcement.
-random_paper: 74
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

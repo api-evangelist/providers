@@ -48,7 +48,7 @@ name: Stilla Technologies
 nav: Providers
 network: true
 overview: Stilla Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Life Sciences, Diagnostics, and Digital PCR.
-random_paper: 53
+random_paper: 3
 score:
   band: minimal
   composite: 5.4

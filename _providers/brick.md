@@ -88,7 +88,7 @@ plans:
 - name: Brick Plans Pricing
   plan_count: 3
   slug: brick-plans-pricing
-random_paper: 61
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Brick Rate Limits

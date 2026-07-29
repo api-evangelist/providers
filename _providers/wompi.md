@@ -244,7 +244,7 @@ plans:
 - name: Wompi Plans Pricing
   plan_count: 2
   slug: wompi-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Wompi Rate Limits

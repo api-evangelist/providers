@@ -75,7 +75,7 @@ overview: 'Genome Medical is profiled on the [APIs.io](https://apis.io/) network
 
 
   Genome Medical''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 13
+random_paper: 56
 score:
   band: emerging
   composite: 16.1

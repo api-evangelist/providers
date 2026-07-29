@@ -169,7 +169,7 @@ plans:
 - name: Google Cloud Migration Center Plans Pricing
   plan_count: 3
   slug: google-cloud-migration-center-plans-pricing
-random_paper: 69
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Google Cloud Migration Center Rate Limits

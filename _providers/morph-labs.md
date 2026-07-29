@@ -121,7 +121,7 @@ plans:
 - name: Morph Labs Plans Pricing
   plan_count: 6
   slug: morph-labs-plans-pricing
-random_paper: 12
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Morph Labs Rate Limits

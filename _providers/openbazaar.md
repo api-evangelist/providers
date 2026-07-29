@@ -53,7 +53,7 @@ name: OpenBazaar
 nav: Providers
 network: true
 overview: OpenBazaar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Decentralized, Peer-to-Peer, and Cryptocurrency.
-random_paper: 58
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

@@ -523,7 +523,7 @@ overview: 'VAST Data publishes 126 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VAST Data''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, CLI, and 18 more developer resources.'
-random_paper: 9
+random_paper: 66
 score:
   band: thin
   composite: 39.4

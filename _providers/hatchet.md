@@ -506,7 +506,7 @@ plans:
 - name: Hatchet Plans Pricing
   plan_count: 5
   slug: hatchet-plans-pricing
-random_paper: 44
+random_paper: 26
 rate_limits:
 - limit_count: 6
   name: Hatchet Rate Limits

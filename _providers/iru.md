@@ -156,7 +156,7 @@ overview: 'Iru publishes 1 API on the [APIs.io](https://apis.io/) network: Endpo
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 28
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Iru Rate Limits

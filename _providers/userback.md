@@ -112,7 +112,7 @@ overview: 'Userback publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Userback''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 1
+random_paper: 58
 score:
   band: thin
   composite: 30.0

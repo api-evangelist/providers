@@ -510,7 +510,7 @@ plans:
 - name: Interswitch Plans Pricing
   plan_count: 5
   slug: interswitch-plans-pricing
-random_paper: 49
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Interswitch Rate Limits

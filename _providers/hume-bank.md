@@ -165,7 +165,7 @@ overview: 'Hume Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hume Bank''s developer surface includes authentication, documentation, API reference, pricing, support, and 17 more developer resources.'
-random_paper: 41
+random_paper: 19
 score:
   band: thin
   composite: 38.4

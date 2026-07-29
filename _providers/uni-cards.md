@@ -52,7 +52,7 @@ name: Uni Cards
 nav: Providers
 network: true
 overview: Uni Cards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Credit Cards, Payments, and Consumer Finance.
-random_paper: 55
+random_paper: 33
 score:
   band: minimal
   composite: 7.2

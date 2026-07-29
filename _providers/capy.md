@@ -196,7 +196,7 @@ overview: 'Capy publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Capy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 44
+random_paper: 34
 score:
   band: developing
   composite: 51.5

@@ -79,7 +79,7 @@ overview: 'Owler is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Owler''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: emerging
   composite: 15.2

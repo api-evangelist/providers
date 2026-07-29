@@ -63,7 +63,7 @@ overview: 'Clubhouse is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Clubhouse''s developer surface includes support and 4 more developer resources.'
-random_paper: 46
+random_paper: 22
 score:
   band: minimal
   composite: 12.4

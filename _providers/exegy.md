@@ -84,7 +84,7 @@ overview: 'Exegy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Exegy''s developer surface includes developer portal, engineering blog, support, and 7 more developer resources.'
-random_paper: 7
+random_paper: 72
 score:
   band: emerging
   composite: 13.3

@@ -100,7 +100,7 @@ plans:
 - name: Ondeck Plans Pricing
   plan_count: 1
   slug: ondeck-plans-pricing
-random_paper: 12
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Ondeck Rate Limits

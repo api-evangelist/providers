@@ -379,7 +379,7 @@ overview: 'Erply publishes 64 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Erply''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Erply Rate Limits

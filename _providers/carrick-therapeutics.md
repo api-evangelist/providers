@@ -59,7 +59,7 @@ overview: 'Carrick Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Carrick Therapeutics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 75
+random_paper: 23
 score:
   band: minimal
   composite: 8.3

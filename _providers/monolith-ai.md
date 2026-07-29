@@ -55,7 +55,7 @@ overview: 'Monolith AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Monolith AI''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 43
+random_paper: 15
 score:
   band: minimal
   composite: 5.4

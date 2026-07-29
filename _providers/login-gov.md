@@ -217,7 +217,7 @@ plans:
 - name: Login Gov Plans Pricing
   plan_count: 2
   slug: login-gov-plans-pricing
-random_paper: 67
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Login Gov Rate Limits

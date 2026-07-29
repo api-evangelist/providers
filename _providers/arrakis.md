@@ -63,7 +63,7 @@ overview: 'Arrakis is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Arrakis'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 56
+random_paper: 38
 score:
   band: minimal
   composite: 7.4

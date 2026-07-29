@@ -99,7 +99,7 @@ overview: 'AvidXchange is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   AvidXchange''s developer surface includes documentation, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 76
+random_paper: 48
 score:
   band: emerging
   composite: 23.8

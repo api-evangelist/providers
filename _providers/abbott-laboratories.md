@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Abbott Reports First-Quarter 2026 Results; Updates ...
   url: https://www.prnewswire.com/news-releases/abbott-reports-first-quarter-2026-results-updates-guidance-to-reflect-acquisition-of-exact-sciences-302744652.html
-random_paper: 43
+random_paper: 72
 score:
   band: minimal
   composite: 11.9

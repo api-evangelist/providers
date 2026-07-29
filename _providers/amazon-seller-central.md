@@ -127,7 +127,7 @@ overview: 'Amazon Selling Partner API publishes 12 APIs on the [APIs.io](https:/
 
 
   Amazon Selling Partner API''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 49
+random_paper: 74
 score:
   band: emerging
   composite: 26.8

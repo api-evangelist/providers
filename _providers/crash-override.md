@@ -99,7 +99,7 @@ overview: 'Crash Override is profiled on the [APIs.io](https://apis.io/) network
 
 
   Crash Override''s developer surface includes documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 52
+random_paper: 16
 score:
   band: emerging
   composite: 17.9

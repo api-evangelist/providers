@@ -56,7 +56,7 @@ name: Indian Energy Exchange
 nav: Providers
 network: true
 overview: Indian Energy Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electricity, Power Trading, and Exchange.
-random_paper: 46
+random_paper: 69
 score:
   band: minimal
   composite: 10.7

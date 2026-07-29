@@ -129,7 +129,7 @@ overview: 'Amentum is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Amentum''s developer surface includes engineering blog, YouTube channel, and 13 more developer resources.'
-random_paper: 66
+random_paper: 48
 score:
   band: emerging
   composite: 13.4

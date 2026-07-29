@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: Sherwin-Williams paint company to buy Valspar for $9.3 ...
   url: https://www.reuters.com/article/business/sherwin-williams-paint-company-to-buy-valspar-for-93-billion-idUSKCN0WM0W1/
-random_paper: 68
+random_paper: 50
 rules:
 - name: Valspar API Rules
   rule_count: 5

@@ -87,7 +87,7 @@ overview: 'Peopleix is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Peopleix''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: emerging
   composite: 17.6

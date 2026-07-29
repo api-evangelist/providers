@@ -67,7 +67,7 @@ overview: 'Data Innovations is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Data Innovations'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 46
+random_paper: 4
 score:
   band: minimal
   composite: 9.0

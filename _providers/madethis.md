@@ -71,7 +71,7 @@ overview: 'MadeThis is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MadeThis'' developer surface includes signup flow, pricing, and 5 more developer resources.'
-random_paper: 0
+random_paper: 57
 score:
   band: emerging
   composite: 14.7

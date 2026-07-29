@@ -39,7 +39,7 @@ name: .Prompt.md
 nav: Providers
 network: true
 overview: .Prompt.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Copilot, Automation, Developer Workflow, Prompt Engineering, and Templates.
-random_paper: 4
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

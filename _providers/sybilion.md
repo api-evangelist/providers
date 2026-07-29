@@ -46,7 +46,7 @@ name: Sybilion
 nav: Providers
 network: true
 overview: 'Sybilion publishes 1 API on the [APIs.io](https://apis.io/) network: Operational API. Tagged areas include Industrial market intelligence, Commodity price forecasting, Economic forecasting, Time-series forecasting, and Procurement.'
-random_paper: 26
+random_paper: 4
 score:
   band: emerging
   composite: 14.4

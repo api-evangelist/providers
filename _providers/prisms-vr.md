@@ -67,7 +67,7 @@ overview: 'Prisms VR is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Prisms VR''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 23
+random_paper: 78
 score:
   band: minimal
   composite: 12.3

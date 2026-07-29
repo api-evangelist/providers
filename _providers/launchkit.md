@@ -68,7 +68,7 @@ name: LaunchKit
 nav: Providers
 network: true
 overview: LaunchKit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Mobile, Developer Tools, and SDK.
-random_paper: 39
+random_paper: 15
 score:
   band: minimal
   composite: 7.7

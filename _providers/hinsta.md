@@ -44,7 +44,7 @@ name: Hinsta
 nav: Providers
 network: true
 overview: Hinsta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coaching, Wellbeing, Performance, and Executive Coaching.
-random_paper: 31
+random_paper: 15
 score:
   band: minimal
   composite: 4.3

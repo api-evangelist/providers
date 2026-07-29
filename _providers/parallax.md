@@ -48,7 +48,7 @@ name: Parallax
 nav: Providers
 network: true
 overview: Parallax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Cross-Border Payments, Stablecoins, and Crypto.
-random_paper: 6
+random_paper: 63
 score:
   band: minimal
   composite: 5.7

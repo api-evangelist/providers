@@ -63,7 +63,7 @@ overview: 'Kairos Aerospace is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Kairos Aerospace''s developer surface includes support and 4 more developer resources.'
-random_paper: 24
+random_paper: 61
 score:
   band: minimal
   composite: 5.0

@@ -160,7 +160,7 @@ overview: 'Skyfire publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Skyfire''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 20 more developer resources.'
-random_paper: 72
+random_paper: 54
 score:
   band: thin
   composite: 34.6

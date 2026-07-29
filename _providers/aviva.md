@@ -68,7 +68,7 @@ overview: 'Aviva is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aviva''s developer surface includes support and 5 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: minimal
   composite: 11.9

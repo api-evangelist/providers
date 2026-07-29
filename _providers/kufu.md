@@ -214,7 +214,7 @@ overview: 'KUFU publishes 2 APIs on the [APIs.io](https://apis.io/) network: カ
 
 
   KUFU''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: developing
   composite: 52.7

@@ -172,7 +172,7 @@ plans:
 - name: Ofcom Plans
   plan_count: 4
   slug: ofcom-plans
-random_paper: 70
+random_paper: 58
 rate_limits:
 - limit_count: 8
   name: Ofcom Rate Limits

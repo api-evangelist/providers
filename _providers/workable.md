@@ -249,7 +249,7 @@ plans:
 - name: Workable Plans Pricing
   plan_count: 7
   slug: workable-plans-pricing
-random_paper: 8
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Workable Rate Limits

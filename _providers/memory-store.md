@@ -111,7 +111,7 @@ overview: 'Memory Store publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Memory Store''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 35
+random_paper: 3
 score:
   band: emerging
   composite: 26.5

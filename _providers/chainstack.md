@@ -534,7 +534,7 @@ plans:
 - name: Chainstack Plans Pricing
   plan_count: 6
   slug: chainstack-plans-pricing
-random_paper: 48
+random_paper: 22
 rate_limits:
 - limit_count: 10
   name: Chainstack Rate Limits

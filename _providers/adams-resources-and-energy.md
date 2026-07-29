@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: An Affiliate of Tres Energy LLC to Acquire Adams ...
   url: https://www.kslaw.com/news-and-insights/an-affiliate-of-tres-energy-llc-to-acquire-adams-resources-energy-inc-in-take-private-transaction
-random_paper: 56
+random_paper: 69
 score:
   band: minimal
   composite: 12.2

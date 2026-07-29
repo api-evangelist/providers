@@ -141,7 +141,7 @@ plans:
 - name: Quickwit Plans Pricing
   plan_count: 1
   slug: quickwit-plans-pricing
-random_paper: 34
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Quickwit Rate Limits

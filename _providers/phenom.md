@@ -184,7 +184,7 @@ overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Phenom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 20 more developer resources.'
-random_paper: 31
+random_paper: 15
 score:
   band: developing
   composite: 48.0

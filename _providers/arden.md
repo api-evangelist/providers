@@ -76,7 +76,7 @@ overview: 'Arden is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Arden''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 60
+random_paper: 48
 score:
   band: minimal
   composite: 10.4

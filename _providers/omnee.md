@@ -63,7 +63,7 @@ overview: 'Omnee is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Omnee''s developer surface includes pricing and 4 more developer resources.'
-random_paper: 70
+random_paper: 58
 score:
   band: minimal
   composite: 11.3

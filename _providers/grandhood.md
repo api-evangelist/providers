@@ -80,7 +80,7 @@ overview: 'Grandhood is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Grandhood''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 26
+random_paper: 2
 score:
   band: emerging
   composite: 15.8

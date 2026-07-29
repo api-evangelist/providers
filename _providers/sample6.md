@@ -39,7 +39,7 @@ name: Sample6
 nav: Providers
 network: true
 overview: Sample6 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Safety, Pathogen Detection, Diagnostics, and Biotechnology.
-random_paper: 3
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

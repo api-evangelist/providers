@@ -96,7 +96,7 @@ overview: 'PHP-FPM publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   PHP-FPM''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 3
+random_paper: 64
 score:
   band: emerging
   composite: 20.7

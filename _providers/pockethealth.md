@@ -81,7 +81,7 @@ plans:
 - name: Pockethealth Plans Pricing
   plan_count: 5
   slug: pockethealth-plans-pricing
-random_paper: 44
+random_paper: 12
 score:
   band: emerging
   composite: 13.5

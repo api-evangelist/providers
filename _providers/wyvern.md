@@ -99,7 +99,7 @@ overview: 'Wyvern publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wyvern''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, changelog, and 7 more developer resources.'
-random_paper: 67
+random_paper: 51
 score:
   band: emerging
   composite: 22.9

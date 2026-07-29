@@ -166,7 +166,7 @@ overview: 'Kumo.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Kumo.AI''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 20 more developer resources.'
-random_paper: 30
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Kumoai Rate Limits

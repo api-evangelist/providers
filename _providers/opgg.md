@@ -103,7 +103,7 @@ overview: 'OPGG publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   OPGG''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 44
+random_paper: 34
 score:
   band: emerging
   composite: 18.4

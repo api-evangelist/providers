@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: NRG Energy invests in AI tech to enhance grid stability
   url: https://www.investing.com/news/company-news/nrg-energy-invests-in-ai-tech-to-enhance-grid-stability-93CH-3924537
-random_paper: 21
+random_paper: 74
 score:
   band: minimal
   composite: 4.7

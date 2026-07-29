@@ -52,7 +52,7 @@ name: Alphora Holdings
 nav: Providers
 network: true
 overview: Alphora Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Managed IT Services, and IT Operations.
-random_paper: 27
+random_paper: 64
 score:
   band: minimal
   composite: 7.1

@@ -57,7 +57,7 @@ plans:
 - name: Pulse Api Plans Pricing
   plan_count: 3
   slug: pulse-api-plans-pricing
-random_paper: 65
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Pulse Api Rate Limits

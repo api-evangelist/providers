@@ -107,7 +107,7 @@ overview: 'Zulily publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Zulily''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 65
+random_paper: 49
 scopes:
 - name: Zulily Scopes
   scope_count: 4

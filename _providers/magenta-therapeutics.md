@@ -44,7 +44,7 @@ name: Magenta Therapeutics *
 nav: Providers
 network: true
 overview: Magenta Therapeutics * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Life Sciences.
-random_paper: 73
+random_paper: 21
 score:
   band: minimal
   composite: 3.5

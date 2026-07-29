@@ -100,7 +100,7 @@ plans:
 - name: Sprinto Plans Pricing
   plan_count: 1
   slug: sprinto-plans-pricing
-random_paper: 13
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Sprinto Rate Limits

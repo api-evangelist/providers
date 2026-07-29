@@ -48,7 +48,7 @@ name: Rippl
 nav: Providers
 network: true
 overview: Rippl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dementia Care, Behavioral Health, and Value-Based Care.
-random_paper: 12
+random_paper: 77
 score:
   band: minimal
   composite: 5.4

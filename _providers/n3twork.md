@@ -48,7 +48,7 @@ name: N3twork
 nav: Providers
 network: true
 overview: N3twork is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Blockchain.
-random_paper: 35
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

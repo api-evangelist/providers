@@ -65,7 +65,7 @@ plans:
 - name: Synovus Financial Plans Pricing
   plan_count: 1
   slug: synovus-financial-plans-pricing
-random_paper: 14
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Synovus Financial Rate Limits

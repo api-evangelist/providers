@@ -171,7 +171,7 @@ overview: 'detectify publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   detectify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 37
+random_paper: 13
 score:
   band: developing
   composite: 52.5

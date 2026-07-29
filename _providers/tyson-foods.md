@@ -176,7 +176,7 @@ press:
 - date: '2026-05-25'
   title: Tyson Demo Day Showcases AI Innovations in Food ...
   url: https://www.tysonfoods.com/news/news-releases/2025/7/tyson-demo-day-showcases-ai-innovations-food-technology
-random_paper: 2
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Tyson Foods Rate Limits

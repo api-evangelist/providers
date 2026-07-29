@@ -160,7 +160,7 @@ press:
 - date: '2026-05-25'
   title: 'Musk: Tesla to Launch ''Terafab'' AI Chip Factory Project Next ...'
   url: https://teslahubs.com/blogs/tips/musk-tesla-to-launch-terafab-ai-chip-factory-project-next-week?srsltid=AfmBOorSHTkVXbFNBbtpovoc853bqvVX0P-7cAmhsuGy2Jx5jlVcsFDs
-random_paper: 26
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Tesla Motors Rate Limits

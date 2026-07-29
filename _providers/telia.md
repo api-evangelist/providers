@@ -286,7 +286,7 @@ overview: 'Telia Company publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Telia Company''s developer surface includes authentication, CLI, changelog, sandbox, documentation, support, getting-started guide, and 33 more developer resources.'
-random_paper: 65
+random_paper: 53
 scopes:
 - name: Telia Scopes
   scope_count: 2

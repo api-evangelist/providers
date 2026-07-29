@@ -124,7 +124,7 @@ plans:
 - name: Zuva Plans Pricing
   plan_count: 3
   slug: zuva-plans-pricing
-random_paper: 69
+random_paper: 59
 rate_limits:
 - limit_count: 6
   name: Zuva Rate Limits

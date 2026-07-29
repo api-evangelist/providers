@@ -87,7 +87,7 @@ overview: 'Behavox is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Behavox''s developer surface includes support and 10 more developer resources.'
-random_paper: 56
+random_paper: 38
 score:
   band: emerging
   composite: 16.8

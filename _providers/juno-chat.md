@@ -79,7 +79,7 @@ overview: 'Juno Chat is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Juno Chat''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 58
+random_paper: 36
 score:
   band: minimal
   composite: 12.3

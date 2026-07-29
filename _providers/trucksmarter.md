@@ -166,7 +166,7 @@ overview: 'TruckSmarter publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   TruckSmarter''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 10
+random_paper: 55
 score:
   band: developing
   composite: 42.9

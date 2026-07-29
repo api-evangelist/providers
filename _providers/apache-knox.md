@@ -215,7 +215,7 @@ plans:
 - name: Apache Knox Plans Pricing
   plan_count: 3
   slug: apache-knox-plans-pricing
-random_paper: 25
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Apache Knox Rate Limits

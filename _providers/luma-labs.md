@@ -142,7 +142,7 @@ plans:
 - name: Luma Labs Plans Pricing
   plan_count: 1
   slug: luma-labs-plans-pricing
-random_paper: 47
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Luma Labs Rate Limits

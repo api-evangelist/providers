@@ -79,7 +79,7 @@ overview: 'Mill is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Mill''s developer surface includes engineering blog, product news, support, pricing, and 5 more developer resources.'
-random_paper: 45
+random_paper: 35
 score:
   band: emerging
   composite: 13.4

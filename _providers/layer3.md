@@ -71,7 +71,7 @@ overview: 'Layer3 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Layer3''s developer surface includes documentation, engineering blog, support, and 4 more developer resources.'
-random_paper: 53
+random_paper: 39
 score:
   band: emerging
   composite: 13.7

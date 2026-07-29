@@ -133,7 +133,7 @@ overview: 'Abridge is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Abridge''s developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 25
+random_paper: 7
 score:
   band: emerging
   composite: 18.2

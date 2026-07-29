@@ -39,7 +39,7 @@ name: PerfectMarket
 nav: Providers
 network: true
 overview: PerfectMarket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Marketing.
-random_paper: 3
+random_paper: 46
 score:
   band: minimal
   composite: 4.1

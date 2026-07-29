@@ -123,7 +123,7 @@ plans:
 - name: Tive Plans Pricing
   plan_count: 1
   slug: tive-plans-pricing
-random_paper: 55
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Tive Rate Limits

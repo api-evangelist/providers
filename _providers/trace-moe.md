@@ -52,7 +52,7 @@ name: Trace Moe
 nav: Providers
 network: true
 overview: Trace Moe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anime and Public APIs.
-random_paper: 46
+random_paper: 24
 score:
   band: minimal
   composite: 5.7

@@ -44,7 +44,7 @@ name: Kanghui Medical
 nav: Providers
 network: true
 overview: Kanghui Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Orthopedics, and Trauma.
-random_paper: 44
+random_paper: 6
 score:
   band: minimal
   composite: 4.3

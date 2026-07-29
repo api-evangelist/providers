@@ -120,7 +120,7 @@ plans:
 - name: Truphone Plans Pricing
   plan_count: 4
   slug: truphone-plans-pricing
-random_paper: 38
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Truphone Rate Limits

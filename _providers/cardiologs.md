@@ -48,7 +48,7 @@ name: Cardiologs
 nav: Providers
 network: true
 overview: Cardiologs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, ECG, Cardiac Diagnostics, and Artificial Intelligence.
-random_paper: 62
+random_paper: 36
 score:
   band: minimal
   composite: 5.4

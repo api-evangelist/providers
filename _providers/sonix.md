@@ -119,7 +119,7 @@ plans:
 - name: Sonix Plans Pricing
   plan_count: 5
   slug: sonix-plans-pricing
-random_paper: 22
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Sonix Rate Limits

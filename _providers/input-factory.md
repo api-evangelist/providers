@@ -39,7 +39,7 @@ name: Input Factory
 nav: Providers
 network: true
 overview: Input Factory is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 56
+random_paper: 22
 score:
   band: minimal
   composite: 4.1

@@ -115,7 +115,7 @@ overview: 'Maple Finance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Maple Finance''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, and 12 more developer resources.'
-random_paper: 64
+random_paper: 32
 score:
   band: emerging
   composite: 26.7

@@ -63,7 +63,7 @@ overview: 'PitchMe is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   PitchMe''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 53
+random_paper: 35
 score:
   band: minimal
   composite: 8.4

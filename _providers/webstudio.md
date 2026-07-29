@@ -119,7 +119,7 @@ overview: 'Webstudio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Webstudio''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 58
+random_paper: 34
 score:
   band: emerging
   composite: 26.4

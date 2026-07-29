@@ -67,7 +67,7 @@ overview: 'Eon Pass is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Eon Pass'' developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 36
+random_paper: 16
 score:
   band: minimal
   composite: 10.2

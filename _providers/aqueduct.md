@@ -161,7 +161,7 @@ overview: 'Aqueduct publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aqueduct''s developer surface includes documentation, API reference, getting-started guide, authentication, and 13 more developer resources.'
-random_paper: 13
+random_paper: 70
 score:
   band: thin
   composite: 35.0

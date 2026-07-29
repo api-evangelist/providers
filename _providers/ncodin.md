@@ -53,7 +53,7 @@ name: NcodiN
 nav: Providers
 network: true
 overview: NcodiN is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photonics, Semiconductors, Optical Interconnect, and High Performance Computing.
-random_paper: 19
+random_paper: 3
 score:
   band: minimal
   composite: 7.1

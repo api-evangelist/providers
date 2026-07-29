@@ -63,7 +63,7 @@ overview: 'Damae Medical is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Damae Medical''s developer surface includes YouTube channel and 4 more developer resources.'
-random_paper: 36
+random_paper: 4
 score:
   band: minimal
   composite: 5.4

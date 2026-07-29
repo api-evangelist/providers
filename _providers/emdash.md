@@ -119,7 +119,7 @@ overview: 'Emdash is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Emdash''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, signup flow, and 13 more developer resources.'
-random_paper: 10
+random_paper: 73
 score:
   band: emerging
   composite: 24.1

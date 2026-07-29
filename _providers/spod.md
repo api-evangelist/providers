@@ -130,7 +130,7 @@ plans:
 - name: Spod Plans Pricing
   plan_count: 1
   slug: spod-plans-pricing
-random_paper: 53
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Spod Rate Limits

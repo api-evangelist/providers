@@ -224,7 +224,7 @@ overview: 'Salv publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Salv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 53
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Salv Rate Limits

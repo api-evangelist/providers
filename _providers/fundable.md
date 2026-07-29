@@ -71,7 +71,7 @@ overview: 'Fundable is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fundable''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 63
+random_paper: 43
 score:
   band: minimal
   composite: 10.5

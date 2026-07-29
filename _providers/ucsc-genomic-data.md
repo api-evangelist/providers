@@ -129,7 +129,7 @@ plans:
 - name: Ucsc Genomic Data Plans Pricing
   plan_count: 3
   slug: ucsc-genomic-data-plans-pricing
-random_paper: 51
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Ucsc Genomic Data Rate Limits

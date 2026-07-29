@@ -138,7 +138,7 @@ plans:
 - name: Deloitte Plans Pricing
   plan_count: 2
   slug: deloitte-plans-pricing
-random_paper: 11
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Deloitte Rate Limits

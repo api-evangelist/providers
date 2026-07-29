@@ -44,7 +44,7 @@ name: Parla
 nav: Providers
 network: true
 overview: Parla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Femtech, Fertility, and Reproductive Health.
-random_paper: 66
+random_paper: 54
 score:
   band: minimal
   composite: 4.3

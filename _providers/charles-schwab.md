@@ -216,7 +216,7 @@ press:
 - date: '2026-05-25'
   title: What to Know About Artificial Intelligence (AI)
   url: https://www.schwab.com/learn/story/what-to-know-about-artificial-intelligence-ai
-random_paper: 29
+random_paper: 72
 rate_limits:
 - limit_count: 3
   name: Charles Schwab Rate Limits

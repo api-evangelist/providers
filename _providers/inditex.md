@@ -56,7 +56,7 @@ name: Inditex
 nav: Providers
 network: true
 overview: Inditex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Fashion, Apparel, and Fast Fashion.
-random_paper: 64
+random_paper: 46
 score:
   band: minimal
   composite: 4.8

@@ -44,7 +44,7 @@ name: Ares Interactive
 nav: Providers
 network: true
 overview: Ares Interactive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Video Games, and Game Publisher.
-random_paper: 37
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

@@ -56,7 +56,7 @@ name: Please Assist Me
 nav: Providers
 network: true
 overview: Please Assist Me is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Cleaning, Errands, and Property Technology.
-random_paper: 57
+random_paper: 17
 score:
   band: minimal
   composite: 7.6

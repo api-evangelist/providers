@@ -56,7 +56,7 @@ name: Watchmode
 nav: Providers
 network: true
 overview: Watchmode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 32
+random_paper: 8
 score:
   band: minimal
   composite: 5.7

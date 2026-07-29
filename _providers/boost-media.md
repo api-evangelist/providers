@@ -39,7 +39,7 @@ name: Boost Media
 nav: Providers
 network: true
 overview: Boost Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Marketing, Creative Optimization, and Paid Search.
-random_paper: 30
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

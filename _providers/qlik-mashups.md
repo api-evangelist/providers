@@ -92,7 +92,7 @@ plans:
 - name: Qlik Mashups Plans Pricing
   plan_count: 3
   slug: qlik-mashups-plans-pricing
-random_paper: 15
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Qlik Mashups Rate Limits

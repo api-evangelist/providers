@@ -63,7 +63,7 @@ overview: 'Inscinstech is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Inscinstech''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 24
+random_paper: 73
 score:
   band: minimal
   composite: 6.5

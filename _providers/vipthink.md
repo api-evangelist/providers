@@ -48,7 +48,7 @@ name: VIPThink
 nav: Providers
 network: true
 overview: VIPThink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Online Learning, and Mathematics.
-random_paper: 30
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

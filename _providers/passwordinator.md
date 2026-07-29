@@ -52,7 +52,7 @@ name: Passwordinator
 nav: Providers
 network: true
 overview: Passwordinator publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 73
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

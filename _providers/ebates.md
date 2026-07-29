@@ -48,7 +48,7 @@ name: Ebates
 nav: Providers
 network: true
 overview: Ebates is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cash Back, Rewards, Shopping, and E-Commerce.
-random_paper: 12
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

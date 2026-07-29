@@ -48,7 +48,7 @@ name: Comfy *
 nav: Providers
 network: true
 overview: Comfy * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Workplace Experience, Smart Buildings, and PropTech.
-random_paper: 3
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

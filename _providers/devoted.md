@@ -173,7 +173,7 @@ overview: 'Devoted Health publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Devoted Health''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 54
+random_paper: 36
 scopes:
 - name: Devoted Scopes
   scope_count: 14

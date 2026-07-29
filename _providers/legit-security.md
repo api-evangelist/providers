@@ -139,7 +139,7 @@ overview: 'Legit Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Legit Security''s developer surface includes engineering blog, support, CLI, changelog, and 17 more developer resources.'
-random_paper: 3
+random_paper: 44
 score:
   band: thin
   composite: 37.6

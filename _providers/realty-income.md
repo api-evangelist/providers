@@ -44,7 +44,7 @@ name: Realty Income
 nav: Providers
 network: true
 overview: Realty Income is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 28
+random_paper: 73
 score:
   band: minimal
   composite: 2.6

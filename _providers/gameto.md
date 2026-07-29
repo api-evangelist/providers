@@ -79,7 +79,7 @@ overview: 'Gameto is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Gameto''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: minimal
   composite: 11.3

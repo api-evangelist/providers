@@ -1296,7 +1296,7 @@ press:
 - date: '2026-05-25'
   title: Home - ADSK News - Autodesk
   url: https://adsknews.autodesk.com/en/?newsfeed_page=14
-random_paper: 17
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Autodesk Rate Limits

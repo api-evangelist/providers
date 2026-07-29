@@ -426,7 +426,7 @@ plans:
 - name: Azure Container Apps Plans Pricing
   plan_count: 3
   slug: azure-container-apps-plans-pricing
-random_paper: 38
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Azure Container Apps Rate Limits

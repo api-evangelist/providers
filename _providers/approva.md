@@ -52,7 +52,7 @@ name: Approva
 nav: Providers
 network: true
 overview: Approva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Mortgage, Lending, and Marketplace.
-random_paper: 68
+random_paper: 50
 score:
   band: minimal
   composite: 5.7

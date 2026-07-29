@@ -219,7 +219,7 @@ plans:
 - name: Millimetric Plans
   plan_count: 3
   slug: millimetric-plans
-random_paper: 24
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Millimetric Rate Limits

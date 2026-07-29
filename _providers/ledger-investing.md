@@ -207,7 +207,7 @@ overview: 'Ledger Investing publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Ledger Investing''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 38
+random_paper: 75
 score:
   band: developing
   composite: 54.6

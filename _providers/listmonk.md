@@ -129,7 +129,7 @@ plans:
 - name: Listmonk Plans Pricing
   plan_count: 1
   slug: listmonk-plans-pricing
-random_paper: 34
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Listmonk Rate Limits

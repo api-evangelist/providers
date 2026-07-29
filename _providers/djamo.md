@@ -95,7 +95,7 @@ overview: 'Djamo publishes 1 API on the [APIs.io](https://apis.io/) network: Bus
 
 
   Djamo''s developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: thin
   composite: 30.9

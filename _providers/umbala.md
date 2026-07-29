@@ -56,7 +56,7 @@ name: Umbala
 nav: Providers
 network: true
 overview: Umbala is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Streaming, Camera, and Blockchain.
-random_paper: 10
+random_paper: 73
 score:
   band: minimal
   composite: 6.9

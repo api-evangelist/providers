@@ -112,7 +112,7 @@ overview: 'Scientific Games is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Scientific Games'' developer surface includes product news and 16 more developer resources.'
-random_paper: 10
+random_paper: 47
 score:
   band: minimal
   composite: 4.4

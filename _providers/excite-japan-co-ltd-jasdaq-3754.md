@@ -52,7 +52,7 @@ name: Excite Japan Co., Ltd. (JASDAQ:3754)
 nav: Providers
 network: true
 overview: Excite Japan Co., Ltd. (JASDAQ:3754) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Japan, Internet Media, Web Portal, and Search.
-random_paper: 67
+random_paper: 76
 score:
   band: minimal
   composite: 7.1

@@ -48,7 +48,7 @@ name: Hyper 4
 nav: Providers
 network: true
 overview: Hyper 4 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Knowledge Management, and Knowledge Graph.
-random_paper: 33
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

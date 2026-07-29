@@ -287,7 +287,7 @@ overview: 'Langdock publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Langdock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
-random_paper: 65
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Langdock Rate Limits

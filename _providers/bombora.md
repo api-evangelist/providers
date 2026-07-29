@@ -135,7 +135,7 @@ overview: 'Bombora publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Bombora''s developer surface includes privacy policy, YouTube channel, engineering blog, and 14 more developer resources.'
-random_paper: 45
+random_paper: 27
 score:
   band: emerging
   composite: 24.9

@@ -83,7 +83,7 @@ overview: 'ICON is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   ICON''s developer surface includes support and 9 more developer resources.'
-random_paper: 40
+random_paper: 30
 score:
   band: minimal
   composite: 10.1

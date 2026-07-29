@@ -63,7 +63,7 @@ overview: 'Ring Radar is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ring Radar''s developer surface includes signup flow, support, and 3 more developer resources.'
-random_paper: 75
+random_paper: 51
 score:
   band: minimal
   composite: 8.5

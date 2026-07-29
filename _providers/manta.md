@@ -44,7 +44,7 @@ name: Manta
 nav: Providers
 network: true
 overview: Manta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Cloud.
-random_paper: 67
+random_paper: 55
 score:
   band: minimal
   composite: 4.1

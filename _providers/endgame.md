@@ -52,7 +52,7 @@ name: Endgame
 nav: Providers
 network: true
 overview: Endgame is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Endpoint Security, Threat Detection, and Security Operations.
-random_paper: 28
+random_paper: 10
 score:
   band: minimal
   composite: 6.9

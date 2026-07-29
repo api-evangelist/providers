@@ -139,7 +139,7 @@ plans:
 - name: Soundcloud Plans Pricing
   plan_count: 2
   slug: soundcloud-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Soundcloud Rate Limits

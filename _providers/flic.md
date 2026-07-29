@@ -115,7 +115,7 @@ overview: 'Flic is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Flic''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 10 more developer resources.'
-random_paper: 29
+random_paper: 19
 score:
   band: thin
   composite: 36.5

@@ -59,7 +59,7 @@ overview: 'Aquafortus is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aquafortus'' developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 21
+random_paper: 72
 score:
   band: minimal
   composite: 6.3

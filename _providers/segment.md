@@ -309,7 +309,7 @@ plans:
 - name: Segment Plans Pricing
   plan_count: 3
   slug: segment-plans-pricing
-random_paper: 62
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Segment Rate Limits

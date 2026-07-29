@@ -145,7 +145,7 @@ plans:
 - name: Ace Hardware Plans Pricing
   plan_count: 3
   slug: ace-hardware-plans-pricing
-random_paper: 33
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Ace Hardware Rate Limits

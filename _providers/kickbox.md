@@ -119,7 +119,7 @@ overview: 'Kickbox publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kickbox''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 54
+random_paper: 36
 score:
   band: thin
   composite: 29.4

@@ -67,7 +67,7 @@ overview: 'Octant Bio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Octant Bio''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 7
+random_paper: 60
 score:
   band: minimal
   composite: 9.0

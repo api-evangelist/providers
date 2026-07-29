@@ -121,7 +121,7 @@ plans:
 - name: Microsoft Package Plans Pricing
   plan_count: 3
   slug: microsoft-package-plans-pricing
-random_paper: 49
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Microsoft Package Rate Limits

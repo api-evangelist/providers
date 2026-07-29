@@ -63,7 +63,7 @@ overview: 'Zencore Biologics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Zencore Biologics'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 35
+random_paper: 11
 score:
   band: minimal
   composite: 10.8

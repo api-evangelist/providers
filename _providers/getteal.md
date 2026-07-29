@@ -75,7 +75,7 @@ overview: 'Getteal is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Getteal''s developer surface includes signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 49
+random_paper: 31
 score:
   band: emerging
   composite: 13.8

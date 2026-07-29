@@ -60,7 +60,7 @@ name: Balance Re
 nav: Providers
 network: true
 overview: Balance Re is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reinsurance, Insurance, Insurtech, and Life Insurance.
-random_paper: 46
+random_paper: 22
 score:
   band: minimal
   composite: 11.0

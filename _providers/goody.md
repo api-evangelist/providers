@@ -268,7 +268,7 @@ overview: 'Goody publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
-random_paper: 7
+random_paper: 72
 scopes:
 - name: Goody Scopes
   scope_count: 4

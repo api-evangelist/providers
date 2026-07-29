@@ -52,7 +52,7 @@ name: Interface Specifications
 nav: Providers
 network: true
 overview: Interface Specifications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Documentation, Software Architecture, System Integration, and Technical Specifications.
-random_paper: 18
+random_paper: 33
 score:
   band: minimal
   composite: 4.1

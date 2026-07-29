@@ -167,7 +167,7 @@ plans:
 - name: Uppsala Plans Pricing
   plan_count: 2
   slug: uppsala-plans-pricing
-random_paper: 65
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Uppsala Rate Limits

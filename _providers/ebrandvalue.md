@@ -79,7 +79,7 @@ overview: 'Ebrandvalue is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Ebrandvalue''s developer surface includes pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 6
+random_paper: 55
 score:
   band: emerging
   composite: 15.9

@@ -139,7 +139,7 @@ overview: 'Stonly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Stonly''s developer surface includes documentation, support, engineering blog, pricing, signup flow, CLI, changelog, and 17 more developer resources.'
-random_paper: 65
+random_paper: 49
 score:
   band: thin
   composite: 32.6

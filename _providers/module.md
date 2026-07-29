@@ -48,7 +48,7 @@ name: Module
 nav: Providers
 network: true
 overview: Module is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Housing, Construction, Manufacturing, and Modular.
-random_paper: 30
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

@@ -71,7 +71,7 @@ overview: 'Joko is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Joko''s developer surface includes support and 6 more developer resources.'
-random_paper: 50
+random_paper: 40
 score:
   band: emerging
   composite: 14.1

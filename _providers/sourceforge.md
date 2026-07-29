@@ -202,7 +202,7 @@ plans:
 - name: Sourceforge Plans Pricing
   plan_count: 3
   slug: sourceforge-plans-pricing
-random_paper: 33
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Sourceforge Rate Limits

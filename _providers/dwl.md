@@ -40,7 +40,7 @@ name: DWL
 nav: Providers
 network: true
 overview: DWL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Defunct, Master Data Management, and Customer Data Integration.
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 4.3

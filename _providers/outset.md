@@ -87,7 +87,7 @@ overview: 'Outset is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Outset''s developer surface includes engineering blog, pricing, support, and 8 more developer resources.'
-random_paper: 60
+random_paper: 44
 score:
   band: emerging
   composite: 18.4

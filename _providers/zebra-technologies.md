@@ -102,7 +102,7 @@ overview: 'Zebra Technologies publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Zebra Technologies'' developer surface includes developer portal, documentation, engineering blog, YouTube channel, signup flow, support, and 5 more developer resources.'
-random_paper: 13
+random_paper: 44
 score:
   band: emerging
   composite: 15.5

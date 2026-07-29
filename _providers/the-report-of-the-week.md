@@ -52,7 +52,7 @@ name: The Report of the Week
 nav: Providers
 network: true
 overview: The Report of the Week publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
-random_paper: 52
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

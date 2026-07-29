@@ -185,7 +185,7 @@ overview: 'Lifebit Biotech publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Lifebit Biotech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, YouTube channel, and 26 more developer resources.'
-random_paper: 51
+random_paper: 13
 score:
   band: thin
   composite: 35.8

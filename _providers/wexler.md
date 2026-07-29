@@ -75,7 +75,7 @@ overview: 'Wexler is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Wexler''s developer surface includes signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 47
+random_paper: 31
 score:
   band: emerging
   composite: 13.3

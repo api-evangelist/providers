@@ -138,7 +138,7 @@ overview: 'SearchApi publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   SearchApi''s developer surface includes documentation, API reference, pricing, signup flow, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 20
+random_paper: 75
 score:
   band: developing
   composite: 47.1

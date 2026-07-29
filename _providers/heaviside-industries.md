@@ -63,7 +63,7 @@ overview: 'Heaviside Industries is profiled on the [APIs.io](https://apis.io/) n
 
 
   Heaviside Industries'' developer surface includes support and 4 more developer resources.'
-random_paper: 10
+random_paper: 35
 score:
   band: minimal
   composite: 5.9

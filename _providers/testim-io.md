@@ -166,7 +166,7 @@ overview: 'Testim Io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Testim Io''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, CLI, and 17 more developer resources.'
-random_paper: 76
+random_paper: 54
 score:
   band: developing
   composite: 44.6

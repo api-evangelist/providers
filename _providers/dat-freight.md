@@ -127,7 +127,7 @@ plans:
 - name: Dat Freight Plans Pricing
   plan_count: 4
   slug: dat-freight-plans-pricing
-random_paper: 25
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Dat Freight Rate Limits

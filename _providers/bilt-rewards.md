@@ -79,7 +79,7 @@ overview: 'Bilt Rewards is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bilt Rewards'' developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 0
+random_paper: 47
 score:
   band: emerging
   composite: 17.0

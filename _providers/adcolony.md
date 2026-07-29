@@ -76,7 +76,7 @@ name: AdColony
 nav: Providers
 network: true
 overview: AdColony is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile Advertising, AdTech, and SDK.
-random_paper: 10
+random_paper: 67
 score:
   band: minimal
   composite: 9.1

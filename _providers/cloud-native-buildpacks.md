@@ -121,7 +121,7 @@ overview: 'Cloud Native Buildpacks publishes 7 APIs on the [APIs.io](https://api
 
 
   Cloud Native Buildpacks'' developer surface includes documentation, GitHub presence, engineering blog, and 9 more developer resources.'
-random_paper: 20
+random_paper: 39
 rules:
 - name: Cloud Native Buildpacks API Rules
   rule_count: 8

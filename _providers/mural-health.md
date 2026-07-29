@@ -71,7 +71,7 @@ overview: 'Mural Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Mural Health''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 65
+random_paper: 35
 score:
   band: minimal
   composite: 11.6

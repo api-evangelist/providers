@@ -60,7 +60,7 @@ overview: 'ACKNOWLEDGMENTS.md is profiled on the [APIs.io](https://apis.io/) net
 
 
   ACKNOWLEDGMENTS.md''s developer surface includes documentation and getting-started guide.'
-random_paper: 12
+random_paper: 43
 score:
   band: minimal
   composite: 8.9

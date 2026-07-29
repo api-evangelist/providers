@@ -314,7 +314,7 @@ plans:
 - name: Reducto Plans Pricing
   plan_count: 3
   slug: reducto-plans-pricing
-random_paper: 65
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Reducto Rate Limits

@@ -88,7 +88,7 @@ overview: 'Cyral is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Cyral''s developer surface includes documentation, authentication, changelog, and 8 more developer resources.'
-random_paper: 0
+random_paper: 65
 score:
   band: emerging
   composite: 15.2

@@ -63,7 +63,7 @@ overview: 'Bunkerhill Health is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Bunkerhill Health''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 8
+random_paper: 43
 score:
   band: minimal
   composite: 7.1

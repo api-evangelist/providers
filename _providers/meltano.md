@@ -119,7 +119,7 @@ overview: 'Meltano is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Meltano''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, CLI, changelog, and 12 more developer resources.'
-random_paper: 59
+random_paper: 41
 score:
   band: emerging
   composite: 24.7

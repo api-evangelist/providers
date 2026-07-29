@@ -137,7 +137,7 @@ plans:
 - name: Spring Batch 51 Plans Pricing
   plan_count: 3
   slug: spring-batch-51-plans-pricing
-random_paper: 56
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Spring Batch 51 Rate Limits

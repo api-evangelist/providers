@@ -71,7 +71,7 @@ overview: 'Center for Parent Information and Resources is profiled on the [APIs.
 
 
   Center for Parent Information and Resources'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 15
+random_paper: 61
 score:
   band: minimal
   composite: 7.5

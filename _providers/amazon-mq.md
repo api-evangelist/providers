@@ -861,7 +861,7 @@ plans:
 - name: Amazon Mq Plans Pricing
   plan_count: 3
   slug: amazon-mq-plans-pricing
-random_paper: 66
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Amazon Mq Rate Limits

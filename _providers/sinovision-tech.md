@@ -48,7 +48,7 @@ name: sinovision-tech
 nav: Providers
 network: true
 overview: sinovision-tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Imaging, Healthcare, CT Scanner, and Medical Devices.
-random_paper: 30
+random_paper: 69
 score:
   band: minimal
   composite: 5.4

@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Patents for artificial intelligence-driven analysis of property ...
   url: https://www.firstam.com/news/2021/faf-patents-ai-automated-title-production-20211201.html
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: First American Financial Rate Limits

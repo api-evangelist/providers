@@ -100,7 +100,7 @@ plans:
 - name: Nutritics Plans Pricing
   plan_count: 3
   slug: nutritics-plans-pricing
-random_paper: 73
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Nutritics Rate Limits

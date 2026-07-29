@@ -63,7 +63,7 @@ overview: 'Boxbot is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Boxbot''s developer surface includes support and 4 more developer resources.'
-random_paper: 38
+random_paper: 22
 score:
   band: minimal
   composite: 6.6

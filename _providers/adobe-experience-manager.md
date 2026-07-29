@@ -110,7 +110,7 @@ overview: 'Adobe Experience Manager publishes 1 API on the [APIs.io](https://api
 
 
   Adobe Experience Manager''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 5
+random_paper: 22
 scopes:
 - name: Adobe Experience Manager Scopes
   scope_count: 6

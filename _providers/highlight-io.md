@@ -461,7 +461,7 @@ plans:
 - name: Highlight Io Plans Pricing
   plan_count: 6
   slug: highlight-io-plans-pricing
-random_paper: 58
+random_paper: 28
 rate_limits:
 - limit_count: 7
   name: Highlight Io Rate Limits

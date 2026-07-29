@@ -144,7 +144,7 @@ overview: 'BILL publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   BILL''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 34
+random_paper: 24
 rules:
 - name: BILL API Rules
   rule_count: 8

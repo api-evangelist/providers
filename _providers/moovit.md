@@ -248,7 +248,7 @@ overview: 'Moovit publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Moovit''s developer surface includes authentication, developer portal, documentation, engineering blog, support, YouTube channel, and 31 more developer resources.'
-random_paper: 54
+random_paper: 38
 score:
   band: thin
   composite: 32.6

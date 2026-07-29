@@ -185,7 +185,7 @@ overview: 'Codesignal publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Codesignal''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 48
+random_paper: 22
 scopes:
 - name: Codesignal Scopes
   scope_count: 1

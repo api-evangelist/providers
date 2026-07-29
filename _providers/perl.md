@@ -91,7 +91,7 @@ overview: 'Perl is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Perl''s developer surface includes documentation, engineering blog, product news, and 9 more developer resources.'
-random_paper: 50
+random_paper: 40
 score:
   band: minimal
   composite: 8.7

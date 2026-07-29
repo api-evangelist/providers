@@ -84,7 +84,7 @@ overview: 'Daily Harvest is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Daily Harvest''s developer surface includes support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 32
+random_paper: 77
 scopes:
 - name: Daily Harvest Scopes
   scope_count: 4

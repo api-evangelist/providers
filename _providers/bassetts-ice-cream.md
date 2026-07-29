@@ -207,7 +207,7 @@ overview: 'Bassetts Ice Cream is profiled on the [APIs.io](https://apis.io/) net
 
 
   Bassetts Ice Cream''s developer surface includes engineering blog, FAQ, and 37 more developer resources.'
-random_paper: 17
+random_paper: 50
 score:
   band: minimal
   composite: 7.5

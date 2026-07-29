@@ -209,7 +209,7 @@ plans:
 - name: Langfuse Plans Pricing
   plan_count: 5
   slug: langfuse-plans-pricing
-random_paper: 6
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Langfuse Rate Limits

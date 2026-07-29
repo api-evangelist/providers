@@ -71,7 +71,7 @@ overview: 'Loft is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Loft''s developer surface includes developer portal, support, and 5 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: minimal
   composite: 12.5

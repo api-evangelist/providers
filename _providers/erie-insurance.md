@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: 'Erie CEO: AI Not Intended to Replace Company Employees'
   url: https://news.ambest.com/newscontent.aspx?refnum=274084&altsrc=23
-random_paper: 48
+random_paper: 12
 score:
   band: minimal
   composite: 4.8

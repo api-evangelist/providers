@@ -57,7 +57,7 @@ name: Linear Technology Corporation
 nav: Providers
 network: true
 overview: Linear Technology Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Analog, Integrated Circuits, and Power Management.
-random_paper: 39
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

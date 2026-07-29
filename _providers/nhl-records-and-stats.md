@@ -64,7 +64,7 @@ name: NHL Records and Stats
 nav: Providers
 network: true
 overview: NHL Records and Stats publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 75
+random_paper: 23
 score:
   band: minimal
   composite: 7.3

@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: The Andersons, Inc. Completes Acquisition of Lansing ...
   url: https://www.prnewswire.com/news-releases/the-andersons-inc-completes-acquisition-of-lansing-trade-group-llc-announces-inducement-grants-under-nasdaq-listing-rule-5635-300771803.html
-random_paper: 75
+random_paper: 27
 score:
   band: minimal
   composite: 5.5

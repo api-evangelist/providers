@@ -120,7 +120,7 @@ overview: 'UKG Ready publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   UKG Ready''s developer surface includes authentication, documentation, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 58
+random_paper: 36
 score:
   band: thin
   composite: 31.1

@@ -75,7 +75,7 @@ overview: 'Fort is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Fort''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: emerging
   composite: 15.2

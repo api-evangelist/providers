@@ -76,7 +76,7 @@ plans:
 - name: Dependabot Yml Plans Pricing
   plan_count: 3
   slug: dependabot-yml-plans-pricing
-random_paper: 43
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Dependabot Yml Rate Limits

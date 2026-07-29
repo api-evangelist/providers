@@ -63,7 +63,7 @@ overview: 'EarnBetter is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   EarnBetter''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 67
+random_paper: 41
 score:
   band: minimal
   composite: 11.8

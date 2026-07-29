@@ -4119,7 +4119,7 @@ plans:
 - name: Github Plans Pricing
   plan_count: 3
   slug: github-plans-pricing
-random_paper: 27
+random_paper: 11
 rate_limits:
 - limit_count: 8
   name: Github Rate Limits

@@ -48,7 +48,7 @@ name: Rightpoint
 nav: Providers
 network: true
 overview: Rightpoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consulting, Digital Experience, Customer Experience, and Employee Experience.
-random_paper: 18
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

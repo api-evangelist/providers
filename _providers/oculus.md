@@ -87,7 +87,7 @@ overview: 'Oculus is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Oculus'' developer surface includes documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
-random_paper: 51
+random_paper: 35
 score:
   band: emerging
   composite: 18.2

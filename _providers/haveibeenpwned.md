@@ -331,7 +331,7 @@ plans:
 - name: Haveibeenpwned Plans Pricing
   plan_count: 6
   slug: haveibeenpwned-plans-pricing
-random_paper: 14
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Haveibeenpwned Rate Limits

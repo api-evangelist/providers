@@ -118,7 +118,7 @@ plans:
 - name: Prodigi Plans Pricing
   plan_count: 2
   slug: prodigi-plans-pricing
-random_paper: 57
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Prodigi Rate Limits

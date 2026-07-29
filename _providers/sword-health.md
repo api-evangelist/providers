@@ -83,7 +83,7 @@ overview: 'Sword Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Sword Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 2
+random_paper: 49
 score:
   band: emerging
   composite: 18.0

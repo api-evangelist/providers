@@ -112,7 +112,7 @@ overview: 'Duckbill is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Duckbill''s developer surface includes documentation, authentication, engineering blog, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 72
+random_paper: 52
 scopes:
 - name: Duckbill Scopes
   scope_count: 6

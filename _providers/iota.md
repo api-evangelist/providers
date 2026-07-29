@@ -257,7 +257,7 @@ plans:
 - name: Iota Plans
   plan_count: 3
   slug: iota-plans
-random_paper: 44
+random_paper: 34
 rate_limits:
 - limit_count: 4
   name: Iota Rate Limits

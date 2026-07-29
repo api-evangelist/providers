@@ -185,7 +185,7 @@ plans:
 - name: University Of Cape Town Plans Pricing
   plan_count: 2
   slug: university-of-cape-town-plans-pricing
-random_paper: 25
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: University Of Cape Town Rate Limits

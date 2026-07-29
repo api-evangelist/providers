@@ -103,7 +103,7 @@ overview: 'Zego publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zego''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: thin
   composite: 32.7

@@ -71,7 +71,7 @@ overview: 'Tenex is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tenex''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 12.3

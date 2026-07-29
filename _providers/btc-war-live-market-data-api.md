@@ -33,7 +33,7 @@ name: BTC War Live Market Data API
 nav: Providers
 network: true
 overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https://apis.io/) network: BTC War Live Market Data API. Tagged areas include finance, cryptocurrency, market-data, bitcoin, and crypto-price.'
-random_paper: 50
+random_paper: 61
 score:
   band: minimal
   composite: 11.9

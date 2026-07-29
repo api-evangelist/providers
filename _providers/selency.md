@@ -83,7 +83,7 @@ overview: 'Selency is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Selency''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 62
+random_paper: 44
 score:
   band: emerging
   composite: 15.0

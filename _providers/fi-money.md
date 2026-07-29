@@ -136,7 +136,7 @@ overview: 'Fi Money is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fi Money''s developer surface includes privacy policy, FAQ, engineering blog, GitHub presence, and 19 more developer resources.'
-random_paper: 34
+random_paper: 14
 score:
   band: minimal
   composite: 12.6

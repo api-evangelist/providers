@@ -183,7 +183,7 @@ overview: 'Credit Benchmark publishes 5 APIs on the [APIs.io](https://apis.io/) 
 
 
   Credit Benchmark''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 2
+random_paper: 39
 score:
   band: developing
   composite: 48.9

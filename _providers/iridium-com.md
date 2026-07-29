@@ -132,7 +132,7 @@ overview: 'Iridium is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Iridium''s developer surface includes YouTube channel and 21 more developer resources.'
-random_paper: 41
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

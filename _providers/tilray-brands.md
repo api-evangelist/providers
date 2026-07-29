@@ -79,7 +79,7 @@ overview: 'Tilray Brands is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Tilray Brands'' developer surface includes product news and 8 more developer resources.'
-random_paper: 31
+random_paper: 76
 score:
   band: minimal
   composite: 4.8

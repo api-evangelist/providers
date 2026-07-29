@@ -96,7 +96,7 @@ plans:
 - name: Wikimapia Plans Pricing
   plan_count: 2
   slug: wikimapia-plans-pricing
-random_paper: 32
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Wikimapia Rate Limits

@@ -39,7 +39,7 @@ name: Monolithic Architecture
 nav: Providers
 network: true
 overview: Monolithic Architecture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Design Patterns, Monolithic Architecture, and Software Architecture.
-random_paper: 19
+random_paper: 36
 score:
   band: minimal
   composite: 4.1

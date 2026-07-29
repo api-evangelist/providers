@@ -237,7 +237,7 @@ overview: 'Mamo publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 41
+random_paper: 31
 score:
   band: strong
   composite: 60.8

@@ -56,7 +56,7 @@ name: Storm Glass
 nav: Providers
 network: true
 overview: Storm Glass publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather and Public APIs.
-random_paper: 70
+random_paper: 42
 score:
   band: minimal
   composite: 5.7

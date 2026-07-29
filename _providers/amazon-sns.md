@@ -451,7 +451,7 @@ plans:
 - name: Amazon Sns Plans Pricing
   plan_count: 3
   slug: amazon-sns-plans-pricing
-random_paper: 30
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Amazon Sns Rate Limits

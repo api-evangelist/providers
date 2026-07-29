@@ -84,7 +84,7 @@ plans:
 - name: Datos Madrid Es Plans Pricing
   plan_count: 1
   slug: datos-madrid-es-plans-pricing
-random_paper: 7
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Datos Madrid Es Rate Limits

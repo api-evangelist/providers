@@ -103,7 +103,7 @@ plans:
 - name: Google Admin Sdk Plans Pricing
   plan_count: 3
   slug: google-admin-sdk-plans-pricing
-random_paper: 30
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Google Admin Sdk Rate Limits

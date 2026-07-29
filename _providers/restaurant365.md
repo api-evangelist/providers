@@ -232,7 +232,7 @@ plans:
 - name: Restaurant365 Plans Pricing
   plan_count: 4
   slug: restaurant365-plans-pricing
-random_paper: 23
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Restaurant365 Rate Limits

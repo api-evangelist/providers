@@ -59,7 +59,7 @@ overview: 'The Icon League is profiled on the [APIs.io](https://apis.io/) networ
 
 
   The Icon League''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 0
+random_paper: 41
 score:
   band: minimal
   composite: 7.5

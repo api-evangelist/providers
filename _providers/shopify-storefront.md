@@ -124,7 +124,7 @@ plans:
 - name: Shopify Storefront Plans Pricing
   plan_count: 5
   slug: shopify-storefront-plans-pricing
-random_paper: 0
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Shopify Storefront Rate Limits

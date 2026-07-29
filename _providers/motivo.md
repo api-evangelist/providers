@@ -75,7 +75,7 @@ overview: 'Motivo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Motivo''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 54
+random_paper: 38
 score:
   band: emerging
   composite: 13.8

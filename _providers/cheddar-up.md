@@ -123,7 +123,7 @@ overview: 'Cheddar Up is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cheddar Up''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 65
+random_paper: 41
 score:
   band: thin
   composite: 38.8

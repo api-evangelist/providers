@@ -67,7 +67,7 @@ name: Big O Notation
 nav: Providers
 network: true
 overview: Big O Notation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Algorithms, Big O Notation, Complexity, Computer Science, and Performance.
-random_paper: 74
+random_paper: 40
 score:
   band: minimal
   composite: 7.5

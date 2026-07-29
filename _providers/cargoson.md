@@ -124,7 +124,7 @@ plans:
 - name: Cargoson Plans Pricing
   plan_count: 4
   slug: cargoson-plans-pricing
-random_paper: 13
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Cargoson Rate Limits

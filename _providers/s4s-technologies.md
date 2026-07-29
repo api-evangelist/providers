@@ -60,7 +60,7 @@ name: S4S Technologies
 nav: Providers
 network: true
 overview: S4S Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Processing, Agritech, Food and Beverage, and Supply Chain.
-random_paper: 71
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

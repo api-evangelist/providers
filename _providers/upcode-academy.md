@@ -56,7 +56,7 @@ name: Upcode Academy
 nav: Providers
 network: true
 overview: Upcode Academy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Coding Bootcamp, Training, and Data Science.
-random_paper: 23
+random_paper: 66
 score:
   band: minimal
   composite: 6.9

@@ -63,7 +63,7 @@ overview: 'Kendra Scott is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Kendra Scott''s developer surface includes support and 4 more developer resources.'
-random_paper: 31
+random_paper: 1
 score:
   band: minimal
   composite: 10.1

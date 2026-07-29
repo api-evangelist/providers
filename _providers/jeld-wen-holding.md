@@ -44,7 +44,7 @@ name: JELD-WEN Holding
 nav: Providers
 network: true
 overview: JELD-WEN Holding is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 36
+random_paper: 75
 score:
   band: minimal
   composite: 2.6

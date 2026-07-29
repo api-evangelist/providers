@@ -52,7 +52,7 @@ name: BetterDoctor
 nav: Providers
 network: true
 overview: BetterDoctor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Provider Directory, Health Plans, and Doctors.
-random_paper: 65
+random_paper: 33
 score:
   band: minimal
   composite: 6.0

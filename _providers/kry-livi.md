@@ -123,7 +123,7 @@ overview: 'KRY | LIVI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   KRY | LIVI''s developer surface includes support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 53
+random_paper: 33
 score:
   band: emerging
   composite: 23.9

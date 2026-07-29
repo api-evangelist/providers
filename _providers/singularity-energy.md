@@ -118,7 +118,7 @@ plans:
 - name: Singularity Energy Plans Pricing
   plan_count: 3
   slug: singularity-energy-plans-pricing
-random_paper: 58
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Singularity Energy Rate Limits

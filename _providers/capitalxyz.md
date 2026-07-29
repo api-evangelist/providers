@@ -48,7 +48,7 @@ name: Capital.xyz
 nav: Providers
 network: true
 overview: Capital.xyz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Startups, and Fundraising.
-random_paper: 19
+random_paper: 70
 score:
   band: minimal
   composite: 4.8

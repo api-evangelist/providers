@@ -56,7 +56,7 @@ name: Wheelocity
 nav: Providers
 network: true
 overview: Wheelocity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Agriculture, and Grocery Delivery.
-random_paper: 7
+random_paper: 58
 score:
   band: minimal
   composite: 9.2

@@ -84,7 +84,7 @@ plans:
 - name: Delta Airlines Plans Pricing
   plan_count: 1
   slug: delta-airlines-plans-pricing
-random_paper: 36
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Delta Airlines Rate Limits

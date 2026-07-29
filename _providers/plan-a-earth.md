@@ -140,7 +140,7 @@ overview: 'Plan A is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Plan A''s developer surface includes academy / training, pricing, YouTube channel, and 21 more developer resources.'
-random_paper: 68
+random_paper: 40
 score:
   band: minimal
   composite: 7.1

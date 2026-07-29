@@ -91,7 +91,7 @@ overview: 'Blue J is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Blue J''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 36
+random_paper: 22
 score:
   band: emerging
   composite: 20.9

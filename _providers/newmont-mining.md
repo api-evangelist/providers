@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Newmont and Goldcorp Combine to Create World's ...
   url: https://www.newswire.ca/news-releases/newmont-and-goldcorp-combine-to-create-world-s-leading-gold-company-806405145.html
-random_paper: 0
+random_paper: 41
 score:
   band: minimal
   composite: 2.6

@@ -87,7 +87,7 @@ overview: 'LiveIntent is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   LiveIntent''s developer surface includes engineering blog, support, documentation, and 8 more developer resources.'
-random_paper: 12
+random_paper: 63
 score:
   band: emerging
   composite: 15.5

@@ -91,7 +91,7 @@ overview: 'Pulse Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Pulse Labs'' developer surface includes documentation, getting-started guide, engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 15
+random_paper: 68
 score:
   band: emerging
   composite: 18.8

@@ -497,7 +497,7 @@ plans:
 - name: Signwell Plans Pricing
   plan_count: 7
   slug: signwell-plans-pricing
-random_paper: 22
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Signwell Rate Limits

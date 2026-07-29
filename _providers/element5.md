@@ -178,7 +178,7 @@ overview: 'Element5 publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Element5''s developer surface includes authentication, sandbox, documentation, API reference, support, and 19 more developer resources.'
-random_paper: 29
+random_paper: 9
 score:
   band: developing
   composite: 43.8

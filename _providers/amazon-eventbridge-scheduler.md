@@ -1129,7 +1129,7 @@ plans:
 - name: Amazon Eventbridge Scheduler Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-scheduler-plans-pricing
-random_paper: 13
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Scheduler Rate Limits

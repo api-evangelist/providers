@@ -39,7 +39,7 @@ name: TrendKite
 nav: Providers
 network: true
 overview: TrendKite is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Relations, Media Intelligence, Media Monitoring, and Analytics.
-random_paper: 46
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

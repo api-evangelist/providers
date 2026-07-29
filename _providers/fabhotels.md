@@ -63,7 +63,7 @@ overview: 'FabHotels is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   FabHotels'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 28
+random_paper: 4
 score:
   band: minimal
   composite: 9.7

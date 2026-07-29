@@ -79,7 +79,7 @@ overview: 'Bandana is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bandana''s developer surface includes support, signup flow, and 7 more developer resources.'
-random_paper: 16
+random_paper: 77
 score:
   band: minimal
   composite: 12.7

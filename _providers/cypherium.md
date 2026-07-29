@@ -86,7 +86,7 @@ overview: 'Cypherium publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cypherium''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 58
+random_paper: 34
 score:
   band: emerging
   composite: 14.4

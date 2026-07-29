@@ -144,7 +144,7 @@ plans:
 - name: Bonneville Power Administration Plans Pricing
   plan_count: 3
   slug: bonneville-power-administration-plans-pricing
-random_paper: 70
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Bonneville Power Administration Rate Limits

@@ -124,7 +124,7 @@ overview: 'Citymapper is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Citymapper''s developer surface includes GitHub presence, engineering blog, and 18 more developer resources.'
-random_paper: 8
+random_paper: 59
 score:
   band: minimal
   composite: 6.1

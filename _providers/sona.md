@@ -63,7 +63,7 @@ overview: 'Sona is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Sona''s developer surface includes pricing, engineering blog, and 3 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: minimal
   composite: 10.8

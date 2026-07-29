@@ -128,7 +128,7 @@ plans:
 - name: Proctorio Plans Pricing
   plan_count: 3
   slug: proctorio-plans-pricing
-random_paper: 69
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Proctorio Rate Limits

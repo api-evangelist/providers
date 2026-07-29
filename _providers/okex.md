@@ -63,7 +63,7 @@ overview: 'OKEx publishes 1 API on the [APIs.io](https://apis.io/) network: OKEx
 
 
   The OKEx catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 54
+random_paper: 44
 rules:
 - name: OKEx API Rules
   rule_count: 8

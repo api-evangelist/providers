@@ -197,7 +197,7 @@ plans:
 - name: Factory Ai Plans Pricing
   plan_count: 1
   slug: factory-ai-plans-pricing
-random_paper: 6
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Factory Ai Rate Limits

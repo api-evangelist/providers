@@ -56,7 +56,7 @@ name: Vercept
 nav: Providers
 network: true
 overview: Vercept is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Computer Use, and Desktop Automation.
-random_paper: 68
+random_paper: 50
 score:
   band: minimal
   composite: 9.2

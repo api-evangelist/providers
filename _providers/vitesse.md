@@ -59,7 +59,7 @@ overview: 'Vitesse is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vitesse''s developer surface includes signup flow and 3 more developer resources.'
-random_paper: 1
+random_paper: 60
 score:
   band: minimal
   composite: 8.4

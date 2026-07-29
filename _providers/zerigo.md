@@ -39,7 +39,7 @@ name: Zerigo
 nav: Providers
 network: true
 overview: Zerigo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 40
+random_paper: 24
 score:
   band: minimal
   composite: 3.2

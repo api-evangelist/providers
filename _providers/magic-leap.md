@@ -107,7 +107,7 @@ overview: 'Magic Leap is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Magic Leap''s developer surface includes documentation, engineering blog, support, and 13 more developer resources.'
-random_paper: 52
+random_paper: 28
 score:
   band: emerging
   composite: 21.0

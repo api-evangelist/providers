@@ -102,7 +102,7 @@ overview: 'Hunters publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Hunters'' developer surface includes documentation, engineering blog, signup flow, changelog, and 8 more developer resources.'
-random_paper: 7
+random_paper: 66
 score:
   band: thin
   composite: 35.3

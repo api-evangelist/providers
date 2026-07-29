@@ -241,7 +241,7 @@ plans:
 - name: Workday Report Writer Plans Pricing
   plan_count: 1
   slug: workday-report-writer-plans-pricing
-random_paper: 40
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Workday Report Writer Rate Limits

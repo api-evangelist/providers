@@ -70,7 +70,7 @@ overview: 'Jane (iHeartJane) publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Jane (iHeartJane)''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 50
+random_paper: 24
 score:
   band: minimal
   composite: 10.3

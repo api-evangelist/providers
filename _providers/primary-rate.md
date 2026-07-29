@@ -39,7 +39,7 @@ name: Primary Rate
 nav: Providers
 network: true
 overview: Primary Rate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 13
+random_paper: 60
 score:
   band: minimal
   composite: 4.1

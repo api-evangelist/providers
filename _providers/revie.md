@@ -75,7 +75,7 @@ overview: 'Revie is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Revie''s developer surface includes pricing, engineering blog, documentation, signup flow, and 4 more developer resources.'
-random_paper: 0
+random_paper: 65
 score:
   band: emerging
   composite: 14.7

@@ -59,7 +59,7 @@ overview: 'Occupational Safety and Health Administration is profiled on the [API
 
 
   Occupational Safety and Health Administration''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 18
+random_paper: 58
 score:
   band: minimal
   composite: 6.6

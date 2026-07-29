@@ -75,7 +75,7 @@ overview: 'ZenBusiness is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   ZenBusiness'' developer surface includes pricing, signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 54
+random_paper: 24
 score:
   band: emerging
   composite: 15.2

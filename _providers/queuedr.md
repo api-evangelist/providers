@@ -56,7 +56,7 @@ name: QueueDr
 nav: Providers
 network: true
 overview: QueueDr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Appointment Scheduling, and Patient Engagement.
-random_paper: 70
+random_paper: 52
 score:
   band: minimal
   composite: 7.6

@@ -83,7 +83,7 @@ overview: 'Zentist is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zentist''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 15
+random_paper: 74
 score:
   band: emerging
   composite: 16.1

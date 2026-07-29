@@ -142,7 +142,7 @@ overview: 'DerivaDEX publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   DerivaDEX''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 15 more developer resources.'
-random_paper: 32
+random_paper: 8
 score:
   band: thin
   composite: 38.5

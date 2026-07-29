@@ -222,7 +222,7 @@ overview: 'FastMCP publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 20 more developer resources.'
-random_paper: 57
+random_paper: 39
 score:
   band: emerging
   composite: 17.1

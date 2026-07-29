@@ -44,7 +44,7 @@ name: Troop
 nav: Providers
 network: true
 overview: Troop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Fintech.
-random_paper: 25
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

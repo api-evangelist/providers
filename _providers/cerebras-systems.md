@@ -252,7 +252,7 @@ plans:
 - name: Cerebras Systems Plans
   plan_count: 3
   slug: cerebras-systems-plans
-random_paper: 59
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Cerebras Systems Rate Limits

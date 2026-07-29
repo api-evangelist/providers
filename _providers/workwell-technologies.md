@@ -81,7 +81,7 @@ overview: 'Workwell Technologies publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Workwell Technologies'' developer surface includes documentation, API reference, support, engineering blog, and 3 more developer resources.'
-random_paper: 60
+random_paper: 4
 score:
   band: thin
   composite: 35.2

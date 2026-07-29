@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Quad makes audience creation easier, faster and more ...
   url: https://www.prnewswire.com/news-releases/quad-makes-audience-creation-easier-faster-and-more-precise-with-natural-language-ai-prompts-powered-by-snowflake-302578665.html
-random_paper: 12
+random_paper: 57
 score:
   band: minimal
   composite: 3.6

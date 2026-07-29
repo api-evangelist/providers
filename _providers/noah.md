@@ -44,7 +44,7 @@ name: Noah
 nav: Providers
 network: true
 overview: Noah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Home Equity, Mortgage, and Real Estate.
-random_paper: 37
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

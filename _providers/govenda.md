@@ -61,7 +61,7 @@ name: Govenda
 nav: Providers
 network: true
 overview: Govenda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Board Management, Governance, Board Portal, Meetings, and Documents.
-random_paper: 47
+random_paper: 29
 score:
   band: minimal
   composite: 6.6

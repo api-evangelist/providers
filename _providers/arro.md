@@ -56,7 +56,7 @@ name: Arro
 nav: Providers
 network: true
 overview: Arro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Credit, and Credit Cards.
-random_paper: 51
+random_paper: 41
 score:
   band: minimal
   composite: 9.2

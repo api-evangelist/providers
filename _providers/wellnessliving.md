@@ -162,7 +162,7 @@ plans:
 - name: Wellnessliving Plans Pricing
   plan_count: 4
   slug: wellnessliving-plans-pricing
-random_paper: 63
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Wellnessliving Rate Limits

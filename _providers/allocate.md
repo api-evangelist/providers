@@ -75,7 +75,7 @@ overview: 'Allocate is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Allocate''s developer surface includes signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 67
+random_paper: 47
 score:
   band: emerging
   composite: 13.9

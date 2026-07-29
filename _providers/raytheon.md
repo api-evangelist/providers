@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: RTX's Raytheon demonstrates first-ever AI/ML-powered ...
   url: https://www.rtx.com/news/news-center/2025/02/24/rtxs-raytheon-demonstrates-first-ever-ai-ml-powered-radar-warning-receiver-for-4
-random_paper: 27
+random_paper: 5
 score:
   band: minimal
   composite: 6.9

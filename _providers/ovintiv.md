@@ -52,7 +52,7 @@ name: Ovintiv
 nav: Providers
 network: true
 overview: Ovintiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fortune 500, and Oil and Gas.
-random_paper: 13
+random_paper: 72
 score:
   band: minimal
   composite: 4.7

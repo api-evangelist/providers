@@ -44,7 +44,7 @@ name: Maxion Therapeutics
 nav: Providers
 network: true
 overview: Maxion Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Drug Discovery, and Antibodies.
-random_paper: 69
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

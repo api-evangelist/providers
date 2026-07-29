@@ -240,7 +240,7 @@ overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Button''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 29 more developer resources.'
-random_paper: 0
+random_paper: 53
 score:
   band: strong
   composite: 59.8

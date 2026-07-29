@@ -152,7 +152,7 @@ plans:
 - name: Slate Plans Pricing
   plan_count: 3
   slug: slate-plans-pricing
-random_paper: 75
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Slate Rate Limits

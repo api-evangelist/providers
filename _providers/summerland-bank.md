@@ -169,7 +169,7 @@ overview: 'Summerland Bank publishes 7 APIs on the [APIs.io](https://apis.io/) n
 
 
   Summerland Bank''s developer surface includes documentation, engineering blog, support, getting-started guide, authentication, and 18 more developer resources.'
-random_paper: 74
+random_paper: 36
 scopes:
 - name: Summerland Bank Scopes
   scope_count: 5

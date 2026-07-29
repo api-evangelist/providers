@@ -71,7 +71,7 @@ overview: 'Vay is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Vay''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 28
+random_paper: 20
 score:
   band: minimal
   composite: 12.4

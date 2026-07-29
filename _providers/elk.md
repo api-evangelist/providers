@@ -76,7 +76,7 @@ plans:
 - name: Elk Plans Pricing
   plan_count: 3
   slug: elk-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Elk Rate Limits

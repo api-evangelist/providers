@@ -139,7 +139,7 @@ plans:
 - name: Entrez Eutils
   plan_count: 2
   slug: entrez-eutils
-random_paper: 21
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Entrez Eutils

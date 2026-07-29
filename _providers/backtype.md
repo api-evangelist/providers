@@ -44,7 +44,7 @@ name: Backtype
 nav: Providers
 network: true
 overview: Backtype is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Analytics, Social Analytics, and Stream Processing.
-random_paper: 4
+random_paper: 61
 score:
   band: minimal
   composite: 5.0

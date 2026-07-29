@@ -124,7 +124,7 @@ overview: 'Zendesk Sell publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Zendesk Sell''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 1
+random_paper: 48
 scopes:
 - name: Zendesk Sell Scopes
   scope_count: 2

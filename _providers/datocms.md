@@ -206,7 +206,7 @@ plans:
 - name: Datocms Plans Pricing
   plan_count: 3
   slug: datocms-plans-pricing
-random_paper: 54
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Datocms Rate Limits

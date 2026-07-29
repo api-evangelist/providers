@@ -95,7 +95,7 @@ overview: 'Inventive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Inventive''s developer surface includes pricing, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 60
+random_paper: 36
 score:
   band: emerging
   composite: 20.3

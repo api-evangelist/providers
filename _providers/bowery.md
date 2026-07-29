@@ -52,7 +52,7 @@ name: Bowery
 nav: Providers
 network: true
 overview: Bowery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgTech, Vertical Farming, Indoor Farming, and Controlled Environment Agriculture.
-random_paper: 48
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

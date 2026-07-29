@@ -95,7 +95,7 @@ overview: 'Teem is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Teem''s developer surface includes documentation, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: emerging
   composite: 19.4

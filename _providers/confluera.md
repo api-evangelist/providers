@@ -39,7 +39,7 @@ name: Confluera
 nav: Providers
 network: true
 overview: Confluera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Threat Detection, and Detection and Response.
-random_paper: 35
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

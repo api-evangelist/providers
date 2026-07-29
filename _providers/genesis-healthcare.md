@@ -88,7 +88,7 @@ overview: 'Genesis Healthcare is profiled on the [APIs.io](https://apis.io/) net
 
 
   Genesis Healthcare''s developer surface includes privacy policy, legal docs, and 9 more developer resources.'
-random_paper: 65
+random_paper: 19
 score:
   band: minimal
   composite: 10.2

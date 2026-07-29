@@ -116,7 +116,7 @@ overview: 'CYGNVS is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   CYGNVS''s developer surface includes pricing, support, engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 50
+random_paper: 34
 score:
   band: emerging
   composite: 23.7

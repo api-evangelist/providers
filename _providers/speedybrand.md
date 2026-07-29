@@ -75,7 +75,7 @@ overview: 'SpeedyBrand is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SpeedyBrand''s developer surface includes pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 14
+random_paper: 63
 score:
   band: emerging
   composite: 15.2

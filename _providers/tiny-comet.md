@@ -39,7 +39,7 @@ name: Tiny Comet
 nav: Providers
 network: true
 overview: Tiny Comet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Education, EdTech, and Roblox.
-random_paper: 32
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

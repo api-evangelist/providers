@@ -83,7 +83,7 @@ overview: 'Lansweeper publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Lansweeper''s developer surface includes documentation, pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 0
+random_paper: 51
 score:
   band: minimal
   composite: 11.8

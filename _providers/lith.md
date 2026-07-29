@@ -124,7 +124,7 @@ overview: 'Lithium Finance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Lithium Finance''s developer surface includes documentation, getting-started guide, support, and 17 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: emerging
   composite: 18.3

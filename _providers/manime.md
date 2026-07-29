@@ -48,7 +48,7 @@ name: Manime
 nav: Providers
 network: true
 overview: Manime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Cosmetics, Ecommerce, and Direct-to-Consumer.
-random_paper: 15
+random_paper: 78
 score:
   band: minimal
   composite: 5.0

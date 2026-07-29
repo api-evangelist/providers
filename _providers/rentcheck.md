@@ -246,7 +246,7 @@ overview: 'RentCheck publishes 31 APIs on the [APIs.io](https://apis.io/) networ
 
 
   RentCheck''s developer surface includes authentication, changelog, documentation, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 27
+random_paper: 3
 score:
   band: developing
   composite: 47.2

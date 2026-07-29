@@ -41,7 +41,7 @@ name: Sageox
 nav: Providers
 network: true
 overview: Sageox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 31
+random_paper: 15
 scopes:
 - name: Sageox Scopes
   scope_count: 4

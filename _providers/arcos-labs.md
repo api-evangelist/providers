@@ -59,7 +59,7 @@ overview: 'Arcos Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Arcos Labs'' developer surface includes signup flow and 3 more developer resources.'
-random_paper: 75
+random_paper: 51
 score:
   band: minimal
   composite: 9.7

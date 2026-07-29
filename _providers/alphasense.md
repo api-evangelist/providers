@@ -381,7 +381,7 @@ plans:
 - name: Alphasense Plans Pricing
   plan_count: 6
   slug: alphasense-plans-pricing
-random_paper: 59
+random_paper: 33
 rate_limits:
 - limit_count: 4
   name: Alphasense Rate Limits

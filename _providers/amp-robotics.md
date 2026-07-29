@@ -75,7 +75,7 @@ overview: 'AMP Robotics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   AMP Robotics'' developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 0
+random_paper: 47
 score:
   band: emerging
   composite: 13.1

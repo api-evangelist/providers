@@ -83,7 +83,7 @@ overview: 'Ideal Invest is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Ideal Invest''s developer surface includes getting-started guide, engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 66
+random_paper: 36
 score:
   band: emerging
   composite: 14.0

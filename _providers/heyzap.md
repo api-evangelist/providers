@@ -56,7 +56,7 @@ name: Heyzap
 nav: Providers
 network: true
 overview: Heyzap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile, Gaming, and Monetization.
-random_paper: 41
+random_paper: 25
 score:
   band: minimal
   composite: 7.0

@@ -56,7 +56,7 @@ name: ValCtrl
 nav: Providers
 network: true
 overview: ValCtrl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Prediction Markets, Fintech, Trading, and Market Infrastructure.
-random_paper: 67
+random_paper: 49
 score:
   band: minimal
   composite: 7.3

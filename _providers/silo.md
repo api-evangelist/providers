@@ -59,7 +59,7 @@ overview: 'Silo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Silo''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 54
+random_paper: 44
 score:
   band: minimal
   composite: 10.1

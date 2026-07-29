@@ -56,7 +56,7 @@ name: Republic
 nav: Providers
 network: true
 overview: Republic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investing, Crowdfunding, and Private Markets.
-random_paper: 7
+random_paper: 64
 score:
   band: minimal
   composite: 8.2

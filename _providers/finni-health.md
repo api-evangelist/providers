@@ -71,7 +71,7 @@ overview: 'Finni Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Finni Health''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 52
+random_paper: 22
 score:
   band: emerging
   composite: 13.4

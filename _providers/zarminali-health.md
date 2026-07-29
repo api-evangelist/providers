@@ -48,7 +48,7 @@ name: Zarminali Health
 nav: Providers
 network: true
 overview: Zarminali Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pediatrics, Health, and Telehealth.
-random_paper: 25
+random_paper: 62
 score:
   band: minimal
   composite: 5.4

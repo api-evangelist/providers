@@ -64,7 +64,7 @@ name: TCF Financial Corporation
 nav: Providers
 network: true
 overview: TCF Financial Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Regional Bank, Defunct, Merger, and Historical.
-random_paper: 63
+random_paper: 31
 score:
   band: minimal
   composite: 4.3

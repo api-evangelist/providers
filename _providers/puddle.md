@@ -72,7 +72,7 @@ name: Puddle
 nav: Providers
 network: true
 overview: Puddle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technical Interviews, Hiring, Developer Assessment, and Recruiting.
-random_paper: 22
+random_paper: 6
 score:
   band: minimal
   composite: 10.9

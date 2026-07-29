@@ -75,7 +75,7 @@ overview: 'Publishizer is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Publishizer''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 46
+random_paper: 16
 score:
   band: emerging
   composite: 13.1

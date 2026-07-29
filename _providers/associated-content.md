@@ -39,7 +39,7 @@ name: Associated Content
 nav: Providers
 network: true
 overview: Associated Content is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Media, and Publishing.
-random_paper: 16
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

@@ -269,7 +269,7 @@ plans:
 - name: Blues Wireless Plans Pricing
   plan_count: 2
   slug: blues-wireless-plans-pricing
-random_paper: 76
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Blues Wireless Rate Limits

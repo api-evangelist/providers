@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: Spirit Aerosystems Holdings, Inc.
   url: https://www.reuters.com/company/spirit-aerosystems-holdings-inc/
-random_paper: 56
+random_paper: 63
 score:
   band: minimal
   composite: 5.4

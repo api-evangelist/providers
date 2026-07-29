@@ -72,7 +72,7 @@ plans:
 - name: Planswift Plans Pricing
   plan_count: 2
   slug: planswift-plans-pricing
-random_paper: 60
+random_paper: 36
 score:
   band: minimal
   composite: 11.6

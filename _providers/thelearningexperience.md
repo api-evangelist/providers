@@ -71,7 +71,7 @@ overview: 'The Learning Experience is profiled on the [APIs.io](https://apis.io/
 
 
   The Learning Experience''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 0
+random_paper: 21
 score:
   band: emerging
   composite: 13.1

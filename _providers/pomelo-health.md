@@ -55,7 +55,7 @@ overview: 'Pomelo Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Pomelo Health''s developer surface includes support and 4 more developer resources.'
-random_paper: 18
+random_paper: 63
 score:
   band: minimal
   composite: 9.3

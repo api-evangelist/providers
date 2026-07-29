@@ -132,7 +132,7 @@ overview: 'Qpoint publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qpoint''s developer surface includes documentation, getting-started guide, quickstart, engineering blog, pricing, signup flow, CLI, and 13 more developer resources.'
-random_paper: 51
+random_paper: 35
 score:
   band: thin
   composite: 30.8

@@ -278,7 +278,7 @@ plans:
 - name: Manhattan Associates Plans Pricing
   plan_count: 2
   slug: manhattan-associates-plans-pricing
-random_paper: 70
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Manhattan Associates Rate Limits

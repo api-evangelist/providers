@@ -128,7 +128,7 @@ overview: 'Windward is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Windward''s developer surface includes API reference, engineering blog, YouTube channel, and 17 more developer resources.'
-random_paper: 33
+random_paper: 5
 score:
   band: minimal
   composite: 8.5

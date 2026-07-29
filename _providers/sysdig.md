@@ -368,7 +368,7 @@ plans:
 - name: Sysdig Plans Pricing
   plan_count: 3
   slug: sysdig-plans-pricing
-random_paper: 43
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Sysdig Rate Limits

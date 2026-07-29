@@ -72,7 +72,7 @@ name: OVIA
 nav: Providers
 network: true
 overview: OVIA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Assessment, Video Interviewing, and Human Resources.
-random_paper: 46
+random_paper: 36
 score:
   band: minimal
   composite: 10.3

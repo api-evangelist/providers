@@ -67,7 +67,7 @@ overview: 'Anaqua is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Anaqua''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 15
+random_paper: 78
 score:
   band: minimal
   composite: 10.5

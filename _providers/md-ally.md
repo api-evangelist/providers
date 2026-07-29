@@ -79,7 +79,7 @@ overview: 'Md Ally is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Md Ally''s developer surface includes support and 8 more developer resources.'
-random_paper: 72
+random_paper: 56
 score:
   band: emerging
   composite: 17.1

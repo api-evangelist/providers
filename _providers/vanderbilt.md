@@ -115,7 +115,7 @@ plans:
 - name: Vanderbilt Plans Pricing
   plan_count: 2
   slug: vanderbilt-plans-pricing
-random_paper: 66
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Vanderbilt Rate Limits

@@ -209,7 +209,7 @@ plans:
 - name: Reload Plans
   plan_count: 5
   slug: reload-plans
-random_paper: 15
+random_paper: 78
 score:
   band: developing
   composite: 53.6

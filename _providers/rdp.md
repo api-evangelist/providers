@@ -113,7 +113,7 @@ overview: 'RDP is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   RDP''s developer surface includes code examples, documentation, and 9 more developer resources.'
-random_paper: 18
+random_paper: 10
 rules:
 - name: RDP API Rules
   rule_count: 5

@@ -99,7 +99,7 @@ overview: 'Rocket is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Rocket''s developer surface includes documentation, getting-started guide, changelog, engineering blog, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 32
+random_paper: 16
 score:
   band: emerging
   composite: 22.0

@@ -112,7 +112,7 @@ plans:
 - name: Logikcull Plans Pricing
   plan_count: 2
   slug: logikcull-plans-pricing
-random_paper: 42
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Logikcull Rate Limits

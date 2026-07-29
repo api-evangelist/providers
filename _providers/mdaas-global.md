@@ -59,7 +59,7 @@ overview: 'MDaaS Global is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   MDaaS Global''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 33
+random_paper: 3
 score:
   band: minimal
   composite: 6.5

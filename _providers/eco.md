@@ -159,7 +159,7 @@ overview: 'Eco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Quot
 
 
   Eco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 18 more developer resources.'
-random_paper: 3
+random_paper: 74
 score:
   band: thin
   composite: 40.8

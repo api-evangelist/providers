@@ -165,7 +165,7 @@ overview: 'People First Bank publishes 7 APIs on the [APIs.io](https://apis.io/)
 
 
   People First Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 5
+random_paper: 40
 score:
   band: thin
   composite: 37.5

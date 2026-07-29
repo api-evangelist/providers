@@ -124,7 +124,7 @@ overview: 'Niantic publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Niantic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 12 more developer resources.'
-random_paper: 49
+random_paper: 31
 score:
   band: thin
   composite: 29.4

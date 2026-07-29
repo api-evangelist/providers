@@ -202,7 +202,7 @@ plans:
 - name: Dlocal Plans Pricing
   plan_count: 1
   slug: dlocal-plans-pricing
-random_paper: 7
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Dlocal Rate Limits

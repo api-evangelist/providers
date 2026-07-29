@@ -48,7 +48,7 @@ name: Invetx *
 nav: Providers
 network: true
 overview: Invetx * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Animal Health, and Veterinary.
-random_paper: 54
+random_paper: 38
 score:
   band: minimal
   composite: 5.4

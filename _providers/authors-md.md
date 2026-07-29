@@ -21,7 +21,7 @@ modified: '2026-04-19'
 name: AUTHORS.md
 nav: Providers
 network: true
-random_paper: 27
+random_paper: 1
 slug: authors-md
 tags:
 - Attribution

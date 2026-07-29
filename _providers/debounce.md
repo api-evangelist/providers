@@ -174,7 +174,7 @@ plans:
 - name: Debounce Plans Pricing
   plan_count: 9
   slug: debounce-plans-pricing
-random_paper: 67
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Debounce Rate Limits

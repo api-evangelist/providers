@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: BBB warns about AI search use, details how to use it smartly
   url: https://www.aol.com/news/bbb-warns-ai-search-details-201446520.html
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Aol Rate Limits

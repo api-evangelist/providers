@@ -291,7 +291,7 @@ plans:
 - name: Thoughtly Plans Pricing
   plan_count: 4
   slug: thoughtly-plans-pricing
-random_paper: 76
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Thoughtly Rate Limits

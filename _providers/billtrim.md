@@ -71,7 +71,7 @@ overview: 'BillTrim is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BillTrim''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 16
+random_paper: 73
 score:
   band: minimal
   composite: 12.7

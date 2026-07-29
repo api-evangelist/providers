@@ -63,7 +63,7 @@ overview: 'Wabi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Wabi''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 34
+random_paper: 24
 score:
   band: minimal
   composite: 11.8

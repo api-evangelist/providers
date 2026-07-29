@@ -213,7 +213,7 @@ plans:
 - name: Lambdatest Plans Pricing
   plan_count: 12
   slug: lambdatest-plans-pricing
-random_paper: 56
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Lambdatest Rate Limits

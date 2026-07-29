@@ -53,7 +53,7 @@ name: Leade.rs
 nav: Providers
 network: true
 overview: Leade.rs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Events, Conferences, Speakers, and Marketplace.
-random_paper: 43
+random_paper: 25
 score:
   band: minimal
   composite: 5.7

@@ -48,7 +48,7 @@ name: Mekan
 nav: Providers
 network: true
 overview: Mekan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Auto Parts, Latin America, and SaaS.
-random_paper: 62
+random_paper: 50
 score:
   band: minimal
   composite: 5.0

@@ -48,7 +48,7 @@ name: Dimeq
 nav: Providers
 network: true
 overview: Dimeq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Maritime, Safety, IoT, and Man Overboard Detection.
-random_paper: 66
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

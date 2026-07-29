@@ -67,7 +67,7 @@ overview: 'Modern Animal is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Modern Animal''s developer surface includes engineering blog, pricing, and 4 more developer resources.'
-random_paper: 7
+random_paper: 52
 score:
   band: minimal
   composite: 12.6

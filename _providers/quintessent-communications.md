@@ -67,7 +67,7 @@ overview: 'Quintessent Communications is profiled on the [APIs.io](https://apis.
 
 
   Quintessent Communications'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 5
+random_paper: 12
 score:
   band: minimal
   composite: 5.4

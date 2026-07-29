@@ -67,7 +67,7 @@ overview: 'Secondnature is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Secondnature''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 59
+random_paper: 27
 score:
   band: minimal
   composite: 11.8

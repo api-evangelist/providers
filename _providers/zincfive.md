@@ -67,7 +67,7 @@ overview: 'zincfive is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   zincfive''s developer surface includes documentation, engineering blog, support, and 3 more developer resources.'
-random_paper: 15
+random_paper: 72
 score:
   band: minimal
   composite: 10.6

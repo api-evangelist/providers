@@ -60,7 +60,7 @@ name: Grainger
 nav: Providers
 network: true
 overview: Grainger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Industrial Supply, MRO, Distribution, and B2B.
-random_paper: 0
+random_paper: 57
 score:
   band: minimal
   composite: 5.1

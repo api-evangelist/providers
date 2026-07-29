@@ -93,7 +93,7 @@ plans:
 - name: Hokkaido Plans Pricing
   plan_count: 2
   slug: hokkaido-plans-pricing
-random_paper: 72
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Hokkaido Rate Limits

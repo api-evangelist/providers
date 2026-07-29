@@ -126,7 +126,7 @@ overview: 'Bupa publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bupa''s developer surface includes engineering blog, documentation, getting-started guide, API reference, changelog, signup flow, support, and 14 more developer resources.'
-random_paper: 39
+random_paper: 29
 score:
   band: thin
   composite: 33.9

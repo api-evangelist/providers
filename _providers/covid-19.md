@@ -52,7 +52,7 @@ name: Covid-19
 nav: Providers
 network: true
 overview: Covid-19 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 68
+random_paper: 52
 score:
   band: minimal
   composite: 4.9

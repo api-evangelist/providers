@@ -168,7 +168,7 @@ plans:
 - name: Echo Global Plans Pricing
   plan_count: 3
   slug: echo-global-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Echo Global Rate Limits

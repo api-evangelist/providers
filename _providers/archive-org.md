@@ -63,7 +63,7 @@ overview: 'Archive.org publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Archive.org''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 33
+random_paper: 5
 score:
   band: minimal
   composite: 6.9

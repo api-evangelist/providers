@@ -163,7 +163,7 @@ plans:
 - name: Google Cloud Dataproc Plans Pricing
   plan_count: 3
   slug: google-cloud-dataproc-plans-pricing
-random_paper: 29
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Google Cloud Dataproc Rate Limits

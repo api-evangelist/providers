@@ -75,7 +75,7 @@ overview: 'Dialogus is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Dialogus'' developer surface includes support and 7 more developer resources.'
-random_paper: 9
+random_paper: 66
 score:
   band: emerging
   composite: 15.6

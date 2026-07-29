@@ -131,7 +131,7 @@ overview: 'DODO publishes 1 API on the [APIs.io](https://apis.io/) network: Trad
 
 
   DODO''s developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 37
+random_paper: 27
 score:
   band: thin
   composite: 34.9

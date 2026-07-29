@@ -44,7 +44,7 @@ name: Aiden.ai
 nav: Providers
 network: true
 overview: Aiden.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Marketing, Analytics, and Artificial Intelligence.
-random_paper: 22
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

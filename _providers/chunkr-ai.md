@@ -118,7 +118,7 @@ plans:
 - name: Chunkr Ai Plans Pricing
   plan_count: 6
   slug: chunkr-ai-plans-pricing
-random_paper: 51
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Chunkr Ai Rate Limits

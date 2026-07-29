@@ -127,7 +127,7 @@ overview: 'Health Universe is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Health Universe''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, CLI, and 14 more developer resources.'
-random_paper: 16
+random_paper: 55
 score:
   band: thin
   composite: 33.7

@@ -108,7 +108,7 @@ plans:
 - name: Cline Plans Pricing
   plan_count: 1
   slug: cline-plans-pricing
-random_paper: 61
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Cline Rate Limits

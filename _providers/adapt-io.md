@@ -239,7 +239,7 @@ plans:
 - name: Adapt Io Plans Pricing
   plan_count: 4
   slug: adapt-io-plans-pricing
-random_paper: 13
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Adapt Io Rate Limits

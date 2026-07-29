@@ -63,7 +63,7 @@ overview: 'Viatris is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Viatris'' developer surface includes developer portal and 4 more developer resources.'
-random_paper: 0
+random_paper: 59
 score:
   band: minimal
   composite: 7.2

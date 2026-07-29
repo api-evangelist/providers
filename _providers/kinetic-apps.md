@@ -52,7 +52,7 @@ name: Kinetic Apps
 nav: Providers
 network: true
 overview: Kinetic Apps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Venture Studio, Consumer Software, and Startup Studio.
-random_paper: 69
+random_paper: 39
 score:
   band: minimal
   composite: 5.0

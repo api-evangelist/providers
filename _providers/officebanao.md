@@ -71,7 +71,7 @@ overview: 'Officebanao is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Officebanao''s developer surface includes support and 6 more developer resources.'
-random_paper: 55
+random_paper: 27
 score:
   band: minimal
   composite: 8.7

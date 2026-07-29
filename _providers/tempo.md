@@ -189,7 +189,7 @@ plans:
 - name: Tempo Plans Pricing
   plan_count: 3
   slug: tempo-plans-pricing
-random_paper: 10
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Tempo Rate Limits

@@ -63,7 +63,7 @@ overview: 'Winnebago Industries is profiled on the [APIs.io](https://apis.io/) n
 
 
   Winnebago Industries'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 18
+random_paper: 43
 score:
   band: minimal
   composite: 4.0

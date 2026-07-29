@@ -221,7 +221,7 @@ plans:
 - name: Growthbook Plans Pricing
   plan_count: 1
   slug: growthbook-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Growthbook Rate Limits

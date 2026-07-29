@@ -120,7 +120,7 @@ plans:
 - name: Robust Intelligence Plans Pricing
   plan_count: 1
   slug: robust-intelligence-plans-pricing
-random_paper: 58
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Robust Intelligence Rate Limits

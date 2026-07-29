@@ -48,7 +48,7 @@ name: ffrree
 nav: Providers
 network: true
 overview: ffrree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Mobile, iOS, and Portfolio Lead.
-random_paper: 18
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

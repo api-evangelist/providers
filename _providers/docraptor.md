@@ -118,7 +118,7 @@ plans:
 - name: Docraptor Plans Pricing
   plan_count: 9
   slug: docraptor-plans-pricing
-random_paper: 50
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Docraptor Rate Limits

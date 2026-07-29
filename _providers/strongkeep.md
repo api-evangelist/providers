@@ -103,7 +103,7 @@ overview: 'Strongkeep is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Strongkeep''s developer surface includes pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 12
+random_paper: 63
 score:
   band: emerging
   composite: 18.5

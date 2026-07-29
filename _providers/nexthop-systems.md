@@ -87,7 +87,7 @@ overview: 'Nexthop Systems is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Nexthop Systems'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 71
+random_paper: 31
 score:
   band: emerging
   composite: 13.1

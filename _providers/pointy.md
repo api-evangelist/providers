@@ -44,7 +44,7 @@ name: Pointy
 nav: Providers
 network: true
 overview: Pointy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Retail Technology, Local Commerce, and Point of Sale.
-random_paper: 59
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

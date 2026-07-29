@@ -48,7 +48,7 @@ name: Spitab
 nav: Providers
 network: true
 overview: Spitab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API and Digital Services.
-random_paper: 27
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

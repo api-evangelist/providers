@@ -56,7 +56,7 @@ name: LectServe
 nav: Providers
 network: true
 overview: LectServe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Calendar and Public APIs.
-random_paper: 49
+random_paper: 25
 score:
   band: minimal
   composite: 5.7

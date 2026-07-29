@@ -80,7 +80,7 @@ overview: 'Per Vices is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Per Vices'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 63
+random_paper: 41
 score:
   band: minimal
   composite: 8.9

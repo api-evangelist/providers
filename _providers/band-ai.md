@@ -240,7 +240,7 @@ overview: 'Band AI publishes 19 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Band AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: developing
   composite: 55.9

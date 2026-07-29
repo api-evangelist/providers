@@ -59,7 +59,7 @@ overview: 'Fortive is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Fortive''s developer surface includes developer portal and 3 more developer resources.'
-random_paper: 74
+random_paper: 56
 score:
   band: minimal
   composite: 6.2

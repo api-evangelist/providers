@@ -95,7 +95,7 @@ overview: 'Laureate Education publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Laureate Education''s developer surface includes developer portal and 9 more developer resources.'
-random_paper: 4
+random_paper: 35
 score:
   band: minimal
   composite: 10.2

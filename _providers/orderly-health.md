@@ -147,7 +147,7 @@ overview: 'Orderly Health publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Orderly Health''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 15 more developer resources.'
-random_paper: 58
+random_paper: 22
 score:
   band: developing
   composite: 43.4

@@ -76,7 +76,7 @@ overview: 'Pango is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Pango''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 71
+random_paper: 59
 score:
   band: emerging
   composite: 16.9

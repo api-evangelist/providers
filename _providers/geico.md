@@ -104,7 +104,7 @@ name: GEICO
 nav: Providers
 network: true
 overview: GEICO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Property & Casualty, and Direct-to-Consumer.
-random_paper: 57
+random_paper: 45
 score:
   band: emerging
   composite: 24.2

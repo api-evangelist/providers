@@ -44,7 +44,7 @@ name: Jet
 nav: Providers
 network: true
 overview: Jet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Retail, and Marketplace.
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

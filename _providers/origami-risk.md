@@ -218,7 +218,7 @@ overview: 'Origami Risk publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Origami Risk''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
-random_paper: 75
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Origami Risk Rate Limits

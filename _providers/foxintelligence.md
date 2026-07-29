@@ -56,7 +56,7 @@ name: Foxintelligence
 nav: Providers
 network: true
 overview: Foxintelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, E-Commerce, Consumer Insights, and Retail Data.
-random_paper: 60
+random_paper: 20
 score:
   band: minimal
   composite: 7.6

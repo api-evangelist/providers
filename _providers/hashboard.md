@@ -136,7 +136,7 @@ overview: 'Hashboard is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Hashboard''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, engineering blog, and 16 more developer resources.'
-random_paper: 16
+random_paper: 71
 score:
   band: thin
   composite: 35.6

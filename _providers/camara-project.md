@@ -330,7 +330,7 @@ overview: 'CAMARA Project publishes 30 APIs on the [APIs.io](https://apis.io/) n
 
 
   CAMARA Project''s developer surface includes authentication, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 31
+random_paper: 74
 score:
   band: emerging
   composite: 24.0

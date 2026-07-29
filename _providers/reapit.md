@@ -261,7 +261,7 @@ overview: 'Reapit publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Reapit''s developer surface includes authentication, changelog, CLI, sandbox, getting-started guide, API reference, documentation, and 38 more developer resources.'
-random_paper: 29
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Reapit Rate Limits

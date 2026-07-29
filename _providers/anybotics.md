@@ -83,7 +83,7 @@ overview: 'ANYbotics is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ANYbotics'' developer surface includes support and 9 more developer resources.'
-random_paper: 48
+random_paper: 24
 score:
   band: minimal
   composite: 11.5

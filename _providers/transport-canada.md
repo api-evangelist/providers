@@ -153,7 +153,7 @@ overview: 'Transport Canada publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Transport Canada''s developer surface includes authentication, documentation, support, product news, and 23 more developer resources.'
-random_paper: 33
+random_paper: 70
 score:
   band: emerging
   composite: 23.4

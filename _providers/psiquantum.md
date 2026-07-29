@@ -129,7 +129,7 @@ overview: 'PsiQuantum is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   PsiQuantum''s developer surface includes GitHub presence, product news, YouTube channel, and 18 more developer resources.'
-random_paper: 33
+random_paper: 5
 score:
   band: minimal
   composite: 5.7

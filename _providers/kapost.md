@@ -111,7 +111,7 @@ overview: 'Kapost publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kapost''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 42
+random_paper: 26
 score:
   band: thin
   composite: 35.7

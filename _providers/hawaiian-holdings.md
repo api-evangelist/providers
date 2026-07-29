@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Page 27 – Alaska Airlines, Hawaiian Airlines and Horizon Air
   url: https://news.alaskaair.com/page/27/?p=t
-random_paper: 41
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

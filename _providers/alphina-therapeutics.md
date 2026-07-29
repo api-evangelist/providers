@@ -59,7 +59,7 @@ overview: 'Alphina Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Alphina Therapeutics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 73
+random_paper: 21
 score:
   band: minimal
   composite: 4.6

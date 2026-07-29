@@ -189,7 +189,7 @@ overview: 'Landcor Data publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Landcor Data''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 46
+random_paper: 28
 score:
   band: thin
   composite: 36.4

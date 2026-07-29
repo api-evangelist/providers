@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Higher Education Policy News
   url: https://www.highereddive.com/topic/policy/?page=94
-random_paper: 17
+random_paper: 38
 score:
   band: minimal
   composite: 6.7

@@ -71,7 +71,7 @@ overview: 'Shef is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Shef''s developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 37
+random_paper: 27
 score:
   band: minimal
   composite: 12.7

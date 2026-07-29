@@ -34,7 +34,7 @@ name: Tigris
 nav: Providers
 network: true
 overview: Tigris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 42
+random_paper: 26
 score:
   band: minimal
   composite: 7.1

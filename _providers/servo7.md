@@ -44,7 +44,7 @@ name: Servo7
 nav: Providers
 network: true
 overview: Servo7 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Warehouse Automation, Logistics, and Supply Chain.
-random_paper: 75
+random_paper: 61
 score:
   band: minimal
   composite: 5.0

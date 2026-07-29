@@ -108,7 +108,7 @@ overview: 'propertybase publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   propertybase''s developer surface includes documentation, API reference, authentication, changelog, support, signup flow, and 9 more developer resources.'
-random_paper: 3
+random_paper: 48
 score:
   band: emerging
   composite: 22.9

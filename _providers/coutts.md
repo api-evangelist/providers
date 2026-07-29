@@ -179,7 +179,7 @@ overview: 'Coutts publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Coutts'' developer surface includes authentication, documentation, sandbox, engineering blog, support, getting-started guide, and 24 more developer resources.'
-random_paper: 58
+random_paper: 42
 scopes:
 - name: Coutts Scopes
   scope_count: 3

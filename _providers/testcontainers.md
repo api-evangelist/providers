@@ -131,7 +131,7 @@ plans:
 - name: Testcontainers Plans Pricing
   plan_count: 5
   slug: testcontainers-plans-pricing
-random_paper: 63
+random_paper: 25
 rate_limits:
 - limit_count: 6
   name: Testcontainers Rate Limits

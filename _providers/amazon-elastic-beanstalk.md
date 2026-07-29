@@ -298,7 +298,7 @@ plans:
 - name: Amazon Elastic Beanstalk Plans Pricing
   plan_count: 3
   slug: amazon-elastic-beanstalk-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Beanstalk Rate Limits

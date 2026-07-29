@@ -108,7 +108,7 @@ plans:
 - name: Indian Institute Of Technology Kharagpur Plans Pricing
   plan_count: 2
   slug: indian-institute-of-technology-kharagpur-plans-pricing
-random_paper: 66
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Indian Institute Of Technology Kharagpur Rate Limits

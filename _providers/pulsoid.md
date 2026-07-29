@@ -141,7 +141,7 @@ plans:
 - name: Pulsoid Plans Pricing
   plan_count: 3
   slug: pulsoid-plans-pricing
-random_paper: 75
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Pulsoid Rate Limits

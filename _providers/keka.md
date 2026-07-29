@@ -174,7 +174,7 @@ plans:
 - name: Keka Plans Pricing
   plan_count: 3
   slug: keka-plans-pricing
-random_paper: 27
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Keka Rate Limits

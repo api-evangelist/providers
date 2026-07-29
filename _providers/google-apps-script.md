@@ -298,7 +298,7 @@ plans:
 - name: Google Apps Script Plans Pricing
   plan_count: 3
   slug: google-apps-script-plans-pricing
-random_paper: 53
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Google Apps Script Rate Limits

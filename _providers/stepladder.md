@@ -44,7 +44,7 @@ name: StepLadder
 nav: Providers
 network: true
 overview: StepLadder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 63
+random_paper: 37
 score:
   band: minimal
   composite: 3.2

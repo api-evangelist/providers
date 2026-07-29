@@ -63,7 +63,7 @@ overview: 'Fuze Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Fuze Health''s developer surface includes support and 4 more developer resources.'
-random_paper: 39
+random_paper: 11
 score:
   band: minimal
   composite: 11.2

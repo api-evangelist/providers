@@ -149,7 +149,7 @@ plans:
 - name: Zoho Mail Plans Pricing
   plan_count: 6
   slug: zoho-mail-plans-pricing
-random_paper: 65
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Zoho Mail Rate Limits

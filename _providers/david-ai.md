@@ -67,7 +67,7 @@ overview: 'David AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   David AI''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 74
+random_paper: 56
 score:
   band: minimal
   composite: 11.9

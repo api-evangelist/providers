@@ -63,7 +63,7 @@ overview: 'Trishula Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Trishula Therapeutics'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 62
+random_paper: 6
 score:
   band: minimal
   composite: 5.4

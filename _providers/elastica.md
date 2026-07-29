@@ -39,7 +39,7 @@ name: Elastica
 nav: Providers
 network: true
 overview: Elastica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cloud Security, CASB, and Cloud Access Security Broker.
-random_paper: 68
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

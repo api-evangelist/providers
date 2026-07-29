@@ -564,7 +564,7 @@ plans:
 - name: Amazon Simpledb Plans Pricing
   plan_count: 3
   slug: amazon-simpledb-plans-pricing
-random_paper: 76
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Amazon Simpledb Rate Limits

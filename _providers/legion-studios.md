@@ -39,7 +39,7 @@ name: Legion Studios
 nav: Providers
 network: true
 overview: Legion Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Portfolio Lead, Unresolved Identity, and No API Surface.
-random_paper: 76
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

@@ -109,7 +109,7 @@ plans:
 - name: Kafka Connect Plans Pricing
   plan_count: 3
   slug: kafka-connect-plans-pricing
-random_paper: 69
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Kafka Connect Rate Limits

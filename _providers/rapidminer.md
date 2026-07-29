@@ -92,7 +92,7 @@ overview: 'Rapidminer is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rapidminer''s developer surface includes documentation, changelog, authentication, and 9 more developer resources.'
-random_paper: 66
+random_paper: 40
 score:
   band: emerging
   composite: 16.6

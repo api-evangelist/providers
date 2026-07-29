@@ -59,7 +59,7 @@ overview: 'Acesion Pharma is profiled on the [APIs.io](https://apis.io/) network
 
 
   Acesion Pharma''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 30
+random_paper: 73
 score:
   band: minimal
   composite: 7.2

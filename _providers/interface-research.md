@@ -39,7 +39,7 @@ name: Interface Research
 nav: Providers
 network: true
 overview: Interface Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Research, Interface Specifications, JSON Schema, and Vocabulary.
-random_paper: 64
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

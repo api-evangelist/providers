@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Benchmark
 nav: Providers
 network: true
-random_paper: 15
+random_paper: 70
 slug: benchmark
 tags:
 - Venture Capital

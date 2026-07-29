@@ -63,7 +63,7 @@ overview: 'VectorY is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   VectorY''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 10
+random_paper: 69
 score:
   band: minimal
   composite: 4.6

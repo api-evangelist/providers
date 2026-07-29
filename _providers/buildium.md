@@ -120,7 +120,7 @@ plans:
 - name: Buildium Plans Pricing
   plan_count: 1
   slug: buildium-plans-pricing
-random_paper: 12
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Buildium Rate Limits

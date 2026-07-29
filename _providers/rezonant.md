@@ -87,7 +87,7 @@ overview: 'Rezonant is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rezonant''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 5 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: emerging
   composite: 19.2

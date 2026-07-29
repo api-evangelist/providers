@@ -71,7 +71,7 @@ overview: 'Arc is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Arc''s developer surface includes pricing, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 2
+random_paper: 73
 score:
   band: emerging
   composite: 14.4

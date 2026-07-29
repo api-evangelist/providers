@@ -48,7 +48,7 @@ name: Fancy Technology
 nav: Providers
 network: true
 overview: Fancy Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 41
+random_paper: 78
 score:
   band: minimal
   composite: 4.1

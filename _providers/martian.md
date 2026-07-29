@@ -140,7 +140,7 @@ overview: 'Martian publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Martian''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 55
+random_paper: 37
 score:
   band: emerging
   composite: 27.8

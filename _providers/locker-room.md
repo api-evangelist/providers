@@ -39,7 +39,7 @@ name: Locker Room *
 nav: Providers
 network: true
 overview: Locker Room * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Live Audio, Social, and Sports.
-random_paper: 52
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

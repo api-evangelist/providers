@@ -101,7 +101,7 @@ overview: 'LeadSquared publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   LeadSquared''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 8
+random_paper: 57
 score:
   band: emerging
   composite: 27.4

@@ -52,7 +52,7 @@ name: REEF
 nav: Providers
 network: true
 overview: REEF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Real Estate, Mobility, and Parking.
-random_paper: 33
+random_paper: 23
 score:
   band: minimal
   composite: 7.1

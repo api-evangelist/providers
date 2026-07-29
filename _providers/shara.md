@@ -48,7 +48,7 @@ name: Shara
 nav: Providers
 network: true
 overview: Shara is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, SME Finance, and Working Capital.
-random_paper: 65
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

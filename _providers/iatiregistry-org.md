@@ -84,7 +84,7 @@ plans:
 - name: Iatiregistry Org Plans Pricing
   plan_count: 1
   slug: iatiregistry-org-plans-pricing
-random_paper: 68
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Iatiregistry Org Rate Limits

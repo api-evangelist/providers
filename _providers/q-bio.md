@@ -71,7 +71,7 @@ overview: 'Q Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Q Bio''s developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 10
+random_paper: 77
 score:
   band: emerging
   composite: 13.4

@@ -154,7 +154,7 @@ plans:
 - name: Isbndb Plans Pricing
   plan_count: 5
   slug: isbndb-plans-pricing
-random_paper: 10
+random_paper: 73
 rate_limits:
 - limit_count: 10
   name: Isbndb Rate Limits

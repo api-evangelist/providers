@@ -128,7 +128,7 @@ overview: 'Alexi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Alexi''s developer surface includes engineering blog, FAQ, product news, and 18 more developer resources.'
-random_paper: 69
+random_paper: 57
 score:
   band: minimal
   composite: 12.6

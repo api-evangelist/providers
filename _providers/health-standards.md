@@ -100,7 +100,7 @@ name: Health Standards
 nav: Providers
 network: true
 overview: Health Standards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CDA, DICOM, FHIR, Health Standards, and Healthcare Interoperability.
-random_paper: 22
+random_paper: 59
 score:
   band: minimal
   composite: 6.1

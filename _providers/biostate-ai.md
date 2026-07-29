@@ -75,7 +75,7 @@ overview: 'Biostate AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Biostate AI''s developer surface includes engineering blog, pricing, and 6 more developer resources.'
-random_paper: 28
+random_paper: 0
 score:
   band: emerging
   composite: 13.6

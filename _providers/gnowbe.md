@@ -79,7 +79,7 @@ overview: 'Gnowbe is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Gnowbe''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
-random_paper: 26
+random_paper: 10
 score:
   band: emerging
   composite: 16.0

@@ -160,7 +160,7 @@ overview: 'Gamma.app publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Gamma.app''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 66
+random_paper: 46
 scopes:
 - name: Gammaapp Scopes
   scope_count: 2

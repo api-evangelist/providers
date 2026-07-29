@@ -93,7 +93,7 @@ plans:
 - name: Indigo Ag Plans Pricing
   plan_count: 1
   slug: indigo-ag-plans-pricing
-random_paper: 32
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Indigo Ag Rate Limits

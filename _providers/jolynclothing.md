@@ -92,7 +92,7 @@ overview: 'JOLYN publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   JOLYN''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 26
+random_paper: 69
 scopes:
 - name: Jolynclothing Scopes
   scope_count: 4

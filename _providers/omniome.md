@@ -39,7 +39,7 @@ name: Omniome
 nav: Providers
 network: true
 overview: Omniome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Genomics, DNA Sequencing, Life Sciences, and Biotechnology.
-random_paper: 63
+random_paper: 45
 score:
   band: minimal
   composite: 4.3

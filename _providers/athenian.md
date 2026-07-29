@@ -144,7 +144,7 @@ overview: 'Athenian publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Athenian''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 70
+random_paper: 50
 score:
   band: emerging
   composite: 25.5

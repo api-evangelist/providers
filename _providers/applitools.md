@@ -137,7 +137,7 @@ plans:
 - name: Applitools Plans Pricing
   plan_count: 1
   slug: applitools-plans-pricing
-random_paper: 17
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Applitools Rate Limits

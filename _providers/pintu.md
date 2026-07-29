@@ -155,7 +155,7 @@ overview: 'Pintu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pintu''s developer surface includes documentation, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 21
+random_paper: 7
 score:
   band: developing
   composite: 44.5

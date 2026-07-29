@@ -218,7 +218,7 @@ overview: 'Moveworks (ServiceNow) publishes 1 API on the [APIs.io](https://apis.
 
 
   Moveworks (ServiceNow)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 64
+random_paper: 10
 score:
   band: strong
   composite: 64.4

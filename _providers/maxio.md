@@ -91,7 +91,7 @@ overview: 'Maxio publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Maxio''s developer surface includes documentation, signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 3
+random_paper: 68
 score:
   band: emerging
   composite: 14.7

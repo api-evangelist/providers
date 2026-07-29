@@ -76,7 +76,7 @@ overview: 'BTI Systems (Juniper) is profiled on the [APIs.io](https://apis.io/) 
 
 
   BTI Systems (Juniper)''s developer surface includes documentation, API reference, support, and 5 more developer resources.'
-random_paper: 41
+random_paper: 70
 score:
   band: minimal
   composite: 11.3

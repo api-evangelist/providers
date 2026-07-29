@@ -56,7 +56,7 @@ name: Irisnet
 nav: Providers
 network: true
 overview: Irisnet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
-random_paper: 73
+random_paper: 55
 score:
   band: minimal
   composite: 5.7

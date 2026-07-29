@@ -337,7 +337,7 @@ plans:
 - name: Uber Eats Plans Pricing
   plan_count: 6
   slug: uber-eats-plans-pricing
-random_paper: 57
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Uber Eats Rate Limits

@@ -123,7 +123,7 @@ plans:
 - name: Sila Money Plans Pricing
   plan_count: 2
   slug: sila-money-plans-pricing
-random_paper: 21
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Sila Money Rate Limits

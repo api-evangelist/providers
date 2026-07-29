@@ -143,7 +143,7 @@ plans:
 - name: Clicksend Plans Pricing
   plan_count: 3
   slug: clicksend-plans-pricing
-random_paper: 20
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Clicksend Rate Limits

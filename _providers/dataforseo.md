@@ -197,7 +197,7 @@ plans:
 - name: Dataforseo Plans Pricing
   plan_count: 0
   slug: dataforseo-plans-pricing
-random_paper: 63
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Dataforseo Rate Limits

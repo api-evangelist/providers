@@ -201,7 +201,7 @@ plans:
 - name: Cardiff Plans Pricing
   plan_count: 2
   slug: cardiff-plans-pricing
-random_paper: 26
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Cardiff Rate Limits

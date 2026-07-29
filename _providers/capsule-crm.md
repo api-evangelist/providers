@@ -126,7 +126,7 @@ overview: 'Capsule CRM publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Capsule CRM''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 38
+random_paper: 10
 score:
   band: thin
   composite: 31.6

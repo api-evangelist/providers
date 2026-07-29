@@ -56,7 +56,7 @@ name: Season Share
 nav: Providers
 network: true
 overview: Season Share is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Sports, Entertainment, and Events.
-random_paper: 70
+random_paper: 40
 score:
   band: minimal
   composite: 9.2

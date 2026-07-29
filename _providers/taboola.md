@@ -411,7 +411,7 @@ plans:
 - name: Taboola Plans Pricing
   plan_count: 2
   slug: taboola-plans-pricing
-random_paper: 45
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Taboola Rate Limits

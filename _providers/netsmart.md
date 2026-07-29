@@ -144,7 +144,7 @@ plans:
 - name: Netsmart Plans Pricing
   plan_count: 2
   slug: netsmart-plans-pricing
-random_paper: 31
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Netsmart Rate Limits

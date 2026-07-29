@@ -51,7 +51,7 @@ overview: 'Altice USA is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Altice USA''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 76
+random_paper: 52
 score:
   band: minimal
   composite: 3.0

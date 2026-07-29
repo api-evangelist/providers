@@ -358,7 +358,7 @@ plans:
 - name: Retell Ai Plans Pricing
   plan_count: 3
   slug: retell-ai-plans-pricing
-random_paper: 48
+random_paper: 26
 rate_limits:
 - limit_count: 4
   name: Retell Ai Rate Limits

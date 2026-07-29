@@ -71,7 +71,7 @@ overview: 'Omnifold is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Omnifold''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 9
+random_paper: 66
 score:
   band: minimal
   composite: 11.8

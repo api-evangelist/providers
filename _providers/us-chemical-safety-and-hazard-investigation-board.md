@@ -77,7 +77,7 @@ plans:
 - name: Us Chemical Safety And Hazard Investigation Board Plans Pricing
   plan_count: 3
   slug: us-chemical-safety-and-hazard-investigation-board-plans-pricing
-random_paper: 75
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Us Chemical Safety And Hazard Investigation Board Rate Limits

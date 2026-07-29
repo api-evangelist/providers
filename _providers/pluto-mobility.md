@@ -39,7 +39,7 @@ name: Pluto Mobility
 nav: Providers
 network: true
 overview: Pluto Mobility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Transportation, Venture Backed, and Version One Ventures.
-random_paper: 19
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

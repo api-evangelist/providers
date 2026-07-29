@@ -63,7 +63,7 @@ overview: 'Inmemori is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Inmemori''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 17
+random_paper: 74
 score:
   band: minimal
   composite: 9.7

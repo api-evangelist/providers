@@ -126,7 +126,7 @@ plans:
 - name: Microsoft Azure Notification Hubs Plans Pricing
   plan_count: 3
   slug: microsoft-azure-notification-hubs-plans-pricing
-random_paper: 1
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Notification Hubs Rate Limits

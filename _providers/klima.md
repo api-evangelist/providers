@@ -72,7 +72,7 @@ name: Klima
 nav: Providers
 network: true
 overview: Klima is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Carbon Offsetting, Sustainability, and Consumer Applications.
-random_paper: 64
+random_paper: 52
 score:
   band: minimal
   composite: 6.9

@@ -269,7 +269,7 @@ overview: 'Evervault publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
-random_paper: 66
+random_paper: 42
 score:
   band: strong
   composite: 63.3

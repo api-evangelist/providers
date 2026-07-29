@@ -79,7 +79,7 @@ overview: 'Transcarent is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Transcarent''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 34
+random_paper: 4
 score:
   band: emerging
   composite: 16.1

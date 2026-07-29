@@ -52,7 +52,7 @@ name: Gbatteries
 nav: Providers
 network: true
 overview: Gbatteries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Batteries, Energy Storage, Electric Mobility, and Battery Management.
-random_paper: 65
+random_paper: 39
 score:
   band: minimal
   composite: 7.1

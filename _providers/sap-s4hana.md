@@ -382,7 +382,7 @@ plans:
 - name: Sap S4Hana Plans Pricing
   plan_count: 1
   slug: sap-s4hana-plans-pricing
-random_paper: 20
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Sap S4Hana Rate Limits

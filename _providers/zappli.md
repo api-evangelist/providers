@@ -44,7 +44,7 @@ name: Zappli
 nav: Providers
 network: true
 overview: Zappli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Commerce, Shopping, Social Commerce, and Retail.
-random_paper: 40
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

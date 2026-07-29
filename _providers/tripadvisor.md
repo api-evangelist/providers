@@ -222,7 +222,7 @@ plans:
 - name: Tripadvisor Plans Pricing
   plan_count: 2
   slug: tripadvisor-plans-pricing
-random_paper: 52
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Tripadvisor Rate Limits

@@ -199,7 +199,7 @@ overview: 'Linktree publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Linktree''s developer surface includes documentation, API reference, authentication, changelog, getting-started guide, support, engineering blog, and 28 more developer resources.'
-random_paper: 15
+random_paper: 72
 scopes:
 - name: Linktree Scopes
   scope_count: 30

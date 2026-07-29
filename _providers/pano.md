@@ -56,7 +56,7 @@ name: Pano
 nav: Providers
 network: true
 overview: Pano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wildfire Detection, Fire Detection, Situational Awareness, and Geospatial.
-random_paper: 45
+random_paper: 35
 score:
   band: minimal
   composite: 9.2

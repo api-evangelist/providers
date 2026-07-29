@@ -39,7 +39,7 @@ name: Tacit
 nav: Providers
 network: true
 overview: Tacit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, WAN Optimization, WAFS, and Enterprise Infrastructure.
-random_paper: 71
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

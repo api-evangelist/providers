@@ -124,7 +124,7 @@ overview: 'Comet is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Comet''s developer surface includes engineering blog, FAQ, support, pricing, and 11 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: emerging
   composite: 13.3

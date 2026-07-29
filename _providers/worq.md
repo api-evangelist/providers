@@ -75,7 +75,7 @@ overview: 'Worq is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Worq''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 72
+random_paper: 62
 score:
   band: emerging
   composite: 14.5

@@ -173,7 +173,7 @@ plans:
 - name: Meltwater Plans Pricing
   plan_count: 3
   slug: meltwater-plans-pricing
-random_paper: 57
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Meltwater Rate Limits

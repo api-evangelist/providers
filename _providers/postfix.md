@@ -87,7 +87,7 @@ overview: 'Postfix publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Postfix''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 11
+random_paper: 70
 score:
   band: minimal
   composite: 9.0

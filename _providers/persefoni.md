@@ -112,7 +112,7 @@ plans:
 - name: Persefoni Plans Pricing
   plan_count: 1
   slug: persefoni-plans-pricing
-random_paper: 47
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Persefoni Rate Limits

@@ -123,7 +123,7 @@ overview: 'Finary is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Finary''s developer surface includes engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 33
+random_paper: 17
 score:
   band: emerging
   composite: 21.2

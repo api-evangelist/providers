@@ -51,7 +51,7 @@ overview: 'REV Group is profiled on the [APIs.io](https://apis.io/) network.
 
 
   REV Group''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 11
+random_paper: 66
 score:
   band: minimal
   composite: 3.0

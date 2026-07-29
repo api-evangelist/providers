@@ -140,7 +140,7 @@ overview: 'Sylvera is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sylvera''s developer surface includes engineering blog, pricing, status page, signup flow, YouTube channel, and 19 more developer resources.'
-random_paper: 4
+random_paper: 63
 score:
   band: minimal
   composite: 10.2

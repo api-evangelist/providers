@@ -83,7 +83,7 @@ overview: 'Redwood Bank publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Redwood Bank''s developer surface includes authentication, engineering blog, support, legal docs, and 7 more developer resources.'
-random_paper: 58
+random_paper: 28
 score:
   band: emerging
   composite: 18.4

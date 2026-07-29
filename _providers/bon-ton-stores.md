@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Starcom Wins Bon-Ton Media Duties 10/13/2011
   url: https://www.mediapost.com/publications/article/160399/starcom-wins-bon-ton-media-duties.html
-random_paper: 32
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

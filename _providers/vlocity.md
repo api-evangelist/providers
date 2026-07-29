@@ -44,7 +44,7 @@ name: Vlocity
 nav: Providers
 network: true
 overview: Vlocity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, CRM, Industry Cloud, and Low-Code.
-random_paper: 8
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

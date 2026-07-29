@@ -65,7 +65,7 @@ plans:
 - name: Heartland Express Plans Pricing
   plan_count: 1
   slug: heartland-express-plans-pricing
-random_paper: 76
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Heartland Express Rate Limits

@@ -79,7 +79,7 @@ overview: 'Calibrate is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Calibrate''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 11
+random_paper: 66
 score:
   band: emerging
   composite: 15.6

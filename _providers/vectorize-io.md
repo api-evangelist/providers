@@ -133,7 +133,7 @@ plans:
 - name: Vectorize Io Plans Pricing
   plan_count: 4
   slug: vectorize-io-plans-pricing
-random_paper: 16
+random_paper: 63
 rate_limits:
 - limit_count: 6
   name: Vectorize Io Rate Limits

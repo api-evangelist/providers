@@ -84,7 +84,7 @@ overview: 'TradeDepot is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TradeDepot''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
-random_paper: 67
+random_paper: 41
 score:
   band: emerging
   composite: 15.7

@@ -71,7 +71,7 @@ overview: 'GetInsured is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   GetInsured''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 4
+random_paper: 55
 score:
   band: minimal
   composite: 10.0

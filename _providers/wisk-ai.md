@@ -100,7 +100,7 @@ plans:
 - name: Wisk Ai Plans Pricing
   plan_count: 5
   slug: wisk-ai-plans-pricing
-random_paper: 0
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Wisk Ai Rate Limits

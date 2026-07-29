@@ -178,7 +178,7 @@ overview: 'Telleroo publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Telleroo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 23
+random_paper: 1
 scopes:
 - name: Telleroo Scopes
   scope_count: 1

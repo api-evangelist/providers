@@ -112,7 +112,7 @@ plans:
 - name: Java Plans Pricing
   plan_count: 3
   slug: java-plans-pricing
-random_paper: 33
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Java Rate Limits

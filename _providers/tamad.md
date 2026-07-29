@@ -59,7 +59,7 @@ overview: 'Tamadé is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tamadé''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 57
+random_paper: 45
 score:
   band: minimal
   composite: 8.3

@@ -123,7 +123,7 @@ plans:
 - name: Ironclad Clickwrap Plans Pricing
   plan_count: 3
   slug: ironclad-clickwrap-plans-pricing
-random_paper: 1
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Ironclad Clickwrap Rate Limits

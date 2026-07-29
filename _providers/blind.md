@@ -63,7 +63,7 @@ overview: 'Blind is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Blind''s developer surface includes support and 4 more developer resources.'
-random_paper: 59
+random_paper: 47
 score:
   band: minimal
   composite: 10.1

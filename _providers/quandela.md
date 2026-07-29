@@ -144,7 +144,7 @@ overview: 'Quandela is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Quandela''s developer surface includes documentation, GitHub presence, training material, engineering blog, YouTube channel, and 20 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: minimal
   composite: 10.0

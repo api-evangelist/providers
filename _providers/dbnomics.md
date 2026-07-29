@@ -108,7 +108,7 @@ plans:
 - name: Dbnomics Plans Pricing
   plan_count: 2
   slug: dbnomics-plans-pricing
-random_paper: 0
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Dbnomics Rate Limits

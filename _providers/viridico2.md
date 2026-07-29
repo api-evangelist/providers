@@ -48,7 +48,7 @@ name: ViridiCO2
 nav: Providers
 network: true
 overview: ViridiCO2 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sustainability, Carbon Capture, Carbon Utilization, and Green Chemistry.
-random_paper: 60
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

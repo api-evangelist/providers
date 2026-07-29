@@ -48,7 +48,7 @@ name: Cleanwise
 nav: Providers
 network: true
 overview: Cleanwise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, Janitorial and Sanitation, Facilities Management, and Supply Chain.
-random_paper: 31
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

@@ -175,7 +175,7 @@ overview: 'Testerarmy publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Testerarmy''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, pricing, and 19 more developer resources.'
-random_paper: 26
+random_paper: 77
 score:
   band: developing
   composite: 51.3

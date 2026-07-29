@@ -75,7 +75,7 @@ overview: 'Fiveable is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fiveable''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 60
+random_paper: 40
 score:
   band: emerging
   composite: 14.8

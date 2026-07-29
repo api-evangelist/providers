@@ -137,7 +137,7 @@ plans:
 - name: Google Cloud Tasks Plans Pricing
   plan_count: 3
   slug: google-cloud-tasks-plans-pricing
-random_paper: 41
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Google Cloud Tasks Rate Limits

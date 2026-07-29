@@ -144,7 +144,7 @@ plans:
 - name: Nx Plans
   plan_count: 3
   slug: nx-plans
-random_paper: 76
+random_paper: 72
 score:
   band: thin
   composite: 39.4

@@ -48,7 +48,7 @@ name: medmotion
 nav: Providers
 network: true
 overview: medmotion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical, Rehabilitation, and Orthopedics.
-random_paper: 48
+random_paper: 24
 score:
   band: minimal
   composite: 5.4

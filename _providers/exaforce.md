@@ -79,7 +79,7 @@ overview: 'Exaforce is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Exaforce''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 75
+random_paper: 55
 score:
   band: emerging
   composite: 16.8

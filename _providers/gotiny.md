@@ -52,7 +52,7 @@ name: GoTiny
 nav: Providers
 network: true
 overview: GoTiny publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include URL Shorteners and Public APIs.
-random_paper: 50
+random_paper: 34
 score:
   band: minimal
   composite: 5.0

@@ -39,7 +39,7 @@ name: Radiant Entertainment
 nav: Providers
 network: true
 overview: Radiant Entertainment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Entertainment, and Fighting Games.
-random_paper: 34
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

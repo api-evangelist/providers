@@ -127,7 +127,7 @@ overview: 'Bluerock Security is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Bluerock Security''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, CLI, and 14 more developer resources.'
-random_paper: 17
+random_paper: 50
 score:
   band: thin
   composite: 29.5

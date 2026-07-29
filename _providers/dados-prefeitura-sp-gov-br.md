@@ -84,7 +84,7 @@ plans:
 - name: Dados Prefeitura Sp Gov Br Plans Pricing
   plan_count: 1
   slug: dados-prefeitura-sp-gov-br-plans-pricing
-random_paper: 12
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Dados Prefeitura Sp Gov Br Rate Limits

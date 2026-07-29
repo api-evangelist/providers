@@ -60,7 +60,7 @@ name: Oscar Health
 nav: Providers
 network: true
 overview: Oscar Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health Insurance, Healthcare, Insurance, and Fortune 500.
-random_paper: 56
+random_paper: 26
 score:
   band: minimal
   composite: 5.4

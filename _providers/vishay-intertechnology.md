@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: of 2020 China AI Innovation Excellence Award
   url: https://www.vishay.com/en/company/press/releases/2020/microBRICKwins2020AIAward/
-random_paper: 25
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Vishay Intertechnology Rate Limits

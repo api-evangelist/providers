@@ -44,7 +44,7 @@ name: Liveoak Technologies
 nav: Providers
 network: true
 overview: Liveoak Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 74
+random_paper: 22
 score:
   band: minimal
   composite: 4.1

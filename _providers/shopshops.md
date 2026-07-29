@@ -96,7 +96,7 @@ overview: 'ShopShops publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   ShopShops'' developer surface includes support, authentication, and 9 more developer resources.'
-random_paper: 75
+random_paper: 51
 scopes:
 - name: Shopshops Scopes
   scope_count: 4

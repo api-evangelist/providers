@@ -170,7 +170,7 @@ overview: 'Reson8 publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Reson8''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, authentication, and 21 more developer resources.'
-random_paper: 68
+random_paper: 54
 score:
   band: developing
   composite: 51.2

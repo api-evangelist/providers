@@ -176,7 +176,7 @@ plans:
 - name: Koala Plans Pricing
   plan_count: 4
   slug: koala-plans-pricing
-random_paper: 58
+random_paper: 46
 rate_limits:
 - limit_count: 4
   name: Koala Rate Limits

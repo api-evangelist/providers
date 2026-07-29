@@ -95,7 +95,7 @@ overview: 'Opna Bio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Opna Bio''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 19
+random_paper: 78
 score:
   band: emerging
   composite: 13.1

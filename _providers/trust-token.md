@@ -99,7 +99,7 @@ overview: 'Trust Token is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Trust Token''s developer surface includes support and 13 more developer resources.'
-random_paper: 13
+random_paper: 62
 score:
   band: emerging
   composite: 17.9

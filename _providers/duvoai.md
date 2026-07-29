@@ -253,7 +253,7 @@ overview: 'duvo.ai publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   duvo.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 21 more developer resources.'
-random_paper: 32
+random_paper: 16
 scopes:
 - name: Duvoai Scopes
   scope_count: 8

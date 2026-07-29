@@ -323,7 +323,7 @@ press:
 - date: '2026-05-25'
   title: Activision Blizzard and Google Enter Into Multi-year ...
   url: https://www.googlecloudpresscorner.com/2020-01-24-Activision-Blizzard-and-Google-Enter-Into-Multi-year-Strategic-Relationship-to-Power-New-Player-Experiences
-random_paper: 67
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Activision Blizzard Rate Limits

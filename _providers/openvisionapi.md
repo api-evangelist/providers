@@ -56,7 +56,7 @@ name: OpenVisionAPI
 nav: Providers
 network: true
 overview: OpenVisionAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
-random_paper: 26
+random_paper: 69
 score:
   band: minimal
   composite: 5.7

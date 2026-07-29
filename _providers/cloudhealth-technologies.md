@@ -96,7 +96,7 @@ overview: 'CloudHealth Technologies publishes 1 API on the [APIs.io](https://api
 
 
   CloudHealth Technologies'' developer surface includes documentation, API reference, pricing, getting-started guide, authentication, and 7 more developer resources.'
-random_paper: 30
+random_paper: 45
 score:
   band: emerging
   composite: 17.8

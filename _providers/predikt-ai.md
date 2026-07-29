@@ -71,7 +71,7 @@ plans:
 - name: Predikt Ai Plans Pricing
   plan_count: 0
   slug: predikt-ai-plans-pricing
-random_paper: 1
+random_paper: 54
 score:
   band: minimal
   composite: 7.7

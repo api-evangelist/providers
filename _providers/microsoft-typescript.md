@@ -103,7 +103,7 @@ plans:
 - name: Microsoft Typescript Plans Pricing
   plan_count: 3
   slug: microsoft-typescript-plans-pricing
-random_paper: 59
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Microsoft Typescript Rate Limits

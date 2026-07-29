@@ -77,7 +77,7 @@ name: sherpa
 nav: Providers
 network: true
 overview: sherpa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, External Workforce Management, Vendor Management System, Managed Service Provider, and AI Agents.
-random_paper: 27
+random_paper: 11
 score:
   band: minimal
   composite: 11.7

@@ -262,7 +262,7 @@ overview: 'Dedalus Labs publishes 16 APIs on the [APIs.io](https://apis.io/) net
 
 
   Dedalus Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 1
+random_paper: 50
 score:
   band: strong
   composite: 58.7

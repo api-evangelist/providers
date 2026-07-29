@@ -52,7 +52,7 @@ name: Yunji
 nav: Providers
 network: true
 overview: Yunji is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Social Commerce, Retail, and Marketplace.
-random_paper: 73
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

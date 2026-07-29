@@ -56,7 +56,7 @@ name: Semantria
 nav: Providers
 network: true
 overview: Semantria publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
-random_paper: 40
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

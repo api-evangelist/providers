@@ -87,7 +87,7 @@ overview: 'Albertinvent is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Albertinvent''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 62
+random_paper: 30
 score:
   band: emerging
   composite: 14.5

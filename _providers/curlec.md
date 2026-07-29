@@ -400,7 +400,7 @@ overview: 'Curlec publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 22
+random_paper: 6
 scopes:
 - name: Curlec Scopes
   scope_count: 1

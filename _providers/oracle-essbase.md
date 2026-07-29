@@ -400,7 +400,7 @@ plans:
 - name: Oracle Essbase Plans Pricing
   plan_count: 2
   slug: oracle-essbase-plans-pricing
-random_paper: 31
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Oracle Essbase Rate Limits

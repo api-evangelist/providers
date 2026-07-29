@@ -63,7 +63,7 @@ overview: 'Nimbus Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Nimbus Health''s developer surface includes support and 4 more developer resources.'
-random_paper: 20
+random_paper: 65
 score:
   band: minimal
   composite: 11.2

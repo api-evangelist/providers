@@ -64,7 +64,7 @@ name: Sprinter Health
 nav: Providers
 network: true
 overview: Sprinter Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, In-Home Care, and Preventive Care.
-random_paper: 22
+random_paper: 61
 score:
   band: minimal
   composite: 12.7

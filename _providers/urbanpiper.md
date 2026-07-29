@@ -120,7 +120,7 @@ plans:
 - name: Urbanpiper Plans Pricing
   plan_count: 4
   slug: urbanpiper-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Urbanpiper Rate Limits

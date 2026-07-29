@@ -123,7 +123,7 @@ plans:
 - name: Gelato Plans Pricing
   plan_count: 4
   slug: gelato-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Gelato Rate Limits

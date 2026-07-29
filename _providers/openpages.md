@@ -143,7 +143,7 @@ overview: 'OpenPages publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   OpenPages'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 15 more developer resources.'
-random_paper: 38
+random_paper: 14
 score:
   band: developing
   composite: 47.1

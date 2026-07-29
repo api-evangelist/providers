@@ -93,7 +93,7 @@ name: Natron Energy
 nav: Providers
 network: true
 overview: Natron Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Storage, Batteries, Sodium-Ion Batteries, Prussian Blue Analog, and PBA Chemistry.
-random_paper: 42
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

@@ -143,7 +143,7 @@ plans:
 - name: Dynamic Labs Plans Pricing
   plan_count: 3
   slug: dynamic-labs-plans-pricing
-random_paper: 49
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Dynamic Labs Rate Limits

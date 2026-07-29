@@ -286,7 +286,7 @@ plans:
 - name: Amazon S3 Glacier Plans Pricing
   plan_count: 3
   slug: amazon-s3-glacier-plans-pricing
-random_paper: 12
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Amazon S3 Glacier Rate Limits

@@ -80,7 +80,7 @@ plans:
 - name: Gogift Plans Pricing
   plan_count: 3
   slug: gogift-plans-pricing
-random_paper: 24
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Gogift Rate Limits

@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: 2024 Corporate Responsibility Report
   url: https://flowersfoods.com/wp-content/uploads/2025/08/Flowers-Foods-2024-Corporate-Responsibility-Report.pdf
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

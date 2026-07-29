@@ -116,7 +116,7 @@ overview: 'Truth Systems publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Truth Systems'' developer surface includes developer portal, documentation, support, authentication, and 12 more developer resources.'
-random_paper: 18
+random_paper: 61
 score:
   band: thin
   composite: 30.0

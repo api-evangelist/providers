@@ -135,7 +135,7 @@ overview: 'LINE publishes 4 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   LINE''s developer surface includes authentication, documentation, signup flow, pricing, and 10 more developer resources.'
-random_paper: 39
+random_paper: 29
 rules:
 - name: LINE API Rules
   rule_count: 4

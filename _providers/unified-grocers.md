@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Lidl CEO Rejects Retail Media, Focuses ...
   url: https://www.linkedin.com/posts/numainville_why-lidl-keeps-its-distance-from-retail-media-activity-7383464922615226368-g0GA
-random_paper: 2
+random_paper: 41
 score:
   band: minimal
   composite: 4.1

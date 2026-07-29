@@ -140,7 +140,7 @@ overview: 'InfStones publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   InfStones'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 61
+random_paper: 37
 score:
   band: developing
   composite: 47.0

@@ -63,7 +63,7 @@ overview: 'WhereParcel publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   WhereParcel''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 15
+random_paper: 64
 score:
   band: minimal
   composite: 6.2

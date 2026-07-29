@@ -91,7 +91,7 @@ overview: 'Lifesum is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lifesum''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: emerging
   composite: 13.7

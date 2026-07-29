@@ -132,7 +132,7 @@ overview: 'Odyssey publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Odyssey''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 14
+random_paper: 73
 score:
   band: thin
   composite: 28.9

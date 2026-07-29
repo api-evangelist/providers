@@ -52,7 +52,7 @@ name: wutwut
 nav: Providers
 network: true
 overview: wutwut is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, Venture Portfolio, Slow Ventures, and Inactive.
-random_paper: 11
+random_paper: 72
 score:
   band: minimal
   composite: 6.9

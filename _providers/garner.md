@@ -125,7 +125,7 @@ overview: 'Garner publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Garner''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 11 more developer resources.'
-random_paper: 23
+random_paper: 7
 score:
   band: thin
   composite: 41.4

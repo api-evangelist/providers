@@ -60,7 +60,7 @@ name: Absurd
 nav: Providers
 network: true
 overview: Absurd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Video, and Advertising.
-random_paper: 25
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

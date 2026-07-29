@@ -152,7 +152,7 @@ overview: 'Ethena Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Ethena Labs'' developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 19 more developer resources.'
-random_paper: 14
+random_paper: 65
 score:
   band: thin
   composite: 32.8

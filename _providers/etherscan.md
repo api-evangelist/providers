@@ -138,7 +138,7 @@ plans:
 - name: Etherscan Plans Pricing
   plan_count: 3
   slug: etherscan-plans-pricing
-random_paper: 33
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Etherscan Rate Limits

@@ -75,7 +75,7 @@ overview: 'Prolaera is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Prolaera''s developer surface includes signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 7
+random_paper: 64
 score:
   band: emerging
   composite: 13.1

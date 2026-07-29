@@ -48,7 +48,7 @@ name: Haven
 nav: Providers
 network: true
 overview: Haven is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ocean Freight, Supply Chain, Logistics, and Shipping.
-random_paper: 68
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

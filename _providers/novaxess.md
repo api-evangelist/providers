@@ -39,7 +39,7 @@ name: Novaxess
 nav: Providers
 network: true
 overview: Novaxess is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Communications, Defunct, and Portfolio Lead.
-random_paper: 40
+random_paper: 18
 score:
   band: minimal
   composite: 4.3

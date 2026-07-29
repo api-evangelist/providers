@@ -52,7 +52,7 @@ name: NaMoMemes
 nav: Providers
 network: true
 overview: NaMoMemes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment and Public APIs.
-random_paper: 38
+random_paper: 14
 score:
   band: minimal
   composite: 5.0

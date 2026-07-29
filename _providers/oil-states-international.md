@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: Oil States schedules first-quarter earnings conference call
   url: https://www.sahmcapital.com/news/content/oil-states-schedules-first-quarter-earnings-conference-call-2026-04-24
-random_paper: 10
+random_paper: 25
 score:
   band: minimal
   composite: 2.7

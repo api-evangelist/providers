@@ -107,7 +107,7 @@ overview: 'OneAPM is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   OneAPM''s developer surface includes developer portal, documentation, engineering blog, support, pricing, signup flow, and 10 more developer resources.'
-random_paper: 24
+random_paper: 8
 score:
   band: emerging
   composite: 20.5

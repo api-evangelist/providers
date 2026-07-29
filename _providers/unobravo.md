@@ -95,7 +95,7 @@ overview: 'Unobravo is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Unobravo''s developer surface includes engineering blog, pricing, support, signup flow, and 9 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: emerging
   composite: 17.7

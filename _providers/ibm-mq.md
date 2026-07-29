@@ -180,7 +180,7 @@ plans:
 - name: Ibm Mq Plans Pricing
   plan_count: 3
   slug: ibm-mq-plans-pricing
-random_paper: 40
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Ibm Mq Rate Limits

@@ -258,7 +258,7 @@ plans:
 - name: Databento Plans Pricing
   plan_count: 5
   slug: databento-plans-pricing
-random_paper: 22
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Databento Rate Limits

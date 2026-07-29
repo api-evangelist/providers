@@ -136,7 +136,7 @@ overview: 'KAYAK is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   KAYAK''s developer surface includes privacy policy, terms of service, GitHub presence, YouTube channel, engineering blog, and 17 more developer resources.'
-random_paper: 46
+random_paper: 24
 score:
   band: minimal
   composite: 10.7

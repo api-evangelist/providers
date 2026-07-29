@@ -44,7 +44,7 @@ name: Silveredge
 nav: Providers
 network: true
 overview: Silveredge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Contextual Intelligence, and Artificial Intelligence.
-random_paper: 65
+random_paper: 39
 score:
   band: minimal
   composite: 5.0

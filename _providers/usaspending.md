@@ -106,7 +106,7 @@ overview: 'USAspending.gov publishes 9 APIs on the [APIs.io](https://apis.io/) n
 
 
   USAspending.gov''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 30
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Usaspending Rate Limits

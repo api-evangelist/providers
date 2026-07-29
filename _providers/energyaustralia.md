@@ -181,7 +181,7 @@ overview: 'EnergyAustralia publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   EnergyAustralia''s developer surface includes authentication, changelog, API reference, documentation, support, signup flow, pricing, and 23 more developer resources.'
-random_paper: 76
+random_paper: 36
 scopes:
 - name: Energyaustralia Scopes
   scope_count: 12

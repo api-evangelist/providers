@@ -310,7 +310,7 @@ plans:
 - name: Spoonacular Plans Pricing
   plan_count: 5
   slug: spoonacular-plans-pricing
-random_paper: 36
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Spoonacular Rate Limits

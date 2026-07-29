@@ -456,7 +456,7 @@ plans:
 - name: Raygun Plans Pricing
   plan_count: 13
   slug: raygun-plans-pricing
-random_paper: 46
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Raygun Rate Limits

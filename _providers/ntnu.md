@@ -267,7 +267,7 @@ plans:
 - name: Ntnu Plans Pricing
   plan_count: 2
   slug: ntnu-plans-pricing
-random_paper: 68
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Ntnu Rate Limits

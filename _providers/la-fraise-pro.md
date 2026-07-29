@@ -95,7 +95,7 @@ overview: 'La Fraise Pro is profiled on the [APIs.io](https://apis.io/) network.
 
 
   La Fraise Pro''s developer surface includes documentation, pricing, and 11 more developer resources.'
-random_paper: 34
+random_paper: 2
 score:
   band: emerging
   composite: 23.9

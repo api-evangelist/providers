@@ -211,7 +211,7 @@ plans:
 - name: Linear App Plans Pricing
   plan_count: 1
   slug: linear-app-plans-pricing
-random_paper: 0
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Linear App Rate Limits

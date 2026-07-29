@@ -232,7 +232,7 @@ overview: 'Theta EdgeCloud is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Theta EdgeCloud''s developer surface includes documentation, GitHub presence, engineering blog, YouTube channel, and 43 more developer resources.'
-random_paper: 60
+random_paper: 36
 score:
   band: minimal
   composite: 7.9

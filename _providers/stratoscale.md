@@ -48,7 +48,7 @@ name: StratoScale
 nav: Providers
 network: true
 overview: StratoScale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Infrastructure, Hyperconverged, and Data Center.
-random_paper: 34
+random_paper: 4
 score:
   band: minimal
   composite: 5.7

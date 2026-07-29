@@ -187,7 +187,7 @@ overview: 'TestFairy publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   TestFairy''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 25 more developer resources.'
-random_paper: 63
+random_paper: 39
 score:
   band: developing
   composite: 55.1

@@ -67,7 +67,7 @@ overview: 'Virtual Internship Partners is profiled on the [APIs.io](https://apis
 
 
   Virtual Internship Partners'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 64
+random_paper: 71
 score:
   band: minimal
   composite: 10.4

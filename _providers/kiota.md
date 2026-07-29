@@ -80,7 +80,7 @@ plans:
 - name: Kiota Plans Pricing
   plan_count: 3
   slug: kiota-plans-pricing
-random_paper: 74
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Kiota Rate Limits

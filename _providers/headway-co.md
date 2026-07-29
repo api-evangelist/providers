@@ -108,7 +108,7 @@ overview: 'Headway is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Headway''s developer surface includes FAQ, GitHub presence, and 14 more developer resources.'
-random_paper: 70
+random_paper: 46
 score:
   band: minimal
   composite: 7.8

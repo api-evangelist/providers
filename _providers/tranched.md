@@ -99,7 +99,7 @@ overview: 'Tranched is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tranched''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 71
+random_paper: 51
 score:
   band: emerging
   composite: 17.6

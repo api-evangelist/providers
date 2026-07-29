@@ -56,7 +56,7 @@ name: NASA ADS
 nav: Providers
 network: true
 overview: NASA ADS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 6
+random_paper: 65
 score:
   band: minimal
   composite: 5.7

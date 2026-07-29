@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Media Consolidation — News & Updates from Open MIC
   url: https://www.openmic.org/news/category/Media+Consolidation
-random_paper: 53
+random_paper: 25
 rules:
 - name: Time Warner API Rules
   rule_count: 5

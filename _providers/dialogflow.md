@@ -60,7 +60,7 @@ name: Dialogflow
 nav: Providers
 network: true
 overview: Dialogflow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
-random_paper: 63
+random_paper: 37
 score:
   band: minimal
   composite: 5.7

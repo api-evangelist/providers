@@ -45,7 +45,7 @@ name: Legit Patents
 nav: Providers
 network: true
 overview: Legit Patents is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Expert Network, Natural Language Processing, and Scientific Literature.
-random_paper: 36
+random_paper: 2
 score:
   band: minimal
   composite: 4.3

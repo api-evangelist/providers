@@ -63,7 +63,7 @@ overview: 'ZenGo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   ZenGo''s developer surface includes support and 4 more developer resources.'
-random_paper: 8
+random_paper: 73
 score:
   band: minimal
   composite: 7.0

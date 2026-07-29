@@ -263,7 +263,7 @@ overview: 'Bridge publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Bridge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 5
+random_paper: 68
 scopes:
 - name: Bridge Scopes
   scope_count: 0

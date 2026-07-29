@@ -72,7 +72,7 @@ plans:
 - name: Greatschools Plans Pricing
   plan_count: 3
   slug: greatschools-plans-pricing
-random_paper: 62
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Greatschools Rate Limits

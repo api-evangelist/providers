@@ -97,7 +97,7 @@ overview: 'Slice publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Slice''s developer surface includes documentation, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 45
+random_paper: 9
 score:
   band: emerging
   composite: 13.4

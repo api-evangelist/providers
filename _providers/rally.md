@@ -71,7 +71,7 @@ overview: 'Rally is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Rally''s developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 9
+random_paper: 74
 score:
   band: emerging
   composite: 13.1

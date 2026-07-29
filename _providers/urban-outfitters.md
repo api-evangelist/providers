@@ -350,7 +350,7 @@ press:
 - date: '2026-05-25'
   title: URBN Reports Record Q2 Sales and Income
   url: https://investor.urbn.com/news-releases/news-release-details/urbn-reports-record-q2-sales-and-income
-random_paper: 0
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Urban Outfitters Rate Limits

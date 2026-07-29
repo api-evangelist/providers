@@ -75,7 +75,7 @@ overview: 'L3Harris Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   L3Harris Technologies'' developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 58
+random_paper: 4
 score:
   band: minimal
   composite: 9.7

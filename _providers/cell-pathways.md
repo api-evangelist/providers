@@ -49,7 +49,7 @@ name: Cell Pathways
 nav: Providers
 network: true
 overview: Cell Pathways is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Oncology, and Cancer Research.
-random_paper: 33
+random_paper: 78
 score:
   band: minimal
   composite: 4.3

@@ -115,7 +115,7 @@ plans:
 - name: Coconut Plans Pricing
   plan_count: 2
   slug: coconut-plans-pricing
-random_paper: 70
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Coconut Rate Limits

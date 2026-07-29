@@ -61,7 +61,7 @@ name: Capsule Social
 nav: Providers
 network: true
 overview: Capsule Social is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Web3, Blockchain, and Decentralized.
-random_paper: 43
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

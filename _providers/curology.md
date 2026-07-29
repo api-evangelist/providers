@@ -67,7 +67,7 @@ overview: 'Curology is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Curology''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 37
+random_paper: 15
 score:
   band: minimal
   composite: 11.6

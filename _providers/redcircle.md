@@ -87,7 +87,7 @@ overview: 'RedCircle is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   RedCircle''s developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 17
+random_paper: 72
 score:
   band: emerging
   composite: 15.2

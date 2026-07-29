@@ -442,7 +442,7 @@ overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tessell''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: developing
   composite: 45.5

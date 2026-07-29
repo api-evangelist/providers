@@ -96,7 +96,7 @@ plans:
 - name: Administrative Conference Of The United States Plans Pricing
   plan_count: 3
   slug: administrative-conference-of-the-united-states-plans-pricing
-random_paper: 4
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Administrative Conference Of The United States Rate Limits

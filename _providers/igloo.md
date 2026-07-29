@@ -72,7 +72,7 @@ overview: 'igloo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   igloo''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 76
+random_paper: 64
 score:
   band: minimal
   composite: 11.4

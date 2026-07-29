@@ -48,7 +48,7 @@ name: Spindle Technologies
 nav: Providers
 network: true
 overview: Spindle Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Agents, and Salesforce.
-random_paper: 1
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

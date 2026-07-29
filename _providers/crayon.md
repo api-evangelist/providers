@@ -126,7 +126,7 @@ overview: 'Crayon publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Crayon''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 36
+random_paper: 20
 scopes:
 - name: Crayon Scopes
   scope_count: 1

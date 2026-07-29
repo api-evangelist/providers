@@ -215,7 +215,7 @@ overview: 'BCB Group publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   BCB Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 25 more developer resources.'
-random_paper: 50
+random_paper: 28
 score:
   band: developing
   composite: 51.3

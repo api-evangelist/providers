@@ -167,7 +167,7 @@ overview: 'Matik publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Matik''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 72
+random_paper: 60
 scopes:
 - name: Matik Scopes
   scope_count: 2

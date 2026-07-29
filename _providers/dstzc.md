@@ -48,7 +48,7 @@ name: dstzc
 nav: Providers
 network: true
 overview: dstzc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Electric Vehicles, Fleet Management, and New Energy.
-random_paper: 13
+random_paper: 78
 score:
   band: minimal
   composite: 5.0

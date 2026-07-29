@@ -39,7 +39,7 @@ name: Glo Pharma
 nav: Providers
 network: true
 overview: Glo Pharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Skincare, Aesthetics, and Consumer.
-random_paper: 76
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

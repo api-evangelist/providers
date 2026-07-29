@@ -79,7 +79,7 @@ overview: 'Pickle is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pickle''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 16
+random_paper: 0
 score:
   band: emerging
   composite: 13.2

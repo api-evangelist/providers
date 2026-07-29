@@ -130,7 +130,7 @@ overview: 'Vimeo publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vimeo''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 5
+random_paper: 70
 scopes:
 - name: Vimeo Scopes
   scope_count: 6

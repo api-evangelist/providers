@@ -56,7 +56,7 @@ name: oyyi
 nav: Providers
 network: true
 overview: oyyi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 73
+random_paper: 63
 score:
   band: minimal
   composite: 5.7

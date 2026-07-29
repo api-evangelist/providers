@@ -128,7 +128,7 @@ plans:
 - name: Campaignmonitor Plans Pricing
   plan_count: 5
   slug: campaignmonitor-plans-pricing
-random_paper: 68
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Campaignmonitor Rate Limits

@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence for workplace risk assessments
   url: https://www.hanover.com/customer-support/our-business-customers/hanover-risk-solutions/artificial-intelligence-workplace
-random_paper: 60
+random_paper: 0
 score:
   band: minimal
   composite: 4.0

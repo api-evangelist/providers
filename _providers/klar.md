@@ -96,7 +96,7 @@ overview: 'Klar is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Klar''s developer surface includes signup flow, support, and 11 more developer resources.'
-random_paper: 41
+random_paper: 31
 score:
   band: emerging
   composite: 15.6

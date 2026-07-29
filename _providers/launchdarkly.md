@@ -436,7 +436,7 @@ plans:
 - name: Launchdarkly Plans Pricing
   plan_count: 4
   slug: launchdarkly-plans-pricing
-random_paper: 50
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Launchdarkly Rate Limits

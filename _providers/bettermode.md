@@ -171,7 +171,7 @@ overview: 'Bettermode publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Bettermode''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, support, and 22 more developer resources.'
-random_paper: 66
+random_paper: 40
 rate_limits:
 - limit_count: 8
   name: Bettermode Rate Limits

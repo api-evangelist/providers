@@ -115,7 +115,7 @@ overview: 'Sling (Morse) is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Sling (Morse)''s developer surface includes engineering blog, support, pricing, signup flow, and 14 more developer resources.'
-random_paper: 2
+random_paper: 67
 score:
   band: thin
   composite: 29.0

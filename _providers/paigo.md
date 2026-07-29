@@ -196,7 +196,7 @@ plans:
 - name: Paigo Plans Pricing
   plan_count: 1
   slug: paigo-plans-pricing
-random_paper: 66
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Paigo Rate Limits

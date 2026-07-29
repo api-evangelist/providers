@@ -116,7 +116,7 @@ overview: 'Blur is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Blur''s developer surface includes documentation, GitHub presence, and 15 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: minimal
   composite: 9.5

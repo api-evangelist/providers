@@ -71,7 +71,7 @@ overview: 'Columbia Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Columbia Bank''s developer surface includes documentation, engineering blog, support, and 5 more developer resources.'
-random_paper: 2
+random_paper: 39
 score:
   band: minimal
   composite: 10.9

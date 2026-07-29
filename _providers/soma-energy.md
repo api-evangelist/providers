@@ -55,7 +55,7 @@ overview: 'Soma Energy is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Soma Energy''s developer surface includes support and 2 more developer resources.'
-random_paper: 49
+random_paper: 21
 score:
   band: minimal
   composite: 7.1

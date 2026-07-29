@@ -44,7 +44,7 @@ name: Verio
 nav: Providers
 network: true
 overview: Verio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Hosting, Internet Service Provider, Domains, and Email.
-random_paper: 10
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

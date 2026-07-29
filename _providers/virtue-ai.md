@@ -116,7 +116,7 @@ overview: 'Virtue Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Virtue Ai''s developer surface includes documentation, engineering blog, signup flow, CLI, authentication, and 12 more developer resources.'
-random_paper: 71
+random_paper: 49
 score:
   band: emerging
   composite: 24.5

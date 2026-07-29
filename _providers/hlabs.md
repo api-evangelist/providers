@@ -48,7 +48,7 @@ name: Hlabs
 nav: Providers
 network: true
 overview: Hlabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Hardware, Robots, and Electronics.
-random_paper: 60
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

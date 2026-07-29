@@ -199,7 +199,7 @@ overview: 'Mem publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Mem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Mem Rate Limits

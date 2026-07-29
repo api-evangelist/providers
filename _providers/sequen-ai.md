@@ -71,7 +71,7 @@ overview: 'Sequen AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sequen AI''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 57
+random_paper: 35
 score:
   band: minimal
   composite: 9.7

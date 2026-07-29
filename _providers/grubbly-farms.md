@@ -108,7 +108,7 @@ overview: 'Grubbly Farms publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Grubbly Farms'' developer surface includes support, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 32
+random_paper: 77
 scopes:
 - name: Grubbly Farms Scopes
   scope_count: 4

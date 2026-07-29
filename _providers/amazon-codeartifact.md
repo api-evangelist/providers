@@ -1564,7 +1564,7 @@ overview: 'Amazon CodeArtifact publishes 13 APIs on the [APIs.io](https://apis.i
 
 
   Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 23
+random_paper: 52
 rules:
 - name: Amazon CodeArtifact API Rules
   rule_count: 5

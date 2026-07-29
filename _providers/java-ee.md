@@ -56,7 +56,7 @@ name: Java EE
 nav: Providers
 network: true
 overview: Java EE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise, Jakarta EE, Java, Java EE, and Specifications.
-random_paper: 49
+random_paper: 33
 score:
   band: minimal
   composite: 5.7

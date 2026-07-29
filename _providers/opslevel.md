@@ -167,7 +167,7 @@ plans:
 - name: Opslevel Plans Pricing
   plan_count: 3
   slug: opslevel-plans-pricing
-random_paper: 27
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Opslevel Rate Limits

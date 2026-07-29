@@ -67,7 +67,7 @@ overview: 'Esar is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Esar''s developer surface includes support and 5 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: minimal
   composite: 5.9

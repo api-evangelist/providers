@@ -125,7 +125,7 @@ overview: 'Cumbuca is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cumbuca''s developer surface includes documentation, getting-started guide, engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 43
+random_paper: 25
 scopes:
 - name: Cumbuca Scopes
   scope_count: 4

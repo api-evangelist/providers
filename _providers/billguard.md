@@ -39,7 +39,7 @@ name: BillGuard
 nav: Providers
 network: true
 overview: BillGuard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Personal Finance, Fraud Protection, and Fintech.
-random_paper: 26
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

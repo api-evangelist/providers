@@ -101,7 +101,7 @@ overview: 'Zipline is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zipline''s developer surface includes privacy policy, YouTube channel, and 12 more developer resources.'
-random_paper: 70
+random_paper: 52
 score:
   band: minimal
   composite: 9.2

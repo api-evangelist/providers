@@ -52,7 +52,7 @@ name: Surglasses Inc.
 nav: Providers
 network: true
 overview: Surglasses Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Augmented Reality, Surgical Navigation, and Healthcare.
-random_paper: 73
+random_paper: 37
 score:
   band: minimal
   composite: 8.9

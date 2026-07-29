@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Pall Corporation - Bioprocessing and Manufacturing ...
   url: https://www.pharmaceutical-technology.com/contractors/contract-manufacturers/pall-corporation/
-random_paper: 40
+random_paper: 30
 score:
   band: minimal
   composite: 4.9

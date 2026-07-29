@@ -55,7 +55,7 @@ overview: 'Arlo Industries is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Arlo Industries'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 33
+random_paper: 72
 score:
   band: minimal
   composite: 5.4

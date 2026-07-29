@@ -144,7 +144,7 @@ overview: 'Trufla is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Trufla''s developer surface includes changelog, engineering blog, support, signup flow, and 23 more developer resources.'
-random_paper: 38
+random_paper: 22
 score:
   band: emerging
   composite: 22.2

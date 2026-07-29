@@ -84,7 +84,7 @@ plans:
 - name: Ragas Plans Pricing
   plan_count: 1
   slug: ragas-plans-pricing
-random_paper: 64
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Ragas Rate Limits

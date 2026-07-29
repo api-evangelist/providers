@@ -155,7 +155,7 @@ plans:
 - name: Airslate Plans Pricing
   plan_count: 1
   slug: airslate-plans-pricing
-random_paper: 6
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Airslate Rate Limits

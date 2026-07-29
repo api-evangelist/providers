@@ -48,7 +48,7 @@ name: Buildspace
 nav: Providers
 network: true
 overview: Buildspace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Startup, Community, and Learning.
-random_paper: 51
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

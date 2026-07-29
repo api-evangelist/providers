@@ -63,7 +63,7 @@ overview: 'Endless Studios LLC is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Endless Studios LLC''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 9
+random_paper: 38
 score:
   band: minimal
   composite: 9.7

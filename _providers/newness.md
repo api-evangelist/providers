@@ -39,7 +39,7 @@ name: Newness
 nav: Providers
 network: true
 overview: Newness is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 1
+random_paper: 60
 score:
   band: minimal
   composite: 4.1

@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Telephone & Data Systems (TDS) on Track to Boost Fiber Suite
   url: https://finance.yahoo.com/news/telephone-data-systems-tds-track-122312251.html
-random_paper: 67
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Telephone And Data Systems Rate Limits

@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: ONEOK has benefited from President Donald Trump's Big ...
   url: https://www.facebook.com/tulsaworld/posts/oneok-has-benefited-from-president-donald-trumps-big-beautiful-bill-and-is-poise/1260554342772753/
-random_paper: 1
+random_paper: 66
 score:
   band: minimal
   composite: 4.7

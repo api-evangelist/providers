@@ -72,7 +72,7 @@ name: Sidecar Health
 nav: Providers
 network: true
 overview: Sidecar Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Health Insurance, Insurance, and Healthcare.
-random_paper: 52
+random_paper: 18
 score:
   band: emerging
   composite: 16.7

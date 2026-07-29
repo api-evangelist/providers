@@ -133,7 +133,7 @@ plans:
 - name: Papercups Plans Pricing
   plan_count: 2
   slug: papercups-plans-pricing
-random_paper: 55
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Papercups Rate Limits

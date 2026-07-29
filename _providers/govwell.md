@@ -83,7 +83,7 @@ overview: 'GovWell is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   GovWell''s developer surface includes documentation, support, engineering blog, and 7 more developer resources.'
-random_paper: 75
+random_paper: 57
 score:
   band: emerging
   composite: 20.8

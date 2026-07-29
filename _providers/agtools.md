@@ -67,7 +67,7 @@ overview: 'AGTools is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   AGTools'' developer surface includes engineering blog, pricing, signup flow, support, and 2 more developer resources.'
-random_paper: 68
+random_paper: 50
 score:
   band: minimal
   composite: 11.0

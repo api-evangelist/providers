@@ -163,7 +163,7 @@ overview: 'Signal AI publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Signal AI''s developer surface includes authentication, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 38
+random_paper: 16
 scopes:
 - name: Signal Ai Scopes
   scope_count: 6

@@ -160,7 +160,7 @@ overview: 'Findable publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Findable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 51
+random_paper: 31
 score:
   band: thin
   composite: 36.6

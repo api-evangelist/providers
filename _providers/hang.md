@@ -222,7 +222,7 @@ overview: 'Hang publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hang''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 22 more developer resources.'
-random_paper: 29
+random_paper: 19
 score:
   band: developing
   composite: 51.1

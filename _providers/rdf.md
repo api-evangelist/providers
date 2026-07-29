@@ -135,7 +135,7 @@ overview: 'RDF is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   RDF''s developer surface includes code examples, documentation, GitHub presence, and 12 more developer resources.'
-random_paper: 8
+random_paper: 0
 rules:
 - name: RDF API Rules
   rule_count: 6

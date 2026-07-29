@@ -71,7 +71,7 @@ overview: 'Cytovale is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cytovale''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 24
+random_paper: 2
 score:
   band: minimal
   composite: 12.6

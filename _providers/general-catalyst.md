@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: General Catalyst
 nav: Providers
 network: true
-random_paper: 31
+random_paper: 68
 slug: general-catalyst
 tags:
 - Venture Capital

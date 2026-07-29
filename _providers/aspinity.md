@@ -59,7 +59,7 @@ overview: 'Aspinity is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Aspinity''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: minimal
   composite: 5.4

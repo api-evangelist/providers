@@ -75,7 +75,7 @@ overview: 'The Clearing House (RTP) publishes 1 API on the [APIs.io](https://api
 
 
   The Clearing House (RTP)''s developer surface includes documentation, API reference, engineering blog, and 6 more developer resources.'
-random_paper: 25
+random_paper: 58
 score:
   band: emerging
   composite: 17.9

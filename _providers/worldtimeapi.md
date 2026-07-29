@@ -150,7 +150,7 @@ plans:
 - name: Worldtimeapi Plans Pricing
   plan_count: 5
   slug: worldtimeapi-plans-pricing
-random_paper: 65
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Worldtimeapi Rate Limits

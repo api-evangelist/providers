@@ -139,7 +139,7 @@ overview: 'Zenskar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Zenskar''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 73
+random_paper: 55
 score:
   band: developing
   composite: 43.7

@@ -75,7 +75,7 @@ overview: 'ContinuumCloud is profiled on the [APIs.io](https://apis.io/) network
 
 
   ContinuumCloud''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 66
+random_paper: 28
 score:
   band: minimal
   composite: 11.6

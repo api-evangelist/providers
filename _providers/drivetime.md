@@ -39,7 +39,7 @@ name: Drivetime
 nav: Providers
 network: true
 overview: Drivetime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice, Gaming, Entertainment, and In-Car.
-random_paper: 45
+random_paper: 21
 score:
   band: minimal
   composite: 4.3

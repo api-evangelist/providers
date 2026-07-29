@@ -91,7 +91,7 @@ overview: 'Paro is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Paro''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 49
+random_paper: 39
 score:
   band: emerging
   composite: 13.9

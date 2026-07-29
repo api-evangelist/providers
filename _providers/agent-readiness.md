@@ -188,7 +188,7 @@ overview: 'Agent Readiness publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Agent Readiness'' developer surface includes documentation and 8 more developer resources.'
-random_paper: 67
+random_paper: 29
 rules:
 - name: Agent Readiness API Rules
   rule_count: 5

@@ -84,7 +84,7 @@ overview: 'gameSense Sports is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   gameSense Sports'' developer surface includes getting-started guide, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 63
+random_paper: 21
 score:
   band: emerging
   composite: 18.8

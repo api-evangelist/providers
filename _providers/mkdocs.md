@@ -90,7 +90,7 @@ overview: 'MkDocs is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   MkDocs'' developer surface includes documentation, getting-started guide, GitHub presence, and 5 more developer resources.'
-random_paper: 25
+random_paper: 9
 rules:
 - name: MkDocs API Rules
   rule_count: 6

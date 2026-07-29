@@ -166,7 +166,7 @@ plans:
 - name: General Services Administration Plans Pricing
   plan_count: 3
   slug: general-services-administration-plans-pricing
-random_paper: 45
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: General Services Administration Rate Limits

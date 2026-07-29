@@ -107,7 +107,7 @@ overview: 'Recurly publishes 1 API on the [APIs.io](https://apis.io/) network: v
 
 
   Recurly''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 4
+random_paper: 63
 score:
   band: emerging
   composite: 25.9

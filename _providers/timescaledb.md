@@ -227,7 +227,7 @@ plans:
 - name: Timescaledb Plans Pricing
   plan_count: 6
   slug: timescaledb-plans-pricing
-random_paper: 71
+random_paper: 43
 rate_limits:
 - limit_count: 4
   name: Timescaledb Rate Limits

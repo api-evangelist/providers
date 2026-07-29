@@ -119,7 +119,7 @@ plans:
 - name: Climate Engine Plans Pricing
   plan_count: 2
   slug: climate-engine-plans-pricing
-random_paper: 24
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Climate Engine Rate Limits

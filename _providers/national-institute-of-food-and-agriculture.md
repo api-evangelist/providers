@@ -63,7 +63,7 @@ overview: 'National Institute of Food and Agriculture is profiled on the [APIs.i
 
 
   National Institute of Food and Agriculture''s developer surface includes developer portal and 4 more developer resources.'
-random_paper: 57
+random_paper: 28
 score:
   band: minimal
   composite: 6.5

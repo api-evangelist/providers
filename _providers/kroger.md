@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Kroger and Instacart Announce Expanded Relationship ...
   url: https://ir.kroger.com/news/news-details/2025/Kroger-and-Instacart-Announce-Expanded-Relationship-Investing-in-AI-to-Simplify-Customer-Experience-Improve-Efficiency/default.aspx
-random_paper: 34
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Kroger Rate Limits

@@ -48,7 +48,7 @@ name: Outrider
 nav: Providers
 network: true
 overview: Outrider is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Vehicles, Robotics, Logistics, and Supply Chain.
-random_paper: 31
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

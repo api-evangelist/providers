@@ -44,7 +44,7 @@ name: Swarm
 nav: Providers
 network: true
 overview: Swarm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Infrastructure.
-random_paper: 15
+random_paper: 1
 score:
   band: minimal
   composite: 4.1

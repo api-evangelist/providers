@@ -48,7 +48,7 @@ name: Cymbal
 nav: Providers
 network: true
 overview: Cymbal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Blockchain, Ethereum, and Block Explorer.
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

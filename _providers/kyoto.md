@@ -145,7 +145,7 @@ plans:
 - name: Kyoto Plans Pricing
   plan_count: 2
   slug: kyoto-plans-pricing
-random_paper: 27
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Kyoto Rate Limits

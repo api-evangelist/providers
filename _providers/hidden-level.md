@@ -79,7 +79,7 @@ overview: 'Hidden Level is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Hidden Level''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 46
+random_paper: 16
 score:
   band: minimal
   composite: 11.6

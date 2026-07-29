@@ -87,7 +87,7 @@ overview: 'Geode is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Geode''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 54
+random_paper: 42
 score:
   band: minimal
   composite: 12.6

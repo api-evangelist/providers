@@ -135,7 +135,7 @@ overview: 'Freshservice publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Freshservice''s developer surface includes authentication, documentation, signup flow, pricing, support, and 8 more developer resources.'
-random_paper: 57
+random_paper: 25
 score:
   band: thin
   composite: 30.4

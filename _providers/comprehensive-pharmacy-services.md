@@ -71,7 +71,7 @@ overview: 'Comprehensive Pharmacy Services is profiled on the [APIs.io](https://
 
 
   Comprehensive Pharmacy Services'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 54
+random_paper: 51
 score:
   band: emerging
   composite: 13.8

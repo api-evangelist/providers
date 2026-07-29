@@ -326,7 +326,7 @@ plans:
 - name: Thinkific Plans Pricing
   plan_count: 4
   slug: thinkific-plans-pricing
-random_paper: 29
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Thinkific Rate Limits

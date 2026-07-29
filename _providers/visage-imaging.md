@@ -83,7 +83,7 @@ overview: 'Visage Imaging publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Visage Imaging''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 30
+random_paper: 73
 score:
   band: minimal
   composite: 8.1

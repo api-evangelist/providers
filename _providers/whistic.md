@@ -103,7 +103,7 @@ overview: 'Whistic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Whistic''s developer surface includes support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 70
+random_paper: 52
 score:
   band: emerging
   composite: 22.7

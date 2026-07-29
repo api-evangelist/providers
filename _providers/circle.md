@@ -193,7 +193,7 @@ plans:
 - name: Circle Plans Pricing
   plan_count: 3
   slug: circle-plans-pricing
-random_paper: 10
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Circle Rate Limits

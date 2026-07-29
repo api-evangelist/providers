@@ -75,7 +75,7 @@ overview: 'Identiq is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Identiq''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 57
+random_paper: 39
 score:
   band: minimal
   composite: 12.3

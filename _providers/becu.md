@@ -63,7 +63,7 @@ overview: 'BECU is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   BECU''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 30
+random_paper: 20
 score:
   band: emerging
   composite: 13.8

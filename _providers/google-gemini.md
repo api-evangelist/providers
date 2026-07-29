@@ -274,7 +274,7 @@ plans:
 - name: Google Gemini Plans Pricing
   plan_count: 7
   slug: google-gemini-plans-pricing
-random_paper: 6
+random_paper: 51
 rate_limits:
 - limit_count: 7
   name: Google Gemini Rate Limits

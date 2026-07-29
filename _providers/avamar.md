@@ -148,7 +148,7 @@ overview: 'Avamar publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Avamar''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, CLI, and 18 more developer resources.'
-random_paper: 16
+random_paper: 0
 scopes:
 - name: Avamar Scopes
   scope_count: 5

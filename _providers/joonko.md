@@ -48,7 +48,7 @@ name: joonko
 nav: Providers
 network: true
 overview: joonko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 40
+random_paper: 24
 score:
   band: minimal
   composite: 4.1

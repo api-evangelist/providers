@@ -210,7 +210,7 @@ overview: 'Artie publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 71
+random_paper: 59
 score:
   band: developing
   composite: 53.6

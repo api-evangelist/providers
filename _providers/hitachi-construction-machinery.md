@@ -72,7 +72,7 @@ plans:
 - name: Hitachi Construction Machinery Plans Pricing
   plan_count: 3
   slug: hitachi-construction-machinery-plans-pricing
-random_paper: 23
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Hitachi Construction Machinery Rate Limits

@@ -118,7 +118,7 @@ plans:
 - name: Microsoft Azure Communication Services Plans Pricing
   plan_count: 3
   slug: microsoft-azure-communication-services-plans-pricing
-random_paper: 7
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Communication Services Rate Limits

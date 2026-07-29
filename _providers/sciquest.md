@@ -95,7 +95,7 @@ overview: 'SciQuest publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   SciQuest''s developer surface includes developer portal, documentation, API reference, engineering blog, and 6 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: thin
   composite: 31.7

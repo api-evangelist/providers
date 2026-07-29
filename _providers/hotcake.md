@@ -91,7 +91,7 @@ overview: 'hotcake 夯客 is profiled on the [APIs.io](https://apis.io/) network
 
 
   hotcake 夯客''s developer surface includes documentation, getting-started guide, support, pricing, signup flow, changelog, and 6 more developer resources.'
-random_paper: 42
+random_paper: 24
 score:
   band: emerging
   composite: 22.6

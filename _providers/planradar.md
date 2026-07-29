@@ -276,7 +276,7 @@ overview: 'PlanRadar publishes 36 APIs on the [APIs.io](https://apis.io/) networ
 
 
   PlanRadar''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 25
+random_paper: 1
 score:
   band: developing
   composite: 49.9

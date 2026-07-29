@@ -48,7 +48,7 @@ name: WorkClass
 nav: Providers
 network: true
 overview: WorkClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Jobs, Recruitment, Hiring, and Frontline Workers.
-random_paper: 61
+random_paper: 37
 score:
   band: minimal
   composite: 6.1

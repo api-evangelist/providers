@@ -136,7 +136,7 @@ overview: 'amicus-therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   The amicus-therapeutics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 59
+random_paper: 9
 rules:
 - name: amicus-therapeutics API Rules
   rule_count: 5

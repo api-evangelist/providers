@@ -276,7 +276,7 @@ plans:
 - name: Crusoe Energy Plans Pricing
   plan_count: 1
   slug: crusoe-energy-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Crusoe Energy Rate Limits

@@ -73,7 +73,7 @@ plans:
 - name: Equitable Plans Pricing
   plan_count: 3
   slug: equitable-plans-pricing
-random_paper: 32
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Equitable Rate Limits

@@ -130,7 +130,7 @@ plans:
 - name: Microsoft Power Pages Plans Pricing
   plan_count: 3
   slug: microsoft-power-pages-plans-pricing
-random_paper: 1
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Pages Rate Limits

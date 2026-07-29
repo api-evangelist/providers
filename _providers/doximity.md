@@ -191,7 +191,7 @@ overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Doximity''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 27 more developer resources.'
-random_paper: 40
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Doximity Rate Limits

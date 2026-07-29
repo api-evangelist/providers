@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: Disclosure Requirements
 nav: Providers
 network: true
-random_paper: 59
+random_paper: 76
 slug: disclosure-requirements
 tags:
 - Compliance

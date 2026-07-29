@@ -1674,7 +1674,7 @@ plans:
 - name: Oracle Cloud Plans Pricing
   plan_count: 6
   slug: oracle-cloud-plans-pricing
-random_paper: 55
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Oracle Cloud Rate Limits

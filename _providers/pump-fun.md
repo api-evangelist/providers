@@ -80,7 +80,7 @@ plans:
 - name: Pump Fun Plans Pricing
   plan_count: 1
   slug: pump-fun-plans-pricing
-random_paper: 54
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Pump Fun Rate Limits

@@ -134,7 +134,7 @@ overview: 'NTT Docomo publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   NTT Docomo''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, and 17 more developer resources.'
-random_paper: 27
+random_paper: 1
 score:
   band: thin
   composite: 29.5

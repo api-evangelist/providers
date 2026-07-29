@@ -101,7 +101,7 @@ plans:
 - name: Bruno Api Plans Pricing
   plan_count: 4
   slug: bruno-api-plans-pricing
-random_paper: 62
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Bruno Api Rate Limits

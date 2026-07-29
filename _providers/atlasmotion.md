@@ -59,7 +59,7 @@ overview: 'Atlas Motion Systems is profiled on the [APIs.io](https://apis.io/) n
 
 
   Atlas Motion Systems'' developer surface includes support and 3 more developer resources.'
-random_paper: 40
+random_paper: 10
 score:
   band: minimal
   composite: 5.9

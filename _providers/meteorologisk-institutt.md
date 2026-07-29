@@ -60,7 +60,7 @@ name: Meteorologisk Institutt
 nav: Providers
 network: true
 overview: Meteorologisk Institutt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather and Public APIs.
-random_paper: 9
+random_paper: 24
 score:
   band: minimal
   composite: 5.7

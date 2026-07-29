@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: 'Future of Life Insurance: AI, Service Innovation & Client ...'
   url: https://www.youtube.com/watch?v=TgrIYJFyZ34
-random_paper: 75
+random_paper: 9
 score:
   band: minimal
   composite: 6.2

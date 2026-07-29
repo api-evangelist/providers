@@ -55,7 +55,7 @@ overview: 'Kyndryl Holdings is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Kyndryl Holdings'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 65
+random_paper: 23
 score:
   band: minimal
   composite: 3.7

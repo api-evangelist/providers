@@ -136,7 +136,7 @@ overview: 'Blink Charging is profiled on the [APIs.io](https://apis.io/) network
 
 
   Blink Charging''s developer surface includes engineering blog, product news, support, FAQ, and 21 more developer resources.'
-random_paper: 22
+random_paper: 65
 score:
   band: emerging
   composite: 22.1

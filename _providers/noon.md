@@ -136,7 +136,7 @@ overview: 'Noon is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Noon''s developer surface includes YouTube channel and 22 more developer resources.'
-random_paper: 57
+random_paper: 47
 score:
   band: minimal
   composite: 5.7

@@ -61,7 +61,7 @@ plans:
 - name: Office Of Fossil Energy And Carbon Management Plans Pricing
   plan_count: 3
   slug: office-of-fossil-energy-and-carbon-management-plans-pricing
-random_paper: 9
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Office Of Fossil Energy And Carbon Management Rate Limits

@@ -851,7 +851,7 @@ overview: 'Amazon API Gateway publishes 16 APIs on the [APIs.io](https://apis.io
 
 
   Amazon API Gateway''s developer surface includes authentication, engineering blog, support, developer console, SDKs, status page, documentation, and 27 more developer resources.'
-random_paper: 33
+random_paper: 66
 rules:
 - name: Amazon API Gateway API Rules
   rule_count: 9

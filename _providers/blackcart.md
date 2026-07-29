@@ -59,7 +59,7 @@ overview: 'Blackcart is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Blackcart''s developer surface includes API reference, documentation, and 2 more developer resources.'
-random_paper: 11
+random_paper: 66
 score:
   band: minimal
   composite: 6.8

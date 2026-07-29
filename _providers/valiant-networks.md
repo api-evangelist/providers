@@ -39,7 +39,7 @@ name: Valiant Networks
 nav: Providers
 network: true
 overview: Valiant Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Networking, Consulting, and Telecommunications.
-random_paper: 72
+random_paper: 30
 score:
   band: minimal
   composite: 4.3

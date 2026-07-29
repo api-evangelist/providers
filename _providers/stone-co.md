@@ -132,7 +132,7 @@ overview: 'Stone Co is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Stone Co''s developer surface includes developer portal, documentation, signup flow, engineering blog, YouTube channel, and 17 more developer resources.'
-random_paper: 38
+random_paper: 18
 score:
   band: minimal
   composite: 11.9

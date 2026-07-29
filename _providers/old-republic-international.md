@@ -100,7 +100,7 @@ press:
 - date: '2020-01-15'
   title: John "JT" Helms Elected Secretary of National Agricultural Aviation Association (NAAA)
   url: https://oldrepublic.com/news/john-jt-helms-elected-secretary-of-national-agricultural-aviation-association-naaa
-random_paper: 45
+random_paper: 56
 score:
   band: minimal
   composite: 6.0

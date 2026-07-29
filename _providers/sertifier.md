@@ -132,7 +132,7 @@ plans:
 - name: Sertifier Plans Pricing
   plan_count: 4
   slug: sertifier-plans-pricing
-random_paper: 49
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Sertifier Rate Limits

@@ -100,7 +100,7 @@ plans:
 - name: National Library Of Medicine Plans Pricing
   plan_count: 3
   slug: national-library-of-medicine-plans-pricing
-random_paper: 17
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: National Library Of Medicine Rate Limits

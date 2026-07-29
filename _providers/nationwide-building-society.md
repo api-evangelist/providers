@@ -195,7 +195,7 @@ overview: 'Nationwide Building Society publishes 3 APIs on the [APIs.io](https:/
 
 
   Nationwide Building Society''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, and 26 more developer resources.'
-random_paper: 6
+random_paper: 13
 scopes:
 - name: Nationwide Building Society Scopes
   scope_count: 4

@@ -436,7 +436,7 @@ plans:
 - name: Kubernetes Plans Pricing
   plan_count: 3
   slug: kubernetes-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Kubernetes Rate Limits

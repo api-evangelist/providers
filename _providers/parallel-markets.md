@@ -175,7 +175,7 @@ overview: 'Parallel Markets publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Parallel Markets'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, changelog, authentication, and 22 more developer resources.'
-random_paper: 32
+random_paper: 69
 scopes:
 - name: Parallel Markets Scopes
   scope_count: 4

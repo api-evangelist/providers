@@ -90,7 +90,7 @@ plans:
 - name: Tock Reservations Plans Pricing
   plan_count: 3
   slug: tock-reservations-plans-pricing
-random_paper: 24
+random_paper: 57
 score:
   band: emerging
   composite: 15.5

@@ -887,7 +887,7 @@ plans:
 - name: Oracle Enterprise Manager Plans Pricing
   plan_count: 6
   slug: oracle-enterprise-manager-plans-pricing
-random_paper: 76
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Oracle Enterprise Manager Rate Limits

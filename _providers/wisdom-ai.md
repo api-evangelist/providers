@@ -168,7 +168,7 @@ overview: 'Wisdom AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Wisdom AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
-random_paper: 59
+random_paper: 37
 score:
   band: thin
   composite: 38.1

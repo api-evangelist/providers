@@ -71,7 +71,7 @@ overview: 'Govini is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Govini''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: emerging
   composite: 16.8

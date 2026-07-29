@@ -60,7 +60,7 @@ name: Dream Voyage Inc.
 nav: Providers
 network: true
 overview: Dream Voyage Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Consumer Apps, Mobile, and Astrology.
-random_paper: 36
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

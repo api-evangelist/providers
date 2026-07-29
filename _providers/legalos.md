@@ -111,7 +111,7 @@ overview: 'LegalOS is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LegalOS''s developer surface includes engineering blog, support, and 15 more developer resources.'
-random_paper: 50
+random_paper: 32
 score:
   band: emerging
   composite: 18.1

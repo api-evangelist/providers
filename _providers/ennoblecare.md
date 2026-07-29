@@ -83,7 +83,7 @@ overview: 'Ennoble Care is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Ennoble Care''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 72
+random_paper: 44
 score:
   band: emerging
   composite: 14.4

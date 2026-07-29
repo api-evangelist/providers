@@ -89,7 +89,7 @@ plans:
 - name: Campbell Soup Company Plans Pricing
   plan_count: 0
   slug: campbell-soup-company-plans-pricing
-random_paper: 57
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Campbell Soup Company Rate Limits

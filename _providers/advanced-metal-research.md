@@ -48,7 +48,7 @@ name: Advanced Metal Research
 nav: Providers
 network: true
 overview: Advanced Metal Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Welding, Manufacturing, and Computer Vision.
-random_paper: 55
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

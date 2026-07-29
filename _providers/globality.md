@@ -103,7 +103,7 @@ overview: 'Globality is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Globality''s developer surface includes documentation, engineering blog, support, and 12 more developer resources.'
-random_paper: 43
+random_paper: 19
 score:
   band: emerging
   composite: 24.0

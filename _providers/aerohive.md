@@ -53,7 +53,7 @@ name: Aerohive
 nav: Providers
 network: true
 overview: Aerohive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Wireless, WiFi, and Cloud Management.
-random_paper: 4
+random_paper: 61
 score:
   band: minimal
   composite: 6.7

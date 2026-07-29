@@ -381,7 +381,7 @@ plans:
 - name: Oura Ring Plans Pricing
   plan_count: 6
   slug: oura-ring-plans-pricing
-random_paper: 69
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Oura Ring Rate Limits

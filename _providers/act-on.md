@@ -112,7 +112,7 @@ overview: 'Act-On publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Act-On''s developer surface includes documentation, API reference, getting-started guide, authentication, and 11 more developer resources.'
-random_paper: 39
+random_paper: 25
 score:
   band: emerging
   composite: 20.7

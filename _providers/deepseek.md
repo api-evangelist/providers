@@ -170,7 +170,7 @@ plans:
 - name: Deepseek Plans Pricing
   plan_count: 2
   slug: deepseek-plans-pricing
-random_paper: 68
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Deepseek Rate Limits

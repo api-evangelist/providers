@@ -100,7 +100,7 @@ overview: 'Fraudio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Fraudio''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 53
+random_paper: 35
 score:
   band: minimal
   composite: 5.8

@@ -95,7 +95,7 @@ overview: 'SentinelOne publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SentinelOne''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 33
+random_paper: 3
 score:
   band: emerging
   composite: 25.1

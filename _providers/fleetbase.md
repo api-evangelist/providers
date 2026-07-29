@@ -139,7 +139,7 @@ plans:
 - name: Fleetbase Plans Pricing
   plan_count: 4
   slug: fleetbase-plans-pricing
-random_paper: 15
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Fleetbase Rate Limits

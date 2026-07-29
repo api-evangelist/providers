@@ -136,7 +136,7 @@ plans:
 - name: Radar Io Plans Pricing
   plan_count: 2
   slug: radar-io-plans-pricing
-random_paper: 13
+random_paper: 72
 rate_limits:
 - limit_count: 4
   name: Radar Io Rate Limits

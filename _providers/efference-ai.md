@@ -63,7 +63,7 @@ overview: 'Efference AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Efference AI''s developer surface includes documentation, support, and 3 more developer resources.'
-random_paper: 23
+random_paper: 72
 score:
   band: minimal
   composite: 8.3

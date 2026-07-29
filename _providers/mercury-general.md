@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: Annual Report for Fiscal Year Ending December 31, 2024 ...
   url: https://www.publicnow.com/view/52A756E10F4C61184DE58E0B543465DBF9749AB8?1739310479
-random_paper: 14
+random_paper: 53
 score:
   band: minimal
   composite: 3.5

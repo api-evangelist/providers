@@ -114,7 +114,7 @@ plans:
 - name: Counter Dev Plans Pricing
   plan_count: 2
   slug: counter-dev-plans-pricing
-random_paper: 54
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Counter Dev Rate Limits

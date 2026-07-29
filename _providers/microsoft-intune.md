@@ -249,7 +249,7 @@ plans:
 - name: Microsoft Intune Plans Pricing
   plan_count: 9
   slug: microsoft-intune-plans-pricing
-random_paper: 69
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Microsoft Intune Rate Limits

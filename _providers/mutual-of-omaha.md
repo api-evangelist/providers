@@ -56,7 +56,7 @@ name: Mutual of Omaha
 nav: Providers
 network: true
 overview: Mutual of Omaha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Insurance, Financial Services, Life Insurance, and Medicare.
-random_paper: 22
+random_paper: 63
 score:
   band: minimal
   composite: 5.7

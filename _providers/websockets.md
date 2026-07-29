@@ -131,7 +131,7 @@ overview: 'WebSockets is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   The WebSockets catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.'
-random_paper: 4
+random_paper: 55
 rules:
 - name: WebSockets API Rules
   rule_count: 4

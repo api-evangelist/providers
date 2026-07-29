@@ -60,7 +60,7 @@ name: Mother Games
 nav: Providers
 network: true
 overview: Mother Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Social Games.
-random_paper: 70
+random_paper: 40
 score:
   band: minimal
   composite: 9.2

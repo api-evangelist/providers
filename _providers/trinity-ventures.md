@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Trinity Ventures
 nav: Providers
 network: true
-random_paper: 30
+random_paper: 65
 slug: trinity-ventures
 tags:
 - Venture Capital

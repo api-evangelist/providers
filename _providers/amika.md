@@ -193,7 +193,7 @@ overview: 'Amika publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amika''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, pricing, signup flow, and 20 more developer resources.'
-random_paper: 53
+random_paper: 41
 score:
   band: developing
   composite: 44.3

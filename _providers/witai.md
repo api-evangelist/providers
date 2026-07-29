@@ -116,7 +116,7 @@ overview: 'Wit.AI publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wit.AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 11 more developer resources.'
-random_paper: 3
+random_paper: 68
 score:
   band: emerging
   composite: 26.3

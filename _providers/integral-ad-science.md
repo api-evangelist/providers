@@ -124,7 +124,7 @@ overview: 'Integral Ad Science is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Integral Ad Science''s developer surface includes GitHub presence, engineering blog, YouTube channel, and 17 more developer resources.'
-random_paper: 23
+random_paper: 54
 score:
   band: minimal
   composite: 8.6

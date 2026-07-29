@@ -430,7 +430,7 @@ plans:
 - name: Maxar Technologies Plans Pricing
   plan_count: 4
   slug: maxar-technologies-plans-pricing
-random_paper: 18
+random_paper: 49
 rate_limits:
 - limit_count: 6
   name: Maxar Technologies Rate Limits

@@ -585,7 +585,7 @@ plans:
 - name: Runloop Ai Plans Pricing
   plan_count: 4
   slug: runloop-ai-plans-pricing
-random_paper: 29
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Runloop Ai Rate Limits

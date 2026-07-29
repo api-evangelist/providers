@@ -56,7 +56,7 @@ name: uNow (UniversityNow)
 nav: Providers
 network: true
 overview: uNow (UniversityNow) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Higher Education, EdTech, and Online Learning.
-random_paper: 72
+random_paper: 62
 score:
   band: minimal
   composite: 7.5

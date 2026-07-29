@@ -80,7 +80,7 @@ plans:
 - name: Panora Plans Pricing
   plan_count: 3
   slug: panora-plans-pricing
-random_paper: 25
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Panora Rate Limits

@@ -308,7 +308,7 @@ plans:
 - name: Watttime Plans Pricing
   plan_count: 3
   slug: watttime-plans-pricing
-random_paper: 32
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Watttime Rate Limits

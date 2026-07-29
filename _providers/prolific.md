@@ -238,7 +238,7 @@ overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Prolific''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 9
+random_paper: 66
 score:
   band: developing
   composite: 55.3

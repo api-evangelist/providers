@@ -91,7 +91,7 @@ overview: 'Proximie is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Proximie''s developer surface includes documentation, getting-started guide, and 10 more developer resources.'
-random_paper: 30
+random_paper: 8
 score:
   band: emerging
   composite: 16.5

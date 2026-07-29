@@ -56,7 +56,7 @@ name: Covid-19 India
 nav: Providers
 network: true
 overview: Covid-19 India publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 14
+random_paper: 61
 score:
   band: minimal
   composite: 6.0

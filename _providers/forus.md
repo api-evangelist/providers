@@ -99,7 +99,7 @@ overview: 'Forus is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Forus'' developer surface includes engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 20
+random_paper: 6
 score:
   band: emerging
   composite: 19.6

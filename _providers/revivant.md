@@ -39,7 +39,7 @@ name: Revivant
 nav: Providers
 network: true
 overview: Revivant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Cardiac Arrest, and Resuscitation.
-random_paper: 32
+random_paper: 10
 score:
   band: minimal
   composite: 4.3

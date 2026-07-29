@@ -124,7 +124,7 @@ plans:
 - name: Zip Plans Pricing
   plan_count: 1
   slug: zip-plans-pricing
-random_paper: 31
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Zip Rate Limits

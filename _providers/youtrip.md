@@ -71,7 +71,7 @@ overview: 'Youtrip is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Youtrip''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 26
+random_paper: 6
 score:
   band: emerging
   composite: 14.5

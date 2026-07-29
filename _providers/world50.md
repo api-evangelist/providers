@@ -71,7 +71,7 @@ overview: 'World 50 Group is profiled on the [APIs.io](https://apis.io/) network
 
 
   World 50 Group''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 37
+random_paper: 21
 score:
   band: minimal
   composite: 11.5

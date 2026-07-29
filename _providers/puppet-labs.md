@@ -141,7 +141,7 @@ overview: 'Puppet publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Puppet''s developer surface includes documentation, API reference, engineering blog, support, pricing, CLI, and 15 more developer resources.'
-random_paper: 55
+random_paper: 27
 score:
   band: developing
   composite: 43.0

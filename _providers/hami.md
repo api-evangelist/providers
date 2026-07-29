@@ -55,7 +55,7 @@ overview: 'HAMI is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   HAMI''s developer surface includes documentation, engineering blog, and 1 more developer resources.'
-random_paper: 30
+random_paper: 20
 score:
   band: minimal
   composite: 6.9

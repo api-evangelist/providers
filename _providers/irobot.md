@@ -100,7 +100,7 @@ overview: 'iRobot is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   iRobot''s developer surface includes support, engineering blog, GitHub presence, YouTube channel, and 10 more developer resources.'
-random_paper: 39
+random_paper: 23
 score:
   band: minimal
   composite: 7.0

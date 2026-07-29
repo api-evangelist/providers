@@ -84,7 +84,7 @@ overview: 'Briefcase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Briefcase''s developer surface includes pricing, engineering blog, changelog, support, signup flow, and 5 more developer resources.'
-random_paper: 8
+random_paper: 63
 score:
   band: emerging
   composite: 18.0

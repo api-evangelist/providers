@@ -44,7 +44,7 @@ name: Zwitterco
 nav: Providers
 network: true
 overview: Zwitterco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Water Treatment, Membranes, Filtration, and Cleantech.
-random_paper: 2
+random_paper: 55
 score:
   band: minimal
   composite: 5.0

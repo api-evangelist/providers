@@ -89,7 +89,7 @@ plans:
 - name: Snu Plans Pricing
   plan_count: 2
   slug: snu-plans-pricing
-random_paper: 34
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Snu Rate Limits

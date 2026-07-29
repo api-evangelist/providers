@@ -127,7 +127,7 @@ plans:
 - name: Haystack Ai Plans Pricing
   plan_count: 2
   slug: haystack-ai-plans-pricing
-random_paper: 25
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Haystack Ai Rate Limits

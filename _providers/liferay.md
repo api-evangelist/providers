@@ -96,7 +96,7 @@ plans:
 - name: Liferay Plans Pricing
   plan_count: 3
   slug: liferay-plans-pricing
-random_paper: 55
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Liferay Rate Limits

@@ -331,7 +331,7 @@ plans:
 - name: Openrouter Plans Pricing
   plan_count: 3
   slug: openrouter-plans-pricing
-random_paper: 29
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Openrouter Rate Limits

@@ -170,7 +170,7 @@ plans:
 - name: Electric Sql Plans Pricing
   plan_count: 4
   slug: electric-sql-plans-pricing
-random_paper: 69
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Electric Sql Rate Limits

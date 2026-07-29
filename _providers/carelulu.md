@@ -75,7 +75,7 @@ overview: 'CareLuLu is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CareLuLu''s developer surface includes signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 14
+random_paper: 71
 score:
   band: emerging
   composite: 13.1

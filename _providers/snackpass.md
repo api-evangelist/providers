@@ -71,7 +71,7 @@ overview: 'Snackpass is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Snackpass'' developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 43
+random_paper: 19
 score:
   band: emerging
   composite: 14.7

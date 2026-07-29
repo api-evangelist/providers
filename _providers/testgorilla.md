@@ -103,7 +103,7 @@ overview: 'TestGorilla is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   TestGorilla''s developer surface includes pricing, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 39
+random_paper: 9
 score:
   band: emerging
   composite: 21.6

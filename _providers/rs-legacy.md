@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: State AGs Keep Eye On RadioShack Customers' Personal Data
   url: https://www.law360.com/articles/636062/state-ags-keep-eye-on-radioshack-customers-personal-data
-random_paper: 56
+random_paper: 34
 rules:
 - name: RS Legacy API Rules
   rule_count: 5

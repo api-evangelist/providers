@@ -90,7 +90,7 @@ overview: 'Visual Studio publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Visual Studio''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 60
+random_paper: 26
 score:
   band: minimal
   composite: 11.8

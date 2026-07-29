@@ -151,7 +151,7 @@ overview: 'Skyhigh Security publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Skyhigh Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 66
+random_paper: 48
 scopes:
 - name: Skyhigh Scopes
   scope_count: 3

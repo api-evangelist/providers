@@ -165,7 +165,7 @@ overview: 'Bankwest publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bankwest''s developer surface includes authentication, documentation, API reference, support, and 18 more developer resources.'
-random_paper: 16
+random_paper: 73
 scopes:
 - name: Bankwest Scopes
   scope_count: 5

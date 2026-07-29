@@ -285,7 +285,7 @@ plans:
 - name: 4Chan Plans Pricing
   plan_count: 2
   slug: 4chan-plans-pricing
-random_paper: 0
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: 4Chan Rate Limits

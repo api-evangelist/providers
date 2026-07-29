@@ -181,7 +181,7 @@ overview: 'Gitar publishes 3 APIs on the [APIs.io](https://apis.io/) network: Gi
 
 
   Gitar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: developing
   composite: 51.3

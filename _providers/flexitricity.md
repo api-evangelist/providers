@@ -115,7 +115,7 @@ overview: 'Flexitricity is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Flexitricity''s developer surface includes developer portal, engineering blog, YouTube channel, and 17 more developer resources.'
-random_paper: 3
+random_paper: 48
 score:
   band: emerging
   composite: 19.3

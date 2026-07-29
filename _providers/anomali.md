@@ -95,7 +95,7 @@ overview: 'Anomali publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Anomali''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 44
+random_paper: 26
 score:
   band: emerging
   composite: 16.5

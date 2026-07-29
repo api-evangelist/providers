@@ -130,7 +130,7 @@ plans:
 - name: Brella Plans Pricing
   plan_count: 1
   slug: brella-plans-pricing
-random_paper: 10
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Brella Rate Limits

@@ -91,7 +91,7 @@ overview: 'Perennial Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Perennial Labs'' developer surface includes documentation, API reference, getting-started guide, and 9 more developer resources.'
-random_paper: 35
+random_paper: 78
 score:
   band: emerging
   composite: 16.1

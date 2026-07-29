@@ -40,7 +40,7 @@ name: DataGravity
 nav: Providers
 network: true
 overview: DataGravity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Storage, Data Management, and Data Security.
-random_paper: 29
+random_paper: 78
 score:
   band: minimal
   composite: 5.0

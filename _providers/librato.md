@@ -113,7 +113,7 @@ overview: 'Librato publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Librato''s developer surface includes API reference, documentation, getting-started guide, authentication, and 12 more developer resources.'
-random_paper: 56
+random_paper: 38
 score:
   band: emerging
   composite: 19.1

@@ -474,7 +474,7 @@ plans:
 - name: Pipedrive Plans Pricing
   plan_count: 11
   slug: pipedrive-plans-pricing
-random_paper: 44
+random_paper: 20
 rate_limits:
 - limit_count: 7
   name: Pipedrive Rate Limits

@@ -87,7 +87,7 @@ overview: 'Slingshot Aerospace publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Slingshot Aerospace''s developer surface includes documentation, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 54
+random_paper: 4
 score:
   band: emerging
   composite: 19.2

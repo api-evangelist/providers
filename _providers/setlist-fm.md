@@ -205,7 +205,7 @@ plans:
 - name: Setlist Fm Plans Pricing
   plan_count: 2
   slug: setlist-fm-plans-pricing
-random_paper: 31
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Setlist Fm Rate Limits

@@ -75,7 +75,7 @@ overview: 'Graph AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Graph AI''s developer surface includes support, engineering blog, YouTube channel, and 5 more developer resources.'
-random_paper: 7
+random_paper: 66
 score:
   band: minimal
   composite: 9.0

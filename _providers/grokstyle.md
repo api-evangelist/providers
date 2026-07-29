@@ -39,7 +39,7 @@ name: Grokstyle
 nav: Providers
 network: true
 overview: Grokstyle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Visual Search, Computer Vision, Artificial Intelligence, and Image Recognition.
-random_paper: 72
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

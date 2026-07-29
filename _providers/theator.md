@@ -91,7 +91,7 @@ overview: 'Theator is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Theator''s developer surface includes support and 11 more developer resources.'
-random_paper: 66
+random_paper: 48
 score:
   band: emerging
   composite: 18.7

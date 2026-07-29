@@ -95,7 +95,7 @@ overview: 'Attentive.ai is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Attentive.ai''s developer surface includes engineering blog, support, signup flow, pricing, and 9 more developer resources.'
-random_paper: 27
+random_paper: 76
 score:
   band: emerging
   composite: 20.5

@@ -705,7 +705,7 @@ plans:
 - name: Cumulocity Plans Pricing
   plan_count: 6
   slug: cumulocity-plans-pricing
-random_paper: 24
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Cumulocity Rate Limits

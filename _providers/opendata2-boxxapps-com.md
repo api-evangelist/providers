@@ -83,7 +83,7 @@ plans:
 - name: Opendata2 Boxxapps Com Plans Pricing
   plan_count: 0
   slug: opendata2-boxxapps-com-plans-pricing
-random_paper: 32
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Opendata2 Boxxapps Com Rate Limits

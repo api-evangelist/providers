@@ -116,7 +116,7 @@ plans:
 - name: Tink Plans Pricing
   plan_count: 2
   slug: tink-plans-pricing
-random_paper: 53
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Tink Rate Limits

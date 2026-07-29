@@ -76,7 +76,7 @@ overview: 'ams OSRAM is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ams OSRAM''s developer surface includes support, documentation, engineering blog, and 5 more developer resources.'
-random_paper: 65
+random_paper: 43
 score:
   band: minimal
   composite: 12.3

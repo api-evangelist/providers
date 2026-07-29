@@ -59,7 +59,7 @@ overview: 'Greenlyte is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Greenlyte''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 51
+random_paper: 27
 score:
   band: minimal
   composite: 8.4

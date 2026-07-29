@@ -80,7 +80,7 @@ name: Novo Space
 nav: Providers
 network: true
 overview: Novo Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Aerospace, Satellites, and Spacecraft.
-random_paper: 18
+random_paper: 71
 score:
   band: minimal
   composite: 9.7

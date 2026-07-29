@@ -232,7 +232,7 @@ overview: 'Onecli publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Onecli''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 19 more developer resources.'
-random_paper: 18
+random_paper: 2
 score:
   band: developing
   composite: 49.9

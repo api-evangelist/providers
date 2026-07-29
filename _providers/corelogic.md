@@ -321,7 +321,7 @@ plans:
 - name: Corelogic Plans Pricing
   plan_count: 4
   slug: corelogic-plans-pricing
-random_paper: 27
+random_paper: 3
 rate_limits:
 - limit_count: 8
   name: Corelogic Rate Limits

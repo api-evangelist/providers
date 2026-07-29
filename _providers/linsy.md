@@ -135,7 +135,7 @@ overview: 'Linsy publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Linsy''s developer surface includes developer portal, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 20
+random_paper: 6
 scopes:
 - name: Linsy Scopes
   scope_count: 0

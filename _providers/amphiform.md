@@ -48,7 +48,7 @@ name: Amphiform
 nav: Providers
 network: true
 overview: Amphiform is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy Infrastructure, Energy, Clean Energy, and Materials Science.
-random_paper: 39
+random_paper: 15
 score:
   band: minimal
   composite: 5.5

@@ -114,7 +114,7 @@ plans:
 - name: Tributetech Plans Pricing
   plan_count: 3
   slug: tributetech-plans-pricing
-random_paper: 32
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Tributetech Rate Limits

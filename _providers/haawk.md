@@ -75,7 +75,7 @@ overview: 'HAAWK is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   HAAWK''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 62
+random_paper: 50
 score:
   band: minimal
   composite: 9.1

@@ -67,7 +67,7 @@ overview: 'Star Catcher is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Star Catcher''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 62
+random_paper: 32
 score:
   band: minimal
   composite: 11.8

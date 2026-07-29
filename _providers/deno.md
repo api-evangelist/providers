@@ -191,7 +191,7 @@ plans:
 - name: Deno Plans Pricing
   plan_count: 4
   slug: deno-plans-pricing
-random_paper: 37
+random_paper: 27
 rate_limits:
 - limit_count: 8
   name: Deno Rate Limits

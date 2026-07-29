@@ -187,7 +187,7 @@ overview: 'Revvo publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Revvo''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, authentication, and 18 more developer resources.'
-random_paper: 23
+random_paper: 9
 score:
   band: thin
   composite: 41.2

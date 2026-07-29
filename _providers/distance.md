@@ -59,7 +59,7 @@ overview: 'Distance is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Distance''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: minimal
   composite: 7.5

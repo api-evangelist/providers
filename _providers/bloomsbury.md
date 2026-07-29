@@ -68,7 +68,7 @@ name: Bloomsbury
 nav: Providers
 network: true
 overview: Bloomsbury is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Natural Language Processing, and Question Answering.
-random_paper: 24
+random_paper: 75
 score:
   band: minimal
   composite: 8.1

@@ -115,7 +115,7 @@ overview: 'Splashtop is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Splashtop''s developer surface includes documentation, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 66
+random_paper: 42
 score:
   band: emerging
   composite: 25.7

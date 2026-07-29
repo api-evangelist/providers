@@ -51,7 +51,7 @@ overview: 'Indoo Rs is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Indoo Rs'' developer surface includes documentation and 1 more developer resources.'
-random_paper: 41
+random_paper: 21
 score:
   band: minimal
   composite: 6.7

@@ -71,7 +71,7 @@ overview: 'OWLR is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   OWLR''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 67
+random_paper: 57
 score:
   band: minimal
   composite: 10.5

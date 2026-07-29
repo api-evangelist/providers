@@ -128,7 +128,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Cencora
   url: https://emerj.com/artificial-intelligence-at-cencora/
-random_paper: 39
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Amerisourcebergen Rate Limits

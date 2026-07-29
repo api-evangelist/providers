@@ -130,7 +130,7 @@ plans:
 - name: Teable Plans Pricing
   plan_count: 5
   slug: teable-plans-pricing
-random_paper: 5
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Teable Rate Limits

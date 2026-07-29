@@ -71,7 +71,7 @@ overview: 'FlyHomes is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FlyHomes'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 24
+random_paper: 2
 score:
   band: minimal
   composite: 11.3

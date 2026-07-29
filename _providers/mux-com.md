@@ -615,7 +615,7 @@ plans:
 - name: Mux Com Plans Pricing
   plan_count: 11
   slug: mux-com-plans-pricing
-random_paper: 17
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Mux Com Rate Limits

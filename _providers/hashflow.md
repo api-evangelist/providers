@@ -151,7 +151,7 @@ overview: 'Hashflow publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Hashflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, pricing, and 17 more developer resources.'
-random_paper: 13
+random_paper: 70
 score:
   band: thin
   composite: 28.9

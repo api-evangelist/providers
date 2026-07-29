@@ -87,7 +87,7 @@ overview: 'Lenskart is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lenskart''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 21
+random_paper: 78
 score:
   band: emerging
   composite: 15.0

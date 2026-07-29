@@ -103,7 +103,7 @@ overview: 'Transwarp publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Transwarp''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, support, and 8 more developer resources.'
-random_paper: 70
+random_paper: 46
 score:
   band: emerging
   composite: 21.9

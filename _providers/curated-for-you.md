@@ -143,7 +143,7 @@ overview: 'Curated for You publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Curated for You''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 47
+random_paper: 9
 score:
   band: thin
   composite: 37.0

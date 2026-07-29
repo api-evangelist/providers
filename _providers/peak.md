@@ -67,7 +67,7 @@ overview: 'Peak is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Peak''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 32
+random_paper: 22
 score:
   band: minimal
   composite: 10.5

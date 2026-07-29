@@ -234,7 +234,7 @@ plans:
 - name: Sideko Plans Pricing
   plan_count: 3
   slug: sideko-plans-pricing
-random_paper: 23
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Sideko Rate Limits

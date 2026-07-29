@@ -207,7 +207,7 @@ overview: 'Pred publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Pred''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 22 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: developing
   composite: 46.0

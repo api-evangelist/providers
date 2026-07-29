@@ -298,7 +298,7 @@ overview: 'Wherobots publishes 34 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wherobots'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 65
+random_paper: 41
 score:
   band: strong
   composite: 59.5

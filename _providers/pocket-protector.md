@@ -56,7 +56,7 @@ name: Pocket Protector
 nav: Providers
 network: true
 overview: Pocket Protector is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trading, Consumer App, Mobile, and iOS.
-random_paper: 68
+random_paper: 26
 score:
   band: minimal
   composite: 11.3

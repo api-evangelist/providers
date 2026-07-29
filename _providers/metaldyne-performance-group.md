@@ -60,7 +60,7 @@ press:
 - date: '2026-05-25'
   title: Supplier Metaldyne Performance files for stock offering
   url: https://www.autonews.com/article/20140823/OEM10/140829942/supplier-metaldyne-performance-files-for-stock-offering/
-random_paper: 8
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

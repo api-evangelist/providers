@@ -79,7 +79,7 @@ overview: 'Matsmart is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Matsmart''s developer surface includes support and 8 more developer resources.'
-random_paper: 26
+random_paper: 4
 score:
   band: minimal
   composite: 12.6

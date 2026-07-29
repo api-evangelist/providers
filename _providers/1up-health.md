@@ -23,7 +23,7 @@ modified: '2026-06-12'
 name: 1upHealth
 nav: Providers
 network: true
-random_paper: 29
+random_paper: 5
 slug: 1up-health
 tags:
 - FHIR

@@ -1119,7 +1119,7 @@ plans:
 - name: Amazon Healthimaging Plans Pricing
   plan_count: 3
   slug: amazon-healthimaging-plans-pricing
-random_paper: 51
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Amazon Healthimaging Rate Limits

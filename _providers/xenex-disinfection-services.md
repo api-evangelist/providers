@@ -75,7 +75,7 @@ overview: 'Xenex Disinfection Services is profiled on the [APIs.io](https://apis
 
 
   Xenex Disinfection Services'' developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 17
+random_paper: 24
 score:
   band: minimal
   composite: 12.8

@@ -67,7 +67,7 @@ overview: 'Heyo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Heyo''s developer surface includes pricing and 5 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: emerging
   composite: 13.9

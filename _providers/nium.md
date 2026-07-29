@@ -79,7 +79,7 @@ plans:
 - name: Nium Plans Pricing
   plan_count: 1
   slug: nium-plans-pricing
-random_paper: 56
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Nium Rate Limits

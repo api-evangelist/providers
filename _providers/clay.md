@@ -79,7 +79,7 @@ overview: 'Clay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Clay''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 40
+random_paper: 30
 score:
   band: minimal
   composite: 11.6

@@ -48,7 +48,7 @@ name: Cacheflow
 nav: Providers
 network: true
 overview: Cacheflow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Billing, Subscriptions, and CPQ.
-random_paper: 16
+random_paper: 71
 score:
   band: minimal
   composite: 5.7

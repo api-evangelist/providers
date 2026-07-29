@@ -63,7 +63,7 @@ overview: 'Sirv publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sirv''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 67
+random_paper: 57
 score:
   band: minimal
   composite: 6.2

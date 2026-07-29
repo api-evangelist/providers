@@ -139,7 +139,7 @@ overview: 'Juno is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Juno''s developer surface includes developer portal, documentation, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 54
+random_paper: 32
 score:
   band: minimal
   composite: 12.2

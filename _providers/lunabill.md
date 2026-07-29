@@ -75,7 +75,7 @@ overview: 'Lunabill is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lunabill''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 4
+random_paper: 61
 score:
   band: emerging
   composite: 15.1

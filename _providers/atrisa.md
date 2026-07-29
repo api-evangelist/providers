@@ -63,7 +63,7 @@ overview: 'Atrisa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Atrisa''s developer surface includes YouTube channel and 4 more developer resources.'
-random_paper: 28
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

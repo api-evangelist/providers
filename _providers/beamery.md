@@ -95,7 +95,7 @@ overview: 'Beamery is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Beamery''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 48
+random_paper: 30
 score:
   band: emerging
   composite: 18.4

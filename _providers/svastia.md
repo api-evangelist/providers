@@ -79,7 +79,7 @@ overview: 'Svastia is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Svastia''s developer surface includes support and 8 more developer resources.'
-random_paper: 70
+random_paper: 52
 score:
   band: emerging
   composite: 13.7

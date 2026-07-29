@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: Hasbro CEO Says AI Integration Has Been "A Clear Success"
   url: https://www.enworld.org/threads/hasbro-ceo-says-ai-integration-has-been-a-clear-success.717852/
-random_paper: 23
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

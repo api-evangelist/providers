@@ -71,7 +71,7 @@ overview: 'Centivo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Centivo''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 67
+random_paper: 49
 score:
   band: emerging
   composite: 14.3

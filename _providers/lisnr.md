@@ -167,7 +167,7 @@ overview: 'LISNR publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LISNR''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 13
+random_paper: 78
 score:
   band: thin
   composite: 40.4

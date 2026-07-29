@@ -114,7 +114,7 @@ overview: 'Azure Files publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Azure Files'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 43
+random_paper: 76
 scopes:
 - name: Azure File Storage Scopes
   scope_count: 1

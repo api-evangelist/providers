@@ -48,7 +48,7 @@ name: Joltsynsor
 nav: Providers
 network: true
 overview: Joltsynsor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 49
+random_paper: 21
 score:
   band: minimal
   composite: 3.2

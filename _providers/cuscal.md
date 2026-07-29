@@ -116,7 +116,7 @@ overview: 'Cuscal publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Cuscal''s developer surface includes documentation, developer portal, engineering blog, support, and 12 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: thin
   composite: 32.0

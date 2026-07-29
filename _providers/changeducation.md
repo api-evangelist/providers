@@ -44,7 +44,7 @@ name: changeducation
 nav: Providers
 network: true
 overview: changeducation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, STEAM, and Artificial Intelligence.
-random_paper: 6
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

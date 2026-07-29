@@ -56,7 +56,7 @@ name: 6 Waves
 nav: Providers
 network: true
 overview: 6 Waves is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Games, Mobile Games, and Game Publishing.
-random_paper: 33
+random_paper: 17
 score:
   band: minimal
   composite: 9.2

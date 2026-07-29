@@ -48,7 +48,7 @@ name: Friendster
 nav: Providers
 network: true
 overview: Friendster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Network, Social Media, Consumer, and Mobile.
-random_paper: 0
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

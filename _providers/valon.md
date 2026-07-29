@@ -144,7 +144,7 @@ overview: 'Valon is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Valon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 5
+random_paper: 70
 score:
   band: thin
   composite: 35.1

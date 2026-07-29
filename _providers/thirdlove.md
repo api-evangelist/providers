@@ -48,7 +48,7 @@ name: ThirdLove
 nav: Providers
 network: true
 overview: ThirdLove is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Apparel, and Direct-to-Consumer.
-random_paper: 53
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

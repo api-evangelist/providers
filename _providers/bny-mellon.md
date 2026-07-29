@@ -99,7 +99,7 @@ overview: 'BNY Mellon publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   BNY Mellon''s developer surface includes documentation, support, sandbox, and 9 more developer resources.'
-random_paper: 20
+random_paper: 73
 score:
   band: emerging
   composite: 20.3

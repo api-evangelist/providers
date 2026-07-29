@@ -52,7 +52,7 @@ name: Zenflow
 nav: Providers
 network: true
 overview: Zenflow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, MedTech, and Urology.
-random_paper: 3
+random_paper: 62
 score:
   band: minimal
   composite: 9.3

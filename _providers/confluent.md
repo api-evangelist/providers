@@ -128,7 +128,7 @@ plans:
 - name: Confluent Plans Pricing
   plan_count: 3
   slug: confluent-plans-pricing
-random_paper: 50
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Confluent Rate Limits

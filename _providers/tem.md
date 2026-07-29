@@ -79,7 +79,7 @@ overview: 'Tem publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tem''s developer surface includes support and 7 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: emerging
   composite: 15.3

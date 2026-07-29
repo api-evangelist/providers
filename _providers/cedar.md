@@ -75,7 +75,7 @@ overview: 'Cedar is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Cedar''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 49
+random_paper: 37
 score:
   band: emerging
   composite: 14.5

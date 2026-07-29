@@ -136,7 +136,7 @@ overview: 'Hosted·ai publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Hosted·ai''s developer surface includes documentation, API reference, pricing, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 47
+random_paper: 25
 score:
   band: emerging
   composite: 24.5

@@ -163,7 +163,7 @@ plans:
 - name: Eurostat Plans Pricing
   plan_count: 1
   slug: eurostat-plans-pricing
-random_paper: 40
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Eurostat Rate Limits

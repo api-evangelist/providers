@@ -71,7 +71,7 @@ overview: 'Simplyinsured is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Simplyinsured''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 46
+random_paper: 10
 score:
   band: emerging
   composite: 14.3

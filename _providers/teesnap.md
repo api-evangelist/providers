@@ -77,7 +77,7 @@ plans:
 - name: Teesnap Plans Pricing
   plan_count: 1
   slug: teesnap-plans-pricing
-random_paper: 59
+random_paper: 41
 score:
   band: minimal
   composite: 11.0

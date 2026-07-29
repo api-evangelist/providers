@@ -122,7 +122,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at John Deere
   url: https://emerj.com/artificial-intelligence-at-john-deere/
-random_paper: 55
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Deere Rate Limits

@@ -99,7 +99,7 @@ plans:
 - name: University Of Freiburg Plans Pricing
   plan_count: 2
   slug: university-of-freiburg-plans-pricing
-random_paper: 46
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: University Of Freiburg Rate Limits

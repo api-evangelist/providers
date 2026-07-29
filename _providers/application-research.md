@@ -1187,7 +1187,7 @@ plans:
 - name: Application Research Plans Pricing
   plan_count: 1
   slug: application-research-plans-pricing
-random_paper: 60
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Application Research Rate Limits

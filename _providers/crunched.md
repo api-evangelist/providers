@@ -83,7 +83,7 @@ overview: 'Crunched is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Crunched''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 74
+random_paper: 54
 score:
   band: emerging
   composite: 18.3

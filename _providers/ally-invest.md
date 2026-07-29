@@ -224,7 +224,7 @@ plans:
 - name: Ally Invest Plans Pricing
   plan_count: 1
   slug: ally-invest-plans-pricing
-random_paper: 66
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Ally Invest Rate Limits

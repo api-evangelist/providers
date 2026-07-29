@@ -96,7 +96,7 @@ overview: 'Black Ore is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Black Ore''s developer surface includes pricing, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 33
+random_paper: 11
 score:
   band: emerging
   composite: 23.2

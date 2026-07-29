@@ -2634,7 +2634,7 @@ plans:
 - name: Argo Cd Plans Pricing
   plan_count: 3
   slug: argo-cd-plans-pricing
-random_paper: 53
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Argo Cd Rate Limits

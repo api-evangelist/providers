@@ -100,7 +100,7 @@ plans:
 - name: Soketi Plans Pricing
   plan_count: 1
   slug: soketi-plans-pricing
-random_paper: 39
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Soketi Rate Limits

@@ -124,7 +124,7 @@ plans:
 - name: Otter Ai Plans Pricing
   plan_count: 4
   slug: otter-ai-plans-pricing
-random_paper: 35
+random_paper: 15
 rate_limits:
 - limit_count: 9
   name: Otter Ai Rate Limits

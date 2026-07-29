@@ -106,7 +106,7 @@ plans:
 - name: Griffith Plans Pricing
   plan_count: 2
   slug: griffith-plans-pricing
-random_paper: 4
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Griffith Rate Limits

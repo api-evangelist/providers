@@ -48,7 +48,7 @@ name: Mensabrands
 nav: Providers
 network: true
 overview: Mensabrands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Consumer Brands, House of Brands, and Direct to Consumer.
-random_paper: 11
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

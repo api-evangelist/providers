@@ -141,7 +141,7 @@ plans:
 - name: University Of York Plans Pricing
   plan_count: 2
   slug: university-of-york-plans-pricing
-random_paper: 30
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: University Of York Rate Limits

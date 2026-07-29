@@ -71,7 +71,7 @@ overview: 'Please is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Please''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 18
+random_paper: 2
 score:
   band: emerging
   composite: 13.1

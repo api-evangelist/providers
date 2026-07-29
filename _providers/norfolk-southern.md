@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: Team NS 🤝 AI = A Safer Railroad 🚂 Working together ...
   url: https://www.facebook.com/norfolksouthern/posts/team-ns-ai-a-safer-railroad-working-together-by-combining-cutting-edge-tech-with/1156061903216994/
-random_paper: 2
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Norfolk Southern Rate Limits

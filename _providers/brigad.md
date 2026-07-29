@@ -79,7 +79,7 @@ overview: 'Brigad is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Brigad''s developer surface includes support, engineering blog, pricing, signup flow, and 5 more developer resources.'
-random_paper: 1
+random_paper: 64
 score:
   band: emerging
   composite: 15.6

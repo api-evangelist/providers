@@ -67,7 +67,7 @@ overview: 'Mixhalo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Mixhalo''s developer surface includes support and 5 more developer resources.'
-random_paper: 61
+random_paper: 43
 score:
   band: minimal
   composite: 10.1

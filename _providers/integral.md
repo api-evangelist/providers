@@ -83,7 +83,7 @@ overview: 'Integral is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Integral''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 7
+random_paper: 64
 score:
   band: emerging
   composite: 20.6

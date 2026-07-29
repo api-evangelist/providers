@@ -39,7 +39,7 @@ name: Language Technology
 nav: Providers
 network: true
 overview: Language Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 40
+random_paper: 69
 score:
   band: minimal
   composite: 4.1

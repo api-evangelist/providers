@@ -39,7 +39,7 @@ name: Jopwell
 nav: Providers
 network: true
 overview: Jopwell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Careers, Recruiting, Diversity, and Talent.
-random_paper: 72
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

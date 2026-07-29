@@ -64,7 +64,7 @@ name: Chainlink
 nav: Providers
 network: true
 overview: Chainlink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain and Public APIs.
-random_paper: 21
+random_paper: 76
 score:
   band: emerging
   composite: 16.5

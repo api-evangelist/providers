@@ -88,7 +88,7 @@ overview: 'terralayr is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   terralayr''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 58
+random_paper: 34
 scopes:
 - name: Terralayr Scopes
   scope_count: 2

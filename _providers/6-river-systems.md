@@ -49,7 +49,7 @@ name: 6 River Systems
 nav: Providers
 network: true
 overview: 6 River Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Warehouse Automation, Fulfillment, and Autonomous Mobile Robots.
-random_paper: 25
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

@@ -100,7 +100,7 @@ overview: 'Amwell publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Amwell''s developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 26
+random_paper: 10
 score:
   band: thin
   composite: 28.2

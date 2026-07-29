@@ -120,7 +120,7 @@ overview: 'Kroll Bond Rating Agency is profiled on the [APIs.io](https://apis.io
 
 
   Kroll Bond Rating Agency''s developer surface includes documentation, support, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 68
+random_paper: 8
 score:
   band: emerging
   composite: 22.8

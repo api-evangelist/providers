@@ -99,7 +99,7 @@ overview: 'Wonder Workshop is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Wonder Workshop''s developer surface includes documentation, support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 53
+random_paper: 13
 score:
   band: emerging
   composite: 19.9

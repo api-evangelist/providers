@@ -71,7 +71,7 @@ overview: 'MathWallet is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   MathWallet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 3 more developer resources.'
-random_paper: 74
+random_paper: 48
 score:
   band: minimal
   composite: 11.1

@@ -194,7 +194,7 @@ plans:
 - name: Ieee Plans Pricing
   plan_count: 2
   slug: ieee-plans-pricing
-random_paper: 23
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Ieee Rate Limits

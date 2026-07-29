@@ -148,7 +148,7 @@ overview: 'SegmentStream publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   SegmentStream''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 21
+random_paper: 64
 score:
   band: thin
   composite: 36.7

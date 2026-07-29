@@ -48,7 +48,7 @@ name: FangTek
 nav: Providers
 network: true
 overview: FangTek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Integrated Circuits, Analog, and Mixed Signal.
-random_paper: 43
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

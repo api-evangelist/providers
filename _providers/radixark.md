@@ -83,7 +83,7 @@ overview: 'RadixArk is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   RadixArk''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 7
+random_paper: 64
 score:
   band: emerging
   composite: 13.8

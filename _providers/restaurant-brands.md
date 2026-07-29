@@ -1034,7 +1034,7 @@ plans:
 - name: Restaurant Brands Plans Pricing
   plan_count: 1
   slug: restaurant-brands-plans-pricing
-random_paper: 5
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Restaurant Brands Rate Limits

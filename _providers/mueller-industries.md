@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: News Release Archive
   url: https://press.spglobal.com/index.php?s=2429&utm_source=undefined&utm_medium=undefined&utm_campaign=undefined&utm_content=undefined&utm_term=undefined&kw=%257bkeyword%257d&gclid=undefined&o=280
-random_paper: 53
+random_paper: 5
 score:
   band: minimal
   composite: 4.1

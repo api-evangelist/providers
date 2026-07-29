@@ -99,7 +99,7 @@ plans:
 - name: Litify Plans Pricing
   plan_count: 2
   slug: litify-plans-pricing
-random_paper: 41
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Litify Rate Limits

@@ -274,7 +274,7 @@ overview: 'Spotnana publishes 33 APIs on the [APIs.io](https://apis.io/) network
 
 
   Spotnana''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 21
+random_paper: 78
 score:
   band: developing
   composite: 46.6

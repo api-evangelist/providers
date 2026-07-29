@@ -63,7 +63,7 @@ overview: 'Inofab is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Inofab''s developer surface includes support and 4 more developer resources.'
-random_paper: 7
+random_paper: 70
 score:
   band: minimal
   composite: 11.2

@@ -48,7 +48,7 @@ name: Gentem
 nav: Providers
 network: true
 overview: Gentem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Revenue Cycle Management, Medical Billing, and Health Tech.
-random_paper: 24
+random_paper: 8
 score:
   band: minimal
   composite: 5.4

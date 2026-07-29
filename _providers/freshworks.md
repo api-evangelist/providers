@@ -512,7 +512,7 @@ plans:
 - name: Freshworks Plans Pricing
   plan_count: 3
   slug: freshworks-plans-pricing
-random_paper: 24
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Freshworks Rate Limits

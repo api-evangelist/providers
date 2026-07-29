@@ -44,7 +44,7 @@ name: Crews By Core *
 nav: Providers
 network: true
 overview: Crews By Core * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Construction, Construction Technology, and Field Service Management.
-random_paper: 50
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

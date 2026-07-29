@@ -39,7 +39,7 @@ name: SUMIF
 nav: Providers
 network: true
 overview: SUMIF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Analytics, Spreadsheet, and Calculation.
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 4.1

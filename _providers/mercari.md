@@ -92,7 +92,7 @@ plans:
 - name: Mercari Plans Pricing
   plan_count: 1
   slug: mercari-plans-pricing
-random_paper: 46
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Mercari Rate Limits

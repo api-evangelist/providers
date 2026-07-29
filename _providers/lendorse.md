@@ -92,7 +92,7 @@ overview: 'Lendorse is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lendorse''s developer surface includes signup flow, support, and 10 more developer resources.'
-random_paper: 13
+random_paper: 70
 score:
   band: emerging
   composite: 14.6

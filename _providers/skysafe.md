@@ -68,7 +68,7 @@ overview: 'SkySafe is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   SkySafe''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: minimal
   composite: 10.9

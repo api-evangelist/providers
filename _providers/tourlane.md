@@ -83,7 +83,7 @@ overview: 'Tourlane is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tourlane''s developer surface includes support and 9 more developer resources.'
-random_paper: 27
+random_paper: 5
 score:
   band: emerging
   composite: 14.1

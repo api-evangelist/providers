@@ -219,7 +219,7 @@ plans:
 - name: Amazon Bedrock Plans Pricing
   plan_count: 1
   slug: amazon-bedrock-plans-pricing
-random_paper: 35
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Amazon Bedrock Rate Limits

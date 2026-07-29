@@ -52,7 +52,7 @@ name: Mogul
 nav: Providers
 network: true
 overview: Mogul is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Executive Search, Executive Training, Leadership Development, and Advisory.
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 7.6

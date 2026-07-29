@@ -64,7 +64,7 @@ name: Infocast
 nav: Providers
 network: true
 overview: Infocast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Conferences, Energy, Events, Industry Intelligence, and Infrastructure.
-random_paper: 8
+random_paper: 65
 score:
   band: minimal
   composite: 5.5

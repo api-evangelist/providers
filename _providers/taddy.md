@@ -124,7 +124,7 @@ plans:
 - name: Taddy Plans Pricing
   plan_count: 4
   slug: taddy-plans-pricing
-random_paper: 72
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Taddy Rate Limits

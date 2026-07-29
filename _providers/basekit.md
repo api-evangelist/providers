@@ -139,7 +139,7 @@ overview: 'Basekit publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Basekit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 46
+random_paper: 28
 score:
   band: developing
   composite: 43.4

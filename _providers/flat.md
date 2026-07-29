@@ -67,7 +67,7 @@ overview: 'Flat is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Flat''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 38
+random_paper: 28
 score:
   band: minimal
   composite: 10.5

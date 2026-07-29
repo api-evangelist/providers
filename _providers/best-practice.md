@@ -186,7 +186,7 @@ overview: 'Best Practice Software publishes 3 APIs on the [APIs.io](https://apis
 
 
   Best Practice Software''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 21 more developer resources.'
-random_paper: 9
+random_paper: 54
 score:
   band: developing
   composite: 46.2

@@ -136,7 +136,7 @@ overview: 'Pipe Network publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Pipe Network''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 16 more developer resources.'
-random_paper: 21
+random_paper: 68
 score:
   band: emerging
   composite: 20.4

@@ -87,7 +87,7 @@ overview: 'Lyric is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Lyric''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 8
+random_paper: 73
 score:
   band: emerging
   composite: 14.9

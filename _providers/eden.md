@@ -67,7 +67,7 @@ overview: 'Eden is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Eden''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 27
+random_paper: 17
 score:
   band: emerging
   composite: 13.1

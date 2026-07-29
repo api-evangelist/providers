@@ -52,7 +52,7 @@ name: Grand Games
 nav: Providers
 network: true
 overview: Grand Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Game Development, Mobile Games, and Hybrid Casual.
-random_paper: 62
+random_paper: 50
 score:
   band: minimal
   composite: 9.2

@@ -75,7 +75,7 @@ overview: 'HAAS Alert is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   HAAS Alert''s developer surface includes support, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 70
+random_paper: 46
 score:
   band: emerging
   composite: 14.2

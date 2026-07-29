@@ -165,7 +165,7 @@ plans:
 - name: Greenhouse Plans Pricing
   plan_count: 3
   slug: greenhouse-plans-pricing
-random_paper: 76
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Greenhouse Rate Limits

@@ -39,7 +39,7 @@ name: Metacloud
 nav: Providers
 network: true
 overview: Metacloud is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Private Cloud, OpenStack, and Infrastructure.
-random_paper: 34
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

@@ -79,7 +79,7 @@ overview: 'Prosimo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Prosimo''s developer surface includes support, documentation, and 7 more developer resources.'
-random_paper: 7
+random_paper: 66
 score:
   band: minimal
   composite: 12.4

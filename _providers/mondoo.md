@@ -168,7 +168,7 @@ overview: 'Mondoo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mondoo''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, CLI, and 22 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: thin
   composite: 40.1

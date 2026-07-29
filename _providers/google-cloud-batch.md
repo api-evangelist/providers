@@ -161,7 +161,7 @@ plans:
 - name: Google Cloud Batch Plans Pricing
   plan_count: 3
   slug: google-cloud-batch-plans-pricing
-random_paper: 5
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Google Cloud Batch Rate Limits

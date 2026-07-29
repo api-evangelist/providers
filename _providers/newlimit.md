@@ -55,7 +55,7 @@ overview: 'NewLimit is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   NewLimit''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 26
+random_paper: 4
 score:
   band: minimal
   composite: 5.2

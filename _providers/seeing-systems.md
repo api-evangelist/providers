@@ -55,7 +55,7 @@ overview: 'Seeing Systems is profiled on the [APIs.io](https://apis.io/) network
 
 
   Seeing Systems'' developer surface includes support and 2 more developer resources.'
-random_paper: 9
+random_paper: 50
 score:
   band: minimal
   composite: 5.9

@@ -96,7 +96,7 @@ plans:
 - name: Owasp Plans Pricing
   plan_count: 3
   slug: owasp-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Owasp Rate Limits

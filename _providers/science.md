@@ -71,7 +71,7 @@ overview: 'Science is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Science''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 37
+random_paper: 19
 score:
   band: emerging
   composite: 13.0

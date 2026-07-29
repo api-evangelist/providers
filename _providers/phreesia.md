@@ -88,7 +88,7 @@ overview: 'Phreesia publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Phreesia''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 2
+random_paper: 59
 score:
   band: minimal
   composite: 10.4

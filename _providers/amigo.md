@@ -636,7 +636,7 @@ overview: 'Amigo publishes 72 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 28 more developer resources.'
-random_paper: 63
+random_paper: 51
 scopes:
 - name: Amigo Scopes
   scope_count: 53

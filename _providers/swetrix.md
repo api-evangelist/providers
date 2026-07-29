@@ -271,7 +271,7 @@ plans:
 - name: Swetrix Plans Pricing
   plan_count: 10
   slug: swetrix-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Swetrix Rate Limits

@@ -96,7 +96,7 @@ overview: 'Farther is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Farther''s developer surface includes support and 12 more developer resources.'
-random_paper: 55
+random_paper: 37
 score:
   band: emerging
   composite: 15.2

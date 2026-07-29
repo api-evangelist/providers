@@ -104,7 +104,7 @@ plans:
 - name: Tohoku Plans Pricing
   plan_count: 2
   slug: tohoku-plans-pricing
-random_paper: 50
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Tohoku Rate Limits

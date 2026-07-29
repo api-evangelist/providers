@@ -128,7 +128,7 @@ overview: 'Nuance publishes 5 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Nuance''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 10 more developer resources.'
-random_paper: 18
+random_paper: 2
 score:
   band: emerging
   composite: 24.9

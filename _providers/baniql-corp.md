@@ -48,7 +48,7 @@ name: BANIQL CORP.
 nav: Providers
 network: true
 overview: BANIQL CORP. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cleantech, Battery Materials, Nickel, and Cobalt.
-random_paper: 34
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

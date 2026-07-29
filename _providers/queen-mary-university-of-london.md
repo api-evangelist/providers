@@ -104,7 +104,7 @@ plans:
 - name: Queen Mary University Of London Plans Pricing
   plan_count: 2
   slug: queen-mary-university-of-london-plans-pricing
-random_paper: 68
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Queen Mary University Of London Rate Limits

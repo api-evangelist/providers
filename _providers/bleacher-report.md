@@ -60,7 +60,7 @@ name: Bleacher Report
 nav: Providers
 network: true
 overview: Bleacher Report is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Media, Sports News, and Content.
-random_paper: 72
+random_paper: 34
 score:
   band: minimal
   composite: 9.9

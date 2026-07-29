@@ -48,7 +48,7 @@ name: Shape Shapescale
 nav: Providers
 network: true
 overview: Shape Shapescale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Scanning, 3D Scanning, Fitness, and Health.
-random_paper: 6
+random_paper: 43
 score:
   band: minimal
   composite: 5.4

@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: HCA HCA Healthcare, Inc. Stock Price & Overview
   url: https://seekingalpha.com/symbol/HCA
-random_paper: 46
+random_paper: 16
 score:
   band: minimal
   composite: 7.1

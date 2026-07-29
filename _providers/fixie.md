@@ -193,7 +193,7 @@ overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Fixie''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 71
+random_paper: 59
 score:
   band: developing
   composite: 51.3

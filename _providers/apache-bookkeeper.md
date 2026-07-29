@@ -234,7 +234,7 @@ plans:
 - name: Apache Bookkeeper Plans Pricing
   plan_count: 3
   slug: apache-bookkeeper-plans-pricing
-random_paper: 24
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Apache Bookkeeper Rate Limits

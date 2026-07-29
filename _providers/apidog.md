@@ -321,7 +321,7 @@ plans:
 - name: Apidog Plans Pricing
   plan_count: 4
   slug: apidog-plans-pricing
-random_paper: 12
+random_paper: 75
 rate_limits:
 - limit_count: 7
   name: Apidog Rate Limits

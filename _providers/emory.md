@@ -235,7 +235,7 @@ plans:
 - name: Emory Plans Pricing
   plan_count: 2
   slug: emory-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Emory Rate Limits

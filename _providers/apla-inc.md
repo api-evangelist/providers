@@ -48,7 +48,7 @@ name: Apla, Inc.
 nav: Providers
 network: true
 overview: Apla, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Bookkeeping, Fintech, and Expense Management.
-random_paper: 3
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

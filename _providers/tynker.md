@@ -83,7 +83,7 @@ overview: 'Tynker is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Tynker''s developer surface includes engineering blog, support, pricing, signup flow, and 6 more developer resources.'
-random_paper: 53
+random_paper: 37
 score:
   band: emerging
   composite: 17.1

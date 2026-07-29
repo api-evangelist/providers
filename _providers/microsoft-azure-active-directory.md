@@ -630,7 +630,7 @@ plans:
 - name: Microsoft Azure Active Directory Plans Pricing
   plan_count: 9
   slug: microsoft-azure-active-directory-plans-pricing
-random_paper: 51
+random_paper: 46
 rate_limits:
 - limit_count: 10
   name: Azure Active Directory Rate Limits

@@ -534,7 +534,7 @@ overview: 'ThoughtSpot publishes 57 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ThoughtSpot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 70
+random_paper: 40
 score:
   band: strong
   composite: 60.0

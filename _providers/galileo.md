@@ -83,7 +83,7 @@ overview: 'Galileo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Galileo''s developer surface includes signup flow and 9 more developer resources.'
-random_paper: 40
+random_paper: 22
 score:
   band: emerging
   composite: 14.3

@@ -168,7 +168,7 @@ plans:
 - name: Kareo Plans Pricing
   plan_count: 5
   slug: kareo-plans-pricing
-random_paper: 68
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Kareo Rate Limits

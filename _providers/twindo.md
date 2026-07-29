@@ -108,7 +108,7 @@ overview: 'Twindo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Twindo''s developer surface includes engineering blog, pricing, signup flow, getting-started guide, support, authentication, changelog, and 8 more developer resources.'
-random_paper: 45
+random_paper: 29
 score:
   band: emerging
   composite: 26.0

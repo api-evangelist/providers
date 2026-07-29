@@ -39,7 +39,7 @@ name: Stackmob
 nav: Providers
 network: true
 overview: Stackmob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Developer Tools.
-random_paper: 5
+random_paper: 62
 score:
   band: minimal
   composite: 4.1

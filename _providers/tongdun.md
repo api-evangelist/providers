@@ -59,7 +59,7 @@ overview: 'Tongdun is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tongdun''s developer surface includes signup flow and 3 more developer resources.'
-random_paper: 74
+random_paper: 56
 score:
   band: minimal
   composite: 7.6

@@ -79,7 +79,7 @@ overview: 'Insify is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Insify''s developer surface includes engineering blog, support, signup flow, pricing, and 5 more developer resources.'
-random_paper: 42
+random_paper: 26
 score:
   band: emerging
   composite: 16.1

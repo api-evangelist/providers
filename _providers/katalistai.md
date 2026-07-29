@@ -71,7 +71,7 @@ overview: 'KatalistAI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   KatalistAI''s developer surface includes signup flow, pricing, engineering blog, support, and 3 more developer resources.'
-random_paper: 62
+random_paper: 36
 score:
   band: emerging
   composite: 13.1

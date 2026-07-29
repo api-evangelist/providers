@@ -107,7 +107,7 @@ overview: 'INFINIT is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   INFINIT''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, and 10 more developer resources.'
-random_paper: 60
+random_paper: 42
 score:
   band: emerging
   composite: 21.6

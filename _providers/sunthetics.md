@@ -91,7 +91,7 @@ overview: 'Sunthetics is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sunthetics'' developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 20
+random_paper: 71
 score:
   band: emerging
   composite: 17.7

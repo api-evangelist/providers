@@ -56,7 +56,7 @@ name: Crowdery
 nav: Providers
 network: true
 overview: Crowdery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Consumer, and Marketplace.
-random_paper: 32
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

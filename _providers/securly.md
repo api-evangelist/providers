@@ -82,7 +82,7 @@ plans:
 - name: Securly Plans Pricing
   plan_count: 0
   slug: securly-plans-pricing
-random_paper: 5
+random_paper: 64
 score:
   band: minimal
   composite: 8.5

@@ -56,7 +56,7 @@ name: Zippopotam.us
 nav: Providers
 network: true
 overview: Zippopotam.us publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 75
+random_paper: 41
 score:
   band: minimal
   composite: 5.7

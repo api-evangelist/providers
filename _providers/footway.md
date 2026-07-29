@@ -120,7 +120,7 @@ overview: 'Footway publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Footway''s developer surface includes documentation, authentication, support, signup flow, engineering blog, and 12 more developer resources.'
-random_paper: 7
+random_paper: 66
 scopes:
 - name: Footway Scopes
   scope_count: 4

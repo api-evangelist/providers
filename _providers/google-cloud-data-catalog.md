@@ -169,7 +169,7 @@ plans:
 - name: Google Cloud Data Catalog Plans Pricing
   plan_count: 3
   slug: google-cloud-data-catalog-plans-pricing
-random_paper: 61
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Google Cloud Data Catalog Rate Limits

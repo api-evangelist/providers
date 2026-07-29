@@ -304,7 +304,7 @@ plans:
 - name: Nasa Plans Pricing
   plan_count: 3
   slug: nasa-plans-pricing
-random_paper: 34
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Nasa Rate Limits

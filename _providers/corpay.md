@@ -63,7 +63,7 @@ overview: 'Corpay is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Corpay''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 38
+random_paper: 22
 score:
   band: minimal
   composite: 5.6

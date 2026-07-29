@@ -111,7 +111,7 @@ overview: 'Alpha Biopharma is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Alpha Biopharma''s developer surface includes engineering blog and 16 more developer resources.'
-random_paper: 2
+random_paper: 43
 score:
   band: minimal
   composite: 7.3

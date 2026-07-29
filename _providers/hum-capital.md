@@ -79,7 +79,7 @@ overview: 'Hum Capital is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Hum Capital''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 31
+random_paper: 3
 score:
   band: emerging
   composite: 13.1

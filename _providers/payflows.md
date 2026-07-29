@@ -59,7 +59,7 @@ overview: 'payflows is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   payflows'' developer surface includes engineering blog, signup flow, and 2 more developer resources.'
-random_paper: 38
+random_paper: 16
 score:
   band: minimal
   composite: 8.3

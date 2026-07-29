@@ -83,7 +83,7 @@ overview: 'Biome Makers is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Biome Makers'' developer surface includes developer portal, support, engineering blog, and 7 more developer resources.'
-random_paper: 57
+random_paper: 27
 score:
   band: emerging
   composite: 16.3

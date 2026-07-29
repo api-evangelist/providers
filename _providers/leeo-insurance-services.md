@@ -168,7 +168,7 @@ overview: 'LEEO Insurance Services publishes 4 APIs on the [APIs.io](https://api
 
 
   LEEO Insurance Services'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 18 more developer resources.'
-random_paper: 37
+random_paper: 56
 score:
   band: developing
   composite: 47.4

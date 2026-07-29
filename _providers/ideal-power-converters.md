@@ -75,7 +75,7 @@ overview: 'Ideal Power Converters is profiled on the [APIs.io](https://apis.io/)
 
 
   Ideal Power Converters'' developer surface includes support, product news, and 6 more developer resources.'
-random_paper: 24
+random_paper: 45
 score:
   band: minimal
   composite: 7.1

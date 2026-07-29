@@ -138,7 +138,7 @@ plans:
 - name: Donorbox Plans Pricing
   plan_count: 4
   slug: donorbox-plans-pricing
-random_paper: 28
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Donorbox Rate Limits

@@ -144,7 +144,7 @@ overview: 'Silmaril publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Silmaril''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 17 more developer resources.'
-random_paper: 14
+random_paper: 71
 score:
   band: thin
   composite: 33.6

@@ -39,7 +39,7 @@ name: Flexus Biosciences
 nav: Providers
 network: true
 overview: Flexus Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Immuno-Oncology.
-random_paper: 19
+random_paper: 50
 score:
   band: minimal
   composite: 4.3

@@ -125,7 +125,7 @@ overview: 'Agile CRM publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Agile CRM''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 34
+random_paper: 12
 score:
   band: emerging
   composite: 26.4

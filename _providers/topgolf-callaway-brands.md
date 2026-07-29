@@ -72,7 +72,7 @@ name: Topgolf Callaway Brands
 nav: Providers
 network: true
 overview: Topgolf Callaway Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Golf, Entertainment, Sports Equipment, and Fortune 500.
-random_paper: 23
+random_paper: 42
 score:
   band: minimal
   composite: 8.4

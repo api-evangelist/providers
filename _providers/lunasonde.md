@@ -48,7 +48,7 @@ name: Lunasonde
 nav: Providers
 network: true
 overview: Lunasonde is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Satellite, Earth Observation, and Geophysics.
-random_paper: 45
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

@@ -79,7 +79,7 @@ overview: 'Settle is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Settle''s developer surface includes pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 41
+random_paper: 25
 score:
   band: emerging
   composite: 17.7

@@ -120,7 +120,7 @@ overview: 'Mutiny HQ is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mutiny HQ''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 16
+random_paper: 71
 scopes:
 - name: Mutiny Hq Scopes
   scope_count: 5

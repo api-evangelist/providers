@@ -48,7 +48,7 @@ name: Nimsoft
 nav: Providers
 network: true
 overview: Nimsoft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Monitoring, IT Operations, and Observability.
-random_paper: 75
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

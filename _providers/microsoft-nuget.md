@@ -135,7 +135,7 @@ plans:
 - name: Microsoft Nuget Plans Pricing
   plan_count: 3
   slug: microsoft-nuget-plans-pricing
-random_paper: 34
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Microsoft Nuget Rate Limits

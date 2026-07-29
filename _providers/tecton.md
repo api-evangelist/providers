@@ -136,7 +136,7 @@ overview: 'Tecton publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tecton''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 16 more developer resources.'
-random_paper: 37
+random_paper: 21
 score:
   band: thin
   composite: 28.2

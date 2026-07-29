@@ -96,7 +96,7 @@ overview: 'CandyClub publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   CandyClub''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 25
+random_paper: 1
 scopes:
 - name: Candyclub Scopes
   scope_count: 4

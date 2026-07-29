@@ -135,7 +135,7 @@ overview: 'GB Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GB Bank''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
-random_paper: 42
+random_paper: 26
 scopes:
 - name: Gb Bank Scopes
   scope_count: 3

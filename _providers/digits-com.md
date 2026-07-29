@@ -151,7 +151,7 @@ plans:
 - name: Digits Com Plans Pricing
   plan_count: 2
   slug: digits-com-plans-pricing
-random_paper: 7
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Digits Com Rate Limits

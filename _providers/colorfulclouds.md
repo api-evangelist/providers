@@ -559,7 +559,7 @@ plans:
 - name: Colorfulclouds Plans Pricing
   plan_count: 3
   slug: colorfulclouds-plans-pricing
-random_paper: 57
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Colorfulclouds Rate Limits

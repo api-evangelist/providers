@@ -48,7 +48,7 @@ name: Populr.me
 nav: Providers
 network: true
 overview: Populr.me is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, Web Publishing, Landing Pages, and Content Management.
-random_paper: 37
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

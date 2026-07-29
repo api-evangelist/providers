@@ -75,7 +75,7 @@ overview: 'District Cover is profiled on the [APIs.io](https://apis.io/) network
 
 
   District Cover''s developer surface includes support and 7 more developer resources.'
-random_paper: 72
+random_paper: 36
 score:
   band: emerging
   composite: 14.0

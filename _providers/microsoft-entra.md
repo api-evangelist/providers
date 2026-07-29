@@ -642,7 +642,7 @@ plans:
 - name: Microsoft Entra Plans Pricing
   plan_count: 10
   slug: microsoft-entra-plans-pricing
-random_paper: 25
+random_paper: 64
 rate_limits:
 - limit_count: 9
   name: Microsoft Entra Rate Limits

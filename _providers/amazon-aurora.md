@@ -636,7 +636,7 @@ overview: 'Amazon Aurora publishes 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amazon Aurora''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 32
+random_paper: 77
 rules:
 - name: Amazon Aurora API Rules
   rule_count: 5

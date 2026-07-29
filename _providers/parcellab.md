@@ -414,7 +414,7 @@ plans:
 - name: Parcellab Plans Pricing
   plan_count: 4
   slug: parcellab-plans-pricing
-random_paper: 10
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Parcellab Rate Limits

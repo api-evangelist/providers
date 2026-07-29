@@ -164,7 +164,7 @@ plans:
 - name: Svn Plans Pricing
   plan_count: 3
   slug: svn-plans-pricing
-random_paper: 35
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Svn Rate Limits

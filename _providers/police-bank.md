@@ -149,7 +149,7 @@ overview: 'Police Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Police Bank''s developer surface includes documentation, support, authentication, and 15 more developer resources.'
-random_paper: 15
+random_paper: 66
 scopes:
 - name: Police Bank Scopes
   scope_count: 5

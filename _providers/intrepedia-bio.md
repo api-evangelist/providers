@@ -40,7 +40,7 @@ name: Intrepida Bio
 nav: Providers
 network: true
 overview: Intrepida Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Oncology, Immuno-oncology, and Innate Immunity.
-random_paper: 34
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

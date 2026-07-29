@@ -56,7 +56,7 @@ name: Webdam
 nav: Providers
 network: true
 overview: Webdam publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Photography and Public APIs.
-random_paper: 8
+random_paper: 71
 score:
   band: minimal
   composite: 5.7

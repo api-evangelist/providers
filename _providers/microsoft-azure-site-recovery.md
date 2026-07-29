@@ -138,7 +138,7 @@ plans:
 - name: Microsoft Azure Site Recovery Plans Pricing
   plan_count: 3
   slug: microsoft-azure-site-recovery-plans-pricing
-random_paper: 58
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Site Recovery Rate Limits

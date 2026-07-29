@@ -48,7 +48,7 @@ name: SnapDeal
 nav: Providers
 network: true
 overview: SnapDeal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Marketplace, and Retail.
-random_paper: 70
+random_paper: 50
 score:
   band: minimal
   composite: 6.1

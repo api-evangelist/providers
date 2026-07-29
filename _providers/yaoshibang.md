@@ -44,7 +44,7 @@ name: Yaoshibang
 nav: Providers
 network: true
 overview: Yaoshibang is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 60
+random_paper: 34
 score:
   band: minimal
   composite: 4.1

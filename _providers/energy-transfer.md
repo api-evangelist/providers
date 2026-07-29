@@ -90,7 +90,7 @@ plans:
 - name: Energy Transfer Plans Pricing
   plan_count: 1
   slug: energy-transfer-plans-pricing
-random_paper: 24
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Energy Transfer Rate Limits

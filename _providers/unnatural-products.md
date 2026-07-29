@@ -56,7 +56,7 @@ name: Unnatural Products
 nav: Providers
 network: true
 overview: Unnatural Products is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Drug Discovery, Peptides, and Pharmaceuticals.
-random_paper: 67
+random_paper: 19
 score:
   band: minimal
   composite: 4.3

@@ -249,7 +249,7 @@ plans:
 - name: Chess Com Plans Pricing
   plan_count: 5
   slug: chess-com-plans-pricing
-random_paper: 51
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Chess Com Rate Limits

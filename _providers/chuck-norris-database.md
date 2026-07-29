@@ -56,7 +56,7 @@ name: Chuck Norris Database
 nav: Providers
 network: true
 overview: Chuck Norris Database publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 27
+random_paper: 52
 score:
   band: minimal
   composite: 5.7

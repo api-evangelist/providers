@@ -219,7 +219,7 @@ overview: 'USPTO publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   USPTO''s developer surface includes authentication, developer portal, documentation, support, GitHub presence, engineering blog, and 17 more developer resources.'
-random_paper: 24
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Uspto Gov Rate Limits

@@ -128,7 +128,7 @@ overview: 'Dokku is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dokku''s developer surface includes documentation, getting-started guide, engineering blog, GitHub presence, release notes, and 16 more developer resources.'
-random_paper: 3
+random_paper: 68
 score:
   band: minimal
   composite: 12.1

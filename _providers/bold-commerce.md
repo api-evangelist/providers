@@ -131,7 +131,7 @@ plans:
 - name: Bold Commerce Plans Pricing
   plan_count: 7
   slug: bold-commerce-plans-pricing
-random_paper: 73
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Bold Commerce Rate Limits

@@ -125,7 +125,7 @@ press:
 - date: '2026-05-25'
   title: Snap-on Incorporated (SNA) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4893513-snap-on-incorporated-sna-q1-2026-earnings-call-transcript
-random_paper: 7
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Snap On Rate Limits

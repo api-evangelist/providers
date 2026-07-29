@@ -100,7 +100,7 @@ overview: 'Valyuu publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Valyuu''s developer surface includes authentication, sandbox, and 10 more developer resources.'
-random_paper: 62
+random_paper: 46
 score:
   band: emerging
   composite: 17.5

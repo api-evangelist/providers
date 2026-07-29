@@ -83,7 +83,7 @@ overview: 'UptimeHealth is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   UptimeHealth''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 58
+random_paper: 26
 score:
   band: emerging
   composite: 17.2

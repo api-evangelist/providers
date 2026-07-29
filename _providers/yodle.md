@@ -48,7 +48,7 @@ name: Yodle
 nav: Providers
 network: true
 overview: Yodle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Local Marketing, Advertising, and Lead Generation.
-random_paper: 2
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

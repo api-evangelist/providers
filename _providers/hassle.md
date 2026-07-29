@@ -44,7 +44,7 @@ name: Hassle
 nav: Providers
 network: true
 overview: Hassle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Cleaning, Home Services, and Marketplace.
-random_paper: 24
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

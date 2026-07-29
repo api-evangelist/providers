@@ -56,7 +56,7 @@ name: Socrata
 nav: Providers
 network: true
 overview: Socrata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 56
+random_paper: 38
 score:
   band: minimal
   composite: 6.5

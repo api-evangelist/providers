@@ -75,7 +75,7 @@ overview: 'KAMI is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   KAMI''s developer surface includes signup flow and 7 more developer resources.'
-random_paper: 33
+random_paper: 23
 score:
   band: minimal
   composite: 9.7

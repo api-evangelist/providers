@@ -67,7 +67,7 @@ overview: 'Servus Credit Union is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Servus Credit Union''s developer surface includes support and 7 more developer resources.'
-random_paper: 33
+random_paper: 62
 score:
   band: minimal
   composite: 12.4

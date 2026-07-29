@@ -264,7 +264,7 @@ plans:
 - name: Global System For Mobile Communications Plans Pricing
   plan_count: 3
   slug: global-system-for-mobile-communications-plans-pricing
-random_paper: 27
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Global System For Mobile Communications Rate Limits

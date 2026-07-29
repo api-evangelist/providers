@@ -46,7 +46,7 @@ name: dino.markets
 nav: Providers
 network: true
 overview: 'dino.markets publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include prediction-markets, sports, arbitrage, kalshi, and polymarket.'
-random_paper: 75
+random_paper: 45
 score:
   band: minimal
   composite: 12.2

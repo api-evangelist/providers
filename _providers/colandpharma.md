@@ -48,7 +48,7 @@ name: colandpharma
 nav: Providers
 network: true
 overview: colandpharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Health, Venture Backed, and Dormant.
-random_paper: 26
+random_paper: 73
 score:
   band: minimal
   composite: 5.4

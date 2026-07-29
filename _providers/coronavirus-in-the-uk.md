@@ -60,7 +60,7 @@ name: Coronavirus in the UK
 nav: Providers
 network: true
 overview: Coronavirus in the UK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 27
+random_paper: 52
 score:
   band: minimal
   composite: 7.1

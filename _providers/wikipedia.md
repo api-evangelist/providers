@@ -1066,7 +1066,7 @@ plans:
 - name: Wikipedia Plans Pricing
   plan_count: 3
   slug: wikipedia-plans-pricing
-random_paper: 27
+random_paper: 3
 rate_limits:
 - limit_count: 9
   name: Wikipedia Rate Limits

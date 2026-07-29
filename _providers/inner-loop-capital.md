@@ -48,7 +48,7 @@ name: Inner Loop Capital
 nav: Providers
 network: true
 overview: Inner Loop Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 35
+random_paper: 68
 score:
   band: minimal
   composite: 4.1

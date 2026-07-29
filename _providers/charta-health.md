@@ -83,7 +83,7 @@ overview: 'Charta Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Charta Health''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 70
+random_paper: 38
 score:
   band: minimal
   composite: 11.8

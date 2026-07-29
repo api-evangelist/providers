@@ -124,7 +124,7 @@ overview: 'Flower is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Flower''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 13 more developer resources.'
-random_paper: 39
+random_paper: 23
 score:
   band: thin
   composite: 31.1

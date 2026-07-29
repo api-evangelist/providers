@@ -80,7 +80,7 @@ plans:
 - name: Sportsapi Plans Pricing
   plan_count: 3
   slug: sportsapi-plans-pricing
-random_paper: 73
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Sportsapi Rate Limits

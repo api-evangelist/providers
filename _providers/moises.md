@@ -157,7 +157,7 @@ overview: 'Moises publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Moises'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 40
+random_paper: 24
 score:
   band: developing
   composite: 43.9

@@ -1034,7 +1034,7 @@ overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Profiler''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
-random_paper: 1
+random_paper: 16
 rules:
 - name: Amazon CodeGuru Profiler API Rules
   rule_count: 5

@@ -165,7 +165,7 @@ plans:
 - name: Openmind Plans
   plan_count: 6
   slug: openmind-plans
-random_paper: 11
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Openmind Rate Limits

@@ -130,7 +130,7 @@ plans:
 - name: Bandcamp Plans Pricing
   plan_count: 2
   slug: bandcamp-plans-pricing
-random_paper: 52
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Bandcamp Rate Limits

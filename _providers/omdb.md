@@ -154,7 +154,7 @@ plans:
 - name: Omdb Plans Pricing
   plan_count: 2
   slug: omdb-plans-pricing
-random_paper: 33
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Omdb Rate Limits

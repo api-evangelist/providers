@@ -84,7 +84,7 @@ plans:
 - name: Open Alberta Ca Plans Pricing
   plan_count: 1
   slug: open-alberta-ca-plans-pricing
-random_paper: 65
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Open Alberta Ca Rate Limits

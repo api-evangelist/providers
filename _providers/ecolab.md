@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Ecolab Inc. (ECL) Latest Press Releases & Corporate News
   url: https://ca.finance.yahoo.com/quote/ECL/press-releases/
-random_paper: 75
+random_paper: 61
 score:
   band: minimal
   composite: 5.0

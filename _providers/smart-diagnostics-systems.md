@@ -52,7 +52,7 @@ name: Smart Diagnostics Systems
 nav: Providers
 network: true
 overview: Smart Diagnostics Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Safety, Diagnostics, Pathogen Detection, and Biotechnology.
-random_paper: 68
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

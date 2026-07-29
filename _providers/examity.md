@@ -81,7 +81,7 @@ plans:
 - name: Examity Plans Pricing
   plan_count: 0
   slug: examity-plans-pricing
-random_paper: 76
+random_paper: 58
 score:
   band: minimal
   composite: 6.5

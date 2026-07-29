@@ -48,7 +48,7 @@ name: Iomob
 nav: Providers
 network: true
 overview: Iomob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Mobility as a Service, MaaS, and Transportation.
-random_paper: 72
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

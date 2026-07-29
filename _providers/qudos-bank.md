@@ -173,7 +173,7 @@ overview: 'Qudos Bank publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Qudos Bank''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, and 18 more developer resources.'
-random_paper: 12
+random_paper: 65
 scopes:
 - name: Qudos Bank Scopes
   scope_count: 5

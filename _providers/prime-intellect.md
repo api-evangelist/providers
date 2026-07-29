@@ -354,7 +354,7 @@ plans:
 - name: Prime Intellect Plans Pricing
   plan_count: 6
   slug: prime-intellect-plans-pricing
-random_paper: 10
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Prime Intellect Rate Limits

@@ -122,7 +122,7 @@ overview: 'Preply publishes 1 API on the [APIs.io](https://apis.io/) network: Ch
 
 
   Preply''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 52
+random_paper: 36
 score:
   band: thin
   composite: 30.1

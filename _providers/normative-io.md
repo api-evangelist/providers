@@ -128,7 +128,7 @@ overview: 'Normative is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Normative''s developer surface includes pricing, engineering blog, GitHub presence, and 18 more developer resources.'
-random_paper: 10
+random_paper: 57
 score:
   band: minimal
   composite: 9.8

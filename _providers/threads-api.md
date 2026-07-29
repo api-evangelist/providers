@@ -171,7 +171,7 @@ plans:
 - name: Threads Api Plans Pricing
   plan_count: 3
   slug: threads-api-plans-pricing
-random_paper: 28
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Threads Api Rate Limits

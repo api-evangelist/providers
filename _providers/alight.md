@@ -60,7 +60,7 @@ name: Alight
 nav: Providers
 network: true
 overview: Alight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, Employee Benefits, Payroll, Workforce, and HR Technology.
-random_paper: 17
+random_paper: 1
 score:
   band: minimal
   composite: 4.4

@@ -83,7 +83,7 @@ overview: 'ElCoach is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ElCoach''s developer surface includes pricing, signup flow, and 8 more developer resources.'
-random_paper: 26
+random_paper: 8
 score:
   band: minimal
   composite: 11.8

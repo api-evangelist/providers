@@ -44,7 +44,7 @@ name: SS AND C Technologies
 nav: Providers
 network: true
 overview: SS AND C Technologies is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 53
+random_paper: 1
 score:
   band: minimal
   composite: 2.6

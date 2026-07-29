@@ -120,7 +120,7 @@ overview: 'Freedom Robotics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Freedom Robotics'' developer surface includes documentation, getting-started guide, API reference, changelog, support, GitHub presence, and 13 more developer resources.'
-random_paper: 67
+random_paper: 27
 score:
   band: emerging
   composite: 13.8

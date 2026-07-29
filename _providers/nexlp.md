@@ -48,7 +48,7 @@ name: NexLP
 nav: Providers
 network: true
 overview: NexLP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, LegalTech, Artificial Intelligence, and eDiscovery.
-random_paper: 12
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

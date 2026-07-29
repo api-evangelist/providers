@@ -280,7 +280,7 @@ plans:
 - name: Nagios Plans Pricing
   plan_count: 4
   slug: nagios-plans-pricing
-random_paper: 25
+random_paper: 9
 rules:
 - name: Nagios API Rules
   rule_count: 5

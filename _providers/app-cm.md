@@ -55,7 +55,7 @@ overview: 'App-CM is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   App-CM''s developer surface includes support and 2 more developer resources.'
-random_paper: 35
+random_paper: 21
 score:
   band: minimal
   composite: 7.0

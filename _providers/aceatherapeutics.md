@@ -48,7 +48,7 @@ name: aceatherapeutics
 nav: Providers
 network: true
 overview: aceatherapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Healthcare, and Oncology.
-random_paper: 74
+random_paper: 32
 score:
   band: minimal
   composite: 5.4

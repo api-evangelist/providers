@@ -100,7 +100,7 @@ plans:
 - name: Dash Plans Pricing
   plan_count: 2
   slug: dash-plans-pricing
-random_paper: 31
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Dash Rate Limits

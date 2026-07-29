@@ -113,7 +113,7 @@ plans:
 - name: Maya Mobile Plans Pricing
   plan_count: 2
   slug: maya-mobile-plans-pricing
-random_paper: 23
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Maya Mobile Rate Limits

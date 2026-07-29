@@ -39,7 +39,7 @@ name: BitYota
 nav: Providers
 network: true
 overview: BitYota is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Warehouse, Analytics, Big Data, and Data as a Service.
-random_paper: 71
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

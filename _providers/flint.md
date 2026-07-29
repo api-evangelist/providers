@@ -182,7 +182,7 @@ overview: 'Flint publishes 1 API on the [APIs.io](https://apis.io/) network: Age
 
 
   Flint''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 2
+random_paper: 67
 scopes:
 - name: Flint Scopes
   scope_count: 7

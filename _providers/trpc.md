@@ -142,7 +142,7 @@ plans:
 - name: Trpc Plans Pricing
   plan_count: 3
   slug: trpc-plans-pricing
-random_paper: 56
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Trpc Rate Limits

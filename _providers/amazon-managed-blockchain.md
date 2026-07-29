@@ -1561,7 +1561,7 @@ plans:
 - name: Amazon Managed Blockchain Plans Pricing
   plan_count: 3
   slug: amazon-managed-blockchain-plans-pricing
-random_paper: 27
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Blockchain Rate Limits

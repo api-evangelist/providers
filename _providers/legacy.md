@@ -104,7 +104,7 @@ overview: 'Legacy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Legacy''s developer surface includes engineering blog, support, pricing, and 12 more developer resources.'
-random_paper: 13
+random_paper: 76
 score:
   band: emerging
   composite: 19.7

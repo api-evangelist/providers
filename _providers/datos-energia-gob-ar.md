@@ -84,7 +84,7 @@ plans:
 - name: Datos Energia Gob Ar Plans Pricing
   plan_count: 1
   slug: datos-energia-gob-ar-plans-pricing
-random_paper: 3
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Datos Energia Gob Ar Rate Limits

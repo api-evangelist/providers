@@ -95,7 +95,7 @@ overview: 'Cambridge Mobile Telematics is profiled on the [APIs.io](https://apis
 
 
   Cambridge Mobile Telematics'' developer surface includes developer portal, documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 20
+random_paper: 29
 score:
   band: emerging
   composite: 25.0

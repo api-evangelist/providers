@@ -67,7 +67,7 @@ overview: 'MyARC Fitness is profiled on the [APIs.io](https://apis.io/) network.
 
 
   MyARC Fitness'' developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: minimal
   composite: 10.6

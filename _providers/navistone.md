@@ -167,7 +167,7 @@ overview: 'NaviStone publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   NaviStone''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 59
+random_paper: 35
 score:
   band: thin
   composite: 33.4

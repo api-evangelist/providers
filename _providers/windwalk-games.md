@@ -44,7 +44,7 @@ name: Windwalk Games
 nav: Providers
 network: true
 overview: Windwalk Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Community, Games, and Player Engagement.
-random_paper: 49
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

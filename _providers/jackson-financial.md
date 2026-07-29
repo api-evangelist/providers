@@ -44,7 +44,7 @@ name: Jackson Financial
 nav: Providers
 network: true
 overview: Jackson Financial is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 29
+random_paper: 64
 score:
   band: minimal
   composite: 2.6

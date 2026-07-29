@@ -48,7 +48,7 @@ name: Protent
 nav: Providers
 network: true
 overview: Protent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Safety, Law Enforcement, Video Intelligence, and Artificial Intelligence.
-random_paper: 10
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

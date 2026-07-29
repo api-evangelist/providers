@@ -151,7 +151,7 @@ overview: 'Lish publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lish''s developer surface includes authentication, engineering blog, support, signup flow, and 14 more developer resources.'
-random_paper: 47
+random_paper: 37
 score:
   band: thin
   composite: 32.9

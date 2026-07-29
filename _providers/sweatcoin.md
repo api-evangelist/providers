@@ -83,7 +83,7 @@ overview: 'Sweatcoin is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sweatcoin''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 49
+random_paper: 25
 score:
   band: minimal
   composite: 11.6

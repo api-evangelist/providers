@@ -48,7 +48,7 @@ name: 12 Gigs
 nav: Providers
 network: true
 overview: 12 Gigs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Social Casino, and Casual Games.
-random_paper: 31
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

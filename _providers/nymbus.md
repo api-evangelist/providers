@@ -67,7 +67,7 @@ overview: 'Nymbus publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nymbus'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 54
+random_paper: 38
 score:
   band: minimal
   composite: 9.8

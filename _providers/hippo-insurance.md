@@ -113,7 +113,7 @@ plans:
 - name: Hippo Insurance Plans Pricing
   plan_count: 1
   slug: hippo-insurance-plans-pricing
-random_paper: 17
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Hippo Insurance Rate Limits

@@ -67,7 +67,7 @@ overview: 'Forward Earth is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Forward Earth''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 25
+random_paper: 70
 score:
   band: minimal
   composite: 10.5

@@ -52,7 +52,7 @@ name: Causera
 nav: Providers
 network: true
 overview: Causera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, 500 Global, Portfolio, and Defunct.
-random_paper: 47
+random_paper: 29
 score:
   band: minimal
   composite: 6.8

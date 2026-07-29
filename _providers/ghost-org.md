@@ -170,7 +170,7 @@ plans:
 - name: Ghost Org Plans Pricing
   plan_count: 5
   slug: ghost-org-plans-pricing
-random_paper: 75
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Ghost Org Rate Limits

@@ -135,7 +135,7 @@ overview: 'Landis is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Landis'' developer surface includes engineering blog, pricing, signup flow, developer portal, support, YouTube channel, and 17 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: emerging
   composite: 23.4

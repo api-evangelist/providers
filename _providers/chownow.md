@@ -159,7 +159,7 @@ plans:
 - name: Chownow Plans Pricing
   plan_count: 4
   slug: chownow-plans-pricing
-random_paper: 3
+random_paper: 62
 score:
   band: emerging
   composite: 17.1

@@ -63,7 +63,7 @@ overview: 'InterVenn is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   InterVenn''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 61
+random_paper: 37
 score:
   band: minimal
   composite: 9.0

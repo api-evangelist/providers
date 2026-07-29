@@ -3655,7 +3655,7 @@ plans:
 - name: Stytch Plans Pricing
   plan_count: 2
   slug: stytch-plans-pricing
-random_paper: 55
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Stytch Rate Limits

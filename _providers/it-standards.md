@@ -39,7 +39,7 @@ name: IT Standards
 nav: Providers
 network: true
 overview: IT Standards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Governance, IT Standards, Standards, and Technology.
-random_paper: 75
+random_paper: 45
 score:
   band: minimal
   composite: 4.1

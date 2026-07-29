@@ -103,7 +103,7 @@ overview: 'DocStation is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   DocStation''s developer surface includes support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 2
+random_paper: 53
 score:
   band: emerging
   composite: 23.8

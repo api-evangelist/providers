@@ -268,7 +268,7 @@ overview: 'VTS publishes 32 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 22 more developer resources.'
-random_paper: 41
+random_paper: 33
 scopes:
 - name: Vts Scopes
   scope_count: 4

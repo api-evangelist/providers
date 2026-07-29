@@ -119,7 +119,7 @@ overview: 'Gamma publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gamma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 53
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Gamma Rate Limits

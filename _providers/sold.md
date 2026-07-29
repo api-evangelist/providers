@@ -44,7 +44,7 @@ name: Sold *
 nav: Providers
 network: true
 overview: Sold * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Resale, Marketplace, and Mobile App.
-random_paper: 49
+random_paper: 39
 score:
   band: minimal
   composite: 5.0

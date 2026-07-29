@@ -116,7 +116,7 @@ overview: 'Swiftype publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Swiftype''s developer surface includes documentation, API reference, support, authentication, and 12 more developer resources.'
-random_paper: 44
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Swiftype Rate Limits

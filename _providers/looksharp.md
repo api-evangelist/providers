@@ -52,7 +52,7 @@ name: LookSharp
 nav: Providers
 network: true
 overview: LookSharp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Jobs, Recruiting, Internships, and Careers.
-random_paper: 55
+random_paper: 31
 score:
   band: minimal
   composite: 5.7

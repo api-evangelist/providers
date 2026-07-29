@@ -48,7 +48,7 @@ name: EveryONE Medicines
 nav: Providers
 network: true
 overview: EveryONE Medicines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Healthcare.
-random_paper: 19
+random_paper: 50
 score:
   band: minimal
   composite: 5.4

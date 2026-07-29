@@ -71,7 +71,7 @@ overview: 'Skello is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Skello''s developer surface includes support and 6 more developer resources.'
-random_paper: 34
+random_paper: 18
 score:
   band: minimal
   composite: 11.4

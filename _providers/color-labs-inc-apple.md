@@ -40,7 +40,7 @@ name: Color Labs Inc. (Apple)
 nav: Providers
 network: true
 overview: Color Labs Inc. (Apple) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Defunct, Acquired, and Social.
-random_paper: 15
+random_paper: 44
 score:
   band: minimal
   composite: 5.0

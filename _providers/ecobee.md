@@ -126,7 +126,7 @@ plans:
 - name: Ecobee Plans Pricing
   plan_count: 2
   slug: ecobee-plans-pricing
-random_paper: 72
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Ecobee Rate Limits

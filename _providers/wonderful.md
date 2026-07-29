@@ -75,7 +75,7 @@ overview: 'Wonderful is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wonderful''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 58
+random_paper: 34
 score:
   band: minimal
   composite: 10.0

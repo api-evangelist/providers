@@ -242,7 +242,7 @@ plans:
 - name: Aeso Plans
   plan_count: 1
   slug: aeso-plans
-random_paper: 39
+random_paper: 29
 score:
   band: thin
   composite: 37.2

@@ -60,7 +60,7 @@ name: Mirendil
 nav: Providers
 network: true
 overview: Mirendil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Artificial Intelligence, Machine Learning, and Research Lab.
-random_paper: 5
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

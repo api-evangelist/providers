@@ -88,7 +88,7 @@ overview: 'Lena Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Lena Health''s developer surface includes support and 10 more developer resources.'
-random_paper: 13
+random_paper: 64
 score:
   band: emerging
   composite: 20.8

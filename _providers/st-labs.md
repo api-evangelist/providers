@@ -87,7 +87,7 @@ overview: 'ST Labs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ST Labs'' developer surface includes pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 1
+random_paper: 62
 score:
   band: emerging
   composite: 19.2

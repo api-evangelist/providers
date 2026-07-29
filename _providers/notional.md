@@ -104,7 +104,7 @@ overview: 'Notional Finance publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Notional Finance''s developer surface includes documentation, GitHub presence, engineering blog, and 8 more developer resources.'
-random_paper: 21
+random_paper: 78
 score:
   band: emerging
   composite: 21.1

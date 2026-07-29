@@ -168,7 +168,7 @@ plans:
 - name: Gp Connect Plans
   plan_count: 3
   slug: gp-connect-plans
-random_paper: 5
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Gp Connect Rate Limits

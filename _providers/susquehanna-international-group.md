@@ -136,7 +136,7 @@ name: Susquehanna International Group (SIG)
 nav: Providers
 network: true
 overview: Susquehanna International Group (SIG) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Quantitative Trading, Market Making, Proprietary Trading, Options, and Derivatives.
-random_paper: 9
+random_paper: 4
 score:
   band: emerging
   composite: 14.5

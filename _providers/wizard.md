@@ -63,7 +63,7 @@ overview: 'Wizard is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Wizard''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 41
+random_paper: 25
 score:
   band: minimal
   composite: 11.8

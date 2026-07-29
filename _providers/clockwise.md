@@ -112,7 +112,7 @@ plans:
 - name: Clockwise Plans Pricing
   plan_count: 4
   slug: clockwise-plans-pricing
-random_paper: 40
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Clockwise Rate Limits

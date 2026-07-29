@@ -91,7 +91,7 @@ overview: 'Doctolib is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Doctolib''s developer surface includes signup flow and 11 more developer resources.'
-random_paper: 1
+random_paper: 58
 score:
   band: emerging
   composite: 15.3

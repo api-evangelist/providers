@@ -92,7 +92,7 @@ overview: 'Cotopaxi is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cotopaxi''s developer surface includes authentication, support, signup flow, and 8 more developer resources.'
-random_paper: 24
+random_paper: 2
 scopes:
 - name: Cotopaxi Scopes
   scope_count: 4

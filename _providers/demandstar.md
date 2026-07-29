@@ -91,7 +91,7 @@ overview: 'Demandstar is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Demandstar''s developer surface includes developer portal, pricing, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 58
+random_paper: 32
 score:
   band: emerging
   composite: 18.9

@@ -39,7 +39,7 @@ name: Arbor Software
 nav: Providers
 network: true
 overview: Arbor Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Intelligence, OLAP, Analytics, and Data.
-random_paper: 68
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

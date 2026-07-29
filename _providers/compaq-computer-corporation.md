@@ -39,7 +39,7 @@ name: Compaq Computer Corporation
 nav: Providers
 network: true
 overview: Compaq Computer Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Computing, Hardware, and Personal Computers.
-random_paper: 38
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

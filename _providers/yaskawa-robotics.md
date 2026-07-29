@@ -176,7 +176,7 @@ overview: 'Yaskawa / Motoman is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Yaskawa / Motoman''s developer surface includes developer portal, documentation, GitHub presence, tooling, support, product news, YouTube channel, and 24 more developer resources.'
-random_paper: 50
+random_paper: 8
 score:
   band: emerging
   composite: 17.5

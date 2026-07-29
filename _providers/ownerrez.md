@@ -182,7 +182,7 @@ plans:
 - name: Ownerrez Plans Pricing
   plan_count: 3
   slug: ownerrez-plans-pricing
-random_paper: 45
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Ownerrez Rate Limits

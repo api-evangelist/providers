@@ -106,7 +106,7 @@ plans:
 - name: Openfga Plans Pricing
   plan_count: 3
   slug: openfga-plans-pricing
-random_paper: 43
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Openfga Rate Limits

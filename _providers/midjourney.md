@@ -126,7 +126,7 @@ plans:
 - name: Midjourney Plans Pricing
   plan_count: 5
   slug: midjourney-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Midjourney Rate Limits

@@ -75,7 +75,7 @@ overview: 'Cerrion is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cerrion''s developer surface includes support, YouTube channel, and 6 more developer resources.'
-random_paper: 61
+random_paper: 43
 score:
   band: minimal
   composite: 5.9

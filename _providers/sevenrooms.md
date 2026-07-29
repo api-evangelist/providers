@@ -168,7 +168,7 @@ plans:
 - name: Sevenrooms Plans Pricing
   plan_count: 2
   slug: sevenrooms-plans-pricing
-random_paper: 27
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Sevenrooms Rate Limits

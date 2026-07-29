@@ -44,7 +44,7 @@ name: Oneforty
 nav: Providers
 network: true
 overview: Oneforty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Twitter, App Marketplace, Social Media, and Developer Ecosystem.
-random_paper: 39
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

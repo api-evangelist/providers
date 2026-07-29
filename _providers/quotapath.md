@@ -181,7 +181,7 @@ overview: 'QuotaPath publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   QuotaPath''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 59
+random_paper: 35
 score:
   band: developing
   composite: 43.6

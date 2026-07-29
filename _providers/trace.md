@@ -60,7 +60,7 @@ name: Trace
 nav: Providers
 network: true
 overview: Trace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Planning, Headcount Planning, Human Resources, and Finance.
-random_paper: 65
+random_paper: 53
 score:
   band: minimal
   composite: 11.1

@@ -76,7 +76,7 @@ plans:
 - name: Avap Brunix Plans Pricing
   plan_count: 3
   slug: avap-brunix-plans-pricing
-random_paper: 55
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Avap Brunix Rate Limits

@@ -71,7 +71,7 @@ overview: 'Qualifi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Qualifi''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 54
+random_paper: 36
 score:
   band: minimal
   composite: 11.6

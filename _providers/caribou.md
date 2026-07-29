@@ -79,7 +79,7 @@ overview: 'Caribou is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Caribou''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 48
+random_paper: 30
 score:
   band: emerging
   composite: 13.1

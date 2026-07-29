@@ -21,7 +21,7 @@ modified: '2026-04-19'
 name: Accessibility Standards
 nav: Providers
 network: true
-random_paper: 6
+random_paper: 23
 slug: accessibility-standards
 tags:
 - Accessibility

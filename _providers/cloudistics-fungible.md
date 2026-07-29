@@ -55,7 +55,7 @@ overview: 'Cloudistics (Fungible) is profiled on the [APIs.io](https://apis.io/)
 
 
   Cloudistics (Fungible)''s developer surface includes documentation, API reference, and 1 more developer resources.'
-random_paper: 0
+random_paper: 25
 score:
   band: minimal
   composite: 8.7

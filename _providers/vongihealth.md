@@ -71,7 +71,7 @@ overview: 'Vongi Health (芝兰健康) is profiled on the [APIs.io](https://apis
 
 
   Vongi Health (芝兰健康)''s developer surface includes support and 6 more developer resources.'
-random_paper: 22
+random_paper: 71
 score:
   band: minimal
   composite: 11.2

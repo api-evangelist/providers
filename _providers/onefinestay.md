@@ -79,7 +79,7 @@ overview: 'Onefinestay is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Onefinestay''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 34
+random_paper: 4
 score:
   band: minimal
   composite: 12.3

@@ -131,7 +131,7 @@ overview: 'InfuseAI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   InfuseAI''s developer surface includes documentation, engineering blog, pricing, signup flow, sandbox, CLI, changelog, and 15 more developer resources.'
-random_paper: 5
+random_paper: 62
 score:
   band: thin
   composite: 30.0

@@ -76,7 +76,7 @@ overview: 'Dewu (POIZON) is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Dewu (POIZON)''s developer surface includes authentication, documentation, API reference, and 5 more developer resources.'
-random_paper: 75
+random_paper: 47
 score:
   band: minimal
   composite: 12.7

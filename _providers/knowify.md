@@ -124,7 +124,7 @@ overview: 'Knowify is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Knowify''s developer surface includes pricing, engineering blog, support, YouTube channel, and 16 more developer resources.'
-random_paper: 5
+random_paper: 64
 score:
   band: minimal
   composite: 8.4

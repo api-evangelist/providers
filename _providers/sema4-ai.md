@@ -168,7 +168,7 @@ overview: 'Sema4 Ai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Sema4 Ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 28
+random_paper: 10
 score:
   band: thin
   composite: 36.9

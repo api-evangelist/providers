@@ -79,7 +79,7 @@ overview: 'Gigster is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Gigster''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: emerging
   composite: 15.0

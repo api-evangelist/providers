@@ -178,7 +178,7 @@ overview: 'Kodex publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kodex''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, changelog, and 22 more developer resources.'
-random_paper: 0
+random_paper: 65
 score:
   band: developing
   composite: 51.4

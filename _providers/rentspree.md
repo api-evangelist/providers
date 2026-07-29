@@ -160,7 +160,7 @@ overview: 'RentSpree is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   RentSpree''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 25 more developer resources.'
-random_paper: 60
+random_paper: 36
 score:
   band: emerging
   composite: 16.0

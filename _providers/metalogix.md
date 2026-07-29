@@ -59,7 +59,7 @@ overview: 'Metalogix is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Metalogix''s developer surface includes documentation, support, and 2 more developer resources.'
-random_paper: 46
+random_paper: 22
 score:
   band: minimal
   composite: 7.6

@@ -151,7 +151,7 @@ overview: 'Seltz publishes 2 APIs on the [APIs.io](https://apis.io/) network: an
 
 
   Seltz''s developer surface includes documentation, API reference, getting-started guide, sandbox, pricing, signup flow, engineering blog, and 17 more developer resources.'
-random_paper: 23
+random_paper: 9
 score:
   band: developing
   composite: 51.4

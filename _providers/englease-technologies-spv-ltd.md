@@ -63,7 +63,7 @@ overview: 'Englease Technologies SPV Ltd is profiled on the [APIs.io](https://ap
 
 
   Englease Technologies SPV Ltd''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 75
+random_paper: 1
 score:
   band: minimal
   composite: 12.3

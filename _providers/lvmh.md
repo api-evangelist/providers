@@ -107,7 +107,7 @@ overview: 'LVMH is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   LVMH''s developer surface includes product news and 14 more developer resources.'
-random_paper: 54
+random_paper: 44
 score:
   band: emerging
   composite: 16.5

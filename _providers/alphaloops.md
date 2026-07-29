@@ -43,7 +43,7 @@ name: AlphaLoops FMCSA Carrier Data API
 nav: Providers
 network: true
 overview: 'AlphaLoops FMCSA Carrier Data API publishes 1 API on the [APIs.io](https://apis.io/) network: AlphaLoops FMCSA Carrier Data API. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and freight.'
-random_paper: 74
+random_paper: 48
 score:
   band: emerging
   composite: 14.4

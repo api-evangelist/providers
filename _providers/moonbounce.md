@@ -195,7 +195,7 @@ overview: 'Moonbounce publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Moonbounce''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 76
+random_paper: 50
 score:
   band: developing
   composite: 50.6

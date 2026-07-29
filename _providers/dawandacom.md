@@ -48,7 +48,7 @@ name: DaWanda.com
 nav: Providers
 network: true
 overview: DaWanda.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, E-Commerce, Handmade, and Germany.
-random_paper: 38
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

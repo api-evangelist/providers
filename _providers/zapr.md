@@ -44,7 +44,7 @@ name: Zapr
 nav: Providers
 network: true
 overview: Zapr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 60
+random_paper: 50
 score:
   band: minimal
   composite: 3.2

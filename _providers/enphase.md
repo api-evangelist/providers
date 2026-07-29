@@ -247,7 +247,7 @@ plans:
 - name: Enphase Plans
   plan_count: 5
   slug: enphase-plans
-random_paper: 47
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Enphase Rate Limits

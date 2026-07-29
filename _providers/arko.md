@@ -72,7 +72,7 @@ overview: 'ARKO Corp is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ARKO Corp''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
-random_paper: 44
+random_paper: 34
 score:
   band: minimal
   composite: 7.2

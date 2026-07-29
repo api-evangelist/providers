@@ -292,7 +292,7 @@ press:
 - date: '2026-05-25'
   title: 'Q2: Alliance Data Systems Bets On Conversant''s Pipeline'
   url: https://www.adexchanger.com/online-advertising/q2-alliance-data-systems-bets-on-coversants-pipeline/
-random_paper: 38
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Alliance Data Systems Rate Limits

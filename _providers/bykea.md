@@ -64,7 +64,7 @@ name: Bykea
 nav: Providers
 network: true
 overview: Bykea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Logistics, Delivery, and Ride Hailing.
-random_paper: 62
+random_paper: 50
 score:
   band: minimal
   composite: 9.2

@@ -84,7 +84,7 @@ plans:
 - name: Lightbox Zoning Api Plans Pricing
   plan_count: 3
   slug: lightbox-zoning-api-plans-pricing
-random_paper: 5
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Lightbox Zoning Api Rate Limits

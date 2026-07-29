@@ -234,7 +234,7 @@ overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) net
 
 
   Get On Board''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, sandbox, and 21 more developer resources.'
-random_paper: 73
+random_paper: 45
 score:
   band: developing
   composite: 47.8

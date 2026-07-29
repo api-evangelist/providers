@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: /C O R R E C T I O N -- Bemis Associates Inc/
   url: https://www.newswire.ca/news-releases/bemis-associates-appoints-christina-chen-as-president-and-chief-operating-officer-885168229.html
-random_paper: 66
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

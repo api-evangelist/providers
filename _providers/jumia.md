@@ -172,7 +172,7 @@ overview: 'Jumia is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jumia''s developer surface includes GitHub presence, engineering blog, YouTube channel, and 29 more developer resources.'
-random_paper: 72
+random_paper: 60
 score:
   band: minimal
   composite: 8.8

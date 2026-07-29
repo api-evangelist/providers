@@ -95,7 +95,7 @@ plans:
 - name: Buoyant Plans Pricing
   plan_count: 3
   slug: buoyant-plans-pricing
-random_paper: 0
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Buoyant Rate Limits

@@ -63,7 +63,7 @@ overview: 'Aiva is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Aiva''s developer surface includes pricing, support, and 3 more developer resources.'
-random_paper: 32
+random_paper: 22
 score:
   band: minimal
   composite: 8.0

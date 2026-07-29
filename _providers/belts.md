@@ -87,7 +87,7 @@ overview: 'Belts is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Belts'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 76
+random_paper: 64
 score:
   band: minimal
   composite: 11.2

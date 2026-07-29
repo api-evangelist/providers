@@ -163,7 +163,7 @@ overview: 'Density publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Density''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 19 more developer resources.'
-random_paper: 75
+random_paper: 57
 score:
   band: developing
   composite: 46.1

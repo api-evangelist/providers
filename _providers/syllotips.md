@@ -63,7 +63,7 @@ overview: 'SylloTips is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SylloTips'' developer surface includes engineering blog, signup flow, and 3 more developer resources.'
-random_paper: 10
+random_paper: 63
 score:
   band: minimal
   composite: 12.3

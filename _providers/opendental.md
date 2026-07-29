@@ -148,7 +148,7 @@ plans:
 - name: Opendental Plans Pricing
   plan_count: 3
   slug: opendental-plans-pricing
-random_paper: 65
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Opendental Rate Limits

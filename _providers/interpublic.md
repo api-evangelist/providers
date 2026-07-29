@@ -67,7 +67,7 @@ overview: 'Interpublic Group is profiled on the [APIs.io](https://apis.io/) netw
 
 
   The Interpublic Group catalog on APIs.io includes 1 Spectral governance ruleset.'
-random_paper: 30
+random_paper: 0
 rules:
 - name: Interpublic Group API Rules
   rule_count: 0

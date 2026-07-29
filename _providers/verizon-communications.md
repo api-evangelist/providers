@@ -142,7 +142,7 @@ plans:
 - name: Verizon Communications Plans Pricing
   plan_count: 1
   slug: verizon-communications-plans-pricing
-random_paper: 29
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Verizon Communications Rate Limits

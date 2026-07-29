@@ -84,7 +84,7 @@ plans:
 - name: Leedsdatamill Org Plans Pricing
   plan_count: 1
   slug: leedsdatamill-org-plans-pricing
-random_paper: 44
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Leedsdatamill Org Rate Limits

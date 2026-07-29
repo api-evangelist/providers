@@ -125,7 +125,7 @@ overview: 'La Ruche qui dit Oui! publishes 4 APIs on the [APIs.io](https://apis.
 
 
   La Ruche qui dit Oui!''s developer surface includes authentication, support, signup flow, engineering blog, and 13 more developer resources.'
-random_paper: 61
+random_paper: 13
 score:
   band: thin
   composite: 35.9

@@ -79,7 +79,7 @@ overview: 'IronPlanet is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   IronPlanet''s developer surface includes support, getting-started guide, engineering blog, and 6 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: emerging
   composite: 13.8

@@ -166,7 +166,7 @@ overview: 'Nacelle publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Nacelle''s developer surface includes developer portal, documentation, getting-started guide, sandbox, signup flow, support, engineering blog, and 20 more developer resources.'
-random_paper: 10
+random_paper: 61
 score:
   band: emerging
   composite: 22.5

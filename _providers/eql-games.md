@@ -60,7 +60,7 @@ name: EQL Games
 nav: Providers
 network: true
 overview: EQL Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Lottery, iLottery, iGaming, and Games.
-random_paper: 45
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

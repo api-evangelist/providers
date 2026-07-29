@@ -159,7 +159,7 @@ overview: 'Quo publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Quo''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 12 more developer resources.'
-random_paper: 33
+random_paper: 25
 score:
   band: developing
   composite: 48.1

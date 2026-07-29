@@ -87,7 +87,7 @@ overview: 'Reedsy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Reedsy''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: emerging
   composite: 13.7

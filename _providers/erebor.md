@@ -104,7 +104,7 @@ overview: 'Erebor publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Erebor''s developer surface includes documentation, API reference, signup flow, authentication, sandbox, and 9 more developer resources.'
-random_paper: 23
+random_paper: 7
 score:
   band: emerging
   composite: 26.2

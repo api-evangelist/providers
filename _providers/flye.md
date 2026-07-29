@@ -44,7 +44,7 @@ name: Flye
 nav: Providers
 network: true
 overview: Flye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, Audience Analytics, and Machine Learning.
-random_paper: 47
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

@@ -146,7 +146,7 @@ overview: 'craft publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   craft''s developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, and 17 more developer resources.'
-random_paper: 66
+random_paper: 54
 score:
   band: thin
   composite: 35.0

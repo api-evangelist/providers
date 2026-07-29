@@ -56,7 +56,7 @@ name: Mangapi
 nav: Providers
 network: true
 overview: Mangapi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anime and Public APIs.
-random_paper: 40
+random_paper: 22
 score:
   band: minimal
   composite: 5.7

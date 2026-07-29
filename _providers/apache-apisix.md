@@ -363,7 +363,7 @@ plans:
 - name: Apache Apisix Plans Pricing
   plan_count: 3
   slug: apache-apisix-plans-pricing
-random_paper: 0
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Apache Apisix Rate Limits

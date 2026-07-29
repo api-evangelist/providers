@@ -144,7 +144,7 @@ overview: 'GenHealth.ai is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   GenHealth.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 68
+random_paper: 40
 score:
   band: thin
   composite: 36.9

@@ -83,7 +83,7 @@ overview: 'Plans is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Plans'' developer surface includes signup flow and 9 more developer resources.'
-random_paper: 3
+random_paper: 68
 score:
   band: emerging
   composite: 15.6

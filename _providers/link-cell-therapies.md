@@ -92,7 +92,7 @@ overview: 'Link Cell Therapies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Link Cell Therapies'' developer surface includes product news and 11 more developer resources.'
-random_paper: 53
+random_paper: 5
 score:
   band: minimal
   composite: 9.5

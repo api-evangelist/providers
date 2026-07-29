@@ -44,7 +44,7 @@ name: Deckers Outdoor
 nav: Providers
 network: true
 overview: Deckers Outdoor is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 22
+random_paper: 61
 score:
   band: minimal
   composite: 2.6

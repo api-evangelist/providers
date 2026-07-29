@@ -123,7 +123,7 @@ overview: 'Index is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Index''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 12 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: thin
   composite: 30.3

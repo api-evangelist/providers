@@ -87,7 +87,7 @@ plans:
 - name: Datacatalogue Gov Ie Plans Pricing
   plan_count: 0
   slug: datacatalogue-gov-ie-plans-pricing
-random_paper: 62
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Datacatalogue Gov Ie Rate Limits

@@ -79,7 +79,7 @@ overview: 'Boompop is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Boompop''s developer surface includes engineering blog, pricing, and 7 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: emerging
   composite: 17.5

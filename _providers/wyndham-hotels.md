@@ -228,7 +228,7 @@ overview: 'Wyndham Hotels & Resorts publishes 3 APIs on the [APIs.io](https://ap
 
 
   Wyndham Hotels & Resorts'' developer surface includes authentication, support, engineering blog, and 33 more developer resources.'
-random_paper: 74
+random_paper: 38
 scopes:
 - name: Wyndham Hotels Scopes
   scope_count: 1

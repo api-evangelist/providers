@@ -44,7 +44,7 @@ name: Wingu *
 nav: Providers
 network: true
 overview: Wingu * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Life Sciences.
-random_paper: 15
+random_paper: 1
 score:
   band: minimal
   composite: 3.5

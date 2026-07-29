@@ -123,7 +123,7 @@ overview: 'Skai (Kenshoo) publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Skai (Kenshoo)''s developer surface includes documentation, API reference, pricing, engineering blog, support, and 14 more developer resources.'
-random_paper: 73
+random_paper: 43
 score:
   band: thin
   composite: 30.6

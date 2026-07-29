@@ -59,7 +59,7 @@ overview: 'Amyris is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Amyris'' developer surface includes support and 3 more developer resources.'
-random_paper: 45
+random_paper: 29
 score:
   band: minimal
   composite: 8.0

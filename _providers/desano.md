@@ -44,7 +44,7 @@ name: Shanghai Desano Pharmaceutical Group
 nav: Providers
 network: true
 overview: Shanghai Desano Pharmaceutical Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceutical, Healthcare, Life Sciences, and Manufacturing.
-random_paper: 18
+random_paper: 2
 score:
   band: minimal
   composite: 4.3

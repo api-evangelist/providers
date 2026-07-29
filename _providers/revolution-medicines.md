@@ -52,7 +52,7 @@ name: Revolution Medicines
 nav: Providers
 network: true
 overview: Revolution Medicines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Oncology, Biotechnology, and Pharmaceuticals.
-random_paper: 22
+random_paper: 47
 score:
   band: minimal
   composite: 7.9

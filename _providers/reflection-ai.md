@@ -60,7 +60,7 @@ overview: 'Reflection AI is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Reflection AI''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 5
+random_paper: 50
 score:
   band: minimal
   composite: 9.7

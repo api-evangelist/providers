@@ -95,7 +95,7 @@ overview: 'MAI is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   MAI''s developer surface includes pricing, signup flow, FAQ, and 10 more developer resources.'
-random_paper: 3
+random_paper: 74
 score:
   band: emerging
   composite: 15.5

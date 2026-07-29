@@ -48,7 +48,7 @@ name: BBN Technologies
 nav: Providers
 network: true
 overview: BBN Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Research and Development, Aerospace, and Networking.
-random_paper: 18
+random_paper: 55
 score:
   band: minimal
   composite: 5.9

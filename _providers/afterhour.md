@@ -71,7 +71,7 @@ overview: 'AfterHour is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AfterHour''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 52
+random_paper: 28
 score:
   band: emerging
   composite: 14.7

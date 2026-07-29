@@ -247,7 +247,7 @@ overview: 'Valimail publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Valimail''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
-random_paper: 0
+random_paper: 57
 score:
   band: strong
   composite: 57.5

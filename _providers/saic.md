@@ -72,7 +72,7 @@ overview: 'Science Applications International Corporation (SAIC) is profiled on 
 
 
   Science Applications International Corporation (SAIC)''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 31
+random_paper: 21
 score:
   band: minimal
   composite: 5.4

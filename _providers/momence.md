@@ -129,7 +129,7 @@ plans:
 - name: Momence Plans Pricing
   plan_count: 3
   slug: momence-plans-pricing
-random_paper: 47
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Momence Rate Limits

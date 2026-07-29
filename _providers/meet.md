@@ -107,7 +107,7 @@ overview: 'Google Meet publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Google Meet''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 42
+random_paper: 32
 scopes:
 - name: Meet Scopes
   scope_count: 3

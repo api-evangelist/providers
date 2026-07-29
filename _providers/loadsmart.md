@@ -367,7 +367,7 @@ plans:
 - name: Loadsmart Plans Pricing
   plan_count: 6
   slug: loadsmart-plans-pricing
-random_paper: 43
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Loadsmart Rate Limits

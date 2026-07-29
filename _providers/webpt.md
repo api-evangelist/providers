@@ -95,7 +95,7 @@ overview: 'WebPT is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   WebPT''s developer surface includes documentation, pricing, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 7
+random_paper: 72
 score:
   band: emerging
   composite: 20.5

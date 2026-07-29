@@ -99,7 +99,7 @@ plans:
 - name: University Of Copenhagen Plans Pricing
   plan_count: 2
   slug: university-of-copenhagen-plans-pricing
-random_paper: 9
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: University Of Copenhagen Rate Limits

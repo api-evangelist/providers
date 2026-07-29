@@ -56,7 +56,7 @@ name: Spext Labs, Spext
 nav: Providers
 network: true
 overview: Spext Labs, Spext is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Video, Transcription, and Media.
-random_paper: 19
+random_paper: 56
 score:
   band: minimal
   composite: 8.3

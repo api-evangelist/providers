@@ -161,7 +161,7 @@ plans:
 - name: Hl7 Fhir Plans Pricing
   plan_count: 3
   slug: hl7-fhir-plans-pricing
-random_paper: 44
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Hl7 Fhir Rate Limits

@@ -143,7 +143,7 @@ overview: 'Chatfuel publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Chatfuel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 74
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Chatfuel Rate Limits

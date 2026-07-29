@@ -44,7 +44,7 @@ name: ZipMatch
 nav: Providers
 network: true
 overview: ZipMatch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Philippines, and Marketplace.
-random_paper: 17
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

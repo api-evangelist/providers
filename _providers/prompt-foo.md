@@ -205,7 +205,7 @@ overview: 'Promptfoo is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Promptfoo''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, tooling, code examples, and 27 more developer resources.'
-random_paper: 42
+random_paper: 16
 score:
   band: emerging
   composite: 20.9

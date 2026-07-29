@@ -71,7 +71,7 @@ overview: 'Ayar Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ayar Labs'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 45
+random_paper: 23
 score:
   band: minimal
   composite: 11.3

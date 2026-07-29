@@ -95,7 +95,7 @@ overview: 'Tenex AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tenex AI''s developer surface includes engineering blog, product news, support, and 10 more developer resources.'
-random_paper: 25
+random_paper: 5
 score:
   band: minimal
   composite: 11.3

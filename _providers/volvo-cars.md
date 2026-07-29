@@ -198,7 +198,7 @@ overview: 'Volvo Cars publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Volvo Cars'' developer surface includes developer portal, documentation, getting-started guide, engineering blog, code examples, tooling, support, and 21 more developer resources.'
-random_paper: 35
+random_paper: 9
 score:
   band: thin
   composite: 28.6

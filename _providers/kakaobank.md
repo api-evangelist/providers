@@ -116,7 +116,7 @@ plans:
 - name: Kakaobank Plans Pricing
   plan_count: 3
   slug: kakaobank-plans-pricing
-random_paper: 7
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Kakaobank Rate Limits

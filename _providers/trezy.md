@@ -91,7 +91,7 @@ overview: 'Trezy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Trezy''s developer surface includes documentation, pricing, engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 35
+random_paper: 21
 score:
   band: emerging
   composite: 16.1

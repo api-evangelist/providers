@@ -143,7 +143,7 @@ overview: 'LunarCrush publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LunarCrush''s developer surface includes documentation, API reference, authentication, CLI, pricing, signup flow, engineering blog, and 15 more developer resources.'
-random_paper: 17
+random_paper: 68
 score:
   band: thin
   composite: 31.1

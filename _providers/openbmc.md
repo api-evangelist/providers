@@ -108,7 +108,7 @@ plans:
 - name: Openbmc Plans Pricing
   plan_count: 3
   slug: openbmc-plans-pricing
-random_paper: 47
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Openbmc Rate Limits

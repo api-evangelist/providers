@@ -129,7 +129,7 @@ plans:
 - name: Granola Plans Pricing
   plan_count: 1
   slug: granola-plans-pricing
-random_paper: 47
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Granola Rate Limits

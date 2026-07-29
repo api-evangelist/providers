@@ -48,7 +48,7 @@ name: Modulo
 nav: Providers
 network: true
 overview: Modulo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Neuroscience, and Drug Discovery.
-random_paper: 40
+random_paper: 24
 score:
   band: minimal
   composite: 5.4

@@ -55,7 +55,7 @@ overview: 'Beijing Goodwill (bjgoodwill) is profiled on the [APIs.io](https://ap
 
 
   Beijing Goodwill (bjgoodwill)''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 68
+random_paper: 42
 score:
   band: minimal
   composite: 5.7

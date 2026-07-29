@@ -124,7 +124,7 @@ overview: 'brightback publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   brightback''s developer surface includes documentation, API reference, support, authentication, and 14 more developer resources.'
-random_paper: 40
+random_paper: 14
 score:
   band: thin
   composite: 33.0

@@ -96,7 +96,7 @@ overview: 'Tdaycom publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Tdaycom''s developer surface includes support, authentication, and 9 more developer resources.'
-random_paper: 60
+random_paper: 42
 scopes:
 - name: Tdaycom Scopes
   scope_count: 1

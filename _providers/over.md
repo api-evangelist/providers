@@ -91,7 +91,7 @@ overview: 'Over is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Over''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 8 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: emerging
   composite: 15.5

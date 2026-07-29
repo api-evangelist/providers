@@ -215,7 +215,7 @@ overview: 'Epignosis (TalentLMS, eFront, TalentCards) publishes 16 APIs on the [
 
 
   Epignosis (TalentLMS, eFront, TalentCards)''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 69
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Epignosis Talentlms Efront Talentcards Talentlms Rate Limits

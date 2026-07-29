@@ -191,7 +191,7 @@ overview: 'Refurbed publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Refurbed''s developer surface includes authentication, documentation, support, API reference, getting-started guide, and 17 more developer resources.'
-random_paper: 0
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Refurbed Rate Limits

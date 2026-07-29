@@ -48,7 +48,7 @@ name: KelAI
 nav: Providers
 network: true
 overview: KelAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Quantitative Finance, Hedge Funds, and Trading.
-random_paper: 56
+random_paper: 44
 score:
   band: minimal
   composite: 5.8

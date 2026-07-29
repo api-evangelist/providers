@@ -246,7 +246,7 @@ plans:
 - name: Openadr Alliance Plans
   plan_count: 10
   slug: openadr-alliance-plans
-random_paper: 75
+random_paper: 35
 scopes:
 - name: Openadr Alliance Scopes
   scope_count: 9

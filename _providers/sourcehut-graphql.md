@@ -91,7 +91,7 @@ overview: 'Sourcehut GraphQL publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Sourcehut GraphQL''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 19
+random_paper: 52
 score:
   band: emerging
   composite: 23.4

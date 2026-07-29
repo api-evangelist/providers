@@ -75,7 +75,7 @@ overview: 'Agreena is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Agreena''s developer surface includes signup flow, documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 30
+random_paper: 12
 score:
   band: emerging
   composite: 14.9

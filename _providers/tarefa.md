@@ -63,7 +63,7 @@ overview: 'Tarefa is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Tarefa''s developer surface includes signup flow, pricing, and 3 more developer resources.'
-random_paper: 11
+random_paper: 74
 score:
   band: minimal
   composite: 9.7

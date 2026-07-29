@@ -140,7 +140,7 @@ press:
 - date: '2026-05-25'
   title: Rite Aid Banned from Using AI Facial Recognition After ...
   url: https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without
-random_paper: 13
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Rite Aid Rate Limits

@@ -71,7 +71,7 @@ overview: 'TradeLink is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TradeLink''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 34
+random_paper: 10
 score:
   band: minimal
   composite: 11.0

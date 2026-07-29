@@ -135,7 +135,7 @@ overview: 'Taker publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Taker''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 13 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: thin
   composite: 36.8

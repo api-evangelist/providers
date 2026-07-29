@@ -75,7 +75,7 @@ overview: 'Pitzi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Pitzi''s developer surface includes support and 7 more developer resources.'
-random_paper: 21
+random_paper: 7
 score:
   band: emerging
   composite: 14.0

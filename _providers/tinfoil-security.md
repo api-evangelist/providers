@@ -44,7 +44,7 @@ name: Tinfoil Security
 nav: Providers
 network: true
 overview: Tinfoil Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Application Security, Vulnerability Scanning, and DAST.
-random_paper: 73
+random_paper: 31
 score:
   band: minimal
   composite: 4.4

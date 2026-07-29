@@ -140,7 +140,7 @@ overview: 'Mythical Games publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Mythical Games'' developer surface includes authentication, engineering blog, and 20 more developer resources.'
-random_paper: 43
+random_paper: 7
 score:
   band: emerging
   composite: 20.4

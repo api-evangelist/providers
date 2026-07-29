@@ -39,7 +39,7 @@ name: Minit
 nav: Providers
 network: true
 overview: Minit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Process Mining, Business Process Management, Process Automation, and Analytics.
-random_paper: 6
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

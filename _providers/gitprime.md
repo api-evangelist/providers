@@ -39,7 +39,7 @@ name: Gitprime
 nav: Providers
 network: true
 overview: Gitprime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Engineering Analytics, Developer Productivity, Engineering Intelligence, and Git Analytics.
-random_paper: 18
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

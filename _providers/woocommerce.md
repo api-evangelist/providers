@@ -1054,7 +1054,7 @@ plans:
 - name: Woocommerce Plans Pricing
   plan_count: 4
   slug: woocommerce-plans-pricing
-random_paper: 29
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Woocommerce Rate Limits

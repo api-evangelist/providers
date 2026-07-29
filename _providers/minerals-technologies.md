@@ -65,7 +65,7 @@ plans:
 - name: Minerals Technologies Plans Pricing
   plan_count: 1
   slug: minerals-technologies-plans-pricing
-random_paper: 32
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Minerals Technologies Rate Limits

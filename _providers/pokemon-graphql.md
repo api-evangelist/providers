@@ -87,7 +87,7 @@ overview: 'PokéAPI GraphQL publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   PokéAPI GraphQL''s developer surface includes documentation and 8 more developer resources.'
-random_paper: 17
+random_paper: 56
 score:
   band: emerging
   composite: 18.0

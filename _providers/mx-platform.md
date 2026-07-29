@@ -310,7 +310,7 @@ plans:
 - name: Mx Platform Plans Pricing
   plan_count: 3
   slug: mx-platform-plans-pricing
-random_paper: 65
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Mx Platform Rate Limits

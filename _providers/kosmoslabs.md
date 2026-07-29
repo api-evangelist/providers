@@ -148,7 +148,7 @@ overview: 'Kosmos AI Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Kosmos AI Labs'' developer surface includes documentation, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Kosmoslabs Rate Limits

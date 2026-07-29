@@ -59,7 +59,7 @@ overview: 'Drop is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Drop''s developer surface includes support and 3 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: minimal
   composite: 6.6

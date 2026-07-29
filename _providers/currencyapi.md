@@ -135,7 +135,7 @@ plans:
 - name: Currencyapi Plans Pricing
   plan_count: 5
   slug: currencyapi-plans-pricing
-random_paper: 34
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Currencyapi Rate Limits

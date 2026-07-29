@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Why is Dollar Tree sign removed from Family Dollar?
   url: https://www.facebook.com/groups/615443083940178/posts/1194301942720953/
-random_paper: 40
+random_paper: 67
 score:
   band: minimal
   composite: 9.0

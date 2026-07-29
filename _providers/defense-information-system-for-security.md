@@ -76,7 +76,7 @@ plans:
 - name: Defense Information System For Security Plans Pricing
   plan_count: 1
   slug: defense-information-system-for-security-plans-pricing
-random_paper: 65
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Defense Information System For Security Rate Limits

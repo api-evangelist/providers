@@ -108,7 +108,7 @@ overview: 'Violet is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Violet''s developer surface includes documentation, developer portal, getting-started guide, API reference, support, signup flow, authentication, and 9 more developer resources.'
-random_paper: 43
+random_paper: 27
 score:
   band: emerging
   composite: 26.1

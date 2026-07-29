@@ -91,7 +91,7 @@ overview: 'DraftPilot.ai is profiled on the [APIs.io](https://apis.io/) network.
 
 
   DraftPilot.ai''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 51
+random_paper: 19
 score:
   band: emerging
   composite: 20.5

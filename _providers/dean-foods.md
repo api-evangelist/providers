@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Dean Foods Company Initiates Voluntary Reorganization ...
   url: https://www.prnewswire.com/news-releases/dean-foods-company-initiates-voluntary-reorganization-with-new-financial-support-from-existing-lenders-300956285.html
-random_paper: 68
+random_paper: 44
 score:
   band: minimal
   composite: 5.0

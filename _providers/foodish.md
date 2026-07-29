@@ -52,7 +52,7 @@ name: Foodish
 nav: Providers
 network: true
 overview: Foodish publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
-random_paper: 55
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

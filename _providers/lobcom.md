@@ -285,7 +285,7 @@ overview: 'Lob.com publishes 30 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lob.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 20
+random_paper: 4
 score:
   band: strong
   composite: 57.0

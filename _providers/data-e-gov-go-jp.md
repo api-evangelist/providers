@@ -84,7 +84,7 @@ plans:
 - name: Data E Gov Go Jp Plans Pricing
   plan_count: 1
   slug: data-e-gov-go-jp-plans-pricing
-random_paper: 69
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Data E Gov Go Jp Rate Limits

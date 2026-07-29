@@ -156,7 +156,7 @@ overview: 'Software publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Software''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, pricing, and 19 more developer resources.'
-random_paper: 28
+random_paper: 6
 score:
   band: thin
   composite: 40.2

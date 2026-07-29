@@ -67,7 +67,7 @@ overview: 'Epocrates is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Epocrates'' developer surface includes support and 5 more developer resources.'
-random_paper: 42
+random_paper: 18
 score:
   band: minimal
   composite: 11.2

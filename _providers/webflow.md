@@ -523,7 +523,7 @@ plans:
 - name: Webflow Plans Pricing
   plan_count: 14
   slug: webflow-plans-pricing
-random_paper: 65
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Webflow Rate Limits

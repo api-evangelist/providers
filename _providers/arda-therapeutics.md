@@ -75,7 +75,7 @@ overview: 'Arda Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Arda Therapeutics'' developer surface includes product news and 7 more developer resources.'
-random_paper: 56
+random_paper: 12
 score:
   band: minimal
   composite: 5.4

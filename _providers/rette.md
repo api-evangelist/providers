@@ -59,7 +59,7 @@ overview: 'Rette is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Rette''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 8.7

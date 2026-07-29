@@ -39,7 +39,7 @@ name: Cruise Technologies
 nav: Providers
 network: true
 overview: Cruise Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Thin Client, Wireless, and Enterprise Computing.
-random_paper: 55
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

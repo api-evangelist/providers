@@ -79,7 +79,7 @@ overview: 'Hill International is profiled on the [APIs.io](https://apis.io/) net
 
 
   Hill International''s developer surface includes product news, engineering blog, and 7 more developer resources.'
-random_paper: 22
+random_paper: 53
 score:
   band: minimal
   composite: 5.4

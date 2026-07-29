@@ -83,7 +83,7 @@ overview: 'GroundTruth is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   GroundTruth''s developer surface includes signup flow, engineering blog, support, getting-started guide, and 6 more developer resources.'
-random_paper: 67
+random_paper: 37
 score:
   band: emerging
   composite: 16.4

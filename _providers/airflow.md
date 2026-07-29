@@ -1504,7 +1504,7 @@ plans:
 - name: Airflow Plans Pricing
   plan_count: 3
   slug: airflow-plans-pricing
-random_paper: 63
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Airflow Rate Limits

@@ -126,7 +126,7 @@ overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: List
 
 
   Wahi''s developer surface includes authentication, support, engineering blog, and 16 more developer resources.'
-random_paper: 40
+random_paper: 30
 score:
   band: thin
   composite: 31.2

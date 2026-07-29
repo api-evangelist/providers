@@ -410,7 +410,7 @@ overview: 'Clio publishes 84 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Clio''s developer surface includes documentation, pricing, signup flow, developer portal, authentication, support, engineering blog, and 15 more developer resources.'
-random_paper: 38
+random_paper: 28
 rules:
 - name: Clio API Rules
   rule_count: 10

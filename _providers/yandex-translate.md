@@ -179,7 +179,7 @@ plans:
 - name: Yandex Translate Plans Pricing
   plan_count: 2
   slug: yandex-translate-plans-pricing
-random_paper: 51
+random_paper: 9
 rate_limits:
 - limit_count: 8
   name: Yandex Translate Rate Limits

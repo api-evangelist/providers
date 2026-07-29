@@ -95,7 +95,7 @@ overview: 'Fullcast is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fullcast''s developer surface includes documentation, support, getting-started guide, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 15
+random_paper: 72
 score:
   band: emerging
   composite: 22.5

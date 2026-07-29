@@ -265,7 +265,7 @@ plans:
 - name: Apache Rocketmq Plans Pricing
   plan_count: 3
   slug: apache-rocketmq-plans-pricing
-random_paper: 62
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Apache Rocketmq Rate Limits

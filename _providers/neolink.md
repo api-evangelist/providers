@@ -57,7 +57,7 @@ plans:
 - name: Neolink Plans Pricing
   plan_count: 3
   slug: neolink-plans-pricing
-random_paper: 59
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Neolink Rate Limits

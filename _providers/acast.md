@@ -113,7 +113,7 @@ plans:
 - name: Acast Plans Pricing
   plan_count: 4
   slug: acast-plans-pricing
-random_paper: 62
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Acast Rate Limits

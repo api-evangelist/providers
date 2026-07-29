@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Coatue Management
 nav: Providers
 network: true
-random_paper: 25
+random_paper: 9
 slug: coatue
 tags:
 - Venture Capital

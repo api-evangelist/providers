@@ -152,7 +152,7 @@ overview: 'Cypress.io publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Cypress.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 69
+random_paper: 45
 score:
   band: thin
   composite: 40.3

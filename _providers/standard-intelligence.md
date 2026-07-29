@@ -59,7 +59,7 @@ overview: 'Standard Intelligence is profiled on the [APIs.io](https://apis.io/) 
 
 
   Standard Intelligence''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 5
+random_paper: 28
 score:
   band: minimal
   composite: 6.1

@@ -203,7 +203,7 @@ plans:
 - name: Elastic Plans Pricing
   plan_count: 3
   slug: elastic-plans-pricing
-random_paper: 48
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Elastic Rate Limits

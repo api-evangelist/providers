@@ -159,7 +159,7 @@ overview: 'Mashvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Mashvisor''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
-random_paper: 64
+random_paper: 40
 score:
   band: developing
   composite: 45.4

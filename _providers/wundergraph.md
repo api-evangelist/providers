@@ -296,7 +296,7 @@ plans:
 - name: Wundergraph Plans Pricing
   plan_count: 3
   slug: wundergraph-plans-pricing
-random_paper: 36
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Wundergraph Rate Limits

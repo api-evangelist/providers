@@ -112,7 +112,7 @@ overview: 'Meals In Minutes, MIM is profiled on the [APIs.io](https://apis.io/) 
 
 
   Meals In Minutes, MIM''s developer surface includes engineering blog, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 51
+random_paper: 1
 scopes:
 - name: Meals In Minutes Mim Scopes
   scope_count: 4

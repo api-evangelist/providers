@@ -69,7 +69,7 @@ name: INF Tech
 nav: Providers
 network: true
 overview: INF Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Large Language Models, and Generative AI.
-random_paper: 7
+random_paper: 72
 score:
   band: minimal
   composite: 8.5

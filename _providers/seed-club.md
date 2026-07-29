@@ -63,7 +63,7 @@ overview: 'Seed Club is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Seed Club''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 37
+random_paper: 15
 score:
   band: minimal
   composite: 5.4

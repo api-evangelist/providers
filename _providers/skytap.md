@@ -155,7 +155,7 @@ overview: 'Skytap publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Skytap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 52
+random_paper: 36
 score:
   band: developing
   composite: 43.3

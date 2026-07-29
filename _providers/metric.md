@@ -79,7 +79,7 @@ overview: 'Metric is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Metric''s developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 28
+random_paper: 12
 score:
   band: emerging
   composite: 16.0

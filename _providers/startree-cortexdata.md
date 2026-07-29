@@ -152,7 +152,7 @@ overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.i
 
 
   StarTree (Cortexdata)''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 18 more developer resources.'
-random_paper: 65
+random_paper: 15
 score:
   band: developing
   composite: 51.7

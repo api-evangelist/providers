@@ -107,7 +107,7 @@ overview: 'Zoho Books publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Zoho Books'' developer surface includes documentation, pricing, signup flow, support, engineering blog, developer console, and 9 more developer resources.'
-random_paper: 34
+random_paper: 8
 score:
   band: thin
   composite: 31.8

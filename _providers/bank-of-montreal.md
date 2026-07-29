@@ -130,7 +130,7 @@ overview: 'BMO Financial Group publishes 6 APIs on the [APIs.io](https://apis.io
 
 
   BMO Financial Group''s developer surface includes authentication, sandbox, API reference, getting-started guide, documentation, signup flow, support, and 12 more developer resources.'
-random_paper: 41
+random_paper: 1
 score:
   band: thin
   composite: 31.0

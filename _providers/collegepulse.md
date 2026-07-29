@@ -75,7 +75,7 @@ overview: 'Collegepulse is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Collegepulse''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 52
+random_paper: 20
 score:
   band: minimal
   composite: 8.4

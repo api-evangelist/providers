@@ -91,7 +91,7 @@ overview: 'Lightspeed Photonics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Lightspeed Photonics'' developer surface includes engineering blog, product news, and 10 more developer resources.'
-random_paper: 14
+random_paper: 39
 score:
   band: minimal
   composite: 8.7

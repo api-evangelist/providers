@@ -759,7 +759,7 @@ plans:
 - name: Salesforce Sales Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-sales-cloud-plans-pricing
-random_paper: 68
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Salesforce Sales Cloud Rate Limits

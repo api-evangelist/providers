@@ -48,7 +48,7 @@ name: RetailMeNot *
 nav: Providers
 network: true
 overview: RetailMeNot * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Coupons, Deals, and Cashback.
-random_paper: 33
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

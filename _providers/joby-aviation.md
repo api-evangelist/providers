@@ -127,7 +127,7 @@ overview: 'Joby Aviation is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Joby Aviation''s developer surface includes engineering blog, developer portal, YouTube channel, and 18 more developer resources.'
-random_paper: 31
+random_paper: 76
 score:
   band: emerging
   composite: 13.7

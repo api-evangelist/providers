@@ -92,7 +92,7 @@ overview: 'Assured is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Assured''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 66
+random_paper: 48
 score:
   band: emerging
   composite: 17.7

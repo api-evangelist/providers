@@ -258,7 +258,7 @@ plans:
 - name: Mintlify Plans Pricing
   plan_count: 4
   slug: mintlify-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Mintlify Rate Limits

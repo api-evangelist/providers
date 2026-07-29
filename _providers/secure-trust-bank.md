@@ -155,7 +155,7 @@ overview: 'Secure Trust Bank publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Secure Trust Bank''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 33
+random_paper: 68
 scopes:
 - name: Secure Trust Bank Scopes
   scope_count: 3

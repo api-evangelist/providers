@@ -104,7 +104,7 @@ overview: 'Trella is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Trella''s developer surface includes engineering blog, GitHub presence, and 13 more developer resources.'
-random_paper: 28
+random_paper: 12
 score:
   band: minimal
   composite: 6.1

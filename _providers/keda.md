@@ -171,7 +171,7 @@ plans:
 - name: Keda Plans Pricing
   plan_count: 1
   slug: keda-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Keda Rate Limits

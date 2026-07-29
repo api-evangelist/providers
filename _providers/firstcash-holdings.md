@@ -52,7 +52,7 @@ name: FirstCash Holdings
 nav: Providers
 network: true
 overview: FirstCash Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Pawn Loans, Consumer Finance, Retail, and Lease-to-Own.
-random_paper: 20
+random_paper: 51
 score:
   band: minimal
   composite: 4.4

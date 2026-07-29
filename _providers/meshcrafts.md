@@ -95,7 +95,7 @@ overview: 'Meshcrafts is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Meshcrafts'' developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 71
+random_paper: 45
 score:
   band: emerging
   composite: 18.8

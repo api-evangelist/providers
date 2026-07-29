@@ -129,7 +129,7 @@ plans:
 - name: Hologram Plans Pricing
   plan_count: 2
   slug: hologram-plans-pricing
-random_paper: 10
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Hologram Rate Limits

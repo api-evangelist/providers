@@ -56,7 +56,7 @@ name: MetroPCS
 nav: Providers
 network: true
 overview: MetroPCS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Telecommunications, Wireless, and Mobile.
-random_paper: 30
+random_paper: 8
 score:
   band: minimal
   composite: 6.4

@@ -162,7 +162,7 @@ overview: 'Aptean publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aptean''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, support, and 15 more developer resources.'
-random_paper: 17
+random_paper: 1
 score:
   band: developing
   composite: 42.2

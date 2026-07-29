@@ -99,7 +99,7 @@ overview: 'Pingdom publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Pingdom''s developer surface includes documentation, pricing, signup flow, engineering blog, support, and 8 more developer resources.'
-random_paper: 57
+random_paper: 39
 score:
   band: emerging
   composite: 18.7

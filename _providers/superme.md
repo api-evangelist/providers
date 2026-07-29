@@ -96,7 +96,7 @@ overview: 'SuperMe publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   SuperMe''s developer surface includes authentication, signup flow, support, and 8 more developer resources.'
-random_paper: 76
+random_paper: 58
 score:
   band: emerging
   composite: 20.3

@@ -143,7 +143,7 @@ overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs
 
 
   Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 29
+random_paper: 19
 score:
   band: thin
   composite: 38.4

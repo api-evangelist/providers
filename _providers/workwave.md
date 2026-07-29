@@ -142,7 +142,7 @@ plans:
 - name: Workwave Plans Pricing
   plan_count: 2
   slug: workwave-plans-pricing
-random_paper: 39
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Workwave Rate Limits

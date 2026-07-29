@@ -44,7 +44,7 @@ name: Heroic Story
 nav: Providers
 network: true
 overview: Heroic Story is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Gaming, Blockchain, and NFT.
-random_paper: 24
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

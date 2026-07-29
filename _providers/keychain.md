@@ -48,7 +48,7 @@ name: Keychain
 nav: Providers
 network: true
 overview: Keychain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CPG, Consumer Packaged Goods, Manufacturing, and Supply Chain.
-random_paper: 74
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

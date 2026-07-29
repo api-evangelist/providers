@@ -51,7 +51,7 @@ overview: 'Fifth Door is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Fifth Door''s developer surface includes signup flow and 1 more developer resources.'
-random_paper: 41
+random_paper: 17
 score:
   band: minimal
   composite: 7.6

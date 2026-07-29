@@ -229,7 +229,7 @@ overview: 'ProjectDiscovery publishes 20 APIs on the [APIs.io](https://apis.io/)
 
 
   ProjectDiscovery''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 49
+random_paper: 5
 score:
   band: developing
   composite: 54.1

@@ -135,7 +135,7 @@ overview: 'Orakl publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Orakl''s developer surface includes documentation, API reference, authentication, and 10 more developer resources.'
-random_paper: 75
+random_paper: 63
 score:
   band: thin
   composite: 33.4

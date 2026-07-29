@@ -162,7 +162,7 @@ overview: 'Jetify publishes 3 APIs on the [APIs.io](https://apis.io/) network: P
 
 
   Jetify''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, CLI, authentication, and 19 more developer resources.'
-random_paper: 35
+random_paper: 19
 score:
   band: developing
   composite: 45.6

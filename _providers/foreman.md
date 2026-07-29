@@ -99,7 +99,7 @@ overview: 'Foreman is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Foreman''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, and 8 more developer resources.'
-random_paper: 51
+random_paper: 33
 score:
   band: emerging
   composite: 19.2

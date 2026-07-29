@@ -87,7 +87,7 @@ overview: '.clinerules is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   .clinerules'' developer surface includes documentation and 7 more developer resources.'
-random_paper: 0
+random_paper: 51
 rules:
 - name: .clinerules API Rules
   rule_count: 4

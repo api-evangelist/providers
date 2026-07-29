@@ -835,7 +835,7 @@ plans:
 - name: Pluralsight Plans Pricing
   plan_count: 8
   slug: pluralsight-plans-pricing
-random_paper: 44
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Pluralsight Rate Limits

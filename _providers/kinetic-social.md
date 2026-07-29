@@ -44,7 +44,7 @@ name: Kinetic Social
 nav: Providers
 network: true
 overview: Kinetic Social is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 37
+random_paper: 1
 score:
   band: minimal
   composite: 4.1

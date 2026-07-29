@@ -84,7 +84,7 @@ plans:
 - name: Data Buenosaires Gob Ar Plans Pricing
   plan_count: 1
   slug: data-buenosaires-gob-ar-plans-pricing
-random_paper: 19
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Data Buenosaires Gob Ar Rate Limits

@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Plains All American Pipeline and Plains GP Holdings ...
   url: https://energynow.com/2026/05/plains-all-american-pipeline-and-plains-gp-holdings-provide-update-on-the-ngl-sale-process/
-random_paper: 60
+random_paper: 38
 score:
   band: minimal
   composite: 5.5

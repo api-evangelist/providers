@@ -56,7 +56,7 @@ name: FakeJSON
 nav: Providers
 network: true
 overview: FakeJSON publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Test Data and Public APIs.
-random_paper: 2
+random_paper: 59
 score:
   band: minimal
   composite: 5.7

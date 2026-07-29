@@ -111,7 +111,7 @@ overview: 'Convex publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Convex''s developer surface includes documentation, engineering blog, legal docs, and 15 more developer resources.'
-random_paper: 55
+random_paper: 13
 score:
   band: emerging
   composite: 18.4

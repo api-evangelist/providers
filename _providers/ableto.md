@@ -48,7 +48,7 @@ name: AbleTo
 nav: Providers
 network: true
 overview: AbleTo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Behavioral Health, Mental Health, and Telehealth.
-random_paper: 15
+random_paper: 78
 score:
   band: minimal
   composite: 5.4

@@ -83,7 +83,7 @@ overview: 'Spotlock is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Spotlock''s developer surface includes support and 8 more developer resources.'
-random_paper: 32
+random_paper: 10
 score:
   band: minimal
   composite: 12.6

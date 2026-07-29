@@ -146,7 +146,7 @@ plans:
 - name: Booqable Plans Pricing
   plan_count: 4
   slug: booqable-plans-pricing
-random_paper: 67
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Booqable Rate Limits

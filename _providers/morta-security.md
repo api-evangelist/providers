@@ -39,7 +39,7 @@ name: Morta Security
 nav: Providers
 network: true
 overview: Morta Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Threat Intelligence, and Network Security.
-random_paper: 17
+random_paper: 58
 score:
   band: minimal
   composite: 5.0

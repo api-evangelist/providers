@@ -171,7 +171,7 @@ overview: 'Nova Scotia Power is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Nova Scotia Power''s developer surface includes authentication, developer portal, documentation, legal docs, support, engineering blog, product news, and 27 more developer resources.'
-random_paper: 32
+random_paper: 67
 score:
   band: emerging
   composite: 21.7

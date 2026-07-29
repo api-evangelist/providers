@@ -77,7 +77,7 @@ plans:
 - name: Te Connectivity Plans Pricing
   plan_count: 1
   slug: te-connectivity-plans-pricing
-random_paper: 33
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Te Connectivity Rate Limits

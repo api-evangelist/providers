@@ -688,7 +688,7 @@ plans:
 - name: Windmill Plans Pricing
   plan_count: 3
   slug: windmill-plans-pricing
-random_paper: 17
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Windmill Rate Limits

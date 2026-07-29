@@ -115,7 +115,7 @@ plans:
 - name: Cohesity Plans Pricing
   plan_count: 3
   slug: cohesity-plans-pricing
-random_paper: 25
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Cohesity Rate Limits

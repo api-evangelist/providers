@@ -154,7 +154,7 @@ overview: 'Honeybadger publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Honeybadger''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 5
+random_paper: 54
 rules:
 - name: Honeybadger API Rules
   rule_count: 8

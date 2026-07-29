@@ -118,7 +118,7 @@ plans:
 - name: Internet Engineering Task Force Plans Pricing
   plan_count: 3
   slug: internet-engineering-task-force-plans-pricing
-random_paper: 53
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Internet Engineering Task Force Rate Limits

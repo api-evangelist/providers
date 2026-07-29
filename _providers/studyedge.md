@@ -59,7 +59,7 @@ overview: 'StudyEdge is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   StudyEdge''s developer surface includes pricing and 3 more developer resources.'
-random_paper: 50
+random_paper: 26
 score:
   band: minimal
   composite: 9.7

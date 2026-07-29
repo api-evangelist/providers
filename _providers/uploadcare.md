@@ -226,7 +226,7 @@ plans:
 - name: Uploadcare Plans Pricing
   plan_count: 4
   slug: uploadcare-plans-pricing
-random_paper: 55
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Uploadcare Rate Limits

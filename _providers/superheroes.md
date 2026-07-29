@@ -222,7 +222,7 @@ plans:
 - name: Superheroes Plans Pricing
   plan_count: 1
   slug: superheroes-plans-pricing
-random_paper: 50
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Superheroes Rate Limits

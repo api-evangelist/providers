@@ -71,7 +71,7 @@ overview: 'SustainCERT is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SustainCERT''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 50
+random_paper: 20
 score:
   band: emerging
   composite: 13.1

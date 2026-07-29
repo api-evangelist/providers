@@ -39,7 +39,7 @@ name: IntruVert Networks
 nav: Providers
 network: true
 overview: IntruVert Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Intrusion Prevention, Network Security, and Cybersecurity.
-random_paper: 24
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

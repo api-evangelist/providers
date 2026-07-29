@@ -116,7 +116,7 @@ overview: 'samedi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   samedi''s developer surface includes signup flow, authentication, and 15 more developer resources.'
-random_paper: 11
+random_paper: 74
 scopes:
 - name: Samedi Scopes
   scope_count: 10

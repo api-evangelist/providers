@@ -219,7 +219,7 @@ plans:
 - name: Agentgateway Plans Pricing
   plan_count: 3
   slug: agentgateway-plans-pricing
-random_paper: 49
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Agentgateway Rate Limits

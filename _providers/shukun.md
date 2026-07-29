@@ -48,7 +48,7 @@ name: shukun
 nav: Providers
 network: true
 overview: shukun is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Healthcare, Medical Imaging, and Diagnostics.
-random_paper: 54
+random_paper: 38
 score:
   band: minimal
   composite: 5.4

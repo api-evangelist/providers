@@ -272,7 +272,7 @@ overview: 'Ruby Programming Language and Popular API Gems publishes 9 APIs on th
 
 
   Ruby Programming Language and Popular API Gems'' developer surface includes authentication, documentation, getting-started guide, release notes, engineering blog, and 17 more developer resources.'
-random_paper: 65
+random_paper: 55
 rules:
 - name: Ruby Programming Language and Popular API Gems API Rules
   rule_count: 5

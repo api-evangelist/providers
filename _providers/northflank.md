@@ -125,7 +125,7 @@ plans:
 - name: Northflank Plans Pricing
   plan_count: 3
   slug: northflank-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Northflank Rate Limits

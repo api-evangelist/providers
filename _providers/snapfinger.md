@@ -48,7 +48,7 @@ name: Snapfinger
 nav: Providers
 network: true
 overview: Snapfinger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant Technology, Food Ordering, Online Ordering, and Restaurants.
-random_paper: 68
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

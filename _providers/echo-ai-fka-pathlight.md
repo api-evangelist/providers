@@ -48,7 +48,7 @@ name: Echo AI (fka Pathlight)
 nav: Providers
 network: true
 overview: Echo AI (fka Pathlight) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversation Intelligence, Customer Experience, Customer Support, and Artificial Intelligence.
-random_paper: 21
+random_paper: 48
 score:
   band: minimal
   composite: 5.7

@@ -67,7 +67,7 @@ overview: 'Miuros is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Miuros'' developer surface includes support and 5 more developer resources.'
-random_paper: 55
+random_paper: 39
 score:
   band: minimal
   composite: 10.6

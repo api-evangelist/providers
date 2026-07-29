@@ -39,7 +39,7 @@ name: Taggle Internet Ventures
 nav: Providers
 network: true
 overview: Taggle Internet Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Closed, Group Buying, Daily Deals, and E-Commerce.
-random_paper: 19
+random_paper: 34
 score:
   band: minimal
   composite: 5.0

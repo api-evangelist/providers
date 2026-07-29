@@ -193,7 +193,7 @@ plans:
 - name: Veracode Plans Pricing
   plan_count: 1
   slug: veracode-plans-pricing
-random_paper: 71
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Veracode Rate Limits

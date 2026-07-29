@@ -315,7 +315,7 @@ plans:
 - name: Wikidata Plans Pricing
   plan_count: 2
   slug: wikidata-plans-pricing
-random_paper: 76
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Wikidata Rate Limits

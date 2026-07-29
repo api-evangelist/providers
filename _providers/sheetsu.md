@@ -56,7 +56,7 @@ name: Sheetsu
 nav: Providers
 network: true
 overview: Sheetsu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 76
+random_paper: 58
 score:
   band: minimal
   composite: 5.7

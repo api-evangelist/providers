@@ -52,7 +52,7 @@ name: Planet Fitness
 nav: Providers
 network: true
 overview: Planet Fitness is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Wellness, Health, Franchise, and Consumer.
-random_paper: 67
+random_paper: 31
 score:
   band: minimal
   composite: 5.4

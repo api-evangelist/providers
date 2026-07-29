@@ -48,7 +48,7 @@ name: Icarus
 nav: Providers
 network: true
 overview: Icarus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Defense, Surveillance, and Connectivity.
-random_paper: 31
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

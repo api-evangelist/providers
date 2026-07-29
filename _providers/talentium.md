@@ -95,7 +95,7 @@ overview: 'Talentium is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Talentium''s developer surface includes pricing, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 55
+random_paper: 31
 score:
   band: emerging
   composite: 20.2

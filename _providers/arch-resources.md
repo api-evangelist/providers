@@ -44,7 +44,7 @@ name: Arch Resources
 nav: Providers
 network: true
 overview: Arch Resources is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 60
+random_paper: 24
 score:
   band: minimal
   composite: 2.6

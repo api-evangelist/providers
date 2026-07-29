@@ -63,7 +63,7 @@ overview: 'Nonnatech is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nonnatech''s developer surface includes support and 4 more developer resources.'
-random_paper: 34
+random_paper: 10
 score:
   band: minimal
   composite: 11.2

@@ -159,7 +159,7 @@ plans:
 - name: Api3 Plans
   plan_count: 3
   slug: api3-plans
-random_paper: 57
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Api3 Rate Limits

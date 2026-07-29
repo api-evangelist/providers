@@ -319,7 +319,7 @@ overview: 'AI Gateway publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AI Gateway''s developer surface includes authentication, code examples, developer portal, engineering blog, and 10 more developer resources.'
-random_paper: 0
+random_paper: 53
 rules:
 - name: AI Gateway API Rules
   rule_count: 5

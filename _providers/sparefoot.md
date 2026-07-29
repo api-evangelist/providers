@@ -69,7 +69,7 @@ plans:
 - name: Sparefoot Plans Pricing
   plan_count: 2
   slug: sparefoot-plans-pricing
-random_paper: 55
+random_paper: 31
 score:
   band: minimal
   composite: 11.0

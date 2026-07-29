@@ -52,7 +52,7 @@ name: RUUT
 nav: Providers
 network: true
 overview: RUUT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Fintech, Investing, and Investment Platform.
-random_paper: 2
+random_paper: 69
 score:
   band: minimal
   composite: 6.1

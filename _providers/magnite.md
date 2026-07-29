@@ -172,7 +172,7 @@ overview: 'Magnite is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Magnite''s developer surface includes documentation, engineering blog, GitHub presence, and 28 more developer resources.'
-random_paper: 48
+random_paper: 30
 score:
   band: emerging
   composite: 19.5

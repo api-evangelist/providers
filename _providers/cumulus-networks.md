@@ -59,7 +59,7 @@ overview: 'Cumulus Networks is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cumulus Networks'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 26
+random_paper: 61
 score:
   band: minimal
   composite: 7.4

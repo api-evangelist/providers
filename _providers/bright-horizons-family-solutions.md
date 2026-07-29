@@ -84,7 +84,7 @@ overview: 'Bright Horizons Family Solutions is profiled on the [APIs.io](https:/
 
 
   Bright Horizons Family Solutions'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 6
+random_paper: 78
 score:
   band: minimal
   composite: 6.1

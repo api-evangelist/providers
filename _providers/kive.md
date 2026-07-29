@@ -193,7 +193,7 @@ plans:
 - name: Kive Plans
   plan_count: 4
   slug: kive-plans
-random_paper: 46
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Kive Rate Limits

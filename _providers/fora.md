@@ -71,7 +71,7 @@ overview: 'Fora is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Fora''s developer surface includes engineering blog, pricing, signup flow, and 4 more developer resources.'
-random_paper: 39
+random_paper: 29
 score:
   band: minimal
   composite: 11.0

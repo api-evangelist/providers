@@ -71,7 +71,7 @@ overview: 'Focal Point Procurement Solutions is profiled on the [APIs.io](https:
 
 
   Focal Point Procurement Solutions'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: minimal
   composite: 11.0

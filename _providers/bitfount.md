@@ -128,7 +128,7 @@ overview: 'Bitfount publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Bitfount''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, changelog, and 13 more developer resources.'
-random_paper: 28
+random_paper: 6
 score:
   band: thin
   composite: 30.9

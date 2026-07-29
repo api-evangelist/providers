@@ -67,7 +67,7 @@ overview: 'Esper Satellite Imagery is profiled on the [APIs.io](https://apis.io/
 
 
   Esper Satellite Imagery''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 40
+random_paper: 59
 score:
   band: minimal
   composite: 9.1

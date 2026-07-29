@@ -39,7 +39,7 @@ name: Maker Comms
 nav: Providers
 network: true
 overview: Maker Comms is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Networking, Communications Processors, and ATM.
-random_paper: 38
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

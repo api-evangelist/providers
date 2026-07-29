@@ -104,7 +104,7 @@ overview: 'Vals Ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Vals Ai''s developer surface includes documentation, getting-started guide, signup flow, CLI, authentication, and 10 more developer resources.'
-random_paper: 69
+random_paper: 53
 score:
   band: emerging
   composite: 22.7

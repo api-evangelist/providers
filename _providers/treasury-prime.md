@@ -138,7 +138,7 @@ plans:
 - name: Treasury Prime Plans Pricing
   plan_count: 2
   slug: treasury-prime-plans-pricing
-random_paper: 18
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Treasury Prime Rate Limits

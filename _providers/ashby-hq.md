@@ -754,7 +754,7 @@ plans:
 - name: Ashby Hq Plans Pricing
   plan_count: 6
   slug: ashby-hq-plans-pricing
-random_paper: 27
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Ashby Hq Rate Limits

@@ -84,7 +84,7 @@ plans:
 - name: Optic Plans Pricing
   plan_count: 3
   slug: optic-plans-pricing
-random_paper: 4
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Optic Rate Limits

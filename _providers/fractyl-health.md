@@ -67,7 +67,7 @@ overview: 'Fractyl Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Fractyl Health''s developer surface includes support and 5 more developer resources.'
-random_paper: 46
+random_paper: 10
 score:
   band: minimal
   composite: 11.2

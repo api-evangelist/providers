@@ -178,7 +178,7 @@ plans:
 - name: Fireflies Plans Pricing
   plan_count: 4
   slug: fireflies-plans-pricing
-random_paper: 29
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Fireflies Rate Limits

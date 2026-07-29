@@ -88,7 +88,7 @@ overview: 'Kredete is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kredete''s developer surface includes engineering blog, support, pricing, and 8 more developer resources.'
-random_paper: 47
+random_paper: 29
 score:
   band: emerging
   composite: 18.1

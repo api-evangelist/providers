@@ -139,7 +139,7 @@ plans:
 - name: Classy Org Plans Pricing
   plan_count: 4
   slug: classy-org-plans-pricing
-random_paper: 27
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Classy Org Rate Limits

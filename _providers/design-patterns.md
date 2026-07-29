@@ -73,7 +73,7 @@ plans:
 - name: Design Patterns Plans Pricing
   plan_count: 3
   slug: design-patterns-plans-pricing
-random_paper: 20
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Design Patterns Rate Limits

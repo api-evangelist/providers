@@ -63,7 +63,7 @@ overview: 'Snowball * is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Snowball *''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 19
+random_paper: 76
 score:
   band: minimal
   composite: 8.6

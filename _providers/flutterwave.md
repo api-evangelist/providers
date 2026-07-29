@@ -566,7 +566,7 @@ plans:
 - name: Flutterwave Plans Pricing
   plan_count: 9
   slug: flutterwave-plans-pricing
-random_paper: 54
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Flutterwave Rate Limits

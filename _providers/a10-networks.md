@@ -252,7 +252,7 @@ plans:
 - name: A10 Networks Plans Pricing
   plan_count: 6
   slug: a10-networks-plans-pricing
-random_paper: 54
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: A10 Networks Rate Limits

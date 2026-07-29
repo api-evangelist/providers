@@ -294,7 +294,7 @@ plans:
 - name: Magento Plans Pricing
   plan_count: 3
   slug: magento-plans-pricing
-random_paper: 54
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Magento Rate Limits

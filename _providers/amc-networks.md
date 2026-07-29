@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: As AMC Networks Embraces AI, CEO Kristin Dolan ...
   url: https://deadline.com/2025/08/amc-networks-embraces-ai-ceo-kristin-dolan-technology-ip-1236482175/
-random_paper: 11
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Amc Networks Rate Limits

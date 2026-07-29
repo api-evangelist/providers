@@ -88,7 +88,7 @@ plans:
 - name: Open Nrw Plans Pricing
   plan_count: 1
   slug: open-nrw-plans-pricing
-random_paper: 52
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Open Nrw Rate Limits

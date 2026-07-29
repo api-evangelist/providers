@@ -185,7 +185,7 @@ overview: 'VoiceGenie publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   VoiceGenie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 53
+random_paper: 27
 score:
   band: developing
   composite: 47.1

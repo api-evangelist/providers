@@ -83,7 +83,7 @@ overview: 'MedHOK (Hearst Communications) is profiled on the [APIs.io](https://a
 
 
   MedHOK (Hearst Communications)''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 33
+random_paper: 38
 score:
   band: emerging
   composite: 17.7

@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: THOR INDUSTRIES ELEVATES RYAN BIREN TO CHIEF ...
   url: https://www.prnewswire.com/news-releases/thor-industries-elevates-ryan-biren-to-chief-information-officer-signaling-accelerated-enterprise-data-and-ai-strategy-302700093.html
-random_paper: 48
+random_paper: 8
 score:
   band: minimal
   composite: 8.2

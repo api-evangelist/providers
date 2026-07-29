@@ -68,7 +68,7 @@ name: Bond
 nav: Providers
 network: true
 overview: Bond is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Finance, Cards, Issuing, Payments, and Banking.
-random_paper: 55
+random_paper: 39
 score:
   band: minimal
   composite: 8.2

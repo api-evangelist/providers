@@ -84,7 +84,7 @@ overview: 'Fifteenth is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Fifteenth''s developer surface includes pricing, signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 33
+random_paper: 9
 score:
   band: emerging
   composite: 16.8

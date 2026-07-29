@@ -124,7 +124,7 @@ plans:
 - name: Runwayml Plans Pricing
   plan_count: 2
   slug: runwayml-plans-pricing
-random_paper: 48
+random_paper: 26
 rate_limits:
 - limit_count: 4
   name: Runwayml Rate Limits

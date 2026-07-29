@@ -63,7 +63,7 @@ overview: 'Push Doctor is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Push Doctor''s developer surface includes support and 4 more developer resources.'
-random_paper: 66
+random_paper: 38
 score:
   band: minimal
   composite: 11.2

@@ -233,7 +233,7 @@ plans:
 - name: Tinybird Plans Pricing
   plan_count: 3
   slug: tinybird-plans-pricing
-random_paper: 22
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Tinybird Rate Limits

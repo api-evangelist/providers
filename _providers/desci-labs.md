@@ -157,7 +157,7 @@ overview: 'DeSci Labs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   DeSci Labs'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 16 more developer resources.'
-random_paper: 59
+random_paper: 35
 score:
   band: developing
   composite: 47.3

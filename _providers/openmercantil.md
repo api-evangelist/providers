@@ -239,7 +239,7 @@ plans:
 - name: Openmercantil Plans Pricing
   plan_count: 3
   slug: openmercantil-plans-pricing
-random_paper: 7
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Openmercantil Rate Limits

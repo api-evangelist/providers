@@ -67,7 +67,7 @@ overview: 'NotePass is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   NotePass'' developer surface includes YouTube channel and 5 more developer resources.'
-random_paper: 30
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

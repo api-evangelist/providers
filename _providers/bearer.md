@@ -107,7 +107,7 @@ overview: 'Bearer is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bearer''s developer surface includes documentation, quickstart, API reference, engineering blog, CLI, changelog, and 10 more developer resources.'
-random_paper: 9
+random_paper: 72
 score:
   band: emerging
   composite: 21.2

@@ -79,7 +79,7 @@ overview: 'Cylake is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cylake''s developer surface includes engineering blog, support, YouTube channel, and 6 more developer resources.'
-random_paper: 17
+random_paper: 1
 score:
   band: minimal
   composite: 8.4

@@ -203,7 +203,7 @@ overview: 'Yuno publishes 1 API on the [APIs.io](https://apis.io/) network: Paym
 
 
   Yuno''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 29 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: strong
   composite: 57.0

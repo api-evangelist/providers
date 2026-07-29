@@ -75,7 +75,7 @@ overview: 'Simple Legal is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Simple Legal''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 57
+random_paper: 27
 score:
   band: minimal
   composite: 10.6

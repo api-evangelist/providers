@@ -112,7 +112,7 @@ plans:
 - name: Google Appsheet Plans Pricing
   plan_count: 3
   slug: google-appsheet-plans-pricing
-random_paper: 0
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Google Appsheet Rate Limits

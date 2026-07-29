@@ -238,7 +238,7 @@ plans:
 - name: Truto Plans Pricing
   plan_count: 2
   slug: truto-plans-pricing
-random_paper: 35
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Truto Rate Limits

@@ -64,7 +64,7 @@ name: Archer
 nav: Providers
 network: true
 overview: Archer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payouts, Stablecoins, and Fintech.
-random_paper: 13
+random_paper: 76
 score:
   band: minimal
   composite: 7.0

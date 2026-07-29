@@ -48,7 +48,7 @@ name: Glints
 nav: Providers
 network: true
 overview: Glints is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Recruitment, Talent, and Jobs.
-random_paper: 41
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

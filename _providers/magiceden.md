@@ -275,7 +275,7 @@ plans:
 - name: Magiceden Plans
   plan_count: 2
   slug: magiceden-plans
-random_paper: 1
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Magiceden Rate Limits

@@ -231,7 +231,7 @@ plans:
 - name: Imgur Plans Pricing
   plan_count: 4
   slug: imgur-plans-pricing
-random_paper: 9
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Imgur Rate Limits

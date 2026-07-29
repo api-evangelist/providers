@@ -84,7 +84,7 @@ plans:
 - name: Data Gov Il Plans Pricing
   plan_count: 1
   slug: data-gov-il-plans-pricing
-random_paper: 44
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Data Gov Il Rate Limits

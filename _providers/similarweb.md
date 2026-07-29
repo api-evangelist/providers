@@ -180,7 +180,7 @@ plans:
 - name: Similarweb Plans Pricing
   plan_count: 3
   slug: similarweb-plans-pricing
-random_paper: 70
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Similarweb Rate Limits

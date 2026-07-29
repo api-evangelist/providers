@@ -152,7 +152,7 @@ overview: 'Chartbeat publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Chartbeat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 18
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Chartbeat Rate Limits

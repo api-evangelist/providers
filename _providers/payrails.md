@@ -199,7 +199,7 @@ overview: 'Payrails publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Payrails'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 28 more developer resources.'
-random_paper: 22
+random_paper: 0
 score:
   band: strong
   composite: 56.3

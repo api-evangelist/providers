@@ -3419,7 +3419,7 @@ plans:
 - name: Wso2 Plans Pricing
   plan_count: 14
   slug: wso2-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Wso2 Rate Limits

@@ -227,7 +227,7 @@ plans:
 - name: Xata Plans Pricing
   plan_count: 4
   slug: xata-plans-pricing
-random_paper: 45
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Xata Rate Limits

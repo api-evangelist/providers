@@ -144,7 +144,7 @@ overview: 'Yunqi (ClickZetta / Singdata Lakehouse) is profiled on the [APIs.io](
 
 
   Yunqi (ClickZetta / Singdata Lakehouse)''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, changelog, and 17 more developer resources.'
-random_paper: 27
+random_paper: 13
 score:
   band: thin
   composite: 34.1

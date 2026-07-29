@@ -158,7 +158,7 @@ overview: 'Wistia publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Wistia''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 41
+random_paper: 25
 rules:
 - name: Wistia API Rules
   rule_count: 8

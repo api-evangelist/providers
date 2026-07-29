@@ -180,7 +180,7 @@ overview: 'Boost publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boost''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 18 more developer resources.'
-random_paper: 12
+random_paper: 77
 score:
   band: developing
   composite: 42.5

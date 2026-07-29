@@ -48,7 +48,7 @@ name: Edia
 nav: Providers
 network: true
 overview: Edia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, K-12, and Artificial Intelligence.
-random_paper: 18
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

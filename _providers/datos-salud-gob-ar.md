@@ -84,7 +84,7 @@ plans:
 - name: Datos Salud Gob Ar Plans Pricing
   plan_count: 1
   slug: datos-salud-gob-ar-plans-pricing
-random_paper: 40
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Datos Salud Gob Ar Rate Limits

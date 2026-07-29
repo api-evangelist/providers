@@ -63,7 +63,7 @@ overview: 'Webster Bank is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Webster Bank''s developer surface includes documentation, support, and 5 more developer resources.'
-random_paper: 66
+random_paper: 36
 score:
   band: minimal
   composite: 12.7

@@ -125,7 +125,7 @@ overview: 'Enapi publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Enapi''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 12 more developer resources.'
-random_paper: 63
+random_paper: 51
 score:
   band: thin
   composite: 32.5

@@ -120,7 +120,7 @@ plans:
 - name: Argil Plans Pricing
   plan_count: 4
   slug: argil-plans-pricing
-random_paper: 65
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Argil Rate Limits

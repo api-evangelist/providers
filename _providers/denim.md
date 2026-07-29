@@ -178,7 +178,7 @@ overview: 'Denim publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Denim''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 63
+random_paper: 51
 score:
   band: developing
   composite: 47.5

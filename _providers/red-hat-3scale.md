@@ -408,7 +408,7 @@ plans:
 - name: Red Hat 3Scale Plans Pricing
   plan_count: 2
   slug: red-hat-3scale-plans-pricing
-random_paper: 61
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Red Hat 3Scale Rate Limits

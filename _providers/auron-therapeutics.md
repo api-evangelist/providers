@@ -64,7 +64,7 @@ name: Auron Therapeutics
 nav: Providers
 network: true
 overview: Auron Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Drug Discovery.
-random_paper: 43
+random_paper: 74
 score:
   band: minimal
   composite: 10.5

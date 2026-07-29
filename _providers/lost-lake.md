@@ -48,7 +48,7 @@ name: Lost Lake Games
 nav: Providers
 network: true
 overview: Lost Lake Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Gaming, Game Studio, and Entertainment.
-random_paper: 61
+random_paper: 39
 score:
   band: minimal
   composite: 5.0

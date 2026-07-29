@@ -76,7 +76,7 @@ plans:
 - name: Take Two Interactive Plans Pricing
   plan_count: 1
   slug: take-two-interactive-plans-pricing
-random_paper: 37
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Take Two Interactive Rate Limits

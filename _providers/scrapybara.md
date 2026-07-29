@@ -133,7 +133,7 @@ plans:
 - name: Scrapybara Plans Pricing
   plan_count: 4
   slug: scrapybara-plans-pricing
-random_paper: 63
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Scrapybara Rate Limits

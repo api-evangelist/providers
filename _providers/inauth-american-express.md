@@ -52,7 +52,7 @@ name: InAuth (American Express)
 nav: Providers
 network: true
 overview: InAuth (American Express) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Fraud Prevention, Device Intelligence, and Authentication.
-random_paper: 39
+random_paper: 58
 score:
   band: minimal
   composite: 8.2

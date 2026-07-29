@@ -95,7 +95,7 @@ overview: 'Maxwell Financial is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Maxwell Financial''s developer surface includes documentation, support, engineering blog, changelog, and 9 more developer resources.'
-random_paper: 46
+random_paper: 2
 score:
   band: emerging
   composite: 17.1

@@ -108,7 +108,7 @@ overview: 'Pico is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pico''s developer surface includes authentication, changelog, documentation, developer portal, engineering blog, support, and 10 more developer resources.'
-random_paper: 62
+random_paper: 32
 scopes:
 - name: Pico Trading Scopes
   scope_count: 36

@@ -65,7 +65,7 @@ name: Marvin
 nav: Providers
 network: true
 overview: Marvin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Payments, and Receivables.
-random_paper: 37
+random_paper: 21
 score:
   band: minimal
   composite: 5.7

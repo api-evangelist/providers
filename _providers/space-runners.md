@@ -48,7 +48,7 @@ name: Space Runners
 nav: Providers
 network: true
 overview: Space Runners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Digital Fashion, NFT, and Metaverse.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

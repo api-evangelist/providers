@@ -188,7 +188,7 @@ overview: 'PubMatic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PubMatic''s developer surface includes GitHub presence, engineering blog, privacy policy, YouTube channel, and 30 more developer resources.'
-random_paper: 6
+random_paper: 63
 score:
   band: emerging
   composite: 21.6

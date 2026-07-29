@@ -83,7 +83,7 @@ overview: 'Gatheround is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Gatheround''s developer surface includes pricing, signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 72
+random_paper: 46
 score:
   band: emerging
   composite: 15.2

@@ -83,7 +83,7 @@ overview: 'Bonfire Interactive is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Bonfire Interactive''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 43
+random_paper: 72
 score:
   band: emerging
   composite: 19.4

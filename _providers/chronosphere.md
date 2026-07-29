@@ -199,7 +199,7 @@ plans:
 - name: Chronosphere Plans Pricing
   plan_count: 3
   slug: chronosphere-plans-pricing
-random_paper: 64
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Chronosphere Rate Limits

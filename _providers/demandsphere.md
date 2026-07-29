@@ -180,7 +180,7 @@ overview: 'DemandSphere publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   DemandSphere''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 32
+random_paper: 0
 score:
   band: developing
   composite: 54.1

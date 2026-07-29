@@ -183,7 +183,7 @@ overview: 'Corelayer publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Corelayer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 42
+random_paper: 18
 score:
   band: developing
   composite: 55.4

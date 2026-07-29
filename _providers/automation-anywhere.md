@@ -522,7 +522,7 @@ plans:
 - name: Automation Anywhere Plans Pricing
   plan_count: 4
   slug: automation-anywhere-plans-pricing
-random_paper: 76
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Automation Anywhere Rate Limits

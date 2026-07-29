@@ -48,7 +48,7 @@ name: Swag.com
 nav: Providers
 network: true
 overview: Swag.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Promotional Products, Branded Merchandise, Swag, and E-commerce.
-random_paper: 60
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

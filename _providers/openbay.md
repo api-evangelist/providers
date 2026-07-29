@@ -59,7 +59,7 @@ overview: 'Openbay is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Openbay''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 57
+random_paper: 39
 score:
   band: minimal
   composite: 8.3

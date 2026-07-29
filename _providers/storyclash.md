@@ -115,7 +115,7 @@ overview: 'Storyclash publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Storyclash''s developer surface includes documentation, pricing, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 22
+random_paper: 73
 score:
   band: thin
   composite: 40.6

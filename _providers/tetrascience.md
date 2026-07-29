@@ -375,7 +375,7 @@ plans:
 - name: Tetrascience Plans Pricing
   plan_count: 3
   slug: tetrascience-plans-pricing
-random_paper: 42
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Tetrascience Rate Limits

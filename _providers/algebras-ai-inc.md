@@ -191,7 +191,7 @@ overview: 'Algebras AI Inc. publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   Algebras AI Inc.''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 53
+random_paper: 17
 score:
   band: developing
   composite: 46.5

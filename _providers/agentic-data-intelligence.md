@@ -91,7 +91,7 @@ overview: 'Agentic Data Intelligence is profiled on the [APIs.io](https://apis.i
 
 
   Agentic Data Intelligence''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 34
+random_paper: 49
 score:
   band: emerging
   composite: 16.2

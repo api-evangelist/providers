@@ -95,7 +95,7 @@ overview: 'Upmem is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Upmem''s developer surface includes documentation, getting-started guide, support, CLI, sandbox, changelog, and 7 more developer resources.'
-random_paper: 9
+random_paper: 74
 score:
   band: emerging
   composite: 18.3

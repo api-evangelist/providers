@@ -166,7 +166,7 @@ overview: 'SOFY publishes 2 APIs on the [APIs.io](https://apis.io/) network: App
 
 
   SOFY''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 19 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: developing
   composite: 50.4

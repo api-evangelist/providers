@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: CPI News and Updates
   url: https://www.cranepi.com/en/news
-random_paper: 59
+random_paper: 47
 score:
   band: minimal
   composite: 4.3

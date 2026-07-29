@@ -227,7 +227,7 @@ plans:
 - name: Abacus Plans Pricing
   plan_count: 3
   slug: abacus-plans-pricing
-random_paper: 7
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Abacus Rate Limits

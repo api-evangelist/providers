@@ -207,7 +207,7 @@ overview: 'Figure Technology Solutions publishes 8 APIs on the [APIs.io](https:/
 
 
   Figure Technology Solutions'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 23 more developer resources.'
-random_paper: 52
+random_paper: 59
 score:
   band: developing
   composite: 46.6

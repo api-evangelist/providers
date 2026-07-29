@@ -168,7 +168,7 @@ plans:
 - name: S And P Global Plans Pricing
   plan_count: 1
   slug: s-and-p-global-plans-pricing
-random_paper: 62
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: S And P Global Rate Limits

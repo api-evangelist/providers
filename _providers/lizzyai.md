@@ -99,7 +99,7 @@ overview: 'Lizzyai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lizzyai''s developer surface includes signup flow, pricing, engineering blog, documentation, support, FAQ, YouTube channel, and 7 more developer resources.'
-random_paper: 10
+random_paper: 69
 score:
   band: emerging
   composite: 17.0

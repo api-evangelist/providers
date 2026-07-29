@@ -100,7 +100,7 @@ overview: 'App.net publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   App.net''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 32
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Appnet Rate Limits

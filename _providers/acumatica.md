@@ -104,7 +104,7 @@ plans:
 - name: Acumatica Plans Pricing
   plan_count: 4
   slug: acumatica-plans-pricing
-random_paper: 12
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Acumatica Rate Limits

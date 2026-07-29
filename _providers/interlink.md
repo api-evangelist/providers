@@ -55,7 +55,7 @@ overview: 'Interlink is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Interlink''s developer surface includes GitHub presence, documentation, and 1 more developer resources.'
-random_paper: 52
+random_paper: 28
 score:
   band: minimal
   composite: 7.4

@@ -147,7 +147,7 @@ overview: 'Real Gift Services publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Real Gift Services'' developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 33
+random_paper: 66
 score:
   band: developing
   composite: 42.1

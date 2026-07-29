@@ -44,7 +44,7 @@ name: Yatra
 nav: Providers
 network: true
 overview: Yatra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Unknown.
-random_paper: 6
+random_paper: 71
 score:
   band: minimal
   composite: 4.1

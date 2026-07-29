@@ -104,7 +104,7 @@ overview: 'Signify Group is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Signify Group''s developer surface includes engineering blog, product news, and 13 more developer resources.'
-random_paper: 26
+random_paper: 67
 score:
   band: minimal
   composite: 5.4

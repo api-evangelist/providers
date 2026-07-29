@@ -79,7 +79,7 @@ overview: 'Sumeria is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sumeria''s developer surface includes engineering blog, pricing, signup flow, and 6 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: emerging
   composite: 15.6

@@ -75,7 +75,7 @@ overview: 'Easop is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Easop''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: emerging
   composite: 13.1

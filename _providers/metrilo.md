@@ -165,7 +165,7 @@ overview: 'Metrilo publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Metrilo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: developing
   composite: 45.4

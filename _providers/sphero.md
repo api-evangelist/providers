@@ -87,7 +87,7 @@ overview: 'Sphero is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sphero''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 41
+random_paper: 25
 score:
   band: emerging
   composite: 14.6

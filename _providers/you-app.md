@@ -48,7 +48,7 @@ name: YOU-app
 nav: Providers
 network: true
 overview: YOU-app is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wellbeing, Health, Wellness, and Mobile App.
-random_paper: 22
+random_paper: 4
 score:
   band: minimal
   composite: 5.4

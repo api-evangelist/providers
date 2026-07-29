@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Data centers and Entergy customers - We power life.
   url: https://www.entergy.com/datacenters
-random_paper: 73
+random_paper: 55
 score:
   band: minimal
   composite: 5.0

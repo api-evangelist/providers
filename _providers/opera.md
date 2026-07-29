@@ -162,7 +162,7 @@ overview: 'Opera publishes 3 APIs on the [APIs.io](https://apis.io/) network: In
 
 
   Opera''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 19 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: developing
   composite: 46.0

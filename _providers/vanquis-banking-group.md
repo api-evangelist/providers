@@ -182,7 +182,7 @@ overview: 'Vanquis Banking Group publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Vanquis Banking Group''s developer surface includes authentication, documentation, signup flow, support, and 24 more developer resources.'
-random_paper: 73
+random_paper: 19
 scopes:
 - name: Vanquis Banking Group Scopes
   scope_count: 3

@@ -67,7 +67,7 @@ overview: 'KeyCare is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   KeyCare''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 47
+random_paper: 29
 score:
   band: minimal
   composite: 11.6

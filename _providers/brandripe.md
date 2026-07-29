@@ -83,7 +83,7 @@ overview: 'Brandripe is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Brandripe''s developer surface includes getting-started guide, pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 27
+random_paper: 3
 score:
   band: emerging
   composite: 17.4

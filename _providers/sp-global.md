@@ -734,7 +734,7 @@ plans:
 - name: Sp Global Plans Pricing
   plan_count: 7
   slug: sp-global-plans-pricing
-random_paper: 50
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Sp Global Rate Limits

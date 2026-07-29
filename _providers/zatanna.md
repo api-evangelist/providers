@@ -73,7 +73,7 @@ name: Zatanna
 nav: Providers
 network: true
 overview: Zatanna publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API, MCP, AI Agents, and Integration.
-random_paper: 56
+random_paper: 38
 scopes:
 - name: Zatanna Scopes
   scope_count: 4

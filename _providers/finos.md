@@ -208,7 +208,7 @@ plans:
 - name: Finos Plans Pricing
   plan_count: 5
   slug: finos-plans-pricing
-random_paper: 4
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Finos Rate Limits

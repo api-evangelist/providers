@@ -127,7 +127,7 @@ plans:
 - name: Ratehawk Plans Pricing
   plan_count: 3
   slug: ratehawk-plans-pricing
-random_paper: 8
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Ratehawk Rate Limits

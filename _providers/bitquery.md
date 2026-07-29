@@ -126,7 +126,7 @@ plans:
 - name: Bitquery Plans Pricing
   plan_count: 1
   slug: bitquery-plans-pricing
-random_paper: 38
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Bitquery Rate Limits

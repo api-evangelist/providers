@@ -79,7 +79,7 @@ overview: 'Adalo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Adalo''s developer surface includes documentation, pricing, signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 51
+random_paper: 39
 score:
   band: minimal
   composite: 11.8

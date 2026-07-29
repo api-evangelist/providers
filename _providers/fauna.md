@@ -210,7 +210,7 @@ plans:
 - name: Fauna Plans Pricing
   plan_count: 4
   slug: fauna-plans-pricing
-random_paper: 61
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Fauna Rate Limits

@@ -56,7 +56,7 @@ name: Git.io
 nav: Providers
 network: true
 overview: Git.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include URL Shorteners and Public APIs.
-random_paper: 46
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

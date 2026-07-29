@@ -75,7 +75,7 @@ overview: 'Crosschq is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Crosschq''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: minimal
   composite: 12.6

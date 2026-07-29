@@ -84,7 +84,7 @@ plans:
 - name: Datosabiertos Mendoza Gov Ar Plans Pricing
   plan_count: 1
   slug: datosabiertos-mendoza-gov-ar-plans-pricing
-random_paper: 52
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Datosabiertos Mendoza Gov Ar Rate Limits

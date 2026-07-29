@@ -180,7 +180,7 @@ overview: 'Palmetto publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Palmetto''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: developing
   composite: 48.4

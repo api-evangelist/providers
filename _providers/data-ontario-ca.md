@@ -84,7 +84,7 @@ plans:
 - name: Data Ontario Ca Plans Pricing
   plan_count: 1
   slug: data-ontario-ca-plans-pricing
-random_paper: 74
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Data Ontario Ca Rate Limits

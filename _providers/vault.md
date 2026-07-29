@@ -443,7 +443,7 @@ plans:
 - name: Vault Plans Pricing
   plan_count: 3
   slug: vault-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Vault Rate Limits

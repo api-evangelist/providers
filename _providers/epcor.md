@@ -173,7 +173,7 @@ overview: 'EPCOR publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   EPCOR''s developer surface includes authentication, developer portal, support, engineering blog, and 21 more developer resources.'
-random_paper: 75
+random_paper: 63
 score:
   band: thin
   composite: 39.3

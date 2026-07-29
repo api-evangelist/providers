@@ -198,7 +198,7 @@ plans:
 - name: Carsxe Plans Pricing
   plan_count: 3
   slug: carsxe-plans-pricing
-random_paper: 30
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Carsxe Rate Limits

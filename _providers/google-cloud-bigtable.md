@@ -167,7 +167,7 @@ plans:
 - name: Google Cloud Bigtable Plans Pricing
   plan_count: 3
   slug: google-cloud-bigtable-plans-pricing
-random_paper: 9
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Google Cloud Bigtable Rate Limits

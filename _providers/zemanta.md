@@ -56,7 +56,7 @@ name: Zemanta
 nav: Providers
 network: true
 overview: Zemanta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Native Advertising, Programmatic, and DSP.
-random_paper: 59
+random_paper: 41
 score:
   band: minimal
   composite: 9.2

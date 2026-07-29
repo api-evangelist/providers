@@ -48,7 +48,7 @@ name: Orbicle Bio
 nav: Providers
 network: true
 overview: Orbicle Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Agriculture, Climate Tech, and Fertilizers.
-random_paper: 17
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

@@ -79,7 +79,7 @@ overview: 'Media Chain is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Media Chain''s developer surface includes documentation, CLI, and 7 more developer resources.'
-random_paper: 71
+random_paper: 45
 score:
   band: minimal
   composite: 10.0

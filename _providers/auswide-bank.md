@@ -146,7 +146,7 @@ overview: 'Auswide Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Auswide Bank''s developer surface includes authentication, documentation, support, and 16 more developer resources.'
-random_paper: 56
+random_paper: 26
 scopes:
 - name: Auswide Bank Scopes
   scope_count: 5

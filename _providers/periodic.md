@@ -51,7 +51,7 @@ overview: 'Periodic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Periodic''s developer surface includes support and 1 more developer resources.'
-random_paper: 0
+random_paper: 57
 score:
   band: minimal
   composite: 5.9

@@ -75,7 +75,7 @@ overview: 'EXIGER is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   EXIGER''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 28
+random_paper: 12
 score:
   band: emerging
   composite: 13.7

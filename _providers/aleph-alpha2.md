@@ -116,7 +116,7 @@ overview: 'Aleph Alpha2 publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Aleph Alpha2''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 57
+random_paper: 29
 score:
   band: thin
   composite: 28.0

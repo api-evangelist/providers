@@ -124,7 +124,7 @@ overview: 'Legal & General is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Legal & General''s developer surface includes changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 31
+random_paper: 68
 score:
   band: emerging
   composite: 25.2

@@ -152,7 +152,7 @@ overview: 'UrbanLogiq publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   UrbanLogiq''s developer surface includes documentation, engineering blog, support, CLI, authentication, sandbox, and 19 more developer resources.'
-random_paper: 75
+random_paper: 49
 score:
   band: thin
   composite: 34.8

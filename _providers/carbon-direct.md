@@ -100,7 +100,7 @@ plans:
 - name: Carbon Direct Plans Pricing
   plan_count: 1
   slug: carbon-direct-plans-pricing
-random_paper: 0
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Carbon Direct Rate Limits

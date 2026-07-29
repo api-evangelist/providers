@@ -87,7 +87,7 @@ plans:
 - name: Lightning Labs Plans Pricing
   plan_count: 3
   slug: lightning-labs-plans-pricing
-random_paper: 41
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Lightning Labs Rate Limits

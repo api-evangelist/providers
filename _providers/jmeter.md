@@ -84,7 +84,7 @@ plans:
 - name: Jmeter Plans Pricing
   plan_count: 3
   slug: jmeter-plans-pricing
-random_paper: 31
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Jmeter Rate Limits

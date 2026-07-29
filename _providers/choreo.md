@@ -328,7 +328,7 @@ plans:
 - name: Choreo Plans Pricing
   plan_count: 3
   slug: choreo-plans-pricing
-random_paper: 24
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Choreo Rate Limits

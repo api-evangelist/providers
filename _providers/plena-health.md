@@ -48,7 +48,7 @@ name: Plena Health
 nav: Providers
 network: true
 overview: Plena Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Medical Practice, and Artificial Intelligence.
-random_paper: 48
+random_paper: 18
 score:
   band: minimal
   composite: 5.4

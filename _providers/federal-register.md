@@ -60,7 +60,7 @@ name: Federal Register
 nav: Providers
 network: true
 overview: Federal Register publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 20
+random_paper: 57
 score:
   band: minimal
   composite: 8.2

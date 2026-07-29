@@ -150,7 +150,7 @@ press:
 - date: '2026-05-25'
   title: SPX FLOW and Siemens collaborate on revolutionary ...
   url: https://www.prnewswire.com/news-releases/spx-flow-and-siemens-collaborate-on-revolutionary-digital-twin-and-ai-product-design-302363262.html
-random_paper: 39
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Spx Rate Limits

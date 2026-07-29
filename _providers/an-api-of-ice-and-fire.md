@@ -126,7 +126,7 @@ overview: 'An API of Ice And Fire publishes 4 APIs on the [APIs.io](https://apis
 
 
   An API of Ice And Fire''s developer surface includes documentation and 12 more developer resources.'
-random_paper: 68
+random_paper: 18
 rules:
 - name: An API of Ice And Fire API Rules
   rule_count: 53

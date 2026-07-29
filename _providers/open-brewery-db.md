@@ -137,7 +137,7 @@ plans:
 - name: Open Brewery Db Plans Pricing
   plan_count: 1
   slug: open-brewery-db-plans-pricing
-random_paper: 27
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Open Brewery Db Rate Limits

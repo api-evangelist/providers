@@ -107,7 +107,7 @@ overview: 'CleverPet is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CleverPet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 11 more developer resources.'
-random_paper: 46
+random_paper: 22
 score:
   band: emerging
   composite: 23.2

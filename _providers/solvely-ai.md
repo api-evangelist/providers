@@ -79,7 +79,7 @@ overview: 'Solvely Ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Solvely Ai''s developer surface includes pricing, engineering blog, support, and 6 more developer resources.'
-random_paper: 28
+random_paper: 2
 score:
   band: emerging
   composite: 15.2

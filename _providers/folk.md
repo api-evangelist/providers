@@ -168,7 +168,7 @@ plans:
 - name: Folk Plans Pricing
   plan_count: 3
   slug: folk-plans-pricing
-random_paper: 43
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Folk Rate Limits

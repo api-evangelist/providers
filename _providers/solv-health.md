@@ -87,7 +87,7 @@ plans:
 - name: Solv Health Plans Pricing
   plan_count: 2
   slug: solv-health-plans-pricing
-random_paper: 49
+random_paper: 21
 score:
   band: emerging
   composite: 13.0

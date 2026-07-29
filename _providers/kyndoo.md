@@ -83,7 +83,7 @@ overview: 'Kyndoo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kyndoo''s developer surface includes YouTube channel and 9 more developer resources.'
-random_paper: 44
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

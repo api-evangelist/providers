@@ -83,7 +83,7 @@ overview: 'Aquant.io is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Aquant.io''s developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 19
+random_paper: 76
 score:
   band: emerging
   composite: 15.4

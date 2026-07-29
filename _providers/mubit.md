@@ -67,7 +67,7 @@ overview: 'Mubit is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Mubit''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 6
+random_paper: 71
 score:
   band: minimal
   composite: 12.3

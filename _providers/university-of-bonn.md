@@ -148,7 +148,7 @@ plans:
 - name: University Of Bonn Plans Pricing
   plan_count: 2
   slug: university-of-bonn-plans-pricing
-random_paper: 6
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: University Of Bonn Rate Limits

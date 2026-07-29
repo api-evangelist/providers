@@ -145,7 +145,7 @@ plans:
 - name: Pendo Plans Pricing
   plan_count: 1
   slug: pendo-plans-pricing
-random_paper: 72
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Pendo Rate Limits

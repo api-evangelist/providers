@@ -289,7 +289,7 @@ plans:
 - name: Mathpix Plans Pricing
   plan_count: 4
   slug: mathpix-plans-pricing
-random_paper: 70
+random_paper: 52
 rate_limits:
 - limit_count: 7
   name: Mathpix Rate Limits

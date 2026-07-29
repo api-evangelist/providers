@@ -79,7 +79,7 @@ overview: 'Milo Credit is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Milo Credit''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 35
+random_paper: 7
 score:
   band: emerging
   composite: 14.7

@@ -39,7 +39,7 @@ name: Prominet
 nav: Providers
 network: true
 overview: Prominet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Infrastructure.
-random_paper: 31
+random_paper: 9
 score:
   band: minimal
   composite: 4.1

@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Altimeter Capital
 nav: Providers
 network: true
-random_paper: 52
+random_paper: 8
 slug: altimeter-capital
 tags:
 - Venture Capital

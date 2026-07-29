@@ -59,7 +59,7 @@ overview: 'CAPS is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   CAPS''s developer surface includes support and 3 more developer resources.'
-random_paper: 38
+random_paper: 28
 score:
   band: minimal
   composite: 8.6

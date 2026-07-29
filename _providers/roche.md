@@ -112,7 +112,7 @@ overview: 'Roche is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   The Roche catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 67
+random_paper: 55
 score:
   band: minimal
   composite: 11.0

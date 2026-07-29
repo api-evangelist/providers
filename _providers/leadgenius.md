@@ -206,7 +206,7 @@ overview: 'LeadGenius publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LeadGenius'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 56
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Leadgenius Rate Limits

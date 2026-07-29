@@ -95,7 +95,7 @@ overview: 'Scribd is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Scribd''s developer surface includes documentation, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 15
+random_paper: 78
 score:
   band: emerging
   composite: 20.7

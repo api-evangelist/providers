@@ -110,7 +110,7 @@ overview: 'Skullcandy publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Skullcandy''s developer surface includes authentication, documentation, support, and 10 more developer resources.'
-random_paper: 4
+random_paper: 55
 scopes:
 - name: Skullcandy Scopes
   scope_count: 4

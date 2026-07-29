@@ -95,7 +95,7 @@ overview: 'Modern Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Modern Health''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 11
+random_paper: 56
 score:
   band: emerging
   composite: 21.4

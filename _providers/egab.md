@@ -83,7 +83,7 @@ overview: 'Egab is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Egab''s developer surface includes support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 14
+random_paper: 4
 score:
   band: emerging
   composite: 13.9

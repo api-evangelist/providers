@@ -48,7 +48,7 @@ name: Bluestone
 nav: Providers
 network: true
 overview: Bluestone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Retail, and Jewelry.
-random_paper: 53
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

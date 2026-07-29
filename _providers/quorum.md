@@ -150,7 +150,7 @@ plans:
 - name: Quorum Plans Pricing
   plan_count: 1
   slug: quorum-plans-pricing
-random_paper: 65
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Quorum Rate Limits

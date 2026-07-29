@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Dollar General eyes AI optimization with new role
   url: https://www.grocerydive.com/news/dollar-general-ai-optimization-executive-role/804881/
-random_paper: 37
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Dollar Tree Rate Limits

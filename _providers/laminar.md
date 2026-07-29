@@ -180,7 +180,7 @@ plans:
 - name: Laminar Plans
   plan_count: 4
   slug: laminar-plans
-random_paper: 47
+random_paper: 29
 score:
   band: developing
   composite: 46.9

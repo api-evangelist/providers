@@ -80,7 +80,7 @@ plans:
 - name: Proxyman Plans Pricing
   plan_count: 3
   slug: proxyman-plans-pricing
-random_paper: 47
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Proxyman Rate Limits

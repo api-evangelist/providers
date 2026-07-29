@@ -48,7 +48,7 @@ name: tripod-glp
 nav: Providers
 network: true
 overview: tripod-glp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contract Research Organization, Pharmaceutical, Biomedical Research, and Clinical Trials.
-random_paper: 25
+random_paper: 78
 score:
   band: minimal
   composite: 5.4

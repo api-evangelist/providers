@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: Oshkosh Corporation
   url: https://www.facebook.com/oshkoshcorporation/posts/were-excited-to-announce-that-oshkosh-corporation-has-been-named-a-cio-100-award/1367076805458783/
-random_paper: 74
+random_paper: 56
 score:
   band: minimal
   composite: 9.7

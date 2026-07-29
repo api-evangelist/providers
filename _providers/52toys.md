@@ -112,7 +112,7 @@ overview: '52TOYS publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   52TOYS''s developer surface includes authentication, signup flow, support, and 12 more developer resources.'
-random_paper: 27
+random_paper: 13
 scopes:
 - name: 52Toys Scopes
   scope_count: 4

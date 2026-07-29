@@ -48,7 +48,7 @@ name: Cbeyond Com.
 nav: Providers
 network: true
 overview: Cbeyond Com. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, and Managed Services.
-random_paper: 26
+random_paper: 77
 score:
   band: minimal
   composite: 4.7

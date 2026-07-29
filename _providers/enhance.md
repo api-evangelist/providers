@@ -48,7 +48,7 @@ name: enhance
 nav: Providers
 network: true
 overview: enhance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, 500 Global, Portfolio Company, and VC-Backed.
-random_paper: 29
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

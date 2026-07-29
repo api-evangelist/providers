@@ -48,7 +48,7 @@ name: Cognosys
 nav: Providers
 network: true
 overview: Cognosys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
-random_paper: 38
+random_paper: 16
 score:
   band: minimal
   composite: 3.2

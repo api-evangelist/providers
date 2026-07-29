@@ -164,7 +164,7 @@ plans:
 - name: Google Cloud Service Mesh Plans Pricing
   plan_count: 3
   slug: google-cloud-service-mesh-plans-pricing
-random_paper: 25
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Google Cloud Service Mesh Rate Limits

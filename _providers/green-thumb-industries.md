@@ -87,7 +87,7 @@ overview: 'Green Thumb Industries is profiled on the [APIs.io](https://apis.io/)
 
 
   Green Thumb Industries'' developer surface includes product news and 10 more developer resources.'
-random_paper: 28
+random_paper: 49
 score:
   band: minimal
   composite: 7.7

@@ -173,7 +173,7 @@ plans:
 - name: Mailosaur Plans Pricing
   plan_count: 3
   slug: mailosaur-plans-pricing
-random_paper: 49
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Mailosaur Rate Limits

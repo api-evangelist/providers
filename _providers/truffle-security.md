@@ -118,7 +118,7 @@ overview: 'Truffle Security is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Truffle Security''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 76
+random_paper: 34
 score:
   band: thin
   composite: 38.0

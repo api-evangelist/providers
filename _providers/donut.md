@@ -83,7 +83,7 @@ overview: 'Donut is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Donut''s developer surface includes support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: emerging
   composite: 16.5

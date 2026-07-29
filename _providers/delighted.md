@@ -159,7 +159,7 @@ plans:
 - name: Delighted Plans Pricing
   plan_count: 6
   slug: delighted-plans-pricing
-random_paper: 14
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Delighted Rate Limits

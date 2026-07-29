@@ -194,7 +194,7 @@ plans:
 - name: Apache Software Foundation Plans Pricing
   plan_count: 3
   slug: apache-software-foundation-plans-pricing
-random_paper: 36
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Apache Software Foundation Rate Limits

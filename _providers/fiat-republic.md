@@ -195,7 +195,7 @@ overview: 'Fiat Republic publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Fiat Republic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 27 more developer resources.'
-random_paper: 10
+random_paper: 55
 rate_limits:
 - limit_count: 7
   name: Fiat Republic Rate Limits

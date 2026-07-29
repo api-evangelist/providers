@@ -55,7 +55,7 @@ overview: 'Blue River Technology is profiled on the [APIs.io](https://apis.io/) 
 
 
   Blue River Technology''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 58
+random_paper: 6
 score:
   band: minimal
   composite: 5.4

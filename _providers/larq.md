@@ -91,7 +91,7 @@ overview: 'LARQ is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   LARQ''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 47
+random_paper: 37
 score:
   band: minimal
   composite: 12.4

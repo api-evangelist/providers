@@ -240,7 +240,7 @@ overview: 'AstroPay publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   AstroPay''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, support, signup flow, and 22 more developer resources.'
-random_paper: 36
+random_paper: 14
 score:
   band: emerging
   composite: 23.6

@@ -72,7 +72,7 @@ plans:
 - name: Ferro Plans Pricing
   plan_count: 1
   slug: ferro-plans-pricing
-random_paper: 3
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Ferro Rate Limits

@@ -146,7 +146,7 @@ overview: 'Pepperdata publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Pepperdata''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, signup flow, and 15 more developer resources.'
-random_paper: 61
+random_paper: 35
 score:
   band: developing
   composite: 43.2

@@ -224,7 +224,7 @@ plans:
 - name: Ansible Playbooks Plans Pricing
   plan_count: 3
   slug: ansible-playbooks-plans-pricing
-random_paper: 65
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Ansible Playbooks Rate Limits

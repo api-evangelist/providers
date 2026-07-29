@@ -67,7 +67,7 @@ overview: 'Basking Biosciences is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Basking Biosciences'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 14
+random_paper: 43
 score:
   band: minimal
   composite: 9.7

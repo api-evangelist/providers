@@ -158,7 +158,7 @@ plans:
 - name: Ninetailed Plans Pricing
   plan_count: 3
   slug: ninetailed-plans-pricing
-random_paper: 52
+random_paper: 26
 rate_limits:
 - limit_count: 4
   name: Ninetailed Rate Limits

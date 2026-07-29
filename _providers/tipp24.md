@@ -48,7 +48,7 @@ name: Tipp24
 nav: Providers
 network: true
 overview: Tipp24 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Lottery, Gaming, and Gambling.
-random_paper: 8
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

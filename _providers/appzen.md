@@ -186,7 +186,7 @@ overview: 'AppZen publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   AppZen''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 13 more developer resources.'
-random_paper: 38
+random_paper: 22
 score:
   band: thin
   composite: 35.4

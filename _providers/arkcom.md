@@ -53,7 +53,7 @@ name: Ark.com
 nav: Providers
 network: true
 overview: Ark.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, People Search, Social Search, and Search Engine.
-random_paper: 21
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

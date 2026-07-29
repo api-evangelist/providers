@@ -166,7 +166,7 @@ overview: 'Injective publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Injective''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 19 more developer resources.'
-random_paper: 37
+random_paper: 13
 score:
   band: developing
   composite: 47.9

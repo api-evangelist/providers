@@ -44,7 +44,7 @@ name: Socialee
 nav: Providers
 network: true
 overview: Socialee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Social Commerce, Beauty, and Retail.
-random_paper: 67
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

@@ -147,7 +147,7 @@ overview: 'Forta publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Forta''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 1
+random_paper: 66
 score:
   band: developing
   composite: 44.9

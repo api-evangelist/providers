@@ -79,7 +79,7 @@ overview: 'Paraform is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Paraform''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 9
+random_paper: 66
 score:
   band: emerging
   composite: 13.1

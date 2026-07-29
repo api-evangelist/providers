@@ -80,7 +80,7 @@ plans:
 - name: Serverless Workflow Plans Pricing
   plan_count: 3
   slug: serverless-workflow-plans-pricing
-random_paper: 36
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Serverless Workflow Rate Limits

@@ -273,7 +273,7 @@ plans:
 - name: Hvault Plans Pricing
   plan_count: 4
   slug: hvault-plans-pricing
-random_paper: 44
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Hvault Rate Limits

@@ -48,7 +48,7 @@ name: Huixiaoer
 nav: Providers
 network: true
 overview: Huixiaoer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Events, Meetings, and Venue Booking.
-random_paper: 50
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

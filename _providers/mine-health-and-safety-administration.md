@@ -44,7 +44,7 @@ name: Mine Health and Safety Administration
 nav: Providers
 network: true
 overview: Mine Health and Safety Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Mining, Safety, and Health.
-random_paper: 8
+random_paper: 70
 score:
   band: minimal
   composite: 2.7

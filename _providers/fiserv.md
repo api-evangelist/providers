@@ -242,7 +242,7 @@ press:
 - date: '2026-05-25'
   title: Fiserv
   url: https://en.wikipedia.org/wiki/Fiserv
-random_paper: 39
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Fiserv Rate Limits

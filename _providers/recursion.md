@@ -48,7 +48,7 @@ name: Recursion
 nav: Providers
 network: true
 overview: Recursion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Drug Discovery, and Artificial Intelligence.
-random_paper: 62
+random_paper: 38
 score:
   band: minimal
   composite: 5.4

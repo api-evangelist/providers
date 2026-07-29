@@ -333,7 +333,7 @@ plans:
 - name: Nuxeo Plans Pricing
   plan_count: 2
   slug: nuxeo-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Nuxeo Rate Limits

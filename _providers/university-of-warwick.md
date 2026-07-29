@@ -117,7 +117,7 @@ plans:
 - name: University Of Warwick Plans Pricing
   plan_count: 2
   slug: university-of-warwick-plans-pricing
-random_paper: 29
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: University Of Warwick Rate Limits

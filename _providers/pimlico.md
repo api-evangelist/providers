@@ -208,7 +208,7 @@ plans:
 - name: Pimlico Plans
   plan_count: 2
   slug: pimlico-plans
-random_paper: 56
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Pimlico Rate Limits

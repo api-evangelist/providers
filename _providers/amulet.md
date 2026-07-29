@@ -67,7 +67,7 @@ overview: 'Amulet is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Amulet''s developer surface includes pricing and 5 more developer resources.'
-random_paper: 32
+random_paper: 16
 score:
   band: emerging
   composite: 13.9

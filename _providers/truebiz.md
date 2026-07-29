@@ -166,7 +166,7 @@ overview: 'TrueBiz publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TrueBiz''s developer surface includes developer portal, documentation, API reference, authentication, engineering blog, support, and 15 more developer resources.'
-random_paper: 3
+random_paper: 62
 score:
   band: thin
   composite: 40.2

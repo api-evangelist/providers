@@ -124,7 +124,7 @@ overview: 'Ema publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ema''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 76
+random_paper: 70
 score:
   band: emerging
   composite: 26.8

@@ -111,7 +111,7 @@ plans:
 - name: Rickandmorty Plans Pricing
   plan_count: 1
   slug: rickandmorty-plans-pricing
-random_paper: 71
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Rickandmorty Rate Limits

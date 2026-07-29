@@ -39,7 +39,7 @@ name: Platespin
 nav: Providers
 network: true
 overview: Platespin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtualization, Workload Migration, Data Center, and Disaster Recovery.
-random_paper: 52
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

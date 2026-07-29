@@ -422,7 +422,7 @@ plans:
 - name: Fieldwire Plans Pricing
   plan_count: 5
   slug: fieldwire-plans-pricing
-random_paper: 31
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Fieldwire Rate Limits

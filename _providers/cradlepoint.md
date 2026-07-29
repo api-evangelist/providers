@@ -248,7 +248,7 @@ plans:
 - name: Cradlepoint Plans Pricing
   plan_count: 5
   slug: cradlepoint-plans-pricing
-random_paper: 18
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Cradlepoint Rate Limits

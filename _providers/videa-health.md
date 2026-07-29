@@ -67,7 +67,7 @@ overview: 'VideaHealth is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   VideaHealth''s developer surface includes product news and 5 more developer resources.'
-random_paper: 41
+random_paper: 11
 score:
   band: minimal
   composite: 5.4

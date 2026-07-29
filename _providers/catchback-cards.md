@@ -52,7 +52,7 @@ name: Catchback Cards
 nav: Providers
 network: true
 overview: Catchback Cards is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trading Cards, Collectibles, Marketplace, and Consumer.
-random_paper: 23
+random_paper: 64
 score:
   band: minimal
   composite: 6.2

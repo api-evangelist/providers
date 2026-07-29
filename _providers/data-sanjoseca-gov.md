@@ -84,7 +84,7 @@ plans:
 - name: Data Sanjoseca Gov Plans Pricing
   plan_count: 1
   slug: data-sanjoseca-gov-plans-pricing
-random_paper: 12
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Data Sanjoseca Gov Rate Limits

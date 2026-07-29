@@ -179,7 +179,7 @@ overview: 'Mammoth Media publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Mammoth Media''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, CLI, and 23 more developer resources.'
-random_paper: 3
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Mammoth Media Rate Limits

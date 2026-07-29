@@ -79,7 +79,7 @@ overview: 'Equal Employment Opportunity Commission is profiled on the [APIs.io](
 
 
   Equal Employment Opportunity Commission''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 22
+random_paper: 74
 score:
   band: minimal
   composite: 6.9

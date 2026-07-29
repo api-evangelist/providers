@@ -180,7 +180,7 @@ overview: 'Greater Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Greater Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, support, and 19 more developer resources.'
-random_paper: 48
+random_paper: 18
 score:
   band: thin
   composite: 37.3

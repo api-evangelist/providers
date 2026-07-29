@@ -165,7 +165,7 @@ plans:
 - name: Ssl Tls Plans Pricing
   plan_count: 1
   slug: ssl-tls-plans-pricing
-random_paper: 29
+random_paper: 11
 rate_limits:
 - limit_count: 7
   name: Ssl Tls Rate Limits

@@ -128,7 +128,7 @@ overview: 'Uptycs publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Uptycs'' developer surface includes pricing, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 64
+random_paper: 48
 score:
   band: emerging
   composite: 25.7

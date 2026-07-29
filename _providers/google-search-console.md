@@ -396,7 +396,7 @@ plans:
 - name: Google Search Console Plans Pricing
   plan_count: 1
   slug: google-search-console-plans-pricing
-random_paper: 33
+random_paper: 58
 rate_limits:
 - limit_count: 11
   name: Google Search Console Rate Limits

@@ -160,7 +160,7 @@ overview: 'Medable publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Medable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: thin
   composite: 34.8

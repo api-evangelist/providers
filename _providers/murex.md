@@ -204,7 +204,7 @@ plans:
 - name: Murex Plans Pricing
   plan_count: 3
   slug: murex-plans-pricing
-random_paper: 22
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Murex Rate Limits

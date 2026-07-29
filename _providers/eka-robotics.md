@@ -60,7 +60,7 @@ name: Eka Robotics
 nav: Providers
 network: true
 overview: Eka Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Machine Learning, and Reinforcement Learning.
-random_paper: 64
+random_paper: 34
 score:
   band: minimal
   composite: 5.0

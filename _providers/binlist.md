@@ -56,7 +56,7 @@ name: Binlist
 nav: Providers
 network: true
 overview: Binlist publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
-random_paper: 64
+random_paper: 46
 score:
   band: minimal
   composite: 5.7

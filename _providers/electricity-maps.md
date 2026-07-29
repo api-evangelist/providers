@@ -123,7 +123,7 @@ plans:
 - name: Electricity Maps Plans Pricing
   plan_count: 3
   slug: electricity-maps-plans-pricing
-random_paper: 46
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Electricity Maps Rate Limits

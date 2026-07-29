@@ -381,7 +381,7 @@ plans:
 - name: United States Postal Service Plans Pricing
   plan_count: 2
   slug: united-states-postal-service-plans-pricing
-random_paper: 7
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: United States Postal Service Rate Limits

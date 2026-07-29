@@ -154,7 +154,7 @@ overview: 'The Estée Lauder Companies is profiled on the [APIs.io](https://apis
 
 
   The The Estée Lauder Companies catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 64
+random_paper: 8
 score:
   band: minimal
   composite: 10.5

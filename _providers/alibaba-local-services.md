@@ -39,7 +39,7 @@ name: Alibaba Local Services
 nav: Providers
 network: true
 overview: Alibaba Local Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Food Delivery, Local Services, and On-Demand.
-random_paper: 25
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

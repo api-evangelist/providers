@@ -44,7 +44,7 @@ name: oricell
 nav: Providers
 network: true
 overview: oricell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Cell Therapy, and Immunotherapy.
-random_paper: 53
+random_paper: 35
 score:
   band: minimal
   composite: 4.3

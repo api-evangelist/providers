@@ -48,7 +48,7 @@ name: Newsle
 nav: Providers
 network: true
 overview: Newsle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, News, News Alerts, Media Monitoring, and Natural Language Processing.
-random_paper: 38
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

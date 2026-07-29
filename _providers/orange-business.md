@@ -339,7 +339,7 @@ overview: 'Orange Business publishes 14 APIs on the [APIs.io](https://apis.io/) 
 
 
   Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 28 more developer resources.'
-random_paper: 17
+random_paper: 56
 score:
   band: thin
   composite: 34.7

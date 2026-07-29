@@ -128,7 +128,7 @@ plans:
 - name: Sops Plans Pricing
   plan_count: 3
   slug: sops-plans-pricing
-random_paper: 68
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Sops Rate Limits

@@ -107,7 +107,7 @@ overview: 'HData is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   HData''s developer surface includes engineering blog, support, signup flow, and 13 more developer resources.'
-random_paper: 52
+random_paper: 40
 score:
   band: emerging
   composite: 21.0

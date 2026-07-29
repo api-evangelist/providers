@@ -79,7 +79,7 @@ overview: 'Dyno Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Dyno Therapeutics'' developer surface includes CLI, engineering blog, and 7 more developer resources.'
-random_paper: 13
+random_paper: 46
 score:
   band: emerging
   composite: 13.6

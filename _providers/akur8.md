@@ -84,7 +84,7 @@ plans:
 - name: Akur8 Plans Pricing
   plan_count: 2
   slug: akur8-plans-pricing
-random_paper: 29
+random_paper: 17
 score:
   band: emerging
   composite: 14.2

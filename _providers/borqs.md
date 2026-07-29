@@ -83,7 +83,7 @@ overview: 'Borqs is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Borqs'' developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 12
+random_paper: 77
 score:
   band: minimal
   composite: 6.3

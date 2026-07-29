@@ -120,7 +120,7 @@ overview: 'Fxiaoke publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Fxiaoke''s developer surface includes documentation, API reference, getting-started guide, support, pricing, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 50
+random_paper: 32
 score:
   band: emerging
   composite: 27.0

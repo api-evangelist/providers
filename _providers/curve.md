@@ -75,7 +75,7 @@ overview: 'Curve is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Curve''s developer surface includes support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 10
+random_paper: 75
 score:
   band: emerging
   composite: 15.8

@@ -48,7 +48,7 @@ name: Allena Pharmaceuticals
 nav: Providers
 network: true
 overview: Allena Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Pharmaceuticals, Life Sciences, and Drug Development.
-random_paper: 23
+random_paper: 44
 score:
   band: minimal
   composite: 5.4

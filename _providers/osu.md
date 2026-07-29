@@ -39,7 +39,7 @@ name: Osu
 nav: Providers
 network: true
 overview: Osu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, SME, and Creandum Portfolio.
-random_paper: 35
+random_paper: 27
 score:
   band: minimal
   composite: 4.3

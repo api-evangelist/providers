@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Are You Ready for Intelligent Automation Solutions?
   url: https://www.sealedair.com/uk/resources/blog/automated-ecommerce-fulfillment-services-solution
-random_paper: 59
+random_paper: 35
 score:
   band: minimal
   composite: 2.6

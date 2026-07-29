@@ -52,7 +52,7 @@ name: Tattvam
 nav: Providers
 network: true
 overview: Tattvam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Chip Design, EDA, and Artificial Intelligence.
-random_paper: 76
+random_paper: 58
 score:
   band: minimal
   composite: 5.0

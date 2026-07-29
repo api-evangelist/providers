@@ -130,7 +130,7 @@ plans:
 - name: Endor Labs Plans Pricing
   plan_count: 2
   slug: endor-labs-plans-pricing
-random_paper: 75
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Endor Labs Rate Limits

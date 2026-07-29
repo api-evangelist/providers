@@ -263,7 +263,7 @@ plans:
 - name: Npm Plans Pricing
   plan_count: 4
   slug: npm-plans-pricing
-random_paper: 23
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Npm Rate Limits

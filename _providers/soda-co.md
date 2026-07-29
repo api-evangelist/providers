@@ -191,7 +191,7 @@ plans:
 - name: Soda Co Plans Pricing
   plan_count: 3
   slug: soda-co-plans-pricing
-random_paper: 62
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Soda Co Rate Limits

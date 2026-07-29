@@ -76,7 +76,7 @@ overview: 'Notch is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Notch''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 1
+random_paper: 66
 score:
   band: minimal
   composite: 6.8

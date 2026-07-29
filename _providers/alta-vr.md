@@ -71,7 +71,7 @@ overview: 'Alta VR is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Alta VR''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 2
+random_paper: 63
 score:
   band: minimal
   composite: 11.2

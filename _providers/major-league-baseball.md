@@ -213,7 +213,7 @@ overview: 'Major League Baseball publishes 31 APIs on the [APIs.io](https://apis
 
 
   Major League Baseball''s developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 74
+random_paper: 22
 score:
   band: emerging
   composite: 17.5

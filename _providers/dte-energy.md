@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: DTE Energy powers OpenAI Stargate with 1.4 GW data ...
   url: https://www.linkedin.com/posts/bill-chiu-b1aba93_expanding-stargate-to-michigan-activity-7392582899608215552-POq5
-random_paper: 11
+random_paper: 64
 score:
   band: minimal
   composite: 3.3

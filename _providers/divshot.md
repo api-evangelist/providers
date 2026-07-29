@@ -95,7 +95,7 @@ overview: 'Divshot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Divshot''s developer surface includes CLI, authentication, and 9 more developer resources.'
-random_paper: 76
+random_paper: 58
 score:
   band: emerging
   composite: 26.2

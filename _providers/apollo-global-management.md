@@ -47,7 +47,7 @@ overview: 'Apollo Global Management is profiled on the [APIs.io](https://apis.io
 
 
   Apollo Global Management''s developer surface includes documentation.'
-random_paper: 28
+random_paper: 45
 score:
   band: minimal
   composite: 6.7

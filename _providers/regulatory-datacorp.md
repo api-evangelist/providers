@@ -39,7 +39,7 @@ name: Regulatory DataCorp
 nav: Providers
 network: true
 overview: Regulatory DataCorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Compliance, Risk, and KYC.
-random_paper: 68
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

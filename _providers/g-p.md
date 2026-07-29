@@ -110,7 +110,7 @@ plans:
 - name: G P Plans Pricing
   plan_count: 3
   slug: g-p-plans-pricing
-random_paper: 29
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: G P Rate Limits

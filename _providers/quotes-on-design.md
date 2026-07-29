@@ -63,7 +63,7 @@ overview: 'Quotes on Design publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Quotes on Design''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 1
+random_paper: 38
 score:
   band: minimal
   composite: 6.2

@@ -71,7 +71,7 @@ overview: 'Carrot Fertility is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Carrot Fertility''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 67
+random_paper: 25
 score:
   band: emerging
   composite: 14.5

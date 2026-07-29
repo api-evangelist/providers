@@ -131,7 +131,7 @@ overview: 'Brooks Brothers is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Brooks Brothers'' developer surface includes signup flow, authentication, and 8 more developer resources.'
-random_paper: 34
+random_paper: 73
 score:
   band: minimal
   composite: 11.4

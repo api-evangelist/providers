@@ -152,7 +152,7 @@ overview: 'AppFolio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AppFolio''s developer surface includes Stack Overflow tag, GitHub presence, engineering blog, pricing, YouTube channel, and 21 more developer resources.'
-random_paper: 11
+random_paper: 68
 score:
   band: emerging
   composite: 21.6

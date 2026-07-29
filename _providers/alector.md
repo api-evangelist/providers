@@ -67,7 +67,7 @@ overview: 'Alector is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Alector''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 53
+random_paper: 35
 score:
   band: minimal
   composite: 11.6

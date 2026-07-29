@@ -71,7 +71,7 @@ overview: 'omniX labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   omniX labs'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 17
+random_paper: 70
 score:
   band: emerging
   composite: 13.1

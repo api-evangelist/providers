@@ -1544,7 +1544,7 @@ plans:
 - name: Tmdb Plans Pricing
   plan_count: 2
   slug: tmdb-plans-pricing
-random_paper: 38
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Tmdb Rate Limits

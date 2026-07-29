@@ -116,7 +116,7 @@ overview: 'CyberGRX publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   CyberGRX''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, sandbox, and 9 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: emerging
   composite: 19.0

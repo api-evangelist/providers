@@ -161,7 +161,7 @@ overview: 'Paylocity publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paylocity''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 66
+random_paper: 42
 scopes:
 - name: Paylocity Scopes
   scope_count: 1

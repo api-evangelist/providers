@@ -66,7 +66,7 @@ overview: 'Texas Capital Bank publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Texas Capital Bank''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 14
+random_paper: 47
 score:
   band: minimal
   composite: 9.8

@@ -129,7 +129,7 @@ plans:
 - name: Kubeflow Plans Pricing
   plan_count: 3
   slug: kubeflow-plans-pricing
-random_paper: 16
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Kubeflow Rate Limits

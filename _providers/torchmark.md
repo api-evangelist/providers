@@ -94,7 +94,7 @@ press:
 - date: '2026-05-25'
   title: Torchmark Corporation Declares Stock and Cash Dividends
   url: https://www.prnewswire.com/news-releases/torchmark-corporation-declares-stock-and-cash-dividends-121094679.html
-random_paper: 47
+random_paper: 23
 score:
   band: minimal
   composite: 5.6

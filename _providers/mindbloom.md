@@ -71,7 +71,7 @@ overview: 'Mindbloom is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mindbloom''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 37
+random_paper: 13
 score:
   band: emerging
   composite: 13.4

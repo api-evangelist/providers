@@ -338,7 +338,7 @@ plans:
 - name: Neon Plans Pricing
   plan_count: 3
   slug: neon-plans-pricing
-random_paper: 47
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Neon Rate Limits

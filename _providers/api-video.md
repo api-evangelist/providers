@@ -137,7 +137,7 @@ plans:
 - name: Api Video Plans Pricing
   plan_count: 3
   slug: api-video-plans-pricing
-random_paper: 47
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Api Video Rate Limits

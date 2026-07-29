@@ -71,7 +71,7 @@ overview: 'Tozuda is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Tozuda''s developer surface includes support and 6 more developer resources.'
-random_paper: 47
+random_paper: 31
 score:
   band: minimal
   composite: 12.5

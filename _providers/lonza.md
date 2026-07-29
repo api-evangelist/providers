@@ -48,7 +48,7 @@ name: Lonza
 nav: Providers
 network: true
 overview: Lonza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceutical, Biotech, CDMO, and Manufacturing.
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 5.4

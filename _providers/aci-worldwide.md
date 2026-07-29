@@ -158,7 +158,7 @@ overview: 'ACI Worldwide publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   ACI Worldwide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 18 more developer resources.'
-random_paper: 14
+random_paper: 59
 score:
   band: developing
   composite: 49.0

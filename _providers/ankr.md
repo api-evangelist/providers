@@ -388,7 +388,7 @@ plans:
 - name: Ankr Plans Pricing
   plan_count: 4
   slug: ankr-plans-pricing
-random_paper: 43
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Ankr Rate Limits

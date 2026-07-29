@@ -120,7 +120,7 @@ overview: 'Graphistry publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Graphistry''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, authentication, changelog, and 10 more developer resources.'
-random_paper: 23
+random_paper: 74
 score:
   band: emerging
   composite: 26.5

@@ -112,7 +112,7 @@ plans:
 - name: Prodpad Plans Pricing
   plan_count: 7
   slug: prodpad-plans-pricing
-random_paper: 53
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Prodpad Rate Limits

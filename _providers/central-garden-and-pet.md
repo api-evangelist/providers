@@ -65,7 +65,7 @@ plans:
 - name: Central Garden And Pet Plans Pricing
   plan_count: 1
   slug: central-garden-and-pet-plans-pricing
-random_paper: 62
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Central Garden And Pet Rate Limits

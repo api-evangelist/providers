@@ -52,7 +52,7 @@ name: Circle of Moms
 nav: Providers
 network: true
 overview: Circle of Moms is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Parenting, Community, Social Network, and Online Forums.
-random_paper: 64
+random_paper: 30
 score:
   band: minimal
   composite: 5.7

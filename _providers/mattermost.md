@@ -145,7 +145,7 @@ overview: 'Mattermost publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Mattermost''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 26
+random_paper: 77
 rules:
 - name: Mattermost API Rules
   rule_count: 8

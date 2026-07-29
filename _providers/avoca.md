@@ -167,7 +167,7 @@ overview: 'Avoca publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Avoca''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, changelog, and 14 more developer resources.'
-random_paper: 60
+random_paper: 48
 score:
   band: developing
   composite: 50.1

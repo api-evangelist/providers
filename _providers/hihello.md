@@ -87,7 +87,7 @@ overview: 'HiHello is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   HiHello''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 48
+random_paper: 30
 score:
   band: emerging
   composite: 19.8

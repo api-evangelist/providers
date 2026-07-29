@@ -83,7 +83,7 @@ overview: 'Outpost Bio is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Outpost Bio''s developer surface includes engineering blog, support, CLI, and 7 more developer resources.'
-random_paper: 2
+random_paper: 51
 score:
   band: minimal
   composite: 12.5

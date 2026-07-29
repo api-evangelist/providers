@@ -155,7 +155,7 @@ plans:
 - name: Berachain Plans Pricing
   plan_count: 1
   slug: berachain-plans-pricing
-random_paper: 1
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Berachain Rate Limits

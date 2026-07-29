@@ -177,7 +177,7 @@ overview: 'Virtana (Virtual Instruments) publishes 3 APIs on the [APIs.io](https
 
 
   Virtana (Virtual Instruments)''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 21 more developer resources.'
-random_paper: 46
+random_paper: 73
 score:
   band: developing
   composite: 53.0

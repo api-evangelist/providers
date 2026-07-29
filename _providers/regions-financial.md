@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: Regions AI tool helps steer cross-selling
   url: https://www.americanbanker.com/news/regions-ai-tool-helps-steer-cross-selling
-random_paper: 43
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Regions Financial Rate Limits

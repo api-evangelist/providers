@@ -186,7 +186,7 @@ overview: 'Boltz publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boltz''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, sandbox, and 22 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: developing
   composite: 51.4

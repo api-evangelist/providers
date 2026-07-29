@@ -48,7 +48,7 @@ name: ScoreData
 nav: Providers
 network: true
 overview: ScoreData is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Predictive Analytics, and Data Science.
-random_paper: 26
+random_paper: 2
 score:
   band: minimal
   composite: 5.6

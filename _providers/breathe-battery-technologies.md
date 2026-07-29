@@ -120,7 +120,7 @@ overview: 'Breathe Battery Technologies publishes 1 API on the [APIs.io](https:/
 
 
   Breathe Battery Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 19
+random_paper: 24
 score:
   band: thin
   composite: 28.4

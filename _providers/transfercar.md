@@ -75,7 +75,7 @@ overview: 'Transfercar is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Transfercar''s developer surface includes support and 7 more developer resources.'
-random_paper: 24
+random_paper: 73
 score:
   band: minimal
   composite: 11.4

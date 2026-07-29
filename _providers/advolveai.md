@@ -52,7 +52,7 @@ name: Advolve.AI
 nav: Providers
 network: true
 overview: Advolve.AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Advertising, Marketing, and AdTech.
-random_paper: 31
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

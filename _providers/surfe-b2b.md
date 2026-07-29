@@ -117,7 +117,7 @@ plans:
 - name: Surfe B2B Plans Pricing
   plan_count: 4
   slug: surfe-b2b-plans-pricing
-random_paper: 70
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Surfe B2B Rate Limits

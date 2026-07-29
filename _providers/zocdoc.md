@@ -171,7 +171,7 @@ plans:
 - name: Zocdoc Plans Pricing
   plan_count: 2
   slug: zocdoc-plans-pricing
-random_paper: 26
+random_paper: 10
 rules:
 - name: Zocdoc API Rules
   rule_count: 6

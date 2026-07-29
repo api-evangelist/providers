@@ -79,7 +79,7 @@ overview: 'Cenos is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Cenos'' developer surface includes documentation, engineering blog, support, YouTube channel, and 5 more developer resources.'
-random_paper: 74
+random_paper: 62
 score:
   band: minimal
   composite: 12.3

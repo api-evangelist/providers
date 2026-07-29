@@ -71,7 +71,7 @@ overview: 'Eversettled is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Eversettled''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 36
+random_paper: 6
 score:
   band: minimal
   composite: 12.7

@@ -119,7 +119,7 @@ plans:
 - name: Loyaltylion Plans Pricing
   plan_count: 4
   slug: loyaltylion-plans-pricing
-random_paper: 61
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Loyaltylion Rate Limits

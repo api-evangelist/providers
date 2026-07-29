@@ -39,7 +39,7 @@ name: Inphi
 nav: Providers
 network: true
 overview: Inphi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Data Center, and Networking.
-random_paper: 74
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

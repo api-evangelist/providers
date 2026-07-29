@@ -67,7 +67,7 @@ overview: 'nlyte is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   nlyte''s developer surface includes engineering blog, pricing, support, and 3 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: minimal
   composite: 11.6

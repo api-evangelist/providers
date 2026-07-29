@@ -71,7 +71,7 @@ overview: 'AssistIQ Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   AssistIQ Technologies'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 54
+random_paper: 77
 score:
   band: minimal
   composite: 8.3

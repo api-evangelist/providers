@@ -112,7 +112,7 @@ overview: 'ACTIVE Network publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   ACTIVE Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 28
+random_paper: 71
 score:
   band: emerging
   composite: 24.1

@@ -111,7 +111,7 @@ plans:
 - name: University Of Melbourne Plans Pricing
   plan_count: 2
   slug: university-of-melbourne-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: University Of Melbourne Rate Limits

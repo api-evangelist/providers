@@ -56,7 +56,7 @@ name: Sansan
 nav: Providers
 network: true
 overview: Sansan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Contact Management, Business Cards, and CRM.
-random_paper: 28
+random_paper: 12
 score:
   band: minimal
   composite: 7.1

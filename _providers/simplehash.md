@@ -116,7 +116,7 @@ plans:
 - name: Simplehash Plans Pricing
   plan_count: 2
   slug: simplehash-plans-pricing
-random_paper: 69
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Simplehash Rate Limits

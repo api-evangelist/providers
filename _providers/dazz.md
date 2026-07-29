@@ -48,7 +48,7 @@ name: Dazz
 nav: Providers
 network: true
 overview: Dazz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cloud Security, Application Security, and ASPM.
-random_paper: 56
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

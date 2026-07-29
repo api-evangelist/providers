@@ -56,7 +56,7 @@ name: USGS Water Services
 nav: Providers
 network: true
 overview: USGS Water Services publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 30
+random_paper: 59
 score:
   band: minimal
   composite: 5.7

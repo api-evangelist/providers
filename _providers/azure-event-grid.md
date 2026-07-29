@@ -105,7 +105,7 @@ overview: 'Azure Event Grid publishes 2 APIs on the [APIs.io](https://apis.io/) 
 
 
   Azure Event Grid''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 69
+random_paper: 29
 scopes:
 - name: Azure Event Grid Scopes
   scope_count: 1

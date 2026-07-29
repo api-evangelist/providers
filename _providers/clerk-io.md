@@ -135,7 +135,7 @@ plans:
 - name: Clerk Io Plans Pricing
   plan_count: 3
   slug: clerk-io-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Clerk Io Rate Limits

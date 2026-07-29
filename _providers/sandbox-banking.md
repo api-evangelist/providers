@@ -173,7 +173,7 @@ plans:
 - name: Sandbox Banking Plans Pricing
   plan_count: 3
   slug: sandbox-banking-plans-pricing
-random_paper: 63
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Sandbox Banking Rate Limits

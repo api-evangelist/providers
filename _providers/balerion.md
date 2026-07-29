@@ -80,7 +80,7 @@ name: Balerion
 nav: Providers
 network: true
 overview: Balerion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Mortgage, Lending, and Underwriting.
-random_paper: 74
+random_paper: 54
 score:
   band: minimal
   composite: 10.0

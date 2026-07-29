@@ -99,7 +99,7 @@ overview: 'Exactera is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Exactera''s developer surface includes pricing, engineering blog, support, YouTube channel, and 10 more developer resources.'
-random_paper: 75
+random_paper: 55
 score:
   band: emerging
   composite: 19.5

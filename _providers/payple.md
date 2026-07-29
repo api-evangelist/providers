@@ -155,7 +155,7 @@ overview: 'Payple publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Payple''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 35
+random_paper: 19
 score:
   band: developing
   composite: 43.6

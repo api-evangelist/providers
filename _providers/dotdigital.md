@@ -130,7 +130,7 @@ plans:
 - name: Dotdigital Plans Pricing
   plan_count: 1
   slug: dotdigital-plans-pricing
-random_paper: 60
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Dotdigital Rate Limits

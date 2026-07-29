@@ -161,7 +161,7 @@ overview: 'Bank of Queensland publishes 7 APIs on the [APIs.io](https://apis.io/
 
 
   Bank of Queensland''s developer surface includes authentication, documentation, support, and 18 more developer resources.'
-random_paper: 16
+random_paper: 49
 scopes:
 - name: Bank Of Queensland Scopes
   scope_count: 9

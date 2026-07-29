@@ -79,7 +79,7 @@ overview: 'Elevarm is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Elevarm''s developer surface includes engineering blog, support, FAQ, and 6 more developer resources.'
-random_paper: 55
+random_paper: 37
 score:
   band: minimal
   composite: 10.5

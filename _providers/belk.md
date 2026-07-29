@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: BEAUTYSPACE Partners with Belk to Expand Retail and ...
   url: https://www.prnewswire.com/news-releases/beautyspace-partners-with-belk-to-expand-retail-and-digital-footprint-302730630.html
-random_paper: 29
+random_paper: 19
 score:
   band: minimal
   composite: 6.7

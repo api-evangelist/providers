@@ -91,7 +91,7 @@ overview: 'Motion is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Motion''s developer surface includes engineering blog, support, pricing, signup flow, changelog, FAQ, and 6 more developer resources.'
-random_paper: 46
+random_paper: 30
 score:
   band: emerging
   composite: 18.0

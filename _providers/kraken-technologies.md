@@ -182,7 +182,7 @@ overview: 'Kraken Technologies publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   Kraken Technologies'' developer surface includes authentication, changelog, documentation, SDKs, engineering blog, support, legal docs, and 27 more developer resources.'
-random_paper: 40
+random_paper: 69
 score:
   band: thin
   composite: 31.9

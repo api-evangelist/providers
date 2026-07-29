@@ -107,7 +107,7 @@ plans:
 - name: University Of Antwerp Plans Pricing
   plan_count: 2
   slug: university-of-antwerp-plans-pricing
-random_paper: 38
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: University Of Antwerp Rate Limits

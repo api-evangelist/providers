@@ -140,7 +140,7 @@ overview: 'Platform9 publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Platform9''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 2
+random_paper: 57
 score:
   band: thin
   composite: 36.2

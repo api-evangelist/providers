@@ -44,7 +44,7 @@ name: PICT
 nav: Providers
 network: true
 overview: PICT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Shoppable Media, Images, and Advertising.
-random_paper: 47
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

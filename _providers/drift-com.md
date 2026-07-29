@@ -180,7 +180,7 @@ plans:
 - name: Drift Com Plans Pricing
   plan_count: 1
   slug: drift-com-plans-pricing
-random_paper: 54
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Drift Com Rate Limits

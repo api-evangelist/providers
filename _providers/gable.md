@@ -91,7 +91,7 @@ overview: 'Gable is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Gable''s developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 45
+random_paper: 33
 score:
   band: emerging
   composite: 18.4

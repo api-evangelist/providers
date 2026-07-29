@@ -52,7 +52,7 @@ name: Ferguson
 nav: Providers
 network: true
 overview: Ferguson is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Distribution, Plumbing, HVAC, Building Supplies, and Fortune 500.
-random_paper: 26
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

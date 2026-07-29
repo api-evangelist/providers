@@ -87,7 +87,7 @@ overview: 'Zend is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zend''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 6 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: emerging
   composite: 18.4

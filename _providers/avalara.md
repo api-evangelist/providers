@@ -2467,7 +2467,7 @@ plans:
 - name: Avalara Plans Pricing
   plan_count: 5
   slug: avalara-plans-pricing
-random_paper: 35
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Avalara Rate Limits

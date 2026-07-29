@@ -236,7 +236,7 @@ plans:
 - name: Scylladb Plans Pricing
   plan_count: 4
   slug: scylladb-plans-pricing
-random_paper: 76
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Scylladb Rate Limits

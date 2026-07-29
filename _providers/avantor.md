@@ -48,7 +48,7 @@ name: Avantor
 nav: Providers
 network: true
 overview: Avantor is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 70
+random_paper: 52
 score:
   band: minimal
   composite: 3.3

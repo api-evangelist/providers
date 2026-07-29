@@ -63,7 +63,7 @@ overview: 'antengene is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   antengene''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 25
+random_paper: 1
 score:
   band: minimal
   composite: 10.8

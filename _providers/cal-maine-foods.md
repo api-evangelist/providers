@@ -52,7 +52,7 @@ name: Cal-Maine Foods
 nav: Providers
 network: true
 overview: Cal-Maine Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Food Production, Eggs, Consumer Goods, and Food and Beverage.
-random_paper: 69
+random_paper: 33
 score:
   band: minimal
   composite: 4.4

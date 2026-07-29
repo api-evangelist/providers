@@ -79,7 +79,7 @@ overview: 'Lowercarbon Capital is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Lowercarbon Capital''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 36
+random_paper: 65
 score:
   band: minimal
   composite: 8.4

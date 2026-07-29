@@ -39,7 +39,7 @@ name: Capital Requirements
 nav: Providers
 network: true
 overview: Capital Requirements is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Requirements, Finance, and Regulation.
-random_paper: 16
+random_paper: 41
 score:
   band: minimal
   composite: 4.1

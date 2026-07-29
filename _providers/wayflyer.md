@@ -205,7 +205,7 @@ overview: 'Wayflyer publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wayflyer''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 23 more developer resources.'
-random_paper: 36
+random_paper: 14
 score:
   band: developing
   composite: 52.0

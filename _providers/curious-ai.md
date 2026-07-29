@@ -39,7 +39,7 @@ name: Curious Ai
 nav: Providers
 network: true
 overview: Curious Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Computer Vision, and Robotics.
-random_paper: 24
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

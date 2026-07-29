@@ -88,7 +88,7 @@ overview: 'Apis Partners is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Apis Partners'' developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 44
+random_paper: 10
 scopes:
 - name: Apis Partners Scopes
   scope_count: 2

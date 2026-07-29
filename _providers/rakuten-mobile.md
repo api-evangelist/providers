@@ -146,7 +146,7 @@ overview: 'Rakuten Mobile publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Rakuten Mobile''s developer surface includes developer portal, engineering blog, YouTube channel, and 20 more developer resources.'
-random_paper: 53
+random_paper: 17
 score:
   band: minimal
   composite: 10.7

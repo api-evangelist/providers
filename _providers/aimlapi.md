@@ -275,7 +275,7 @@ plans:
 - name: Aimlapi Plans Pricing
   plan_count: 3
   slug: aimlapi-plans-pricing
-random_paper: 40
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Aimlapi Rate Limits

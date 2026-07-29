@@ -250,7 +250,7 @@ plans:
 - name: Concur Plans Pricing
   plan_count: 1
   slug: concur-plans-pricing
-random_paper: 34
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Concur Rate Limits

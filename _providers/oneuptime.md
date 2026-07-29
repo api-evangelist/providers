@@ -99,7 +99,7 @@ plans:
 - name: Oneuptime Plans Pricing
   plan_count: 3
   slug: oneuptime-plans-pricing
-random_paper: 58
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Oneuptime Rate Limits

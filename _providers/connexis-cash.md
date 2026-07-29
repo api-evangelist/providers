@@ -129,7 +129,7 @@ plans:
 - name: Connexis Cash Plans Pricing
   plan_count: 3
   slug: connexis-cash-plans-pricing
-random_paper: 22
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Connexis Cash Rate Limits

@@ -52,7 +52,7 @@ name: Sekra
 nav: Providers
 network: true
 overview: Sekra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, Community, and Residential.
-random_paper: 72
+random_paper: 60
 score:
   band: minimal
   composite: 5.7

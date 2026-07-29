@@ -63,7 +63,7 @@ overview: 'NICKL is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   NICKL''s developer surface includes signup flow, support, and 3 more developer resources.'
-random_paper: 67
+random_paper: 55
 score:
   band: minimal
   composite: 12.7

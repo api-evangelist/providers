@@ -127,7 +127,7 @@ overview: 'GE Vernova is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   GE Vernova''s developer surface includes product news, YouTube channel, and 19 more developer resources.'
-random_paper: 17
+random_paper: 70
 score:
   band: emerging
   composite: 13.0

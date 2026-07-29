@@ -155,7 +155,7 @@ plans:
 - name: Apis
   plan_count: 4
   slug: apis
-random_paper: 52
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Apis

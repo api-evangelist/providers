@@ -255,7 +255,7 @@ plans:
 - name: Docspring Plans Pricing
   plan_count: 4
   slug: docspring-plans-pricing
-random_paper: 45
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Docspring Rate Limits

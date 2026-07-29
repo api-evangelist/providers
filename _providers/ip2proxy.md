@@ -56,7 +56,7 @@ name: IP2Proxy
 nav: Providers
 network: true
 overview: IP2Proxy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 75
+random_paper: 55
 score:
   band: minimal
   composite: 5.7

@@ -79,7 +79,7 @@ overview: 'Finbots.AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Finbots.AI''s developer surface includes support and 8 more developer resources.'
-random_paper: 35
+random_paper: 11
 score:
   band: minimal
   composite: 11.9

@@ -63,7 +63,7 @@ overview: 'Open Page Rank publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Open Page Rank''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 56
+random_paper: 22
 score:
   band: minimal
   composite: 6.2

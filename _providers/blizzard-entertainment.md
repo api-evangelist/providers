@@ -239,7 +239,7 @@ plans:
 - name: Blizzard Entertainment Plans Pricing
   plan_count: 2
   slug: blizzard-entertainment-plans-pricing
-random_paper: 7
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Blizzard Entertainment Rate Limits

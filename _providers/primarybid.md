@@ -48,7 +48,7 @@ name: PrimaryBid
 nav: Providers
 network: true
 overview: PrimaryBid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Capital Markets, IPO, and Retail Investing.
-random_paper: 74
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

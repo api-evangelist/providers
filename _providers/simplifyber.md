@@ -59,7 +59,7 @@ overview: 'Simplifyber is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Simplifyber''s developer surface includes support and 3 more developer resources.'
-random_paper: 35
+random_paper: 5
 score:
   band: minimal
   composite: 10.1

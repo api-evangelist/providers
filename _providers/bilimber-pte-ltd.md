@@ -44,7 +44,7 @@ name: Bilimber Pte. Ltd.
 nav: Providers
 network: true
 overview: Bilimber Pte. Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Singapore, Electronics, Research and Development, and Startup.
-random_paper: 41
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

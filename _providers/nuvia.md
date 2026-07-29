@@ -39,7 +39,7 @@ name: Nuvia
 nav: Providers
 network: true
 overview: Nuvia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, CPU, Arm, and Hardware.
-random_paper: 8
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

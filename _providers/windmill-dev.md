@@ -154,7 +154,7 @@ plans:
 - name: Windmill Dev Plans Pricing
   plan_count: 5
   slug: windmill-dev-plans-pricing
-random_paper: 73
+random_paper: 43
 rate_limits:
 - limit_count: 6
   name: Windmill Dev Rate Limits

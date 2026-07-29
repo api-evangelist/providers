@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Owens Corning, Roof Scout Launch Virtual Sales Tool
   url: https://www.roofingcontractor.com/articles/102170-owens-corning-roof-scout-launch-virtual-sales-tool
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 5.7

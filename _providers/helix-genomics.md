@@ -70,7 +70,7 @@ overview: 'Helix publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Helix''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 50
+random_paper: 14
 score:
   band: minimal
   composite: 8.1

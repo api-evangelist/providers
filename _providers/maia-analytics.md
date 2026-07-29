@@ -231,7 +231,7 @@ overview: 'Maia-analytics publishes 33 APIs on the [APIs.io](https://apis.io/) n
 
 
   Maia-analytics'' developer surface includes documentation, API reference, authentication, and 16 more developer resources.'
-random_paper: 35
+random_paper: 78
 score:
   band: thin
   composite: 35.4

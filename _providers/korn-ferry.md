@@ -56,7 +56,7 @@ name: Korn Ferry
 nav: Providers
 network: true
 overview: Korn Ferry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Talent Management, Executive Search, Human Resources, and Leadership Development.
-random_paper: 38
+random_paper: 12
 score:
   band: minimal
   composite: 6.0

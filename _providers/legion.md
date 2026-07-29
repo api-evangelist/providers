@@ -107,7 +107,7 @@ overview: 'Legion Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Legion Security''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 22
+random_paper: 6
 score:
   band: emerging
   composite: 14.8

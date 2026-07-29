@@ -1277,7 +1277,7 @@ plans:
 - name: Hint Health Plans Pricing
   plan_count: 6
   slug: hint-health-plans-pricing
-random_paper: 32
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Hint Health Rate Limits

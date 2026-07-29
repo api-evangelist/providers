@@ -132,7 +132,7 @@ overview: 'DDD Invoices publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   DDD Invoices'' developer surface includes documentation, API reference, quickstart, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
-random_paper: 54
+random_paper: 24
 score:
   band: thin
   composite: 30.1

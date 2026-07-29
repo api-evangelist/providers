@@ -131,7 +131,7 @@ plans:
 - name: Microsoft Azure Ai Foundry Plans Pricing
   plan_count: 3
   slug: microsoft-azure-ai-foundry-plans-pricing
-random_paper: 27
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Ai Foundry Rate Limits

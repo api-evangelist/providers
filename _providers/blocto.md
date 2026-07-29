@@ -75,7 +75,7 @@ overview: 'Blocto is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Blocto''s developer surface includes documentation, getting-started guide, and 6 more developer resources.'
-random_paper: 27
+random_paper: 11
 score:
   band: minimal
   composite: 11.4

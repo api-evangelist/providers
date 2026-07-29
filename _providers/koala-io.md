@@ -124,7 +124,7 @@ plans:
 - name: Koala Io Plans Pricing
   plan_count: 3
   slug: koala-io-plans-pricing
-random_paper: 11
+random_paper: 70
 rate_limits:
 - limit_count: 7
   name: Koala Io Rate Limits

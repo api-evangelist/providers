@@ -79,7 +79,7 @@ overview: 'Belvedir is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Belvedir''s developer surface includes engineering blog, changelog, and 7 more developer resources.'
-random_paper: 75
+random_paper: 55
 score:
   band: minimal
   composite: 11.7

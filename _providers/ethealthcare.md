@@ -63,7 +63,7 @@ overview: 'ethealthcare is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   ethealthcare''s developer surface includes support and 4 more developer resources.'
-random_paper: 26
+random_paper: 73
 score:
   band: minimal
   composite: 11.2

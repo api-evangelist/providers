@@ -75,7 +75,7 @@ overview: 'Sequence Bio is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Sequence Bio''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 61
+random_paper: 31
 score:
   band: minimal
   composite: 9.0

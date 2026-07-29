@@ -929,7 +929,7 @@ plans:
 - name: Rapid7 Plans Pricing
   plan_count: 1
   slug: rapid7-plans-pricing
-random_paper: 44
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Rapid7 Rate Limits

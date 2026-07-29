@@ -135,7 +135,7 @@ overview: 'Yes Energy publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Yes Energy''s developer surface includes authentication, support, documentation, signup flow, pricing, engineering blog, product news, and 17 more developer resources.'
-random_paper: 31
+random_paper: 5
 score:
   band: emerging
   composite: 24.0

@@ -63,7 +63,7 @@ overview: 'openrouteservice.org publishes 1 API on the [APIs.io](https://apis.io
 
 
   openrouteservice.org''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 40
+random_paper: 65
 score:
   band: minimal
   composite: 6.2

@@ -64,7 +64,7 @@ name: Sensee
 nav: Providers
 network: true
 overview: Sensee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Eyewear, Contact Lenses, and Optical.
-random_paper: 27
+random_paper: 11
 score:
   band: minimal
   composite: 8.6

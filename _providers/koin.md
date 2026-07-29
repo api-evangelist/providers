@@ -232,7 +232,7 @@ overview: 'Koin publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Koin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: developing
   composite: 55.0

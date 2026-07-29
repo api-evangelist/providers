@@ -96,7 +96,7 @@ plans:
 - name: Apitemplate Plans Pricing
   plan_count: 8
   slug: apitemplate-plans-pricing
-random_paper: 19
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Apitemplate Rate Limits

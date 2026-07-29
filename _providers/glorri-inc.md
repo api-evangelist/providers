@@ -95,7 +95,7 @@ overview: 'GLORRI, INC. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   GLORRI, INC.''s developer surface includes pricing, signup flow, support, YouTube channel, and 9 more developer resources.'
-random_paper: 13
+random_paper: 66
 score:
   band: emerging
   composite: 14.8

@@ -48,7 +48,7 @@ name: CrowdForce
 nav: Providers
 network: true
 overview: CrowdForce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Agent Banking, and Financial Inclusion.
-random_paper: 69
+random_paper: 43
 score:
   band: minimal
   composite: 6.6

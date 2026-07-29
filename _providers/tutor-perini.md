@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Tutor Perini expects strong 2026 with $19.8 billion backlog
   url: https://www.facebook.com/MenottiEnterprise/posts/tutor-perini-eyes-data-center-opportunities-the-heavy-civil-contractor-said-it-s/1545078134290446/
-random_paper: 34
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

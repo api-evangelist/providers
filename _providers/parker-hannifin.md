@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Here's What Lifted Parker-Hannifin Corporation (PH) in Q4
   url: https://finance.yahoo.com/news/lifted-parker-hannifin-corporation-ph-125119097.html
-random_paper: 70
+random_paper: 32
 score:
   band: minimal
   composite: 4.8

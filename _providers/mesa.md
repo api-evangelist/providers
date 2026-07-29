@@ -143,7 +143,7 @@ overview: 'Mesa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Mesa''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 16 more developer resources.'
-random_paper: 37
+random_paper: 27
 score:
   band: developing
   composite: 45.7

@@ -341,7 +341,7 @@ plans:
 - name: Rackspace Technology Plans Pricing
   plan_count: 1
   slug: rackspace-technology-plans-pricing
-random_paper: 68
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Rackspace Technology Rate Limits

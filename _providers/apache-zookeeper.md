@@ -165,7 +165,7 @@ plans:
 - name: Apache Zookeeper Plans Pricing
   plan_count: 3
   slug: apache-zookeeper-plans-pricing
-random_paper: 18
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Apache Zookeeper Rate Limits

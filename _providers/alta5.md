@@ -122,7 +122,7 @@ overview: 'Alta5 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Alta5''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 9
+random_paper: 76
 score:
   band: thin
   composite: 37.3

@@ -48,7 +48,7 @@ name: novoprotein
 nav: Providers
 network: true
 overview: novoprotein is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Recombinant Proteins, and Antibodies.
-random_paper: 64
+random_paper: 34
 score:
   band: minimal
   composite: 5.4

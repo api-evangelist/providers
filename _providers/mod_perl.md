@@ -63,7 +63,7 @@ overview: 'mod_perl is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   mod_perl''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 3
+random_paper: 60
 score:
   band: minimal
   composite: 5.8

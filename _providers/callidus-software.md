@@ -39,7 +39,7 @@ name: Callidus Software
 nav: Providers
 network: true
 overview: Callidus Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Sales Performance Management, Incentive Compensation, and CPQ.
-random_paper: 75
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

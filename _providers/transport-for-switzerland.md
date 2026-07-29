@@ -63,7 +63,7 @@ overview: 'Transport for Switzerland publishes 1 API on the [APIs.io](https://ap
 
 
   Transport for Switzerland''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 11
+random_paper: 22
 score:
   band: minimal
   composite: 6.2

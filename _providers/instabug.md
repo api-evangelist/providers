@@ -361,7 +361,7 @@ plans:
 - name: Instabug Plans Pricing
   plan_count: 3
   slug: instabug-plans-pricing
-random_paper: 14
+random_paper: 71
 rate_limits:
 - limit_count: 7
   name: Instabug Rate Limits

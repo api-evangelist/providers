@@ -151,7 +151,7 @@ plans:
 - name: Rtbhouse Plans Pricing
   plan_count: 1
   slug: rtbhouse-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Rtbhouse Rate Limits

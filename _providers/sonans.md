@@ -67,7 +67,7 @@ overview: 'Sonans is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sonans'' developer surface includes signup flow and 5 more developer resources.'
-random_paper: 42
+random_paper: 26
 score:
   band: minimal
   composite: 11.8

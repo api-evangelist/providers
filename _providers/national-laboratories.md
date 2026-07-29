@@ -48,7 +48,7 @@ name: National Laboratories
 nav: Providers
 network: true
 overview: National Laboratories is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Federal Government, Research, and Science.
-random_paper: 30
+random_paper: 53
 score:
   band: minimal
   composite: 4.5

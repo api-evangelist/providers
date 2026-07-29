@@ -39,7 +39,7 @@ name: Echopass
 nav: Providers
 network: true
 overview: Echopass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contact Center, Cloud Contact Center, Customer Experience, and Customer Engagement.
-random_paper: 7
+random_paper: 64
 score:
   band: minimal
   composite: 4.3

@@ -87,7 +87,7 @@ overview: 'Ambiq Micro is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Ambiq Micro''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 27
+random_paper: 78
 score:
   band: emerging
   composite: 16.0

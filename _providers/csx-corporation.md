@@ -56,7 +56,7 @@ name: CSX Corporation
 nav: Providers
 network: true
 overview: CSX Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Rail, Freight, Transportation, and Fortune 500.
-random_paper: 39
+random_paper: 78
 score:
   band: minimal
   composite: 3.5

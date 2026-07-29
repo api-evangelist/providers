@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: Tops parent narrows net loss in second quarter
   url: https://rbj.net/2014/08/26/tops-parent-narrows-net-loss-in-second-quarter/
-random_paper: 8
+random_paper: 55
 score:
   band: minimal
   composite: 5.0

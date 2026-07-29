@@ -44,7 +44,7 @@ name: Creative Juice
 nav: Providers
 network: true
 overview: Creative Juice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Fintech.
-random_paper: 38
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

@@ -48,7 +48,7 @@ name: Brilliant Planet
 nav: Providers
 network: true
 overview: Brilliant Planet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Removal, Carbon Capture, Climate, and Sustainability.
-random_paper: 33
+random_paper: 70
 score:
   band: minimal
   composite: 5.0

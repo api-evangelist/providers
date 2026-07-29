@@ -151,7 +151,7 @@ overview: 'Harmonic GG publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Harmonic GG''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 17 more developer resources.'
-random_paper: 22
+random_paper: 73
 score:
   band: emerging
   composite: 26.6

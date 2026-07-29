@@ -202,7 +202,7 @@ plans:
 - name: Jpx Plans
   plan_count: 4
   slug: jpx-plans
-random_paper: 30
+random_paper: 22
 rate_limits:
 - limit_count: 8
   name: Jpx Rate Limits

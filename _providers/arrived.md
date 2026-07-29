@@ -75,7 +75,7 @@ overview: 'Arrived is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Arrived''s developer surface includes signup flow, getting-started guide, support, engineering blog, and 4 more developer resources.'
-random_paper: 56
+random_paper: 38
 score:
   band: emerging
   composite: 15.3

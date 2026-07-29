@@ -139,7 +139,7 @@ plans:
 - name: Prolific Research Plans Pricing
   plan_count: 3
   slug: prolific-research-plans-pricing
-random_paper: 52
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Prolific Research Rate Limits

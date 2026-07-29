@@ -39,7 +39,7 @@ name: Datafleets
 nav: Providers
 network: true
 overview: Datafleets is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Privacy, Federated Learning, and Differential Privacy.
-random_paper: 52
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

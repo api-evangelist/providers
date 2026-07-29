@@ -187,7 +187,7 @@ plans:
 - name: Tapfiliate Plans Pricing
   plan_count: 3
   slug: tapfiliate-plans-pricing
-random_paper: 58
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Tapfiliate Rate Limits

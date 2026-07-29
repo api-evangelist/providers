@@ -191,7 +191,7 @@ plans:
 - name: Zuper Plans Pricing
   plan_count: 3
   slug: zuper-plans-pricing
-random_paper: 27
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Zuper Rate Limits

@@ -126,7 +126,7 @@ plans:
 - name: Weglot Plans Pricing
   plan_count: 7
   slug: weglot-plans-pricing
-random_paper: 42
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Weglot Rate Limits

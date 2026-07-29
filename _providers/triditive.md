@@ -71,7 +71,7 @@ overview: 'TRIDITIVE is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TRIDITIVE''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 56
+random_paper: 32
 score:
   band: minimal
   composite: 12.4

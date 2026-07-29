@@ -103,7 +103,7 @@ plans:
 - name: Imentiv Ai Plans Pricing
   plan_count: 3
   slug: imentiv-ai-plans-pricing
-random_paper: 10
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Imentiv Ai Rate Limits

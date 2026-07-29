@@ -111,7 +111,7 @@ plans:
 - name: Stack Takeoff Plans Pricing
   plan_count: 4
   slug: stack-takeoff-plans-pricing
-random_paper: 6
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Stack Takeoff Rate Limits

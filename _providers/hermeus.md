@@ -71,7 +71,7 @@ overview: 'Hermeus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Hermeus'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 68
+random_paper: 50
 score:
   band: minimal
   composite: 10.8

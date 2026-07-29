@@ -39,7 +39,7 @@ name: Group Nine Media
 nav: Providers
 network: true
 overview: Group Nine Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Digital Media, Publishing, and Video.
-random_paper: 45
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

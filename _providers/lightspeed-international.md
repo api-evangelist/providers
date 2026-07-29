@@ -49,7 +49,7 @@ name: Lightspeed International
 nav: Providers
 network: true
 overview: Lightspeed International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Voice over IP, Networking, and Data Communications.
-random_paper: 46
+random_paper: 61
 score:
   band: minimal
   composite: 4.3

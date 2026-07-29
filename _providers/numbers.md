@@ -187,7 +187,7 @@ overview: 'Numbers API publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Numbers API''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 71
+random_paper: 53
 rules:
 - name: Numbers API API Rules
   rule_count: 4

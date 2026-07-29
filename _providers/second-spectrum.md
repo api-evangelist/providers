@@ -82,7 +82,7 @@ overview: 'Second Spectrum (Genius Sports) publishes 2 APIs on the [APIs.io](htt
 
 
   Second Spectrum (Genius Sports)''s developer surface includes developer portal and 7 more developer resources.'
-random_paper: 24
+random_paper: 63
 score:
   band: minimal
   composite: 8.6

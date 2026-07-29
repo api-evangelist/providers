@@ -159,7 +159,7 @@ overview: 'Klue publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Klue''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: thin
   composite: 36.5

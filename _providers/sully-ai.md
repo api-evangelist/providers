@@ -124,7 +124,7 @@ overview: 'Sully AI publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Sully AI''s developer surface includes documentation, engineering blog, support, GitHub presence, and 15 more developer resources.'
-random_paper: 46
+random_paper: 26
 score:
   band: minimal
   composite: 12.4

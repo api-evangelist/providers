@@ -160,7 +160,7 @@ plans:
 - name: Nango Plans Pricing
   plan_count: 4
   slug: nango-plans-pricing
-random_paper: 69
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Nango Rate Limits

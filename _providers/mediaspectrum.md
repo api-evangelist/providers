@@ -48,7 +48,7 @@ name: Mediaspectrum
 nav: Providers
 network: true
 overview: Mediaspectrum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Publishing, Content Management, and Media.
-random_paper: 9
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

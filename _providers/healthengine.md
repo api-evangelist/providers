@@ -93,7 +93,7 @@ overview: 'HealthEngine is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   HealthEngine''s developer surface includes developer portal, engineering blog, and 10 more developer resources.'
-random_paper: 28
+random_paper: 75
 score:
   band: emerging
   composite: 15.5

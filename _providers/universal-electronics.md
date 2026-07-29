@@ -99,7 +99,7 @@ overview: 'Universal Electronics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Universal Electronics'' developer surface includes engineering blog, support, product news, and 11 more developer resources.'
-random_paper: 53
+random_paper: 76
 score:
   band: emerging
   composite: 14.6

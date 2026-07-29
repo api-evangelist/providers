@@ -67,7 +67,7 @@ overview: 'Tennibot is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tennibot''s developer surface includes FAQ, support, and 4 more developer resources.'
-random_paper: 20
+random_paper: 77
 score:
   band: minimal
   composite: 10.1

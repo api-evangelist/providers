@@ -138,7 +138,7 @@ overview: 'Shakr Media publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Shakr Media''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 16
+random_paper: 67
 scopes:
 - name: Shakr Media Scopes
   scope_count: 6

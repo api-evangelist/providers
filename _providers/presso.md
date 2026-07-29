@@ -95,7 +95,7 @@ overview: 'Presso is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Presso''s developer surface includes engineering blog, product news, pricing, support, and 9 more developer resources.'
-random_paper: 52
+random_paper: 36
 score:
   band: minimal
   composite: 12.6

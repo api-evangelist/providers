@@ -71,7 +71,7 @@ overview: 'Conservation Labs is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Conservation Labs'' developer surface includes support and 6 more developer resources.'
-random_paper: 76
+random_paper: 32
 score:
   band: emerging
   composite: 13.4

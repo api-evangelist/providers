@@ -60,7 +60,7 @@ press:
 - date: '2026-05-25'
   title: Large Energy Users and Data Centers
   url: https://www.alliantenergy.com/our-energy/data-centers
-random_paper: 50
+random_paper: 14
 score:
   band: minimal
   composite: 2.6

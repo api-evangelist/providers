@@ -44,7 +44,7 @@ name: AllTaster
 nav: Providers
 network: true
 overview: AllTaster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Food Delivery, Restaurants, and Virtual Restaurants.
-random_paper: 48
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

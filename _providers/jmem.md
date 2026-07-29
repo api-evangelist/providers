@@ -75,7 +75,7 @@ overview: 'JMEM is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   JMEM''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 40
+random_paper: 30
 score:
   band: minimal
   composite: 10.4

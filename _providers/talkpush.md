@@ -186,7 +186,7 @@ overview: 'TalkPush publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   TalkPush''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 15 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: thin
   composite: 39.8

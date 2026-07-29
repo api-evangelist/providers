@@ -75,7 +75,7 @@ overview: 'LocBox Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   LocBox Labs'' developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 32
+random_paper: 4
 score:
   band: emerging
   composite: 15.2

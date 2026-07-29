@@ -79,7 +79,7 @@ overview: 'Federato is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Federato''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 72
+random_paper: 52
 score:
   band: emerging
   composite: 16.6

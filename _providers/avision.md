@@ -92,7 +92,7 @@ plans:
 - name: Avision Plans
   plan_count: 3
   slug: avision-plans
-random_paper: 68
+random_paper: 50
 score:
   band: emerging
   composite: 21.6

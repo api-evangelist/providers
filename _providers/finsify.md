@@ -115,7 +115,7 @@ overview: 'Finsify publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Finsify''s developer surface includes documentation, API reference, authentication, and 11 more developer resources.'
-random_paper: 67
+random_paper: 49
 score:
   band: emerging
   composite: 27.8

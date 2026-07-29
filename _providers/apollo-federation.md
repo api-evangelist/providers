@@ -149,7 +149,7 @@ plans:
 - name: Apollo Federation Plans Pricing
   plan_count: 3
   slug: apollo-federation-plans-pricing
-random_paper: 55
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Apollo Federation Rate Limits

@@ -83,7 +83,7 @@ overview: 'Compass is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Compass'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: minimal
   composite: 12.5

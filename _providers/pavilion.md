@@ -75,7 +75,7 @@ overview: 'Pavilion is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pavilion''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 19
+random_paper: 76
 score:
   band: emerging
   composite: 15.1

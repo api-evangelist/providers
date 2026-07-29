@@ -171,7 +171,7 @@ plans:
 - name: Solar Edge Plans Pricing
   plan_count: 1
   slug: solar-edge-plans-pricing
-random_paper: 71
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Solar Edge Rate Limits

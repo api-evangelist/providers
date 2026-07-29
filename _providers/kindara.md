@@ -67,7 +67,7 @@ overview: 'Kindara is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kindara''s developer surface includes support and 5 more developer resources.'
-random_paper: 37
+random_paper: 19
 score:
   band: emerging
   composite: 13.4

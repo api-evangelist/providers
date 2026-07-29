@@ -481,7 +481,7 @@ plans:
 - name: Aserto Plans Pricing
   plan_count: 3
   slug: aserto-plans-pricing
-random_paper: 38
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Aserto Rate Limits

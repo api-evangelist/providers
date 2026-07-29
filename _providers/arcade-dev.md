@@ -396,7 +396,7 @@ plans:
 - name: Arcade Dev Plans Pricing
   plan_count: 3
   slug: arcade-dev-plans-pricing
-random_paper: 48
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Arcade Dev Rate Limits

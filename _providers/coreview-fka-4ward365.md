@@ -144,7 +144,7 @@ overview: 'CoreView (FKA 4ward365) publishes 1 API on the [APIs.io](https://apis
 
 
   CoreView (FKA 4ward365)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 56
+random_paper: 8
 scopes:
 - name: Coreview Fka 4Ward365 Scopes
   scope_count: 14

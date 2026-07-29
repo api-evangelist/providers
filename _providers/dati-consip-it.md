@@ -83,7 +83,7 @@ plans:
 - name: Dati Consip It Plans Pricing
   plan_count: 0
   slug: dati-consip-it-plans-pricing
-random_paper: 72
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Dati Consip It Rate Limits

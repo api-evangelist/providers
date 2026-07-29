@@ -140,7 +140,7 @@ overview: 'DistroKid is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   DistroKid''s developer surface includes pricing, signup flow, engineering blog, YouTube channel, GitHub presence, and 19 more developer resources.'
-random_paper: 49
+random_paper: 25
 score:
   band: minimal
   composite: 11.7

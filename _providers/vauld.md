@@ -127,7 +127,7 @@ overview: 'Vauld publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Vauld''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 11 more developer resources.'
-random_paper: 1
+random_paper: 66
 score:
   band: thin
   composite: 34.3

@@ -135,7 +135,7 @@ press:
 - date: '2026-05-25'
   title: 2024 Annual Report - Investor Relations - Sally Beauty Holdings
   url: http://investor.sallybeautyholdings.com/~/media/Files/S/Sally-Beauty/annual-report/2024-annual-report.pdf
-random_paper: 66
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Sally Beauty Holdings Rate Limits

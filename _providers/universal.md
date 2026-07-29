@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Focus Universal Unveils a New Class of Artificial ...
   url: https://www.newmediawire.com/news/focus-universal-unveils-a-new-class-of-artificial-intelligence-with-relation-to-the-breakthrough-sec-financial-reporting-software-7086546
-random_paper: 61
+random_paper: 37
 score:
   band: minimal
   composite: 8.7

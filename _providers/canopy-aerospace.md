@@ -75,7 +75,7 @@ overview: 'Canopy Aerospace & Defense is profiled on the [APIs.io](https://apis.
 
 
   Canopy Aerospace & Defense''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 25
+random_paper: 62
 score:
   band: minimal
   composite: 11.3

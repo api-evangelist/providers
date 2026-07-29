@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: World Fuel Services Corporation Names Sharda Cherwoo to the ...
   url: https://ir.world-kinect.com/news-releases/news-release-details/world-fuel-services-corporation-names-sharda-cherwoo-board
-random_paper: 13
+random_paper: 42
 score:
   band: minimal
   composite: 2.6

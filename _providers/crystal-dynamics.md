@@ -75,7 +75,7 @@ overview: 'Crystal Dynamics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Crystal Dynamics'' developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 54
+random_paper: 12
 score:
   band: minimal
   composite: 11.6

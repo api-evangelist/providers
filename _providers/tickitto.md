@@ -186,7 +186,7 @@ overview: 'Tickitto publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tickitto''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, and 18 more developer resources.'
-random_paper: 28
+random_paper: 6
 score:
   band: thin
   composite: 40.3

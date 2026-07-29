@@ -115,7 +115,7 @@ plans:
 - name: Lens Plans Pricing
   plan_count: 3
   slug: lens-plans-pricing
-random_paper: 49
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Lens Rate Limits

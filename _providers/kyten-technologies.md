@@ -56,7 +56,7 @@ name: Kyten Technologies
 nav: Providers
 network: true
 overview: Kyten Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Manufacturing, Aerospace, and Batteries.
-random_paper: 36
+random_paper: 67
 score:
   band: minimal
   composite: 5.7

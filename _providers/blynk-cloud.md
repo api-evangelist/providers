@@ -63,7 +63,7 @@ overview: 'Blynk-Cloud publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Blynk-Cloud''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 46
+random_paper: 18
 score:
   band: minimal
   composite: 6.2

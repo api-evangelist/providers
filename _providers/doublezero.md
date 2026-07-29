@@ -111,7 +111,7 @@ overview: 'DoubleZero is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   DoubleZero''s developer surface includes documentation, engineering blog, support, CLI, and 13 more developer resources.'
-random_paper: 5
+random_paper: 56
 score:
   band: emerging
   composite: 17.5

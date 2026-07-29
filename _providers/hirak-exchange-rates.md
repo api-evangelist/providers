@@ -60,7 +60,7 @@ name: Hirak Exchange Rates
 nav: Providers
 network: true
 overview: Hirak Exchange Rates publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 70
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

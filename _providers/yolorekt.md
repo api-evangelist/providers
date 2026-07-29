@@ -63,7 +63,7 @@ overview: 'YoloRekt is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   YoloRekt''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 42
+random_paper: 20
 score:
   band: minimal
   composite: 7.5

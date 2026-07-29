@@ -175,7 +175,7 @@ overview: 'Eagle Eye Networks publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Eagle Eye Networks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 22 more developer resources.'
-random_paper: 45
+random_paper: 78
 scopes:
 - name: Eagle Eye Networks Scopes
   scope_count: 4

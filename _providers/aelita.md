@@ -53,7 +53,7 @@ name: Aelita Software
 nav: Providers
 network: true
 overview: Aelita Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Systems Management, Active Directory, Microsoft Exchange, and Windows Management.
-random_paper: 8
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

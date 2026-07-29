@@ -75,7 +75,7 @@ overview: 'Goodwin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Goodwin''s developer surface includes signup flow, engineering blog, product news, and 5 more developer resources.'
-random_paper: 66
+random_paper: 48
 score:
   band: emerging
   composite: 13.7

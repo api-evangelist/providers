@@ -146,7 +146,7 @@ overview: 'Canada Energy Regulator publishes 3 APIs on the [APIs.io](https://api
 
 
   Canada Energy Regulator''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 11
+random_paper: 30
 score:
   band: emerging
   composite: 27.1

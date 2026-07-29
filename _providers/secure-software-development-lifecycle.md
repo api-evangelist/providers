@@ -39,7 +39,7 @@ name: Secure Software Development Lifecycle
 nav: Providers
 network: true
 overview: Secure Software Development Lifecycle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Application Security, Development Process, DevSecOps, Risk Management, and Security.
-random_paper: 15
+random_paper: 75
 score:
   band: minimal
   composite: 5.2

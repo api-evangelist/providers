@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: 'AI Cyberattacks Are Growing: What Businesses Can Do'
   url: https://www.auto-owners.com/ao-blog/-/blogs/ai-cyberattacks-are-growing-what-businesses-can-do
-random_paper: 13
+random_paper: 36
 score:
   band: emerging
   composite: 13.6

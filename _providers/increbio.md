@@ -48,7 +48,7 @@ name: IncreBio
 nav: Providers
 network: true
 overview: IncreBio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Beverage, Biotech, and Health.
-random_paper: 73
+random_paper: 53
 score:
   band: minimal
   composite: 5.4

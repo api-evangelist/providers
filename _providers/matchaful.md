@@ -91,7 +91,7 @@ overview: 'Matchaful publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Matchaful''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 25
+random_paper: 1
 score:
   band: emerging
   composite: 19.9

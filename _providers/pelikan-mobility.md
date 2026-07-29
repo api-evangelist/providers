@@ -75,7 +75,7 @@ overview: 'Pelikan Mobility is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Pelikan Mobility''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 41
+random_paper: 78
 score:
   band: minimal
   composite: 9.7

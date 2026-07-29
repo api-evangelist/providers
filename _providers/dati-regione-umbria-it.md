@@ -87,7 +87,7 @@ plans:
 - name: Dati Regione Umbria It Plans Pricing
   plan_count: 0
   slug: dati-regione-umbria-it-plans-pricing
-random_paper: 3
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Dati Regione Umbria It Rate Limits

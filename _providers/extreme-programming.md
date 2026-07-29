@@ -48,7 +48,7 @@ name: Extreme Programming
 nav: Providers
 network: true
 overview: Extreme Programming is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agile, Extreme Programming, Software Development, and XP.
-random_paper: 69
+random_paper: 19
 score:
   band: minimal
   composite: 4.8

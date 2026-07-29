@@ -122,7 +122,7 @@ overview: 'OlympusDAO publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   OlympusDAO''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 23
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Rate Limits

@@ -103,7 +103,7 @@ overview: 'Clara 2 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Clara 2''s developer surface includes engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 71
+random_paper: 57
 score:
   band: emerging
   composite: 20.2

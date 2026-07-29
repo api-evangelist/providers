@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Integrys Energy Group
   url: https://dailyreporter.com/tag/integrys-energy-group/
-random_paper: 26
+random_paper: 49
 score:
   band: minimal
   composite: 4.7

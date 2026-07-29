@@ -79,7 +79,7 @@ overview: 'Replenysh is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Replenysh''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 62
+random_paper: 38
 score:
   band: emerging
   composite: 14.6

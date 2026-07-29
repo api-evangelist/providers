@@ -48,7 +48,7 @@ name: MEDICAL INTELLIGENCE CO
 nav: Providers
 network: true
 overview: MEDICAL INTELLIGENCE CO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Medical Supplies, Marketplace, and B2B.
-random_paper: 53
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

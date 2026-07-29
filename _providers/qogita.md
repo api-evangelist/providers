@@ -124,7 +124,7 @@ overview: 'Qogita publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qogita''s developer surface includes documentation, engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 29
+random_paper: 13
 scopes:
 - name: Qogita Scopes
   scope_count: 1

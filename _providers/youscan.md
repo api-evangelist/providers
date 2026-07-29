@@ -180,7 +180,7 @@ overview: 'YouScan publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   YouScan''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 18 more developer resources.'
-random_paper: 0
+random_paper: 59
 score:
   band: developing
   composite: 52.0

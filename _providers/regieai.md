@@ -99,7 +99,7 @@ overview: 'Regie.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Regie.ai''s developer surface includes documentation, support, pricing, engineering blog, signup flow, changelog, and 8 more developer resources.'
-random_paper: 33
+random_paper: 15
 score:
   band: emerging
   composite: 22.1

@@ -108,7 +108,7 @@ overview: 'Muon Space is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Muon Space''s developer surface includes engineering blog and 15 more developer resources.'
-random_paper: 15
+random_paper: 68
 score:
   band: minimal
   composite: 8.2

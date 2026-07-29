@@ -95,7 +95,7 @@ overview: 'webAI is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   webAI''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, and 8 more developer resources.'
-random_paper: 58
+random_paper: 46
 score:
   band: emerging
   composite: 22.1

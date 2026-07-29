@@ -154,7 +154,7 @@ plans:
 - name: Clickpost Plans Pricing
   plan_count: 3
   slug: clickpost-plans-pricing
-random_paper: 48
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Clickpost Rate Limits

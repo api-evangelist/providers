@@ -195,7 +195,7 @@ overview: 'Larridin publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Larridin''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 24 more developer resources.'
-random_paper: 6
+random_paper: 63
 scopes:
 - name: Larridin Scopes
   scope_count: 4

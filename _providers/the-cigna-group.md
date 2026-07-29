@@ -59,7 +59,7 @@ overview: 'The Cigna Group is profiled on the [APIs.io](https://apis.io/) networ
 
 
   The Cigna Group''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 19
+random_paper: 60
 score:
   band: minimal
   composite: 4.7

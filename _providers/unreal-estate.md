@@ -59,7 +59,7 @@ overview: 'Unreal Estate is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Unreal Estate''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 29
+random_paper: 74
 score:
   band: minimal
   composite: 7.7

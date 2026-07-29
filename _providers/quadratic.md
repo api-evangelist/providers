@@ -195,7 +195,7 @@ overview: 'Quadratic publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Quadratic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 34
+random_paper: 10
 score:
   band: developing
   composite: 50.7

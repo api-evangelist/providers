@@ -287,7 +287,7 @@ plans:
 - name: Triton One Plans Pricing
   plan_count: 1
   slug: triton-one-plans-pricing
-random_paper: 38
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Triton One Rate Limits

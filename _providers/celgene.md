@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Exscientia Raises US$26 Million in Series B Financing ...
   url: https://www.prnewswire.com/news-releases/exscientia-raises-us-26-million-in-series-b-financing-round-to-accelerate-scaling-as-the-leading-ai-drug-discovery-company-885022729.html
-random_paper: 30
+random_paper: 12
 score:
   band: minimal
   composite: 6.0

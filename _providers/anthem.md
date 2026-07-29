@@ -116,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: doc.ai Partners with Anthem to Introduce Groundbreaking ...
   url: https://www.prnewswire.com/news-releases/docai-partners-with-anthem-to-introduce-groundbreaking-end-to-end-data-trial-powered-by-artificial-intelligence-on-the-blockchain-300689910.html
-random_paper: 21
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Anthem Rate Limits

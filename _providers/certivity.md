@@ -84,7 +84,7 @@ name: Certivity
 nav: Providers
 network: true
 overview: Certivity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Regulatory Technology, RegTech, Compliance, and Regulatory Intelligence.
-random_paper: 71
+random_paper: 47
 score:
   band: emerging
   composite: 13.9

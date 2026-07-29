@@ -1351,7 +1351,7 @@ plans:
 - name: Zapier Plans Pricing
   plan_count: 4
   slug: zapier-plans-pricing
-random_paper: 35
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Zapier Rate Limits

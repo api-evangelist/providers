@@ -142,7 +142,7 @@ plans:
 - name: Software Engineering Daily Plans Pricing
   plan_count: 3
   slug: software-engineering-daily-plans-pricing
-random_paper: 41
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Software Engineering Daily Rate Limits

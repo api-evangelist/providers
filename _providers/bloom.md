@@ -73,7 +73,7 @@ name: Bloom
 nav: Providers
 network: true
 overview: Bloom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Identity, Verifiable Credentials, and Decentralized Identity.
-random_paper: 75
+random_paper: 63
 score:
   band: minimal
   composite: 10.3

@@ -126,7 +126,7 @@ press:
 - date: '2026-05-25'
   title: AFFILIATED MANAGERS GROUP, INC. - Investor Relations
   url: https://ir.amg.com/static-files/8a2c2594-42c3-4f8f-95dd-222c6272344c
-random_paper: 62
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Affiliated Managers Group Rate Limits

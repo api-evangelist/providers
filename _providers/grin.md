@@ -115,7 +115,7 @@ overview: 'Grin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Grin''s developer surface includes API reference, documentation, support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 47
+random_paper: 37
 score:
   band: emerging
   composite: 26.3

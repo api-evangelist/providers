@@ -151,7 +151,7 @@ overview: 'Impartner publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Impartner''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, CLI, and 16 more developer resources.'
-random_paper: 54
+random_paper: 30
 scopes:
 - name: Impartner Scopes
   scope_count: 14

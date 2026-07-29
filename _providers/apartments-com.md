@@ -154,7 +154,7 @@ overview: 'Apartments.com is profiled on the [APIs.io](https://apis.io/) network
 
 
   Apartments.com''s developer surface includes support, documentation, signup flow, legal docs, YouTube channel, and 22 more developer resources.'
-random_paper: 65
+random_paper: 29
 score:
   band: emerging
   composite: 18.5

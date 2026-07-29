@@ -56,7 +56,7 @@ name: Domainsdb.info
 nav: Providers
 network: true
 overview: Domainsdb.info publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business and Public APIs.
-random_paper: 32
+random_paper: 75
 score:
   band: minimal
   composite: 5.7

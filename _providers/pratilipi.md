@@ -72,7 +72,7 @@ name: Pratilipi
 nav: Providers
 network: true
 overview: Pratilipi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storytelling, Publishing, Content, and Media.
-random_paper: 50
+random_paper: 26
 score:
   band: minimal
   composite: 11.5

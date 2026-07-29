@@ -128,7 +128,7 @@ overview: 'Crunchtime publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Crunchtime''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 73
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Crunchtime Rate Limits

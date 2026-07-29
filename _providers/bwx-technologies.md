@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: BWXT Unveils Innovative Digital Center to Drive ...
   url: https://www.businesswire.com/news/home/20260204002672/en/BWXT-Unveils-Innovative-Digital-Center-to-Drive-Improvements
-random_paper: 49
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Bwx Technologies Rate Limits

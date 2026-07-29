@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: KMPR Kemper Corporation Stock Price & Overview
   url: https://seekingalpha.com/symbol/KMPR
-random_paper: 28
+random_paper: 12
 score:
   band: minimal
   composite: 6.0

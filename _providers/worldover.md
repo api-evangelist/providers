@@ -87,7 +87,7 @@ overview: 'Worldover is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Worldover''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 72
+random_paper: 48
 score:
   band: emerging
   composite: 15.2

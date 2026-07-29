@@ -48,7 +48,7 @@ name: Erebor Bank
 nav: Providers
 network: true
 overview: Erebor Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial Services, Business Banking, and Fintech.
-random_paper: 18
+random_paper: 69
 score:
   band: minimal
   composite: 5.4

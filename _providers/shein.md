@@ -103,7 +103,7 @@ overview: 'SHEIN publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   SHEIN''s developer surface includes documentation, authentication, support, signup flow, and 8 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: thin
   composite: 36.0

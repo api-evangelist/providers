@@ -39,7 +39,7 @@ name: Broadbus Technologies
 nav: Providers
 network: true
 overview: Broadbus Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video on Demand, Streaming, and Cable.
-random_paper: 23
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

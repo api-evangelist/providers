@@ -65,7 +65,7 @@ plans:
 - name: Piper Sandler Plans Pricing
   plan_count: 1
   slug: piper-sandler-plans-pricing
-random_paper: 25
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Piper Sandler Rate Limits

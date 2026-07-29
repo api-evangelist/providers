@@ -67,7 +67,7 @@ overview: 'Mozi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Mozi''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 62
+random_paper: 52
 score:
   band: minimal
   composite: 12.7

@@ -111,7 +111,7 @@ plans:
 - name: Worldcoin Plans Pricing
   plan_count: 1
   slug: worldcoin-plans-pricing
-random_paper: 53
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Worldcoin Rate Limits

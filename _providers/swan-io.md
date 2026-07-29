@@ -119,7 +119,7 @@ plans:
 - name: Swan Io Plans Pricing
   plan_count: 2
   slug: swan-io-plans-pricing
-random_paper: 9
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Swan Io Rate Limits

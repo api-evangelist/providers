@@ -427,7 +427,7 @@ plans:
 - name: Leonardo Ai Plans Pricing
   plan_count: 5
   slug: leonardo-ai-plans-pricing
-random_paper: 21
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Leonardo Ai Rate Limits

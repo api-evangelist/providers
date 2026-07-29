@@ -48,7 +48,7 @@ name: Jump Ramp Games
 nav: Providers
 network: true
 overview: Jump Ramp Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Games, Casual Gaming, Rewards, and Consumer.
-random_paper: 28
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

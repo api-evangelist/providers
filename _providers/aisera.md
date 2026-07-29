@@ -168,7 +168,7 @@ overview: 'Aisera publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Aisera''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 13
+random_paper: 76
 score:
   band: developing
   composite: 44.9

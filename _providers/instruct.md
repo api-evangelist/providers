@@ -71,7 +71,7 @@ overview: 'Instruct is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Instruct''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 45
+random_paper: 23
 score:
   band: minimal
   composite: 12.3

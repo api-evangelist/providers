@@ -56,7 +56,7 @@ name: Transport for Honolulu, US
 nav: Providers
 network: true
 overview: Transport for Honolulu, US publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 44
+random_paper: 57
 score:
   band: minimal
   composite: 5.7

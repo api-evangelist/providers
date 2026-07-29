@@ -44,7 +44,7 @@ name: DeepSparks
 nav: Providers
 network: true
 overview: DeepSparks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Credit Scoring, and Artificial Intelligence.
-random_paper: 73
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

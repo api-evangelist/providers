@@ -60,7 +60,7 @@ press:
 - date: '2026-05-25'
   title: 2025-annual-report.pdf
   url: https://investor.zimmerbiomet.com/~/media/Files/Z/ZimmerBiomet-IR/documents/annual-reports/2025-annual-report.pdf
-random_paper: 22
+random_paper: 61
 score:
   band: minimal
   composite: 4.1

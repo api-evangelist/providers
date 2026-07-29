@@ -79,7 +79,7 @@ overview: 'OneShot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   OneShot''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, and 4 more developer resources.'
-random_paper: 75
+random_paper: 57
 score:
   band: emerging
   composite: 18.3

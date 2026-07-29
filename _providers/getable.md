@@ -39,7 +39,7 @@ name: Getable
 nav: Providers
 network: true
 overview: Getable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Equipment Rental, Marketplace, and Rental.
-random_paper: 31
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

@@ -75,7 +75,7 @@ overview: 'Pricerunner publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Pricerunner''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 42
+random_paper: 12
 score:
   band: emerging
   composite: 15.4

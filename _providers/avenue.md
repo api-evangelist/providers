@@ -67,7 +67,7 @@ overview: 'Avenue is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Avenue''s developer surface includes engineering blog, pricing, and 4 more developer resources.'
-random_paper: 28
+random_paper: 12
 score:
   band: minimal
   composite: 11.8

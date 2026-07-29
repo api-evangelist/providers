@@ -149,7 +149,7 @@ plans:
 - name: Tiendanube Plans Pricing
   plan_count: 5
   slug: tiendanube-plans-pricing
-random_paper: 54
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Tiendanube Rate Limits

@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: 'Transforming Hospitality: AI''s Game-Changing Role in Hotels'
   url: https://transformhospitality.com/blog/transforming-hospitality-ais-game-changing-role-in-hotels/
-random_paper: 22
+random_paper: 69
 score:
   band: minimal
   composite: 5.7

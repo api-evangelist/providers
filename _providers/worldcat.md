@@ -202,7 +202,7 @@ plans:
 - name: Worldcat Plans Pricing
   plan_count: 4
   slug: worldcat-plans-pricing
-random_paper: 17
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Worldcat Rate Limits

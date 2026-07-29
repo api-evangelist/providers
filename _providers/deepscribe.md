@@ -136,7 +136,7 @@ overview: 'DeepScribe is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   DeepScribe''s developer surface includes engineering blog, product news, privacy policy, and 20 more developer resources.'
-random_paper: 45
+random_paper: 19
 score:
   band: emerging
   composite: 15.4

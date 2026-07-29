@@ -1031,7 +1031,7 @@ plans:
 - name: Data Api
   plan_count: 8
   slug: data-api
-random_paper: 7
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Data Api

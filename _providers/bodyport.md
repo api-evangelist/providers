@@ -79,7 +79,7 @@ overview: 'Bodyport is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Bodyport''s developer surface includes support and 8 more developer resources.'
-random_paper: 36
+random_paper: 14
 score:
   band: emerging
   composite: 13.5

@@ -254,6 +254,7 @@ overview: 'JPMorgan Chase publishes 26 APIs on the [APIs.io](https://apis.io/) n
 
 
   JPMorgan Chase''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, signup flow, and 23 more developer resources.'
+paper_is_own: true
 plans:
 - name: Jp Morgan Chase Plans Pricing
   plan_count: 1
@@ -283,7 +284,7 @@ press:
 - date: ''
   title: JPMorganChase announces $24 million to help strengthen shipbuilding in Philadelphia and America’s defense industrial base
   url: https://www.jpmorganchase.com/newsroom/press-releases/2026/24-million-strengthening-shipbuilding-philadelphia
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Jp Morgan Chase Rate Limits

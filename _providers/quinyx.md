@@ -276,7 +276,7 @@ overview: 'Quinyx publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 70
+random_paper: 54
 scopes:
 - name: Quinyx Scopes
   scope_count: 14

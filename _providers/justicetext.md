@@ -75,7 +75,7 @@ overview: 'JusticeText is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   JusticeText''s developer surface includes engineering blog, getting-started guide, signup flow, and 5 more developer resources.'
-random_paper: 57
+random_paper: 27
 score:
   band: emerging
   composite: 15.2

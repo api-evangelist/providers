@@ -99,7 +99,7 @@ overview: 'Lantern is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lantern''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 63
+random_paper: 45
 score:
   band: emerging
   composite: 18.2

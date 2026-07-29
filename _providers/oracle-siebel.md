@@ -164,7 +164,7 @@ plans:
 - name: Oracle Siebel Plans Pricing
   plan_count: 3
   slug: oracle-siebel-plans-pricing
-random_paper: 71
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Oracle Siebel Rate Limits

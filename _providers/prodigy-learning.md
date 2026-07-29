@@ -131,7 +131,7 @@ overview: 'Prodigy Education is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Prodigy Education''s developer surface includes engineering blog, YouTube channel, support, and 19 more developer resources.'
-random_paper: 42
+random_paper: 0
 score:
   band: minimal
   composite: 12.1

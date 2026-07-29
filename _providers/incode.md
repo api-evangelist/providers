@@ -131,7 +131,7 @@ plans:
 - name: Incode Plans Pricing
   plan_count: 2
   slug: incode-plans-pricing
-random_paper: 10
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Incode Rate Limits

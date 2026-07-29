@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: 'Darden Restaurants Q1 FY2026: Revenue Growth, Margin ...'
   url: https://www.linkedin.com/posts/scottwilliamsphr_olive-garden-owner-darden-restaurants-disappoints-activity-7374857286441201665-GZka
-random_paper: 31
+random_paper: 62
 score:
   band: minimal
   composite: 4.1

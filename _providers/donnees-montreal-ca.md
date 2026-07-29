@@ -84,7 +84,7 @@ plans:
 - name: Donnees Montreal Ca Plans Pricing
   plan_count: 1
   slug: donnees-montreal-ca-plans-pricing
-random_paper: 52
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Donnees Montreal Ca Rate Limits

@@ -72,7 +72,7 @@ overview: 'Project Canary is profiled on the [APIs.io](https://apis.io/) network
 
 
   Project Canary''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 56
+random_paper: 20
 score:
   band: minimal
   composite: 10.7

@@ -144,7 +144,7 @@ plans:
 - name: Readme Metrics Plans Pricing
   plan_count: 3
   slug: readme-metrics-plans-pricing
-random_paper: 40
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Readme Metrics Rate Limits

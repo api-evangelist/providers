@@ -666,7 +666,7 @@ plans:
 - name: Viam Plans Pricing
   plan_count: 4
   slug: viam-plans-pricing
-random_paper: 44
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Viam Rate Limits

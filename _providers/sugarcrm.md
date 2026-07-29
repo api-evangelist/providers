@@ -152,7 +152,7 @@ overview: 'SugarCRM publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   SugarCRM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 21
+random_paper: 78
 score:
   band: thin
   composite: 36.9

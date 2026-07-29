@@ -224,7 +224,7 @@ overview: 'Fieldguide publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fieldguide''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 41
+random_paper: 15
 scopes:
 - name: Fieldguide Scopes
   scope_count: 21

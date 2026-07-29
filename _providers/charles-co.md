@@ -132,7 +132,7 @@ overview: 'Charles Co publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Charles Co''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 69
+random_paper: 45
 score:
   band: emerging
   composite: 26.0

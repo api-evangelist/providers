@@ -96,7 +96,7 @@ overview: 'LabLabee is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LabLabee''s developer surface includes engineering blog, signup flow, support, and 10 more developer resources.'
-random_paper: 38
+random_paper: 18
 score:
   band: emerging
   composite: 15.7

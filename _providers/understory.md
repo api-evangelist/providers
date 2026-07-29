@@ -60,7 +60,7 @@ name: Understory
 nav: Providers
 network: true
 overview: Understory is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Insurance, InsurTech, and Weather.
-random_paper: 41
+random_paper: 13
 score:
   band: minimal
   composite: 12.6

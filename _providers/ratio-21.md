@@ -39,7 +39,7 @@ name: Ratio 21
 nav: Providers
 network: true
 overview: Ratio 21 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 71
+random_paper: 55
 score:
   band: minimal
   composite: 3.2

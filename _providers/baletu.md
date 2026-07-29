@@ -52,7 +52,7 @@ name: Baletu
 nav: Providers
 network: true
 overview: Baletu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Real Estate, Rental Housing, and Proptech.
-random_paper: 21
+random_paper: 5
 score:
   band: minimal
   composite: 7.6

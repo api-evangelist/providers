@@ -120,7 +120,7 @@ plans:
 - name: Ninjavan Plans Pricing
   plan_count: 3
   slug: ninjavan-plans-pricing
-random_paper: 6
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Ninjavan Rate Limits

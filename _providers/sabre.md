@@ -318,7 +318,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases Archive
   url: https://www.sabre.com/releases/
-random_paper: 63
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Sabre Rate Limits

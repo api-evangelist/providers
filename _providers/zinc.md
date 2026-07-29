@@ -87,7 +87,7 @@ overview: 'Zinc is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zinc''s developer surface includes engineering blog, support, getting-started guide, signup flow, and 7 more developer resources.'
-random_paper: 51
+random_paper: 41
 score:
   band: emerging
   composite: 18.5

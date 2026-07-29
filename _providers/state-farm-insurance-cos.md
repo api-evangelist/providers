@@ -195,7 +195,7 @@ press:
 - date: '2026-05-25'
   title: 147 State Farm Insurance Company Stock Photos, High- ...
   url: https://www.gettyimages.in/photos/state-farm-insurance-company
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: State Farm Insurance Cos Rate Limits

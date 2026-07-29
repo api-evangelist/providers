@@ -398,7 +398,7 @@ plans:
 - name: Trellix Plans Pricing
   plan_count: 1
   slug: trellix-plans-pricing
-random_paper: 2
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Trellix Rate Limits

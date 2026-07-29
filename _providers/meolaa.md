@@ -48,7 +48,7 @@ name: Meolaa
 nav: Providers
 network: true
 overview: Meolaa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FMCG, Consumer, E-commerce, and Marketplace.
-random_paper: 7
+random_paper: 70
 score:
   band: minimal
   composite: 5.0

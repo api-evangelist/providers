@@ -120,7 +120,7 @@ overview: 'Singular publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Singular''s developer surface includes documentation, support, pricing, signup flow, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 22
+random_paper: 0
 score:
   band: thin
   composite: 28.6

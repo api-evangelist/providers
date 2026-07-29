@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Frontier Launches Network-as-a-Service for ...
   url: https://www.businesswire.com/news/home/20240125901225/en/Frontier-Launches-Network-as-a-Service-for-Business-Customers
-random_paper: 44
+random_paper: 61
 score:
   band: minimal
   composite: 2.6

@@ -115,7 +115,7 @@ overview: 'Aspire publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aspire''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 9 more developer resources.'
-random_paper: 28
+random_paper: 12
 scopes:
 - name: Aspire Scopes
   scope_count: 2

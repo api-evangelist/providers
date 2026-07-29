@@ -95,7 +95,7 @@ name: Bain & Company
 nav: Providers
 network: true
 overview: Bain & Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Strategy, and Professional Services.
-random_paper: 26
+random_paper: 65
 score:
   band: minimal
   composite: 10.5

@@ -64,7 +64,7 @@ name: Macromedia
 nav: Providers
 network: true
 overview: Macromedia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Software, Adobe, and Interactive Media.
-random_paper: 41
+random_paper: 15
 score:
   band: minimal
   composite: 7.5

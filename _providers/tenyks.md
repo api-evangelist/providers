@@ -174,7 +174,7 @@ overview: 'Tenyks publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Tenyks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 54
+random_paper: 38
 score:
   band: developing
   composite: 48.4

@@ -47,7 +47,7 @@ overview: 'Frontrow is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Frontrow''s developer surface includes engineering blog.'
-random_paper: 50
+random_paper: 28
 score:
   band: minimal
   composite: 5.4

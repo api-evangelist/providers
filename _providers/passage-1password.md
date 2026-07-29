@@ -125,7 +125,7 @@ plans:
 - name: Passage 1Password Plans Pricing
   plan_count: 3
   slug: passage-1password-plans-pricing
-random_paper: 23
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Passage 1Password Rate Limits

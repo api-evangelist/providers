@@ -164,7 +164,7 @@ overview: 'Enigma Analytics publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Enigma Analytics'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 21
+random_paper: 58
 score:
   band: thin
   composite: 38.2

@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: PriceSmart, Inc. Selects RELEX Solutions to Optimize Their ...
   url: https://www.relexsolutions.com/news/pricesmart-inc-selects-relex-solutions-to-optimize-their-supply-chain-and-retail-planning/
-random_paper: 4
+random_paper: 55
 score:
   band: minimal
   composite: 3.3

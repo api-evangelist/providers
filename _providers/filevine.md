@@ -402,7 +402,7 @@ plans:
 - name: Filevine Plans Pricing
   plan_count: 10
   slug: filevine-plans-pricing
-random_paper: 3
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Filevine Rate Limits

@@ -210,14 +210,23 @@ def minimal_from_all(slug):
     return {k: v for k, v in out.items() if v not in (None, "", [], {})}
 
 
-def dump(slug, data, papers_len):
+def dump(slug, data, papers_len, paper_index=None):
     """Write _providers/<slug>.md with trimmed front matter + narrative body seed."""
     data["layout"] = "provider"
     data["nav"] = "Providers"
     data["network"] = True
     # Deterministic per-provider paper pick — varies by slug, stable across runs.
+    # EXCEPT: when this provider has its own Enterprise Insights Bundle, feature that
+    # instead of a random one. An account intelligence report about the company whose
+    # page you are reading beats a rotating pick, and pinning it by slug convention
+    # means every future insights-<slug> bundle wires itself up with no extra work.
     if papers_len:
-        data["random_paper"] = sum(ord(c) for c in slug) % papers_len
+        own = (paper_index or {}).get("insights-%s" % slug)
+        if own is not None:
+            data["random_paper"] = own
+            data["paper_is_own"] = True
+        else:
+            data["random_paper"] = sum(ord(c) for c in slug) % papers_len
     phrases, total = artifact_summary(data)
     data["artifact_total"] = total
     body = ""  # the layout renders everything from front matter
@@ -244,6 +253,7 @@ def main():
         shutil.copyfile(rg_src, os.path.join(DATA, "resource_groups.yml"))
 
     papers = load_papers()
+    paper_index = {p["slug"]: i for i, p in enumerate(papers)}
     with open(os.path.join(DATA, "papers.json"), "w", encoding="utf-8") as fh:
         json.dump(papers, fh, ensure_ascii=False, indent=2)
     print("papers.json: %d white papers" % len(papers))
@@ -290,7 +300,7 @@ def main():
                 skipped += 1
                 continue
             minimal += 1
-        dump(slug, data, len(papers))
+        dump(slug, data, len(papers), paper_index)
         if (i + 1) % 2000 == 0:
             print("  ... %d/%d" % (i + 1, len(slugs)))
 

@@ -1791,7 +1791,7 @@ plans:
 - name: Amazon Ground Station Plans Pricing
   plan_count: 3
   slug: amazon-ground-station-plans-pricing
-random_paper: 5
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Amazon Ground Station Rate Limits

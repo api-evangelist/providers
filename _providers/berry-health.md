@@ -73,7 +73,7 @@ name: Berry Health
 nav: Providers
 network: true
 overview: Berry Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telehealth, and Telemedicine.
-random_paper: 68
+random_paper: 38
 score:
   band: minimal
   composite: 6.9

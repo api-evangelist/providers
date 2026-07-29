@@ -59,7 +59,7 @@ overview: 'Reach Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Reach Labs'' developer surface includes engineering blog, support, FAQ, and 1 more developer resources.'
-random_paper: 54
+random_paper: 30
 score:
   band: minimal
   composite: 5.4

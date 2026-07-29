@@ -44,7 +44,7 @@ name: Nosh Bio
 nav: Providers
 network: true
 overview: Nosh Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FoodTech, Biotechnology, Precision Fermentation, and Alternative Protein.
-random_paper: 29
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

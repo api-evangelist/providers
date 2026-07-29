@@ -112,7 +112,7 @@ overview: 'MonetizeNow publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   MonetizeNow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 60
+random_paper: 30
 score:
   band: thin
   composite: 36.1

@@ -44,7 +44,7 @@ name: Perkskit LLC
 nav: Providers
 network: true
 overview: Perkskit LLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 5
+random_paper: 52
 score:
   band: minimal
   composite: 3.2

@@ -67,7 +67,7 @@ overview: 'PayScale is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PayScale''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 3
+random_paper: 60
 score:
   band: minimal
   composite: 9.7

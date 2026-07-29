@@ -44,7 +44,7 @@ name: Nubis
 nav: Providers
 network: true
 overview: Nubis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Optical Interconnects, Co-Packaged Optics, and Silicon Photonics.
-random_paper: 6
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

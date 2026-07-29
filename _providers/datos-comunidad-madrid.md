@@ -84,7 +84,7 @@ plans:
 - name: Datos Comunidad Madrid Plans Pricing
   plan_count: 1
   slug: datos-comunidad-madrid-plans-pricing
-random_paper: 46
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Datos Comunidad Madrid Rate Limits

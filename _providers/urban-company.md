@@ -91,7 +91,7 @@ overview: 'Urban Company is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Urban Company''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 31
+random_paper: 76
 score:
   band: emerging
   composite: 14.4

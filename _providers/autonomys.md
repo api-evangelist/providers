@@ -151,7 +151,7 @@ overview: 'Autonomys publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Autonomys'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 6
+random_paper: 59
 score:
   band: thin
   composite: 41.7

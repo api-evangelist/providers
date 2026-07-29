@@ -87,7 +87,7 @@ overview: 'QUIBIM is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   QUIBIM''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 31
+random_paper: 15
 score:
   band: emerging
   composite: 17.4

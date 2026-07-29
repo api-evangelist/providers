@@ -176,7 +176,7 @@ plans:
 - name: Basis Plans Pricing
   plan_count: 1
   slug: basis-plans-pricing
-random_paper: 68
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Basis Rate Limits

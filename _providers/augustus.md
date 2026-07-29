@@ -237,7 +237,7 @@ overview: 'Augustus publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Augustus'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, sandbox, and 26 more developer resources.'
-random_paper: 50
+random_paper: 28
 scopes:
 - name: Augustus Scopes
   scope_count: 16

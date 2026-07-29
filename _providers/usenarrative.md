@@ -174,7 +174,7 @@ overview: 'Narrative Sports publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Narrative Sports'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 73
+random_paper: 41
 score:
   band: developing
   composite: 45.8

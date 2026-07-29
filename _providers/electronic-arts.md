@@ -116,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: EA and Stability AI partner to empower artists, designers, ...
   url: https://www.ea.com/news/ea-partners-with-stability-ai
-random_paper: 11
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Electronic Arts Rate Limits

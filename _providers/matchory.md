@@ -135,7 +135,7 @@ overview: 'Matchory publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Matchory''s developer surface includes documentation, signup flow, pricing, authentication, and 15 more developer resources.'
-random_paper: 24
+random_paper: 2
 scopes:
 - name: Matchory Scopes
   scope_count: 4

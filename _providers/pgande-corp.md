@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: PG&E Corporation – Digital Transformation Strategies
   url: https://www.globaldata.com/store/report/pg-and-e-corporation-enterprise-tech-analysis/
-random_paper: 26
+random_paper: 77
 score:
   band: minimal
   composite: 4.2

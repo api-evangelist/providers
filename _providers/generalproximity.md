@@ -71,7 +71,7 @@ overview: 'General Proximity is profiled on the [APIs.io](https://apis.io/) netw
 
 
   General Proximity''s developer surface includes engineering blog, product news, and 5 more developer resources.'
-random_paper: 53
+random_paper: 9
 score:
   band: minimal
   composite: 4.6

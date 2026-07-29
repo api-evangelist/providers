@@ -83,7 +83,7 @@ overview: 'Moai.cash is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Moai.cash''s developer surface includes signup flow, support, and 8 more developer resources.'
-random_paper: 67
+random_paper: 47
 score:
   band: emerging
   composite: 15.6

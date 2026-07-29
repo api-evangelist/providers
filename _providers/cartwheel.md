@@ -91,7 +91,7 @@ overview: 'Cartwheel is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cartwheel''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 35
+random_paper: 11
 score:
   band: emerging
   composite: 18.5

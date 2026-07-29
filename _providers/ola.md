@@ -140,7 +140,7 @@ plans:
 - name: Ola Plans Pricing
   plan_count: 5
   slug: ola-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Ola Rate Limits

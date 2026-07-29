@@ -146,7 +146,7 @@ overview: 'Arc Prize Foundation publishes 3 APIs on the [APIs.io](https://apis.i
 
 
   Arc Prize Foundation''s developer surface includes authentication, changelog, documentation, API reference, quickstart, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 31
+random_paper: 58
 score:
   band: developing
   composite: 42.7

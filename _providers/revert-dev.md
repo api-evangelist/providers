@@ -140,7 +140,7 @@ plans:
 - name: Revert Dev Plans Pricing
   plan_count: 3
   slug: revert-dev-plans-pricing
-random_paper: 27
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Revert Dev Rate Limits

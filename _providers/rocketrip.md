@@ -48,7 +48,7 @@ name: Rocketrip
 nav: Providers
 network: true
 overview: Rocketrip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Corporate Travel, Expense Management, and Travel Management.
-random_paper: 55
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

@@ -414,7 +414,7 @@ press:
 - date: '2026-05-25'
   title: How ADT embraces AI to make every second count.
   url: https://sierra.ai/customers/adt
-random_paper: 5
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Adt Rate Limits

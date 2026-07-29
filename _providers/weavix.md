@@ -192,7 +192,7 @@ overview: 'Weavix publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Weavix''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 44
+random_paper: 28
 score:
   band: developing
   composite: 51.2

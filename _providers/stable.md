@@ -48,7 +48,7 @@ name: Stable
 nav: Providers
 network: true
 overview: Stable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, FinTech, and Commodities.
-random_paper: 19
+random_paper: 3
 score:
   band: minimal
   composite: 5.6

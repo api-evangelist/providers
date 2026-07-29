@@ -240,7 +240,7 @@ overview: 'Propel Software (Propel PLM) publishes 15 APIs on the [APIs.io](https
 
 
   Propel Software (Propel PLM)''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 26 more developer resources.'
-random_paper: 63
+random_paper: 39
 scopes:
 - name: Propelplm Scopes
   scope_count: 4

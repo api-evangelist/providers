@@ -92,7 +92,7 @@ name: Farm Credit Administration
 nav: Providers
 network: true
 overview: Farm Credit Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Farms, Federal Government, Finance, and Regulation.
-random_paper: 39
+random_paper: 50
 score:
   band: minimal
   composite: 5.0

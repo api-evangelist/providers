@@ -44,7 +44,7 @@ name: Infinity Platform
 nav: Providers
 network: true
 overview: Infinity Platform is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Data Management, Integration, and Platform.
-random_paper: 17
+random_paper: 50
 score:
   band: minimal
   composite: 4.1

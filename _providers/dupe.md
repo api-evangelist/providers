@@ -79,7 +79,7 @@ overview: 'Dupe is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Dupe''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 45
+random_paper: 35
 score:
   band: emerging
   composite: 13.0

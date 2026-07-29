@@ -63,7 +63,7 @@ overview: 'Futuredontics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Futuredontics'' developer surface includes support and 4 more developer resources.'
-random_paper: 37
+random_paper: 1
 score:
   band: minimal
   composite: 11.2

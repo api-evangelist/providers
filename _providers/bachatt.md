@@ -63,7 +63,7 @@ overview: 'Bachatt is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bachatt''s developer surface includes support and 4 more developer resources.'
-random_paper: 34
+random_paper: 16
 score:
   band: minimal
   composite: 10.1

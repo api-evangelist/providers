@@ -172,7 +172,7 @@ plans:
 - name: Apollo Api Documentation Plans Pricing
   plan_count: 3
   slug: apollo-api-documentation-plans-pricing
-random_paper: 66
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Apollo Api Documentation Rate Limits

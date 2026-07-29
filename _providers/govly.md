@@ -204,7 +204,7 @@ overview: 'Govly publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Govly''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 20 more developer resources.'
-random_paper: 22
+random_paper: 8
 score:
   band: developing
   composite: 52.5

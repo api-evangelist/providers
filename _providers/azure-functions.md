@@ -314,7 +314,7 @@ plans:
 - name: Azure Functions Plans Pricing
   plan_count: 3
   slug: azure-functions-plans-pricing
-random_paper: 41
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Azure Functions Rate Limits

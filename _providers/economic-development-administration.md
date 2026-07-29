@@ -52,7 +52,7 @@ name: Economic Development Administration
 nav: Providers
 network: true
 overview: Economic Development Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Economic Development and Federal Government.
-random_paper: 13
+random_paper: 77
 score:
   band: minimal
   composite: 4.1

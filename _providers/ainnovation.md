@@ -48,7 +48,7 @@ name: AInnovation
 nav: Providers
 network: true
 overview: AInnovation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Manufacturing, and Machine Vision.
-random_paper: 35
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

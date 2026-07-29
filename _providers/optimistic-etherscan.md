@@ -138,7 +138,7 @@ plans:
 - name: Optimistic Etherscan Plans Pricing
   plan_count: 7
   slug: optimistic-etherscan-plans-pricing
-random_paper: 16
+random_paper: 41
 rate_limits:
 - limit_count: 13
   name: Optimistic Etherscan Rate Limits

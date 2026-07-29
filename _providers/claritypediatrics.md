@@ -67,7 +67,7 @@ overview: 'Claritypediatrics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Claritypediatrics'' developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 53
+random_paper: 7
 score:
   band: emerging
   composite: 13.4

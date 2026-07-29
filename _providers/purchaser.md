@@ -135,7 +135,7 @@ overview: 'Purchaser publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Purchaser''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 49
+random_paper: 25
 score:
   band: thin
   composite: 35.8

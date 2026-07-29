@@ -40,7 +40,7 @@ name: Altra Energy Technologies
 nav: Providers
 network: true
 overview: Altra Energy Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Energy Trading, Oil and Gas, and Natural Gas.
-random_paper: 15
+random_paper: 28
 score:
   band: minimal
   composite: 4.3

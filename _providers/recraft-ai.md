@@ -368,7 +368,7 @@ plans:
 - name: Recraft Ai Plans Pricing
   plan_count: 4
   slug: recraft-ai-plans-pricing
-random_paper: 66
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Recraft Ai Rate Limits

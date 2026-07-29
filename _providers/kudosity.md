@@ -274,7 +274,7 @@ plans:
 - name: Kudosity Plans
   plan_count: 4
   slug: kudosity-plans
-random_paper: 45
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Kudosity Rate Limits

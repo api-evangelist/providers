@@ -185,7 +185,7 @@ overview: 'Keep publishes 27 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Keep''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 36
+random_paper: 26
 scopes:
 - name: Keep Scopes
   scope_count: 0

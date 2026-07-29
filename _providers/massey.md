@@ -92,7 +92,7 @@ plans:
 - name: Massey Plans Pricing
   plan_count: 2
   slug: massey-plans-pricing
-random_paper: 42
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Massey Rate Limits

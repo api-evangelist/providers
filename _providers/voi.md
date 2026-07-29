@@ -134,7 +134,7 @@ overview: 'Voi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Voi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 13 more developer resources.'
-random_paper: 26
+random_paper: 18
 score:
   band: emerging
   composite: 27.8

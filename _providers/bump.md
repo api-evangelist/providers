@@ -72,7 +72,7 @@ name: Bump
 nav: Providers
 network: true
 overview: Bump is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, File Sharing, Data Transfer, and Proximity.
-random_paper: 51
+random_paper: 41
 score:
   band: minimal
   composite: 6.4
