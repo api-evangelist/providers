@@ -255,6 +255,19 @@ def main():
         if blocked:
             print("delisted, excluded: %d (%s)" % (len(blocked), ", ".join(blocked)))
         slugs = [s for s in slugs if s not in delisted]
+
+        # Skipping the write is not enough. A provider delisted AFTER their page
+        # was generated keeps a live page at /providers/<slug>/ forever, because
+        # nothing here prunes. That is a takedown obligation quietly going unmet,
+        # so remove the page every run rather than trusting someone to notice.
+        pruned = []
+        for slug in sorted(delisted):
+            stale = os.path.join(OUT, "%s.md" % slug)
+            if os.path.isfile(stale):
+                os.remove(stale)
+                pruned.append(slug)
+        if pruned:
+            print("delisted, page pruned: %d (%s)" % (len(pruned), ", ".join(pruned)))
     if args.only:
         want = set(args.only.split(","))
         slugs = [s for s in slugs if s in want]
