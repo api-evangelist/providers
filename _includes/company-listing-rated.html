@@ -158,7 +158,14 @@
               data-agent-score="{{ item.agent_score | default: 0 }}"
               data-agent-band="{{ item.agent_band | default: 'human-only' }}"
               data-facets='{"discoverability":{{ item.facets.discoverability | default: 0 }},"contract_quality":{{ item.facets.contract_quality | default: 0 }},"governance":{{ item.facets.governance | default: 0 }},"operational_transparency":{{ item.facets.operational_transparency | default: 0 }},"developer_ergonomics":{{ item.facets.developer_ergonomics | default: 0 }},"commercial_clarity":{{ item.facets.commercial_clarity | default: 0 }}}'
-              data-dims='{"spec_presence":{{ item.agent_dims.spec_presence | default: false }},"agentic_access":{{ item.agent_dims.agentic_access | default: false }},"mcp_server":{{ item.agent_dims.mcp_server | default: false }},"auth_clarity":{{ item.agent_dims.auth_clarity | default: false }},"idempotency":{{ item.agent_dims.idempotency | default: false }},"error_semantics":{{ item.agent_dims.error_semantics | default: false }},"openapi_examples":{{ item.agent_dims.openapi_examples | default: false }},"rate_limit_signal":{{ item.agent_dims.rate_limit_signal | default: false }},"asyncapi_events":{{ item.agent_dims.asyncapi_events | default: false }},"agent_skills":{{ item.agent_dims.agent_skills | default: false }},"well_known_catalog":{{ item.agent_dims.well_known_catalog | default: false }},"consent_identity":{{ item.agent_dims.consent_identity | default: false }}}'></span>
+              {%- comment -%}
+                jsonify — the 0.6 graded dimensions are STRINGS (`derived`,
+                `documented`, `partial`), and hand-building the object emitted
+                `"agentic_access":derived`, invalid JSON that kin-glyph.js
+                silently swallowed into {} — unlighting every ray in every row.
+                See the same note in _layouts/provider.html.
+              {%- endcomment -%}
+              data-dims='{{ item.agent_dims | jsonify }}'></span>
         {% endif %}
       </div>
       {% if item.facets and rubric.facets %}

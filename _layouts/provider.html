@@ -225,7 +225,20 @@ nav: Providers
               data-agent-score="{{ page.agent_readiness.score | default: 0 }}"
               data-agent-band="{{ page.agent_readiness.band | default: 'human-only' }}"
               data-facets='{"discoverability":{{ page.score.facets.discoverability | default: 0 }},"contract_quality":{{ page.score.facets.contract_quality | default: 0 }},"governance":{{ page.score.facets.governance | default: 0 }},"operational_transparency":{{ page.score.facets.operational_transparency | default: 0 }},"developer_ergonomics":{{ page.score.facets.developer_ergonomics | default: 0 }},"commercial_clarity":{{ page.score.facets.commercial_clarity | default: 0 }}}'
-              data-dims='{"spec_presence":{{ page.agent_readiness.dimensions.spec_presence | default: false }},"agentic_access":{{ page.agent_readiness.dimensions.agentic_access | default: false }},"mcp_server":{{ page.agent_readiness.dimensions.mcp_server | default: false }},"auth_clarity":{{ page.agent_readiness.dimensions.auth_clarity | default: false }},"idempotency":{{ page.agent_readiness.dimensions.idempotency | default: false }},"error_semantics":{{ page.agent_readiness.dimensions.error_semantics | default: false }},"openapi_examples":{{ page.agent_readiness.dimensions.openapi_examples | default: false }},"rate_limit_signal":{{ page.agent_readiness.dimensions.rate_limit_signal | default: false }},"asyncapi_events":{{ page.agent_readiness.dimensions.asyncapi_events | default: false }},"agent_skills":{{ page.agent_readiness.dimensions.agent_skills | default: false }},"well_known_catalog":{{ page.agent_readiness.dimensions.well_known_catalog | default: false }},"consent_identity":{{ page.agent_readiness.dimensions.consent_identity | default: false }}}'></span>
+              {%- comment -%}
+                jsonify, NOT a hand-built object. Kin Score 0.6 made seven
+                dimensions GRADED — they carry strings (`derived`, `documented`,
+                `partial`, `mixed`) rather than booleans. Interpolating those
+                one-by-one emitted `"agentic_access":derived`, which is not
+                valid JSON, so parseJSONAttr() in kin-glyph.js caught the
+                SyntaxError, returned {}, and every one of the sun's rays went
+                dark on every provider — the score was right, the glyph was
+                unlit. jsonify quotes the grades and passes booleans through,
+                and it picks up new dimensions (agent_card, dry_run_mode) for
+                free instead of silently dropping them. Matches apis.io's
+                providers/_layouts/provider.html.
+              {%- endcomment -%}
+              data-dims='{{ page.agent_readiness.dimensions | jsonify }}'></span>
 
         <div class="kin-band-read">
           <div class="kin-band-line">
