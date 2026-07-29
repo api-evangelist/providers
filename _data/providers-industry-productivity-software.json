@@ -255,32 +255,32 @@
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 64.8,
+      "commercial_clarity": 73.7,
       "contract_quality": 79.6,
-      "governance": 68.8,
-      "operational_transparency": 42.1,
       "developer_ergonomics": 63.0,
-      "commercial_clarity": 73.7
+      "discoverability": 64.8,
+      "governance": 68.8,
+      "operational_transparency": 42.1
      },
      "scored_at": "2026-07-28",
      "schema_version": 0.6,
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
-      "spec_presence": true,
+      "agent_card": false,
+      "agent_skills": false,
       "agentic_access": "derived",
-      "mcp_server": true,
+      "asyncapi_events": false,
       "auth_clarity": true,
-      "idempotency": false,
+      "consent_identity": false,
+      "dry_run_mode": false,
       "error_semantics": false,
+      "idempotency": false,
+      "mcp_server": true,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
+      "spec_presence": true,
+      "well_known_catalog": false
      },
      "rank": 7
     }
