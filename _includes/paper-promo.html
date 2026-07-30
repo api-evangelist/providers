@@ -1,12 +1,17 @@
-<!-- Sector white-paper promo band. Renders when a page sets `paper:` frontmatter:
-     paper:
-       slug: state-of-market-data-apis
-       title: "The State of Market Data APIs"
-       blurb: "One-line hook for the report."
-       price: "500"
+<!-- White-paper promo band. Renders when a page sets `paper:` (one) or `papers:` (several).
+
+     paper:                                   papers:
+       slug: state-of-market-data-apis          - slug: state-of-telecom-apis
+       title: "The State of Market Data APIs"     title: "The State of Telecom APIs"
+       blurb: "One-line hook."                    blurb: "..."
+       price: "500"                               price: "500"
+                                                - slug: the-camara-standard
+     Optional per paper:                          title: "The CAMARA Standard"
+       kind: "API Evangelist Standard Report"     blurb: "..."
+       gets: "PDF + Word, instant download"       price: "500"
+                                                  kind: "API Evangelist Standard Report"
 -->
-{% if page.paper %}
-{% assign p = page.paper %}
+{% if page.paper or page.papers %}
 <style>
 .paper-promo {
   display: flex; gap: 1.1rem; align-items: center;
@@ -26,19 +31,9 @@
 .paper-promo-price { font-weight: 700; color: #3d8b37; font-variant-numeric: tabular-nums; }
 @media (max-width: 540px) { .paper-promo { flex-direction: column; align-items: flex-start; } }
 </style>
-<a class="paper-promo" href="https://papers.apievangelist.com/papers/{{ p.slug }}/" style="text-decoration:none;">
-  <div class="paper-promo-cover">
-    <img src="https://papers.apievangelist.com/assets/covers/{{ p.slug }}.png" alt="{{ p.title }} cover" loading="lazy">
-  </div>
-  <div class="paper-promo-body">
-    <div class="paper-promo-eyebrow">API Evangelist Sector Report</div>
-    <div class="paper-promo-title">{{ p.title }}</div>
-    <div class="paper-promo-blurb">{{ p.blurb }}</div>
-    <span class="paper-promo-cta">
-      <span class="btn btn-success btn-sm">Read the report &rarr;</span>
-      <span class="paper-promo-price ms-1">${{ p.price | default: "500" }}</span>
-      <span class="text-muted small">· PDF + Word, instant download</span>
-    </span>
-  </div>
-</a>
+{% if page.papers %}
+  {% for item in page.papers %}{% include paper-promo-card.html p=item %}{% endfor %}
+{% else %}
+  {% include paper-promo-card.html p=page.paper %}
+{% endif %}
 {% endif %}
