@@ -235,7 +235,7 @@
 
 - id: collections
   title: Collections
-  intro: Standing rosters of providers drawn from public indexes, government registries, and open-source foundations.
+  intro: Standing rosters of providers drawn from public indexes, government registries, private-market venues, venture portfolios, and open-source foundations.
   columns: col-md-4
   cards:
 
@@ -246,6 +246,26 @@
       description: Fortune 100, Fortune 500, and Fortune 1000 companies with APIs on the network.
       href: /fortune-1000/
       cta: Browse Fortune 1000
+
+    - name: Venture Capital
+      icon: rocket_launch
+      unit: firms
+      count: { from: total, key: providers-vcs }
+      description: >-
+        The venture and growth firms funding the API economy, ranked by portfolio strength —
+        how many of the companies they backed publish APIs that score well.
+      href: /vcs/
+      cta: Browse Venture Capital
+
+    - name: Secondary Market
+      icon: swap_horiz
+      unit: providers
+      count: { from: total, key: providers-secondary-market }
+      description: >-
+        Providers whose private shares are listed on the secondary venues — Forge Global, Hiive,
+        EquityZen, Nasdaq Private Market, and Augment — ranked by their Kin Score.
+      href: /secondary-market/
+      cta: Browse Secondary Market
 
     - name: U.S. Federal Government
       icon: gavel

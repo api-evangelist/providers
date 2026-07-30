@@ -652,8 +652,80 @@ def entry_for(slug, meta, scores):
 
 
 # ---------------------------------------------------------------------------
+# Rated entry + band grouping
+# ---------------------------------------------------------------------------
+# Shared by every rated listing (industries, countries, banks, sectors, market
+# data, secondary market) so they all render the same Kin Score band-grouped
+# layout via _includes/company-listing-rated.html. Module level rather than
+# nested in main() so one section can be rebuilt on its own — main() is a
+# single pass that rewrites every section it knows about, which is the wrong
+# tool when only one listing needs refreshing.
+
+def build_rated_entry(slug, meta, scores):
+    entry = entry_for(slug, meta, scores)
+    details = read_score_details(slug)
+    if details:
+        sc = details.get("score") or {}
+        if sc.get("facets"):
+            entry["facets"] = sc["facets"]
+        if sc.get("scored_at"):
+            entry["scored_at"] = str(sc["scored_at"])
+        if sc.get("schema_version") is not None:
+            entry["schema_version"] = sc["schema_version"]
+        if sc.get("regulatory"):
+            entry["regulatory"] = sc["regulatory"]
+        ag = details.get("agent") or {}
+        if ag.get("score") is not None:
+            entry["agent_score"] = ag["score"]
+            entry["agent_band"] = ag.get("band", "")
+            entry["agent_dims"] = ag.get("dimensions", {})
+    return entry
+
+
+def band_grouped(entries):
+    # Rating sort: scored providers by composite descending; unscored last,
+    # alphabetically (unscored is "not yet rated", not a zero).
+    entries.sort(key=lambda e: (-e.get("score", -1), e["name"].lower()))
+    for rank, e in enumerate(entries, 1):
+        e["rank"] = rank
+    # Group by composite band, same ladder as apis.io/providers/. Only bands
+    # with at least one member are emitted; the top two present open by default.
+    band_ladder = [
+        ("exemplar",   "Exemplar",   "70+",     "Reference-quality API operations across every facet."),
+        ("strong",     "Strong",     "60–69.9", "Solid contracts, transparent operations, and an easy start."),
+        ("developing", "Developing", "45–59.9", "Real signal across most facets with visible, nameable gaps."),
+        ("thin",       "Thin",       "30–44.9", "Limited machine-readable signal beyond documentation a human can read."),
+        ("emerging",   "Emerging",   "15–29.9", "More than an index entry but still mostly links rather than artifacts."),
+        ("minimal",    "Minimal",    "0–14.9",  "Index entry only; little beyond a description and a link."),
+        ("unrated",    "Not Yet Rated", "",     "Providers we have not scored yet — unknown, not zero."),
+    ]
+    groups = []
+    for band, label, band_range, blurb in band_ladder:
+        members = [e for e in entries if e.get("band", "unrated") == band or (band == "unrated" and "band" not in e)]
+        if not members:
+            continue
+        # `count` is what the band really holds; `providers` is what the page
+        # renders. They differ only past LISTING_LIMIT, and the band says so.
+        shown = [e for e in members if e["rank"] <= LISTING_LIMIT]
+        groups.append({
+            "band": band, "label": label, "range": band_range, "blurb": blurb,
+            "count": len(members), "shown": len(shown), "providers": shown,
+        })
+    for g in groups[:2]:
+        g["open"] = True
+    return {
+        "total": len(entries),
+        "shown": min(len(entries), LISTING_LIMIT),
+        "limit": LISTING_LIMIT,
+        "bands": groups,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Page templates
 # ---------------------------------------------------------------------------
+# (build_secondary_market / build_vcs are defined after these, since they use
+# listing_page and write_page.)
 
 def cards_page(title, summary, cards_key, base_path, intro):
     return "\n".join([
@@ -711,6 +783,128 @@ def esc(text):
 
 
 # ---------------------------------------------------------------------------
+# Capital-market collections
+# ---------------------------------------------------------------------------
+# Two rosters that file providers by how their EQUITY trades rather than by
+# what they sell: the private-market venues that list their shares, and the
+# venture firms that own them. Both are maintained for the apis.io sibling
+# sites (secondary-market.apis.io, vcs.apis.io) and mirrored onto the
+# providers site so the same cohorts carry a Kin Score reading.
+
+def build_secondary_market(data_dir, meta_of, scores):
+    """Providers whose private shares are listed on the secondary venues.
+
+    Forge Global, Hiive, EquityZen, Nasdaq Private Market, Augment. Every
+    entry in the roster is already an all/* provider, so this is an ordinary
+    Kin Score listing, with the number of venues a company is listed on
+    carried as the row's tier badge. A pre-IPO company answering diligence
+    questions about its API is exactly the cohort the score describes.
+
+    Returns the entry list so the caller can report on it.
+    """
+    path = os.path.join(ROOT, "api-search", "secondary-market", "_data", "secondary_market.yml")
+    with open(path, "r", encoding="utf-8") as fh:
+        roster = yaml.safe_load(fh) or {}
+
+    entries = []
+    for c in roster.get("companies") or []:
+        meta = meta_of(c["slug"])
+        if meta is None:
+            continue
+        entry = build_rated_entry(c["slug"], meta, scores)
+        venues = c.get("venue_count") or len(c.get("venues") or [])
+        if venues:
+            entry["tier"] = "%d venue%s" % (venues, "" if venues == 1 else "s")
+        entries.append(entry)
+
+    with open(os.path.join(data_dir, "providers-secondary-market.json"), "w", encoding="utf-8") as fh:
+        json.dump(band_grouped(entries), fh, ensure_ascii=False, indent=1)
+
+    write_page(
+        os.path.join(SITE, "secondary-market", "index.html"),
+        listing_page(
+            "Secondary Market",
+            esc("%d providers whose private shares are listed on the %d secondary venues — Forge Global, Hiive, EquityZen, Nasdaq Private Market and Augment — ranked by their Kin Score."
+                % (len(entries), len(roster.get("venues") or {}))),
+            "providers-secondary-market",
+            rated=True,
+        ),
+    )
+    return entries
+
+
+def build_vcs(data_dir, delisted):
+    """Venture and growth firms ranked by portfolio strength.
+
+    A venture firm has no API and therefore no Kin Score of its own, so this
+    listing deliberately does NOT use the rated provider include. Firms are
+    ranked by portfolio strength — the same tier-weighted rollup vcs.apis.io
+    ranks by — and the band on each row is the firm's PORTFOLIO rating band,
+    not a score for the firm. Source is api-search/vcs/_data/vcs.yml, which
+    the VC pipeline rebuilds whenever portfolios are re-matched against the
+    network.
+
+    Returns the entry list so the caller can report on it.
+    """
+    path = os.path.join(ROOT, "api-search", "vcs", "_data", "vcs.yml")
+    with open(path, "r", encoding="utf-8") as fh:
+        roster = yaml.safe_load(fh) or {}
+
+    entries = []
+    for v in roster.get("vcs") or []:
+        slug = v["slug"]
+        if slug in delisted:
+            continue
+        band = v.get("rating_band") or "unrated"
+        entry = {
+            "slug": slug,
+            "name": v.get("name") or titleize(slug),
+            "description": " ".join((v.get("description") or "").split()),
+            "strength": v.get("strength") or 0,
+            "rating": v.get("rating"),
+            "band": band,
+            "band_label": BAND_LABELS.get(band, band.title()),
+            "portfolio_total": v.get("portfolio_total") or 0,
+            "portfolio_on_network": v.get("portfolio_on_network") or 0,
+            "top_tier": (v.get("rating_exemplar") or 0) + (v.get("rating_strong") or 0),
+            "agent_tier": (v.get("rating_agent_native") or 0) + (v.get("rating_agent_ready") or 0),
+        }
+        shot = newest_screenshot(slug)
+        if shot:
+            entry["screenshot"] = shot
+        entries.append(entry)
+
+    entries.sort(key=lambda e: (-e["strength"], e["name"].lower()))
+    for rank, e in enumerate(entries, 1):
+        e["rank"] = rank
+
+    with open(os.path.join(data_dir, "providers-vcs.json"), "w", encoding="utf-8") as fh:
+        json.dump({
+            "total": len(entries),
+            "portfolio_companies": roster.get("portfolio_companies") or 0,
+            "on_network": roster.get("on_network") or 0,
+            "vcs": entries,
+        }, fh, ensure_ascii=False, indent=1)
+
+    write_page(
+        os.path.join(SITE, "vcs", "index.html"),
+        "\n".join([
+            "---",
+            "layout: default",
+            "section: Providers",
+            'title: "Venture Capital"',
+            'summary: "%d venture capital firms ranked by portfolio strength — how many of the companies they backed publish APIs that score well on the Kin Score."' % len(entries),
+            "nav: Providers",
+            'data_key: "providers-vcs"',
+            "---",
+            "{% include vc-listing.html %}",
+            "",
+        ]),
+    )
+    return entries
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -740,67 +934,12 @@ def main():
         return apis_cache[slug]
 
     # --- Rated entry + band grouping --------------------------------------
-    # Shared by every listing (industries, countries, banks, market data) so
-    # they all render the same Kin Score band-grouped layout via
-    # _includes/company-listing-rated.html.
+    # Both live at module level (see rated_entry/band_grouped above) so a
+    # single section can be rebuilt on its own without running the whole file.
+    # Bound here to this run's score table.
 
     def rated_entry(slug, meta):
-        entry = entry_for(slug, meta, scores)
-        details = read_score_details(slug)
-        if details:
-            sc = details.get("score") or {}
-            if sc.get("facets"):
-                entry["facets"] = sc["facets"]
-            if sc.get("scored_at"):
-                entry["scored_at"] = str(sc["scored_at"])
-            if sc.get("schema_version") is not None:
-                entry["schema_version"] = sc["schema_version"]
-            if sc.get("regulatory"):
-                entry["regulatory"] = sc["regulatory"]
-            ag = details.get("agent") or {}
-            if ag.get("score") is not None:
-                entry["agent_score"] = ag["score"]
-                entry["agent_band"] = ag.get("band", "")
-                entry["agent_dims"] = ag.get("dimensions", {})
-        return entry
-
-    def band_grouped(entries):
-        # Rating sort: scored providers by composite descending; unscored last,
-        # alphabetically (unscored is "not yet rated", not a zero).
-        entries.sort(key=lambda e: (-e.get("score", -1), e["name"].lower()))
-        for rank, e in enumerate(entries, 1):
-            e["rank"] = rank
-        # Group by composite band, same ladder as apis.io/providers/. Only bands
-        # with at least one member are emitted; the top two present open by default.
-        band_ladder = [
-            ("exemplar",   "Exemplar",   "70+",     "Reference-quality API operations across every facet."),
-            ("strong",     "Strong",     "60–69.9", "Solid contracts, transparent operations, and an easy start."),
-            ("developing", "Developing", "45–59.9", "Real signal across most facets with visible, nameable gaps."),
-            ("thin",       "Thin",       "30–44.9", "Limited machine-readable signal beyond documentation a human can read."),
-            ("emerging",   "Emerging",   "15–29.9", "More than an index entry but still mostly links rather than artifacts."),
-            ("minimal",    "Minimal",    "0–14.9",  "Index entry only; little beyond a description and a link."),
-            ("unrated",    "Not Yet Rated", "",     "Providers we have not scored yet — unknown, not zero."),
-        ]
-        groups = []
-        for band, label, band_range, blurb in band_ladder:
-            members = [e for e in entries if e.get("band", "unrated") == band or (band == "unrated" and "band" not in e)]
-            if not members:
-                continue
-            # `count` is what the band really holds; `companies` is what the page
-            # renders. They differ only past LISTING_LIMIT, and the band says so.
-            shown = [e for e in members if e["rank"] <= LISTING_LIMIT]
-            groups.append({
-                "band": band, "label": label, "range": band_range, "blurb": blurb,
-                "count": len(members), "shown": len(shown), "providers": shown,
-            })
-        for g in groups[:2]:
-            g["open"] = True
-        return {
-            "total": len(entries),
-            "shown": min(len(entries), LISTING_LIMIT),
-            "limit": LISTING_LIMIT,
-            "bands": groups,
-        }
+        return build_rated_entry(slug, meta, scores)
 
     # --- Industries -------------------------------------------------------
     # Two sources, unioned by slug: the jobs taxonomy in industries.yml (which
@@ -1504,6 +1643,9 @@ def main():
     headless_counts = {}
     build_roster_sections(HEADLESS_SECTIONS, HEADLESS_TIER_LABELS, headless_counts)
 
+    secondary_entries = build_secondary_market(data_dir, meta_of, scores)
+    vc_entries = build_vcs(data_dir, delisted)
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
@@ -1540,6 +1682,10 @@ def main():
     for slug_page, _r, _t, _s, _p in HEADLESS_SECTIONS:
         n, sc = headless_counts.get(slug_page, (0, 0))
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
+    print("secondary market: %d (scored: %d)" % (
+        len(secondary_entries), sum(1 for e in secondary_entries if "score" in e)))
+    print("venture capital:  %d (portfolio companies: %d)" % (
+        len(vc_entries), sum(e["portfolio_total"] for e in vc_entries)))
 
 
 if __name__ == "__main__":

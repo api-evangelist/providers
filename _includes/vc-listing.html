@@ -1,0 +1,125 @@
+<!-- Venture capital firms ranked by portfolio strength.
+     Rendered from _data/providers-vcs.json (built by scripts/build-sections.py).
+
+     Deliberately NOT company-listing-rated.html: a venture firm has no API and
+     therefore no Kin Score of its own. What it has is a PORTFOLIO, and the
+     ranking here is the same one vcs.apis.io uses — portfolio strength, a
+     tier-weighted count of how many of its backed companies score well on the
+     Kin Score. The band badge is the firm's portfolio rating band, not a Kin
+     Score band for the firm itself. -->
+<style>
+.vc-thumb {
+  width: 104px; height: 66px; border-radius: 6px;
+  background: #f8f9fa url('https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png') center / 54% auto no-repeat;
+  border: 1px solid #e5e7eb; overflow: hidden;
+}
+.vc-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.band-badge { display:inline-block; padding:0.2em 0.6em; border-radius:999px; font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; white-space:nowrap; }
+.band-exemplar{background:#d1f7e0;color:#0f5132}.band-strong{background:#cfe2ff;color:#0a3d91}.band-developing{background:#fff3cd;color:#664d03}.band-thin{background:#ffe0c2;color:#7a3e07}.band-emerging{background:#f8d7da;color:#842029}.band-minimal{background:#e9ecef;color:#495057}.band-unrated{background:#e9ecef;color:#495057}
+.vc-rank { width: 2.2rem; font-variant-numeric: tabular-nums; color: #9aa4b5; font-weight: 600; }
+.vc-strength { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.15rem; color: #0a3d91; line-height: 1.1; }
+.vc-rating-num { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.95rem; color: #0b6b4f; line-height: 1.1; }
+.vc-scores { text-align: right; min-width: 8.5rem; }
+.vc-scores .rs-label { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.05em; color: #9aa4b5; font-weight: 600; }
+.vc-facts { font-size: 0.78rem; color: #6c757d; font-variant-numeric: tabular-nums; }
+.vc-facts b { color: #1a1a2e; }
+.vc-topstats { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.vc-topstat { background: #fff; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.5rem 0.9rem; font-size: 0.82rem; color: #6c757d; }
+.vc-topstat strong { color: #0a3d91; font-variant-numeric: tabular-nums; font-size: 1rem; }
+</style>
+
+{% assign listing = site.data[page.data_key] %}
+
+<div class="d-flex align-items-center mb-3">
+  <h1 class="mb-0 fs-4">{{ page.title }}</h1>
+</div>
+
+<p class="text-muted mb-3">
+  Venture firms ranked by <strong>portfolio strength</strong> — a tier-weighted count of how many
+  of the companies they have backed publish APIs that score well on the
+  <a href="https://apievangelist.com/rating/">Kin Score</a>. The firms themselves are not API
+  providers and carry no score of their own; the badge on each row is the rating band of its
+  portfolio, and every firm's portfolio graph lives on
+  <a href="https://vcs.apis.io/" target="_blank" rel="noopener">vcs.apis.io</a>.
+</p>
+
+<div class="vc-topstats">
+  <span class="vc-topstat"><strong>{{ listing.total }}</strong> firms</span>
+  <span class="vc-topstat"><strong>{{ listing.portfolio_companies }}</strong> portfolio companies</span>
+  <span class="vc-topstat"><strong>{{ listing.on_network }}</strong> on the network</span>
+</div>
+
+<!-- Search -->
+<div class="card mb-4">
+  <div class="card-body py-3">
+    <div class="input-group input-group-sm">
+      <input type="text" id="item-search" class="form-control" placeholder="Filter firms..." onkeyup="filterItems()">
+      <span class="input-group-text">
+        <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div id="item-list">
+  {% for vc in listing.vcs %}
+  <div class="item-entry" data-title="{{ vc.name | downcase }} {{ vc.slug }}">
+    <div class="post-item d-flex align-items-center">
+      <div class="vc-rank flex-shrink-0">{{ vc.rank }}</div>
+      <div class="vc-thumb flex-shrink-0 me-3">
+        {% if vc.screenshot %}<img src="{{ vc.screenshot }}" alt="{{ vc.name }} screenshot" loading="lazy" onerror="this.remove()">{% endif %}
+      </div>
+      <div class="flex-grow-1">
+        <h5 class="mb-1">{{ vc.name }}{% if vc.band %} <span class="band-badge band-{{ vc.band }} ms-1">{{ vc.band_label }} portfolio</span>{% endif %}</h5>
+        {% if vc.description %}
+        <p class="text-muted small mb-1">{{ vc.description | truncate: 160 }}</p>
+        {% endif %}
+        <p class="vc-facts mb-1">
+          <b>{{ vc.portfolio_total }}</b> portfolio companies &middot;
+          <b>{{ vc.portfolio_on_network }}</b> on the network &middot;
+          <b>{{ vc.top_tier }}</b> Exemplar or Strong &middot;
+          <b>{{ vc.agent_tier }}</b> agent-ready or better
+        </p>
+        <div class="d-flex gap-2">
+          <a href="/providers/{{ vc.slug }}/" class="btn btn-sm btn-success py-0">Profile</a>
+          <a href="https://vcs.apis.io/vcs/{{ vc.slug }}/" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success py-0">Portfolio</a>
+          <a href="https://github.com/api-evangelist/{{ vc.slug }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-dark py-0">GitHub</a>
+        </div>
+      </div>
+      <div class="vc-scores ms-3 flex-shrink-0 d-flex align-items-center justify-content-end gap-3">
+        <div>
+          <div class="rs-label">Strength</div>
+          <div class="vc-strength">{{ vc.strength }}</div>
+        </div>
+        {% if vc.rating %}
+        <div>
+          <div class="rs-label">Rating</div>
+          <div class="vc-rating-num">{{ vc.rating }}</div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div id="no-results" class="text-center text-muted py-5" style="display: none;">
+  No firms match your filter.
+</div>
+
+<script>
+function filterItems() {
+  var query = document.getElementById('item-search').value.toLowerCase();
+  var visible = 0;
+  document.querySelectorAll('#item-list .item-entry').forEach(function(entry) {
+    var title = entry.getAttribute('data-title');
+    if (!query || title.indexOf(query) !== -1) {
+      entry.style.display = '';
+      visible++;
+    } else {
+      entry.style.display = 'none';
+    }
+  });
+  document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
+}
+</script>

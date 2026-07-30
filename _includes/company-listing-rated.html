@@ -94,7 +94,7 @@
 </div>
 
 {% assign sep_total = 0 %}{% if page.separate_tiers %}{% for t in page.separate_tiers %}{% for group in listing.bands %}{% assign m = group.providers | where: "tier", t %}{% assign sep_total = sep_total | plus: m.size %}{% endfor %}{% endfor %}{% endif %}{% assign prov_total = listing.total | minus: sep_total %}
-<p class="text-muted small mb-3">{{ prov_total }} provider{% unless prov_total == 1 %}s{% endunless %}{% if sep_total > 0 %} &middot; {{ sep_total }} standards bodies and regulators listed separately below{% endif %}{% if listing.shown < listing.total %} &middot; showing the top {{ listing.shown }} by Kin Score{% endif %}</p>
+<p class="text-muted small mb-3">{{ prov_total }} provider{% unless prov_total == 1 %}s{% endunless %}{% if sep_total > 0 %} &middot; {{ sep_total }} standards and regulatory bod{% if sep_total == 1 %}y{% else %}ies{% endif %} listed separately below{% endif %}{% if listing.shown < listing.total %} &middot; showing the top {{ listing.shown }} by Kin Score{% endif %}</p>
 
 <!-- Band groups -->
 <div id="item-list">
